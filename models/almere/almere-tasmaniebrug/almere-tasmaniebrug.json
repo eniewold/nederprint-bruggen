@@ -1,0 +1,143 @@
+{
+  "name": "Tasmaniëbrug",
+  "file": "almere-tasmaniebrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    149333.48,
+    489641.52
+  ],
+  "xAxis": [
+    0.875958,
+    -0.482387
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 42.168,
+  "groundSamplePoints": [
+    [
+      -39.03,
+      0
+    ],
+    [
+      39.03,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0034.43ba5cbd38c24852aa9163132425ad81",
+    "G0034.8d10e383ee6b4ae998e765559ba9711c"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        149306.3,
+        489656.49
+      ],
+      "axis": [
+        -0.875958,
+        0.482387
+      ],
+      "halfLength": 12,
+      "halfWidth": 6.21,
+      "height": 42.456,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        149360.66,
+        489626.55
+      ],
+      "axis": [
+        0.875958,
+        -0.482387
+      ],
+      "halfLength": 12,
+      "halfWidth": 6.21,
+      "height": 42.387,
+      "gradient": [
+        -0.01824,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0034.43ba5cbd38c24852aa9163132425ad81"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0034.43ba5cbd38c24852aa9163132425ad81",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/604243151",
+        "tags": {
+          "bicycle": "no",
+          "bridge": "yes",
+          "bridge:name": "Tasmaniëbrug",
+          "foot": "no",
+          "highway": "secondary",
+          "lanes": "2",
+          "layer": "1",
+          "maxspeed": "50",
+          "maxweight:signed": "no",
+          "name": "Tasmaniëbrug",
+          "surface": "asphalt",
+          "zone:traffic": "NL:urban",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,480000,160000,500000 --run nl-7_9 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 38.1,
+      "dekBreedte": 8.4,
+      "brugLengte": 38.1,
+      "water": null,
+      "portaalhoogte": 7.6,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0034.8d10e383ee6b4ae998e765559ba9711c",
+          "klasse": "Terrain",
+          "oppervlak": 50.5,
+          "onderDek": 0.81,
+          "bovenDekOnderkant": 1.15,
+          "actie": "verbergen"
+        }
+      ],
+      "opritHoogtes": [
+        42.306,
+        42.168
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "1 PDOK-vorm(en) door het dek: 1 verborgen, 0 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

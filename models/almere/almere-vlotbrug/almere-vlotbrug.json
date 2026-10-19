@@ -1,0 +1,178 @@
+{
+  "name": "Vlotbrug",
+  "file": "almere-vlotbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    150372.07,
+    491275.74
+  ],
+  "xAxis": [
+    -0.369337,
+    -0.929295
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 42.299,
+  "groundSamplePoints": [
+    [
+      -68.49,
+      0
+    ],
+    [
+      68.49,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "P0024.7e61f5d3d7df4db0840f658e8e6cc7b4",
+    "G0995.31dc9376635f4d8ba8e6d9a029b7074d"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        150372.07,
+        491275.74
+      ],
+      "axis": [
+        -0.369337,
+        -0.929295
+      ],
+      "halfLength": 42.49,
+      "halfWidth": 3.95,
+      "height": 41.927,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.7,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        150394.41,
+        491331.96
+      ],
+      "axis": [
+        0.369337,
+        0.929295
+      ],
+      "halfLength": 12,
+      "halfWidth": 5.18,
+      "height": 43.077,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        150349.73,
+        491219.53
+      ],
+      "axis": [
+        -0.369337,
+        -0.929295
+      ],
+      "halfLength": 12,
+      "halfWidth": 5.18,
+      "height": 42.763,
+      "gradient": [
+        -0.03864,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "P0024.7e61f5d3d7df4db0840f658e8e6cc7b4"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "P0024.7e61f5d3d7df4db0840f658e8e6cc7b4",
+          "type": "dek"
+        },
+        {
+          "id": "G0995.31dc9376635f4d8ba8e6d9a029b7074d",
+          "type": "pijler"
+        }
+      ],
+      "osm": {
+        "id": "way/603822868",
+        "tags": {
+          "bridge": "yes",
+          "bridge:name": "Vlotbrug",
+          "highway": "cycleway",
+          "layer": "1",
+          "name": "Vlotbrug",
+          "bridge:structure": "cable-stayed",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 2
+    },
+    "type": "tuibrug",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,480000,160000,500000 --run nl-7_9 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 97,
+      "dekBreedte": 6.9,
+      "brugLengte": 97,
+      "water": [
+        -20.5,
+        20.5
+      ],
+      "portaalhoogte": 6.2,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0034.cb8bdd32e8824bc08e9055fe6cea18ce",
+          "klasse": "Forest",
+          "oppervlak": 1840.6,
+          "onderDek": 0.01,
+          "bovenDekOnderkant": 0.7,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0034.83865b847cd847c58c700ed3f6ad89f9",
+          "klasse": "Forest",
+          "oppervlak": 1526.5,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.64,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0995.eb7041dca04046f0ba3f07c6d5260006",
+          "klasse": "Forest",
+          "oppervlak": 53783.5,
+          "onderDek": 0.01,
+          "bovenDekOnderkant": 0.29,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        42.927,
+        42.299
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "tuibrug zonder BGT-pylonen: alleen het dek",
+      "3 PDOK-vorm(en) door het dek: 0 verborgen, 3 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

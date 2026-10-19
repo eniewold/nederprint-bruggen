@@ -1,0 +1,131 @@
+{
+  "name": "almere-brug-40192647",
+  "file": "almere-brug-40192647.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    143676.14,
+    490626.65
+  ],
+  "xAxis": [
+    0.879521,
+    0.47586
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 38.673,
+  "groundSamplePoints": [
+    [
+      -9.33,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0034.401926479ff247589b859dbdc230b70b"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        143676.14,
+        490626.65
+      ],
+      "axis": [
+        0.879521,
+        0.47586
+      ],
+      "halfLength": 2.12,
+      "halfWidth": 2.15,
+      "height": 37.673,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.67,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        143668.68,
+        490622.61
+      ],
+      "axis": [
+        -0.879521,
+        -0.47586
+      ],
+      "halfLength": 4.24,
+      "halfWidth": 2.48,
+      "height": 38.823,
+      "gradient": [
+        -0.03536,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0034.401926479ff247589b859dbdc230b70b"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0034.401926479ff247589b859dbdc230b70b",
+          "type": "dek"
+        }
+      ],
+      "osm": null,
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,480000,160000,500000 --run nl-7_9 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 8.5,
+      "dekBreedte": 3.3,
+      "brugLengte": 8.5,
+      "water": [
+        -1.2,
+        1.8
+      ],
+      "portaalhoogte": 3,
+      "opritafstand": [
+        5.1,
+        15.3
+      ],
+      "oprithelling": 8.5,
+      "doorstekend": [
+        {
+          "gmlId": "G0034.d6f180f37d694ae68d6cc246ae5ee0ca",
+          "klasse": "Forest",
+          "oppervlak": 204.2,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.67,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0034.ad490b0b9e324178b7401bb6817a5123",
+          "klasse": "Forest",
+          "oppervlak": 314.1,
+          "onderDek": 0.01,
+          "bovenDekOnderkant": 0.62,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        38.673,
+        null
+      ]
+    },
+    "waarschuwingen": [
+      "oprit + zonder PDOK-maaiveld",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

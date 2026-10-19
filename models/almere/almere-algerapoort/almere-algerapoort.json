@@ -1,0 +1,181 @@
+{
+  "name": "Algerapoort",
+  "file": "almere-algerapoort.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    143264.1,
+    487599.93
+  ],
+  "xAxis": [
+    0.97199,
+    0.235022
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 38.338,
+  "groundSamplePoints": [
+    [
+      -9.71,
+      0
+    ],
+    [
+      9.71,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0034.02caecbfcff146daac988b065d08528f",
+    "G0034.b30efb4140d344649cea9bde088ea8cc"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        143264.1,
+        487599.93
+      ],
+      "axis": [
+        0.97199,
+        0.235022
+      ],
+      "halfLength": 2.21,
+      "halfWidth": 4.21,
+      "height": 37.828,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -3.73,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        143255.52,
+        487597.85
+      ],
+      "axis": [
+        -0.97199,
+        -0.235022
+      ],
+      "halfLength": 4.42,
+      "halfWidth": 5.57,
+      "height": 38.733,
+      "gradient": [
+        -0.08951,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        143272.68,
+        487602
+      ],
+      "axis": [
+        0.97199,
+        0.235022
+      ],
+      "halfLength": 4.42,
+      "halfWidth": 5.57,
+      "height": 38.978,
+      "gradient": [
+        -0.03397,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0034.02caecbfcff146daac988b065d08528f"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0034.02caecbfcff146daac988b065d08528f",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/603899101",
+        "tags": {
+          "bicycle": "no",
+          "bridge": "yes",
+          "bridge:name": "Algerapoort",
+          "highway": "secondary",
+          "lanes": "2",
+          "layer": "1",
+          "maxspeed": "50",
+          "name": "Algerapoort",
+          "oneway": "yes",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,480000,160000,500000 --run nl-7_9 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 8.8,
+      "dekBreedte": 7.4,
+      "brugLengte": 8.8,
+      "water": null,
+      "portaalhoogte": 6.7,
+      "opritafstand": [
+        5.3,
+        5.3
+      ],
+      "oprithelling": 8.8,
+      "doorstekend": [
+        {
+          "gmlId": "G0034.4e2bfe03e19c4ae8b940b893f18285e9",
+          "klasse": "Road",
+          "oppervlak": 341.9,
+          "onderDek": 0,
+          "bovenDekOnderkant": 2.73,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0034.4f4470e7a28f46b5952fa3432ba1a327",
+          "klasse": "Terrain",
+          "oppervlak": 15.6,
+          "onderDek": 0.17,
+          "bovenDekOnderkant": 1.73,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0034.b30efb4140d344649cea9bde088ea8cc",
+          "klasse": "Road",
+          "oppervlak": 42,
+          "onderDek": 1,
+          "bovenDekOnderkant": 1.54,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "G0034.b9304db97951472097f615cc3050863a",
+          "klasse": "Terrain",
+          "oppervlak": 14.2,
+          "onderDek": 0.14,
+          "bovenDekOnderkant": 1.4,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        38.338,
+        38.828
+      ]
+    },
+    "waarschuwingen": [
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "4 PDOK-vorm(en) door het dek: 1 verborgen, 3 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

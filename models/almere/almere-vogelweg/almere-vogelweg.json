@@ -1,0 +1,179 @@
+{
+  "name": "Vogelweg",
+  "file": "almere-vogelweg.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    151573.06,
+    484685.03
+  ],
+  "xAxis": [
+    -0.816903,
+    -0.576776
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 45.124,
+  "groundSamplePoints": [
+    [
+      -50.57,
+      0
+    ],
+    [
+      50.57,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "L0002.4f5f22c346094f25afdc75309dbbd8eb",
+    "P0024.dd5b22607ed3425f85580f5bb796624e"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        151573.06,
+        484685.03
+      ],
+      "axis": [
+        -0.816903,
+        -0.576776
+      ],
+      "halfLength": 24.57,
+      "halfWidth": 10.16,
+      "height": 44.131,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.98,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        151607.83,
+        484709.58
+      ],
+      "axis": [
+        0.816903,
+        0.576776
+      ],
+      "halfLength": 12,
+      "halfWidth": 11.66,
+      "height": 45.281,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        151538.28,
+        484660.48
+      ],
+      "axis": [
+        -0.816903,
+        -0.576776
+      ],
+      "halfLength": 12,
+      "halfWidth": 11.66,
+      "height": 45.277,
+      "gradient": [
+        -0.0128,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "P0024.dd5b22607ed3425f85580f5bb796624e"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "L0002.4f5f22c346094f25afdc75309dbbd8eb",
+          "type": "onbekend"
+        },
+        {
+          "id": "P0024.dd5b22607ed3425f85580f5bb796624e",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/964060550",
+        "tags": {
+          "bridge": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "mofa": "designated",
+          "moped": "designated",
+          "name": "Vogelweg",
+          "oneway": "no",
+          "traffic_sign": "NL:G12a",
+          "zone:traffic": "NL:rural",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 2
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,480000,160000,500000 --run nl-7_9 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 61.1,
+      "dekBreedte": 19.3,
+      "brugLengte": 61.1,
+      "water": null,
+      "portaalhoogte": 17.4,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "P0024.8dfc431624a74e9d97d8baee03628178",
+          "klasse": "Road",
+          "oppervlak": 1075.4,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.98,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "P0024.bfdffa011633490f8738e36503d53ce7",
+          "klasse": "Road",
+          "oppervlak": 290,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.63,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0034.4d868bde1edd45d3a22dd4a7538b0ed8",
+          "klasse": "Terrain",
+          "oppervlak": 15.7,
+          "onderDek": 0.03,
+          "bovenDekOnderkant": 0.33,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        45.131,
+        45.124
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "3 PDOK-vorm(en) door het dek: 0 verborgen, 3 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

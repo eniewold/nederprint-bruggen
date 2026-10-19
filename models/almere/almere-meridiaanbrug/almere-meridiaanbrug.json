@@ -1,0 +1,179 @@
+{
+  "name": "Meridiaanbrug",
+  "file": "almere-meridiaanbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    148324.9,
+    489274.38
+  ],
+  "xAxis": [
+    -0.575801,
+    0.81759
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 37.341,
+  "groundSamplePoints": [
+    [
+      42.7,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0034.0e6934f0d5f447178233e110a8feecfa",
+    "G0034.52e0babf05d5414a95e5a5208a0c7db4",
+    "G0034.ebdf9267db8b4cc8879b98dc2353f114",
+    "G0034.52b671a8ac744052b89bb5c66526cafd",
+    "G0034.dd78617e89b44d6ea703e61638f6f308",
+    "G0034.6a7c3e96158b4c04bb8fb0881c54dc5b"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        148324.9,
+        489274.38
+      ],
+      "axis": [
+        -0.575801,
+        0.81759
+      ],
+      "halfLength": 16.7,
+      "halfWidth": 41.66,
+      "height": 36.341,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.74,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        148304.92,
+        489302.74
+      ],
+      "axis": [
+        -0.575801,
+        0.81759
+      ],
+      "halfLength": 12,
+      "halfWidth": 43.16,
+      "height": 37.491,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0034.0e6934f0d5f447178233e110a8feecfa",
+      "G0034.52e0babf05d5414a95e5a5208a0c7db4"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0034.0e6934f0d5f447178233e110a8feecfa",
+          "type": "dek"
+        },
+        {
+          "id": "G0034.52e0babf05d5414a95e5a5208a0c7db4",
+          "type": "dek"
+        },
+        {
+          "id": "G0034.ebdf9267db8b4cc8879b98dc2353f114",
+          "type": "pijler"
+        },
+        {
+          "id": "G0034.52b671a8ac744052b89bb5c66526cafd",
+          "type": "landhoofd"
+        },
+        {
+          "id": "G0034.dd78617e89b44d6ea703e61638f6f308",
+          "type": "landhoofd"
+        }
+      ],
+      "osm": {
+        "id": "way/604319112",
+        "tags": {
+          "bridge": "yes",
+          "bridge:name": "Gerrit Schultebrug",
+          "highway": "cycleway",
+          "layer": "1",
+          "lit": "yes",
+          "mofa": "yes",
+          "moped": "no",
+          "name": "Gerrit Schultebrug",
+          "surface": "asphalt",
+          "traffic_sign": "NL:G11",
+          "width": "4",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 5
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,480000,160000,500000 --run nl-7_9 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 45.4,
+      "dekBreedte": 82.3,
+      "brugLengte": 45.4,
+      "water": [
+        -22.7,
+        17.8
+      ],
+      "portaalhoogte": 74.1,
+      "opritafstand": [
+        60,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0034.511115305520474e94db5b38112a3228",
+          "klasse": "Forest",
+          "oppervlak": 1095.9,
+          "onderDek": 0.01,
+          "bovenDekOnderkant": 0.74,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0034.6a7c3e96158b4c04bb8fb0881c54dc5b",
+          "klasse": "Terrain",
+          "oppervlak": 2.8,
+          "onderDek": 1,
+          "bovenDekOnderkant": 0.62,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "G0034.ec59f922b7d34bbfbdf46eba292f653b",
+          "klasse": "Forest",
+          "oppervlak": 931.3,
+          "onderDek": 0.04,
+          "bovenDekOnderkant": 0.51,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        null,
+        37.341
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen FIS-brug binnen 35 m",
+      "oprit - zonder PDOK-maaiveld",
+      "3 PDOK-vorm(en) door het dek: 1 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

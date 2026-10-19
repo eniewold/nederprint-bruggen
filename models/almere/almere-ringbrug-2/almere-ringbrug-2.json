@@ -1,0 +1,179 @@
+{
+  "name": "Ringbrug",
+  "file": "almere-ringbrug-2.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    145163.33,
+    489921.32
+  ],
+  "xAxis": [
+    0.921563,
+    0.388229
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 45.284,
+  "groundSamplePoints": [
+    [
+      -52.14,
+      0
+    ],
+    [
+      52.14,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "P0024.b1f07e634e394e8b8766aeae668a8077"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        145163.33,
+        489921.32
+      ],
+      "axis": [
+        0.921563,
+        0.388229
+      ],
+      "halfLength": 26.14,
+      "halfWidth": 6.04,
+      "height": 44.294,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.97,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        145122.65,
+        489904.18
+      ],
+      "axis": [
+        -0.921563,
+        -0.388229
+      ],
+      "halfLength": 12,
+      "halfWidth": 7.54,
+      "height": 45.444,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        145204.01,
+        489938.46
+      ],
+      "axis": [
+        0.921563,
+        0.388229
+      ],
+      "halfLength": 12,
+      "halfWidth": 7.54,
+      "height": 45.439,
+      "gradient": [
+        -0.0129,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "P0024.b1f07e634e394e8b8766aeae668a8077"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "P0024.b1f07e634e394e8b8766aeae668a8077",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/603799574",
+        "tags": {
+          "agricultural": "no",
+          "bridge": "yes",
+          "bridge:name": "Ringbrug",
+          "highway": "trunk",
+          "lanes": "2",
+          "layer": "1",
+          "maxspeed": "80",
+          "motorroad": "yes",
+          "name": "Ringbrug",
+          "oneway": "yes",
+          "operator": "Provincie Flevoland",
+          "ref": "N702",
+          "source:maxspeed": "sign",
+          "surface": "asphalt",
+          "zone:traffic": "NL:rural",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,480000,160000,500000 --run nl-7_9 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 64.3,
+      "dekBreedte": 11.1,
+      "brugLengte": 64.3,
+      "water": null,
+      "portaalhoogte": 10,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "P0024.60a068f16f9d49ce913aa1eab5972337",
+          "klasse": "Terrain",
+          "oppervlak": 113.6,
+          "onderDek": 0.69,
+          "bovenDekOnderkant": 0.97,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "P0024.96ca31efe5d54edc98ef163c2fb0e842",
+          "klasse": "Terrain",
+          "oppervlak": 113.7,
+          "onderDek": 0.69,
+          "bovenDekOnderkant": 0.64,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0034.cab391d6383d45b5ae131be287c4dc3c",
+          "klasse": "Terrain",
+          "oppervlak": 3.8,
+          "onderDek": 0.09,
+          "bovenDekOnderkant": 0.39,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        45.294,
+        45.284
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "3 PDOK-vorm(en) door het dek: 0 verborgen, 3 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

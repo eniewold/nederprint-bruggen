@@ -1,0 +1,170 @@
+{
+  "name": "Steigerpoort",
+  "file": "almere-steigerpoort.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    143857.42,
+    484577.93
+  ],
+  "xAxis": [
+    -0.877568,
+    -0.479452
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 40.274,
+  "groundSamplePoints": [
+    [
+      -29.29,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0034.608a6bf5882343c09ebddc66729e6742",
+    "G0034.c557dd3febc7477d81f119a8d037986d",
+    "G0034.d8efa950be1e4c72897f690ba99fe59c"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        143857.42,
+        484577.93
+      ],
+      "axis": [
+        -0.877568,
+        -0.479452
+      ],
+      "halfLength": 7.32,
+      "halfWidth": 3.49,
+      "height": 39.274,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -2.04,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        143879.63,
+        484590.07
+      ],
+      "axis": [
+        0.877568,
+        0.479452
+      ],
+      "halfLength": 12,
+      "halfWidth": 4.48,
+      "height": 40.424,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0034.608a6bf5882343c09ebddc66729e6742"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0034.608a6bf5882343c09ebddc66729e6742",
+          "type": "dek"
+        },
+        {
+          "id": "G0034.c557dd3febc7477d81f119a8d037986d",
+          "type": "landhoofd"
+        },
+        {
+          "id": "G0034.d8efa950be1e4c72897f690ba99fe59c",
+          "type": "landhoofd"
+        }
+      ],
+      "osm": {
+        "id": "way/604418582",
+        "tags": {
+          "bicycle": "no",
+          "bridge": "yes",
+          "bridge:name": "Steigerpoort",
+          "foot": "no",
+          "highway": "secondary",
+          "lanes": "1",
+          "layer": "1",
+          "maxspeed": "50",
+          "name": "Steigerpoort",
+          "oneway": "yes",
+          "zone:traffic": "NL:urban",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 3
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,480000,160000,500000 --run nl-7_9 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 26.6,
+      "dekBreedte": 6,
+      "brugLengte": 26.6,
+      "water": null,
+      "portaalhoogte": 5.4,
+      "opritafstand": [
+        16,
+        47.9
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0034.1e4174bc33ab46a2adc8e2bddeb9135c",
+          "klasse": "Terrain",
+          "oppervlak": 35.5,
+          "onderDek": 0.25,
+          "bovenDekOnderkant": 1.04,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0034.fdf15f0f1a6f4438bade743cde624502",
+          "klasse": "Road",
+          "oppervlak": 458.2,
+          "onderDek": 0.38,
+          "bovenDekOnderkant": 0.25,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0034.bc70e24effe24dac83de42f2f4af3078",
+          "klasse": "Road",
+          "oppervlak": 334.9,
+          "onderDek": 0.02,
+          "bovenDekOnderkant": 0.21,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0034.d7e909d071394d2abeb1197798cbab5d",
+          "klasse": "Terrain",
+          "oppervlak": 170.8,
+          "onderDek": 0.1,
+          "bovenDekOnderkant": 0.07,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        40.274,
+        null
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "oprit + zonder PDOK-maaiveld",
+      "4 PDOK-vorm(en) door het dek: 0 verborgen, 4 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

@@ -1,0 +1,188 @@
+{
+  "name": "Kathedralenpoort",
+  "file": "almere-kathedralenpoort.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    152260.56,
+    483261.25
+  ],
+  "xAxis": [
+    -0.596717,
+    0.802452
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 40.623,
+  "groundSamplePoints": [
+    [
+      -23.86,
+      0
+    ],
+    [
+      23.86,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "L0002.67f732733f6c4e43890d0ea6b1ceb415",
+    "L0002.8557c194bfe24c32b1e9444495c9b007",
+    "L0002.a1a7daea5511410694e978625d4beeb6",
+    "L0002.e2ec8d42c00744aeb62511f1e07635ef"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        152260.56,
+        483261.25
+      ],
+      "axis": [
+        -0.596717,
+        0.802452
+      ],
+      "halfLength": 5.39,
+      "halfWidth": 24.84,
+      "height": 39.661,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.11,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        152273.51,
+        483243.84
+      ],
+      "axis": [
+        0.596717,
+        -0.802452
+      ],
+      "halfLength": 10.85,
+      "halfWidth": 26.34,
+      "height": 40.792,
+      "gradient": [
+        -0.0156,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        152247.62,
+        483278.65
+      ],
+      "axis": [
+        -0.596717,
+        0.802452
+      ],
+      "halfLength": 10.85,
+      "halfWidth": 26.34,
+      "height": 40.811,
+      "gradient": [
+        -0.01383,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "L0002.8557c194bfe24c32b1e9444495c9b007",
+      "L0002.a1a7daea5511410694e978625d4beeb6"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "L0002.67f732733f6c4e43890d0ea6b1ceb415",
+          "type": "onbekend"
+        },
+        {
+          "id": "L0002.8557c194bfe24c32b1e9444495c9b007",
+          "type": "dek"
+        },
+        {
+          "id": "L0002.a1a7daea5511410694e978625d4beeb6",
+          "type": "dek"
+        },
+        {
+          "id": "L0002.e2ec8d42c00744aeb62511f1e07635ef",
+          "type": "onbekend"
+        }
+      ],
+      "osm": {
+        "id": "way/1021498704",
+        "tags": {
+          "bridge": "yes",
+          "bridge:name": "Kathedralenpoort",
+          "carriageway_ref": "Li",
+          "highway": "motorway",
+          "lanes": "2",
+          "layer": "1",
+          "lit": "no",
+          "maxspeed": "100",
+          "maxspeed:conditional": "130 @ (19:00-06:00)",
+          "noname": "yes",
+          "note:official_name": "Officiële straatnaam gelijk aan wegnummer.",
+          "official_name": "A27",
+          "oneway": "yes",
+          "operator": "Rijkswaterstaat",
+          "ref": "A27",
+          "source:official_name": "NWB",
+          "surface": "asphalt",
+          "toll:hgv": "yes",
+          "bridge:structure": "beam",
+          "man_made": "bridge",
+          "name": "Kathedralenpoort"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 4
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,480000,160000,500000 --run nl-7_9 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 21.6,
+      "dekBreedte": 48.7,
+      "brugLengte": 21.7,
+      "water": [
+        -0.8,
+        3.2
+      ],
+      "portaalhoogte": 43.8,
+      "opritafstand": [
+        13,
+        13
+      ],
+      "oprithelling": 21.7,
+      "doorstekend": [
+        {
+          "gmlId": "L0002.533b9b1b096a4b2b9280cd686ea973a6",
+          "klasse": "Terrain",
+          "oppervlak": 107.2,
+          "onderDek": 0.17,
+          "bovenDekOnderkant": 0.11,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        40.623,
+        40.661
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

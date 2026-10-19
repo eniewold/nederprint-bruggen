@@ -1,0 +1,165 @@
+{
+  "name": "Eerste Pirellibrug",
+  "file": "almere-eerste-pirellibrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    144893.05,
+    489218.77
+  ],
+  "xAxis": [
+    -0.860216,
+    -0.50993
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 43.175,
+  "groundSamplePoints": [
+    [
+      -65.31,
+      0
+    ],
+    [
+      65.31,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "W0650.06e627da6919451094def5366adaa77f"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        144893.05,
+        489218.77
+      ],
+      "axis": [
+        -0.860216,
+        -0.50993
+      ],
+      "halfLength": 39.31,
+      "halfWidth": 7.56,
+      "height": 42.246,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.95,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        144942.35,
+        489248
+      ],
+      "axis": [
+        0.860216,
+        0.50993
+      ],
+      "halfLength": 12,
+      "halfWidth": 9.06,
+      "height": 43.361,
+      "gradient": [
+        -0.01545,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        144843.74,
+        489189.55
+      ],
+      "axis": [
+        -0.860216,
+        -0.50993
+      ],
+      "halfLength": 12,
+      "halfWidth": 9.06,
+      "height": 43.396,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "W0650.06e627da6919451094def5366adaa77f"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "W0650.06e627da6919451094def5366adaa77f",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/603832270",
+        "tags": {
+          "bridge": "yes",
+          "bridge:name": "Eerste Pirellibrug",
+          "emergency": "yes",
+          "highway": "busway",
+          "lanes": "2",
+          "layer": "1",
+          "maxspeed": "50",
+          "zone:traffic": "NL:urban",
+          "man_made": "bridge",
+          "name": "Eerste Pirellibrug"
+        }
+      },
+      "fis": {
+        "id": 8408,
+        "naam": "Eerste Pirellibrug",
+        "afstand": 5,
+        "beweegbaar": false,
+        "doorvaarthoogteGesloten": 5.4
+      },
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": 5.4,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,480000,160000,500000 --run nl-7_9 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 90.6,
+      "dekBreedte": 14.1,
+      "brugLengte": 90.6,
+      "water": [
+        -24.3,
+        22.7
+      ],
+      "portaalhoogte": 12.7,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0034.7ac77b17a5494b17bfa09b27e25f0da2",
+          "klasse": "Road",
+          "oppervlak": 238.8,
+          "onderDek": 0.3,
+          "bovenDekOnderkant": 0.95,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        43.175,
+        43.246
+      ]
+    },
+    "waarschuwingen": [
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

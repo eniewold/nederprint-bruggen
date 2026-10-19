@@ -1,0 +1,162 @@
+{
+  "name": "Biathlonpoort",
+  "file": "almere-biathlonpoort.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    144742.16,
+    489734.34
+  ],
+  "xAxis": [
+    0.908968,
+    0.416867
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 45.637,
+  "groundSamplePoints": [
+    [
+      -38.52,
+      0
+    ],
+    [
+      38.52,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "P0024.570b3c3d5c304776b12223c13d3df516"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        144742.16,
+        489734.34
+      ],
+      "axis": [
+        0.908968,
+        0.416867
+      ],
+      "halfLength": 12.52,
+      "halfWidth": 7.99,
+      "height": 44.641,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.18,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        144714.41,
+        489721.62
+      ],
+      "axis": [
+        -0.908968,
+        -0.416867
+      ],
+      "halfLength": 12,
+      "halfWidth": 9.49,
+      "height": 45.791,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        144769.9,
+        489747.06
+      ],
+      "axis": [
+        0.908968,
+        0.416867
+      ],
+      "halfLength": 12,
+      "halfWidth": 9.49,
+      "height": 45.789,
+      "gradient": [
+        -0.01266,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "P0024.570b3c3d5c304776b12223c13d3df516"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "P0024.570b3c3d5c304776b12223c13d3df516",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/603799530",
+        "tags": {
+          "agricultural": "no",
+          "bridge": "yes",
+          "highway": "trunk",
+          "lanes": "2",
+          "layer": "1",
+          "maxspeed": "80",
+          "motorroad": "yes",
+          "name": "Biathlonpoort",
+          "oneway": "yes",
+          "operator": "Provincie Flevoland",
+          "ref": "2542",
+          "source:maxspeed": "sign",
+          "surface": "asphalt",
+          "zone:traffic": "NL:rural",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,480000,160000,500000 --run nl-7_9 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 37,
+      "dekBreedte": 15,
+      "brugLengte": 37,
+      "water": null,
+      "portaalhoogte": 13.5,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "P0024.640774e74f634f1cb90b2f05ff3e4f34",
+          "klasse": "Terrain",
+          "oppervlak": 101.8,
+          "onderDek": 0.38,
+          "bovenDekOnderkant": 0.18,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        45.641,
+        45.637
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

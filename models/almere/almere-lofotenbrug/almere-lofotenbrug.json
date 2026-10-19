@@ -1,0 +1,174 @@
+{
+  "name": "Lofotenbrug",
+  "file": "almere-lofotenbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    149627.08,
+    490371.07
+  ],
+  "xAxis": [
+    0.808958,
+    0.587867
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 38.671,
+  "groundSamplePoints": [
+    [
+      -39.64,
+      0
+    ],
+    [
+      39.64,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0034.865a0c525f604fd29ec3432df03f2cea",
+    "G0034.eabdc58ceae649fa8ff62aefb05c0ba6"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        149627.08,
+        490371.07
+      ],
+      "axis": [
+        0.808958,
+        0.587867
+      ],
+      "halfLength": 13.64,
+      "halfWidth": 5.64,
+      "height": 37.73,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.69,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        149601.48,
+        490352.47
+      ],
+      "axis": [
+        -0.808958,
+        -0.587867
+      ],
+      "halfLength": 12,
+      "halfWidth": 7.14,
+      "height": 38.88,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        149652.68,
+        490389.67
+      ],
+      "axis": [
+        0.808958,
+        0.587867
+      ],
+      "halfLength": 12,
+      "halfWidth": 7.14,
+      "height": 38.851,
+      "gradient": [
+        -0.01498,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0034.865a0c525f604fd29ec3432df03f2cea"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0034.865a0c525f604fd29ec3432df03f2cea",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/604340656",
+        "tags": {
+          "bridge": "yes",
+          "bridge:name": "Lofotenbrug",
+          "highway": "residential",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Lofotenbrug",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,480000,160000,500000 --run nl-7_9 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 39.3,
+      "dekBreedte": 10.3,
+      "brugLengte": 39.3,
+      "water": [
+        -9.1,
+        15.9
+      ],
+      "portaalhoogte": 9.3,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0034.9770e330c5dc47fd8449e8475ec1a211",
+          "klasse": "Terrain",
+          "oppervlak": 12.4,
+          "onderDek": 0.29,
+          "bovenDekOnderkant": 0.69,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0034.7eb491fa11104728b77014ca3907aa97",
+          "klasse": "Separation",
+          "oppervlak": 21.3,
+          "onderDek": 0.01,
+          "bovenDekOnderkant": 0.36,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0034.eabdc58ceae649fa8ff62aefb05c0ba6",
+          "klasse": "Forest",
+          "oppervlak": 34.7,
+          "onderDek": 0.81,
+          "bovenDekOnderkant": 0.36,
+          "actie": "verbergen"
+        }
+      ],
+      "opritHoogtes": [
+        38.73,
+        38.671
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "3 PDOK-vorm(en) door het dek: 1 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

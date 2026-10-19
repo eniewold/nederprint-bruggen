@@ -1,0 +1,138 @@
+{
+  "name": "Zuidersluisbrug",
+  "file": "almere-zuidersluisbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    143820.75,
+    492167.89
+  ],
+  "xAxis": [
+    0.860241,
+    0.509888
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 45.353,
+  "groundSamplePoints": [
+    [
+      -9.39,
+      0
+    ],
+    [
+      9.39,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "P0024.edc86b97a18546d1abcc7c5ae75caa09"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        143813.41,
+        492163.54
+      ],
+      "axis": [
+        -0.860241,
+        -0.509888
+      ],
+      "halfLength": 4.27,
+      "halfWidth": 8.08,
+      "height": 45.503,
+      "gradient": [
+        -0.03515,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        143828.09,
+        492172.24
+      ],
+      "axis": [
+        0.860241,
+        0.509888
+      ],
+      "halfLength": 4.27,
+      "halfWidth": 8.08,
+      "height": 45.503,
+      "gradient": [
+        -0.03517,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "P0024.edc86b97a18546d1abcc7c5ae75caa09"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "P0024.edc86b97a18546d1abcc7c5ae75caa09",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/604221554",
+        "tags": {
+          "bicycle": "no",
+          "bridge": "movable",
+          "bridge:name": "Zuidersluisbrug",
+          "foot": "no",
+          "highway": "secondary",
+          "lanes": "2",
+          "layer": "1",
+          "maxspeed": "50",
+          "mofa": "use_sidepath",
+          "moped": "use_sidepath",
+          "name": "Zuidersluisbrug",
+          "operator": "Provincie Flevoland",
+          "ref": "N701",
+          "zone:traffic": "NL:rural",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "basculebrug",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,480000,160000,500000 --run nl-7_9 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 8.5,
+      "dekBreedte": 12.2,
+      "brugLengte": 8.5,
+      "water": [
+        -3.8,
+        4.2
+      ],
+      "portaalhoogte": 10.9,
+      "opritafstand": [
+        5.1,
+        5.1
+      ],
+      "oprithelling": 8.5,
+      "doorstekend": [],
+      "opritHoogtes": [
+        45.353,
+        45.353
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "bridge=movable zonder mechanisme: basculebrug is een gok",
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

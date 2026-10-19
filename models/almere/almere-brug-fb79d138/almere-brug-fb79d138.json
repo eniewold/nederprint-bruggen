@@ -1,0 +1,197 @@
+{
+  "name": "Flevolijn",
+  "file": "almere-brug-fb79d138.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    147559.9,
+    489595.72
+  ],
+  "xAxis": [
+    -0.724151,
+    -0.689641
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 43.475,
+  "groundSamplePoints": [
+    [
+      -45.62,
+      0
+    ],
+    [
+      45.62,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "L0004.fee835816178488788dccd86dd456dca",
+    "L0004.fb79d138075e4bf995da82f64a75be83",
+    "G0034.434386b0996547f6aafc6f211fb6af5e"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        147559.9,
+        489595.72
+      ],
+      "axis": [
+        -0.724151,
+        -0.689641
+      ],
+      "halfLength": 39.62,
+      "halfWidth": 11.98,
+      "height": 42.184,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.46,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        147601.62,
+        489635.45
+      ],
+      "axis": [
+        0.724151,
+        0.689641
+      ],
+      "halfLength": 12,
+      "halfWidth": 13.48,
+      "height": 43.479,
+      "gradient": [
+        -0.00038,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        147518.18,
+        489555.98
+      ],
+      "axis": [
+        -0.724151,
+        -0.689641
+      ],
+      "halfLength": 12,
+      "halfWidth": 13.48,
+      "height": 43.484,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "L0004.fb79d138075e4bf995da82f64a75be83"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "L0004.fee835816178488788dccd86dd456dca",
+          "type": "landhoofd"
+        },
+        {
+          "id": "L0004.fb79d138075e4bf995da82f64a75be83",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/431444130",
+        "tags": {
+          "axle_load": "22.5",
+          "bridge": "yes",
+          "description": "Weesp Aansl. - Lelystad Industrieterrein",
+          "electrified": "contact_line",
+          "embankment": "yes",
+          "frequency": "0",
+          "gauge": "1435",
+          "layer": "1",
+          "loading_gauge": "TSI_GB",
+          "maxspeed": "140",
+          "name": "Flevolijn",
+          "operator": "ProRail",
+          "passenger_lines": "2",
+          "railway": "rail",
+          "railway:atb": "yes",
+          "railway:atb-eg": "yes",
+          "railway:atb-ng": "no",
+          "railway:etcs": "no",
+          "railway:maximum_current": "4000",
+          "railway:track_class": "D4",
+          "railway:traffic_mode": "mixed",
+          "ref": "135",
+          "ref:ProRailID": "2889180.0",
+          "ref:ProRailSpoortak": "135_237V_15.4",
+          "source": "ProRail",
+          "source:date": "2014-01-03",
+          "usage": "main",
+          "voltage": "1500"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 2
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,480000,160000,500000 --run nl-7_9 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 91.2,
+      "dekBreedte": 23,
+      "brugLengte": 91.2,
+      "water": null,
+      "portaalhoogte": 20.7,
+      "opritafstand": [
+        0,
+        0
+      ],
+      "spoorhoogteBron": "prorail-pvs",
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "L0004.2d44a645bfe44f9397b71bd4d1a7eedf",
+          "klasse": "Terrain",
+          "oppervlak": 98.9,
+          "onderDek": 0.41,
+          "bovenDekOnderkant": 0.46,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "L0004.c5194c3ef5414efb95f2e5ff4f15a8b7",
+          "klasse": "Road",
+          "oppervlak": 16.2,
+          "onderDek": 0.23,
+          "bovenDekOnderkant": 0.15,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0034.434386b0996547f6aafc6f211fb6af5e",
+          "klasse": "Road",
+          "oppervlak": 86.2,
+          "onderDek": 0.97,
+          "bovenDekOnderkant": 0.11,
+          "actie": "verbergen"
+        }
+      ],
+      "opritHoogtes": [
+        43.475,
+        43.484
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "3 PDOK-vorm(en) door het dek: 1 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}
