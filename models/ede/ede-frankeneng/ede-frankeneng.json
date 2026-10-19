@@ -1,0 +1,150 @@
+{
+  "name": "Frankeneng",
+  "file": "ede-frankeneng.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    170655.77,
+    449552.2
+  ],
+  "xAxis": [
+    0.318585,
+    0.947894
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 58.972,
+  "groundSamplePoints": [
+    [
+      -59.47,
+      0
+    ],
+    [
+      59.47,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "L0002.219af84721ac4877a6a4cc6b9262707c",
+    "L0002.518f5bbc876446ffafbcfa30fa81f146",
+    "L0002.def2f6bad6ff464a88d159619a301b0c"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        170639.37,
+        449503.42
+      ],
+      "axis": [
+        -0.318585,
+        -0.947894
+      ],
+      "halfLength": 12,
+      "halfWidth": 22.89,
+      "height": 59.503,
+      "gradient": [
+        -0.04423,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        170672.17,
+        449601
+      ],
+      "axis": [
+        0.318585,
+        0.947894
+      ],
+      "halfLength": 12,
+      "halfWidth": 22.89,
+      "height": 59.884,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "L0002.518f5bbc876446ffafbcfa30fa81f146"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "L0002.219af84721ac4877a6a4cc6b9262707c",
+          "type": "onbekend"
+        },
+        {
+          "id": "L0002.518f5bbc876446ffafbcfa30fa81f146",
+          "type": "dek"
+        },
+        {
+          "id": "L0002.def2f6bad6ff464a88d159619a301b0c",
+          "type": "onbekend"
+        }
+      ],
+      "osm": {
+        "id": "way/881079627",
+        "tags": {
+          "bridge": "yes",
+          "carriageway_ref": "Re",
+          "destination:lanes": "Amsterdam;Amersfoort;Apeldoorn;Barneveld|Amsterdam;Amersfoort;Apeldoorn;Barneveld|Ede-West",
+          "destination:ref:lanes": "A30|A30|none",
+          "highway": "motorway",
+          "lanes": "3",
+          "layer": "1",
+          "lit": "no",
+          "maxspeed": "100",
+          "maxspeed:conditional": "120 @ (19:00-06:00)",
+          "noname": "yes",
+          "official_name": "Rijksweg A30",
+          "oneway": "yes",
+          "operator": "Rijkswaterstaat",
+          "placement": "right_of:1",
+          "ref": "A30",
+          "surface": "asphalt",
+          "toll:hgv": "yes",
+          "turn:lanes": "none|none|slight_right",
+          "bridge:structure": "beam",
+          "man_made": "bridge",
+          "name": "Frankeneng"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 3
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,440000,180000,460000 --run nl-8_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 78.8,
+      "dekBreedte": 41.8,
+      "brugLengte": 78.9,
+      "water": null,
+      "portaalhoogte": 37.6,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [],
+      "opritHoogtes": [
+        58.972,
+        59.734
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

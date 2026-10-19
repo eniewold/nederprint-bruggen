@@ -1,0 +1,162 @@
+{
+  "name": "Somatunnel",
+  "file": "ede-somatunnel-2.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    173507.99,
+    449174.93
+  ],
+  "xAxis": [
+    0.958545,
+    -0.284943
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 61.016,
+  "groundSamplePoints": [
+    [
+      -5.31,
+      0
+    ],
+    [
+      5.37,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "L0004.fb9b31a1c6c149b6bf4e960c04edc544",
+    "G0228.3d1caf404f684339bfd29200289713bb",
+    "G0228.21601e68995743adb1de1aae4ad1e86a"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        173497.77,
+        449177.96
+      ],
+      "axis": [
+        -0.958545,
+        0.284943
+      ],
+      "halfLength": 5.34,
+      "halfWidth": 7.91,
+      "height": 61.036,
+      "gradient": [
+        -0.00377,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        173518.25,
+        449171.88
+      ],
+      "axis": [
+        0.958545,
+        -0.284943
+      ],
+      "halfLength": 5.34,
+      "halfWidth": 7.91,
+      "height": 61.056,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "L0004.fb9b31a1c6c149b6bf4e960c04edc544"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "L0004.fb9b31a1c6c149b6bf4e960c04edc544",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/959787180",
+        "tags": {
+          "bridge": "yes",
+          "description": "De Haar Aansluiting - Ede-Wageningen",
+          "electrified": "contact_line",
+          "frequency": "0",
+          "gauge": "1435",
+          "layer": "1",
+          "maxspeed": "140",
+          "operator": "ProRail",
+          "passenger_lines": "2",
+          "railway": "rail",
+          "railway:atb": "yes",
+          "railway:maximum_current": "4000",
+          "railway:track_class": "D4",
+          "railway:traffic_mode": "passenger",
+          "ref": "108",
+          "ref:ProRailID": "2879270.0",
+          "ref:ProRailSpoortak": "562_159R_60.9",
+          "source": "ProRail",
+          "source:date": "2014-01-03",
+          "usage": "main",
+          "voltage": "1500",
+          "bridge:structure": "beam",
+          "man_made": "bridge",
+          "name": "Somatunnel"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,440000,180000,460000 --run nl-8_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 10.7,
+      "dekBreedte": 11.8,
+      "brugLengte": 10.7,
+      "water": null,
+      "portaalhoogte": 10.6,
+      "opritafstand": [
+        0,
+        0
+      ],
+      "spoorhoogteBron": "prorail-pvs",
+      "oprithelling": 10.7,
+      "doorstekend": [
+        {
+          "gmlId": "G0228.3d1caf404f684339bfd29200289713bb",
+          "klasse": "Road",
+          "oppervlak": 26,
+          "onderDek": 1,
+          "bovenDekOnderkant": 0.48,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "G0228.21601e68995743adb1de1aae4ad1e86a",
+          "klasse": "Road",
+          "oppervlak": 32.7,
+          "onderDek": 1,
+          "bovenDekOnderkant": 0.48,
+          "actie": "verbergen"
+        }
+      ],
+      "opritHoogtes": [
+        61.016,
+        61.056
+      ]
+    },
+    "waarschuwingen": [
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 2 verborgen, 0 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

@@ -1,0 +1,199 @@
+{
+  "name": "Kievitsmeent",
+  "file": "ede-kievitsmeent.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    170781.08,
+    449982.02
+  ],
+  "xAxis": [
+    0.285281,
+    0.958444
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 62.009,
+  "groundSamplePoints": [
+    [
+      -46.64,
+      0
+    ],
+    [
+      46.64,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "L0002.73bbac3ff8164220957d09d21d823920",
+    "L0002.a9ebf7d17eea455987ff8bd1511bf1d6",
+    "L0002.bcd45230ec2e47f7aaaeb74f65dd3ac1"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        170781.08,
+        449982.02
+      ],
+      "axis": [
+        0.285281,
+        0.958444
+      ],
+      "halfLength": 20.59,
+      "halfWidth": 24.39,
+      "height": 61.066,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.86,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        170770.05,
+        449944.99
+      ],
+      "axis": [
+        -0.285281,
+        -0.958444
+      ],
+      "halfLength": 12,
+      "halfWidth": 25.89,
+      "height": 62.216,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        170792.1,
+        450019.06
+      ],
+      "axis": [
+        0.285281,
+        0.958444
+      ],
+      "halfLength": 12,
+      "halfWidth": 25.89,
+      "height": 62.187,
+      "gradient": [
+        -0.01487,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "L0002.73bbac3ff8164220957d09d21d823920"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "L0002.73bbac3ff8164220957d09d21d823920",
+          "type": "dek"
+        },
+        {
+          "id": "L0002.a9ebf7d17eea455987ff8bd1511bf1d6",
+          "type": "onbekend"
+        },
+        {
+          "id": "L0002.bcd45230ec2e47f7aaaeb74f65dd3ac1",
+          "type": "onbekend"
+        }
+      ],
+      "osm": {
+        "id": "way/843982036",
+        "tags": {
+          "bridge": "yes",
+          "carriageway_ref": "Re",
+          "highway": "motorway",
+          "lanes": "2",
+          "layer": "1",
+          "lit": "no",
+          "maxspeed": "100",
+          "maxspeed:conditional": "120 @ (19:00-06:00)",
+          "noname": "yes",
+          "official_name": "Rijksweg A30",
+          "oneway": "yes",
+          "operator": "Rijkswaterstaat",
+          "ref": "A30",
+          "surface": "asphalt",
+          "toll:hgv": "yes",
+          "bridge:structure": "beam",
+          "man_made": "bridge",
+          "name": "Kievitsmeent"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 3
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,440000,180000,460000 --run nl-8_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 53.2,
+      "dekBreedte": 47.8,
+      "brugLengte": 53.3,
+      "water": null,
+      "portaalhoogte": 43,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0228.cef16006b5e2471d81066f38af930d6c",
+          "klasse": "Terrain",
+          "oppervlak": 299.5,
+          "onderDek": 0.36,
+          "bovenDekOnderkant": 0.86,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "L0004.d2a1bafa790e4502900821c03f1e7b90",
+          "klasse": "Forest",
+          "oppervlak": 9236.6,
+          "onderDek": 0.24,
+          "bovenDekOnderkant": 0.71,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0228.ed92f2a281494206b6c702882ff2404e",
+          "klasse": "Terrain",
+          "oppervlak": 361.8,
+          "onderDek": 0.43,
+          "bovenDekOnderkant": 0.63,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0228.43693e2687b04127847a9284acef79c1",
+          "klasse": "Terrain",
+          "oppervlak": 70.4,
+          "onderDek": 0.02,
+          "bovenDekOnderkant": 0.37,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        62.066,
+        62.009
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "4 PDOK-vorm(en) door het dek: 0 verborgen, 4 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

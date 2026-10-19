@@ -1,0 +1,194 @@
+{
+  "name": "Rijnbrug",
+  "file": "rhenen-brug-2f57ab92.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    167993.06,
+    440403.11
+  ],
+  "xAxis": [
+    -0.984941,
+    0.172889
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 49.887,
+  "groundSamplePoints": [
+    [
+      -16.2,
+      0
+    ],
+    [
+      16.2,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "P0026.2f57ab9229cd3c82e0531221500a01c3",
+    "P0025.278580eedc0244d488c1c3815437368d",
+    "L0002.139503904c3744cdb31934a63c2e6a4f"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        167993.06,
+        440403.11
+      ],
+      "axis": [
+        -0.984941,
+        0.172889
+      ],
+      "halfLength": 3.68,
+      "halfWidth": 267.83,
+      "height": 49.029,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -3.81,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        168007.57,
+        440400.56
+      ],
+      "axis": [
+        0.984941,
+        -0.172889
+      ],
+      "halfLength": 7.36,
+      "halfWidth": 269.33,
+      "height": 50.179,
+      "gradient": [
+        -0.02037,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        167978.56,
+        440405.65
+      ],
+      "axis": [
+        -0.984941,
+        0.172889
+      ],
+      "halfLength": 7.36,
+      "halfWidth": 269.33,
+      "height": 50.108,
+      "gradient": [
+        -0.03005,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "P0026.2f57ab9229cd3c82e0531221500a01c3",
+      "P0025.278580eedc0244d488c1c3815437368d"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "P0026.2f57ab9229cd3c82e0531221500a01c3",
+          "type": "dek"
+        },
+        {
+          "id": "P0025.278580eedc0244d488c1c3815437368d",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/373886514",
+        "tags": {
+          "agricultural": "yes",
+          "bicycle": "no",
+          "bridge": "yes",
+          "bridge:material": "steel",
+          "bridge:name": "Rijnbrug",
+          "bridge:operator": "Rijkswaterstaat",
+          "bridge:structure": "beam",
+          "foot": "no",
+          "highway": "primary",
+          "horse": "no",
+          "lanes": "2",
+          "layer": "1",
+          "maxspeed": "80",
+          "name": "Rijnbrug",
+          "operator": "Rijkswaterstaat",
+          "owner": "Staat der Nederlanden",
+          "ref": "N233",
+          "surface": "asphalt",
+          "zone:traffic": "NL:rural",
+          "man_made": "bridge",
+          "note:operator": "De weg bovenop de brug wordt beheerd door de betreffende provincies.",
+          "start_date": "1955",
+          "wikidata": "Q2745200",
+          "wikipedia": "nl:Rijnbrug bij Rhenen"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 2
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,440000,180000,460000 --run nl-8_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 14.7,
+      "dekBreedte": 534.7,
+      "brugLengte": 14.7,
+      "water": null,
+      "portaalhoogte": 481.2,
+      "opritafstand": [
+        8.8,
+        8.8
+      ],
+      "oprithelling": 14.7,
+      "doorstekend": [
+        {
+          "gmlId": "L0001.eb0c8cafeaf1479d8229cd6b8b8e9e98",
+          "klasse": "Forest",
+          "oppervlak": 37177.6,
+          "onderDek": 0.08,
+          "bovenDekOnderkant": 2.81,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "L0002.61691567e3e34a14a34fb3c4bdc80640",
+          "klasse": "Forest",
+          "oppervlak": 488.6,
+          "onderDek": 0.04,
+          "bovenDekOnderkant": 0.63,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "L0002.139503904c3744cdb31934a63c2e6a4f",
+          "klasse": "Terrain",
+          "oppervlak": 158.5,
+          "onderDek": 0.9,
+          "bovenDekOnderkant": 0.61,
+          "actie": "verbergen"
+        }
+      ],
+      "opritHoogtes": [
+        50.029,
+        49.887
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "3 PDOK-vorm(en) door het dek: 1 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

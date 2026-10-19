@@ -1,0 +1,180 @@
+{
+  "name": "Dronkelaarseweg",
+  "file": "terschuur-brug-d1d07deb.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    165308.23,
+    463531.67
+  ],
+  "xAxis": [
+    -0.198334,
+    -0.980134
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 49.96,
+  "groundSamplePoints": [
+    [
+      -15.91,
+      0
+    ],
+    [
+      15.91,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0203.d1d07debdf77494ca63b555ba2b20758"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        165308.23,
+        463531.67
+      ],
+      "axis": [
+        -0.198334,
+        -0.980134
+      ],
+      "halfLength": 3.62,
+      "halfWidth": 3.83,
+      "height": 49.006,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.55,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        165311.1,
+        463545.85
+      ],
+      "axis": [
+        0.198334,
+        0.980134
+      ],
+      "halfLength": 7.23,
+      "halfWidth": 4.99,
+      "height": 50.133,
+      "gradient": [
+        -0.02393,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        165305.36,
+        463517.49
+      ],
+      "axis": [
+        -0.198334,
+        -0.980134
+      ],
+      "halfLength": 7.23,
+      "halfWidth": 4.99,
+      "height": 50.156,
+      "gradient": [
+        -0.02074,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0203.d1d07debdf77494ca63b555ba2b20758"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0203.d1d07debdf77494ca63b555ba2b20758",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/830832680",
+        "tags": {
+          "bridge": "yes",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Dronkelaarseweg",
+          "smoothness": "good",
+          "surface": "asphalt"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,460000,180000,480000 --run nl-8_8 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 14.5,
+      "dekBreedte": 6.7,
+      "brugLengte": 14.5,
+      "water": [
+        -2.2,
+        3.8
+      ],
+      "portaalhoogte": 6,
+      "opritafstand": [
+        8.7,
+        8.7
+      ],
+      "oprithelling": 14.5,
+      "doorstekend": [
+        {
+          "gmlId": "W0662.0bb3b6b0b58f41be9774416647104040",
+          "klasse": "Terrain",
+          "oppervlak": 10.3,
+          "onderDek": 0.61,
+          "bovenDekOnderkant": 0.55,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "W0662.1740f06873b74de38eb7217330e4a0c7",
+          "klasse": "Terrain",
+          "oppervlak": 17.3,
+          "onderDek": 0.14,
+          "bovenDekOnderkant": 0.55,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "W0662.ad2ae1a6822d4b05a4c2df9f81f56742",
+          "klasse": "Separation",
+          "oppervlak": 24.1,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.46,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0203.7827fb2e4f774f18bd77e0de0aa20248",
+          "klasse": "Forest",
+          "oppervlak": 20.6,
+          "onderDek": 0.09,
+          "bovenDekOnderkant": 0.36,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        49.96,
+        50.006
+      ]
+    },
+    "waarschuwingen": [
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "4 PDOK-vorm(en) door het dek: 0 verborgen, 4 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

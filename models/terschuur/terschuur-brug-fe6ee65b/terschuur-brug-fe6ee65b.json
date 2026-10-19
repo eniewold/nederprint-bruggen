@@ -1,0 +1,173 @@
+{
+  "name": "Eendrachtstraat",
+  "file": "terschuur-brug-fe6ee65b.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    163978.88,
+    464336.88
+  ],
+  "xAxis": [
+    0.468625,
+    -0.883397
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 48.801,
+  "groundSamplePoints": [
+    [
+      -13.07,
+      0
+    ],
+    [
+      13.07,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0203.fe6ee65b5b95485cbca0323de61d455f"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        163978.88,
+        464336.88
+      ],
+      "axis": [
+        0.468625,
+        -0.883397
+      ],
+      "halfLength": 2.97,
+      "halfWidth": 8.56,
+      "height": 47.892,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.44,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        163973.31,
+        464347.37
+      ],
+      "axis": [
+        -0.468625,
+        0.883397
+      ],
+      "halfLength": 5.94,
+      "halfWidth": 10.06,
+      "height": 49.042,
+      "gradient": [
+        -0.02525,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        163984.45,
+        464326.38
+      ],
+      "axis": [
+        0.468625,
+        -0.883397
+      ],
+      "halfLength": 5.94,
+      "halfWidth": 10.06,
+      "height": 48.997,
+      "gradient": [
+        -0.0329,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0203.fe6ee65b5b95485cbca0323de61d455f"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0203.fe6ee65b5b95485cbca0323de61d455f",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/803771556",
+        "tags": {
+          "bridge": "yes",
+          "cycleway": "shared_lane",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "50",
+          "name": "Eendrachtstraat",
+          "surface": "asphalt"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,460000,180000,480000 --run nl-8_8 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 11.9,
+      "dekBreedte": 16.1,
+      "brugLengte": 11.9,
+      "water": [
+        -1.4,
+        2.6
+      ],
+      "portaalhoogte": 14.5,
+      "opritafstand": [
+        7.1,
+        7.1
+      ],
+      "oprithelling": 11.9,
+      "doorstekend": [
+        {
+          "gmlId": "W0662.f1a5f4a7eafa4e46adcc30cffac4f16b",
+          "klasse": "Terrain",
+          "oppervlak": 147.2,
+          "onderDek": 0.01,
+          "bovenDekOnderkant": 0.44,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "W0662.da1302cdf9a34bfe9e6cba35bb45f1fa",
+          "klasse": "Terrain",
+          "oppervlak": 351.5,
+          "onderDek": 0.05,
+          "bovenDekOnderkant": 0.44,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0203.6b5d3ef46a3747a689217e6e79b09dc1",
+          "klasse": "Forest",
+          "oppervlak": 84.2,
+          "onderDek": 0.15,
+          "bovenDekOnderkant": 0.31,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        48.892,
+        48.801
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "3 PDOK-vorm(en) door het dek: 0 verborgen, 3 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}
