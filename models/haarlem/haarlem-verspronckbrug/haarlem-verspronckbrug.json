@@ -1,0 +1,145 @@
+{
+  "name": "Verspronckbrug",
+  "file": "haarlem-verspronckbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    103578.72,
+    489266.96
+  ],
+  "xAxis": [
+    -0.963382,
+    -0.268131
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 43.819,
+  "groundSamplePoints": [
+    [
+      -13.19,
+      0
+    ],
+    [
+      13.19,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0392.8bb97c93c0dd48b79366fb46b318af25",
+    "G0392.3d2a979750e04022a3fbf13e68cbb953"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        103590.28,
+        489270.17
+      ],
+      "axis": [
+        0.963382,
+        0.268131
+      ],
+      "halfLength": 6,
+      "halfWidth": 23.69,
+      "height": 44.093,
+      "gradient": [
+        -0.02501,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        103567.17,
+        489263.74
+      ],
+      "axis": [
+        -0.963382,
+        -0.268131
+      ],
+      "halfLength": 6,
+      "halfWidth": 23.69,
+      "height": 44.031,
+      "gradient": [
+        -0.03534,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0392.8bb97c93c0dd48b79366fb46b318af25",
+      "G0392.3d2a979750e04022a3fbf13e68cbb953"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0392.8bb97c93c0dd48b79366fb46b318af25",
+          "type": "dek"
+        },
+        {
+          "id": "G0392.3d2a979750e04022a3fbf13e68cbb953",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/492212148",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "yes",
+          "bridge:name": "Verspronckbrug",
+          "foot": "no",
+          "highway": "primary",
+          "lanes": "1",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "50",
+          "moped": "yes",
+          "name": "Staten Bolwerk",
+          "oneway": "yes",
+          "operator": "Gemeente Haarlem",
+          "ref": "N200",
+          "surface": "asphalt",
+          "zone:traffic": "NL:urban",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 2
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,480000,120000,500000 --run nl-5_9 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 12,
+      "dekBreedte": 43.4,
+      "brugLengte": 12,
+      "water": [
+        -5.5,
+        4
+      ],
+      "portaalhoogte": 39,
+      "opritafstand": [
+        7.2,
+        7.2
+      ],
+      "oprithelling": 12,
+      "doorstekend": [],
+      "opritHoogtes": [
+        43.943,
+        43.819
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "name": "doetinchem-brug-bbc04c80",
+  "file": "doetinchem-brug-bbc04c80.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    218507.44,
+    442906.07
+  ],
+  "xAxis": [
+    0.642297,
+    0.766456
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 56.482,
+  "groundSamplePoints": [
+    [
+      -6.58,
+      0
+    ],
+    [
+      6.58,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "W0152.bbc04c8046e64e50be89d38be7bbad6b",
+    "G0222.e8ea741914094f9d847e56fed5c379a6"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        218507.44,
+        442906.07
+      ],
+      "axis": [
+        0.642297,
+        0.766456
+      ],
+      "halfLength": 1.29,
+      "halfWidth": 1.97,
+      "height": 55.525,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.57,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        218503.85,
+        442901.79
+      ],
+      "axis": [
+        -0.642297,
+        -0.766456
+      ],
+      "halfLength": 3,
+      "halfWidth": 2.2,
+      "height": 56.675,
+      "gradient": [
+        -0.05,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        218511.03,
+        442910.35
+      ],
+      "axis": [
+        0.642297,
+        0.766456
+      ],
+      "halfLength": 3,
+      "halfWidth": 2.2,
+      "height": 56.653,
+      "gradient": [
+        -0.05711,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "W0152.bbc04c8046e64e50be89d38be7bbad6b"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "W0152.bbc04c8046e64e50be89d38be7bbad6b",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/888947084",
+        "tags": {
+          "bridge": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "surface": "fine_gravel"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 200000,440000,220000,460000 --run nl-10_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 5.2,
+      "dekBreedte": 2.9,
+      "brugLengte": 5.2,
+      "water": null,
+      "portaalhoogte": 2.6,
+      "opritafstand": [
+        4,
+        4
+      ],
+      "oprithelling": 6,
+      "doorstekend": [
+        {
+          "gmlId": "G0222.a33d9ee58749496993ddc3a02833d10b",
+          "klasse": "Separation",
+          "oppervlak": 0.7,
+          "onderDek": 0.01,
+          "bovenDekOnderkant": 0.57,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0222.e8ea741914094f9d847e56fed5c379a6",
+          "klasse": "Road",
+          "oppervlak": 14.3,
+          "onderDek": 0.92,
+          "bovenDekOnderkant": 0.41,
+          "actie": "verbergen"
+        }
+      ],
+      "opritHoogtes": [
+        56.525,
+        56.482
+      ]
+    },
+    "waarschuwingen": [
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 1 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

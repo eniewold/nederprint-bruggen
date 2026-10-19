@@ -1,0 +1,144 @@
+{
+  "name": "doesburg-brug-7b2883dc",
+  "file": "doesburg-brug-7b2883dc.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    206087.01,
+    448199.15
+  ],
+  "xAxis": [
+    -0.882453,
+    0.470401
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 50.295,
+  "groundSamplePoints": [
+    [
+      -4.85,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "L0002.7b2883dc3cc04e689b7900cdcff65758",
+    "L0002.f4038aed2c864acea5801b99b8a756cb"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        206087.01,
+        448199.15
+      ],
+      "axis": [
+        -0.882453,
+        0.470401
+      ],
+      "halfLength": 0.39,
+      "halfWidth": 14.58,
+      "height": 49.295,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -5.46,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        206090.41,
+        448197.33
+      ],
+      "axis": [
+        0.882453,
+        -0.470401
+      ],
+      "halfLength": 3,
+      "halfWidth": 16.08,
+      "height": 50.445,
+      "gradient": [
+        -0.05,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "L0002.7b2883dc3cc04e689b7900cdcff65758"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "L0002.7b2883dc3cc04e689b7900cdcff65758",
+          "type": "dek"
+        },
+        {
+          "id": "L0002.f4038aed2c864acea5801b99b8a756cb",
+          "type": "landhoofd"
+        }
+      ],
+      "osm": {
+        "id": "way/650685217",
+        "tags": {
+          "bridge": "yes",
+          "highway": "footway",
+          "layer": "1",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 2
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 200000,440000,220000,460000 --run nl-10_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 1.6,
+      "dekBreedte": 28.2,
+      "brugLengte": 1.7,
+      "water": [
+        -0.9,
+        0.6
+      ],
+      "portaalhoogte": 25.3,
+      "opritafstand": [
+        4,
+        12
+      ],
+      "oprithelling": 6,
+      "doorstekend": [
+        {
+          "gmlId": "L0002.659a0bfc0a4a45bea70fef9f2dae6249",
+          "klasse": "Terrain",
+          "oppervlak": 524.4,
+          "onderDek": 0.01,
+          "bovenDekOnderkant": 4.46,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "L0002.be7a2cdbe9ed453fa48be71a1124a5f0",
+          "klasse": "Terrain",
+          "oppervlak": 308.2,
+          "onderDek": 0.01,
+          "bovenDekOnderkant": 1.35,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        50.295,
+        null
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "oprit + zonder PDOK-maaiveld",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

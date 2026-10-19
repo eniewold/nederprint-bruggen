@@ -1,0 +1,155 @@
+{
+  "name": "lathum-brug-7772dea1",
+  "file": "lathum-brug-7772dea1.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    200512.49,
+    444749.25
+  ],
+  "xAxis": [
+    0.885398,
+    0.464834
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 51.007,
+  "groundSamplePoints": [
+    [
+      6.1,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "L0002.7772dea18ee34986b20636d19ad0a6d8",
+    "L0002.aaab6ffa2a4149bfa8ddc835ff15b01b",
+    "L0002.369b58b9c0a7424298ac09b017ed119a"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        200512.49,
+        444749.25
+      ],
+      "axis": [
+        0.885398,
+        0.464834
+      ],
+      "halfLength": 1.05,
+      "halfWidth": 13.05,
+      "height": 50.007,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -6.17,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        200517.01,
+        444751.62
+      ],
+      "axis": [
+        0.885398,
+        0.464834
+      ],
+      "halfLength": 3,
+      "halfWidth": 14.55,
+      "height": 51.157,
+      "gradient": [
+        -0.05,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "L0002.7772dea18ee34986b20636d19ad0a6d8",
+      "L0002.aaab6ffa2a4149bfa8ddc835ff15b01b"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "L0002.7772dea18ee34986b20636d19ad0a6d8",
+          "type": "dek"
+        },
+        {
+          "id": "L0002.aaab6ffa2a4149bfa8ddc835ff15b01b",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1503620820",
+        "tags": {
+          "bridge": "yes",
+          "highway": "footway",
+          "layer": "1",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 2
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 200000,440000,220000,460000 --run nl-10_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 4.2,
+      "dekBreedte": 25.1,
+      "brugLengte": 4.2,
+      "water": [
+        -2.1,
+        0.9
+      ],
+      "portaalhoogte": 22.6,
+      "opritafstand": [
+        12,
+        4
+      ],
+      "oprithelling": 6,
+      "doorstekend": [
+        {
+          "gmlId": "L0002.369b58b9c0a7424298ac09b017ed119a",
+          "klasse": "Terrain",
+          "oppervlak": 6.5,
+          "onderDek": 1,
+          "bovenDekOnderkant": 5.85,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "L0002.622cd6301f9a4e509bd08b1c9ed6669e",
+          "klasse": "Terrain",
+          "oppervlak": 86.1,
+          "onderDek": 0.11,
+          "bovenDekOnderkant": 5.17,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "L0002.a9d23d8eaf874ea981c001b4901b4185",
+          "klasse": "Terrain",
+          "oppervlak": 452.3,
+          "onderDek": 0,
+          "bovenDekOnderkant": 1.15,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        null,
+        51.007
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "oprit - zonder PDOK-maaiveld",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "3 PDOK-vorm(en) door het dek: 1 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

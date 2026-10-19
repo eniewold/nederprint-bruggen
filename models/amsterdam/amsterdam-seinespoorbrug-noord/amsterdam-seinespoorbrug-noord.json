@@ -1,0 +1,198 @@
+{
+  "name": "Seinespoorbrug Noord",
+  "file": "amsterdam-seinespoorbrug-noord.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    116302.52,
+    489251.94
+  ],
+  "xAxis": [
+    0.968533,
+    -0.248884
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 49.206,
+  "groundSamplePoints": [
+    [
+      -37.67,
+      0
+    ],
+    [
+      37.67,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0363.2248eddfe8ec45008494255e0eb3a194",
+    "G0363.f1e07ac8a084431b8188618c0501a156",
+    "G0363.5844e7b4703046cfb0dafec483725125",
+    "L0004.d173b376c7d048ffa045c4f310f48b2c"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        116302.52,
+        489251.94
+      ],
+      "axis": [
+        0.968533,
+        -0.248884
+      ],
+      "halfLength": 31.67,
+      "halfWidth": 22.24,
+      "height": 48.32,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -4.63,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        116254.42,
+        489264.31
+      ],
+      "axis": [
+        -0.968533,
+        0.248884
+      ],
+      "halfLength": 12,
+      "halfWidth": 23.74,
+      "height": 49.62,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        116350.63,
+        489239.58
+      ],
+      "axis": [
+        0.968533,
+        -0.248884
+      ],
+      "halfLength": 12,
+      "halfWidth": 23.74,
+      "height": 49.413,
+      "gradient": [
+        -0.01726,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "L0004.d173b376c7d048ffa045c4f310f48b2c"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0363.2248eddfe8ec45008494255e0eb3a194",
+          "type": "pijler"
+        },
+        {
+          "id": "G0363.f1e07ac8a084431b8188618c0501a156",
+          "type": "pijler"
+        },
+        {
+          "id": "G0363.5844e7b4703046cfb0dafec483725125",
+          "type": "pijler"
+        },
+        {
+          "id": "L0004.d173b376c7d048ffa045c4f310f48b2c",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1537955450",
+        "tags": {
+          "axle_load": "22.5",
+          "bridge": "yes",
+          "description": "Zaandam - Amsterdam Sloterdijk",
+          "electrified": "contact_line",
+          "frequency": "0",
+          "gauge": "1435",
+          "layer": "1",
+          "loading_gauge": "TSI_GB",
+          "maxspeed": "120",
+          "name": "Seinespoorbrug Noord",
+          "operator": "ProRail",
+          "passenger_lines": "4",
+          "railway": "rail",
+          "railway:atb": "yes",
+          "railway:maximum_current": "4000",
+          "railway:track_class": "D4",
+          "railway:traffic_mode": "passenger",
+          "ref": "139",
+          "ref:ProRailID": "2889512.0",
+          "ref:ProRailSpoortak": "139_317BV_175.3",
+          "source": "ProRail",
+          "source:date": "2014-01-03",
+          "usage": "main",
+          "voltage": "1500",
+          "wikidata": "Q3951356",
+          "wikipedia": "nl:Zaanlijn",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 4
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,480000,120000,500000 --run nl-5_9 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 75.3,
+      "dekBreedte": 43.5,
+      "brugLengte": 75.3,
+      "water": null,
+      "portaalhoogte": 39.1,
+      "opritafstand": [
+        0,
+        0
+      ],
+      "spoorhoogteBron": "prorail-pvs",
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "L0004.39a2dd3dae144ee991584787ac9bd715",
+          "klasse": "Road",
+          "oppervlak": 291499.3,
+          "onderDek": 0,
+          "bovenDekOnderkant": 3.63,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "L0004.1b4e9019ce560568e0630b29a8c0b49a",
+          "klasse": "Terrain",
+          "oppervlak": 266.2,
+          "onderDek": 0.31,
+          "bovenDekOnderkant": 0.06,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        49.62,
+        49.206
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}
