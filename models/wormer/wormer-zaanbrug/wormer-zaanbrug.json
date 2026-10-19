@@ -1,0 +1,148 @@
+{
+  "name": "Zaanbrug",
+  "file": "wormer-zaanbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    115042.66,
+    500577.68
+  ],
+  "xAxis": [
+    -0.326084,
+    -0.945341
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 42.728,
+  "groundSamplePoints": [
+    [
+      -40.22,
+      0
+    ],
+    [
+      80.22,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0479.2881ce04f7f10054e0530a3243018c29",
+    "G0479.3e6f99024cc24fd38b9cbe0536ff54e7",
+    "G0479.472a4342b124994ee063a140320a8c0a"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        115053.16,
+        500608.15
+      ],
+      "axis": [
+        0.326084,
+        0.945341
+      ],
+      "halfLength": 12,
+      "halfWidth": 9.34,
+      "height": 43.364,
+      "gradient": [
+        -0.05297,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        115032.15,
+        500547.22
+      ],
+      "axis": [
+        -0.326084,
+        -0.945341
+      ],
+      "halfLength": 12,
+      "halfWidth": 9.34,
+      "height": 43.849,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0479.472a4342b124994ee063a140320a8c0a"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0479.2881ce04f7f10054e0530a3243018c29",
+          "type": "sloof"
+        },
+        {
+          "id": "G0479.3e6f99024cc24fd38b9cbe0536ff54e7",
+          "type": "landhoofd"
+        },
+        {
+          "id": "G0479.472a4342b124994ee063a140320a8c0a",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "relation/10073166",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "movable",
+          "bridge:name": "Zaanbrug",
+          "highway": "secondary",
+          "lanes": "2",
+          "layer": "1",
+          "maxspeed": "50",
+          "name": "Zaanbrug",
+          "note": "bridge has been rebuilt, open 15-01-2024 for pedestrians, bicycles, cars only in northern direction until end of March (then 2-way traffic)",
+          "oneway": "no",
+          "surface": "asphalt",
+          "man_made": "bridge",
+          "start_date": "2024-01-15",
+          "wikidata": "Q2745333",
+          "wikimedia_commons": "File:Zaanbrug-wormerveer.jpg",
+          "wikipedia": "nl:Zaanbrug"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 2
+    },
+    "type": "basculebrug",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,500000,120000,520000 --run nl-5_10 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 40.4,
+      "dekBreedte": 14.7,
+      "brugLengte": 40.4,
+      "water": [
+        -17.7,
+        19.8
+      ],
+      "portaalhoogte": 13.2,
+      "opritafstand": [
+        20,
+        60
+      ],
+      "oprithelling": 24,
+      "doorstekend": [],
+      "opritHoogtes": [
+        42.728,
+        43.699
+      ]
+    },
+    "waarschuwingen": [
+      "bridge=movable zonder mechanisme: basculebrug is een gok",
+      "geen FIS-brug binnen 35 m",
+      "oprit + pas op 60.0 m gemeten"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

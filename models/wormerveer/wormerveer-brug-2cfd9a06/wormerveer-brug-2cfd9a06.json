@@ -1,0 +1,130 @@
+{
+  "name": "Wandelweg",
+  "file": "wormerveer-brug-2cfd9a06.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    115189.98,
+    500074.61
+  ],
+  "xAxis": [
+    0.888563,
+    -0.458755
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 42.582,
+  "groundSamplePoints": [
+    [
+      -6,
+      0
+    ],
+    [
+      6,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0479.2cfd9a0606ba00ace0530a324301dbdb"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        115185.54,
+        500076.91
+      ],
+      "axis": [
+        -0.888563,
+        0.458755
+      ],
+      "halfLength": 3,
+      "halfWidth": 9.95,
+      "height": 42.734,
+      "gradient": [
+        -0.05061,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        115194.42,
+        500072.32
+      ],
+      "axis": [
+        0.888563,
+        -0.458755
+      ],
+      "halfLength": 3,
+      "halfWidth": 9.95,
+      "height": 42.735,
+      "gradient": [
+        -0.05,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0479.2cfd9a0606ba00ace0530a324301dbdb"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0479.2cfd9a0606ba00ace0530a324301dbdb",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/6606971",
+        "tags": {
+          "bicycle": "no",
+          "bridge": "yes",
+          "highway": "primary",
+          "layer": "1",
+          "maxspeed": "50",
+          "name": "Wandelweg",
+          "operator": "Gemeente Zaanstad",
+          "ref": "S152",
+          "zone:traffic": "NL:urban"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,500000,120000,520000 --run nl-5_10 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 4,
+      "dekBreedte": 15.9,
+      "brugLengte": 4,
+      "water": [
+        -1.5,
+        1.5
+      ],
+      "portaalhoogte": 14.3,
+      "opritafstand": [
+        4,
+        4
+      ],
+      "oprithelling": 6,
+      "doorstekend": [],
+      "opritHoogtes": [
+        42.582,
+        42.585
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}
