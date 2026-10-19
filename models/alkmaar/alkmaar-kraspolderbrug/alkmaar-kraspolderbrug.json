@@ -1,0 +1,138 @@
+{
+  "name": "Kraspolderbrug",
+  "file": "alkmaar-kraspolderbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    113512.03,
+    515430.68
+  ],
+  "xAxis": [
+    -0.520804,
+    0.853676
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 44.395,
+  "groundSamplePoints": [
+    [
+      -15.41,
+      0
+    ],
+    [
+      15.41,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "P0027.1cd9d135e7374114b20fa66ef2237ef1"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        113519.33,
+        515418.72
+      ],
+      "axis": [
+        0.520804,
+        -0.853676
+      ],
+      "halfLength": 7,
+      "halfWidth": 7.22,
+      "height": 45.223,
+      "gradient": [
+        -0.11816,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        113504.74,
+        515442.64
+      ],
+      "axis": [
+        -0.520804,
+        0.853676
+      ],
+      "halfLength": 7,
+      "halfWidth": 7.22,
+      "height": 45.9,
+      "gradient": [
+        -0.02142,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "P0027.1cd9d135e7374114b20fa66ef2237ef1"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "P0027.1cd9d135e7374114b20fa66ef2237ef1",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/595242523",
+        "tags": {
+          "bridge": "yes",
+          "covered": "no",
+          "highway": "busway",
+          "lanes": "2",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "50",
+          "name": "Kraspolderbrug",
+          "operator": "Provincie Noord-Holland",
+          "smoothness": "good",
+          "surface": "asphalt",
+          "man_made": "bridge"
+        }
+      },
+      "fis": {
+        "id": 54274,
+        "naam": "Kraspolderbrug",
+        "afstand": 15,
+        "beweegbaar": true,
+        "doorvaarthoogteGesloten": 2.75
+      },
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ophaalbrug",
+    "doorvaarthoogte": 2.75,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,500000,120000,520000 --run nl-5_10 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 14,
+      "dekBreedte": 10.4,
+      "brugLengte": 14,
+      "water": [
+        -6.5,
+        3.5
+      ],
+      "portaalhoogte": 9.4,
+      "opritafstand": [
+        8.4,
+        8.4
+      ],
+      "oprithelling": 14,
+      "doorstekend": [],
+      "opritHoogtes": [
+        44.395,
+        45.75
+      ]
+    },
+    "waarschuwingen": [
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

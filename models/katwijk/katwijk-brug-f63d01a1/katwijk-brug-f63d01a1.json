@@ -1,0 +1,163 @@
+{
+  "name": "Katwijkerbroek",
+  "file": "katwijk-brug-f63d01a1.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    89244.55,
+    466538.24
+  ],
+  "xAxis": [
+    0.742419,
+    -0.669936
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 43.683,
+  "groundSamplePoints": [
+    [
+      -24.49,
+      0
+    ],
+    [
+      24.49,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0537.f63d01a13ac842e480885181e0e53c37"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        89244.55,
+        466538.24
+      ],
+      "axis": [
+        0.742419,
+        -0.669936
+      ],
+      "halfLength": 5.57,
+      "halfWidth": 3.09,
+      "height": 42.838,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.64,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        89228.02,
+        466553.16
+      ],
+      "axis": [
+        -0.742419,
+        0.669936
+      ],
+      "halfLength": 11.13,
+      "halfWidth": 3.88,
+      "height": 43.988,
+      "gradient": [
+        -0.01347,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        89261.08,
+        466523.33
+      ],
+      "axis": [
+        0.742419,
+        -0.669936
+      ],
+      "halfLength": 11.13,
+      "halfWidth": 3.88,
+      "height": 43.911,
+      "gradient": [
+        -0.02045,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0537.f63d01a13ac842e480885181e0e53c37"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0537.f63d01a13ac842e480885181e0e53c37",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/7460061",
+        "tags": {
+          "bridge": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "name": "Katwijkerbroek",
+          "zone:traffic": "NL:urban"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,460000,100000,480000 --run nl-4_8 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 22.3,
+      "dekBreedte": 5.2,
+      "brugLengte": 22.3,
+      "water": [
+        -6.6,
+        6.4
+      ],
+      "portaalhoogte": 4.7,
+      "opritafstand": [
+        13.4,
+        13.4
+      ],
+      "oprithelling": 22.3,
+      "doorstekend": [
+        {
+          "gmlId": "G0537.1a85693530834e89903995f81ba39c93",
+          "klasse": "Terrain",
+          "oppervlak": 118.6,
+          "onderDek": 0.01,
+          "bovenDekOnderkant": 0.64,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0537.cdbb89ee8bf44461b9fe12787d489b7c",
+          "klasse": "Forest",
+          "oppervlak": 1267.1,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.54,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        43.838,
+        43.683
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

@@ -1,0 +1,161 @@
+{
+  "name": "Torenbrug",
+  "file": "emmeloord-torenbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    179269.25,
+    524595.96
+  ],
+  "xAxis": [
+    -0.95797,
+    -0.286869
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 38.456,
+  "groundSamplePoints": [
+    [
+      -42.33,
+      0
+    ],
+    [
+      41.4,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0171.0e18660411016e9ce0540012799ed965",
+    "G0171.0e18660411556e9ce0540012799ed965",
+    "G0171.0e18660411566e9ce0540012799ed965",
+    "G0171.0e186604119f6e9ce0540012799ed965",
+    "G0171.0e18660411a06e9ce0540012799ed965",
+    "G0171.0e18660411fd6e9ce0540012799ed965"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        179302.14,
+        524605.81
+      ],
+      "axis": [
+        0.95797,
+        0.286869
+      ],
+      "halfLength": 12,
+      "halfWidth": 3.13,
+      "height": 39.242,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        179237.25,
+        524586.38
+      ],
+      "axis": [
+        -0.95797,
+        -0.286869
+      ],
+      "halfLength": 12,
+      "halfWidth": 3.13,
+      "height": 38.924,
+      "gradient": [
+        -0.03901,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0171.0e18660411016e9ce0540012799ed965"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0171.0e18660411016e9ce0540012799ed965",
+          "type": "dek"
+        },
+        {
+          "id": "G0171.0e18660411556e9ce0540012799ed965",
+          "type": "landhoofd"
+        },
+        {
+          "id": "G0171.0e18660411566e9ce0540012799ed965",
+          "type": "landhoofd"
+        },
+        {
+          "id": "G0171.0e186604119f6e9ce0540012799ed965",
+          "type": "landhoofd"
+        },
+        {
+          "id": "G0171.0e18660411a06e9ce0540012799ed965",
+          "type": "landhoofd"
+        },
+        {
+          "id": "G0171.0e18660411fd6e9ce0540012799ed965",
+          "type": "pijler"
+        }
+      ],
+      "osm": {
+        "id": "way/585519986",
+        "tags": {
+          "bridge": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "mofa": "yes",
+          "moped": "no",
+          "sidewalk": "no",
+          "smoothness": "intermediate",
+          "surface": "asphalt",
+          "traffic_sign": "NL:G11",
+          "width": "4",
+          "zone:traffic": "NL:urban",
+          "area": "yes",
+          "bridge:structure": "cable-stayed",
+          "man_made": "bridge",
+          "name": "Torenbrug"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 6
+    },
+    "type": "tuibrug",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,520000,180000,540000 --run nl-8_11 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 34.9,
+      "dekBreedte": 4.2,
+      "brugLengte": 43.7,
+      "water": [
+        -15.3,
+        15.2
+      ],
+      "portaalhoogte": 3.8,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [],
+      "opritHoogtes": [
+        39.092,
+        38.456
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "tuibrug zonder BGT-pylonen: alleen het dek"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

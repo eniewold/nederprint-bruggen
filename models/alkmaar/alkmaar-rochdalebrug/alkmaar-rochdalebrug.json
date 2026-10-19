@@ -1,0 +1,130 @@
+{
+  "name": "Rochdalebrug",
+  "file": "alkmaar-rochdalebrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    111461.06,
+    515517.02
+  ],
+  "xAxis": [
+    -0.70261,
+    0.711575
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 43.2,
+  "groundSamplePoints": [
+    [
+      -9.14,
+      0
+    ],
+    [
+      9.14,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0361.8abeacd5439b75760000000a032d2cd1"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        111466.9,
+        515511.1
+      ],
+      "axis": [
+        0.70261,
+        -0.711575
+      ],
+      "halfLength": 4.16,
+      "halfWidth": 10.6,
+      "height": 43.683,
+      "gradient": [
+        -0.0361,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        111455.22,
+        515522.93
+      ],
+      "axis": [
+        -0.70261,
+        0.711575
+      ],
+      "halfLength": 4.16,
+      "halfWidth": 10.6,
+      "height": 43.517,
+      "gradient": [
+        -0.07618,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0361.8abeacd5439b75760000000a032d2cd1"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0361.8abeacd5439b75760000000a032d2cd1",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1389161686",
+        "tags": {
+          "bridge": "yes",
+          "bridge:name": "Rochdalebrug",
+          "highway": "residential",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Rochdalebrug",
+          "surface": "asphalt",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,500000,120000,520000 --run nl-5_10 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 8.3,
+      "dekBreedte": 17.2,
+      "brugLengte": 8.3,
+      "water": [
+        -3.7,
+        3.8
+      ],
+      "portaalhoogte": 15.5,
+      "opritafstand": [
+        5,
+        5
+      ],
+      "oprithelling": 8.3,
+      "doorstekend": [],
+      "opritHoogtes": [
+        43.533,
+        43.2
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

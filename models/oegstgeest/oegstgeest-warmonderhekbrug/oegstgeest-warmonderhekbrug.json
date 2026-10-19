@@ -1,0 +1,173 @@
+{
+  "name": "Warmonderhekbrug",
+  "file": "oegstgeest-warmonderhekbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    93636.18,
+    466987.42
+  ],
+  "xAxis": [
+    -0.644541,
+    -0.764569
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 45.03,
+  "groundSamplePoints": [
+    [
+      -17.78,
+      0
+    ],
+    [
+      17.78,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G1525.5bff414cffee4b46b02acba57efca620"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        93636.18,
+        466987.42
+      ],
+      "axis": [
+        -0.644541,
+        -0.764569
+      ],
+      "halfLength": 4.04,
+      "halfWidth": 7.28,
+      "height": 44.336,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.82,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        93646.6,
+        466999.78
+      ],
+      "axis": [
+        0.644541,
+        0.764569
+      ],
+      "halfLength": 8.08,
+      "halfWidth": 8.78,
+      "height": 45.333,
+      "gradient": [
+        -0.03749,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        93625.76,
+        466975.06
+      ],
+      "axis": [
+        -0.644541,
+        -0.764569
+      ],
+      "halfLength": 8.08,
+      "halfWidth": 8.78,
+      "height": 45.486,
+      "gradient": [
+        -0.01856,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G1525.5bff414cffee4b46b02acba57efca620"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G1525.5bff414cffee4b46b02acba57efca620",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/374087145",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "yes",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "50",
+          "name": "Warmonderhekbrug",
+          "man_made": "bridge",
+          "source:name": "BAG/BGT"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,460000,100000,480000 --run nl-4_8 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 16.2,
+      "dekBreedte": 13.6,
+      "brugLengte": 16.2,
+      "water": [
+        -7.1,
+        5.4
+      ],
+      "portaalhoogte": 12.2,
+      "opritafstand": [
+        9.7,
+        9.7
+      ],
+      "oprithelling": 16.2,
+      "doorstekend": [
+        {
+          "gmlId": "P0028.1fc0225d21844850b4a82a1a1bb645ec",
+          "klasse": "Terrain",
+          "oppervlak": 363.3,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.82,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "P0028.a23c6d7e86ac44449ef8e5377579e4f3",
+          "klasse": "Road",
+          "oppervlak": 6.5,
+          "onderDek": 0.28,
+          "bovenDekOnderkant": 0.8,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "P0028.6d3311099b384db19a640dc609dccb7b",
+          "klasse": "Terrain",
+          "oppervlak": 3.6,
+          "onderDek": 0.35,
+          "bovenDekOnderkant": 0.75,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        45.03,
+        45.336
+      ]
+    },
+    "waarschuwingen": [
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "3 PDOK-vorm(en) door het dek: 0 verborgen, 3 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

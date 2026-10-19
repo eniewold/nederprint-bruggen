@@ -1,0 +1,133 @@
+{
+  "name": "Rijnbrug",
+  "file": "katwijk-rijnbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    89184.5,
+    467395.71
+  ],
+  "xAxis": [
+    -0.992387,
+    -0.123161
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 44.443,
+  "groundSamplePoints": [
+    [
+      -24.65,
+      0
+    ],
+    [
+      24.65,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0537.1cfeeda046e94de58b88c622cdf25b1e"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        89206.73,
+        467398.47
+      ],
+      "axis": [
+        0.992387,
+        0.123161
+      ],
+      "halfLength": 11.2,
+      "halfWidth": 15.6,
+      "height": 44.626,
+      "gradient": [
+        -0.01634,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        89162.26,
+        467392.95
+      ],
+      "axis": [
+        -0.992387,
+        -0.123161
+      ],
+      "halfLength": 11.2,
+      "halfWidth": 15.6,
+      "height": 44.659,
+      "gradient": [
+        -0.01339,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0537.1cfeeda046e94de58b88c622cdf25b1e"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0537.1cfeeda046e94de58b88c622cdf25b1e",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/707333109",
+        "tags": {
+          "bicycle": "no",
+          "bridge": "yes",
+          "foot": "no",
+          "highway": "secondary",
+          "lanes": "3",
+          "lanes:backward": "2",
+          "layer": "1",
+          "maxspeed": "50",
+          "name": "Rijnbrug",
+          "turn:lanes:backward": "left|through;right",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,460000,100000,480000 --run nl-4_8 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 22.4,
+      "dekBreedte": 27.2,
+      "brugLengte": 22.4,
+      "water": [
+        -8.7,
+        7.8
+      ],
+      "portaalhoogte": 24.5,
+      "opritafstand": [
+        13.4,
+        13.4
+      ],
+      "oprithelling": 22.4,
+      "doorstekend": [],
+      "opritHoogtes": [
+        44.443,
+        44.509
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

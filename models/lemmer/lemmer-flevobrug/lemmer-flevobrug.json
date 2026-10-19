@@ -1,0 +1,200 @@
+{
+  "name": "Flevobrug",
+  "file": "lemmer-flevobrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    176558.94,
+    539844.53
+  ],
+  "xAxis": [
+    -0.021802,
+    0.999762
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 42.451,
+  "groundSamplePoints": [
+    [
+      -29.31,
+      0
+    ],
+    [
+      29.31,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G1940.13e807676b764349bc4c3c47d6afaf06",
+    "G1940.e5211b89bd5d4d218565b64b4e4d574c",
+    "G1940.55eca9fda4a54d399952d0d459d7bb23"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        176558.94,
+        539844.53
+      ],
+      "axis": [
+        -0.021802,
+        0.999762
+      ],
+      "halfLength": 7.32,
+      "halfWidth": 6.97,
+      "height": 41.499,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -2.01,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        176559.49,
+        539819.21
+      ],
+      "axis": [
+        0.021802,
+        -0.999762
+      ],
+      "halfLength": 12,
+      "halfWidth": 8.47,
+      "height": 42.649,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        176558.39,
+        539869.84
+      ],
+      "axis": [
+        -0.021802,
+        0.999762
+      ],
+      "halfLength": 12,
+      "halfWidth": 8.47,
+      "height": 42.625,
+      "gradient": [
+        -0.01452,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G1940.13e807676b764349bc4c3c47d6afaf06"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G1940.13e807676b764349bc4c3c47d6afaf06",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1453185125",
+        "tags": {
+          "bridge": "movable",
+          "bridge:movable": "bascule",
+          "cycleway:both": "no",
+          "highway": "residential",
+          "lane_markings": "no",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "30",
+          "maxweight:signed": "no",
+          "name": "Flevobrug",
+          "sidewalk": "both",
+          "surface": "asphalt",
+          "zone:maxspeed": "NL:30",
+          "bridge:structure": "beam",
+          "man_made": "bridge",
+          "start_date": "1954"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "basculebrug",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,520000,180000,540000 --run nl-8_11 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 26.6,
+      "dekBreedte": 12.9,
+      "brugLengte": 26.6,
+      "water": [
+        -4.8,
+        12.2
+      ],
+      "portaalhoogte": 11.6,
+      "opritafstand": [
+        16,
+        16
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G1940.e5211b89bd5d4d218565b64b4e4d574c",
+          "klasse": "Terrain",
+          "oppervlak": 1.5,
+          "onderDek": 1,
+          "bovenDekOnderkant": 1.03,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "G1940.e5865b3c86c547648013f3e93dcae989",
+          "klasse": "Road",
+          "oppervlak": 94.6,
+          "onderDek": 0.06,
+          "bovenDekOnderkant": 1.01,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G1940.65f72580caad4700bd617e8c8ca3466a",
+          "klasse": "Road",
+          "oppervlak": 48.9,
+          "onderDek": 0.37,
+          "bovenDekOnderkant": 0.92,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G1940.22b280d86ff04db8846e961d634904e8",
+          "klasse": "Road",
+          "oppervlak": 38.5,
+          "onderDek": 0.18,
+          "bovenDekOnderkant": 0.66,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G1940.55eca9fda4a54d399952d0d459d7bb23",
+          "klasse": "Terrain",
+          "oppervlak": 1.4,
+          "onderDek": 1,
+          "bovenDekOnderkant": 0.63,
+          "actie": "verbergen"
+        }
+      ],
+      "opritHoogtes": [
+        42.499,
+        42.451
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "5 PDOK-vorm(en) door het dek: 2 verborgen, 3 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

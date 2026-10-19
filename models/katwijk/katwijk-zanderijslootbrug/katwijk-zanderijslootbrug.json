@@ -1,0 +1,167 @@
+{
+  "name": "Zanderijslootbrug",
+  "file": "katwijk-zanderijslootbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    88881.08,
+    467492.9
+  ],
+  "xAxis": [
+    0.155425,
+    -0.987848
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 45.601,
+  "groundSamplePoints": [
+    [
+      -7.3,
+      0
+    ],
+    [
+      7.3,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "P0028.77788c7ffc7146db8ca081f0b71f253f"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        88881.08,
+        467492.9
+      ],
+      "axis": [
+        0.155425,
+        -0.987848
+      ],
+      "halfLength": 1.65,
+      "halfWidth": 15.27,
+      "height": 44.728,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.79,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        88880.06,
+        467499.42
+      ],
+      "axis": [
+        -0.155425,
+        0.987848
+      ],
+      "halfLength": 3.3,
+      "halfWidth": 16.77,
+      "height": 45.878,
+      "gradient": [
+        -0.04543,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        88882.11,
+        467486.38
+      ],
+      "axis": [
+        0.155425,
+        -0.987848
+      ],
+      "halfLength": 3.3,
+      "halfWidth": 16.77,
+      "height": 45.814,
+      "gradient": [
+        -0.06473,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "P0028.77788c7ffc7146db8ca081f0b71f253f"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "P0028.77788c7ffc7146db8ca081f0b71f253f",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/777429871",
+        "tags": {
+          "bicycle": "no",
+          "bridge": "yes",
+          "carriageway_ref": "Li",
+          "highway": "primary",
+          "lanes": "3",
+          "layer": "1",
+          "maxspeed": "50",
+          "noname": "yes",
+          "official_name": "Provinciale weg N206",
+          "oneway": "yes",
+          "operator": "Provincie Zuid-Holland",
+          "ref": "N206",
+          "surface": "asphalt",
+          "turn:lanes": "left|through|through",
+          "zone:traffic": "NL:rural",
+          "man_made": "bridge",
+          "name": "Zanderijslootbrug"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,460000,100000,480000 --run nl-4_8 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 6.6,
+      "dekBreedte": 29.5,
+      "brugLengte": 6.6,
+      "water": [
+        -1.3,
+        3.2
+      ],
+      "portaalhoogte": 26.6,
+      "opritafstand": [
+        4,
+        4
+      ],
+      "oprithelling": 6.6,
+      "doorstekend": [
+        {
+          "gmlId": "P0028.fdf03e00dca942249756ea6933951c65",
+          "klasse": "Terrain",
+          "oppervlak": 7.8,
+          "onderDek": 0.23,
+          "bovenDekOnderkant": 0.79,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        45.728,
+        45.601
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

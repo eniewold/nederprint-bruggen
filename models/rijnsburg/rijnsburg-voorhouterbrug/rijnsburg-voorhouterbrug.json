@@ -1,0 +1,166 @@
+{
+  "name": "Voorhouterbrug",
+  "file": "rijnsburg-voorhouterbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    90586.32,
+    467962.33
+  ],
+  "xAxis": [
+    0.131794,
+    0.991277
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 45.469,
+  "groundSamplePoints": [
+    [
+      -46.89,
+      0
+    ],
+    [
+      46.89,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0537.893778113f534e53aabd2cf15590d5e2"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        90586.32,
+        467962.33
+      ],
+      "axis": [
+        0.131794,
+        0.991277
+      ],
+      "halfLength": 20.89,
+      "halfWidth": 10.37,
+      "height": 44.729,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.06,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        90581.19,
+        467923.78
+      ],
+      "axis": [
+        -0.131794,
+        -0.991277
+      ],
+      "halfLength": 12,
+      "halfWidth": 11.87,
+      "height": 45.749,
+      "gradient": [
+        -0.02335,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        90591.44,
+        468000.87
+      ],
+      "axis": [
+        0.131794,
+        0.991277
+      ],
+      "halfLength": 12,
+      "halfWidth": 11.87,
+      "height": 45.879,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0537.893778113f534e53aabd2cf15590d5e2"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0537.893778113f534e53aabd2cf15590d5e2",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/886470143",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "yes",
+          "foot": "use_sidepath",
+          "hgv": "destination",
+          "highway": "tertiary",
+          "lanes": "2",
+          "layer": "1",
+          "maxspeed": "30",
+          "mofa": "use_sidepath",
+          "name": "Voorhouterbrug",
+          "man_made": "bridge"
+        }
+      },
+      "fis": {
+        "id": 10341,
+        "naam": "Voorhouterbrug",
+        "afstand": 7,
+        "beweegbaar": false,
+        "doorvaarthoogteGesloten": 2.56
+      },
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": 2.56,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,460000,100000,480000 --run nl-4_8 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 53.8,
+      "dekBreedte": 19.7,
+      "brugLengte": 53.8,
+      "water": [
+        -19.4,
+        19.1
+      ],
+      "portaalhoogte": 17.8,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0537.dd6b9e1a6d7e4df28421dfeb727fc30e",
+          "klasse": "Terrain",
+          "oppervlak": 2028.6,
+          "onderDek": 0.09,
+          "bovenDekOnderkant": 0.06,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        45.469,
+        45.729
+      ]
+    },
+    "waarschuwingen": [
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

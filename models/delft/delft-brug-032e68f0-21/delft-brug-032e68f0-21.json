@@ -1,0 +1,173 @@
+{
+  "name": "Vlakoverpad",
+  "file": "delft-brug-032e68f0-21.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    85547.62,
+    443406.89
+  ],
+  "xAxis": [
+    -0.268849,
+    0.963182
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 41.334,
+  "groundSamplePoints": [
+    [
+      -24.26,
+      0
+    ],
+    [
+      24.26,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0503.032e68f09c4d49cce0532ee22091b28c"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        85547.62,
+        443406.89
+      ],
+      "axis": [
+        -0.268849,
+        0.963182
+      ],
+      "halfLength": 5.51,
+      "halfWidth": 2.15,
+      "height": 40.732,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.63,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        85553.55,
+        443385.65
+      ],
+      "axis": [
+        0.268849,
+        -0.963182
+      ],
+      "halfLength": 11.03,
+      "halfWidth": 2.48,
+      "height": 41.683,
+      "gradient": [
+        -0.03167,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        85541.69,
+        443428.13
+      ],
+      "axis": [
+        -0.268849,
+        0.963182
+      ],
+      "halfLength": 11.03,
+      "halfWidth": 2.48,
+      "height": 41.882,
+      "gradient": [
+        -0.0136,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0503.032e68f09c4d49cce0532ee22091b28c"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0503.032e68f09c4d49cce0532ee22091b28c",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/130098542",
+        "tags": {
+          "bridge": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "name": "Vlakoverpad",
+          "oneway": "no",
+          "source": "gps",
+          "surface": "asphalt"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,440000,100000,460000 --run nl-4_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 22.1,
+      "dekBreedte": 3.3,
+      "brugLengte": 22.1,
+      "water": [
+        -3.5,
+        2.5
+      ],
+      "portaalhoogte": 3,
+      "opritafstand": [
+        13.2,
+        13.2
+      ],
+      "oprithelling": 22.1,
+      "doorstekend": [
+        {
+          "gmlId": "G0503.1e39c65c0dca4d68a070440b2f36e681",
+          "klasse": "Forest",
+          "oppervlak": 23.2,
+          "onderDek": 0.23,
+          "bovenDekOnderkant": 0.63,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0503.513275034cbc447bb01a396c30209d3c",
+          "klasse": "Terrain",
+          "oppervlak": 1362.6,
+          "onderDek": 0.01,
+          "bovenDekOnderkant": 0.32,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0503.06752550990c4c6d954773cd751d9111",
+          "klasse": "Terrain",
+          "oppervlak": 659.8,
+          "onderDek": 0.03,
+          "bovenDekOnderkant": 0.28,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        41.334,
+        41.732
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "3 PDOK-vorm(en) door het dek: 0 verborgen, 3 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

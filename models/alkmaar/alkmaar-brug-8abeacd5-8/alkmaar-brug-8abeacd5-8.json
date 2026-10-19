@@ -1,0 +1,180 @@
+{
+  "name": "Nijenburgerweg",
+  "file": "alkmaar-brug-8abeacd5-8.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    110914.95,
+    513271
+  ],
+  "xAxis": [
+    0.376967,
+    -0.926227
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 41.891,
+  "groundSamplePoints": [
+    [
+      -6.01,
+      0
+    ],
+    [
+      6.01,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0361.8abeacd54bdb7500047a8fdbc4a5fd84"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        110914.95,
+        513271
+      ],
+      "axis": [
+        0.376967,
+        -0.926227
+      ],
+      "halfLength": 1,
+      "halfWidth": 5.75,
+      "height": 41,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.72,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        110913.06,
+        513275.63
+      ],
+      "axis": [
+        -0.376967,
+        0.926227
+      ],
+      "halfLength": 3,
+      "halfWidth": 7.25,
+      "height": 42.15,
+      "gradient": [
+        -0.05,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        110916.83,
+        513266.36
+      ],
+      "axis": [
+        0.376967,
+        -0.926227
+      ],
+      "halfLength": 3,
+      "halfWidth": 7.25,
+      "height": 42.095,
+      "gradient": [
+        -0.06809,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0361.8abeacd54bdb7500047a8fdbc4a5fd84"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0361.8abeacd54bdb7500047a8fdbc4a5fd84",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/6601047",
+        "tags": {
+          "bridge": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "maxweight": "5",
+          "mofa": "designated",
+          "moped": "designated",
+          "motor_vehicle": "permit",
+          "name": "Nijenburgerweg",
+          "traffic_sign": "NL:G12a"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,500000,120000,520000 --run nl-5_10 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 4,
+      "dekBreedte": 10.5,
+      "brugLengte": 4,
+      "water": null,
+      "portaalhoogte": 9.5,
+      "opritafstand": [
+        4,
+        4
+      ],
+      "oprithelling": 6,
+      "doorstekend": [
+        {
+          "gmlId": "G0361.8abeacd5439b75760000000a0429232b",
+          "klasse": "Terrain",
+          "oppervlak": 48.3,
+          "onderDek": 0.05,
+          "bovenDekOnderkant": 0.72,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0361.8abeacd5439b75760000000a042101ef",
+          "klasse": "Road",
+          "oppervlak": 546.2,
+          "onderDek": 0.02,
+          "bovenDekOnderkant": 0.72,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0361.8abeacd54bdb7500047a9848d1b669c0",
+          "klasse": "Forest",
+          "oppervlak": 108.7,
+          "onderDek": 0.06,
+          "bovenDekOnderkant": 0.7,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0361.8abeacd54a6b7500047e91894f0a84b8",
+          "klasse": "Forest",
+          "oppervlak": 121.6,
+          "onderDek": 0.05,
+          "bovenDekOnderkant": 0.66,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        42,
+        41.891
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "4 PDOK-vorm(en) door het dek: 0 verborgen, 4 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

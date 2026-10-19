@@ -1,0 +1,156 @@
+{
+  "name": "Valkenburgseweg",
+  "file": "katwijk-brug-0f7a052f.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    89501.3,
+    466652.62
+  ],
+  "xAxis": [
+    0.033655,
+    -0.999433
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 44.541,
+  "groundSamplePoints": [
+    [
+      -6.55,
+      0
+    ],
+    [
+      6.55,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0537.0f7a052fa42e4f069ea5d0be44c6a9fb"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        89501.3,
+        466652.62
+      ],
+      "axis": [
+        0.033655,
+        -0.999433
+      ],
+      "halfLength": 1.27,
+      "halfWidth": 7.8,
+      "height": 43.552,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.93,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        89501.12,
+        466658.17
+      ],
+      "axis": [
+        -0.033655,
+        0.999433
+      ],
+      "halfLength": 3,
+      "halfWidth": 9.3,
+      "height": 44.696,
+      "gradient": [
+        -0.05191,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        89501.49,
+        466647.08
+      ],
+      "axis": [
+        0.033655,
+        -0.999433
+      ],
+      "halfLength": 3,
+      "halfWidth": 9.3,
+      "height": 44.702,
+      "gradient": [
+        -0.05,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0537.0f7a052fa42e4f069ea5d0be44c6a9fb"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0537.0f7a052fa42e4f069ea5d0be44c6a9fb",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/377710921",
+        "tags": {
+          "bridge": "yes",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Valkenburgseweg",
+          "zone:traffic": "NL:urban"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,460000,100000,480000 --run nl-4_8 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 5.1,
+      "dekBreedte": 14.6,
+      "brugLengte": 5.1,
+      "water": [
+        -2,
+        0.5
+      ],
+      "portaalhoogte": 13.1,
+      "opritafstand": [
+        4,
+        4
+      ],
+      "oprithelling": 6,
+      "doorstekend": [
+        {
+          "gmlId": "W0616.df505a637a244a7b939e4bcffcfc461b",
+          "klasse": "Terrain",
+          "oppervlak": 79.1,
+          "onderDek": 0.09,
+          "bovenDekOnderkant": 0.93,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        44.541,
+        44.552
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

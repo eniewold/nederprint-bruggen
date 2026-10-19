@@ -1,0 +1,195 @@
+{
+  "name": "HSL-Zuid",
+  "file": "rotterdam-brug-9508328b.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    91835.32,
+    443371.65
+  ],
+  "xAxis": [
+    0.462301,
+    0.886723
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 42.079,
+  "groundSamplePoints": [
+    [
+      -8.76,
+      0
+    ],
+    [
+      8.76,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "L0004.9508328bf85f4c40af34ad80ccda00bf",
+    "L0004.96cba2d2109f4bec91bb84811f19a295"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        91835.32,
+        443371.65
+      ],
+      "axis": [
+        0.462301,
+        0.886723
+      ],
+      "halfLength": 4.38,
+      "halfWidth": 8.06,
+      "height": 40.892,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -2,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        91827.22,
+        443356.1
+      ],
+      "axis": [
+        -0.462301,
+        -0.886723
+      ],
+      "halfLength": 8.76,
+      "halfWidth": 9.56,
+      "height": 42.136,
+      "gradient": [
+        -0.00645,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        91843.42,
+        443387.18
+      ],
+      "axis": [
+        0.462301,
+        0.886723
+      ],
+      "halfLength": 8.76,
+      "halfWidth": 9.56,
+      "height": 42.192,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "L0004.9508328bf85f4c40af34ad80ccda00bf"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "L0004.9508328bf85f4c40af34ad80ccda00bf",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/465779320",
+        "tags": {
+          "bridge": "yes",
+          "description": "Rotterdam Westelijke Splitsing - Nieuw Vennep",
+          "electrified": "contact_line",
+          "frequency": "50",
+          "gauge": "1435",
+          "highspeed": "yes",
+          "layer": "1",
+          "loading_gauge": "TSI_GC",
+          "maxspeed": "250",
+          "name": "HSL-Zuid",
+          "operator": "Infraspeed",
+          "passenger_lines": "2",
+          "railway": "rail",
+          "railway:atb": "no",
+          "railway:atb-eg": "no",
+          "railway:atb-ng": "no",
+          "railway:etcs": "2",
+          "railway:maximum_current": "500",
+          "railway:track_class": "D2",
+          "railway:traffic_mode": "passenger",
+          "ref": "166",
+          "ref:ProRailID": "2893433.0",
+          "ref:ProRailSpoortak": "114_393BV_53.9",
+          "source": "ProRail",
+          "source:date": "2014-01-03",
+          "usage": "main",
+          "voltage": "25000",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,440000,100000,460000 --run nl-4_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 17.5,
+      "dekBreedte": 15.1,
+      "brugLengte": 17.5,
+      "water": [
+        -3.3,
+        -2.3
+      ],
+      "portaalhoogte": 13.6,
+      "opritafstand": [
+        0,
+        0
+      ],
+      "spoorhoogteBron": "prorail-pvs",
+      "oprithelling": 17.5,
+      "doorstekend": [
+        {
+          "gmlId": "L0004.bab640922f604546b68399edae383426",
+          "klasse": "Forest",
+          "oppervlak": 2654.2,
+          "onderDek": 0,
+          "bovenDekOnderkant": 1,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "L0004.96cba2d2109f4bec91bb84811f19a295",
+          "klasse": "Forest",
+          "oppervlak": 9.9,
+          "onderDek": 0.77,
+          "bovenDekOnderkant": 0.76,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "L0004.78ea8920b67e429faca6f2181341af15",
+          "klasse": "Forest",
+          "oppervlak": 6541.5,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.17,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        42.079,
+        42.192
+      ]
+    },
+    "waarschuwingen": [
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "3 PDOK-vorm(en) door het dek: 1 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}
