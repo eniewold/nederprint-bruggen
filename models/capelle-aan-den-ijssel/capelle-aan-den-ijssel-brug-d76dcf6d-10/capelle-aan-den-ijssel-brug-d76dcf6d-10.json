@@ -1,0 +1,171 @@
+{
+  "name": "Beatrijs erf",
+  "file": "capelle-aan-den-ijssel-brug-d76dcf6d-10.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    99076.39,
+    440540.66
+  ],
+  "xAxis": [
+    0.995368,
+    0.096137
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 38.298,
+  "groundSamplePoints": [
+    [
+      -23.77,
+      0
+    ],
+    [
+      23.77,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0502.d76dcf6d57466d97e053060b19aca6b7",
+    "G0502.1d2e2604d4a31102e0531f050e0a4efd",
+    "G0502.1d2e26049bf41102e0531f050e0a4efd"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        99076.39,
+        440540.66
+      ],
+      "axis": [
+        0.995368,
+        0.096137
+      ],
+      "halfLength": 5.4,
+      "halfWidth": 13.64,
+      "height": 37.315,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.84,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        99054.88,
+        440538.58
+      ],
+      "axis": [
+        -0.995368,
+        -0.096137
+      ],
+      "halfLength": 10.8,
+      "halfWidth": 15.14,
+      "height": 38.457,
+      "gradient": [
+        -0.01467,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        99097.89,
+        440542.74
+      ],
+      "axis": [
+        0.995368,
+        0.096137
+      ],
+      "halfLength": 10.8,
+      "halfWidth": 15.14,
+      "height": 38.465,
+      "gradient": [
+        -0.01388,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0502.d76dcf6d57466d97e053060b19aca6b7"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0502.d76dcf6d57466d97e053060b19aca6b7",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/7309051",
+        "tags": {
+          "bridge": "yes",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "50",
+          "name": "Beatrijs erf"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,440000,100000,460000 --run nl-4_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 21.6,
+      "dekBreedte": 26.3,
+      "brugLengte": 21.6,
+      "water": null,
+      "portaalhoogte": 23.7,
+      "opritafstand": [
+        13,
+        13
+      ],
+      "oprithelling": 21.6,
+      "doorstekend": [
+        {
+          "gmlId": "G0502.b179fcdd06b46719e053060b19ac2e49",
+          "klasse": "Terrain",
+          "oppervlak": 926.8,
+          "onderDek": 0.17,
+          "bovenDekOnderkant": 0.84,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0502.1d2e2604d4a31102e0531f050e0a4efd",
+          "klasse": "Terrain",
+          "oppervlak": 43,
+          "onderDek": 1,
+          "bovenDekOnderkant": 0.75,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "G0502.1d2e26049bf41102e0531f050e0a4efd",
+          "klasse": "Road",
+          "oppervlak": 2.3,
+          "onderDek": 1,
+          "bovenDekOnderkant": 0.72,
+          "actie": "verbergen"
+        }
+      ],
+      "opritHoogtes": [
+        38.298,
+        38.315
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "3 PDOK-vorm(en) door het dek: 2 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

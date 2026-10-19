@@ -1,0 +1,180 @@
+{
+  "name": "Oude Rijn",
+  "file": "leiderdorp-brug-981e97b2.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    95942.52,
+    462528.1
+  ],
+  "xAxis": [
+    -0.27494,
+    0.961461
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 43.607,
+  "groundSamplePoints": [
+    [
+      -52.64,
+      0
+    ],
+    [
+      52.64,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0547.981e97b2d2604f32bdc76a479d337b54",
+    "L0002.48accffad3214c988b2611095c672847"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        95942.52,
+        462528.1
+      ],
+      "axis": [
+        -0.27494,
+        0.961461
+      ],
+      "halfLength": 26.64,
+      "halfWidth": 19.48,
+      "height": 43.047,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -2.48,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        95954.8,
+        462485.18
+      ],
+      "axis": [
+        0.27494,
+        -0.961461
+      ],
+      "halfLength": 12,
+      "halfWidth": 20.98,
+      "height": 44.197,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        95930.25,
+        462571.02
+      ],
+      "axis": [
+        -0.27494,
+        0.961461
+      ],
+      "halfLength": 12,
+      "halfWidth": 20.98,
+      "height": 43.977,
+      "gradient": [
+        -0.03082,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0547.981e97b2d2604f32bdc76a479d337b54"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0547.981e97b2d2604f32bdc76a479d337b54",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/639174625",
+        "tags": {
+          "CEMT": "III",
+          "boat": "yes",
+          "bridge": "aqueduct",
+          "maxspeed": "12",
+          "name": "Oude Rijn",
+          "seamark:exceptional_structure:category": "aqueduct",
+          "seamark:type": "exceptional_structure",
+          "waterway": "river"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,460000,100000,480000 --run nl-4_8 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 65.3,
+      "dekBreedte": 38,
+      "brugLengte": 65.3,
+      "water": null,
+      "portaalhoogte": 34.2,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "L0002.48accffad3214c988b2611095c672847",
+          "klasse": "Road",
+          "oppervlak": 1433.7,
+          "onderDek": 0.7,
+          "bovenDekOnderkant": 4.06,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "L0002.721f6b5fb97c4f739a1945415f1c6d8f",
+          "klasse": "Road",
+          "oppervlak": 3173.9,
+          "onderDek": 0.6,
+          "bovenDekOnderkant": 1.48,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "L0002.0a388b4c123f4010832667d4389a129a",
+          "klasse": "Separation",
+          "oppervlak": 507.2,
+          "onderDek": 0.04,
+          "bovenDekOnderkant": 0.85,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "L0002.bd99b30edd3546f38a105a9546a161bf",
+          "klasse": "Separation",
+          "oppervlak": 151.2,
+          "onderDek": 0.66,
+          "bovenDekOnderkant": 0.79,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        44.047,
+        43.607
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "4 PDOK-vorm(en) door het dek: 1 verborgen, 3 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

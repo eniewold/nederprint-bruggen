@@ -1,0 +1,184 @@
+{
+  "name": "Teugeweg",
+  "file": "rotterdam-brug-349a8ced.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    91156.93,
+    441673.41
+  ],
+  "xAxis": [
+    -0.275019,
+    -0.961439
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 29.918,
+  "groundSamplePoints": [
+    [
+      -4.44,
+      0
+    ],
+    [
+      4.44,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "L0004.349a8ced65ab4f9eb7ac8ccaa4e970bb"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        91156.93,
+        441673.41
+      ],
+      "axis": [
+        -0.275019,
+        -0.961439
+      ],
+      "halfLength": 0.22,
+      "halfWidth": 6.62,
+      "height": 28.972,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -7.15,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        91157.88,
+        441676.72
+      ],
+      "axis": [
+        0.275019,
+        0.961439
+      ],
+      "halfLength": 3,
+      "halfWidth": 8.12,
+      "height": 30.122,
+      "gradient": [
+        -0.05,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        91155.99,
+        441670.1
+      ],
+      "axis": [
+        -0.275019,
+        -0.961439
+      ],
+      "halfLength": 3,
+      "halfWidth": 8.12,
+      "height": 30.095,
+      "gradient": [
+        -0.05895,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "L0004.349a8ced65ab4f9eb7ac8ccaa4e970bb"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "L0004.349a8ced65ab4f9eb7ac8ccaa4e970bb",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/462170271",
+        "tags": {
+          "bridge": "yes",
+          "foot": "yes",
+          "highway": "unclassified",
+          "lane_markings": "no",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "50",
+          "maxweight:signed": "no",
+          "name": "Teugeweg",
+          "surface": "paving_stones",
+          "zone:traffic": "NL:urban",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,440000,100000,460000 --run nl-4_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 0.9,
+      "dekBreedte": 12.2,
+      "brugLengte": 0.9,
+      "water": null,
+      "portaalhoogte": 11,
+      "opritafstand": [
+        4,
+        4
+      ],
+      "oprithelling": 6,
+      "doorstekend": [
+        {
+          "gmlId": "L0004.f05e5a10adb15655e0530b29a8c0b415",
+          "klasse": "Terrain",
+          "oppervlak": 418.5,
+          "onderDek": 0,
+          "bovenDekOnderkant": 6.15,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "L0004.f05e5a10aefa5655e0530b29a8c0b415",
+          "klasse": "Terrain",
+          "oppervlak": 184.3,
+          "onderDek": 0,
+          "bovenDekOnderkant": 1.61,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "L0004.f05e5a10ae275655e0530b29a8c0b415",
+          "klasse": "Terrain",
+          "oppervlak": 214,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.93,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "L0004.5c5765b1596d497986a1dbfad250edd7",
+          "klasse": "Terrain",
+          "oppervlak": 516.7,
+          "onderDek": 0.01,
+          "bovenDekOnderkant": 0.67,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        29.972,
+        29.918
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "4 PDOK-vorm(en) door het dek: 0 verborgen, 4 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

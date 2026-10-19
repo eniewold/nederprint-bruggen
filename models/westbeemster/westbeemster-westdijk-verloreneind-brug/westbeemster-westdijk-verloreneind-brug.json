@@ -1,0 +1,134 @@
+{
+  "name": "Westdijk Verloreneind brug",
+  "file": "westbeemster-westdijk-verloreneind-brug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    117595.6,
+    506007.62
+  ],
+  "xAxis": [
+    0.915235,
+    -0.402921
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 44.041,
+  "groundSamplePoints": [
+    [
+      -7.27,
+      0
+    ],
+    [
+      7.27,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0370.8abeacd5439b757600000000a014959e"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        117589.62,
+        506010.25
+      ],
+      "axis": [
+        -0.915235,
+        0.402921
+      ],
+      "halfLength": 3.27,
+      "halfWidth": 8.81,
+      "height": 44.284,
+      "gradient": [
+        -0.07428,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        117601.58,
+        506004.99
+      ],
+      "axis": [
+        0.915235,
+        -0.402921
+      ],
+      "halfLength": 3.27,
+      "halfWidth": 8.81,
+      "height": 44.377,
+      "gradient": [
+        -0.04591,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0370.8abeacd5439b757600000000a014959e"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0370.8abeacd5439b757600000000a014959e",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/6600143",
+        "tags": {
+          "bridge": "yes",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Westdijk",
+          "smoothness": "good",
+          "surface": "asphalt"
+        }
+      },
+      "fis": {
+        "id": 51165,
+        "naam": "Westdijk Verloreneind brug",
+        "afstand": 2,
+        "beweegbaar": false,
+        "doorvaarthoogteGesloten": 2.4
+      },
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": 2.4,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,500000,120000,520000 --run nl-5_10 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 6.5,
+      "dekBreedte": 13.6,
+      "brugLengte": 6.5,
+      "water": [
+        -2.8,
+        2.7
+      ],
+      "portaalhoogte": 12.3,
+      "opritafstand": [
+        4,
+        4
+      ],
+      "oprithelling": 6.5,
+      "doorstekend": [],
+      "opritHoogtes": [
+        44.041,
+        44.227
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

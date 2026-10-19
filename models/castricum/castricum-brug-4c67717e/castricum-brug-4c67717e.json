@@ -1,0 +1,176 @@
+{
+  "name": "Zeeweg",
+  "file": "castricum-brug-4c67717e.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    106150.24,
+    508568.66
+  ],
+  "xAxis": [
+    0.999305,
+    -0.03728
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 50.128,
+  "groundSamplePoints": [
+    [
+      -36.21,
+      0
+    ],
+    [
+      36.21,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "P0027.4c67717e1f704dd5b359f80110351b72"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        106150.24,
+        508568.66
+      ],
+      "axis": [
+        0.999305,
+        -0.03728
+      ],
+      "halfLength": 10.46,
+      "halfWidth": 7.53,
+      "height": 49.261,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.96,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        106121.81,
+        508569.72
+      ],
+      "axis": [
+        -0.999305,
+        0.03728
+      ],
+      "halfLength": 12,
+      "halfWidth": 9.03,
+      "height": 50.411,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        106178.68,
+        508567.6
+      ],
+      "axis": [
+        0.999305,
+        -0.03728
+      ],
+      "halfLength": 12,
+      "halfWidth": 9.03,
+      "height": 50.344,
+      "gradient": [
+        -0.01804,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "P0027.4c67717e1f704dd5b359f80110351b72"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "P0027.4c67717e1f704dd5b359f80110351b72",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/6634421",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "yes",
+          "foot": "use_sidepath",
+          "highway": "secondary",
+          "layer": "1",
+          "maxspeed": "80",
+          "maxweight:signed": "no",
+          "mofa": "use_sidepath",
+          "moped": "use_sidepath",
+          "name": "Zeeweg",
+          "operator": "Provincie Noord-Holland",
+          "ref": "N513",
+          "surface": "asphalt"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,500000,120000,520000 --run nl-5_10 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 32.9,
+      "dekBreedte": 14.1,
+      "brugLengte": 32.9,
+      "water": null,
+      "portaalhoogte": 12.6,
+      "opritafstand": [
+        19.8,
+        19.8
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "P0027.34e0abdccd534e10aac5aa5587f95ac6",
+          "klasse": "Terrain",
+          "oppervlak": 347.5,
+          "onderDek": 0.23,
+          "bovenDekOnderkant": 0.96,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "P0027.114dc8e4670843879f2db9389c7d7b10",
+          "klasse": "Terrain",
+          "oppervlak": 368.9,
+          "onderDek": 0.28,
+          "bovenDekOnderkant": 0.88,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "P0027.a31d53720a9e46f8816f544d034abd72",
+          "klasse": "Separation",
+          "oppervlak": 1.5,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.43,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        50.261,
+        50.128
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "3 PDOK-vorm(en) door het dek: 0 verborgen, 3 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

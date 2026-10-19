@@ -1,0 +1,136 @@
+{
+  "name": "Hofpleinlijn",
+  "file": "rotterdam-brug-16fd0171-81.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    91418.69,
+    441199.6
+  ],
+  "xAxis": [
+    -0.031043,
+    -0.999518
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 39.664,
+  "groundSamplePoints": [
+    [
+      -19.11,
+      2.19
+    ],
+    [
+      109.04,
+      -1.31
+    ]
+  ],
+  "replacesTerrain": [
+    "G0599.16fd0171152e8cac9e050210a7e24119"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        91419.26,
+        441217.78
+      ],
+      "axis": [
+        0.031043,
+        0.999518
+      ],
+      "halfLength": 9.08,
+      "halfWidth": 7.46,
+      "height": 39.834,
+      "gradient": [
+        -0.01652,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        91418.13,
+        441181.49
+      ],
+      "axis": [
+        -0.031043,
+        -0.999518
+      ],
+      "halfLength": 9.08,
+      "halfWidth": 7.46,
+      "height": 39.824,
+      "gradient": [
+        -0.0176,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0599.16fd0171152e8cac9e050210a7e24119"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0599.16fd0171152e8cac9e050210a7e24119",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/207188653",
+        "tags": {
+          "bridge": "yes",
+          "description": "Metrolijn E",
+          "electrified": "contact_line",
+          "frequency": "0",
+          "gauge": "1435",
+          "layer": "1",
+          "maxspeed": "80",
+          "name": "Hofpleinlijn",
+          "oneway": "yes",
+          "operator": "RET",
+          "railway": "light_rail",
+          "railway:zub222c": "yes",
+          "ref": "E",
+          "voltage": "750",
+          "width": "3.4"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,440000,100000,460000 --run nl-4_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 18.2,
+      "dekBreedte": 10.9,
+      "brugLengte": 18.2,
+      "water": null,
+      "portaalhoogte": 9.8,
+      "opritafstand": [
+        10,
+        100
+      ],
+      "spoorhoogteBron": "pdok",
+      "oprithelling": 18.2,
+      "doorstekend": [],
+      "opritHoogtes": [
+        39.684,
+        39.664
+      ]
+    },
+    "waarschuwingen": [
+      "oprit -: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "oprit +: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "oprit + pas op 100 m langs het spoor gemeten (PDOK-spoorterrein bij de brug lager)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

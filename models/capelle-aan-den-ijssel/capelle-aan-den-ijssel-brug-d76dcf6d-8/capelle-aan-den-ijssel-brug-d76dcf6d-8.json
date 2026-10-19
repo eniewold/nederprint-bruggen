@@ -1,0 +1,160 @@
+{
+  "name": "capelle-aan-den-ijssel-brug-d76dcf6d-8",
+  "file": "capelle-aan-den-ijssel-brug-d76dcf6d-8.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    99084.75,
+    440461.49
+  ],
+  "xAxis": [
+    -0.101005,
+    0.994886
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 38.248,
+  "groundSamplePoints": [
+    [
+      -24.52,
+      0
+    ],
+    [
+      24.52,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0502.d76dcf6d57446d97e053060b19aca6b7",
+    "G0502.1d2e260473ea1102e0531f050e0a4efd"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        99084.75,
+        440461.49
+      ],
+      "axis": [
+        -0.101005,
+        0.994886
+      ],
+      "halfLength": 5.57,
+      "halfWidth": 11.55,
+      "height": 37.548,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.57,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        99087,
+        440439.31
+      ],
+      "axis": [
+        0.101005,
+        -0.994886
+      ],
+      "halfLength": 11.15,
+      "halfWidth": 13.05,
+      "height": 38.698,
+      "gradient": [
+        -0.01346,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        99082.5,
+        440483.67
+      ],
+      "axis": [
+        -0.101005,
+        0.994886
+      ],
+      "halfLength": 11.15,
+      "halfWidth": 13.05,
+      "height": 38.548,
+      "gradient": [
+        -0.02691,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0502.d76dcf6d57446d97e053060b19aca6b7"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0502.d76dcf6d57446d97e053060b19aca6b7",
+          "type": "dek"
+        }
+      ],
+      "osm": null,
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,440000,100000,460000 --run nl-4_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 22.3,
+      "dekBreedte": 22.1,
+      "brugLengte": 22.3,
+      "water": null,
+      "portaalhoogte": 19.9,
+      "opritafstand": [
+        13.4,
+        13.4
+      ],
+      "oprithelling": 22.3,
+      "doorstekend": [
+        {
+          "gmlId": "G0502.1d2e260473ea1102e0531f050e0a4efd",
+          "klasse": "Terrain",
+          "oppervlak": 75,
+          "onderDek": 1,
+          "bovenDekOnderkant": 0.66,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "G0502.1d2e26052b3c1102e0531f050e0a4efd",
+          "klasse": "Forest",
+          "oppervlak": 75.6,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.57,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0502.1d2e26052f7e1102e0531f050e0a4efd",
+          "klasse": "Road",
+          "oppervlak": 753.6,
+          "onderDek": 0.08,
+          "bovenDekOnderkant": 0.45,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        38.548,
+        38.248
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "3 PDOK-vorm(en) door het dek: 1 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

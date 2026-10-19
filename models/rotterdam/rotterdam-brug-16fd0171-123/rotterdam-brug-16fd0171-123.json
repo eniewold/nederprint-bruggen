@@ -1,0 +1,186 @@
+{
+  "name": "Hofpleinlijn",
+  "file": "rotterdam-brug-16fd0171-123.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    91441.38,
+    442341.98
+  ],
+  "xAxis": [
+    -0.009081,
+    -0.999959
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 39.514,
+  "groundSamplePoints": [
+    [
+      -95.49,
+      0
+    ],
+    [
+      45.5,
+      1.2
+    ]
+  ],
+  "replacesTerrain": [
+    "G0599.16fd017112571cac9e050210a7e24119"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        91441.38,
+        442341.98
+      ],
+      "axis": [
+        -0.009081,
+        -0.999959
+      ],
+      "halfLength": 2.75,
+      "halfWidth": 6.43,
+      "height": 38.546,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.85,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        91441.48,
+        442352.97
+      ],
+      "axis": [
+        0.009081,
+        0.999959
+      ],
+      "halfLength": 5.5,
+      "halfWidth": 7.93,
+      "height": 39.696,
+      "gradient": [
+        -0.0273,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        91441.28,
+        442330.99
+      ],
+      "axis": [
+        -0.009081,
+        -0.999959
+      ],
+      "halfLength": 5.5,
+      "halfWidth": 7.93,
+      "height": 39.68,
+      "gradient": [
+        -0.03025,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0599.16fd017112571cac9e050210a7e24119"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0599.16fd017112571cac9e050210a7e24119",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/818596755",
+        "tags": {
+          "bridge": "yes",
+          "description": "Metrolijn E",
+          "designated_direction": "forward",
+          "electrified": "contact_line",
+          "frequency": "0",
+          "gauge": "1435",
+          "layer": "1",
+          "maxspeed": "100",
+          "name": "Hofpleinlijn",
+          "operator": "RET",
+          "railway": "light_rail",
+          "railway:track_ref": "2",
+          "railway:zub222c": "yes",
+          "ref": "E",
+          "voltage": "750",
+          "width": "3.4"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,440000,100000,460000 --run nl-4_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 11,
+      "dekBreedte": 11.9,
+      "brugLengte": 11,
+      "water": [
+        -2,
+        2
+      ],
+      "portaalhoogte": 10.7,
+      "opritafstand": [
+        90,
+        40
+      ],
+      "spoorhoogteBron": "pdok",
+      "oprithelling": 11,
+      "doorstekend": [
+        {
+          "gmlId": "G0599.16fca6c88c1986560e050210a7e247d7",
+          "klasse": "Forest",
+          "oppervlak": 2111.6,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.85,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0599.170ade24496ac2d73e050210a7e24429",
+          "klasse": "Road",
+          "oppervlak": 12246.5,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.66,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0599.16fca6c88c1976560e050210a7e247d7",
+          "klasse": "Forest",
+          "oppervlak": 16861.5,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.64,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        39.546,
+        39.514
+      ]
+    },
+    "waarschuwingen": [
+      "oprit -: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "oprit - pas op 90 m langs het spoor gemeten (PDOK-spoorterrein bij de brug lager)",
+      "oprit +: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "oprit + pas op 40 m langs het spoor gemeten (PDOK-spoorterrein bij de brug lager)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "3 PDOK-vorm(en) door het dek: 0 verborgen, 3 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

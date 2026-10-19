@@ -1,0 +1,194 @@
+{
+  "name": "Molentochtbrug",
+  "file": "rotterdam-molentochtbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    87335.81,
+    441296.56
+  ],
+  "xAxis": [
+    0.227776,
+    0.973714
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 42.104,
+  "groundSamplePoints": [
+    [
+      -43.41,
+      0
+    ],
+    [
+      43.41,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0599.16fd016ff210ccac9e050210a7e24119",
+    "G0599.16fd016ff210dcac9e050210a7e24119",
+    "G0599.16fd016ff210ecac9e050210a7e24119",
+    "G0599.16fd017009f2ecac9e050210a7e24119",
+    "G0599.d7ae09c6672149549fe4617faab3d0c6",
+    "G0599.e8b9a6372d2b435b872166bba3a009fc"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        87335.81,
+        441296.56
+      ],
+      "axis": [
+        0.227776,
+        0.973714
+      ],
+      "halfLength": 17.41,
+      "halfWidth": 6.29,
+      "height": 41.651,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.7,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        87327.75,
+        441262.08
+      ],
+      "axis": [
+        -0.227776,
+        -0.973714
+      ],
+      "halfLength": 12,
+      "halfWidth": 7.79,
+      "height": 42.527,
+      "gradient": [
+        -0.03528,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        87343.87,
+        441331.03
+      ],
+      "axis": [
+        0.227776,
+        0.973714
+      ],
+      "halfLength": 12,
+      "halfWidth": 7.79,
+      "height": 42.801,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0599.16fd017009f2ecac9e050210a7e24119"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0599.16fd016ff210ccac9e050210a7e24119",
+          "type": "pijler"
+        },
+        {
+          "id": "G0599.16fd016ff210dcac9e050210a7e24119",
+          "type": "pijler"
+        },
+        {
+          "id": "G0599.16fd016ff210ecac9e050210a7e24119",
+          "type": "pijler"
+        },
+        {
+          "id": "G0599.16fd017009f2ecac9e050210a7e24119",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "relation/16926656",
+        "tags": {
+          "bridge": "yes",
+          "bridge:name": "Molentochtbrug",
+          "highway": "tertiary",
+          "lane_markings": "no",
+          "layer": "1",
+          "maxspeed": "60",
+          "maxweight:signed": "no",
+          "name": "Molentochtbrug",
+          "surface": "paving_stones",
+          "zone:traffic": "NL:rural",
+          "man_made": "bridge",
+          "wikidata": "Q107124187"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 4
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,440000,100000,460000 --run nl-4_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 46.8,
+      "dekBreedte": 11.6,
+      "brugLengte": 46.8,
+      "water": [
+        -10.9,
+        10.6
+      ],
+      "portaalhoogte": 10.4,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0599.d7ae09c6672149549fe4617faab3d0c6",
+          "klasse": "Terrain",
+          "oppervlak": 76.8,
+          "onderDek": 0.79,
+          "bovenDekOnderkant": 0.8,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "G0599.e8b9a6372d2b435b872166bba3a009fc",
+          "klasse": "Terrain",
+          "oppervlak": 74.8,
+          "onderDek": 0.73,
+          "bovenDekOnderkant": 0.71,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "G0599.aaaa86f63e454f61a7a9dd6bb4fa8216",
+          "klasse": "Forest",
+          "oppervlak": 3572.7,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.7,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        42.104,
+        42.651
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "3 PDOK-vorm(en) door het dek: 2 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

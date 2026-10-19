@@ -1,0 +1,175 @@
+{
+  "name": "Rijksstraatweg",
+  "file": "wassenaar-brug-c45e6c80.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    90062.99,
+    463113.59
+  ],
+  "xAxis": [
+    0.746136,
+    0.665794
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 44.163,
+  "groundSamplePoints": [
+    [
+      -49.1,
+      0
+    ],
+    [
+      49.12,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "L0002.259eea14a5514961b05035cdd2c13397",
+    "L0002.8d06b85055c04f62909d57fcc3b30b9f",
+    "L0002.c45e6c8035af4cf48c89ec781bef06b7"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        90062.99,
+        463113.59
+      ],
+      "axis": [
+        0.746136,
+        0.665794
+      ],
+      "halfLength": 20.27,
+      "halfWidth": 17.39,
+      "height": 43.215,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.44,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        90032.32,
+        463086.22
+      ],
+      "axis": [
+        -0.746136,
+        -0.665794
+      ],
+      "halfLength": 12,
+      "halfWidth": 18.89,
+      "height": 44.365,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        90093.66,
+        463140.96
+      ],
+      "axis": [
+        0.746136,
+        0.665794
+      ],
+      "halfLength": 12,
+      "halfWidth": 18.89,
+      "height": 44.339,
+      "gradient": [
+        -0.01467,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "L0002.c45e6c8035af4cf48c89ec781bef06b7"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "L0002.259eea14a5514961b05035cdd2c13397",
+          "type": "onbekend"
+        },
+        {
+          "id": "L0002.8d06b85055c04f62909d57fcc3b30b9f",
+          "type": "onbekend"
+        },
+        {
+          "id": "L0002.c45e6c8035af4cf48c89ec781bef06b7",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/836948107",
+        "tags": {
+          "bridge": "yes",
+          "bridge:structure": "beam",
+          "carriageway_ref": "Li",
+          "highway": "motorway",
+          "lanes": "2",
+          "layer": "1",
+          "maxspeed": "100",
+          "maxspeed:conditional": "120 @ (19:00-06:00)",
+          "name": "Rijksstraatweg",
+          "oneway": "yes",
+          "operator": "Rijkswaterstaat",
+          "overtaking:hgv:conditional": "no @ (Mo-Fr 06:00-10:00,15:00-19:00)",
+          "owner": "Staat der Nederlanden",
+          "ref": "A44",
+          "surface": "asphalt",
+          "toll:hgv": "yes",
+          "zone:traffic": "NL:rural",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 3
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,460000,100000,480000 --run nl-4_8 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 52.5,
+      "dekBreedte": 33.8,
+      "brugLengte": 58.2,
+      "water": null,
+      "portaalhoogte": 30.4,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "L0002.95dd9bff20f1454fbac91a65185626f7",
+          "klasse": "Terrain",
+          "oppervlak": 189.7,
+          "onderDek": 0.1,
+          "bovenDekOnderkant": 0.44,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        44.215,
+        44.163
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

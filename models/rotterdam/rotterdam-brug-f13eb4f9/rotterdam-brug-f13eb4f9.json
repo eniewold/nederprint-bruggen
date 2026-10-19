@@ -1,0 +1,183 @@
+{
+  "name": "Zwarteweg",
+  "file": "rotterdam-brug-f13eb4f9.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    91458.53,
+    442554.07
+  ],
+  "xAxis": [
+    -0.373183,
+    -0.927758
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 31.744,
+  "groundSamplePoints": [
+    [
+      -4.43,
+      0
+    ],
+    [
+      4.43,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "L0004.f13eb4f94ce047709bdfa060847563a7"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        91458.53,
+        442554.07
+      ],
+      "axis": [
+        -0.373183,
+        -0.927758
+      ],
+      "halfLength": 0.22,
+      "halfWidth": 6.74,
+      "height": 30.959,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -3.05,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        91459.82,
+        442557.26
+      ],
+      "axis": [
+        0.373183,
+        0.927758
+      ],
+      "halfLength": 3,
+      "halfWidth": 8.24,
+      "height": 32.001,
+      "gradient": [
+        -0.08594,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        91457.25,
+        442550.89
+      ],
+      "axis": [
+        -0.373183,
+        -0.927758
+      ],
+      "halfLength": 3,
+      "halfWidth": 8.24,
+      "height": 32.109,
+      "gradient": [
+        -0.05,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "L0004.f13eb4f94ce047709bdfa060847563a7"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "L0004.f13eb4f94ce047709bdfa060847563a7",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/462170018",
+        "tags": {
+          "bridge": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "mofa": "designated",
+          "moped": "designated",
+          "name": "Zwarteweg",
+          "oneway": "no",
+          "sidewalk": "right",
+          "surface": "asphalt",
+          "surface:colour": "red",
+          "traffic_sign": "NL:G12a",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,440000,100000,460000 --run nl-4_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 0.9,
+      "dekBreedte": 12.5,
+      "brugLengte": 0.9,
+      "water": null,
+      "portaalhoogte": 11.2,
+      "opritafstand": [
+        4,
+        4
+      ],
+      "oprithelling": 6,
+      "doorstekend": [
+        {
+          "gmlId": "L0004.f05e5a10adb25655e0530b29a8c0b415",
+          "klasse": "Terrain",
+          "oppervlak": 11.2,
+          "onderDek": 0.26,
+          "bovenDekOnderkant": 2.05,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "L0004.f05e5a10af5d5655e0530b29a8c0b415",
+          "klasse": "Terrain",
+          "oppervlak": 3.4,
+          "onderDek": 0.38,
+          "bovenDekOnderkant": 0.49,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "L0004.88916c0e4c1c4829800bdc9cedcfe4cc",
+          "klasse": "Terrain",
+          "oppervlak": 13.5,
+          "onderDek": 0.34,
+          "bovenDekOnderkant": 0.38,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "L0004.731ef730e7954f879e5a6a00794d9d15",
+          "klasse": "Terrain",
+          "oppervlak": 14.2,
+          "onderDek": 0.33,
+          "bovenDekOnderkant": 0.23,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        31.744,
+        31.959
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "4 PDOK-vorm(en) door het dek: 0 verborgen, 4 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

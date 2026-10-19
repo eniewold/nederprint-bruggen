@@ -1,0 +1,170 @@
+{
+  "name": "Leebrug",
+  "file": "delft-leebrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    87145.71,
+    442920.74
+  ],
+  "xAxis": [
+    -0.425763,
+    0.904835
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 41.494,
+  "groundSamplePoints": [
+    [
+      -24.95,
+      0
+    ],
+    [
+      24.95,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0503.032e68f09c9849cce0532ee22091b28c"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        87145.71,
+        442920.74
+      ],
+      "axis": [
+        -0.425763,
+        0.904835
+      ],
+      "halfLength": 5.67,
+      "halfWidth": 2,
+      "height": 40.653,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -2.16,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        87155.36,
+        442900.22
+      ],
+      "axis": [
+        0.425763,
+        -0.904835
+      ],
+      "halfLength": 11.34,
+      "halfWidth": 2.25,
+      "height": 41.724,
+      "gradient": [
+        -0.02022,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        87136.05,
+        442941.26
+      ],
+      "axis": [
+        -0.425763,
+        0.904835
+      ],
+      "halfLength": 11.34,
+      "halfWidth": 2.25,
+      "height": 41.803,
+      "gradient": [
+        -0.01323,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0503.032e68f09c9849cce0532ee22091b28c"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0503.032e68f09c9849cce0532ee22091b28c",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/884431932",
+        "tags": {
+          "bridge": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "lit": "no",
+          "mofa": "no",
+          "moped": "no",
+          "name": "Leebrug",
+          "oneway": "no",
+          "surface": "asphalt",
+          "traffic_sign": "NL:G13",
+          "zone:traffic": "NL:rural",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,440000,100000,460000 --run nl-4_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 22.7,
+      "dekBreedte": 3,
+      "brugLengte": 22.7,
+      "water": [
+        -0.3,
+        4.7
+      ],
+      "portaalhoogte": 2.7,
+      "opritafstand": [
+        13.6,
+        13.6
+      ],
+      "oprithelling": 22.7,
+      "doorstekend": [
+        {
+          "gmlId": "G0503.80dba80cb41f4aa3944f5c621d60035e",
+          "klasse": "Forest",
+          "oppervlak": 1059.6,
+          "onderDek": 0.03,
+          "bovenDekOnderkant": 1.16,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0503.527f3dd85cf94bffbf3c47691e751bf1",
+          "klasse": "Terrain",
+          "oppervlak": 269.1,
+          "onderDek": 0.05,
+          "bovenDekOnderkant": 0.84,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        41.494,
+        41.653
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}
