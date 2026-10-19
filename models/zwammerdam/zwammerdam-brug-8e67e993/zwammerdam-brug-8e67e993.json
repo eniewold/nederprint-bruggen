@@ -1,0 +1,163 @@
+{
+  "name": "Akerboomseweg",
+  "file": "zwammerdam-brug-8e67e993.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    110241.23,
+    457248.97
+  ],
+  "xAxis": [
+    -0.460651,
+    0.887581
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 44.007,
+  "groundSamplePoints": [
+    [
+      -8.64,
+      0
+    ],
+    [
+      8.64,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G1901.8e67e993fae372ece053346e14acab93"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        110241.23,
+        457248.97
+      ],
+      "axis": [
+        -0.460651,
+        0.887581
+      ],
+      "halfLength": 1.96,
+      "halfWidth": 4.65,
+      "height": 43.687,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.75,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        110244.85,
+        457242
+      ],
+      "axis": [
+        0.460651,
+        -0.887581
+      ],
+      "halfLength": 3.93,
+      "halfWidth": 6.15,
+      "height": 44.837,
+      "gradient": [
+        -0.03818,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        110237.61,
+        457255.95
+      ],
+      "axis": [
+        -0.460651,
+        0.887581
+      ],
+      "halfLength": 3.93,
+      "halfWidth": 6.15,
+      "height": 44.497,
+      "gradient": [
+        -0.12461,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G1901.8e67e993fae372ece053346e14acab93"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G1901.8e67e993fae372ece053346e14acab93",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/137224880",
+        "tags": {
+          "bridge": "yes",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Akerboomseweg"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,440000,120000,460000 --run nl-5_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 7.9,
+      "dekBreedte": 8.3,
+      "brugLengte": 7.9,
+      "water": [
+        -1.9,
+        1.6
+      ],
+      "portaalhoogte": 7.5,
+      "opritafstand": [
+        4.7,
+        4.7
+      ],
+      "oprithelling": 7.9,
+      "doorstekend": [
+        {
+          "gmlId": "G1901.277e84374ae8020fe053346e14acc569",
+          "klasse": "Terrain",
+          "oppervlak": 11.3,
+          "onderDek": 0.03,
+          "bovenDekOnderkant": 0.75,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G1901.277e8436c740020fe053346e14acc569",
+          "klasse": "Terrain",
+          "oppervlak": 21.1,
+          "onderDek": 0.04,
+          "bovenDekOnderkant": 0.53,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        44.687,
+        44.007
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

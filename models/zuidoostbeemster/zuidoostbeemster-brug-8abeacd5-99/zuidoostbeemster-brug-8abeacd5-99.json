@@ -1,0 +1,172 @@
+{
+  "name": "Zuiderweg",
+  "file": "zuidoostbeemster-brug-8abeacd5-99.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    120548.98,
+    504578.24
+  ],
+  "xAxis": [
+    0.930644,
+    -0.365925
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 40.286,
+  "groundSamplePoints": [
+    [
+      -8.48,
+      0
+    ],
+    [
+      8.48,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "W0651.8abeacd5439b757600000000a342173c"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        120548.98,
+        504578.24
+      ],
+      "axis": [
+        0.930644,
+        -0.365925
+      ],
+      "halfLength": 1.93,
+      "halfWidth": 5.05,
+      "height": 39.59,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.54,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        120541.8,
+        504581.06
+      ],
+      "axis": [
+        -0.930644,
+        0.365925
+      ],
+      "halfLength": 3.86,
+      "halfWidth": 6.55,
+      "height": 40.74,
+      "gradient": [
+        -0.03891,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        120556.15,
+        504575.41
+      ],
+      "axis": [
+        0.930644,
+        -0.365925
+      ],
+      "halfLength": 3.86,
+      "halfWidth": 6.55,
+      "height": 40.588,
+      "gradient": [
+        -0.07838,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "W0651.8abeacd5439b757600000000a342173c"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "W0651.8abeacd5439b757600000000a342173c",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/211674771",
+        "tags": {
+          "bridge": "yes",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Zuiderweg",
+          "operator": "Hoogheemraadschap Hollands Noorderkwartier"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,500000,140000,520000 --run nl-6_10 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 7.7,
+      "dekBreedte": 9.1,
+      "brugLengte": 7.7,
+      "water": [
+        -2.4,
+        0.6
+      ],
+      "portaalhoogte": 8.2,
+      "opritafstand": [
+        4.6,
+        4.6
+      ],
+      "oprithelling": 7.7,
+      "doorstekend": [
+        {
+          "gmlId": "W0651.8abeacd54c7b7500047bb71668500f0a",
+          "klasse": "Terrain",
+          "oppervlak": 26.8,
+          "onderDek": 0.07,
+          "bovenDekOnderkant": 0.54,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "W0651.8abeacd5439b7576000000000a31981f",
+          "klasse": "Terrain",
+          "oppervlak": 191,
+          "onderDek": 0.03,
+          "bovenDekOnderkant": 0.54,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "W0651.8abeacd5439b757600000000a3413013",
+          "klasse": "Terrain",
+          "oppervlak": 112.5,
+          "onderDek": 0.06,
+          "bovenDekOnderkant": 0.4,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        40.59,
+        40.286
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "3 PDOK-vorm(en) door het dek: 0 verborgen, 3 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "name": "Zeilbrug",
+  "file": "amsterdam-zeilbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    118559.94,
+    484916.64
+  ],
+  "xAxis": [
+    -0.980495,
+    0.196543
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 45.263,
+  "groundSamplePoints": [
+    [
+      -26.07,
+      0
+    ],
+    [
+      16.05,
+      -2.66
+    ]
+  ],
+  "replacesTerrain": [
+    "G0363.2465d074231749f38b21afb9336ff3f9"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        118571.84,
+        484914.25
+      ],
+      "axis": [
+        0.980495,
+        -0.196543
+      ],
+      "halfLength": 6.06,
+      "halfWidth": 14.25,
+      "height": 45.525,
+      "gradient": [
+        -0.04329,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        118548.06,
+        484919.02
+      ],
+      "axis": [
+        -0.980495,
+        0.196543
+      ],
+      "halfLength": 6.06,
+      "halfWidth": 14.25,
+      "height": 45.638,
+      "gradient": [
+        -0.02474,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0363.2465d074231749f38b21afb9336ff3f9"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0363.2465d074231749f38b21afb9336ff3f9",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/740345528",
+        "tags": {
+          "bridge": "yes",
+          "electrified": "contact_line",
+          "frequency": "0",
+          "gauge": "1435",
+          "layer": "1",
+          "maxspeed": "50",
+          "oneway": "yes",
+          "railway": "tram",
+          "railway:atb": "no",
+          "railway:etcs": "no",
+          "railway:lzb": "no",
+          "railway:pzb": "no",
+          "ref": "348",
+          "voltage": "600",
+          "alt_name": "Zeilstraatbrug",
+          "bridge:structure": "beam",
+          "man_made": "bridge",
+          "name": "Zeilbrug",
+          "wikidata": "Q2467508",
+          "wikimedia_commons": "Category:Brug 348, Zeilbrug",
+          "wikipedia": "nl:Zeilbrug"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,480000,120000,500000 --run nl-5_9 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 12.1,
+      "dekBreedte": 24.5,
+      "brugLengte": 12.1,
+      "water": [
+        -5.6,
+        5.9
+      ],
+      "portaalhoogte": 22,
+      "opritafstand": [
+        20,
+        10
+      ],
+      "spoorhoogteBron": "pdok",
+      "oprithelling": 12.1,
+      "doorstekend": [],
+      "opritHoogtes": [
+        45.263,
+        45.488
+      ]
+    },
+    "waarschuwingen": [
+      "oprit -: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "oprit +: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

@@ -1,0 +1,184 @@
+{
+  "name": "lijnden-brug-fcb243ac",
+  "file": "lijnden-brug-fcb243ac.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    110808.97,
+    485214.58
+  ],
+  "xAxis": [
+    0.701281,
+    0.712885
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 44.686,
+  "groundSamplePoints": [
+    [
+      -79.96,
+      0
+    ],
+    [
+      79.85,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0394.fcb243acd1454fe483502ac009318aba",
+    "L0002.2566ed0cd3d54a668b715b08cdad6c57",
+    "L0002.a638cef6d95a4e768177062528093bde"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        110808.97,
+        485214.58
+      ],
+      "axis": [
+        0.701281,
+        0.712885
+      ],
+      "halfLength": 53.85,
+      "halfWidth": 12.17,
+      "height": 44.685,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.18,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        110758.51,
+        485163.29
+      ],
+      "axis": [
+        -0.701281,
+        -0.712885
+      ],
+      "halfLength": 12,
+      "halfWidth": 13.67,
+      "height": 45.335,
+      "gradient": [
+        -0.05413,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        110859.36,
+        485265.8
+      ],
+      "axis": [
+        0.701281,
+        0.712885
+      ],
+      "halfLength": 12,
+      "halfWidth": 13.67,
+      "height": 45.835,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0394.fcb243acd1454fe483502ac009318aba"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0394.fcb243acd1454fe483502ac009318aba",
+          "type": "dek"
+        },
+        {
+          "id": "L0002.2566ed0cd3d54a668b715b08cdad6c57",
+          "type": "onbekend"
+        },
+        {
+          "id": "L0002.a638cef6d95a4e768177062528093bde",
+          "type": "onbekend"
+        }
+      ],
+      "osm": {
+        "id": "way/1548012380",
+        "tags": {
+          "bridge": "yes",
+          "carriageway_ref": "g",
+          "destination:ref": "A9",
+          "highway": "motorway_link",
+          "lanes": "3",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "90",
+          "oneway": "yes",
+          "operator": "Rijkswaterstaat",
+          "ref": "A5",
+          "surface": "asphalt",
+          "toll:hgv": "yes",
+          "turn:lanes": "none|none|slight_right",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 3
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,480000,120000,500000 --run nl-5_9 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 119.7,
+      "dekBreedte": 23.3,
+      "brugLengte": 119.8,
+      "water": [
+        0.5,
+        37.5
+      ],
+      "portaalhoogte": 21,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "L0002.6a1981a2a1e34c97931afe999fd6bf53",
+          "klasse": "Road",
+          "oppervlak": 3440.5,
+          "onderDek": 0.02,
+          "bovenDekOnderkant": 0.18,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "L0002.e00419d5c8034e189841544f6f5239d8",
+          "klasse": "Road",
+          "oppervlak": 144.4,
+          "onderDek": 0.01,
+          "bovenDekOnderkant": 0.1,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        44.686,
+        45.685
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

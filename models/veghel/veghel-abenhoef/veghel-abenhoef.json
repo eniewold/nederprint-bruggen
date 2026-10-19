@@ -1,0 +1,193 @@
+{
+  "name": "Abenhoef",
+  "file": "veghel-abenhoef.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    163614.66,
+    401070.25
+  ],
+  "xAxis": [
+    0.987672,
+    -0.156537
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 53.631,
+  "groundSamplePoints": [
+    [
+      -46.08,
+      0
+    ],
+    [
+      46,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "L0002.0e1830a8fcbd4cfe9fdaf5661c0b302d",
+    "L0002.1c252c77f8ad4d47ae1a814ae4f2a4cd",
+    "L0002.3ea321bf661044039ef1ac245c9bb87c",
+    "L0002.b1e2e0b6c1b248eaabc89d0a4bf51b6c"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        163614.66,
+        401070.25
+      ],
+      "axis": [
+        0.987672,
+        -0.156537
+      ],
+      "halfLength": 19.94,
+      "halfWidth": 18.21,
+      "height": 52.718,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -7.46,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        163577.05,
+        401076.21
+      ],
+      "axis": [
+        -0.987672,
+        0.156537
+      ],
+      "halfLength": 12,
+      "halfWidth": 19.71,
+      "height": 53.825,
+      "gradient": [
+        -0.01612,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        163652.2,
+        401064.3
+      ],
+      "axis": [
+        0.987672,
+        -0.156537
+      ],
+      "halfLength": 12,
+      "halfWidth": 19.71,
+      "height": 53.868,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "L0002.1c252c77f8ad4d47ae1a814ae4f2a4cd"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "L0002.0e1830a8fcbd4cfe9fdaf5661c0b302d",
+          "type": "onbekend"
+        },
+        {
+          "id": "L0002.1c252c77f8ad4d47ae1a814ae4f2a4cd",
+          "type": "dek"
+        },
+        {
+          "id": "L0002.3ea321bf661044039ef1ac245c9bb87c",
+          "type": "onbekend"
+        },
+        {
+          "id": "L0002.b1e2e0b6c1b248eaabc89d0a4bf51b6c",
+          "type": "onbekend"
+        }
+      ],
+      "osm": {
+        "id": "way/619884711",
+        "tags": {
+          "bridge": "yes",
+          "carriageway_ref": "Re",
+          "highway": "motorway",
+          "lanes": "2",
+          "layer": "1",
+          "lit": "no",
+          "maxspeed": "100",
+          "maxspeed:conditional": "120 @ (19:00-06:00)",
+          "oneway": "yes",
+          "operator": "Rijkswaterstaat",
+          "ref": "A50",
+          "surface": "asphalt",
+          "toll:hgv": "yes",
+          "man_made": "bridge",
+          "name": "Abenhoef"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 4
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,400000,180000,420000 --run nl-8_5 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 51.9,
+      "dekBreedte": 35.4,
+      "brugLengte": 52.1,
+      "water": null,
+      "portaalhoogte": 31.9,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "L0002.a752f423e91c4cc8bf43e2c473d44164",
+          "klasse": "Terrain",
+          "oppervlak": 621.7,
+          "onderDek": 0.68,
+          "bovenDekOnderkant": 6.46,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "L0002.f6413563e42740e486a70d6ba149bb26",
+          "klasse": "Terrain",
+          "oppervlak": 711.7,
+          "onderDek": 0.56,
+          "bovenDekOnderkant": 5.69,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G1948.086b074aa90444ee9e2797aa15e1b82b",
+          "klasse": "Forest",
+          "oppervlak": 9168.2,
+          "onderDek": 0.23,
+          "bovenDekOnderkant": 1.94,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        53.631,
+        53.718
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "3 PDOK-vorm(en) door het dek: 0 verborgen, 3 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

@@ -1,0 +1,194 @@
+{
+  "name": "Bartenbrug",
+  "file": "s-hertogenbosch-bartenbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    150150.82,
+    411376.83
+  ],
+  "xAxis": [
+    -0.701754,
+    -0.71242
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 49.891,
+  "groundSamplePoints": [
+    [
+      -44.08,
+      0
+    ],
+    [
+      44.08,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0796.1ce37e33440d3610e063693013ac0b64",
+    "G0796.1ce37e33440e3610e063693013ac0b64",
+    "G0796.3fd9f68a528c884fe0538d1013acc416"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        150150.82,
+        411376.83
+      ],
+      "axis": [
+        -0.701754,
+        -0.71242
+      ],
+      "halfLength": 18.08,
+      "halfWidth": 12.31,
+      "height": 49.293,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.95,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        150176.14,
+        411402.53
+      ],
+      "axis": [
+        0.701754,
+        0.71242
+      ],
+      "halfLength": 12,
+      "halfWidth": 13.81,
+      "height": 50.443,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        150125.5,
+        411351.12
+      ],
+      "axis": [
+        -0.701754,
+        -0.71242
+      ],
+      "halfLength": 12,
+      "halfWidth": 13.81,
+      "height": 50.242,
+      "gradient": [
+        -0.02928,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0796.3fd9f68a528c884fe0538d1013acc416"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0796.1ce37e33440d3610e063693013ac0b64",
+          "type": "landhoofd"
+        },
+        {
+          "id": "G0796.1ce37e33440e3610e063693013ac0b64",
+          "type": "landhoofd"
+        },
+        {
+          "id": "G0796.3fd9f68a528c884fe0538d1013acc416",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/436880732",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "yes",
+          "foot": "no",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "50",
+          "name": "Bartenbrug",
+          "surface": "asphalt",
+          "wikidata": "Q2092568",
+          "man_made": "bridge",
+          "wikipedia": "nl:Pastoor Bartenbrug"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 3
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,400000,160000,420000 --run nl-7_5 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 48.2,
+      "dekBreedte": 23.6,
+      "brugLengte": 48.2,
+      "water": [
+        -11.1,
+        10.9
+      ],
+      "portaalhoogte": 21.3,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0796.1ce37e33440f3610e063693013ac0b64",
+          "klasse": "Separation",
+          "oppervlak": 1.1,
+          "onderDek": 0.31,
+          "bovenDekOnderkant": 0.95,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0796.3fd9f68a5272884fe0538d1013acc416",
+          "klasse": "Separation",
+          "oppervlak": 6.3,
+          "onderDek": 0.5,
+          "bovenDekOnderkant": 0.55,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0796.358d9555c8e7aaf1e0538d1013ac097d",
+          "klasse": "Terrain",
+          "oppervlak": 1005,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.5,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0796.3fd9f68a5280884fe0538d1013acc416",
+          "klasse": "Separation",
+          "oppervlak": 6.2,
+          "onderDek": 0.51,
+          "bovenDekOnderkant": 0.21,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        50.293,
+        49.891
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "4 PDOK-vorm(en) door het dek: 0 verborgen, 4 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

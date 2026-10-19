@@ -1,0 +1,180 @@
+{
+  "name": "Noordervesting",
+  "file": "edam-brug-09ec0430.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    132640.95,
+    503024.09
+  ],
+  "xAxis": [
+    0.521495,
+    -0.853255
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 42.392,
+  "groundSamplePoints": [
+    [
+      -14.58,
+      0
+    ],
+    [
+      14.58,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0385.09ec0430365443d5830718cf1a57d53f",
+    "G0385.b6e2730993ca431a8af5271f77320264"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        132640.95,
+        503024.09
+      ],
+      "axis": [
+        0.521495,
+        -0.853255
+      ],
+      "halfLength": 3.31,
+      "halfWidth": 4.02,
+      "height": 41.546,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.62,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        132634.04,
+        503035.4
+      ],
+      "axis": [
+        -0.521495,
+        0.853255
+      ],
+      "halfLength": 6.63,
+      "halfWidth": 5.28,
+      "height": 42.619,
+      "gradient": [
+        -0.03425,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        132647.86,
+        503012.79
+      ],
+      "axis": [
+        0.521495,
+        -0.853255
+      ],
+      "halfLength": 6.63,
+      "halfWidth": 5.28,
+      "height": 42.696,
+      "gradient": [
+        -0.02264,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0385.09ec0430365443d5830718cf1a57d53f"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0385.09ec0430365443d5830718cf1a57d53f",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1199301933",
+        "tags": {
+          "bridge": "yes",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Noordervesting",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,500000,140000,520000 --run nl-6_10 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 13.3,
+      "dekBreedte": 7,
+      "brugLengte": 13.3,
+      "water": [
+        -2.1,
+        1.9
+      ],
+      "portaalhoogte": 6.3,
+      "opritafstand": [
+        8,
+        8
+      ],
+      "oprithelling": 13.3,
+      "doorstekend": [
+        {
+          "gmlId": "G0385.b6e2730993ca431a8af5271f77320264",
+          "klasse": "Separation",
+          "oppervlak": 3.2,
+          "onderDek": 1,
+          "bovenDekOnderkant": 0.62,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "G0385.dcc3c1c1b24849ceb4e7788cd6b70392",
+          "klasse": "Forest",
+          "oppervlak": 17.5,
+          "onderDek": 0.43,
+          "bovenDekOnderkant": 0.62,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0385.46fc85ec7a19445aa7cb376bac8fc748",
+          "klasse": "Separation",
+          "oppervlak": 2.7,
+          "onderDek": 0.63,
+          "bovenDekOnderkant": 0.53,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0385.32ce9dadf47f4828b77bc37d92c6421a",
+          "klasse": "Forest",
+          "oppervlak": 16.2,
+          "onderDek": 0.28,
+          "bovenDekOnderkant": 0.53,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        42.392,
+        42.546
+      ]
+    },
+    "waarschuwingen": [
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "4 PDOK-vorm(en) door het dek: 1 verborgen, 3 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

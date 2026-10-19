@@ -1,0 +1,188 @@
+{
+  "name": "Dorpsstraat",
+  "file": "hazerswoude-dorp-brug-3794f417-25.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    100974.3,
+    456679.88
+  ],
+  "xAxis": [
+    0.372824,
+    0.927902
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 42.144,
+  "groundSamplePoints": [
+    [
+      -8.37,
+      0
+    ],
+    [
+      8.26,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0484.3794f4176fc56ea8e05370f9200ac4e9",
+    "G0484.3794f4176fc66ea8e05370f9200ac4e9",
+    "G0484.3794f4176fc76ea8e05370f9200ac4e9",
+    "G0484.3794f4177f6f6ea8e05370f9200ac4e9",
+    "G0484.3794f41a824e6ea8e05370f9200ac4e9"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        100974.3,
+        456679.88
+      ],
+      "axis": [
+        0.372824,
+        0.927902
+      ],
+      "halfLength": 1.69,
+      "halfWidth": 3.71,
+      "height": 41.488,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.9,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        100971.46,
+        456672.82
+      ],
+      "axis": [
+        -0.372824,
+        -0.927902
+      ],
+      "halfLength": 3.78,
+      "halfWidth": 4.82,
+      "height": 42.466,
+      "gradient": [
+        -0.0853,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        100977.1,
+        456686.85
+      ],
+      "axis": [
+        0.372824,
+        0.927902
+      ],
+      "halfLength": 3.78,
+      "halfWidth": 4.82,
+      "height": 42.638,
+      "gradient": [
+        -0.03969,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0484.3794f4177f6f6ea8e05370f9200ac4e9"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0484.3794f4176fc56ea8e05370f9200ac4e9",
+          "type": "landhoofd"
+        },
+        {
+          "id": "G0484.3794f4176fc66ea8e05370f9200ac4e9",
+          "type": "landhoofd"
+        },
+        {
+          "id": "G0484.3794f4176fc76ea8e05370f9200ac4e9",
+          "type": "landhoofd"
+        },
+        {
+          "id": "G0484.3794f4177f6f6ea8e05370f9200ac4e9",
+          "type": "dek"
+        },
+        {
+          "id": "G0484.3794f41a824e6ea8e05370f9200ac4e9",
+          "type": "landhoofd"
+        }
+      ],
+      "osm": {
+        "id": "way/1228661434",
+        "tags": {
+          "bridge": "yes",
+          "check_date:surface": "2025-08-19",
+          "highway": "tertiary",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "30",
+          "name": "Dorpsstraat",
+          "oneway:hgv": "yes",
+          "surface": "paved",
+          "zone:traffic": "NL:urban",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 5
+    },
+    "type": "ophaalbrug",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,440000,120000,460000 --run nl-5_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 6.7,
+      "dekBreedte": 6.4,
+      "brugLengte": 7.6,
+      "water": [
+        -3.8,
+        3.7
+      ],
+      "portaalhoogte": 5.8,
+      "opritafstand": [
+        4.5,
+        4.5
+      ],
+      "oprithelling": 7.6,
+      "doorstekend": [
+        {
+          "gmlId": "G0484.3794f41a2d926ea8e05370f9200ac4e9",
+          "klasse": "Terrain",
+          "oppervlak": 6.2,
+          "onderDek": 0.58,
+          "bovenDekOnderkant": 0.9,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0484.3794f4176fc46ea8e05370f9200ac4e9",
+          "klasse": "Terrain",
+          "oppervlak": 6.8,
+          "onderDek": 0.64,
+          "bovenDekOnderkant": 0.65,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        42.144,
+        42.488
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

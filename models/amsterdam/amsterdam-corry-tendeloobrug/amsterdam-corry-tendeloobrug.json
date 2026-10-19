@@ -1,0 +1,204 @@
+{
+  "name": "Corry Tendeloobrug",
+  "file": "amsterdam-corry-tendeloobrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    116861.47,
+    484500.28
+  ],
+  "xAxis": [
+    0.070609,
+    0.997504
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 42.465,
+  "groundSamplePoints": [
+    [
+      -13.23,
+      0
+    ],
+    [
+      13.2,
+      -3.97
+    ]
+  ],
+  "replacesTerrain": [
+    "G0363.9dd27ba4e7d6499c8349e74c359f90f9"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        116861.47,
+        484500.28
+      ],
+      "axis": [
+        0.070609,
+        0.997504
+      ],
+      "halfLength": 1.62,
+      "halfWidth": 20.37,
+      "height": 41.514,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.77,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        116861.02,
+        484493.84
+      ],
+      "axis": [
+        -0.070609,
+        -0.997504
+      ],
+      "halfLength": 3.23,
+      "halfWidth": 21.87,
+      "height": 42.664,
+      "gradient": [
+        -0.04644,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        116861.93,
+        484506.73
+      ],
+      "axis": [
+        0.070609,
+        0.997504
+      ],
+      "halfLength": 3.23,
+      "halfWidth": 21.87,
+      "height": 42.64,
+      "gradient": [
+        -0.05393,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0363.9dd27ba4e7d6499c8349e74c359f90f9"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0363.9dd27ba4e7d6499c8349e74c359f90f9",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/707009259",
+        "tags": {
+          "bridge": "yes",
+          "electrified": "contact_line",
+          "frequency": "0",
+          "gauge": "1435",
+          "layer": "1",
+          "maxspeed": "50",
+          "railway": "tram",
+          "railway:atb": "no",
+          "railway:etcs": "no",
+          "railway:lzb": "no",
+          "railway:pzb": "no",
+          "voltage": "600",
+          "bridge:ref": "713",
+          "man_made": "bridge",
+          "name": "Corry Tendeloobrug",
+          "ref": "713",
+          "source": "https://repository.officiele-overheidspublicaties.nl/externebijlagen/exb-2016-22838/1/bijlage/exb-2016-22838.pdf",
+          "wikidata": "Q56270733",
+          "wikimedia_commons": "Category:Brug 713, Corry Tendeloobrug",
+          "wikipedia": "nl:Corry Tendeloobrug"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,480000,120000,500000 --run nl-5_9 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 6.5,
+      "dekBreedte": 39.7,
+      "brugLengte": 6.5,
+      "water": [
+        -1.2,
+        1.3
+      ],
+      "portaalhoogte": 35.8,
+      "opritafstand": [
+        10,
+        10
+      ],
+      "spoorhoogteBron": "pdok",
+      "oprithelling": 6.5,
+      "doorstekend": [
+        {
+          "gmlId": "G0363.957a1b70177c409b8491c8bcda6d553b",
+          "klasse": "Terrain",
+          "oppervlak": 2.7,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.77,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0363.492dee074c2e496bb1b85f34f40eb8f5",
+          "klasse": "Road",
+          "oppervlak": 11.5,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.77,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0363.765a9f37bc384cf29678e72b27170b4e",
+          "klasse": "Terrain",
+          "oppervlak": 1,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.66,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0363.10c91274a5a14f0693c432eff3f1eced",
+          "klasse": "Road",
+          "oppervlak": 272.7,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.4,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0363.f44aa342097348e2abdb1b12e7ee77e7",
+          "klasse": "Terrain",
+          "oppervlak": 3,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.24,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        42.514,
+        42.465
+      ]
+    },
+    "waarschuwingen": [
+      "oprit -: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "oprit +: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "5 PDOK-vorm(en) door het dek: 0 verborgen, 5 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}
