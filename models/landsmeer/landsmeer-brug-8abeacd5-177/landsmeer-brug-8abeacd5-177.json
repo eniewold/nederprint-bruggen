@@ -1,0 +1,131 @@
+{
+  "name": "Noordeinde",
+  "file": "landsmeer-brug-8abeacd5-177.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    122829.29,
+    495167.38
+  ],
+  "xAxis": [
+    0.911268,
+    0.411814
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 41.751,
+  "groundSamplePoints": [
+    [
+      -6.15,
+      0
+    ],
+    [
+      6.15,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0415.8abeacd5439b7576000000000a8670be"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        122824.59,
+        495165.25
+      ],
+      "axis": [
+        -0.911268,
+        -0.411814
+      ],
+      "halfLength": 3,
+      "halfWidth": 3.27,
+      "height": 41.984,
+      "gradient": [
+        -0.05,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        122833.98,
+        495169.5
+      ],
+      "axis": [
+        0.911268,
+        0.411814
+      ],
+      "halfLength": 3,
+      "halfWidth": 3.27,
+      "height": 41.943,
+      "gradient": [
+        -0.0638,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0415.8abeacd5439b7576000000000a8670be"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0415.8abeacd5439b7576000000000a8670be",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/376406272",
+        "tags": {
+          "bridge": "movable",
+          "cycleway": "lane",
+          "highway": "tertiary",
+          "layer": "1",
+          "loc_name": "Het Lint",
+          "maxspeed": "30",
+          "name": "Noordeinde",
+          "zone:traffic": "NL:urban"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "basculebrug",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 4.3,
+      "dekBreedte": 4.4,
+      "brugLengte": 4.3,
+      "water": [
+        -1.7,
+        1.3
+      ],
+      "portaalhoogte": 3.9,
+      "opritafstand": [
+        4,
+        4
+      ],
+      "oprithelling": 6,
+      "doorstekend": [],
+      "opritHoogtes": [
+        41.834,
+        41.751
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "bridge=movable zonder mechanisme: basculebrug is een gok",
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

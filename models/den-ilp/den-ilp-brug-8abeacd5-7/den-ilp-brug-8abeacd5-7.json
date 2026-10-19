@@ -1,0 +1,129 @@
+{
+  "name": "Den Ilp",
+  "file": "den-ilp-brug-8abeacd5-7.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    122430.67,
+    496248.04
+  ],
+  "xAxis": [
+    -0.199546,
+    0.979888
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 41.961,
+  "groundSamplePoints": [
+    [
+      -5.95,
+      0
+    ],
+    [
+      5.95,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0415.8abeacd5439b7576000000000a846366"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        122431.66,
+        496243.19
+      ],
+      "axis": [
+        0.199546,
+        -0.979888
+      ],
+      "halfLength": 3,
+      "halfWidth": 3,
+      "height": 42.418,
+      "gradient": [
+        -0.05,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        122429.68,
+        496252.89
+      ],
+      "axis": [
+        -0.199546,
+        0.979888
+      ],
+      "halfLength": 3,
+      "halfWidth": 3,
+      "height": 42.264,
+      "gradient": [
+        -0.10118,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0415.8abeacd5439b7576000000000a846366"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0415.8abeacd5439b7576000000000a846366",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/6595363",
+        "tags": {
+          "bridge": "yes",
+          "highway": "tertiary",
+          "layer": "1",
+          "loc_name": "Het Lint",
+          "maxspeed": "30",
+          "name": "Den Ilp",
+          "old_name": "Dorpsstraat",
+          "source:maxspeed": "NL:zone30"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 3.9,
+      "dekBreedte": 4,
+      "brugLengte": 3.9,
+      "water": [
+        -2,
+        1.5
+      ],
+      "portaalhoogte": 3.6,
+      "opritafstand": [
+        4,
+        4
+      ],
+      "oprithelling": 6,
+      "doorstekend": [],
+      "opritHoogtes": [
+        42.268,
+        41.961
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

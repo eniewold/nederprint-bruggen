@@ -1,0 +1,132 @@
+{
+  "name": "Van Zonbrug",
+  "file": "den-ilp-van-zonbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    122779.9,
+    495365.76
+  ],
+  "xAxis": [
+    -0.471296,
+    0.881975
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 42.006,
+  "groundSamplePoints": [
+    [
+      -6.83,
+      0
+    ],
+    [
+      6.83,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0415.8abeacd5439b757600000000a8617e9f"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        122782.65,
+        495360.62
+      ],
+      "axis": [
+        0.471296,
+        -0.881975
+      ],
+      "halfLength": 3,
+      "halfWidth": 3.91,
+      "height": 42.784,
+      "gradient": [
+        -0.05,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        122777.16,
+        495370.9
+      ],
+      "axis": [
+        -0.471296,
+        0.881975
+      ],
+      "halfLength": 3,
+      "halfWidth": 3.91,
+      "height": 42.47,
+      "gradient": [
+        -0.15458,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0415.8abeacd5439b757600000000a8617e9f"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0415.8abeacd5439b757600000000a8617e9f",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/590784857",
+        "tags": {
+          "bridge": "movable",
+          "cycleway": "lane",
+          "highway": "tertiary",
+          "layer": "1",
+          "loc_name": "Het Lint",
+          "maxspeed": "30",
+          "name": "Van Zonbrug",
+          "old_name": "Dorpsstraat",
+          "zone:traffic": "NL:urban",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "basculebrug",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 5.7,
+      "dekBreedte": 5.2,
+      "brugLengte": 5.7,
+      "water": [
+        -1.8,
+        2.2
+      ],
+      "portaalhoogte": 4.7,
+      "opritafstand": [
+        4,
+        4
+      ],
+      "oprithelling": 6,
+      "doorstekend": [],
+      "opritHoogtes": [
+        42.634,
+        42.006
+      ]
+    },
+    "waarschuwingen": [
+      "bridge=movable zonder mechanisme: basculebrug is een gok",
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

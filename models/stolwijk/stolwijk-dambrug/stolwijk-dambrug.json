@@ -1,0 +1,130 @@
+{
+  "name": "Dambrug",
+  "file": "stolwijk-dambrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    109234.38,
+    443525.25
+  ],
+  "xAxis": [
+    0.672289,
+    -0.740289
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 42.049,
+  "groundSamplePoints": [
+    [
+      -5.39,
+      0
+    ],
+    [
+      5.39,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G1931.be17f085bd2143af87b85c6bc4c3052f"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        109231.43,
+        443528.5
+      ],
+      "axis": [
+        -0.672289,
+        0.740289
+      ],
+      "halfLength": 3,
+      "halfWidth": 6.8,
+      "height": 42.22,
+      "gradient": [
+        -0.05,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        109237.33,
+        443522
+      ],
+      "axis": [
+        0.672289,
+        -0.740289
+      ],
+      "halfLength": 3,
+      "halfWidth": 6.8,
+      "height": 42.21,
+      "gradient": [
+        -0.05345,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G1931.be17f085bd2143af87b85c6bc4c3052f"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G1931.be17f085bd2143af87b85c6bc4c3052f",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1040220655",
+        "tags": {
+          "bridge": "yes",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Dambrug",
+          "operator": "Hoogheemraadschap van Schieland en de Krimpenerwaard",
+          "zone:traffic": "NL:rural",
+          "man_made": "bridge",
+          "source:name": "sign"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,440000,120000,460000 --run nl-5_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 2.8,
+      "dekBreedte": 9.6,
+      "brugLengte": 2.8,
+      "water": [
+        -0.9,
+        1.1
+      ],
+      "portaalhoogte": 8.6,
+      "opritafstand": [
+        4,
+        4
+      ],
+      "oprithelling": 6,
+      "doorstekend": [],
+      "opritHoogtes": [
+        42.07,
+        42.049
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

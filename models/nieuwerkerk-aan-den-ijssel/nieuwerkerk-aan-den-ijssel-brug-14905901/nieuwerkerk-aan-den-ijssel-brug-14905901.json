@@ -1,0 +1,175 @@
+{
+  "name": "Europalaan",
+  "file": "nieuwerkerk-aan-den-ijssel-brug-14905901.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    102111.08,
+    443648.42
+  ],
+  "xAxis": [
+    -0.924426,
+    -0.381361
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 40.943,
+  "groundSamplePoints": [
+    [
+      -34.29,
+      0
+    ],
+    [
+      34.29,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G1892.149059012fcc4e89b4c2af85236a6cf9",
+    "G1892.ca0512e4440f49a680b2e57c9a305615"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        102111.08,
+        443648.42
+      ],
+      "axis": [
+        -0.924426,
+        -0.381361
+      ],
+      "halfLength": 9.59,
+      "halfWidth": 7.69,
+      "height": 40.694,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.67,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        102136.58,
+        443658.94
+      ],
+      "axis": [
+        0.924426,
+        0.381361
+      ],
+      "halfLength": 12,
+      "halfWidth": 9.19,
+      "height": 41.844,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        102085.58,
+        443637.9
+      ],
+      "axis": [
+        -0.924426,
+        -0.381361
+      ],
+      "halfLength": 12,
+      "halfWidth": 9.19,
+      "height": 41.469,
+      "gradient": [
+        -0.04382,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G1892.149059012fcc4e89b4c2af85236a6cf9"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G1892.149059012fcc4e89b4c2af85236a6cf9",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/56026583",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "yes",
+          "highway": "secondary",
+          "lanes": "1",
+          "layer": "1",
+          "maxspeed": "80",
+          "mofa": "no",
+          "name": "Europalaan",
+          "oneway": "yes",
+          "operator": "Gemeente Zuidplas",
+          "surface": "asphalt"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,440000,120000,460000 --run nl-5_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 31.2,
+      "dekBreedte": 14.4,
+      "brugLengte": 31.2,
+      "water": null,
+      "portaalhoogte": 12.9,
+      "opritafstand": [
+        18.7,
+        18.7
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G1892.ca0512e4440f49a680b2e57c9a305615",
+          "klasse": "Terrain",
+          "oppervlak": 68.2,
+          "onderDek": 0.74,
+          "bovenDekOnderkant": 0.98,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "G1892.03a362a3b2746de0e054001a4b092702",
+          "klasse": "Road",
+          "oppervlak": 466.9,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.67,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G1892.84577a7fe78841e2a13b381de8fb6eb5",
+          "klasse": "Terrain",
+          "oppervlak": 55.2,
+          "onderDek": 0.65,
+          "bovenDekOnderkant": 0.38,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        41.694,
+        40.943
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "3 PDOK-vorm(en) door het dek: 1 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "name": "Parallelweg-Noord",
+  "file": "nieuwerkerk-aan-den-ijssel-brug-2d3ced5e.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    102652.9,
+    444233.33
+  ],
+  "xAxis": [
+    0.685913,
+    0.727684
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 38.266,
+  "groundSamplePoints": [
+    [
+      -11.71,
+      0
+    ],
+    [
+      11.71,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G1892.2d3ced5ea14a482a842d32fae586f96d"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        102652.9,
+        444233.33
+      ],
+      "axis": [
+        0.685913,
+        0.727684
+      ],
+      "halfLength": 2.66,
+      "halfWidth": 9.05,
+      "height": 37.385,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -2.79,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        102645.6,
+        444225.58
+      ],
+      "axis": [
+        -0.685913,
+        -0.727684
+      ],
+      "halfLength": 5.32,
+      "halfWidth": 10.55,
+      "height": 38.476,
+      "gradient": [
+        -0.03943,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        102660.21,
+        444241.08
+      ],
+      "axis": [
+        0.685913,
+        0.727684
+      ],
+      "halfLength": 5.32,
+      "halfWidth": 10.55,
+      "height": 38.535,
+      "gradient": [
+        -0.02818,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G1892.2d3ced5ea14a482a842d32fae586f96d"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G1892.2d3ced5ea14a482a842d32fae586f96d",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/45750109",
+        "tags": {
+          "bridge": "yes",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Parallelweg-Noord",
+          "surface": "paving_stones",
+          "zone:traffic": "NL:rural"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,440000,120000,460000 --run nl-5_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 10.6,
+      "dekBreedte": 17.1,
+      "brugLengte": 10.6,
+      "water": [
+        -3.8,
+        3.2
+      ],
+      "portaalhoogte": 15.4,
+      "opritafstand": [
+        6.4,
+        6.4
+      ],
+      "oprithelling": 10.6,
+      "doorstekend": [
+        {
+          "gmlId": "L0002.57b45e974ddc42958b4973a0bbad4429",
+          "klasse": "Terrain",
+          "oppervlak": 594.2,
+          "onderDek": 0,
+          "bovenDekOnderkant": 1.79,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G1892.8cfcd55297314f2c9d1af49b3be23580",
+          "klasse": "Separation",
+          "oppervlak": 19.1,
+          "onderDek": 0.17,
+          "bovenDekOnderkant": 1.7,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        38.266,
+        38.385
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

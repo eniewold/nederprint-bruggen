@@ -1,0 +1,136 @@
+{
+  "name": "Hekkenbrug",
+  "file": "stolwijk-hekkenbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    109787.19,
+    444022.79
+  ],
+  "xAxis": [
+    -0.645037,
+    0.764151
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 42.07,
+  "groundSamplePoints": [
+    [
+      -5.26,
+      0
+    ],
+    [
+      5.26,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "W0656.0d751e0c309c4bf4b57208cefa166600"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        109789.94,
+        444019.53
+      ],
+      "axis": [
+        0.645037,
+        -0.764151
+      ],
+      "halfLength": 3,
+      "halfWidth": 4.85,
+      "height": 42.427,
+      "gradient": [
+        -0.05,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        109784.44,
+        444026.05
+      ],
+      "axis": [
+        -0.645037,
+        0.764151
+      ],
+      "halfLength": 3,
+      "halfWidth": 4.85,
+      "height": 42.324,
+      "gradient": [
+        -0.08451,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "W0656.0d751e0c309c4bf4b57208cefa166600"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "W0656.0d751e0c309c4bf4b57208cefa166600",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1040220654",
+        "tags": {
+          "bridge": "yes",
+          "cycleway:both": "no",
+          "foot": "yes",
+          "highway": "unclassified",
+          "lane_markings": "no",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Hekkenbrug",
+          "operator": "Hoogheemraadschap van Schieland en de Krimpenerwaard",
+          "sidewalk:both": "no",
+          "surface": "asphalt",
+          "zone:traffic": "NL:rural",
+          "bridge:structure": "beam",
+          "man_made": "bridge",
+          "source:name": "sign"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,440000,120000,460000 --run nl-5_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 2.5,
+      "dekBreedte": 6.5,
+      "brugLengte": 2.5,
+      "water": [
+        -0.8,
+        0.7
+      ],
+      "portaalhoogte": 5.8,
+      "opritafstand": [
+        4,
+        4
+      ],
+      "oprithelling": 6,
+      "doorstekend": [],
+      "opritHoogtes": [
+        42.277,
+        42.07
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

@@ -1,0 +1,175 @@
+{
+  "name": "watergang-brug-8abeacd5-9",
+  "file": "watergang-brug-8abeacd5-9.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    125341.28,
+    494755.89
+  ],
+  "xAxis": [
+    0.134057,
+    -0.990974
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 41.964,
+  "groundSamplePoints": [
+    [
+      -5.71,
+      0
+    ],
+    [
+      5.71,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0852.8abeacd5439b757600000000a2617d6b",
+    "G0852.8abeacd5439b757600000000a2622c9a"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        125341.28,
+        494755.89
+      ],
+      "axis": [
+        0.134057,
+        -0.990974
+      ],
+      "halfLength": 0.86,
+      "halfWidth": 3.37,
+      "height": 41.093,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.91,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        125340.65,
+        494760.56
+      ],
+      "axis": [
+        -0.134057,
+        0.990974
+      ],
+      "halfLength": 3,
+      "halfWidth": 4.31,
+      "height": 42.179,
+      "gradient": [
+        -0.07142,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        125341.92,
+        494751.22
+      ],
+      "axis": [
+        0.134057,
+        -0.990974
+      ],
+      "halfLength": 3,
+      "halfWidth": 4.31,
+      "height": 42.243,
+      "gradient": [
+        -0.05,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0852.8abeacd5439b757600000000a2617d6b"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0852.8abeacd5439b757600000000a2617d6b",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/561118127",
+        "tags": {
+          "bridge": "yes",
+          "highway": "service",
+          "layer": "1"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 3.4,
+      "dekBreedte": 5.7,
+      "brugLengte": 3.4,
+      "water": null,
+      "portaalhoogte": 5.2,
+      "opritafstand": [
+        4,
+        4
+      ],
+      "oprithelling": 6,
+      "doorstekend": [
+        {
+          "gmlId": "G0852.8abeacd5439b757600000000a2622c9a",
+          "klasse": "Forest",
+          "oppervlak": 7,
+          "onderDek": 0.95,
+          "bovenDekOnderkant": 1.24,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "W0651.8abeacd5439b757600000000a26156b3",
+          "klasse": "Terrain",
+          "oppervlak": 129.9,
+          "onderDek": 0.05,
+          "bovenDekOnderkant": 0.91,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0852.8abeacd5439b757600000000a2615683",
+          "klasse": "Terrain",
+          "oppervlak": 843.5,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.87,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0852.8abeacd5439b757600000000a261a831",
+          "klasse": "Forest",
+          "oppervlak": 2,
+          "onderDek": 0.66,
+          "bovenDekOnderkant": 0.72,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        41.964,
+        42.093
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "4 PDOK-vorm(en) door het dek: 1 verborgen, 3 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

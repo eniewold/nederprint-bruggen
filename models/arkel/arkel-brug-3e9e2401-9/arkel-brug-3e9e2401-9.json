@@ -1,0 +1,155 @@
+{
+  "name": "Arkelsche Dam",
+  "file": "arkel-brug-3e9e2401-9.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    128190.98,
+    430510.18
+  ],
+  "xAxis": [
+    0.492206,
+    -0.870479
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 46.786,
+  "groundSamplePoints": [
+    [
+      -4.63,
+      0
+    ],
+    [
+      4.63,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0689.3e9e2401c5fa0d6be05332a1e90a54ff"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        128190.98,
+        430510.18
+      ],
+      "axis": [
+        0.492206,
+        -0.870479
+      ],
+      "halfLength": 0.31,
+      "halfWidth": 4.72,
+      "height": 46.424,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -3.46,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        128189.19,
+        430513.34
+      ],
+      "axis": [
+        -0.492206,
+        0.870479
+      ],
+      "halfLength": 3,
+      "halfWidth": 6.22,
+      "height": 47.574,
+      "gradient": [
+        -0.05,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        128192.76,
+        430507.02
+      ],
+      "axis": [
+        0.492206,
+        -0.870479
+      ],
+      "halfLength": 3,
+      "halfWidth": 6.22,
+      "height": 47.255,
+      "gradient": [
+        -0.15648,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0689.3e9e2401c5fa0d6be05332a1e90a54ff"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0689.3e9e2401c5fa0d6be05332a1e90a54ff",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1276552708",
+        "tags": {
+          "bridge": "yes",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Arkelsche Dam",
+          "operator": "Waterschap Rivierenland",
+          "surface": "asphalt",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,420000,140000,440000 --run nl-6_6 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 1.3,
+      "dekBreedte": 8.4,
+      "brugLengte": 1.3,
+      "water": null,
+      "portaalhoogte": 7.6,
+      "opritafstand": [
+        4,
+        4
+      ],
+      "oprithelling": 6,
+      "doorstekend": [
+        {
+          "gmlId": "G0689.3e9e2401e0310d6be05332a1e90a54ff",
+          "klasse": "Terrain",
+          "oppervlak": 12,
+          "onderDek": 0.48,
+          "bovenDekOnderkant": 2.46,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        47.424,
+        46.786
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

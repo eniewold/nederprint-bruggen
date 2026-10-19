@@ -1,0 +1,169 @@
+{
+  "name": "Regenboogweg",
+  "file": "nieuwe-wetering-brug-a7d0d409.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    102936.85,
+    469866.26
+  ],
+  "xAxis": [
+    -0.332385,
+    -0.943144
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 32.468,
+  "groundSamplePoints": [
+    [
+      -4.45,
+      0
+    ],
+    [
+      4.45,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "L0004.a7d0d4091c5147b8858d8d0ebb9850ff"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        102936.85,
+        469866.26
+      ],
+      "axis": [
+        -0.332385,
+        -0.943144
+      ],
+      "halfLength": 0.22,
+      "halfWidth": 6.21,
+      "height": 31.521,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -2.92,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        102938,
+        469869.51
+      ],
+      "axis": [
+        0.332385,
+        0.943144
+      ],
+      "halfLength": 3,
+      "halfWidth": 7.71,
+      "height": 32.644,
+      "gradient": [
+        -0.05885,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        102935.7,
+        469863.01
+      ],
+      "axis": [
+        -0.332385,
+        -0.943144
+      ],
+      "halfLength": 3,
+      "halfWidth": 7.71,
+      "height": 32.671,
+      "gradient": [
+        -0.05,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "L0004.a7d0d4091c5147b8858d8d0ebb9850ff"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "L0004.a7d0d4091c5147b8858d8d0ebb9850ff",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/800037167",
+        "tags": {
+          "bridge": "yes",
+          "highway": "service",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Regenboogweg",
+          "zone:traffic": "NL:urban"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,460000,120000,480000 --run nl-5_8 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 0.9,
+      "dekBreedte": 11.4,
+      "brugLengte": 0.9,
+      "water": null,
+      "portaalhoogte": 10.3,
+      "opritafstand": [
+        4,
+        4
+      ],
+      "oprithelling": 6,
+      "doorstekend": [
+        {
+          "gmlId": "L0004.eb961d614c0647a09bb8f3a395e3774d",
+          "klasse": "Terrain",
+          "oppervlak": 569.8,
+          "onderDek": 0,
+          "bovenDekOnderkant": 1.92,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "L0004.686810deb34f4ddb8a4135ea43e09951",
+          "klasse": "Terrain",
+          "oppervlak": 202.4,
+          "onderDek": 0,
+          "bovenDekOnderkant": 1.1,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "L0004.11020f3548234e48a0e5ded3ed91bc74",
+          "klasse": "Terrain",
+          "oppervlak": 398.6,
+          "onderDek": 0.01,
+          "bovenDekOnderkant": 1.04,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        32.468,
+        32.521
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "3 PDOK-vorm(en) door het dek: 0 verborgen, 3 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

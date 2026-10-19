@@ -1,0 +1,129 @@
+{
+  "name": "Slimmebrug",
+  "file": "stolwijk-slimmebrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    110954.26,
+    444787.86
+  ],
+  "xAxis": [
+    0.987624,
+    -0.156838
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 42.214,
+  "groundSamplePoints": [
+    [
+      -5.52,
+      0
+    ],
+    [
+      5.52,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G1931.0cd4dcf3dde54726b2c0c9dcdfcff8ed"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        110949.8,
+        444788.56
+      ],
+      "axis": [
+        -0.987624,
+        0.156838
+      ],
+      "halfLength": 3,
+      "halfWidth": 3.48,
+      "height": 42.38,
+      "gradient": [
+        -0.05534,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        110958.72,
+        444787.15
+      ],
+      "axis": [
+        0.987624,
+        -0.156838
+      ],
+      "halfLength": 3,
+      "halfWidth": 3.48,
+      "height": 42.396,
+      "gradient": [
+        -0.05,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G1931.0cd4dcf3dde54726b2c0c9dcdfcff8ed"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G1931.0cd4dcf3dde54726b2c0c9dcdfcff8ed",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1040220653",
+        "tags": {
+          "bridge": "yes",
+          "highway": "service",
+          "layer": "1",
+          "service": "driveway",
+          "bridge:structure": "beam",
+          "man_made": "bridge",
+          "name": "Slimmebrug",
+          "source:name": "sign"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,440000,120000,460000 --run nl-5_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 3,
+      "dekBreedte": 4.6,
+      "brugLengte": 3,
+      "water": [
+        -1,
+        1
+      ],
+      "portaalhoogte": 4.2,
+      "opritafstand": [
+        4,
+        4
+      ],
+      "oprithelling": 6,
+      "doorstekend": [],
+      "opritHoogtes": [
+        42.214,
+        42.246
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

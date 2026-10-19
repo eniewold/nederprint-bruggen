@@ -1,0 +1,185 @@
+{
+  "name": "gorinchem-brug-91da4194",
+  "file": "gorinchem-brug-91da4194.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    127456.27,
+    428721.85
+  ],
+  "xAxis": [
+    -0.979307,
+    0.202382
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 50.333,
+  "groundSamplePoints": [
+    [
+      -43.92,
+      0
+    ],
+    [
+      43.92,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0512.c2ea14f58dc0402d940f67dc83ed5e8b",
+    "L0002.24469eaffa874903ac712cef3c219857",
+    "L0002.257b9a9decb14498bf8ad6e3c0a369fe",
+    "L0002.91da4194a4a147858b21c5cfcd1f6b8b"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        127456.27,
+        428721.85
+      ],
+      "axis": [
+        -0.979307,
+        0.202382
+      ],
+      "halfLength": 17.89,
+      "halfWidth": 14.21,
+      "height": 49.388,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.46,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        127491.44,
+        428714.58
+      ],
+      "axis": [
+        0.979307,
+        -0.202382
+      ],
+      "halfLength": 12,
+      "halfWidth": 15.71,
+      "height": 50.538,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        127421.1,
+        428729.12
+      ],
+      "axis": [
+        -0.979307,
+        0.202382
+      ],
+      "halfLength": 12,
+      "halfWidth": 15.71,
+      "height": 50.511,
+      "gradient": [
+        -0.01477,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "L0002.91da4194a4a147858b21c5cfcd1f6b8b"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0512.c2ea14f58dc0402d940f67dc83ed5e8b",
+          "type": "pijler"
+        },
+        {
+          "id": "L0002.24469eaffa874903ac712cef3c219857",
+          "type": "onbekend"
+        },
+        {
+          "id": "L0002.257b9a9decb14498bf8ad6e3c0a369fe",
+          "type": "onbekend"
+        },
+        {
+          "id": "L0002.91da4194a4a147858b21c5cfcd1f6b8b",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1167809132",
+        "tags": {
+          "bridge": "yes",
+          "carriageway_ref": "Re",
+          "highway": "motorway",
+          "int_ref": "E 31",
+          "lanes": "2",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "100",
+          "maxspeed:conditional": "130 @ (19:00-06:00)",
+          "oneway": "yes",
+          "operator": "Rijkswaterstaat",
+          "overtaking:hgv:conditional": "no @ (Mo-Fr 06:00-19:00)",
+          "ref": "A15",
+          "surface": "asphalt",
+          "toll:hgv": "yes",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 4
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,420000,140000,440000 --run nl-6_6 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 47.8,
+      "dekBreedte": 27.4,
+      "brugLengte": 47.8,
+      "water": null,
+      "portaalhoogte": 24.7,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "L0002.e55d845fad5f4d89ac9634d5515e9aba",
+          "klasse": "Terrain",
+          "oppervlak": 328.9,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.46,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "L0002.d6a154337f6a4922be33ea15bb9b3461",
+          "klasse": "Separation",
+          "oppervlak": 33.4,
+          "onderDek": 0.58,
+          "bovenDekOnderkant": 0.09,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        50.388,
+        50.333
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

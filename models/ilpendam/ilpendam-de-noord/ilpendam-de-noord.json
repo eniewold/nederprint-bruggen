@@ -1,0 +1,136 @@
+{
+  "name": "De Noord",
+  "file": "ilpendam-de-noord.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    125749.44,
+    497674.68
+  ],
+  "xAxis": [
+    -0.999098,
+    -0.04246
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 43.559,
+  "groundSamplePoints": [
+    [
+      -25.18,
+      0
+    ],
+    [
+      25.18,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "W0651.8abeacd5439b757600000000a2912eb7"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        125772.31,
+        497675.66
+      ],
+      "axis": [
+        0.999098,
+        0.04246
+      ],
+      "halfLength": 11.44,
+      "halfWidth": 3.89,
+      "height": 44.133,
+      "gradient": [
+        -0.01311,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        125726.58,
+        497673.71
+      ],
+      "axis": [
+        -0.999098,
+        -0.04246
+      ],
+      "halfLength": 11.44,
+      "halfWidth": 3.89,
+      "height": 43.921,
+      "gradient": [
+        -0.03159,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "W0651.8abeacd5439b757600000000a2912eb7"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "W0651.8abeacd5439b757600000000a2912eb7",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/6594586",
+        "tags": {
+          "bridge": "yes",
+          "bridge:name": "Hofbrug",
+          "highway": "unclassified",
+          "lanes": "1",
+          "layer": "1",
+          "maxaxleload": "7.0",
+          "maxlength": "12",
+          "maxspeed": "30",
+          "mofa": "yes",
+          "moped": "yes",
+          "motor_vehicle:backward:conditional": "destination @ (Mo-Fr 06:00-09:30)",
+          "motor_vehicle:forward:conditional": "destination @ (Mo-Fr 16:00-18:30)",
+          "name": "De Noord",
+          "operator": "Hoogheemraadschap Hollands Noorderkwartier",
+          "surface": "asphalt"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 22.9,
+      "dekBreedte": 5.2,
+      "brugLengte": 22.9,
+      "water": [
+        -10.4,
+        10.6
+      ],
+      "portaalhoogte": 4.7,
+      "opritafstand": [
+        13.7,
+        13.7
+      ],
+      "oprithelling": 22.9,
+      "doorstekend": [],
+      "opritHoogtes": [
+        43.983,
+        43.559
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}
