@@ -1,0 +1,181 @@
+{
+  "name": "Keizer Augustusplein",
+  "file": "nijmegen-brug-5539b39d.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    187480.09,
+    432765.46
+  ],
+  "xAxis": [
+    -0.99983,
+    -0.01844
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 59.657,
+  "groundSamplePoints": [
+    [
+      -46.69,
+      0
+    ],
+    [
+      46.69,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0268.5539b39dc4266ab5e0530100007fe3ab",
+    "G0268.5539b39dc5776ab5e0530100007fe3ab",
+    "G0268.5539b39dc48d6ab5e0530100007fe3ab"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        187480.09,
+        432765.46
+      ],
+      "axis": [
+        -0.99983,
+        -0.01844
+      ],
+      "halfLength": 20.69,
+      "halfWidth": 7.99,
+      "height": 58.921,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.71,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        187518.77,
+        432766.17
+      ],
+      "axis": [
+        0.99983,
+        0.01844
+      ],
+      "halfLength": 12,
+      "halfWidth": 9.49,
+      "height": 60.071,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        187441.4,
+        432764.75
+      ],
+      "axis": [
+        -0.99983,
+        -0.01844
+      ],
+      "halfLength": 12,
+      "halfWidth": 9.49,
+      "height": 59.939,
+      "gradient": [
+        -0.02353,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0268.5539b39dc4266ab5e0530100007fe3ab"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0268.5539b39dc4266ab5e0530100007fe3ab",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/158841731",
+        "tags": {
+          "access:lanes": "|no",
+          "bicycle": "no",
+          "bridge": "yes",
+          "bus:lanes": "|designated",
+          "foot": "no",
+          "highway": "secondary",
+          "junction": "roundabout",
+          "lanes": "2",
+          "layer": "1",
+          "maxspeed": "80",
+          "maxspeed:type": "NL:rural",
+          "name": "Keizer Augustusplein",
+          "operator": "Gemeente Nijmegen",
+          "ref": "S111",
+          "surface": "asphalt",
+          "zone:traffic": "NL:rural"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 180000,420000,200000,440000 --run nl-9_6 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 53.4,
+      "dekBreedte": 15,
+      "brugLengte": 53.4,
+      "water": null,
+      "portaalhoogte": 13.5,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0268.5539b39dc5776ab5e0530100007fe3ab",
+          "klasse": "Terrain",
+          "oppervlak": 138.1,
+          "onderDek": 0.85,
+          "bovenDekOnderkant": 0.86,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "G0268.add162351e54430da3a1f92284c91488",
+          "klasse": "Forest",
+          "oppervlak": 120.4,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.71,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0268.5539b39dc48d6ab5e0530100007fe3ab",
+          "klasse": "Terrain",
+          "oppervlak": 142.7,
+          "onderDek": 0.85,
+          "bovenDekOnderkant": 0.68,
+          "actie": "verbergen"
+        }
+      ],
+      "opritHoogtes": [
+        59.921,
+        59.657
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "3 PDOK-vorm(en) door het dek: 2 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

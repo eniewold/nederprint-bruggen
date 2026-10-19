@@ -1,0 +1,172 @@
+{
+  "name": "Zuidtangent",
+  "file": "hoofddorp-brug-aa00ba99.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    108157.34,
+    478518.57
+  ],
+  "xAxis": [
+    0.991221,
+    0.132218
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 39.056,
+  "groundSamplePoints": [
+    [
+      -162.37,
+      0
+    ],
+    [
+      162.37,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "P0027.aa00ba995fe04352ae9534803d3a5c8b",
+    "P0027.9948ee98e09341ec97212bea45ed4596"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        108157.34,
+        478518.57
+      ],
+      "axis": [
+        0.991221,
+        0.132218
+      ],
+      "halfLength": 136.37,
+      "halfWidth": 38.84,
+      "height": 42.271,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -2.33,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        108004.33,
+        478498.16
+      ],
+      "axis": [
+        -0.991221,
+        -0.132218
+      ],
+      "halfLength": 12,
+      "halfWidth": 40.34,
+      "height": 43.421,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        108310.36,
+        478538.98
+      ],
+      "axis": [
+        0.991221,
+        0.132218
+      ],
+      "halfLength": 12,
+      "halfWidth": 40.34,
+      "height": 41.313,
+      "gradient": [
+        -0.18814,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "P0027.aa00ba995fe04352ae9534803d3a5c8b"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "P0027.aa00ba995fe04352ae9534803d3a5c8b",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/7394315",
+        "tags": {
+          "bridge": "yes",
+          "highway": "busway",
+          "lanes": "2",
+          "layer": "1",
+          "maxspeed": "50",
+          "name": "Zuidtangent",
+          "operator": "Provincie Noord-Holland",
+          "zone:traffic": "NL:urban"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,460000,120000,480000 --run nl-5_8 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 284.7,
+      "dekBreedte": 76.7,
+      "brugLengte": 284.7,
+      "water": null,
+      "portaalhoogte": 69,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "P0027.e845dad2641147ae9798e4899b5a260c",
+          "klasse": "Terrain",
+          "oppervlak": 55.2,
+          "onderDek": 0.34,
+          "bovenDekOnderkant": 1.33,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "P0027.9948ee98e09341ec97212bea45ed4596",
+          "klasse": "Terrain",
+          "oppervlak": 6.1,
+          "onderDek": 0.7,
+          "bovenDekOnderkant": 1.3,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "P0027.046e112681344f82aeefff6eb97359a1",
+          "klasse": "Terrain",
+          "oppervlak": 4741.5,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.82,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        43.271,
+        39.056
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "3 PDOK-vorm(en) door het dek: 1 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

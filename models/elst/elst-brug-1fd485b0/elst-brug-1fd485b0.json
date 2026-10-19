@@ -1,0 +1,181 @@
+{
+  "name": "Rijksweg-Zuid",
+  "file": "elst-brug-1fd485b0.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    185931.77,
+    434251.65
+  ],
+  "xAxis": [
+    0.075591,
+    -0.997139
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 60.231,
+  "groundSamplePoints": [
+    [
+      -54.94,
+      0
+    ],
+    [
+      54.94,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G1734.1fd485b0a80647f8af38a6915a8c0b27",
+    "G1734.84a94b7a5e814d85919d65dc02c653fd"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        185931.77,
+        434251.65
+      ],
+      "axis": [
+        0.075591,
+        -0.997139
+      ],
+      "halfLength": 28.94,
+      "halfWidth": 14.34,
+      "height": 59.269,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -2.17,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        185928.22,
+        434298.46
+      ],
+      "axis": [
+        -0.075591,
+        0.997139
+      ],
+      "halfLength": 12,
+      "halfWidth": 15.84,
+      "height": 60.4,
+      "gradient": [
+        -0.01408,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        185935.32,
+        434204.84
+      ],
+      "axis": [
+        0.075591,
+        -0.997139
+      ],
+      "halfLength": 12,
+      "halfWidth": 15.84,
+      "height": 60.419,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G1734.1fd485b0a80647f8af38a6915a8c0b27"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G1734.1fd485b0a80647f8af38a6915a8c0b27",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/39116574",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "yes",
+          "foot": "no",
+          "highway": "secondary",
+          "layer": "1",
+          "maxspeed": "80",
+          "name": "Rijksweg-Zuid",
+          "source": "survey",
+          "surface": "asphalt"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 180000,420000,200000,440000 --run nl-9_6 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 69.9,
+      "dekBreedte": 27.7,
+      "brugLengte": 69.9,
+      "water": null,
+      "portaalhoogte": 24.9,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G1734.b2fd34b815244ff28c6a56e7147c4d3f",
+          "klasse": "Road",
+          "oppervlak": 430.2,
+          "onderDek": 0,
+          "bovenDekOnderkant": 1.17,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G1734.ca79c4bd2e774c319dcf24bfd16467b8",
+          "klasse": "Forest",
+          "oppervlak": 6914.8,
+          "onderDek": 0.09,
+          "bovenDekOnderkant": 0.58,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G1734.85fcb901b9a242ea9c64307ddcce3754",
+          "klasse": "Terrain",
+          "oppervlak": 1341.3,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.49,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G1734.84a94b7a5e814d85919d65dc02c653fd",
+          "klasse": "Forest",
+          "oppervlak": 306.5,
+          "onderDek": 0.97,
+          "bovenDekOnderkant": 0.49,
+          "actie": "verbergen"
+        }
+      ],
+      "opritHoogtes": [
+        60.231,
+        60.269
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "4 PDOK-vorm(en) door het dek: 1 verborgen, 3 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

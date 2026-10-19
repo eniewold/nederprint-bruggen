@@ -1,0 +1,157 @@
+{
+  "name": "Albert Schweitzerstraat",
+  "file": "reeuwijk-brug-277e8437-218.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    109219.48,
+    450883.66
+  ],
+  "xAxis": [
+    -0.965457,
+    0.260563
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 42.177,
+  "groundSamplePoints": [
+    [
+      -11.56,
+      0
+    ],
+    [
+      11.56,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G1901.277e84376050020fe053346e14acc569"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        109219.48,
+        450883.66
+      ],
+      "axis": [
+        -0.965457,
+        0.260563
+      ],
+      "halfLength": 2.63,
+      "halfWidth": 6.27,
+      "height": 41.212,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.72,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        109229.63,
+        450880.92
+      ],
+      "axis": [
+        0.965457,
+        -0.260563
+      ],
+      "halfLength": 5.25,
+      "halfWidth": 7.77,
+      "height": 42.362,
+      "gradient": [
+        -0.02856,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        109209.34,
+        450886.39
+      ],
+      "axis": [
+        -0.965457,
+        0.260563
+      ],
+      "halfLength": 5.25,
+      "halfWidth": 7.77,
+      "height": 42.345,
+      "gradient": [
+        -0.03191,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G1901.277e84376050020fe053346e14acc569"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G1901.277e84376050020fe053346e14acc569",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/372260890",
+        "tags": {
+          "bridge": "yes",
+          "cycleway:both": "no",
+          "highway": "residential",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "30",
+          "name": "Albert Schweitzerstraat"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,440000,120000,460000 --run nl-5_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 10.5,
+      "dekBreedte": 11.5,
+      "brugLengte": 10.5,
+      "water": [
+        -2.3,
+        3.2
+      ],
+      "portaalhoogte": 10.4,
+      "opritafstand": [
+        6.3,
+        6.3
+      ],
+      "oprithelling": 10.5,
+      "doorstekend": [
+        {
+          "gmlId": "G1901.05f26713b369700de063d26e14ac672f",
+          "klasse": "Terrain",
+          "oppervlak": 32.9,
+          "onderDek": 0.05,
+          "bovenDekOnderkant": 0.72,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        42.212,
+        42.177
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

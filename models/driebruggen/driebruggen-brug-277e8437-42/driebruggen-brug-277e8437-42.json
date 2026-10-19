@@ -1,0 +1,128 @@
+{
+  "name": "Kerkweg",
+  "file": "driebruggen-brug-277e8437-42.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    114783.14,
+    450837.23
+  ],
+  "xAxis": [
+    0.98738,
+    0.158372
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 42.564,
+  "groundSamplePoints": [
+    [
+      -7.16,
+      0
+    ],
+    [
+      7.16,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G1901.277e84375e1c020fe053346e14acc569"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        114776.89,
+        450836.23
+      ],
+      "axis": [
+        -0.98738,
+        -0.158372
+      ],
+      "halfLength": 3.16,
+      "halfWidth": 5.13,
+      "height": 43.595,
+      "gradient": [
+        -0.04745,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        114789.38,
+        450838.23
+      ],
+      "axis": [
+        0.98738,
+        0.158372
+      ],
+      "halfLength": 3.16,
+      "halfWidth": 5.13,
+      "height": 43.154,
+      "gradient": [
+        -0.18682,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G1901.277e84375e1c020fe053346e14acc569"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G1901.277e84375e1c020fe053346e14acc569",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/344057346",
+        "tags": {
+          "bridge": "movable",
+          "bridge:movable": "bascule",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Kerkweg"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "basculebrug",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,440000,120000,460000 --run nl-5_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 6.3,
+      "dekBreedte": 6.8,
+      "brugLengte": 6.3,
+      "water": [
+        -2.7,
+        2.8
+      ],
+      "portaalhoogte": 6.2,
+      "opritafstand": [
+        4,
+        4
+      ],
+      "oprithelling": 6.3,
+      "doorstekend": [],
+      "opritHoogtes": [
+        43.445,
+        42.564
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

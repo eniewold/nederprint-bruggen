@@ -1,0 +1,184 @@
+{
+  "name": "boxtel-brug-3102a0bc",
+  "file": "boxtel-brug-3102a0bc.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    151333.21,
+    401504.96
+  ],
+  "xAxis": [
+    -0.600235,
+    0.799824
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 50.928,
+  "groundSamplePoints": [
+    [
+      -36.64,
+      0
+    ],
+    [
+      36.58,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "L0002.3102a0bcebfc48309bdb72286e5f0a61",
+    "L0002.b01f90c115254459822f2f2c4b79cf6c",
+    "L0002.ced4acb93001412aaf78e51c4b61f8b6"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        151333.21,
+        401504.96
+      ],
+      "axis": [
+        -0.600235,
+        0.799824
+      ],
+      "halfLength": 10.56,
+      "halfWidth": 16.13,
+      "height": 50.028,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.43,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        151350.42,
+        401482.02
+      ],
+      "axis": [
+        0.600235,
+        -0.799824
+      ],
+      "halfLength": 12,
+      "halfWidth": 17.63,
+      "height": 51.178,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        151316.04,
+        401527.84
+      ],
+      "axis": [
+        -0.600235,
+        0.799824
+      ],
+      "halfLength": 12,
+      "halfWidth": 17.63,
+      "height": 51.128,
+      "gradient": [
+        -0.01667,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "L0002.3102a0bcebfc48309bdb72286e5f0a61"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "L0002.3102a0bcebfc48309bdb72286e5f0a61",
+          "type": "dek"
+        },
+        {
+          "id": "L0002.b01f90c115254459822f2f2c4b79cf6c",
+          "type": "onbekend"
+        },
+        {
+          "id": "L0002.ced4acb93001412aaf78e51c4b61f8b6",
+          "type": "onbekend"
+        }
+      ],
+      "osm": {
+        "id": "way/1459334206",
+        "tags": {
+          "bridge": "yes",
+          "carriageway_ref": "Re",
+          "highway": "motorway",
+          "int_ref": "E 25",
+          "lanes": "3",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "100",
+          "maxspeed:conditional": "130 @ (19:00-06:00)",
+          "oneway": "yes",
+          "operator": "Rijkswaterstaat",
+          "ref": "A2",
+          "surface": "asphalt",
+          "toll:hgv": "yes",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 3
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,400000,160000,420000 --run nl-7_5 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 33.1,
+      "dekBreedte": 31.3,
+      "brugLengte": 33.3,
+      "water": [
+        -8.7,
+        8.8
+      ],
+      "portaalhoogte": 28.1,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "W0539.ee47cb93df634cfdb149e906e025d5a1",
+          "klasse": "Terrain",
+          "oppervlak": 130,
+          "onderDek": 0.36,
+          "bovenDekOnderkant": 0.43,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "W0539.5779eca86f464d97a99c308783f49967",
+          "klasse": "Terrain",
+          "oppervlak": 183.6,
+          "onderDek": 0.39,
+          "bovenDekOnderkant": 0.35,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        51.028,
+        50.928
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

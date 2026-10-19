@@ -1,0 +1,163 @@
+{
+  "name": "Karperstraat",
+  "file": "aalsmeer-brug-ce137102.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    115426.16,
+    477010.09
+  ],
+  "xAxis": [
+    0.495774,
+    -0.868452
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 39.259,
+  "groundSamplePoints": [
+    [
+      -15.79,
+      0
+    ],
+    [
+      15.79,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0362.ce1371027c16490c81e99f338202f359"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        115426.16,
+        477010.09
+      ],
+      "axis": [
+        0.495774,
+        -0.868452
+      ],
+      "halfLength": 3.59,
+      "halfWidth": 4.19,
+      "height": 38.282,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.13,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        115419.04,
+        477022.55
+      ],
+      "axis": [
+        -0.495774,
+        0.868452
+      ],
+      "halfLength": 7.18,
+      "halfWidth": 5.53,
+      "height": 39.42,
+      "gradient": [
+        -0.0225,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        115433.27,
+        476997.62
+      ],
+      "axis": [
+        0.495774,
+        -0.868452
+      ],
+      "halfLength": 7.18,
+      "halfWidth": 5.53,
+      "height": 39.432,
+      "gradient": [
+        -0.0209,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0362.ce1371027c16490c81e99f338202f359"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0362.ce1371027c16490c81e99f338202f359",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/494298202",
+        "tags": {
+          "bridge": "yes",
+          "highway": "residential",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Karperstraat",
+          "zone:traffic": "NL:urban"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,460000,120000,480000 --run nl-5_8 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 14.4,
+      "dekBreedte": 7.4,
+      "brugLengte": 14.4,
+      "water": [
+        -2.7,
+        2.8
+      ],
+      "portaalhoogte": 6.6,
+      "opritafstand": [
+        8.6,
+        8.6
+      ],
+      "oprithelling": 14.4,
+      "doorstekend": [
+        {
+          "gmlId": "G0362.44a7e1e37ed84c52b3820d1e6961c113",
+          "klasse": "Terrain",
+          "oppervlak": 1021.8,
+          "onderDek": 0.01,
+          "bovenDekOnderkant": 0.13,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0362.6d807edfa83744d4a9316dc6bb3feeed",
+          "klasse": "Terrain",
+          "oppervlak": 443.4,
+          "onderDek": 0.02,
+          "bovenDekOnderkant": 0.1,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        39.259,
+        39.282
+      ]
+    },
+    "waarschuwingen": [
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}
