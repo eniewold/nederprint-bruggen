@@ -1,0 +1,164 @@
+{
+  "name": "Ellegoorsestraat",
+  "file": "doetinchem-brug-14ae10c7.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    219725.33,
+    441175.38
+  ],
+  "xAxis": [
+    0.765203,
+    0.643789
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 57.663,
+  "groundSamplePoints": [
+    [
+      -9.15,
+      0
+    ],
+    [
+      9.15,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0222.14ae10c7538443c59c0561d5e95d7ecc"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        219725.33,
+        441175.38
+      ],
+      "axis": [
+        0.765203,
+        0.643789
+      ],
+      "halfLength": 2.08,
+      "halfWidth": 3.23,
+      "height": 56.716,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.68,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        219718.97,
+        441170.02
+      ],
+      "axis": [
+        -0.765203,
+        -0.643789
+      ],
+      "halfLength": 4.16,
+      "halfWidth": 4.09,
+      "height": 57.84,
+      "gradient": [
+        -0.04241,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        219731.7,
+        441180.74
+      ],
+      "axis": [
+        0.765203,
+        0.643789
+      ],
+      "halfLength": 4.16,
+      "halfWidth": 4.09,
+      "height": 57.866,
+      "gradient": [
+        -0.03606,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0222.14ae10c7538443c59c0561d5e95d7ecc"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0222.14ae10c7538443c59c0561d5e95d7ecc",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/890242469",
+        "tags": {
+          "bridge": "yes",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Ellegoorsestraat",
+          "smoothness": "good",
+          "surface": "asphalt"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 200000,440000,220000,460000 --run nl-10_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 8.3,
+      "dekBreedte": 5.5,
+      "brugLengte": 8.3,
+      "water": [
+        -1.2,
+        1.3
+      ],
+      "portaalhoogte": 4.9,
+      "opritafstand": [
+        5,
+        5
+      ],
+      "oprithelling": 8.3,
+      "doorstekend": [
+        {
+          "gmlId": "G0222.6bbef488488b4c7aaf46f6505bc192a6",
+          "klasse": "Terrain",
+          "oppervlak": 840.1,
+          "onderDek": 0.04,
+          "bovenDekOnderkant": 0.68,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "W0152.4dd4183520234eec892ffc22aee57581",
+          "klasse": "Forest",
+          "oppervlak": 614.7,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.63,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        57.663,
+        57.716
+      ]
+    },
+    "waarschuwingen": [
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

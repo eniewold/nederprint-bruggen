@@ -1,0 +1,134 @@
+{
+  "name": "Het Eiland",
+  "file": "doetinchem-brug-0f6b630f.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    216913.22,
+    441618.93
+  ],
+  "xAxis": [
+    0.578855,
+    -0.815431
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 55.414,
+  "groundSamplePoints": [
+    [
+      34.1,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0222.0f6b630f2468462b8d4c807fab7b7fb8"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        216913.22,
+        441618.93
+      ],
+      "axis": [
+        0.578855,
+        -0.815431
+      ],
+      "halfLength": 9.5,
+      "halfWidth": 2.07,
+      "height": 54.414,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.14,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        216929.13,
+        441596.51
+      ],
+      "axis": [
+        0.578855,
+        -0.815431
+      ],
+      "halfLength": 12,
+      "halfWidth": 2.35,
+      "height": 55.564,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0222.0f6b630f2468462b8d4c807fab7b7fb8"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0222.0f6b630f2468462b8d4c807fab7b7fb8",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1427345851",
+        "tags": {
+          "bridge": "yes",
+          "highway": "path",
+          "layer": "1",
+          "name": "Het Eiland",
+          "zone:traffic": "NL:urban",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 200000,440000,220000,460000 --run nl-10_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 31,
+      "dekBreedte": 3.1,
+      "brugLengte": 31,
+      "water": [
+        -2.5,
+        10
+      ],
+      "portaalhoogte": 2.8,
+      "opritafstand": [
+        55.8,
+        18.6
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0222.96ccf6ebe00d41a486fe8fca41a38088",
+          "klasse": "Forest",
+          "oppervlak": 779.9,
+          "onderDek": 0.04,
+          "bovenDekOnderkant": 0.14,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        null,
+        55.414
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "oprit - zonder PDOK-maaiveld",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

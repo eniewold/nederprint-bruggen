@@ -1,0 +1,130 @@
+{
+  "name": "Veenderijbrug",
+  "file": "amsterdam-veenderijbrug-2.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    112246.49,
+    488332.38
+  ],
+  "xAxis": [
+    -0.708665,
+    -0.705545
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 42.36,
+  "groundSamplePoints": [
+    [
+      -5.76,
+      0
+    ],
+    [
+      5.76,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0363.bca34da125e74b459ae82ad05cb204f9"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        112249.87,
+        488335.74
+      ],
+      "axis": [
+        0.708665,
+        0.705545
+      ],
+      "halfLength": 3,
+      "halfWidth": 4.22,
+      "height": 42.623,
+      "gradient": [
+        -0.08772,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        112243.12,
+        488329.02
+      ],
+      "axis": [
+        -0.708665,
+        -0.705545
+      ],
+      "halfLength": 3,
+      "halfWidth": 4.22,
+      "height": 42.737,
+      "gradient": [
+        -0.05,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0363.bca34da125e74b459ae82ad05cb204f9"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0363.bca34da125e74b459ae82ad05cb204f9",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/482512772",
+        "tags": {
+          "bridge": "yes",
+          "highway": "footway",
+          "layer": "1",
+          "loc_ref": "639",
+          "man_made": "bridge",
+          "name": "Veenderijbrug",
+          "wikidata": "Q28528207",
+          "wikimedia_commons": "Category:Brug 639, Veenderijbrug",
+          "wikipedia": "nl:Veenderijbrug"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,480000,120000,500000 --run nl-5_9 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 3.5,
+      "dekBreedte": 5.6,
+      "brugLengte": 3.5,
+      "water": [
+        -1.3,
+        1.2
+      ],
+      "portaalhoogte": 5.1,
+      "opritafstand": [
+        4,
+        4
+      ],
+      "oprithelling": 6,
+      "doorstekend": [],
+      "opritHoogtes": [
+        42.36,
+        42.587
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}
