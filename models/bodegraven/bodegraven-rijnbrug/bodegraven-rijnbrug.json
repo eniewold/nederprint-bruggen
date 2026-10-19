@@ -1,0 +1,130 @@
+{
+  "name": "Rijnbrug",
+  "file": "bodegraven-rijnbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    111128.65,
+    455370.73
+  ],
+  "xAxis": [
+    -0.286607,
+    -0.958048
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 44.482,
+  "groundSamplePoints": [
+    [
+      -8.27,
+      0
+    ],
+    [
+      8.27,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G1901.277e843762d3020fe053346e14acc569"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        111130.81,
+        455377.94
+      ],
+      "axis": [
+        0.286607,
+        0.958048
+      ],
+      "halfLength": 3.76,
+      "halfWidth": 7.4,
+      "height": 44.794,
+      "gradient": [
+        -0.03989,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        111126.49,
+        455363.53
+      ],
+      "axis": [
+        -0.286607,
+        -0.958048
+      ],
+      "halfLength": 3.76,
+      "halfWidth": 7.4,
+      "height": 44.713,
+      "gradient": [
+        -0.06141,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G1901.277e843762d3020fe053346e14acc569"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G1901.277e843762d3020fe053346e14acc569",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/707300702",
+        "tags": {
+          "bridge": "movable",
+          "bridge:movable": "bascule",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Rijnbrug",
+          "sidewalk": "both",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "basculebrug",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,440000,120000,460000 --run nl-5_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 7.5,
+      "dekBreedte": 10.8,
+      "brugLengte": 7.5,
+      "water": [
+        -3.3,
+        2.7
+      ],
+      "portaalhoogte": 9.7,
+      "opritafstand": [
+        4.5,
+        4.5
+      ],
+      "oprithelling": 7.5,
+      "doorstekend": [],
+      "opritHoogtes": [
+        44.644,
+        44.482
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

@@ -1,0 +1,160 @@
+{
+  "name": "Schinkelbrug",
+  "file": "amsterdam-schinkelbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    118185.51,
+    483509.22
+  ],
+  "xAxis": [
+    0.997073,
+    0.076462
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 43.8,
+  "groundSamplePoints": [
+    [
+      -24.72,
+      0
+    ],
+    [
+      24.72,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0363.4d65eaac6d50406fbf9f2ab9a7753301"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        118185.51,
+        483509.22
+      ],
+      "axis": [
+        0.997073,
+        0.076462
+      ],
+      "halfLength": 5.62,
+      "halfWidth": 3.25,
+      "height": 42.844,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.86,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        118163.11,
+        483507.5
+      ],
+      "axis": [
+        -0.997073,
+        -0.076462
+      ],
+      "halfLength": 11.23,
+      "halfWidth": 4.13,
+      "height": 43.994,
+      "gradient": [
+        -0.01335,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        118207.92,
+        483510.94
+      ],
+      "axis": [
+        0.997073,
+        0.076462
+      ],
+      "halfLength": 11.23,
+      "halfWidth": 4.13,
+      "height": 43.972,
+      "gradient": [
+        -0.01529,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0363.4d65eaac6d50406fbf9f2ab9a7753301"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0363.4d65eaac6d50406fbf9f2ab9a7753301",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1162578961",
+        "tags": {
+          "access": "no",
+          "bridge": "movable",
+          "foot": "no",
+          "highway": "cycleway",
+          "layer": "1",
+          "oneway": "no",
+          "smoothness": "intermediate",
+          "man_made": "bridge",
+          "bridge:movable": "bascule",
+          "bridge:structure": "beam"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "basculebrug",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,480000,120000,500000 --run nl-5_9 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 22.5,
+      "dekBreedte": 5.5,
+      "brugLengte": 22.5,
+      "water": [
+        -10.7,
+        0.8
+      ],
+      "portaalhoogte": 5,
+      "opritafstand": [
+        13.5,
+        13.5
+      ],
+      "oprithelling": 22.5,
+      "doorstekend": [
+        {
+          "gmlId": "G0363.b2f0b83e983d4f5785569681ac869841",
+          "klasse": "Terrain",
+          "oppervlak": 1505.4,
+          "onderDek": 0.06,
+          "bovenDekOnderkant": 0.86,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        43.844,
+        43.8
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

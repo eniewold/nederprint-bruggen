@@ -1,0 +1,188 @@
+{
+  "name": "Ringweg-Zuid",
+  "file": "amsterdam-brug-cc94dd9c.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    119774.8,
+    483507.87
+  ],
+  "xAxis": [
+    -0.998172,
+    -0.060429
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 48.835,
+  "groundSamplePoints": [
+    [
+      -53.34,
+      0
+    ],
+    [
+      53.34,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "L0002.1bbee1596f3c4a87980106d0c8e38b6e",
+    "L0002.63eeebaaf71d4e6c845419fe29e865a7",
+    "L0002.cc94dd9c1dc34a1cb490a1b2cb8b1872",
+    "L0002.8af2b7b6bcaa47db830a3c7fb9d9246b"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        119774.8,
+        483507.87
+      ],
+      "axis": [
+        -0.998172,
+        -0.060429
+      ],
+      "halfLength": 27.34,
+      "halfWidth": 9.73,
+      "height": 48.013,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.39,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        119820.06,
+        483510.61
+      ],
+      "axis": [
+        0.998172,
+        0.060429
+      ],
+      "halfLength": 12,
+      "halfWidth": 11.23,
+      "height": 49.074,
+      "gradient": [
+        -0.01993,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        119729.54,
+        483505.13
+      ],
+      "axis": [
+        -0.998172,
+        -0.060429
+      ],
+      "halfLength": 12,
+      "halfWidth": 11.23,
+      "height": 49.163,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "L0002.cc94dd9c1dc34a1cb490a1b2cb8b1872"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "L0002.1bbee1596f3c4a87980106d0c8e38b6e",
+          "type": "onbekend"
+        },
+        {
+          "id": "L0002.63eeebaaf71d4e6c845419fe29e865a7",
+          "type": "onbekend"
+        },
+        {
+          "id": "L0002.cc94dd9c1dc34a1cb490a1b2cb8b1872",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1527171036",
+        "tags": {
+          "bridge": "yes",
+          "carriageway_ref": "Li",
+          "disused:maxspeed": "100",
+          "highway": "motorway",
+          "int_ref": "E 19",
+          "lanes": "4",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "90",
+          "maxspeed:type": "sign",
+          "name": "Ringweg-Zuid",
+          "old_ref:-2010": "A10 zuid",
+          "oneway": "yes",
+          "operator": "Rijkswaterstaat",
+          "placement": "right_of:2",
+          "ref": "A10",
+          "surface": "asphalt",
+          "survey:date": "2025-01-27",
+          "toll:hgv": "yes",
+          "zone:traffic": "NL:rural",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 3
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,480000,120000,500000 --run nl-5_9 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 66.7,
+      "dekBreedte": 18.5,
+      "brugLengte": 66.7,
+      "water": null,
+      "portaalhoogte": 16.6,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "L0002.8af2b7b6bcaa47db830a3c7fb9d9246b",
+          "klasse": "Terrain",
+          "oppervlak": 1134.7,
+          "onderDek": 0.92,
+          "bovenDekOnderkant": 1.04,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "G0363.3fc831c9e0734bcfa4885e81b54532e0",
+          "klasse": "Forest",
+          "oppervlak": 2336.9,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.39,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        48.835,
+        49.013
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 1 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

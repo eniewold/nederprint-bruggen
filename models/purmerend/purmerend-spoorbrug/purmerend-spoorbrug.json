@@ -1,0 +1,150 @@
+{
+  "name": "Spoorbrug",
+  "file": "purmerend-spoorbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    125015.18,
+    501364.2
+  ],
+  "xAxis": [
+    -0.979534,
+    -0.201279
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 46.107,
+  "groundSamplePoints": [
+    [
+      -74.56,
+      0
+    ],
+    [
+      0.95,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0439.1a64003e8b8b4278aca5802eecf58cdc",
+    "P0027.06f2ad03db2343f39d4cbb53f9f17616",
+    "G0439.68b847ad27c94e188c322530e9781dcb",
+    "L0004.3cf8b882f71840dbbd70e54456381409",
+    "P0027.00697456734d47a28688c45b714062d4"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        125099.96,
+        501381.62
+      ],
+      "axis": [
+        0.979534,
+        0.201279
+      ],
+      "halfLength": 12,
+      "halfWidth": 6.87,
+      "height": 46.119,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        125002.5,
+        501361.6
+      ],
+      "axis": [
+        -0.979534,
+        -0.201279
+      ],
+      "halfLength": 12,
+      "halfWidth": 6.87,
+      "height": 46.113,
+      "gradient": [
+        -0.00048,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0439.1a64003e8b8b4278aca5802eecf58cdc",
+      "L0004.3cf8b882f71840dbbd70e54456381409"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0439.1a64003e8b8b4278aca5802eecf58cdc",
+          "type": "dek"
+        },
+        {
+          "id": "P0027.06f2ad03db2343f39d4cbb53f9f17616",
+          "type": "pijler"
+        },
+        {
+          "id": "G0439.68b847ad27c94e188c322530e9781dcb",
+          "type": "pijler"
+        },
+        {
+          "id": "L0004.3cf8b882f71840dbbd70e54456381409",
+          "type": "dek"
+        },
+        {
+          "id": "P0027.00697456734d47a28688c45b714062d4",
+          "type": "onbekend"
+        }
+      ],
+      "osm": {
+        "id": "way/523679604",
+        "tags": {
+          "bridge": "movable",
+          "bridge:structure": "beam",
+          "layer": "1",
+          "man_made": "bridge",
+          "name": "Spoorbrug",
+          "wikidata": "Q88481571",
+          "wikipedia": "nl:Spoorbrug Purmerend"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 5
+    },
+    "type": "basculebrug",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,500000,140000,520000 --run nl-6_10 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 0.8,
+      "dekBreedte": 9.7,
+      "brugLengte": 75.5,
+      "water": [
+        -66.1,
+        -17.6
+      ],
+      "portaalhoogte": 8.8,
+      "opritafstand": [
+        0,
+        0
+      ],
+      "spoorhoogteBron": "prorail-pvs",
+      "oprithelling": 24,
+      "doorstekend": [],
+      "opritHoogtes": [
+        46.119,
+        46.107
+      ]
+    },
+    "waarschuwingen": [
+      "bridge=movable zonder mechanisme: basculebrug is een gok",
+      "geen FIS-brug binnen 35 m"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

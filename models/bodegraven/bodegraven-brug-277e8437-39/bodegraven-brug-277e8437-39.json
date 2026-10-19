@@ -1,0 +1,174 @@
+{
+  "name": "Weideveldselaan",
+  "file": "bodegraven-brug-277e8437-39.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    112267.61,
+    453915.32
+  ],
+  "xAxis": [
+    -0.175633,
+    -0.984456
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 42.064,
+  "groundSamplePoints": [
+    [
+      -16.27,
+      0
+    ],
+    [
+      16.27,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G1901.277e843762a5020fe053346e14acc569",
+    "G1901.536811ec981129e4e053346e14ac6bc4"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        112267.61,
+        453915.32
+      ],
+      "axis": [
+        -0.175633,
+        -0.984456
+      ],
+      "halfLength": 3.7,
+      "halfWidth": 4.68,
+      "height": 41.198,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.63,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        112270.21,
+        453929.88
+      ],
+      "axis": [
+        0.175633,
+        0.984456
+      ],
+      "halfLength": 7.4,
+      "halfWidth": 6.18,
+      "height": 42.348,
+      "gradient": [
+        -0.02028,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        112265.01,
+        453900.75
+      ],
+      "axis": [
+        -0.175633,
+        -0.984456
+      ],
+      "halfLength": 7.4,
+      "halfWidth": 6.18,
+      "height": 42.281,
+      "gradient": [
+        -0.02933,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G1901.277e843762a5020fe053346e14acc569"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G1901.277e843762a5020fe053346e14acc569",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1469168279",
+        "tags": {
+          "bridge": "yes",
+          "foot": "use_sidepath",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxspeed": "50",
+          "name": "Weideveldselaan",
+          "surface": "asphalt",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,440000,120000,460000 --run nl-5_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 14.8,
+      "dekBreedte": 8.4,
+      "brugLengte": 14.8,
+      "water": [
+        -2.4,
+        1.6
+      ],
+      "portaalhoogte": 7.5,
+      "opritafstand": [
+        8.9,
+        8.9
+      ],
+      "oprithelling": 14.8,
+      "doorstekend": [
+        {
+          "gmlId": "G1901.550d53c4fcd5144be053346e14ac83ea",
+          "klasse": "Terrain",
+          "oppervlak": 71.6,
+          "onderDek": 0.21,
+          "bovenDekOnderkant": 0.63,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G1901.a10e3ddbe1d45d0fe053346e14aca4d5",
+          "klasse": "Terrain",
+          "oppervlak": 37.6,
+          "onderDek": 0.14,
+          "bovenDekOnderkant": 0.35,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G1901.536811ec981129e4e053346e14ac6bc4",
+          "klasse": "Terrain",
+          "oppervlak": 10,
+          "onderDek": 1,
+          "bovenDekOnderkant": 0.26,
+          "actie": "verbergen"
+        }
+      ],
+      "opritHoogtes": [
+        42.198,
+        42.064
+      ]
+    },
+    "waarschuwingen": [
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "3 PDOK-vorm(en) door het dek: 1 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

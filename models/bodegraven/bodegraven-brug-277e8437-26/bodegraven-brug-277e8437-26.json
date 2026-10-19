@@ -1,0 +1,164 @@
+{
+  "name": "Broekveldselaan",
+  "file": "bodegraven-brug-277e8437-26.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    111822.15,
+    453788.63
+  ],
+  "xAxis": [
+    0.755912,
+    0.654674
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 42.626,
+  "groundSamplePoints": [
+    [
+      -15.96,
+      0
+    ],
+    [
+      15.96,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G1901.277e84375bfb020fe053346e14acc569"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        111822.15,
+        453788.63
+      ],
+      "axis": [
+        0.755912,
+        0.654674
+      ],
+      "halfLength": 3.63,
+      "halfWidth": 6.96,
+      "height": 42.356,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.15,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        111811.19,
+        453779.13
+      ],
+      "axis": [
+        -0.755912,
+        -0.654674
+      ],
+      "halfLength": 7.25,
+      "halfWidth": 8.46,
+      "height": 43.141,
+      "gradient": [
+        -0.07099,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        111833.12,
+        453798.13
+      ],
+      "axis": [
+        0.755912,
+        0.654674
+      ],
+      "halfLength": 7.25,
+      "halfWidth": 8.46,
+      "height": 43.506,
+      "gradient": [
+        -0.02068,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G1901.277e84375bfb020fe053346e14acc569"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G1901.277e84375bfb020fe053346e14acc569",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/145131360",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "yes",
+          "highway": "secondary",
+          "layer": "1",
+          "maxspeed": "50",
+          "name": "Broekveldselaan",
+          "oneway": "yes"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,440000,120000,460000 --run nl-5_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 14.5,
+      "dekBreedte": 12.9,
+      "brugLengte": 14.5,
+      "water": [
+        -3.3,
+        3.2
+      ],
+      "portaalhoogte": 11.6,
+      "opritafstand": [
+        8.7,
+        8.7
+      ],
+      "oprithelling": 14.5,
+      "doorstekend": [
+        {
+          "gmlId": "G1901.07d7621bc7b12201e063d26e14ac28f6",
+          "klasse": "Terrain",
+          "oppervlak": 19.5,
+          "onderDek": 0.07,
+          "bovenDekOnderkant": 0.15,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G1901.07d7621bc7b32201e063d26e14ac28f6",
+          "klasse": "Terrain",
+          "oppervlak": 12.4,
+          "onderDek": 0.32,
+          "bovenDekOnderkant": 0.11,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        42.626,
+        43.356
+      ]
+    },
+    "waarschuwingen": [
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

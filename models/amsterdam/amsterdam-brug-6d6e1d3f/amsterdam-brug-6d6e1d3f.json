@@ -1,0 +1,151 @@
+{
+  "name": "Zuidelijke Ringspoorbaan",
+  "file": "amsterdam-brug-6d6e1d3f.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    118630.14,
+    483458.4
+  ],
+  "xAxis": [
+    0.997902,
+    0.064736
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 50.522,
+  "groundSamplePoints": [
+    [
+      -11.43,
+      0
+    ],
+    [
+      11.45,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "L0004.16ac4230c5694440a25adaeaf9fb514a",
+    "L0004.6d6e1d3fa4b243d7a8c56cd46b60343c",
+    "L0004.7e38cabf9a1a44f0900152b9151f7324"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        118607.33,
+        483456.92
+      ],
+      "axis": [
+        -0.997902,
+        -0.064736
+      ],
+      "halfLength": 11.44,
+      "halfWidth": 8.01,
+      "height": 50.55,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        118652.99,
+        483459.89
+      ],
+      "axis": [
+        0.997902,
+        0.064736
+      ],
+      "halfLength": 11.44,
+      "halfWidth": 8.01,
+      "height": 50.536,
+      "gradient": [
+        -0.0012,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "L0004.6d6e1d3fa4b243d7a8c56cd46b60343c"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "L0004.16ac4230c5694440a25adaeaf9fb514a",
+          "type": "landhoofd"
+        },
+        {
+          "id": "L0004.6d6e1d3fa4b243d7a8c56cd46b60343c",
+          "type": "dek"
+        },
+        {
+          "id": "L0004.7e38cabf9a1a44f0900152b9151f7324",
+          "type": "landhoofd"
+        }
+      ],
+      "osm": {
+        "id": "way/517090855",
+        "tags": {
+          "bridge": "yes",
+          "description": "Duivendrecht - Amsterdam Riekerpolder",
+          "electrified": "contact_line",
+          "frequency": "0",
+          "gauge": "1435",
+          "layer": "1",
+          "maxspeed": "130",
+          "name": "Zuidelijke Ringspoorbaan",
+          "operator": "ProRail",
+          "passenger_lines": "4",
+          "railway": "rail",
+          "railway:atb": "yes",
+          "railway:maximum_current": "4000",
+          "railway:track_class": "C2",
+          "ref": "144a",
+          "source": "wms:http://mapservices.prorail.nl/arcgis/services/Geleidingssysteem_003/MapServer/WmsServer?FORMAT=image/png24&TRANSPARENT=TRUE&VERSION=1.1.1&SERVICE=WMS&REQUEST=GetMap&LAYERS=7,6,5,4,3,2,1,0&STYLES=&SRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}",
+          "source:date": "23-01-2017",
+          "usage": "main",
+          "voltage": "1500",
+          "wikidata": "Q2236232",
+          "wikipedia": "nl:Spoorlijn Weesp - Leiden",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 3
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,480000,120000,500000 --run nl-5_9 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 22.6,
+      "dekBreedte": 12,
+      "brugLengte": 22.9,
+      "water": null,
+      "portaalhoogte": 10.8,
+      "opritafstand": [
+        0,
+        0
+      ],
+      "spoorhoogteBron": "prorail-pvs",
+      "oprithelling": 22.9,
+      "doorstekend": [],
+      "opritHoogtes": [
+        50.55,
+        50.522
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

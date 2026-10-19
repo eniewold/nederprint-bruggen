@@ -1,0 +1,137 @@
+{
+  "name": "Zandvaartbrug",
+  "file": "heemstede-zandvaartbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    103007.61,
+    484861.4
+  ],
+  "xAxis": [
+    -0.347665,
+    -0.937619
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 45.044,
+  "groundSamplePoints": [
+    [
+      -10.46,
+      0
+    ],
+    [
+      10.46,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0397.7cd762db31e54381987eabaf43dae4cf"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        103010.91,
+        484870.32
+      ],
+      "axis": [
+        0.347665,
+        0.937619
+      ],
+      "halfLength": 4.76,
+      "halfWidth": 19.77,
+      "height": 45.233,
+      "gradient": [
+        -0.03972,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        103004.3,
+        484852.48
+      ],
+      "axis": [
+        -0.347665,
+        -0.937619
+      ],
+      "halfLength": 4.76,
+      "halfWidth": 19.77,
+      "height": 45.272,
+      "gradient": [
+        -0.03154,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0397.7cd762db31e54381987eabaf43dae4cf"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0397.7cd762db31e54381987eabaf43dae4cf",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1458698990",
+        "tags": {
+          "bridge": "yes",
+          "cycleway:right": "lane",
+          "highway": "primary",
+          "lanes": "2",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "50",
+          "name": "Zandvaartbrug",
+          "oneway": "yes",
+          "operator": "Gemeente Heemstede",
+          "ref": "N201",
+          "sidewalk": "right",
+          "surface": "asphalt",
+          "zone:traffic": "NL:urban",
+          "man_made": "bridge",
+          "wikipedia": "nl:Zandvaartbrug"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,480000,120000,500000 --run nl-5_9 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 9.5,
+      "dekBreedte": 35.5,
+      "brugLengte": 9.5,
+      "water": [
+        -4.3,
+        4.2
+      ],
+      "portaalhoogte": 32,
+      "opritafstand": [
+        5.7,
+        5.7
+      ],
+      "oprithelling": 9.5,
+      "doorstekend": [],
+      "opritHoogtes": [
+        45.044,
+        45.122
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

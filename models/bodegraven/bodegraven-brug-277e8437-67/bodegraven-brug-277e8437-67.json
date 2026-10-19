@@ -1,0 +1,164 @@
+{
+  "name": "J.C. Hoogendoornlaan",
+  "file": "bodegraven-brug-277e8437-67.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    110038.5,
+    454955.71
+  ],
+  "xAxis": [
+    -0.974892,
+    0.222679
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 42.569,
+  "groundSamplePoints": [
+    [
+      -35.27,
+      0
+    ],
+    [
+      35.27,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G1901.277e843761a0020fe053346e14acc569"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        110038.5,
+        454955.71
+      ],
+      "axis": [
+        -0.974892,
+        0.222679
+      ],
+      "halfLength": 10.03,
+      "halfWidth": 3.91,
+      "height": 41.608,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -2.33,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        110065.82,
+        454949.46
+      ],
+      "axis": [
+        0.974892,
+        -0.222679
+      ],
+      "halfLength": 12,
+      "halfWidth": 5.12,
+      "height": 42.758,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        110011.17,
+        454961.95
+      ],
+      "axis": [
+        -0.974892,
+        0.222679
+      ],
+      "halfLength": 12,
+      "halfWidth": 5.12,
+      "height": 42.738,
+      "gradient": [
+        -0.01412,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G1901.277e843761a0020fe053346e14acc569"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G1901.277e843761a0020fe053346e14acc569",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/7359359",
+        "tags": {
+          "bridge": "yes",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "J.C. Hoogendoornlaan",
+          "surface": "asphalt"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,440000,120000,460000 --run nl-5_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 32.1,
+      "dekBreedte": 6.8,
+      "brugLengte": 32.1,
+      "water": [
+        -9.5,
+        9.5
+      ],
+      "portaalhoogte": 6.1,
+      "opritafstand": [
+        19.2,
+        19.2
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G1901.277e8436be87020fe053346e14acc569",
+          "klasse": "Terrain",
+          "oppervlak": 1730.2,
+          "onderDek": 0.01,
+          "bovenDekOnderkant": 1.33,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G1901.eeda229ae4162feee053d26e14ac4413",
+          "klasse": "Terrain",
+          "oppervlak": 32.2,
+          "onderDek": 0.08,
+          "bovenDekOnderkant": 0.27,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        42.608,
+        42.569
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

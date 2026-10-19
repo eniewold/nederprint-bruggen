@@ -1,0 +1,172 @@
+{
+  "name": "Limesbrug",
+  "file": "elst-limesbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    187499.35,
+    437771.97
+  ],
+  "xAxis": [
+    -0.775675,
+    0.631133
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 52.917,
+  "groundSamplePoints": [
+    [
+      -17.84,
+      0
+    ],
+    [
+      17.84,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G1734.2ea80ddb487d4017b099039353b1c410",
+    "W0621.bb3517b258434dc49b6d251b432f1eb2"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        187499.35,
+        437771.97
+      ],
+      "axis": [
+        -0.775675,
+        0.631133
+      ],
+      "halfLength": 4.05,
+      "halfWidth": 11.97,
+      "height": 51.957,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.62,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        187511.93,
+        437761.74
+      ],
+      "axis": [
+        0.775675,
+        -0.631133
+      ],
+      "halfLength": 8.11,
+      "halfWidth": 13.47,
+      "height": 53.087,
+      "gradient": [
+        -0.02097,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        187486.78,
+        437782.21
+      ],
+      "axis": [
+        -0.775675,
+        0.631133
+      ],
+      "halfLength": 8.11,
+      "halfWidth": 13.47,
+      "height": 53.107,
+      "gradient": [
+        -0.0185,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G1734.2ea80ddb487d4017b099039353b1c410"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G1734.2ea80ddb487d4017b099039353b1c410",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/815655183",
+        "tags": {
+          "bridge": "yes",
+          "foot": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "mofa": "yes",
+          "moped": "no",
+          "name": "Ceintuurbaan",
+          "segregated": "yes",
+          "smoothness": "good",
+          "surface": "asphalt",
+          "traffic_sign": "NL:G11",
+          "bridge:name": "Limesbrug",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 180000,420000,200000,440000 --run nl-9_6 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 16.2,
+      "dekBreedte": 22.9,
+      "brugLengte": 16.2,
+      "water": [
+        -5.1,
+        2.4
+      ],
+      "portaalhoogte": 20.6,
+      "opritafstand": [
+        9.7,
+        9.7
+      ],
+      "oprithelling": 16.2,
+      "doorstekend": [
+        {
+          "gmlId": "W0621.bb3517b258434dc49b6d251b432f1eb2",
+          "klasse": "Terrain",
+          "oppervlak": 29.7,
+          "onderDek": 0.81,
+          "bovenDekOnderkant": 0.65,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "W0621.310b78cb6b3a4ce6b48627d64958633d",
+          "klasse": "Terrain",
+          "oppervlak": 838.3,
+          "onderDek": 0.01,
+          "bovenDekOnderkant": 0.62,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        52.917,
+        52.957
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 1 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

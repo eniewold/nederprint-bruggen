@@ -1,0 +1,165 @@
+{
+  "name": "Oslohaven",
+  "file": "purmerend-brug-1e4bc2b8.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    124511.46,
+    502232.02
+  ],
+  "xAxis": [
+    0.01888,
+    -0.999822
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 42.156,
+  "groundSamplePoints": [
+    [
+      -22.12,
+      0
+    ],
+    [
+      22.12,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0439.1e4bc2b82825412198c9936ed4fad9de"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        124511.46,
+        502232.02
+      ],
+      "axis": [
+        0.01888,
+        -0.999822
+      ],
+      "halfLength": 5.03,
+      "halfWidth": 2.2,
+      "height": 41.18,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.08,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        124511.08,
+        502252.12
+      ],
+      "axis": [
+        -0.01888,
+        0.999822
+      ],
+      "halfLength": 10.05,
+      "halfWidth": 2.54,
+      "height": 42.33,
+      "gradient": [
+        -0.01492,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        124511.84,
+        502211.92
+      ],
+      "axis": [
+        0.01888,
+        -0.999822
+      ],
+      "halfLength": 10.05,
+      "halfWidth": 2.54,
+      "height": 42.318,
+      "gradient": [
+        -0.01612,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0439.1e4bc2b82825412198c9936ed4fad9de"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0439.1e4bc2b82825412198c9936ed4fad9de",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/797371237",
+        "tags": {
+          "bridge": "yes",
+          "foot": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "name": "Oslohaven",
+          "segregated": "no",
+          "surface": "concrete"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,500000,140000,520000 --run nl-6_10 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 20.1,
+      "dekBreedte": 3.4,
+      "brugLengte": 20.1,
+      "water": [
+        -3.1,
+        7.9
+      ],
+      "portaalhoogte": 3.1,
+      "opritafstand": [
+        12.1,
+        12.1
+      ],
+      "oprithelling": 20.1,
+      "doorstekend": [
+        {
+          "gmlId": "G0439.028b945170134500a4a169ea39128106",
+          "klasse": "Separation",
+          "oppervlak": 82.9,
+          "onderDek": 0.05,
+          "bovenDekOnderkant": 0.08,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0439.db42b88c6a3e444d931618d1a93fa67f",
+          "klasse": "Terrain",
+          "oppervlak": 18,
+          "onderDek": 0.21,
+          "bovenDekOnderkant": 0.07,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        42.18,
+        42.156
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

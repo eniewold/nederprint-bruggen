@@ -1,0 +1,198 @@
+{
+  "name": "Aziëlaan",
+  "file": "purmerend-azielaan.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    125087.64,
+    501049.55
+  ],
+  "xAxis": [
+    0.197234,
+    -0.980356
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 41.685,
+  "groundSamplePoints": [
+    [
+      -9.13,
+      0
+    ],
+    [
+      9.13,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0439.c37310ddb0e74ead9503b7067859c224",
+    "G0439.c81d358016184c95b77c4ecd6eafde9b",
+    "G0439.08ff341619d44da2a2f01860fea5f38c"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        125087.64,
+        501049.55
+      ],
+      "axis": [
+        0.197234,
+        -0.980356
+      ],
+      "halfLength": 2.08,
+      "halfWidth": 51.3,
+      "height": 40.893,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -2.84,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        125086,
+        501057.68
+      ],
+      "axis": [
+        -0.197234,
+        0.980356
+      ],
+      "halfLength": 4.15,
+      "halfWidth": 52.8,
+      "height": 42.043,
+      "gradient": [
+        -0.03614,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        125089.27,
+        501041.41
+      ],
+      "axis": [
+        0.197234,
+        -0.980356
+      ],
+      "halfLength": 4.15,
+      "halfWidth": 52.8,
+      "height": 41.939,
+      "gradient": [
+        -0.0612,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0439.c81d358016184c95b77c4ecd6eafde9b",
+      "G0439.08ff341619d44da2a2f01860fea5f38c"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0439.c37310ddb0e74ead9503b7067859c224",
+          "type": "landhoofd"
+        },
+        {
+          "id": "G0439.c81d358016184c95b77c4ecd6eafde9b",
+          "type": "dek"
+        },
+        {
+          "id": "G0439.08ff341619d44da2a2f01860fea5f38c",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/727876416",
+        "tags": {
+          "bridge": "movable",
+          "bridge:movable": "bascule",
+          "bridge:name": "Jan Blankenbrug",
+          "highway": "cycleway",
+          "layer": "1",
+          "mofa": "designated",
+          "moped": "designated",
+          "name": "Jan Blankenbrug",
+          "oneway": "yes",
+          "traffic_sign": "NL:G12a",
+          "man_made": "bridge"
+        }
+      },
+      "fis": {
+        "id": 6134,
+        "naam": "Jan Blankenbrug Purmerend",
+        "afstand": 28,
+        "beweegbaar": true,
+        "doorvaarthoogteGesloten": 2.55
+      },
+      "pdokBridgeVlakken": 3
+    },
+    "type": "basculebrug",
+    "doorvaarthoogte": 2.55,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,500000,140000,520000 --run nl-6_10 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 8.3,
+      "dekBreedte": 101.6,
+      "brugLengte": 8.3,
+      "water": null,
+      "portaalhoogte": 91.4,
+      "opritafstand": [
+        5,
+        5
+      ],
+      "oprithelling": 8.3,
+      "doorstekend": [
+        {
+          "gmlId": "G0439.0e9cfec3bc334c509d0f136edbb4b2e6",
+          "klasse": "Forest",
+          "oppervlak": 349.2,
+          "onderDek": 0,
+          "bovenDekOnderkant": 1.84,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "W0651.6b48e8d0f4af43e5ab71c92488d5ab6f",
+          "klasse": "Forest",
+          "oppervlak": 53.5,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.86,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0439.ea80c18ce9874a8cbd77bd0cb795688b",
+          "klasse": "Road",
+          "oppervlak": 145.9,
+          "onderDek": 0.09,
+          "bovenDekOnderkant": 0.46,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0439.8a1bcaa411934ebfa063755438fc0f23",
+          "klasse": "Road",
+          "oppervlak": 301.4,
+          "onderDek": 0.05,
+          "bovenDekOnderkant": 0.36,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        41.893,
+        41.685
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "4 PDOK-vorm(en) door het dek: 0 verborgen, 4 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}
