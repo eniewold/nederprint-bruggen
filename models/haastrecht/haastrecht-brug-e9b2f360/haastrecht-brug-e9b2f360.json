@@ -1,0 +1,157 @@
+{
+  "name": "Grote Lot",
+  "file": "haastrecht-brug-e9b2f360.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    111444.64,
+    447330.36
+  ],
+  "xAxis": [
+    -0.997961,
+    0.063821
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 41.809,
+  "groundSamplePoints": [
+    [
+      -10.99,
+      0
+    ],
+    [
+      10.99,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G1931.e9b2f36002134eb483a0af4deac33298"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        111444.64,
+        447330.36
+      ],
+      "axis": [
+        -0.997961,
+        0.063821
+      ],
+      "halfLength": 2.5,
+      "halfWidth": 1.99,
+      "height": 40.826,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.63,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        111454.61,
+        447329.72
+      ],
+      "axis": [
+        0.997961,
+        -0.063821
+      ],
+      "halfLength": 5,
+      "halfWidth": 2.24,
+      "height": 41.976,
+      "gradient": [
+        -0.03002,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        111434.66,
+        447331
+      ],
+      "axis": [
+        -0.997961,
+        0.063821
+      ],
+      "halfLength": 5,
+      "halfWidth": 2.24,
+      "height": 41.967,
+      "gradient": [
+        -0.03173,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G1931.e9b2f36002134eb483a0af4deac33298"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G1931.e9b2f36002134eb483a0af4deac33298",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1353244006",
+        "tags": {
+          "bridge": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "name": "Grote Lot",
+          "surface": "asphalt",
+          "width": "3",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,440000,120000,460000 --run nl-5_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 10,
+      "dekBreedte": 3,
+      "brugLengte": 10,
+      "water": [
+        -2.5,
+        2.5
+      ],
+      "portaalhoogte": 2.7,
+      "opritafstand": [
+        6,
+        6
+      ],
+      "oprithelling": 10,
+      "doorstekend": [
+        {
+          "gmlId": "G0513.51869ec9778e036ce053293c320a109c",
+          "klasse": "Terrain",
+          "oppervlak": 54.1,
+          "onderDek": 0.01,
+          "bovenDekOnderkant": 0.63,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        41.826,
+        41.809
+      ]
+    },
+    "waarschuwingen": [
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

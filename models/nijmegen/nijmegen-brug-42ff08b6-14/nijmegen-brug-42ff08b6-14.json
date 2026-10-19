@@ -1,0 +1,179 @@
+{
+  "name": "Sint Annastraat",
+  "file": "nijmegen-brug-42ff08b6-14.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    187500.42,
+    427219.53
+  ],
+  "xAxis": [
+    -0.136335,
+    -0.990663
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 73.84,
+  "groundSamplePoints": [
+    [
+      -48.49,
+      0
+    ],
+    [
+      48.49,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0268.42ff08b68a165775e0530100007f0cc2",
+    "G0268.b4941872f2a74450835fbb380c5fa90e"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        187500.42,
+        427219.53
+      ],
+      "axis": [
+        -0.136335,
+        -0.990663
+      ],
+      "halfLength": 22.49,
+      "halfWidth": 10.99,
+      "height": 73.19,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.68,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        187505.94,
+        427259.65
+      ],
+      "axis": [
+        0.136335,
+        0.990663
+      ],
+      "halfLength": 12,
+      "halfWidth": 12.49,
+      "height": 74.34,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        187494.9,
+        427179.41
+      ],
+      "axis": [
+        -0.136335,
+        -0.990663
+      ],
+      "halfLength": 12,
+      "halfWidth": 12.49,
+      "height": 74.165,
+      "gradient": [
+        -0.02705,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0268.42ff08b68a165775e0530100007f0cc2"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0268.42ff08b68a165775e0530100007f0cc2",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/6874061",
+        "tags": {
+          "alt_name": "Via Gladiola",
+          "bicycle": "no",
+          "bridge": "yes",
+          "highway": "primary",
+          "lanes": "2",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "50",
+          "maxweight:signed": "no",
+          "name": "Sint Annastraat",
+          "official_name": "St. Annastraat",
+          "parking:both": "no",
+          "ref": "S105",
+          "surface": "asphalt",
+          "zone:traffic": "NL:urban"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 180000,420000,200000,440000 --run nl-9_6 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 57,
+      "dekBreedte": 21,
+      "brugLengte": 57,
+      "water": null,
+      "portaalhoogte": 18.9,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0268.42ff08b26a0d5775e0530100007f0cc2",
+          "klasse": "Road",
+          "oppervlak": 354.3,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.68,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0268.42ff08b32eea5775e0530100007f0cc2",
+          "klasse": "Road",
+          "oppervlak": 967.4,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.54,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0268.b4941872f2a74450835fbb380c5fa90e",
+          "klasse": "Forest",
+          "oppervlak": 264.6,
+          "onderDek": 0.75,
+          "bovenDekOnderkant": 0.22,
+          "actie": "verbergen"
+        }
+      ],
+      "opritHoogtes": [
+        74.19,
+        73.84
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "3 PDOK-vorm(en) door het dek: 1 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

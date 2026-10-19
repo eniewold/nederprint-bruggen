@@ -1,0 +1,165 @@
+{
+  "name": "Hogespoorbrug",
+  "file": "driebruggen-hogespoorbrug-2.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    115065.21,
+    448686.96
+  ],
+  "xAxis": [
+    -0.82969,
+    -0.558224
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 44.485,
+  "groundSamplePoints": [
+    [
+      -40.34,
+      0
+    ],
+    [
+      40.34,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G1901.277e84376096020fe053346e14acc569"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        115065.21,
+        448686.96
+      ],
+      "axis": [
+        -0.82969,
+        -0.558224
+      ],
+      "halfLength": 14.34,
+      "halfWidth": 3.35,
+      "height": 43.623,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.48,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        115092.04,
+        448705.01
+      ],
+      "axis": [
+        0.82969,
+        0.558224
+      ],
+      "halfLength": 12,
+      "halfWidth": 4.28,
+      "height": 44.704,
+      "gradient": [
+        -0.01825,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        115038.38,
+        448668.9
+      ],
+      "axis": [
+        -0.82969,
+        -0.558224
+      ],
+      "halfLength": 12,
+      "halfWidth": 4.28,
+      "height": 44.773,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G1901.277e84376096020fe053346e14acc569"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G1901.277e84376096020fe053346e14acc569",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/968512983",
+        "tags": {
+          "bridge": "yes",
+          "hgv": "destination",
+          "highway": "unclassified",
+          "horse": "yes",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Poppelendam",
+          "smoothness": "good",
+          "surface": "asphalt",
+          "man_made": "bridge"
+        }
+      },
+      "fis": {
+        "id": 56583,
+        "naam": "Hogespoorbrug",
+        "afstand": 27,
+        "beweegbaar": false,
+        "doorvaarthoogteGesloten": 2.33
+      },
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": 2.33,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,440000,120000,460000 --run nl-5_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 40.7,
+      "dekBreedte": 5.7,
+      "brugLengte": 40.7,
+      "water": [
+        -15.8,
+        11.2
+      ],
+      "portaalhoogte": 5.1,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G1901.64104e34b77c4ff6e053346e14acb990",
+          "klasse": "Forest",
+          "oppervlak": 371.2,
+          "onderDek": 0.04,
+          "bovenDekOnderkant": 0.48,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        44.485,
+        44.623
+      ]
+    },
+    "waarschuwingen": [
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

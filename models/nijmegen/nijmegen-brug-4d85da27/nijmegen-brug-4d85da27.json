@@ -1,0 +1,179 @@
+{
+  "name": "nijmegen-brug-4d85da27",
+  "file": "nijmegen-brug-4d85da27.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    185144.68,
+    426653.34
+  ],
+  "xAxis": [
+    0.942319,
+    0.334717
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 60.736,
+  "groundSamplePoints": [
+    [
+      -21.39,
+      0
+    ],
+    [
+      21.39,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "L0004.4d85da27b28242aea099066149a507f6"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        185144.68,
+        426653.34
+      ],
+      "axis": [
+        0.942319,
+        0.334717
+      ],
+      "halfLength": 15.39,
+      "halfWidth": 6.36,
+      "height": 59.479,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.93,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        185113.21,
+        426642.16
+      ],
+      "axis": [
+        -0.942319,
+        -0.334717
+      ],
+      "halfLength": 12,
+      "halfWidth": 7.86,
+      "height": 60.758,
+      "gradient": [
+        -0.00179,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        185176.14,
+        426664.51
+      ],
+      "axis": [
+        0.942319,
+        0.334717
+      ],
+      "halfLength": 12,
+      "halfWidth": 7.86,
+      "height": 60.779,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "L0004.4d85da27b28242aea099066149a507f6"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "L0004.4d85da27b28242aea099066149a507f6",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/565549419",
+        "tags": {
+          "axle_load": "22.5",
+          "bridge": "yes",
+          "description": "s Hertogenbosch - Nijmegen",
+          "electrified": "contact_line",
+          "frequency": "0",
+          "gauge": "1435",
+          "layer": "1",
+          "loading_gauge": "TSI_GB",
+          "maxspeed": "120",
+          "operator": "ProRail",
+          "passenger_lines": "2",
+          "railway": "rail",
+          "railway:atb": "yes",
+          "railway:maximum_current": "4000",
+          "railway:track_class": "D4",
+          "ref": "047",
+          "ref:ProRailSpoortak": "514_49BR_65.3",
+          "source": "ProRail",
+          "source:date": "2014-01-03",
+          "usage": "main",
+          "voltage": "1500",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 180000,420000,200000,440000 --run nl-9_6 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 42.8,
+      "dekBreedte": 11.7,
+      "brugLengte": 42.8,
+      "water": null,
+      "portaalhoogte": 10.5,
+      "opritafstand": [
+        0,
+        0
+      ],
+      "spoorhoogteBron": "prorail-pvs",
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "L0004.c32c81a2c95d4122ad9af47662173c15",
+          "klasse": "Terrain",
+          "oppervlak": 78.6,
+          "onderDek": 0.31,
+          "bovenDekOnderkant": 0.93,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "L0004.f781736edd8e42a9a0af9d7302b67e09",
+          "klasse": "Terrain",
+          "oppervlak": 82.7,
+          "onderDek": 0.36,
+          "bovenDekOnderkant": 0.39,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        60.736,
+        60.779
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

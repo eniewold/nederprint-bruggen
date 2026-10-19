@@ -1,0 +1,131 @@
+{
+  "name": "Horstbrug",
+  "file": "lelystad-horstbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    162825.07,
+    501466.25
+  ],
+  "xAxis": [
+    -0.999103,
+    0.042335
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 38.103,
+  "groundSamplePoints": [
+    [
+      -23.44,
+      0
+    ],
+    [
+      23.44,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0995.6d5a323d7ec14fd9a7b254a29f2492fa"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        162846.35,
+        501465.35
+      ],
+      "axis": [
+        0.999103,
+        -0.042335
+      ],
+      "halfLength": 10.65,
+      "halfWidth": 1.87,
+      "height": 38.716,
+      "gradient": [
+        -0.05754,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        162803.78,
+        501467.15
+      ],
+      "axis": [
+        -0.999103,
+        0.042335
+      ],
+      "halfLength": 10.65,
+      "halfWidth": 1.87,
+      "height": 39.179,
+      "gradient": [
+        -0.01408,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0995.6d5a323d7ec14fd9a7b254a29f2492fa"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0995.6d5a323d7ec14fd9a7b254a29f2492fa",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1154145182",
+        "tags": {
+          "bridge": "yes",
+          "highway": "footway",
+          "layer": "1",
+          "lit": "no",
+          "smoothness": "excellent",
+          "surface": "asphalt",
+          "bridge:structure": "cable-stayed",
+          "man_made": "bridge",
+          "name": "Horstbrug"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "tuibrug",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,500000,180000,520000 --run nl-8_10 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 21.3,
+      "dekBreedte": 2.5,
+      "brugLengte": 21.3,
+      "water": [
+        -3.7,
+        3.3
+      ],
+      "portaalhoogte": 2.5,
+      "opritafstand": [
+        12.8,
+        12.8
+      ],
+      "oprithelling": 21.3,
+      "doorstekend": [],
+      "opritHoogtes": [
+        38.103,
+        39.029
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "tuibrug zonder BGT-pylonen: alleen het dek"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

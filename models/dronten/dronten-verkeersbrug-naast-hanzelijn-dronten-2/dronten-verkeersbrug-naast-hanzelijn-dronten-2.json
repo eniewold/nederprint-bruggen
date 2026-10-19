@@ -1,0 +1,154 @@
+{
+  "name": "Verkeersbrug naast Hanzelijn Dronten",
+  "file": "dronten-verkeersbrug-naast-hanzelijn-dronten-2.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    177125.17,
+    505349.27
+  ],
+  "xAxis": [
+    0.981397,
+    -0.191988
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 45.555,
+  "groundSamplePoints": [
+    [
+      -30.18,
+      0
+    ],
+    [
+      30.18,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "L0004.155c71a15f6940b1bd302e802117ed37"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        177083.78,
+        505357.37
+      ],
+      "axis": [
+        -0.981397,
+        0.191988
+      ],
+      "halfLength": 12,
+      "halfWidth": 8.46,
+      "height": 45.563,
+      "gradient": [
+        -0.0006,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        177166.56,
+        505341.17
+      ],
+      "axis": [
+        0.981397,
+        -0.191988
+      ],
+      "halfLength": 12,
+      "halfWidth": 8.46,
+      "height": 45.57,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "L0004.155c71a15f6940b1bd302e802117ed37"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "L0004.155c71a15f6940b1bd302e802117ed37",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/426378882",
+        "tags": {
+          "axle_load": "22.5",
+          "bridge": "yes",
+          "description": "Lelystad Industrieterrein - Hattemerbroek",
+          "electrified": "contact_line",
+          "frequency": "0",
+          "gauge": "1435",
+          "layer": "2",
+          "loading_gauge": "TSI_GC",
+          "maxspeed": "200",
+          "name": "Hanzelijn",
+          "operator": "ProRail",
+          "passenger_lines": "2",
+          "railway": "rail",
+          "railway:atb": "yes",
+          "railway:atb-eg": "yes",
+          "railway:atb-ng": "no",
+          "railway:etcs": "2",
+          "railway:maximum_current": "4000",
+          "railway:track_class": "D4",
+          "railway:traffic_mode": "mixed",
+          "ref": "161",
+          "ref:ProRailID": "2885219.0",
+          "ref:ProRailSpoortak": "161_2221V_9.4",
+          "source": "ProRail",
+          "source:date": "2014-01-03",
+          "usage": "main",
+          "voltage": "1500"
+        }
+      },
+      "fis": {
+        "id": 3670,
+        "naam": "Verkeersbrug naast Hanzelijn Dronten",
+        "afstand": 18,
+        "beweegbaar": false,
+        "doorvaarthoogteGesloten": 6.5
+      },
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": 6.5,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,500000,180000,520000 --run nl-8_10 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 60.4,
+      "dekBreedte": 12.9,
+      "brugLengte": 60.4,
+      "water": [
+        -17.2,
+        17.3
+      ],
+      "portaalhoogte": 11.6,
+      "opritafstand": [
+        0,
+        0
+      ],
+      "spoorhoogteBron": "prorail-pvs",
+      "oprithelling": 24,
+      "doorstekend": [],
+      "opritHoogtes": [
+        45.555,
+        45.57
+      ]
+    },
+    "waarschuwingen": [
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

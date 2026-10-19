@@ -1,0 +1,167 @@
+{
+  "name": "moordrecht-brug-e692c73b",
+  "file": "moordrecht-brug-e692c73b.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    106308.31,
+    445491.17
+  ],
+  "xAxis": [
+    0.576712,
+    0.816948
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 41.009,
+  "groundSamplePoints": [
+    [
+      -7.15,
+      0
+    ],
+    [
+      7.15,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G1892.e692c73be8564adab9af057fb770c9ea",
+    "G1892.ef4108e5b1c04a70bec5ea8759014768"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        106308.31,
+        445491.17
+      ],
+      "axis": [
+        0.576712,
+        0.816948
+      ],
+      "halfLength": 0.57,
+      "halfWidth": 4.43,
+      "height": 40.262,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.72,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        106305.92,
+        445487.78
+      ],
+      "axis": [
+        -0.576712,
+        -0.816948
+      ],
+      "halfLength": 3,
+      "halfWidth": 5.9,
+      "height": 41.412,
+      "gradient": [
+        -0.05,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        106310.71,
+        445494.55
+      ],
+      "axis": [
+        0.576712,
+        0.816948
+      ],
+      "halfLength": 3,
+      "halfWidth": 5.9,
+      "height": 41.285,
+      "gradient": [
+        -0.09218,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G1892.e692c73be8564adab9af057fb770c9ea"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G1892.e692c73be8564adab9af057fb770c9ea",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1311216939",
+        "tags": {
+          "bridge": "yes",
+          "highway": "footway",
+          "layer": "1",
+          "surface": "wood",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,440000,120000,460000 --run nl-5_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 2.3,
+      "dekBreedte": 7.9,
+      "brugLengte": 2.3,
+      "water": [
+        -1.1,
+        0.9
+      ],
+      "portaalhoogte": 7.1,
+      "opritafstand": [
+        6,
+        6
+      ],
+      "oprithelling": 6,
+      "doorstekend": [
+        {
+          "gmlId": "G1892.ef4108e5b1c04a70bec5ea8759014768",
+          "klasse": "Terrain",
+          "oppervlak": 3.2,
+          "onderDek": 0.81,
+          "bovenDekOnderkant": 0.88,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "G1892.024462e7affb416a962368464ea853af",
+          "klasse": "Terrain",
+          "oppervlak": 743.6,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.72,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        41.262,
+        41.009
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "oprit - pas op 6.0 m gemeten",
+      "oprit + pas op 6.0 m gemeten",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 1 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

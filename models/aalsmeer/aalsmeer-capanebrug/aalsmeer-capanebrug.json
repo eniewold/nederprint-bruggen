@@ -1,0 +1,131 @@
+{
+  "name": "Capanebrug",
+  "file": "aalsmeer-capanebrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    111546.22,
+    475399.39
+  ],
+  "xAxis": [
+    -0.468409,
+    0.883512
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 43.173,
+  "groundSamplePoints": [
+    [
+      -5.54,
+      0
+    ],
+    [
+      5.54,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0362.d660f94f81bf408cbe2af6d4c0b5c001"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        111548.34,
+        475395.38
+      ],
+      "axis": [
+        0.468409,
+        -0.883512
+      ],
+      "halfLength": 3,
+      "halfWidth": 8.7,
+      "height": 43.396,
+      "gradient": [
+        -0.05,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        111544.09,
+        475403.4
+      ],
+      "axis": [
+        -0.468409,
+        0.883512
+      ],
+      "halfLength": 3,
+      "halfWidth": 8.7,
+      "height": 43.36,
+      "gradient": [
+        -0.06208,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0362.d660f94f81bf408cbe2af6d4c0b5c001"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0362.d660f94f81bf408cbe2af6d4c0b5c001",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/832937868",
+        "tags": {
+          "bridge": "yes",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "50",
+          "name": "Capanebrug",
+          "zone:traffic": "NL:urban",
+          "bridge:structure": "humpback",
+          "man_made": "bridge",
+          "source:name": "BAG/BGT"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "bolbrug",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,460000,120000,480000 --run nl-5_8 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 3.1,
+      "dekBreedte": 13.4,
+      "brugLengte": 3.1,
+      "water": [
+        -1,
+        1.5
+      ],
+      "portaalhoogte": 12.1,
+      "opritafstand": [
+        4,
+        4
+      ],
+      "oprithelling": 6,
+      "bolling": 0.5,
+      "doorstekend": [],
+      "opritHoogtes": [
+        43.246,
+        43.173
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

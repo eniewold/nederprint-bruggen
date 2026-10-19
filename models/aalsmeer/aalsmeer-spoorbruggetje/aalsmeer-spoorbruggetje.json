@@ -1,0 +1,133 @@
+{
+  "name": "Spoorbruggetje",
+  "file": "aalsmeer-spoorbruggetje.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    112120.33,
+    476021.11
+  ],
+  "xAxis": [
+    0.520314,
+    -0.853975
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 42.936,
+  "groundSamplePoints": [
+    [
+      -8.6,
+      0
+    ],
+    [
+      8.6,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0358.951bcc3a438b4995a81cf2200b44743e",
+    "G0362.51885b2c32f74666ba995e0694b9fd78"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        112116.26,
+        476027.79
+      ],
+      "axis": [
+        -0.520314,
+        0.853975
+      ],
+      "halfLength": 3.91,
+      "halfWidth": 7.96,
+      "height": 43.491,
+      "gradient": [
+        -0.14218,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        112124.39,
+        476014.44
+      ],
+      "axis": [
+        0.520314,
+        -0.853975
+      ],
+      "halfLength": 3.91,
+      "halfWidth": 7.96,
+      "height": 43.897,
+      "gradient": [
+        -0.03838,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0358.951bcc3a438b4995a81cf2200b44743e"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0358.951bcc3a438b4995a81cf2200b44743e",
+          "type": "dek"
+        },
+        {
+          "id": "G0362.51885b2c32f74666ba995e0694b9fd78",
+          "type": "landhoofd"
+        }
+      ],
+      "osm": {
+        "id": "way/832936711",
+        "tags": {
+          "bridge": "yes",
+          "highway": "footway",
+          "layer": "1",
+          "name": "Spoorbruggetje",
+          "source": "BAG",
+          "zone:traffic": "NL:urban",
+          "man_made": "bridge",
+          "source:name": "BAG/BGT"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 2
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,460000,120000,480000 --run nl-5_8 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 7.8,
+      "dekBreedte": 11.9,
+      "brugLengte": 7.8,
+      "water": [
+        -1.9,
+        2.1
+      ],
+      "portaalhoogte": 10.7,
+      "opritafstand": [
+        4.7,
+        4.7
+      ],
+      "oprithelling": 7.8,
+      "doorstekend": [],
+      "opritHoogtes": [
+        42.936,
+        43.747
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

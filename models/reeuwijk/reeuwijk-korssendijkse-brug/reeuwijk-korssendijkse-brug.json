@@ -1,0 +1,135 @@
+{
+  "name": "Korssendijkse Brug",
+  "file": "reeuwijk-korssendijkse-brug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    110486.65,
+    448606.58
+  ],
+  "xAxis": [
+    0.445928,
+    0.895069
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 41.814,
+  "groundSamplePoints": [
+    [
+      -5.62,
+      0
+    ],
+    [
+      5.62,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G1901.277e84376201020fe053346e14acc569"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        110484.59,
+        448602.45
+      ],
+      "axis": [
+        -0.445928,
+        -0.895069
+      ],
+      "halfLength": 3,
+      "halfWidth": 3.16,
+      "height": 42.438,
+      "gradient": [
+        -0.05,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        110488.71,
+        448610.72
+      ],
+      "axis": [
+        0.445928,
+        0.895069
+      ],
+      "halfLength": 3,
+      "halfWidth": 3.16,
+      "height": 42.201,
+      "gradient": [
+        -0.12898,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G1901.277e84376201020fe053346e14acc569"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G1901.277e84376201020fe053346e14acc569",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/825547858",
+        "tags": {
+          "bridge": "movable",
+          "bridge:movable": "bascule",
+          "highway": "unclassified",
+          "lane_markings": "no",
+          "layer": "1",
+          "maxspeed": "60",
+          "maxweight": "4.0",
+          "maxwidth": "2.2",
+          "moped": "yes",
+          "motor_vehicle:conditional": "no @ (Sa-Su 12:00-18:00)",
+          "name": "Korssendijkse Brug",
+          "surface": "wood",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "basculebrug",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,440000,120000,460000 --run nl-5_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 3.2,
+      "dekBreedte": 4.2,
+      "brugLengte": 3.2,
+      "water": [
+        -1.1,
+        1.4
+      ],
+      "portaalhoogte": 3.8,
+      "opritafstand": [
+        4,
+        4
+      ],
+      "oprithelling": 6,
+      "doorstekend": [],
+      "opritHoogtes": [
+        42.288,
+        41.814
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

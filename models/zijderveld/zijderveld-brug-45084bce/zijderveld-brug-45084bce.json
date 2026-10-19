@@ -1,0 +1,176 @@
+{
+  "name": "Diefdijk",
+  "file": "zijderveld-brug-45084bce.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    138980.49,
+    438819.78
+  ],
+  "xAxis": [
+    0.524999,
+    0.851103
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 50.706,
+  "groundSamplePoints": [
+    [
+      -57.95,
+      0
+    ],
+    [
+      57.95,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0620.45084bce42b24a8ea4093f9410a17a73",
+    "L0002.5aac3b05faf8405fa78372797cdceffd"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        138980.49,
+        438819.78
+      ],
+      "axis": [
+        0.524999,
+        0.851103
+      ],
+      "halfLength": 31.95,
+      "halfWidth": 7.57,
+      "height": 49.803,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -2.16,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        138954.27,
+        438777.27
+      ],
+      "axis": [
+        -0.524999,
+        -0.851103
+      ],
+      "halfLength": 12,
+      "halfWidth": 9.07,
+      "height": 50.904,
+      "gradient": [
+        -0.01656,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        139006.71,
+        438862.29
+      ],
+      "axis": [
+        0.524999,
+        0.851103
+      ],
+      "halfLength": 12,
+      "halfWidth": 9.07,
+      "height": 50.953,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0620.45084bce42b24a8ea4093f9410a17a73"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0620.45084bce42b24a8ea4093f9410a17a73",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/233188573",
+        "tags": {
+          "bridge": "yes",
+          "highway": "unclassified",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "60",
+          "name": "Diefdijk",
+          "operator": "Rijkswaterstaat",
+          "surface": "asphalt",
+          "zone:traffic": "NL:rural",
+          "bridge:structure": "beam",
+          "man_made": "bridge",
+          "material": "concrete"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,420000,140000,440000 --run nl-6_6 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 75.9,
+      "dekBreedte": 14.1,
+      "brugLengte": 75.9,
+      "water": null,
+      "portaalhoogte": 12.7,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "L0002.d0f9f37d37c7440883735cb06a93c7ca",
+          "klasse": "Terrain",
+          "oppervlak": 2427.4,
+          "onderDek": 0.05,
+          "bovenDekOnderkant": 1.16,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "L0002.5aac3b05faf8405fa78372797cdceffd",
+          "klasse": "Terrain",
+          "oppervlak": 8.1,
+          "onderDek": 0.81,
+          "bovenDekOnderkant": 0.76,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "L0002.e03a7654981544e2a1a5764dad5174ba",
+          "klasse": "Terrain",
+          "oppervlak": 1514.9,
+          "onderDek": 0.05,
+          "bovenDekOnderkant": 0.59,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        50.706,
+        50.803
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "3 PDOK-vorm(en) door het dek: 1 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

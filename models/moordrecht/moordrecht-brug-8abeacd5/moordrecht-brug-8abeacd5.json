@@ -1,0 +1,239 @@
+{
+  "name": "Rijksweg",
+  "file": "moordrecht-brug-8abeacd5.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    104371.62,
+    445913.17
+  ],
+  "xAxis": [
+    -0.725936,
+    0.687763
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 38.498,
+  "groundSamplePoints": [
+    [
+      -45.56,
+      0
+    ],
+    [
+      45.56,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "L0002.8abeacd54c5b7500047bb9da3ff019d2",
+    "L0002.8abeacd54c5b7500047bb9da3ff01a72",
+    "L0002.8abeacd54c5b7500047bb9da3ff01984",
+    "P0028.01a94dd173a848148448261adb1f3a7f",
+    "P0028.33314f2ade6948fb8ffcd00f6393c288"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        104371.62,
+        445913.17
+      ],
+      "axis": [
+        -0.725936,
+        0.687763
+      ],
+      "halfLength": 19.56,
+      "halfWidth": 21.9,
+      "height": 37.724,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -6.12,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        104398.89,
+        445887.34
+      ],
+      "axis": [
+        0.725936,
+        -0.687763
+      ],
+      "halfLength": 12,
+      "halfWidth": 23.4,
+      "height": 38.874,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        104344.36,
+        445939
+      ],
+      "axis": [
+        -0.725936,
+        0.687763
+      ],
+      "halfLength": 12,
+      "halfWidth": 23.4,
+      "height": 38.761,
+      "gradient": [
+        -0.0219,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "L0002.8abeacd54c5b7500047bb9da3ff01a72"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "L0002.8abeacd54c5b7500047bb9da3ff019d2",
+          "type": "landhoofd"
+        },
+        {
+          "id": "L0002.8abeacd54c5b7500047bb9da3ff01a72",
+          "type": "dek"
+        },
+        {
+          "id": "L0002.8abeacd54c5b7500047bb9da3ff01984",
+          "type": "landhoofd"
+        }
+      ],
+      "osm": {
+        "id": "way/7302611",
+        "tags": {
+          "bridge": "yes",
+          "carriageway_ref": "Li",
+          "highway": "motorway",
+          "int_ref": "E 25",
+          "lanes": "3",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "100",
+          "maxspeed:conditional": "120 @ (19:00-06:00)",
+          "name": "Rijksweg",
+          "oneway": "yes",
+          "operator": "Rijkswaterstaat",
+          "overtaking:hgv:conditional": "no @ (Mo-Fr 06:00-19:00)",
+          "ref": "A20",
+          "surface": "asphalt",
+          "toll:hgv": "yes",
+          "turn:lanes": "none|none|merge_to_left"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 3
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,440000,120000,460000 --run nl-5_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 51.1,
+      "dekBreedte": 42.8,
+      "brugLengte": 51.1,
+      "water": null,
+      "portaalhoogte": 38.5,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "L0002.2a70309b9c4d47d78f0a72651a359468",
+          "klasse": "Road",
+          "oppervlak": 2672.1,
+          "onderDek": 0,
+          "bovenDekOnderkant": 5.12,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "L0002.8abeacd54a6b7500047bb6ea2f0b7aae",
+          "klasse": "Road",
+          "oppervlak": 59.9,
+          "onderDek": 0,
+          "bovenDekOnderkant": 5.12,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G1892.13b04277e0fd4d698719e1713014a9af",
+          "klasse": "Terrain",
+          "oppervlak": 429.9,
+          "onderDek": 0.19,
+          "bovenDekOnderkant": 1.73,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "P0028.01a94dd173a848148448261adb1f3a7f",
+          "klasse": "Terrain",
+          "oppervlak": 61.5,
+          "onderDek": 0.87,
+          "bovenDekOnderkant": 1.72,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "G1892.4cbb13d369af4ae4a944fd689884538c",
+          "klasse": "Terrain",
+          "oppervlak": 1011,
+          "onderDek": 0.08,
+          "bovenDekOnderkant": 1.69,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G1892.48ff9e3a1a1c0f7ae05332a1e90a40a5",
+          "klasse": "Terrain",
+          "oppervlak": 142.5,
+          "onderDek": 0.65,
+          "bovenDekOnderkant": 1.59,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "P0028.33314f2ade6948fb8ffcd00f6393c288",
+          "klasse": "Terrain",
+          "oppervlak": 165.9,
+          "onderDek": 0.79,
+          "bovenDekOnderkant": 1.58,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "G1892.48ff9e3a23c90f7ae05332a1e90a40a5",
+          "klasse": "Road",
+          "oppervlak": 1246.6,
+          "onderDek": 0.49,
+          "bovenDekOnderkant": 0.62,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G1892.03a362a3b1b76de0e054001a4b092702",
+          "klasse": "Road",
+          "oppervlak": 6336.5,
+          "onderDek": 0.19,
+          "bovenDekOnderkant": 0.46,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        38.724,
+        38.498
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "9 PDOK-vorm(en) door het dek: 2 verborgen, 7 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

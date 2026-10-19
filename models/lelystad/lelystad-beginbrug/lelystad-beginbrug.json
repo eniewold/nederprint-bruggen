@@ -1,0 +1,128 @@
+{
+  "name": "Beginbrug",
+  "file": "lelystad-beginbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    161824.97,
+    504474.09
+  ],
+  "xAxis": [
+    -0.064006,
+    0.99795
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 42.648,
+  "groundSamplePoints": [
+    [
+      -27.48,
+      0
+    ],
+    [
+      27.48,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0995.c034f8368bd642e598cd44b41c7f5dff"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        161826.54,
+        504449.65
+      ],
+      "axis": [
+        0.064006,
+        -0.99795
+      ],
+      "halfLength": 12,
+      "halfWidth": 2.22,
+      "height": 42.903,
+      "gradient": [
+        -0.02122,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        161823.4,
+        504498.53
+      ],
+      "axis": [
+        -0.064006,
+        0.99795
+      ],
+      "halfLength": 12,
+      "halfWidth": 2.22,
+      "height": 43.007,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0995.c034f8368bd642e598cd44b41c7f5dff"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0995.c034f8368bd642e598cd44b41c7f5dff",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1109029078",
+        "tags": {
+          "bridge": "yes",
+          "bridge:name": "Beginbrug",
+          "highway": "cycleway",
+          "layer": "1",
+          "lit": "yes",
+          "name": "Beginbrug",
+          "surface": "metal",
+          "zone:traffic": "NL:urban",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,500000,180000,520000 --run nl-8_10 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 25,
+      "dekBreedte": 3,
+      "brugLengte": 25,
+      "water": null,
+      "portaalhoogte": 2.7,
+      "opritafstand": [
+        15,
+        15
+      ],
+      "oprithelling": 24,
+      "doorstekend": [],
+      "opritHoogtes": [
+        42.648,
+        42.857
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

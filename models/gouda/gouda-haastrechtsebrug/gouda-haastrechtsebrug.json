@@ -1,0 +1,201 @@
+{
+  "name": "Haastrechtsebrug",
+  "file": "gouda-haastrechtsebrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    109251.6,
+    446689.3
+  ],
+  "xAxis": [
+    0.035649,
+    -0.999364
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 43.842,
+  "groundSamplePoints": [
+    [
+      -52.75,
+      0
+    ],
+    [
+      43.91,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "P0028.3d0325ac955c481889978145fa9951eb",
+    "P0028.9336030a616a423b8a832451aaa918be",
+    "P0028.caf9af6af796479f8c736cc60cd35de9",
+    "G0513.37acc3124e5337c8e053293c320a4c37",
+    "G0513.37acc3125b5e37c8e053293c320a4c37",
+    "G0513.37acc312398037c8e053293c320a4c37",
+    "G0513.37acc312398137c8e053293c320a4c37",
+    "G0513.37acc310f2bc37c8e053293c320a4c37",
+    "G0513.37acc312397f37c8e053293c320a4c37",
+    "G0513.37acc312399737c8e053293c320a4c37",
+    "G0513.37acc3125b5b37c8e053293c320a4c37",
+    "P0028.3e4c1a0fd7cc491b8bc83e589b1450e9"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        109250.01,
+        446734.01
+      ],
+      "axis": [
+        -0.035649,
+        0.999364
+      ],
+      "halfLength": 12,
+      "halfWidth": 11.77,
+      "height": 46.135,
+      "gradient": [
+        -0.19114,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        109252.88,
+        446653.41
+      ],
+      "axis": [
+        0.035649,
+        -0.999364
+      ],
+      "halfLength": 12,
+      "halfWidth": 11.77,
+      "height": 48.279,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0513.37acc3124e5337c8e053293c320a4c37",
+      "G0513.37acc3125b5e37c8e053293c320a4c37",
+      "G0513.37acc310f2bc37c8e053293c320a4c37"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "P0028.3d0325ac955c481889978145fa9951eb",
+          "type": "onbekend"
+        },
+        {
+          "id": "P0028.9336030a616a423b8a832451aaa918be",
+          "type": "onbekend"
+        },
+        {
+          "id": "P0028.caf9af6af796479f8c736cc60cd35de9",
+          "type": "onbekend"
+        },
+        {
+          "id": "G0513.37acc3124e5337c8e053293c320a4c37",
+          "type": "dek"
+        },
+        {
+          "id": "G0513.37acc3125b5e37c8e053293c320a4c37",
+          "type": "dek"
+        },
+        {
+          "id": "G0513.37acc312398037c8e053293c320a4c37",
+          "type": "pijler"
+        },
+        {
+          "id": "G0513.37acc312398137c8e053293c320a4c37",
+          "type": "pijler"
+        },
+        {
+          "id": "G0513.37acc310f2bc37c8e053293c320a4c37",
+          "type": "dek"
+        },
+        {
+          "id": "G0513.37acc312397f37c8e053293c320a4c37",
+          "type": "pijler"
+        },
+        {
+          "id": "G0513.37acc312399737c8e053293c320a4c37",
+          "type": "landhoofd"
+        },
+        {
+          "id": "G0513.37acc3125b5b37c8e053293c320a4c37",
+          "type": "landhoofd"
+        },
+        {
+          "id": "P0028.3e4c1a0fd7cc491b8bc83e589b1450e9",
+          "type": "onbekend"
+        }
+      ],
+      "osm": {
+        "id": "way/457906699",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "movable",
+          "bridge:movable": "bascule",
+          "foot": "use_sidepath",
+          "highway": "secondary",
+          "lanes": "3",
+          "lanes:forward": "2",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "50",
+          "moped": "designated",
+          "name": "Haastrechtsebrug",
+          "operator": "Gemeente Gouda",
+          "parking:both": "no",
+          "surface": "asphalt",
+          "turn:lanes:forward": "left|right",
+          "zone:traffic": "NL:urban",
+          "man_made": "bridge",
+          "wikidata": "Q2657306",
+          "wikipedia": "nl:Haastrechtse brug"
+        }
+      },
+      "fis": {
+        "id": 52003,
+        "naam": "Haastrechtse brug",
+        "afstand": 2,
+        "beweegbaar": true,
+        "doorvaarthoogteGesloten": 1.5299999999999998
+      },
+      "pdokBridgeVlakken": 12
+    },
+    "type": "basculebrug",
+    "doorvaarthoogte": 1.5299999999999998,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,440000,120000,460000 --run nl-5_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 43.9,
+      "dekBreedte": 19.5,
+      "brugLengte": 56.7,
+      "water": [
+        -20.2,
+        15.3
+      ],
+      "portaalhoogte": 17.6,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [],
+      "opritHoogtes": [
+        43.842,
+        48.129
+      ]
+    },
+    "waarschuwingen": [],
+    "gegenereerd": "2026-10-19"
+  }
+}

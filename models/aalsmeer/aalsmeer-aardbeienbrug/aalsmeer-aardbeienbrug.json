@@ -1,0 +1,188 @@
+{
+  "name": "Aardbeienbrug",
+  "file": "aalsmeer-aardbeienbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    110801.51,
+    475321.87
+  ],
+  "xAxis": [
+    0.905303,
+    0.424766
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 42.74,
+  "groundSamplePoints": [
+    [
+      -15.35,
+      0
+    ],
+    [
+      15.35,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0362.3a87950d86b14c9f879f3700d61d7c2c",
+    "G0362.9e2ac8b14ac6425aac9b3f684f1642d9",
+    "G0362.ec28fb006da94fa49d9c2072c3d6e38a",
+    "G0362.34608323e44645c885c9a1058f176145"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        110801.51,
+        475321.87
+      ],
+      "axis": [
+        0.905303,
+        0.424766
+      ],
+      "halfLength": 3.49,
+      "halfWidth": 3.42,
+      "height": 41.984,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.92,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        110788.88,
+        475315.94
+      ],
+      "axis": [
+        -0.905303,
+        -0.424766
+      ],
+      "halfLength": 6.98,
+      "halfWidth": 4.38,
+      "height": 43.134,
+      "gradient": [
+        -0.0215,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        110814.15,
+        475327.8
+      ],
+      "axis": [
+        0.905303,
+        0.424766
+      ],
+      "halfLength": 6.98,
+      "halfWidth": 4.38,
+      "height": 43.012,
+      "gradient": [
+        -0.03895,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0362.ec28fb006da94fa49d9c2072c3d6e38a",
+      "G0362.34608323e44645c885c9a1058f176145"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0362.3a87950d86b14c9f879f3700d61d7c2c",
+          "type": "landhoofd"
+        },
+        {
+          "id": "G0362.9e2ac8b14ac6425aac9b3f684f1642d9",
+          "type": "landhoofd"
+        },
+        {
+          "id": "G0362.ec28fb006da94fa49d9c2072c3d6e38a",
+          "type": "dek"
+        },
+        {
+          "id": "G0362.34608323e44645c885c9a1058f176145",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/832938495",
+        "tags": {
+          "bridge": "yes",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxspeed": "50",
+          "name": "Aardbeienbrug",
+          "man_made": "bridge",
+          "source:name": "BAG/BGT"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 4
+    },
+    "type": "ophaalbrug",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,460000,120000,480000 --run nl-5_8 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 14,
+      "dekBreedte": 5.8,
+      "brugLengte": 14,
+      "water": [
+        -2,
+        2
+      ],
+      "portaalhoogte": 5.3,
+      "opritafstand": [
+        8.4,
+        8.4
+      ],
+      "oprithelling": 14,
+      "doorstekend": [
+        {
+          "gmlId": "G0362.7c4905a1dc7f49119aefe623c697f92a",
+          "klasse": "Separation",
+          "oppervlak": 4.3,
+          "onderDek": 0.42,
+          "bovenDekOnderkant": 0.92,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0362.01a4dad9959c44ee86ab1a4986a438e9",
+          "klasse": "Separation",
+          "oppervlak": 4.4,
+          "onderDek": 0.45,
+          "bovenDekOnderkant": 0.89,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0362.ac26245820bb43e68812be418b3863e7",
+          "klasse": "Road",
+          "oppervlak": 300.6,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.79,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        42.984,
+        42.74
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "3 PDOK-vorm(en) door het dek: 0 verborgen, 3 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

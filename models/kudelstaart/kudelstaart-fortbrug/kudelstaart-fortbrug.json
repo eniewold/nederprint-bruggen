@@ -1,0 +1,193 @@
+{
+  "name": "Fortbrug",
+  "file": "kudelstaart-fortbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    112007.22,
+    473613.2
+  ],
+  "xAxis": [
+    0.413803,
+    0.910366
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 43.04,
+  "groundSamplePoints": [
+    [
+      -14.23,
+      0
+    ],
+    [
+      14.23,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0358.0764385a69ef458db8217a0ed82f0a75",
+    "G0362.6e80fe49db0f4a0b8c3b31fda0ae62fc",
+    "G0362.94b4fd15d77449f8a17948a23fd433a0"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        112007.22,
+        473613.2
+      ],
+      "axis": [
+        0.413803,
+        0.910366
+      ],
+      "halfLength": 3.23,
+      "halfWidth": 3.54,
+      "height": 42.282,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -2.13,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        112001.87,
+        473601.42
+      ],
+      "axis": [
+        -0.413803,
+        -0.910366
+      ],
+      "halfLength": 6.47,
+      "halfWidth": 4.56,
+      "height": 43.432,
+      "gradient": [
+        -0.02318,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        112012.58,
+        473624.98
+      ],
+      "axis": [
+        0.413803,
+        0.910366
+      ],
+      "halfLength": 6.47,
+      "halfWidth": 4.56,
+      "height": 43.311,
+      "gradient": [
+        -0.04183,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0358.0764385a69ef458db8217a0ed82f0a75"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0358.0764385a69ef458db8217a0ed82f0a75",
+          "type": "dek"
+        },
+        {
+          "id": "G0362.6e80fe49db0f4a0b8c3b31fda0ae62fc",
+          "type": "landhoofd"
+        },
+        {
+          "id": "G0362.94b4fd15d77449f8a17948a23fd433a0",
+          "type": "landhoofd"
+        }
+      ],
+      "osm": {
+        "id": "way/831447081",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "yes",
+          "foot": "use_sidepath",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "50",
+          "mofa": "use_sidepath",
+          "name": "Fortbrug",
+          "zone:traffic": "NL:urban",
+          "man_made": "bridge",
+          "source:name": "BAG/BGT"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 3
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,460000,120000,480000 --run nl-5_8 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 12.9,
+      "dekBreedte": 6.1,
+      "brugLengte": 12.9,
+      "water": [
+        -2.5,
+        2
+      ],
+      "portaalhoogte": 5.5,
+      "opritafstand": [
+        7.8,
+        7.8
+      ],
+      "oprithelling": 12.9,
+      "doorstekend": [
+        {
+          "gmlId": "G0362.9acfe206c7a44365b8fcba3460150aa3",
+          "klasse": "Separation",
+          "oppervlak": 4.8,
+          "onderDek": 0.02,
+          "bovenDekOnderkant": 1.13,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0362.ec4fc3ed539b4c77b53abea7f0a6ceb4",
+          "klasse": "Separation",
+          "oppervlak": 5,
+          "onderDek": 0.02,
+          "bovenDekOnderkant": 1.12,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0362.286133ed1d2645739f53b09fb099aad4",
+          "klasse": "Separation",
+          "oppervlak": 2.8,
+          "onderDek": 0.03,
+          "bovenDekOnderkant": 1.09,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0362.f998569796594d5aa3850696bdfacdbd",
+          "klasse": "Separation",
+          "oppervlak": 2.9,
+          "onderDek": 0.03,
+          "bovenDekOnderkant": 0.97,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        43.282,
+        43.04
+      ]
+    },
+    "waarschuwingen": [
+      "4 PDOK-vorm(en) door het dek: 0 verborgen, 4 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

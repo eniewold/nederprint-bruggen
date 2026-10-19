@@ -1,0 +1,160 @@
+{
+  "name": "CAV brug West",
+  "file": "aalsmeer-cav-brug-west.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    111625.32,
+    475761.2
+  ],
+  "xAxis": [
+    0.853511,
+    0.521075
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 43.445,
+  "groundSamplePoints": [
+    [
+      -22.33,
+      0
+    ],
+    [
+      22.33,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0362.9a0b9746b10d4b23a9b9f08b1c5e7d29"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        111625.32,
+        475761.2
+      ],
+      "axis": [
+        0.853511,
+        0.521075
+      ],
+      "halfLength": 5.08,
+      "halfWidth": 7.54,
+      "height": 42.522,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.85,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        111608,
+        475750.62
+      ],
+      "axis": [
+        -0.853511,
+        -0.521075
+      ],
+      "halfLength": 10.15,
+      "halfWidth": 9.04,
+      "height": 43.672,
+      "gradient": [
+        -0.01478,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        111642.65,
+        475771.78
+      ],
+      "axis": [
+        0.853511,
+        0.521075
+      ],
+      "halfLength": 10.15,
+      "halfWidth": 9.04,
+      "height": 43.633,
+      "gradient": [
+        -0.01857,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0362.9a0b9746b10d4b23a9b9f08b1c5e7d29"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0362.9a0b9746b10d4b23a9b9f08b1c5e7d29",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/832936876",
+        "tags": {
+          "bridge": "yes",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "50",
+          "name": "CAV brug West",
+          "zone:traffic": "NL:urban",
+          "bridge:structure": "humpback",
+          "man_made": "bridge",
+          "source:name": "BAG/BGT"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "bolbrug",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,460000,120000,480000 --run nl-5_8 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 20.3,
+      "dekBreedte": 14.1,
+      "brugLengte": 20.3,
+      "water": [
+        -7.2,
+        8.3
+      ],
+      "portaalhoogte": 12.7,
+      "opritafstand": [
+        12.2,
+        12.2
+      ],
+      "oprithelling": 20.3,
+      "bolling": 2.44,
+      "doorstekend": [
+        {
+          "gmlId": "G0362.ae94406077ad4190a10e8dd76e8101e7",
+          "klasse": "Separation",
+          "oppervlak": 0.1,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.85,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        43.522,
+        43.445
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

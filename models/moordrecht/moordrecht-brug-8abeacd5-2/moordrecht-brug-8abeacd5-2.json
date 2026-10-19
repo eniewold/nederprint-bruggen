@@ -1,0 +1,156 @@
+{
+  "name": "Rijksweg",
+  "file": "moordrecht-brug-8abeacd5-2.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    104705.26,
+    446711.28
+  ],
+  "xAxis": [
+    0.22464,
+    0.974442
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 44.743,
+  "groundSamplePoints": [
+    [
+      -58.4,
+      0
+    ],
+    [
+      58.4,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "L0002.8abeacd54a6b7500047bb6ea2f0b7af5",
+    "L0002.8abeacd54a6b7500047bb6ea2f0b7b45",
+    "L0002.8abeacd54c5b7500047bb9da3ff01ac7",
+    "L0002.6146b1568e294454b31c2cc8cda3b13e"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        104693.94,
+        446662.17
+      ],
+      "axis": [
+        -0.22464,
+        -0.974442
+      ],
+      "halfLength": 12,
+      "halfWidth": 22.08,
+      "height": 45.912,
+      "gradient": [
+        -0.09735,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        104716.58,
+        446760.39
+      ],
+      "axis": [
+        0.22464,
+        0.974442
+      ],
+      "halfLength": 12,
+      "halfWidth": 22.08,
+      "height": 46.93,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "L0002.8abeacd54c5b7500047bb9da3ff01ac7"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "L0002.8abeacd54a6b7500047bb6ea2f0b7af5",
+          "type": "landhoofd"
+        },
+        {
+          "id": "L0002.8abeacd54a6b7500047bb6ea2f0b7b45",
+          "type": "landhoofd"
+        },
+        {
+          "id": "L0002.8abeacd54c5b7500047bb9da3ff01ac7",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1446984562",
+        "tags": {
+          "bridge": "yes",
+          "carriageway_ref": "Li",
+          "highway": "motorway",
+          "int_ref": "E 25",
+          "lanes": "2",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "100",
+          "maxspeed:conditional": "120 @ (19:00-06:00)",
+          "name": "Rijksweg",
+          "oneway": "yes",
+          "operator": "Rijkswaterstaat",
+          "overtaking:hgv:conditional": "no @ (Mo-Fr 06:00-19:00)",
+          "ref": "A20",
+          "surface": "asphalt",
+          "toll:hgv": "yes",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 3
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,440000,120000,460000 --run nl-5_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 76.8,
+      "dekBreedte": 40.2,
+      "brugLengte": 76.8,
+      "water": null,
+      "portaalhoogte": 36.1,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "L0002.6146b1568e294454b31c2cc8cda3b13e",
+          "klasse": "Forest",
+          "oppervlak": 529.6,
+          "onderDek": 0.96,
+          "bovenDekOnderkant": 0.38,
+          "actie": "verbergen"
+        }
+      ],
+      "opritHoogtes": [
+        44.743,
+        46.78
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "1 PDOK-vorm(en) door het dek: 1 verborgen, 0 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}
