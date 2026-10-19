@@ -1,0 +1,169 @@
+{
+  "name": "Brug de Hoeve",
+  "file": "herveld-brug-de-hoeve.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    179284.92,
+    435400.14
+  ],
+  "xAxis": [
+    -0.939474,
+    -0.34262
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 51.79,
+  "groundSamplePoints": [
+    [
+      -10.88,
+      0
+    ],
+    [
+      10.88,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G1734.7aaf66d5cc5c4d1388697c534285b337"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        179284.92,
+        435400.14
+      ],
+      "axis": [
+        -0.939474,
+        -0.34262
+      ],
+      "halfLength": 2.47,
+      "halfWidth": 3.7,
+      "height": 50.88,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.5,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        179294.21,
+        435403.53
+      ],
+      "axis": [
+        0.939474,
+        0.34262
+      ],
+      "halfLength": 4.94,
+      "halfWidth": 4.79,
+      "height": 51.985,
+      "gradient": [
+        -0.03947,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        179275.63,
+        435396.75
+      ],
+      "axis": [
+        -0.939474,
+        -0.34262
+      ],
+      "halfLength": 4.94,
+      "halfWidth": 4.79,
+      "height": 52.03,
+      "gradient": [
+        -0.03034,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G1734.7aaf66d5cc5c4d1388697c534285b337"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G1734.7aaf66d5cc5c4d1388697c534285b337",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/832954896",
+        "tags": {
+          "layer": "1",
+          "man_made": "bridge",
+          "name": "Brug de Hoeve",
+          "source:name": "BAG/BGT"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,420000,180000,440000 --run nl-8_6 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 9.9,
+      "dekBreedte": 6.4,
+      "brugLengte": 9.9,
+      "water": [
+        -1.4,
+        -0.4
+      ],
+      "portaalhoogte": 5.8,
+      "opritafstand": [
+        5.9,
+        5.9
+      ],
+      "oprithelling": 9.9,
+      "doorstekend": [
+        {
+          "gmlId": "G1734.e2fbdb3c8f5446d98f9f2a4b6e2a9b57",
+          "klasse": "Forest",
+          "oppervlak": 119.8,
+          "onderDek": 0.01,
+          "bovenDekOnderkant": 0.5,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G1734.e1b7903a45c04d679fde97f4338c30c9",
+          "klasse": "Forest",
+          "oppervlak": 428.2,
+          "onderDek": 0.06,
+          "bovenDekOnderkant": 0.35,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "W0621.1e27b9f3c6304b00881cf468c48c5134",
+          "klasse": "Terrain",
+          "oppervlak": 140.1,
+          "onderDek": 0.16,
+          "bovenDekOnderkant": 0.34,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        51.79,
+        51.88
+      ]
+    },
+    "waarschuwingen": [
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "3 PDOK-vorm(en) door het dek: 0 verborgen, 3 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "name": "Brug 168",
+  "file": "amsterdam-brug-168.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    124094,
+    484088.37
+  ],
+  "xAxis": [
+    -0.718091,
+    -0.695949
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 38.737,
+  "groundSamplePoints": [
+    [
+      -5.6,
+      0
+    ],
+    [
+      5.6,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0363.9bb45db483014656a70dddca48b6ef43"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        124097.3,
+        484091.57
+      ],
+      "axis": [
+        0.718091,
+        0.695949
+      ],
+      "halfLength": 3,
+      "halfWidth": 10.02,
+      "height": 38.944,
+      "gradient": [
+        -0.06882,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        124090.7,
+        484085.17
+      ],
+      "axis": [
+        -0.718091,
+        -0.695949
+      ],
+      "halfLength": 3,
+      "halfWidth": 10.02,
+      "height": 39,
+      "gradient": [
+        -0.05,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0363.9bb45db483014656a70dddca48b6ef43"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0363.9bb45db483014656a70dddca48b6ef43",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1300759603",
+        "tags": {
+          "bridge": "viaduct",
+          "bridge:structure": "beam",
+          "layer": "1",
+          "man_made": "bridge",
+          "material": "concrete",
+          "name": "Brug 168"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 3.2,
+      "dekBreedte": 16,
+      "brugLengte": 3.2,
+      "water": [
+        -1.1,
+        1.4
+      ],
+      "portaalhoogte": 14.4,
+      "opritafstand": [
+        4,
+        4
+      ],
+      "oprithelling": 6,
+      "doorstekend": [],
+      "opritHoogtes": [
+        38.737,
+        38.85
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

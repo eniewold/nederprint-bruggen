@@ -1,0 +1,244 @@
+{
+  "name": "Europaboulevardbrug Zuid",
+  "file": "amsterdam-europaboulevardbrug-zuid.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    121137.66,
+    483278.04
+  ],
+  "xAxis": [
+    0.776165,
+    -0.630529
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 48.624,
+  "groundSamplePoints": [
+    [
+      -86.05,
+      0
+    ],
+    [
+      86.05,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0363.04ab9127af3c4a6a835894523e41085e",
+    "G0363.11dbf76de874483785de59f2f372dc87",
+    "G0363.3963780b09db4ca890cd9108a76edbe4",
+    "G0363.73412a4c5ff84c67a2b01bbd5a8a3291",
+    "G0363.802bf1468ad0437bbd50a98f439384ee",
+    "G0363.9e4f7f250b144dbeab62c5290c84b7f0",
+    "G0363.b5f742b30cb240199f34007302a5c7b2",
+    "G0363.b601b2f88aae44cc9ea1dabff9f934ba",
+    "G0363.bb90f3c1d6f3470eafb5f451e8d0da53",
+    "G0363.dceaaee6ffe04ef6aec6fbadb09fd14e",
+    "L0002.8817f82007ca4384aa01be2faecfcca3"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        121137.66,
+        483278.04
+      ],
+      "axis": [
+        0.776165,
+        -0.630529
+      ],
+      "halfLength": 60.05,
+      "halfWidth": 10.85,
+      "height": 47.778,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -2.29,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        121077.08,
+        483327.25
+      ],
+      "axis": [
+        -0.776165,
+        0.630529
+      ],
+      "halfLength": 12,
+      "halfWidth": 12.35,
+      "height": 48.851,
+      "gradient": [
+        -0.01892,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        121198.24,
+        483228.82
+      ],
+      "axis": [
+        0.776165,
+        -0.630529
+      ],
+      "halfLength": 12,
+      "halfWidth": 12.35,
+      "height": 48.928,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "L0002.8817f82007ca4384aa01be2faecfcca3"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0363.04ab9127af3c4a6a835894523e41085e",
+          "type": "pijler"
+        },
+        {
+          "id": "G0363.11dbf76de874483785de59f2f372dc87",
+          "type": "pijler"
+        },
+        {
+          "id": "G0363.3963780b09db4ca890cd9108a76edbe4",
+          "type": "pijler"
+        },
+        {
+          "id": "G0363.73412a4c5ff84c67a2b01bbd5a8a3291",
+          "type": "pijler"
+        },
+        {
+          "id": "G0363.802bf1468ad0437bbd50a98f439384ee",
+          "type": "pijler"
+        },
+        {
+          "id": "G0363.9e4f7f250b144dbeab62c5290c84b7f0",
+          "type": "pijler"
+        },
+        {
+          "id": "G0363.b5f742b30cb240199f34007302a5c7b2",
+          "type": "pijler"
+        },
+        {
+          "id": "G0363.b601b2f88aae44cc9ea1dabff9f934ba",
+          "type": "pijler"
+        },
+        {
+          "id": "G0363.bb90f3c1d6f3470eafb5f451e8d0da53",
+          "type": "pijler"
+        },
+        {
+          "id": "G0363.dceaaee6ffe04ef6aec6fbadb09fd14e",
+          "type": "pijler"
+        },
+        {
+          "id": "L0002.8817f82007ca4384aa01be2faecfcca3",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1241129253",
+        "tags": {
+          "bridge": "viaduct",
+          "carriageway_ref": "Li",
+          "highway": "motorway",
+          "int_ref": "E 19",
+          "lanes": "5",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "100",
+          "maxspeed:type": "sign",
+          "name": "Europaboulevardbrug Zuid",
+          "old_ref:-2010": "A10 zuid",
+          "oneway": "yes",
+          "operator": "Rijkswaterstaat",
+          "placement": "right_of:2",
+          "ref": "162P Z.",
+          "smoothness": "good",
+          "surface": "asphalt",
+          "survey:date": "2025-01-27",
+          "toll:hgv": "yes",
+          "turn:lanes": "through|through|through|through;slight_right|slight_right",
+          "width": "14",
+          "zone:traffic": "NL:rural",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 11
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 132.1,
+      "dekBreedte": 20.7,
+      "brugLengte": 132.1,
+      "water": null,
+      "portaalhoogte": 18.6,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "L0002.3d67ad56a0624d34a55c14047876ea4d",
+          "klasse": "Terrain",
+          "oppervlak": 44.3,
+          "onderDek": 0.02,
+          "bovenDekOnderkant": 1.29,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0363.a6630a1961b149e2986d721ed2c2ec4a",
+          "klasse": "Terrain",
+          "oppervlak": 5480.2,
+          "onderDek": 0.01,
+          "bovenDekOnderkant": 0.48,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "L0002.c0fa0808a094453396eab931e25096b9",
+          "klasse": "Separation",
+          "oppervlak": 11.7,
+          "onderDek": 0.5,
+          "bovenDekOnderkant": 0.35,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "L0002.1c6ad7972fb748249d02d8b866f9bc4d",
+          "klasse": "Road",
+          "oppervlak": 8552.5,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.3,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        48.624,
+        48.778
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "4 PDOK-vorm(en) door het dek: 0 verborgen, 4 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

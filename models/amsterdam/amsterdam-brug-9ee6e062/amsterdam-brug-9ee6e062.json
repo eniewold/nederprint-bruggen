@@ -1,0 +1,164 @@
+{
+  "name": "amsterdam-brug-9ee6e062",
+  "file": "amsterdam-brug-9ee6e062.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    125168.62,
+    484503.78
+  ],
+  "xAxis": [
+    0.289238,
+    0.957257
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 37.364,
+  "groundSamplePoints": [
+    [
+      -5.7,
+      0
+    ],
+    [
+      5.7,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0363.9ee6e062b03d41078f6b4185dfa7c60d"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        125168.62,
+        484503.78
+      ],
+      "axis": [
+        0.289238,
+        0.957257
+      ],
+      "halfLength": 0.85,
+      "halfWidth": 10.75,
+      "height": 36.99,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.8,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        125167.26,
+        484499.28
+      ],
+      "axis": [
+        -0.289238,
+        -0.957257
+      ],
+      "halfLength": 3,
+      "halfWidth": 12.25,
+      "height": 38.14,
+      "gradient": [
+        -0.05,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        125169.98,
+        484508.27
+      ],
+      "axis": [
+        0.289238,
+        0.957257
+      ],
+      "halfLength": 3,
+      "halfWidth": 12.25,
+      "height": 37.827,
+      "gradient": [
+        -0.15438,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0363.9ee6e062b03d41078f6b4185dfa7c60d"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0363.9ee6e062b03d41078f6b4185dfa7c60d",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/261866040",
+        "tags": {
+          "bridge": "yes",
+          "highway": "footway",
+          "lanes": "1",
+          "layer": "1",
+          "surface": "wood",
+          "width": "0.75"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 3.4,
+      "dekBreedte": 20.5,
+      "brugLengte": 3.4,
+      "water": [
+        -1.7,
+        1.3
+      ],
+      "portaalhoogte": 18.4,
+      "opritafstand": [
+        4,
+        4
+      ],
+      "oprithelling": 6,
+      "doorstekend": [
+        {
+          "gmlId": "G0363.eb96d869445d48eaaafbd008100335f6",
+          "klasse": "Forest",
+          "oppervlak": 147.4,
+          "onderDek": 0.02,
+          "bovenDekOnderkant": 0.8,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0363.b720f70b78784b7d84adcfeab4a69cfb",
+          "klasse": "Forest",
+          "oppervlak": 1436.4,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.34,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        37.99,
+        37.364
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

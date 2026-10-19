@@ -1,0 +1,191 @@
+{
+  "name": "amsterdam-brug-d418b716",
+  "file": "amsterdam-brug-d418b716.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    123331.09,
+    483494.12
+  ],
+  "xAxis": [
+    -0.460051,
+    0.887893
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 47.931,
+  "groundSamplePoints": [
+    [
+      -13.44,
+      0
+    ],
+    [
+      13.32,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0363.d418b716dd774d45a0bf8a426968448e"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        123331.09,
+        483494.12
+      ],
+      "axis": [
+        -0.460051,
+        0.887893
+      ],
+      "halfLength": 7.38,
+      "halfWidth": 10.09,
+      "height": 46.646,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -3.02,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        123342.79,
+        483471.53
+      ],
+      "axis": [
+        0.460051,
+        -0.887893
+      ],
+      "halfLength": 12,
+      "halfWidth": 11.59,
+      "height": 47.946,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        123319.44,
+        483516.6
+      ],
+      "axis": [
+        -0.460051,
+        0.887893
+      ],
+      "halfLength": 12,
+      "halfWidth": 11.59,
+      "height": 47.939,
+      "gradient": [
+        -0.00065,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0363.d418b716dd774d45a0bf8a426968448e"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0363.d418b716dd774d45a0bf8a426968448e",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1365524996",
+        "tags": {
+          "axle_load": "22.5",
+          "bridge": "yes",
+          "description": "Amsterdam Muiderpoort - Duivendrecht",
+          "electrified": "contact_line",
+          "frequency": "0",
+          "gauge": "1435",
+          "layer": "1",
+          "level": "2",
+          "loading_gauge": "TSI_GB",
+          "maxspeed": "140",
+          "operator": "ProRail",
+          "passenger_lines": "2",
+          "railway": "rail",
+          "railway:atb": "yes",
+          "railway:etcs": "2",
+          "railway:maximum_current": "4000",
+          "railway:track_class": "D4",
+          "railway:traffic_mode": "passenger",
+          "ref": "096a",
+          "ref:ProRailID": "2877290.0",
+          "ref:ProRailSpoortak": "588_415AR_2.9",
+          "source": "ProRail",
+          "source:date": "2014-01-03",
+          "usage": "main",
+          "voltage": "1500",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 26.8,
+      "dekBreedte": 19.2,
+      "brugLengte": 26.8,
+      "water": null,
+      "portaalhoogte": 17.3,
+      "opritafstand": [
+        0,
+        0
+      ],
+      "spoorhoogteBron": "prorail-pvs",
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0363.03083f0a5ce44e4c857c45d8fa7cc258",
+          "klasse": "Road",
+          "oppervlak": 182.8,
+          "onderDek": 0.23,
+          "bovenDekOnderkant": 2.02,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0363.04948d5789084be48872a2d8efa0b011",
+          "klasse": "Terrain",
+          "oppervlak": 99.4,
+          "onderDek": 0.08,
+          "bovenDekOnderkant": 1.46,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0363.7d1a8ac654c54aba90e640c6400ca905",
+          "klasse": "Terrain",
+          "oppervlak": 85.2,
+          "onderDek": 0.1,
+          "bovenDekOnderkant": 1.37,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        47.946,
+        47.931
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "3 PDOK-vorm(en) door het dek: 0 verborgen, 3 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

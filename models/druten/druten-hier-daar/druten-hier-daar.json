@@ -1,0 +1,174 @@
+{
+  "name": "Hier - Daar",
+  "file": "druten-hier-daar.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    169501.1,
+    432110.82
+  ],
+  "xAxis": [
+    0.062039,
+    0.998074
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 49.903,
+  "groundSamplePoints": [
+    [
+      -13.24,
+      0
+    ],
+    [
+      13.24,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0225.d904ea47994b4aca8c934eed813955a2"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        169501.1,
+        432110.82
+      ],
+      "axis": [
+        0.062039,
+        0.998074
+      ],
+      "halfLength": 3.01,
+      "halfWidth": 3.26,
+      "height": 49.036,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.59,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        169500.36,
+        432098.8
+      ],
+      "axis": [
+        -0.062039,
+        -0.998074
+      ],
+      "halfLength": 6.02,
+      "halfWidth": 4.14,
+      "height": 50.12,
+      "gradient": [
+        -0.03592,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        169501.85,
+        432122.84
+      ],
+      "axis": [
+        0.062039,
+        0.998074
+      ],
+      "halfLength": 6.02,
+      "halfWidth": 4.14,
+      "height": 50.186,
+      "gradient": [
+        -0.02492,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0225.d904ea47994b4aca8c934eed813955a2"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0225.d904ea47994b4aca8c934eed813955a2",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1297746430",
+        "tags": {
+          "bridge": "yes",
+          "cycleway:both": "no",
+          "highway": "residential",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Hier - Daar",
+          "smoothness": "good",
+          "surface": "asphalt",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,420000,180000,440000 --run nl-8_6 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 12,
+      "dekBreedte": 5.5,
+      "brugLengte": 12,
+      "water": [
+        -2,
+        1.5
+      ],
+      "portaalhoogte": 5,
+      "opritafstand": [
+        7.2,
+        7.2
+      ],
+      "oprithelling": 12,
+      "doorstekend": [
+        {
+          "gmlId": "G0225.9373ab9aac31406aa8c918b471911c6d",
+          "klasse": "Terrain",
+          "oppervlak": 16.5,
+          "onderDek": 0.09,
+          "bovenDekOnderkant": 0.59,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "W0621.03c398db556540e6a3ef74db5ca31349",
+          "klasse": "Terrain",
+          "oppervlak": 40.5,
+          "onderDek": 0.37,
+          "bovenDekOnderkant": 0.53,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "W0621.d2bbffd66ed2443486c79f0d78d23e03",
+          "klasse": "Terrain",
+          "oppervlak": 92.7,
+          "onderDek": 0.04,
+          "bovenDekOnderkant": 0.46,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        49.903,
+        50.036
+      ]
+    },
+    "waarschuwingen": [
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "3 PDOK-vorm(en) door het dek: 0 verborgen, 3 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

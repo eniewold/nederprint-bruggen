@@ -1,0 +1,134 @@
+{
+  "name": "Het Hout",
+  "file": "arnhem-brug-2af034b5.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    186006.9,
+    440436.26
+  ],
+  "xAxis": [
+    0.984949,
+    0.172848
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 51.876,
+  "groundSamplePoints": [
+    [
+      27.51,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0202.2af034b5f47812c4e05343604191f184"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        186006.9,
+        440436.26
+      ],
+      "axis": [
+        0.984949,
+        0.172848
+      ],
+      "halfLength": 6.5,
+      "halfWidth": 5.15,
+      "height": 50.876,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.53,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        186031.04,
+        440440.49
+      ],
+      "axis": [
+        0.984949,
+        0.172848
+      ],
+      "halfLength": 12,
+      "halfWidth": 6.65,
+      "height": 52.026,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0202.2af034b5f47812c4e05343604191f184"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0202.2af034b5f47812c4e05343604191f184",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/403687206",
+        "tags": {
+          "bridge": "yes",
+          "highway": "residential",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Het Hout",
+          "source": "survey"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 180000,440000,200000,460000 --run nl-9_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 25,
+      "dekBreedte": 9.3,
+      "brugLengte": 25,
+      "water": [
+        -7,
+        7
+      ],
+      "portaalhoogte": 8.4,
+      "opritafstand": [
+        45,
+        15
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0202.2af034b9cabc12c4e05343604191f184",
+          "klasse": "Terrain",
+          "oppervlak": 2650.2,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.53,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        null,
+        51.876
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "oprit - zonder PDOK-maaiveld",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

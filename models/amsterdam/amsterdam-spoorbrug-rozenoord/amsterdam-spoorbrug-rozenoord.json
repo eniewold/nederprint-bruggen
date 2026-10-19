@@ -1,0 +1,188 @@
+{
+  "name": "Spoorbrug Rozenoord",
+  "file": "amsterdam-spoorbrug-rozenoord.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    121697.38,
+    482880.74
+  ],
+  "xAxis": [
+    -0.776533,
+    0.630076
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 52.368,
+  "groundSamplePoints": [
+    [
+      -124.75,
+      0
+    ],
+    [
+      124.73,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0363.2f04e78de7da4333b6898ce4c67e044b",
+    "G0363.e9b777fe01a7429abb1d56910612e7a2",
+    "G0363.f01d4dadf6444de99c35dded7dfa4891",
+    "G0363.fb31ebc3e9754a1eab7af3e81873463d",
+    "P0027.1926513ff015417787f732d29e00e764",
+    "P0027.a87f92f2abe64d7d9ee41a86bd3160d6",
+    "L0004.1c9e9508b40741e6b6e43adc657d39ab",
+    "L0004.adf7f3928dd24d22b94991c2e9ebf6b2"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        121803.57,
+        482794.57
+      ],
+      "axis": [
+        0.776533,
+        -0.630076
+      ],
+      "halfLength": 12,
+      "halfWidth": 13.29,
+      "height": 52.373,
+      "gradient": [
+        -0.00043,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        121591.21,
+        482966.89
+      ],
+      "axis": [
+        -0.776533,
+        0.630076
+      ],
+      "halfLength": 12,
+      "halfWidth": 13.29,
+      "height": 52.378,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "L0004.1c9e9508b40741e6b6e43adc657d39ab",
+      "L0004.adf7f3928dd24d22b94991c2e9ebf6b2"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0363.2f04e78de7da4333b6898ce4c67e044b",
+          "type": "pijler"
+        },
+        {
+          "id": "G0363.e9b777fe01a7429abb1d56910612e7a2",
+          "type": "pijler"
+        },
+        {
+          "id": "G0363.f01d4dadf6444de99c35dded7dfa4891",
+          "type": "pijler"
+        },
+        {
+          "id": "G0363.fb31ebc3e9754a1eab7af3e81873463d",
+          "type": "pijler"
+        },
+        {
+          "id": "P0027.1926513ff015417787f732d29e00e764",
+          "type": "pijler"
+        },
+        {
+          "id": "P0027.a87f92f2abe64d7d9ee41a86bd3160d6",
+          "type": "pijler"
+        },
+        {
+          "id": "L0004.1c9e9508b40741e6b6e43adc657d39ab",
+          "type": "dek"
+        },
+        {
+          "id": "L0004.adf7f3928dd24d22b94991c2e9ebf6b2",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/706993021",
+        "tags": {
+          "bridge": "yes",
+          "description": "Duivendrecht - Amsterdam Riekerpolder",
+          "electrified": "contact_line",
+          "frequency": "0",
+          "gauge": "1435",
+          "layer": "1",
+          "maxspeed": "130",
+          "name": "Rozenoordmetrobrug",
+          "operator": "ProRail",
+          "passenger_lines": "4",
+          "railway": "rail",
+          "railway:atb": "yes",
+          "railway:etcs": "2",
+          "railway:maximum_current": "4000",
+          "railway:track_class": "C2",
+          "ref": "144a",
+          "ref:ProRailID": "2893582.0",
+          "ref:ProRailSpoortak": "144_983BR_153.5",
+          "source": "ProRail",
+          "source:date": "2014-01-03",
+          "usage": "main",
+          "voltage": "1500",
+          "wikidata": "Q2539313",
+          "wikipedia": "nl:Rozenoordbrug",
+          "man_made": "bridge",
+          "wikimedia_commons": "Category:Brug 1638, Rozenoordbrug",
+          "bridge:structure": "beam"
+        }
+      },
+      "fis": {
+        "id": 25773,
+        "naam": "Spoorbrug Rozenoord",
+        "afstand": 8,
+        "beweegbaar": false,
+        "doorvaarthoogteGesloten": 6.45
+      },
+      "pdokBridgeVlakken": 8
+    },
+    "type": "ligger",
+    "doorvaarthoogte": 6.45,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 249.5,
+      "dekBreedte": 22.6,
+      "brugLengte": 249.5,
+      "water": [
+        -63.8,
+        74.2
+      ],
+      "portaalhoogte": 20.3,
+      "opritafstand": [
+        0,
+        0
+      ],
+      "spoorhoogteBron": "prorail-pvs",
+      "oprithelling": 24,
+      "doorstekend": [],
+      "opritHoogtes": [
+        52.368,
+        52.378
+      ]
+    },
+    "waarschuwingen": [],
+    "gegenereerd": "2026-10-19"
+  }
+}

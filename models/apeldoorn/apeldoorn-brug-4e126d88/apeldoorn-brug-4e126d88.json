@@ -1,0 +1,180 @@
+{
+  "name": "Deventerstraat",
+  "file": "apeldoorn-brug-4e126d88.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    194838.63,
+    470018.17
+  ],
+  "xAxis": [
+    -0.943368,
+    0.331748
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 58.034,
+  "groundSamplePoints": [
+    [
+      -30.51,
+      0
+    ],
+    [
+      30.51,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0200.4e126d88f0810406e0530a0a2849f2b1",
+    "G0200.4e126d88f0800406e0530a0a2849f2b1",
+    "G0200.42b3d39158810268e0530a0a28492340"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        194838.63,
+        470018.17
+      ],
+      "axis": [
+        -0.943368,
+        0.331748
+      ],
+      "halfLength": 7.87,
+      "halfWidth": 12.08,
+      "height": 57.06,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.74,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        194863.03,
+        470009.59
+      ],
+      "axis": [
+        0.943368,
+        -0.331748
+      ],
+      "halfLength": 12,
+      "halfWidth": 13.58,
+      "height": 58.197,
+      "gradient": [
+        -0.01357,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        194814.23,
+        470026.76
+      ],
+      "axis": [
+        -0.943368,
+        0.331748
+      ],
+      "halfLength": 12,
+      "halfWidth": 13.58,
+      "height": 58.21,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0200.4e126d88f0810406e0530a0a2849f2b1",
+      "G0200.4e126d88f0800406e0530a0a2849f2b1"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0200.4e126d88f0810406e0530a0a2849f2b1",
+          "type": "dek"
+        },
+        {
+          "id": "G0200.4e126d88f0800406e0530a0a2849f2b1",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/693717128",
+        "tags": {
+          "bridge": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "mofa": "yes",
+          "moped": "no",
+          "name": "Deventerstraat",
+          "oneway": "no",
+          "sidewalk": "right",
+          "smoothness": "good",
+          "surface": "wood",
+          "surface:colour": "gray",
+          "traffic_sign": "NL:G11",
+          "width": "3",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 2
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 180000,460000,200000,480000 --run nl-9_8 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 27.7,
+      "dekBreedte": 23.2,
+      "brugLengte": 27.7,
+      "water": [
+        -7.9,
+        -0.9
+      ],
+      "portaalhoogte": 20.9,
+      "opritafstand": [
+        16.6,
+        16.6
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0200.42b3d39158810268e0530a0a28492340",
+          "klasse": "Terrain",
+          "oppervlak": 18.2,
+          "onderDek": 1,
+          "bovenDekOnderkant": 0.74,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "G0200.42b3d3911e540268e0530a0a28492340",
+          "klasse": "Road",
+          "oppervlak": 1496.2,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.74,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        58.034,
+        58.06
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 1 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

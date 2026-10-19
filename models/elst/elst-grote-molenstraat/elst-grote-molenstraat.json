@@ -1,0 +1,165 @@
+{
+  "name": "Grote Molenstraat",
+  "file": "elst-grote-molenstraat.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    185346.71,
+    440060.31
+  ],
+  "xAxis": [
+    -0.065093,
+    0.997879
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 52.016,
+  "groundSamplePoints": [
+    [
+      -15.39,
+      0
+    ],
+    [
+      15.39,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G1734.9841db30f7d04b2a9d3c6b5932c0380a"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        185346.71,
+        440060.31
+      ],
+      "axis": [
+        -0.065093,
+        0.997879
+      ],
+      "halfLength": 3.5,
+      "halfWidth": 4.93,
+      "height": 51.287,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.4,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        185347.62,
+        440046.35
+      ],
+      "axis": [
+        0.065093,
+        -0.997879
+      ],
+      "halfLength": 6.99,
+      "halfWidth": 6.43,
+      "height": 52.437,
+      "gradient": [
+        -0.02145,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        185345.8,
+        440074.27
+      ],
+      "axis": [
+        -0.065093,
+        0.997879
+      ],
+      "halfLength": 6.99,
+      "halfWidth": 6.43,
+      "height": 52.302,
+      "gradient": [
+        -0.04078,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G1734.9841db30f7d04b2a9d3c6b5932c0380a"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G1734.9841db30f7d04b2a9d3c6b5932c0380a",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/56392842",
+        "tags": {
+          "bridge": "yes",
+          "bridge:name": "Stavaste brug",
+          "cycleway:both": "lane",
+          "cycleway:both:lane": "advisory",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Grote Molenstraat"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 180000,440000,200000,460000 --run nl-9_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 14,
+      "dekBreedte": 8.9,
+      "brugLengte": 14,
+      "water": [
+        -4,
+        3.5
+      ],
+      "portaalhoogte": 8,
+      "opritafstand": [
+        8.4,
+        8.4
+      ],
+      "oprithelling": 14,
+      "doorstekend": [
+        {
+          "gmlId": "W0621.66399274743443c183d876a27d8b642a",
+          "klasse": "Terrain",
+          "oppervlak": 53.8,
+          "onderDek": 0.01,
+          "bovenDekOnderkant": 0.4,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "W0621.1cfaa851e3e24701b0c8893425bd876a",
+          "klasse": "Terrain",
+          "oppervlak": 91.5,
+          "onderDek": 0.03,
+          "bovenDekOnderkant": 0.31,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        52.287,
+        52.016
+      ]
+    },
+    "waarschuwingen": [
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

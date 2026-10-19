@@ -1,0 +1,185 @@
+{
+  "name": "Eerste Osirisbrug",
+  "file": "almere-eerste-osirisbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    139311.14,
+    484802.93
+  ],
+  "xAxis": [
+    -0.987182,
+    0.159596
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 39.845,
+  "groundSamplePoints": [
+    [
+      -37.12,
+      0
+    ],
+    [
+      37.12,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0034.185d5c5dbf9e4278867e365f9e334100"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        139311.14,
+        484802.93
+      ],
+      "axis": [
+        -0.987182,
+        0.159596
+      ],
+      "halfLength": 11.12,
+      "halfWidth": 4.11,
+      "height": 38.881,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.27,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        139339.89,
+        484798.28
+      ],
+      "axis": [
+        0.987182,
+        -0.159596
+      ],
+      "halfLength": 12,
+      "halfWidth": 5.42,
+      "height": 40.013,
+      "gradient": [
+        -0.01399,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        139282.4,
+        484807.57
+      ],
+      "axis": [
+        -0.987182,
+        0.159596
+      ],
+      "halfLength": 12,
+      "halfWidth": 5.42,
+      "height": 40.031,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0034.185d5c5dbf9e4278867e365f9e334100"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0034.185d5c5dbf9e4278867e365f9e334100",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1167853804",
+        "tags": {
+          "bridge": "yes",
+          "check_date:surface": "2023-09-10",
+          "foot": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "lit": "yes",
+          "mofa": "yes",
+          "moped": "no",
+          "name": "Eerste Osirisbrug",
+          "oneway": "no",
+          "segregated": "yes",
+          "sidewalk": "right",
+          "sidewalk:surface": "asphalt",
+          "surface": "asphalt",
+          "traffic_sign": "NL:G11",
+          "width": "3",
+          "zone:traffic": "NL:urban",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 34.2,
+      "dekBreedte": 7.2,
+      "brugLengte": 34.2,
+      "water": [
+        -5.6,
+        10.4
+      ],
+      "portaalhoogte": 6.5,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0034.a46287b5be974fc99bcc3e98c06b2027",
+          "klasse": "Road",
+          "oppervlak": 96.4,
+          "onderDek": 0.41,
+          "bovenDekOnderkant": 0.27,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "W0650.83195375453f420383c25abb1a17e2c3",
+          "klasse": "Forest",
+          "oppervlak": 24.8,
+          "onderDek": 0.11,
+          "bovenDekOnderkant": 0.14,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0034.84289cdd88144c6a9bc8551893e9c0d8",
+          "klasse": "Terrain",
+          "oppervlak": 36.3,
+          "onderDek": 0.03,
+          "bovenDekOnderkant": 0.07,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        39.845,
+        39.881
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "3 PDOK-vorm(en) door het dek: 0 verborgen, 3 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

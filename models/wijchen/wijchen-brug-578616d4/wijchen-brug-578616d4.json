@@ -1,0 +1,191 @@
+{
+  "name": "wijchen-brug-578616d4",
+  "file": "wijchen-brug-578616d4.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    175148.81,
+    425178.28
+  ],
+  "xAxis": [
+    0.976435,
+    0.21581
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 57.299,
+  "groundSamplePoints": [
+    [
+      -53.74,
+      0
+    ],
+    [
+      53.74,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "P0025.578616d47b3148b785e186e81f05cda8",
+    "P0025.b6128d61bf2e47158022502510afff9b",
+    "L0002.28686d420f08483da9735802a7b7a769",
+    "L0002.10e3fd731e1b48489caa9bbe98257265"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        175148.81,
+        425178.28
+      ],
+      "axis": [
+        0.976435,
+        0.21581
+      ],
+      "halfLength": 27.74,
+      "halfWidth": 14.75,
+      "height": 56.583,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.8,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        175104.15,
+        425168.41
+      ],
+      "axis": [
+        -0.976435,
+        -0.21581
+      ],
+      "halfLength": 12,
+      "halfWidth": 16.25,
+      "height": 57.591,
+      "gradient": [
+        -0.02435,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        175193.47,
+        425188.15
+      ],
+      "axis": [
+        0.976435,
+        0.21581
+      ],
+      "halfLength": 12,
+      "halfWidth": 16.25,
+      "height": 57.733,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "P0025.578616d47b3148b785e186e81f05cda8",
+      "P0025.b6128d61bf2e47158022502510afff9b"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "P0025.578616d47b3148b785e186e81f05cda8",
+          "type": "dek"
+        },
+        {
+          "id": "P0025.b6128d61bf2e47158022502510afff9b",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/6917970",
+        "tags": {
+          "bridge": "yes",
+          "carriageway_ref": "q",
+          "destination:ref": "A50",
+          "highway": "motorway_link",
+          "lanes": "1",
+          "layer": "1",
+          "maxspeed": "70",
+          "oneway": "yes",
+          "operator": "Provincie Gelderland",
+          "ref": "A326",
+          "surface": "asphalt",
+          "toll:hgv": "yes"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 2
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,420000,180000,440000 --run nl-8_6 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 67.5,
+      "dekBreedte": 28.5,
+      "brugLengte": 67.5,
+      "water": null,
+      "portaalhoogte": 25.6,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "P0025.2007d1d765694013a42b1eeeb13ce3b8",
+          "klasse": "Road",
+          "oppervlak": 955.2,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.8,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "L0002.28686d420f08483da9735802a7b7a769",
+          "klasse": "Terrain",
+          "oppervlak": 314.2,
+          "onderDek": 0.7,
+          "bovenDekOnderkant": 0.57,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "P0025.47192a8a8f324cde89b9e07156e0eebb",
+          "klasse": "Road",
+          "oppervlak": 512.2,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.51,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "L0002.10e3fd731e1b48489caa9bbe98257265",
+          "klasse": "Terrain",
+          "oppervlak": 435.4,
+          "onderDek": 0.71,
+          "bovenDekOnderkant": 0.46,
+          "actie": "verbergen"
+        }
+      ],
+      "opritHoogtes": [
+        57.299,
+        57.583
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "4 PDOK-vorm(en) door het dek: 2 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

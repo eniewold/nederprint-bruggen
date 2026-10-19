@@ -1,0 +1,191 @@
+{
+  "name": "ijzendoorn-brug-01f34c2e",
+  "file": "ijzendoorn-brug-01f34c2e.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    166178.25,
+    436775.09
+  ],
+  "xAxis": [
+    -0.878371,
+    -0.477979
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 49.824,
+  "groundSamplePoints": [
+    [
+      -37.55,
+      0
+    ],
+    [
+      37.55,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "L0002.01f34c2eddcf49e2bf138dcd4268271e",
+    "L0002.33dab16939424e20816b185426aaf0b2",
+    "L0002.9184312276e442de810f6e7ec8df05a5"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        166178.25,
+        436775.09
+      ],
+      "axis": [
+        -0.878371,
+        -0.477979
+      ],
+      "halfLength": 11.49,
+      "halfWidth": 30.91,
+      "height": 49.137,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.44,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        166204.21,
+        436789.21
+      ],
+      "axis": [
+        0.878371,
+        0.477979
+      ],
+      "halfLength": 12,
+      "halfWidth": 32.41,
+      "height": 50.287,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        166152.29,
+        436760.96
+      ],
+      "axis": [
+        -0.878371,
+        -0.477979
+      ],
+      "halfLength": 12,
+      "halfWidth": 32.41,
+      "height": 50.131,
+      "gradient": [
+        -0.02554,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "L0002.01f34c2eddcf49e2bf138dcd4268271e"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "L0002.01f34c2eddcf49e2bf138dcd4268271e",
+          "type": "dek"
+        },
+        {
+          "id": "L0002.33dab16939424e20816b185426aaf0b2",
+          "type": "onbekend"
+        },
+        {
+          "id": "L0002.9184312276e442de810f6e7ec8df05a5",
+          "type": "onbekend"
+        }
+      ],
+      "osm": {
+        "id": "way/729728863",
+        "tags": {
+          "bridge": "yes",
+          "carriageway_ref": "Li",
+          "highway": "motorway",
+          "int_ref": "E 31",
+          "lanes": "2",
+          "layer": "1",
+          "maxspeed": "100",
+          "maxspeed:conditional": "130 @ (19:00-06:00)",
+          "oneway": "yes",
+          "operator": "Rijkswaterstaat",
+          "ref": "A15",
+          "surface": "asphalt",
+          "toll:hgv": "yes",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 3
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,420000,180000,440000 --run nl-8_6 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 35,
+      "dekBreedte": 60.8,
+      "brugLengte": 35.1,
+      "water": [
+        -8,
+        8
+      ],
+      "portaalhoogte": 54.7,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0214.4cbcb79cbe5c4370b612178c862d9bc0",
+          "klasse": "Forest",
+          "oppervlak": 281.1,
+          "onderDek": 0.37,
+          "bovenDekOnderkant": 0.44,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0214.5691418276f14fbb910b71434f808ba6",
+          "klasse": "Forest",
+          "oppervlak": 943.8,
+          "onderDek": 0.18,
+          "bovenDekOnderkant": 0.33,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "W0621.50bf3c67af2040aab85217cb26c3d5f9",
+          "klasse": "Terrain",
+          "oppervlak": 252.5,
+          "onderDek": 0.37,
+          "bovenDekOnderkant": 0.13,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        50.137,
+        49.824
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "3 PDOK-vorm(en) door het dek: 0 verborgen, 3 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "name": "Jubileumlaan",
+  "file": "apeldoorn-brug-5e051a7b.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    191678.5,
+    469579.96
+  ],
+  "xAxis": [
+    -0.943051,
+    -0.332647
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 74.404,
+  "groundSamplePoints": [
+    [
+      -9.79,
+      0
+    ],
+    [
+      9.79,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0200.5e051a7b005904d6e0530a0a2849e9bd",
+    "G0200.5e051a7b019204d6e0530a0a2849e9bd",
+    "G0200.5e051a7b022204d6e0530a0a2849e9bd",
+    "G0200.5e051a7b00ae04d6e0530a0a2849e9bd"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        191686.89,
+        469582.92
+      ],
+      "axis": [
+        0.943051,
+        0.332647
+      ],
+      "halfLength": 4.45,
+      "halfWidth": 17.66,
+      "height": 74.59,
+      "gradient": [
+        -0.04192,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        191670.11,
+        469577
+      ],
+      "axis": [
+        -0.943051,
+        -0.332647
+      ],
+      "halfLength": 4.45,
+      "halfWidth": 17.66,
+      "height": 74.627,
+      "gradient": [
+        -0.03372,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0200.5e051a7b005904d6e0530a0a2849e9bd",
+      "G0200.5e051a7b019204d6e0530a0a2849e9bd"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0200.5e051a7b005904d6e0530a0a2849e9bd",
+          "type": "dek"
+        },
+        {
+          "id": "G0200.5e051a7b019204d6e0530a0a2849e9bd",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/787892517",
+        "tags": {
+          "bridge": "yes",
+          "foot": "permissive",
+          "highway": "pedestrian",
+          "layer": "1",
+          "motor_vehicle:conditional": "delivery @ (07:00-10:00)",
+          "name": "Jubileumlaan",
+          "smoothness": "excellent",
+          "surface": "asphalt",
+          "bridge:structure": "arch",
+          "man_made": "bridge",
+          "material": "stone",
+          "start_date": "1937"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 2
+    },
+    "type": "gewelf",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 180000,460000,200000,480000 --run nl-9_8 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 8.9,
+      "dekBreedte": 31.3,
+      "brugLengte": 8.9,
+      "water": [
+        0.1,
+        0.6
+      ],
+      "portaalhoogte": 28.2,
+      "opritafstand": [
+        5.3,
+        5.3
+      ],
+      "oprithelling": 8.9,
+      "doorstekend": [
+        {
+          "gmlId": "G0200.5e051a7b022204d6e0530a0a2849e9bd",
+          "klasse": "Terrain",
+          "oppervlak": 102.1,
+          "onderDek": 0.77,
+          "bovenDekOnderkant": 0.79,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "G0200.5e051a7b00ae04d6e0530a0a2849e9bd",
+          "klasse": "Terrain",
+          "oppervlak": 117,
+          "onderDek": 0.8,
+          "bovenDekOnderkant": 0.76,
+          "actie": "verbergen"
+        }
+      ],
+      "opritHoogtes": [
+        74.404,
+        74.477
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 2 verborgen, 0 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

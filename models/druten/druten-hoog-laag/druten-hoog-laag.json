@@ -1,0 +1,172 @@
+{
+  "name": "Hoog - Laag",
+  "file": "druten-hoog-laag.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    169725.4,
+    432069.24
+  ],
+  "xAxis": [
+    0.054654,
+    0.998505
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 49.974,
+  "groundSamplePoints": [
+    [
+      -13.28,
+      0
+    ],
+    [
+      13.28,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0225.4405c0d41e234cffa5bc84f11badff8c"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        169725.4,
+        432069.24
+      ],
+      "axis": [
+        0.054654,
+        0.998505
+      ],
+      "halfLength": 3.02,
+      "halfWidth": 3.28,
+      "height": 49.019,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.37,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        169724.74,
+        432057.18
+      ],
+      "axis": [
+        -0.054654,
+        -0.998505
+      ],
+      "halfLength": 6.04,
+      "halfWidth": 4.17,
+      "height": 50.147,
+      "gradient": [
+        -0.02863,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        169726.06,
+        432081.29
+      ],
+      "axis": [
+        0.054654,
+        0.998505
+      ],
+      "halfLength": 6.04,
+      "halfWidth": 4.17,
+      "height": 50.169,
+      "gradient": [
+        -0.02484,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0225.4405c0d41e234cffa5bc84f11badff8c"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0225.4405c0d41e234cffa5bc84f11badff8c",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1297739165",
+        "tags": {
+          "bridge": "yes",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Water - Lucht",
+          "surface": "asphalt",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,420000,180000,440000 --run nl-8_6 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 12.1,
+      "dekBreedte": 5.6,
+      "brugLengte": 12.1,
+      "water": [
+        -1.5,
+        3
+      ],
+      "portaalhoogte": 5,
+      "opritafstand": [
+        7.2,
+        7.2
+      ],
+      "oprithelling": 12.1,
+      "doorstekend": [
+        {
+          "gmlId": "W0621.30d64fa48aa74b28adce725481dd7c30",
+          "klasse": "Terrain",
+          "oppervlak": 10.1,
+          "onderDek": 0.63,
+          "bovenDekOnderkant": 0.37,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0225.28518e094e514b5dae1e9f12affbcf6c",
+          "klasse": "Terrain",
+          "oppervlak": 17.7,
+          "onderDek": 0.03,
+          "bovenDekOnderkant": 0.37,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "W0621.9530d95400c44268a8526bbaeb39ca86",
+          "klasse": "Terrain",
+          "oppervlak": 442,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.11,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        49.974,
+        50.019
+      ]
+    },
+    "waarschuwingen": [
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "3 PDOK-vorm(en) door het dek: 0 verborgen, 3 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

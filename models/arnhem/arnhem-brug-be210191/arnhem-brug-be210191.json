@@ -1,0 +1,163 @@
+{
+  "name": "Brugstraat",
+  "file": "arnhem-brug-be210191.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    189964.05,
+    444275.1
+  ],
+  "xAxis": [
+    -0.986612,
+    0.163083
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 71.301,
+  "groundSamplePoints": [
+    [
+      -34.59,
+      0
+    ],
+    [
+      34.59,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0202.be210191042a1393e053726041912542"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        189964.05,
+        444275.1
+      ],
+      "axis": [
+        -0.986612,
+        0.163083
+      ],
+      "halfLength": 28.59,
+      "halfWidth": 3.59,
+      "height": 70.055,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -13.57,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        190010.02,
+        444267.5
+      ],
+      "axis": [
+        0.986612,
+        -0.163083
+      ],
+      "halfLength": 12,
+      "halfWidth": 4.63,
+      "height": 71.328,
+      "gradient": [
+        -0.00225,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        189918.08,
+        444282.7
+      ],
+      "axis": [
+        -0.986612,
+        0.163083
+      ],
+      "halfLength": 12,
+      "halfWidth": 4.63,
+      "height": 71.355,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0202.be210191042a1393e053726041912542"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0202.be210191042a1393e053726041912542",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1171026925",
+        "tags": {
+          "bridge": "yes",
+          "foot": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "lit": "yes",
+          "mofa": "yes",
+          "moped": "no",
+          "name": "Brugstraat",
+          "sidewalk": "right",
+          "smoothness": "good",
+          "surface": "asphalt",
+          "traffic_sign": "NL:G11",
+          "width": "3.8",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 180000,440000,200000,460000 --run nl-9_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 69.2,
+      "dekBreedte": 6.2,
+      "brugLengte": 69.2,
+      "water": null,
+      "portaalhoogte": 5.6,
+      "opritafstand": [
+        0,
+        0
+      ],
+      "spoorhoogteBron": "prorail-pvs",
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "L0004.2f0741e81d153ad3e0630b29a8c0e4af",
+          "klasse": "Terrain",
+          "oppervlak": 2668.7,
+          "onderDek": 0.1,
+          "bovenDekOnderkant": 12.57,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        71.301,
+        71.355
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

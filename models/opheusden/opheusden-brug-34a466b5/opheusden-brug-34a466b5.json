@@ -1,0 +1,186 @@
+{
+  "name": "Rijksweg A15",
+  "file": "opheusden-brug-34a466b5.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    170633,
+    437207.24
+  ],
+  "xAxis": [
+    -0.992034,
+    0.125974
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 50.709,
+  "groundSamplePoints": [
+    [
+      -30.82,
+      0
+    ],
+    [
+      30.82,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "L0002.34a466b532b24862a3380f2d9be72213",
+    "L0002.098b624508d4423db989f124edf65ac3",
+    "L0002.bcfa1b447480461796c0dba5f781552e"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        170633,
+        437207.24
+      ],
+      "axis": [
+        -0.992034,
+        0.125974
+      ],
+      "halfLength": 7.96,
+      "halfWidth": 15.23,
+      "height": 49.871,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.25,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        170658.8,
+        437203.96
+      ],
+      "axis": [
+        0.992034,
+        -0.125974
+      ],
+      "halfLength": 12,
+      "halfWidth": 16.73,
+      "height": 51.021,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        170607.2,
+        437210.51
+      ],
+      "axis": [
+        -0.992034,
+        0.125974
+      ],
+      "halfLength": 12,
+      "halfWidth": 16.73,
+      "height": 50.94,
+      "gradient": [
+        -0.01923,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "L0002.34a466b532b24862a3380f2d9be72213"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "L0002.34a466b532b24862a3380f2d9be72213",
+          "type": "dek"
+        },
+        {
+          "id": "L0002.098b624508d4423db989f124edf65ac3",
+          "type": "onbekend"
+        },
+        {
+          "id": "L0002.bcfa1b447480461796c0dba5f781552e",
+          "type": "onbekend"
+        }
+      ],
+      "osm": {
+        "id": "way/878937870",
+        "tags": {
+          "bridge": "yes",
+          "carriageway_ref": "Re",
+          "highway": "motorway",
+          "int_ref": "E 31",
+          "lanes": "2",
+          "layer": "1",
+          "maxspeed": "100",
+          "maxspeed:conditional": "130 @ (19:00-06:00)",
+          "name": "Rijksweg A15",
+          "official_name": "Rijksweg A-15",
+          "oneway": "yes",
+          "operator": "Rijkswaterstaat",
+          "ref": "A15",
+          "source:official_name": "NWB;BAG",
+          "surface": "asphalt",
+          "toll:hgv": "yes",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 3
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,420000,180000,440000 --run nl-8_6 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 27.9,
+      "dekBreedte": 29.5,
+      "brugLengte": 28,
+      "water": [
+        -7,
+        7
+      ],
+      "portaalhoogte": 26.5,
+      "opritafstand": [
+        16.8,
+        16.8
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "W0621.d44c3fbf95a24635ab94d333cdef9876",
+          "klasse": "Terrain",
+          "oppervlak": 444.9,
+          "onderDek": 0.03,
+          "bovenDekOnderkant": 0.25,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "W0621.6ac660345e0a4f45b6ff7edc2524841e",
+          "klasse": "Terrain",
+          "oppervlak": 204.6,
+          "onderDek": 0.07,
+          "bovenDekOnderkant": 0.24,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        50.871,
+        50.709
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

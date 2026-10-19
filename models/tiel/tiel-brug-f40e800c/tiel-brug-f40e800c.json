@@ -1,0 +1,165 @@
+{
+  "name": "Hazenpad",
+  "file": "tiel-brug-f40e800c.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    156759.96,
+    431758
+  ],
+  "xAxis": [
+    -0.361971,
+    0.932189
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 48.002,
+  "groundSamplePoints": [
+    [
+      -7.74,
+      0
+    ],
+    [
+      7.74,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0281.f40e800c70744ce6813ee359e48616ec"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        156759.96,
+        431758
+      ],
+      "axis": [
+        -0.361971,
+        0.932189
+      ],
+      "halfLength": 1.76,
+      "halfWidth": 2.02,
+      "height": 47.028,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.59,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        156762.51,
+        431751.44
+      ],
+      "axis": [
+        0.361971,
+        -0.932189
+      ],
+      "halfLength": 3.52,
+      "halfWidth": 2.28,
+      "height": 48.178,
+      "gradient": [
+        -0.04262,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        156757.42,
+        431764.56
+      ],
+      "axis": [
+        -0.361971,
+        0.932189
+      ],
+      "halfLength": 3.52,
+      "halfWidth": 2.28,
+      "height": 48.165,
+      "gradient": [
+        -0.0463,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0281.f40e800c70744ce6813ee359e48616ec"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0281.f40e800c70744ce6813ee359e48616ec",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/869050572",
+        "tags": {
+          "bridge": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "lit": "no",
+          "name": "Hazenpad",
+          "oneway": "no",
+          "surface": "asphalt",
+          "zone:traffic": "NL:urban"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,420000,160000,440000 --run nl-7_6 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 7,
+      "dekBreedte": 3,
+      "brugLengte": 7,
+      "water": [
+        -0.5,
+        1
+      ],
+      "portaalhoogte": 2.7,
+      "opritafstand": [
+        4.2,
+        4.2
+      ],
+      "oprithelling": 7,
+      "doorstekend": [
+        {
+          "gmlId": "W0621.9d848290f9934a2690e8e2c1db301137",
+          "klasse": "Terrain",
+          "oppervlak": 73.3,
+          "onderDek": 0.03,
+          "bovenDekOnderkant": 0.59,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "W0621.c1224bbf98e84e3cb96edb9395da7326",
+          "klasse": "Terrain",
+          "oppervlak": 52.6,
+          "onderDek": 0.03,
+          "bovenDekOnderkant": 0.53,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        48.028,
+        48.002
+      ]
+    },
+    "waarschuwingen": [
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

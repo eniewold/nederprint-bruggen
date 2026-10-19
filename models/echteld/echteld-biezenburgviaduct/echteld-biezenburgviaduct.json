@@ -1,0 +1,142 @@
+{
+  "name": "Biezenburgviaduct",
+  "file": "echteld-biezenburgviaduct.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    159956.91,
+    435125.79
+  ],
+  "xAxis": [
+    0.933145,
+    0.359501
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 53.73,
+  "groundSamplePoints": [
+    [
+      -60.31,
+      0
+    ],
+    [
+      60.26,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "L0002.9f7def5e7bfd41549a450c0c28e89f11",
+    "L0002.db78de8aea464a63b5cc77faeb6f9002",
+    "L0002.26af40e1d5564ed7ac312d6ac624838d"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        159908.09,
+        435106.99
+      ],
+      "axis": [
+        -0.933145,
+        -0.359501
+      ],
+      "halfLength": 12,
+      "halfWidth": 16.32,
+      "height": 55.244,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        160005.68,
+        435144.58
+      ],
+      "axis": [
+        0.933145,
+        0.359501
+      ],
+      "halfLength": 12,
+      "halfWidth": 16.32,
+      "height": 54.562,
+      "gradient": [
+        -0.06936,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "L0002.9f7def5e7bfd41549a450c0c28e89f11"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "L0002.9f7def5e7bfd41549a450c0c28e89f11",
+          "type": "dek"
+        },
+        {
+          "id": "L0002.db78de8aea464a63b5cc77faeb6f9002",
+          "type": "onbekend"
+        },
+        {
+          "id": "L0002.26af40e1d5564ed7ac312d6ac624838d",
+          "type": "onbekend"
+        }
+      ],
+      "osm": {
+        "id": "way/6928272",
+        "tags": {
+          "bridge": "yes",
+          "bridge:name": "Biezenburgviaduct",
+          "carriageway_ref": "Li",
+          "highway": "motorway",
+          "int_ref": "E 31",
+          "lanes": "2",
+          "layer": "1",
+          "maxspeed": "100",
+          "maxspeed:conditional": "130 @ (19:00-06:00)",
+          "oneway": "yes",
+          "operator": "Rijkswaterstaat",
+          "ref": "A15",
+          "surface": "asphalt",
+          "toll:hgv": "yes"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 3
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,420000,160000,440000 --run nl-7_6 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 80.5,
+      "dekBreedte": 28.6,
+      "brugLengte": 80.6,
+      "water": null,
+      "portaalhoogte": 25.8,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [],
+      "opritHoogtes": [
+        55.094,
+        53.73
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

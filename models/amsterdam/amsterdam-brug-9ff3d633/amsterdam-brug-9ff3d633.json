@@ -1,0 +1,136 @@
+{
+  "name": "Europaboulevardbrug Zuid",
+  "file": "amsterdam-brug-9ff3d633.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    121055.46,
+    483272.57
+  ],
+  "xAxis": [
+    0.086135,
+    0.996283
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 42.268,
+  "groundSamplePoints": [
+    [
+      -192.57,
+      0
+    ],
+    [
+      63.05,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0363.9ff3d63387014f9f8aed3e1ed7510406"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        121053.34,
+        483248.1
+      ],
+      "axis": [
+        -0.086135,
+        -0.996283
+      ],
+      "halfLength": 12,
+      "halfWidth": 7.72,
+      "height": 45.585,
+      "gradient": [
+        -0.27642,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        121057.62,
+        483297.53
+      ],
+      "axis": [
+        0.086135,
+        0.996283
+      ],
+      "halfLength": 12,
+      "halfWidth": 7.72,
+      "height": 48.752,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0363.9ff3d63387014f9f8aed3e1ed7510406"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0363.9ff3d63387014f9f8aed3e1ed7510406",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1241129253",
+        "tags": {
+          "bridge": "viaduct",
+          "highway": "cycleway",
+          "layer": "1",
+          "smoothness": "intermediate",
+          "surface": "metal",
+          "bridge:structure": "beam",
+          "man_made": "bridge",
+          "name": "Europaboulevardbrug Zuid",
+          "ref": "162P Z."
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 25.6,
+      "dekBreedte": 11.4,
+      "brugLengte": 25.6,
+      "water": [
+        -9.6,
+        11.4
+      ],
+      "portaalhoogte": 10.3,
+      "opritafstand": [
+        180,
+        50
+      ],
+      "spoorhoogteBron": "pdok",
+      "oprithelling": 24,
+      "doorstekend": [],
+      "opritHoogtes": [
+        42.268,
+        48.602
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "oprit -: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "oprit - pas op 180 m langs het spoor gemeten (PDOK-spoorterrein bij de brug lager)",
+      "oprit +: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "oprit +: spoorterrein voorbij 150 m nog 1.6 m hoger (50.4 m); PDOK trekt het spoor hier ver naar beneden, controleer de dekhoogte of geef --opritafstand",
+      "oprit + pas op 50 m langs het spoor gemeten (PDOK-spoorterrein bij de brug lager)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "name": "Vondelbrug",
+  "file": "amsterdam-vondelbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    120236.52,
+    485969.29
+  ],
+  "xAxis": [
+    0.37858,
+    -0.925568
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 43.111,
+  "groundSamplePoints": [
+    [
+      -76.14,
+      0
+    ],
+    [
+      26.33,
+      1.4
+    ]
+  ],
+  "replacesTerrain": [
+    "G0363.e49be3e21e654c54af392d54bf3e04e2"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        120225.86,
+        485995.33
+      ],
+      "axis": [
+        -0.37858,
+        0.925568
+      ],
+      "halfLength": 12,
+      "halfWidth": 14.43,
+      "height": 43.541,
+      "gradient": [
+        -0.03577,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        120247.24,
+        485943.06
+      ],
+      "axis": [
+        0.37858,
+        -0.925568
+      ],
+      "halfLength": 12,
+      "halfWidth": 14.43,
+      "height": 43.82,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0363.e49be3e21e654c54af392d54bf3e04e2"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0363.e49be3e21e654c54af392d54bf3e04e2",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/742226139",
+        "tags": {
+          "bridge": "viaduct",
+          "cycleway:right": "lane",
+          "highway": "tertiary",
+          "lanes": "1",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "30",
+          "maxweight:signed": "no",
+          "name": "Vondelbrug",
+          "note": "viaduct over Vondelpark",
+          "oneway": "yes",
+          "sidewalk": "right",
+          "surface": "asphalt",
+          "zone:traffic": "NL:urban",
+          "bridge:structure": "beam",
+          "man_made": "bridge",
+          "wikidata": "Q1926455",
+          "wikimedia_commons": "Category:Brug 200, Vondelbrug",
+          "wikipedia": "nl:Vondelbrug (Amsterdam)"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 32.5,
+      "dekBreedte": 24.9,
+      "brugLengte": 32.5,
+      "water": null,
+      "portaalhoogte": 22.4,
+      "opritafstand": [
+        60,
+        10
+      ],
+      "spoorhoogteBron": "pdok",
+      "oprithelling": 24,
+      "doorstekend": [],
+      "opritHoogtes": [
+        43.111,
+        43.67
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "oprit -: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "oprit - pas op 60 m langs het spoor gemeten (PDOK-spoorterrein bij de brug lager)",
+      "oprit +: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

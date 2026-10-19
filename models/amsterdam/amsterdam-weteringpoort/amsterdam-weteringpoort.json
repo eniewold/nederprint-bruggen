@@ -1,0 +1,149 @@
+{
+  "name": "Weteringpoort",
+  "file": "amsterdam-weteringpoort.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    121004.49,
+    485959.38
+  ],
+  "xAxis": [
+    0.793857,
+    -0.608104
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 44.697,
+  "groundSamplePoints": [
+    [
+      -13.23,
+      0
+    ],
+    [
+      13.23,
+      -2.13
+    ]
+  ],
+  "replacesTerrain": [
+    "G0363.76d869bc7b5e45fbb467ed8da66a9796"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        120999.37,
+        485963.31
+      ],
+      "axis": [
+        -0.793857,
+        0.608104
+      ],
+      "halfLength": 3.23,
+      "halfWidth": 14.08,
+      "height": 44.959,
+      "gradient": [
+        -0.08124,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        121009.62,
+        485955.46
+      ],
+      "axis": [
+        0.793857,
+        -0.608104
+      ],
+      "halfLength": 3.23,
+      "halfWidth": 14.08,
+      "height": 45.071,
+      "gradient": [
+        -0.04646,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0363.76d869bc7b5e45fbb467ed8da66a9796"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0363.76d869bc7b5e45fbb467ed8da66a9796",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/498306969",
+        "tags": {
+          "bridge": "yes",
+          "electrified": "contact_line",
+          "frequency": "0",
+          "gauge": "1435",
+          "layer": "1",
+          "maxspeed": "50",
+          "oneway": "yes",
+          "railway": "tram",
+          "railway:atb": "no",
+          "railway:etcs": "no",
+          "railway:lzb": "no",
+          "railway:pzb": "no",
+          "voltage": "600",
+          "loc_ref": "90",
+          "man_made": "bridge",
+          "name": "Weteringpoort",
+          "note": "tevens keersluis",
+          "wikidata": "Q37305582",
+          "wikimedia_commons": "Category:Brug 90, Weteringpoort",
+          "wikipedia": "nl:Weteringpoort (Amsterdam)"
+        }
+      },
+      "fis": {
+        "id": 42477107,
+        "naam": "Weteringpoortbrug (Brug 90)",
+        "afstand": 2,
+        "beweegbaar": false,
+        "doorvaarthoogteGesloten": 1.41
+      },
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": 1.41,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 6.5,
+      "dekBreedte": 24.2,
+      "brugLengte": 6.5,
+      "water": [
+        -2.7,
+        2.8
+      ],
+      "portaalhoogte": 21.7,
+      "opritafstand": [
+        10,
+        10
+      ],
+      "spoorhoogteBron": "pdok",
+      "oprithelling": 6.5,
+      "doorstekend": [],
+      "opritHoogtes": [
+        44.697,
+        44.921
+      ]
+    },
+    "waarschuwingen": [
+      "oprit -: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "oprit +: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

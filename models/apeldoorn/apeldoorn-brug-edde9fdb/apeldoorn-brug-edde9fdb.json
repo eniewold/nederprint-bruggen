@@ -1,0 +1,190 @@
+{
+  "name": "apeldoorn-brug-edde9fdb",
+  "file": "apeldoorn-brug-edde9fdb.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    198313.61,
+    470471.91
+  ],
+  "xAxis": [
+    0.842237,
+    0.539107
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 51.3,
+  "groundSamplePoints": [
+    [
+      -21.75,
+      0
+    ],
+    [
+      21.75,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "L0002.edde9fdb88034ae2a21386cf8c500672",
+    "L0004.36091bcc305741c9b8f5a3c9fb9b5cb9",
+    "L0004.5bad75756566467b90a8eafbd255a00b"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        198313.61,
+        470471.91
+      ],
+      "axis": [
+        0.842237,
+        0.539107
+      ],
+      "halfLength": 15.75,
+      "halfWidth": 9.03,
+      "height": 50.008,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -8.78,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        198285.19,
+        470453.72
+      ],
+      "axis": [
+        -0.842237,
+        -0.539107
+      ],
+      "halfLength": 12,
+      "halfWidth": 10.53,
+      "height": 51.308,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        198342.03,
+        470490.1
+      ],
+      "axis": [
+        0.842237,
+        0.539107
+      ],
+      "halfLength": 12,
+      "halfWidth": 10.53,
+      "height": 51.304,
+      "gradient": [
+        -0.00032,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "L0002.edde9fdb88034ae2a21386cf8c500672"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "L0002.edde9fdb88034ae2a21386cf8c500672",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/6829537",
+        "tags": {
+          "bridge": "yes",
+          "carriageway_ref": "Li",
+          "highway": "motorway",
+          "lanes": "2",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "100",
+          "maxspeed:conditional": "120 @ (19:00-06:00)",
+          "noname": "yes",
+          "official_name": "Rijksweg A50",
+          "oneway": "yes",
+          "operator": "Rijkswaterstaat",
+          "ref": "A50",
+          "source:official_name": "NWB",
+          "surface": "asphalt",
+          "toll:hgv": "yes"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 180000,460000,200000,480000 --run nl-9_8 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 43.5,
+      "dekBreedte": 17.1,
+      "brugLengte": 43.5,
+      "water": null,
+      "portaalhoogte": 15.3,
+      "opritafstand": [
+        0,
+        0
+      ],
+      "spoorhoogteBron": "prorail-pvs",
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "L0004.36091bcc305741c9b8f5a3c9fb9b5cb9",
+          "klasse": "Terrain",
+          "oppervlak": 524.4,
+          "onderDek": 0.7,
+          "bovenDekOnderkant": 8.11,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "L0004.5bad75756566467b90a8eafbd255a00b",
+          "klasse": "Terrain",
+          "oppervlak": 211.3,
+          "onderDek": 0.82,
+          "bovenDekOnderkant": 7.96,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "L0002.ba216b4f07d34e37a26a06895a619f99",
+          "klasse": "Road",
+          "oppervlak": 2988.9,
+          "onderDek": 0,
+          "bovenDekOnderkant": 7.78,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "L0004.76042f63324f4c89b1411c4955fdca11",
+          "klasse": "Road",
+          "oppervlak": 116280,
+          "onderDek": 0.04,
+          "bovenDekOnderkant": 0.94,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        51.308,
+        51.3
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "4 PDOK-vorm(en) door het dek: 2 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

@@ -1,0 +1,199 @@
+{
+  "name": "Frankendaelbrug",
+  "file": "amsterdam-frankendaelbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    124174.14,
+    484897.97
+  ],
+  "xAxis": [
+    0.701949,
+    -0.712227
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 39.249,
+  "groundSamplePoints": [
+    [
+      -12.14,
+      -2.85
+    ],
+    [
+      12.14,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0363.ecb7951abc6c4b8bb180e10615c2c818"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        124174.14,
+        484897.97
+      ],
+      "axis": [
+        0.701949,
+        -0.712227
+      ],
+      "halfLength": 1.07,
+      "halfWidth": 16.93,
+      "height": 38.251,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.76,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        124170.54,
+        484901.63
+      ],
+      "axis": [
+        -0.701949,
+        0.712227
+      ],
+      "halfLength": 3,
+      "halfWidth": 18.43,
+      "height": 39.4,
+      "gradient": [
+        -0.05049,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        124177.75,
+        484894.31
+      ],
+      "axis": [
+        0.701949,
+        -0.712227
+      ],
+      "halfLength": 3,
+      "halfWidth": 18.43,
+      "height": 39.401,
+      "gradient": [
+        -0.05,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0363.ecb7951abc6c4b8bb180e10615c2c818"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0363.ecb7951abc6c4b8bb180e10615c2c818",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1079480147",
+        "tags": {
+          "bridge": "yes",
+          "embedded_rails": "tram",
+          "highway": "busway",
+          "lanes": "2",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "50",
+          "maxweight:signed": "no",
+          "name": "Frankendaelbrug",
+          "width": "5",
+          "zone:traffic": "NL:urban",
+          "architect": "Piet Kramer",
+          "bridge:ref": "217",
+          "man_made": "bridge",
+          "bridge:structure": "beam"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 4.3,
+      "dekBreedte": 32.9,
+      "brugLengte": 4.3,
+      "water": [
+        -1.1,
+        1.4
+      ],
+      "portaalhoogte": 29.6,
+      "opritafstand": [
+        10,
+        10
+      ],
+      "spoorhoogteBron": "pdok",
+      "oprithelling": 6,
+      "doorstekend": [
+        {
+          "gmlId": "G0363.07a270c05fbf4ff28e0a326d2fcd8859",
+          "klasse": "Road",
+          "oppervlak": 142.1,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.76,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0363.c3794bd74d9042bf8643cf4d71355101",
+          "klasse": "Separation",
+          "oppervlak": 0.8,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.74,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0363.2f0e68323e0b47bdbc84f5ef756088f0",
+          "klasse": "Road",
+          "oppervlak": 38.9,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.71,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0363.58943c2c162b4682b5e7da0d82c442d4",
+          "klasse": "Road",
+          "oppervlak": 39.9,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.71,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0363.9dd85ac45e6340dc8ec5cd4f007bd04d",
+          "klasse": "Terrain",
+          "oppervlak": 13.3,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.66,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        39.249,
+        39.251
+      ]
+    },
+    "waarschuwingen": [
+      "oprit -: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "oprit +: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "5 PDOK-vorm(en) door het dek: 0 verborgen, 5 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

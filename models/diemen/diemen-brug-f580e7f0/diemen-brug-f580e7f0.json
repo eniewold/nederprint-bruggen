@@ -1,0 +1,173 @@
+{
+  "name": "diemen-brug-f580e7f0",
+  "file": "diemen-brug-f580e7f0.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    126146.42,
+    482584.56
+  ],
+  "xAxis": [
+    0.702949,
+    -0.71124
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 47.159,
+  "groundSamplePoints": [
+    [
+      -35.4,
+      3.94
+    ],
+    [
+      33.43,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0384.d487e9c4b4764cfe93584c8fb72dec4f",
+    "G0384.f580e7f05734460ababbecf5a6f282a6",
+    "G0384.fccdaeec64764e829b6019e90f3a3e70"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        126146.42,
+        482584.56
+      ],
+      "axis": [
+        0.702949,
+        -0.71124
+      ],
+      "halfLength": 18.43,
+      "halfWidth": 12.36,
+      "height": 46.487,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.78,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        126120.11,
+        482611.19
+      ],
+      "axis": [
+        -0.702949,
+        0.71124
+      ],
+      "halfLength": 12,
+      "halfWidth": 13.86,
+      "height": 47.637,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        126171.33,
+        482559.37
+      ],
+      "axis": [
+        0.702949,
+        -0.71124
+      ],
+      "halfLength": 12,
+      "halfWidth": 13.86,
+      "height": 47.473,
+      "gradient": [
+        -0.02616,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0384.f580e7f05734460ababbecf5a6f282a6"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0384.d487e9c4b4764cfe93584c8fb72dec4f",
+          "type": "landhoofd"
+        },
+        {
+          "id": "G0384.f580e7f05734460ababbecf5a6f282a6",
+          "type": "dek"
+        },
+        {
+          "id": "G0384.fccdaeec64764e829b6019e90f3a3e70",
+          "type": "landhoofd"
+        }
+      ],
+      "osm": {
+        "id": "way/840503052",
+        "tags": {
+          "bridge": "yes",
+          "electrified": "rail",
+          "frequency": "0",
+          "gauge": "1435",
+          "layer": "1",
+          "maxspeed": "80",
+          "operator": "GVB",
+          "railway": "subway",
+          "railway:cbtc": "sto",
+          "source": "survey",
+          "voltage": "750",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 3
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 48.9,
+      "dekBreedte": 23.7,
+      "brugLengte": 48.9,
+      "water": null,
+      "portaalhoogte": 21.3,
+      "opritafstand": [
+        10,
+        10
+      ],
+      "spoorhoogteBron": "pdok",
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0384.232da1e0830f48e2b1fa7d2cfce9abd1",
+          "klasse": "Forest",
+          "oppervlak": 596.1,
+          "onderDek": 0.03,
+          "bovenDekOnderkant": 0.78,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        47.487,
+        47.159
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "oprit -: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "oprit -: spoorterrein voorbij 150 m nog 1.4 m hoger (48.9 m); PDOK trekt het spoor hier ver naar beneden, controleer de dekhoogte of geef --opritafstand",
+      "oprit +: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

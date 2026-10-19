@@ -1,0 +1,146 @@
+{
+  "name": "Weesperpoort",
+  "file": "amsterdam-weesperpoort-2.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    122403.83,
+    485991.16
+  ],
+  "xAxis": [
+    -0.519057,
+    -0.854739
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 43.925,
+  "groundSamplePoints": [
+    [
+      -10.06,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0363.9233ed4e76c343218cbe96a36e856ea6"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        122403.83,
+        485991.16
+      ],
+      "axis": [
+        -0.519057,
+        -0.854739
+      ],
+      "halfLength": 2.29,
+      "halfWidth": 2.36,
+      "height": 42.925,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -3.43,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        122408.58,
+        485998.98
+      ],
+      "axis": [
+        0.519057,
+        0.854739
+      ],
+      "halfLength": 4.57,
+      "halfWidth": 2.79,
+      "height": 44.075,
+      "gradient": [
+        -0.03279,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0363.9233ed4e76c343218cbe96a36e856ea6"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0363.9233ed4e76c343218cbe96a36e856ea6",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/455136291",
+        "tags": {
+          "bridge": "yes",
+          "footway": "sidewalk",
+          "highway": "footway",
+          "layer": "1",
+          "smoothness": "good",
+          "surface": "paving_stones",
+          "loc_ref": "263",
+          "man_made": "bridge",
+          "name": "Weesperpoort",
+          "wikidata": "Q29046807",
+          "wikimedia_commons": "Category:Brug 263, Weesperpoort"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 9.1,
+      "dekBreedte": 3.7,
+      "brugLengte": 9.1,
+      "water": [
+        -0.6,
+        3.9
+      ],
+      "portaalhoogte": 3.4,
+      "opritafstand": [
+        5.5,
+        16.5
+      ],
+      "oprithelling": 9.1,
+      "doorstekend": [
+        {
+          "gmlId": "G0363.25a5ec99f8ec4f1aa8c41ebf3b669486",
+          "klasse": "Separation",
+          "oppervlak": 7.5,
+          "onderDek": 0,
+          "bovenDekOnderkant": 2.43,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0363.4062efc9df7e48f4bbd407812df5df91",
+          "klasse": "Terrain",
+          "oppervlak": 5.9,
+          "onderDek": 0.11,
+          "bovenDekOnderkant": 0.18,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        43.925,
+        null
+      ]
+    },
+    "waarschuwingen": [
+      "oprit + zonder PDOK-maaiveld",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

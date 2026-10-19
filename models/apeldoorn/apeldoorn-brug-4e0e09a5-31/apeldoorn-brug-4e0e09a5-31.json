@@ -1,0 +1,161 @@
+{
+  "name": "apeldoorn-brug-4e0e09a5-31",
+  "file": "apeldoorn-brug-4e0e09a5-31.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    192904.18,
+    468464.94
+  ],
+  "xAxis": [
+    0.501234,
+    0.865312
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 64.611,
+  "groundSamplePoints": [
+    [
+      -5.59,
+      0
+    ],
+    [
+      5.59,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0200.4e0e09a5736703d8e0530a0a28497f97"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        192904.18,
+        468464.94
+      ],
+      "axis": [
+        0.501234,
+        0.865312
+      ],
+      "halfLength": 0.8,
+      "halfWidth": 2.76,
+      "height": 64.072,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.33,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        192901.88,
+        468460.97
+      ],
+      "axis": [
+        -0.501234,
+        -0.865312
+      ],
+      "halfLength": 3,
+      "halfWidth": 3.39,
+      "height": 64.991,
+      "gradient": [
+        -0.12692,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        192906.48,
+        468468.92
+      ],
+      "axis": [
+        0.501234,
+        0.865312
+      ],
+      "halfLength": 3,
+      "halfWidth": 3.39,
+      "height": 65.222,
+      "gradient": [
+        -0.05,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0200.4e0e09a5736703d8e0530a0a28497f97"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0200.4e0e09a5736703d8e0530a0a28497f97",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/692605490",
+        "tags": {
+          "bridge": "yes",
+          "highway": "path",
+          "layer": "1"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 180000,460000,200000,480000 --run nl-9_8 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 3.2,
+      "dekBreedte": 4.5,
+      "brugLengte": 3.2,
+      "water": [
+        -0.1,
+        0.4
+      ],
+      "portaalhoogte": 4.1,
+      "opritafstand": [
+        4,
+        4
+      ],
+      "oprithelling": 6,
+      "doorstekend": [
+        {
+          "gmlId": "G0200.42b3d390b2cc0268e0530a0a28492340",
+          "klasse": "Terrain",
+          "oppervlak": 6.5,
+          "onderDek": 0.3,
+          "bovenDekOnderkant": 0.33,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0200.42b3d390b3300268e0530a0a28492340",
+          "klasse": "Terrain",
+          "oppervlak": 5.7,
+          "onderDek": 0.14,
+          "bovenDekOnderkant": 0.26,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        64.611,
+        65.072
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

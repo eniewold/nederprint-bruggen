@@ -1,0 +1,131 @@
+{
+  "name": "Lappibrug",
+  "file": "almere-lappibrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    139947.41,
+    484970.83
+  ],
+  "xAxis": [
+    0.915107,
+    0.403212
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 40.031,
+  "groundSamplePoints": [
+    [
+      -27.22,
+      0
+    ],
+    [
+      27.22,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0034.33f5d26effb846b9b20c32fc1f468098"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        139925.1,
+        484961
+      ],
+      "axis": [
+        -0.915107,
+        -0.403212
+      ],
+      "halfLength": 12,
+      "halfWidth": 6.84,
+      "height": 40.228,
+      "gradient": [
+        -0.01643,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        139969.71,
+        484980.66
+      ],
+      "axis": [
+        0.915107,
+        0.403212
+      ],
+      "halfLength": 12,
+      "halfWidth": 6.84,
+      "height": 40.275,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0034.33f5d26effb846b9b20c32fc1f468098"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0034.33f5d26effb846b9b20c32fc1f468098",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/603893236",
+        "tags": {
+          "bridge": "yes",
+          "emergency": "yes",
+          "highway": "busway",
+          "lanes": "2",
+          "layer": "1",
+          "maxspeed": "50",
+          "zone:traffic": "NL:urban",
+          "bridge:structure": "beam",
+          "man_made": "bridge",
+          "name": "Lappibrug"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 24.7,
+      "dekBreedte": 9.7,
+      "brugLengte": 24.7,
+      "water": [
+        -8.9,
+        5.6
+      ],
+      "portaalhoogte": 8.7,
+      "opritafstand": [
+        14.8,
+        14.8
+      ],
+      "oprithelling": 24,
+      "doorstekend": [],
+      "opritHoogtes": [
+        40.031,
+        40.125
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

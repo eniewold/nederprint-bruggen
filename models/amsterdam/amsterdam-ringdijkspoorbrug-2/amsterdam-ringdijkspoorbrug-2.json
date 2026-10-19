@@ -1,0 +1,148 @@
+{
+  "name": "Ringdijkspoorbrug",
+  "file": "amsterdam-ringdijkspoorbrug-2.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    122866.78,
+    484710.88
+  ],
+  "xAxis": [
+    0.505309,
+    -0.862938
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 46.101,
+  "groundSamplePoints": [
+    [
+      -15.38,
+      -3.46
+    ],
+    [
+      35.38,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "L0004.e4353c66a5bc4563b9383bfe8823b219"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        122861.34,
+        484720.17
+      ],
+      "axis": [
+        -0.505309,
+        0.862938
+      ],
+      "halfLength": 5.38,
+      "halfWidth": 8.84,
+      "height": 47.241,
+      "gradient": [
+        -0.21184,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        122872.22,
+        484701.59
+      ],
+      "axis": [
+        0.505309,
+        -0.862938
+      ],
+      "halfLength": 5.38,
+      "halfWidth": 8.84,
+      "height": 48.231,
+      "gradient": [
+        -0.02787,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "L0004.e4353c66a5bc4563b9383bfe8823b219"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "L0004.e4353c66a5bc4563b9383bfe8823b219",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1052745450",
+        "tags": {
+          "axle_load": "22.5",
+          "bridge": "yes",
+          "bridge:name": "Ringdijkspoorbrug",
+          "description": "Amsterdam Muiderpoort - Duivendrecht",
+          "electrified": "contact_line",
+          "frequency": "0",
+          "gauge": "1435",
+          "layer": "1",
+          "loading_gauge": "TSI_GB",
+          "maxspeed": "70",
+          "operator": "ProRail",
+          "passenger_lines": "2",
+          "railway": "rail",
+          "railway:atb": "yes",
+          "railway:etcs": "2",
+          "railway:maximum_current": "4000",
+          "railway:track_class": "D4",
+          "railway:traffic_mode": "passenger",
+          "ref": "096b",
+          "ref:ProRailID": "2877280.0",
+          "ref:ProRailSpoortak": "588_411AR_2.8",
+          "source": "ProRail",
+          "source:date": "2014-01-03",
+          "usage": "main",
+          "voltage": "1500",
+          "bridge:structure": "arch",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "gewelf",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 10.8,
+      "dekBreedte": 13.7,
+      "brugLengte": 10.8,
+      "water": null,
+      "portaalhoogte": 12.3,
+      "opritafstand": [
+        10,
+        30
+      ],
+      "spoorhoogteBron": "pdok",
+      "oprithelling": 10.8,
+      "doorstekend": [],
+      "opritHoogtes": [
+        46.101,
+        48.081
+      ]
+    },
+    "waarschuwingen": [
+      "oprit -: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "oprit +: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "oprit + pas op 30 m langs het spoor gemeten (PDOK-spoorterrein bij de brug lager)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

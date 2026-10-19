@@ -1,0 +1,187 @@
+{
+  "name": "Brug 868",
+  "file": "amsterdam-brug-868.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    121241.71,
+    483432.64
+  ],
+  "xAxis": [
+    -0.166969,
+    -0.985962
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 45.557,
+  "groundSamplePoints": [
+    [
+      -17.48,
+      3.53
+    ],
+    [
+      16.91,
+      -2.22
+    ]
+  ],
+  "replacesTerrain": [
+    "G0363.69f102a9d8664665a4481b5a8959164d"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        121241.71,
+        483432.64
+      ],
+      "axis": [
+        -0.166969,
+        -0.985962
+      ],
+      "halfLength": 3.75,
+      "halfWidth": 19.69,
+      "height": 44.791,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.76,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        121244.22,
+        483447.45
+      ],
+      "axis": [
+        0.166969,
+        0.985962
+      ],
+      "halfLength": 7.5,
+      "halfWidth": 21.19,
+      "height": 45.824,
+      "gradient": [
+        -0.03563,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        121239.21,
+        483417.87
+      ],
+      "axis": [
+        -0.166969,
+        -0.985962
+      ],
+      "halfLength": 7.5,
+      "halfWidth": 21.19,
+      "height": 45.941,
+      "gradient": [
+        -0.02,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0363.69f102a9d8664665a4481b5a8959164d"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0363.69f102a9d8664665a4481b5a8959164d",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1240855538",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "viaduct",
+          "destination": "Utrecht; Amstelveen; Hengelo | Zuidas",
+          "destination:ref": "Ring A10; S11",
+          "foot": "no",
+          "highway": "secondary",
+          "horse": "no",
+          "lanes": "3",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "50",
+          "maxweight:signed": "no",
+          "mofa": "use_sidepath",
+          "moped": "designated",
+          "name": "Brug 868",
+          "oneway": "yes",
+          "placement": "transition",
+          "ref": "868",
+          "sidewalk": "no",
+          "smoothness": "good",
+          "surface": "asphalt",
+          "turn:lanes": "through|through|through",
+          "width": "7",
+          "zone:traffic": "NL:urban",
+          "architect": "Dirk Sterenberg; Dienst der Publieke Werken",
+          "bridge:structure": "beam",
+          "man_made": "bridge",
+          "material": "concrete",
+          "note": "eigenlijk een tunnel",
+          "start_date": "1976"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 15,
+      "dekBreedte": 38.4,
+      "brugLengte": 15,
+      "water": null,
+      "portaalhoogte": 34.5,
+      "opritafstand": [
+        10,
+        10
+      ],
+      "spoorhoogteBron": "pdok",
+      "oprithelling": 15,
+      "doorstekend": [
+        {
+          "gmlId": "G0363.f380cf19def746989d686edf20e0be26",
+          "klasse": "Road",
+          "oppervlak": 484.9,
+          "onderDek": 0.55,
+          "bovenDekOnderkant": 0.76,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0363.0e80fac17c484d47a3637015f86885d2",
+          "klasse": "Road",
+          "oppervlak": 321.9,
+          "onderDek": 0.17,
+          "bovenDekOnderkant": 0.17,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        45.557,
+        45.791
+      ]
+    },
+    "waarschuwingen": [
+      "oprit -: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "oprit +: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

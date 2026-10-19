@@ -1,0 +1,182 @@
+{
+  "name": "Venserbrug",
+  "file": "diemen-venserbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    125537.49,
+    483533.55
+  ],
+  "xAxis": [
+    -0.960745,
+    0.277432
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 41.962,
+  "groundSamplePoints": [
+    [
+      -29.62,
+      0
+    ],
+    [
+      34.94,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0384.34fe0379e95e4d379c98922dae2970f1",
+    "G0384.45525b1867474f418a94fc0b0b75f3d9",
+    "G0384.843bdf5854f2402aaf97f181a3c687ca",
+    "G0384.ee68d7b4f6464f7fb8bea43db7a35b6b",
+    "G0384.a9def762f6b142f0a2f9d60b716d44c6"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        125537.49,
+        483533.55
+      ],
+      "axis": [
+        -0.960745,
+        0.277432
+      ],
+      "halfLength": 5.61,
+      "halfWidth": 39.76,
+      "height": 41.369,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -2.92,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        125560.56,
+        483526.89
+      ],
+      "axis": [
+        0.960745,
+        -0.277432
+      ],
+      "halfLength": 12,
+      "halfWidth": 41.26,
+      "height": 42.315,
+      "gradient": [
+        -0.02944,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        125509.31,
+        483541.69
+      ],
+      "axis": [
+        -0.960745,
+        0.277432
+      ],
+      "halfLength": 12,
+      "halfWidth": 41.26,
+      "height": 42.519,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0384.843bdf5854f2402aaf97f181a3c687ca"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0384.34fe0379e95e4d379c98922dae2970f1",
+          "type": "pijler"
+        },
+        {
+          "id": "G0384.45525b1867474f418a94fc0b0b75f3d9",
+          "type": "pijler"
+        },
+        {
+          "id": "G0384.843bdf5854f2402aaf97f181a3c687ca",
+          "type": "dek"
+        },
+        {
+          "id": "G0384.ee68d7b4f6464f7fb8bea43db7a35b6b",
+          "type": "landhoofd"
+        },
+        {
+          "id": "G0384.a9def762f6b142f0a2f9d60b716d44c6",
+          "type": "landhoofd"
+        }
+      ],
+      "osm": {
+        "id": "way/538110168",
+        "tags": {
+          "bridge": "yes",
+          "foot": "designated",
+          "highway": "cycleway",
+          "layer": "1",
+          "mofa": "yes",
+          "moped": "no",
+          "opening_date": "2025-03-28",
+          "segregated": "yes",
+          "sidewalk": "right",
+          "smoothness": "intermediate",
+          "surface": "concrete",
+          "traffic_sign": "NL:G11",
+          "width": "3.2",
+          "man_made": "bridge",
+          "name": "Venserbrug"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 5
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 22.4,
+      "dekBreedte": 78.5,
+      "brugLengte": 29.3,
+      "water": null,
+      "portaalhoogte": 70.7,
+      "opritafstand": [
+        17.6,
+        17.6
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0384.ec486ed41b11472598beff6494351995",
+          "klasse": "Terrain",
+          "oppervlak": 296.8,
+          "onderDek": 0.62,
+          "bovenDekOnderkant": 1.92,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        41.962,
+        42.369
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen FIS-brug binnen 35 m",
+      "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

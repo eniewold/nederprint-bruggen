@@ -1,0 +1,193 @@
+{
+  "name": "Kruislaanbrug",
+  "file": "amsterdam-kruislaanbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    124022.47,
+    484004.88
+  ],
+  "xAxis": [
+    -0.750637,
+    -0.660715
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 38.469,
+  "groundSamplePoints": [
+    [
+      -36.75,
+      0
+    ],
+    [
+      36.75,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0363.9f8155da956c4988afe14d31e136cebd",
+    "G0363.01256e9b467c495aa28784336561d459",
+    "G0363.7c2012617c2944c18699211e61d04ed4"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        124022.47,
+        484004.88
+      ],
+      "axis": [
+        -0.750637,
+        -0.660715
+      ],
+      "halfLength": 10.75,
+      "halfWidth": 8.44,
+      "height": 37.686,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -4.25,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        124044.05,
+        484023.87
+      ],
+      "axis": [
+        0.750637,
+        0.660715
+      ],
+      "halfLength": 12,
+      "halfWidth": 9.94,
+      "height": 38.836,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        124000.9,
+        483985.89
+      ],
+      "axis": [
+        -0.750637,
+        -0.660715
+      ],
+      "halfLength": 12,
+      "halfWidth": 9.94,
+      "height": 38.728,
+      "gradient": [
+        -0.02154,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0363.9f8155da956c4988afe14d31e136cebd"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0363.9f8155da956c4988afe14d31e136cebd",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1295830361",
+        "tags": {
+          "agricultural": "no",
+          "bicycle": "no",
+          "bridge": "viaduct",
+          "foot": "no",
+          "highway": "trunk",
+          "lane_markings": "yes",
+          "lanes": "2",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "80",
+          "mofa": "no",
+          "moped": "no",
+          "motorroad": "yes",
+          "name": "Kruislaanbrug",
+          "oneway": "yes",
+          "operator": "Gemeente Amsterdam",
+          "ref": "458",
+          "shoulder": "right",
+          "smoothness": "good",
+          "source": "PDOK, AHN & BGT Mar'25; OpenDataAmsterdam; Mapillary",
+          "surface": "asphalt",
+          "width": "7.5",
+          "zone:traffic": "NL:rural",
+          "architect": "Dienst der Publieke Werken",
+          "bridge:structure": "beam",
+          "man_made": "bridge",
+          "material": "concrete",
+          "start_date": "1960-05-02"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 33.5,
+      "dekBreedte": 15.9,
+      "brugLengte": 33.5,
+      "water": null,
+      "portaalhoogte": 14.3,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0363.01256e9b467c495aa28784336561d459",
+          "klasse": "Road",
+          "oppervlak": 291.2,
+          "onderDek": 1,
+          "bovenDekOnderkant": 3.6,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "G0363.ffae0f3db4bf4c98b5f8fa8d6936d574",
+          "klasse": "Road",
+          "oppervlak": 699.9,
+          "onderDek": 0.41,
+          "bovenDekOnderkant": 3.25,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0363.7c2012617c2944c18699211e61d04ed4",
+          "klasse": "Road",
+          "oppervlak": 701.3,
+          "onderDek": 0.87,
+          "bovenDekOnderkant": 2.09,
+          "actie": "verbergen"
+        }
+      ],
+      "opritHoogtes": [
+        38.686,
+        38.469
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "3 PDOK-vorm(en) door het dek: 2 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

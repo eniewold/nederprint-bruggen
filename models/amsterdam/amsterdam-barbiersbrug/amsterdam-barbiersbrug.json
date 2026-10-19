@@ -1,0 +1,142 @@
+{
+  "name": "Barbiersbrug",
+  "file": "amsterdam-barbiersbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    121208.64,
+    484593.95
+  ],
+  "xAxis": [
+    -0.087564,
+    -0.996159
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 45.454,
+  "groundSamplePoints": [
+    [
+      -16.02,
+      -1.39
+    ],
+    [
+      16.02,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0363.7882117b6c62452887cc9b000cdbabfe"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        121209.7,
+        484605.94
+      ],
+      "axis": [
+        0.087564,
+        0.996159
+      ],
+      "halfLength": 6.02,
+      "halfWidth": 17.08,
+      "height": 45.643,
+      "gradient": [
+        -0.03133,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        121207.59,
+        484581.95
+      ],
+      "axis": [
+        -0.087564,
+        -0.996159
+      ],
+      "halfLength": 6.02,
+      "halfWidth": 17.08,
+      "height": 45.681,
+      "gradient": [
+        -0.02491,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0363.7882117b6c62452887cc9b000cdbabfe"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0363.7882117b6c62452887cc9b000cdbabfe",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/813880475",
+        "tags": {
+          "bridge": "yes",
+          "electrified": "contact_line",
+          "frequency": "0",
+          "gauge": "1435",
+          "layer": "1",
+          "maxspeed": "50",
+          "oneway": "yes",
+          "railway": "tram",
+          "railway:atb": "no",
+          "railway:etcs": "no",
+          "railway:lzb": "no",
+          "railway:pzb": "no",
+          "voltage": "600",
+          "bridge:name": "Barbiersbrug",
+          "bridge:structure": "beam",
+          "man_made": "bridge",
+          "name": "Barbiersbrug",
+          "wikidata": "Q15873564",
+          "wikimedia_commons": "Category:Brug 404, Barbiersbrug"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 12,
+      "dekBreedte": 30.2,
+      "brugLengte": 12,
+      "water": [
+        -5.5,
+        6
+      ],
+      "portaalhoogte": 27.2,
+      "opritafstand": [
+        10,
+        10
+      ],
+      "spoorhoogteBron": "pdok",
+      "oprithelling": 12,
+      "doorstekend": [],
+      "opritHoogtes": [
+        45.454,
+        45.531
+      ]
+    },
+    "waarschuwingen": [
+      "oprit -: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "oprit +: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

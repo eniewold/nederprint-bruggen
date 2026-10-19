@@ -1,0 +1,191 @@
+{
+  "name": "Hooiwegtunnel",
+  "file": "diemen-hooiwegtunnel.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    128705.45,
+    482963.35
+  ],
+  "xAxis": [
+    -0.811158,
+    0.584827
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 49.907,
+  "groundSamplePoints": [
+    [
+      -39.97,
+      0
+    ],
+    [
+      39.97,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "L0002.9c592084099c0d71e05332a1e90a5540",
+    "L0002.9c5920840a530d71e05332a1e90a5540",
+    "L0002.9c5920840b800d71e05332a1e90a5540"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        128705.45,
+        482963.35
+      ],
+      "axis": [
+        -0.811158,
+        0.584827
+      ],
+      "halfLength": 13.97,
+      "halfWidth": 11.48,
+      "height": 49.621,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -2.34,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        128731.38,
+        482944.65
+      ],
+      "axis": [
+        0.811158,
+        -0.584827
+      ],
+      "halfLength": 12,
+      "halfWidth": 12.98,
+      "height": 50.771,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        128679.52,
+        482982.05
+      ],
+      "axis": [
+        -0.811158,
+        0.584827
+      ],
+      "halfLength": 12,
+      "halfWidth": 12.98,
+      "height": 50.414,
+      "gradient": [
+        -0.04227,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "L0002.9c5920840a530d71e05332a1e90a5540"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "L0002.9c592084099c0d71e05332a1e90a5540",
+          "type": "landhoofd"
+        },
+        {
+          "id": "L0002.9c5920840a530d71e05332a1e90a5540",
+          "type": "dek"
+        },
+        {
+          "id": "L0002.9c5920840b800d71e05332a1e90a5540",
+          "type": "landhoofd"
+        }
+      ],
+      "osm": {
+        "id": "way/489637684",
+        "tags": {
+          "bridge": "yes",
+          "carriageway_ref": "b",
+          "highway": "motorway_link",
+          "lanes": "1",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "80",
+          "maxspeed:type": "sign",
+          "motorway": "yes",
+          "name": "Hooiwegtunnel",
+          "oneway": "yes",
+          "operator": "Rijkswaterstaat",
+          "ref": "A9",
+          "surface": "asphalt",
+          "toll:hgv": "yes",
+          "zone:traffic": "NL:rural",
+          "bridge:structure": "beam",
+          "man_made": "bridge",
+          "start_date": "2016"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 3
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 39.9,
+      "dekBreedte": 22,
+      "brugLengte": 39.9,
+      "water": null,
+      "portaalhoogte": 19.8,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "L0002.9c59208409d90d71e05332a1e90a5540",
+          "klasse": "Terrain",
+          "oppervlak": 231.8,
+          "onderDek": 0,
+          "bovenDekOnderkant": 1.34,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "L0002.9c59208409be0d71e05332a1e90a5540",
+          "klasse": "Terrain",
+          "oppervlak": 28,
+          "onderDek": 0.43,
+          "bovenDekOnderkant": 0.57,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "L0002.9c59208409c20d71e05332a1e90a5540",
+          "klasse": "Terrain",
+          "oppervlak": 25.1,
+          "onderDek": 0.52,
+          "bovenDekOnderkant": 0.3,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        50.621,
+        49.907
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "3 PDOK-vorm(en) door het dek: 0 verborgen, 3 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

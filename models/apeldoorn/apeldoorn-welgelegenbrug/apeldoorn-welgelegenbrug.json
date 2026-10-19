@@ -1,0 +1,182 @@
+{
+  "name": "Welgelegenbrug",
+  "file": "apeldoorn-welgelegenbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    195209.26,
+    469484.46
+  ],
+  "xAxis": [
+    -0.981914,
+    -0.189325
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 57.678,
+  "groundSamplePoints": [
+    [
+      -40.4,
+      0
+    ],
+    [
+      40.4,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0200.4e118d400bc602cee0530a0a2849f0b0"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        195209.26,
+        469484.46
+      ],
+      "axis": [
+        -0.981914,
+        -0.189325
+      ],
+      "halfLength": 14.4,
+      "halfWidth": 10.78,
+      "height": 56.916,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -2.05,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        195241.07,
+        469490.59
+      ],
+      "axis": [
+        0.981914,
+        0.189325
+      ],
+      "halfLength": 12,
+      "halfWidth": 12.28,
+      "height": 57.947,
+      "gradient": [
+        -0.02243,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        195177.44,
+        469478.32
+      ],
+      "axis": [
+        -0.981914,
+        -0.189325
+      ],
+      "halfLength": 12,
+      "halfWidth": 12.28,
+      "height": 58.066,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0200.4e118d400bc602cee0530a0a2849f0b0"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0200.4e118d400bc602cee0530a0a2849f0b0",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/693733447",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "yes",
+          "foot": "use_sidepath",
+          "highway": "tertiary",
+          "lanes": "3",
+          "lanes:backward": "1",
+          "lanes:forward": "2",
+          "layer": "1",
+          "maxspeed": "50",
+          "maxweight": "2.5",
+          "mofa": "use_sidepath",
+          "name": "Welgelegenbrug",
+          "sidewalk:both": "separate",
+          "surface": "asphalt",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 180000,460000,200000,480000 --run nl-9_8 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 40.8,
+      "dekBreedte": 20.6,
+      "brugLengte": 40.8,
+      "water": [
+        -9.9,
+        7.1
+      ],
+      "portaalhoogte": 18.5,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0200.42b3d391bc1e0268e0530a0a28492340",
+          "klasse": "Forest",
+          "oppervlak": 190.8,
+          "onderDek": 0.58,
+          "bovenDekOnderkant": 1.05,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0200.42b3d39203730268e0530a0a28492340",
+          "klasse": "Forest",
+          "oppervlak": 118.6,
+          "onderDek": 0.41,
+          "bovenDekOnderkant": 1.04,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0200.42b3d39299bb0268e0530a0a28492340",
+          "klasse": "Terrain",
+          "oppervlak": 10.3,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.99,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        57.678,
+        57.916
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "3 PDOK-vorm(en) door het dek: 0 verborgen, 3 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}
