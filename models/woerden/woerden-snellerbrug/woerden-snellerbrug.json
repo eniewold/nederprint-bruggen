@@ -1,0 +1,137 @@
+{
+  "name": "Snellerbrug",
+  "file": "woerden-snellerbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    120997.95,
+    455523.38
+  ],
+  "xAxis": [
+    -0.746797,
+    0.665052
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 45.251,
+  "groundSamplePoints": [
+    [
+      -12.04,
+      0
+    ],
+    [
+      12.04,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0632.9bffb64d30c94e4d9f59cd066f831286"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        121006.12,
+        455516.1
+      ],
+      "axis": [
+        0.746797,
+        -0.665052
+      ],
+      "halfLength": 5.47,
+      "halfWidth": 9.93,
+      "height": 45.481,
+      "gradient": [
+        -0.042,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        120989.78,
+        455530.66
+      ],
+      "axis": [
+        -0.746797,
+        0.665052
+      ],
+      "halfLength": 5.47,
+      "halfWidth": 9.93,
+      "height": 45.561,
+      "gradient": [
+        -0.02742,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0632.9bffb64d30c94e4d9f59cd066f831286"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0632.9bffb64d30c94e4d9f59cd066f831286",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/707311479",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "yes",
+          "foot": "no",
+          "highway": "secondary",
+          "lanes": "3",
+          "lanes:backward": "1",
+          "lanes:forward": "2",
+          "layer": "1",
+          "maxspeed": "50",
+          "name": "Snellerbrug",
+          "oneway": "no",
+          "placement:forward": "left_of:1",
+          "surface": "asphalt",
+          "turn:lanes:forward": "through|right",
+          "zone:traffic": "NL:urban",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,440000,140000,460000 --run nl-6_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 10.9,
+      "dekBreedte": 15.9,
+      "brugLengte": 10.9,
+      "water": [
+        -5,
+        5
+      ],
+      "portaalhoogte": 14.3,
+      "opritafstand": [
+        6.6,
+        6.6
+      ],
+      "oprithelling": 10.9,
+      "doorstekend": [],
+      "opritHoogtes": [
+        45.251,
+        45.411
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

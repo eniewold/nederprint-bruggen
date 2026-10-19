@@ -1,0 +1,141 @@
+{
+  "name": "Hofbrug",
+  "file": "harmelen-hofbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    125068.8,
+    456131.19
+  ],
+  "xAxis": [
+    0.640655,
+    0.767829
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 44.608,
+  "groundSamplePoints": [
+    [
+      -10.92,
+      0
+    ],
+    [
+      15.06,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0632.02683be6ee0b4db7a8a2d0d8b4695a80",
+    "G0632.df2940e6078b4c768b2454caba5f8dc9",
+    "G0632.a7c94d8384b244649e3bc7ded9e3ca74",
+    "G0632.6a92cd4655054d44bbb5399a3eea55a9"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        125062.56,
+        456123.7
+      ],
+      "axis": [
+        -0.640655,
+        -0.767829
+      ],
+      "halfLength": 5.9,
+      "halfWidth": 9.24,
+      "height": 44.761,
+      "gradient": [
+        -0.02576,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        125077.69,
+        456141.84
+      ],
+      "axis": [
+        0.640655,
+        0.767829
+      ],
+      "halfLength": 5.9,
+      "halfWidth": 9.24,
+      "height": 44.763,
+      "gradient": [
+        -0.0254,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0632.a7c94d8384b244649e3bc7ded9e3ca74"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0632.02683be6ee0b4db7a8a2d0d8b4695a80",
+          "type": "pijler"
+        },
+        {
+          "id": "G0632.df2940e6078b4c768b2454caba5f8dc9",
+          "type": "pijler"
+        },
+        {
+          "id": "G0632.a7c94d8384b244649e3bc7ded9e3ca74",
+          "type": "dek"
+        },
+        {
+          "id": "G0632.6a92cd4655054d44bbb5399a3eea55a9",
+          "type": "landhoofd"
+        }
+      ],
+      "osm": {
+        "id": "way/379815226",
+        "tags": {
+          "bridge": "movable",
+          "bridge:movable": "bascule",
+          "layer": "1",
+          "man_made": "bridge",
+          "name": "Hofbrug"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 4
+    },
+    "type": "basculebrug",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,440000,140000,460000 --run nl-6_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 7.3,
+      "dekBreedte": 14.5,
+      "brugLengte": 11.8,
+      "water": [
+        -3.3,
+        3.2
+      ],
+      "portaalhoogte": 13,
+      "opritafstand": [
+        7.1,
+        7.1
+      ],
+      "oprithelling": 11.8,
+      "doorstekend": [],
+      "opritHoogtes": [
+        44.608,
+        44.613
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen FIS-brug binnen 35 m"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

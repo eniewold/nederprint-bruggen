@@ -1,0 +1,136 @@
+{
+  "name": "IJsselbrug",
+  "file": "montfoort-ijsselbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    124865.92,
+    450962.57
+  ],
+  "xAxis": [
+    0.865464,
+    0.500971
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 45.812,
+  "groundSamplePoints": [
+    [
+      -6.73,
+      0
+    ],
+    [
+      6.73,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0335.2144bd27d30942d78c964f71caef4d3d"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        124860.96,
+        450959.7
+      ],
+      "axis": [
+        -0.865464,
+        -0.500971
+      ],
+      "halfLength": 3,
+      "halfWidth": 2.7,
+      "height": 46.16,
+      "gradient": [
+        -0.11588,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        124870.88,
+        450965.44
+      ],
+      "axis": [
+        0.865464,
+        0.500971
+      ],
+      "halfLength": 3,
+      "halfWidth": 2.7,
+      "height": 46.357,
+      "gradient": [
+        -0.05,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0335.2144bd27d30942d78c964f71caef4d3d"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0335.2144bd27d30942d78c964f71caef4d3d",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1563054176",
+        "tags": {
+          "bridge": "yes",
+          "highway": "residential",
+          "layer": "1",
+          "maxaxleload": "7",
+          "maxspeed": "30",
+          "maxweight": "30",
+          "name": "IJsselkade",
+          "surface": "asphalt",
+          "man_made": "bridge",
+          "bridge:movable": "swing"
+        }
+      },
+      "fis": {
+        "id": 51363,
+        "naam": "Ijsselbrug Montfoort",
+        "afstand": 28,
+        "beweegbaar": true,
+        "doorvaarthoogteGesloten": 1.13
+      },
+      "pdokBridgeVlakken": 1
+    },
+    "type": "draaibrug",
+    "doorvaarthoogte": 1.13,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,440000,140000,460000 --run nl-6_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 5.5,
+      "dekBreedte": 3.6,
+      "brugLengte": 5.5,
+      "water": [
+        -2.2,
+        2.3
+      ],
+      "portaalhoogte": 3.2,
+      "opritafstand": [
+        4,
+        4
+      ],
+      "oprithelling": 6,
+      "doorstekend": [],
+      "opritHoogtes": [
+        45.812,
+        46.207
+      ]
+    },
+    "waarschuwingen": [
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

@@ -1,0 +1,189 @@
+{
+  "name": "Wulverhorstbaan",
+  "file": "woerden-brug-df663444.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    121510.97,
+    454337.33
+  ],
+  "xAxis": [
+    -0.894177,
+    -0.447713
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 45.524,
+  "groundSamplePoints": [
+    [
+      -39.87,
+      0
+    ],
+    [
+      39.87,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0632.df6634445a8646a1945b6446cb40fc8a",
+    "G0632.38345bf7d958495ba51c1662b079fc8b",
+    "G0632.7411e536f34e49278074ffbb5f37f150",
+    "W0636.97254a8ca4b743e7a13dabf557ca181a"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        121510.97,
+        454337.33
+      ],
+      "axis": [
+        -0.894177,
+        -0.447713
+      ],
+      "halfLength": 13.87,
+      "halfWidth": 14.86,
+      "height": 44.568,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.65,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        121539.47,
+        454351.6
+      ],
+      "axis": [
+        0.894177,
+        0.447713
+      ],
+      "halfLength": 12,
+      "halfWidth": 16.36,
+      "height": 45.696,
+      "gradient": [
+        -0.01435,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        121482.47,
+        454323.06
+      ],
+      "axis": [
+        -0.894177,
+        -0.447713
+      ],
+      "halfLength": 12,
+      "halfWidth": 16.36,
+      "height": 45.718,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0632.df6634445a8646a1945b6446cb40fc8a"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0632.df6634445a8646a1945b6446cb40fc8a",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/362443371",
+        "tags": {
+          "bicycle": "no",
+          "bridge": "yes",
+          "foot": "no",
+          "highway": "secondary",
+          "lanes": "2",
+          "layer": "1",
+          "maxspeed": "50",
+          "name": "Wulverhorstbaan",
+          "oneway": "yes",
+          "turn:lanes": "through|right",
+          "zone:traffic": "NL:urban",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,440000,140000,460000 --run nl-6_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 39.7,
+      "dekBreedte": 28.7,
+      "brugLengte": 39.7,
+      "water": [
+        -7.4,
+        7.1
+      ],
+      "portaalhoogte": 25.9,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0632.38345bf7d958495ba51c1662b079fc8b",
+          "klasse": "Terrain",
+          "oppervlak": 161.7,
+          "onderDek": 0.82,
+          "bovenDekOnderkant": 0.74,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "G0632.7d150d86f11b47eaa835ccd04c8f8332",
+          "klasse": "Forest",
+          "oppervlak": 155.1,
+          "onderDek": 0.02,
+          "bovenDekOnderkant": 0.65,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0632.7411e536f34e49278074ffbb5f37f150",
+          "klasse": "Forest",
+          "oppervlak": 177.7,
+          "onderDek": 1,
+          "bovenDekOnderkant": 0.63,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "W0636.97254a8ca4b743e7a13dabf557ca181a",
+          "klasse": "Terrain",
+          "oppervlak": 55.3,
+          "onderDek": 1,
+          "bovenDekOnderkant": 0.09,
+          "actie": "verbergen"
+        }
+      ],
+      "opritHoogtes": [
+        45.524,
+        45.568
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "4 PDOK-vorm(en) door het dek: 3 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}
