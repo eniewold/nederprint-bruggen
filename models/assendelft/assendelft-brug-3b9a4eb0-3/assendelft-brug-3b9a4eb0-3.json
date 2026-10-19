@@ -1,0 +1,170 @@
+{
+  "name": "Andoorn",
+  "file": "assendelft-brug-3b9a4eb0-3.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    111122.8,
+    501436.92
+  ],
+  "xAxis": [
+    -0.366848,
+    0.930281
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 41.904,
+  "groundSamplePoints": [
+    [
+      -17.07,
+      0
+    ],
+    [
+      17.07,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0479.3b9a4eb081f77390e063a140320abcf6"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        111122.8,
+        501436.92
+      ],
+      "axis": [
+        -0.366848,
+        0.930281
+      ],
+      "halfLength": 3.88,
+      "halfWidth": 4.68,
+      "height": 40.933,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.68,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        111128.49,
+        501422.48
+      ],
+      "axis": [
+        0.366848,
+        -0.930281
+      ],
+      "halfLength": 7.76,
+      "halfWidth": 6.18,
+      "height": 42.083,
+      "gradient": [
+        -0.01934,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        111117.11,
+        501451.35
+      ],
+      "axis": [
+        -0.366848,
+        0.930281
+      ],
+      "halfLength": 7.76,
+      "halfWidth": 6.18,
+      "height": 42.069,
+      "gradient": [
+        -0.02122,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0479.3b9a4eb081f77390e063a140320abcf6"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0479.3b9a4eb081f77390e063a140320abcf6",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1084079176",
+        "tags": {
+          "bridge": "yes",
+          "highway": "residential",
+          "layer": "1",
+          "name": "Andoorn",
+          "zone:traffic": "NL:urban"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,500000,120000,520000 --run nl-5_10 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 15.5,
+      "dekBreedte": 8.4,
+      "brugLengte": 15.5,
+      "water": [
+        -3.8,
+        3.7
+      ],
+      "portaalhoogte": 7.5,
+      "opritafstand": [
+        9.3,
+        9.3
+      ],
+      "oprithelling": 15.5,
+      "doorstekend": [
+        {
+          "gmlId": "G0479.3b9a4eb081e77390e063a140320abcf6",
+          "klasse": "Separation",
+          "oppervlak": 1,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.68,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0479.3b9a4eb081e67390e063a140320abcf6",
+          "klasse": "Separation",
+          "oppervlak": 1,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.67,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0479.bd30a5dab75b01d2e053ac100113bfb3",
+          "klasse": "Terrain",
+          "oppervlak": 51264.4,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.65,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        41.933,
+        41.904
+      ]
+    },
+    "waarschuwingen": [
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "3 PDOK-vorm(en) door het dek: 0 verborgen, 3 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

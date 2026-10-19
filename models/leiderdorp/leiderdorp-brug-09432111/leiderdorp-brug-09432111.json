@@ -1,0 +1,164 @@
+{
+  "name": "leiderdorp-brug-09432111",
+  "file": "leiderdorp-brug-09432111.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    98806.44,
+    461972.87
+  ],
+  "xAxis": [
+    0.92104,
+    -0.389468
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 42.092,
+  "groundSamplePoints": [
+    [
+      -5.51,
+      0
+    ],
+    [
+      5.51,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0547.094321111e09496a90c76229a80e4fe7"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        98806.44,
+        461972.87
+      ],
+      "axis": [
+        0.92104,
+        -0.389468
+      ],
+      "halfLength": 0.76,
+      "halfWidth": 2.4,
+      "height": 41.336,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.47,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        98802.28,
+        461974.63
+      ],
+      "axis": [
+        -0.92104,
+        0.389468
+      ],
+      "halfLength": 3,
+      "halfWidth": 2.85,
+      "height": 42.486,
+      "gradient": [
+        -0.05,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        98810.59,
+        461971.11
+      ],
+      "axis": [
+        0.92104,
+        -0.389468
+      ],
+      "halfLength": 3,
+      "halfWidth": 2.85,
+      "height": 42.364,
+      "gradient": [
+        -0.09075,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0547.094321111e09496a90c76229a80e4fe7"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0547.094321111e09496a90c76229a80e4fe7",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1025962886",
+        "tags": {
+          "access": "private",
+          "bridge": "yes",
+          "highway": "track",
+          "layer": "1",
+          "tracktype": "grade1",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,460000,100000,480000 --run nl-4_8 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 3,
+      "dekBreedte": 3.8,
+      "brugLengte": 3,
+      "water": [
+        0,
+        0.5
+      ],
+      "portaalhoogte": 3.4,
+      "opritafstand": [
+        4,
+        4
+      ],
+      "oprithelling": 6,
+      "doorstekend": [
+        {
+          "gmlId": "W0616.ac3512fcf29f45a49288c7d470bd2152",
+          "klasse": "Terrain",
+          "oppervlak": 9.6,
+          "onderDek": 0.22,
+          "bovenDekOnderkant": 0.47,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "W0616.e9540ee9bd664033a5c58b313affec1c",
+          "klasse": "Terrain",
+          "oppervlak": 9.6,
+          "onderDek": 0.01,
+          "bovenDekOnderkant": 0.32,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        42.336,
+        42.092
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "name": "Rosbayerweg",
+  "file": "wormerveer-brug-2881cdff-6.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    114473.55,
+    502058.28
+  ],
+  "xAxis": [
+    0.200337,
+    0.979727
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 42.91,
+  "groundSamplePoints": [
+    [
+      -9.86,
+      0
+    ],
+    [
+      9.86,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0479.2881cdff64180054e0530a3243018c29"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        114471.75,
+        502049.5
+      ],
+      "axis": [
+        -0.200337,
+        -0.979727
+      ],
+      "halfLength": 4.48,
+      "halfWidth": 8.01,
+      "height": 43.138,
+      "gradient": [
+        -0.03348,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        114475.34,
+        502067.06
+      ],
+      "axis": [
+        0.200337,
+        0.979727
+      ],
+      "halfLength": 4.48,
+      "halfWidth": 8.01,
+      "height": 43.099,
+      "gradient": [
+        -0.04228,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0479.2881cdff64180054e0530a3243018c29"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0479.2881cdff64180054e0530a3243018c29",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/40394333",
+        "tags": {
+          "bridge": "yes",
+          "cycleway": "shared_lane",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxspeed": "50",
+          "name": "Rosbayerweg",
+          "zone:traffic": "NL:urban"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,500000,120000,520000 --run nl-5_10 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 9,
+      "dekBreedte": 12,
+      "brugLengte": 9,
+      "water": [
+        -3,
+        3
+      ],
+      "portaalhoogte": 10.8,
+      "opritafstand": [
+        5.4,
+        5.4
+      ],
+      "oprithelling": 9,
+      "doorstekend": [],
+      "opritHoogtes": [
+        42.988,
+        42.91
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "name": "schiedam-brug-0906542e-4",
+  "file": "schiedam-brug-0906542e-4.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    84528.4,
+    440957.59
+  ],
+  "xAxis": [
+    -0.443228,
+    0.896409
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 40.669,
+  "groundSamplePoints": [
+    [
+      -6.26,
+      0
+    ],
+    [
+      6.26,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0606.0906542e1093452fe0632e00010af753"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        84528.4,
+        440957.59
+      ],
+      "axis": [
+        -0.443228,
+        0.896409
+      ],
+      "halfLength": 1.13,
+      "halfWidth": 2.92,
+      "height": 39.724,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.62,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        84530.73,
+        440952.87
+      ],
+      "axis": [
+        0.443228,
+        -0.896409
+      ],
+      "halfLength": 3,
+      "halfWidth": 3.63,
+      "height": 40.847,
+      "gradient": [
+        -0.0592,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        84526.07,
+        440962.3
+      ],
+      "axis": [
+        -0.443228,
+        0.896409
+      ],
+      "halfLength": 3,
+      "halfWidth": 3.63,
+      "height": 40.874,
+      "gradient": [
+        -0.05,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0606.0906542e1093452fe0632e00010af753"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0606.0906542e1093452fe0632e00010af753",
+          "type": "dek"
+        }
+      ],
+      "osm": null,
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,440000,100000,460000 --run nl-4_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 4.5,
+      "dekBreedte": 4.8,
+      "brugLengte": 4.5,
+      "water": [
+        -0.8,
+        0.7
+      ],
+      "portaalhoogte": 4.4,
+      "opritafstand": [
+        4,
+        4
+      ],
+      "oprithelling": 6,
+      "doorstekend": [
+        {
+          "gmlId": "G0606.2b68b31b2f4e7498e0530200010aefaa",
+          "klasse": "Terrain",
+          "oppervlak": 89.2,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.62,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0606.2b68b31ae2b17498e0530200010aefaa",
+          "klasse": "Terrain",
+          "oppervlak": 68.9,
+          "onderDek": 0.01,
+          "bovenDekOnderkant": 0.6,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        40.669,
+        40.724
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

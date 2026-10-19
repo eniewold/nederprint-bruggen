@@ -1,0 +1,135 @@
+{
+  "name": "Maasbrug bij Heumen",
+  "file": "heumen-maasbrug-bij-heumen.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    186124.72,
+    419135.86
+  ],
+  "xAxis": [
+    -0.140883,
+    0.990026
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 60.407,
+  "groundSamplePoints": [
+    [
+      -368.44,
+      0
+    ],
+    [
+      368.44,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "L0002.60a1804e97d247e2808a8f3e1d42168e",
+    "L0002.94fda0e4b0114ebdb7051cb984d86402"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        186175.5,
+        418779.01
+      ],
+      "axis": [
+        0.140883,
+        -0.990026
+      ],
+      "halfLength": 12,
+      "halfWidth": 22.42,
+      "height": 64.161,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        186073.94,
+        419492.7
+      ],
+      "axis": [
+        -0.140883,
+        0.990026
+      ],
+      "halfLength": 12,
+      "halfWidth": 22.42,
+      "height": 62.359,
+      "gradient": [
+        -0.16266,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "L0002.60a1804e97d247e2808a8f3e1d42168e"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "L0002.60a1804e97d247e2808a8f3e1d42168e",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/692758661",
+        "tags": {
+          "bridge:material": "concrete",
+          "bridge:structure": "beam",
+          "layer": "1",
+          "man_made": "bridge",
+          "name": "Maasbrug bij Heumen",
+          "start_date": "1986"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 180000,400000,200000,420000 --run nl-9_5 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 696.9,
+      "dekBreedte": 40.8,
+      "brugLengte": 696.9,
+      "water": null,
+      "portaalhoogte": 36.8,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "L0002.94fda0e4b0114ebdb7051cb984d86402",
+          "klasse": "Terrain",
+          "oppervlak": 293.8,
+          "onderDek": 0.74,
+          "bovenDekOnderkant": 0.69,
+          "actie": "verbergen"
+        }
+      ],
+      "opritHoogtes": [
+        64.011,
+        60.407
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "1 PDOK-vorm(en) door het dek: 1 verborgen, 0 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

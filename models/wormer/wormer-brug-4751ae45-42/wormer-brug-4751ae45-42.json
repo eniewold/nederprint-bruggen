@@ -1,0 +1,138 @@
+{
+  "name": "De Hofstee",
+  "file": "wormer-brug-4751ae45-42.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    115412.82,
+    501673.48
+  ],
+  "xAxis": [
+    0.905363,
+    -0.424638
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 42.066,
+  "groundSamplePoints": [
+    [
+      -7.08,
+      0
+    ],
+    [
+      7.08,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0880.4751ae455c2c52b5e05332a1e90ac06a",
+    "G0880.4751ae458e6252b5e05332a1e90ac06a"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        115407.25,
+        501676.09
+      ],
+      "axis": [
+        -0.905363,
+        0.424638
+      ],
+      "halfLength": 3.08,
+      "halfWidth": 5.14,
+      "height": 42.449,
+      "gradient": [
+        -0.04877,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        115418.39,
+        501670.86
+      ],
+      "axis": [
+        0.905363,
+        -0.424638
+      ],
+      "halfLength": 3.08,
+      "halfWidth": 5.14,
+      "height": 42.332,
+      "gradient": [
+        -0.08653,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0880.4751ae455c2c52b5e05332a1e90ac06a"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0880.4751ae455c2c52b5e05332a1e90ac06a",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/201178336",
+        "tags": {
+          "bridge": "yes",
+          "highway": "residential",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "De Hofstee",
+          "zone:traffic": "NL:urban"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,500000,120000,520000 --run nl-5_10 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 6.2,
+      "dekBreedte": 6.9,
+      "brugLengte": 6.2,
+      "water": [
+        -2.6,
+        2.4
+      ],
+      "portaalhoogte": 6.2,
+      "opritafstand": [
+        4,
+        4
+      ],
+      "oprithelling": 6.2,
+      "doorstekend": [
+        {
+          "gmlId": "G0880.4751ae458e6252b5e05332a1e90ac06a",
+          "klasse": "Terrain",
+          "oppervlak": 5.4,
+          "onderDek": 0.71,
+          "bovenDekOnderkant": 0.6,
+          "actie": "verbergen"
+        }
+      ],
+      "opritHoogtes": [
+        42.299,
+        42.066
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "1 PDOK-vorm(en) door het dek: 1 verborgen, 0 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

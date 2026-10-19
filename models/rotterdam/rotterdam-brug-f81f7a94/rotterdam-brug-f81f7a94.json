@@ -1,0 +1,179 @@
+{
+  "name": "Erasmussingelbrug",
+  "file": "rotterdam-brug-f81f7a94.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    91928.11,
+    440196.2
+  ],
+  "xAxis": [
+    -0.85273,
+    0.522353
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 40.294,
+  "groundSamplePoints": [
+    [
+      -5.23,
+      0
+    ],
+    [
+      5.23,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0599.f81f7a9422964f62a1e316cc5eda30c3",
+    "G0599.170caf1ddae6ff2eae050210a7e24745"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        91928.11,
+        440196.2
+      ],
+      "axis": [
+        -0.85273,
+        0.522353
+      ],
+      "halfLength": 0.62,
+      "halfWidth": 2.78,
+      "height": 39.513,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.65,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        91931.71,
+        440193.99
+      ],
+      "axis": [
+        0.85273,
+        -0.522353
+      ],
+      "halfLength": 3,
+      "halfWidth": 3.42,
+      "height": 40.663,
+      "gradient": [
+        -0.05,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        91924.5,
+        440198.41
+      ],
+      "axis": [
+        -0.85273,
+        0.522353
+      ],
+      "halfLength": 3,
+      "halfWidth": 3.42,
+      "height": 40.554,
+      "gradient": [
+        -0.08637,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0599.f81f7a9422964f62a1e316cc5eda30c3"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0599.f81f7a9422964f62a1e316cc5eda30c3",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/512577406",
+        "tags": {
+          "bicycle": "yes",
+          "bridge": "yes",
+          "bridge:name": "Erasmussingelbrug",
+          "highway": "footway",
+          "layer": "1",
+          "name": "Erasmussingelbrug",
+          "segregated": "no"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 0
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,440000,100000,460000 --run nl-4_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 2.5,
+      "dekBreedte": 4.6,
+      "brugLengte": 2.5,
+      "water": null,
+      "portaalhoogte": 4.1,
+      "opritafstand": [
+        4,
+        4
+      ],
+      "oprithelling": 6,
+      "doorstekend": [
+        {
+          "gmlId": "G0599.170caf1ddae6ef2eae050210a7e24745",
+          "klasse": "Terrain",
+          "oppervlak": 1.9,
+          "onderDek": 0.62,
+          "bovenDekOnderkant": 0.65,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0599.170ade244f70c2d73e050210a7e24429",
+          "klasse": "Road",
+          "oppervlak": 186.7,
+          "onderDek": 0.04,
+          "bovenDekOnderkant": 0.62,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0599.170caf1ddae6ff2eae050210a7e24745",
+          "klasse": "Terrain",
+          "oppervlak": 2.2,
+          "onderDek": 0.87,
+          "bovenDekOnderkant": 0.61,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "G0599.16fca6c88ca2e6560e050210a7e247d7",
+          "klasse": "Forest",
+          "oppervlak": 1069,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.52,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        40.513,
+        40.294
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "4 PDOK-vorm(en) door het dek: 1 verborgen, 3 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

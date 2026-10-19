@@ -1,0 +1,163 @@
+{
+  "name": "Sluisstraat",
+  "file": "oostknollendam-brug-4751ae45-33.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    114558.46,
+    503579.87
+  ],
+  "xAxis": [
+    -0.97448,
+    -0.224474
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 42.252,
+  "groundSamplePoints": [
+    [
+      -9.11,
+      0
+    ],
+    [
+      9.11,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0880.4751ae45c27652b5e05332a1e90ac06a"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        114558.46,
+        503579.87
+      ],
+      "axis": [
+        -0.97448,
+        -0.224474
+      ],
+      "halfLength": 2.07,
+      "halfWidth": 2.13,
+      "height": 41.8,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.32,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        114566.53,
+        503581.73
+      ],
+      "axis": [
+        0.97448,
+        0.224474
+      ],
+      "halfLength": 4.14,
+      "halfWidth": 2.45,
+      "height": 42.676,
+      "gradient": [
+        -0.1023,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        114550.39,
+        503578.01
+      ],
+      "axis": [
+        -0.97448,
+        -0.224474
+      ],
+      "halfLength": 4.14,
+      "halfWidth": 2.45,
+      "height": 42.95,
+      "gradient": [
+        -0.03622,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0880.4751ae45c27652b5e05332a1e90ac06a"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0880.4751ae45c27652b5e05332a1e90ac06a",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/423767075",
+        "tags": {
+          "bridge": "yes",
+          "highway": "residential",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Sluisstraat",
+          "zone:traffic": "NL:urban"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,500000,120000,520000 --run nl-5_10 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 8.3,
+      "dekBreedte": 3.3,
+      "brugLengte": 8.3,
+      "water": [
+        -2.1,
+        2.9
+      ],
+      "portaalhoogte": 2.9,
+      "opritafstand": [
+        5,
+        5
+      ],
+      "oprithelling": 8.3,
+      "doorstekend": [
+        {
+          "gmlId": "G0880.4751ae459cac52b5e05332a1e90ac06a",
+          "klasse": "Terrain",
+          "oppervlak": 1063.3,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.32,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0880.94189e09512d43f6a80676c92f493aad",
+          "klasse": "Road",
+          "oppervlak": 152.3,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.32,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        42.252,
+        42.8
+      ]
+    },
+    "waarschuwingen": [
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

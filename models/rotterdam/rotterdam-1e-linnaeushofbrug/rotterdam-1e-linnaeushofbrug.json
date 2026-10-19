@@ -1,0 +1,165 @@
+{
+  "name": "1e Linnaeushofbrug",
+  "file": "rotterdam-1e-linnaeushofbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    90354.24,
+    440132.56
+  ],
+  "xAxis": [
+    0.904711,
+    0.426025
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 38.728,
+  "groundSamplePoints": [
+    [
+      -13.28,
+      0
+    ],
+    [
+      13.28,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0599.16fd0171149eccac9e050210a7e24119"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        90354.24,
+        440132.56
+      ],
+      "axis": [
+        0.904711,
+        0.426025
+      ],
+      "halfLength": 3.02,
+      "halfWidth": 3.37,
+      "height": 37.753,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.53,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        90343.31,
+        440127.42
+      ],
+      "axis": [
+        -0.904711,
+        -0.426025
+      ],
+      "halfLength": 6.04,
+      "halfWidth": 4.31,
+      "height": 38.903,
+      "gradient": [
+        -0.02485,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        90365.16,
+        440137.7
+      ],
+      "axis": [
+        0.904711,
+        0.426025
+      ],
+      "halfLength": 6.04,
+      "halfWidth": 4.31,
+      "height": 38.891,
+      "gradient": [
+        -0.02693,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0599.16fd0171149eccac9e050210a7e24119"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0599.16fd0171149eccac9e050210a7e24119",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/696601912",
+        "tags": {
+          "bridge": "yes",
+          "highway": "residential",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "1e Linnaeushofbrug",
+          "zone:traffic": "NL:urban",
+          "man_made": "bridge",
+          "wikidata": "Q118130694"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,440000,100000,460000 --run nl-4_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 12.1,
+      "dekBreedte": 5.7,
+      "brugLengte": 12.1,
+      "water": [
+        -1.5,
+        2.5
+      ],
+      "portaalhoogte": 5.2,
+      "opritafstand": [
+        7.2,
+        7.2
+      ],
+      "oprithelling": 12.1,
+      "doorstekend": [
+        {
+          "gmlId": "G0599.2c4e165cb02e481ba6d773794f5f7962",
+          "klasse": "Terrain",
+          "oppervlak": 11.6,
+          "onderDek": 0.57,
+          "bovenDekOnderkant": 0.53,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0599.333fff2563f24342ad14d08dea81d299",
+          "klasse": "Terrain",
+          "oppervlak": 11.5,
+          "onderDek": 0.13,
+          "bovenDekOnderkant": 0.26,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        38.753,
+        38.728
+      ]
+    },
+    "waarschuwingen": [
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

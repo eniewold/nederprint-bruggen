@@ -1,0 +1,133 @@
+{
+  "name": "Straatweg",
+  "file": "rotterdam-brug-16fd0171-35.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    93034.91,
+    440348.06
+  ],
+  "xAxis": [
+    0.556979,
+    0.830527
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 41.225,
+  "groundSamplePoints": [
+    [
+      -12.16,
+      1.72
+    ],
+    [
+      12.16,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0599.16fd0171146e9cac9e050210a7e24119"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        93032.03,
+        440343.78
+      ],
+      "axis": [
+        -0.556979,
+        -0.830527
+      ],
+      "halfLength": 3,
+      "halfWidth": 12.71,
+      "height": 43.138,
+      "gradient": [
+        -0.05,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        93037.78,
+        440352.35
+      ],
+      "axis": [
+        0.556979,
+        0.830527
+      ],
+      "halfLength": 3,
+      "halfWidth": 12.71,
+      "height": 42.256,
+      "gradient": [
+        -0.34383,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0599.16fd0171146e9cac9e050210a7e24119"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0599.16fd0171146e9cac9e050210a7e24119",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1054356393",
+        "tags": {
+          "bridge": "yes",
+          "cycleway": "lane",
+          "cycleway:lane": "advisory",
+          "embedded_rails": "tram",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "50",
+          "name": "Straatweg",
+          "surface": "asphalt",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,440000,100000,460000 --run nl-4_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 4.3,
+      "dekBreedte": 21.4,
+      "brugLengte": 4.3,
+      "water": [
+        -1.7,
+        1.8
+      ],
+      "portaalhoogte": 19.3,
+      "opritafstand": [
+        10,
+        10
+      ],
+      "spoorhoogteBron": "pdok",
+      "oprithelling": 6,
+      "doorstekend": [],
+      "opritHoogtes": [
+        42.988,
+        41.225
+      ]
+    },
+    "waarschuwingen": [
+      "oprit -: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "oprit +: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

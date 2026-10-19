@@ -1,0 +1,146 @@
+{
+  "name": "Duits Lijntje",
+  "file": "ottersum-brug-749f3ef4.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    199456.74,
+    411131.46
+  ],
+  "xAxis": [
+    0.998997,
+    -0.044778
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 58.136,
+  "groundSamplePoints": [
+    [
+      -19.48,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0907.749f3ef45b8640cc88915700e6751295"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        199456.74,
+        411131.46
+      ],
+      "axis": [
+        0.998997,
+        -0.044778
+      ],
+      "halfLength": 4.43,
+      "halfWidth": 1.63,
+      "height": 57.136,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.67,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        199439.05,
+        411132.26
+      ],
+      "axis": [
+        -0.998997,
+        0.044778
+      ],
+      "halfLength": 8.85,
+      "halfWidth": 1.69,
+      "height": 58.286,
+      "gradient": [
+        -0.01694,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0907.749f3ef45b8640cc88915700e6751295"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0907.749f3ef45b8640cc88915700e6751295",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/181329027",
+        "tags": {
+          "abandoned:railway": "rail",
+          "bridge": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "mofa": "no",
+          "moped": "no",
+          "name": "Duits Lijntje",
+          "railway": "abandoned",
+          "smoothness": "intermediate",
+          "surface": "wood",
+          "traffic_sign": "NL:G13"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 180000,400000,200000,420000 --run nl-9_5 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 17.7,
+      "dekBreedte": 2.3,
+      "brugLengte": 17.7,
+      "water": [
+        3.6,
+        5.6
+      ],
+      "portaalhoogte": 2.5,
+      "opritafstand": [
+        10.6,
+        31.9
+      ],
+      "oprithelling": 17.7,
+      "doorstekend": [
+        {
+          "gmlId": "G0907.9145e7b03a344c0dab2834ad35ab8aaa",
+          "klasse": "Terrain",
+          "oppervlak": 128.6,
+          "onderDek": 0.02,
+          "bovenDekOnderkant": 0.67,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0907.1a9a78302ca54ae6ab5215de49f1c399",
+          "klasse": "Road",
+          "oppervlak": 25.6,
+          "onderDek": 0.24,
+          "bovenDekOnderkant": 0.67,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        58.136,
+        null
+      ]
+    },
+    "waarschuwingen": [
+      "oprit + zonder PDOK-maaiveld",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

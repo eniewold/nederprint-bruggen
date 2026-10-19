@@ -1,0 +1,151 @@
+{
+  "name": "Oude Lijn",
+  "file": "schiedam-brug-2b68b31b-32.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    86243.72,
+    440400.46
+  ],
+  "xAxis": [
+    0.804079,
+    0.594523
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 41.818,
+  "groundSamplePoints": [
+    [
+      -121.64,
+      0
+    ],
+    [
+      51.64,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0606.2b68b31b0b987498e0530200010aefaa"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        86240,
+        440397.71
+      ],
+      "axis": [
+        -0.804079,
+        -0.594523
+      ],
+      "halfLength": 3,
+      "halfWidth": 4.15,
+      "height": 42.278,
+      "gradient": [
+        -0.15313,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        86247.45,
+        440403.22
+      ],
+      "axis": [
+        0.804079,
+        0.594523
+      ],
+      "halfLength": 3,
+      "halfWidth": 4.15,
+      "height": 42.587,
+      "gradient": [
+        -0.05,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0606.2b68b31b0b987498e0530200010aefaa"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0606.2b68b31b0b987498e0530200010aefaa",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/461575039",
+        "tags": {
+          "bridge": "yes",
+          "description": "Den Haag HS - Schiedam Centrum",
+          "electrified": "contact_line",
+          "frequency": "0",
+          "gauge": "1435",
+          "layer": "1",
+          "maxspeed": "140",
+          "name": "Oude Lijn",
+          "operator": "ProRail",
+          "passenger_lines": "2",
+          "railway": "rail",
+          "railway:atb": "yes",
+          "railway:maximum_current": "4000",
+          "railway:track_class": "D4",
+          "railway:traffic_mode": "passenger",
+          "ref": "112",
+          "ref:ProRailID": "2877426.0",
+          "ref:ProRailSpoortak": "539_55BR_79.2",
+          "source": "ProRail",
+          "source:date": "2014-01-03",
+          "usage": "main",
+          "voltage": "1500",
+          "wikidata": "Q801843",
+          "wikipedia": "nl:Spoorlijn Amsterdam - Rotterdam",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,440000,100000,460000 --run nl-4_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 3.3,
+      "dekBreedte": 5.5,
+      "brugLengte": 3.3,
+      "water": [
+        -1.6,
+        1.4
+      ],
+      "portaalhoogte": 5,
+      "opritafstand": [
+        120,
+        50
+      ],
+      "spoorhoogteBron": "pdok",
+      "oprithelling": 6,
+      "doorstekend": [],
+      "opritHoogtes": [
+        41.818,
+        42.437
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "oprit -: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "oprit - pas op 120 m langs het spoor gemeten (PDOK-spoorterrein bij de brug lager)",
+      "oprit +: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "oprit + pas op 50 m langs het spoor gemeten (PDOK-spoorterrein bij de brug lager)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

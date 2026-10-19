@@ -1,0 +1,190 @@
+{
+  "name": "Hofpleinlijn",
+  "file": "rotterdam-brug-16fd0171-11.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    91570.57,
+    440404.67
+  ],
+  "xAxis": [
+    0.343269,
+    -0.939237
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 43.023,
+  "groundSamplePoints": [
+    [
+      -58.5,
+      -2.09
+    ],
+    [
+      58.5,
+      2.08
+    ]
+  ],
+  "replacesTerrain": [
+    "G0599.16fd017115a8fcac9e050210a7e24119",
+    "G0599.16fd017115aa5cac9e050210a7e24119",
+    "G0599.16fd017115a90cac9e050210a7e24119"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        91570.57,
+        440404.67
+      ],
+      "axis": [
+        0.343269,
+        -0.939237
+      ],
+      "halfLength": 42.5,
+      "halfWidth": 8.04,
+      "height": 42.172,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.87,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        91549.8,
+        440461.5
+      ],
+      "axis": [
+        -0.343269,
+        0.939237
+      ],
+      "halfLength": 12,
+      "halfWidth": 9.54,
+      "height": 43.322,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        91591.33,
+        440347.84
+      ],
+      "axis": [
+        0.343269,
+        -0.939237
+      ],
+      "halfLength": 12,
+      "halfWidth": 9.54,
+      "height": 43.248,
+      "gradient": [
+        -0.0187,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0599.16fd017115aa5cac9e050210a7e24119"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0599.16fd017115a8fcac9e050210a7e24119",
+          "type": "sloof"
+        },
+        {
+          "id": "G0599.16fd017115aa5cac9e050210a7e24119",
+          "type": "dek"
+        },
+        {
+          "id": "G0599.16fd017115a90cac9e050210a7e24119",
+          "type": "pijler"
+        }
+      ],
+      "osm": {
+        "id": "way/207188705",
+        "tags": {
+          "bridge": "yes",
+          "description": "Metrolijn E",
+          "electrified": "contact_line;rail",
+          "frequency": "0",
+          "gauge": "1435",
+          "layer": "2",
+          "maxspeed": "70",
+          "name": "Hofpleinlijn",
+          "oneway": "yes",
+          "operator": "RET",
+          "railway": "light_rail",
+          "railway:zub222c": "yes",
+          "ref": "E",
+          "voltage": "750",
+          "width": "3.4"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 3
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,440000,100000,460000 --run nl-4_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 97,
+      "dekBreedte": 15.1,
+      "brugLengte": 97,
+      "water": null,
+      "portaalhoogte": 13.6,
+      "opritafstand": [
+        10,
+        10
+      ],
+      "spoorhoogteBron": "pdok",
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0599.16fd0173335d9cac9e050210a7e24119",
+          "klasse": "Terrain",
+          "oppervlak": 472.5,
+          "onderDek": 0.4,
+          "bovenDekOnderkant": 0.87,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0599.170ade244f6022d73e050210a7e24429",
+          "klasse": "Road",
+          "oppervlak": 19546.1,
+          "onderDek": 0.02,
+          "bovenDekOnderkant": 0.83,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0599.16fd01744ec55cac9e050210a7e24119",
+          "klasse": "Terrain",
+          "oppervlak": 471.9,
+          "onderDek": 0.58,
+          "bovenDekOnderkant": 0.44,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        43.172,
+        43.023
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "oprit -: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "oprit +: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "3 PDOK-vorm(en) door het dek: 0 verborgen, 3 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

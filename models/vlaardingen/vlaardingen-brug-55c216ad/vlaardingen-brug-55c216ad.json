@@ -1,0 +1,165 @@
+{
+  "name": "Breeweg",
+  "file": "vlaardingen-brug-55c216ad.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    82924.3,
+    440478.62
+  ],
+  "xAxis": [
+    0.170954,
+    -0.985279
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 41.249,
+  "groundSamplePoints": [
+    [
+      -8.76,
+      0
+    ],
+    [
+      8.76,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0622.55c216adcaf12021e053aa1c030a304e"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        82924.3,
+        440478.62
+      ],
+      "axis": [
+        0.170954,
+        -0.985279
+      ],
+      "halfLength": 1.99,
+      "halfWidth": 2.9,
+      "height": 40.259,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.17,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        82922.94,
+        440486.46
+      ],
+      "axis": [
+        -0.170954,
+        0.985279
+      ],
+      "halfLength": 3.98,
+      "halfWidth": 3.61,
+      "height": 41.409,
+      "gradient": [
+        -0.03768,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        82925.66,
+        440470.77
+      ],
+      "axis": [
+        0.170954,
+        -0.985279
+      ],
+      "halfLength": 3.98,
+      "halfWidth": 3.61,
+      "height": 41.404,
+      "gradient": [
+        -0.03895,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0622.55c216adcaf12021e053aa1c030a304e"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0622.55c216adcaf12021e053aa1c030a304e",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/7545052",
+        "tags": {
+          "bridge": "yes",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "60",
+          "maxweight": "4.8",
+          "name": "Breeweg",
+          "surface": "asphalt",
+          "zone:traffic": "NL:rural"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,440000,100000,460000 --run nl-4_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 8,
+      "dekBreedte": 4.8,
+      "brugLengte": 8,
+      "water": [
+        -1.5,
+        1.5
+      ],
+      "portaalhoogte": 4.3,
+      "opritafstand": [
+        4.8,
+        4.8
+      ],
+      "oprithelling": 8,
+      "doorstekend": [
+        {
+          "gmlId": "W0372.aef1d5d16fc04386aa8c66f69fd4320c",
+          "klasse": "Terrain",
+          "oppervlak": 25.3,
+          "onderDek": 0.07,
+          "bovenDekOnderkant": 0.17,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0622.6f9eedf8926d563ae053061c030a710a",
+          "klasse": "Terrain",
+          "oppervlak": 308.2,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.12,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        41.259,
+        41.249
+      ]
+    },
+    "waarschuwingen": [
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}
