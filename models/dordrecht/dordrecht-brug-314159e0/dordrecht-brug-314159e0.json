@@ -1,0 +1,150 @@
+{
+  "name": "dordrecht-brug-314159e0",
+  "file": "dordrecht-brug-314159e0.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    111040.64,
+    423582.64
+  ],
+  "xAxis": [
+    0.649249,
+    0.760576
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 43.673,
+  "groundSamplePoints": [
+    [
+      -6.12,
+      0
+    ],
+    [
+      6.12,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0505.314159e05074457989214cc0e9b1166a"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        111040.64,
+        423582.64
+      ],
+      "axis": [
+        0.649249,
+        0.760576
+      ],
+      "halfLength": 1.06,
+      "halfWidth": 2.08,
+      "height": 42.774,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.73,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        111037.31,
+        423578.75
+      ],
+      "axis": [
+        -0.649249,
+        -0.760576
+      ],
+      "halfLength": 3,
+      "halfWidth": 2.36,
+      "height": 43.874,
+      "gradient": [
+        -0.06686,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        111043.96,
+        423586.54
+      ],
+      "axis": [
+        0.649249,
+        0.760576
+      ],
+      "halfLength": 3,
+      "halfWidth": 2.36,
+      "height": 43.924,
+      "gradient": [
+        -0.05,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0505.314159e05074457989214cc0e9b1166a"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0505.314159e05074457989214cc0e9b1166a",
+          "type": "dek"
+        }
+      ],
+      "osm": null,
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,420000,120000,440000 --run nl-5_6 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 4.2,
+      "dekBreedte": 3.2,
+      "brugLengte": 4.2,
+      "water": null,
+      "portaalhoogte": 2.8,
+      "opritafstand": [
+        4,
+        4
+      ],
+      "oprithelling": 6,
+      "doorstekend": [
+        {
+          "gmlId": "L0001.bfa025a2bf3a425abf8b63d70fe1ebab",
+          "klasse": "Forest",
+          "oppervlak": 17.8,
+          "onderDek": 0.36,
+          "bovenDekOnderkant": 0.73,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0505.115ef8b36a5342a885aa3115c3ca249e",
+          "klasse": "Terrain",
+          "oppervlak": 50.2,
+          "onderDek": 0.01,
+          "bovenDekOnderkant": 0.65,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        43.673,
+        43.774
+      ]
+    },
+    "waarschuwingen": [
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "name": "Spaarndamsebrug",
+  "file": "haarlem-spaarndamsebrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    105262.96,
+    491120.61
+  ],
+  "xAxis": [
+    0.371034,
+    0.928619
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 44.106,
+  "groundSamplePoints": [
+    [
+      -22.04,
+      0
+    ],
+    [
+      22.04,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0392.bee7c5ed064f4e40882b7abb1f765ef0"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        105255.52,
+        491102
+      ],
+      "axis": [
+        -0.371034,
+        -0.928619
+      ],
+      "halfLength": 10.02,
+      "halfWidth": 15.43,
+      "height": 44.289,
+      "gradient": [
+        -0.0183,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        105270.39,
+        491139.22
+      ],
+      "axis": [
+        0.371034,
+        0.928619
+      ],
+      "halfLength": 10.02,
+      "halfWidth": 15.43,
+      "height": 44.323,
+      "gradient": [
+        -0.01497,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0392.bee7c5ed064f4e40882b7abb1f765ef0"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0392.bee7c5ed064f4e40882b7abb1f765ef0",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1215593234",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "yes",
+          "highway": "primary",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "50",
+          "name": "Spaarndamsebrug",
+          "oneway": "yes",
+          "zone:traffic": "NL:urban",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,480000,120000,500000 --run nl-5_9 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 20,
+      "dekBreedte": 26.9,
+      "brugLengte": 20,
+      "water": [
+        -9.5,
+        10
+      ],
+      "portaalhoogte": 24.2,
+      "opritafstand": [
+        12,
+        12
+      ],
+      "oprithelling": 20,
+      "doorstekend": [],
+      "opritHoogtes": [
+        44.106,
+        44.173
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "name": "Sloterdijkerwegspoorbrug",
+  "file": "amsterdam-sloterdijkerwegspoorbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    118463.81,
+    489152.91
+  ],
+  "xAxis": [
+    -0.99996,
+    0.00896
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 47.101,
+  "groundSamplePoints": [
+    [
+      -31.1,
+      0
+    ],
+    [
+      31.1,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0363.b572e934b7ea407d9bcdb1c1a8189886",
+    "G0363.cf8ae4f5dda141f9bffbb0a5f95c5854",
+    "G0363.d8fd833b51b34761813bdebc5e450fe9",
+    "G0363.ede5336b480a484e9dcb54f20cf9143f",
+    "L0004.f7e1be7197c14d7a9602e836da30509d",
+    "L0004.877d1db0f004471d8873c08f4abed3fa"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        118463.81,
+        489152.91
+      ],
+      "axis": [
+        -0.99996,
+        0.00896
+      ],
+      "halfLength": 25.1,
+      "halfWidth": 11.22,
+      "height": 46.108,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.48,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        118506.91,
+        489152.53
+      ],
+      "axis": [
+        0.99996,
+        -0.00896
+      ],
+      "halfLength": 12,
+      "halfWidth": 12.72,
+      "height": 47.408,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        118420.71,
+        489153.3
+      ],
+      "axis": [
+        -0.99996,
+        0.00896
+      ],
+      "halfLength": 12,
+      "halfWidth": 12.72,
+      "height": 47.254,
+      "gradient": [
+        -0.01279,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "L0004.f7e1be7197c14d7a9602e836da30509d"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0363.b572e934b7ea407d9bcdb1c1a8189886",
+          "type": "pijler"
+        },
+        {
+          "id": "G0363.cf8ae4f5dda141f9bffbb0a5f95c5854",
+          "type": "pijler"
+        },
+        {
+          "id": "G0363.d8fd833b51b34761813bdebc5e450fe9",
+          "type": "pijler"
+        },
+        {
+          "id": "G0363.ede5336b480a484e9dcb54f20cf9143f",
+          "type": "pijler"
+        },
+        {
+          "id": "L0004.f7e1be7197c14d7a9602e836da30509d",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/484945364",
+        "tags": {
+          "axle_load": "22.5",
+          "bridge": "yes",
+          "description": "Amsterdam Sloterdijk",
+          "electrified": "contact_line",
+          "frequency": "0",
+          "gauge": "1435",
+          "layer": "1",
+          "loading_gauge": "TSI_GB",
+          "maxspeed": "120",
+          "name": "Sloterdijkerwegspoorbrug",
+          "operator": "ProRail",
+          "passenger_lines": "4",
+          "railway": "rail",
+          "railway:atb": "yes",
+          "railway:maximum_current": "4000",
+          "railway:track_class": "D4",
+          "railway:traffic_mode": "passenger",
+          "ref": "523b",
+          "ref:ProRailID": "2889542.0",
+          "ref:ProRailSpoortak": "525_1303AV_180.4",
+          "source": "ProRail",
+          "source:date": "2014-01-03",
+          "usage": "main",
+          "voltage": "1500",
+          "wikidata": "Q3951356",
+          "wikipedia": "nl:Zaanlijn",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 5
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,480000,120000,500000 --run nl-5_9 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 62.2,
+      "dekBreedte": 21.4,
+      "brugLengte": 62.2,
+      "water": null,
+      "portaalhoogte": 19.3,
+      "opritafstand": [
+        0,
+        0
+      ],
+      "spoorhoogteBron": "prorail-pvs",
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "L0004.7019be0d0a5a42c8a7493c00f17fd050",
+          "klasse": "Road",
+          "oppervlak": 23278.4,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.48,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "L0004.877d1db0f004471d8873c08f4abed3fa",
+          "klasse": "Terrain",
+          "oppervlak": 149.7,
+          "onderDek": 0.78,
+          "bovenDekOnderkant": 0.14,
+          "actie": "verbergen"
+        }
+      ],
+      "opritHoogtes": [
+        47.408,
+        47.101
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "2 PDOK-vorm(en) door het dek: 1 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

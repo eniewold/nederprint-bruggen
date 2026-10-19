@@ -1,0 +1,157 @@
+{
+  "name": "Rode Brug",
+  "file": "dongen-rode-brug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    123361.82,
+    406668
+  ],
+  "xAxis": [
+    -0.705977,
+    0.708235
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 46.518,
+  "groundSamplePoints": [
+    [
+      -14.79,
+      0
+    ],
+    [
+      14.79,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0766.9608f2f84d814523a7cfd9af37231b48"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        123361.82,
+        406668
+      ],
+      "axis": [
+        -0.705977,
+        0.708235
+      ],
+      "halfLength": 3.36,
+      "halfWidth": 2.09,
+      "height": 45.537,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.64,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        123371.32,
+        406658.47
+      ],
+      "axis": [
+        0.705977,
+        -0.708235
+      ],
+      "halfLength": 6.72,
+      "halfWidth": 2.38,
+      "height": 46.687,
+      "gradient": [
+        -0.02231,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        123352.33,
+        406677.52
+      ],
+      "axis": [
+        -0.705977,
+        0.708235
+      ],
+      "halfLength": 6.72,
+      "halfWidth": 2.38,
+      "height": 46.677,
+      "gradient": [
+        -0.02372,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0766.9608f2f84d814523a7cfd9af37231b48"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0766.9608f2f84d814523a7cfd9af37231b48",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/832955587",
+        "tags": {
+          "bridge": "yes",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Rode Brug",
+          "surface": "asphalt",
+          "man_made": "bridge",
+          "source:name": "BAG/BGT"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,400000,140000,420000 --run nl-6_5 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 13.4,
+      "dekBreedte": 3.2,
+      "brugLengte": 13.4,
+      "water": [
+        -3.2,
+        1.8
+      ],
+      "portaalhoogte": 2.9,
+      "opritafstand": [
+        8.1,
+        8.1
+      ],
+      "oprithelling": 13.4,
+      "doorstekend": [
+        {
+          "gmlId": "G0766.6e389f66fb134fd6aa8641de134f0b02",
+          "klasse": "Terrain",
+          "oppervlak": 827,
+          "onderDek": 0.02,
+          "bovenDekOnderkant": 0.64,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        46.537,
+        46.518
+      ]
+    },
+    "waarschuwingen": [
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

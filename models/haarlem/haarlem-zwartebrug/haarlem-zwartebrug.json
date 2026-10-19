@@ -1,0 +1,172 @@
+{
+  "name": "Zwartebrug",
+  "file": "haarlem-zwartebrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    104251.29,
+    492070.63
+  ],
+  "xAxis": [
+    0.464071,
+    -0.885798
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 43.36,
+  "groundSamplePoints": [
+    [
+      -39.11,
+      0
+    ],
+    [
+      39.11,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0392.3f3aa0521f8044baadd7dd88c2efd432",
+    "G0392.7bcba50274334f4490344fe4f93c6e0b",
+    "G0392.bb17c47cfacc414b9f90871c92ab37ce"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        104251.29,
+        492070.63
+      ],
+      "axis": [
+        0.464071,
+        -0.885798
+      ],
+      "halfLength": 11.93,
+      "halfWidth": 3.65,
+      "height": 42.542,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.16,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        104236.85,
+        492098.19
+      ],
+      "axis": [
+        -0.464071,
+        0.885798
+      ],
+      "halfLength": 12,
+      "halfWidth": 4.72,
+      "height": 43.692,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        104265.73,
+        492043.07
+      ],
+      "axis": [
+        0.464071,
+        -0.885798
+      ],
+      "halfLength": 12,
+      "halfWidth": 4.72,
+      "height": 43.601,
+      "gradient": [
+        -0.02007,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0392.7bcba50274334f4490344fe4f93c6e0b"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0392.3f3aa0521f8044baadd7dd88c2efd432",
+          "type": "landhoofd"
+        },
+        {
+          "id": "G0392.7bcba50274334f4490344fe4f93c6e0b",
+          "type": "dek"
+        },
+        {
+          "id": "G0392.bb17c47cfacc414b9f90871c92ab37ce",
+          "type": "landhoofd"
+        }
+      ],
+      "osm": {
+        "id": "way/1540816848",
+        "tags": {
+          "bridge": "yes",
+          "highway": "footway",
+          "layer": "1",
+          "name": "Zwartebrug",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 3
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,480000,120000,500000 --run nl-5_9 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 35.9,
+      "dekBreedte": 6.3,
+      "brugLengte": 38.2,
+      "water": [
+        -13.6,
+        13.4
+      ],
+      "portaalhoogte": 5.7,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0503.051109390b994da1800eb4108bbfeb6e",
+          "klasse": "Forest",
+          "oppervlak": 506,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.16,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0392.3be3ef01955844fb9d6f52ffd738231b",
+          "klasse": "Forest",
+          "oppervlak": 3798.3,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.08,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        43.542,
+        43.36
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

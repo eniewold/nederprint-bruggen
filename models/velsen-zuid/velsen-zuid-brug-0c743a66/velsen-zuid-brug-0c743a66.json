@@ -1,0 +1,165 @@
+{
+  "name": "velsen-zuid-brug-0c743a66",
+  "file": "velsen-zuid-brug-0c743a66.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    107816.14,
+    492788.06
+  ],
+  "xAxis": [
+    0.661194,
+    0.750215
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 43.728,
+  "groundSamplePoints": [
+    [
+      -6.55,
+      0
+    ],
+    [
+      6.55,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0453.0c743a66c2d440758e222a5b81e027c2"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        107816.14,
+        492788.06
+      ],
+      "axis": [
+        0.661194,
+        0.750215
+      ],
+      "halfLength": 1.27,
+      "halfWidth": 1.57,
+      "height": 42.786,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.8,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        107812.47,
+        492783.89
+      ],
+      "axis": [
+        -0.661194,
+        -0.750215
+      ],
+      "halfLength": 3,
+      "halfWidth": 1.61,
+      "height": 43.907,
+      "gradient": [
+        -0.05963,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        107819.81,
+        492792.22
+      ],
+      "axis": [
+        0.661194,
+        0.750215
+      ],
+      "halfLength": 3,
+      "halfWidth": 1.61,
+      "height": 43.936,
+      "gradient": [
+        -0.05,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0453.0c743a66c2d440758e222a5b81e027c2"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0453.0c743a66c2d440758e222a5b81e027c2",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/970642351",
+        "tags": {
+          "access:lanes": "yes|yes|variable",
+          "bridge": "yes",
+          "carriageway_ref": "Re",
+          "highway": "motorway",
+          "lanes": "3",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "100",
+          "maxspeed:conditional": "130 @ (19:00-06:00)",
+          "maxspeed:variable": "yes",
+          "oneway": "yes",
+          "operator": "Rijkswaterstaat",
+          "ref": "A9",
+          "surface": "asphalt",
+          "toll:hgv": "yes",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 0
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,480000,120000,500000 --run nl-5_9 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 5.1,
+      "dekBreedte": 2.1,
+      "brugLengte": 5.1,
+      "water": [
+        -2,
+        2
+      ],
+      "portaalhoogte": 2.5,
+      "opritafstand": [
+        4,
+        4
+      ],
+      "oprithelling": 6,
+      "doorstekend": [
+        {
+          "gmlId": "G0453.40dd424068db5788e053cc1f0a0a3668",
+          "klasse": "Terrain",
+          "oppervlak": 2656.4,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.8,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        43.728,
+        43.786
+      ]
+    },
+    "waarschuwingen": [
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

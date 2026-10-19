@@ -1,0 +1,195 @@
+{
+  "name": "Midden-Brabantweg",
+  "file": "kaatsheuvel-brug-6a9370e9.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    132186.59,
+    408113.4
+  ],
+  "xAxis": [
+    0.30238,
+    0.953187
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 54.699,
+  "groundSamplePoints": [
+    [
+      -43.34,
+      0
+    ],
+    [
+      43.34,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "P0030.6a9370e917dd453699a7714adde99d9d",
+    "P0030.5df3a861f78f4e0cb69e2232147c1c4e",
+    "P0030.e55e918b6f2d4973bb23177a3b906503"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        132186.59,
+        408113.4
+      ],
+      "axis": [
+        0.30238,
+        0.953187
+      ],
+      "halfLength": 17.34,
+      "halfWidth": 16.68,
+      "height": 53.747,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -2.16,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        132175.9,
+        408079.72
+      ],
+      "axis": [
+        -0.30238,
+        -0.953187
+      ],
+      "halfLength": 12,
+      "halfWidth": 18.18,
+      "height": 54.897,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        132197.27,
+        408147.09
+      ],
+      "axis": [
+        0.30238,
+        0.953187
+      ],
+      "halfLength": 12,
+      "halfWidth": 18.18,
+      "height": 54.873,
+      "gradient": [
+        -0.01449,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "P0030.6a9370e917dd453699a7714adde99d9d"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "P0030.6a9370e917dd453699a7714adde99d9d",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/7113322",
+        "tags": {
+          "bridge": "yes",
+          "carriageway_ref": "Re",
+          "highway": "trunk",
+          "lanes": "3",
+          "layer": "1",
+          "maxspeed": "100",
+          "motorroad": "yes",
+          "name": "Midden-Brabantweg",
+          "oneway": "yes",
+          "operator": "Provincie Noord-Brabant",
+          "ref": "N261",
+          "surface": "asphalt",
+          "turn:lanes": "none|none|slight_right",
+          "zone:traffic": "NL:rural"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,400000,140000,420000 --run nl-6_5 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 46.7,
+      "dekBreedte": 32.4,
+      "brugLengte": 46.7,
+      "water": null,
+      "portaalhoogte": 29.1,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "P0030.bfbd14cc4a494a4fbcab4ec2458aec3d",
+          "klasse": "Separation",
+          "oppervlak": 5.6,
+          "onderDek": 0.23,
+          "bovenDekOnderkant": 1.16,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "P0030.5df3a861f78f4e0cb69e2232147c1c4e",
+          "klasse": "Terrain",
+          "oppervlak": 228.8,
+          "onderDek": 0.87,
+          "bovenDekOnderkant": 1.1,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "P0030.cfc0ce73fac1401190479cb809d04c94",
+          "klasse": "Road",
+          "oppervlak": 588.1,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.96,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "P0030.e55e918b6f2d4973bb23177a3b906503",
+          "klasse": "Terrain",
+          "oppervlak": 226.4,
+          "onderDek": 1,
+          "bovenDekOnderkant": 0.74,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "P0030.bc77a58aa580403d98b768076dc515f2",
+          "klasse": "Separation",
+          "oppervlak": 4,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.39,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        54.747,
+        54.699
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "5 PDOK-vorm(en) door het dek: 2 verborgen, 3 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}
