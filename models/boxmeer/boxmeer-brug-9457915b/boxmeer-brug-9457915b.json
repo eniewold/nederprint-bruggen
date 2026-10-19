@@ -1,0 +1,182 @@
+{
+  "name": "Provincialeweg",
+  "file": "boxmeer-brug-9457915b.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    193432.26,
+    408274.66
+  ],
+  "xAxis": [
+    0.070898,
+    0.997484
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 64.338,
+  "groundSamplePoints": [
+    [
+      -58.38,
+      0
+    ],
+    [
+      58.38,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "L0002.245bf01731a34986b47e10705ac3957a",
+    "L0002.60da4c0016254edf8276324e79a52d79",
+    "G0756.9457915b9902418591756b80985fec24",
+    "G1982.c3c0d51f0d9d4bf0941fa10a6f9a8a33"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        193432.26,
+        408274.66
+      ],
+      "axis": [
+        0.070898,
+        0.997484
+      ],
+      "halfLength": 32.38,
+      "halfWidth": 8.09,
+      "height": 63.805,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.19,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        193428.69,
+        408224.41
+      ],
+      "axis": [
+        -0.070898,
+        -0.997484
+      ],
+      "halfLength": 12,
+      "halfWidth": 9.59,
+      "height": 64.955,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        193435.83,
+        408324.92
+      ],
+      "axis": [
+        0.070898,
+        0.997484
+      ],
+      "halfLength": 12,
+      "halfWidth": 9.59,
+      "height": 64.722,
+      "gradient": [
+        -0.03194,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0756.9457915b9902418591756b80985fec24"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "L0002.245bf01731a34986b47e10705ac3957a",
+          "type": "onbekend"
+        },
+        {
+          "id": "L0002.60da4c0016254edf8276324e79a52d79",
+          "type": "onbekend"
+        },
+        {
+          "id": "G0756.9457915b9902418591756b80985fec24",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/509929241",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "yes",
+          "foot": "no",
+          "highway": "secondary",
+          "lanes": "1",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "50",
+          "maxweight:signed": "no",
+          "moped": "no",
+          "name": "Provincialeweg",
+          "old_ref": "N610",
+          "oneway": "yes",
+          "operator": "Gemeente Land van Cuijk",
+          "surface": "asphalt",
+          "zone:traffic": "NL:urban"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 3
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 180000,400000,200000,420000 --run nl-9_5 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 76.8,
+      "dekBreedte": 15.2,
+      "brugLengte": 76.8,
+      "water": null,
+      "portaalhoogte": 13.7,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G1982.c3c0d51f0d9d4bf0941fa10a6f9a8a33",
+          "klasse": "Road",
+          "oppervlak": 137.2,
+          "onderDek": 0.97,
+          "bovenDekOnderkant": 0.38,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "G0756.72f14df54eee424a9d8acb3523776b0d",
+          "klasse": "Forest",
+          "oppervlak": 5818.5,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.19,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        64.805,
+        64.338
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 1 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

@@ -1,0 +1,168 @@
+{
+  "name": "Communicatieweg Oost",
+  "file": "assendelft-brug-2e2bbf77-109.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    111933.37,
+    498380.56
+  ],
+  "xAxis": [
+    -0.512629,
+    0.85861
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 41.637,
+  "groundSamplePoints": [
+    [
+      -56.95,
+      0
+    ],
+    [
+      56.95,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0479.2e2bbf77e71f00fee0530a324301a3ef",
+    "G0479.c9a8a3f744cd0164e053ac1001134d34"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        111933.37,
+        498380.56
+      ],
+      "axis": [
+        -0.512629,
+        0.85861
+      ],
+      "halfLength": 30.95,
+      "halfWidth": 2.91,
+      "height": 40.881,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.72,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        111958.47,
+        498338.53
+      ],
+      "axis": [
+        0.512629,
+        -0.85861
+      ],
+      "halfLength": 12,
+      "halfWidth": 3.61,
+      "height": 42.031,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        111908.28,
+        498422.59
+      ],
+      "axis": [
+        -0.512629,
+        0.85861
+      ],
+      "halfLength": 12,
+      "halfWidth": 3.61,
+      "height": 41.909,
+      "gradient": [
+        -0.02264,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0479.2e2bbf77e71f00fee0530a324301a3ef"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0479.2e2bbf77e71f00fee0530a324301a3ef",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/36511480",
+        "tags": {
+          "bridge": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "lit": "yes",
+          "mofa": "designated",
+          "moped": "designated",
+          "name": "Communicatieweg Oost",
+          "source:width": "ARCore",
+          "width": "4.8"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,480000,120000,500000 --run nl-5_9 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 73.9,
+      "dekBreedte": 4.8,
+      "brugLengte": 73.9,
+      "water": [
+        -32,
+        15.5
+      ],
+      "portaalhoogte": 4.3,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0479.c9a8a3f744cd0164e053ac1001134d34",
+          "klasse": "Terrain",
+          "oppervlak": 100.7,
+          "onderDek": 0.7,
+          "bovenDekOnderkant": 0.72,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "G0479.5acd1d3e1ce6007ee0530a3243011b15",
+          "klasse": "Forest",
+          "oppervlak": 118.3,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.72,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        41.881,
+        41.637
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 1 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

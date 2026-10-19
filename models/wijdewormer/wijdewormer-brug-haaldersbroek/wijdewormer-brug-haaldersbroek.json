@@ -1,0 +1,171 @@
+{
+  "name": "Brug Haaldersbroek",
+  "file": "wijdewormer-brug-haaldersbroek.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    117918.32,
+    498523.26
+  ],
+  "xAxis": [
+    0.878241,
+    0.478219
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 44.747,
+  "groundSamplePoints": [
+    [
+      -39.02,
+      0
+    ],
+    [
+      39.02,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "P0027.dae074e1af334d2bbdab3e4e45307e4d"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        117918.32,
+        498523.26
+      ],
+      "axis": [
+        0.878241,
+        0.478219
+      ],
+      "halfLength": 13.02,
+      "halfWidth": 4.18,
+      "height": 44.134,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.4,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        117891.08,
+        498508.42
+      ],
+      "axis": [
+        -0.878241,
+        -0.478219
+      ],
+      "halfLength": 12,
+      "halfWidth": 5.52,
+      "height": 45.091,
+      "gradient": [
+        -0.0286,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        117945.56,
+        498538.09
+      ],
+      "axis": [
+        0.878241,
+        0.478219
+      ],
+      "halfLength": 12,
+      "halfWidth": 5.52,
+      "height": 45.284,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "P0027.dae074e1af334d2bbdab3e4e45307e4d"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "P0027.dae074e1af334d2bbdab3e4e45307e4d",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/183855564",
+        "tags": {
+          "bridge": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "lit": "yes",
+          "mofa": "designated",
+          "moped": "designated",
+          "smoothness": "good",
+          "traffic_sign": "NL:G12a"
+        }
+      },
+      "fis": {
+        "id": 28420,
+        "naam": "Brug Haaldersbroek",
+        "afstand": 1,
+        "beweegbaar": false,
+        "doorvaarthoogteGesloten": 2.65
+      },
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": 2.65,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,480000,120000,500000 --run nl-5_9 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 38,
+      "dekBreedte": 7.4,
+      "brugLengte": 38,
+      "water": [
+        -10,
+        10
+      ],
+      "portaalhoogte": 6.6,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "P0027.8035bead0bbf44c2978f1591306c1fa5",
+          "klasse": "Terrain",
+          "oppervlak": 53,
+          "onderDek": 0.32,
+          "bovenDekOnderkant": 0.4,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "P0027.6c8ce01173c64cdf8b88127db313c34c",
+          "klasse": "Terrain",
+          "oppervlak": 71.1,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.4,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        44.747,
+        45.134
+      ]
+    },
+    "waarschuwingen": [
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "name": "Wijngaardsesteeg",
+  "file": "wijngaarden-brug-35bc4b86-28.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    112340.91,
+    429560.57
+  ],
+  "xAxis": [
+    -0.049479,
+    -0.998775
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 42.09,
+  "groundSamplePoints": [
+    [
+      -6.72,
+      0
+    ],
+    [
+      6.72,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G1927.35bc4b86835064fde05332a1e90aa826"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        112340.91,
+        429560.57
+      ],
+      "axis": [
+        -0.049479,
+        -0.998775
+      ],
+      "halfLength": 1.36,
+      "halfWidth": 3.34,
+      "height": 41.102,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -2.17,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        112341.19,
+        429566.28
+      ],
+      "axis": [
+        0.049479,
+        0.998775
+      ],
+      "halfLength": 3,
+      "halfWidth": 4.25,
+      "height": 42.252,
+      "gradient": [
+        -0.05,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        112340.63,
+        429554.86
+      ],
+      "axis": [
+        -0.049479,
+        -0.998775
+      ],
+      "halfLength": 3,
+      "halfWidth": 4.25,
+      "height": 42.246,
+      "gradient": [
+        -0.05197,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G1927.35bc4b86835064fde05332a1e90aa826"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G1927.35bc4b86835064fde05332a1e90aa826",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/7285433",
+        "tags": {
+          "bridge": "yes",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "60",
+          "maxweight": "15",
+          "name": "Wijngaardsesteeg",
+          "operator": "Waterschap Rivierenland",
+          "zone:traffic": "NL:rural"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,420000,120000,440000 --run nl-5_6 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 5.4,
+      "dekBreedte": 5.7,
+      "brugLengte": 5.4,
+      "water": null,
+      "portaalhoogte": 5.1,
+      "opritafstand": [
+        4,
+        4
+      ],
+      "oprithelling": 6,
+      "doorstekend": [
+        {
+          "gmlId": "W0621.a3402e3c27b24af0970932acb1d4904a",
+          "klasse": "Terrain",
+          "oppervlak": 29.8,
+          "onderDek": 0.07,
+          "bovenDekOnderkant": 1.17,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "W0621.045b8c8de076479f9c8c16f5651a0c0e",
+          "klasse": "Forest",
+          "oppervlak": 133.3,
+          "onderDek": 0.01,
+          "bovenDekOnderkant": 1.14,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        42.102,
+        42.09
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

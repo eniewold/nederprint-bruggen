@@ -1,0 +1,193 @@
+{
+  "name": "ridderkerk-brug-8c76e59f",
+  "file": "ridderkerk-brug-8c76e59f.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    100946.62,
+    430091.65
+  ],
+  "xAxis": [
+    0.999275,
+    0.038077
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 43.273,
+  "groundSamplePoints": [
+    [
+      -77.12,
+      0
+    ],
+    [
+      77.12,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "L0002.8c76e59f9dd14315bbfe22e06b680cc7",
+    "L0002.4da59761a74e42d2b77c8bd5a51a88d0"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        100946.62,
+        430091.65
+      ],
+      "axis": [
+        0.999275,
+        0.038077
+      ],
+      "halfLength": 51.12,
+      "halfWidth": 21.5,
+      "height": 44.887,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -6.45,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        100877.55,
+        430089.02
+      ],
+      "axis": [
+        -0.999275,
+        -0.038077
+      ],
+      "halfLength": 12,
+      "halfWidth": 23,
+      "height": 46.037,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        101015.7,
+        430094.28
+      ],
+      "axis": [
+        0.999275,
+        0.038077
+      ],
+      "halfLength": 12,
+      "halfWidth": 23,
+      "height": 44.73,
+      "gradient": [
+        -0.12141,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "L0002.8c76e59f9dd14315bbfe22e06b680cc7"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "L0002.8c76e59f9dd14315bbfe22e06b680cc7",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/126729923",
+        "tags": {
+          "bridge": "yes",
+          "carriageway_ref": "k",
+          "highway": "motorway_link",
+          "lanes": "2",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "100",
+          "oneway": "yes",
+          "operator": "Rijkswaterstaat",
+          "ref": "A15",
+          "surface": "asphalt",
+          "toll:hgv": "yes",
+          "turn:lanes": "merge_to_right|none"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,420000,120000,440000 --run nl-5_6 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 114.2,
+      "dekBreedte": 42,
+      "brugLengte": 114.2,
+      "water": null,
+      "portaalhoogte": 37.8,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "L0002.84ca34fdc3314061825ad950da016cdc",
+          "klasse": "Terrain",
+          "oppervlak": 6732.2,
+          "onderDek": 0.16,
+          "bovenDekOnderkant": 5.45,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "L0002.531a0f7ff8f44d82a69363dfaee9a8b3",
+          "klasse": "Separation",
+          "oppervlak": 85.1,
+          "onderDek": 0.52,
+          "bovenDekOnderkant": 5.45,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "L0002.b0be9656c3064db7bf8371b42b3ca81e",
+          "klasse": "Separation",
+          "oppervlak": 66.4,
+          "onderDek": 0.32,
+          "bovenDekOnderkant": 4.56,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "L0002.4da59761a74e42d2b77c8bd5a51a88d0",
+          "klasse": "Road",
+          "oppervlak": 1471.7,
+          "onderDek": 0.95,
+          "bovenDekOnderkant": 4,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "L0002.86ce9d02384c42aca5ccd9963424dd1b",
+          "klasse": "Road",
+          "oppervlak": 8912.8,
+          "onderDek": 0.45,
+          "bovenDekOnderkant": 0.49,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        45.887,
+        43.273
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "5 PDOK-vorm(en) door het dek: 1 verborgen, 4 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

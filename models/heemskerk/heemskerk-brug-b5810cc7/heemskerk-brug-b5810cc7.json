@@ -1,0 +1,131 @@
+{
+  "name": "Stroomwal",
+  "file": "heemskerk-brug-b5810cc7.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    107976.02,
+    500780.14
+  ],
+  "xAxis": [
+    -0.99238,
+    0.123214
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 41.995,
+  "groundSamplePoints": [
+    [
+      -6.51,
+      0
+    ],
+    [
+      6.51,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "W0651.b5810cc785e74180813ae02f9cc2610d"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        107981.49,
+        500779.46
+      ],
+      "axis": [
+        0.99238,
+        -0.123214
+      ],
+      "halfLength": 3,
+      "halfWidth": 8.12,
+      "height": 42.369,
+      "gradient": [
+        -0.12474,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        107970.55,
+        500780.82
+      ],
+      "axis": [
+        -0.99238,
+        0.123214
+      ],
+      "halfLength": 3,
+      "halfWidth": 8.12,
+      "height": 42.594,
+      "gradient": [
+        -0.05,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "W0651.b5810cc785e74180813ae02f9cc2610d"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "W0651.b5810cc785e74180813ae02f9cc2610d",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/528991192",
+        "tags": {
+          "bridge": "yes",
+          "highway": "residential",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "30",
+          "name": "Stroomwal",
+          "source:maxspeed": "NL:zone30",
+          "surface": "paving_stones",
+          "bridge:structure": "arch",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "gewelf",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,500000,120000,520000 --run nl-5_10 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 5,
+      "dekBreedte": 12.2,
+      "brugLengte": 5,
+      "water": [
+        -2,
+        2.5
+      ],
+      "portaalhoogte": 11,
+      "opritafstand": [
+        4,
+        4
+      ],
+      "oprithelling": 6,
+      "doorstekend": [],
+      "opritHoogtes": [
+        41.995,
+        42.444
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}
