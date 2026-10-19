@@ -1,0 +1,134 @@
+{
+  "name": "Nieuwegeinspoorbrug",
+  "file": "amsterdam-nieuwegeinspoorbrug-2.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    125788.63,
+    479102.79
+  ],
+  "xAxis": [
+    0.484292,
+    -0.874907
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 47.26,
+  "groundSamplePoints": [
+    [
+      -10.5,
+      0
+    ],
+    [
+      10.5,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "L0004.f9ac846113e04213ac690a2005f7e4f7"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        125778.46,
+        479121.17
+      ],
+      "axis": [
+        -0.484292,
+        0.874907
+      ],
+      "halfLength": 10.5,
+      "halfWidth": 7.46,
+      "height": 47.27,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        125798.8,
+        479084.41
+      ],
+      "axis": [
+        0.484292,
+        -0.874907
+      ],
+      "halfLength": 10.5,
+      "halfWidth": 7.46,
+      "height": 47.265,
+      "gradient": [
+        -0.00047,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "L0004.f9ac846113e04213ac690a2005f7e4f7"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "L0004.f9ac846113e04213ac690a2005f7e4f7",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/504584803",
+        "tags": {
+          "bridge": "yes",
+          "electrified": "rail",
+          "embankment": "yes",
+          "frequency": "0",
+          "gauge": "1435",
+          "layer": "1",
+          "maxspeed": "80",
+          "maxspeed:source": "Maximum servicespeed",
+          "operator": "GVB",
+          "railway": "subway",
+          "railway:cbtc": "sto",
+          "source": "ProRail Mapservices WMS: BasisBeheerKaart 002",
+          "voltage": "750",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,460000,140000,480000 --run nl-6_8 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 21,
+      "dekBreedte": 10.9,
+      "brugLengte": 21,
+      "water": null,
+      "portaalhoogte": 9.8,
+      "opritafstand": [
+        0,
+        0
+      ],
+      "spoorhoogteBron": "prorail-pvs",
+      "oprithelling": 21,
+      "doorstekend": [],
+      "opritHoogtes": [
+        47.27,
+        47.26
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

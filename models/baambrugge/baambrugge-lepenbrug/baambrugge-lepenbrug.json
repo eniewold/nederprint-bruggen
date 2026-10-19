@@ -1,0 +1,168 @@
+{
+  "name": "Lepenbrug",
+  "file": "baambrugge-lepenbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    127867.79,
+    474481.75
+  ],
+  "xAxis": [
+    -0.53769,
+    0.843143
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 42.92,
+  "groundSamplePoints": [
+    [
+      -7,
+      0
+    ],
+    [
+      9,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0736.0264dfb900e94a40a04fbb2c5397d74f"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        127867.79,
+        474481.75
+      ],
+      "axis": [
+        -0.53769,
+        0.843143
+      ],
+      "halfLength": 1.5,
+      "halfWidth": 2.64,
+      "height": 42.055,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -2.14,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        127871.02,
+        474476.68
+      ],
+      "axis": [
+        0.53769,
+        -0.843143
+      ],
+      "halfLength": 3,
+      "halfWidth": 3.21,
+      "height": 43.138,
+      "gradient": [
+        -0.07235,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        127864.56,
+        474486.81
+      ],
+      "axis": [
+        -0.53769,
+        0.843143
+      ],
+      "halfLength": 3,
+      "halfWidth": 3.21,
+      "height": 43.205,
+      "gradient": [
+        -0.04994,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0736.0264dfb900e94a40a04fbb2c5397d74f"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0736.0264dfb900e94a40a04fbb2c5397d74f",
+          "type": "dek"
+        }
+      ],
+      "osm": null,
+      "fis": {
+        "id": 52052,
+        "naam": "Lepenbrug",
+        "afstand": 33,
+        "beweegbaar": true,
+        "doorvaarthoogteGesloten": 1
+      },
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ophaalbrug",
+    "doorvaarthoogte": 1,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,460000,140000,480000 --run nl-6_8 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 6,
+      "dekBreedte": 4.3,
+      "brugLengte": 6,
+      "water": [
+        -3,
+        3
+      ],
+      "portaalhoogte": 3.8,
+      "opritafstand": [
+        4,
+        6
+      ],
+      "oprithelling": 6,
+      "doorstekend": [
+        {
+          "gmlId": "G0736.d75c6523b1ba4b1cbb93727f3cd22c51",
+          "klasse": "Terrain",
+          "oppervlak": 20.7,
+          "onderDek": 0.64,
+          "bovenDekOnderkant": 1.14,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "W0155.8abeacd5439b75202011301456297887",
+          "klasse": "Terrain",
+          "oppervlak": 22.2,
+          "onderDek": 0.08,
+          "bovenDekOnderkant": 0.91,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0376.2722f401de4d41988cd9dd0f4fb6081e",
+          "klasse": "Terrain",
+          "oppervlak": 4654.1,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.87,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        42.92,
+        43.055
+      ]
+    },
+    "waarschuwingen": [
+      "oprit + pas op 6.0 m gemeten",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "3 PDOK-vorm(en) door het dek: 0 verborgen, 3 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

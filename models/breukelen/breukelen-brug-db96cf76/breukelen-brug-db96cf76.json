@@ -1,0 +1,128 @@
+{
+  "name": "Straatweg",
+  "file": "breukelen-brug-db96cf76.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    128645.44,
+    464890.84
+  ],
+  "xAxis": [
+    -0.059791,
+    0.998211
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 44.548,
+  "groundSamplePoints": [
+    [
+      -6.31,
+      0
+    ],
+    [
+      6.31,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G1904.db96cf763cc841259397481b9011c414"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        128645.76,
+        464885.54
+      ],
+      "axis": [
+        0.059791,
+        -0.998211
+      ],
+      "halfLength": 3,
+      "halfWidth": 6.51,
+      "height": 44.706,
+      "gradient": [
+        -0.05,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        128645.12,
+        464896.14
+      ],
+      "axis": [
+        -0.059791,
+        0.998211
+      ],
+      "halfLength": 3,
+      "halfWidth": 6.51,
+      "height": 44.702,
+      "gradient": [
+        -0.0513,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G1904.db96cf763cc841259397481b9011c414"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G1904.db96cf763cc841259397481b9011c414",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/34017925",
+        "tags": {
+          "bridge": "yes",
+          "highway": "secondary",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Straatweg",
+          "old_ref": "N402",
+          "operator": "Gemeente Stichtse Vecht"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,460000,140000,480000 --run nl-6_8 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 4.6,
+      "dekBreedte": 9,
+      "brugLengte": 4.6,
+      "water": [
+        -2.3,
+        2.2
+      ],
+      "portaalhoogte": 8.1,
+      "opritafstand": [
+        4,
+        4
+      ],
+      "oprithelling": 6,
+      "doorstekend": [],
+      "opritHoogtes": [
+        44.556,
+        44.548
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

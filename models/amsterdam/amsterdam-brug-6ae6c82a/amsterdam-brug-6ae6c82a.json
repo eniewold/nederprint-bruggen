@@ -1,0 +1,133 @@
+{
+  "name": "amsterdam-brug-6ae6c82a",
+  "file": "amsterdam-brug-6ae6c82a.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    126491.82,
+    478612.98
+  ],
+  "xAxis": [
+    0.965046,
+    0.26208
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 45.043,
+  "groundSamplePoints": [
+    [
+      -17.84,
+      1.91
+    ],
+    [
+      77.84,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0363.6ae6c82ae17446508cc1bbf54618415d"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        126476.68,
+        478608.87
+      ],
+      "axis": [
+        -0.965046,
+        -0.26208
+      ],
+      "halfLength": 7.84,
+      "halfWidth": 6.74,
+      "height": 45.591,
+      "gradient": [
+        -0.06996,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        126506.95,
+        478617.09
+      ],
+      "axis": [
+        0.965046,
+        0.26208
+      ],
+      "halfLength": 7.84,
+      "halfWidth": 6.74,
+      "height": 45.99,
+      "gradient": [
+        -0.01913,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0363.6ae6c82ae17446508cc1bbf54618415d"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0363.6ae6c82ae17446508cc1bbf54618415d",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/166187930",
+        "tags": {
+          "bridge": "yes",
+          "electrified": "rail",
+          "frequency": "0",
+          "gauge": "1435",
+          "layer": "1",
+          "maxspeed": "80",
+          "maxspeed:source": "Maximum servicespeed",
+          "operator": "GVB",
+          "railway": "subway",
+          "railway:cbtc": "sto",
+          "source": "survey",
+          "voltage": "750"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,460000,140000,480000 --run nl-6_8 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 15.7,
+      "dekBreedte": 9.5,
+      "brugLengte": 15.7,
+      "water": null,
+      "portaalhoogte": 8.5,
+      "opritafstand": [
+        10,
+        70
+      ],
+      "spoorhoogteBron": "pdok",
+      "oprithelling": 15.7,
+      "doorstekend": [],
+      "opritHoogtes": [
+        45.043,
+        45.84
+      ]
+    },
+    "waarschuwingen": [
+      "oprit -: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "oprit +: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "oprit + pas op 70 m langs het spoor gemeten (PDOK-spoorterrein bij de brug lager)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

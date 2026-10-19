@@ -1,0 +1,195 @@
+{
+  "name": "AMCPadspoorbrug",
+  "file": "amsterdam-amcpadspoorbrug-2.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    126553.28,
+    477691.37
+  ],
+  "xAxis": [
+    0.483567,
+    -0.875307
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 47.855,
+  "groundSamplePoints": [
+    [
+      -41.1,
+      0
+    ],
+    [
+      41.1,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0363.c55a645031634856a4ba0b96c6545623",
+    "L0004.010944e4cd0643b0802da53a90e5aed7",
+    "L0004.0ec397b6b5d646d58b9de721730e141d",
+    "L0004.30f1552a23c94463a9b6540be55366a4"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        126553.28,
+        477691.37
+      ],
+      "axis": [
+        0.483567,
+        -0.875307
+      ],
+      "halfLength": 35.1,
+      "halfWidth": 7.29,
+      "height": 46.63,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.59,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        126527.6,
+        477737.85
+      ],
+      "axis": [
+        -0.483567,
+        0.875307
+      ],
+      "halfLength": 12,
+      "halfWidth": 8.79,
+      "height": 47.893,
+      "gradient": [
+        -0.00309,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        126578.95,
+        477644.89
+      ],
+      "axis": [
+        0.483567,
+        -0.875307
+      ],
+      "halfLength": 12,
+      "halfWidth": 8.79,
+      "height": 47.93,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "L0004.30f1552a23c94463a9b6540be55366a4"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0363.c55a645031634856a4ba0b96c6545623",
+          "type": "pijler"
+        },
+        {
+          "id": "L0004.010944e4cd0643b0802da53a90e5aed7",
+          "type": "landhoofd"
+        },
+        {
+          "id": "L0004.0ec397b6b5d646d58b9de721730e141d",
+          "type": "landhoofd"
+        },
+        {
+          "id": "L0004.30f1552a23c94463a9b6540be55366a4",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "relation/11371086",
+        "tags": {
+          "bridge": "yes",
+          "description": "Amsterdam Bijlmer - Nieuwersluis=Loenen",
+          "electrified": "contact_line",
+          "frequency": "0",
+          "gauge": "1435",
+          "layer": "1",
+          "loading_gauge": "TSI_GC",
+          "maxspeed": "160",
+          "maxspeed:note": "Line design speed was 200 km/h. Lowered to 160 km/h because of high maintenance costs due to bad subsoil. Maxspeed 140 when ETCS is inactive.",
+          "maxspeed:source": "ETCS systems expert from Railcenter Amersfoort",
+          "operator": "ProRail",
+          "passenger_lines": "4",
+          "railway": "rail",
+          "railway:atb": "yes",
+          "railway:atb-eg": "yes",
+          "railway:atb-ng": "no",
+          "railway:etcs": "2",
+          "railway:maximum_current": "4000",
+          "railway:track_class": "D4",
+          "railway:traffic_mode": "mixed",
+          "ref": "080a",
+          "ref:ProRailID": "2879730.0",
+          "ref:ProRailSpoortak": "080_3261V_6.4",
+          "source": "survey",
+          "source:date": "2014-01-03",
+          "usage": "main",
+          "voltage": "1500",
+          "man_made": "bridge",
+          "name": "AMCPadspoorbrug",
+          "source:name": "BAG/BGT"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 4
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,460000,140000,480000 --run nl-6_8 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 82.2,
+      "dekBreedte": 13.6,
+      "brugLengte": 82.2,
+      "water": [
+        6.9,
+        13.9
+      ],
+      "portaalhoogte": 12.2,
+      "opritafstand": [
+        0,
+        0
+      ],
+      "spoorhoogteBron": "prorail-pvs",
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "L0004.93d4878c37444843a0953f38faf7419c",
+          "klasse": "Forest",
+          "oppervlak": 4142.4,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.59,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        47.855,
+        47.93
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}
