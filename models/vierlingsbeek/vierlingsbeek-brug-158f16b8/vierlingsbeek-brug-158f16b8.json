@@ -1,0 +1,166 @@
+{
+  "name": "Grotestraat",
+  "file": "vierlingsbeek-brug-158f16b8.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    198576.6,
+    400539.33
+  ],
+  "xAxis": [
+    0.185846,
+    -0.982579
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 59.196,
+  "groundSamplePoints": [
+    [
+      -18.39,
+      0
+    ],
+    [
+      18.39,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0756.158f16b81b2c492da4a9cb1ba036f946"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        198576.6,
+        400539.33
+      ],
+      "axis": [
+        0.185846,
+        -0.982579
+      ],
+      "halfLength": 4.18,
+      "halfWidth": 10.7,
+      "height": 58.501,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.26,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        198573.49,
+        400555.76
+      ],
+      "axis": [
+        -0.185846,
+        0.982579
+      ],
+      "halfLength": 8.36,
+      "halfWidth": 12.2,
+      "height": 59.498,
+      "gradient": [
+        -0.0362,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        198579.7,
+        400522.91
+      ],
+      "axis": [
+        0.185846,
+        -0.982579
+      ],
+      "halfLength": 8.36,
+      "halfWidth": 12.2,
+      "height": 59.651,
+      "gradient": [
+        -0.01795,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0756.158f16b81b2c492da4a9cb1ba036f946"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0756.158f16b81b2c492da4a9cb1ba036f946",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/6720451",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "yes",
+          "foot": "no",
+          "highway": "secondary",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Grotestraat",
+          "old_ref": "N551"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 180000,400000,200000,420000 --run nl-9_5 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 16.7,
+      "dekBreedte": 20.4,
+      "brugLengte": 16.7,
+      "water": [
+        -2.9,
+        2.6
+      ],
+      "portaalhoogte": 18.4,
+      "opritafstand": [
+        10,
+        10
+      ],
+      "oprithelling": 16.7,
+      "doorstekend": [
+        {
+          "gmlId": "W0654.8a614c05114b40d1b4aaa1327124ee79",
+          "klasse": "Terrain",
+          "oppervlak": 180,
+          "onderDek": 0.21,
+          "bovenDekOnderkant": 0.26,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "W0654.e13abd72b8404e3fab58fda96a3d2c3a",
+          "klasse": "Terrain",
+          "oppervlak": 106.8,
+          "onderDek": 0.22,
+          "bovenDekOnderkant": 0.13,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        59.196,
+        59.501
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

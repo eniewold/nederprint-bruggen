@@ -1,0 +1,166 @@
+{
+  "name": "Kerkstraat",
+  "file": "ijmuiden-kerkstraat.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    101597.78,
+    497342.01
+  ],
+  "xAxis": [
+    0.528088,
+    -0.84919
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 53.353,
+  "groundSamplePoints": [
+    [
+      -31.34,
+      0
+    ],
+    [
+      31.34,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0453.40dd423ebd315788e053cc1f0a0a3668"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        101597.78,
+        497342.01
+      ],
+      "axis": [
+        0.528088,
+        -0.84919
+      ],
+      "halfLength": 8.24,
+      "halfWidth": 13.74,
+      "height": 52.497,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -2.04,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        101583.92,
+        497364.3
+      ],
+      "axis": [
+        -0.528088,
+        0.84919
+      ],
+      "halfLength": 12,
+      "halfWidth": 15.24,
+      "height": 53.575,
+      "gradient": [
+        -0.01852,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        101611.64,
+        497319.72
+      ],
+      "axis": [
+        0.528088,
+        -0.84919
+      ],
+      "halfLength": 12,
+      "halfWidth": 15.24,
+      "height": 53.647,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0453.40dd423ebd315788e053cc1f0a0a3668"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0453.40dd423ebd315788e053cc1f0a0a3668",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1484094808",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "viaduct",
+          "bridge:name": "Julianabrug",
+          "foot": "use_sidepath",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "50",
+          "mofa": "use_sidepath",
+          "name": "Kerkstraat",
+          "oneway": "yes",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,480000,120000,500000 --run nl-5_9 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 28.5,
+      "dekBreedte": 26.5,
+      "brugLengte": 28.5,
+      "water": null,
+      "portaalhoogte": 23.8,
+      "opritafstand": [
+        17.1,
+        17.1
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0453.4fe0af1947055012e053cc1f0a0ad4cd",
+          "klasse": "Forest",
+          "oppervlak": 862.9,
+          "onderDek": 0.24,
+          "bovenDekOnderkant": 1.04,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0453.40dd423f58515788e053cc1f0a0a3668",
+          "klasse": "Road",
+          "oppervlak": 3233.3,
+          "onderDek": 0.12,
+          "bovenDekOnderkant": 0.82,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        53.353,
+        53.497
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

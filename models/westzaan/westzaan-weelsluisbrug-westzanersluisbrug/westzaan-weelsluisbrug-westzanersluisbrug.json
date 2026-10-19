@@ -1,0 +1,186 @@
+{
+  "name": "Weelsluisbrug (Westzanersluisbrug)",
+  "file": "westzaan-weelsluisbrug-westzanersluisbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    112617.92,
+    497182.1
+  ],
+  "xAxis": [
+    0.263624,
+    0.964625
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 43.106,
+  "groundSamplePoints": [
+    [
+      -12.45,
+      0
+    ],
+    [
+      12.45,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0479.2881cdff80a40054e0530a3243018c29"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        112617.92,
+        497182.1
+      ],
+      "axis": [
+        0.263624,
+        0.964625
+      ],
+      "halfLength": 2.83,
+      "halfWidth": 1.54,
+      "height": 42.34,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.34,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        112614.94,
+        497171.18
+      ],
+      "axis": [
+        -0.263624,
+        -0.964625
+      ],
+      "halfLength": 5.66,
+      "halfWidth": 1.56,
+      "height": 43.49,
+      "gradient": [
+        -0.02651,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        112620.9,
+        497193.01
+      ],
+      "axis": [
+        0.263624,
+        0.964625
+      ],
+      "halfLength": 5.66,
+      "halfWidth": 1.56,
+      "height": 43.373,
+      "gradient": [
+        -0.04716,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0479.2881cdff80a40054e0530a3243018c29"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0479.2881cdff80a40054e0530a3243018c29",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1231762650",
+        "tags": {
+          "agricultural": "yes",
+          "bridge": "viaduct",
+          "foot": "yes",
+          "highway": "cycleway",
+          "lanes": "2",
+          "layer": "1",
+          "mofa": "yes",
+          "moped": "destination",
+          "motor_vehicle": "destination",
+          "name": "Nauernasche Vaartdijk",
+          "segregated": "no",
+          "sidewalk": "no",
+          "smoothness": "good",
+          "surface": "asphalt",
+          "traffic_sign": "NL:G11",
+          "width": "1.75",
+          "bridge:movable": "swing",
+          "bridge:structure": "beam",
+          "heritage": "4",
+          "heritage:operator": "Provincie Noord-Holland",
+          "man_made": "bridge",
+          "ref": "1722",
+          "start_date": "1633"
+        }
+      },
+      "fis": {
+        "id": 37054081,
+        "naam": "Weelsluisbrug (Westzanersluisbrug)",
+        "afstand": 1,
+        "beweegbaar": true,
+        "doorvaarthoogteGesloten": null
+      },
+      "pdokBridgeVlakken": 1
+    },
+    "type": "draaibrug",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,480000,120000,500000 --run nl-5_9 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 11.3,
+      "dekBreedte": 2.1,
+      "brugLengte": 11.3,
+      "water": [
+        -0.2,
+        4.3
+      ],
+      "portaalhoogte": 2.5,
+      "opritafstand": [
+        6.8,
+        6.8
+      ],
+      "oprithelling": 11.3,
+      "doorstekend": [
+        {
+          "gmlId": "G0479.573f1cb512c600f2e0530a3243015088",
+          "klasse": "Separation",
+          "oppervlak": 5.5,
+          "onderDek": 0.21,
+          "bovenDekOnderkant": 0.34,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0479.8abeacd54c5b7500047bb86996be1a2f",
+          "klasse": "Forest",
+          "oppervlak": 35.5,
+          "onderDek": 0.11,
+          "bovenDekOnderkant": 0.31,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        43.34,
+        43.106
+      ]
+    },
+    "waarschuwingen": [
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

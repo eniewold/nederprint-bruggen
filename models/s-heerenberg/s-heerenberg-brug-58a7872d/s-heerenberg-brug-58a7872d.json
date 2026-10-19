@@ -1,0 +1,149 @@
+{
+  "name": "Emmerikseweg",
+  "file": "s-heerenberg-brug-58a7872d.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    214258.71,
+    431585.1
+  ],
+  "xAxis": [
+    -0.234563,
+    -0.972101
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 58.896,
+  "groundSamplePoints": [
+    [
+      -16.55,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G1955.58a7872db1924eda973ef628c5109c29"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        214258.71,
+        431585.1
+      ],
+      "axis": [
+        -0.234563,
+        -0.972101
+      ],
+      "halfLength": 3.76,
+      "halfWidth": 7.02,
+      "height": 57.896,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.64,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        214262.24,
+        431599.72
+      ],
+      "axis": [
+        0.234563,
+        0.972101
+      ],
+      "halfLength": 7.52,
+      "halfWidth": 8.52,
+      "height": 59.046,
+      "gradient": [
+        -0.01994,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G1955.58a7872db1924eda973ef628c5109c29"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G1955.58a7872db1924eda973ef628c5109c29",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1318503560",
+        "tags": {
+          "bridge": "yes",
+          "cycleway:both": "no",
+          "highway": "tertiary",
+          "lane_markings": "no",
+          "layer": "1",
+          "lit": "no",
+          "maxspeed": "80",
+          "maxweight:signed": "no",
+          "name": "Emmerikseweg",
+          "sidewalk": "both",
+          "surface": "asphalt",
+          "zone:traffic": "NL:rural",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 200000,420000,220000,440000 --run nl-10_6 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 15,
+      "dekBreedte": 13,
+      "brugLengte": 15,
+      "water": [
+        1.5,
+        6
+      ],
+      "portaalhoogte": 11.7,
+      "opritafstand": [
+        9,
+        27.1
+      ],
+      "oprithelling": 15,
+      "doorstekend": [
+        {
+          "gmlId": "G1955.d411f2c857774a54b662725b0691ffe1",
+          "klasse": "Forest",
+          "oppervlak": 177.7,
+          "onderDek": 0.09,
+          "bovenDekOnderkant": 0.64,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G1955.c66cb14a2b4b47e5bdc2dfd147852cfe",
+          "klasse": "Terrain",
+          "oppervlak": 280,
+          "onderDek": 0.17,
+          "bovenDekOnderkant": 0.16,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        58.896,
+        null
+      ]
+    },
+    "waarschuwingen": [
+      "oprit + zonder PDOK-maaiveld",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

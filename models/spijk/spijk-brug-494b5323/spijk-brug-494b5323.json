@@ -1,0 +1,140 @@
+{
+  "name": "spijk-brug-494b5323",
+  "file": "spijk-brug-494b5323.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    206421.1,
+    429357.64
+  ],
+  "xAxis": [
+    -0.926587,
+    0.376081
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 57.506,
+  "groundSamplePoints": [
+    [
+      46.13,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "L0002.494b5323011f484fa8096dc478957871"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        206421.1,
+        429357.64
+      ],
+      "axis": [
+        -0.926587,
+        0.376081
+      ],
+      "halfLength": 20.13,
+      "halfWidth": 1.43,
+      "height": 56.506,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.61,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        206385.78,
+        429371.98
+      ],
+      "axis": [
+        -0.926587,
+        0.376081
+      ],
+      "halfLength": 12,
+      "halfWidth": 1.39,
+      "height": 57.656,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "L0002.494b5323011f484fa8096dc478957871"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "L0002.494b5323011f484fa8096dc478957871",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1249250853",
+        "tags": {
+          "access": "permit",
+          "bridge": "yes",
+          "highway": "footway",
+          "layer": "1"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 200000,420000,220000,440000 --run nl-10_6 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 52.3,
+      "dekBreedte": 1.9,
+      "brugLengte": 52.3,
+      "water": [
+        -26.1,
+        9.4
+      ],
+      "portaalhoogte": 2.5,
+      "opritafstand": [
+        60,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "L0002.19a4e510b77541a79f8055275fbbb76f",
+          "klasse": "Terrain",
+          "oppervlak": 30.1,
+          "onderDek": 0.12,
+          "bovenDekOnderkant": 0.61,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "L0002.306e443c55c54baea78738403117521b",
+          "klasse": "Terrain",
+          "oppervlak": 633.1,
+          "onderDek": 0.02,
+          "bovenDekOnderkant": 0.18,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        null,
+        57.506
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "oprit - zonder PDOK-maaiveld",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "name": "Middensluisweg",
+  "file": "ijmuiden-brug-5b0185a2.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    101271.66,
+    497879.01
+  ],
+  "xAxis": [
+    0.982417,
+    -0.186702
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 47.781,
+  "groundSamplePoints": [
+    [
+      22.41,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "L0002.5b0185a24b2243b298a3d86e4b994b57"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        101287.39,
+        497876.02
+      ],
+      "axis": [
+        0.982417,
+        -0.186702
+      ],
+      "halfLength": 8,
+      "halfWidth": 1.94,
+      "height": 47.931,
+      "gradient": [
+        -0.01874,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "L0002.5b0185a24b2243b298a3d86e4b994b57"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "L0002.5b0185a24b2243b298a3d86e4b994b57",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/33185322",
+        "tags": {
+          "bridge": "movable",
+          "highway": "tertiary",
+          "layer": "2",
+          "material": "steel",
+          "maxaxleload": "1.6",
+          "maxheight": "4.3",
+          "maxspeed": "60",
+          "maxwidth": "2.2",
+          "name": "Middensluisweg",
+          "operator": "Rijkswaterstaat",
+          "surface": "asphalt",
+          "zone:maxspeed": "NL:60",
+          "zone:traffic": "NL:rural"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "basculebrug",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,480000,120000,500000 --run nl-5_9 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 16,
+      "dekBreedte": 2.6,
+      "brugLengte": 16,
+      "water": [
+        -8,
+        8
+      ],
+      "portaalhoogte": 2.5,
+      "opritafstand": [
+        28.8,
+        14.4
+      ],
+      "oprithelling": 16,
+      "doorstekend": [],
+      "opritHoogtes": [
+        null,
+        47.781
+      ]
+    },
+    "waarschuwingen": [
+      "bridge=movable zonder mechanisme: basculebrug is een gok",
+      "geen FIS-brug binnen 35 m",
+      "oprit - zonder PDOK-maaiveld",
+      "oprit + pas op 14.4 m gemeten",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

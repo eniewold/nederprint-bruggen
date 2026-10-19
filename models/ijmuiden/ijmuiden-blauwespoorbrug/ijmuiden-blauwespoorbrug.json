@@ -1,0 +1,154 @@
+{
+  "name": "Blauwespoorbrug",
+  "file": "ijmuiden-blauwespoorbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    103202.07,
+    498396.61
+  ],
+  "xAxis": [
+    -0.944669,
+    0.328025
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 50.4,
+  "groundSamplePoints": [
+    [
+      -77.77,
+      0
+    ],
+    [
+      47.86,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0453.40dd424012085788e053cc1f0a0a3668",
+    "G0453.bc2c68ee8a856d7be053dc1f0a0abd97",
+    "L0002.4676243cee334ac0b6de2c8bd7b6e1f6"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        103249.08,
+        498380.28
+      ],
+      "axis": [
+        0.944669,
+        -0.328025
+      ],
+      "halfLength": 12,
+      "halfWidth": 17.66,
+      "height": 51.285,
+      "gradient": [
+        -0.07368,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        103154.97,
+        498412.96
+      ],
+      "axis": [
+        -0.944669,
+        0.328025
+      ],
+      "halfLength": 12,
+      "halfWidth": 17.66,
+      "height": 52.019,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0453.40dd424012085788e053cc1f0a0a3668",
+      "G0453.bc2c68ee8a856d7be053dc1f0a0abd97"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0453.40dd424012085788e053cc1f0a0a3668",
+          "type": "dek"
+        },
+        {
+          "id": "G0453.bc2c68ee8a856d7be053dc1f0a0abd97",
+          "type": "dek"
+        },
+        {
+          "id": "L0002.4676243cee334ac0b6de2c8bd7b6e1f6",
+          "type": "onbekend"
+        }
+      ],
+      "osm": {
+        "id": "way/560773688",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "yes",
+          "foot": "use_sidepath",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "60",
+          "mofa": "use_sidepath",
+          "name": "Noordersluisweg",
+          "operator": "Rijkswaterstaat",
+          "surface": "asphalt",
+          "zone:maxspeed": "NL:60",
+          "zone:traffic": "NL:rural",
+          "man_made": "bridge"
+        }
+      },
+      "fis": {
+        "id": 4303,
+        "naam": "Blauwespoorbrug",
+        "afstand": 26,
+        "beweegbaar": false,
+        "doorvaarthoogteGesloten": 7.5
+      },
+      "pdokBridgeVlakken": 3
+    },
+    "type": "ligger",
+    "doorvaarthoogte": 7.5,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,480000,120000,500000 --run nl-5_9 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 75.6,
+      "dekBreedte": 31.3,
+      "brugLengte": 75.6,
+      "water": [
+        -25.8,
+        12.7
+      ],
+      "portaalhoogte": 28.2,
+      "opritafstand": [
+        40,
+        10
+      ],
+      "spoorhoogteBron": "pdok",
+      "oprithelling": 24,
+      "doorstekend": [],
+      "opritHoogtes": [
+        50.4,
+        51.869
+      ]
+    },
+    "waarschuwingen": [
+      "oprit -: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "oprit - pas op 40 m langs het spoor gemeten (PDOK-spoorterrein bij de brug lager)",
+      "oprit +: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}
