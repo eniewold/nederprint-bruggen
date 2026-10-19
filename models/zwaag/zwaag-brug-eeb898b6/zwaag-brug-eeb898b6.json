@@ -1,0 +1,163 @@
+{
+  "name": "zwaag-brug-eeb898b6",
+  "file": "zwaag-brug-eeb898b6.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    133857.85,
+    519572.63
+  ],
+  "xAxis": [
+    -0.945535,
+    -0.325521
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 42.105,
+  "groundSamplePoints": [
+    [
+      -17.63,
+      0
+    ],
+    [
+      17.63,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0405.eeb898b65028487285b578e4a9ed2f46"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        133857.85,
+        519572.63
+      ],
+      "axis": [
+        -0.945535,
+        -0.325521
+      ],
+      "halfLength": 4.01,
+      "halfWidth": 1.66,
+      "height": 41.232,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.3,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        133873,
+        519577.85
+      ],
+      "axis": [
+        0.945535,
+        0.325521
+      ],
+      "halfLength": 8.01,
+      "halfWidth": 1.74,
+      "height": 42.382,
+      "gradient": [
+        -0.01872,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        133842.69,
+        519567.42
+      ],
+      "axis": [
+        -0.945535,
+        -0.325521
+      ],
+      "halfLength": 8.01,
+      "halfWidth": 1.74,
+      "height": 42.318,
+      "gradient": [
+        -0.02666,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0405.eeb898b65028487285b578e4a9ed2f46"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0405.eeb898b65028487285b578e4a9ed2f46",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/836085537",
+        "tags": {
+          "bridge": "movable",
+          "highway": "footway",
+          "layer": "1",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "basculebrug",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,500000,140000,520000 --run nl-6_10 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 16,
+      "dekBreedte": 2.3,
+      "brugLengte": 16,
+      "water": [
+        -2.5,
+        2.5
+      ],
+      "portaalhoogte": 2.5,
+      "opritafstand": [
+        9.6,
+        9.6
+      ],
+      "oprithelling": 16,
+      "doorstekend": [
+        {
+          "gmlId": "G0405.5d102614150040e3872085bb64a032cc",
+          "klasse": "Terrain",
+          "oppervlak": 10.7,
+          "onderDek": 0.2,
+          "bovenDekOnderkant": 0.3,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0405.1dd3307c600c4e339644f7509d986536",
+          "klasse": "Terrain",
+          "oppervlak": 11.4,
+          "onderDek": 0.21,
+          "bovenDekOnderkant": 0.23,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        42.232,
+        42.105
+      ]
+    },
+    "waarschuwingen": [
+      "bridge=movable zonder mechanisme: basculebrug is een gok",
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

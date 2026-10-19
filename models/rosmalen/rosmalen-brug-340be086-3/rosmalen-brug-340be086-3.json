@@ -1,0 +1,164 @@
+{
+  "name": "Jachtstraat",
+  "file": "rosmalen-brug-340be086-3.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    152724.95,
+    414504.92
+  ],
+  "xAxis": [
+    -0.230671,
+    0.973032
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 46.824,
+  "groundSamplePoints": [
+    [
+      -13.24,
+      0
+    ],
+    [
+      13.24,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0796.340be086a93bbf87e0538d1013ac73b0"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        152724.95,
+        414504.92
+      ],
+      "axis": [
+        -0.230671,
+        0.973032
+      ],
+      "halfLength": 3.01,
+      "halfWidth": 3.61,
+      "height": 45.851,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.6,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        152727.72,
+        414493.21
+      ],
+      "axis": [
+        0.230671,
+        -0.973032
+      ],
+      "halfLength": 6.02,
+      "halfWidth": 4.66,
+      "height": 47.001,
+      "gradient": [
+        -0.02492,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        152722.17,
+        414516.64
+      ],
+      "axis": [
+        -0.230671,
+        0.973032
+      ],
+      "halfLength": 6.02,
+      "halfWidth": 4.66,
+      "height": 46.987,
+      "gradient": [
+        -0.02716,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0796.340be086a93bbf87e0538d1013ac73b0"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0796.340be086a93bbf87e0538d1013ac73b0",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/53325143",
+        "tags": {
+          "bridge": "yes",
+          "highway": "residential",
+          "layer": "1",
+          "maxspeed": "30",
+          "maxweight:signed": "no",
+          "name": "Jachtstraat",
+          "surface": "paving_stones"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,400000,160000,420000 --run nl-7_5 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 12,
+      "dekBreedte": 6.2,
+      "brugLengte": 12,
+      "water": [
+        -2,
+        2
+      ],
+      "portaalhoogte": 5.6,
+      "opritafstand": [
+        7.2,
+        7.2
+      ],
+      "oprithelling": 12,
+      "doorstekend": [
+        {
+          "gmlId": "G0796.340be084694bbf87e0538d1013ac73b0",
+          "klasse": "Terrain",
+          "oppervlak": 112.9,
+          "onderDek": 0.03,
+          "bovenDekOnderkant": 0.6,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0796.340be086a31ebf87e0538d1013ac73b0",
+          "klasse": "Terrain",
+          "oppervlak": 117.7,
+          "onderDek": 0.04,
+          "bovenDekOnderkant": 0.6,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        46.851,
+        46.824
+      ]
+    },
+    "waarschuwingen": [
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

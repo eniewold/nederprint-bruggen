@@ -1,0 +1,168 @@
+{
+  "name": "Houthaven",
+  "file": "zutphen-brug-95927f3c.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    209809.35,
+    462690.38
+  ],
+  "xAxis": [
+    0.031447,
+    -0.999505
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 48.579,
+  "groundSamplePoints": [
+    [
+      -4.77,
+      0
+    ],
+    [
+      4.77,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "L0002.95927f3c15894021abfe0e352293180d"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        209809.35,
+        462690.38
+      ],
+      "axis": [
+        0.031447,
+        -0.999505
+      ],
+      "halfLength": 0.39,
+      "halfWidth": 12.85,
+      "height": 47.617,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -4.96,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        209809.23,
+        462694.15
+      ],
+      "axis": [
+        -0.031447,
+        0.999505
+      ],
+      "halfLength": 3,
+      "halfWidth": 14.35,
+      "height": 48.748,
+      "gradient": [
+        -0.05635,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        209809.47,
+        462686.61
+      ],
+      "axis": [
+        0.031447,
+        -0.999505
+      ],
+      "halfLength": 3,
+      "halfWidth": 14.35,
+      "height": 48.767,
+      "gradient": [
+        -0.05,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "L0002.95927f3c15894021abfe0e352293180d"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "L0002.95927f3c15894021abfe0e352293180d",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/263194905",
+        "tags": {
+          "bridge": "yes",
+          "highway": "footway",
+          "layer": "1",
+          "name": "Houthaven",
+          "source": "nwb;BAG;bing"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 200000,460000,220000,480000 --run nl-10_8 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 1.5,
+      "dekBreedte": 24.7,
+      "brugLengte": 1.5,
+      "water": null,
+      "portaalhoogte": 22.2,
+      "opritafstand": [
+        4,
+        4
+      ],
+      "oprithelling": 6,
+      "doorstekend": [
+        {
+          "gmlId": "L0002.d21d36d25bb4432f970ad4279ab114c8",
+          "klasse": "Forest",
+          "oppervlak": 590.3,
+          "onderDek": 0.02,
+          "bovenDekOnderkant": 3.96,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "L0002.6b76179597934d33ac8bbe777e61f336",
+          "klasse": "Forest",
+          "oppervlak": 357.4,
+          "onderDek": 0,
+          "bovenDekOnderkant": 1.2,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "L0002.728e34ef8b0f4449a1b81a4b8cd4a884",
+          "klasse": "Terrain",
+          "oppervlak": 226.1,
+          "onderDek": 0.01,
+          "bovenDekOnderkant": 0.21,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        48.579,
+        48.617
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "3 PDOK-vorm(en) door het dek: 0 verborgen, 3 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

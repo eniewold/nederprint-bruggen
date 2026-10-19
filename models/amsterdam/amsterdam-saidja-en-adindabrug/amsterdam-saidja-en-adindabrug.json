@@ -1,0 +1,154 @@
+{
+  "name": "Saïdja en Adindabrug",
+  "file": "amsterdam-saidja-en-adindabrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    118242.45,
+    487647.69
+  ],
+  "xAxis": [
+    -0.295142,
+    0.955453
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 44.973,
+  "groundSamplePoints": [
+    [
+      -21.83,
+      1.18
+    ],
+    [
+      21.83,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0363.01ab4f4a800843729d6ff049b1a694af",
+    "G0363.37a7d42bb1f040a7b39a04318a2823db",
+    "G0363.5313dddff0cf40cf854240fb66c807f8"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        118249.43,
+        487625.08
+      ],
+      "axis": [
+        0.295142,
+        -0.955453
+      ],
+      "halfLength": 11.83,
+      "halfWidth": 17.44,
+      "height": 45.14,
+      "gradient": [
+        -0.0141,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        118235.46,
+        487670.3
+      ],
+      "axis": [
+        -0.295142,
+        0.955453
+      ],
+      "halfLength": 11.83,
+      "halfWidth": 17.44,
+      "height": 45.157,
+      "gradient": [
+        -0.01268,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0363.5313dddff0cf40cf854240fb66c807f8"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0363.01ab4f4a800843729d6ff049b1a694af",
+          "type": "pijler"
+        },
+        {
+          "id": "G0363.37a7d42bb1f040a7b39a04318a2823db",
+          "type": "pijler"
+        },
+        {
+          "id": "G0363.5313dddff0cf40cf854240fb66c807f8",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/619648423",
+        "tags": {
+          "bridge": "yes",
+          "electrified": "contact_line",
+          "frequency": "0",
+          "gauge": "1435",
+          "layer": "1",
+          "maxspeed": "50",
+          "oneway": "yes",
+          "railway": "tram",
+          "railway:atb": "no",
+          "railway:etcs": "no",
+          "railway:lzb": "no",
+          "railway:pzb": "no",
+          "voltage": "600",
+          "man_made": "bridge",
+          "name": "Saïdja en Adindabrug"
+        }
+      },
+      "fis": {
+        "id": 42502929,
+        "naam": "Saïdja en Adindabrug (Brug 162)",
+        "afstand": 6,
+        "beweegbaar": false,
+        "doorvaarthoogteGesloten": 2.2
+      },
+      "pdokBridgeVlakken": 3
+    },
+    "type": "ligger",
+    "doorvaarthoogte": 2.2,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,480000,120000,500000 --run nl-5_9 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 23.7,
+      "dekBreedte": 30.9,
+      "brugLengte": 23.7,
+      "water": [
+        -11.3,
+        11.2
+      ],
+      "portaalhoogte": 27.8,
+      "opritafstand": [
+        10,
+        10
+      ],
+      "spoorhoogteBron": "pdok",
+      "oprithelling": 23.7,
+      "doorstekend": [],
+      "opritHoogtes": [
+        44.973,
+        45.007
+      ]
+    },
+    "waarschuwingen": [
+      "oprit -: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "oprit +: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "oprit +: spoorterrein voorbij 150 m nog 1.4 m hoger (46.4 m); PDOK trekt het spoor hier ver naar beneden, controleer de dekhoogte of geef --opritafstand"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

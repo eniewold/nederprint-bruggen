@@ -1,0 +1,150 @@
+{
+  "name": "Kinkerbrug",
+  "file": "amsterdam-kinkerbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    119094.29,
+    486432.17
+  ],
+  "xAxis": [
+    -0.877358,
+    0.479837
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 45.805,
+  "groundSamplePoints": [
+    [
+      -16.06,
+      0
+    ],
+    [
+      16.06,
+      1.35
+    ]
+  ],
+  "replacesTerrain": [
+    "G0363.64c0ec86adda43f4ad03f71f55056a20"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        119104.93,
+        486426.36
+      ],
+      "axis": [
+        0.877358,
+        -0.479837
+      ],
+      "halfLength": 6.06,
+      "halfWidth": 12.15,
+      "height": 46.048,
+      "gradient": [
+        -0.04007,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        119083.66,
+        486437.99
+      ],
+      "axis": [
+        -0.877358,
+        0.479837
+      ],
+      "halfLength": 6.06,
+      "halfWidth": 12.15,
+      "height": 46.141,
+      "gradient": [
+        -0.02475,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0363.64c0ec86adda43f4ad03f71f55056a20"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0363.64c0ec86adda43f4ad03f71f55056a20",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/584906496",
+        "tags": {
+          "bridge": "yes",
+          "bridge:name": "Kinkerbrug",
+          "electrified": "contact_line",
+          "frequency": "0",
+          "gauge": "1435",
+          "layer": "1",
+          "maxspeed": "50",
+          "oneway": "yes",
+          "railway": "tram",
+          "railway:atb": "no",
+          "railway:etcs": "no",
+          "railway:lzb": "no",
+          "railway:pzb": "no",
+          "voltage": "600",
+          "bridge:structure": "beam",
+          "loc_ref": "266",
+          "man_made": "bridge",
+          "name": "Kinkerbrug",
+          "wikidata": "Q3392261",
+          "wikimedia_commons": "Category:Brug 266, Kinkerbrug",
+          "wikipedia": "nl:Kinkerbrug"
+        }
+      },
+      "fis": {
+        "id": 3861,
+        "naam": "Kinkerbrug (Brug 266)",
+        "afstand": 3,
+        "beweegbaar": true,
+        "doorvaarthoogteGesloten": 2.64
+      },
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ophaalbrug",
+    "doorvaarthoogte": 2.64,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,480000,120000,500000 --run nl-5_9 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 12.1,
+      "dekBreedte": 20.3,
+      "brugLengte": 12.1,
+      "water": [
+        -5.6,
+        5.9
+      ],
+      "portaalhoogte": 18.3,
+      "opritafstand": [
+        10,
+        10
+      ],
+      "spoorhoogteBron": "pdok",
+      "oprithelling": 12.1,
+      "doorstekend": [],
+      "opritHoogtes": [
+        45.805,
+        45.991
+      ]
+    },
+    "waarschuwingen": [
+      "oprit -: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "oprit +: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

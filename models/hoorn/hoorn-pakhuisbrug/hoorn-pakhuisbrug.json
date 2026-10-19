@@ -1,0 +1,133 @@
+{
+  "name": "Pakhuisbrug",
+  "file": "hoorn-pakhuisbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    132983.88,
+    517213.27
+  ],
+  "xAxis": [
+    0.465455,
+    0.885072
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 43.418,
+  "groundSamplePoints": [
+    [
+      -6.87,
+      0
+    ],
+    [
+      6.87,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0405.26e8d8d2606c4535a0a0ca288f8b6aca"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        132981.15,
+        517208.07
+      ],
+      "axis": [
+        -0.465455,
+        -0.885072
+      ],
+      "halfLength": 3,
+      "halfWidth": 4.79,
+      "height": 43.57,
+      "gradient": [
+        -0.05088,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        132986.62,
+        517218.46
+      ],
+      "axis": [
+        0.465455,
+        0.885072
+      ],
+      "halfLength": 3,
+      "halfWidth": 4.79,
+      "height": 43.573,
+      "gradient": [
+        -0.05,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0405.26e8d8d2606c4535a0a0ca288f8b6aca"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0405.26e8d8d2606c4535a0a0ca288f8b6aca",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/43320101",
+        "tags": {
+          "bridge": "yes",
+          "bridge:name": "Pakhuisbrug",
+          "highway": "residential",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "30",
+          "maxwidth": "2.2",
+          "name": "Pakhuisbrug",
+          "narrow": "yes",
+          "source:name": "Gemeente Hoorn",
+          "zone:maxspeed": "NL:30"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ophaalbrug",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,500000,140000,520000 --run nl-6_10 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 5.7,
+      "dekBreedte": 6.4,
+      "brugLengte": 5.7,
+      "water": [
+        -2.4,
+        2.6
+      ],
+      "portaalhoogte": 5.8,
+      "opritafstand": [
+        4,
+        4
+      ],
+      "oprithelling": 6,
+      "doorstekend": [],
+      "opritHoogtes": [
+        43.418,
+        43.423
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

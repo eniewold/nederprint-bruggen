@@ -1,0 +1,141 @@
+{
+  "name": "Eendjesbrug",
+  "file": "haarlem-eendjesbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    104077.29,
+    487926.89
+  ],
+  "xAxis": [
+    -0.714266,
+    0.699874
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 44.829,
+  "groundSamplePoints": [
+    [
+      -8.91,
+      0
+    ],
+    [
+      8.91,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0392.f57ebec2616146889a672e72b8e058fd"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        104083.07,
+        487921.23
+      ],
+      "axis": [
+        0.714266,
+        -0.699874
+      ],
+      "halfLength": 4.05,
+      "halfWidth": 15.76,
+      "height": 45.101,
+      "gradient": [
+        -0.03705,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        104071.51,
+        487932.56
+      ],
+      "axis": [
+        -0.714266,
+        0.699874
+      ],
+      "halfLength": 4.05,
+      "halfWidth": 15.76,
+      "height": 45.04,
+      "gradient": [
+        -0.05217,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0392.f57ebec2616146889a672e72b8e058fd"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0392.f57ebec2616146889a672e72b8e058fd",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/490932010",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "yes",
+          "bridge:name": "Eendjesbrug",
+          "highway": "tertiary",
+          "lanes": "2",
+          "layer": "1",
+          "lit": "yes",
+          "maxaxleload": "10",
+          "maxspeed": "30",
+          "mofa": "use_sidepath",
+          "moped": "yes",
+          "name": "Eendjesbrug",
+          "oneway": "yes",
+          "start_date": "1962",
+          "surface": "asphalt",
+          "zone:traffic": "NL:urban",
+          "man_made": "bridge",
+          "bridge:movable": "bascule",
+          "bridge:structure": "beam"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "basculebrug",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,480000,120000,500000 --run nl-5_9 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 8.1,
+      "dekBreedte": 27.5,
+      "brugLengte": 8.1,
+      "water": [
+        -3.5,
+        3.5
+      ],
+      "portaalhoogte": 24.8,
+      "opritafstand": [
+        4.9,
+        4.9
+      ],
+      "oprithelling": 8.1,
+      "doorstekend": [],
+      "opritHoogtes": [
+        44.951,
+        44.829
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

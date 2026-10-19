@@ -1,0 +1,171 @@
+{
+  "name": "zutphen-brug-4498d0ea",
+  "file": "zutphen-brug-4498d0ea.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    210070.69,
+    462091.93
+  ],
+  "xAxis": [
+    0.927555,
+    0.373686
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 54.614,
+  "groundSamplePoints": [
+    [
+      -33.01,
+      0
+    ],
+    [
+      29.79,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "L0004.4498d0ea41cb498d8ec3d38b1139a225",
+    "G0301.5d23f514752149eca91922729fc9b3e5"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        210070.69,
+        462091.93
+      ],
+      "axis": [
+        0.927555,
+        0.373686
+      ],
+      "halfLength": 25.4,
+      "halfWidth": 24.62,
+      "height": 53.36,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -3.19,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        210028.94,
+        462075.11
+      ],
+      "axis": [
+        -0.927555,
+        -0.373686
+      ],
+      "halfLength": 12,
+      "halfWidth": 26.12,
+      "height": 54.66,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        210109.45,
+        462107.55
+      ],
+      "axis": [
+        0.927555,
+        0.373686
+      ],
+      "halfLength": 12,
+      "halfWidth": 26.12,
+      "height": 54.637,
+      "gradient": [
+        -0.00193,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "L0004.4498d0ea41cb498d8ec3d38b1139a225"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "L0004.4498d0ea41cb498d8ec3d38b1139a225",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/364900412",
+        "tags": {
+          "bridge": "yes",
+          "highway": "footway",
+          "layer": "1",
+          "lit": "yes",
+          "smoothness": "good",
+          "surface": "concrete"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 200000,460000,220000,480000 --run nl-10_8 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 62.8,
+      "dekBreedte": 48.2,
+      "brugLengte": 62.8,
+      "water": null,
+      "portaalhoogte": 43.4,
+      "opritafstand": [
+        0,
+        0
+      ],
+      "spoorhoogteBron": "prorail-pvs",
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0301.5d23f514752149eca91922729fc9b3e5",
+          "klasse": "Road",
+          "oppervlak": 1364.7,
+          "onderDek": 0.97,
+          "bovenDekOnderkant": 3.06,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "L0004.994089a28c884bc189d803dd4d6ef142",
+          "klasse": "Terrain",
+          "oppervlak": 33.6,
+          "onderDek": 0,
+          "bovenDekOnderkant": 2.19,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "L0004.5cb574201f8a450c9c8501de42333292",
+          "klasse": "Separation",
+          "oppervlak": 2655.6,
+          "onderDek": 0,
+          "bovenDekOnderkant": 2.19,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        54.66,
+        54.614
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "3 PDOK-vorm(en) door het dek: 1 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

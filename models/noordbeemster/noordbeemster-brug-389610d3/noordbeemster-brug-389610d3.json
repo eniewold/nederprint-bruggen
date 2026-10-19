@@ -1,0 +1,200 @@
+{
+  "name": "noordbeemster-brug-389610d3",
+  "file": "noordbeemster-brug-389610d3.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    127535.04,
+    510962.77
+  ],
+  "xAxis": [
+    0.406778,
+    0.913527
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 45.374,
+  "groundSamplePoints": [
+    [
+      -83.64,
+      0
+    ],
+    [
+      83.64,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "L0002.389610d358a94a1fa29f3b10971c0d65",
+    "L0002.6967c1017ca9444a9d54aa4a04413212",
+    "L0002.970ab76e4d194c66bdb4d3bc82750ec5",
+    "L0002.1dbacd4aebe147c886f1361550ed262f"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        127535.04,
+        510962.77
+      ],
+      "axis": [
+        0.406778,
+        0.913527
+      ],
+      "halfLength": 57.59,
+      "halfWidth": 19.43,
+      "height": 45.906,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.81,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        127504.27,
+        510893.67
+      ],
+      "axis": [
+        -0.406778,
+        -0.913527
+      ],
+      "halfLength": 12,
+      "halfWidth": 20.93,
+      "height": 46.29,
+      "gradient": [
+        -0.07633,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        127565.81,
+        511031.87
+      ],
+      "axis": [
+        0.406778,
+        0.913527
+      ],
+      "halfLength": 12,
+      "halfWidth": 20.93,
+      "height": 47.056,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "L0002.389610d358a94a1fa29f3b10971c0d65",
+      "L0002.970ab76e4d194c66bdb4d3bc82750ec5"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "L0002.389610d358a94a1fa29f3b10971c0d65",
+          "type": "dek"
+        },
+        {
+          "id": "L0002.6967c1017ca9444a9d54aa4a04413212",
+          "type": "onbekend"
+        },
+        {
+          "id": "L0002.970ab76e4d194c66bdb4d3bc82750ec5",
+          "type": "dek"
+        },
+        {
+          "id": "L0002.1dbacd4aebe147c886f1361550ed262f",
+          "type": "onbekend"
+        }
+      ],
+      "osm": {
+        "id": "way/941989571",
+        "tags": {
+          "bridge": "yes",
+          "carriageway_ref": "Li",
+          "destination": "Amsterdam;Purmerend",
+          "highway": "motorway",
+          "int_ref": "E 22",
+          "lanes": "2",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "100",
+          "maxspeed:conditional": "130 @ (19:00-06:00)",
+          "noname": "yes",
+          "official_name": "Rijksweg A7",
+          "oneway": "yes",
+          "operator": "Rijkswaterstaat",
+          "overtaking:hgv:conditional": "no @ (Mo-Fr 06:00-19:00)",
+          "ref": "A7",
+          "surface": "asphalt",
+          "toll:hgv": "yes"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 4
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,500000,140000,520000 --run nl-6_10 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 127.2,
+      "dekBreedte": 37.9,
+      "brugLengte": 127.3,
+      "water": [
+        3.4,
+        22.4
+      ],
+      "portaalhoogte": 34.1,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "L0002.0f047c560a5d43b995031a5e92a6bada",
+          "klasse": "Terrain",
+          "oppervlak": 2267,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.81,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "L0002.d43b548635614d359c2222b917f89f78",
+          "klasse": "Terrain",
+          "oppervlak": 292.4,
+          "onderDek": 0.66,
+          "bovenDekOnderkant": 0.38,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "W0651.86e88351bc5d475192cc92ee07633279",
+          "klasse": "Forest",
+          "oppervlak": 126.5,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.33,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        45.374,
+        46.906
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "3 PDOK-vorm(en) door het dek: 0 verborgen, 3 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

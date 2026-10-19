@@ -1,0 +1,164 @@
+{
+  "name": "Linkermaasoeverweg",
+  "file": "s-hertogenbosch-brug-17393dfc.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    150008.38,
+    414659.61
+  ],
+  "xAxis": [
+    0.285224,
+    -0.958461
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 43.924,
+  "groundSamplePoints": [
+    [
+      -43.47,
+      0
+    ],
+    [
+      43.46,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "L0002.17393dfc68b4457ba31876b7b6eb8a82",
+    "L0002.a84f4167f6c64523a511060644050a8c",
+    "L0002.f51f2f5e312c49c0b294567a4992f8a7",
+    "G0796.61f47d3164a65649e054022128574717",
+    "G0796.514abe3a0604d1b6e0538d1013acf578"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        149998.27,
+        414693.6
+      ],
+      "axis": [
+        -0.285224,
+        0.958461
+      ],
+      "halfLength": 12,
+      "halfWidth": 15.84,
+      "height": 44.688,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        150018.5,
+        414625.62
+      ],
+      "axis": [
+        0.285224,
+        -0.958461
+      ],
+      "halfLength": 12,
+      "halfWidth": 15.84,
+      "height": 44.381,
+      "gradient": [
+        -0.03808,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "L0002.17393dfc68b4457ba31876b7b6eb8a82"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "L0002.17393dfc68b4457ba31876b7b6eb8a82",
+          "type": "dek"
+        },
+        {
+          "id": "L0002.a84f4167f6c64523a511060644050a8c",
+          "type": "onbekend"
+        },
+        {
+          "id": "L0002.f51f2f5e312c49c0b294567a4992f8a7",
+          "type": "onbekend"
+        }
+      ],
+      "osm": {
+        "id": "way/7080840",
+        "tags": {
+          "bridge": "yes",
+          "carriageway_ref": "Li",
+          "highway": "motorway",
+          "lanes": "3",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "100",
+          "maxspeed:conditional": "120 @ (19:00-06:00)",
+          "name": "Linkermaasoeverweg",
+          "oneway": "yes",
+          "operator": "Rijkswaterstaat",
+          "placement": "right_of:1",
+          "ref": "A59",
+          "surface": "asphalt",
+          "toll:hgv": "yes",
+          "turn:lanes": "none|none|merge_to_left"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 3
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,400000,160000,420000 --run nl-7_5 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 46.7,
+      "dekBreedte": 27.7,
+      "brugLengte": 46.9,
+      "water": null,
+      "portaalhoogte": 24.9,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0796.61f47d3164a65649e054022128574717",
+          "klasse": "Road",
+          "oppervlak": 640.8,
+          "onderDek": 0.97,
+          "bovenDekOnderkant": 3.3,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "G0796.514abe3a0604d1b6e0538d1013acf578",
+          "klasse": "Terrain",
+          "oppervlak": 4.8,
+          "onderDek": 1,
+          "bovenDekOnderkant": 3.08,
+          "actie": "verbergen"
+        }
+      ],
+      "opritHoogtes": [
+        44.538,
+        43.924
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 2 verborgen, 0 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

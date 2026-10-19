@@ -1,0 +1,137 @@
+{
+  "name": "Veliusbrug",
+  "file": "hoorn-veliusbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    133127.43,
+    517358.62
+  ],
+  "xAxis": [
+    -0.806667,
+    -0.591006
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 41.743,
+  "groundSamplePoints": [
+    [
+      -12.27,
+      0
+    ],
+    [
+      12.27,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0405.e6c0b601ec6745129d5562bba882375d"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        133136.43,
+        517365.22
+      ],
+      "axis": [
+        0.806667,
+        0.591006
+      ],
+      "halfLength": 5.58,
+      "halfWidth": 10.68,
+      "height": 42.078,
+      "gradient": [
+        -0.06006,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        133118.43,
+        517352.03
+      ],
+      "axis": [
+        -0.806667,
+        -0.591006
+      ],
+      "halfLength": 5.58,
+      "halfWidth": 10.68,
+      "height": 42.263,
+      "gradient": [
+        -0.02689,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0405.e6c0b601ec6745129d5562bba882375d"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0405.e6c0b601ec6745129d5562bba882375d",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/707408148",
+        "tags": {
+          "bridge": "yes",
+          "bus": "no",
+          "cycleway:both": "lane",
+          "foot": "use_sidepath",
+          "highway": "tertiary",
+          "lane_markings": "yes",
+          "lanes": "2",
+          "layer": "1",
+          "maxspeed": "50",
+          "maxweight:signed": "no",
+          "name": "Veliusbrug",
+          "sidewalk:both": "separate",
+          "surface": "asphalt",
+          "turn:forward": "left;through",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,500000,140000,520000 --run nl-6_10 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 11.2,
+      "dekBreedte": 17.4,
+      "brugLengte": 11.2,
+      "water": [
+        -5.6,
+        5.4
+      ],
+      "portaalhoogte": 15.6,
+      "opritafstand": [
+        6.7,
+        6.7
+      ],
+      "oprithelling": 11.2,
+      "doorstekend": [],
+      "opritHoogtes": [
+        41.743,
+        42.113
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

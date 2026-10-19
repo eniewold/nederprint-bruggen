@@ -1,0 +1,172 @@
+{
+  "name": "Zandzuigerstraat",
+  "file": "s-hertogenbosch-brug-340be087-10.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    149241.3,
+    412602.27
+  ],
+  "xAxis": [
+    -0.999945,
+    -0.0105
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 52.398,
+  "groundSamplePoints": [
+    [
+      -60.5,
+      22.71
+    ],
+    [
+      143.16,
+      45.93
+    ]
+  ],
+  "replacesTerrain": [
+    "G0796.340be087db5bbf87e0538d1013ac73b0",
+    "G0796.340be08952cfbf87e0538d1013ac73b0",
+    "L0004.aa62d648144c45149abdca2620178efe"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        149241.3,
+        412602.27
+      ],
+      "axis": [
+        -0.999945,
+        -0.0105
+      ],
+      "halfLength": 20.17,
+      "halfWidth": 16.71,
+      "height": 52.163,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.35,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        149283.94,
+        412602.71
+      ],
+      "axis": [
+        0.999945,
+        0.0105
+      ],
+      "halfLength": 12,
+      "halfWidth": 18.21,
+      "height": 52.931,
+      "gradient": [
+        -0.04439,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        149203.13,
+        412601.87
+      ],
+      "axis": [
+        -0.999945,
+        -0.0105
+      ],
+      "halfLength": 12,
+      "halfWidth": 18.21,
+      "height": 53.313,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0796.340be087db5bbf87e0538d1013ac73b0",
+      "L0004.aa62d648144c45149abdca2620178efe"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0796.340be087db5bbf87e0538d1013ac73b0",
+          "type": "dek"
+        },
+        {
+          "id": "G0796.340be08952cfbf87e0538d1013ac73b0",
+          "type": "onbekend"
+        },
+        {
+          "id": "L0004.aa62d648144c45149abdca2620178efe",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/378923613",
+        "tags": {
+          "bridge": "yes",
+          "foot": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "name": "Zandzuigerstraat",
+          "oneway": "yes",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 3
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,400000,160000,420000 --run nl-7_5 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 52.3,
+      "dekBreedte": 32.4,
+      "brugLengte": 56.8,
+      "water": null,
+      "portaalhoogte": 29.2,
+      "opritafstand": [
+        30,
+        120
+      ],
+      "spoorhoogteBron": "pdok",
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0796.340be0850defbf87e0538d1013ac73b0",
+          "klasse": "Road",
+          "oppervlak": 656.9,
+          "onderDek": 0.28,
+          "bovenDekOnderkant": 0.35,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        52.398,
+        53.163
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "oprit -: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "oprit - pas op 30 m langs het spoor gemeten (PDOK-spoorterrein bij de brug lager)",
+      "oprit +: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "oprit +: spoorterrein voorbij 150 m nog 3.3 m hoger (56.9 m); PDOK trekt het spoor hier ver naar beneden, controleer de dekhoogte of geef --opritafstand",
+      "oprit + pas op 120 m langs het spoor gemeten (PDOK-spoorterrein bij de brug lager)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

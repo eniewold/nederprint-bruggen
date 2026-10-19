@@ -1,0 +1,163 @@
+{
+  "name": "Bijenpad",
+  "file": "haarlem-brug-27a805b2.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    106385.48,
+    486155.7
+  ],
+  "xAxis": [
+    -0.977062,
+    -0.212955
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 41.682,
+  "groundSamplePoints": [
+    [
+      -8.9,
+      0
+    ],
+    [
+      8.9,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0392.27a805b25a1f420c831e7e619bd87bd9"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        106385.48,
+        486155.7
+      ],
+      "axis": [
+        -0.977062,
+        -0.212955
+      ],
+      "halfLength": 2.02,
+      "halfWidth": 2.28,
+      "height": 40.897,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.68,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        106393.38,
+        486157.42
+      ],
+      "axis": [
+        0.977062,
+        0.212955
+      ],
+      "halfLength": 4.05,
+      "halfWidth": 2.67,
+      "height": 42.047,
+      "gradient": [
+        -0.03706,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        106377.57,
+        486153.98
+      ],
+      "axis": [
+        -0.977062,
+        -0.212955
+      ],
+      "halfLength": 4.05,
+      "halfWidth": 2.67,
+      "height": 41.939,
+      "gradient": [
+        -0.06361,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0392.27a805b25a1f420c831e7e619bd87bd9"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0392.27a805b25a1f420c831e7e619bd87bd9",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/94722216",
+        "tags": {
+          "bridge": "yes",
+          "highway": "footway",
+          "layer": "1",
+          "name": "Bijenpad",
+          "source:name": "Gemeente Haarlem",
+          "traffic_sign": "NL:G7"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,480000,120000,500000 --run nl-5_9 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 8.1,
+      "dekBreedte": 3.6,
+      "brugLengte": 8.1,
+      "water": [
+        -0.5,
+        2.5
+      ],
+      "portaalhoogte": 3.2,
+      "opritafstand": [
+        4.9,
+        4.9
+      ],
+      "oprithelling": 8.1,
+      "doorstekend": [
+        {
+          "gmlId": "G0392.33c89ee9fc2144e28da9fe71c85cf60a",
+          "klasse": "Terrain",
+          "oppervlak": 8.3,
+          "onderDek": 0.15,
+          "bovenDekOnderkant": 0.68,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "W0616.5c5d841510d64443bab2bf1a539a0d9e",
+          "klasse": "Terrain",
+          "oppervlak": 134.1,
+          "onderDek": 0.06,
+          "bovenDekOnderkant": 0.54,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        41.897,
+        41.682
+      ]
+    },
+    "waarschuwingen": [
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

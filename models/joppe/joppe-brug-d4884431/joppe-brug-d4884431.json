@@ -1,0 +1,179 @@
+{
+  "name": "IJssellijn",
+  "file": "joppe-brug-d4884431.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    212143.43,
+    470051.62
+  ],
+  "xAxis": [
+    -0.366096,
+    0.930577
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 52.11,
+  "groundSamplePoints": [
+    [
+      -17.6,
+      0
+    ],
+    [
+      17.6,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "L0004.d48844315c3e44e1a3dd13f81745a3f0"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        212143.43,
+        470051.62
+      ],
+      "axis": [
+        -0.366096,
+        0.930577
+      ],
+      "halfLength": 3.8,
+      "halfWidth": 6.67,
+      "height": 51.259,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.16,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        212148.99,
+        470037.47
+      ],
+      "axis": [
+        0.366096,
+        -0.930577
+      ],
+      "halfLength": 7.6,
+      "halfWidth": 8.17,
+      "height": 52.334,
+      "gradient": [
+        -0.02954,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        212137.86,
+        470065.77
+      ],
+      "axis": [
+        -0.366096,
+        0.930577
+      ],
+      "halfLength": 7.6,
+      "halfWidth": 8.17,
+      "height": 52.409,
+      "gradient": [
+        -0.01973,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "L0004.d48844315c3e44e1a3dd13f81745a3f0"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "L0004.d48844315c3e44e1a3dd13f81745a3f0",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1258248144",
+        "tags": {
+          "axle_load": "22.5",
+          "bridge": "yes",
+          "description": "Zutphen - Deventer",
+          "electrified": "contact_line",
+          "frequency": "0",
+          "gauge": "1435",
+          "layer": "1",
+          "loading_gauge": "TSI_GB",
+          "maxspeed": "140",
+          "name": "IJssellijn",
+          "operator": "ProRail",
+          "passenger_lines": "2",
+          "railway": "rail",
+          "railway:atb": "yes",
+          "railway:atb-eg": "yes",
+          "railway:atb-ng": "no",
+          "railway:etcs": "no",
+          "railway:maximum_current": "4000",
+          "railway:track_class": "D4",
+          "railway:traffic_mode": "mixed",
+          "ref": "030",
+          "ref:ProRailSpoortak": "609_7L_29.7",
+          "source": "ProRail",
+          "source:date": "2013-07-10",
+          "start_date": "1865-08-01",
+          "usage": "main",
+          "voltage": "1500"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 200000,460000,220000,480000 --run nl-10_8 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 15.2,
+      "dekBreedte": 12.3,
+      "brugLengte": 15.2,
+      "water": [
+        -2.1,
+        1.9
+      ],
+      "portaalhoogte": 11.1,
+      "opritafstand": [
+        10,
+        10
+      ],
+      "spoorhoogteBron": "pdok",
+      "oprithelling": 15.2,
+      "doorstekend": [
+        {
+          "gmlId": "G0262.1cf4feef82794197a34f76a0b331202a",
+          "klasse": "Forest",
+          "oppervlak": 5596.6,
+          "onderDek": 0.01,
+          "bovenDekOnderkant": 0.16,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        52.11,
+        52.259
+      ]
+    },
+    "waarschuwingen": [
+      "oprit -: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "oprit +: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

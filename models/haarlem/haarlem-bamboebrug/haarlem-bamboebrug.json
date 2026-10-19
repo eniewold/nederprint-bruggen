@@ -1,0 +1,155 @@
+{
+  "name": "Bamboebrug",
+  "file": "haarlem-bamboebrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    105585.1,
+    486039.68
+  ],
+  "xAxis": [
+    -0.552131,
+    -0.833757
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 43.314,
+  "groundSamplePoints": [
+    [
+      -8.01,
+      0
+    ],
+    [
+      8.01,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0392.1323096f2d8b4e9aa5b727b548b3d181"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        105585.1,
+        486039.68
+      ],
+      "axis": [
+        -0.552131,
+        -0.833757
+      ],
+      "halfLength": 1.82,
+      "halfWidth": 3.46,
+      "height": 42.446,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.85,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        105589.12,
+        486045.75
+      ],
+      "axis": [
+        0.552131,
+        0.833757
+      ],
+      "halfLength": 3.64,
+      "halfWidth": 4.44,
+      "height": 43.596,
+      "gradient": [
+        -0.04119,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        105581.08,
+        486033.61
+      ],
+      "axis": [
+        -0.552131,
+        -0.833757
+      ],
+      "halfLength": 3.64,
+      "halfWidth": 4.44,
+      "height": 43.53,
+      "gradient": [
+        -0.05928,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0392.1323096f2d8b4e9aa5b727b548b3d181"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0392.1323096f2d8b4e9aa5b727b548b3d181",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1497401090",
+        "tags": {
+          "bridge": "yes",
+          "highway": "footway",
+          "layer": "1",
+          "bridge:structure": "beam",
+          "man_made": "bridge",
+          "name": "Bamboebrug"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,480000,120000,500000 --run nl-5_9 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 7.3,
+      "dekBreedte": 5.9,
+      "brugLengte": 7.3,
+      "water": [
+        -1.1,
+        1.4
+      ],
+      "portaalhoogte": 5.3,
+      "opritafstand": [
+        4.4,
+        4.4
+      ],
+      "oprithelling": 7.3,
+      "doorstekend": [
+        {
+          "gmlId": "G0392.a1149fc91cbd40e69848c479ea178fc2",
+          "klasse": "Terrain",
+          "oppervlak": 720.8,
+          "onderDek": 0.01,
+          "bovenDekOnderkant": 0.85,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        43.446,
+        43.314
+      ]
+    },
+    "waarschuwingen": [
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

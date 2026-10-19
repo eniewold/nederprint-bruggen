@@ -1,0 +1,196 @@
+{
+  "name": "Middenweg",
+  "file": "avenhorn-brug-0ffe7ce6.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    125710.65,
+    514187.98
+  ],
+  "xAxis": [
+    -0.847551,
+    0.530715
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 41.255,
+  "groundSamplePoints": [
+    [
+      -22.24,
+      0
+    ],
+    [
+      22.24,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "P0027.0ffe7ce6083b42c0bbc53a7cda115e1a",
+    "P0027.1e493285ffda4432a387bec77c20d6fd"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        125710.65,
+        514187.98
+      ],
+      "axis": [
+        -0.847551,
+        0.530715
+      ],
+      "halfLength": 5.06,
+      "halfWidth": 7.86,
+      "height": 40.461,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -4.6,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        125727.79,
+        514177.25
+      ],
+      "axis": [
+        0.847551,
+        -0.530715
+      ],
+      "halfLength": 10.11,
+      "halfWidth": 9.36,
+      "height": 41.508,
+      "gradient": [
+        -0.02504,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        125693.51,
+        514198.71
+      ],
+      "axis": [
+        -0.847551,
+        0.530715
+      ],
+      "halfLength": 10.11,
+      "halfWidth": 9.36,
+      "height": 41.611,
+      "gradient": [
+        -0.01483,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "P0027.0ffe7ce6083b42c0bbc53a7cda115e1a"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "P0027.0ffe7ce6083b42c0bbc53a7cda115e1a",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/821604889",
+        "tags": {
+          "bicycle": "no",
+          "bridge": "yes",
+          "foot": "no",
+          "highway": "primary",
+          "lanes": "2",
+          "layer": "1",
+          "maxspeed": "80",
+          "maxweight:signed": "no",
+          "name": "Middenweg",
+          "operator": "Provincie Noord-Holland",
+          "ref": "N243",
+          "smoothness": "good",
+          "surface": "asphalt",
+          "zone:traffic": "NL:rural",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,500000,140000,520000 --run nl-6_10 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 20.2,
+      "dekBreedte": 14.7,
+      "brugLengte": 20.2,
+      "water": null,
+      "portaalhoogte": 13.2,
+      "opritafstand": [
+        12.1,
+        12.1
+      ],
+      "oprithelling": 20.2,
+      "doorstekend": [
+        {
+          "gmlId": "P0027.4074f1bcb05f42d8a08ce50955633117",
+          "klasse": "Terrain",
+          "oppervlak": 99.3,
+          "onderDek": 0.48,
+          "bovenDekOnderkant": 3.6,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "P0027.d885160ed1dd44298f389535cc10e664",
+          "klasse": "Terrain",
+          "oppervlak": 5.7,
+          "onderDek": 0.58,
+          "bovenDekOnderkant": 3.47,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "P0027.759daa007f4a4511bc9999bc58548bfb",
+          "klasse": "Terrain",
+          "oppervlak": 417.1,
+          "onderDek": 0.13,
+          "bovenDekOnderkant": 3.2,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "P0027.b9950f88d0404fa4be6ded4852be2f73",
+          "klasse": "Road",
+          "oppervlak": 61.5,
+          "onderDek": 0.62,
+          "bovenDekOnderkant": 2.27,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "P0027.1e493285ffda4432a387bec77c20d6fd",
+          "klasse": "Road",
+          "oppervlak": 25.2,
+          "onderDek": 0.71,
+          "bovenDekOnderkant": 1.98,
+          "actie": "verbergen"
+        }
+      ],
+      "opritHoogtes": [
+        41.255,
+        41.461
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "5 PDOK-vorm(en) door het dek: 1 verborgen, 4 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

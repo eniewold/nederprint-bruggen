@@ -1,0 +1,177 @@
+{
+  "name": "Zweedsestraat",
+  "file": "zutphen-brug-4521e344.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    211320.76,
+    463506.89
+  ],
+  "xAxis": [
+    -0.543908,
+    -0.839145
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 54.978,
+  "groundSamplePoints": [
+    [
+      -13.52,
+      0
+    ],
+    [
+      13.52,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0301.4521e3449ffa495fb5704d09ed4d2f18"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        211320.76,
+        463506.89
+      ],
+      "axis": [
+        -0.543908,
+        -0.839145
+      ],
+      "halfLength": 3.07,
+      "halfWidth": 4.45,
+      "height": 54.087,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.97,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        211327.44,
+        463517.2
+      ],
+      "axis": [
+        0.543908,
+        0.839145
+      ],
+      "halfLength": 6.14,
+      "halfWidth": 5.92,
+      "height": 55.237,
+      "gradient": [
+        -0.02442,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        211314.07,
+        463496.58
+      ],
+      "axis": [
+        -0.543908,
+        -0.839145
+      ],
+      "halfLength": 6.14,
+      "halfWidth": 5.92,
+      "height": 55.182,
+      "gradient": [
+        -0.03331,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0301.4521e3449ffa495fb5704d09ed4d2f18"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0301.4521e3449ffa495fb5704d09ed4d2f18",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/732441173",
+        "tags": {
+          "bridge": "yes",
+          "cycleway": "lane",
+          "foot": "yes",
+          "hgv": "no",
+          "highway": "unclassified",
+          "lanes": "1",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "50",
+          "name": "Zweedsestraat",
+          "sidewalk": "no",
+          "smoothness": "good",
+          "surface": "asphalt",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 200000,460000,220000,480000 --run nl-10_8 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 12.3,
+      "dekBreedte": 7.9,
+      "brugLengte": 12.3,
+      "water": null,
+      "portaalhoogte": 7.1,
+      "opritafstand": [
+        7.4,
+        7.4
+      ],
+      "oprithelling": 12.3,
+      "doorstekend": [
+        {
+          "gmlId": "P0025.9e1b9541ac5c4103a11ab3ab64ce59f5",
+          "klasse": "Terrain",
+          "oppervlak": 24.1,
+          "onderDek": 0.01,
+          "bovenDekOnderkant": 0.97,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "P0025.246e34fe229846b7b87ab52596a92ac1",
+          "klasse": "Terrain",
+          "oppervlak": 20,
+          "onderDek": 0.01,
+          "bovenDekOnderkant": 0.69,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0301.28fe40aaad3f4338bfc40cea9d6273af",
+          "klasse": "Road",
+          "oppervlak": 14.6,
+          "onderDek": 0.67,
+          "bovenDekOnderkant": 0.3,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        55.087,
+        54.978
+      ]
+    },
+    "waarschuwingen": [
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "3 PDOK-vorm(en) door het dek: 0 verborgen, 3 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}
