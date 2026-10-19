@@ -1,0 +1,163 @@
+{
+  "name": "Max Havelaarbrug",
+  "file": "nieuwerkerk-aan-den-ijssel-brug-98b8d5b0.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    101777.23,
+    441161.03
+  ],
+  "xAxis": [
+    -0.481477,
+    -0.876459
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 41.676,
+  "groundSamplePoints": [
+    [
+      -13.88,
+      0
+    ],
+    [
+      13.88,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G1892.98b8d5b0bf6c4bdd832fd991bb603361",
+    "G1892.8b4c74e154ad4132b329da1245dd9318"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        101777.23,
+        441161.03
+      ],
+      "axis": [
+        -0.481477,
+        -0.876459
+      ],
+      "halfLength": 3.15,
+      "halfWidth": 35.27,
+      "height": 40.755,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -2.44,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        101783.31,
+        441172.09
+      ],
+      "axis": [
+        0.481477,
+        0.876459
+      ],
+      "halfLength": 6.31,
+      "halfWidth": 36.77,
+      "height": 41.866,
+      "gradient": [
+        -0.03005,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        101771.16,
+        441149.97
+      ],
+      "axis": [
+        -0.481477,
+        -0.876459
+      ],
+      "halfLength": 6.31,
+      "halfWidth": 36.77,
+      "height": 41.905,
+      "gradient": [
+        -0.02378,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G1892.98b8d5b0bf6c4bdd832fd991bb603361"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G1892.98b8d5b0bf6c4bdd832fd991bb603361",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/42608861",
+        "tags": {
+          "bridge": "yes",
+          "highway": "tertiary",
+          "lanes": "2",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Max Havelaarbrug",
+          "oneway": "no"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,440000,120000,460000 --run nl-5_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 12.6,
+      "dekBreedte": 69.5,
+      "brugLengte": 12.6,
+      "water": null,
+      "portaalhoogte": 62.6,
+      "opritafstand": [
+        7.6,
+        7.6
+      ],
+      "oprithelling": 12.6,
+      "doorstekend": [
+        {
+          "gmlId": "G1892.8b4c74e154ad4132b329da1245dd9318",
+          "klasse": "Terrain",
+          "oppervlak": 467.9,
+          "onderDek": 0.75,
+          "bovenDekOnderkant": 1.65,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "G1892.efd2dbcd8fa8483ca72099164d1883f5",
+          "klasse": "Terrain",
+          "oppervlak": 38.2,
+          "onderDek": 0.54,
+          "bovenDekOnderkant": 1.44,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        41.676,
+        41.755
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 1 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

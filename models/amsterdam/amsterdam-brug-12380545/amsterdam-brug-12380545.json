@@ -1,0 +1,128 @@
+{
+  "name": "Bakkersbrug",
+  "file": "amsterdam-brug-12380545.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    126253.79,
+    491192.66
+  ],
+  "xAxis": [
+    0.897181,
+    -0.441663
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 41.455,
+  "groundSamplePoints": [
+    [
+      -5.42,
+      0
+    ],
+    [
+      5.42,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0363.12380545b6824349880a9f7af3687f3a"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        126249.82,
+        491194.61
+      ],
+      "axis": [
+        -0.897181,
+        0.441663
+      ],
+      "halfLength": 3,
+      "halfWidth": 3.2,
+      "height": 41.774,
+      "gradient": [
+        -0.10628,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        126257.75,
+        491190.71
+      ],
+      "axis": [
+        0.897181,
+        -0.441663
+      ],
+      "halfLength": 3,
+      "halfWidth": 3.2,
+      "height": 41.943,
+      "gradient": [
+        -0.05,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0363.12380545b6824349880a9f7af3687f3a"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0363.12380545b6824349880a9f7af3687f3a",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/832917841",
+        "tags": {
+          "bridge": "yes",
+          "highway": "service",
+          "layer": "1",
+          "service": "driveway",
+          "man_made": "bridge",
+          "name": "Bakkersbrug",
+          "source:name": "BAG/BGT"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 2.8,
+      "dekBreedte": 4.3,
+      "brugLengte": 2.8,
+      "water": [
+        -0.9,
+        1.1
+      ],
+      "portaalhoogte": 3.8,
+      "opritafstand": [
+        4,
+        4
+      ],
+      "oprithelling": 6,
+      "doorstekend": [],
+      "opritHoogtes": [
+        41.455,
+        41.793
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

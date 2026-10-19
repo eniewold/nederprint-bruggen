@@ -1,0 +1,168 @@
+{
+  "name": "Sirkecibrug",
+  "file": "amsterdam-brug-ec60629d.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    124184.05,
+    490578.77
+  ],
+  "xAxis": [
+    -0.784943,
+    0.619568
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 38.642,
+  "groundSamplePoints": [
+    [
+      -29.7,
+      0
+    ],
+    [
+      29.7,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0363.ec60629d123d4e6883a60156c748b0ee"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        124184.05,
+        490578.77
+      ],
+      "axis": [
+        -0.784943,
+        0.619568
+      ],
+      "halfLength": 7.5,
+      "halfWidth": 4.5,
+      "height": 38.577,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -5.12,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        124204.06,
+        490562.98
+      ],
+      "axis": [
+        0.784943,
+        -0.619568
+      ],
+      "halfLength": 12,
+      "halfWidth": 6,
+      "height": 39.26,
+      "gradient": [
+        -0.0515,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        124164.03,
+        490594.57
+      ],
+      "axis": [
+        -0.784943,
+        0.619568
+      ],
+      "halfLength": 12,
+      "halfWidth": 6,
+      "height": 39.727,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0363.ec60629d123d4e6883a60156c748b0ee"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0363.ec60629d123d4e6883a60156c748b0ee",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1136011495",
+        "tags": {
+          "bridge": "yes",
+          "highway": "footway",
+          "layer": "1",
+          "name": "Sirkecibrug",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 0
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 27,
+      "dekBreedte": 8,
+      "brugLengte": 27,
+      "water": null,
+      "portaalhoogte": 7.2,
+      "opritafstand": [
+        16.2,
+        16.2
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0363.b4db90e906d84fa28bcf8f73e965038c",
+          "klasse": "Terrain",
+          "oppervlak": 181.7,
+          "onderDek": 0.1,
+          "bovenDekOnderkant": 4.12,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0363.9b0ae81dd8294a49b1c65eb7d70693e2",
+          "klasse": "Road",
+          "oppervlak": 879.3,
+          "onderDek": 0.03,
+          "bovenDekOnderkant": 4.12,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0363.69b79ebfe355485d8f19c774206da355",
+          "klasse": "Road",
+          "oppervlak": 1001.7,
+          "onderDek": 0.1,
+          "bovenDekOnderkant": 4.05,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        38.642,
+        39.577
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "3 PDOK-vorm(en) door het dek: 0 verborgen, 3 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

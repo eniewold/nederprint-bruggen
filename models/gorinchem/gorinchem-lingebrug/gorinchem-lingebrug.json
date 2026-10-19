@@ -1,0 +1,181 @@
+{
+  "name": "Lingebrug",
+  "file": "gorinchem-lingebrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    126870.11,
+    427520.97
+  ],
+  "xAxis": [
+    -0.933915,
+    0.357494
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 50.747,
+  "groundSamplePoints": [
+    [
+      -60.54,
+      0
+    ],
+    [
+      60.39,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0512.c1d00b43c0ba4717833fe5573a7ffaff",
+    "G0512.c302636b7a18403b800aece01aec2fe5",
+    "G0512.1d925003c78d210ee0534802010aa4ba"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        126870.11,
+        427520.97
+      ],
+      "axis": [
+        -0.933915,
+        0.357494
+      ],
+      "halfLength": 34.31,
+      "halfWidth": 8.07,
+      "height": 50.07,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.2,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        126919.17,
+        427502.19
+      ],
+      "axis": [
+        0.933915,
+        -0.357494
+      ],
+      "halfLength": 12,
+      "halfWidth": 9.57,
+      "height": 51.22,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        126821.18,
+        427539.7
+      ],
+      "axis": [
+        -0.933915,
+        0.357494
+      ],
+      "halfLength": 12,
+      "halfWidth": 9.57,
+      "height": 51.058,
+      "gradient": [
+        -0.02598,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0512.1d925003c78d210ee0534802010aa4ba"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0512.c1d00b43c0ba4717833fe5573a7ffaff",
+          "type": "landhoofd"
+        },
+        {
+          "id": "G0512.c302636b7a18403b800aece01aec2fe5",
+          "type": "landhoofd"
+        },
+        {
+          "id": "G0512.1d925003c78d210ee0534802010aa4ba",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/670058482",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "yes",
+          "foot": "no",
+          "highway": "secondary",
+          "layer": "1",
+          "maxspeed": "50",
+          "name": "Lingebrug",
+          "zone:traffic": "NL:urban",
+          "man_made": "bridge"
+        }
+      },
+      "fis": {
+        "id": 5394,
+        "naam": "Lingebrug",
+        "afstand": 7,
+        "beweegbaar": false,
+        "doorvaarthoogteGesloten": 6.4
+      },
+      "pdokBridgeVlakken": 3
+    },
+    "type": "ligger",
+    "doorvaarthoogte": 6.4,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,420000,140000,440000 --run nl-6_6 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 80.6,
+      "dekBreedte": 15.1,
+      "brugLengte": 80.9,
+      "water": [
+        -23,
+        15
+      ],
+      "portaalhoogte": 13.6,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0512.1d925003f52a210ee0534802010aa4ba",
+          "klasse": "Terrain",
+          "oppervlak": 173.7,
+          "onderDek": 0.13,
+          "bovenDekOnderkant": 0.2,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0512.1d925003f525210ee0534802010aa4ba",
+          "klasse": "Terrain",
+          "oppervlak": 117.9,
+          "onderDek": 0.4,
+          "bovenDekOnderkant": 0.11,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        51.07,
+        50.747
+      ]
+    },
+    "waarschuwingen": [
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}
