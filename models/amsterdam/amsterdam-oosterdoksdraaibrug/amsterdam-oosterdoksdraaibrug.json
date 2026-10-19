@@ -1,0 +1,192 @@
+{
+  "name": "Oosterdoksdraaibrug",
+  "file": "amsterdam-oosterdoksdraaibrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    122579.3,
+    487702.21
+  ],
+  "xAxis": [
+    0.733496,
+    0.679694
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 43.719,
+  "groundSamplePoints": [
+    [
+      -72.97,
+      0
+    ],
+    [
+      72.97,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0363.2f58bca02c1846f88a484b171ee14382",
+    "G0363.52258b5ede0d40778f0a5b1a2e1d625c",
+    "G0363.30e7c1f2f8934b8aaf5a120498724262",
+    "G0363.40352e384e5f4d1da24e80020cf1fd86",
+    "G0363.9a8a9a7ef7c64c63930cbe1a7d26c3ab",
+    "G0363.36cd08cc2823443c872822ba139eed78"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        122579.3,
+        487702.21
+      ],
+      "axis": [
+        0.733496,
+        0.679694
+      ],
+      "halfLength": 46.97,
+      "halfWidth": 14.7,
+      "height": 44.414,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.2,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        122531.65,
+        487658.04
+      ],
+      "axis": [
+        -0.733496,
+        -0.679694
+      ],
+      "halfLength": 12,
+      "halfWidth": 16.2,
+      "height": 45.564,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        122626.96,
+        487746.37
+      ],
+      "axis": [
+        0.733496,
+        0.679694
+      ],
+      "halfLength": 12,
+      "halfWidth": 16.2,
+      "height": 44.716,
+      "gradient": [
+        -0.08311,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0363.30e7c1f2f8934b8aaf5a120498724262",
+      "G0363.40352e384e5f4d1da24e80020cf1fd86",
+      "G0363.9a8a9a7ef7c64c63930cbe1a7d26c3ab"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0363.2f58bca02c1846f88a484b171ee14382",
+          "type": "pijler"
+        },
+        {
+          "id": "G0363.52258b5ede0d40778f0a5b1a2e1d625c",
+          "type": "pijler"
+        },
+        {
+          "id": "G0363.30e7c1f2f8934b8aaf5a120498724262",
+          "type": "dek"
+        },
+        {
+          "id": "G0363.40352e384e5f4d1da24e80020cf1fd86",
+          "type": "dek"
+        },
+        {
+          "id": "G0363.9a8a9a7ef7c64c63930cbe1a7d26c3ab",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1512307810",
+        "tags": {
+          "bridge": "movable",
+          "bridge:movable": "swing",
+          "layer": "1",
+          "man_made": "bridge",
+          "name": "Oosterdoksdraaibrug",
+          "ref": "2270",
+          "bridge:structure": "beam"
+        }
+      },
+      "fis": {
+        "id": 26960,
+        "naam": "Oosterdoksdraaibrug (Brug 2270)",
+        "afstand": 9,
+        "beweegbaar": true,
+        "doorvaarthoogteGesloten": 3.25
+      },
+      "pdokBridgeVlakken": 5
+    },
+    "type": "draaibrug",
+    "doorvaarthoogte": 3.25,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 105.9,
+      "dekBreedte": 28.4,
+      "brugLengte": 105.9,
+      "water": [
+        -35,
+        27
+      ],
+      "portaalhoogte": 25.6,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0363.36cd08cc2823443c872822ba139eed78",
+          "klasse": "Separation",
+          "oppervlak": 2.9,
+          "onderDek": 1,
+          "bovenDekOnderkant": 0.37,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "G0363.3e6ce25ec1ee4fe3918a54d33239615e",
+          "klasse": "Road",
+          "oppervlak": 1025,
+          "onderDek": 0.26,
+          "bovenDekOnderkant": 0.2,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        45.414,
+        43.719
+      ]
+    },
+    "waarschuwingen": [
+      "2 PDOK-vorm(en) door het dek: 1 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

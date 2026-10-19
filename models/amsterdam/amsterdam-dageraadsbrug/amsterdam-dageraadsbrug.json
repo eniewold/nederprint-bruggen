@@ -1,0 +1,153 @@
+{
+  "name": "Dageraadsbrug",
+  "file": "amsterdam-dageraadsbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    123539.98,
+    486693.05
+  ],
+  "xAxis": [
+    -0.563947,
+    -0.825811
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 45.546,
+  "groundSamplePoints": [
+    [
+      -25.21,
+      0
+    ],
+    [
+      25.19,
+      2.08
+    ]
+  ],
+  "replacesTerrain": [
+    "G0363.604655959637413292f653ea45c7a642",
+    "G0363.c340d1e0f9324762b396a21a1b776b4f"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        123555.32,
+        486715.51
+      ],
+      "axis": [
+        0.563947,
+        0.825811
+      ],
+      "halfLength": 12,
+      "halfWidth": 16.63,
+      "height": 45.796,
+      "gradient": [
+        -0.02079,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        123524.63,
+        486670.58
+      ],
+      "axis": [
+        -0.563947,
+        -0.825811
+      ],
+      "halfLength": 12,
+      "halfWidth": 16.63,
+      "height": 45.896,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0363.c340d1e0f9324762b396a21a1b776b4f"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0363.604655959637413292f653ea45c7a642",
+          "type": "pijler"
+        },
+        {
+          "id": "G0363.c340d1e0f9324762b396a21a1b776b4f",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/469232383",
+        "tags": {
+          "bridge": "yes",
+          "electrified": "contact_line",
+          "frequency": "0",
+          "gauge": "1435",
+          "layer": "1",
+          "maxspeed": "50",
+          "oneway": "yes",
+          "railway": "tram",
+          "railway:atb": "no",
+          "railway:etcs": "no",
+          "railway:lzb": "no",
+          "railway:pzb": "no",
+          "voltage": "600",
+          "bridge:ref": "353",
+          "bridge:structure": "beam",
+          "man_made": "bridge",
+          "name": "Dageraadsbrug",
+          "wikidata": "Q29000929",
+          "wikimedia_commons": "Category:Brug 353, Dageraadsbrug",
+          "wikipedia": "nl:Dageraadsbrug"
+        }
+      },
+      "fis": {
+        "id": 49337,
+        "naam": "Dageraadsbrug (Brug 353)",
+        "afstand": 2,
+        "beweegbaar": false,
+        "doorvaarthoogteGesloten": 2.4499999999999997
+      },
+      "pdokBridgeVlakken": 2
+    },
+    "type": "ligger",
+    "doorvaarthoogte": 2.4499999999999997,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 30.4,
+      "dekBreedte": 29.3,
+      "brugLengte": 30.4,
+      "water": [
+        -11.7,
+        11.8
+      ],
+      "portaalhoogte": 26.3,
+      "opritafstand": [
+        10,
+        10
+      ],
+      "spoorhoogteBron": "pdok",
+      "oprithelling": 24,
+      "doorstekend": [],
+      "opritHoogtes": [
+        45.546,
+        45.746
+      ]
+    },
+    "waarschuwingen": [
+      "oprit -: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "oprit +: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "name": "Nieuwe Brug",
+  "file": "amsterdam-nieuwe-brug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    121740.47,
+    487774.24
+  ],
+  "xAxis": [
+    0.717472,
+    -0.696587
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 46.43,
+  "groundSamplePoints": [
+    [
+      -18.91,
+      0
+    ],
+    [
+      18.91,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0363.01a177cf29fd494bbc98bb536e238717",
+    "G0363.db4ce8466ff24b93a3277bd5dfb01001"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        121727.69,
+        487786.64
+      ],
+      "axis": [
+        -0.717472,
+        0.696587
+      ],
+      "halfLength": 8.91,
+      "halfWidth": 15.05,
+      "height": 46.587,
+      "gradient": [
+        -0.01769,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        121753.25,
+        487761.83
+      ],
+      "axis": [
+        0.717472,
+        -0.696587
+      ],
+      "halfLength": 8.91,
+      "halfWidth": 15.05,
+      "height": 46.595,
+      "gradient": [
+        -0.01684,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0363.01a177cf29fd494bbc98bb536e238717"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0363.01a177cf29fd494bbc98bb536e238717",
+          "type": "dek"
+        },
+        {
+          "id": "G0363.db4ce8466ff24b93a3277bd5dfb01001",
+          "type": "pijler"
+        }
+      ],
+      "osm": {
+        "id": "way/313298222",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "yes",
+          "bridge:name": "Nieuwe Brug",
+          "highway": "tertiary",
+          "lanes": "1",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "30",
+          "maxweight": "120",
+          "mofa": "use_sidepath",
+          "name": "Nieuwe Brug",
+          "note": "brug 303, \"Nieuwe Brug\", herbouwd",
+          "oneway": "yes",
+          "oneway:emergency": "no",
+          "surface": "paving_stones",
+          "zone:maxspeed": "NL:30",
+          "bridge:structure": "humpback",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 2
+    },
+    "type": "bolbrug",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 17.8,
+      "dekBreedte": 26.1,
+      "brugLengte": 17.8,
+      "water": [
+        -8.4,
+        8.6
+      ],
+      "portaalhoogte": 23.5,
+      "opritafstand": [
+        10,
+        10
+      ],
+      "spoorhoogteBron": "pdok",
+      "oprithelling": 17.8,
+      "bolling": 2.14,
+      "doorstekend": [],
+      "opritHoogtes": [
+        46.43,
+        46.445
+      ]
+    },
+    "waarschuwingen": [
+      "oprit -: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "oprit +: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

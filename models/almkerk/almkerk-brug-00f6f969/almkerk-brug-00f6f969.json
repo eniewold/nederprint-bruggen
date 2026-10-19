@@ -1,0 +1,196 @@
+{
+  "name": "Almweg",
+  "file": "almkerk-brug-00f6f969.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    127450.61,
+    421145.14
+  ],
+  "xAxis": [
+    0.906209,
+    0.422831
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 44.594,
+  "groundSamplePoints": [
+    [
+      -41.98,
+      0
+    ],
+    [
+      41.98,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "P0030.00f6f96959ebf68ae050120a080440dd",
+    "P0030.00f6f9695c64f68ae050120a080440dd",
+    "P0030.00f6f9695eabf68ae050120a080440dd"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        127450.61,
+        421145.14
+      ],
+      "axis": [
+        0.906209,
+        0.422831
+      ],
+      "halfLength": 15.98,
+      "halfWidth": 6.81,
+      "height": 43.616,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.68,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        127419.81,
+        421130.77
+      ],
+      "axis": [
+        -0.906209,
+        -0.422831
+      ],
+      "halfLength": 12,
+      "halfWidth": 8.31,
+      "height": 44.766,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        127481.4,
+        421159.5
+      ],
+      "axis": [
+        0.906209,
+        0.422831
+      ],
+      "halfLength": 12,
+      "halfWidth": 8.31,
+      "height": 44.755,
+      "gradient": [
+        -0.01344,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "P0030.00f6f9695eabf68ae050120a080440dd"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "P0030.00f6f96959ebf68ae050120a080440dd",
+          "type": "landhoofd"
+        },
+        {
+          "id": "P0030.00f6f9695c64f68ae050120a080440dd",
+          "type": "landhoofd"
+        },
+        {
+          "id": "P0030.00f6f9695eabf68ae050120a080440dd",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/7117986",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "yes",
+          "foot": "use_sidepath",
+          "highway": "primary",
+          "lanes": "2",
+          "layer": "1",
+          "maxspeed": "80",
+          "mofa": "use_sidepath",
+          "moped": "use_sidepath",
+          "name": "Almweg",
+          "operator": "Provincie Noord-Brabant",
+          "ref": "N322",
+          "zone:traffic": "NL:rural"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 3
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,420000,140000,440000 --run nl-6_6 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 44,
+      "dekBreedte": 12.6,
+      "brugLengte": 44,
+      "water": [
+        -6.5,
+        7
+      ],
+      "portaalhoogte": 11.4,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "P0030.bfb99ef62da1475a8ee7d972770af098",
+          "klasse": "Road",
+          "oppervlak": 24.9,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.68,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "P0030.3c63f281765349df881ea090d2028484",
+          "klasse": "Road",
+          "oppervlak": 33.1,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.68,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "P0030.1ded9cae228446e6ae0efaa4aae8d832",
+          "klasse": "Terrain",
+          "oppervlak": 48.9,
+          "onderDek": 0.45,
+          "bovenDekOnderkant": 0.3,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "P0030.00f6f968cb5bf68ae050120a080440dd",
+          "klasse": "Terrain",
+          "oppervlak": 21,
+          "onderDek": 0.01,
+          "bovenDekOnderkant": 0.05,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        44.616,
+        44.594
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "4 PDOK-vorm(en) door het dek: 0 verborgen, 4 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

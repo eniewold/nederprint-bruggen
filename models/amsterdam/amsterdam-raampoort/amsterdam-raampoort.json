@@ -1,0 +1,148 @@
+{
+  "name": "Raampoort",
+  "file": "amsterdam-raampoort.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    120154.07,
+    487479.08
+  ],
+  "xAxis": [
+    -0.993438,
+    0.11437
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 44.876,
+  "groundSamplePoints": [
+    [
+      -11.67,
+      0
+    ],
+    [
+      11.67,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0363.4753a7b007d24ed18f46ec1697a05088"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        120164.61,
+        487477.86
+      ],
+      "axis": [
+        0.993438,
+        -0.11437
+      ],
+      "halfLength": 5.31,
+      "halfWidth": 17.76,
+      "height": 45.123,
+      "gradient": [
+        -0.02827,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        120143.53,
+        487480.29
+      ],
+      "axis": [
+        -0.993438,
+        0.11437
+      ],
+      "halfLength": 5.31,
+      "halfWidth": 17.76,
+      "height": 45.074,
+      "gradient": [
+        -0.03744,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0363.4753a7b007d24ed18f46ec1697a05088"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0363.4753a7b007d24ed18f46ec1697a05088",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/452338602",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "yes",
+          "highway": "unclassified",
+          "lanes": "1",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "30",
+          "maxweight:signed": "no",
+          "name": "Raampoort",
+          "oneway": "yes",
+          "sidewalk:left": "separate",
+          "sidewalk:right": "no",
+          "surface": "asphalt",
+          "zone:traffic": "NL:urban",
+          "alt_name": "Raampoortbrug",
+          "bridge:structure": "beam",
+          "loc_ref": "165",
+          "man_made": "bridge",
+          "wikidata": "Q2604242",
+          "wikimedia_commons": "Category:Brug 165, Raampoort",
+          "wikipedia": "nl:Raampoort"
+        }
+      },
+      "fis": {
+        "id": 28467007,
+        "naam": "Raampoortbrug (Brug 165)",
+        "afstand": 2,
+        "beweegbaar": false,
+        "doorvaarthoogteGesloten": 2.1
+      },
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": 2.1,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 10.6,
+      "dekBreedte": 31.5,
+      "brugLengte": 10.6,
+      "water": [
+        -4.8,
+        5.2
+      ],
+      "portaalhoogte": 28.4,
+      "opritafstand": [
+        6.4,
+        6.4
+      ],
+      "oprithelling": 10.6,
+      "doorstekend": [],
+      "opritHoogtes": [
+        44.973,
+        44.876
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

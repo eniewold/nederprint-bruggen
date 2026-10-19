@@ -1,0 +1,141 @@
+{
+  "name": "Kolkswaterkering",
+  "file": "amsterdam-kolkswaterkering.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    121983.91,
+    487750.6
+  ],
+  "xAxis": [
+    0.587815,
+    -0.808996
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 45.897,
+  "groundSamplePoints": [
+    [
+      -13.18,
+      6.79
+    ],
+    [
+      131.47,
+      -11.71
+    ]
+  ],
+  "replacesTerrain": [
+    "G0363.51afa2a4a67448129ee13371adff762d"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        121980.15,
+        487755.78
+      ],
+      "axis": [
+        -0.587815,
+        0.808996
+      ],
+      "halfLength": 3.2,
+      "halfWidth": 21.14,
+      "height": 46.098,
+      "gradient": [
+        -0.0469,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        121987.67,
+        487745.43
+      ],
+      "axis": [
+        0.587815,
+        -0.808996
+      ],
+      "halfLength": 3.2,
+      "halfWidth": 21.14,
+      "height": 46.072,
+      "gradient": [
+        -0.05485,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0363.51afa2a4a67448129ee13371adff762d"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0363.51afa2a4a67448129ee13371adff762d",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/866311299",
+        "tags": {
+          "bridge": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "lit": "yes",
+          "mofa": "designated",
+          "moped": "no",
+          "name": "Kolkswaterkering",
+          "oneway": "no",
+          "sidewalk": "right",
+          "smoothness": "good",
+          "surface": "asphalt",
+          "surface:colour": "red",
+          "traffic_sign": "NL:G11",
+          "width": "3.20",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 6.4,
+      "dekBreedte": 38.3,
+      "brugLengte": 6.4,
+      "water": [
+        -2.7,
+        2.8
+      ],
+      "portaalhoogte": 34.5,
+      "opritafstand": [
+        10,
+        130
+      ],
+      "spoorhoogteBron": "pdok",
+      "oprithelling": 6.4,
+      "doorstekend": [],
+      "opritHoogtes": [
+        45.948,
+        45.897
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "oprit -: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "oprit +: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "oprit + pas op 130 m langs het spoor gemeten (PDOK-spoorterrein bij de brug lager)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "name": "Verlengde Arnhemseweg",
+  "file": "ede-brug-e8eadada.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    183433.3,
+    448336.92
+  ],
+  "xAxis": [
+    0.709684,
+    -0.70452
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 81.788,
+  "groundSamplePoints": [
+    [
+      -59.15,
+      0
+    ],
+    [
+      59.15,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "L0002.8ad6a2ed77a74d06b635a2449633ac77",
+    "P0025.e8eadadaf26d45289bc245ced48699fc"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        183433.3,
+        448336.92
+      ],
+      "axis": [
+        0.709684,
+        -0.70452
+      ],
+      "halfLength": 33.15,
+      "halfWidth": 12.1,
+      "height": 81.944,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.85,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        183397,
+        448372.95
+      ],
+      "axis": [
+        -0.709684,
+        0.70452
+      ],
+      "halfLength": 12,
+      "halfWidth": 13.6,
+      "height": 82.516,
+      "gradient": [
+        -0.06065,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        183469.59,
+        448300.88
+      ],
+      "axis": [
+        0.709684,
+        -0.70452
+      ],
+      "halfLength": 12,
+      "halfWidth": 13.6,
+      "height": 83.094,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "P0025.e8eadadaf26d45289bc245ced48699fc"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "L0002.8ad6a2ed77a74d06b635a2449633ac77",
+          "type": "pijler"
+        },
+        {
+          "id": "P0025.e8eadadaf26d45289bc245ced48699fc",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/761070436",
+        "tags": {
+          "bicycle": "no",
+          "bridge": "yes",
+          "destination:lanes": "Arnhem;Wolfheze|Nijmegen;Oberhausen",
+          "destination:ref:lanes": "N224|A12;A50",
+          "foot": "no",
+          "highway": "primary",
+          "lanes": "2",
+          "layer": "1",
+          "maxspeed": "80",
+          "name": "Verlengde Arnhemseweg",
+          "oneway": "yes",
+          "operator": "Provincie Gelderland",
+          "ref": "N224",
+          "surface": "asphalt",
+          "turn:lanes": "through|right"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 2
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 180000,440000,200000,460000 --run nl-9_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 78.3,
+      "dekBreedte": 23.2,
+      "brugLengte": 78.3,
+      "water": null,
+      "portaalhoogte": 20.9,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "L0002.a72b0e4e353b2579e05332a1e90aa144",
+          "klasse": "Terrain",
+          "oppervlak": 81.8,
+          "onderDek": 0.51,
+          "bovenDekOnderkant": 0.85,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "L0002.98c1d6cffabf4b7aad730df775bdb3ae",
+          "klasse": "Terrain",
+          "oppervlak": 82.9,
+          "onderDek": 0.52,
+          "bovenDekOnderkant": 0.1,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        81.788,
+        82.944
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

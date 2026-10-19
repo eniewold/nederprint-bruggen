@@ -1,0 +1,145 @@
+{
+  "name": "Latjesbrug",
+  "file": "amsterdam-latjesbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    122489.03,
+    486917.4
+  ],
+  "xAxis": [
+    -0.728608,
+    0.684931
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 45.27,
+  "groundSamplePoints": [
+    [
+      -13.25,
+      0
+    ],
+    [
+      13.25,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0363.a2e91da992214188ad8a63f29626f170"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        122497.8,
+        486909.15
+      ],
+      "axis": [
+        0.728608,
+        -0.684931
+      ],
+      "halfLength": 6.02,
+      "halfWidth": 14.11,
+      "height": 45.7,
+      "gradient": [
+        -0.02491,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        122480.25,
+        486925.65
+      ],
+      "axis": [
+        -0.728608,
+        0.684931
+      ],
+      "halfLength": 6.02,
+      "halfWidth": 14.11,
+      "height": 45.56,
+      "gradient": [
+        -0.04823,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0363.a2e91da992214188ad8a63f29626f170"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0363.a2e91da992214188ad8a63f29626f170",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/456748805",
+        "tags": {
+          "bridge": "movable",
+          "bridge:name": "Latjesbrug",
+          "bridge:ref": "50",
+          "cycleway:both": "no",
+          "highway": "tertiary",
+          "lanes": "2",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "30",
+          "maxweight:signed": "no",
+          "name": "Latjesbrug",
+          "sidewalk": "both",
+          "surface": "asphalt",
+          "bridge:structure": "beam",
+          "man_made": "bridge",
+          "wikidata": "Q41710884",
+          "wikimedia_commons": "Category:Brug 50, Latjesbrug"
+        }
+      },
+      "fis": {
+        "id": 32100,
+        "naam": "Latjesbrug (Brug 50)",
+        "afstand": 1,
+        "beweegbaar": true,
+        "doorvaarthoogteGesloten": 2.46
+      },
+      "pdokBridgeVlakken": 1
+    },
+    "type": "basculebrug",
+    "doorvaarthoogte": 2.46,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 12,
+      "dekBreedte": 24.2,
+      "brugLengte": 12,
+      "water": [
+        -5.5,
+        6
+      ],
+      "portaalhoogte": 21.8,
+      "opritafstand": [
+        7.2,
+        7.2
+      ],
+      "oprithelling": 12,
+      "doorstekend": [],
+      "opritHoogtes": [
+        45.55,
+        45.27
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "bridge=movable zonder mechanisme: basculebrug is een gok",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

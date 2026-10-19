@@ -1,0 +1,161 @@
+{
+  "name": "Oosterdoksspoorbrug",
+  "file": "amsterdam-oosterdoksspoorbrug-2.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    122511.95,
+    487767.17
+  ],
+  "xAxis": [
+    0.991744,
+    0.128235
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 48.459,
+  "groundSamplePoints": [
+    [
+      -16.64,
+      0
+    ],
+    [
+      16.79,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "L0004.78f61af4c38f4f9aaccddf6fe89752e4",
+    "L0004.9cbd86f2af3f407dbd4c2ad72ab43f31",
+    "L0004.24e6c402b4204dfe9f70a77caf965eda"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        122483.55,
+        487763.49
+      ],
+      "axis": [
+        -0.991744,
+        -0.128235
+      ],
+      "halfLength": 12,
+      "halfWidth": 21.28,
+      "height": 48.556,
+      "gradient": [
+        -0.00807,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        122540.5,
+        487770.86
+      ],
+      "axis": [
+        0.991744,
+        0.128235
+      ],
+      "halfLength": 12,
+      "halfWidth": 21.28,
+      "height": 48.653,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "L0004.78f61af4c38f4f9aaccddf6fe89752e4"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "L0004.78f61af4c38f4f9aaccddf6fe89752e4",
+          "type": "dek"
+        },
+        {
+          "id": "L0004.9cbd86f2af3f407dbd4c2ad72ab43f31",
+          "type": "landhoofd"
+        }
+      ],
+      "osm": {
+        "id": "way/513172013",
+        "tags": {
+          "axle_load": "22.5",
+          "bridge": "yes",
+          "description": "Amsterdam Centraal",
+          "electrified": "contact_line",
+          "frequency": "0",
+          "gauge": "1435",
+          "layer": "1",
+          "loading_gauge": "TSI_GB",
+          "maxspeed": "40",
+          "name": "Gooilijn",
+          "operator": "ProRail",
+          "railway": "rail",
+          "railway:atb": "yes",
+          "railway:maximum_current": "4000",
+          "railway:track_class": "D4",
+          "ref": "586",
+          "ref:ProRailID": "2880217.0",
+          "ref:ProRailSpoortak": "586_335AR_81.4",
+          "source": "ProRail",
+          "source:date": "2014-01-03",
+          "usage": "main",
+          "voltage": "1500",
+          "wikidata": "Q801845",
+          "wikipedia": "nl:Spoorlijn Amsterdam - Zutphen",
+          "bridge:structure": "beam",
+          "man_made": "bridge",
+          "bridge:movable": "bascule"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 2
+    },
+    "type": "basculebrug",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 33.4,
+      "dekBreedte": 38.6,
+      "brugLengte": 33.4,
+      "water": null,
+      "portaalhoogte": 34.7,
+      "opritafstand": [
+        0,
+        0
+      ],
+      "spoorhoogteBron": "prorail-pvs",
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "L0004.24e6c402b4204dfe9f70a77caf965eda",
+          "klasse": "Separation",
+          "oppervlak": 5.4,
+          "onderDek": 1,
+          "bovenDekOnderkant": 0.44,
+          "actie": "verbergen"
+        }
+      ],
+      "opritHoogtes": [
+        48.459,
+        48.653
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "1 PDOK-vorm(en) door het dek: 1 verborgen, 0 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

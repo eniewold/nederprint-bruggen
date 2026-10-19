@@ -1,0 +1,141 @@
+{
+  "name": "Aluminiumbrug",
+  "file": "amsterdam-aluminiumbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    121564.72,
+    486834.59
+  ],
+  "xAxis": [
+    -0.871871,
+    0.489735
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 44.556,
+  "groundSamplePoints": [
+    [
+      -8.43,
+      0
+    ],
+    [
+      8.43,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0363.fbad970023e1423d926d2de644c935ba"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        121571.4,
+        486830.84
+      ],
+      "axis": [
+        0.871871,
+        -0.489735
+      ],
+      "halfLength": 3.83,
+      "halfWidth": 6.61,
+      "height": 44.753,
+      "gradient": [
+        -0.05121,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        121558.03,
+        486838.35
+      ],
+      "axis": [
+        -0.871871,
+        0.489735
+      ],
+      "halfLength": 3.83,
+      "halfWidth": 6.61,
+      "height": 44.799,
+      "gradient": [
+        -0.03913,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0363.fbad970023e1423d926d2de644c935ba"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0363.fbad970023e1423d926d2de644c935ba",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/563515435",
+        "tags": {
+          "bridge": "movable",
+          "bridge:movable": "bascule",
+          "check_date:cycleway": "2021-06-06",
+          "cycleway:both": "no",
+          "highway": "residential",
+          "lanes": "1",
+          "layer": "1",
+          "maxspeed": "30",
+          "maxweight:signed": "no",
+          "name": "Aluminiumbrug",
+          "smoothness": "intermediate",
+          "surface": "asphalt",
+          "zone:maxspeed": "NL:30",
+          "bridge:structure": "humpback",
+          "man_made": "bridge",
+          "wikidata": "Q17291498",
+          "wikimedia_commons": "Category:Brug 222, Aluminiumbrug",
+          "wikipedia": "nl:Aluminiumbrug"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "basculebrug",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 7.7,
+      "dekBreedte": 9.2,
+      "brugLengte": 7.7,
+      "water": [
+        -3.3,
+        3.7
+      ],
+      "portaalhoogte": 8.3,
+      "opritafstand": [
+        4.6,
+        4.6
+      ],
+      "oprithelling": 7.7,
+      "doorstekend": [],
+      "opritHoogtes": [
+        44.556,
+        44.649
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "OSM zegt humpback, gekozen type basculebrug",
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

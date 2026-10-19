@@ -1,0 +1,190 @@
+{
+  "name": "sleeuwijk-brug-8c4eacf6",
+  "file": "sleeuwijk-brug-8c4eacf6.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    123616.5,
+    423914.37
+  ],
+  "xAxis": [
+    0.271151,
+    0.962537
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 43.778,
+  "groundSamplePoints": [
+    [
+      -36.61,
+      0
+    ],
+    [
+      36.6,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "L0002.8c4eacf64410436593c0a71f4da62893",
+    "L0002.bca39d42eba247af9408f862e62c5be4",
+    "L0002.f368c218a3f6477fba0f37f3b734bda7"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        123616.5,
+        423914.37
+      ],
+      "axis": [
+        0.271151,
+        0.962537
+      ],
+      "halfLength": 10.58,
+      "halfWidth": 17.35,
+      "height": 42.969,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.56,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        123608.73,
+        423886.79
+      ],
+      "axis": [
+        -0.271151,
+        -0.962537
+      ],
+      "halfLength": 12,
+      "halfWidth": 18.85,
+      "height": 44.119,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        123624.26,
+        423941.93
+      ],
+      "axis": [
+        0.271151,
+        0.962537
+      ],
+      "halfLength": 12,
+      "halfWidth": 18.85,
+      "height": 44.024,
+      "gradient": [
+        -0.02045,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "L0002.8c4eacf64410436593c0a71f4da62893"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "L0002.8c4eacf64410436593c0a71f4da62893",
+          "type": "dek"
+        },
+        {
+          "id": "L0002.bca39d42eba247af9408f862e62c5be4",
+          "type": "onbekend"
+        },
+        {
+          "id": "L0002.f368c218a3f6477fba0f37f3b734bda7",
+          "type": "onbekend"
+        }
+      ],
+      "osm": {
+        "id": "way/7118609",
+        "tags": {
+          "bridge": "yes",
+          "bus": "yes",
+          "carriageway_ref": "Re",
+          "change:lanes": "no|not_right|no",
+          "emergency": "yes",
+          "hgv": "no",
+          "highway": "motorway",
+          "int_ref": "E 311",
+          "lanes": "3",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "100",
+          "oneway": "yes",
+          "operator": "Rijkswaterstaat",
+          "placement": "right_of:1",
+          "ref": "A27",
+          "source:hgv": "https://www.rijkswaterstaat.nl/nieuws/archief/2026/07/vrachtverkeer-vanaf-18-juli-2026-18-00-uur-niet-meer-over-de-merwedebrug-gorinchem-a27",
+          "surface": "asphalt",
+          "toll:hgv": "yes",
+          "tourist_bus": "no",
+          "zone:traffic": "NL:rural"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 3
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,420000,140000,440000 --run nl-6_6 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 33.2,
+      "dekBreedte": 33.7,
+      "brugLengte": 33.3,
+      "water": [
+        -9.1,
+        8.9
+      ],
+      "portaalhoogte": 30.3,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0870.282053a1612451dfe05332a1e90afe8e",
+          "klasse": "Terrain",
+          "oppervlak": 784.3,
+          "onderDek": 0.15,
+          "bovenDekOnderkant": 0.56,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0870.282053a1692c51dfe05332a1e90afe8e",
+          "klasse": "Terrain",
+          "oppervlak": 540.2,
+          "onderDek": 0.07,
+          "bovenDekOnderkant": 0.42,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        43.969,
+        43.778
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

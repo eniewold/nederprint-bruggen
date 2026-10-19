@@ -1,0 +1,187 @@
+{
+  "name": "Koningssluis",
+  "file": "amsterdam-koningssluis.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    121018.37,
+    486659.7
+  ],
+  "xAxis": [
+    0.891743,
+    0.452541
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 44.755,
+  "groundSamplePoints": [
+    [
+      -24.27,
+      0.86
+    ],
+    [
+      24.39,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0363.9d5302bab60a47d7976efd599df58318",
+    "G0363.e0451412fb1c4b02aa32881e9e4c8233",
+    "G0363.49cd887c15ba4dcfa633f5f78fd8765a"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        121018.37,
+        486659.7
+      ],
+      "axis": [
+        0.891743,
+        0.452541
+      ],
+      "halfLength": 8.39,
+      "halfWidth": 13.49,
+      "height": 43.863,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -2.03,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        120994.83,
+        486647.76
+      ],
+      "axis": [
+        -0.891743,
+        -0.452541
+      ],
+      "halfLength": 12,
+      "halfWidth": 14.99,
+      "height": 45.013,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        121041.9,
+        486671.65
+      ],
+      "axis": [
+        0.891743,
+        0.452541
+      ],
+      "halfLength": 12,
+      "halfWidth": 14.99,
+      "height": 44.959,
+      "gradient": [
+        -0.01699,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0363.49cd887c15ba4dcfa633f5f78fd8765a"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0363.9d5302bab60a47d7976efd599df58318",
+          "type": "pijler"
+        },
+        {
+          "id": "G0363.e0451412fb1c4b02aa32881e9e4c8233",
+          "type": "pijler"
+        },
+        {
+          "id": "G0363.49cd887c15ba4dcfa633f5f78fd8765a",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/563919503",
+        "tags": {
+          "bridge": "yes",
+          "bridge:ref": "29",
+          "highway": "pedestrian",
+          "layer": "1",
+          "lit": "yes",
+          "surface": "paving_stones",
+          "bridge:structure": "humpback",
+          "loc_ref": "29",
+          "man_made": "bridge",
+          "name": "Koningssluis",
+          "wikipedia": "nl:Koningssluis"
+        }
+      },
+      "fis": {
+        "id": 1021203,
+        "naam": "Koningssluisbrug (Brug 29)",
+        "afstand": 8,
+        "beweegbaar": false,
+        "doorvaarthoogteGesloten": 2.2
+      },
+      "pdokBridgeVlakken": 3
+    },
+    "type": "bolbrug",
+    "doorvaarthoogte": 2.2,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 28.8,
+      "dekBreedte": 26,
+      "brugLengte": 28.8,
+      "water": [
+        -9.9,
+        10.1
+      ],
+      "portaalhoogte": 23.4,
+      "opritafstand": [
+        10,
+        10
+      ],
+      "spoorhoogteBron": "pdok",
+      "oprithelling": 24,
+      "bolling": 2.5,
+      "doorstekend": [
+        {
+          "gmlId": "G0363.933e4089281645e5906debd69686c943",
+          "klasse": "Road",
+          "oppervlak": 69.2,
+          "onderDek": 0,
+          "bovenDekOnderkant": 1.03,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0363.6fb7cabe88a641daad87066005bf9aee",
+          "klasse": "Terrain",
+          "oppervlak": 11.8,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.45,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        44.863,
+        44.755
+      ]
+    },
+    "waarschuwingen": [
+      "oprit -: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "oprit +: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

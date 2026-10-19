@@ -1,0 +1,155 @@
+{
+  "name": "Rijndijk",
+  "file": "hazerswoude-rijndijk-brug-1930a3e6-4.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    101526.56,
+    460423.07
+  ],
+  "xAxis": [
+    -0.193375,
+    -0.981125
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 43.427,
+  "groundSamplePoints": [
+    [
+      -5.59,
+      0
+    ],
+    [
+      5.59,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0484.1930a3e6aed06704e06346f8200a523f"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        101526.56,
+        460423.07
+      ],
+      "axis": [
+        -0.193375,
+        -0.981125
+      ],
+      "halfLength": 0.8,
+      "halfWidth": 2.29,
+      "height": 43.036,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.17,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        101527.45,
+        460427.57
+      ],
+      "axis": [
+        0.193375,
+        0.981125
+      ],
+      "halfLength": 3,
+      "halfWidth": 2.68,
+      "height": 44.186,
+      "gradient": [
+        -0.05,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        101525.68,
+        460418.56
+      ],
+      "axis": [
+        -0.193375,
+        -0.981125
+      ],
+      "halfLength": 3,
+      "halfWidth": 2.68,
+      "height": 43.882,
+      "gradient": [
+        -0.15148,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0484.1930a3e6aed06704e06346f8200a523f"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0484.1930a3e6aed06704e06346f8200a523f",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1128385517",
+        "tags": {
+          "bridge": "yes",
+          "highway": "service",
+          "layer": "1",
+          "name": "Rijndijk",
+          "service": "driveway"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,460000,120000,480000 --run nl-5_8 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 3.2,
+      "dekBreedte": 3.6,
+      "brugLengte": 3.2,
+      "water": [
+        -0.6,
+        1.4
+      ],
+      "portaalhoogte": 3.2,
+      "opritafstand": [
+        4,
+        4
+      ],
+      "oprithelling": 6,
+      "doorstekend": [
+        {
+          "gmlId": "G0484.5d12923627eb4f9ae05370f9200a2a69",
+          "klasse": "Terrain",
+          "oppervlak": 23.5,
+          "onderDek": 0.01,
+          "bovenDekOnderkant": 0.17,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        44.036,
+        43.427
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

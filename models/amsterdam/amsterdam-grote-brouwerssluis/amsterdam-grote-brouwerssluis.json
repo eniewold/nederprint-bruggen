@@ -1,0 +1,143 @@
+{
+  "name": "Grote Brouwerssluis",
+  "file": "amsterdam-grote-brouwerssluis.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    120769.09,
+    487675.25
+  ],
+  "xAxis": [
+    -0.494957,
+    -0.868917
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 45.119,
+  "groundSamplePoints": [
+    [
+      -6.87,
+      0
+    ],
+    [
+      6.87,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0363.c1db4b8709cf4ffd8320b48deca2a45e"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        120771.99,
+        487680.35
+      ],
+      "axis": [
+        0.494957,
+        0.868917
+      ],
+      "halfLength": 3,
+      "halfWidth": 5.38,
+      "height": 45.561,
+      "gradient": [
+        -0.05,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        120766.18,
+        487670.15
+      ],
+      "axis": [
+        -0.494957,
+        -0.868917
+      ],
+      "halfLength": 3,
+      "halfWidth": 5.38,
+      "height": 45.415,
+      "gradient": [
+        -0.09879,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0363.c1db4b8709cf4ffd8320b48deca2a45e"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0363.c1db4b8709cf4ffd8320b48deca2a45e",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1044770702",
+        "tags": {
+          "bridge": "yes",
+          "bridge:ref": "62",
+          "highway": "residential",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "30",
+          "maxweight:signed": "no",
+          "name": "Grote Brouwerssluis",
+          "oneway": "no",
+          "sidewalk": "both",
+          "sidewalk:both:surface": "paving_stones",
+          "smoothness": "intermediate",
+          "surface": "paving_stones",
+          "zone:maxspeed": "NL:30",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
+      "fis": {
+        "id": 42658297,
+        "naam": "Grote Brouwerssluisbrug (Brug 62)",
+        "afstand": 1,
+        "beweegbaar": false,
+        "doorvaarthoogteGesloten": 2.8
+      },
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": 2.8,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 5.7,
+      "dekBreedte": 7.2,
+      "brugLengte": 5.7,
+      "water": [
+        -2.4,
+        2.6
+      ],
+      "portaalhoogte": 6.5,
+      "opritafstand": [
+        4,
+        4
+      ],
+      "oprithelling": 6,
+      "doorstekend": [],
+      "opritHoogtes": [
+        45.411,
+        45.119
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "name": "Ryckerbrug",
+  "file": "amsterdam-ryckerbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    120085.32,
+    487236.01
+  ],
+  "xAxis": [
+    0.938383,
+    0.345598
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 44.829,
+  "groundSamplePoints": [
+    [
+      -23.45,
+      1.46
+    ],
+    [
+      23.45,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0363.6dbb0a3670644c678e5f1b48a81a7868",
+    "G0363.719d0c8b117b43bbb7e18699a40310c8",
+    "G0363.fa71e629baa54b359c77889d4f628ff6"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        120061.44,
+        487227.22
+      ],
+      "axis": [
+        -0.938383,
+        -0.345598
+      ],
+      "halfLength": 12,
+      "halfWidth": 15.44,
+      "height": 45.153,
+      "gradient": [
+        -0.02697,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        120109.2,
+        487244.81
+      ],
+      "axis": [
+        0.938383,
+        0.345598
+      ],
+      "halfLength": 12,
+      "halfWidth": 15.44,
+      "height": 45.327,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0363.719d0c8b117b43bbb7e18699a40310c8"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0363.6dbb0a3670644c678e5f1b48a81a7868",
+          "type": "pijler"
+        },
+        {
+          "id": "G0363.719d0c8b117b43bbb7e18699a40310c8",
+          "type": "dek"
+        },
+        {
+          "id": "G0363.fa71e629baa54b359c77889d4f628ff6",
+          "type": "pijler"
+        }
+      ],
+      "osm": {
+        "id": "way/532800882",
+        "tags": {
+          "bridge": "yes",
+          "embedded_rails": "tram",
+          "emergency": "yes",
+          "highway": "busway",
+          "lanes": "2",
+          "layer": "1",
+          "maxspeed": "50",
+          "name": "Ryckerbrug",
+          "taxi": "no",
+          "alt_name": "Rijckerbrug",
+          "bridge:structure": "humpback",
+          "heritage": "8",
+          "loc_ref": "167",
+          "man_made": "bridge",
+          "wikidata": "Q21090262",
+          "wikimedia_commons": "Category:Brug 167, Rijckerbrug",
+          "wikipedia": "nl:Rijckerbrug"
+        }
+      },
+      "fis": {
+        "id": 42503064,
+        "naam": "Rijckerbrug (Brug 167)",
+        "afstand": 2,
+        "beweegbaar": false,
+        "doorvaarthoogteGesloten": 2.2
+      },
+      "pdokBridgeVlakken": 3
+    },
+    "type": "bolbrug",
+    "doorvaarthoogte": 2.2,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 26.9,
+      "dekBreedte": 26.9,
+      "brugLengte": 26.9,
+      "water": [
+        -12,
+        11.5
+      ],
+      "portaalhoogte": 24.2,
+      "opritafstand": [
+        10,
+        10
+      ],
+      "spoorhoogteBron": "pdok",
+      "oprithelling": 24,
+      "bolling": 2.5,
+      "doorstekend": [],
+      "opritHoogtes": [
+        44.829,
+        45.177
+      ]
+    },
+    "waarschuwingen": [
+      "oprit -: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "oprit +: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

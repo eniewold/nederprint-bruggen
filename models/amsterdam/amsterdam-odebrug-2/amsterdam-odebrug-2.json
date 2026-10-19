@@ -1,0 +1,201 @@
+{
+  "name": "Odebrug",
+  "file": "amsterdam-odebrug-2.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    122055.12,
+    487742.56
+  ],
+  "xAxis": [
+    0.51816,
+    0.855284
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 44.495,
+  "groundSamplePoints": [
+    [
+      -59.46,
+      0
+    ],
+    [
+      59.46,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0363.82348e835453439ba284f0d9ecadc7b7",
+    "G0363.6d127e66557d491f8faa9438dc91a789",
+    "G0363.6cb2f289ad2a460c935bd0250c10fa24"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        122055.12,
+        487742.56
+      ],
+      "axis": [
+        0.51816,
+        0.855284
+      ],
+      "halfLength": 33.46,
+      "halfWidth": 13.77,
+      "height": 44.532,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -2.42,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        122028.45,
+        487698.54
+      ],
+      "axis": [
+        -0.51816,
+        -0.855284
+      ],
+      "halfLength": 12,
+      "halfWidth": 15.27,
+      "height": 45.682,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        122081.79,
+        487786.57
+      ],
+      "axis": [
+        0.51816,
+        0.855284
+      ],
+      "halfLength": 12,
+      "halfWidth": 15.27,
+      "height": 45.164,
+      "gradient": [
+        -0.05572,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0363.6d127e66557d491f8faa9438dc91a789"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0363.82348e835453439ba284f0d9ecadc7b7",
+          "type": "pijler"
+        },
+        {
+          "id": "G0363.6d127e66557d491f8faa9438dc91a789",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/452147520",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "yes",
+          "check_date": "2024-05-24",
+          "foot": "use_sidepath",
+          "highway": "secondary",
+          "lanes": "1",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "50",
+          "maxspeed:type": "NL:urban",
+          "name": "Odebrug",
+          "oneway": "yes",
+          "placement": "transition",
+          "sidewalk:right": "separate",
+          "surface": "asphalt",
+          "zone:traffic": "NL:urban",
+          "alt_name": "Oosterdokseilandbrug",
+          "area": "yes",
+          "bridge:structure": "beam",
+          "bridge_ref": "2358",
+          "man_made": "bridge",
+          "old_name": "ODE-brug",
+          "wikidata": "Q1942595",
+          "wikimedia_commons": "Category:Brug 2358, Odebrug",
+          "wikipedia": "nl:Odebrug"
+        }
+      },
+      "fis": {
+        "id": 42680232,
+        "naam": "Odebrug (Brug 2358)",
+        "afstand": 12,
+        "beweegbaar": false,
+        "doorvaarthoogteGesloten": 2.58
+      },
+      "pdokBridgeVlakken": 2
+    },
+    "type": "ligger",
+    "doorvaarthoogte": 2.58,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 78.9,
+      "dekBreedte": 26.5,
+      "brugLengte": 78.9,
+      "water": [
+        -33,
+        39
+      ],
+      "portaalhoogte": 23.9,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0363.736a8f272df84ddb8e6b80423f8deb18",
+          "klasse": "Road",
+          "oppervlak": 3351.7,
+          "onderDek": 0,
+          "bovenDekOnderkant": 1.42,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0363.6cb2f289ad2a460c935bd0250c10fa24",
+          "klasse": "Road",
+          "oppervlak": 6,
+          "onderDek": 1,
+          "bovenDekOnderkant": 1.37,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "G0363.694776eaa9e04c6a898dfb97fec2c712",
+          "klasse": "Road",
+          "oppervlak": 14.3,
+          "onderDek": 0.21,
+          "bovenDekOnderkant": 1.32,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        45.532,
+        44.495
+      ]
+    },
+    "waarschuwingen": [
+      "3 PDOK-vorm(en) door het dek: 1 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

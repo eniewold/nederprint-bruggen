@@ -1,0 +1,186 @@
+{
+  "name": "amsterdam-brug-8f4b185e",
+  "file": "amsterdam-brug-8f4b185e.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    127692.49,
+    485861.48
+  ],
+  "xAxis": [
+    0.755632,
+    -0.654997
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 45.438,
+  "groundSamplePoints": [
+    [
+      -131.27,
+      0
+    ],
+    [
+      71.25,
+      -6.72
+    ]
+  ],
+  "replacesTerrain": [
+    "G0363.122e922ab5a14d03801d1e585ef9785a",
+    "G0363.49f42bcca02e464aa77970c16256c565",
+    "G0363.4b181a56fecf4803b62eb67846dcfb7a",
+    "G0363.7712f3c317bb439b9a4d2352e92b16f0",
+    "G0363.88c870afabbd403eb56b7d522a5b389a",
+    "G0363.8f4b185ed24f4859991fa74d761fe93a",
+    "G0363.a35fcbc46977459083c82cb3c6293da0",
+    "G0363.c85a259ee28a4b94b0e86adef64a3a5c",
+    "G0363.068ac7822c8b4eeb827caf95225daa0b"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        127637.12,
+        485909.48
+      ],
+      "axis": [
+        -0.755632,
+        0.654997
+      ],
+      "halfLength": 12,
+      "halfWidth": 24.38,
+      "height": 46.231,
+      "gradient": [
+        -0.0661,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        127747.86,
+        485813.49
+      ],
+      "axis": [
+        0.755632,
+        -0.654997
+      ],
+      "halfLength": 12,
+      "halfWidth": 24.38,
+      "height": 46.875,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0363.8f4b185ed24f4859991fa74d761fe93a"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0363.122e922ab5a14d03801d1e585ef9785a",
+          "type": "pijler"
+        },
+        {
+          "id": "G0363.49f42bcca02e464aa77970c16256c565",
+          "type": "pijler"
+        },
+        {
+          "id": "G0363.4b181a56fecf4803b62eb67846dcfb7a",
+          "type": "pijler"
+        },
+        {
+          "id": "G0363.7712f3c317bb439b9a4d2352e92b16f0",
+          "type": "pijler"
+        },
+        {
+          "id": "G0363.88c870afabbd403eb56b7d522a5b389a",
+          "type": "pijler"
+        },
+        {
+          "id": "G0363.8f4b185ed24f4859991fa74d761fe93a",
+          "type": "dek"
+        },
+        {
+          "id": "G0363.a35fcbc46977459083c82cb3c6293da0",
+          "type": "pijler"
+        },
+        {
+          "id": "G0363.c85a259ee28a4b94b0e86adef64a3a5c",
+          "type": "pijler"
+        }
+      ],
+      "osm": {
+        "id": "relation/8588648",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "yes",
+          "foot": "use_sidepath",
+          "highway": "secondary",
+          "lane_markings": "yes",
+          "lanes": "2",
+          "layer": "1",
+          "maxspeed": "50",
+          "maxweight:signed": "no",
+          "mofa": "use_sidepath",
+          "oneway": "yes",
+          "operator": "Gemeente Amsterdam",
+          "ref": "S114",
+          "surface": "asphalt",
+          "bridge:ref": "2002",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 8
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 122.5,
+      "dekBreedte": 44.8,
+      "brugLengte": 122.5,
+      "water": [
+        -41.8,
+        41.7
+      ],
+      "portaalhoogte": 40.3,
+      "opritafstand": [
+        70,
+        10
+      ],
+      "spoorhoogteBron": "pdok",
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0363.068ac7822c8b4eeb827caf95225daa0b",
+          "klasse": "Terrain",
+          "oppervlak": 0.6,
+          "onderDek": 1,
+          "bovenDekOnderkant": 1.46,
+          "actie": "verbergen"
+        }
+      ],
+      "opritHoogtes": [
+        45.438,
+        46.725
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "oprit -: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "oprit - pas op 70 m langs het spoor gemeten (PDOK-spoorterrein bij de brug lager)",
+      "oprit +: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "1 PDOK-vorm(en) door het dek: 1 verborgen, 0 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

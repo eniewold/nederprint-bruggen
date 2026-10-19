@@ -1,0 +1,142 @@
+{
+  "name": "Hoofdbrug",
+  "file": "amsterdam-hoofdbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    122007.76,
+    487717.59
+  ],
+  "xAxis": [
+    -0.595358,
+    0.803461
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 45.949,
+  "groundSamplePoints": [
+    [
+      -110.06,
+      20.18
+    ],
+    [
+      53.33,
+      -7.43
+    ]
+  ],
+  "replacesTerrain": [
+    "G0363.f23326958d504c6b9fd10f79d9afdf90"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        122011.76,
+        487712.2
+      ],
+      "axis": [
+        0.595358,
+        -0.803461
+      ],
+      "halfLength": 3.35,
+      "halfWidth": 20.66,
+      "height": 46.478,
+      "gradient": [
+        -0.04474,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        122003.77,
+        487722.97
+      ],
+      "axis": [
+        -0.595358,
+        0.803461
+      ],
+      "halfLength": 3.35,
+      "halfWidth": 20.66,
+      "height": 46.288,
+      "gradient": [
+        -0.1012,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0363.f23326958d504c6b9fd10f79d9afdf90"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0363.f23326958d504c6b9fd10f79d9afdf90",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/866310231",
+        "tags": {
+          "bridge": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "lit": "yes",
+          "mofa": "designated",
+          "moped": "no",
+          "name": "Hoofdbrug",
+          "oneway": "no",
+          "sidewalk": "right",
+          "smoothness": "good",
+          "surface": "asphalt",
+          "surface:colour": "red",
+          "traffic_sign": "NL:G11",
+          "width": "3.20",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 6.7,
+      "dekBreedte": 37.3,
+      "brugLengte": 6.7,
+      "water": [
+        -2.9,
+        3.1
+      ],
+      "portaalhoogte": 33.6,
+      "opritafstand": [
+        110,
+        50
+      ],
+      "spoorhoogteBron": "pdok",
+      "oprithelling": 6.7,
+      "doorstekend": [],
+      "opritHoogtes": [
+        46.328,
+        45.949
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "oprit -: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "oprit - pas op 110 m langs het spoor gemeten (PDOK-spoorterrein bij de brug lager)",
+      "oprit +: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "oprit + pas op 50 m langs het spoor gemeten (PDOK-spoorterrein bij de brug lager)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

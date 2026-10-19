@@ -1,0 +1,189 @@
+{
+  "name": "Diemerparklaan",
+  "file": "amsterdam-brug-208885c6.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    128156.13,
+    485171.58
+  ],
+  "xAxis": [
+    0.660213,
+    0.751078
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 44.769,
+  "groundSamplePoints": [
+    [
+      -46.81,
+      0
+    ],
+    [
+      46.81,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0363.208885c6685a4edfa4de38ce3e1548a1",
+    "G0363.fa3f9a88c1974d32b87e474feadc6515"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        128156.13,
+        485171.58
+      ],
+      "axis": [
+        0.660213,
+        0.751078
+      ],
+      "halfLength": 20.81,
+      "halfWidth": 6.13,
+      "height": 44.011,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.45,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        128130.5,
+        485142.43
+      ],
+      "axis": [
+        -0.660213,
+        -0.751078
+      ],
+      "halfLength": 12,
+      "halfWidth": 7.63,
+      "height": 45.04,
+      "gradient": [
+        -0.02259,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        128181.75,
+        485200.73
+      ],
+      "axis": [
+        0.660213,
+        0.751078
+      ],
+      "halfLength": 12,
+      "halfWidth": 7.63,
+      "height": 45.161,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0363.208885c6685a4edfa4de38ce3e1548a1"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0363.208885c6685a4edfa4de38ce3e1548a1",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1274409671",
+        "tags": {
+          "bridge": "yes",
+          "bridge:ref": "2004",
+          "check_date:cycleway": "2026-10-11",
+          "cycleway:both": "no",
+          "highway": "residential",
+          "layer": "1",
+          "maxspeed": "30",
+          "maxweight:signed": "no",
+          "name": "Diemerparklaan",
+          "sidewalk": "both",
+          "smoothness": "good",
+          "surface": "asphalt",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 53.6,
+      "dekBreedte": 11.3,
+      "brugLengte": 53.6,
+      "water": [
+        -18.3,
+        13.7
+      ],
+      "portaalhoogte": 10.1,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0363.681b9d4d0e934a09aa3f7a171660f3f0",
+          "klasse": "Terrain",
+          "oppervlak": 6008.7,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.45,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0363.8c8cce0c99d4497a93e9973090166f0a",
+          "klasse": "Forest",
+          "oppervlak": 203.2,
+          "onderDek": 0.01,
+          "bovenDekOnderkant": 0.45,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0363.fa3f9a88c1974d32b87e474feadc6515",
+          "klasse": "Terrain",
+          "oppervlak": 69.4,
+          "onderDek": 1,
+          "bovenDekOnderkant": 0.35,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "G0363.068f04c0261b4709ac1941e8ed58757c",
+          "klasse": "Forest",
+          "oppervlak": 1578.3,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.35,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        44.769,
+        45.011
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "4 PDOK-vorm(en) door het dek: 1 verborgen, 3 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

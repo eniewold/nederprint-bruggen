@@ -1,0 +1,126 @@
+{
+  "name": "Waterlinie",
+  "file": "sleeuwijk-brug-40524962.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    125081.19,
+    424515.96
+  ],
+  "xAxis": [
+    -0.859901,
+    0.510461
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 43.076,
+  "groundSamplePoints": [
+    [
+      -6.17,
+      0
+    ],
+    [
+      6.17,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0870.4052496231932da5e05332a1e90a9371"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        125085.64,
+        424513.32
+      ],
+      "axis": [
+        0.859901,
+        -0.510461
+      ],
+      "halfLength": 3,
+      "halfWidth": 6.31,
+      "height": 43.335,
+      "gradient": [
+        -0.08637,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        125076.74,
+        424518.61
+      ],
+      "axis": [
+        -0.859901,
+        0.510461
+      ],
+      "halfLength": 3,
+      "halfWidth": 6.31,
+      "height": 43.444,
+      "gradient": [
+        -0.05,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0870.4052496231932da5e05332a1e90a9371"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0870.4052496231932da5e05332a1e90a9371",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/682268357",
+        "tags": {
+          "bridge": "yes",
+          "highway": "residential",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Waterlinie"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,420000,140000,440000 --run nl-6_6 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 4.3,
+      "dekBreedte": 8.6,
+      "brugLengte": 4.3,
+      "water": [
+        -1.7,
+        1.8
+      ],
+      "portaalhoogte": 7.8,
+      "opritafstand": [
+        4,
+        4
+      ],
+      "oprithelling": 6,
+      "doorstekend": [],
+      "opritHoogtes": [
+        43.076,
+        43.294
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

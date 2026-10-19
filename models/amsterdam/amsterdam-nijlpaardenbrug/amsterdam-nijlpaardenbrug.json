@@ -1,0 +1,140 @@
+{
+  "name": "Nijlpaardenbrug",
+  "file": "amsterdam-nijlpaardenbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    122758.27,
+    486853.57
+  ],
+  "xAxis": [
+    0.500463,
+    0.865758
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 43.842,
+  "groundSamplePoints": [
+    [
+      -11.05,
+      0
+    ],
+    [
+      11.05,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0363.c1d4b913e1164bbb82494186c4508697"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        122753.24,
+        486844.87
+      ],
+      "axis": [
+        -0.500463,
+        -0.865758
+      ],
+      "halfLength": 5.02,
+      "halfWidth": 3.2,
+      "height": 44.113,
+      "gradient": [
+        -0.02986,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        122763.3,
+        486862.26
+      ],
+      "axis": [
+        0.500463,
+        0.865758
+      ],
+      "halfLength": 5.02,
+      "halfWidth": 3.2,
+      "height": 44.052,
+      "gradient": [
+        -0.04186,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0363.c1d4b913e1164bbb82494186c4508697"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0363.c1d4b913e1164bbb82494186c4508697",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/889265362",
+        "tags": {
+          "bridge": "movable",
+          "bridge:movable": "bascule",
+          "foot": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "lit": "yes",
+          "mofa": "no",
+          "moped": "no",
+          "name": "Nijlpaardenbrug",
+          "oneway": "no",
+          "sidewalk": "left",
+          "smoothness": "intermediate",
+          "solitary": "yes",
+          "surface": "asphalt",
+          "surface:colour": "red",
+          "traffic_sign": "NL:G11",
+          "width": "3.00",
+          "man_made": "bridge",
+          "bridge:structure": "beam"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "basculebrug",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 10,
+      "dekBreedte": 4.3,
+      "brugLengte": 10,
+      "water": [
+        -4.5,
+        5
+      ],
+      "portaalhoogte": 3.8,
+      "opritafstand": [
+        6,
+        6
+      ],
+      "oprithelling": 10,
+      "doorstekend": [],
+      "opritHoogtes": [
+        43.963,
+        43.842
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

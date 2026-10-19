@@ -1,0 +1,133 @@
+{
+  "name": "Kamperbrug",
+  "file": "amsterdam-kamperbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    121970.34,
+    487814.31
+  ],
+  "xAxis": [
+    0.429134,
+    0.903241
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 46.39,
+  "groundSamplePoints": [
+    [
+      -18.28,
+      -2.66
+    ],
+    [
+      19.04,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0363.33190c15b14b46f58e66908c697879b2"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        121962.63,
+        487798.08
+      ],
+      "axis": [
+        -0.429134,
+        -0.903241
+      ],
+      "halfLength": 9,
+      "halfWidth": 16.51,
+      "height": 46.627,
+      "gradient": [
+        -0.01666,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        121978.08,
+        487830.61
+      ],
+      "axis": [
+        0.429134,
+        0.903241
+      ],
+      "halfLength": 9,
+      "halfWidth": 16.51,
+      "height": 46.583,
+      "gradient": [
+        -0.02152,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0363.33190c15b14b46f58e66908c697879b2"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0363.33190c15b14b46f58e66908c697879b2",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "relation/14476758",
+        "tags": {
+          "bridge": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "oneway": "no",
+          "smoothness": "good",
+          "man_made": "bridge",
+          "name": "Kamperbrug",
+          "ref": "285",
+          "wikidata": "Q2597613",
+          "wikipedia": "nl:Kamperbrug"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 18,
+      "dekBreedte": 29,
+      "brugLengte": 18,
+      "water": [
+        -7.5,
+        7.5
+      ],
+      "portaalhoogte": 26.1,
+      "opritafstand": [
+        10,
+        10
+      ],
+      "spoorhoogteBron": "pdok",
+      "oprithelling": 18,
+      "doorstekend": [],
+      "opritHoogtes": [
+        46.477,
+        46.39
+      ]
+    },
+    "waarschuwingen": [
+      "oprit -: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "oprit +: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "name": "Oosterdokskade",
+  "file": "amsterdam-brug-e132b63f.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    122553.54,
+    487621.85
+  ],
+  "xAxis": [
+    0.854157,
+    -0.520016
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 44.83,
+  "groundSamplePoints": [
+    [
+      -13.22,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0363.e132b63f06254b3d91957649930d0629"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        122543.27,
+        487628.1
+      ],
+      "axis": [
+        -0.854157,
+        0.520016
+      ],
+      "halfLength": 6.01,
+      "halfWidth": 0.9,
+      "height": 44.98,
+      "gradient": [
+        -0.02496,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0363.e132b63f06254b3d91957649930d0629"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0363.e132b63f06254b3d91957649930d0629",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1512307814",
+        "tags": {
+          "access": "private",
+          "bridge": "yes",
+          "highway": "service",
+          "layer": "1",
+          "name": "Oosterdokskade",
+          "note": "street closed",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 12,
+      "dekBreedte": 1.2,
+      "brugLengte": 12,
+      "water": [
+        -6,
+        3.5
+      ],
+      "portaalhoogte": 2.5,
+      "opritafstand": [
+        7.2,
+        21.6
+      ],
+      "oprithelling": 12,
+      "doorstekend": [],
+      "opritHoogtes": [
+        44.83,
+        null
+      ]
+    },
+    "waarschuwingen": [
+      "oprit + zonder PDOK-maaiveld",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

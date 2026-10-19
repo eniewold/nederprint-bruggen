@@ -1,0 +1,144 @@
+{
+  "name": "Halverstadbrug",
+  "file": "amsterdam-halverstadbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    122540.96,
+    486237.88
+  ],
+  "xAxis": [
+    -0.289612,
+    0.957144
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 44.468,
+  "groundSamplePoints": [
+    [
+      -14.74,
+      1.39
+    ],
+    [
+      14.74,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0363.fb07c99d10374e11bc155cd4e5e1893a"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        122543.7,
+        486228.81
+      ],
+      "axis": [
+        0.289612,
+        -0.957144
+      ],
+      "halfLength": 4.74,
+      "halfWidth": 9.53,
+      "height": 44.787,
+      "gradient": [
+        -0.06741,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        122538.21,
+        486246.94
+      ],
+      "axis": [
+        -0.289612,
+        0.957144
+      ],
+      "halfLength": 4.74,
+      "halfWidth": 9.53,
+      "height": 44.956,
+      "gradient": [
+        -0.03166,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0363.fb07c99d10374e11bc155cd4e5e1893a"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0363.fb07c99d10374e11bc155cd4e5e1893a",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/750132579",
+        "tags": {
+          "bridge": "yes",
+          "embedded_rails": "tram",
+          "highway": "tertiary",
+          "lanes": "2",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "30",
+          "maxweight:signed": "no",
+          "name": "Halverstadbrug",
+          "sidewalk": "both",
+          "surface": "asphalt",
+          "bridge:structure": "beam",
+          "man_made": "bridge",
+          "wikidata": "Q43986900",
+          "wikimedia_commons": "Category:Brug 260, Halverstadbrug"
+        }
+      },
+      "fis": {
+        "id": 3311191,
+        "naam": "Halverstadbrug (Brug 260)",
+        "afstand": 9,
+        "beweegbaar": false,
+        "doorvaarthoogteGesloten": 2.18
+      },
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": 2.18,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 9.5,
+      "dekBreedte": 15.1,
+      "brugLengte": 9.5,
+      "water": [
+        -3.2,
+        3.3
+      ],
+      "portaalhoogte": 13.6,
+      "opritafstand": [
+        10,
+        10
+      ],
+      "spoorhoogteBron": "pdok",
+      "oprithelling": 9.5,
+      "doorstekend": [],
+      "opritHoogtes": [
+        44.468,
+        44.806
+      ]
+    },
+    "waarschuwingen": [
+      "oprit -: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "oprit +: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

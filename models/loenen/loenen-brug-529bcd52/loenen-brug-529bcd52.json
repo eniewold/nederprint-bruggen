@@ -1,0 +1,176 @@
+{
+  "name": "Molen-Allee",
+  "file": "loenen-brug-529bcd52.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    198898.78,
+    459375.54
+  ],
+  "xAxis": [
+    0.987125,
+    -0.159951
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 60.814,
+  "groundSamplePoints": [
+    [
+      -8.81,
+      0
+    ],
+    [
+      8.81,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0200.529bcd52ae910154e0530a0a28499147"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        198898.78,
+        459375.54
+      ],
+      "axis": [
+        0.987125,
+        -0.159951
+      ],
+      "halfLength": 2,
+      "halfWidth": 2.2,
+      "height": 60.276,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.7,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        198890.87,
+        459376.82
+      ],
+      "axis": [
+        -0.987125,
+        0.159951
+      ],
+      "halfLength": 4,
+      "halfWidth": 2.55,
+      "height": 61.426,
+      "gradient": [
+        -0.03746,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        198906.68,
+        459374.26
+      ],
+      "axis": [
+        0.987125,
+        -0.159951
+      ],
+      "halfLength": 4,
+      "halfWidth": 2.55,
+      "height": 61.195,
+      "gradient": [
+        -0.09508,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0200.529bcd52ae910154e0530a0a28499147"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0200.529bcd52ae910154e0530a0a28499147",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/371895580",
+        "tags": {
+          "bridge": "yes",
+          "bridge:structure": "beam",
+          "highway": "service",
+          "lanes": "1",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Molen-Allee",
+          "service": "driveway",
+          "sidewalk": "no",
+          "smoothness": "good",
+          "surface": "concrete"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 180000,440000,200000,460000 --run nl-9_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 8,
+      "dekBreedte": 3.4,
+      "brugLengte": 8,
+      "water": [
+        -2.5,
+        2.5
+      ],
+      "portaalhoogte": 3.1,
+      "opritafstand": [
+        4.8,
+        4.8
+      ],
+      "oprithelling": 8,
+      "doorstekend": [
+        {
+          "gmlId": "W0662.9854a5975f271328e05332a1e90a86df",
+          "klasse": "Terrain",
+          "oppervlak": 290.6,
+          "onderDek": 0.01,
+          "bovenDekOnderkant": 0.7,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0200.42b3d392610b0268e0530a0a28492340",
+          "klasse": "Forest",
+          "oppervlak": 205.8,
+          "onderDek": 0.13,
+          "bovenDekOnderkant": 0.65,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "W0662.9854a5975e671328e05332a1e90a86df",
+          "klasse": "Terrain",
+          "oppervlak": 282.9,
+          "onderDek": 0.01,
+          "bovenDekOnderkant": 0.63,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        61.276,
+        60.814
+      ]
+    },
+    "waarschuwingen": [
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "3 PDOK-vorm(en) door het dek: 0 verborgen, 3 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}
