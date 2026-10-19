@@ -1,0 +1,126 @@
+{
+  "name": "oudewater-brug-a0115a40",
+  "file": "oudewater-brug-a0115a40.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    116321.7,
+    449067.24
+  ],
+  "xAxis": [
+    -0.345129,
+    0.938555
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 42,
+  "groundSamplePoints": [
+    [
+      -5.77,
+      0
+    ],
+    [
+      5.77,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0589.a0115a4058474ad69b34df89eca90bda"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        116323.34,
+        449062.77
+      ],
+      "axis": [
+        0.345129,
+        -0.938555
+      ],
+      "halfLength": 3,
+      "halfWidth": 2.77,
+      "height": 42.168,
+      "gradient": [
+        -0.05,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        116320.05,
+        449071.72
+      ],
+      "axis": [
+        -0.345129,
+        0.938555
+      ],
+      "halfLength": 3,
+      "halfWidth": 2.77,
+      "height": 42.159,
+      "gradient": [
+        -0.0531,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0589.a0115a4058474ad69b34df89eca90bda"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0589.a0115a4058474ad69b34df89eca90bda",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/967063522",
+        "tags": {
+          "access": "private",
+          "bridge": "yes",
+          "highway": "track",
+          "layer": "1",
+          "tracktype": "grade1"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,440000,120000,460000 --run nl-5_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 3.5,
+      "dekBreedte": 3.7,
+      "brugLengte": 3.5,
+      "water": [
+        -1.3,
+        1.7
+      ],
+      "portaalhoogte": 3.3,
+      "opritafstand": [
+        4,
+        4
+      ],
+      "oprithelling": 6,
+      "doorstekend": [],
+      "opritHoogtes": [
+        42.018,
+        42
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}
