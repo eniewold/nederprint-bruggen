@@ -1,0 +1,218 @@
+{
+  "name": "Schelluinse brug",
+  "file": "gorinchem-schelluinse-brug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    123310.18,
+    427796.76
+  ],
+  "xAxis": [
+    0.027544,
+    -0.999621
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 46.56,
+  "groundSamplePoints": [
+    [
+      -66.32,
+      0
+    ],
+    [
+      66.32,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0512.269dc3fa3f524d77b1d698eb4c808b9b",
+    "G0512.3083d35293064d61b61ed0a9389381f8",
+    "G0512.72943469c6f54364b58a20abfcdf701a",
+    "G0512.a75b4827f0fc4c7a8d310bb859207014",
+    "G0512.b76984e7554e41958500b67f8354fbcf",
+    "G0512.bd71b0778bf049e7baf7d2420f0835bf",
+    "W0621.4b98a3fb99b647fc9817d57abe73de3e",
+    "W0621.57238b5428054d3caa806362bb7c70f5",
+    "W0621.902c24501eda4b4eb1a351190d0f1b8f",
+    "W0621.e405fa98ac2046168d947e665b649169"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        123310.18,
+        427796.76
+      ],
+      "axis": [
+        0.027544,
+        -0.999621
+      ],
+      "halfLength": 40.32,
+      "halfWidth": 6.05,
+      "height": 49.087,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.21,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        123308.58,
+        427855.05
+      ],
+      "axis": [
+        -0.027544,
+        0.999621
+      ],
+      "halfLength": 12,
+      "halfWidth": 7.55,
+      "height": 48.473,
+      "gradient": [
+        -0.15946,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        123311.79,
+        427738.46
+      ],
+      "axis": [
+        0.027544,
+        -0.999621
+      ],
+      "halfLength": 12,
+      "halfWidth": 7.55,
+      "height": 50.237,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0512.269dc3fa3f524d77b1d698eb4c808b9b",
+      "G0512.3083d35293064d61b61ed0a9389381f8",
+      "G0512.72943469c6f54364b58a20abfcdf701a",
+      "G0512.a75b4827f0fc4c7a8d310bb859207014",
+      "G0512.b76984e7554e41958500b67f8354fbcf",
+      "G0512.bd71b0778bf049e7baf7d2420f0835bf",
+      "W0621.902c24501eda4b4eb1a351190d0f1b8f"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0512.269dc3fa3f524d77b1d698eb4c808b9b",
+          "type": "dek"
+        },
+        {
+          "id": "G0512.3083d35293064d61b61ed0a9389381f8",
+          "type": "dek"
+        },
+        {
+          "id": "G0512.72943469c6f54364b58a20abfcdf701a",
+          "type": "dek"
+        },
+        {
+          "id": "G0512.a75b4827f0fc4c7a8d310bb859207014",
+          "type": "dek"
+        },
+        {
+          "id": "G0512.b76984e7554e41958500b67f8354fbcf",
+          "type": "dek"
+        },
+        {
+          "id": "G0512.bd71b0778bf049e7baf7d2420f0835bf",
+          "type": "dek"
+        },
+        {
+          "id": "W0621.4b98a3fb99b647fc9817d57abe73de3e",
+          "type": "pijler"
+        },
+        {
+          "id": "W0621.57238b5428054d3caa806362bb7c70f5",
+          "type": "pijler"
+        },
+        {
+          "id": "W0621.902c24501eda4b4eb1a351190d0f1b8f",
+          "type": "dek"
+        },
+        {
+          "id": "W0621.e405fa98ac2046168d947e665b649169",
+          "type": "pijler"
+        }
+      ],
+      "osm": {
+        "id": "way/672958844",
+        "tags": {
+          "bridge": "yes",
+          "foot": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "lit": "yes",
+          "mofa": "yes",
+          "moped": "no",
+          "name": "Schelluinse brug",
+          "operator": "Waterschap Rivierenland",
+          "surface": "asphalt",
+          "traffic_sign": "NL:G11",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
+      "fis": {
+        "id": 27245,
+        "naam": "Schelluinse brug",
+        "afstand": 13,
+        "beweegbaar": false,
+        "doorvaarthoogteGesloten": 3.0199999999999996
+      },
+      "pdokBridgeVlakken": 10
+    },
+    "type": "ligger",
+    "doorvaarthoogte": 3.0199999999999996,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,420000,140000,440000 --run nl-6_6 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 92.6,
+      "dekBreedte": 11.1,
+      "brugLengte": 92.6,
+      "water": [
+        -44.3,
+        37.7
+      ],
+      "portaalhoogte": 10,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0512.e81de054e9414c62b35d3a53ef04fa37",
+          "klasse": "Road",
+          "oppervlak": 4246,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.21,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        46.56,
+        50.087
+      ]
+    },
+    "waarschuwingen": [
+      "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

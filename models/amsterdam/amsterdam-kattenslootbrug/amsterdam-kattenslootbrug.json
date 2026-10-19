@@ -1,0 +1,182 @@
+{
+  "name": "Kattenslootbrug",
+  "file": "amsterdam-kattenslootbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    120403.68,
+    488340.65
+  ],
+  "xAxis": [
+    0.18212,
+    -0.983276
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 45.505,
+  "groundSamplePoints": [
+    [
+      -19.25,
+      -0.77
+    ],
+    [
+      19.3,
+      -0.1
+    ]
+  ],
+  "replacesTerrain": [
+    "G0363.f1c9142defc24f0283b432f37eb558e4"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        120403.68,
+        488340.65
+      ],
+      "axis": [
+        0.18212,
+        -0.983276
+      ],
+      "halfLength": 4.65,
+      "halfWidth": 13.42,
+      "height": 44.578,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.36,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        120400.29,
+        488358.95
+      ],
+      "axis": [
+        -0.18212,
+        0.983276
+      ],
+      "halfLength": 9.31,
+      "halfWidth": 14.92,
+      "height": 45.691,
+      "gradient": [
+        -0.02003,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        120407.07,
+        488322.35
+      ],
+      "axis": [
+        0.18212,
+        -0.983276
+      ],
+      "halfLength": 9.31,
+      "halfWidth": 14.92,
+      "height": 45.728,
+      "gradient": [
+        -0.01612,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0363.f1c9142defc24f0283b432f37eb558e4"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0363.f1c9142defc24f0283b432f37eb558e4",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/74082965",
+        "tags": {
+          "bridge": "movable",
+          "bridge:movable": "bascule",
+          "electrified": "contact_line",
+          "frequency": "0",
+          "gauge": "1435",
+          "layer": "1",
+          "maxspeed": "50",
+          "oneway": "yes",
+          "railway": "tram",
+          "railway:atb": "no",
+          "railway:etcs": "no",
+          "railway:lzb": "no",
+          "railway:pzb": "no",
+          "voltage": "600",
+          "bridge:structure": "beam",
+          "loc_ref": "155",
+          "man_made": "bridge",
+          "name": "Kattenslootbrug",
+          "wikidata": "Q2761500",
+          "wikimedia_commons": "Category:Brug 155, Kattenslootbrug",
+          "wikipedia": "nl:Kattenslootbrug"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "basculebrug",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 18.6,
+      "dekBreedte": 25.8,
+      "brugLengte": 18.6,
+      "water": [
+        -5.8,
+        5.7
+      ],
+      "portaalhoogte": 23.2,
+      "opritafstand": [
+        10,
+        10
+      ],
+      "spoorhoogteBron": "pdok",
+      "oprithelling": 18.6,
+      "doorstekend": [
+        {
+          "gmlId": "G0363.e77395b4812c4b0b9b7effa43b5917e8",
+          "klasse": "Road",
+          "oppervlak": 363.9,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.36,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0363.6d739767bd1d477da50f7827c778cd05",
+          "klasse": "Road",
+          "oppervlak": 368,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.32,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        45.505,
+        45.578
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "oprit -: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "oprit +: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

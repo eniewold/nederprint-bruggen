@@ -1,0 +1,146 @@
+{
+  "name": "Gerben Wagenaarbrug",
+  "file": "amsterdam-gerben-wagenaarbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    122788.8,
+    488859.82
+  ],
+  "xAxis": [
+    -0.649412,
+    0.760437
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 44.418,
+  "groundSamplePoints": [
+    [
+      -58.17,
+      0
+    ],
+    [
+      58.17,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0363.7d0bfea93a854cf99e6fc8f052e0fa6b",
+    "G0363.f16d97f6d91c4ed3a346b97bcc63227f",
+    "G0363.9a667bfd62e34fff8086d4328ef0376b",
+    "G0363.783cda3b0ddc4b8e81bf9e4aeacacf06"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        122821.37,
+        488821.67
+      ],
+      "axis": [
+        0.649412,
+        -0.760437
+      ],
+      "halfLength": 12,
+      "halfWidth": 12.75,
+      "height": 45.045,
+      "gradient": [
+        -0.05224,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        122756.22,
+        488897.97
+      ],
+      "axis": [
+        -0.649412,
+        0.760437
+      ],
+      "halfLength": 12,
+      "halfWidth": 12.75,
+      "height": 45.522,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0363.9a667bfd62e34fff8086d4328ef0376b"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0363.7d0bfea93a854cf99e6fc8f052e0fa6b",
+          "type": "pijler"
+        },
+        {
+          "id": "G0363.f16d97f6d91c4ed3a346b97bcc63227f",
+          "type": "pijler"
+        },
+        {
+          "id": "G0363.9a667bfd62e34fff8086d4328ef0376b",
+          "type": "dek"
+        },
+        {
+          "id": "G0363.783cda3b0ddc4b8e81bf9e4aeacacf06",
+          "type": "pijler"
+        }
+      ],
+      "osm": {
+        "id": "way/474659918",
+        "tags": {
+          "bridge": "movable",
+          "bridge:structure": "humpback",
+          "layer": "1",
+          "man_made": "bridge"
+        }
+      },
+      "fis": {
+        "id": 51262,
+        "naam": "Gerben Wagenaarbrug (Brug 357)",
+        "afstand": 10,
+        "beweegbaar": true,
+        "doorvaarthoogteGesloten": 4.15
+      },
+      "pdokBridgeVlakken": 4
+    },
+    "type": "basculebrug",
+    "doorvaarthoogte": 4.15,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 76.3,
+      "dekBreedte": 21.5,
+      "brugLengte": 76.3,
+      "water": [
+        -0.7,
+        27.3
+      ],
+      "portaalhoogte": 19.4,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [],
+      "opritHoogtes": [
+        44.418,
+        45.372
+      ]
+    },
+    "waarschuwingen": [
+      "OSM zegt humpback, gekozen type basculebrug",
+      "bridge=movable zonder mechanisme: basculebrug is een gok"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

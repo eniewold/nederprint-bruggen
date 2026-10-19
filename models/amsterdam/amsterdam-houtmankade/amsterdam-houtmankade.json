@@ -1,0 +1,153 @@
+{
+  "name": "Houtmankade",
+  "file": "amsterdam-houtmankade.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    120750.73,
+    489074.02
+  ],
+  "xAxis": [
+    0.289295,
+    0.95724
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 44.203,
+  "groundSamplePoints": [
+    [
+      -15.48,
+      0
+    ],
+    [
+      18.17,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0363.1960d793cf8a40fd844ebb809d629be7",
+    "G0363.69044b69244e4d0c9056d92430f16731"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        120746.69,
+        489060.67
+      ],
+      "axis": [
+        -0.289295,
+        -0.95724
+      ],
+      "halfLength": 7.65,
+      "halfWidth": 10.31,
+      "height": 44.923,
+      "gradient": [
+        -0.01961,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        120755.54,
+        489089.95
+      ],
+      "axis": [
+        0.289295,
+        0.95724
+      ],
+      "halfLength": 7.65,
+      "halfWidth": 10.31,
+      "height": 44.638,
+      "gradient": [
+        -0.05688,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0363.1960d793cf8a40fd844ebb809d629be7",
+      "G0363.69044b69244e4d0c9056d92430f16731"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0363.1960d793cf8a40fd844ebb809d629be7",
+          "type": "dek"
+        },
+        {
+          "id": "G0363.69044b69244e4d0c9056d92430f16731",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/74081874",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "yes",
+          "bridge:name": "IJszeebrug",
+          "bridge:ref": "345",
+          "foot": "use_sidepath",
+          "highway": "primary",
+          "lanes": "2",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "30",
+          "mofa": "use_sidepath",
+          "name": "Houtmankade",
+          "oneway": "no",
+          "ref": "S100",
+          "sidewalk": "both",
+          "surface": "asphalt",
+          "zone:traffic": "NL:urban",
+          "bridge:structure": "beam",
+          "man_made": "bridge",
+          "source": "3dShapes"
+        }
+      },
+      "fis": {
+        "id": 21910978,
+        "naam": "IJszeebrug (Brug 345)",
+        "afstand": 5,
+        "beweegbaar": true,
+        "doorvaarthoogteGesloten": 2.12
+      },
+      "pdokBridgeVlakken": 2
+    },
+    "type": "ophaalbrug",
+    "doorvaarthoogte": 2.12,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 12.6,
+      "dekBreedte": 16.6,
+      "brugLengte": 15.3,
+      "water": [
+        -6.3,
+        6.2
+      ],
+      "portaalhoogte": 14.9,
+      "opritafstand": [
+        9.2,
+        9.2
+      ],
+      "oprithelling": 15.3,
+      "doorstekend": [],
+      "opritHoogtes": [
+        44.773,
+        44.203
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

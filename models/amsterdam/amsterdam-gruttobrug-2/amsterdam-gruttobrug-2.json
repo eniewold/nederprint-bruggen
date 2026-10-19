@@ -1,0 +1,184 @@
+{
+  "name": "Gruttobrug",
+  "file": "amsterdam-gruttobrug-2.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    126486.09,
+    488873.94
+  ],
+  "xAxis": [
+    -0.446933,
+    0.894568
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 44.985,
+  "groundSamplePoints": [
+    [
+      -21.75,
+      0
+    ],
+    [
+      21.75,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0363.2fa9a2eca8fc48b29c2babb25f244141",
+    "G0363.4c73055b52c34268ab05edd49a899559",
+    "G0363.baacb4d6b129417c9066ed8b5cd026a4"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        126486.09,
+        488873.94
+      ],
+      "axis": [
+        -0.446933,
+        0.894568
+      ],
+      "halfLength": 4.94,
+      "halfWidth": 15.2,
+      "height": 44.193,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.63,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        126494.92,
+        488856.25
+      ],
+      "axis": [
+        0.446933,
+        -0.894568
+      ],
+      "halfLength": 9.89,
+      "halfWidth": 16.7,
+      "height": 45.343,
+      "gradient": [
+        -0.01517,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        126477.25,
+        488891.62
+      ],
+      "axis": [
+        -0.446933,
+        0.894568
+      ],
+      "halfLength": 9.89,
+      "halfWidth": 16.7,
+      "height": 45.239,
+      "gradient": [
+        -0.02568,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0363.2fa9a2eca8fc48b29c2babb25f244141"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0363.2fa9a2eca8fc48b29c2babb25f244141",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/984726133",
+        "tags": {
+          "bridge": "yes",
+          "foot": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "lit": "yes",
+          "mofa": "no",
+          "moped": "no",
+          "oneway": "no",
+          "smoothness": "good",
+          "surface": "asphalt",
+          "surface:colour": "red",
+          "traffic_sign": "NL:G11",
+          "width": "3.80",
+          "bridge:ref": "471",
+          "man_made": "bridge",
+          "name": "Gruttobrug"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 19.8,
+      "dekBreedte": 29.4,
+      "brugLengte": 19.8,
+      "water": [
+        -3.4,
+        0.1
+      ],
+      "portaalhoogte": 26.5,
+      "opritafstand": [
+        11.9,
+        11.9
+      ],
+      "oprithelling": 19.8,
+      "doorstekend": [
+        {
+          "gmlId": "G0363.9f78a91ed8b342d8a7379a5350e9d3d8",
+          "klasse": "Terrain",
+          "oppervlak": 119.4,
+          "onderDek": 0.64,
+          "bovenDekOnderkant": 0.63,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0363.4c73055b52c34268ab05edd49a899559",
+          "klasse": "Separation",
+          "oppervlak": 11.3,
+          "onderDek": 1,
+          "bovenDekOnderkant": 0.55,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "G0363.baacb4d6b129417c9066ed8b5cd026a4",
+          "klasse": "Road",
+          "oppervlak": 211.6,
+          "onderDek": 0.91,
+          "bovenDekOnderkant": 0.48,
+          "actie": "verbergen"
+        }
+      ],
+      "opritHoogtes": [
+        45.193,
+        44.985
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "3 PDOK-vorm(en) door het dek: 2 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "name": "Staatsliedenbrug",
+  "file": "amsterdam-staatsliedenbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    120267.23,
+    488490.55
+  ],
+  "xAxis": [
+    -0.715518,
+    0.698594
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 44.846,
+  "groundSamplePoints": [
+    [
+      -19.1,
+      -1.5
+    ],
+    [
+      19.07,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0363.02eee96450ae4e49aef4848f5f962fb6",
+    "G0363.59c35c643b1e4237a850530ee6f79349"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        120280.24,
+        488477.85
+      ],
+      "axis": [
+        0.715518,
+        -0.698594
+      ],
+      "halfLength": 9.08,
+      "halfWidth": 12.76,
+      "height": 45.125,
+      "gradient": [
+        -0.01651,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        120254.24,
+        488503.23
+      ],
+      "axis": [
+        -0.715518,
+        0.698594
+      ],
+      "halfLength": 9.08,
+      "halfWidth": 12.76,
+      "height": 45.06,
+      "gradient": [
+        -0.02361,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0363.02eee96450ae4e49aef4848f5f962fb6"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0363.02eee96450ae4e49aef4848f5f962fb6",
+          "type": "dek"
+        },
+        {
+          "id": "G0363.59c35c643b1e4237a850530ee6f79349",
+          "type": "pijler"
+        }
+      ],
+      "osm": {
+        "id": "way/670993795",
+        "tags": {
+          "bench": "yes",
+          "bin": "yes",
+          "bridge": "fixed",
+          "layer": "1",
+          "lit": "yes",
+          "public_transport": "platform",
+          "railway": "platform",
+          "shelter": "yes",
+          "tactile_paving": "yes",
+          "bridge:structure": "beam",
+          "loc_ref": "139",
+          "man_made": "bridge",
+          "name": "Staatsliedenbrug",
+          "wikidata": "Q29966247",
+          "wikimedia_commons": "Category:Brug 139, Staatsliedenbrug",
+          "wikipedia": "nl:Staatsliedenbrug"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 2
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 18.2,
+      "dekBreedte": 21.5,
+      "brugLengte": 18.2,
+      "water": [
+        -8.6,
+        8.9
+      ],
+      "portaalhoogte": 19.4,
+      "opritafstand": [
+        10,
+        10
+      ],
+      "spoorhoogteBron": "pdok",
+      "oprithelling": 18.2,
+      "doorstekend": [],
+      "opritHoogtes": [
+        44.975,
+        44.846
+      ]
+    },
+    "waarschuwingen": [
+      "oprit -: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "oprit -: spoorterrein voorbij 150 m nog 1.2 m hoger (46.2 m); PDOK trekt het spoor hier ver naar beneden, controleer de dekhoogte of geef --opritafstand",
+      "oprit +: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

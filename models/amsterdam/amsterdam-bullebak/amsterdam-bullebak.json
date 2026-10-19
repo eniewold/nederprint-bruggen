@@ -1,0 +1,149 @@
+{
+  "name": "Bullebak",
+  "file": "amsterdam-bullebak.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    120645.4,
+    488567.54
+  ],
+  "xAxis": [
+    -0.568091,
+    -0.822965
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 44.729,
+  "groundSamplePoints": [
+    [
+      -74.02,
+      -13.02
+    ],
+    [
+      15.18,
+      -1.02
+    ]
+  ],
+  "replacesTerrain": [
+    "G0363.a1b4fa2f922c49378d8236a0896e0f1b"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        120651.31,
+        488576.12
+      ],
+      "axis": [
+        0.568091,
+        0.822965
+      ],
+      "halfLength": 5.21,
+      "halfWidth": 8.06,
+      "height": 45.101,
+      "gradient": [
+        -0.02881,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        120639.48,
+        488558.98
+      ],
+      "axis": [
+        -0.568091,
+        -0.822965
+      ],
+      "halfLength": 5.21,
+      "halfWidth": 8.06,
+      "height": 44.99,
+      "gradient": [
+        -0.05012,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0363.a1b4fa2f922c49378d8236a0896e0f1b"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0363.a1b4fa2f922c49378d8236a0896e0f1b",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/452338603",
+        "tags": {
+          "bridge": "yes",
+          "electrified": "contact_line",
+          "frequency": "0",
+          "gauge": "1435",
+          "layer": "1",
+          "maxspeed": "50",
+          "note_2": "https://www.amsterdam.nl/projecten/werkzaamheden/bullebak-bullebakssluis/bullebak-afsluiting/",
+          "oneway": "yes",
+          "opening_date": "2023-06-01",
+          "railway": "tram",
+          "voltage": "600",
+          "bridge:structure": "beam",
+          "man_made": "bridge",
+          "name": "Bullebak",
+          "ref": "149",
+          "source": "survey",
+          "wikidata": "Q12012502",
+          "wikimedia_commons": "Category:Brug 149, Bullebak",
+          "wikipedia": "nl:Bullebak"
+        }
+      },
+      "fis": {
+        "id": 21023440,
+        "naam": "Bullebakbrug (Brug 149)",
+        "afstand": 1,
+        "beweegbaar": true,
+        "doorvaarthoogteGesloten": 1.22
+      },
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ophaalbrug",
+    "doorvaarthoogte": 1.22,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 10.4,
+      "dekBreedte": 12.1,
+      "brugLengte": 10.4,
+      "water": [
+        -4.7,
+        4.8
+      ],
+      "portaalhoogte": 10.9,
+      "opritafstand": [
+        70,
+        10
+      ],
+      "spoorhoogteBron": "pdok",
+      "oprithelling": 10.4,
+      "doorstekend": [],
+      "opritHoogtes": [
+        44.951,
+        44.729
+      ]
+    },
+    "waarschuwingen": [
+      "oprit -: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "oprit - pas op 70 m langs het spoor gemeten (PDOK-spoorterrein bij de brug lager)",
+      "oprit +: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "name": "Gevlebrug",
+  "file": "amsterdam-gevlebrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    120789.08,
+    489448.87
+  ],
+  "xAxis": [
+    0.961516,
+    -0.274749
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 44.281,
+  "groundSamplePoints": [
+    [
+      -37.08,
+      0
+    ],
+    [
+      36.89,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0363.ec632be5d5b244f4816b50f81043e0c7",
+    "G0363.1e509f80426f4ba591611ec11ab569c3",
+    "G0363.e51fb0e0941240f68894e22b08c6db03"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        120761.11,
+        489456.86
+      ],
+      "axis": [
+        -0.961516,
+        0.274749
+      ],
+      "halfLength": 12,
+      "halfWidth": 8.37,
+      "height": 44.843,
+      "gradient": [
+        -0.04683,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        120816.85,
+        489440.93
+      ],
+      "axis": [
+        0.961516,
+        -0.274749
+      ],
+      "halfLength": 12,
+      "halfWidth": 8.37,
+      "height": 45.255,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0363.ec632be5d5b244f4816b50f81043e0c7"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0363.ec632be5d5b244f4816b50f81043e0c7",
+          "type": "dek"
+        },
+        {
+          "id": "G0363.1e509f80426f4ba591611ec11ab569c3",
+          "type": "pijler"
+        },
+        {
+          "id": "G0363.e51fb0e0941240f68894e22b08c6db03",
+          "type": "pijler"
+        }
+      ],
+      "osm": {
+        "id": "way/991513318",
+        "tags": {
+          "bicycle": "yes",
+          "bridge": "movable",
+          "foot": "yes",
+          "highway": "residential",
+          "layer": "1",
+          "maxspeed": "30",
+          "mofa": "no",
+          "moped": "no",
+          "name": "Gevlebrug",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 3
+    },
+    "type": "basculebrug",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 28.4,
+      "dekBreedte": 12.7,
+      "brugLengte": 34,
+      "water": [
+        -12.1,
+        12.4
+      ],
+      "portaalhoogte": 11.5,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [],
+      "opritHoogtes": [
+        44.281,
+        45.105
+      ]
+    },
+    "waarschuwingen": [
+      "bridge=movable zonder mechanisme: basculebrug is een gok",
+      "geen FIS-brug binnen 35 m"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}
