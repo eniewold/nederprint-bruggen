@@ -1,0 +1,193 @@
+{
+  "name": "Rijksweg",
+  "file": "santpoort-noord-brug-6e193498.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    104538.76,
+    493313.95
+  ],
+  "xAxis": [
+    0.080664,
+    0.996741
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 48.33,
+  "groundSamplePoints": [
+    [
+      -51.52,
+      0
+    ],
+    [
+      51.52,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "P0027.6e19349834eb48b787c94f283d37f851",
+    "P0027.a83811c04f0a4b35823b7bcf264f679a",
+    "P0027.b648d11edae44b38b7e41ec080a55197"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        104538.76,
+        493313.95
+      ],
+      "axis": [
+        0.080664,
+        0.996741
+      ],
+      "halfLength": 25.52,
+      "halfWidth": 11.63,
+      "height": 47.467,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.1,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        104535.25,
+        493270.57
+      ],
+      "axis": [
+        -0.080664,
+        -0.996741
+      ],
+      "halfLength": 12,
+      "halfWidth": 13.13,
+      "height": 48.617,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        104542.27,
+        493357.32
+      ],
+      "axis": [
+        0.080664,
+        0.996741
+      ],
+      "halfLength": 12,
+      "halfWidth": 13.13,
+      "height": 48.549,
+      "gradient": [
+        -0.01822,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "P0027.6e19349834eb48b787c94f283d37f851"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "P0027.6e19349834eb48b787c94f283d37f851",
+          "type": "dek"
+        },
+        {
+          "id": "P0027.a83811c04f0a4b35823b7bcf264f679a",
+          "type": "landhoofd"
+        }
+      ],
+      "osm": {
+        "id": "way/477029967",
+        "tags": {
+          "agricultural": "no",
+          "bicycle": "no",
+          "bridge": "yes",
+          "carriage": "no",
+          "carriageway_ref": "Li",
+          "disabled_vehicle": "no",
+          "foot": "no",
+          "hand_cart": "no",
+          "highway": "primary",
+          "horse": "no",
+          "lanes": "2",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "70",
+          "microcar": "no",
+          "mofa": "no",
+          "moped": "no",
+          "name": "Rijksweg",
+          "oneway": "yes",
+          "operator": "Provincie Noord-Holland",
+          "ref": "N208",
+          "surface": "asphalt",
+          "traffic_sign": "NL:C9",
+          "zone:traffic": "NL:urban",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 2
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,480000,120000,500000 --run nl-5_9 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 63,
+      "dekBreedte": 22.3,
+      "brugLengte": 63,
+      "water": null,
+      "portaalhoogte": 20,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "P0027.b648d11edae44b38b7e41ec080a55197",
+          "klasse": "Terrain",
+          "oppervlak": 130.6,
+          "onderDek": 0.78,
+          "bovenDekOnderkant": 0.39,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "P0027.5619f424a50a46869e68ecd074c7c224",
+          "klasse": "Terrain",
+          "oppervlak": 244.2,
+          "onderDek": 0.38,
+          "bovenDekOnderkant": 0.1,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "P0027.2bcd7935aa734ca4be23af2b99b49bf1",
+          "klasse": "Terrain",
+          "oppervlak": 1.2,
+          "onderDek": 0.02,
+          "bovenDekOnderkant": 0.1,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        48.467,
+        48.33
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "3 PDOK-vorm(en) door het dek: 1 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

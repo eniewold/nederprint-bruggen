@@ -1,0 +1,176 @@
+{
+  "name": "Merwedebrug",
+  "file": "papendrecht-merwedebrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    107965.97,
+    426684.04
+  ],
+  "xAxis": [
+    -0.064248,
+    0.997934
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 42.48,
+  "groundSamplePoints": [
+    [
+      -7,
+      0
+    ],
+    [
+      7,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0590.e70c3eddb65c637ae0533262500a4aea"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        107965.97,
+        426684.04
+      ],
+      "axis": [
+        -0.064248,
+        0.997934
+      ],
+      "halfLength": 1.5,
+      "halfWidth": 1.53,
+      "height": 41.72,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.46,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        107966.36,
+        426678.06
+      ],
+      "axis": [
+        0.064248,
+        -0.997934
+      ],
+      "halfLength": 3,
+      "halfWidth": 1.54,
+      "height": 42.75,
+      "gradient": [
+        -0.09007,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        107965.58,
+        426690.03
+      ],
+      "axis": [
+        -0.064248,
+        0.997934
+      ],
+      "halfLength": 3,
+      "halfWidth": 1.54,
+      "height": 42.87,
+      "gradient": [
+        -0.05,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0590.e70c3eddb65c637ae0533262500a4aea"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0590.e70c3eddb65c637ae0533262500a4aea",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/918265312",
+        "tags": {
+          "bridge": "viaduct",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Merwedebrug",
+          "surface": "paving_stones",
+          "alt_name": "Papendrechtsebrug",
+          "bridge:material": "concrete",
+          "bridge:structure": "beam",
+          "man_made": "bridge",
+          "operator": "Rijkswaterstaat",
+          "owner": "Staat der Nederlanden",
+          "start_date": "1967",
+          "wikidata": "Q1922196"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,420000,120000,440000 --run nl-5_6 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 6,
+      "dekBreedte": 2.1,
+      "brugLengte": 6,
+      "water": null,
+      "portaalhoogte": 2.5,
+      "opritafstand": [
+        4,
+        4
+      ],
+      "oprithelling": 6,
+      "doorstekend": [
+        {
+          "gmlId": "G0590.e70c3eddb68a637ae0533262500a4aea",
+          "klasse": "Forest",
+          "oppervlak": 27.6,
+          "onderDek": 0.13,
+          "bovenDekOnderkant": 0.46,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0590.e70c3eddb680637ae0533262500a4aea",
+          "klasse": "Forest",
+          "oppervlak": 28.6,
+          "onderDek": 0.12,
+          "bovenDekOnderkant": 0.43,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0590.faa05830ed132ceae0533262500a7de6",
+          "klasse": "Forest",
+          "oppervlak": 10.1,
+          "onderDek": 0.14,
+          "bovenDekOnderkant": 0.09,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        42.48,
+        42.72
+      ]
+    },
+    "waarschuwingen": [
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "3 PDOK-vorm(en) door het dek: 0 verborgen, 3 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

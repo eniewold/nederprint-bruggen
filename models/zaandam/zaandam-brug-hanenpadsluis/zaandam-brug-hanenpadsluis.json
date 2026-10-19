@@ -1,0 +1,137 @@
+{
+  "name": "Brug Hanenpadsluis",
+  "file": "zaandam-brug-hanenpadsluis.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    117381.17,
+    494059.42
+  ],
+  "xAxis": [
+    -0.556304,
+    0.830979
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 45.443,
+  "groundSamplePoints": [
+    [
+      -6.37,
+      0
+    ],
+    [
+      6.37,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0479.2881ce018f6a0054e0530a3243018c29"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        117384.16,
+        494054.96
+      ],
+      "axis": [
+        0.556304,
+        -0.830979
+      ],
+      "halfLength": 3,
+      "halfWidth": 4.7,
+      "height": 45.948,
+      "gradient": [
+        -0.05,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        117378.19,
+        494063.88
+      ],
+      "axis": [
+        -0.556304,
+        0.830979
+      ],
+      "halfLength": 3,
+      "halfWidth": 4.7,
+      "height": 45.771,
+      "gradient": [
+        -0.10907,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0479.2881ce018f6a0054e0530a3243018c29"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0479.2881ce018f6a0054e0530a3243018c29",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/33564317",
+        "tags": {
+          "bridge": "yes",
+          "highway": "residential",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Zuiddijk",
+          "oneway": "yes",
+          "oneway:bicycle": "no",
+          "oneway:mofa": "no",
+          "oneway:moped": "no",
+          "smoothness": "intermediate"
+        }
+      },
+      "fis": {
+        "id": 35573439,
+        "naam": "Brug Hanenpadsluis",
+        "afstand": 0,
+        "beweegbaar": false,
+        "doorvaarthoogteGesloten": 2.6
+      },
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": 2.6,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,480000,120000,500000 --run nl-5_9 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 4.7,
+      "dekBreedte": 6.3,
+      "brugLengte": 4.7,
+      "water": [
+        -1.9,
+        2.1
+      ],
+      "portaalhoogte": 5.6,
+      "opritafstand": [
+        4,
+        4
+      ],
+      "oprithelling": 6,
+      "doorstekend": [],
+      "opritHoogtes": [
+        45.798,
+        45.443
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

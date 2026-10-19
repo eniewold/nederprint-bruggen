@@ -1,0 +1,154 @@
+{
+  "name": "Roggebotbrug",
+  "file": "dronten-roggebotbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    186775.28,
+    506417.56
+  ],
+  "xAxis": [
+    0.987857,
+    0.155365
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 47.35,
+  "groundSamplePoints": [
+    [
+      -164.46,
+      0
+    ],
+    [
+      164.46,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0303.120a43809eb151ace0630b29a8c038c5",
+    "P0024.cc27975921e64c73b526924fbd4055e9",
+    "P0024.eeaa2e4dc9f3444a95264bdafb8e69e5",
+    "P0024.f673ee0deb4e4b2081dab6e980cff5d9"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        186620.72,
+        506393.25
+      ],
+      "axis": [
+        -0.987857,
+        -0.155365
+      ],
+      "halfLength": 12,
+      "halfWidth": 15.72,
+      "height": 51.766,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        186929.84,
+        506441.87
+      ],
+      "axis": [
+        0.987857,
+        0.155365
+      ],
+      "halfLength": 12,
+      "halfWidth": 15.72,
+      "height": 49.633,
+      "gradient": [
+        -0.19025,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0303.120a43809eb151ace0630b29a8c038c5"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0303.120a43809eb151ace0630b29a8c038c5",
+          "type": "dek"
+        },
+        {
+          "id": "P0024.cc27975921e64c73b526924fbd4055e9",
+          "type": "onbekend"
+        },
+        {
+          "id": "P0024.eeaa2e4dc9f3444a95264bdafb8e69e5",
+          "type": "onbekend"
+        },
+        {
+          "id": "P0024.f673ee0deb4e4b2081dab6e980cff5d9",
+          "type": "onbekend"
+        }
+      ],
+      "osm": {
+        "id": "way/1212262636",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "movable",
+          "bridge:movable": "bascule",
+          "foot": "use_sidepath",
+          "highway": "unclassified",
+          "lane_markings": "no",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Roggebotbrug",
+          "operator": "Provincie Flevoland",
+          "surface": "asphalt",
+          "zone:traffic": "NL:rural",
+          "man_made": "bridge"
+        }
+      },
+      "fis": {
+        "id": 35375414,
+        "naam": "Roggebotbrug",
+        "afstand": 33,
+        "beweegbaar": true,
+        "doorvaarthoogteGesloten": 7
+      },
+      "pdokBridgeVlakken": 4
+    },
+    "type": "basculebrug",
+    "doorvaarthoogte": 7,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 180000,500000,200000,520000 --run nl-9_10 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 288.9,
+      "dekBreedte": 27.4,
+      "brugLengte": 288.9,
+      "water": [
+        -67.5,
+        80.5
+      ],
+      "portaalhoogte": 24.7,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [],
+      "opritHoogtes": [
+        51.616,
+        47.35
+      ]
+    },
+    "waarschuwingen": [
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

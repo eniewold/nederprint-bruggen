@@ -1,0 +1,182 @@
+{
+  "name": "Rijksweg",
+  "file": "velsen-zuid-brug-75a87963.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    105211.79,
+    496221.9
+  ],
+  "xAxis": [
+    -0.389697,
+    -0.920943
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 40.01,
+  "groundSamplePoints": [
+    [
+      -27.57,
+      0
+    ],
+    [
+      27.57,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0453.75a879634eb81da9e053cc1f0a0a5583"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        105211.79,
+        496221.9
+      ],
+      "axis": [
+        -0.389697,
+        -0.920943
+      ],
+      "halfLength": 6.53,
+      "halfWidth": 5.17,
+      "height": 39.893,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -8.17,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        105221.35,
+        496244.5
+      ],
+      "axis": [
+        0.389697,
+        0.920943
+      ],
+      "halfLength": 12,
+      "halfWidth": 6.67,
+      "height": 40.602,
+      "gradient": [
+        -0.04928,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        105202.23,
+        496199.31
+      ],
+      "axis": [
+        -0.389697,
+        -0.920943
+      ],
+      "halfLength": 12,
+      "halfWidth": 6.67,
+      "height": 41.043,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0453.75a879634eb81da9e053cc1f0a0a5583"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0453.75a879634eb81da9e053cc1f0a0a5583",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/6631196",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "yes",
+          "highway": "primary",
+          "lanes": "2",
+          "layer": "1",
+          "maxspeed": "80",
+          "mofa": "use_sidepath",
+          "moped": "use_sidepath",
+          "name": "Rijksweg",
+          "operator": "Gemeente Velsen",
+          "zone:traffic": "NL:rural"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,480000,120000,500000 --run nl-5_9 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 25.1,
+      "dekBreedte": 9.3,
+      "brugLengte": 25.1,
+      "water": null,
+      "portaalhoogte": 8.4,
+      "opritafstand": [
+        15,
+        15
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "L0004.9e2c5dcf89c34d5fb3cf5defe7ce6361",
+          "klasse": "Terrain",
+          "oppervlak": 727.7,
+          "onderDek": 0.06,
+          "bovenDekOnderkant": 7.17,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0453.40dd423eb10f5788e053cc1f0a0a3668",
+          "klasse": "Terrain",
+          "oppervlak": 32602.7,
+          "onderDek": 0,
+          "bovenDekOnderkant": 7.08,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "L0004.b0f78dfe2cb3489fa426fd93c098e70e",
+          "klasse": "Terrain",
+          "oppervlak": 704.2,
+          "onderDek": 0.06,
+          "bovenDekOnderkant": 6.52,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "L0004.fa39117413794652974c13721ce1d042",
+          "klasse": "Road",
+          "oppervlak": 3564.5,
+          "onderDek": 0.14,
+          "bovenDekOnderkant": 0.44,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        40.01,
+        40.893
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "4 PDOK-vorm(en) door het dek: 0 verborgen, 4 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

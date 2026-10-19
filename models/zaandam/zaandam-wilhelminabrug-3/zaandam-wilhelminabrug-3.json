@@ -1,0 +1,136 @@
+{
+  "name": "Wilhelminabrug",
+  "file": "zaandam-wilhelminabrug-3.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    116821.71,
+    494700.26
+  ],
+  "xAxis": [
+    0.875051,
+    0.48403
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 46.512,
+  "groundSamplePoints": [
+    [
+      -6.79,
+      0
+    ],
+    [
+      6.79,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0479.ca4c891eeaef0180e053ac1001135e22"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        116816.64,
+        494697.46
+      ],
+      "axis": [
+        -0.875051,
+        -0.48403
+      ],
+      "halfLength": 3,
+      "halfWidth": 12.7,
+      "height": 46.672,
+      "gradient": [
+        -0.05304,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        116826.78,
+        494703.07
+      ],
+      "axis": [
+        0.875051,
+        0.48403
+      ],
+      "halfLength": 3,
+      "halfWidth": 12.7,
+      "height": 46.681,
+      "gradient": [
+        -0.05,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0479.ca4c891eeaef0180e053ac1001135e22"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0479.ca4c891eeaef0180e053ac1001135e22",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1073292904",
+        "tags": {
+          "bridge": "yes",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Wilhelminabrug",
+          "smoothness": "good",
+          "bridge:structure": "beam",
+          "man_made": "bridge",
+          "ref": "1004"
+        }
+      },
+      "fis": {
+        "id": 50554,
+        "naam": "Wilhelminabrug Zaandam",
+        "afstand": 33,
+        "beweegbaar": true,
+        "doorvaarthoogteGesloten": 2.6999999999999997
+      },
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ophaalbrug",
+    "doorvaarthoogte": 2.6999999999999997,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,480000,120000,500000 --run nl-5_9 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 5.6,
+      "dekBreedte": 21.4,
+      "brugLengte": 5.6,
+      "water": [
+        -2.3,
+        2.7
+      ],
+      "portaalhoogte": 19.3,
+      "opritafstand": [
+        4,
+        4
+      ],
+      "oprithelling": 6,
+      "doorstekend": [],
+      "opritHoogtes": [
+        46.512,
+        46.531
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

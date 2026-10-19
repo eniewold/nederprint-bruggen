@@ -1,0 +1,168 @@
+{
+  "name": "santpoort-noord-brug-9321615b",
+  "file": "santpoort-noord-brug-9321615b.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    103937.37,
+    494676.2
+  ],
+  "xAxis": [
+    0.977796,
+    -0.209558
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 46.637,
+  "groundSamplePoints": [
+    [
+      -7.27,
+      0
+    ],
+    [
+      7.27,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "P0027.9321615bd3ef432ca1519c9f05d0d6aa"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        103937.37,
+        494676.2
+      ],
+      "axis": [
+        0.977796,
+        -0.209558
+      ],
+      "halfLength": 1.63,
+      "halfWidth": 5.51,
+      "height": 45.671,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.66,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        103930.98,
+        494677.57
+      ],
+      "axis": [
+        -0.977796,
+        0.209558
+      ],
+      "halfLength": 3.27,
+      "halfWidth": 7.01,
+      "height": 46.804,
+      "gradient": [
+        -0.05108,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        103943.75,
+        494674.83
+      ],
+      "axis": [
+        0.977796,
+        -0.209558
+      ],
+      "halfLength": 3.27,
+      "halfWidth": 7.01,
+      "height": 46.821,
+      "gradient": [
+        -0.04593,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "P0027.9321615bd3ef432ca1519c9f05d0d6aa"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "P0027.9321615bd3ef432ca1519c9f05d0d6aa",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1131710335",
+        "tags": {
+          "bridge": "yes",
+          "highway": "busway",
+          "lanes": "1",
+          "layer": "1",
+          "maxspeed": "50",
+          "maxspeed:type": "NL:urban",
+          "oneway": "yes",
+          "operator": "Provincie Noord-Holland",
+          "zone:traffic": "NL:urban",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,480000,120000,500000 --run nl-5_9 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 6.5,
+      "dekBreedte": 10,
+      "brugLengte": 6.5,
+      "water": [
+        -1.3,
+        1.2
+      ],
+      "portaalhoogte": 9,
+      "opritafstand": [
+        4,
+        4
+      ],
+      "oprithelling": 6.5,
+      "doorstekend": [
+        {
+          "gmlId": "P0027.e4d4ff27bda142b281990dbf7a5afa97",
+          "klasse": "Terrain",
+          "oppervlak": 152.1,
+          "onderDek": 0.01,
+          "bovenDekOnderkant": 0.66,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "W0616.7c7688e4e3c34f759ef76d661b3d63b8",
+          "klasse": "Terrain",
+          "oppervlak": 176,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.09,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        46.637,
+        46.671
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

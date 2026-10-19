@@ -1,0 +1,203 @@
+{
+  "name": "waalwijk-brug-0dd96601",
+  "file": "waalwijk-brug-0dd96601.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    131065.43,
+    411114.56
+  ],
+  "xAxis": [
+    0.971737,
+    -0.236068
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 45.007,
+  "groundSamplePoints": [
+    [
+      -45.93,
+      0
+    ],
+    [
+      45.93,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "P0030.0dd966019d9849078d2e0cec943d5d07",
+    "G0867.81f03073b8694ec79962158867fb6cdd",
+    "G0867.ad298c7c34bd440cb3bb6f737c055e77"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        131065.43,
+        411114.56
+      ],
+      "axis": [
+        0.971737,
+        -0.236068
+      ],
+      "halfLength": 19.93,
+      "halfWidth": 12.13,
+      "height": 44.015,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -7.08,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        131028.57,
+        411123.52
+      ],
+      "axis": [
+        -0.971737,
+        0.236068
+      ],
+      "halfLength": 12,
+      "halfWidth": 13.63,
+      "height": 45.161,
+      "gradient": [
+        -0.01286,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        131102.28,
+        411105.61
+      ],
+      "axis": [
+        0.971737,
+        -0.236068
+      ],
+      "halfLength": 12,
+      "halfWidth": 13.63,
+      "height": 45.165,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "P0030.0dd966019d9849078d2e0cec943d5d07"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "P0030.0dd966019d9849078d2e0cec943d5d07",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/952487944",
+        "tags": {
+          "bridge": "yes",
+          "carriageway_ref": "Re",
+          "highway": "motorway_link",
+          "lanes": "1",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "100",
+          "motorroad": "yes",
+          "oneway": "yes",
+          "operator": "Provincie Noord-Brabant",
+          "ref": "N261",
+          "surface": "asphalt",
+          "zone:traffic": "NL:rural",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,400000,140000,420000 --run nl-6_5 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 51.9,
+      "dekBreedte": 23.3,
+      "brugLengte": 51.9,
+      "water": null,
+      "portaalhoogte": 20.9,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0867.81f03073b8694ec79962158867fb6cdd",
+          "klasse": "Terrain",
+          "oppervlak": 401.3,
+          "onderDek": 0.84,
+          "bovenDekOnderkant": 6.39,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "G0867.ad298c7c34bd440cb3bb6f737c055e77",
+          "klasse": "Terrain",
+          "oppervlak": 163,
+          "onderDek": 0.86,
+          "bovenDekOnderkant": 6.26,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "P0030.6c021200a0bd4fd091aec5b508f2f493",
+          "klasse": "Terrain",
+          "oppervlak": 3,
+          "onderDek": 0,
+          "bovenDekOnderkant": 6.08,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0867.3470bb093df643e3b7260aa6dcc266d4",
+          "klasse": "Road",
+          "oppervlak": 349.8,
+          "onderDek": 0.46,
+          "bovenDekOnderkant": 1.79,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0867.41eb1905d7f1463c950312d749503c2b",
+          "klasse": "Road",
+          "oppervlak": 309.8,
+          "onderDek": 0.58,
+          "bovenDekOnderkant": 1.64,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0867.ba7b7fcefd14436c8b23ac7cc9a00ab1",
+          "klasse": "Road",
+          "oppervlak": 851.7,
+          "onderDek": 0.58,
+          "bovenDekOnderkant": 1.26,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        45.007,
+        45.015
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "6 PDOK-vorm(en) door het dek: 2 verborgen, 4 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

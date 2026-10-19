@@ -1,0 +1,162 @@
+{
+  "name": "Gedempte Gracht",
+  "file": "zaandam-brug-2881cdff-11.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    116478.57,
+    494768.37
+  ],
+  "xAxis": [
+    0.817769,
+    -0.575546
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 42.882,
+  "groundSamplePoints": [
+    [
+      -18.28,
+      0
+    ],
+    [
+      18.28,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0479.2881cdff3c5b0054e0530a3243018c29"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        116478.57,
+        494768.37
+      ],
+      "axis": [
+        0.817769,
+        -0.575546
+      ],
+      "halfLength": 4.15,
+      "halfWidth": 1.99,
+      "height": 41.933,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.36,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        116464.98,
+        494777.93
+      ],
+      "axis": [
+        -0.817769,
+        0.575546
+      ],
+      "halfLength": 8.31,
+      "halfWidth": 2.24,
+      "height": 43.057,
+      "gradient": [
+        -0.02114,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        116492.16,
+        494758.8
+      ],
+      "axis": [
+        0.817769,
+        -0.575546
+      ],
+      "halfLength": 8.31,
+      "halfWidth": 2.24,
+      "height": 43.083,
+      "gradient": [
+        -0.01805,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0479.2881cdff3c5b0054e0530a3243018c29"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0479.2881cdff3c5b0054e0530a3243018c29",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/422657941",
+        "tags": {
+          "bridge": "yes",
+          "highway": "pedestrian",
+          "layer": "1",
+          "name": "Gedempte Gracht",
+          "surface": "wood"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,480000,120000,500000 --run nl-5_9 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 16.6,
+      "dekBreedte": 3,
+      "brugLengte": 16.6,
+      "water": [
+        -2.3,
+        6.7
+      ],
+      "portaalhoogte": 2.7,
+      "opritafstand": [
+        10,
+        10
+      ],
+      "oprithelling": 16.6,
+      "doorstekend": [
+        {
+          "gmlId": "G0479.4063c1bdbcec0086e0530a324301a94f",
+          "klasse": "Terrain",
+          "oppervlak": 12.9,
+          "onderDek": 0.25,
+          "bovenDekOnderkant": 0.36,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0479.2881ce04d2d90054e0530a3243018c29",
+          "klasse": "Separation",
+          "oppervlak": 12.8,
+          "onderDek": 0.07,
+          "bovenDekOnderkant": 0.06,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        42.882,
+        42.933
+      ]
+    },
+    "waarschuwingen": [
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

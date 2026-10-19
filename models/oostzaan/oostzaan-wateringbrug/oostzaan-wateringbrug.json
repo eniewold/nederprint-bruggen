@@ -1,0 +1,135 @@
+{
+  "name": "Wateringbrug",
+  "file": "oostzaan-wateringbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    118985.78,
+    494375.68
+  ],
+  "xAxis": [
+    0.919145,
+    0.393919
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 42.113,
+  "groundSamplePoints": [
+    [
+      -7.2,
+      0
+    ],
+    [
+      7.2,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0431.477838adea4169b4e05332a1e90a6fe2"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        118979.9,
+        494373.16
+      ],
+      "axis": [
+        -0.919145,
+        -0.393919
+      ],
+      "halfLength": 3.2,
+      "halfWidth": 3.61,
+      "height": 42.789,
+      "gradient": [
+        -0.0469,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        118991.66,
+        494378.2
+      ],
+      "axis": [
+        0.919145,
+        0.393919
+      ],
+      "halfLength": 3.2,
+      "halfWidth": 3.61,
+      "height": 42.526,
+      "gradient": [
+        -0.1291,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0431.477838adea4169b4e05332a1e90a6fe2"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0431.477838adea4169b4e05332a1e90a6fe2",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/455552295",
+        "tags": {
+          "bridge": "yes",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "50",
+          "mofa": "yes",
+          "moped": "yes",
+          "motor_vehicle": "no",
+          "motor_vehicle:backward:conditional": "yes @ (Mo-Fr 00:00-16:00, 19:00-24:00; Sa-Su 00:00-24:00)",
+          "motor_vehicle:forward:conditional": "yes @ (Mo-Fr 00:00-07:00, 09:00-24:00; Sa-Su 00:00-24:00)",
+          "motorcycle": "yes",
+          "psv": "yes",
+          "smoothness": "good",
+          "man_made": "bridge",
+          "name": "Wateringbrug"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ophaalbrug",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,480000,120000,500000 --run nl-5_9 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 6.4,
+      "dekBreedte": 4.8,
+      "brugLengte": 6.4,
+      "water": [
+        -2.7,
+        2.8
+      ],
+      "portaalhoogte": 4.3,
+      "opritafstand": [
+        4,
+        4
+      ],
+      "oprithelling": 6.4,
+      "doorstekend": [],
+      "opritHoogtes": [
+        42.639,
+        42.113
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

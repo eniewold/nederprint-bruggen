@@ -1,0 +1,164 @@
+{
+  "name": "Zwijnskade",
+  "file": "hardinxveld-giessendam-brug-cf1fe262.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    114864.08,
+    426970.15
+  ],
+  "xAxis": [
+    -0.029345,
+    0.999569
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 49.942,
+  "groundSamplePoints": [
+    [
+      -20.15,
+      0
+    ],
+    [
+      20.15,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0610.cf1fe262633644d29c0e09c222eae0e3"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        114864.08,
+        426970.15
+      ],
+      "axis": [
+        -0.029345,
+        0.999569
+      ],
+      "halfLength": 4.58,
+      "halfWidth": 6.97,
+      "height": 49.493,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.59,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        114864.61,
+        426951.84
+      ],
+      "axis": [
+        0.029345,
+        -0.999569
+      ],
+      "halfLength": 9.16,
+      "halfWidth": 8.47,
+      "height": 50.643,
+      "gradient": [
+        -0.01638,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        114863.54,
+        426988.46
+      ],
+      "axis": [
+        -0.029345,
+        0.999569
+      ],
+      "halfLength": 9.16,
+      "halfWidth": 8.47,
+      "height": 50.368,
+      "gradient": [
+        -0.04649,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0610.cf1fe262633644d29c0e09c222eae0e3"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0610.cf1fe262633644d29c0e09c222eae0e3",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/57833816",
+        "tags": {
+          "bridge": "yes",
+          "highway": "unclassified",
+          "lane_markings": "no",
+          "layer": "1",
+          "lit": "no",
+          "maxspeed": "60",
+          "name": "Zwijnskade",
+          "operator": "Waterschap Rivierenland",
+          "surface": "asphalt",
+          "zone:traffic": "NL:rural"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,420000,120000,440000 --run nl-5_6 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 18.3,
+      "dekBreedte": 12.9,
+      "brugLengte": 18.3,
+      "water": null,
+      "portaalhoogte": 11.6,
+      "opritafstand": [
+        11,
+        11
+      ],
+      "oprithelling": 18.3,
+      "doorstekend": [
+        {
+          "gmlId": "G0610.0416fe4a1e2d4c2e8985e162715ac51e",
+          "klasse": "Terrain",
+          "oppervlak": 0.8,
+          "onderDek": 0.05,
+          "bovenDekOnderkant": 0.59,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0523.4d2f430a492c40cfa8bfa5581346bcd3",
+          "klasse": "Forest",
+          "oppervlak": 1436.5,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.49,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        50.493,
+        49.942
+      ]
+    },
+    "waarschuwingen": [
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "name": "hardinxveld-giessendam-brug-fe34f61f",
+  "file": "hardinxveld-giessendam-brug-fe34f61f.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    117607.34,
+    426329.55
+  ],
+  "xAxis": [
+    0.996078,
+    0.088475
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 43.851,
+  "groundSamplePoints": [
+    [
+      -66.08,
+      0
+    ],
+    [
+      66.08,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "L0002.fe34f61fb9cc414795f6b8e777eb33dc",
+    "L0002.234824f9e3cb4ace8c5ef59d672a618d"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        117549.49,
+        426324.41
+      ],
+      "axis": [
+        -0.996078,
+        -0.088475
+      ],
+      "halfLength": 12,
+      "halfWidth": 21.22,
+      "height": 44.289,
+      "gradient": [
+        -0.03654,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        117665.19,
+        426334.69
+      ],
+      "axis": [
+        0.996078,
+        0.088475
+      ],
+      "halfLength": 12,
+      "halfWidth": 21.22,
+      "height": 44.578,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "L0002.fe34f61fb9cc414795f6b8e777eb33dc"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "L0002.fe34f61fb9cc414795f6b8e777eb33dc",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/7279016",
+        "tags": {
+          "bridge": "yes",
+          "carriageway_ref": "Re",
+          "highway": "motorway",
+          "int_ref": "E 31",
+          "lanes": "2",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "100",
+          "maxspeed:conditional": "120 @ (19:00-06:00)",
+          "noname": "yes",
+          "official_name": "Rijksweg A15",
+          "oneway": "yes",
+          "operator": "Rijkswaterstaat",
+          "ref": "A15",
+          "surface": "asphalt",
+          "toll:hgv": "yes"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,420000,120000,440000 --run nl-5_6 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 92.2,
+      "dekBreedte": 38.4,
+      "brugLengte": 92.2,
+      "water": null,
+      "portaalhoogte": 34.6,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "L0002.234824f9e3cb4ace8c5ef59d672a618d",
+          "klasse": "Terrain",
+          "oppervlak": 1117.2,
+          "onderDek": 0.85,
+          "bovenDekOnderkant": 0.48,
+          "actie": "verbergen"
+        }
+      ],
+      "opritHoogtes": [
+        43.851,
+        44.428
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "1 PDOK-vorm(en) door het dek: 1 verborgen, 0 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

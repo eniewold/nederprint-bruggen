@@ -1,0 +1,196 @@
+{
+  "name": "Schokkerringweg",
+  "file": "ens-schokkerringweg.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    184012.1,
+    516796.47
+  ],
+  "xAxis": [
+    -0.598358,
+    -0.801229
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 46.349,
+  "groundSamplePoints": [
+    [
+      -57.38,
+      0
+    ],
+    [
+      57.38,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "L0002.008323643c7e40ff9209e850c609ac06",
+    "L0002.19d778edf04f458088e510d1299856e9",
+    "L0002.6407d9487c6041eaa3859776969c0300",
+    "L0002.b8f0a3cc709542ab8e1f076a2aff7ace",
+    "L0002.d2fedf85002443738e0f943662b81aa6"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        184012.1,
+        516796.47
+      ],
+      "axis": [
+        -0.598358,
+        -0.801229
+      ],
+      "halfLength": 31.38,
+      "halfWidth": 9.04,
+      "height": 45.838,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -2.29,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        184041.65,
+        516836.03
+      ],
+      "axis": [
+        0.598358,
+        0.801229
+      ],
+      "halfLength": 12,
+      "halfWidth": 10.54,
+      "height": 46.744,
+      "gradient": [
+        -0.0329,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        183982.55,
+        516756.9
+      ],
+      "axis": [
+        -0.598358,
+        -0.801229
+      ],
+      "halfLength": 12,
+      "halfWidth": 10.54,
+      "height": 46.988,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "L0002.d2fedf85002443738e0f943662b81aa6"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "L0002.008323643c7e40ff9209e850c609ac06",
+          "type": "onbekend"
+        },
+        {
+          "id": "L0002.19d778edf04f458088e510d1299856e9",
+          "type": "onbekend"
+        },
+        {
+          "id": "L0002.6407d9487c6041eaa3859776969c0300",
+          "type": "onbekend"
+        },
+        {
+          "id": "L0002.b8f0a3cc709542ab8e1f076a2aff7ace",
+          "type": "onbekend"
+        },
+        {
+          "id": "L0002.d2fedf85002443738e0f943662b81aa6",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1485636751",
+        "tags": {
+          "bicycle": "no",
+          "bridge": "yes",
+          "disabled_vehicle": "no",
+          "highway": "secondary",
+          "lanes": "2",
+          "layer": "1",
+          "maxspeed": "60",
+          "maxspeed:type": "sign",
+          "maxweight:signed": "no",
+          "mofa": "no",
+          "moped": "no",
+          "name": "Schokkerringweg",
+          "operator": "Rijkswaterstaat",
+          "overtaking": "no",
+          "priority_road": "designated",
+          "ref": "N352",
+          "source:maxspeed": "sign",
+          "surface": "asphalt",
+          "zone:traffic": "NL:rural",
+          "man_made": "bridge",
+          "start_date": "2011"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 5
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 180000,500000,200000,520000 --run nl-9_10 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 74.8,
+      "dekBreedte": 17.1,
+      "brugLengte": 74.8,
+      "water": null,
+      "portaalhoogte": 15.4,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0171.067f911bfc174b15b1565d99d0e87e7a",
+          "klasse": "Terrain",
+          "oppervlak": 6393.2,
+          "onderDek": 0.05,
+          "bovenDekOnderkant": 1.29,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0171.030e6cb632084892aa0cd3b64b4c2ec1",
+          "klasse": "Forest",
+          "oppervlak": 6667.4,
+          "onderDek": 0.03,
+          "bovenDekOnderkant": 1.14,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        46.349,
+        46.838
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

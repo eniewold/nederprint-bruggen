@@ -1,0 +1,181 @@
+{
+  "name": "Marsstraat",
+  "file": "hardinxveld-giessendam-brug-70eac2be.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    116129.11,
+    426366.12
+  ],
+  "xAxis": [
+    -0.335427,
+    0.942066
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 46.134,
+  "groundSamplePoints": [
+    [
+      -48.49,
+      0
+    ],
+    [
+      48.49,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0523.70eac2be06284c2c9325396f4418780d",
+    "G0523.9961cd48e4a64e3dadf35b6b022e69ac"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        116129.11,
+        426366.12
+      ],
+      "axis": [
+        -0.335427,
+        0.942066
+      ],
+      "halfLength": 22.49,
+      "halfWidth": 2.68,
+      "height": 45.645,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -2.64,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        116142.69,
+        426327.97
+      ],
+      "axis": [
+        0.335427,
+        -0.942066
+      ],
+      "halfLength": 12,
+      "halfWidth": 3.27,
+      "height": 46.795,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        116115.53,
+        426404.26
+      ],
+      "axis": [
+        -0.335427,
+        0.942066
+      ],
+      "halfLength": 12,
+      "halfWidth": 3.27,
+      "height": 46.54,
+      "gradient": [
+        -0.03381,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0523.70eac2be06284c2c9325396f4418780d"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0523.70eac2be06284c2c9325396f4418780d",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1331672479",
+        "tags": {
+          "bicycle": "dismount",
+          "bridge": "yes",
+          "highway": "footway",
+          "layer": "1",
+          "name": "Marsstraat",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,420000,120000,440000 --run nl-5_6 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 57,
+      "dekBreedte": 4.4,
+      "brugLengte": 57,
+      "water": [
+        -7.5,
+        10.5
+      ],
+      "portaalhoogte": 3.9,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0523.9961cd48e4a64e3dadf35b6b022e69ac",
+          "klasse": "Road",
+          "oppervlak": 90,
+          "onderDek": 0.93,
+          "bovenDekOnderkant": 1.91,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "G0523.5ee3ca55f4ac4c47b39ee765434c6c72",
+          "klasse": "Forest",
+          "oppervlak": 280.6,
+          "onderDek": 0,
+          "bovenDekOnderkant": 1.64,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0523.394760f4dbd3449980099ea8363a4729",
+          "klasse": "Forest",
+          "oppervlak": 247.9,
+          "onderDek": 0.15,
+          "bovenDekOnderkant": 1.01,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0523.852739b2220e40afb23fcaf4b7fc6b44",
+          "klasse": "Road",
+          "oppervlak": 107.5,
+          "onderDek": 0.14,
+          "bovenDekOnderkant": 0.69,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        46.645,
+        46.134
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "4 PDOK-vorm(en) door het dek: 1 verborgen, 3 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

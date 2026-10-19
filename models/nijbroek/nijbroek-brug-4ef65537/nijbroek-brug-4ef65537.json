@@ -1,0 +1,166 @@
+{
+  "name": "Middendijk",
+  "file": "nijbroek-brug-4ef65537.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    200634.2,
+    481816.67
+  ],
+  "xAxis": [
+    0.998972,
+    -0.045332
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 46.245,
+  "groundSamplePoints": [
+    [
+      -20.52,
+      0
+    ],
+    [
+      20.52,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "W0662.4ef65537418b45bbaa234df83c0bfeee"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        200634.2,
+        481816.67
+      ],
+      "axis": [
+        0.998972,
+        -0.045332
+      ],
+      "halfLength": 4.66,
+      "halfWidth": 2.76,
+      "height": 45.308,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.56,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        200615.57,
+        481817.52
+      ],
+      "axis": [
+        -0.998972,
+        0.045332
+      ],
+      "halfLength": 9.33,
+      "halfWidth": 3.38,
+      "height": 46.458,
+      "gradient": [
+        -0.01608,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        200652.84,
+        481815.83
+      ],
+      "axis": [
+        0.998972,
+        -0.045332
+      ],
+      "halfLength": 9.33,
+      "halfWidth": 3.38,
+      "height": 46.426,
+      "gradient": [
+        -0.01944,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "W0662.4ef65537418b45bbaa234df83c0bfeee"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "W0662.4ef65537418b45bbaa234df83c0bfeee",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/485516003",
+        "tags": {
+          "bridge": "yes",
+          "highway": "track",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Middendijk",
+          "smoothness": "intermediate",
+          "surface": "concrete",
+          "tracktype": "grade1",
+          "zone:traffic": "NL:rural"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 200000,480000,220000,500000 --run nl-10_9 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 18.7,
+      "dekBreedte": 4.5,
+      "brugLengte": 18.7,
+      "water": [
+        -5.3,
+        5.2
+      ],
+      "portaalhoogte": 4.1,
+      "opritafstand": [
+        11.2,
+        11.2
+      ],
+      "oprithelling": 18.7,
+      "doorstekend": [
+        {
+          "gmlId": "W0662.b46b3c4e8358485590ee1d34d1f8d27f",
+          "klasse": "Terrain",
+          "oppervlak": 181.7,
+          "onderDek": 0.01,
+          "bovenDekOnderkant": 0.56,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "W0662.4c12b14b64854939aa0043926112cbb3",
+          "klasse": "Terrain",
+          "oppervlak": 173.5,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.48,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        46.308,
+        46.245
+      ]
+    },
+    "waarschuwingen": [
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "name": "Deventerweg",
+  "file": "oene-brug-f0a61d5b.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    200486.61,
+    483725.5
+  ],
+  "xAxis": [
+    0.482934,
+    -0.875657
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 46.605,
+  "groundSamplePoints": [
+    [
+      -22.37,
+      0
+    ],
+    [
+      22.37,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0232.f0a61d5be3bb43fbb51f5dd209919262"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        200486.61,
+        483725.5
+      ],
+      "axis": [
+        0.482934,
+        -0.875657
+      ],
+      "halfLength": 5.08,
+      "halfWidth": 4.72,
+      "height": 45.645,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.89,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        200476.79,
+        483743.3
+      ],
+      "axis": [
+        -0.482934,
+        0.875657
+      ],
+      "halfLength": 10.17,
+      "halfWidth": 6.22,
+      "height": 46.775,
+      "gradient": [
+        -0.01672,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        200496.43,
+        483707.7
+      ],
+      "axis": [
+        0.482934,
+        -0.875657
+      ],
+      "halfLength": 10.17,
+      "halfWidth": 6.22,
+      "height": 46.795,
+      "gradient": [
+        -0.01475,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0232.f0a61d5be3bb43fbb51f5dd209919262"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0232.f0a61d5be3bb43fbb51f5dd209919262",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/96646740",
+        "tags": {
+          "bridge": "yes",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Deventerweg",
+          "surface": "asphalt"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 200000,480000,220000,500000 --run nl-10_9 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 20.3,
+      "dekBreedte": 8.4,
+      "brugLengte": 20.3,
+      "water": [
+        -5.7,
+        3.3
+      ],
+      "portaalhoogte": 7.6,
+      "opritafstand": [
+        12.2,
+        12.2
+      ],
+      "oprithelling": 20.3,
+      "doorstekend": [
+        {
+          "gmlId": "G0232.1a9d07f5c9344b8ea3dc2f2d82c75ef2",
+          "klasse": "Terrain",
+          "oppervlak": 273.8,
+          "onderDek": 0.09,
+          "bovenDekOnderkant": 0.89,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0232.dc17a669ca214a4ab8d9226710bc3384",
+          "klasse": "Terrain",
+          "oppervlak": 261.9,
+          "onderDek": 0.03,
+          "bovenDekOnderkant": 0.75,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        46.605,
+        46.645
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

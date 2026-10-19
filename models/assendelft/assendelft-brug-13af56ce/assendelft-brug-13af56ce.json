@@ -1,0 +1,127 @@
+{
+  "name": "Dorpsstraat",
+  "file": "assendelft-brug-13af56ce.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    109807.49,
+    495802.5
+  ],
+  "xAxis": [
+    0.344746,
+    0.938696
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 42.089,
+  "groundSamplePoints": [
+    [
+      -5.48,
+      0
+    ],
+    [
+      5.48,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0479.13af56ce04ab0182e063ac100111d47c"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        109805.95,
+        495798.29
+      ],
+      "axis": [
+        -0.344746,
+        -0.938696
+      ],
+      "halfLength": 3,
+      "halfWidth": 3.61,
+      "height": 42.264,
+      "gradient": [
+        -0.05831,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        109809.04,
+        495806.71
+      ],
+      "axis": [
+        0.344746,
+        0.938696
+      ],
+      "halfLength": 3,
+      "halfWidth": 3.61,
+      "height": 42.289,
+      "gradient": [
+        -0.05,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0479.13af56ce04ab0182e063ac100111d47c"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0479.13af56ce04ab0182e063ac100111d47c",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/687907811",
+        "tags": {
+          "bridge": "yes",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "50",
+          "name": "Dorpsstraat",
+          "surface": "asphalt"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,480000,120000,500000 --run nl-5_9 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 3,
+      "dekBreedte": 4.8,
+      "brugLengte": 3,
+      "water": [
+        -1,
+        1
+      ],
+      "portaalhoogte": 4.3,
+      "opritafstand": [
+        4,
+        4
+      ],
+      "oprithelling": 6,
+      "doorstekend": [],
+      "opritHoogtes": [
+        42.089,
+        42.139
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

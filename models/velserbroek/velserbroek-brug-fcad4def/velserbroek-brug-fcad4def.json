@@ -1,0 +1,131 @@
+{
+  "name": "velserbroek-brug-fcad4def",
+  "file": "velserbroek-brug-fcad4def.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    106810.1,
+    493329.93
+  ],
+  "xAxis": [
+    0.888916,
+    0.458069
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 43.044,
+  "groundSamplePoints": [
+    [
+      -6.87,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "L0002.fcad4def735d491badf204f6c9dbec2a"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        106810.1,
+        493329.93
+      ],
+      "axis": [
+        0.888916,
+        0.458069
+      ],
+      "halfLength": 1.43,
+      "halfWidth": 1.42,
+      "height": 42.044,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.73,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        106804.89,
+        493327.24
+      ],
+      "axis": [
+        -0.888916,
+        -0.458069
+      ],
+      "halfLength": 3,
+      "halfWidth": 1.38,
+      "height": 43.194,
+      "gradient": [
+        -0.05,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "L0002.fcad4def735d491badf204f6c9dbec2a"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "L0002.fcad4def735d491badf204f6c9dbec2a",
+          "type": "dek"
+        }
+      ],
+      "osm": null,
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,480000,120000,500000 --run nl-5_9 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 5.7,
+      "dekBreedte": 1.8,
+      "brugLengte": 5.7,
+      "water": [
+        0.1,
+        2.6
+      ],
+      "portaalhoogte": 2.5,
+      "opritafstand": [
+        4,
+        12
+      ],
+      "oprithelling": 6,
+      "doorstekend": [
+        {
+          "gmlId": "G0453.40dd423e5b665788e053cc1f0a0a3668",
+          "klasse": "Terrain",
+          "oppervlak": 9456.7,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.73,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "L0002.a0b3a2d33e0a4f42a2316018ddfb812b",
+          "klasse": "Terrain",
+          "oppervlak": 22.3,
+          "onderDek": 0.03,
+          "bovenDekOnderkant": 0.59,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        43.044,
+        null
+      ]
+    },
+    "waarschuwingen": [
+      "oprit + zonder PDOK-maaiveld",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

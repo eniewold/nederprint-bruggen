@@ -1,0 +1,163 @@
+{
+  "name": "Wilhelminabrug",
+  "file": "zaandam-wilhelminabrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    116819.22,
+    494680.04
+  ],
+  "xAxis": [
+    0.326731,
+    -0.945117
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 44.234,
+  "groundSamplePoints": [
+    [
+      -8.66,
+      0
+    ],
+    [
+      8.66,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0479.f9ad7f4eed840280e053ac10011284e0"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        116819.22,
+        494680.04
+      ],
+      "axis": [
+        0.326731,
+        -0.945117
+      ],
+      "halfLength": 1.97,
+      "halfWidth": 2.27,
+      "height": 45.412,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.88,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        116816.64,
+        494687.48
+      ],
+      "axis": [
+        -0.326731,
+        0.945117
+      ],
+      "halfLength": 3.93,
+      "halfWidth": 2.66,
+      "height": 46.562,
+      "gradient": [
+        -0.03812,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        116821.79,
+        494672.6
+      ],
+      "axis": [
+        0.326731,
+        -0.945117
+      ],
+      "halfLength": 3.93,
+      "halfWidth": 2.66,
+      "height": 45.473,
+      "gradient": [
+        -0.31497,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0479.f9ad7f4eed840280e053ac10011284e0"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0479.f9ad7f4eed840280e053ac10011284e0",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1073292904",
+        "tags": {
+          "bridge": "yes",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Wilhelminabrug",
+          "smoothness": "good",
+          "bridge:structure": "beam",
+          "man_made": "bridge",
+          "ref": "1004"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,480000,120000,500000 --run nl-5_9 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 7.9,
+      "dekBreedte": 3.5,
+      "brugLengte": 7.9,
+      "water": null,
+      "portaalhoogte": 3.2,
+      "opritafstand": [
+        4.7,
+        4.7
+      ],
+      "oprithelling": 7.9,
+      "doorstekend": [
+        {
+          "gmlId": "G0479.5dedfcbe863d00a2e0530a32430139b2",
+          "klasse": "Terrain",
+          "oppervlak": 25,
+          "onderDek": 0.48,
+          "bovenDekOnderkant": 0.88,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0479.ca4c891eeaca0180e053ac1001135e22",
+          "klasse": "Separation",
+          "oppervlak": 2.8,
+          "onderDek": 0.51,
+          "bovenDekOnderkant": 0.84,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        46.412,
+        44.234
+      ]
+    },
+    "waarschuwingen": [
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}
