@@ -1,0 +1,111 @@
+{
+  "name": "Nijkerkerweg",
+  "file": "nijkerk-nijkerkerweg-4.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    160712.93,
+    475008.46
+  ],
+  "xAxis": [
+    0.283409,
+    -0.958999
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 45.02,
+  "groundSamplePoints": [
+    [
+      -34.48,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "L0002.d7d03baa5fe142098d4456fff3efaac6"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        160708.69,
+        475022.83
+      ],
+      "axis": [
+        -0.283409,
+        0.958999
+      ],
+      "halfLength": 7.5,
+      "halfWidth": 1.49,
+      "height": 45.17,
+      "gradient": [
+        -0.02001,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "L0002.d7d03baa5fe142098d4456fff3efaac6"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "L0002.d7d03baa5fe142098d4456fff3efaac6",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/460414701",
+        "tags": {
+          "bridge": "yes",
+          "bridge:material": "concrete",
+          "bridge:name": "Nijkerkerbrug",
+          "bridge:structure": "beam",
+          "highway": "cycleway",
+          "layer": "1",
+          "moped": "yes",
+          "name": "Nijkerkerweg",
+          "oneway": "yes",
+          "surface": "concrete",
+          "traffic_sign": "NL:G12a",
+          "width": "1.5"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,460000,180000,480000 --run nl-8_8 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 15,
+      "dekBreedte": 2,
+      "brugLengte": 15,
+      "water": [
+        -7,
+        7
+      ],
+      "portaalhoogte": 2.5,
+      "opritafstand": [
+        27,
+        27
+      ],
+      "oprithelling": 15,
+      "doorstekend": [],
+      "opritHoogtes": [
+        45.02,
+        null
+      ]
+    },
+    "waarschuwingen": [
+      "oprit - pas op 27.0 m gemeten",
+      "oprit + zonder PDOK-maaiveld",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}
