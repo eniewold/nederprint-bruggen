@@ -1,0 +1,134 @@
+{
+  "name": "Drijfbrug",
+  "file": "heesselt-brug-a61aa4dc.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    151120.49,
+    426153.29
+  ],
+  "xAxis": [
+    0.600936,
+    0.799297
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 47.94,
+  "groundSamplePoints": [
+    [
+      73.04,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "W0621.a61aa4dc68cf4dae9b0570b1ab670d67"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        151120.49,
+        426153.29
+      ],
+      "axis": [
+        0.600936,
+        0.799297
+      ],
+      "halfLength": 47.04,
+      "halfWidth": 4.28,
+      "height": 46.94,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.13,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        151159.57,
+        426205.27
+      ],
+      "axis": [
+        0.600936,
+        0.799297
+      ],
+      "halfLength": 12,
+      "halfWidth": 5.66,
+      "height": 48.09,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "W0621.a61aa4dc68cf4dae9b0570b1ab670d67"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "W0621.a61aa4dc68cf4dae9b0570b1ab670d67",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/863799418",
+        "tags": {
+          "bridge": "yes",
+          "bridge:name": "Drijfbrug",
+          "bridge:structure": "floating",
+          "highway": "footway",
+          "layer": "1",
+          "surface": "metal"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ophaalbrug",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,420000,160000,440000 --run nl-7_6 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 106.1,
+      "dekBreedte": 7.6,
+      "brugLengte": 106.1,
+      "water": [
+        -44,
+        53
+      ],
+      "portaalhoogte": 6.8,
+      "opritafstand": [
+        60,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G1960.74717ab1c63b4961b66a56bf0f4562db",
+          "klasse": "Terrain",
+          "oppervlak": 1959.4,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.13,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        null,
+        47.94
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "oprit - zonder PDOK-maaiveld",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

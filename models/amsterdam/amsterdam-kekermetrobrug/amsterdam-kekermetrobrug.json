@@ -1,0 +1,162 @@
+{
+  "name": "Kekermetrobrug",
+  "file": "amsterdam-kekermetrobrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    127384.79,
+    480699.13
+  ],
+  "xAxis": [
+    0.463796,
+    -0.885942
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 45.973,
+  "groundSamplePoints": [
+    [
+      -57.09,
+      -3.76
+    ],
+    [
+      37.11,
+      -1.05
+    ]
+  ],
+  "replacesTerrain": [
+    "G0363.70c9101184a0459687152062c85b9069",
+    "G0363.84a02ab2669c49a79ea1742766f4998b",
+    "G0363.a694cf19258e46e1b35f038394f59c72",
+    "G0363.d5cd1ca5658b46fb930ab3370468dbb2",
+    "G0363.ee7c7f88624847cfab4b0c2661a0a11f"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        127366.65,
+        480733.78
+      ],
+      "axis": [
+        -0.463796,
+        0.885942
+      ],
+      "halfLength": 12,
+      "halfWidth": 7.95,
+      "height": 47.892,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        127402.93,
+        480664.49
+      ],
+      "axis": [
+        0.463796,
+        -0.885942
+      ],
+      "halfLength": 12,
+      "halfWidth": 7.95,
+      "height": 47.008,
+      "gradient": [
+        -0.08622,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0363.a694cf19258e46e1b35f038394f59c72"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0363.70c9101184a0459687152062c85b9069",
+          "type": "pijler"
+        },
+        {
+          "id": "G0363.84a02ab2669c49a79ea1742766f4998b",
+          "type": "pijler"
+        },
+        {
+          "id": "G0363.a694cf19258e46e1b35f038394f59c72",
+          "type": "dek"
+        },
+        {
+          "id": "G0363.d5cd1ca5658b46fb930ab3370468dbb2",
+          "type": "pijler"
+        },
+        {
+          "id": "G0363.ee7c7f88624847cfab4b0c2661a0a11f",
+          "type": "pijler"
+        }
+      ],
+      "osm": {
+        "id": "way/1121197976",
+        "tags": {
+          "bridge": "viaduct",
+          "electrified": "rail",
+          "frequency": "0",
+          "gauge": "1435",
+          "layer": "1",
+          "maxspeed": "80",
+          "operator": "GVB",
+          "railway": "subway",
+          "railway:cbtc": "sto",
+          "source": "survey",
+          "voltage": "750",
+          "architect": "Sier van Rhijn; Ben Spängberg; Dienst der Publieke Werken",
+          "bridge:structure": "beam",
+          "man_made": "bridge",
+          "name": "Kekermetrobrug",
+          "ref": "1614",
+          "start_date": "1973"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 5
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 54.2,
+      "dekBreedte": 11.9,
+      "brugLengte": 54.2,
+      "water": [
+        2.4,
+        16.4
+      ],
+      "portaalhoogte": 10.7,
+      "opritafstand": [
+        30,
+        10
+      ],
+      "spoorhoogteBron": "pdok",
+      "oprithelling": 24,
+      "doorstekend": [],
+      "opritHoogtes": [
+        47.742,
+        45.973
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "oprit -: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "oprit -: spoorterrein voorbij 150 m nog 2.0 m hoger (50.0 m); PDOK trekt het spoor hier ver naar beneden, controleer de dekhoogte of geef --opritafstand",
+      "oprit - pas op 30 m langs het spoor gemeten (PDOK-spoorterrein bij de brug lager)",
+      "oprit +: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

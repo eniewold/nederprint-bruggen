@@ -1,0 +1,167 @@
+{
+  "name": "Huntumbrug",
+  "file": "amsterdam-huntumbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    125876.84,
+    480266.75
+  ],
+  "xAxis": [
+    0.483095,
+    -0.875568
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 40.078,
+  "groundSamplePoints": [
+    [
+      -24.05,
+      0
+    ],
+    [
+      24.05,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0363.ce9487654d434719a35c376779fe381b"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        125876.84,
+        480266.75
+      ],
+      "axis": [
+        0.483095,
+        -0.875568
+      ],
+      "halfLength": 5.47,
+      "halfWidth": 9,
+      "height": 39.186,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -5.22,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        125866.28,
+        480285.9
+      ],
+      "axis": [
+        -0.483095,
+        0.875568
+      ],
+      "halfLength": 10.93,
+      "halfWidth": 10.5,
+      "height": 40.336,
+      "gradient": [
+        -0.01372,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        125887.4,
+        480247.61
+      ],
+      "axis": [
+        0.483095,
+        -0.875568
+      ],
+      "halfLength": 10.93,
+      "halfWidth": 10.5,
+      "height": 40.282,
+      "gradient": [
+        -0.01866,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0363.ce9487654d434719a35c376779fe381b"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0363.ce9487654d434719a35c376779fe381b",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1006194157",
+        "tags": {
+          "bicycle": "no",
+          "bridge": "yes",
+          "foot": "no",
+          "highway": "secondary",
+          "layer": "1",
+          "maxspeed": "50",
+          "name": "Huntumbrug",
+          "oneway": "yes",
+          "bridge:structure": "beam",
+          "man_made": "bridge",
+          "wikidata": "Q108545926",
+          "wikipedia": "nl:Huntumbrug"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 21.9,
+      "dekBreedte": 17,
+      "brugLengte": 21.9,
+      "water": null,
+      "portaalhoogte": 15.3,
+      "opritafstand": [
+        13.1,
+        13.1
+      ],
+      "oprithelling": 21.9,
+      "doorstekend": [
+        {
+          "gmlId": "G0363.1025096c944141d58ce81edc4bd01bf4",
+          "klasse": "Terrain",
+          "oppervlak": 77.1,
+          "onderDek": 0.39,
+          "bovenDekOnderkant": 4.22,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0363.19ccce1443a94304842e5f8f776d4c56",
+          "klasse": "Terrain",
+          "oppervlak": 154.1,
+          "onderDek": 0.38,
+          "bovenDekOnderkant": 4.21,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        40.186,
+        40.078
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

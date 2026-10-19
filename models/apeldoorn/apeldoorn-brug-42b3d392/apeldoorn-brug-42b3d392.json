@@ -1,0 +1,165 @@
+{
+  "name": "Laan van Westenenk",
+  "file": "apeldoorn-brug-42b3d392.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    193641.15,
+    466536.44
+  ],
+  "xAxis": [
+    -0.408552,
+    0.912735
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 65.087,
+  "groundSamplePoints": [
+    [
+      -6.48,
+      0
+    ],
+    [
+      6.48,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0200.42b3d3925fda0268e0530a0a28492340"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        193641.15,
+        466536.44
+      ],
+      "axis": [
+        -0.408552,
+        0.912735
+      ],
+      "halfLength": 1.24,
+      "halfWidth": 2.49,
+      "height": 64.116,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.78,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        193643.39,
+        466531.43
+      ],
+      "axis": [
+        0.408552,
+        -0.912735
+      ],
+      "halfLength": 3,
+      "halfWidth": 2.98,
+      "height": 65.252,
+      "gradient": [
+        -0.05482,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        193638.91,
+        466541.44
+      ],
+      "axis": [
+        -0.408552,
+        0.912735
+      ],
+      "halfLength": 3,
+      "halfWidth": 2.98,
+      "height": 65.266,
+      "gradient": [
+        -0.05,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0200.42b3d3925fda0268e0530a0a28492340"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0200.42b3d3925fda0268e0530a0a28492340",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/871935212",
+        "tags": {
+          "bridge": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "mofa": "yes",
+          "moped": "no",
+          "name": "Laan van Westenenk",
+          "surface": "wood",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 180000,460000,200000,480000 --run nl-9_8 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 5,
+      "dekBreedte": 4,
+      "brugLengte": 5,
+      "water": [
+        -0.5,
+        1
+      ],
+      "portaalhoogte": 3.6,
+      "opritafstand": [
+        4,
+        4
+      ],
+      "oprithelling": 6,
+      "doorstekend": [
+        {
+          "gmlId": "G0200.dd67de221aa05d5fe05358280a0a0c9a",
+          "klasse": "Terrain",
+          "oppervlak": 35.2,
+          "onderDek": 0.03,
+          "bovenDekOnderkant": 0.78,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0200.dd67de221aa35d5fe05358280a0a0c9a",
+          "klasse": "Terrain",
+          "oppervlak": 12.3,
+          "onderDek": 0.03,
+          "bovenDekOnderkant": 0.77,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        65.087,
+        65.116
+      ]
+    },
+    "waarschuwingen": [
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

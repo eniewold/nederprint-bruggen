@@ -1,0 +1,177 @@
+{
+  "name": "amsterdam-brug-bd91afe2",
+  "file": "amsterdam-brug-bd91afe2.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    126181.64,
+    480467.84
+  ],
+  "xAxis": [
+    0.87513,
+    0.483889
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 40.546,
+  "groundSamplePoints": [
+    [
+      -84.51,
+      0
+    ],
+    [
+      84.51,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0363.bd91afe259b74e88ad0377ae3170089b",
+    "G0363.2df51ae22a4d4621b82ddb04900b3b5f"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        126181.64,
+        480467.84
+      ],
+      "axis": [
+        0.87513,
+        0.483889
+      ],
+      "halfLength": 58.51,
+      "halfWidth": 6.6,
+      "height": 39.742,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.68,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        126114.69,
+        480430.82
+      ],
+      "axis": [
+        -0.87513,
+        -0.483889
+      ],
+      "halfLength": 12,
+      "halfWidth": 8.1,
+      "height": 40.892,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        126248.59,
+        480504.86
+      ],
+      "axis": [
+        0.87513,
+        0.483889
+      ],
+      "halfLength": 12,
+      "halfWidth": 8.1,
+      "height": 40.794,
+      "gradient": [
+        -0.02065,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0363.bd91afe259b74e88ad0377ae3170089b"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0363.bd91afe259b74e88ad0377ae3170089b",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/929158112",
+        "tags": {
+          "bridge": "yes",
+          "highway": "footway",
+          "layer": "1",
+          "lit": "yes",
+          "surface": "paving_stones"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 129,
+      "dekBreedte": 12.2,
+      "brugLengte": 129,
+      "water": null,
+      "portaalhoogte": 11,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0363.2df51ae22a4d4621b82ddb04900b3b5f",
+          "klasse": "Terrain",
+          "oppervlak": 2923.6,
+          "onderDek": 0.9,
+          "bovenDekOnderkant": 3.98,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "G0363.8b3e8758175a4d37bb8ac354a0eebe27",
+          "klasse": "Terrain",
+          "oppervlak": 2310.1,
+          "onderDek": 0.06,
+          "bovenDekOnderkant": 0.68,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0363.728e43e8ad804f56b0e8624d14bc9af2",
+          "klasse": "Terrain",
+          "oppervlak": 106,
+          "onderDek": 0.26,
+          "bovenDekOnderkant": 0.67,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0363.fc7c711c5b274e6eb7d1d5d7ae54fdc3",
+          "klasse": "Terrain",
+          "oppervlak": 30.1,
+          "onderDek": 0.11,
+          "bovenDekOnderkant": 0.45,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        40.742,
+        40.546
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "4 PDOK-vorm(en) door het dek: 1 verborgen, 3 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}
