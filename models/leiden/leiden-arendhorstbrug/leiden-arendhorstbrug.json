@@ -1,0 +1,133 @@
+{
+  "name": "Arendhorstbrug",
+  "file": "leiden-arendhorstbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    94603.47,
+    465463.99
+  ],
+  "xAxis": [
+    -0.779934,
+    0.625862
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 42.448,
+  "groundSamplePoints": [
+    [
+      -5.16,
+      0
+    ],
+    [
+      5.16,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0546.bdde928fa62940f28a64818ee00fe1a1"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        94606.72,
+        465461.39
+      ],
+      "axis": [
+        0.779934,
+        -0.625862
+      ],
+      "halfLength": 3,
+      "halfWidth": 9.25,
+      "height": 42.725,
+      "gradient": [
+        -0.05,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        94600.23,
+        465466.59
+      ],
+      "axis": [
+        -0.779934,
+        0.625862
+      ],
+      "halfLength": 3,
+      "halfWidth": 9.25,
+      "height": 42.662,
+      "gradient": [
+        -0.07115,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0546.bdde928fa62940f28a64818ee00fe1a1"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0546.bdde928fa62940f28a64818ee00fe1a1",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/657450627",
+        "tags": {
+          "bridge": "yes",
+          "highway": "residential",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "30",
+          "maxweight:signed": "no",
+          "name": "Arendhorstbrug",
+          "sidewalk:both": "yes",
+          "surface": "paving_stones",
+          "alt_name": "Arendshorstbrug",
+          "bridge:structure": "beam",
+          "man_made": "bridge",
+          "source:name": "BAG/BGT"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 90100,459364,95921,466645 --run leiden-6 --parallel 4 --overschrijf 1",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 2.3,
+      "dekBreedte": 14.5,
+      "brugLengte": 2.3,
+      "water": [
+        -0.7,
+        0.8
+      ],
+      "portaalhoogte": 13.1,
+      "opritafstand": [
+        4,
+        4
+      ],
+      "oprithelling": 6,
+      "doorstekend": [],
+      "opritHoogtes": [
+        42.575,
+        42.448
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-17"
+  }
+}

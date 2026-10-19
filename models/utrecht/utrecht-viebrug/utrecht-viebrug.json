@@ -1,0 +1,150 @@
+{
+  "name": "Viebrug",
+  "file": "utrecht-viebrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    136469.56,
+    456164.14
+  ],
+  "xAxis": [
+    0.914205,
+    0.405251
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 47.918,
+  "groundSamplePoints": [
+    [
+      -27.47,
+      0
+    ],
+    [
+      27.47,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0344.3a1dd73bac2b474586a3f7d16308333f",
+    "G0344.d66937007a98427dabf0634819316b0c",
+    "G0344.eea1bf43c98c41628f5ffe0dceba93b6"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        136447.17,
+        456154.22
+      ],
+      "axis": [
+        -0.914205,
+        -0.405251
+      ],
+      "halfLength": 12,
+      "halfWidth": 16.3,
+      "height": 48.522,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        136491.94,
+        456174.07
+      ],
+      "axis": [
+        0.914205,
+        0.405251
+      ],
+      "halfLength": 12,
+      "halfWidth": 16.3,
+      "height": 48.295,
+      "gradient": [
+        -0.03141,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0344.3a1dd73bac2b474586a3f7d16308333f"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0344.3a1dd73bac2b474586a3f7d16308333f",
+          "type": "dek"
+        },
+        {
+          "id": "G0344.d66937007a98427dabf0634819316b0c",
+          "type": "landhoofd"
+        },
+        {
+          "id": "G0344.eea1bf43c98c41628f5ffe0dceba93b6",
+          "type": "landhoofd"
+        }
+      ],
+      "osm": {
+        "id": "way/368916500",
+        "tags": {
+          "bridge": "yes",
+          "highway": "busway",
+          "lanes": "2",
+          "layer": "1",
+          "maxspeed": "30",
+          "maxweight:signed": "no",
+          "noname": "yes",
+          "surface": "asphalt",
+          "zone:traffic": "NL:urban",
+          "bridge:structure": "arch",
+          "man_made": "bridge",
+          "name": "Viebrug",
+          "wikidata": "Q2286843",
+          "wikimedia_commons": "Category:Viebrug",
+          "wikipedia": "nl:Viebrug"
+        }
+      },
+      "fis": {
+        "id": 6049,
+        "naam": "Viebrug",
+        "afstand": 4,
+        "beweegbaar": false,
+        "doorvaarthoogteGesloten": 3.6500000000000004
+      },
+      "pdokBridgeVlakken": 3
+    },
+    "type": "gewelf",
+    "doorvaarthoogte": 3.6500000000000004,
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 126435,448710,141834,461610 --run utrecht-6 --parallel 4 --overschrijf 1",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 25,
+      "dekBreedte": 28.6,
+      "brugLengte": 25,
+      "water": [
+        -4,
+        3.5
+      ],
+      "portaalhoogte": 25.7,
+      "opritafstand": [
+        15,
+        15
+      ],
+      "oprithelling": 24,
+      "doorstekend": [],
+      "opritHoogtes": [
+        48.372,
+        47.918
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)"
+    ],
+    "gegenereerd": "2026-10-17"
+  }
+}

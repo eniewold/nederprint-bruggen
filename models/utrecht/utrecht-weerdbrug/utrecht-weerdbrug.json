@@ -1,0 +1,132 @@
+{
+  "name": "Weerdbrug",
+  "file": "utrecht-weerdbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    136425.01,
+    456507.54
+  ],
+  "xAxis": [
+    0.364101,
+    -0.931359
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 46.713,
+  "groundSamplePoints": [
+    [
+      -16.96,
+      0
+    ],
+    [
+      16.96,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0344.f18c29eb644d4188b1124ff1d476ae09"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        136419.39,
+        456521.91
+      ],
+      "axis": [
+        -0.364101,
+        0.931359
+      ],
+      "halfLength": 7.71,
+      "halfWidth": 5.17,
+      "height": 46.962,
+      "gradient": [
+        -0.03238,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        136430.62,
+        456493.18
+      ],
+      "axis": [
+        0.364101,
+        -0.931359
+      ],
+      "halfLength": 7.71,
+      "halfWidth": 5.17,
+      "height": 47.062,
+      "gradient": [
+        -0.01945,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0344.f18c29eb644d4188b1124ff1d476ae09"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0344.f18c29eb644d4188b1124ff1d476ae09",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/750058800",
+        "tags": {
+          "bridge": "movable",
+          "bridge:movable": "bascule",
+          "highway": "cycleway",
+          "layer": "1",
+          "lit": "yes",
+          "mofa": "no",
+          "name": "Weerdbrug",
+          "surface": "concrete",
+          "traffic_sign": "none",
+          "man_made": "bridge",
+          "bridge:structure": "arch"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "basculebrug",
+    "doorvaarthoogte": null,
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 126435,448710,141834,461610 --run utrecht-6 --parallel 4 --overschrijf 1",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 15.4,
+      "dekBreedte": 6.9,
+      "brugLengte": 15.4,
+      "water": [
+        -3.7,
+        3.8
+      ],
+      "portaalhoogte": 6.2,
+      "opritafstand": [
+        9.3,
+        9.3
+      ],
+      "oprithelling": 15.4,
+      "doorstekend": [],
+      "opritHoogtes": [
+        46.713,
+        46.912
+      ]
+    },
+    "waarschuwingen": [
+      "OSM zegt arch, gekozen type basculebrug",
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-17"
+  }
+}

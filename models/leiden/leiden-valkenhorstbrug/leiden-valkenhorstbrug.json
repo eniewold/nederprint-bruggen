@@ -1,0 +1,127 @@
+{
+  "name": "Valkenhorstbrug",
+  "file": "leiden-valkenhorstbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    94858.31,
+    465546.93
+  ],
+  "xAxis": [
+    -0.115128,
+    0.993351
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 43.328,
+  "groundSamplePoints": [
+    [
+      -5.24,
+      0
+    ],
+    [
+      5.24,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0546.24edb9da5c334d2cb60698f8eb9d6cc7"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        94858.8,
+        465542.72
+      ],
+      "axis": [
+        0.115128,
+        -0.993351
+      ],
+      "halfLength": 3,
+      "halfWidth": 11.35,
+      "height": 43.573,
+      "gradient": [
+        -0.08191,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        94857.82,
+        465551.14
+      ],
+      "axis": [
+        -0.115128,
+        0.993351
+      ],
+      "halfLength": 3,
+      "halfWidth": 11.35,
+      "height": 43.669,
+      "gradient": [
+        -0.05,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0546.24edb9da5c334d2cb60698f8eb9d6cc7"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0546.24edb9da5c334d2cb60698f8eb9d6cc7",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/666413795",
+        "tags": {
+          "bridge": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "name": "Valkenhorstbrug",
+          "surface": "asphalt",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 90100,459364,95921,466645 --run leiden-6 --parallel 4 --overschrijf 1",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 2.5,
+      "dekBreedte": 18.7,
+      "brugLengte": 2.5,
+      "water": [
+        -0.7,
+        0.8
+      ],
+      "portaalhoogte": 16.8,
+      "opritafstand": [
+        4,
+        4
+      ],
+      "oprithelling": 6,
+      "doorstekend": [],
+      "opritHoogtes": [
+        43.328,
+        43.519
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-17"
+  }
+}

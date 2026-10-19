@@ -1,0 +1,145 @@
+{
+  "name": "Zandbrug",
+  "file": "utrecht-zandbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    136423.64,
+    456470.57
+  ],
+  "xAxis": [
+    0.917959,
+    0.396675
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 47.122,
+  "groundSamplePoints": [
+    [
+      -18.41,
+      0
+    ],
+    [
+      18.41,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0344.1f49968587de483185bcaa61b8ef9ab0",
+    "G0344.5c1b5124c28f4b96977f94084d757c2d",
+    "G0344.7398b5db5df2414ab68799f06be62262"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        136408.28,
+        456463.93
+      ],
+      "axis": [
+        -0.917959,
+        -0.396675
+      ],
+      "halfLength": 8.37,
+      "halfWidth": 9.94,
+      "height": 47.322,
+      "gradient": [
+        -0.02392,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        136439,
+        456477.21
+      ],
+      "axis": [
+        0.917959,
+        0.396675
+      ],
+      "halfLength": 8.37,
+      "halfWidth": 9.94,
+      "height": 47.373,
+      "gradient": [
+        -0.01793,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0344.7398b5db5df2414ab68799f06be62262"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0344.1f49968587de483185bcaa61b8ef9ab0",
+          "type": "landhoofd"
+        },
+        {
+          "id": "G0344.5c1b5124c28f4b96977f94084d757c2d",
+          "type": "landhoofd"
+        },
+        {
+          "id": "G0344.7398b5db5df2414ab68799f06be62262",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1333223975",
+        "tags": {
+          "bridge": "yes",
+          "highway": "residential",
+          "layer": "1",
+          "lit": "no",
+          "maxspeed": "30",
+          "maxweight": "2",
+          "name": "Zandbrug",
+          "sidewalk:both": "yes",
+          "surface": "paving_stones",
+          "wikidata": "Q2620613",
+          "wikimedia_commons": "Category:Zandbrug, Utrecht",
+          "wikipedia": "nl:Zandbrug (Utrecht)",
+          "bridge:structure": "arch",
+          "man_made": "bridge",
+          "bridge:movable": "bascule"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 3
+    },
+    "type": "basculebrug",
+    "doorvaarthoogte": null,
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 126435,448710,141834,461610 --run utrecht-6 --parallel 4 --overschrijf 1",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 16.7,
+      "dekBreedte": 15.9,
+      "brugLengte": 16.7,
+      "water": [
+        -3.9,
+        3.1
+      ],
+      "portaalhoogte": 14.3,
+      "opritafstand": [
+        10,
+        10
+      ],
+      "oprithelling": 16.7,
+      "doorstekend": [],
+      "opritHoogtes": [
+        47.122,
+        47.223
+      ]
+    },
+    "waarschuwingen": [
+      "OSM zegt arch, gekozen type basculebrug",
+      "geen FIS-brug binnen 35 m"
+    ],
+    "gegenereerd": "2026-10-17"
+  }
+}

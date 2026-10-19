@@ -1,0 +1,175 @@
+{
+  "name": "Veenbrug",
+  "file": "leiden-veenbrug-2.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    90876.45,
+    463438.5
+  ],
+  "xAxis": [
+    -0.624567,
+    0.780971
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 46.047,
+  "groundSamplePoints": [
+    [
+      -33.46,
+      0
+    ],
+    [
+      33.46,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0546.1a0fbbe5791a42c0a9ce3b754c430987",
+    "G0546.aa0bf4d158384039b7d6bab96d1fb7b2",
+    "G0546.d9a22e8a6e3d4f11ae2bb467881fd458"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        90876.45,
+        463438.5
+      ],
+      "axis": [
+        -0.624567,
+        0.780971
+      ],
+      "halfLength": 9.21,
+      "halfWidth": 8.73,
+      "height": 45.346,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.44,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        90893.44,
+        463417.25
+      ],
+      "axis": [
+        0.624567,
+        -0.780971
+      ],
+      "halfLength": 12,
+      "halfWidth": 10.23,
+      "height": 46.346,
+      "gradient": [
+        -0.02499,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        90859.45,
+        463459.74
+      ],
+      "axis": [
+        -0.624567,
+        0.780971
+      ],
+      "halfLength": 12,
+      "halfWidth": 10.23,
+      "height": 46.496,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0546.1a0fbbe5791a42c0a9ce3b754c430987"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0546.1a0fbbe5791a42c0a9ce3b754c430987",
+          "type": "dek"
+        },
+        {
+          "id": "G0546.aa0bf4d158384039b7d6bab96d1fb7b2",
+          "type": "landhoofd"
+        },
+        {
+          "id": "G0546.d9a22e8a6e3d4f11ae2bb467881fd458",
+          "type": "landhoofd"
+        }
+      ],
+      "osm": {
+        "id": "way/666415312",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "yes",
+          "foot": "use_sidepath",
+          "highway": "secondary",
+          "layer": "1",
+          "maxspeed": "50",
+          "mofa": "use_sidepath",
+          "name": "Veenbrug",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 90100,459364,95921,466645 --run leiden-6 --parallel 4 --overschrijf 1",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 30.4,
+      "dekBreedte": 16.5,
+      "brugLengte": 30.4,
+      "water": [
+        -7.7,
+        3.3
+      ],
+      "portaalhoogte": 14.8,
+      "opritafstand": [
+        18.3,
+        18.3
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0546.b4223d05895840a782f4b376a4f5370c",
+          "klasse": "Road",
+          "oppervlak": 122.4,
+          "onderDek": 0.22,
+          "bovenDekOnderkant": 0.44,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0546.f00ec00f5b4f49efb1ccbfe2ed00af5b",
+          "klasse": "Separation",
+          "oppervlak": 121.3,
+          "onderDek": 0.2,
+          "bovenDekOnderkant": 0.41,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        46.047,
+        46.346
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-17"
+  }
+}

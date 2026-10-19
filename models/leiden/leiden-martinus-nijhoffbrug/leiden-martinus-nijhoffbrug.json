@@ -1,0 +1,165 @@
+{
+  "name": "Martinus Nijhoffbrug",
+  "file": "leiden-martinus-nijhoffbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    92586.9,
+    463251.21
+  ],
+  "xAxis": [
+    0.983013,
+    0.183537
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 43.694,
+  "groundSamplePoints": [
+    [
+      -10.56,
+      0
+    ],
+    [
+      10.56,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0546.2c8a9c83029b4a79a0e2868e40822bbd"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        92586.9,
+        463251.21
+      ],
+      "axis": [
+        0.983013,
+        0.183537
+      ],
+      "halfLength": 2.4,
+      "halfWidth": 3.73,
+      "height": 42.743,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.36,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        92577.46,
+        463249.45
+      ],
+      "axis": [
+        -0.983013,
+        -0.183537
+      ],
+      "halfLength": 4.8,
+      "halfWidth": 4.85,
+      "height": 43.869,
+      "gradient": [
+        -0.03631,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        92596.34,
+        463252.98
+      ],
+      "axis": [
+        0.983013,
+        0.183537
+      ],
+      "halfLength": 4.8,
+      "halfWidth": 4.85,
+      "height": 43.893,
+      "gradient": [
+        -0.03124,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0546.2c8a9c83029b4a79a0e2868e40822bbd"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0546.2c8a9c83029b4a79a0e2868e40822bbd",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/665015625",
+        "tags": {
+          "bridge": "yes",
+          "highway": "residential",
+          "layer": "1",
+          "maxspeed": "30",
+          "maxweight:signed": "no",
+          "name": "Martinus Nijhoffbrug",
+          "surface": "paving_stones",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 90100,459364,95921,466645 --run leiden-6 --parallel 4 --overschrijf 1",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 9.6,
+      "dekBreedte": 6.5,
+      "brugLengte": 9.6,
+      "water": [
+        -1.8,
+        1.7
+      ],
+      "portaalhoogte": 5.8,
+      "opritafstand": [
+        5.8,
+        5.8
+      ],
+      "oprithelling": 9.6,
+      "doorstekend": [
+        {
+          "gmlId": "G0546.736b11a4f7d7475aa1d38aff96d8e4c9",
+          "klasse": "Terrain",
+          "oppervlak": 188,
+          "onderDek": 0.01,
+          "bovenDekOnderkant": 0.36,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0546.e6c8e99a4af1424390652b80f2218513",
+          "klasse": "Terrain",
+          "oppervlak": 193.3,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.23,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        43.694,
+        43.743
+      ]
+    },
+    "waarschuwingen": [
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-17"
+  }
+}

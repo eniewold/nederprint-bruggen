@@ -1,0 +1,184 @@
+{
+  "name": "Smeebrug",
+  "file": "utrecht-smeebrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    136834.37,
+    455372.35
+  ],
+  "xAxis": [
+    -0.996689,
+    -0.081307
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 48.053,
+  "groundSamplePoints": [
+    [
+      -31.06,
+      0
+    ],
+    [
+      31.06,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0344.695f072bcc03474ca05844a49fc8164b",
+    "G0344.c21067f43bb544aba776c88da9d44914",
+    "G0344.c4139956dfbc4cd7ac8f06ac6a6ff848",
+    "G0344.dbc958e6396f4f20b7dc3c2eff5baecb"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        136834.37,
+        455372.35
+      ],
+      "axis": [
+        -0.996689,
+        -0.081307
+      ],
+      "halfLength": 8.12,
+      "halfWidth": 12.9,
+      "height": 47.057,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.52,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        136860.4,
+        455374.48
+      ],
+      "axis": [
+        0.996689,
+        0.081307
+      ],
+      "halfLength": 12,
+      "halfWidth": 14.4,
+      "height": 48.207,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        136808.34,
+        455370.23
+      ],
+      "axis": [
+        -0.996689,
+        -0.081307
+      ],
+      "halfLength": 12,
+      "halfWidth": 14.4,
+      "height": 48.205,
+      "gradient": [
+        -0.01266,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0344.c4139956dfbc4cd7ac8f06ac6a6ff848"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0344.695f072bcc03474ca05844a49fc8164b",
+          "type": "pijler"
+        },
+        {
+          "id": "G0344.c21067f43bb544aba776c88da9d44914",
+          "type": "landhoofd"
+        },
+        {
+          "id": "G0344.c4139956dfbc4cd7ac8f06ac6a6ff848",
+          "type": "dek"
+        },
+        {
+          "id": "G0344.dbc958e6396f4f20b7dc3c2eff5baecb",
+          "type": "landhoofd"
+        }
+      ],
+      "osm": {
+        "id": "way/843664557",
+        "tags": {
+          "bridge": "yes",
+          "cycleway:both": "no",
+          "highway": "residential",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "30",
+          "maxweight:signed": "no",
+          "name": "Smeebrug",
+          "sidewalk": "both",
+          "sidewalk:both:surface": "paving_stones",
+          "surface": "sett",
+          "wikidata": "Q2301985",
+          "wikimedia_commons": "Category:Smeebrug (Utrecht)",
+          "wikipedia": "nl:Smeebrug",
+          "bridge:structure": "arch",
+          "man_made": "bridge"
+        }
+      },
+      "fis": {
+        "id": 57139,
+        "naam": "Smeebrug",
+        "afstand": 1,
+        "beweegbaar": false,
+        "doorvaarthoogteGesloten": 3.8899999999999997
+      },
+      "pdokBridgeVlakken": 4
+    },
+    "type": "gewelf",
+    "doorvaarthoogte": 3.8899999999999997,
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 126435,448710,141834,461610 --run utrecht-6 --parallel 4 --overschrijf 1",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 28.2,
+      "dekBreedte": 24.8,
+      "brugLengte": 28.2,
+      "water": [
+        -10.1,
+        5.9
+      ],
+      "portaalhoogte": 22.3,
+      "opritafstand": [
+        16.9,
+        16.9
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0344.ec26fdfb1b0345c7bea28562b8b96499",
+          "klasse": "Terrain",
+          "oppervlak": 44.6,
+          "onderDek": 0.06,
+          "bovenDekOnderkant": 0.52,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        48.057,
+        48.053
+      ]
+    },
+    "waarschuwingen": [
+      "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-17"
+  }
+}

@@ -1,0 +1,177 @@
+{
+  "name": "Albatrosbrug",
+  "file": "utrecht-albatrosbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    137164.64,
+    454719.07
+  ],
+  "xAxis": [
+    -0.795552,
+    -0.605885
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 46.883,
+  "groundSamplePoints": [
+    [
+      -36.36,
+      0
+    ],
+    [
+      36.36,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0344.d38f738524f54921a128f512bddf30f6",
+    "G0344.d5578f1997a0445494dfa7f76993264b"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        137164.64,
+        454719.07
+      ],
+      "axis": [
+        -0.795552,
+        -0.605885
+      ],
+      "halfLength": 10.53,
+      "halfWidth": 12.52,
+      "height": 45.983,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.52,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        137187.33,
+        454736.36
+      ],
+      "axis": [
+        0.795552,
+        0.605885
+      ],
+      "halfLength": 12,
+      "halfWidth": 14.02,
+      "height": 47.133,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        137141.94,
+        454701.79
+      ],
+      "axis": [
+        -0.795552,
+        -0.605885
+      ],
+      "halfLength": 12,
+      "halfWidth": 14.02,
+      "height": 47.083,
+      "gradient": [
+        -0.01665,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0344.d5578f1997a0445494dfa7f76993264b"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0344.d38f738524f54921a128f512bddf30f6",
+          "type": "landhoofd"
+        },
+        {
+          "id": "G0344.d5578f1997a0445494dfa7f76993264b",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/404286252",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "yes",
+          "bridge:name": "Albatrosbrug",
+          "foot": "use_sidepath",
+          "highway": "secondary",
+          "lanes": "2",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "30",
+          "mofa": "use_sidepath",
+          "name": "Albatrosbrug",
+          "oneway": "yes",
+          "surface": "asphalt",
+          "turn:lanes": "left|right",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 2
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 126435,448710,141834,461610 --run utrecht-6 --parallel 4 --overschrijf 1",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 33.1,
+      "dekBreedte": 24,
+      "brugLengte": 33.1,
+      "water": [
+        -7.5,
+        7
+      ],
+      "portaalhoogte": 21.6,
+      "opritafstand": [
+        19.8,
+        19.8
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0344.f0cee2660c9e4e14a2c6ef09908cd1b3",
+          "klasse": "Forest",
+          "oppervlak": 85.2,
+          "onderDek": 0.22,
+          "bovenDekOnderkant": 0.52,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0344.8a75c5c972954676a06e24f18628158d",
+          "klasse": "Separation",
+          "oppervlak": 317.3,
+          "onderDek": 0.11,
+          "bovenDekOnderkant": 0.48,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        46.983,
+        46.883
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-17"
+  }
+}

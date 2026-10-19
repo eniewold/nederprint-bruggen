@@ -1,0 +1,165 @@
+{
+  "name": "Arthur van Schendelbrug",
+  "file": "leiden-arthur-van-schendelbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    92600.15,
+    463179.59
+  ],
+  "xAxis": [
+    0.982924,
+    0.184014
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 43.713,
+  "groundSamplePoints": [
+    [
+      -10.46,
+      0
+    ],
+    [
+      10.46,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0546.fead23dabd744b6e9e111952c732af73"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        92600.15,
+        463179.59
+      ],
+      "axis": [
+        0.982924,
+        0.184014
+      ],
+      "halfLength": 2.38,
+      "halfWidth": 4.99,
+      "height": 42.728,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.67,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        92590.8,
+        463177.84
+      ],
+      "axis": [
+        -0.982924,
+        -0.184014
+      ],
+      "halfLength": 4.76,
+      "halfWidth": 6.49,
+      "height": 43.871,
+      "gradient": [
+        -0.0331,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        92609.5,
+        463181.34
+      ],
+      "axis": [
+        0.982924,
+        0.184014
+      ],
+      "halfLength": 4.76,
+      "halfWidth": 6.49,
+      "height": 43.878,
+      "gradient": [
+        -0.03154,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0546.fead23dabd744b6e9e111952c732af73"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0546.fead23dabd744b6e9e111952c732af73",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/657450753",
+        "tags": {
+          "bridge": "yes",
+          "highway": "residential",
+          "layer": "1",
+          "maxspeed": "30",
+          "maxweight:signed": "no",
+          "name": "Arthur van Schendelbrug",
+          "surface": "paving_stones",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 90100,459364,95921,466645 --run leiden-6 --parallel 4 --overschrijf 1",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 9.5,
+      "dekBreedte": 9,
+      "brugLengte": 9.5,
+      "water": [
+        -1.8,
+        2.2
+      ],
+      "portaalhoogte": 8.1,
+      "opritafstand": [
+        5.7,
+        5.7
+      ],
+      "oprithelling": 9.5,
+      "doorstekend": [
+        {
+          "gmlId": "G0546.736b11a4f7d7475aa1d38aff96d8e4c9",
+          "klasse": "Terrain",
+          "oppervlak": 219.4,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.67,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0546.e6c8e99a4af1424390652b80f2218513",
+          "klasse": "Terrain",
+          "oppervlak": 101.9,
+          "onderDek": 0.01,
+          "bovenDekOnderkant": 0.49,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        43.713,
+        43.728
+      ]
+    },
+    "waarschuwingen": [
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-17"
+  }
+}

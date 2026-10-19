@@ -1,0 +1,170 @@
+{
+  "name": "Blauwpoortsbrug",
+  "file": "leiden-blauwpoortsbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    93278.54,
+    464122.4
+  ],
+  "xAxis": [
+    0.94965,
+    -0.313314
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 43.871,
+  "groundSamplePoints": [
+    [
+      -39.39,
+      0
+    ],
+    [
+      39.39,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0546.be31883c55424b4d84a38665d9761527",
+    "G0546.7f0aea16992c4ce2ba87da4a9f2e5bd6",
+    "G0546.40ef8efc67344e3fa9edf3cee2860d08",
+    "G0546.c40f5d5ca8514149ad4bc7da5d7d1ccc",
+    "G0546.cd4083833cdf4b03a5ca2dc55c7ef006"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        93248.73,
+        464132.24
+      ],
+      "axis": [
+        -0.94965,
+        0.313314
+      ],
+      "halfLength": 12,
+      "halfWidth": 14.02,
+      "height": 44.067,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        93308.35,
+        464112.56
+      ],
+      "axis": [
+        0.94965,
+        -0.313314
+      ],
+      "halfLength": 12,
+      "halfWidth": 14.02,
+      "height": 44.044,
+      "gradient": [
+        -0.01439,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0546.c40f5d5ca8514149ad4bc7da5d7d1ccc"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0546.be31883c55424b4d84a38665d9761527",
+          "type": "pijler"
+        },
+        {
+          "id": "G0546.7f0aea16992c4ce2ba87da4a9f2e5bd6",
+          "type": "pijler"
+        },
+        {
+          "id": "G0546.40ef8efc67344e3fa9edf3cee2860d08",
+          "type": "pijler"
+        },
+        {
+          "id": "G0546.c40f5d5ca8514149ad4bc7da5d7d1ccc",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/613487616",
+        "tags": {
+          "bridge": "movable",
+          "bus:backward": "yes",
+          "bus:forward": "yes",
+          "cycleway": "lane",
+          "foot": "yes",
+          "hgv": "no",
+          "highway": "residential",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "30",
+          "motorcar": "no",
+          "motorcycle": "no",
+          "name": "Blauwpoortsbrug",
+          "name:etymology:wikidata": "Q20892647",
+          "parking:both": "no",
+          "psv": "yes",
+          "sidewalk": "both",
+          "surface": "asphalt",
+          "bridge:structure": "arch",
+          "man_made": "bridge",
+          "wikidata": "Q2718406",
+          "wikimedia_commons": "Category:Blauwpoortsbrug (Leiden)",
+          "wikipedia": "nl:Blauwpoortsbrug (Leiden)"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 4
+    },
+    "type": "basculebrug",
+    "doorvaarthoogte": null,
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 90100,459364,95921,466645 --run leiden-6 --parallel 4 --overschrijf 1",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 38.8,
+      "dekBreedte": 24,
+      "brugLengte": 38.8,
+      "water": [
+        -18.9,
+        18.6
+      ],
+      "portaalhoogte": 21.6,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0546.cd4083833cdf4b03a5ca2dc55c7ef006",
+          "klasse": "Terrain",
+          "oppervlak": 21.2,
+          "onderDek": 1,
+          "bovenDekOnderkant": 1.1,
+          "actie": "verbergen"
+        }
+      ],
+      "opritHoogtes": [
+        43.917,
+        43.871
+      ]
+    },
+    "waarschuwingen": [
+      "OSM zegt arch, gekozen type basculebrug",
+      "bridge=movable zonder mechanisme: basculebrug is een gok",
+      "geen FIS-brug binnen 35 m",
+      "1 PDOK-vorm(en) door het dek: 1 verborgen, 0 verlaagd"
+    ],
+    "gegenereerd": "2026-10-17"
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "name": "Museumbrug",
+  "file": "utrecht-museumbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    138155.86,
+    456385.41
+  ],
+  "xAxis": [
+    -0.051819,
+    -0.998656
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 45.952,
+  "groundSamplePoints": [
+    [
+      -7.03,
+      0
+    ],
+    [
+      7.03,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0344.619053875c8e43b78e2c781cb982d632"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        138156.17,
+        456391.46
+      ],
+      "axis": [
+        0.051819,
+        0.998656
+      ],
+      "halfLength": 3.03,
+      "halfWidth": 20.91,
+      "height": 46.175,
+      "gradient": [
+        -0.07347,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        138155.54,
+        456379.35
+      ],
+      "axis": [
+        -0.051819,
+        -0.998656
+      ],
+      "halfLength": 3.03,
+      "halfWidth": 20.91,
+      "height": 46.248,
+      "gradient": [
+        -0.04947,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0344.619053875c8e43b78e2c781cb982d632"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0344.619053875c8e43b78e2c781cb982d632",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1069210745",
+        "tags": {
+          "bridge": "yes",
+          "highway": "busway",
+          "lanes": "1",
+          "layer": "1",
+          "maxspeed": "50",
+          "name": "Museumbrug",
+          "oneway": "yes",
+          "zone:traffic": "NL:urban",
+          "bridge:structure": "beam",
+          "man_made": "bridge",
+          "wikidata": "Q107338792",
+          "wikipedia": "nl:Museumbrug (Utrecht)"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 126435,448710,141834,461610 --run utrecht-6 --parallel 4 --overschrijf 1",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 6.1,
+      "dekBreedte": 37.8,
+      "brugLengte": 6.1,
+      "water": [
+        -2.5,
+        2.5
+      ],
+      "portaalhoogte": 34,
+      "opritafstand": [
+        4,
+        4
+      ],
+      "oprithelling": 6.1,
+      "doorstekend": [],
+      "opritHoogtes": [
+        45.952,
+        46.098
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-17"
+  }
+}

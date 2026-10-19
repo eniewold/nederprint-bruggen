@@ -1,0 +1,145 @@
+{
+  "name": "Lijsbethbrug",
+  "file": "leiden-lijsbethbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    93470.09,
+    464211.03
+  ],
+  "xAxis": [
+    -0.004145,
+    0.999991
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 43.591,
+  "groundSamplePoints": [
+    [
+      -24.32,
+      0
+    ],
+    [
+      24.32,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0546.39d6d6a5a45b46589fa3a155414f22e5",
+    "G0546.f665e74a04ae46eb980d47dd17723c4a",
+    "G0546.793f8cb15b4a4632be9ff2af0ab52f6c",
+    "G0546.0675048c128844a99205d5b81f367716"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        93470.18,
+        464188.92
+      ],
+      "axis": [
+        0.004145,
+        -0.999991
+      ],
+      "halfLength": 11.06,
+      "halfWidth": 3.31,
+      "height": 43.906,
+      "gradient": [
+        -0.01357,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        93469.99,
+        464233.14
+      ],
+      "axis": [
+        -0.004145,
+        0.999991
+      ],
+      "halfLength": 11.06,
+      "halfWidth": 3.31,
+      "height": 43.823,
+      "gradient": [
+        -0.02102,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0546.793f8cb15b4a4632be9ff2af0ab52f6c"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0546.39d6d6a5a45b46589fa3a155414f22e5",
+          "type": "pijler"
+        },
+        {
+          "id": "G0546.f665e74a04ae46eb980d47dd17723c4a",
+          "type": "pijler"
+        },
+        {
+          "id": "G0546.793f8cb15b4a4632be9ff2af0ab52f6c",
+          "type": "dek"
+        },
+        {
+          "id": "G0546.0675048c128844a99205d5b81f367716",
+          "type": "landhoofd"
+        }
+      ],
+      "osm": {
+        "id": "way/635825497",
+        "tags": {
+          "bridge": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "lit": "yes",
+          "oneway": "no",
+          "surface": "paving_stones",
+          "zone:traffic": "NL:urban",
+          "bridge:structure": "cable-stayed",
+          "man_made": "bridge",
+          "name": "Lijsbethbrug"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 4
+    },
+    "type": "tuibrug",
+    "doorvaarthoogte": null,
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 90100,459364,95921,466645 --run leiden-6 --parallel 4 --overschrijf 1",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 22.1,
+      "dekBreedte": 4.4,
+      "brugLengte": 22.1,
+      "water": [
+        -10.1,
+        10.4
+      ],
+      "portaalhoogte": 4,
+      "opritafstand": [
+        13.3,
+        13.3
+      ],
+      "oprithelling": 22.1,
+      "doorstekend": [],
+      "opritHoogtes": [
+        43.756,
+        43.591
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "tuibrug zonder BGT-pylonen: alleen het dek"
+    ],
+    "gegenereerd": "2026-10-17"
+  }
+}

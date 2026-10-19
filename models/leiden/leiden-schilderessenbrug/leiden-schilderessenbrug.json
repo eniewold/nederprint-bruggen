@@ -1,0 +1,125 @@
+{
+  "name": "Schilderessenbrug",
+  "file": "leiden-schilderessenbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    90608.21,
+    463117.11
+  ],
+  "xAxis": [
+    -0.720774,
+    -0.69317
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 43.723,
+  "groundSamplePoints": [
+    [
+      -13.23,
+      0
+    ],
+    [
+      13.23,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0546.06363f7e094f4d0690edbf5f653a228f"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        90616.88,
+        463125.45
+      ],
+      "axis": [
+        0.720774,
+        0.69317
+      ],
+      "halfLength": 6.01,
+      "halfWidth": 2.45,
+      "height": 43.965,
+      "gradient": [
+        -0.02494,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        90599.54,
+        463108.77
+      ],
+      "axis": [
+        -0.720774,
+        -0.69317
+      ],
+      "halfLength": 6.01,
+      "halfWidth": 2.45,
+      "height": 43.919,
+      "gradient": [
+        -0.03259,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0546.06363f7e094f4d0690edbf5f653a228f"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0546.06363f7e094f4d0690edbf5f653a228f",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/665021226",
+        "tags": {
+          "bridge": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "name": "Schilderessenbrug",
+          "man_made": "bridge",
+          "bridge:structure": "beam"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 90100,459364,95921,466645 --run leiden-6 --parallel 4 --overschrijf 1",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 12,
+      "dekBreedte": 3.3,
+      "brugLengte": 12,
+      "water": [
+        -3.5,
+        3.5
+      ],
+      "portaalhoogte": 2.9,
+      "opritafstand": [
+        7.2,
+        7.2
+      ],
+      "oprithelling": 12,
+      "doorstekend": [],
+      "opritHoogtes": [
+        43.815,
+        43.723
+      ]
+    },
+    "waarschuwingen": [
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-17"
+  }
+}

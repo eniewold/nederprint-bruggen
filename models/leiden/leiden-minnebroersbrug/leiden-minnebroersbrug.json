@@ -1,0 +1,131 @@
+{
+  "name": "Minnebroersbrug",
+  "file": "leiden-minnebroersbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    94501.73,
+    464021.91
+  ],
+  "xAxis": [
+    0.977064,
+    -0.212946
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 43.758,
+  "groundSamplePoints": [
+    [
+      -6.44,
+      0
+    ],
+    [
+      6.44,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0546.628b404f7d724382bca9189fec30ecce"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        94496.41,
+        464023.07
+      ],
+      "axis": [
+        -0.977064,
+        0.212946
+      ],
+      "halfLength": 3,
+      "halfWidth": 6.28,
+      "height": 44.043,
+      "gradient": [
+        -0.05,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        94507.04,
+        464020.75
+      ],
+      "axis": [
+        0.977064,
+        -0.212946
+      ],
+      "halfLength": 3,
+      "halfWidth": 6.28,
+      "height": 43.975,
+      "gradient": [
+        -0.07252,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0546.628b404f7d724382bca9189fec30ecce"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0546.628b404f7d724382bca9189fec30ecce",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/636377013",
+        "tags": {
+          "bridge": "yes",
+          "highway": "residential",
+          "layer": "1",
+          "maxspeed": "30",
+          "maxspeed:type": "NL:zone30",
+          "maxweight:signed": "no",
+          "name": "Minnebroersbrug",
+          "surface": "paving_stones",
+          "man_made": "bridge",
+          "bridge:structure": "humpback"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "bolbrug",
+    "doorvaarthoogte": null,
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 90100,459364,95921,466645 --run leiden-6 --parallel 4 --overschrijf 1",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 4.9,
+      "dekBreedte": 8.6,
+      "brugLengte": 4.9,
+      "water": [
+        -1.9,
+        1.6
+      ],
+      "portaalhoogte": 7.7,
+      "opritafstand": [
+        4,
+        4
+      ],
+      "oprithelling": 6,
+      "bolling": 0.58,
+      "doorstekend": [],
+      "opritHoogtes": [
+        43.893,
+        43.758
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-17"
+  }
+}

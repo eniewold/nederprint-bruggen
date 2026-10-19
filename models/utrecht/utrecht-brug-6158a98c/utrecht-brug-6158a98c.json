@@ -1,0 +1,174 @@
+{
+  "name": "utrecht-brug-6158a98c",
+  "file": "utrecht-brug-6158a98c.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    136224.34,
+    455933.01
+  ],
+  "xAxis": [
+    -0.868766,
+    -0.495223
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 46.966,
+  "groundSamplePoints": [
+    [
+      -24.19,
+      0
+    ],
+    [
+      24.19,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0344.6b914a41363f46a6adda6373a85c6859",
+    "G0344.6158a98c50a4477e8b0ce827ea57eb13",
+    "G0344.835e3464c57e46d5a13f0d038867ac7d",
+    "G0344.35a27ff3a1f344bebd9ce1180d445834"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        136224.34,
+        455933.01
+      ],
+      "axis": [
+        -0.868766,
+        -0.495223
+      ],
+      "halfLength": 5.5,
+      "halfWidth": 74.81,
+      "height": 46.868,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.71,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        136243.45,
+        455943.9
+      ],
+      "axis": [
+        0.868766,
+        0.495223
+      ],
+      "halfLength": 11,
+      "halfWidth": 76.31,
+      "height": 48.018,
+      "gradient": [
+        -0.01364,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        136205.23,
+        455922.12
+      ],
+      "axis": [
+        -0.868766,
+        -0.495223
+      ],
+      "halfLength": 11,
+      "halfWidth": 76.31,
+      "height": 47.567,
+      "gradient": [
+        -0.05469,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0344.6158a98c50a4477e8b0ce827ea57eb13"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0344.6b914a41363f46a6adda6373a85c6859",
+          "type": "landhoofd"
+        },
+        {
+          "id": "G0344.6158a98c50a4477e8b0ce827ea57eb13",
+          "type": "dek"
+        },
+        {
+          "id": "G0344.835e3464c57e46d5a13f0d038867ac7d",
+          "type": "landhoofd"
+        }
+      ],
+      "osm": {
+        "id": "way/1191745706",
+        "tags": {
+          "area": "yes",
+          "bridge:structure": "beam",
+          "highway": "pedestrian",
+          "layer": "1",
+          "man_made": "bridge",
+          "surface": "paving_stones"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 3
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 126435,448710,141834,461610 --run utrecht-6 --parallel 4 --overschrijf 1",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 22,
+      "dekBreedte": 148.6,
+      "brugLengte": 22,
+      "water": [
+        -10,
+        9.5
+      ],
+      "portaalhoogte": 133.8,
+      "opritafstand": [
+        13.2,
+        13.2
+      ],
+      "oprithelling": 22,
+      "doorstekend": [
+        {
+          "gmlId": "G0344.441b584a0d3649d7afc269b967cc102a",
+          "klasse": "Separation",
+          "oppervlak": 10.2,
+          "onderDek": 0.46,
+          "bovenDekOnderkant": 0.71,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0344.35a27ff3a1f344bebd9ce1180d445834",
+          "klasse": "Separation",
+          "oppervlak": 27.4,
+          "onderDek": 0.75,
+          "bovenDekOnderkant": 0.7,
+          "actie": "verbergen"
+        }
+      ],
+      "opritHoogtes": [
+        47.868,
+        46.966
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen FIS-brug binnen 35 m",
+      "2 PDOK-vorm(en) door het dek: 1 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-17"
+  }
+}

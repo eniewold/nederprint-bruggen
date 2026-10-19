@@ -1,0 +1,170 @@
+{
+  "name": "Ter Haarbrug",
+  "file": "leiden-ter-haarbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    92535.96,
+    463529.41
+  ],
+  "xAxis": [
+    0.979753,
+    0.20021
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 43.637,
+  "groundSamplePoints": [
+    [
+      -12.66,
+      0
+    ],
+    [
+      12.66,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0546.d25dbfe2dfd74913b68274dacb0d453e"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        92535.96,
+        463529.41
+      ],
+      "axis": [
+        0.979753,
+        0.20021
+      ],
+      "halfLength": 2.88,
+      "halfWidth": 4.39,
+      "height": 42.89,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.42,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        92524.69,
+        463527.1
+      ],
+      "axis": [
+        -0.979753,
+        -0.20021
+      ],
+      "halfLength": 5.75,
+      "halfWidth": 5.84,
+      "height": 44.04,
+      "gradient": [
+        -0.02608,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        92547.23,
+        463531.71
+      ],
+      "axis": [
+        0.979753,
+        0.20021
+      ],
+      "halfLength": 5.75,
+      "halfWidth": 5.84,
+      "height": 43.914,
+      "gradient": [
+        -0.04804,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0546.d25dbfe2dfd74913b68274dacb0d453e"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0546.d25dbfe2dfd74913b68274dacb0d453e",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/666404721",
+        "tags": {
+          "bridge": "yes",
+          "highway": "service",
+          "layer": "1",
+          "name": "Ter Haarbrug",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 90100,459364,95921,466645 --run leiden-6 --parallel 4 --overschrijf 1",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 11.5,
+      "dekBreedte": 7.8,
+      "brugLengte": 11.5,
+      "water": [
+        -3.3,
+        -0.3
+      ],
+      "portaalhoogte": 7,
+      "opritafstand": [
+        6.9,
+        6.9
+      ],
+      "oprithelling": 11.5,
+      "doorstekend": [
+        {
+          "gmlId": "G0546.8a980ac89bc14cb886da16536054635f",
+          "klasse": "Forest",
+          "oppervlak": 254.5,
+          "onderDek": 0.02,
+          "bovenDekOnderkant": 0.42,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0546.46cb6c378fbc4720b914b4915b08b3b4",
+          "klasse": "Forest",
+          "oppervlak": 409.8,
+          "onderDek": 0.01,
+          "bovenDekOnderkant": 0.25,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0546.cb4fefe7843742bb907f742216a7d379",
+          "klasse": "Terrain",
+          "oppervlak": 436.5,
+          "onderDek": 0.04,
+          "bovenDekOnderkant": 0.17,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        43.89,
+        43.637
+      ]
+    },
+    "waarschuwingen": [
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "3 PDOK-vorm(en) door het dek: 0 verborgen, 3 verlaagd"
+    ],
+    "gegenereerd": "2026-10-17"
+  }
+}

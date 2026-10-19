@@ -1,0 +1,172 @@
+{
+  "name": "Pietersbrug",
+  "file": "utrecht-pietersbrug-2.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    136983.66,
+    456027.61
+  ],
+  "xAxis": [
+    -0.455346,
+    -0.890315
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 45.985,
+  "groundSamplePoints": [
+    [
+      -10.95,
+      0
+    ],
+    [
+      10.95,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0344.9067842322d642d68626f25903169eaa",
+    "G0344.bdb791ab04ee427cac5857c30335bfc1",
+    "G0344.d20c8e485e3a46b58184d05966bef833"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        136983.66,
+        456027.61
+      ],
+      "axis": [
+        -0.455346,
+        -0.890315
+      ],
+      "halfLength": 2.49,
+      "halfWidth": 3.39,
+      "height": 46.005,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.53,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        136988.19,
+        456036.47
+      ],
+      "axis": [
+        0.455346,
+        0.890315
+      ],
+      "halfLength": 4.98,
+      "halfWidth": 4.33,
+      "height": 47.155,
+      "gradient": [
+        -0.03015,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        136979.13,
+        456018.75
+      ],
+      "axis": [
+        -0.455346,
+        -0.890315
+      ],
+      "halfLength": 4.98,
+      "halfWidth": 4.33,
+      "height": 46.645,
+      "gradient": [
+        -0.1327,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0344.bdb791ab04ee427cac5857c30335bfc1"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0344.9067842322d642d68626f25903169eaa",
+          "type": "landhoofd"
+        },
+        {
+          "id": "G0344.bdb791ab04ee427cac5857c30335bfc1",
+          "type": "dek"
+        },
+        {
+          "id": "G0344.d20c8e485e3a46b58184d05966bef833",
+          "type": "landhoofd"
+        }
+      ],
+      "osm": {
+        "id": "way/1077924265",
+        "tags": {
+          "bridge": "yes",
+          "bridge:name": "Pietersbrug",
+          "highway": "unclassified",
+          "lanes": "1",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "30",
+          "maxweight:signed": "no",
+          "name": "Pieterstraat",
+          "oneway": "yes",
+          "oneway:bicycle": "no",
+          "sidewalk": "both",
+          "surface": "paving_stones",
+          "bridge:structure": "arch",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 3
+    },
+    "type": "gewelf",
+    "doorvaarthoogte": null,
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 126435,448710,141834,461610 --run utrecht-6 --parallel 4 --overschrijf 1",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 10,
+      "dekBreedte": 5.8,
+      "brugLengte": 10,
+      "water": [
+        -1.5,
+        2.5
+      ],
+      "portaalhoogte": 5.2,
+      "opritafstand": [
+        6,
+        6
+      ],
+      "oprithelling": 10,
+      "doorstekend": [
+        {
+          "gmlId": "G0344.cba8ad92849b4e3a9c75bbce5508bd10",
+          "klasse": "Separation",
+          "oppervlak": 1.2,
+          "onderDek": 0.01,
+          "bovenDekOnderkant": 0.53,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        47.005,
+        45.985
+      ]
+    },
+    "waarschuwingen": [
+      "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-17"
+  }
+}

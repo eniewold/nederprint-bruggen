@@ -1,0 +1,145 @@
+{
+  "name": "Poelbrug",
+  "file": "leiden-poelbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    92960.88,
+    465021.88
+  ],
+  "xAxis": [
+    0.566126,
+    -0.824319
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 43.968,
+  "groundSamplePoints": [
+    [
+      -6.49,
+      0
+    ],
+    [
+      6.49,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0546.068b2c4714d04c39b35e33c4e1e195c5",
+    "G0546.b1ce776671fc4f6cbb66322763cb04cf",
+    "G0546.e71ddf9706b349f7b9d4e8964c947882"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        92957.77,
+        465026.41
+      ],
+      "axis": [
+        -0.566126,
+        0.824319
+      ],
+      "halfLength": 3,
+      "halfWidth": 12.87,
+      "height": 44.123,
+      "gradient": [
+        -0.05168,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        92963.99,
+        465017.36
+      ],
+      "axis": [
+        0.566126,
+        -0.824319
+      ],
+      "halfLength": 3,
+      "halfWidth": 12.87,
+      "height": 44.128,
+      "gradient": [
+        -0.05,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0546.e71ddf9706b349f7b9d4e8964c947882"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0546.068b2c4714d04c39b35e33c4e1e195c5",
+          "type": "landhoofd"
+        },
+        {
+          "id": "G0546.b1ce776671fc4f6cbb66322763cb04cf",
+          "type": "landhoofd"
+        },
+        {
+          "id": "G0546.e71ddf9706b349f7b9d4e8964c947882",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/665726320",
+        "tags": {
+          "access:lanes:forward": "yes|no",
+          "bicycle": "use_sidepath",
+          "bridge": "yes",
+          "bus:lanes:forward": "|yes",
+          "foot": "use_sidepath",
+          "highway": "secondary",
+          "lanes": "3",
+          "lanes:forward": "2",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "50",
+          "name": "Poelbrug",
+          "name:etymology:wikidata": "Q1615333",
+          "surface": "asphalt",
+          "zone:traffic": "NL:urban",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 3
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 90100,459364,95921,466645 --run leiden-6 --parallel 4 --overschrijf 1",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 5,
+      "dekBreedte": 21.7,
+      "brugLengte": 5,
+      "water": [
+        -1,
+        1
+      ],
+      "portaalhoogte": 19.6,
+      "opritafstand": [
+        4,
+        4
+      ],
+      "oprithelling": 6,
+      "doorstekend": [],
+      "opritHoogtes": [
+        43.968,
+        43.978
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)"
+    ],
+    "gegenereerd": "2026-10-17"
+  }
+}

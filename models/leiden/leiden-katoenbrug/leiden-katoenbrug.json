@@ -1,0 +1,133 @@
+{
+  "name": "Katoenbrug",
+  "file": "leiden-katoenbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    94397.87,
+    463777.9
+  ],
+  "xAxis": [
+    -0.976664,
+    0.214773
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 44.205,
+  "groundSamplePoints": [
+    [
+      -6.47,
+      0
+    ],
+    [
+      6.47,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0546.09cb29ec7bbf41bb857dcbd6a426e08a"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        94403.21,
+        463776.72
+      ],
+      "axis": [
+        0.976664,
+        -0.214773
+      ],
+      "halfLength": 3,
+      "halfWidth": 8.44,
+      "height": 44.411,
+      "gradient": [
+        -0.05,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        94392.53,
+        463779.07
+      ],
+      "axis": [
+        -0.976664,
+        0.214773
+      ],
+      "halfLength": 3,
+      "halfWidth": 8.44,
+      "height": 44.383,
+      "gradient": [
+        -0.05928,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0546.09cb29ec7bbf41bb857dcbd6a426e08a"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0546.09cb29ec7bbf41bb857dcbd6a426e08a",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/636377011",
+        "tags": {
+          "bridge": "yes",
+          "cycleway": "lane",
+          "highway": "tertiary",
+          "lanes": "2",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "50",
+          "maxweight:signed": "no",
+          "name": "Katoenbrug",
+          "sidewalk": "both",
+          "surface": "asphalt",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 90100,459364,95921,466645 --run leiden-6 --parallel 4 --overschrijf 1",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 4.9,
+      "dekBreedte": 12.9,
+      "brugLengte": 4.9,
+      "water": [
+        -2,
+        2
+      ],
+      "portaalhoogte": 11.6,
+      "opritafstand": [
+        4,
+        4
+      ],
+      "oprithelling": 6,
+      "doorstekend": [],
+      "opritHoogtes": [
+        44.261,
+        44.205
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-17"
+  }
+}

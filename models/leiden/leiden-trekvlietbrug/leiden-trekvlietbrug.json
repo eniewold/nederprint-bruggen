@@ -1,0 +1,140 @@
+{
+  "name": "Trekvlietbrug",
+  "file": "leiden-trekvlietbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    93242.46,
+    461868.35
+  ],
+  "xAxis": [
+    0.99863,
+    0.052319
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 44.799,
+  "groundSamplePoints": [
+    [
+      -37.51,
+      0
+    ],
+    [
+      37.51,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "P0028.9a9e15a326854cd8be2b78ce5bd94331"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        93212.99,
+        461866.81
+      ],
+      "axis": [
+        -0.99863,
+        -0.052319
+      ],
+      "halfLength": 12,
+      "halfWidth": 12.83,
+      "height": 45.317,
+      "gradient": [
+        -0.04311,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        93271.93,
+        461869.9
+      ],
+      "axis": [
+        0.99863,
+        0.052319
+      ],
+      "halfLength": 12,
+      "halfWidth": 12.83,
+      "height": 45.684,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "P0028.9a9e15a326854cd8be2b78ce5bd94331"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "P0028.9a9e15a326854cd8be2b78ce5bd94331",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1429723723",
+        "tags": {
+          "bicycle": "no",
+          "bridge": "yes",
+          "bridge:structure": "beam",
+          "change:lanes:forward": "no|no",
+          "emergency": "yes",
+          "foot": "no",
+          "highway": "secondary",
+          "lanes": "4",
+          "layer": "1",
+          "mofa": "no",
+          "moped": "no",
+          "name": "Trekvlietbrug",
+          "operator": "Provincie Zuid-Holland",
+          "ref": "N206",
+          "temporary": "yes",
+          "turn:lanes:forward": "left|through",
+          "zone:traffic": "NL:urban",
+          "description": "tijdelijke brug",
+          "man_made": "bridge",
+          "bridge:movable": "bascule"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 0
+    },
+    "type": "basculebrug",
+    "doorvaarthoogte": null,
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 90100,459364,95921,466645 --run leiden-6 --parallel 4 --overschrijf 1",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 35,
+      "dekBreedte": 21.7,
+      "brugLengte": 35,
+      "water": [
+        -11,
+        13
+      ],
+      "portaalhoogte": 19.5,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [],
+      "opritHoogtes": [
+        44.799,
+        45.534
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-17"
+  }
+}

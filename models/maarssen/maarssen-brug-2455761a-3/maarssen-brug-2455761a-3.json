@@ -1,0 +1,182 @@
+{
+  "name": "Zuilense Ring",
+  "file": "maarssen-brug-2455761a-3.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    131254.77,
+    459818.74
+  ],
+  "xAxis": [
+    0.578779,
+    0.815484
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 49.591,
+  "groundSamplePoints": [
+    [
+      -52.62,
+      0
+    ],
+    [
+      52.62,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "P0026.2455761ab3ae20ebe0531221500ac68a",
+    "G1904.f341a7de2bb64690af6f9f29c0624ca0"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        131254.77,
+        459818.74
+      ],
+      "axis": [
+        0.578779,
+        0.815484
+      ],
+      "halfLength": 26.62,
+      "halfWidth": 7.35,
+      "height": 49.025,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.38,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        131228.95,
+        459782.35
+      ],
+      "axis": [
+        -0.578779,
+        -0.815484
+      ],
+      "halfLength": 12,
+      "halfWidth": 8.85,
+      "height": 49.958,
+      "gradient": [
+        -0.03057,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        131280.59,
+        459855.12
+      ],
+      "axis": [
+        0.578779,
+        0.815484
+      ],
+      "halfLength": 12,
+      "halfWidth": 8.85,
+      "height": 50.175,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "P0026.2455761ab3ae20ebe0531221500ac68a"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "P0026.2455761ab3ae20ebe0531221500ac68a",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/7068817",
+        "tags": {
+          "agricultural": "no",
+          "bicycle": "no",
+          "bridge": "yes",
+          "carriage": "no",
+          "carriageway_ref": "Li",
+          "foot": "no",
+          "hazmat": "designated",
+          "highway": "primary",
+          "horse": "no",
+          "lanes": "2",
+          "layer": "1",
+          "maxspeed": "80",
+          "mofa": "no",
+          "moped": "no",
+          "motorroad": "no",
+          "name": "Zuilense Ring",
+          "official_name": "Zuilensering",
+          "oneway": "yes",
+          "operator": "Provincie Utrecht",
+          "ref": "N230",
+          "source:official_name": "BAG;NWB",
+          "surface": "asphalt",
+          "toll:hgv": "yes",
+          "zone:traffic": "NL:rural"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 126435,448710,141834,461610 --run utrecht-6 --parallel 4 --overschrijf 1",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 65.2,
+      "dekBreedte": 13.7,
+      "brugLengte": 65.2,
+      "water": [
+        -12.6,
+        -3.6
+      ],
+      "portaalhoogte": 12.3,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G1904.f341a7de2bb64690af6f9f29c0624ca0",
+          "klasse": "Terrain",
+          "oppervlak": 164.9,
+          "onderDek": 0.84,
+          "bovenDekOnderkant": 0.43,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "G1904.c13768d0178544c18dd9b0d1c78044fc",
+          "klasse": "Terrain",
+          "oppervlak": 320.4,
+          "onderDek": 0.35,
+          "bovenDekOnderkant": 0.38,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        49.591,
+        50.025
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 1 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-17"
+  }
+}

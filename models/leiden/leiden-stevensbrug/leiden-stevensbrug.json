@@ -1,0 +1,155 @@
+{
+  "name": "Stevensbrug",
+  "file": "leiden-stevensbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    91232.72,
+    463525.12
+  ],
+  "xAxis": [
+    0.772753,
+    0.634707
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 44.664,
+  "groundSamplePoints": [
+    [
+      -47.11,
+      0
+    ],
+    [
+      47.11,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0546.144cab09b4e1428cb351e7e169c9ef37",
+    "G0546.b87bac8cd73f4e109b158ecb104bb28f",
+    "G0546.0a83b4ffb9ec462ea7021f9391b0a897",
+    "P0028.ca6a5641b2a54e21aa49ff7f2a0e11fc",
+    "G0546.7bf513216e3c4afbaceaf126780fd725"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        91202.49,
+        463500.3
+      ],
+      "axis": [
+        -0.772753,
+        -0.634707
+      ],
+      "halfLength": 12,
+      "halfWidth": 7.52,
+      "height": 45.446,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        91262.94,
+        463549.95
+      ],
+      "axis": [
+        0.772753,
+        0.634707
+      ],
+      "halfLength": 12,
+      "halfWidth": 7.52,
+      "height": 45.13,
+      "gradient": [
+        -0.03882,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0546.0a83b4ffb9ec462ea7021f9391b0a897"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0546.144cab09b4e1428cb351e7e169c9ef37",
+          "type": "landhoofd"
+        },
+        {
+          "id": "G0546.b87bac8cd73f4e109b158ecb104bb28f",
+          "type": "landhoofd"
+        },
+        {
+          "id": "G0546.0a83b4ffb9ec462ea7021f9391b0a897",
+          "type": "dek"
+        },
+        {
+          "id": "P0028.ca6a5641b2a54e21aa49ff7f2a0e11fc",
+          "type": "pijler"
+        }
+      ],
+      "osm": {
+        "id": "way/665736770",
+        "tags": {
+          "bridge": "movable",
+          "layer": "1",
+          "man_made": "bridge",
+          "name": "Stevensbrug"
+        }
+      },
+      "fis": {
+        "id": 25604,
+        "naam": "Stevensbrug",
+        "afstand": 7,
+        "beweegbaar": true,
+        "doorvaarthoogteGesloten": 2.9099999999999997
+      },
+      "pdokBridgeVlakken": 4
+    },
+    "type": "basculebrug",
+    "doorvaarthoogte": 2.9099999999999997,
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 90100,459364,95921,466645 --run leiden-6 --parallel 4 --overschrijf 1",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 54.2,
+      "dekBreedte": 11,
+      "brugLengte": 54.2,
+      "water": [
+        -11.1,
+        25.9
+      ],
+      "portaalhoogte": 9.9,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0546.7bf513216e3c4afbaceaf126780fd725",
+          "klasse": "Terrain",
+          "oppervlak": 101.3,
+          "onderDek": 0.88,
+          "bovenDekOnderkant": 0.97,
+          "actie": "verbergen"
+        }
+      ],
+      "opritHoogtes": [
+        45.296,
+        44.664
+      ]
+    },
+    "waarschuwingen": [
+      "bridge=movable zonder mechanisme: basculebrug is een gok",
+      "1 PDOK-vorm(en) door het dek: 1 verborgen, 0 verlaagd"
+    ],
+    "gegenereerd": "2026-10-17"
+  }
+}

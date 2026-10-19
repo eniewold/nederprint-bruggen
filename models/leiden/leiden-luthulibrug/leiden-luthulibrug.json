@@ -1,0 +1,128 @@
+{
+  "name": "Luthulibrug",
+  "file": "leiden-luthulibrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    91194.02,
+    463702.7
+  ],
+  "xAxis": [
+    -0.59605,
+    0.802947
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 44.525,
+  "groundSamplePoints": [
+    [
+      -5.9,
+      0
+    ],
+    [
+      5.9,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0546.902d797173af4c94aa2cee820a935e61"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        91196.95,
+        463698.77
+      ],
+      "axis": [
+        0.59605,
+        -0.802947
+      ],
+      "halfLength": 3,
+      "halfWidth": 7.52,
+      "height": 44.709,
+      "gradient": [
+        -0.05,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        91191.1,
+        463706.64
+      ],
+      "axis": [
+        -0.59605,
+        0.802947
+      ],
+      "halfLength": 3,
+      "halfWidth": 7.52,
+      "height": 44.692,
+      "gradient": [
+        -0.05574,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0546.902d797173af4c94aa2cee820a935e61"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0546.902d797173af4c94aa2cee820a935e61",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/747518095",
+        "tags": {
+          "bridge": "yes",
+          "highway": "residential",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Luthulibrug",
+          "surface": "paving_stones",
+          "man_made": "bridge",
+          "bridge:structure": "beam"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 90100,459364,95921,466645 --run leiden-6 --parallel 4 --overschrijf 1",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 3.8,
+      "dekBreedte": 11,
+      "brugLengte": 3.8,
+      "water": [
+        -1.4,
+        1.6
+      ],
+      "portaalhoogte": 9.9,
+      "opritafstand": [
+        4,
+        4
+      ],
+      "oprithelling": 6,
+      "doorstekend": [],
+      "opritHoogtes": [
+        44.559,
+        44.525
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-17"
+  }
+}

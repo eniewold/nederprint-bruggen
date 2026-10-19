@@ -1,0 +1,161 @@
+{
+  "name": "Ovidiusbrug",
+  "file": "leiden-ovidiusbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    95355.64,
+    462698.81
+  ],
+  "xAxis": [
+    -0.845857,
+    -0.53341
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 43.747,
+  "groundSamplePoints": [
+    [
+      -9.38,
+      0
+    ],
+    [
+      9.38,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0546.b9758a8731bb46608efaab5255119668"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        95355.64,
+        462698.81
+      ],
+      "axis": [
+        -0.845857,
+        -0.53341
+      ],
+      "halfLength": 2.13,
+      "halfWidth": 1.49,
+      "height": 42.791,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.31,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        95362.85,
+        462703.35
+      ],
+      "axis": [
+        0.845857,
+        0.53341
+      ],
+      "halfLength": 4.26,
+      "halfWidth": 1.48,
+      "height": 43.941,
+      "gradient": [
+        -0.03519,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        95348.43,
+        462694.26
+      ],
+      "axis": [
+        -0.845857,
+        -0.53341
+      ],
+      "halfLength": 4.26,
+      "halfWidth": 1.48,
+      "height": 43.919,
+      "gradient": [
+        -0.04039,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0546.b9758a8731bb46608efaab5255119668"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0546.b9758a8731bb46608efaab5255119668",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/665724104",
+        "tags": {
+          "bridge": "yes",
+          "highway": "path",
+          "layer": "1",
+          "name": "Ovidiusbrug",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 90100,459364,95921,466645 --run leiden-6 --parallel 4 --overschrijf 1",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 8.5,
+      "dekBreedte": 2,
+      "brugLengte": 8.5,
+      "water": [
+        -1.3,
+        1.7
+      ],
+      "portaalhoogte": 2.5,
+      "opritafstand": [
+        5.1,
+        5.1
+      ],
+      "oprithelling": 8.5,
+      "doorstekend": [
+        {
+          "gmlId": "W0616.ac667d6f63f44942927afbf1fe271df1",
+          "klasse": "Terrain",
+          "oppervlak": 344.9,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.31,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0546.60e8043e57384a1aa8fd8e2cd38e0386",
+          "klasse": "Terrain",
+          "oppervlak": 96.7,
+          "onderDek": 0.02,
+          "bovenDekOnderkant": 0.19,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        43.791,
+        43.747
+      ]
+    },
+    "waarschuwingen": [
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-17"
+  }
+}

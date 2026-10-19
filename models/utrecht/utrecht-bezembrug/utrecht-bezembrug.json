@@ -1,0 +1,179 @@
+{
+  "name": "Bezembrug",
+  "file": "utrecht-bezembrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    136580.54,
+    455969.18
+  ],
+  "xAxis": [
+    0.165595,
+    -0.986194
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 48.652,
+  "groundSamplePoints": [
+    [
+      -18.33,
+      0
+    ],
+    [
+      18.33,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0344.cef0b91b7f5a4fad8adc3a3ea6131719",
+    "G0344.6f38c9edee6d44e48e9bc368cd705457"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        136580.54,
+        455969.18
+      ],
+      "axis": [
+        0.165595,
+        -0.986194
+      ],
+      "halfLength": 4.17,
+      "halfWidth": 7.26,
+      "height": 47.792,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.71,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        136577.79,
+        455985.62
+      ],
+      "axis": [
+        -0.165595,
+        0.986194
+      ],
+      "halfLength": 8.33,
+      "halfWidth": 8.76,
+      "height": 48.942,
+      "gradient": [
+        -0.01801,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        136583.3,
+        455952.75
+      ],
+      "axis": [
+        0.165595,
+        -0.986194
+      ],
+      "halfLength": 8.33,
+      "halfWidth": 8.76,
+      "height": 48.872,
+      "gradient": [
+        -0.02642,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0344.cef0b91b7f5a4fad8adc3a3ea6131719"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0344.cef0b91b7f5a4fad8adc3a3ea6131719",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1060999316",
+        "tags": {
+          "bridge": "yes",
+          "highway": "pedestrian",
+          "layer": "1",
+          "lit": "yes",
+          "name": "Bezembrug",
+          "surface": "paving_stones",
+          "bridge:structure": "arch",
+          "heritage": "2",
+          "heritage:operator": "rce",
+          "man_made": "bridge",
+          "ref:rce": "47075",
+          "wikidata": "Q4517647",
+          "wikimedia_commons": "Category:Bezembrug",
+          "wikipedia": "nl:Bezembrug (Utrecht)"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "gewelf",
+    "doorvaarthoogte": null,
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 126435,448710,141834,461610 --run utrecht-6 --parallel 4 --overschrijf 1",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 16.7,
+      "dekBreedte": 13.5,
+      "brugLengte": 16.7,
+      "water": [
+        -1.8,
+        5.7
+      ],
+      "portaalhoogte": 12.2,
+      "opritafstand": [
+        10,
+        10
+      ],
+      "oprithelling": 16.7,
+      "doorstekend": [
+        {
+          "gmlId": "G0344.9468647d80354360a21f319ae1ecbaf7",
+          "klasse": "Terrain",
+          "oppervlak": 28.2,
+          "onderDek": 0.2,
+          "bovenDekOnderkant": 0.71,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0344.6f38c9edee6d44e48e9bc368cd705457",
+          "klasse": "Separation",
+          "oppervlak": 5.8,
+          "onderDek": 0.91,
+          "bovenDekOnderkant": 0.59,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "G0344.aeb1a456cfe94a569a0a56be0a94731b",
+          "klasse": "Separation",
+          "oppervlak": 4.6,
+          "onderDek": 0.19,
+          "bovenDekOnderkant": 0.59,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        48.792,
+        48.652
+      ]
+    },
+    "waarschuwingen": [
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "3 PDOK-vorm(en) door het dek: 1 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-17"
+  }
+}

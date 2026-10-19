@@ -1,0 +1,130 @@
+{
+  "name": "Sweelinckbrug",
+  "file": "leiden-sweelinckbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    92217.51,
+    462794.22
+  ],
+  "xAxis": [
+    0.427153,
+    -0.904179
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 43.499,
+  "groundSamplePoints": [
+    [
+      -5.25,
+      0
+    ],
+    [
+      5.25,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0546.177d2d51c8d54f4d9bb40550de1763ee"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        92215.7,
+        462798.07
+      ],
+      "axis": [
+        -0.427153,
+        0.904179
+      ],
+      "halfLength": 3,
+      "halfWidth": 7.3,
+      "height": 43.748,
+      "gradient": [
+        -0.05,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        92219.33,
+        462790.37
+      ],
+      "axis": [
+        0.427153,
+        -0.904179
+      ],
+      "halfLength": 3,
+      "halfWidth": 7.3,
+      "height": 43.698,
+      "gradient": [
+        -0.06645,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0546.177d2d51c8d54f4d9bb40550de1763ee"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0546.177d2d51c8d54f4d9bb40550de1763ee",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/762497628",
+        "tags": {
+          "access": "no",
+          "bicycle": "yes",
+          "bridge": "yes",
+          "foot": "yes",
+          "highway": "residential",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Sweelinckbrug",
+          "psv": "yes",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 90100,459364,95921,466645 --run leiden-6 --parallel 4 --overschrijf 1",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 2.5,
+      "dekBreedte": 10.6,
+      "brugLengte": 2.5,
+      "water": [
+        -0.8,
+        0.7
+      ],
+      "portaalhoogte": 9.5,
+      "opritafstand": [
+        4,
+        4
+      ],
+      "oprithelling": 6,
+      "doorstekend": [],
+      "opritHoogtes": [
+        43.598,
+        43.499
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-17"
+  }
+}

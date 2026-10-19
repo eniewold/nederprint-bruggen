@@ -1,0 +1,158 @@
+{
+  "name": "Geleerde Vrouwenbrug",
+  "file": "leiden-geleerde-vrouwenbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    90465.24,
+    462709.58
+  ],
+  "xAxis": [
+    -0.874521,
+    -0.484988
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 43.548,
+  "groundSamplePoints": [
+    [
+      -10,
+      0
+    ],
+    [
+      10,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0546.59e6cc25f0d84c1098589245deabdfb1"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        90465.24,
+        462709.58
+      ],
+      "axis": [
+        -0.874521,
+        -0.484988
+      ],
+      "halfLength": 2.27,
+      "halfWidth": 2.43,
+      "height": 42.625,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.37,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        90473.19,
+        462713.99
+      ],
+      "axis": [
+        0.874521,
+        0.484988
+      ],
+      "halfLength": 4.55,
+      "halfWidth": 2.9,
+      "height": 43.775,
+      "gradient": [
+        -0.03299,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        90457.29,
+        462705.17
+      ],
+      "axis": [
+        -0.874521,
+        -0.484988
+      ],
+      "halfLength": 4.55,
+      "halfWidth": 2.9,
+      "height": 43.736,
+      "gradient": [
+        -0.04153,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0546.59e6cc25f0d84c1098589245deabdfb1"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0546.59e6cc25f0d84c1098589245deabdfb1",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/665735618",
+        "tags": {
+          "bridge": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "name": "Geleerde Vrouwenbrug",
+          "source:width": "ARCore",
+          "surface": "wood",
+          "width": "3.6",
+          "bridge:structure": "humpback",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "bolbrug",
+    "doorvaarthoogte": null,
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 90100,459364,95921,466645 --run leiden-6 --parallel 4 --overschrijf 1",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 9.1,
+      "dekBreedte": 3.9,
+      "brugLengte": 9.1,
+      "water": [
+        -2.5,
+        2
+      ],
+      "portaalhoogte": 3.5,
+      "opritafstand": [
+        5.5,
+        5.5
+      ],
+      "oprithelling": 9.1,
+      "bolling": 1.09,
+      "doorstekend": [
+        {
+          "gmlId": "W0616.d671c657c5c44f7ba508493d944b00be",
+          "klasse": "Terrain",
+          "oppervlak": 82.8,
+          "onderDek": 0.01,
+          "bovenDekOnderkant": 0.37,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        43.625,
+        43.548
+      ]
+    },
+    "waarschuwingen": [
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-17"
+  }
+}

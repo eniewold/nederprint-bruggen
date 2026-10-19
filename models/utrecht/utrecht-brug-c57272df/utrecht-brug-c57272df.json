@@ -1,0 +1,128 @@
+{
+  "name": "Nedereindseweg",
+  "file": "utrecht-brug-c57272df.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    131719.89,
+    450920.57
+  ],
+  "xAxis": [
+    0.613639,
+    0.789587
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 43.996,
+  "groundSamplePoints": [
+    [
+      -6.12,
+      0
+    ],
+    [
+      6.12,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0344.c57272df579242d9921c1e237a38afaf"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        131716.74,
+        450916.53
+      ],
+      "axis": [
+        -0.613639,
+        -0.789587
+      ],
+      "halfLength": 3,
+      "halfWidth": 4.47,
+      "height": 44.228,
+      "gradient": [
+        -0.07725,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        131723.03,
+        450924.61
+      ],
+      "axis": [
+        0.613639,
+        0.789587
+      ],
+      "halfLength": 3,
+      "halfWidth": 4.47,
+      "height": 44.309,
+      "gradient": [
+        -0.05,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0344.c57272df579242d9921c1e237a38afaf"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0344.c57272df579242d9921c1e237a38afaf",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/211276358",
+        "tags": {
+          "bridge": "yes",
+          "highway": "service",
+          "layer": "1",
+          "material": "concrete",
+          "maxspeed": "60",
+          "name": "Nedereindseweg",
+          "source": "local",
+          "surface": "concrete"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 126435,448710,141834,461610 --run utrecht-6 --parallel 4 --overschrijf 1",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 4.2,
+      "dekBreedte": 6,
+      "brugLengte": 4.2,
+      "water": [
+        -1.6,
+        1.4
+      ],
+      "portaalhoogte": 5.4,
+      "opritafstand": [
+        4,
+        4
+      ],
+      "oprithelling": 6,
+      "doorstekend": [],
+      "opritHoogtes": [
+        43.996,
+        44.159
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-17"
+  }
+}

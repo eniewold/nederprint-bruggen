@@ -1,0 +1,162 @@
+{
+  "name": "Porseleinlaan",
+  "file": "rijnsburg-brug-3cdc0192-3.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    90396.59,
+    466400.79
+  ],
+  "xAxis": [
+    0.992676,
+    0.12081
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 43.464,
+  "groundSamplePoints": [
+    [
+      -20.5,
+      0
+    ],
+    [
+      20.5,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0537.3cdc0192ab50d2c0e063120f0a0a0f80"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        90396.59,
+        466400.79
+      ],
+      "axis": [
+        0.992676,
+        0.12081
+      ],
+      "halfLength": 4.66,
+      "halfWidth": 5.34,
+      "height": 42.748,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.78,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        90378.09,
+        466398.54
+      ],
+      "axis": [
+        -0.992676,
+        -0.12081
+      ],
+      "halfLength": 9.32,
+      "halfWidth": 6.84,
+      "height": 43.898,
+      "gradient": [
+        -0.01609,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        90415.09,
+        466403.05
+      ],
+      "axis": [
+        0.992676,
+        0.12081
+      ],
+      "halfLength": 9.32,
+      "halfWidth": 6.84,
+      "height": 43.756,
+      "gradient": [
+        -0.0313,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0537.3cdc0192ab50d2c0e063120f0a0a0f80"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0537.3cdc0192ab50d2c0e063120f0a0a0f80",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1381989917",
+        "tags": {
+          "bridge": "yes",
+          "highway": "residential",
+          "layer": "1",
+          "name": "Porseleinlaan",
+          "zone:traffic": "NL:urban"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ophaalbrug",
+    "doorvaarthoogte": null,
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 90100,459364,95921,466645 --run leiden-6 --parallel 4 --overschrijf 1",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 18.6,
+      "dekBreedte": 9.7,
+      "brugLengte": 18.6,
+      "water": [
+        -3.8,
+        3.7
+      ],
+      "portaalhoogte": 8.7,
+      "opritafstand": [
+        11.2,
+        11.2
+      ],
+      "oprithelling": 18.6,
+      "doorstekend": [
+        {
+          "gmlId": "G0537.3cdc0192ab42d2c0e063120f0a0a0f80",
+          "klasse": "Terrain",
+          "oppervlak": 27.5,
+          "onderDek": 0.28,
+          "bovenDekOnderkant": 0.78,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0537.3cdc0192ab3dd2c0e063120f0a0a0f80",
+          "klasse": "Terrain",
+          "oppervlak": 26.3,
+          "onderDek": 0.06,
+          "bovenDekOnderkant": 0.69,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        43.748,
+        43.464
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-17"
+  }
+}

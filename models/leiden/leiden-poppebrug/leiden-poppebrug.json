@@ -1,0 +1,152 @@
+{
+  "name": "Poppebrug",
+  "file": "leiden-poppebrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    94480.61,
+    463852.05
+  ],
+  "xAxis": [
+    0.220177,
+    0.97546
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 43.761,
+  "groundSamplePoints": [
+    [
+      -9.58,
+      0
+    ],
+    [
+      9.58,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0546.100aec7ff2844bafb480f3c0ef57bfa1"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        94480.61,
+        463852.05
+      ],
+      "axis": [
+        0.220177,
+        0.97546
+      ],
+      "halfLength": 2.18,
+      "halfWidth": 1.23,
+      "height": 42.841,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.64,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        94478.69,
+        463843.55
+      ],
+      "axis": [
+        -0.220177,
+        -0.97546
+      ],
+      "halfLength": 4.36,
+      "halfWidth": 1.1,
+      "height": 43.951,
+      "gradient": [
+        -0.04367,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        94482.53,
+        463860.55
+      ],
+      "axis": [
+        0.220177,
+        0.97546
+      ],
+      "halfLength": 4.36,
+      "halfWidth": 1.1,
+      "height": 43.991,
+      "gradient": [
+        -0.03443,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0546.100aec7ff2844bafb480f3c0ef57bfa1"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0546.100aec7ff2844bafb480f3c0ef57bfa1",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/636377009",
+        "tags": {
+          "bridge": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "name": "Poppebrug",
+          "bridge:structure": "humpback",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "bolbrug",
+    "doorvaarthoogte": null,
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 90100,459364,95921,466645 --run leiden-6 --parallel 4 --overschrijf 1",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 8.7,
+      "dekBreedte": 1.5,
+      "brugLengte": 8.7,
+      "water": null,
+      "portaalhoogte": 2.5,
+      "opritafstand": [
+        5.2,
+        5.2
+      ],
+      "oprithelling": 8.7,
+      "bolling": 1.05,
+      "doorstekend": [
+        {
+          "gmlId": "G0546.62775c142b124f838c7d1ce7f3e7e3fe",
+          "klasse": "Terrain",
+          "oppervlak": 1472.3,
+          "onderDek": 0.01,
+          "bovenDekOnderkant": 0.64,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        43.761,
+        43.841
+      ]
+    },
+    "waarschuwingen": [
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-17"
+  }
+}

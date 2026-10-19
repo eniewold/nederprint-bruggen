@@ -1,0 +1,171 @@
+{
+  "name": "Vondelbrug",
+  "file": "utrecht-vondelbrug-2.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    136814.17,
+    454474.35
+  ],
+  "xAxis": [
+    0.904438,
+    -0.426605
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 46.43,
+  "groundSamplePoints": [
+    [
+      -6.2,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0344.0320e7086e094eae911d6fbc5d801c5c",
+    "G0344.e3e423b95df4472c8f365ef6b6721a47"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        136814.17,
+        454474.35
+      ],
+      "axis": [
+        0.904438,
+        -0.426605
+      ],
+      "halfLength": 1.1,
+      "halfWidth": 3.41,
+      "height": 45.43,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -2.12,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        136809.46,
+        454476.57
+      ],
+      "axis": [
+        -0.904438,
+        0.426605
+      ],
+      "halfLength": 3,
+      "halfWidth": 4.37,
+      "height": 46.58,
+      "gradient": [
+        -0.05,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0344.0320e7086e094eae911d6fbc5d801c5c"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0344.0320e7086e094eae911d6fbc5d801c5c",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1530614165",
+        "tags": {
+          "bridge": "viaduct",
+          "bridge:name": "Jeremiebrug",
+          "emergency": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "lit": "yes",
+          "mofa": "no",
+          "moped": "no",
+          "name": "Jeremiebrug",
+          "sidewalk": "both",
+          "source": "survey",
+          "surface": "paving_stones",
+          "traffic_sign": "NL:G12a",
+          "wikidata": "Q2096241",
+          "wikimedia_commons": "Category:Jeremiebrug",
+          "wikipedia": "nl:Jeremiebrug",
+          "man_made": "bridge",
+          "bridge:movable": "bascule"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "basculebrug",
+    "doorvaarthoogte": null,
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 126435,448710,141834,461610 --run utrecht-6 --parallel 4 --overschrijf 1",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 4.4,
+      "dekBreedte": 5.8,
+      "brugLengte": 4.4,
+      "water": [
+        0.3,
+        1.8
+      ],
+      "portaalhoogte": 5.2,
+      "opritafstand": [
+        4,
+        12
+      ],
+      "oprithelling": 6,
+      "doorstekend": [
+        {
+          "gmlId": "G0344.e3e423b95df4472c8f365ef6b6721a47",
+          "klasse": "Terrain",
+          "oppervlak": 0.4,
+          "onderDek": 1,
+          "bovenDekOnderkant": 1.12,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "G0344.c90c46852fb94547ac4e1f97daed98f9",
+          "klasse": "Separation",
+          "oppervlak": 0.7,
+          "onderDek": 0.55,
+          "bovenDekOnderkant": 1.12,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0344.b185413f2dfc4d7e95fc0d06e7e9aeb8",
+          "klasse": "Terrain",
+          "oppervlak": 14.7,
+          "onderDek": 0.17,
+          "bovenDekOnderkant": 1.1,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0344.367f183ff4ea45e9b91e3dc051f97bae",
+          "klasse": "Separation",
+          "oppervlak": 2,
+          "onderDek": 0.19,
+          "bovenDekOnderkant": 1.08,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        46.43,
+        null
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen FIS-brug binnen 35 m",
+      "oprit + zonder PDOK-maaiveld",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "4 PDOK-vorm(en) door het dek: 1 verborgen, 3 verlaagd"
+    ],
+    "gegenereerd": "2026-10-17"
+  }
+}

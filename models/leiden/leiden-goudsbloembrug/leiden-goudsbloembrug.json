@@ -1,0 +1,183 @@
+{
+  "name": "Goudsbloembrug",
+  "file": "leiden-goudsbloembrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    95059.52,
+    465771.95
+  ],
+  "xAxis": [
+    0.30975,
+    -0.950818
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 42.436,
+  "groundSamplePoints": [
+    [
+      -16.58,
+      0
+    ],
+    [
+      16.58,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0546.d117ca97eb064e30950c79c5fddc96c8",
+    "G0546.7217fbf91fc14398bbaf6c3648261ce5",
+    "G0546.af3e8dd25ea74877a48cc0c27cc2d996",
+    "G0546.b028d2f2830b4993921aed9c8dead3ad",
+    "G0546.c6f02469adbc4d229afebb727c250658"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        95059.52,
+        465771.95
+      ],
+      "axis": [
+        0.30975,
+        -0.950818
+      ],
+      "halfLength": 3.77,
+      "halfWidth": 2.75,
+      "height": 41.623,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.92,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        95054.85,
+        465786.28
+      ],
+      "axis": [
+        -0.30975,
+        0.950818
+      ],
+      "halfLength": 7.54,
+      "halfWidth": 3.37,
+      "height": 42.68,
+      "gradient": [
+        -0.03233,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        95064.19,
+        465757.61
+      ],
+      "axis": [
+        0.30975,
+        -0.950818
+      ],
+      "halfLength": 7.54,
+      "halfWidth": 3.37,
+      "height": 42.773,
+      "gradient": [
+        -0.0199,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0546.d117ca97eb064e30950c79c5fddc96c8"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0546.d117ca97eb064e30950c79c5fddc96c8",
+          "type": "dek"
+        },
+        {
+          "id": "G0546.7217fbf91fc14398bbaf6c3648261ce5",
+          "type": "landhoofd"
+        },
+        {
+          "id": "G0546.af3e8dd25ea74877a48cc0c27cc2d996",
+          "type": "landhoofd"
+        },
+        {
+          "id": "G0546.b028d2f2830b4993921aed9c8dead3ad",
+          "type": "pijler"
+        },
+        {
+          "id": "G0546.c6f02469adbc4d229afebb727c250658",
+          "type": "pijler"
+        }
+      ],
+      "osm": {
+        "id": "way/663577288",
+        "tags": {
+          "bridge": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "name": "Goudsbloembrug",
+          "surface": "wood",
+          "bridge:structure": "humpback",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 5
+    },
+    "type": "bolbrug",
+    "doorvaarthoogte": null,
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 90100,459364,95921,466645 --run leiden-6 --parallel 4 --overschrijf 1",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 15.1,
+      "dekBreedte": 4.5,
+      "brugLengte": 15.1,
+      "water": [
+        -2,
+        2
+      ],
+      "portaalhoogte": 4,
+      "opritafstand": [
+        9,
+        9
+      ],
+      "oprithelling": 15.1,
+      "bolling": 1.81,
+      "doorstekend": [
+        {
+          "gmlId": "G0546.fb45091220bd4351ac9dd62525f0cf88",
+          "klasse": "Terrain",
+          "oppervlak": 6047.7,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.92,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "W0616.c4ec00bd40b24478ac124b037bf88540",
+          "klasse": "Terrain",
+          "oppervlak": 186.7,
+          "onderDek": 0.03,
+          "bovenDekOnderkant": 0.13,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        42.436,
+        42.623
+      ]
+    },
+    "waarschuwingen": [
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-17"
+  }
+}

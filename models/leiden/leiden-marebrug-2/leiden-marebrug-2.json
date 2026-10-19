@@ -1,0 +1,158 @@
+{
+  "name": "Marebrug",
+  "file": "leiden-marebrug-2.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    93622.7,
+    464200.98
+  ],
+  "xAxis": [
+    0.111203,
+    0.993798
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 44.719,
+  "groundSamplePoints": [
+    [
+      -14.75,
+      0
+    ],
+    [
+      11.9,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0546.3815eee7aaf54890be4bdc7b7dc92e57",
+    "G0546.537cf2a2d21c44faaaac71e80a6d50ca",
+    "G0546.ad12c7ac057e44c089bfebcea462175d",
+    "G0546.b1d29c3786bb41df9c805d5ae66fe7e5",
+    "G0546.aed31cb295ac49c2bec46787fd752c8a"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        93621.2,
+        464187.53
+      ],
+      "axis": [
+        -0.111203,
+        -0.993798
+      ],
+      "halfLength": 6.06,
+      "halfWidth": 7.3,
+      "height": 44.939,
+      "gradient": [
+        -0.0364,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        93623.89,
+        464211.6
+      ],
+      "axis": [
+        0.111203,
+        0.993798
+      ],
+      "halfLength": 6.06,
+      "halfWidth": 7.3,
+      "height": 45.009,
+      "gradient": [
+        -0.02477,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0546.aed31cb295ac49c2bec46787fd752c8a"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0546.3815eee7aaf54890be4bdc7b7dc92e57",
+          "type": "landhoofd"
+        },
+        {
+          "id": "G0546.537cf2a2d21c44faaaac71e80a6d50ca",
+          "type": "pijler"
+        },
+        {
+          "id": "G0546.ad12c7ac057e44c089bfebcea462175d",
+          "type": "pijler"
+        },
+        {
+          "id": "G0546.b1d29c3786bb41df9c805d5ae66fe7e5",
+          "type": "landhoofd"
+        },
+        {
+          "id": "G0546.aed31cb295ac49c2bec46787fd752c8a",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/635825521",
+        "tags": {
+          "bridge": "movable",
+          "highway": "residential",
+          "lane_markings": "no",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "30",
+          "maxweight:signed": "no",
+          "name": "Marebrug",
+          "sidewalk": "both",
+          "surface": "asphalt",
+          "zone:traffic": "NL:urban",
+          "bridge:structure": "humpback",
+          "man_made": "bridge",
+          "start_date": "1955",
+          "wikidata": "Q80954472",
+          "wikipedia": "nl:Marebrug"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 5
+    },
+    "type": "basculebrug",
+    "doorvaarthoogte": null,
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 90100,459364,95921,466645 --run leiden-6 --parallel 4 --overschrijf 1",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 9.3,
+      "dekBreedte": 10.6,
+      "brugLengte": 12.1,
+      "water": [
+        -4,
+        3.5
+      ],
+      "portaalhoogte": 9.5,
+      "opritafstand": [
+        7.3,
+        7.3
+      ],
+      "oprithelling": 12.1,
+      "doorstekend": [],
+      "opritHoogtes": [
+        44.719,
+        44.859
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "OSM zegt humpback, gekozen type basculebrug",
+      "bridge=movable zonder mechanisme: basculebrug is een gok",
+      "geen FIS-brug binnen 35 m"
+    ],
+    "gegenereerd": "2026-10-17"
+  }
+}

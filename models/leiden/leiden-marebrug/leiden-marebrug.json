@@ -1,0 +1,137 @@
+{
+  "name": "Marebrug",
+  "file": "leiden-marebrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    93609.93,
+    464219.24
+  ],
+  "xAxis": [
+    -0.998495,
+    0.054838
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 44.452,
+  "groundSamplePoints": [
+    [
+      -7.77,
+      0
+    ],
+    [
+      7.77,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0546.7bda26858b1e48e48dcd4c483896a46e"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        93616.99,
+        464218.85
+      ],
+      "axis": [
+        0.998495,
+        -0.054838
+      ],
+      "halfLength": 3.53,
+      "halfWidth": 7.11,
+      "height": 44.953,
+      "gradient": [
+        -0.04245,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        93602.88,
+        464219.63
+      ],
+      "axis": [
+        -0.998495,
+        0.054838
+      ],
+      "halfLength": 3.53,
+      "halfWidth": 7.11,
+      "height": 44.777,
+      "gradient": [
+        -0.09219,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0546.7bda26858b1e48e48dcd4c483896a46e"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0546.7bda26858b1e48e48dcd4c483896a46e",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/643198206",
+        "tags": {
+          "bridge": "yes",
+          "highway": "residential",
+          "lane_markings": "no",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "30",
+          "maxweight:signed": "no",
+          "name": "Alkemadebrug",
+          "oneway": "no",
+          "sidewalk": "both",
+          "surface": "asphalt",
+          "wikidata": "Q2591845",
+          "wikipedia": "nl:Oude Singel",
+          "zone:traffic": "NL:urban",
+          "bridge:structure": "humpback",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "bolbrug",
+    "doorvaarthoogte": null,
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 90100,459364,95921,466645 --run leiden-6 --parallel 4 --overschrijf 1",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 7.1,
+      "dekBreedte": 10.2,
+      "brugLengte": 7.1,
+      "water": [
+        -2.5,
+        3
+      ],
+      "portaalhoogte": 9.2,
+      "opritafstand": [
+        4.2,
+        4.2
+      ],
+      "oprithelling": 7.1,
+      "bolling": 0.85,
+      "doorstekend": [],
+      "opritHoogtes": [
+        44.803,
+        44.452
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-17"
+  }
+}

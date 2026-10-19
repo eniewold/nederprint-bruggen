@@ -1,0 +1,157 @@
+{
+  "name": "Haagsche Schouwbrug",
+  "file": "leiden-haagsche-schouwbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    90917.47,
+    463886.3
+  ],
+  "xAxis": [
+    0.776128,
+    0.630575
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 45.704,
+  "groundSamplePoints": [
+    [
+      -40.64,
+      0
+    ],
+    [
+      40.64,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0546.013dc3afa552442aa8a2ddee359c2c2c",
+    "G0546.e293efa4db1b4791af6b7a2eec36a382",
+    "G0546.ec89abed7f2f410195954b323f50ed03",
+    "G0546.193fd604637c4ca5883d49216d998986",
+    "G0546.e8d951b28d124aa48da528fce00676e0"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        90892.13,
+        463865.71
+      ],
+      "axis": [
+        -0.776128,
+        -0.630575
+      ],
+      "halfLength": 12,
+      "halfWidth": 9.81,
+      "height": 45.894,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        90942.8,
+        463906.88
+      ],
+      "axis": [
+        0.776128,
+        0.630575
+      ],
+      "halfLength": 12,
+      "halfWidth": 9.81,
+      "height": 45.874,
+      "gradient": [
+        -0.01415,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0546.e8d951b28d124aa48da528fce00676e0"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0546.013dc3afa552442aa8a2ddee359c2c2c",
+          "type": "landhoofd"
+        },
+        {
+          "id": "G0546.e293efa4db1b4791af6b7a2eec36a382",
+          "type": "pijler"
+        },
+        {
+          "id": "G0546.ec89abed7f2f410195954b323f50ed03",
+          "type": "pijler"
+        },
+        {
+          "id": "G0546.193fd604637c4ca5883d49216d998986",
+          "type": "landhoofd"
+        },
+        {
+          "id": "G0546.e8d951b28d124aa48da528fce00676e0",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/620714841",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "movable",
+          "foot": "use_sidepath",
+          "highway": "secondary",
+          "layer": "1",
+          "maxspeed": "50",
+          "name": "Haagsche Schouwbrug",
+          "surface": "asphalt",
+          "zone:traffic": "NL:urban",
+          "man_made": "bridge",
+          "wikidata": "Q2598402",
+          "wikipedia": "nl:Haagsche Schouwbrug"
+        }
+      },
+      "fis": {
+        "id": 58394,
+        "naam": "Haagsche Schouwbrug",
+        "afstand": 5,
+        "beweegbaar": true,
+        "doorvaarthoogteGesloten": 2.9099999999999997
+      },
+      "pdokBridgeVlakken": 5
+    },
+    "type": "basculebrug",
+    "doorvaarthoogte": 2.9099999999999997,
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 90100,459364,95921,466645 --run leiden-6 --parallel 4 --overschrijf 1",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 41.3,
+      "dekBreedte": 15.6,
+      "brugLengte": 41.3,
+      "water": [
+        -18.6,
+        18.9
+      ],
+      "portaalhoogte": 14.1,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [],
+      "opritHoogtes": [
+        45.744,
+        45.704
+      ]
+    },
+    "waarschuwingen": [
+      "bridge=movable zonder mechanisme: basculebrug is een gok"
+    ],
+    "gegenereerd": "2026-10-17"
+  }
+}

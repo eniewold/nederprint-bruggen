@@ -1,0 +1,131 @@
+{
+  "name": "Senaatbrug",
+  "file": "leiden-senaatbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    95553.14,
+    462635.21
+  ],
+  "xAxis": [
+    -0.482956,
+    0.875645
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 44.289,
+  "groundSamplePoints": [
+    [
+      -9.32,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0546.c8b243d0d17c4a669e2dd2e8a3b3f6eb"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        95553.14,
+        462635.21
+      ],
+      "axis": [
+        -0.482956,
+        0.875645
+      ],
+      "halfLength": 2.12,
+      "halfWidth": 2.2,
+      "height": 43.289,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.41,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        95557.23,
+        462627.78
+      ],
+      "axis": [
+        0.482956,
+        -0.875645
+      ],
+      "halfLength": 4.24,
+      "halfWidth": 2.55,
+      "height": 44.439,
+      "gradient": [
+        -0.0354,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0546.c8b243d0d17c4a669e2dd2e8a3b3f6eb"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0546.c8b243d0d17c4a669e2dd2e8a3b3f6eb",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/665731125",
+        "tags": {
+          "bridge": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "name": "Senaatbrug",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 90100,459364,95921,466645 --run leiden-6 --parallel 4 --overschrijf 1",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 8.5,
+      "dekBreedte": 3.4,
+      "brugLengte": 8.5,
+      "water": [
+        -0.2,
+        3.3
+      ],
+      "portaalhoogte": 3.1,
+      "opritafstand": [
+        5.1,
+        15.3
+      ],
+      "oprithelling": 8.5,
+      "doorstekend": [
+        {
+          "gmlId": "W0616.d1411c34859e4a8d973b8a04f320d6be",
+          "klasse": "Terrain",
+          "oppervlak": 500.2,
+          "onderDek": 0.03,
+          "bovenDekOnderkant": 0.41,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        44.289,
+        null
+      ]
+    },
+    "waarschuwingen": [
+      "oprit + zonder PDOK-maaiveld",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-17"
+  }
+}

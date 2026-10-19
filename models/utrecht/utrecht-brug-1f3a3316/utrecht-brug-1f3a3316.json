@@ -1,0 +1,182 @@
+{
+  "name": "Bladvlinder",
+  "file": "utrecht-brug-1f3a3316.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    132252.94,
+    455767.36
+  ],
+  "xAxis": [
+    0.185957,
+    -0.982558
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 45.836,
+  "groundSamplePoints": [
+    [
+      -33.56,
+      0
+    ],
+    [
+      33.56,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0344.1f3a3316637f4e8aa216f97ac47f4571",
+    "W0636.28df59f58c4c4a169365e2d530cfeae0"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        132252.94,
+        455767.36
+      ],
+      "axis": [
+        0.185957,
+        -0.982558
+      ],
+      "halfLength": 9.25,
+      "halfWidth": 6.54,
+      "height": 45.091,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.39,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        132247.87,
+        455794.14
+      ],
+      "axis": [
+        -0.185957,
+        0.982558
+      ],
+      "halfLength": 12,
+      "halfWidth": 8.04,
+      "height": 46.241,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        132258.01,
+        455740.58
+      ],
+      "axis": [
+        0.185957,
+        -0.982558
+      ],
+      "halfLength": 12,
+      "halfWidth": 8.04,
+      "height": 46.113,
+      "gradient": [
+        -0.0231,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0344.1f3a3316637f4e8aa216f97ac47f4571"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0344.1f3a3316637f4e8aa216f97ac47f4571",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1411755127",
+        "tags": {
+          "bridge": "yes",
+          "cycleway:both": "no",
+          "highway": "unclassified",
+          "lane_markings": "no",
+          "layer": "1",
+          "lit": "no",
+          "maxspeed": "30",
+          "maxweight:signed": "no",
+          "name": "Bladvlinder",
+          "parking:both": "no",
+          "sidewalk:left": "separate",
+          "sidewalk:right": "no",
+          "surface": "asphalt",
+          "bridge:structure": "humpback",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "bolbrug",
+    "doorvaarthoogte": null,
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 126435,448710,141834,461610 --run utrecht-6 --parallel 4 --overschrijf 1",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 30.5,
+      "dekBreedte": 12.1,
+      "brugLengte": 30.5,
+      "water": [
+        -2.3,
+        13.2
+      ],
+      "portaalhoogte": 10.9,
+      "opritafstand": [
+        18.3,
+        18.3
+      ],
+      "oprithelling": 24,
+      "bolling": 2.5,
+      "doorstekend": [
+        {
+          "gmlId": "W0636.627e96de966d4df9888c8f0a18fa5597",
+          "klasse": "Terrain",
+          "oppervlak": 56.6,
+          "onderDek": 0.69,
+          "bovenDekOnderkant": 0.39,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "W0636.28df59f58c4c4a169365e2d530cfeae0",
+          "klasse": "Terrain",
+          "oppervlak": 16.4,
+          "onderDek": 0.85,
+          "bovenDekOnderkant": 0.36,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "W0636.3ebcbc6205aa49a1b8190d184ebe81a5",
+          "klasse": "Terrain",
+          "oppervlak": 27,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.3,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        46.091,
+        45.836
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "3 PDOK-vorm(en) door het dek: 1 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-17"
+  }
+}

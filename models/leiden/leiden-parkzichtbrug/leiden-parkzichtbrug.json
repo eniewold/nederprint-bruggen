@@ -1,0 +1,173 @@
+{
+  "name": "Parkzichtbrug",
+  "file": "leiden-parkzichtbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    94861.42,
+    465719.09
+  ],
+  "xAxis": [
+    0.979849,
+    -0.199738
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 42.496,
+  "groundSamplePoints": [
+    [
+      -9.2,
+      0
+    ],
+    [
+      9.2,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0546.b324d5d0535d4c8ca2889731ddc14607",
+    "G0546.00b9b50d05264bdfa72f62e4125338a5",
+    "G0546.a4fd543036664f5f90563a4f60ec125b"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        94861.42,
+        465719.09
+      ],
+      "axis": [
+        0.979849,
+        -0.199738
+      ],
+      "halfLength": 2.09,
+      "halfWidth": 2.39,
+      "height": 41.521,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.21,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        94853.22,
+        465720.76
+      ],
+      "axis": [
+        -0.979849,
+        0.199738
+      ],
+      "halfLength": 4.18,
+      "halfWidth": 2.84,
+      "height": 42.659,
+      "gradient": [
+        -0.03887,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        94869.61,
+        465717.42
+      ],
+      "axis": [
+        0.979849,
+        -0.199738
+      ],
+      "halfLength": 4.18,
+      "halfWidth": 2.84,
+      "height": 42.671,
+      "gradient": [
+        -0.03586,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0546.b324d5d0535d4c8ca2889731ddc14607"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0546.b324d5d0535d4c8ca2889731ddc14607",
+          "type": "dek"
+        },
+        {
+          "id": "G0546.00b9b50d05264bdfa72f62e4125338a5",
+          "type": "landhoofd"
+        },
+        {
+          "id": "G0546.a4fd543036664f5f90563a4f60ec125b",
+          "type": "landhoofd"
+        }
+      ],
+      "osm": {
+        "id": "way/798262719",
+        "tags": {
+          "bridge": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "name": "Molenaarspad",
+          "surface": "wood",
+          "bridge:name": "Parkzichtbrug",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 3
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 90100,459364,95921,466645 --run leiden-6 --parallel 4 --overschrijf 1",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 8.4,
+      "dekBreedte": 3.8,
+      "brugLengte": 8.4,
+      "water": [
+        -1.7,
+        1.8
+      ],
+      "portaalhoogte": 3.4,
+      "opritafstand": [
+        5,
+        5
+      ],
+      "oprithelling": 8.4,
+      "doorstekend": [
+        {
+          "gmlId": "W0616.57b46dee811d475cbc6f29e0d3985851",
+          "klasse": "Terrain",
+          "oppervlak": 200.1,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.21,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "W0616.1dc6a3f38b0a47db9c014c38ab71baf3",
+          "klasse": "Terrain",
+          "oppervlak": 89.9,
+          "onderDek": 0.01,
+          "bovenDekOnderkant": 0.19,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        42.496,
+        42.521
+      ]
+    },
+    "waarschuwingen": [
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-17"
+  }
+}

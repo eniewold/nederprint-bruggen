@@ -1,0 +1,135 @@
+{
+  "name": "Oostwaarderbrug",
+  "file": "maarssen-oostwaarderbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    132387.1,
+    460049.3
+  ],
+  "xAxis": [
+    -0.368897,
+    0.92947
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 44.318,
+  "groundSamplePoints": [
+    [
+      -38.65,
+      0
+    ],
+    [
+      38.65,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G1904.911eff7c04a4456eaf01d4ffedbf8bb5",
+    "G1904.de029667768241628683c6b19aa0e905",
+    "G1904.8abeacd54c5b7500047cd40ebbed12ef"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        132398.41,
+        460020.81
+      ],
+      "axis": [
+        0.368897,
+        -0.92947
+      ],
+      "halfLength": 12,
+      "halfWidth": 1.99,
+      "height": 44.737,
+      "gradient": [
+        -0.035,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        132375.8,
+        460077.78
+      ],
+      "axis": [
+        -0.368897,
+        0.92947
+      ],
+      "halfLength": 12,
+      "halfWidth": 1.99,
+      "height": 45.007,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G1904.8abeacd54c5b7500047cd40ebbed12ef"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G1904.911eff7c04a4456eaf01d4ffedbf8bb5",
+          "type": "pijler"
+        },
+        {
+          "id": "G1904.de029667768241628683c6b19aa0e905",
+          "type": "pijler"
+        },
+        {
+          "id": "G1904.8abeacd54c5b7500047cd40ebbed12ef",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/727879441",
+        "tags": {
+          "bridge": "yes",
+          "bridge:name": "Oostwaarderbrug",
+          "highway": "cycleway",
+          "layer": "1",
+          "name": "Oostwaarderbrug",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 3
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 126435,448710,141834,461610 --run utrecht-6 --parallel 4 --overschrijf 1",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 37.3,
+      "dekBreedte": 2.7,
+      "brugLengte": 37.3,
+      "water": [
+        -18.1,
+        18.4
+      ],
+      "portaalhoogte": 2.5,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [],
+      "opritHoogtes": [
+        44.318,
+        44.857
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m"
+    ],
+    "gegenereerd": "2026-10-17"
+  }
+}

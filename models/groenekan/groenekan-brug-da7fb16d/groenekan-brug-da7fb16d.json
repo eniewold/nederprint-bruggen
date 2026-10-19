@@ -1,0 +1,156 @@
+{
+  "name": "Ruigenhoeksedijk",
+  "file": "groenekan-brug-da7fb16d.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    137694.59,
+    459991.59
+  ],
+  "xAxis": [
+    -0.935397,
+    0.353599
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 44.204,
+  "groundSamplePoints": [
+    [
+      -6.5,
+      0
+    ],
+    [
+      6.5,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0310.da7fb16d1fdf440aa70121e8979da4cc"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        137694.59,
+        459991.59
+      ],
+      "axis": [
+        -0.935397,
+        0.353599
+      ],
+      "halfLength": 1.25,
+      "halfWidth": 3.5,
+      "height": 43.236,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.75,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        137699.73,
+        459989.65
+      ],
+      "axis": [
+        0.935397,
+        -0.353599
+      ],
+      "halfLength": 3,
+      "halfWidth": 4.5,
+      "height": 44.37,
+      "gradient": [
+        -0.05543,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        137689.44,
+        459993.54
+      ],
+      "axis": [
+        -0.935397,
+        0.353599
+      ],
+      "halfLength": 3,
+      "halfWidth": 4.5,
+      "height": 44.386,
+      "gradient": [
+        -0.05,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0310.da7fb16d1fdf440aa70121e8979da4cc"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0310.da7fb16d1fdf440aa70121e8979da4cc",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1308641684",
+        "tags": {
+          "bridge": "viaduct",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Ruigenhoeksedijk",
+          "surface": "asphalt",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 126435,448710,141834,461610 --run utrecht-6 --parallel 4 --overschrijf 1",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 5,
+      "dekBreedte": 6,
+      "brugLengte": 5,
+      "water": [
+        -1.5,
+        1
+      ],
+      "portaalhoogte": 5.4,
+      "opritafstand": [
+        4,
+        4
+      ],
+      "oprithelling": 6,
+      "doorstekend": [
+        {
+          "gmlId": "W0636.5199fd25117d4fb1bc4fbb69a70c2e42",
+          "klasse": "Terrain",
+          "oppervlak": 53.6,
+          "onderDek": 0.01,
+          "bovenDekOnderkant": 0.75,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        44.204,
+        44.236
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-17"
+  }
+}

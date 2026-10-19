@@ -1,0 +1,127 @@
+{
+  "name": "Van Disselbrug",
+  "file": "leiden-van-disselbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    94142.25,
+    463177.84
+  ],
+  "xAxis": [
+    0.024431,
+    0.999702
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 44.429,
+  "groundSamplePoints": [
+    [
+      -18.23,
+      0
+    ],
+    [
+      18.23,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0546.fb117837be5c45dfa54add9168085711"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        94141.85,
+        463161.27
+      ],
+      "axis": [
+        -0.024431,
+        -0.999702
+      ],
+      "halfLength": 8.29,
+      "halfWidth": 6.25,
+      "height": 44.597,
+      "gradient": [
+        -0.02029,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        94142.66,
+        463194.41
+      ],
+      "axis": [
+        0.024431,
+        0.999702
+      ],
+      "halfLength": 8.29,
+      "halfWidth": 6.25,
+      "height": 44.616,
+      "gradient": [
+        -0.0181,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0546.fb117837be5c45dfa54add9168085711"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0546.fb117837be5c45dfa54add9168085711",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/613101658",
+        "tags": {
+          "bridge": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "lit": "yes",
+          "name": "Van Disselbrug",
+          "surface": "asphalt",
+          "bridge:structure": "arch",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "gewelf",
+    "doorvaarthoogte": null,
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 90100,459364,95921,466645 --run leiden-6 --parallel 4 --overschrijf 1",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 16.6,
+      "dekBreedte": 8.5,
+      "brugLengte": 16.6,
+      "water": [
+        -3.3,
+        3.7
+      ],
+      "portaalhoogte": 7.7,
+      "opritafstand": [
+        9.9,
+        9.9
+      ],
+      "oprithelling": 16.6,
+      "doorstekend": [],
+      "opritHoogtes": [
+        44.429,
+        44.466
+      ]
+    },
+    "waarschuwingen": [
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-17"
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "name": "De Meijebrug",
+  "file": "leiderdorp-de-meijebrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    95794.3,
+    463187.37
+  ],
+  "xAxis": [
+    -0.198588,
+    0.980083
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 44.266,
+  "groundSamplePoints": [
+    [
+      -6.41,
+      0
+    ],
+    [
+      6.41,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0547.4231ef511d0b4830b03b7bd727b212d8"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        95795.37,
+        463182.07
+      ],
+      "axis": [
+        0.198588,
+        -0.980083
+      ],
+      "halfLength": 3,
+      "halfWidth": 9.08,
+      "height": 44.674,
+      "gradient": [
+        -0.05,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        95793.22,
+        463192.67
+      ],
+      "axis": [
+        -0.198588,
+        0.980083
+      ],
+      "halfLength": 3,
+      "halfWidth": 9.08,
+      "height": 44.545,
+      "gradient": [
+        -0.09298,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0547.4231ef511d0b4830b03b7bd727b212d8"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0547.4231ef511d0b4830b03b7bd727b212d8",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/636377030",
+        "tags": {
+          "bridge": "yes",
+          "highway": "footway",
+          "layer": "1",
+          "name": "De Meijebrug",
+          "traffic_sign": "NL:G7",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 90100,459364,95921,466645 --run leiden-6 --parallel 4 --overschrijf 1",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 4.8,
+      "dekBreedte": 14.2,
+      "brugLengte": 4.8,
+      "water": [
+        -1.9,
+        1.6
+      ],
+      "portaalhoogte": 12.7,
+      "opritafstand": [
+        4,
+        4
+      ],
+      "oprithelling": 6,
+      "doorstekend": [],
+      "opritHoogtes": [
+        44.524,
+        44.266
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-17"
+  }
+}

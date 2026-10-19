@@ -1,0 +1,130 @@
+{
+  "name": "Vierde Waardbrug",
+  "file": "leiden-vierde-waardbrug-2.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    94477.9,
+    463916.98
+  ],
+  "xAxis": [
+    0.976874,
+    -0.213816
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 43.852,
+  "groundSamplePoints": [
+    [
+      -6.45,
+      0
+    ],
+    [
+      6.45,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0546.33554976ba994feb90f6bfae609d0dab"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        94472.58,
+        463918.15
+      ],
+      "axis": [
+        -0.976874,
+        0.213816
+      ],
+      "halfLength": 3,
+      "halfWidth": 5.4,
+      "height": 44.039,
+      "gradient": [
+        -0.06237,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        94483.22,
+        463915.82
+      ],
+      "axis": [
+        0.976874,
+        -0.213816
+      ],
+      "halfLength": 3,
+      "halfWidth": 5.4,
+      "height": 44.076,
+      "gradient": [
+        -0.05,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0546.33554976ba994feb90f6bfae609d0dab"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0546.33554976ba994feb90f6bfae609d0dab",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/636377017",
+        "tags": {
+          "bridge": "yes",
+          "highway": "residential",
+          "layer": "1",
+          "maxspeed": "30",
+          "maxspeed:type": "NL:zone30",
+          "maxweight:signed": "no",
+          "name": "Vierde Waardbrug",
+          "bridge:structure": "humpback",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "bolbrug",
+    "doorvaarthoogte": null,
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 90100,459364,95921,466645 --run leiden-6 --parallel 4 --overschrijf 1",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 4.9,
+      "dekBreedte": 7.2,
+      "brugLengte": 4.9,
+      "water": [
+        -1.9,
+        1.6
+      ],
+      "portaalhoogte": 6.5,
+      "opritafstand": [
+        4,
+        4
+      ],
+      "oprithelling": 6,
+      "bolling": 0.59,
+      "doorstekend": [],
+      "opritHoogtes": [
+        43.852,
+        43.926
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-17"
+  }
+}

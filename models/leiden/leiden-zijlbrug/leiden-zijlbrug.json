@@ -1,0 +1,162 @@
+{
+  "name": "Zijlbrug",
+  "file": "leiden-zijlbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    95367.67,
+    464951.65
+  ],
+  "xAxis": [
+    -0.983008,
+    -0.18356
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 47.736,
+  "groundSamplePoints": [
+    [
+      -56.54,
+      0
+    ],
+    [
+      56.54,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "P0028.e48ceeed1ca647909b196f0be9021452",
+    "P0028.e8863f04cabe4480a286d340d563a695",
+    "G0546.ce0121f40db7492a8f878fde362b3d7c",
+    "G0547.860981f0f08f48d6b15d7d5ac81e0179",
+    "P0028.665fe9d478434a58baad1b3664fb17c5"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        95415.39,
+        464960.56
+      ],
+      "axis": [
+        0.983008,
+        0.18356
+      ],
+      "halfLength": 12,
+      "halfWidth": 14.8,
+      "height": 47.975,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        95319.96,
+        464942.74
+      ],
+      "axis": [
+        -0.983008,
+        -0.18356
+      ],
+      "halfLength": 12,
+      "halfWidth": 14.8,
+      "height": 47.93,
+      "gradient": [
+        -0.01622,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0547.860981f0f08f48d6b15d7d5ac81e0179"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "P0028.e48ceeed1ca647909b196f0be9021452",
+          "type": "pijler"
+        },
+        {
+          "id": "P0028.e8863f04cabe4480a286d340d563a695",
+          "type": "pijler"
+        },
+        {
+          "id": "G0546.ce0121f40db7492a8f878fde362b3d7c",
+          "type": "landhoofd"
+        },
+        {
+          "id": "G0547.860981f0f08f48d6b15d7d5ac81e0179",
+          "type": "dek"
+        },
+        {
+          "id": "P0028.665fe9d478434a58baad1b3664fb17c5",
+          "type": "sloof"
+        }
+      ],
+      "osm": {
+        "id": "way/620920900",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "movable",
+          "foot": "use_sidepath",
+          "highway": "secondary",
+          "lanes": "2",
+          "layer": "1",
+          "maxspeed": "50",
+          "mofa": "use_sidepath",
+          "moped": "use_sidepath",
+          "name": "Zijlbrug",
+          "oneway": "yes",
+          "surface": "asphalt",
+          "zone:traffic": "NL:urban",
+          "bridge:structure": "beam",
+          "man_made": "bridge",
+          "wikidata": "Q29908158",
+          "wikipedia": "nl:Zijlbrug (Leiden)"
+        }
+      },
+      "fis": {
+        "id": 8198,
+        "naam": "Zijlbrug",
+        "afstand": 4,
+        "beweegbaar": true,
+        "doorvaarthoogteGesloten": 4.91
+      },
+      "pdokBridgeVlakken": 5
+    },
+    "type": "basculebrug",
+    "doorvaarthoogte": 4.91,
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 90100,459364,95921,466645 --run leiden-6 --parallel 4 --overschrijf 1",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 73.1,
+      "dekBreedte": 25.6,
+      "brugLengte": 73.1,
+      "water": [
+        -15,
+        19.5
+      ],
+      "portaalhoogte": 23,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [],
+      "opritHoogtes": [
+        47.825,
+        47.736
+      ]
+    },
+    "waarschuwingen": [
+      "bridge=movable zonder mechanisme: basculebrug is een gok"
+    ],
+    "gegenereerd": "2026-10-17"
+  }
+}

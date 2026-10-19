@@ -1,0 +1,186 @@
+{
+  "name": "Meernbrug",
+  "file": "de-meern-meernbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    130987.66,
+    455016.42
+  ],
+  "xAxis": [
+    -0.152703,
+    -0.988272
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 44.794,
+  "groundSamplePoints": [
+    [
+      -13.46,
+      0
+    ],
+    [
+      13.46,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0344.8dededf301f4461590cd4d3b31766cd4"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        130987.66,
+        455016.42
+      ],
+      "axis": [
+        -0.152703,
+        -0.988272
+      ],
+      "halfLength": 3.06,
+      "halfWidth": 9.82,
+      "height": 44.092,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.64,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        130989.53,
+        455028.52
+      ],
+      "axis": [
+        0.152703,
+        0.988272
+      ],
+      "halfLength": 6.12,
+      "halfWidth": 11.32,
+      "height": 45.093,
+      "gradient": [
+        -0.04884,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        130985.79,
+        455004.33
+      ],
+      "axis": [
+        -0.152703,
+        -0.988272
+      ],
+      "halfLength": 6.12,
+      "halfWidth": 11.32,
+      "height": 45.242,
+      "gradient": [
+        -0.02451,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0344.8dededf301f4461590cd4d3b31766cd4"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0344.8dededf301f4461590cd4d3b31766cd4",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/696374314",
+        "tags": {
+          "bridge": "movable",
+          "bridge:movable": "lift",
+          "bridge:name": "Meernbrug",
+          "cycleway": "shared_lane",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Meernbrug",
+          "sidewalk": "both",
+          "surface": "asphalt",
+          "man_made": "bridge",
+          "wikidata": "Q29031931"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ophaalbrug",
+    "doorvaarthoogte": null,
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 126435,448710,141834,461610 --run utrecht-6 --parallel 4 --overschrijf 1",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 12.2,
+      "dekBreedte": 18.6,
+      "brugLengte": 12.2,
+      "water": [
+        -2.1,
+        2.9
+      ],
+      "portaalhoogte": 16.8,
+      "opritafstand": [
+        7.3,
+        7.3
+      ],
+      "oprithelling": 12.2,
+      "doorstekend": [
+        {
+          "gmlId": "G0344.f17dcea7228244dbb9898b0fb2c5f27a",
+          "klasse": "Separation",
+          "oppervlak": 15.8,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.64,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0344.d0af9c66abbc43f0b76c24f9db4aac7d",
+          "klasse": "Separation",
+          "oppervlak": 20.1,
+          "onderDek": 0.37,
+          "bovenDekOnderkant": 0.58,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0344.1c82c8dd5dae47e8879f10c97c2684b7",
+          "klasse": "Forest",
+          "oppervlak": 222.9,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.22,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0344.318459bd3569418ca06087081d233d1c",
+          "klasse": "Terrain",
+          "oppervlak": 168,
+          "onderDek": 0.01,
+          "bovenDekOnderkant": 0.09,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        44.794,
+        45.092
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "4 PDOK-vorm(en) door het dek: 0 verborgen, 4 verlaagd"
+    ],
+    "gegenereerd": "2026-10-17"
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "name": "Pauwbrug",
+  "file": "leiden-pauwbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    94135.48,
+    464110.35
+  ],
+  "xAxis": [
+    -0.212837,
+    -0.977088
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 43.731,
+  "groundSamplePoints": [
+    [
+      -22.66,
+      0
+    ],
+    [
+      22.66,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0546.8893de58042c4b5ab6ae01d6cd719f06",
+    "G0546.959b79a6a43949ad9fe8854a02cba257",
+    "G0546.ddf3f98933c04bb6a84a424f154b0e92"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        94139.87,
+        464130.48
+      ],
+      "axis": [
+        0.212837,
+        0.977088
+      ],
+      "halfLength": 10.3,
+      "halfWidth": 13.02,
+      "height": 44.016,
+      "gradient": [
+        -0.01456,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        94131.1,
+        464090.22
+      ],
+      "axis": [
+        -0.212837,
+        -0.977088
+      ],
+      "halfLength": 10.3,
+      "halfWidth": 13.02,
+      "height": 43.949,
+      "gradient": [
+        -0.02112,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0546.ddf3f98933c04bb6a84a424f154b0e92"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0546.8893de58042c4b5ab6ae01d6cd719f06",
+          "type": "pijler"
+        },
+        {
+          "id": "G0546.959b79a6a43949ad9fe8854a02cba257",
+          "type": "pijler"
+        },
+        {
+          "id": "G0546.ddf3f98933c04bb6a84a424f154b0e92",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/635825519",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "yes",
+          "foot": "use_sidepath",
+          "highway": "tertiary",
+          "lanes": "1",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "50",
+          "maxweight:signed": "no",
+          "name": "Pauwbrug",
+          "oneway": "yes",
+          "sidewalk:left": "no",
+          "sidewalk:right": "separate",
+          "smoothness": "good",
+          "surface": "asphalt",
+          "zone:traffic": "NL:urban",
+          "bridge:structure": "arch",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 3
+    },
+    "type": "gewelf",
+    "doorvaarthoogte": null,
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 90100,459364,95921,466645 --run leiden-6 --parallel 4 --overschrijf 1",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 20.6,
+      "dekBreedte": 22,
+      "brugLengte": 20.6,
+      "water": [
+        -9.3,
+        9.7
+      ],
+      "portaalhoogte": 19.8,
+      "opritafstand": [
+        12.4,
+        12.4
+      ],
+      "oprithelling": 20.6,
+      "doorstekend": [],
+      "opritHoogtes": [
+        43.866,
+        43.731
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen FIS-brug binnen 35 m"
+    ],
+    "gegenereerd": "2026-10-17"
+  }
+}

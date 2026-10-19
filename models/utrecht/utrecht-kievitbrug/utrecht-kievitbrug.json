@@ -1,0 +1,169 @@
+{
+  "name": "Kievitbrug",
+  "file": "utrecht-kievitbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    136801.96,
+    456761.46
+  ],
+  "xAxis": [
+    -0.159406,
+    -0.987213
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 45.558,
+  "groundSamplePoints": [
+    [
+      -6.56,
+      0
+    ],
+    [
+      6.56,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0344.186079caa4b7479299c091c759ec7af3",
+    "G0344.d00e71833cf945c995633afc1c1e617e",
+    "G0344.afa946a428e84472b997cd434eaa1dd5"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        136801.96,
+        456761.46
+      ],
+      "axis": [
+        -0.159406,
+        -0.987213
+      ],
+      "halfLength": 1.28,
+      "halfWidth": 6.8,
+      "height": 44.567,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.91,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        136802.85,
+        456766.95
+      ],
+      "axis": [
+        0.159406,
+        0.987213
+      ],
+      "halfLength": 3,
+      "halfWidth": 8.3,
+      "height": 45.713,
+      "gradient": [
+        -0.05144,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        136801.07,
+        456755.97
+      ],
+      "axis": [
+        -0.159406,
+        -0.987213
+      ],
+      "halfLength": 3,
+      "halfWidth": 8.3,
+      "height": 45.717,
+      "gradient": [
+        -0.05,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0344.afa946a428e84472b997cd434eaa1dd5"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0344.186079caa4b7479299c091c759ec7af3",
+          "type": "landhoofd"
+        },
+        {
+          "id": "G0344.d00e71833cf945c995633afc1c1e617e",
+          "type": "landhoofd"
+        },
+        {
+          "id": "G0344.afa946a428e84472b997cd434eaa1dd5",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1367958039",
+        "tags": {
+          "bridge": "yes",
+          "cycleway": "lane",
+          "highway": "residential",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "30",
+          "name": "Kievitbrug",
+          "oneway": "yes",
+          "oneway:bicycle": "no",
+          "sidewalk": "both",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 3
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 126435,448710,141834,461610 --run utrecht-6 --parallel 4 --overschrijf 1",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 5.1,
+      "dekBreedte": 12.6,
+      "brugLengte": 5.1,
+      "water": [
+        -2.1,
+        0.4
+      ],
+      "portaalhoogte": 11.3,
+      "opritafstand": [
+        4,
+        4
+      ],
+      "oprithelling": 6,
+      "doorstekend": [
+        {
+          "gmlId": "G0344.6c1b5780118e48f7aeac2b9ceeca85d7",
+          "klasse": "Terrain",
+          "oppervlak": 277.8,
+          "onderDek": 0.02,
+          "bovenDekOnderkant": 0.91,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        45.558,
+        45.567
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-17"
+  }
+}

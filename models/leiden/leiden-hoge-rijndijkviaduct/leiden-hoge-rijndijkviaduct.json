@@ -1,0 +1,175 @@
+{
+  "name": "Hoge Rijndijkviaduct",
+  "file": "leiden-hoge-rijndijkviaduct.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    95826.35,
+    462476.94
+  ],
+  "xAxis": [
+    0.352432,
+    -0.935837
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 44.036,
+  "groundSamplePoints": [
+    [
+      -51.04,
+      0
+    ],
+    [
+      51.04,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0546.67a36c87f6ef43608fec0972def3bc99",
+    "L0002.8abeacd54c7b7500047bb70b6184d8e2",
+    "L0002.8abeacd54c7b7500047bb70b6184d922"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        95826.35,
+        462476.94
+      ],
+      "axis": [
+        0.352432,
+        -0.935837
+      ],
+      "halfLength": 25.04,
+      "halfWidth": 12.34,
+      "height": 43.057,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.97,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        95811.18,
+        462517.22
+      ],
+      "axis": [
+        -0.352432,
+        0.935837
+      ],
+      "halfLength": 12,
+      "halfWidth": 13.84,
+      "height": 44.207,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        95841.52,
+        462436.66
+      ],
+      "axis": [
+        0.352432,
+        -0.935837
+      ],
+      "halfLength": 12,
+      "halfWidth": 13.84,
+      "height": 44.197,
+      "gradient": [
+        -0.01336,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0546.67a36c87f6ef43608fec0972def3bc99"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0546.67a36c87f6ef43608fec0972def3bc99",
+          "type": "dek"
+        },
+        {
+          "id": "L0002.8abeacd54c7b7500047bb70b6184d8e2",
+          "type": "landhoofd"
+        },
+        {
+          "id": "L0002.8abeacd54c7b7500047bb70b6184d922",
+          "type": "landhoofd"
+        }
+      ],
+      "osm": {
+        "id": "way/667621324",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "yes",
+          "foot": "use_sidepath",
+          "hgv": "no",
+          "highway": "secondary",
+          "lanes": "1",
+          "layer": "1",
+          "maxspeed": "50",
+          "name": "Hoge Rijndijkviaduct",
+          "oneway": "yes",
+          "surface": "asphalt",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 3
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 90100,459364,95921,466645 --run leiden-6 --parallel 4 --overschrijf 1",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 62.1,
+      "dekBreedte": 23.7,
+      "brugLengte": 62.1,
+      "water": null,
+      "portaalhoogte": 21.3,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "L0002.de31cc966aa349e2bb98afd5054f8a03",
+          "klasse": "Road",
+          "oppervlak": 18132.6,
+          "onderDek": 0.09,
+          "bovenDekOnderkant": 0.97,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "L0002.c3ca3f70d4d74b28a29746c1990a5f2f",
+          "klasse": "Road",
+          "oppervlak": 18976.8,
+          "onderDek": 0.11,
+          "bovenDekOnderkant": 0.59,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        44.057,
+        44.036
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-17"
+  }
+}

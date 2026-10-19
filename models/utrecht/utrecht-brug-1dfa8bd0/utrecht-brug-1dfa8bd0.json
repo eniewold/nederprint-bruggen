@@ -1,0 +1,162 @@
+{
+  "name": "utrecht-brug-1dfa8bd0",
+  "file": "utrecht-brug-1dfa8bd0.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    132404.55,
+    455469.76
+  ],
+  "xAxis": [
+    -0.138509,
+    -0.990361
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 44.336,
+  "groundSamplePoints": [
+    [
+      -8.83,
+      0
+    ],
+    [
+      8.83,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0344.1dfa8bd04bb540edb9e4085f52f5e553"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        132404.55,
+        455469.76
+      ],
+      "axis": [
+        -0.138509,
+        -0.990361
+      ],
+      "halfLength": 2.01,
+      "halfWidth": 3.05,
+      "height": 43.447,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.71,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        132405.66,
+        455477.71
+      ],
+      "axis": [
+        0.138509,
+        0.990361
+      ],
+      "halfLength": 4.01,
+      "halfWidth": 3.82,
+      "height": 44.542,
+      "gradient": [
+        -0.05117,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        132403.44,
+        455461.81
+      ],
+      "axis": [
+        -0.138509,
+        -0.990361
+      ],
+      "halfLength": 4.01,
+      "halfWidth": 3.82,
+      "height": 44.597,
+      "gradient": [
+        -0.03737,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0344.1dfa8bd04bb540edb9e4085f52f5e553"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0344.1dfa8bd04bb540edb9e4085f52f5e553",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1508129901",
+        "tags": {
+          "bridge": "yes",
+          "highway": "service",
+          "layer": "1",
+          "service": "driveway",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 126435,448710,141834,461610 --run utrecht-6 --parallel 4 --overschrijf 1",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 8,
+      "dekBreedte": 5.1,
+      "brugLengte": 8,
+      "water": [
+        -1.5,
+        0
+      ],
+      "portaalhoogte": 4.6,
+      "opritafstand": [
+        4.8,
+        4.8
+      ],
+      "oprithelling": 8,
+      "doorstekend": [
+        {
+          "gmlId": "G0344.4d7540447b9049ca8ce18f80a7ae19ad",
+          "klasse": "Terrain",
+          "oppervlak": 3641,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.71,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0344.094c2b65193c4d3ea04ed768068f6f07",
+          "klasse": "Road",
+          "oppervlak": 8.9,
+          "onderDek": 0.03,
+          "bovenDekOnderkant": 0.08,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        44.336,
+        44.447
+      ]
+    },
+    "waarschuwingen": [
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-17"
+  }
+}

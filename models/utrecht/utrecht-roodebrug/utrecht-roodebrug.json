@@ -1,0 +1,221 @@
+{
+  "name": "Roodebrug",
+  "file": "utrecht-roodebrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    135824.37,
+    457613.24
+  ],
+  "xAxis": [
+    0.908279,
+    0.418365
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 45.414,
+  "groundSamplePoints": [
+    [
+      -22.69,
+      0
+    ],
+    [
+      22.69,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0344.113666997c954a2f9f74eaceef50a521",
+    "G0344.1e95b2ec2a2748f8badb102e93b8fb33",
+    "G0344.228fbe4a647a4c0495f7ab4875e704bc",
+    "G0344.2f6238e0610d436cb3c6bc929fcd640e",
+    "G0344.a71f7daef4554e5f96848ef653114318",
+    "G0344.b50bac09994a4e7e9a8feb165339335e",
+    "G0344.c7eeb3564c1749cca26a1485aef91b2e",
+    "G0344.8903d6bea2f4475e88a3eab567e86d68",
+    "G0344.e160bb6b36ba4871ad2a7fea9cfafcd3"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        135824.37,
+        457613.24
+      ],
+      "axis": [
+        0.908279,
+        0.418365
+      ],
+      "halfLength": 5.16,
+      "halfWidth": 6.74,
+      "height": 44.518,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.15,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        135805.64,
+        457604.6
+      ],
+      "axis": [
+        -0.908279,
+        -0.418365
+      ],
+      "halfLength": 10.32,
+      "halfWidth": 8.24,
+      "height": 45.668,
+      "gradient": [
+        -0.01454,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        135843.11,
+        457621.87
+      ],
+      "axis": [
+        0.908279,
+        0.418365
+      ],
+      "halfLength": 10.32,
+      "halfWidth": 8.24,
+      "height": 45.616,
+      "gradient": [
+        -0.01961,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0344.228fbe4a647a4c0495f7ab4875e704bc",
+      "G0344.b50bac09994a4e7e9a8feb165339335e",
+      "G0344.c7eeb3564c1749cca26a1485aef91b2e",
+      "G0344.8903d6bea2f4475e88a3eab567e86d68",
+      "G0344.e160bb6b36ba4871ad2a7fea9cfafcd3"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0344.113666997c954a2f9f74eaceef50a521",
+          "type": "pyloon"
+        },
+        {
+          "id": "G0344.1e95b2ec2a2748f8badb102e93b8fb33",
+          "type": "pyloon"
+        },
+        {
+          "id": "G0344.228fbe4a647a4c0495f7ab4875e704bc",
+          "type": "dek"
+        },
+        {
+          "id": "G0344.2f6238e0610d436cb3c6bc929fcd640e",
+          "type": "landhoofd"
+        },
+        {
+          "id": "G0344.a71f7daef4554e5f96848ef653114318",
+          "type": "landhoofd"
+        },
+        {
+          "id": "G0344.b50bac09994a4e7e9a8feb165339335e",
+          "type": "dek"
+        },
+        {
+          "id": "G0344.c7eeb3564c1749cca26a1485aef91b2e",
+          "type": "dek"
+        },
+        {
+          "id": "G0344.8903d6bea2f4475e88a3eab567e86d68",
+          "type": "dek"
+        },
+        {
+          "id": "G0344.e160bb6b36ba4871ad2a7fea9cfafcd3",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/727881732",
+        "tags": {
+          "bridge": "movable",
+          "bridge:movable": "bascule",
+          "bridge:name": "Roodebrug",
+          "highway": "tertiary",
+          "lane_markings": "no",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "50",
+          "maxweight:signed": "no",
+          "name": "Roodebrug",
+          "oneway": "no",
+          "surface": "asphalt",
+          "wikidata": "Q4035091",
+          "wikimedia_commons": "Category:Rode Brug",
+          "wikipedia": "nl:Rode brug (Utrecht)",
+          "man_made": "bridge"
+        }
+      },
+      "fis": {
+        "id": 12450,
+        "naam": "Roodebrug",
+        "afstand": 2,
+        "beweegbaar": true,
+        "doorvaarthoogteGesloten": 2
+      },
+      "pdokBridgeVlakken": 9
+    },
+    "type": "basculebrug",
+    "doorvaarthoogte": 2,
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 126435,448710,141834,461610 --run utrecht-6 --parallel 4 --overschrijf 1",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 20.6,
+      "dekBreedte": 12.5,
+      "brugLengte": 20.6,
+      "water": [
+        -5.3,
+        3.2
+      ],
+      "portaalhoogte": 7.5,
+      "opritafstand": [
+        12.4,
+        12.4
+      ],
+      "oprithelling": 20.6,
+      "doorstekend": [
+        {
+          "gmlId": "G0344.d74fbbb3bb9c4c1dab6ad7a251fcd569",
+          "klasse": "Separation",
+          "oppervlak": 37.7,
+          "onderDek": 0.04,
+          "bovenDekOnderkant": 0.15,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0344.6c94275fb5e14c60a11b14418570d1dc",
+          "klasse": "Forest",
+          "oppervlak": 175.1,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.15,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        45.518,
+        45.414
+      ]
+    },
+    "waarschuwingen": [
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-17"
+  }
+}

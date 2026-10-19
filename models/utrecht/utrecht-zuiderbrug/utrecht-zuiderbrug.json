@@ -1,0 +1,172 @@
+{
+  "name": "Zuiderbrug",
+  "file": "utrecht-zuiderbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    136375.28,
+    453212.52
+  ],
+  "xAxis": [
+    0.940343,
+    -0.340228
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 45.978,
+  "groundSamplePoints": [
+    [
+      -14.29,
+      0
+    ],
+    [
+      14.29,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0344.c558b5199d214fdca25d3926a74471d4",
+    "G0344.e1f6b97e874c4b52b7e61903c909b686"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        136375.28,
+        453212.52
+      ],
+      "axis": [
+        0.940343,
+        -0.340228
+      ],
+      "halfLength": 3.25,
+      "halfWidth": 13.01,
+      "height": 45.193,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.12,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        136363.07,
+        453216.94
+      ],
+      "axis": [
+        -0.940343,
+        0.340228
+      ],
+      "halfLength": 6.5,
+      "halfWidth": 14.51,
+      "height": 46.235,
+      "gradient": [
+        -0.03969,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        136387.5,
+        453208.1
+      ],
+      "axis": [
+        0.940343,
+        -0.340228
+      ],
+      "halfLength": 6.5,
+      "halfWidth": 14.51,
+      "height": 46.343,
+      "gradient": [
+        -0.02309,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0344.c558b5199d214fdca25d3926a74471d4"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0344.c558b5199d214fdca25d3926a74471d4",
+          "type": "dek"
+        },
+        {
+          "id": "G0344.e1f6b97e874c4b52b7e61903c909b686",
+          "type": "landhoofd"
+        }
+      ],
+      "osm": {
+        "id": "way/505762981",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "movable",
+          "foot": "use_sidepath",
+          "highway": "secondary",
+          "lane_markings": "no",
+          "lanes": "1",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "50",
+          "maxweight:signed": "no",
+          "mofa": "use_sidepath",
+          "name": "Zuiderbrug",
+          "oneway": "yes",
+          "surface": "asphalt",
+          "zone:traffic": "NL:urban",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 2
+    },
+    "type": "basculebrug",
+    "doorvaarthoogte": null,
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 126435,448710,141834,461610 --run utrecht-6 --parallel 4 --overschrijf 1",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 13,
+      "dekBreedte": 25,
+      "brugLengte": 13,
+      "water": [
+        -5.5,
+        3
+      ],
+      "portaalhoogte": 22.5,
+      "opritafstand": [
+        7.8,
+        7.8
+      ],
+      "oprithelling": 13,
+      "doorstekend": [
+        {
+          "gmlId": "G0344.9d60fc5c82dc46469386a791b3245c64",
+          "klasse": "Terrain",
+          "oppervlak": 267,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.12,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        45.978,
+        46.193
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "bridge=movable zonder mechanisme: basculebrug is een gok",
+      "geen FIS-brug binnen 35 m",
+      "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-17"
+  }
+}

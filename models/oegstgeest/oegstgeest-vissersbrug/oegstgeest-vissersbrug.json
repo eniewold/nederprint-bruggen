@@ -1,0 +1,126 @@
+{
+  "name": "Vissersbrug",
+  "file": "oegstgeest-vissersbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    93620.46,
+    466402.02
+  ],
+  "xAxis": [
+    -0.399914,
+    -0.916553
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 43.556,
+  "groundSamplePoints": [
+    [
+      -6.88,
+      0
+    ],
+    [
+      6.88,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0579.e4ef6ea9281a4a54a8824373f98430fc"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        93622.81,
+        466407.41
+      ],
+      "axis": [
+        0.399914,
+        0.916553
+      ],
+      "halfLength": 3,
+      "halfWidth": 4.55,
+      "height": 44.079,
+      "gradient": [
+        -0.17442,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        93618.11,
+        466396.64
+      ],
+      "axis": [
+        -0.399914,
+        -0.916553
+      ],
+      "halfLength": 3,
+      "halfWidth": 4.55,
+      "height": 44.452,
+      "gradient": [
+        -0.05,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0579.e4ef6ea9281a4a54a8824373f98430fc"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0579.e4ef6ea9281a4a54a8824373f98430fc",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/740684436",
+        "tags": {
+          "bridge": "yes",
+          "highway": "residential",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Vissersbrug",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 90100,459364,95921,466645 --run leiden-6 --parallel 4 --overschrijf 1",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 5.8,
+      "dekBreedte": 6.1,
+      "brugLengte": 5.8,
+      "water": [
+        -2.4,
+        2.6
+      ],
+      "portaalhoogte": 5.5,
+      "opritafstand": [
+        4,
+        4
+      ],
+      "oprithelling": 6,
+      "doorstekend": [],
+      "opritHoogtes": [
+        43.556,
+        44.302
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-17"
+  }
+}

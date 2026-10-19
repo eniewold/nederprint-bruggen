@@ -1,0 +1,177 @@
+{
+  "name": "Kloosterbrug",
+  "file": "de-meern-kloosterbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    130019.09,
+    455295.44
+  ],
+  "xAxis": [
+    -0.370723,
+    0.928743
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 43.745,
+  "groundSamplePoints": [
+    [
+      -43.57,
+      0
+    ],
+    [
+      43.57,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0344.5b4f36bdf6a34827a22bb1d3004f2a08"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        130019.09,
+        455295.44
+      ],
+      "axis": [
+        -0.370723,
+        0.928743
+      ],
+      "halfLength": 17.57,
+      "halfWidth": 5.87,
+      "height": 43.511,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.85,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        130032.28,
+        455262.4
+      ],
+      "axis": [
+        0.370723,
+        -0.928743
+      ],
+      "halfLength": 12,
+      "halfWidth": 7.37,
+      "height": 44.661,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        130005.9,
+        455328.48
+      ],
+      "axis": [
+        -0.370723,
+        0.928743
+      ],
+      "halfLength": 12,
+      "halfWidth": 7.37,
+      "height": 44.278,
+      "gradient": [
+        -0.04443,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0344.5b4f36bdf6a34827a22bb1d3004f2a08"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0344.5b4f36bdf6a34827a22bb1d3004f2a08",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/707324999",
+        "tags": {
+          "bridge": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "sidewalk": "no",
+          "bridge:structure": "beam",
+          "man_made": "bridge",
+          "name": "Kloosterbrug"
+        }
+      },
+      "fis": {
+        "id": 51194,
+        "naam": "Kloosterbrug De Meern",
+        "afstand": 1,
+        "beweegbaar": false,
+        "doorvaarthoogteGesloten": 2.6
+      },
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": 2.6,
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 126435,448710,141834,461610 --run utrecht-6 --parallel 4 --overschrijf 1",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 47.1,
+      "dekBreedte": 10.7,
+      "brugLengte": 47.1,
+      "water": [
+        -10.6,
+        12.4
+      ],
+      "portaalhoogte": 9.7,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0344.cb92b39cd85d492a89e8c0b59e85c171",
+          "klasse": "Forest",
+          "oppervlak": 2723.8,
+          "onderDek": 0.06,
+          "bovenDekOnderkant": 0.85,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "W0636.ee7ab3d877d347e4a131f6e3254c3d65",
+          "klasse": "Terrain",
+          "oppervlak": 993.1,
+          "onderDek": 0.03,
+          "bovenDekOnderkant": 0.81,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0344.7d87fdacba0341fe9928830a207526eb",
+          "klasse": "Forest",
+          "oppervlak": 1616.7,
+          "onderDek": 0.04,
+          "bovenDekOnderkant": 0.65,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        44.511,
+        43.745
+      ]
+    },
+    "waarschuwingen": [
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "3 PDOK-vorm(en) door het dek: 0 verborgen, 3 verlaagd"
+    ],
+    "gegenereerd": "2026-10-17"
+  }
+}

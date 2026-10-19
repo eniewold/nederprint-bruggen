@@ -1,0 +1,137 @@
+{
+  "name": "Leiderdorpsebrug",
+  "file": "leiderdorp-leiderdorpsebrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    95807.51,
+    463019.34
+  ],
+  "xAxis": [
+    0.982741,
+    0.184987
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 44.178,
+  "groundSamplePoints": [
+    [
+      -23.15,
+      0
+    ],
+    [
+      23.15,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0547.60312f6d562f40debeb0384af0b8100e",
+    "G0547.4807b23c961d43deaa53ff413d97f5e5",
+    "P0028.f22a1e25911843e08a74033ae9a161b7"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        95786.83,
+        463015.45
+      ],
+      "axis": [
+        -0.982741,
+        -0.184987
+      ],
+      "halfLength": 10.52,
+      "halfWidth": 10.13,
+      "height": 45.212,
+      "gradient": [
+        -0.09828,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        95828.19,
+        463023.23
+      ],
+      "axis": [
+        0.982741,
+        0.184987
+      ],
+      "halfLength": 10.52,
+      "halfWidth": 10.13,
+      "height": 46.096,
+      "gradient": [
+        -0.01426,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0547.60312f6d562f40debeb0384af0b8100e",
+      "G0547.4807b23c961d43deaa53ff413d97f5e5"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0547.60312f6d562f40debeb0384af0b8100e",
+          "type": "dek"
+        },
+        {
+          "id": "G0547.4807b23c961d43deaa53ff413d97f5e5",
+          "type": "dek"
+        },
+        {
+          "id": "P0028.f22a1e25911843e08a74033ae9a161b7",
+          "type": "pijler"
+        }
+      ],
+      "osm": {
+        "id": "way/830432817",
+        "tags": {
+          "bridge": "movable",
+          "layer": "1",
+          "loc_name": "Stierebrug",
+          "man_made": "bridge",
+          "name": "Leiderdorpsebrug",
+          "start_date": "1964"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 3
+    },
+    "type": "basculebrug",
+    "doorvaarthoogte": null,
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 90100,459364,95921,466645 --run leiden-6 --parallel 4 --overschrijf 1",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 21,
+      "dekBreedte": 16.3,
+      "brugLengte": 21,
+      "water": [
+        -10,
+        10
+      ],
+      "portaalhoogte": 14.6,
+      "opritafstand": [
+        12.6,
+        12.6
+      ],
+      "oprithelling": 21,
+      "doorstekend": [],
+      "opritHoogtes": [
+        44.178,
+        45.946
+      ]
+    },
+    "waarschuwingen": [
+      "bridge=movable zonder mechanisme: basculebrug is een gok",
+      "geen FIS-brug binnen 35 m"
+    ],
+    "gegenereerd": "2026-10-17"
+  }
+}

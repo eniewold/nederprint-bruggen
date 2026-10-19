@@ -1,0 +1,147 @@
+{
+  "name": "Ravelijnpad",
+  "file": "utrecht-brug-ed22ea3c.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    137831.56,
+    453798.73
+  ],
+  "xAxis": [
+    0.699069,
+    0.715054
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 46.045,
+  "groundSamplePoints": [
+    [
+      4.7,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0344.ed22ea3c006a4b0c85c4279b53bc238e"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        137831.56,
+        453798.73
+      ],
+      "axis": [
+        0.699069,
+        0.715054
+      ],
+      "halfLength": 0.35,
+      "halfWidth": 32.92,
+      "height": 45.045,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.4,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        137834.15,
+        453801.38
+      ],
+      "axis": [
+        0.699069,
+        0.715054
+      ],
+      "halfLength": 3,
+      "halfWidth": 34.42,
+      "height": 46.195,
+      "gradient": [
+        -0.05,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0344.ed22ea3c006a4b0c85c4279b53bc238e"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0344.ed22ea3c006a4b0c85c4279b53bc238e",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1567140686",
+        "tags": {
+          "bridge": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "lit": "yes",
+          "mofa": "yes",
+          "moped": "no",
+          "name": "Ravelijnpad",
+          "oneway": "no",
+          "surface": "concrete",
+          "traffic_sign": "NL:G11",
+          "width": "1.50",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 126435,448710,141834,461610 --run utrecht-6 --parallel 4 --overschrijf 1",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 1.4,
+      "dekBreedte": 64.8,
+      "brugLengte": 1.4,
+      "water": [
+        -0.7,
+        0.3
+      ],
+      "portaalhoogte": 58.4,
+      "opritafstand": [
+        12,
+        4
+      ],
+      "oprithelling": 6,
+      "doorstekend": [
+        {
+          "gmlId": "W0636.fd05334cfa2940ce90e9a02aec826756",
+          "klasse": "Terrain",
+          "oppervlak": 69.8,
+          "onderDek": 0.25,
+          "bovenDekOnderkant": 0.4,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0344.97c21cf263604803b30bd878bbc09169",
+          "klasse": "Forest",
+          "oppervlak": 40.3,
+          "onderDek": 0.11,
+          "bovenDekOnderkant": 0.09,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        null,
+        46.045
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "oprit - zonder PDOK-maaiveld",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-17"
+  }
+}

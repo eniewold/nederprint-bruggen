@@ -1,0 +1,199 @@
+{
+  "name": "utrecht-brug-0634678a",
+  "file": "utrecht-brug-0634678a.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    133913.45,
+    452725.76
+  ],
+  "xAxis": [
+    0.984815,
+    -0.173606
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 43.608,
+  "groundSamplePoints": [
+    [
+      -60.43,
+      0
+    ],
+    [
+      60.43,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "L0002.0634678ae6f8477e9758098a9a787a8e",
+    "L0002.dc71c92e578d4e8abbf01ed8caa5da24",
+    "L0002.6c85e63789bd40079b0ee246b65cc31c"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        133913.45,
+        452725.76
+      ],
+      "axis": [
+        0.984815,
+        -0.173606
+      ],
+      "halfLength": 34.43,
+      "halfWidth": 10.99,
+      "height": 42.694,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -7.74,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        133861.81,
+        452734.86
+      ],
+      "axis": [
+        -0.984815,
+        0.173606
+      ],
+      "halfLength": 12,
+      "halfWidth": 12.49,
+      "height": 43.801,
+      "gradient": [
+        -0.01608,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        133965.08,
+        452716.66
+      ],
+      "axis": [
+        0.984815,
+        -0.173606
+      ],
+      "halfLength": 12,
+      "halfWidth": 12.49,
+      "height": 43.844,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "L0002.0634678ae6f8477e9758098a9a787a8e"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "L0002.0634678ae6f8477e9758098a9a787a8e",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1028985782",
+        "tags": {
+          "bridge": "yes",
+          "carriageway_ref": "x",
+          "change:lanes": "yes|not_right|no",
+          "highway": "motorway",
+          "lanes": "3",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "100",
+          "noname": "yes",
+          "note": "Parallelrijbaan",
+          "official_name": "Rijksweg 12",
+          "oneway": "yes",
+          "operator": "Rijkswaterstaat",
+          "ref": "A12",
+          "surface": "asphalt",
+          "toll:hgv": "yes",
+          "zone:traffic": "NL:rural",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 126435,448710,141834,461610 --run utrecht-6 --parallel 4 --overschrijf 1",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 80.9,
+      "dekBreedte": 21,
+      "brugLengte": 80.9,
+      "water": null,
+      "portaalhoogte": 18.9,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "L0002.c021190492b54d83ac7899dd5d3e02a2",
+          "klasse": "Separation",
+          "oppervlak": 220.6,
+          "onderDek": 0.57,
+          "bovenDekOnderkant": 6.74,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "L0002.dc71c92e578d4e8abbf01ed8caa5da24",
+          "klasse": "Terrain",
+          "oppervlak": 172.9,
+          "onderDek": 0.86,
+          "bovenDekOnderkant": 6.7,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "L0002.ae14ce53f3e448659f745d3debcbade5",
+          "klasse": "Separation",
+          "oppervlak": 126.4,
+          "onderDek": 0.59,
+          "bovenDekOnderkant": 6.62,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "L0002.6c85e63789bd40079b0ee246b65cc31c",
+          "klasse": "Terrain",
+          "oppervlak": 50.1,
+          "onderDek": 0.79,
+          "bovenDekOnderkant": 6.51,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "L0002.ef00e6e877434d41875358eb822ade3d",
+          "klasse": "Road",
+          "oppervlak": 31887.2,
+          "onderDek": 0.16,
+          "bovenDekOnderkant": 0.74,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        43.608,
+        43.694
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "5 PDOK-vorm(en) door het dek: 2 verborgen, 3 verlaagd"
+    ],
+    "gegenereerd": "2026-10-17"
+  }
+}

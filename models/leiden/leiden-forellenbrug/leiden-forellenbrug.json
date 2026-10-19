@@ -1,0 +1,164 @@
+{
+  "name": "Forellenbrug",
+  "file": "leiden-forellenbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    94594.73,
+    466440.86
+  ],
+  "xAxis": [
+    0.99556,
+    -0.09413
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 42.663,
+  "groundSamplePoints": [
+    [
+      -15.51,
+      0
+    ],
+    [
+      15.51,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0546.03315e39a660408f910f37d405021a43",
+    "G0546.f910874e8bb64e20a016fa21d2d8db0b",
+    "G0546.4afb13e1abbd48bb976573c8925b2151"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        94594.73,
+        466440.86
+      ],
+      "axis": [
+        0.99556,
+        -0.09413
+      ],
+      "halfLength": 3.52,
+      "halfWidth": 2.37,
+      "height": 41.742,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.18,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        94580.69,
+        466442.19
+      ],
+      "axis": [
+        -0.99556,
+        0.09413
+      ],
+      "halfLength": 7.05,
+      "halfWidth": 2.81,
+      "height": 42.892,
+      "gradient": [
+        -0.02128,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        94608.76,
+        466439.54
+      ],
+      "axis": [
+        0.99556,
+        -0.09413
+      ],
+      "halfLength": 7.05,
+      "halfWidth": 2.81,
+      "height": 42.853,
+      "gradient": [
+        -0.02688,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0546.4afb13e1abbd48bb976573c8925b2151"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0546.03315e39a660408f910f37d405021a43",
+          "type": "landhoofd"
+        },
+        {
+          "id": "G0546.f910874e8bb64e20a016fa21d2d8db0b",
+          "type": "landhoofd"
+        },
+        {
+          "id": "G0546.4afb13e1abbd48bb976573c8925b2151",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/662958455",
+        "tags": {
+          "bridge": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "name": "Forellenbrug",
+          "surface": "wood",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 3
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 90100,459364,95921,466645 --run leiden-6 --parallel 4 --overschrijf 1",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 14.1,
+      "dekBreedte": 3.7,
+      "brugLengte": 14.1,
+      "water": [
+        -2.5,
+        3.5
+      ],
+      "portaalhoogte": 3.4,
+      "opritafstand": [
+        8.5,
+        8.5
+      ],
+      "oprithelling": 14.1,
+      "doorstekend": [
+        {
+          "gmlId": "W0616.62d61620d6624826b8e0c41aac7cbd7d",
+          "klasse": "Terrain",
+          "oppervlak": 694.5,
+          "onderDek": 0.01,
+          "bovenDekOnderkant": 0.18,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        42.742,
+        42.663
+      ]
+    },
+    "waarschuwingen": [
+      "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-17"
+  }
+}

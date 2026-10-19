@@ -1,0 +1,202 @@
+{
+  "name": "Grote Havenbrug",
+  "file": "leiden-grote-havenbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    94330.4,
+    464046
+  ],
+  "xAxis": [
+    0.784263,
+    0.620428
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 44.25,
+  "groundSamplePoints": [
+    [
+      -18.93,
+      0
+    ],
+    [
+      20.11,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0546.4fda5eb4b59e44be8b5f35bbfaa0a1ca",
+    "G0546.6b1690822ee54d399f34ba139704ba4a",
+    "G0546.a8f5237d192944f1ab715eed8cfef5a6",
+    "G0546.c72e7395307f485687b836f2ddfe235f",
+    "G0546.2b3499481a56433fa8fe19ae3a463be2",
+    "G0546.562739cc042a402da94c330e53cc416e"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        94330.4,
+        464046
+      ],
+      "axis": [
+        0.784263,
+        0.620428
+      ],
+      "halfLength": 4.14,
+      "halfWidth": 7.87,
+      "height": 43.591,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -2.23,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        94316.95,
+        464035.36
+      ],
+      "axis": [
+        -0.784263,
+        -0.620428
+      ],
+      "halfLength": 8.87,
+      "halfWidth": 9.37,
+      "height": 44.741,
+      "gradient": [
+        -0.01691,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        94344.77,
+        464057.38
+      ],
+      "axis": [
+        0.784263,
+        0.620428
+      ],
+      "halfLength": 8.87,
+      "halfWidth": 9.37,
+      "height": 44.571,
+      "gradient": [
+        -0.03616,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0546.562739cc042a402da94c330e53cc416e"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0546.4fda5eb4b59e44be8b5f35bbfaa0a1ca",
+          "type": "pijler"
+        },
+        {
+          "id": "G0546.6b1690822ee54d399f34ba139704ba4a",
+          "type": "landhoofd"
+        },
+        {
+          "id": "G0546.a8f5237d192944f1ab715eed8cfef5a6",
+          "type": "pijler"
+        },
+        {
+          "id": "G0546.c72e7395307f485687b836f2ddfe235f",
+          "type": "pijler"
+        },
+        {
+          "id": "G0546.2b3499481a56433fa8fe19ae3a463be2",
+          "type": "pijler"
+        },
+        {
+          "id": "G0546.562739cc042a402da94c330e53cc416e",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/620654408",
+        "tags": {
+          "bridge": "movable",
+          "highway": "residential",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "30",
+          "maxspeed:type": "NL:zone30",
+          "maxweight:signed": "no",
+          "name": "Grote Havenbrug",
+          "sidewalk": "both",
+          "surface": "asphalt",
+          "bridge:structure": "beam",
+          "man_made": "bridge",
+          "wikidata": "Q18770939",
+          "wikimedia_commons": "Category:Grote Havenbrug (Leiden)",
+          "wikipedia": "nl:Grote Havenbrug"
+        }
+      },
+      "fis": {
+        "id": 55880,
+        "naam": "Grote Havenbrug",
+        "afstand": 2,
+        "beweegbaar": true,
+        "doorvaarthoogteGesloten": 1.28
+      },
+      "pdokBridgeVlakken": 6
+    },
+    "type": "basculebrug",
+    "doorvaarthoogte": 1.28,
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 90100,459364,95921,466645 --run leiden-6 --parallel 4 --overschrijf 1",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 16.6,
+      "dekBreedte": 14.7,
+      "brugLengte": 17.7,
+      "water": [
+        -3.3,
+        7.2
+      ],
+      "portaalhoogte": 13.3,
+      "opritafstand": [
+        10.6,
+        10.6
+      ],
+      "oprithelling": 17.7,
+      "doorstekend": [
+        {
+          "gmlId": "G0546.ce309260eb6445fc88fc6d865169a929",
+          "klasse": "Road",
+          "oppervlak": 269.5,
+          "onderDek": 0,
+          "bovenDekOnderkant": 1.23,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0546.5fa923517f3d4d89b73d98e53baddb07",
+          "klasse": "Separation",
+          "oppervlak": 21.3,
+          "onderDek": 0.47,
+          "bovenDekOnderkant": 1.15,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        44.591,
+        44.25
+      ]
+    },
+    "waarschuwingen": [
+      "bridge=movable zonder mechanisme: basculebrug is een gok",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-17"
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "name": "utrecht-brug-b0d658d0",
+  "file": "utrecht-brug-b0d658d0.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    138884.35,
+    456939.97
+  ],
+  "xAxis": [
+    0.916238,
+    -0.400634
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 44.587,
+  "groundSamplePoints": [
+    [
+      -12.79,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0344.b0d658d063f542e2a5dc7a530d7abeb2"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        138884.35,
+        456939.97
+      ],
+      "axis": [
+        0.916238,
+        -0.400634
+      ],
+      "halfLength": 2.91,
+      "halfWidth": 1.06,
+      "height": 43.587,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.34,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        138873.69,
+        456944.63
+      ],
+      "axis": [
+        -0.916238,
+        0.400634
+      ],
+      "halfLength": 5.81,
+      "halfWidth": 0.84,
+      "height": 44.737,
+      "gradient": [
+        -0.0258,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0344.b0d658d063f542e2a5dc7a530d7abeb2"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0344.b0d658d063f542e2a5dc7a530d7abeb2",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/70156697",
+        "tags": {
+          "bridge": "yes",
+          "highway": "footway",
+          "layer": "1",
+          "lit": "no",
+          "surface": "concrete"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 126435,448710,141834,461610 --run utrecht-6 --parallel 4 --overschrijf 1",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 11.6,
+      "dekBreedte": 1.1,
+      "brugLengte": 11.6,
+      "water": [
+        -1.8,
+        3.2
+      ],
+      "portaalhoogte": 2.5,
+      "opritafstand": [
+        7,
+        20.9
+      ],
+      "oprithelling": 11.6,
+      "doorstekend": [
+        {
+          "gmlId": "G0344.fe85cffb79554767bea141ef9e43c406",
+          "klasse": "Terrain",
+          "oppervlak": 655.7,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.34,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        44.587,
+        null
+      ]
+    },
+    "waarschuwingen": [
+      "oprit + zonder PDOK-maaiveld",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-17"
+  }
+}

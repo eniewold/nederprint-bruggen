@@ -1,0 +1,134 @@
+{
+  "name": "Hengelbrug",
+  "file": "leiden-hengelbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    94604.63,
+    466588.83
+  ],
+  "xAxis": [
+    -0.270677,
+    -0.96267
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 42.444,
+  "groundSamplePoints": [
+    [
+      -19.25,
+      0
+    ],
+    [
+      19.25,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0546.17aaf0d3a93e4743acf7d4ee55991c2a",
+    "G0546.883d3e3eddd643009456194c222be571",
+    "G0546.dfd7b3bf34c04c2695559de0665c4bf2"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        94609.37,
+        466605.68
+      ],
+      "axis": [
+        0.270677,
+        0.96267
+      ],
+      "halfLength": 8.75,
+      "halfWidth": 2.19,
+      "height": 42.692,
+      "gradient": [
+        -0.02839,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        94599.89,
+        466571.98
+      ],
+      "axis": [
+        -0.270677,
+        -0.96267
+      ],
+      "halfLength": 8.75,
+      "halfWidth": 2.19,
+      "height": 42.791,
+      "gradient": [
+        -0.01714,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0546.883d3e3eddd643009456194c222be571"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0546.17aaf0d3a93e4743acf7d4ee55991c2a",
+          "type": "landhoofd"
+        },
+        {
+          "id": "G0546.883d3e3eddd643009456194c222be571",
+          "type": "dek"
+        },
+        {
+          "id": "G0546.dfd7b3bf34c04c2695559de0665c4bf2",
+          "type": "landhoofd"
+        }
+      ],
+      "osm": {
+        "id": "way/663601593",
+        "tags": {
+          "bridge": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "name": "Hengelbrug",
+          "surface": "wood",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 3
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 90100,459364,95921,466645 --run leiden-6 --parallel 4 --overschrijf 1",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 13,
+      "dekBreedte": 2.9,
+      "brugLengte": 17.5,
+      "water": [
+        -5.8,
+        4.2
+      ],
+      "portaalhoogte": 2.6,
+      "opritafstand": [
+        10.5,
+        10.5
+      ],
+      "oprithelling": 17.5,
+      "doorstekend": [],
+      "opritHoogtes": [
+        42.444,
+        42.641
+      ]
+    },
+    "waarschuwingen": [],
+    "gegenereerd": "2026-10-17"
+  }
+}

@@ -1,0 +1,171 @@
+{
+  "name": "Magdalenabrug",
+  "file": "utrecht-magdalenabrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    137121.23,
+    455409.56
+  ],
+  "xAxis": [
+    -0.924156,
+    -0.382016
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 46.438,
+  "groundSamplePoints": [
+    [
+      -13.24,
+      0
+    ],
+    [
+      13.24,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0344.030a32dcfc4f44aaace37a6d1aea7ba9",
+    "G0344.410aadbff65844cbb4958ad9abc82cd5",
+    "G0344.a3d5e4885ce7481c8d4376db6fae28de"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        137121.23,
+        455409.56
+      ],
+      "axis": [
+        -0.924156,
+        -0.382016
+      ],
+      "halfLength": 3.01,
+      "halfWidth": 6.6,
+      "height": 45.777,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.8,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        137132.35,
+        455414.15
+      ],
+      "axis": [
+        0.924156,
+        0.382016
+      ],
+      "halfLength": 6.02,
+      "halfWidth": 8.1,
+      "height": 46.758,
+      "gradient": [
+        -0.05313,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        137110.11,
+        455404.96
+      ],
+      "axis": [
+        -0.924156,
+        -0.382016
+      ],
+      "halfLength": 6.02,
+      "halfWidth": 8.1,
+      "height": 46.927,
+      "gradient": [
+        -0.02493,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0344.a3d5e4885ce7481c8d4376db6fae28de"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0344.030a32dcfc4f44aaace37a6d1aea7ba9",
+          "type": "landhoofd"
+        },
+        {
+          "id": "G0344.410aadbff65844cbb4958ad9abc82cd5",
+          "type": "landhoofd"
+        },
+        {
+          "id": "G0344.a3d5e4885ce7481c8d4376db6fae28de",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1078176226",
+        "tags": {
+          "bridge": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "lit": "yes",
+          "mofa": "no",
+          "name": "Magdalenabrug",
+          "surface": "paving_stones",
+          "wikidata": "Q2013174",
+          "wikimedia_commons": "Category:Magdalenabrug",
+          "wikipedia": "nl:Magdalenabrug (Utrecht)",
+          "bridge:structure": "humpback",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 3
+    },
+    "type": "bolbrug",
+    "doorvaarthoogte": null,
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 126435,448710,141834,461610 --run utrecht-6 --parallel 4 --overschrijf 1",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 12,
+      "dekBreedte": 12.2,
+      "brugLengte": 12,
+      "water": [
+        -2.5,
+        2
+      ],
+      "portaalhoogte": 11,
+      "opritafstand": [
+        7.2,
+        7.2
+      ],
+      "oprithelling": 12,
+      "bolling": 1.44,
+      "doorstekend": [
+        {
+          "gmlId": "G0344.79fde93c082a44d7944e9375f350a269",
+          "klasse": "Separation",
+          "oppervlak": 16.4,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.8,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        46.438,
+        46.777
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-17"
+  }
+}

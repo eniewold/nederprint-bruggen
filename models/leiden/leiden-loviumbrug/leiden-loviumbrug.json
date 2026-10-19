@@ -1,0 +1,142 @@
+{
+  "name": "Loviumbrug",
+  "file": "leiden-loviumbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    94568.07,
+    464049.65
+  ],
+  "xAxis": [
+    -0.105517,
+    0.994417
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 44.064,
+  "groundSamplePoints": [
+    [
+      -30.7,
+      0
+    ],
+    [
+      30.7,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0546.123ea6a74bf348de9e760985eb56c41d",
+    "G0546.a31871d5d8fe4dee80bbaa4ba18ee5c7",
+    "G0546.d07c15aabfbd46dc84affb604038bc93"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        94570.81,
+        464023.84
+      ],
+      "axis": [
+        0.105517,
+        -0.994417
+      ],
+      "halfLength": 12,
+      "halfWidth": 1.87,
+      "height": 44.299,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        94565.33,
+        464075.45
+      ],
+      "axis": [
+        -0.105517,
+        0.994417
+      ],
+      "halfLength": 12,
+      "halfWidth": 1.87,
+      "height": 44.256,
+      "gradient": [
+        -0.01603,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0546.123ea6a74bf348de9e760985eb56c41d"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0546.123ea6a74bf348de9e760985eb56c41d",
+          "type": "dek"
+        },
+        {
+          "id": "G0546.a31871d5d8fe4dee80bbaa4ba18ee5c7",
+          "type": "landhoofd"
+        },
+        {
+          "id": "G0546.d07c15aabfbd46dc84affb604038bc93",
+          "type": "landhoofd"
+        }
+      ],
+      "osm": {
+        "id": "way/772766033",
+        "tags": {
+          "bridge": "movable",
+          "highway": "footway",
+          "layer": "1",
+          "name": "Loviumbrug",
+          "surface": "asphalt",
+          "survey:date": "2020-12-12",
+          "traffic_sign": "none",
+          "bridge:structure": "humpback",
+          "man_made": "bridge",
+          "website": "https://www.singelpark.nl/project/bruggen/",
+          "wikipedia": "nl:Singelpark#Bruggen"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 3
+    },
+    "type": "basculebrug",
+    "doorvaarthoogte": null,
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 90100,459364,95921,466645 --run leiden-6 --parallel 4 --overschrijf 1",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 27.9,
+      "dekBreedte": 2.5,
+      "brugLengte": 27.9,
+      "water": [
+        -8.5,
+        10.5
+      ],
+      "portaalhoogte": 2.5,
+      "opritafstand": [
+        16.7,
+        16.7
+      ],
+      "oprithelling": 24,
+      "doorstekend": [],
+      "opritHoogtes": [
+        44.149,
+        44.064
+      ]
+    },
+    "waarschuwingen": [
+      "OSM zegt humpback, gekozen type basculebrug",
+      "bridge=movable zonder mechanisme: basculebrug is een gok",
+      "geen FIS-brug binnen 35 m"
+    ],
+    "gegenereerd": "2026-10-17"
+  }
+}

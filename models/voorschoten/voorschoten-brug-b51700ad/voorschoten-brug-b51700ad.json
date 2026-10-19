@@ -1,0 +1,154 @@
+{
+  "name": "voorschoten-brug-b51700ad",
+  "file": "voorschoten-brug-b51700ad.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    91063.55,
+    459626.59
+  ],
+  "xAxis": [
+    0.633791,
+    -0.773504
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 43.44,
+  "groundSamplePoints": [
+    [
+      -13.2,
+      0
+    ],
+    [
+      13.2,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0626.b51700ad46f4483cb923a3dcb58a42b4"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        91063.55,
+        459626.59
+      ],
+      "axis": [
+        0.633791,
+        -0.773504
+      ],
+      "halfLength": 3,
+      "halfWidth": 1.41,
+      "height": 42.571,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.13,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        91055.94,
+        459635.87
+      ],
+      "axis": [
+        -0.633791,
+        0.773504
+      ],
+      "halfLength": 6,
+      "halfWidth": 1.36,
+      "height": 43.655,
+      "gradient": [
+        -0.03593,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        91071.16,
+        459617.31
+      ],
+      "axis": [
+        0.633791,
+        -0.773504
+      ],
+      "halfLength": 6,
+      "halfWidth": 1.36,
+      "height": 43.721,
+      "gradient": [
+        -0.025,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0626.b51700ad46f4483cb923a3dcb58a42b4"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0626.b51700ad46f4483cb923a3dcb58a42b4",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/166634784",
+        "tags": {
+          "bridge": "movable",
+          "highway": "footway",
+          "layer": "1",
+          "traffic_sign": "NL:G7"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "basculebrug",
+    "doorvaarthoogte": null,
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 90100,459364,95921,466645 --run leiden-6 --parallel 4 --overschrijf 1",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 12,
+      "dekBreedte": 1.8,
+      "brugLengte": 12,
+      "water": [
+        -1,
+        5
+      ],
+      "portaalhoogte": 2.5,
+      "opritafstand": [
+        7.2,
+        7.2
+      ],
+      "oprithelling": 12,
+      "doorstekend": [
+        {
+          "gmlId": "W0616.e791580b1a4843f1bb8e2aaebe8dfb10",
+          "klasse": "Terrain",
+          "oppervlak": 13,
+          "onderDek": 0.06,
+          "bovenDekOnderkant": 0.13,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        43.44,
+        43.571
+      ]
+    },
+    "waarschuwingen": [
+      "bridge=movable zonder mechanisme: basculebrug is een gok",
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-17"
+  }
+}

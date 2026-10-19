@@ -1,0 +1,187 @@
+{
+  "name": "Lorentzhofbrug",
+  "file": "leiden-lorentzhofbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    93965.58,
+    462978.68
+  ],
+  "xAxis": [
+    -0.374613,
+    -0.927181
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 43.681,
+  "groundSamplePoints": [
+    [
+      -11.04,
+      0
+    ],
+    [
+      11,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0546.1283080b542f49cfbd55db2f281e3ebe",
+    "G0546.38e18d76dce2445993663635125f0f00",
+    "G0546.49fd010cd8a54141b78813644630762d"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        93965.58,
+        462978.68
+      ],
+      "axis": [
+        -0.374613,
+        -0.927181
+      ],
+      "halfLength": 2.4,
+      "halfWidth": 2.79,
+      "height": 42.703,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.69,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        93969.35,
+        462987.99
+      ],
+      "axis": [
+        0.374613,
+        0.927181
+      ],
+      "halfLength": 5.01,
+      "halfWidth": 3.44,
+      "height": 43.842,
+      "gradient": [
+        -0.03215,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        93961.84,
+        462969.41
+      ],
+      "axis": [
+        -0.374613,
+        -0.927181
+      ],
+      "halfLength": 5.01,
+      "halfWidth": 3.44,
+      "height": 43.853,
+      "gradient": [
+        -0.02994,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0546.1283080b542f49cfbd55db2f281e3ebe"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0546.1283080b542f49cfbd55db2f281e3ebe",
+          "type": "dek"
+        },
+        {
+          "id": "G0546.38e18d76dce2445993663635125f0f00",
+          "type": "landhoofd"
+        },
+        {
+          "id": "G0546.49fd010cd8a54141b78813644630762d",
+          "type": "landhoofd"
+        }
+      ],
+      "osm": {
+        "id": "way/665000183",
+        "tags": {
+          "bridge": "yes",
+          "highway": "footway",
+          "layer": "1",
+          "name": "Lorentzhofbrug",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 3
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 90100,459364,95921,466645 --run leiden-6 --parallel 4 --overschrijf 1",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 9.6,
+      "dekBreedte": 4.6,
+      "brugLengte": 10,
+      "water": [
+        -1.5,
+        2
+      ],
+      "portaalhoogte": 4.1,
+      "opritafstand": [
+        6,
+        6
+      ],
+      "oprithelling": 10,
+      "doorstekend": [
+        {
+          "gmlId": "G0546.77af8a5727a94679bc366fd984732d34",
+          "klasse": "Terrain",
+          "oppervlak": 57.7,
+          "onderDek": 0.03,
+          "bovenDekOnderkant": 0.69,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0546.3e2fdd80501f437e93a10b4fd3af6824",
+          "klasse": "Terrain",
+          "oppervlak": 102.8,
+          "onderDek": 0.03,
+          "bovenDekOnderkant": 0.57,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0546.0d3c3cb1be5942ab80d9c3a197870190",
+          "klasse": "Separation",
+          "oppervlak": 0.8,
+          "onderDek": 0.54,
+          "bovenDekOnderkant": 0.41,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0546.e479b296e70e49f8915152e491260566",
+          "klasse": "Separation",
+          "oppervlak": 0.7,
+          "onderDek": 0.61,
+          "bovenDekOnderkant": 0.41,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        43.681,
+        43.703
+      ]
+    },
+    "waarschuwingen": [
+      "4 PDOK-vorm(en) door het dek: 0 verborgen, 4 verlaagd"
+    ],
+    "gegenereerd": "2026-10-17"
+  }
+}

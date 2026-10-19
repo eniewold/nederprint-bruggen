@@ -1,0 +1,153 @@
+{
+  "name": "Besjeslaanbrug",
+  "file": "leiden-besjeslaanbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    95271.78,
+    462501.28
+  ],
+  "xAxis": [
+    0.845518,
+    0.533947
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 43.599,
+  "groundSamplePoints": [
+    [
+      -9.91,
+      0
+    ],
+    [
+      9.91,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0546.88d87e21c3f14091800ad57b1bd4db11"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        95271.78,
+        462501.28
+      ],
+      "axis": [
+        0.845518,
+        0.533947
+      ],
+      "halfLength": 2.25,
+      "halfWidth": 2.3,
+      "height": 42.755,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.11,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        95264.16,
+        462496.46
+      ],
+      "axis": [
+        -0.845518,
+        -0.533947
+      ],
+      "halfLength": 4.51,
+      "halfWidth": 2.69,
+      "height": 43.905,
+      "gradient": [
+        -0.03329,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        95279.4,
+        462506.09
+      ],
+      "axis": [
+        0.845518,
+        0.533947
+      ],
+      "halfLength": 4.51,
+      "halfWidth": 2.69,
+      "height": 43.827,
+      "gradient": [
+        -0.05064,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0546.88d87e21c3f14091800ad57b1bd4db11"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0546.88d87e21c3f14091800ad57b1bd4db11",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/658004195",
+        "tags": {
+          "bridge": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "name": "Besjeslaanbrug",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 90100,459364,95921,466645 --run leiden-6 --parallel 4 --overschrijf 1",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 9,
+      "dekBreedte": 3.6,
+      "brugLengte": 9,
+      "water": [
+        -2.5,
+        2
+      ],
+      "portaalhoogte": 3.2,
+      "opritafstand": [
+        5.4,
+        5.4
+      ],
+      "oprithelling": 9,
+      "doorstekend": [
+        {
+          "gmlId": "W0616.87d4448e72d24e05a253f921e3d9b17a",
+          "klasse": "Terrain",
+          "oppervlak": 67.1,
+          "onderDek": 0.01,
+          "bovenDekOnderkant": 0.11,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        43.755,
+        43.599
+      ]
+    },
+    "waarschuwingen": [
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-17"
+  }
+}

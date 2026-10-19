@@ -1,0 +1,180 @@
+{
+  "name": "Strobloembrug",
+  "file": "leiden-strobloembrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    95266.67,
+    465812.88
+  ],
+  "xAxis": [
+    0.604394,
+    -0.796686
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 42.639,
+  "groundSamplePoints": [
+    [
+      -16.54,
+      0
+    ],
+    [
+      16.54,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0546.a6596c2b95444a0585b29e4f180221b6",
+    "G0546.cfcb0a9dd14f479797a8b3b1781c4e4f",
+    "G0546.22bd03879bc8434697f9a31e41b6360e",
+    "G0546.2710c1f6ea3f409ebb171ae5a5244241",
+    "G0546.df85d483262d418986092dd6cdddefa9"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        95266.67,
+        465812.88
+      ],
+      "axis": [
+        0.604394,
+        -0.796686
+      ],
+      "halfLength": 3.76,
+      "halfWidth": 1.75,
+      "height": 41.672,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.21,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        95257.59,
+        465824.85
+      ],
+      "axis": [
+        -0.604394,
+        0.796686
+      ],
+      "halfLength": 7.52,
+      "halfWidth": 1.88,
+      "height": 42.806,
+      "gradient": [
+        -0.02215,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        95275.76,
+        465800.9
+      ],
+      "axis": [
+        0.604394,
+        -0.796686
+      ],
+      "halfLength": 7.52,
+      "halfWidth": 1.88,
+      "height": 42.822,
+      "gradient": [
+        -0.01996,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0546.22bd03879bc8434697f9a31e41b6360e"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0546.a6596c2b95444a0585b29e4f180221b6",
+          "type": "landhoofd"
+        },
+        {
+          "id": "G0546.cfcb0a9dd14f479797a8b3b1781c4e4f",
+          "type": "landhoofd"
+        },
+        {
+          "id": "G0546.22bd03879bc8434697f9a31e41b6360e",
+          "type": "dek"
+        },
+        {
+          "id": "G0546.2710c1f6ea3f409ebb171ae5a5244241",
+          "type": "pijler"
+        },
+        {
+          "id": "G0546.df85d483262d418986092dd6cdddefa9",
+          "type": "pijler"
+        }
+      ],
+      "osm": {
+        "id": "way/665737733",
+        "tags": {
+          "bridge": "yes",
+          "highway": "footway",
+          "layer": "1",
+          "man_made": "bridge",
+          "name": "Strobloembrug"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 5
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 90100,459364,95921,466645 --run leiden-6 --parallel 4 --overschrijf 1",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 15,
+      "dekBreedte": 2.5,
+      "brugLengte": 15,
+      "water": [
+        -3,
+        3.5
+      ],
+      "portaalhoogte": 2.5,
+      "opritafstand": [
+        9,
+        9
+      ],
+      "oprithelling": 15,
+      "doorstekend": [
+        {
+          "gmlId": "W0616.8247c7189f7641e8b505f7e82d6f7c20",
+          "klasse": "Terrain",
+          "oppervlak": 42.2,
+          "onderDek": 0.03,
+          "bovenDekOnderkant": 0.21,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "W0616.4abc63da8198460c826788d3f183602c",
+          "klasse": "Terrain",
+          "oppervlak": 55.2,
+          "onderDek": 0.01,
+          "bovenDekOnderkant": 0.14,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        42.639,
+        42.672
+      ]
+    },
+    "waarschuwingen": [
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-17"
+  }
+}

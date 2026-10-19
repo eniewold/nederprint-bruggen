@@ -1,0 +1,125 @@
+{
+  "name": "Magnoliabrug",
+  "file": "leiden-magnoliabrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    95150.83,
+    466458.05
+  ],
+  "xAxis": [
+    0.99788,
+    0.065086
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 42.065,
+  "groundSamplePoints": [
+    [
+      -8.61,
+      0
+    ],
+    [
+      8.61,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0546.b775ff41902a43138706c49b43808c04"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        95143.02,
+        466457.54
+      ],
+      "axis": [
+        -0.99788,
+        -0.065086
+      ],
+      "halfLength": 3.91,
+      "halfWidth": 1.34,
+      "height": 42.385,
+      "gradient": [
+        -0.08178,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        95158.64,
+        466458.56
+      ],
+      "axis": [
+        0.99788,
+        0.065086
+      ],
+      "halfLength": 3.91,
+      "halfWidth": 1.34,
+      "height": 42.555,
+      "gradient": [
+        -0.03834,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0546.b775ff41902a43138706c49b43808c04"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0546.b775ff41902a43138706c49b43808c04",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/665002716",
+        "tags": {
+          "bridge": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "name": "Magnoliabrug",
+          "man_made": "bridge",
+          "bridge:structure": "beam"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 90100,459364,95921,466645 --run leiden-6 --parallel 4 --overschrijf 1",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 7.8,
+      "dekBreedte": 1.8,
+      "brugLengte": 7.8,
+      "water": [
+        -2.9,
+        2.6
+      ],
+      "portaalhoogte": 2.5,
+      "opritafstand": [
+        4.7,
+        4.7
+      ],
+      "oprithelling": 7.8,
+      "doorstekend": [],
+      "opritHoogtes": [
+        42.065,
+        42.405
+      ]
+    },
+    "waarschuwingen": [
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-17"
+  }
+}

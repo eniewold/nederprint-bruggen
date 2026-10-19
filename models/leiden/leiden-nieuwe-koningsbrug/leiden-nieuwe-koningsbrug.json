@@ -1,0 +1,130 @@
+{
+  "name": "Nieuwe Koningsbrug",
+  "file": "leiden-nieuwe-koningsbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    93991.3,
+    464574.53
+  ],
+  "xAxis": [
+    -0.296971,
+    0.954887
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 43.316,
+  "groundSamplePoints": [
+    [
+      -26.35,
+      0
+    ],
+    [
+      26.35,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0546.92ce486eaa04440d837c3dac4089782e"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        93998.42,
+        464551.65
+      ],
+      "axis": [
+        0.296971,
+        -0.954887
+      ],
+      "halfLength": 11.98,
+      "halfWidth": 2.22,
+      "height": 43.696,
+      "gradient": [
+        -0.0317,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        93984.19,
+        464597.4
+      ],
+      "axis": [
+        -0.296971,
+        0.954887
+      ],
+      "halfLength": 11.98,
+      "halfWidth": 2.22,
+      "height": 43.926,
+      "gradient": [
+        -0.01252,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0546.92ce486eaa04440d837c3dac4089782e"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0546.92ce486eaa04440d837c3dac4089782e",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/664400672",
+        "tags": {
+          "bridge": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "lit": "no",
+          "surface": "asphalt",
+          "width": "3",
+          "bridge:structure": "humpback",
+          "man_made": "bridge",
+          "name": "Nieuwe Koningsbrug"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "bolbrug",
+    "doorvaarthoogte": null,
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 90100,459364,95921,466645 --run leiden-6 --parallel 4 --overschrijf 1",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 24,
+      "dekBreedte": 3,
+      "brugLengte": 24,
+      "water": [
+        -6.5,
+        7
+      ],
+      "portaalhoogte": 2.7,
+      "opritafstand": [
+        14.4,
+        14.4
+      ],
+      "oprithelling": 24,
+      "bolling": 2.5,
+      "doorstekend": [],
+      "opritHoogtes": [
+        43.316,
+        43.776
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-17"
+  }
+}
