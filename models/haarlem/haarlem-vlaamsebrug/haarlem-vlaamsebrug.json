@@ -1,0 +1,161 @@
+{
+  "name": "Vlaamsebrug",
+  "file": "haarlem-vlaamsebrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    102399.2,
+    488305.73
+  ],
+  "xAxis": [
+    0.863651,
+    -0.50409
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 43.299,
+  "groundSamplePoints": [
+    [
+      -17,
+      0
+    ],
+    [
+      17,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0392.be134d46c885496d9f199ba479704b09"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        102399.2,
+        488305.73
+      ],
+      "axis": [
+        0.863651,
+        -0.50409
+      ],
+      "halfLength": 3.86,
+      "halfWidth": 9.13,
+      "height": 43.292,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.11,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        102385.85,
+        488313.52
+      ],
+      "axis": [
+        -0.863651,
+        0.50409
+      ],
+      "halfLength": 7.73,
+      "halfWidth": 10.63,
+      "height": 44.442,
+      "gradient": [
+        -0.01941,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        102412.55,
+        488297.94
+      ],
+      "axis": [
+        0.863651,
+        -0.50409
+      ],
+      "halfLength": 7.73,
+      "halfWidth": 10.63,
+      "height": 43.946,
+      "gradient": [
+        -0.08364,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0392.be134d46c885496d9f199ba479704b09"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0392.be134d46c885496d9f199ba479704b09",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/986755325",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "yes",
+          "highway": "tertiary",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "50",
+          "mofa": "use_sidepath",
+          "moped": "use_sidepath",
+          "name": "Vlaamsebrug",
+          "zone:traffic": "NL:urban",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,480000,120000,500000 --run nl-5_9 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 15.5,
+      "dekBreedte": 17.3,
+      "brugLengte": 15.5,
+      "water": [
+        -1.7,
+        5.8
+      ],
+      "portaalhoogte": 15.5,
+      "opritafstand": [
+        9.3,
+        9.3
+      ],
+      "oprithelling": 15.5,
+      "doorstekend": [
+        {
+          "gmlId": "W0616.99ea218cb5ac453fad9efab0245830d0",
+          "klasse": "Terrain",
+          "oppervlak": 308.8,
+          "onderDek": 0.22,
+          "bovenDekOnderkant": 0.11,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        44.292,
+        43.299
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

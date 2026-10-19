@@ -1,0 +1,142 @@
+{
+  "name": "Gravestenenbrug",
+  "file": "haarlem-gravestenenbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    104215.91,
+    488323.3
+  ],
+  "xAxis": [
+    0.92017,
+    0.391518
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 44.919,
+  "groundSamplePoints": [
+    [
+      -7.06,
+      0
+    ],
+    [
+      7.06,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0392.ff0d055dc1494468b49a6903b7910e4e"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        104210.29,
+        488320.91
+      ],
+      "axis": [
+        -0.92017,
+        -0.391518
+      ],
+      "halfLength": 3.06,
+      "halfWidth": 13.25,
+      "height": 45.245,
+      "gradient": [
+        -0.0491,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        104221.54,
+        488325.69
+      ],
+      "axis": [
+        0.92017,
+        0.391518
+      ],
+      "halfLength": 3.06,
+      "halfWidth": 13.25,
+      "height": 45.157,
+      "gradient": [
+        -0.07782,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0392.ff0d055dc1494468b49a6903b7910e4e"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0392.ff0d055dc1494468b49a6903b7910e4e",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/490988469",
+        "tags": {
+          "bridge": "yes",
+          "highway": "residential",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "30",
+          "maxweight:signed": "no",
+          "moped": "yes",
+          "name": "Wildemansbrug",
+          "source": "survey",
+          "surface": "asphalt",
+          "zone:traffic": "NL:urban",
+          "bridge:structure": "humpback",
+          "man_made": "bridge",
+          "bridge:movable": "bascule"
+        }
+      },
+      "fis": {
+        "id": 12589,
+        "naam": "Gravestenenbrug (Brug 5)",
+        "afstand": 31,
+        "beweegbaar": true,
+        "doorvaarthoogteGesloten": 2.55
+      },
+      "pdokBridgeVlakken": 1
+    },
+    "type": "basculebrug",
+    "doorvaarthoogte": 2.55,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,480000,120000,500000 --run nl-5_9 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 6.1,
+      "dekBreedte": 22.5,
+      "brugLengte": 6.1,
+      "water": [
+        -2.6,
+        2.9
+      ],
+      "portaalhoogte": 20.3,
+      "opritafstand": [
+        4,
+        4
+      ],
+      "oprithelling": 6.1,
+      "doorstekend": [],
+      "opritHoogtes": [
+        45.095,
+        44.919
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "OSM zegt humpback, gekozen type basculebrug",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

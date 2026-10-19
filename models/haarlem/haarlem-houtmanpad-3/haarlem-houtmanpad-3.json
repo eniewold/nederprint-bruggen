@@ -1,0 +1,165 @@
+{
+  "name": "Houtmanpad",
+  "file": "haarlem-houtmanpad-3.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    102260.9,
+    488835.23
+  ],
+  "xAxis": [
+    0.959459,
+    -0.281847
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 42.87,
+  "groundSamplePoints": [
+    [
+      -11.37,
+      0
+    ],
+    [
+      11.37,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0392.a2413ee701b545e6a2d3ef8305b4c5e9"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        102260.9,
+        488835.23
+      ],
+      "axis": [
+        0.959459,
+        -0.281847
+      ],
+      "halfLength": 2.58,
+      "halfWidth": 1.26,
+      "height": 41.941,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.67,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        102250.99,
+        488838.15
+      ],
+      "axis": [
+        -0.959459,
+        0.281847
+      ],
+      "halfLength": 5.17,
+      "halfWidth": 1.15,
+      "height": 43.091,
+      "gradient": [
+        -0.02904,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        102270.82,
+        488832.32
+      ],
+      "axis": [
+        0.959459,
+        -0.281847
+      ],
+      "halfLength": 5.17,
+      "halfWidth": 1.15,
+      "height": 43.056,
+      "gradient": [
+        -0.03589,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0392.a2413ee701b545e6a2d3ef8305b4c5e9"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0392.a2413ee701b545e6a2d3ef8305b4c5e9",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/518435356",
+        "tags": {
+          "bicycle": "dismount",
+          "bridge": "yes",
+          "bridge:name": "Dierenasielbrug",
+          "highway": "footway",
+          "layer": "1",
+          "lit": "yes",
+          "name": "Houtmanpad",
+          "surface": "wood"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,480000,120000,500000 --run nl-5_9 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 10.3,
+      "dekBreedte": 1.5,
+      "brugLengte": 10.3,
+      "water": [
+        -1.7,
+        2.3
+      ],
+      "portaalhoogte": 2.5,
+      "opritafstand": [
+        6.2,
+        6.2
+      ],
+      "oprithelling": 10.3,
+      "doorstekend": [
+        {
+          "gmlId": "W0616.aa03986060354258852fac0317a9fdcb",
+          "klasse": "Terrain",
+          "oppervlak": 2.6,
+          "onderDek": 0.1,
+          "bovenDekOnderkant": 0.67,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "W0616.e23b060921f448f0bc3f5364d2b1997e",
+          "klasse": "Terrain",
+          "oppervlak": 23.4,
+          "onderDek": 0.04,
+          "bovenDekOnderkant": 0.46,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        42.941,
+        42.87
+      ]
+    },
+    "waarschuwingen": [
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

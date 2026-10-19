@@ -1,0 +1,141 @@
+{
+  "name": "Kinderhuisbrug",
+  "file": "haarlem-kinderhuisbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    103524.4,
+    488891.48
+  ],
+  "xAxis": [
+    -0.148129,
+    -0.988968
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 44.509,
+  "groundSamplePoints": [
+    [
+      -6.66,
+      0
+    ],
+    [
+      6.66,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0392.1e6ce5f7ce26438588131bd4e7145710"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        103525.24,
+        488897.08
+      ],
+      "axis": [
+        0.148129,
+        0.988968
+      ],
+      "halfLength": 3,
+      "halfWidth": 9.53,
+      "height": 44.663,
+      "gradient": [
+        -0.05128,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        103523.56,
+        488885.89
+      ],
+      "axis": [
+        -0.148129,
+        -0.988968
+      ],
+      "halfLength": 3,
+      "halfWidth": 9.53,
+      "height": 44.667,
+      "gradient": [
+        -0.05,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0392.1e6ce5f7ce26438588131bd4e7145710"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0392.1e6ce5f7ce26438588131bd4e7145710",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/492207813",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "low_water_crossing",
+          "highway": "secondary",
+          "lanes": "2",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "50",
+          "maxweight:signed": "no",
+          "moped": "yes",
+          "name": "Kinderhuisbrug",
+          "operator": "Gemeente Haarlem",
+          "surface": "asphalt",
+          "zone:traffic": "NL:urban",
+          "bridge:ref": "BR-018",
+          "bridge:structure": "humpback",
+          "description": "Infobron bridge:ref : https://kaart.haarlem.nl/app/map/18",
+          "man_made": "bridge",
+          "seamark:bridge:clearance_height": "1.35",
+          "start_date": "1933"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "bolbrug",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,480000,120000,500000 --run nl-5_9 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 5.3,
+      "dekBreedte": 15.1,
+      "brugLengte": 5.3,
+      "water": [
+        -2.2,
+        2.3
+      ],
+      "portaalhoogte": 13.6,
+      "opritafstand": [
+        4,
+        4
+      ],
+      "oprithelling": 6,
+      "bolling": 0.64,
+      "doorstekend": [],
+      "opritHoogtes": [
+        44.509,
+        44.517
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}
