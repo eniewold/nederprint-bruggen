@@ -1,0 +1,164 @@
+{
+  "name": "soest-brug-504f32d3",
+  "file": "soest-brug-504f32d3.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    149101.45,
+    466457.21
+  ],
+  "xAxis": [
+    0.997341,
+    0.072872
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 45.075,
+  "groundSamplePoints": [
+    [
+      -40.65,
+      0
+    ],
+    [
+      20.72,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "L0004.0717428eaa6645628212858f48f9736b",
+    "L0004.493a093f056342c9adce340920bfec86",
+    "L0004.504f32d3c3ce4f09ae326d9901e82721"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        149101.45,
+        466457.21
+      ],
+      "axis": [
+        0.997341,
+        0.072872
+      ],
+      "halfLength": 2.98,
+      "halfWidth": 3.49,
+      "height": 44.526,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -5.72,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        149080.18,
+        466455.66
+      ],
+      "axis": [
+        -0.997341,
+        -0.072872
+      ],
+      "halfLength": 10.68,
+      "halfWidth": 4.48,
+      "height": 45.676,
+      "gradient": [
+        -0.01404,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        149122.8,
+        466458.77
+      ],
+      "axis": [
+        0.997341,
+        0.072872
+      ],
+      "halfLength": 10.68,
+      "halfWidth": 4.48,
+      "height": 45.45,
+      "gradient": [
+        -0.03517,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "L0004.504f32d3c3ce4f09ae326d9901e82721"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "L0004.0717428eaa6645628212858f48f9736b",
+          "type": "landhoofd"
+        },
+        {
+          "id": "L0004.493a093f056342c9adce340920bfec86",
+          "type": "landhoofd"
+        },
+        {
+          "id": "L0004.504f32d3c3ce4f09ae326d9901e82721",
+          "type": "dek"
+        }
+      ],
+      "osm": null,
+      "fis": null,
+      "pdokBridgeVlakken": 3
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,460000,160000,480000 --run nl-7_8 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 11.9,
+      "dekBreedte": 6,
+      "brugLengte": 21.4,
+      "water": null,
+      "portaalhoogte": 5.4,
+      "opritafstand": [
+        30,
+        10
+      ],
+      "spoorhoogteBron": "pdok",
+      "oprithelling": 21.4,
+      "doorstekend": [
+        {
+          "gmlId": "G0342.16dd02b8843a4758a7e63391fd2cfc04",
+          "klasse": "Road",
+          "oppervlak": 218.6,
+          "onderDek": 0.05,
+          "bovenDekOnderkant": 4.72,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0342.8ae2e87ecf8b49b2877b8fa6d1e4faf2",
+          "klasse": "Road",
+          "oppervlak": 4087.5,
+          "onderDek": 0.01,
+          "bovenDekOnderkant": 0.8,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        45.526,
+        45.075
+      ]
+    },
+    "waarschuwingen": [
+      "oprit -: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "oprit -: spoorterrein voorbij 150 m nog 3.3 m hoger (48.9 m); PDOK trekt het spoor hier ver naar beneden, controleer de dekhoogte of geef --opritafstand",
+      "oprit - pas op 30 m langs het spoor gemeten (PDOK-spoorterrein bij de brug lager)",
+      "oprit +: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

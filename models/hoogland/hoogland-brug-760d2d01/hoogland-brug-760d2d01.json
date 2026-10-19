@@ -1,0 +1,131 @@
+{
+  "name": "hoogland-brug-760d2d01",
+  "file": "hoogland-brug-760d2d01.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    149960.15,
+    467069.32
+  ],
+  "xAxis": [
+    0.510465,
+    0.859898
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 43.949,
+  "groundSamplePoints": [
+    [
+      -8.99,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0307.760d2d016bf74a279a13cf950bf96f5e"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        149960.15,
+        467069.32
+      ],
+      "axis": [
+        0.510465,
+        0.859898
+      ],
+      "halfLength": 2.04,
+      "halfWidth": 1.54,
+      "height": 42.949,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.71,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        149955.98,
+        467062.3
+      ],
+      "axis": [
+        -0.510465,
+        -0.859898
+      ],
+      "halfLength": 4.08,
+      "halfWidth": 1.56,
+      "height": 44.099,
+      "gradient": [
+        -0.03673,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0307.760d2d016bf74a279a13cf950bf96f5e"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0307.760d2d016bf74a279a13cf950bf96f5e",
+          "type": "dek"
+        }
+      ],
+      "osm": null,
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,460000,160000,480000 --run nl-7_8 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 8.2,
+      "dekBreedte": 2.1,
+      "brugLengte": 8.2,
+      "water": [
+        -1.1,
+        1.4
+      ],
+      "portaalhoogte": 2.5,
+      "opritafstand": [
+        4.9,
+        14.7
+      ],
+      "oprithelling": 8.2,
+      "doorstekend": [
+        {
+          "gmlId": "G0307.d2d383b013fe41248c2a49992ec4975e",
+          "klasse": "Terrain",
+          "oppervlak": 1161.7,
+          "onderDek": 0.01,
+          "bovenDekOnderkant": 0.71,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0307.2d942e8eb0e840f98320e02ecb6b9dea",
+          "klasse": "Terrain",
+          "oppervlak": 1231.1,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.56,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        43.949,
+        null
+      ]
+    },
+    "waarschuwingen": [
+      "oprit + zonder PDOK-maaiveld",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}
