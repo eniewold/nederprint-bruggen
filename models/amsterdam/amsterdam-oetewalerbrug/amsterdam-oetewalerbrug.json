@@ -1,0 +1,211 @@
+{
+  "name": "Oetewalerbrug",
+  "file": "amsterdam-oetewalerbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    123731.5,
+    485369.39
+  ],
+  "xAxis": [
+    0.41534,
+    -0.909666
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 43.58,
+  "groundSamplePoints": [
+    [
+      -17.38,
+      0
+    ],
+    [
+      17.28,
+      3.88
+    ]
+  ],
+  "replacesTerrain": [
+    "G0363.522e5468fb2f411d84fa5522e43d05fb"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        123731.5,
+        485369.39
+      ],
+      "axis": [
+        0.41534,
+        -0.909666
+      ],
+      "halfLength": 3.69,
+      "halfWidth": 13.49,
+      "height": 42.818,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.99,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        123725.37,
+        485382.82
+      ],
+      "axis": [
+        -0.41534,
+        0.909666
+      ],
+      "halfLength": 7.38,
+      "halfWidth": 14.99,
+      "height": 43.968,
+      "gradient": [
+        -0.02032,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        123737.63,
+        485355.96
+      ],
+      "axis": [
+        0.41534,
+        -0.909666
+      ],
+      "halfLength": 7.38,
+      "halfWidth": 14.99,
+      "height": 43.849,
+      "gradient": [
+        -0.03643,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0363.522e5468fb2f411d84fa5522e43d05fb"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0363.522e5468fb2f411d84fa5522e43d05fb",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/458362020",
+        "tags": {
+          "bridge": "yes",
+          "electrified": "contact_line",
+          "frequency": "0",
+          "gauge": "1435",
+          "layer": "1",
+          "maxspeed": "50",
+          "oneway": "yes",
+          "railway": "tram",
+          "railway:atb": "no",
+          "railway:etcs": "no",
+          "railway:lzb": "no",
+          "railway:pzb": "no",
+          "voltage": "600",
+          "bridge:structure": "beam",
+          "man_made": "bridge",
+          "name": "Oetewalerbrug",
+          "ref": "189",
+          "wikidata": "Q2331684",
+          "wikimedia_commons": "Category:Brug 189, Oetewalerbrug",
+          "wikipedia": "nl:Oetewalerbrug"
+        }
+      },
+      "fis": {
+        "id": 42528098,
+        "naam": "Oetewalerbrug (Brug 189)",
+        "afstand": 7,
+        "beweegbaar": false,
+        "doorvaarthoogteGesloten": 0.75
+      },
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": 0.75,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 14.8,
+      "dekBreedte": 26,
+      "brugLengte": 14.8,
+      "water": [
+        -3.9,
+        4.1
+      ],
+      "portaalhoogte": 23.4,
+      "opritafstand": [
+        10,
+        10
+      ],
+      "spoorhoogteBron": "pdok",
+      "oprithelling": 14.8,
+      "doorstekend": [
+        {
+          "gmlId": "G0363.8f8346caf1e948ebb63887eca1228260",
+          "klasse": "Road",
+          "oppervlak": 113.8,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.99,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0363.c87154a495aa41a59572269698456960",
+          "klasse": "Road",
+          "oppervlak": 22.1,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.89,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0363.0bca75f16afe4e8cb873db87b6052cca",
+          "klasse": "Terrain",
+          "oppervlak": 29.8,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.87,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0363.2ba42f0efb044e9ab2a3855b5a3220dc",
+          "klasse": "Road",
+          "oppervlak": 66.6,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.86,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0363.937dd51b67dc47b495f49267dbc883db",
+          "klasse": "Road",
+          "oppervlak": 152,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.8,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        43.818,
+        43.58
+      ]
+    },
+    "waarschuwingen": [
+      "oprit -: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "oprit -: spoorterrein voorbij 150 m nog 2.1 m hoger (45.9 m); PDOK trekt het spoor hier ver naar beneden, controleer de dekhoogte of geef --opritafstand",
+      "oprit +: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "5 PDOK-vorm(en) door het dek: 0 verborgen, 5 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}
