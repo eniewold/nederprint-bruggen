@@ -1,0 +1,179 @@
+{
+  "name": "Krúsrak",
+  "file": "sneek-krusrak.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    173476.7,
+    559486.33
+  ],
+  "xAxis": [
+    -0.05282,
+    -0.998604
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 47.114,
+  "groundSamplePoints": [
+    [
+      -42.99,
+      0
+    ],
+    [
+      42.99,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G1900.f2b2a8735f124ccdbdfb033dc867ce80"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        173476.7,
+        559486.33
+      ],
+      "axis": [
+        -0.05282,
+        -0.998604
+      ],
+      "halfLength": 16.99,
+      "halfWidth": 7.82,
+      "height": 46.2,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -2.44,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        173478.55,
+        559521.28
+      ],
+      "axis": [
+        0.05282,
+        0.998604
+      ],
+      "halfLength": 12,
+      "halfWidth": 9.32,
+      "height": 47.35,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        173474.85,
+        559451.39
+      ],
+      "axis": [
+        -0.05282,
+        -0.998604
+      ],
+      "halfLength": 12,
+      "halfWidth": 9.32,
+      "height": 47.307,
+      "gradient": [
+        -0.01608,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G1900.f2b2a8735f124ccdbdfb033dc867ce80"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G1900.f2b2a8735f124ccdbdfb033dc867ce80",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/632187781",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "yes",
+          "bridge:name": "Krúsrak",
+          "change:lanes:backward": "no",
+          "change:lanes:forward": "no",
+          "foot": "use_sidepath",
+          "highway": "tertiary",
+          "lanes": "2",
+          "lanes:backward": "1",
+          "lanes:forward": "1",
+          "layer": "1",
+          "maxheight": "default",
+          "maxspeed": "50",
+          "mofa": "use_sidepath",
+          "moped": "use_sidepath",
+          "name": "Krúsrak",
+          "surface": "asphalt",
+          "zone:traffic": "NL:urban",
+          "bridge:structure": "beam",
+          "man_made": "bridge",
+          "note": "Tijdelijke brug. Aannemelijk is dat de naam van de brug ook bij de vervangende en eventuele nieuwe brug hoort."
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,540000,180000,560000 --run nl-8_12 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 46,
+      "dekBreedte": 14.6,
+      "brugLengte": 46,
+      "water": [
+        -21.5,
+        -15.5
+      ],
+      "portaalhoogte": 13.2,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G1900.1aa51942f9044fb0a26917d782303e21",
+          "klasse": "Forest",
+          "oppervlak": 691.1,
+          "onderDek": 0.08,
+          "bovenDekOnderkant": 1.44,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G1900.43ce344a4d074023aeff11bbfad0c10c",
+          "klasse": "Terrain",
+          "oppervlak": 408.6,
+          "onderDek": 0.01,
+          "bovenDekOnderkant": 0.2,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        47.2,
+        47.114
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

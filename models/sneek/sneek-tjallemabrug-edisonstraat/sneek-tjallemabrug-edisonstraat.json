@@ -1,0 +1,132 @@
+{
+  "name": "Tjallemabrug Edisonstraat",
+  "file": "sneek-tjallemabrug-edisonstraat.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    175552.98,
+    559312.92
+  ],
+  "xAxis": [
+    -0.935913,
+    -0.352231
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 42.45,
+  "groundSamplePoints": [
+    [
+      -6.83,
+      0
+    ],
+    [
+      6.83,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G1900.6e3f91de38254e53b900b87fec40a30f"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        175558.43,
+        559314.98
+      ],
+      "axis": [
+        0.935913,
+        0.352231
+      ],
+      "halfLength": 3,
+      "halfWidth": 6.43,
+      "height": 42.653,
+      "gradient": [
+        -0.0675,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        175547.53,
+        559310.87
+      ],
+      "axis": [
+        -0.935913,
+        -0.352231
+      ],
+      "halfLength": 3,
+      "halfWidth": 6.43,
+      "height": 42.705,
+      "gradient": [
+        -0.05,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G1900.6e3f91de38254e53b900b87fec40a30f"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G1900.6e3f91de38254e53b900b87fec40a30f",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/95026751",
+        "tags": {
+          "bridge": "yes",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxspeed": "50",
+          "name": "Edisonstraat"
+        }
+      },
+      "fis": {
+        "id": 3393349,
+        "naam": "Tjallemabrug Edisonstraat",
+        "afstand": 1,
+        "beweegbaar": false,
+        "doorvaarthoogteGesloten": 1.2000000000000002
+      },
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": 1.2000000000000002,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,540000,180000,560000 --run nl-8_12 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 5.7,
+      "dekBreedte": 8.9,
+      "brugLengte": 5.7,
+      "water": [
+        -2.8,
+        2.7
+      ],
+      "portaalhoogte": 8,
+      "opritafstand": [
+        4,
+        4
+      ],
+      "oprithelling": 6,
+      "doorstekend": [],
+      "opritHoogtes": [
+        42.45,
+        42.555
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

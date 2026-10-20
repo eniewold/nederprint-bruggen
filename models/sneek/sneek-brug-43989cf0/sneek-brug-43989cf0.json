@@ -1,0 +1,165 @@
+{
+  "name": "Stadsrondweg-Zuid",
+  "file": "sneek-brug-43989cf0.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    174509.34,
+    559424.38
+  ],
+  "xAxis": [
+    -0.92461,
+    0.380916
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 47.003,
+  "groundSamplePoints": [
+    [
+      -39.15,
+      0
+    ],
+    [
+      39.15,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "L0002.43989cf01cca47118f5f6522640eb9ee",
+    "L0002.342d8d73cbb648ea928d3d3eb2dbe51c",
+    "L0002.ebb49f0d89b14e3993dc2c6a698d5c3e",
+    "G1900.e184b7ed29dc41a29098535f4005811f",
+    "L0002.0c89dc39d8284574a707d756c917027e"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        174538.14,
+        559412.52
+      ],
+      "axis": [
+        0.92461,
+        -0.380916
+      ],
+      "halfLength": 12,
+      "halfWidth": 13.31,
+      "height": 47.18,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        174480.54,
+        559436.25
+      ],
+      "axis": [
+        -0.92461,
+        0.380916
+      ],
+      "halfLength": 12,
+      "halfWidth": 13.31,
+      "height": 47.167,
+      "gradient": [
+        -0.01362,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "L0002.43989cf01cca47118f5f6522640eb9ee"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "L0002.43989cf01cca47118f5f6522640eb9ee",
+          "type": "dek"
+        },
+        {
+          "id": "L0002.342d8d73cbb648ea928d3d3eb2dbe51c",
+          "type": "onbekend"
+        },
+        {
+          "id": "L0002.ebb49f0d89b14e3993dc2c6a698d5c3e",
+          "type": "onbekend"
+        }
+      ],
+      "osm": {
+        "id": "way/884312641",
+        "tags": {
+          "bridge": "yes",
+          "carriageway_ref": "Re",
+          "highway": "trunk",
+          "int_ref": "E 22",
+          "lanes": "2",
+          "layer": "1",
+          "maxspeed": "80",
+          "maxspeed:type": "sign",
+          "motorroad": "yes",
+          "name": "Stadsrondweg-Zuid",
+          "oneway": "yes",
+          "operator": "Rijkswaterstaat",
+          "placement": "right_of:1",
+          "ref": "N7",
+          "surface": "asphalt",
+          "zone:traffic": "NL:rural",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 3
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,540000,180000,560000 --run nl-8_12 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 38.2,
+      "dekBreedte": 22.6,
+      "brugLengte": 38.3,
+      "water": null,
+      "portaalhoogte": 20.4,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G1900.e184b7ed29dc41a29098535f4005811f",
+          "klasse": "Terrain",
+          "oppervlak": 112.6,
+          "onderDek": 0.99,
+          "bovenDekOnderkant": 0.81,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "L0002.0c89dc39d8284574a707d756c917027e",
+          "klasse": "Terrain",
+          "oppervlak": 101.7,
+          "onderDek": 0.99,
+          "bovenDekOnderkant": 0.77,
+          "actie": "verbergen"
+        }
+      ],
+      "opritHoogtes": [
+        47.03,
+        47.003
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 2 verborgen, 0 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}
