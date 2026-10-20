@@ -1,0 +1,169 @@
+{
+  "name": "Meerweg",
+  "file": "haren-gn-brug-fd61a913.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    234896.49,
+    575896.53
+  ],
+  "xAxis": [
+    -0.944338,
+    -0.328976
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 41.044,
+  "groundSamplePoints": [
+    [
+      -31.54,
+      0
+    ],
+    [
+      31.54,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0014.fd61a913bf442c24e0546805ca8c8e88"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        234896.49,
+        575896.53
+      ],
+      "axis": [
+        -0.944338,
+        -0.328976
+      ],
+      "halfLength": 8.34,
+      "halfWidth": 6.79,
+      "height": 40.315,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.82,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        234921.36,
+        575905.19
+      ],
+      "axis": [
+        0.944338,
+        0.328976
+      ],
+      "halfLength": 12,
+      "halfWidth": 8.29,
+      "height": 41.465,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        234871.61,
+        575887.87
+      ],
+      "axis": [
+        -0.944338,
+        -0.328976
+      ],
+      "halfLength": 12,
+      "halfWidth": 8.29,
+      "height": 41.33,
+      "gradient": [
+        -0.02378,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0014.fd61a913bf442c24e0546805ca8c8e88"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0014.fd61a913bf442c24e0546805ca8c8e88",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1160681771",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "yes",
+          "foot": "use_sidepath",
+          "highway": "secondary",
+          "lanes": "2",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "50",
+          "mofa": "use_sidepath",
+          "name": "Meerweg",
+          "surface": "asphalt"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,560000,240000,580000 --run nl-11_13 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 28.7,
+      "dekBreedte": 12.6,
+      "brugLengte": 28.7,
+      "water": [
+        -5.3,
+        4.2
+      ],
+      "portaalhoogte": 11.3,
+      "opritafstand": [
+        17.2,
+        17.2
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "W0647.04d49a5437dc0633e0646805ca8c8e88",
+          "klasse": "Terrain",
+          "oppervlak": 3826.2,
+          "onderDek": 0.09,
+          "bovenDekOnderkant": 0.82,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "W0647.04d49a5437e10633e0646805ca8c8e88",
+          "klasse": "Terrain",
+          "oppervlak": 2335.1,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.65,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        41.315,
+        41.044
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}
