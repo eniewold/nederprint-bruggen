@@ -1,0 +1,145 @@
+{
+  "name": "Sint Jansbrug",
+  "file": "groningen-sint-jansbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    234125.69,
+    582128.72
+  ],
+  "xAxis": [
+    0.857611,
+    0.514299
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 42.987,
+  "groundSamplePoints": [
+    [
+      -10.7,
+      0
+    ],
+    [
+      10.7,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0014.404f925c45410015e053660013ac6945"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        234117.35,
+        582123.71
+      ],
+      "axis": [
+        -0.857611,
+        -0.514299
+      ],
+      "halfLength": 4.86,
+      "halfWidth": 8.24,
+      "height": 43.313,
+      "gradient": [
+        -0.03084,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        234134.03,
+        582133.72
+      ],
+      "axis": [
+        0.857611,
+        0.514299
+      ],
+      "halfLength": 4.86,
+      "halfWidth": 8.24,
+      "height": 43.225,
+      "gradient": [
+        -0.04887,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0014.404f925c45410015e053660013ac6945"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0014.404f925c45410015e053660013ac6945",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/813282685",
+        "tags": {
+          "bridge": "movable",
+          "bridge:movable": "bascule",
+          "highway": "unclassified",
+          "lanes": "2",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "30",
+          "maxweight:signed": "no",
+          "name": "Sint Jansbrug",
+          "sidewalk": "both",
+          "surface": "asphalt",
+          "wikidata": "Q25833766",
+          "zone:maxspeed": "NL:30",
+          "zone:traffic": "NL:urban",
+          "bridge:structure": "beam",
+          "man_made": "bridge",
+          "official_name": "St. Jansbrug",
+          "source:official_name": "BAG/BGT"
+        }
+      },
+      "fis": {
+        "id": 3311140,
+        "naam": "Sint Jansbrug Groningen",
+        "afstand": 1,
+        "beweegbaar": true,
+        "doorvaarthoogteGesloten": 1
+      },
+      "pdokBridgeVlakken": 1
+    },
+    "type": "basculebrug",
+    "doorvaarthoogte": 1,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,580000,240000,600000 --run nl-11_14 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 9.7,
+      "dekBreedte": 12.5,
+      "brugLengte": 9.7,
+      "water": [
+        -2.4,
+        4.6
+      ],
+      "portaalhoogte": 11.2,
+      "opritafstand": [
+        5.8,
+        5.8
+      ],
+      "oprithelling": 9.7,
+      "doorstekend": [],
+      "opritHoogtes": [
+        43.163,
+        42.987
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

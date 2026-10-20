@@ -1,0 +1,158 @@
+{
+  "name": "Trompbrug",
+  "file": "groningen-trompbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    234402.72,
+    581578.22
+  ],
+  "xAxis": [
+    0.677368,
+    -0.735644
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 43.846,
+  "groundSamplePoints": [
+    [
+      -37.46,
+      0
+    ],
+    [
+      37.46,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0014.8db5f70bdf344657e053660013ac189b",
+    "G0014.8db5f70bdf3a4657e053660013ac189b",
+    "G0014.404f925c6cf40015e053660013ac6945"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        234382.77,
+        581599.89
+      ],
+      "axis": [
+        -0.677368,
+        0.735644
+      ],
+      "halfLength": 12,
+      "halfWidth": 2.77,
+      "height": 44.437,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        234422.67,
+        581556.55
+      ],
+      "axis": [
+        0.677368,
+        -0.735644
+      ],
+      "halfLength": 12,
+      "halfWidth": 2.77,
+      "height": 44.217,
+      "gradient": [
+        -0.03086,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0014.404f925c6cf40015e053660013ac6945"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0014.8db5f70bdf344657e053660013ac189b",
+          "type": "pijler"
+        },
+        {
+          "id": "G0014.8db5f70bdf3a4657e053660013ac189b",
+          "type": "pijler"
+        },
+        {
+          "id": "G0014.404f925c6cf40015e053660013ac6945",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/833050210",
+        "tags": {
+          "bicycle": "yes",
+          "bridge": "movable",
+          "bridge:movable": "swing",
+          "highway": "footway",
+          "layer": "1",
+          "lit": "yes",
+          "mofa": "yes",
+          "moped": "no",
+          "name": "Trompbrug",
+          "name:etymology:wikidata": "Q470200",
+          "note": "onderbord 'Fietsen toegestaan'",
+          "segregated": "no",
+          "smoothness": "intermediate",
+          "surface": "wood",
+          "traffic_sign": "NL:G07",
+          "bridge:structure": "suspension",
+          "heritage": "2",
+          "heritage:operator": "rce",
+          "historic": "bridge",
+          "man_made": "bridge",
+          "ref:rce": "486425",
+          "source:name": "BAG/BGT"
+        }
+      },
+      "fis": {
+        "id": 35126,
+        "naam": "Trompbrug",
+        "afstand": 2,
+        "beweegbaar": true,
+        "doorvaarthoogteGesloten": 2.9499999999999997
+      },
+      "pdokBridgeVlakken": 3
+    },
+    "type": "draaibrug",
+    "doorvaarthoogte": 2.9499999999999997,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,580000,240000,600000 --run nl-11_14 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 34.9,
+      "dekBreedte": 3.7,
+      "brugLengte": 34.9,
+      "water": [
+        -16,
+        17
+      ],
+      "portaalhoogte": 3.3,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [],
+      "opritHoogtes": [
+        44.287,
+        43.846
+      ]
+    },
+    "waarschuwingen": [
+      "OSM zegt suspension, gekozen type draaibrug"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

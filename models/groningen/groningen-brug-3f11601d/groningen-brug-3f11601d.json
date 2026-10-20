@@ -1,0 +1,184 @@
+{
+  "name": "Beneluxweg",
+  "file": "groningen-brug-3f11601d.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    237239.17,
+    581876.86
+  ],
+  "xAxis": [
+    -0.981022,
+    0.193897
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 45.403,
+  "groundSamplePoints": [
+    [
+      -65.92,
+      0
+    ],
+    [
+      65.91,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "L0002.3f11601de78a4faa9fa9faaa72e3a8d2",
+    "L0002.f13a1ab618c040aaa5e22327a78b2ae8",
+    "L0002.49e2bea4ef2e4fdc90fa6d69cad254b2",
+    "L0002.fc573e6736bc4c2597209718cfc73dbc"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        237239.17,
+        581876.86
+      ],
+      "axis": [
+        -0.981022,
+        0.193897
+      ],
+      "halfLength": 39.86,
+      "halfWidth": 13.01,
+      "height": 44.675,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.72,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        237295.99,
+        581865.63
+      ],
+      "axis": [
+        0.981022,
+        -0.193897
+      ],
+      "halfLength": 12,
+      "halfWidth": 14.51,
+      "height": 45.689,
+      "gradient": [
+        -0.02382,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        237182.36,
+        581888.09
+      ],
+      "axis": [
+        -0.981022,
+        0.193897
+      ],
+      "halfLength": 12,
+      "halfWidth": 14.51,
+      "height": 45.825,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "L0002.3f11601de78a4faa9fa9faaa72e3a8d2"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "L0002.3f11601de78a4faa9fa9faaa72e3a8d2",
+          "type": "dek"
+        },
+        {
+          "id": "L0002.f13a1ab618c040aaa5e22327a78b2ae8",
+          "type": "onbekend"
+        },
+        {
+          "id": "L0002.49e2bea4ef2e4fdc90fa6d69cad254b2",
+          "type": "onbekend"
+        }
+      ],
+      "osm": {
+        "id": "way/142492276",
+        "tags": {
+          "bridge": "viaduct",
+          "carriageway_ref": "j",
+          "destination": "Eemshaven;Delfzijl",
+          "destination:ref": "N46",
+          "highway": "trunk_link",
+          "lanes": "2",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "70",
+          "motorroad": "yes",
+          "name": "Beneluxweg",
+          "name:etymology:wikidata": "Q13116",
+          "oneway": "yes",
+          "operator": "Rijkswaterstaat",
+          "ref": "N7",
+          "surface": "asphalt",
+          "wikidata": "Q104886548",
+          "zone:traffic": "NL:urban"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 3
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,580000,240000,600000 --run nl-11_14 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 91.7,
+      "dekBreedte": 25,
+      "brugLengte": 91.8,
+      "water": null,
+      "portaalhoogte": 22.5,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "L0002.7fbaa8f90b774bf38fdca77b7e73f0f0",
+          "klasse": "Terrain",
+          "oppervlak": 1547.9,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.72,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "L0002.fc573e6736bc4c2597209718cfc73dbc",
+          "klasse": "Terrain",
+          "oppervlak": 167.8,
+          "onderDek": 0.94,
+          "bovenDekOnderkant": 0.24,
+          "actie": "verbergen"
+        }
+      ],
+      "opritHoogtes": [
+        45.403,
+        45.675
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 1 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

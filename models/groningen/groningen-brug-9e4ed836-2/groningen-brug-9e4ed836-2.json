@@ -1,0 +1,164 @@
+{
+  "name": "Suikerbrug",
+  "file": "groningen-brug-9e4ed836-2.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    231762.21,
+    581159.04
+  ],
+  "xAxis": [
+    -0.368005,
+    0.929824
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 41.257,
+  "groundSamplePoints": [
+    [
+      -45.86,
+      0
+    ],
+    [
+      45.86,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0014.9e4ed8366c678ee5e053660013ac2a7c"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        231762.21,
+        581159.04
+      ],
+      "axis": [
+        -0.368005,
+        0.929824
+      ],
+      "halfLength": 19.86,
+      "halfWidth": 1.57,
+      "height": 40.471,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.5,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        231776.14,
+        581123.83
+      ],
+      "axis": [
+        0.368005,
+        -0.929824
+      ],
+      "halfLength": 12,
+      "halfWidth": 1.6,
+      "height": 41.621,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        231748.27,
+        581194.25
+      ],
+      "axis": [
+        -0.368005,
+        0.929824
+      ],
+      "halfLength": 12,
+      "halfWidth": 1.6,
+      "height": 41.514,
+      "gradient": [
+        -0.02139,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0014.9e4ed8366c678ee5e053660013ac2a7c"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0014.9e4ed8366c678ee5e053660013ac2a7c",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/454011187",
+        "tags": {
+          "bridge": "yes",
+          "highway": "footway",
+          "layer": "1",
+          "name": "Suikerbrug",
+          "surface": "metal",
+          "width": "2"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,580000,240000,600000 --run nl-11_14 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 51.7,
+      "dekBreedte": 2.1,
+      "brugLengte": 51.7,
+      "water": [
+        -15.4,
+        21.1
+      ],
+      "portaalhoogte": 2.5,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0014.9e4ed8366b9e8ee5e053660013ac2a7c",
+          "klasse": "Terrain",
+          "oppervlak": 64,
+          "onderDek": 0.14,
+          "bovenDekOnderkant": 0.5,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0014.9e4ed8366c288ee5e053660013ac2a7c",
+          "klasse": "Separation",
+          "oppervlak": 243.7,
+          "onderDek": 0.01,
+          "bovenDekOnderkant": 0.38,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        41.471,
+        41.257
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

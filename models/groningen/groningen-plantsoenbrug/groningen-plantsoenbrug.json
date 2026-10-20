@@ -1,0 +1,132 @@
+{
+  "name": "Plantsoenbrug",
+  "file": "groningen-plantsoenbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    233063.06,
+    582028.44
+  ],
+  "xAxis": [
+    -0.205929,
+    0.978567
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 43.685,
+  "groundSamplePoints": [
+    [
+      -11.65,
+      0
+    ],
+    [
+      11.65,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0014.404f9259e1490015e053660013ac6945"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        233065.24,
+        582018.08
+      ],
+      "axis": [
+        0.205929,
+        -0.978567
+      ],
+      "halfLength": 5.29,
+      "halfWidth": 8.27,
+      "height": 43.842,
+      "gradient": [
+        -0.02833,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        233060.88,
+        582038.8
+      ],
+      "axis": [
+        -0.205929,
+        0.978567
+      ],
+      "halfLength": 5.29,
+      "halfWidth": 8.27,
+      "height": 43.839,
+      "gradient": [
+        -0.029,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0014.404f9259e1490015e053660013ac6945"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0014.404f9259e1490015e053660013ac6945",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/692392417",
+        "tags": {
+          "bridge": "movable",
+          "bridge:structure": "beam",
+          "heritage": "2",
+          "heritage:operator": "rce",
+          "historic": "bridge",
+          "layer": "1",
+          "man_made": "bridge",
+          "name": "Plantsoenbrug",
+          "ref:rce": "486829",
+          "bridge:movable": "bascule"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "basculebrug",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,580000,240000,600000 --run nl-11_14 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 10.6,
+      "dekBreedte": 12.5,
+      "brugLengte": 10.6,
+      "water": [
+        -4.8,
+        4.7
+      ],
+      "portaalhoogte": 11.3,
+      "opritafstand": [
+        6.4,
+        6.4
+      ],
+      "oprithelling": 10.6,
+      "doorstekend": [],
+      "opritHoogtes": [
+        43.692,
+        43.685
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

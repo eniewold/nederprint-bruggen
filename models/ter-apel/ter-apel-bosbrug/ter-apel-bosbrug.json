@@ -1,0 +1,134 @@
+{
+  "name": "Bosbrug",
+  "file": "ter-apel-bosbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    269100.75,
+    543842.58
+  ],
+  "xAxis": [
+    0.009286,
+    0.999957
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 53.146,
+  "groundSamplePoints": [
+    [
+      -20.43,
+      0
+    ],
+    [
+      20.43,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0048.1b110083f9ea44c4853d1435d8258f62"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        269100.58,
+        543824.01
+      ],
+      "axis": [
+        -0.009286,
+        -0.999957
+      ],
+      "halfLength": 9.29,
+      "halfWidth": 3.55,
+      "height": 53.424,
+      "gradient": [
+        -0.01615,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        269100.92,
+        543861.16
+      ],
+      "axis": [
+        0.009286,
+        0.999957
+      ],
+      "halfLength": 9.29,
+      "halfWidth": 3.55,
+      "height": 53.36,
+      "gradient": [
+        -0.02303,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0048.1b110083f9ea44c4853d1435d8258f62"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0048.1b110083f9ea44c4853d1435d8258f62",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/882259637",
+        "tags": {
+          "bridge": "movable",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxspeed": "50",
+          "name": "Bosbrug",
+          "surface": "asphalt",
+          "man_made": "bridge"
+        }
+      },
+      "fis": {
+        "id": 8810,
+        "naam": "Bosbrug Agodorp",
+        "afstand": 2,
+        "beweegbaar": true,
+        "doorvaarthoogteGesloten": 1.4
+      },
+      "pdokBridgeVlakken": 1
+    },
+    "type": "basculebrug",
+    "doorvaarthoogte": 1.4,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 260000,540000,280000,560000 --run nl-13_12 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 18.6,
+      "dekBreedte": 4.7,
+      "brugLengte": 18.6,
+      "water": [
+        -9.3,
+        7.2
+      ],
+      "portaalhoogte": 4.3,
+      "opritafstand": [
+        11.1,
+        11.1
+      ],
+      "oprithelling": 18.6,
+      "doorstekend": [],
+      "opritHoogtes": [
+        53.274,
+        53.146
+      ]
+    },
+    "waarschuwingen": [
+      "bridge=movable zonder mechanisme: basculebrug is een gok",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

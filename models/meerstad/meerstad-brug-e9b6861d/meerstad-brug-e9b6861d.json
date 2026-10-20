@@ -1,0 +1,126 @@
+{
+  "name": "meerstad-brug-e9b6861d",
+  "file": "meerstad-brug-e9b6861d.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    239498.99,
+    582810.54
+  ],
+  "xAxis": [
+    0.707107,
+    0.707107
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 39.094,
+  "groundSamplePoints": [
+    [
+      -13.48,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0040.e9b6861deb25444399bf88d0d957dfab"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        239498.99,
+        582810.54
+      ],
+      "axis": [
+        0.707107,
+        0.707107
+      ],
+      "halfLength": 0.74,
+      "halfWidth": 7.62,
+      "height": 38.094,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.67,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        239495.83,
+        582807.38
+      ],
+      "axis": [
+        -0.707107,
+        -0.707107
+      ],
+      "halfLength": 3,
+      "halfWidth": 9.12,
+      "height": 39.244,
+      "gradient": [
+        -0.05,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0040.e9b6861deb25444399bf88d0d957dfab"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0040.e9b6861deb25444399bf88d0d957dfab",
+          "type": "dek"
+        }
+      ],
+      "osm": null,
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ophaalbrug",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,580000,240000,600000 --run nl-11_14 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 3,
+      "dekBreedte": 14.2,
+      "brugLengte": 3,
+      "water": [
+        -1.5,
+        1
+      ],
+      "portaalhoogte": 12.8,
+      "opritafstand": [
+        12,
+        12
+      ],
+      "oprithelling": 6,
+      "doorstekend": [
+        {
+          "gmlId": "G0040.7ae5575321fe45e7867b507c12c7e2e4",
+          "klasse": "Terrain",
+          "oppervlak": 631.6,
+          "onderDek": 0.01,
+          "bovenDekOnderkant": 0.67,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        39.094,
+        null
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen FIS-brug binnen 35 m",
+      "oprit - pas op 12.0 m gemeten",
+      "oprit + zonder PDOK-maaiveld",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

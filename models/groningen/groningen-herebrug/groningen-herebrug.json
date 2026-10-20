@@ -1,0 +1,131 @@
+{
+  "name": "Herebrug",
+  "file": "groningen-herebrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    234025.54,
+    581315.5
+  ],
+  "xAxis": [
+    0.423157,
+    -0.906057
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 43.342,
+  "groundSamplePoints": [
+    [
+      -11.17,
+      0
+    ],
+    [
+      11.17,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0014.404f925a92d20015e053660013ac6945"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        234021.24,
+        581324.7
+      ],
+      "axis": [
+        -0.423157,
+        0.906057
+      ],
+      "halfLength": 5.08,
+      "halfWidth": 13.13,
+      "height": 44.279,
+      "gradient": [
+        -0.02954,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        234029.84,
+        581306.29
+      ],
+      "axis": [
+        0.423157,
+        -0.906057
+      ],
+      "halfLength": 5.08,
+      "halfWidth": 13.13,
+      "height": 43.885,
+      "gradient": [
+        -0.10703,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0014.404f925a92d20015e053660013ac6945"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0014.404f925a92d20015e053660013ac6945",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/773754906",
+        "tags": {
+          "bridge": "yes",
+          "highway": "footway",
+          "layer": "1",
+          "lit": "yes",
+          "surface": "paving_stones",
+          "bridge:structure": "beam",
+          "man_made": "bridge",
+          "name": "Herebrug",
+          "bridge:movable": "bascule"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "basculebrug",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,580000,240000,600000 --run nl-11_14 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 10.2,
+      "dekBreedte": 22.3,
+      "brugLengte": 10.2,
+      "water": [
+        -4.6,
+        4.9
+      ],
+      "portaalhoogte": 20,
+      "opritafstand": [
+        6.1,
+        6.1
+      ],
+      "oprithelling": 10.2,
+      "doorstekend": [],
+      "opritHoogtes": [
+        44.129,
+        43.342
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

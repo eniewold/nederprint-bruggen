@@ -1,0 +1,167 @@
+{
+  "name": "Suikerbrug",
+  "file": "groningen-brug-9e4ed836.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    231746.99,
+    581148.99
+  ],
+  "xAxis": [
+    0.369894,
+    -0.929074
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 41.307,
+  "groundSamplePoints": [
+    [
+      -50.02,
+      0
+    ],
+    [
+      50.02,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0014.9e4ed8366c558ee5e053660013ac2a7c"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        231746.99,
+        581148.99
+      ],
+      "axis": [
+        0.369894,
+        -0.929074
+      ],
+      "halfLength": 24.02,
+      "halfWidth": 11.85,
+      "height": 40.67,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.45,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        231731.45,
+        581188.03
+      ],
+      "axis": [
+        -0.369894,
+        0.929074
+      ],
+      "halfLength": 12,
+      "halfWidth": 13.35,
+      "height": 41.638,
+      "gradient": [
+        -0.02764,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        231762.53,
+        581109.95
+      ],
+      "axis": [
+        0.369894,
+        -0.929074
+      ],
+      "halfLength": 12,
+      "halfWidth": 13.35,
+      "height": 41.82,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0014.9e4ed8366c558ee5e053660013ac2a7c"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0014.9e4ed8366c558ee5e053660013ac2a7c",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/473368941",
+        "tags": {
+          "bridge": "yes",
+          "description": "Geeft alleen toegang tot vm. Suikerunie fabrieksterrein, is vooralsnog geen doorgaande weg/pad",
+          "highway": "cycleway",
+          "layer": "1",
+          "name": "Suikerbrug",
+          "smoothness": "good",
+          "surface": "metal",
+          "traffic_sign": "none",
+          "width": "2"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,580000,240000,600000 --run nl-11_14 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 60,
+      "dekBreedte": 22.7,
+      "brugLengte": 60,
+      "water": [
+        -25,
+        11.5
+      ],
+      "portaalhoogte": 20.4,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0014.9e4ed8366c038ee5e053660013ac2a7c",
+          "klasse": "Terrain",
+          "oppervlak": 88.1,
+          "onderDek": 0.4,
+          "bovenDekOnderkant": 0.45,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0014.9e4ed8366c288ee5e053660013ac2a7c",
+          "klasse": "Separation",
+          "oppervlak": 259.4,
+          "onderDek": 0.01,
+          "bovenDekOnderkant": 0.18,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        41.307,
+        41.67
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

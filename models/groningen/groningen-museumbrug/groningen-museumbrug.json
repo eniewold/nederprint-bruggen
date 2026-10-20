@@ -1,0 +1,138 @@
+{
+  "name": "Museumbrug",
+  "file": "groningen-museumbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    233299.72,
+    581552.12
+  ],
+  "xAxis": [
+    -0.999719,
+    -0.02371
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 43.239,
+  "groundSamplePoints": [
+    [
+      -11.17,
+      0
+    ],
+    [
+      11.17,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0014.404f925a91130015e053660013ac6945"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        233309.87,
+        581552.36
+      ],
+      "axis": [
+        0.999719,
+        0.02371
+      ],
+      "halfLength": 5.08,
+      "halfWidth": 8.21,
+      "height": 43.441,
+      "gradient": [
+        -0.02955,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        233289.57,
+        581551.88
+      ],
+      "axis": [
+        -0.999719,
+        -0.02371
+      ],
+      "halfLength": 5.08,
+      "halfWidth": 8.21,
+      "height": 43.415,
+      "gradient": [
+        -0.03467,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0014.404f925a91130015e053660013ac6945"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0014.404f925a91130015e053660013ac6945",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/767951120",
+        "tags": {
+          "bridge": "movable",
+          "bridge:movable": "bascule",
+          "highway": "residential",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Museumbrug",
+          "sidewalk": "both",
+          "smoothness": "good",
+          "surface": "asphalt",
+          "zone:maxspeed": "NL:30",
+          "zone:traffic": "NL:urban",
+          "bridge:structure": "beam",
+          "man_made": "bridge",
+          "ref:bag": "0014300010785598",
+          "wikidata": "Q15879546",
+          "wikipedia": "nl:Museumbrug (Groningen)"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "basculebrug",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,580000,240000,600000 --run nl-11_14 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 10.2,
+      "dekBreedte": 12.4,
+      "brugLengte": 10.2,
+      "water": [
+        -4.6,
+        4.9
+      ],
+      "portaalhoogte": 11.2,
+      "opritafstand": [
+        6.1,
+        6.1
+      ],
+      "oprithelling": 10.2,
+      "doorstekend": [],
+      "opritHoogtes": [
+        43.291,
+        43.239
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

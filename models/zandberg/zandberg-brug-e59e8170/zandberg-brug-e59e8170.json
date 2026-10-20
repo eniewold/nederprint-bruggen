@@ -1,0 +1,174 @@
+{
+  "name": "A.G. Wildervanckweg",
+  "file": "zandberg-brug-e59e8170.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    265960.32,
+    549066.98
+  ],
+  "xAxis": [
+    0.183838,
+    -0.982957
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 54.498,
+  "groundSamplePoints": [
+    [
+      -30.79,
+      0
+    ],
+    [
+      30.79,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "P0020.e59e8170d536452798f44055e4a80d82",
+    "P0020.7df0070b5e054bd584681aaeb3ecc99c"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        265960.32,
+        549066.98
+      ],
+      "axis": [
+        0.183838,
+        -0.982957
+      ],
+      "halfLength": 8,
+      "halfWidth": 7.74,
+      "height": 53.883,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -2.48,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        265955.54,
+        549092.54
+      ],
+      "axis": [
+        -0.183838,
+        0.982957
+      ],
+      "halfLength": 12,
+      "halfWidth": 9.24,
+      "height": 55.033,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        265965.09,
+        549041.43
+      ],
+      "axis": [
+        0.183838,
+        -0.982957
+      ],
+      "halfLength": 12,
+      "halfWidth": 9.24,
+      "height": 54.84,
+      "gradient": [
+        -0.02856,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "P0020.e59e8170d536452798f44055e4a80d82"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "P0020.e59e8170d536452798f44055e4a80d82",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/6372610",
+        "tags": {
+          "bridge": "yes",
+          "highway": "trunk",
+          "lanes": "2",
+          "layer": "1",
+          "maxspeed": "100",
+          "motorroad": "yes",
+          "name": "A.G. Wildervanckweg",
+          "operator": "Provincie Groningen",
+          "ref": "N366",
+          "surface": "asphalt"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 260000,540000,280000,560000 --run nl-13_12 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 28,
+      "dekBreedte": 14.5,
+      "brugLengte": 28,
+      "water": null,
+      "portaalhoogte": 13,
+      "opritafstand": [
+        16.8,
+        16.8
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "P0020.6033b1f4305247c483792b7bb54c5365",
+          "klasse": "Terrain",
+          "oppervlak": 464.6,
+          "onderDek": 0,
+          "bovenDekOnderkant": 1.48,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "P0020.f6680a1d6a7b4ec79f0e8e864fc87307",
+          "klasse": "Road",
+          "oppervlak": 1450,
+          "onderDek": 0,
+          "bovenDekOnderkant": 1,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "P0020.7df0070b5e054bd584681aaeb3ecc99c",
+          "klasse": "Terrain",
+          "oppervlak": 46.8,
+          "onderDek": 0.94,
+          "bovenDekOnderkant": 0.58,
+          "actie": "verbergen"
+        }
+      ],
+      "opritHoogtes": [
+        54.883,
+        54.498
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "3 PDOK-vorm(en) door het dek: 1 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

@@ -1,0 +1,194 @@
+{
+  "name": "Spoorbrug Het Reitdiep",
+  "file": "groningen-spoorbrug-het-reitdiep.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    232151.22,
+    582211.53
+  ],
+  "xAxis": [
+    0.68058,
+    0.732674
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 43.227,
+  "groundSamplePoints": [
+    [
+      -16.4,
+      0
+    ],
+    [
+      16.4,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "L0004.04c81374ad2d42619fd8f42644ae26ed",
+    "L0004.0c76cfbc80fa4cfa934a118a8c629797",
+    "L0004.1dd71f9769e6421da8f7e338ed051cd5",
+    "L0004.9a10387627c54ad09a8623d6c31b65f6",
+    "L0004.cc11db11cef04bf893f2decff9b24c0e",
+    "L0004.086cb8801a544839820c2dbfa4c6e447"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        232151.22,
+        582211.53
+      ],
+      "axis": [
+        0.68058,
+        0.732674
+      ],
+      "halfLength": 10.4,
+      "halfWidth": 3.78,
+      "height": 41.949,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.48,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        232131.88,
+        582190.72
+      ],
+      "axis": [
+        -0.68058,
+        -0.732674
+      ],
+      "halfLength": 12,
+      "halfWidth": 4.92,
+      "height": 43.238,
+      "gradient": [
+        -0.0009,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        232170.55,
+        582232.34
+      ],
+      "axis": [
+        0.68058,
+        0.732674
+      ],
+      "halfLength": 12,
+      "halfWidth": 4.92,
+      "height": 43.249,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "L0004.04c81374ad2d42619fd8f42644ae26ed",
+      "L0004.1dd71f9769e6421da8f7e338ed051cd5",
+      "L0004.9a10387627c54ad09a8623d6c31b65f6"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "L0004.04c81374ad2d42619fd8f42644ae26ed",
+          "type": "dek"
+        },
+        {
+          "id": "L0004.0c76cfbc80fa4cfa934a118a8c629797",
+          "type": "pijler"
+        },
+        {
+          "id": "L0004.1dd71f9769e6421da8f7e338ed051cd5",
+          "type": "dek"
+        },
+        {
+          "id": "L0004.9a10387627c54ad09a8623d6c31b65f6",
+          "type": "dek"
+        },
+        {
+          "id": "L0004.cc11db11cef04bf893f2decff9b24c0e",
+          "type": "landhoofd"
+        },
+        {
+          "id": "L0004.086cb8801a544839820c2dbfa4c6e447",
+          "type": "landhoofd"
+        }
+      ],
+      "osm": {
+        "id": "way/795438900",
+        "tags": {
+          "bridge": "movable",
+          "bridge:movable": "swing",
+          "layer": "1",
+          "man_made": "bridge"
+        }
+      },
+      "fis": {
+        "id": 2810,
+        "naam": "Spoorbrug Het Reitdiep",
+        "afstand": 4,
+        "beweegbaar": true,
+        "doorvaarthoogteGesloten": 0.85
+      },
+      "pdokBridgeVlakken": 6
+    },
+    "type": "draaibrug",
+    "doorvaarthoogte": 0.85,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,580000,240000,600000 --run nl-11_14 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 32.8,
+      "dekBreedte": 6.6,
+      "brugLengte": 32.8,
+      "water": [
+        -12.4,
+        12.6
+      ],
+      "portaalhoogte": 5.9,
+      "opritafstand": [
+        0,
+        0
+      ],
+      "spoorhoogteBron": "prorail-pvs",
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "L0004.843ae1e8bd2b4c9a848bee5989b6dbdf",
+          "klasse": "Terrain",
+          "oppervlak": 63,
+          "onderDek": 0.51,
+          "bovenDekOnderkant": 0.48,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "L0004.1084e8b5ae50486b99cf80510fa98e27",
+          "klasse": "Separation",
+          "oppervlak": 9.3,
+          "onderDek": 0.56,
+          "bovenDekOnderkant": 0.41,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        43.227,
+        43.249
+      ]
+    },
+    "waarschuwingen": [
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}
