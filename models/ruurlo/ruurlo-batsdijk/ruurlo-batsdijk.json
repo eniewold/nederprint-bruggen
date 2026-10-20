@@ -1,0 +1,161 @@
+{
+  "name": "Batsdijk",
+  "file": "ruurlo-batsdijk.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    229972.73,
+    451023.99
+  ],
+  "xAxis": [
+    0.440185,
+    -0.897907
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 61.99,
+  "groundSamplePoints": [
+    [
+      -20.2,
+      0
+    ],
+    [
+      20.2,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "P0025.381035dcd3194a7cbd2bfbfae0f48146"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        229972.73,
+        451023.99
+      ],
+      "axis": [
+        0.440185,
+        -0.897907
+      ],
+      "halfLength": 4.59,
+      "halfWidth": 3.92,
+      "height": 61.082,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.31,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        229964.65,
+        451040.48
+      ],
+      "axis": [
+        -0.440185,
+        0.897907
+      ],
+      "halfLength": 9.18,
+      "halfWidth": 5.13,
+      "height": 62.232,
+      "gradient": [
+        -0.01634,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        229980.81,
+        451007.51
+      ],
+      "axis": [
+        0.440185,
+        -0.897907
+      ],
+      "halfLength": 9.18,
+      "halfWidth": 5.13,
+      "height": 62.186,
+      "gradient": [
+        -0.02131,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "P0025.381035dcd3194a7cbd2bfbfae0f48146"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "P0025.381035dcd3194a7cbd2bfbfae0f48146",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/6795564",
+        "tags": {
+          "bridge": "yes",
+          "bridge:name": "Mauribaanbrug",
+          "cycleway": "shared_lane",
+          "highway": "secondary",
+          "lanes": "1",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Batsdijk",
+          "operator": "Provincie Gelderland",
+          "ref": "N312",
+          "source:maxspeed": "sign",
+          "surface": "asphalt"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,440000,240000,460000 --run nl-11_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 18.4,
+      "dekBreedte": 6.8,
+      "brugLengte": 18.4,
+      "water": [
+        -5.2,
+        5.3
+      ],
+      "portaalhoogte": 6.2,
+      "opritafstand": [
+        11,
+        11
+      ],
+      "oprithelling": 18.4,
+      "doorstekend": [
+        {
+          "gmlId": "P0025.fd1d6088e5e748c2e04014ac0e2861a4",
+          "klasse": "Road",
+          "oppervlak": 43,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.31,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        62.082,
+        61.99
+      ]
+    },
+    "waarschuwingen": [
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

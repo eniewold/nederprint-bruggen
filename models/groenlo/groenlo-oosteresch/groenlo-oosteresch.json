@@ -1,0 +1,185 @@
+{
+  "name": "Oosteresch",
+  "file": "groenlo-oosteresch.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    239961.28,
+    451600.89
+  ],
+  "xAxis": [
+    -0.996954,
+    -0.07799
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 64.734,
+  "groundSamplePoints": [
+    [
+      -25.3,
+      0
+    ],
+    [
+      25.3,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G1586.0433d64ccc2341ef90162ef85bfd41a2"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        239961.28,
+        451600.89
+      ],
+      "axis": [
+        -0.996954,
+        -0.07799
+      ],
+      "halfLength": 5.75,
+      "halfWidth": 2.57,
+      "height": 63.762,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -4.95,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        239984.21,
+        451602.69
+      ],
+      "axis": [
+        0.996954,
+        0.07799
+      ],
+      "halfLength": 11.5,
+      "halfWidth": 3.1,
+      "height": 64.898,
+      "gradient": [
+        -0.01427,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        239938.35,
+        451599.1
+      ],
+      "axis": [
+        -0.996954,
+        -0.07799
+      ],
+      "halfLength": 11.5,
+      "halfWidth": 3.1,
+      "height": 64.912,
+      "gradient": [
+        -0.01304,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G1586.0433d64ccc2341ef90162ef85bfd41a2"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G1586.0433d64ccc2341ef90162ef85bfd41a2",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/665797870",
+        "tags": {
+          "bridge": "yes",
+          "carriageway_ref": "Li",
+          "hazard": "animal_crossing",
+          "hazard:animal": "wild_animal",
+          "highway": "trunk",
+          "highway_authority_ref": "Rijksweg 18",
+          "highway_authority_ref:-2024-05": "Rijksweg 15",
+          "lanes": "1",
+          "layer": "1",
+          "maxspeed": "100",
+          "maxweight:signed": "no",
+          "motorroad": "yes",
+          "name": "Twenteroute",
+          "oneway": "yes",
+          "operator": "Rijkswaterstaat",
+          "ref": "N18",
+          "surface": "asphalt",
+          "zone:traffic": "NL:rural",
+          "bridge:name": "Oosteresch",
+          "bridge:structure": "beam",
+          "man_made": "bridge",
+          "start_date": "2018"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,440000,240000,460000 --run nl-11_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 23,
+      "dekBreedte": 4.1,
+      "brugLengte": 23,
+      "water": null,
+      "portaalhoogte": 3.7,
+      "opritafstand": [
+        13.8,
+        13.8
+      ],
+      "oprithelling": 23,
+      "doorstekend": [
+        {
+          "gmlId": "G1586.8e6c59a9bb83478981424c2089e28de8",
+          "klasse": "Terrain",
+          "oppervlak": 569.7,
+          "onderDek": 0.04,
+          "bovenDekOnderkant": 3.95,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G1586.5a3e8dbb389343d8afcba38b8033c76f",
+          "klasse": "Road",
+          "oppervlak": 1294.5,
+          "onderDek": 0.04,
+          "bovenDekOnderkant": 3.9,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G1586.357cc1b1d2ed4ad0862759c4c54bd308",
+          "klasse": "Road",
+          "oppervlak": 1295,
+          "onderDek": 0.04,
+          "bovenDekOnderkant": 3.88,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        64.734,
+        64.762
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "3 PDOK-vorm(en) door het dek: 0 verborgen, 3 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}
