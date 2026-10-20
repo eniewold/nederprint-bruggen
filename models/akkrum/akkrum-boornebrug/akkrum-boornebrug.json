@@ -1,0 +1,132 @@
+{
+  "name": "Boornebrug",
+  "file": "akkrum-boornebrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    186108.23,
+    562941.75
+  ],
+  "xAxis": [
+    0.526786,
+    0.849998
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 42.192,
+  "groundSamplePoints": [
+    [
+      -25.15,
+      0
+    ],
+    [
+      25.15,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0074.8abeacd5439b7576000000000a2220a0"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        186096.18,
+        562922.32
+      ],
+      "axis": [
+        -0.526786,
+        -0.849998
+      ],
+      "halfLength": 11.43,
+      "halfWidth": 6.7,
+      "height": 42.348,
+      "gradient": [
+        -0.01358,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        186120.28,
+        562961.19
+      ],
+      "axis": [
+        0.526786,
+        0.849998
+      ],
+      "halfLength": 11.43,
+      "halfWidth": 6.7,
+      "height": 42.353,
+      "gradient": [
+        -0.01312,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0074.8abeacd5439b7576000000000a2220a0"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0074.8abeacd5439b7576000000000a2220a0",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/6483464",
+        "tags": {
+          "bridge": "movable",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Kleasterwei"
+        }
+      },
+      "fis": {
+        "id": 54790,
+        "naam": "Boornebrug",
+        "afstand": 7,
+        "beweegbaar": true,
+        "doorvaarthoogteGesloten": 0.75
+      },
+      "pdokBridgeVlakken": 1
+    },
+    "type": "basculebrug",
+    "doorvaarthoogte": 0.75,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 180000,560000,200000,580000 --run nl-9_13 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 22.9,
+      "dekBreedte": 9.4,
+      "brugLengte": 22.9,
+      "water": [
+        -7.9,
+        8.1
+      ],
+      "portaalhoogte": 8.5,
+      "opritafstand": [
+        13.7,
+        13.7
+      ],
+      "oprithelling": 22.9,
+      "doorstekend": [],
+      "opritHoogtes": [
+        42.192,
+        42.203
+      ]
+    },
+    "waarschuwingen": [
+      "bridge=movable zonder mechanisme: basculebrug is een gok",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

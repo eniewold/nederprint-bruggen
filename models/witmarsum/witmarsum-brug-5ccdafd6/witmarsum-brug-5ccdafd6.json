@@ -1,0 +1,166 @@
+{
+  "name": "Rijpenderlaan",
+  "file": "witmarsum-brug-5ccdafd6.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    162841.72,
+    568919.92
+  ],
+  "xAxis": [
+    -0.966944,
+    0.25499
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 43.027,
+  "groundSamplePoints": [
+    [
+      -37.88,
+      0
+    ],
+    [
+      37.88,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G1900.5ccdafd6f7a84908a99b54de8652b786"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        162841.72,
+        568919.92
+      ],
+      "axis": [
+        -0.966944,
+        0.25499
+      ],
+      "halfLength": 11.88,
+      "halfWidth": 4.27,
+      "height": 42.357,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -2.42,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        162870.62,
+        568912.3
+      ],
+      "axis": [
+        0.966944,
+        -0.25499
+      ],
+      "halfLength": 12,
+      "halfWidth": 5.66,
+      "height": 43.342,
+      "gradient": [
+        -0.02626,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        162812.82,
+        568927.54
+      ],
+      "axis": [
+        -0.966944,
+        0.25499
+      ],
+      "halfLength": 12,
+      "halfWidth": 5.66,
+      "height": 43.507,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G1900.5ccdafd6f7a84908a99b54de8652b786"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G1900.5ccdafd6f7a84908a99b54de8652b786",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/6563372",
+        "tags": {
+          "bridge": "yes",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Rijpenderlaan",
+          "sidewalk": "no",
+          "smoothness": "good",
+          "surface": "asphalt"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,560000,180000,580000 --run nl-8_13 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 35.8,
+      "dekBreedte": 7.5,
+      "brugLengte": 35.8,
+      "water": [
+        -8.9,
+        9.1
+      ],
+      "portaalhoogte": 6.8,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "W0653.11bb032e55cc496089770f7ae2c5cb49",
+          "klasse": "Terrain",
+          "oppervlak": 104.5,
+          "onderDek": 0.2,
+          "bovenDekOnderkant": 1.42,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G1900.3041cf9cdd664360b3c5ce95fe53e18a",
+          "klasse": "Terrain",
+          "oppervlak": 5130.1,
+          "onderDek": 0.01,
+          "bovenDekOnderkant": 1.3,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        43.027,
+        43.357
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

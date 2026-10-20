@@ -1,0 +1,183 @@
+{
+  "name": "Dillebrêge",
+  "file": "easterwierrum-dillebrege.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    178567.58,
+    568950.53
+  ],
+  "xAxis": [
+    -0.554713,
+    0.832042
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 43.654,
+  "groundSamplePoints": [
+    [
+      -27.52,
+      0
+    ],
+    [
+      27.52,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G1900.f7d0ced1039c41238e1b6312fbfa9814",
+    "G1900.eb79c3432ee54c70a33a560fe1e11804"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        178567.58,
+        568950.53
+      ],
+      "axis": [
+        -0.554713,
+        0.832042
+      ],
+      "halfLength": 6.51,
+      "halfWidth": 6.02,
+      "height": 42.728,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.99,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        178581.18,
+        568930.14
+      ],
+      "axis": [
+        0.554713,
+        -0.832042
+      ],
+      "halfLength": 12,
+      "halfWidth": 7.52,
+      "height": 43.841,
+      "gradient": [
+        -0.01562,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        178553.99,
+        568970.93
+      ],
+      "axis": [
+        -0.554713,
+        0.832042
+      ],
+      "halfLength": 12,
+      "halfWidth": 7.52,
+      "height": 43.878,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G1900.f7d0ced1039c41238e1b6312fbfa9814"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G1900.f7d0ced1039c41238e1b6312fbfa9814",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/732470114",
+        "tags": {
+          "bridge": "yes",
+          "highway": "secondary",
+          "lanes": "2",
+          "layer": "1",
+          "maxspeed": "80",
+          "name": "Dillebrêge",
+          "surface": "asphalt",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,560000,180000,580000 --run nl-8_13 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 25,
+      "dekBreedte": 11,
+      "brugLengte": 25,
+      "water": [
+        -5,
+        4
+      ],
+      "portaalhoogte": 9.9,
+      "opritafstand": [
+        15,
+        15
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G1900.d65d9b8e85084ae09c90928fe74af9fc",
+          "klasse": "Forest",
+          "oppervlak": 33.8,
+          "onderDek": 0.52,
+          "bovenDekOnderkant": 0.99,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G1900.eb79c3432ee54c70a33a560fe1e11804",
+          "klasse": "Terrain",
+          "oppervlak": 6.8,
+          "onderDek": 1,
+          "bovenDekOnderkant": 0.7,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "G1900.b2c200638185477eb62fd1eb47f16b7b",
+          "klasse": "Road",
+          "oppervlak": 364.2,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.7,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "P0021.52877b65af3a4bb685470fbf986ebe16",
+          "klasse": "Terrain",
+          "oppervlak": 457.4,
+          "onderDek": 0.09,
+          "bovenDekOnderkant": 0.34,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        43.654,
+        43.728
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "4 PDOK-vorm(en) door het dek: 1 verborgen, 3 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

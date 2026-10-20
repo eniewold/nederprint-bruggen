@@ -1,0 +1,183 @@
+{
+  "name": "Meineslootbrug",
+  "file": "akkrum-meineslootbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    184522.88,
+    562758.18
+  ],
+  "xAxis": [
+    0.999978,
+    -0.006593
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 42.533,
+  "groundSamplePoints": [
+    [
+      -38.66,
+      0
+    ],
+    [
+      39.14,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0074.8abeacd5439b757600000000a0867b35",
+    "G0074.8abeacd5439b757600000000a0867b44",
+    "G0074.8abeacd5439b757600000000a0867b62",
+    "G0074.8abeacd5439b7576000000000a22222c",
+    "G0074.8abeacd5439b757600000000a0867b53"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        184522.88,
+        562758.18
+      ],
+      "axis": [
+        0.999978,
+        -0.006593
+      ],
+      "halfLength": 7.41,
+      "halfWidth": 6.91,
+      "height": 41.573,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.16,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        184492.22,
+        562758.38
+      ],
+      "axis": [
+        -0.999978,
+        0.006593
+      ],
+      "halfLength": 12,
+      "halfWidth": 8.41,
+      "height": 42.723,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        184554.02,
+        562757.98
+      ],
+      "axis": [
+        0.999978,
+        -0.006593
+      ],
+      "halfLength": 12,
+      "halfWidth": 8.41,
+      "height": 42.703,
+      "gradient": [
+        -0.01414,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0074.8abeacd5439b7576000000000a22222c"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0074.8abeacd5439b757600000000a0867b35",
+          "type": "landhoofd"
+        },
+        {
+          "id": "G0074.8abeacd5439b757600000000a0867b44",
+          "type": "landhoofd"
+        },
+        {
+          "id": "G0074.8abeacd5439b757600000000a0867b62",
+          "type": "landhoofd"
+        },
+        {
+          "id": "G0074.8abeacd5439b7576000000000a22222c",
+          "type": "dek"
+        },
+        {
+          "id": "G0074.8abeacd5439b757600000000a0867b53",
+          "type": "landhoofd"
+        }
+      ],
+      "osm": {
+        "id": "way/804456525",
+        "tags": {
+          "bridge": "movable",
+          "bridge:movable": "bascule",
+          "highway": "secondary",
+          "lanes": "2",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Ljouwerterdyk",
+          "surface": "asphalt",
+          "man_made": "bridge"
+        }
+      },
+      "fis": {
+        "id": 47503,
+        "naam": "Meineslootbrug",
+        "afstand": 3,
+        "beweegbaar": true,
+        "doorvaarthoogteGesloten": 1.13
+      },
+      "pdokBridgeVlakken": 5
+    },
+    "type": "basculebrug",
+    "doorvaarthoogte": 1.13,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 180000,560000,200000,580000 --run nl-9_13 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 26.8,
+      "dekBreedte": 12.8,
+      "brugLengte": 37.8,
+      "water": [
+        -13.2,
+        13.3
+      ],
+      "portaalhoogte": 11.5,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0074.8abeacd5439b757600000000a0831eaa",
+          "klasse": "Terrain",
+          "oppervlak": 13.6,
+          "onderDek": 0.08,
+          "bovenDekOnderkant": 0.16,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        42.573,
+        42.533
+      ]
+    },
+    "waarschuwingen": [
+      "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

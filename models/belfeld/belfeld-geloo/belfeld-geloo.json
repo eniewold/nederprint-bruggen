@@ -1,0 +1,177 @@
+{
+  "name": "Geloo",
+  "file": "belfeld-geloo.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    207158.36,
+    370036.46
+  ],
+  "xAxis": [
+    0.880806,
+    -0.473477
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 74.145,
+  "groundSamplePoints": [
+    [
+      -52.51,
+      0
+    ],
+    [
+      52.51,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0983.5ac4ce9204b843f1ba658a06eec09b4e",
+    "L0002.1b83fcfe3741408c9240e5638c67af79",
+    "L0002.3c419e65bca242abb5fc9b581c5d6be4",
+    "L0002.1dc62628e0e04ce588d7fdefc69e153d"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        207158.36,
+        370036.46
+      ],
+      "axis": [
+        0.880806,
+        -0.473477
+      ],
+      "halfLength": 26.51,
+      "halfWidth": 11.78,
+      "height": 73.159,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.93,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        207119.15,
+        370057.54
+      ],
+      "axis": [
+        -0.880806,
+        0.473477
+      ],
+      "halfLength": 12,
+      "halfWidth": 13.28,
+      "height": 74.302,
+      "gradient": [
+        -0.01309,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        207197.56,
+        370015.39
+      ],
+      "axis": [
+        0.880806,
+        -0.473477
+      ],
+      "halfLength": 12,
+      "halfWidth": 13.28,
+      "height": 74.309,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0983.5ac4ce9204b843f1ba658a06eec09b4e"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0983.5ac4ce9204b843f1ba658a06eec09b4e",
+          "type": "dek"
+        },
+        {
+          "id": "L0002.1b83fcfe3741408c9240e5638c67af79",
+          "type": "onbekend"
+        },
+        {
+          "id": "L0002.3c419e65bca242abb5fc9b581c5d6be4",
+          "type": "onbekend"
+        }
+      ],
+      "osm": {
+        "id": "way/678262955",
+        "tags": {
+          "bicycle": "no",
+          "bridge": "yes",
+          "foot": "no",
+          "highway": "secondary",
+          "lanes": "1",
+          "layer": "1",
+          "maxspeed": "80",
+          "name": "Geloo",
+          "oneway": "yes",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 3
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 200000,360000,220000,380000 --run nl-10_3 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 65,
+      "dekBreedte": 22.6,
+      "brugLengte": 65,
+      "water": null,
+      "portaalhoogte": 20.3,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "L0002.b6e1bc2121214385bd78d9cd923c7d8e",
+          "klasse": "Terrain",
+          "oppervlak": 24478.8,
+          "onderDek": 0.01,
+          "bovenDekOnderkant": 0.93,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "L0002.1dc62628e0e04ce588d7fdefc69e153d",
+          "klasse": "Terrain",
+          "oppervlak": 211.2,
+          "onderDek": 0.79,
+          "bovenDekOnderkant": 0.4,
+          "actie": "verbergen"
+        }
+      ],
+      "opritHoogtes": [
+        74.145,
+        74.159
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 1 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

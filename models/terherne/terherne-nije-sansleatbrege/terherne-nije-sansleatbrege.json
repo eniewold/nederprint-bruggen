@@ -1,0 +1,156 @@
+{
+  "name": "Nije Sansleatbrege",
+  "file": "terherne-nije-sansleatbrege.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    181454.52,
+    561944.73
+  ],
+  "xAxis": [
+    0.415996,
+    0.909366
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 44.094,
+  "groundSamplePoints": [
+    [
+      -47.57,
+      0
+    ],
+    [
+      47.57,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G1940.cc054b6ea17341dcbd74cd592a3c94ff",
+    "P0021.706227fafc0545dbb56d5d7517f01602",
+    "P0021.9dbd062b83be4ab487f68d934c10b049"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        181438.06,
+        561908.74
+      ],
+      "axis": [
+        -0.415996,
+        -0.909366
+      ],
+      "halfLength": 12,
+      "halfWidth": 9.85,
+      "height": 44.387,
+      "gradient": [
+        -0.02443,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        181470.98,
+        561980.71
+      ],
+      "axis": [
+        0.415996,
+        0.909366
+      ],
+      "halfLength": 12,
+      "halfWidth": 9.85,
+      "height": 44.53,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G1940.cc054b6ea17341dcbd74cd592a3c94ff",
+      "P0021.706227fafc0545dbb56d5d7517f01602",
+      "P0021.9dbd062b83be4ab487f68d934c10b049"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G1940.cc054b6ea17341dcbd74cd592a3c94ff",
+          "type": "dek"
+        },
+        {
+          "id": "P0021.706227fafc0545dbb56d5d7517f01602",
+          "type": "dek"
+        },
+        {
+          "id": "P0021.9dbd062b83be4ab487f68d934c10b049",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1236148753",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "movable",
+          "foot": "use_sidepath",
+          "highway": "secondary",
+          "layer": "1",
+          "maxspeed": "60",
+          "mofa": "use_sidepath",
+          "moped": "use_sidepath",
+          "name": "Terhernsterdyk",
+          "source:maxspeed": "NL:zone60",
+          "zone:maxspeed": "NL:60",
+          "zone:traffic": "NL:rural",
+          "bridge:name": "Nije Sansleatbrege",
+          "contact:vhf": "80",
+          "man_made": "bridge",
+          "seamark:bridge:category": "bascule",
+          "seamark:source": "https://vaarweginformatie.nl/frp/main/#/geo/detail/BRIDGE/9064"
+        }
+      },
+      "fis": {
+        "id": 9064,
+        "naam": "Nije Sânsleatbrêge (Zandslootbrug)",
+        "afstand": 3,
+        "beweegbaar": true,
+        "doorvaarthoogteGesloten": 2.65
+      },
+      "pdokBridgeVlakken": 1
+    },
+    "type": "basculebrug",
+    "doorvaarthoogte": 2.65,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 180000,560000,200000,580000 --run nl-9_13 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 55.1,
+      "dekBreedte": 15.7,
+      "brugLengte": 55.1,
+      "water": [
+        -20.1,
+        20.4
+      ],
+      "portaalhoogte": 14.1,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [],
+      "opritHoogtes": [
+        44.094,
+        44.38
+      ]
+    },
+    "waarschuwingen": [
+      "bridge=movable zonder mechanisme: basculebrug is een gok",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

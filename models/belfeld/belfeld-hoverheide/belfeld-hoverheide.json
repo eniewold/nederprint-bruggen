@@ -1,0 +1,163 @@
+{
+  "name": "Hoverheide",
+  "file": "belfeld-hoverheide.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    205016.48,
+    367450.41
+  ],
+  "xAxis": [
+    -0.641394,
+    0.767211
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 75.355,
+  "groundSamplePoints": [
+    [
+      -49.06,
+      0
+    ],
+    [
+      49.06,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0983.26fb7e17eca74872b6462ac72042eca2",
+    "G0983.3de57f53ceeb4d179bc9ba6b51a98cf5"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        205016.48,
+        367450.41
+      ],
+      "axis": [
+        -0.641394,
+        0.767211
+      ],
+      "halfLength": 23.06,
+      "halfWidth": 4.69,
+      "height": 74.547,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.76,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        205042.82,
+        367418.91
+      ],
+      "axis": [
+        0.641394,
+        -0.767211
+      ],
+      "halfLength": 12,
+      "halfWidth": 6.19,
+      "height": 75.697,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        204990.15,
+        367481.91
+      ],
+      "axis": [
+        -0.641394,
+        0.767211
+      ],
+      "halfLength": 12,
+      "halfWidth": 6.19,
+      "height": 75.601,
+      "gradient": [
+        -0.0205,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0983.26fb7e17eca74872b6462ac72042eca2"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0983.26fb7e17eca74872b6462ac72042eca2",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/678261099",
+        "tags": {
+          "bridge": "yes",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Hoverheide",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 200000,360000,220000,380000 --run nl-10_3 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 58.1,
+      "dekBreedte": 8.4,
+      "brugLengte": 58.1,
+      "water": null,
+      "portaalhoogte": 7.5,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0983.3de57f53ceeb4d179bc9ba6b51a98cf5",
+          "klasse": "Forest",
+          "oppervlak": 83.2,
+          "onderDek": 0.89,
+          "bovenDekOnderkant": 1.11,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "G0983.c9226ffecea24933a3efc29d66603021",
+          "klasse": "Forest",
+          "oppervlak": 6724.3,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.76,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        75.547,
+        75.355
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 1 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}
