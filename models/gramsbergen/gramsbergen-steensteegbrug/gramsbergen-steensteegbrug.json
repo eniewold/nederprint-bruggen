@@ -1,0 +1,140 @@
+{
+  "name": "Steensteegbrug",
+  "file": "gramsbergen-steensteegbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    242449.35,
+    514506.49
+  ],
+  "xAxis": [
+    -0.887545,
+    0.46072
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 52.831,
+  "groundSamplePoints": [
+    [
+      -10.45,
+      0
+    ],
+    [
+      10.45,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "P0023.f6f027074cba4edbb78c35d684f66fd7"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        242457.78,
+        514502.11
+      ],
+      "axis": [
+        0.887545,
+        -0.46072
+      ],
+      "halfLength": 4.75,
+      "halfWidth": 7.58,
+      "height": 53.008,
+      "gradient": [
+        -0.03732,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        242440.92,
+        514510.86
+      ],
+      "axis": [
+        -0.887545,
+        0.46072
+      ],
+      "halfLength": 4.75,
+      "halfWidth": 7.58,
+      "height": 53.035,
+      "gradient": [
+        -0.03159,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "P0023.f6f027074cba4edbb78c35d684f66fd7"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "P0023.f6f027074cba4edbb78c35d684f66fd7",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/860992240",
+        "tags": {
+          "bridge": "viaduct",
+          "bridge:movable": "drawbridge",
+          "bridge:name": "Steensteegbrug",
+          "highway": "tertiary",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "50",
+          "name": "Steensteegbrug",
+          "smoothness": "good",
+          "surface": "asphalt",
+          "zone:traffic": "NL:urban",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
+      "fis": {
+        "id": 26550,
+        "naam": "Steensteegbrug",
+        "afstand": 2,
+        "beweegbaar": true,
+        "doorvaarthoogteGesloten": 0.6
+      },
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ophaalbrug",
+    "doorvaarthoogte": 0.6,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,500000,260000,520000 --run nl-12_10 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 9.5,
+      "dekBreedte": 11.2,
+      "brugLengte": 9.5,
+      "water": [
+        -3.7,
+        3.8
+      ],
+      "portaalhoogte": 10,
+      "opritafstand": [
+        5.7,
+        5.7
+      ],
+      "oprithelling": 9.5,
+      "doorstekend": [],
+      "opritHoogtes": [
+        52.831,
+        52.885
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

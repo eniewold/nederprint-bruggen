@@ -1,0 +1,107 @@
+{
+  "name": "Pekelbrug",
+  "file": "radewijk-pekelbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    246361.49,
+    509089.83
+  ],
+  "xAxis": [
+    0.00851,
+    0.999964
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 54.288,
+  "groundSamplePoints": [
+    [
+      9.48,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0160.8abeacd54bdb7500047c42d81822531f"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        246361.56,
+        509098.45
+      ],
+      "axis": [
+        0.00851,
+        0.999964
+      ],
+      "halfLength": 4.31,
+      "halfWidth": 6.49,
+      "height": 54.438,
+      "gradient": [
+        -0.0348,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0160.8abeacd54bdb7500047c42d81822531f"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0160.8abeacd54bdb7500047c42d81822531f",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/551742365",
+        "tags": {
+          "bridge": "yes",
+          "bridge:name": "Pekelbrug",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Pekelbrug",
+          "man_made": "bridge",
+          "name:de": "Peckelbrücke"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,500000,260000,520000 --run nl-12_10 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 8.6,
+      "dekBreedte": 9,
+      "brugLengte": 8.6,
+      "water": [
+        -3.8,
+        4.2
+      ],
+      "portaalhoogte": 8.1,
+      "opritafstand": [
+        15.5,
+        5.2
+      ],
+      "oprithelling": 8.6,
+      "doorstekend": [],
+      "opritHoogtes": [
+        null,
+        54.288
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "oprit - zonder PDOK-maaiveld",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

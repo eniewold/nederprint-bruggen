@@ -1,0 +1,137 @@
+{
+  "name": "Hoogenwegbrug",
+  "file": "hoogenweg-hoogenwegbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    240212.27,
+    509835.58
+  ],
+  "xAxis": [
+    0.936775,
+    -0.349933
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 52.791,
+  "groundSamplePoints": [
+    [
+      -18.19,
+      0
+    ],
+    [
+      18.19,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "P0023.7320d43146c64850868b53ae28173d00",
+    "P0023.dc9fe29b2ea44364b97de1704f5030fe"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        240196.79,
+        509841.36
+      ],
+      "axis": [
+        -0.936775,
+        0.349933
+      ],
+      "halfLength": 8.27,
+      "halfWidth": 5.24,
+      "height": 53.024,
+      "gradient": [
+        -0.01815,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        240227.76,
+        509829.79
+      ],
+      "axis": [
+        0.936775,
+        -0.349933
+      ],
+      "halfLength": 8.27,
+      "halfWidth": 5.24,
+      "height": 52.983,
+      "gradient": [
+        -0.02318,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "P0023.dc9fe29b2ea44364b97de1704f5030fe"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "P0023.7320d43146c64850868b53ae28173d00",
+          "type": "pijler"
+        },
+        {
+          "id": "P0023.dc9fe29b2ea44364b97de1704f5030fe",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/860989692",
+        "tags": {
+          "bicycle": "yes",
+          "bridge": "movable",
+          "bridge:name": "Hoogenwegbrug",
+          "cycleway": "shared_lane",
+          "highway": "tertiary",
+          "lanes": "2",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Hoogenwegbrug",
+          "overtaking": "no",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 2
+    },
+    "type": "basculebrug",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,500000,260000,520000 --run nl-12_10 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 16.5,
+      "dekBreedte": 7,
+      "brugLengte": 16.5,
+      "water": [
+        -7.8,
+        8.2
+      ],
+      "portaalhoogte": 6.3,
+      "opritafstand": [
+        9.9,
+        9.9
+      ],
+      "oprithelling": 16.5,
+      "doorstekend": [],
+      "opritHoogtes": [
+        52.874,
+        52.791
+      ]
+    },
+    "waarschuwingen": [
+      "bridge=movable zonder mechanisme: basculebrug is een gok",
+      "geen FIS-brug binnen 35 m"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

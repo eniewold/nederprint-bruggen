@@ -1,0 +1,152 @@
+{
+  "name": "Lauensteinstraat",
+  "file": "schoonebeek-brug-f3ea98a6.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    255498.69,
+    519447.39
+  ],
+  "xAxis": [
+    -0.462742,
+    -0.886493
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 55.169,
+  "groundSamplePoints": [
+    [
+      -39.33,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "P0022.f3ea98a6de4947598335c61ede18b842",
+    "G0114.8ce9cbabc33976e7e05392ac720aa753"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        255498.69,
+        519447.39
+      ],
+      "axis": [
+        -0.462742,
+        -0.886493
+      ],
+      "halfLength": 13.33,
+      "halfWidth": 7.8,
+      "height": 54.169,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.58,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        255513.18,
+        519475.16
+      ],
+      "axis": [
+        0.462742,
+        0.886493
+      ],
+      "halfLength": 12,
+      "halfWidth": 9.3,
+      "height": 55.319,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "P0022.f3ea98a6de4947598335c61ede18b842"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "P0022.f3ea98a6de4947598335c61ede18b842",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/87820736",
+        "tags": {
+          "bridge": "yes",
+          "foot": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "mofa": "designated",
+          "moped": "designated",
+          "name": "Lauensteinstraat",
+          "oneway": "no",
+          "operator": "Niedersächsische Landesbehörde für Straßenbau und Verkehr",
+          "operator:addr:country": "DE",
+          "segregated": "no",
+          "surface": "concrete",
+          "traffic_sign": "NL:G12a",
+          "zone:traffic": "NL:rural",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,500000,260000,520000 --run nl-12_10 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 38.7,
+      "dekBreedte": 14.6,
+      "brugLengte": 38.7,
+      "water": [
+        -5.8,
+        6.7
+      ],
+      "portaalhoogte": 13.1,
+      "opritafstand": [
+        20,
+        60
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0114.8ce9cbabc33976e7e05392ac720aa753",
+          "klasse": "Terrain",
+          "oppervlak": 47.1,
+          "onderDek": 0.8,
+          "bovenDekOnderkant": 0.85,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "W0663.8abeacd54c6b7500047c42eab858b35b",
+          "klasse": "Terrain",
+          "oppervlak": 645.9,
+          "onderDek": 0.03,
+          "bovenDekOnderkant": 0.58,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        55.169,
+        null
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "oprit + zonder PDOK-maaiveld",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 1 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}
