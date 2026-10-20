@@ -1,0 +1,163 @@
+{
+  "name": "Waterstraat",
+  "file": "leende-brug-e3c3d935.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    166544.16,
+    372364.56
+  ],
+  "xAxis": [
+    0.713506,
+    -0.700649
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 68.292,
+  "groundSamplePoints": [
+    [
+      -16.58,
+      0
+    ],
+    [
+      16.58,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G1658.e3c3d9355eb7433faba5a0973e26feb7"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        166544.16,
+        372364.56
+      ],
+      "axis": [
+        0.713506,
+        -0.700649
+      ],
+      "halfLength": 3.77,
+      "halfWidth": 4.35,
+      "height": 67.322,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.45,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        166533.41,
+        372375.12
+      ],
+      "axis": [
+        -0.713506,
+        0.700649
+      ],
+      "halfLength": 7.53,
+      "halfWidth": 5.78,
+      "height": 68.472,
+      "gradient": [
+        -0.01991,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        166554.91,
+        372354
+      ],
+      "axis": [
+        0.713506,
+        -0.700649
+      ],
+      "halfLength": 7.53,
+      "halfWidth": 5.78,
+      "height": 68.457,
+      "gradient": [
+        -0.02189,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G1658.e3c3d9355eb7433faba5a0973e26feb7"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G1658.e3c3d9355eb7433faba5a0973e26feb7",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/7138432",
+        "tags": {
+          "bridge": "yes",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Waterstraat",
+          "surface": "asphalt"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,360000,180000,380000 --run nl-8_3 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 15.1,
+      "dekBreedte": 7.7,
+      "brugLengte": 15.1,
+      "water": [
+        -2.5,
+        2.5
+      ],
+      "portaalhoogte": 6.9,
+      "opritafstand": [
+        9,
+        9
+      ],
+      "oprithelling": 15.1,
+      "doorstekend": [
+        {
+          "gmlId": "W0539.7e324617673447b2ae8596d0c26af0ec",
+          "klasse": "Terrain",
+          "oppervlak": 33.1,
+          "onderDek": 0.22,
+          "bovenDekOnderkant": 0.45,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "W0539.469725fd13184e2b852220fe341cf40b",
+          "klasse": "Terrain",
+          "oppervlak": 28.9,
+          "onderDek": 0.15,
+          "bovenDekOnderkant": 0.13,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        68.322,
+        68.292
+      ]
+    },
+    "waarschuwingen": [
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}
