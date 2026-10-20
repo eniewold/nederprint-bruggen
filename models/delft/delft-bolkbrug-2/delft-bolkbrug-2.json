@@ -1,0 +1,138 @@
+{
+  "name": "Bolkbrug",
+  "file": "delft-bolkbrug-2.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    84113.36,
+    447231.25
+  ],
+  "xAxis": [
+    -0.296172,
+    0.955135
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 45.199,
+  "groundSamplePoints": [
+    [
+      -10.8,
+      0
+    ],
+    [
+      10.8,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0503.81f9e91a8de24aceb783ef99cc0996ff"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        84116.27,
+        447221.87
+      ],
+      "axis": [
+        0.296172,
+        -0.955135
+      ],
+      "halfLength": 4.91,
+      "halfWidth": 16.51,
+      "height": 45.529,
+      "gradient": [
+        -0.06729,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        84110.45,
+        447240.63
+      ],
+      "axis": [
+        -0.296172,
+        0.955135
+      ],
+      "halfLength": 4.91,
+      "halfWidth": 16.51,
+      "height": 45.71,
+      "gradient": [
+        -0.03056,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0503.81f9e91a8de24aceb783ef99cc0996ff"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0503.81f9e91a8de24aceb783ef99cc0996ff",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/335957937",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "yes",
+          "highway": "tertiary",
+          "lanes": "1",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "50",
+          "maxweight:signed": "no",
+          "name": "Bolkbrug",
+          "oneway": "yes",
+          "shoulder": "no",
+          "smoothness": "excellent",
+          "surface": "asphalt",
+          "zone:traffic": "NL:urban",
+          "bridge:structure": "humpback",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "bolbrug",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,440000,100000,460000 --run nl-4_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 9.8,
+      "dekBreedte": 29,
+      "brugLengte": 9.8,
+      "water": [
+        -2.4,
+        4.6
+      ],
+      "portaalhoogte": 26.1,
+      "opritafstand": [
+        5.9,
+        5.9
+      ],
+      "oprithelling": 9.8,
+      "bolling": 1.18,
+      "doorstekend": [],
+      "opritHoogtes": [
+        45.199,
+        45.56
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

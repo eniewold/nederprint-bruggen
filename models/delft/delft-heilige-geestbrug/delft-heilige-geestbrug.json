@@ -1,0 +1,143 @@
+{
+  "name": "Heilige Geestbrug",
+  "file": "delft-heilige-geestbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    84169.92,
+    447593.21
+  ],
+  "xAxis": [
+    0.90347,
+    0.428651
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 45.317,
+  "groundSamplePoints": [
+    [
+      -6.18,
+      0
+    ],
+    [
+      6.18,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0503.032e68f09dc349cce0532ee22091b28c"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        84165.24,
+        447590.99
+      ],
+      "axis": [
+        -0.90347,
+        -0.428651
+      ],
+      "halfLength": 3,
+      "halfWidth": 6.99,
+      "height": 45.566,
+      "gradient": [
+        -0.08323,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        84174.6,
+        447595.43
+      ],
+      "axis": [
+        0.90347,
+        0.428651
+      ],
+      "halfLength": 3,
+      "halfWidth": 6.99,
+      "height": 45.666,
+      "gradient": [
+        -0.05,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0503.032e68f09dc349cce0532ee22091b28c"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0503.032e68f09dc349cce0532ee22091b28c",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/547679044",
+        "tags": {
+          "bridge": "yes",
+          "bridge:name": "Heilige Geestbrug",
+          "emergency": "yes",
+          "highway": "pedestrian",
+          "layer": "1",
+          "lit": "yes",
+          "motor_vehicle": "permit",
+          "motor_vehicle:conditional": "destination @ (Mo-Fr,Su 07:00-12:00, Sa 07:00-10:00)",
+          "name": "Heilige Geestbrug",
+          "note": "autoluw",
+          "oneway": "no",
+          "parking:both": "no",
+          "psv": "yes",
+          "surface": "paving_stones",
+          "wikidata": "Q17330979",
+          "zone:traffic": "NL:urban",
+          "bridge:structure": "humpback",
+          "heritage": "2",
+          "heritage:operator": "rce",
+          "man_made": "bridge",
+          "ref:rce": "12283"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "bolbrug",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,440000,100000,460000 --run nl-4_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 4.4,
+      "dekBreedte": 10,
+      "brugLengte": 4.4,
+      "water": [
+        -1.7,
+        1.8
+      ],
+      "portaalhoogte": 9,
+      "opritafstand": [
+        4,
+        4
+      ],
+      "oprithelling": 6,
+      "bolling": 0.52,
+      "doorstekend": [],
+      "opritHoogtes": [
+        45.317,
+        45.516
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

@@ -1,0 +1,239 @@
+{
+  "name": "Ketelpolder",
+  "file": "moerdijk-ketelpolder-2.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    103345.47,
+    413982.9
+  ],
+  "xAxis": [
+    0.939141,
+    0.343532
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 46.04,
+  "groundSamplePoints": [
+    [
+      -22.54,
+      0
+    ],
+    [
+      22.54,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "L0002.ab622f1fb9e449478b78151896255b7c",
+    "L0002.f7caa0946c6540688bd0007f384d707d",
+    "G1709.2613417bd7276803e05332a1e90a7128",
+    "L0002.5db35495a6084326b318fa12337fa3b6",
+    "L0002.2dbbf2cee4594b4987d2e9134a9bb185",
+    "L0002.4871b864d88c4a9bbcb5340f25a5e924"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        103345.47,
+        413982.9
+      ],
+      "axis": [
+        0.939141,
+        0.343532
+      ],
+      "halfLength": 16.49,
+      "halfWidth": 17.92,
+      "height": 44.885,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -4.28,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        103313.03,
+        413971.03
+      ],
+      "axis": [
+        -0.939141,
+        -0.343532
+      ],
+      "halfLength": 12,
+      "halfWidth": 19.42,
+      "height": 46.185,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        103377.91,
+        413994.76
+      ],
+      "axis": [
+        0.939141,
+        0.343532
+      ],
+      "halfLength": 12,
+      "halfWidth": 19.42,
+      "height": 46.113,
+      "gradient": [
+        -0.00603,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "L0002.f7caa0946c6540688bd0007f384d707d"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "L0002.ab622f1fb9e449478b78151896255b7c",
+          "type": "landhoofd"
+        },
+        {
+          "id": "L0002.f7caa0946c6540688bd0007f384d707d",
+          "type": "dek"
+        },
+        {
+          "id": "G1709.2613417bd7276803e05332a1e90a7128",
+          "type": "pijler"
+        },
+        {
+          "id": "L0002.5db35495a6084326b318fa12337fa3b6",
+          "type": "onbekend"
+        }
+      ],
+      "osm": {
+        "id": "way/460201197",
+        "tags": {
+          "bridge": "yes",
+          "carriageway_ref": "Re",
+          "highway": "motorway",
+          "int_ref": "E 19",
+          "lanes": "3",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "100",
+          "maxspeed:conditional": "120 @ (19:00-06:00)",
+          "noname": "yes",
+          "official_name": "Rijksweg A16",
+          "oneway": "yes",
+          "operator": "Rijkswaterstaat",
+          "ref": "A16",
+          "surface": "asphalt",
+          "toll:hgv": "yes",
+          "bridge:structure": "beam",
+          "man_made": "bridge",
+          "name": "Ketelpolder"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 4
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,400000,120000,420000 --run nl-5_5 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 45,
+      "dekBreedte": 34.8,
+      "brugLengte": 45.1,
+      "water": null,
+      "portaalhoogte": 31.4,
+      "opritafstand": [
+        0,
+        0
+      ],
+      "spoorhoogteBron": "prorail-pvs",
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "L0002.2dbbf2cee4594b4987d2e9134a9bb185",
+          "klasse": "Forest",
+          "oppervlak": 298.5,
+          "onderDek": 0.74,
+          "bovenDekOnderkant": 7.47,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "L0002.4871b864d88c4a9bbcb5340f25a5e924",
+          "klasse": "Terrain",
+          "oppervlak": 586.9,
+          "onderDek": 0.73,
+          "bovenDekOnderkant": 6.97,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "G1709.2613417b9dec6803e05332a1e90a7128",
+          "klasse": "Terrain",
+          "oppervlak": 182.4,
+          "onderDek": 0.3,
+          "bovenDekOnderkant": 3.28,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G1709.2613417bc3b86803e05332a1e90a7128",
+          "klasse": "Road",
+          "oppervlak": 4340.4,
+          "onderDek": 0.06,
+          "bovenDekOnderkant": 2.99,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G1709.2613417bcd1c6803e05332a1e90a7128",
+          "klasse": "Terrain",
+          "oppervlak": 43.5,
+          "onderDek": 0.13,
+          "bovenDekOnderkant": 2.31,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G1709.2613417c49fa6803e05332a1e90a7128",
+          "klasse": "Road",
+          "oppervlak": 632.2,
+          "onderDek": 0.13,
+          "bovenDekOnderkant": 1.95,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G1709.2613417b511d6803e05332a1e90a7128",
+          "klasse": "Terrain",
+          "oppervlak": 102.7,
+          "onderDek": 0.17,
+          "bovenDekOnderkant": 1.78,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "L0004.675ab9a375604d2d83c206c1e2a44142",
+          "klasse": "Road",
+          "oppervlak": 1463.4,
+          "onderDek": 0.29,
+          "bovenDekOnderkant": 1.71,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        46.185,
+        46.04
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "8 PDOK-vorm(en) door het dek: 2 verborgen, 6 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

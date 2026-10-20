@@ -1,0 +1,139 @@
+{
+  "name": "Holtenbroekerbrug",
+  "file": "zwolle-holtenbroekerbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    202128.36,
+    503629.72
+  ],
+  "xAxis": [
+    0.6629,
+    0.748708
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 45.395,
+  "groundSamplePoints": [
+    [
+      -45.72,
+      0
+    ],
+    [
+      45.72,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0193.8b1bd3dbd4da4c21bd6cb57d058032d5"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        202103.36,
+        503601.47
+      ],
+      "axis": [
+        -0.6629,
+        -0.748708
+      ],
+      "halfLength": 12,
+      "halfWidth": 25.76,
+      "height": 45.706,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        202153.36,
+        503657.96
+      ],
+      "axis": [
+        0.6629,
+        0.748708
+      ],
+      "halfLength": 12,
+      "halfWidth": 25.76,
+      "height": 45.626,
+      "gradient": [
+        -0.0192,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0193.8b1bd3dbd4da4c21bd6cb57d058032d5"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0193.8b1bd3dbd4da4c21bd6cb57d058032d5",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/706292300",
+        "tags": {
+          "bicycle": "no",
+          "bridge": "movable",
+          "bridge:movable": "lift",
+          "foot": "no",
+          "highway": "primary",
+          "layer": "1",
+          "maxspeed": "50",
+          "name": "Holtenbroekerbrug",
+          "oneway": "yes",
+          "operator": "Gemeente Zwolle",
+          "ref": "RING",
+          "zone:traffic": "NL:urban",
+          "man_made": "bridge"
+        }
+      },
+      "fis": {
+        "id": 51962,
+        "naam": "Holtenbroekerbrug",
+        "afstand": 4,
+        "beweegbaar": true,
+        "doorvaarthoogteGesloten": 1.8
+      },
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ophaalbrug",
+    "doorvaarthoogte": 1.8,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 200000,500000,220000,520000 --run nl-10_10 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 51.4,
+      "dekBreedte": 47.5,
+      "brugLengte": 51.4,
+      "water": [
+        -24.2,
+        24.3
+      ],
+      "portaalhoogte": 42.8,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [],
+      "opritHoogtes": [
+        45.556,
+        45.395
+      ]
+    },
+    "waarschuwingen": [
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

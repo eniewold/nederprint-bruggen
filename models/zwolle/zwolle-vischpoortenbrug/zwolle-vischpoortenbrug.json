@@ -1,0 +1,133 @@
+{
+  "name": "Vischpoortenbrug",
+  "file": "zwolle-vischpoortenbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    202939.02,
+    503204.28
+  ],
+  "xAxis": [
+    0.040121,
+    -0.999195
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 44.859,
+  "groundSamplePoints": [
+    [
+      -12.08,
+      0
+    ],
+    [
+      12.08,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0193.18ce1aec037842d78eb58de9a4b2440d"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        202938.58,
+        503215.25
+      ],
+      "axis": [
+        -0.040121,
+        0.999195
+      ],
+      "halfLength": 5.49,
+      "halfWidth": 9.24,
+      "height": 45.035,
+      "gradient": [
+        -0.02733,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        202939.46,
+        503193.31
+      ],
+      "axis": [
+        0.040121,
+        -0.999195
+      ],
+      "halfLength": 5.49,
+      "halfWidth": 9.24,
+      "height": 45.022,
+      "gradient": [
+        -0.02976,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0193.18ce1aec037842d78eb58de9a4b2440d"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0193.18ce1aec037842d78eb58de9a4b2440d",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/266566861",
+        "tags": {
+          "bridge": "yes",
+          "highway": "residential",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Vispoortenbrug",
+          "surface": "asphalt"
+        }
+      },
+      "fis": {
+        "id": 30289,
+        "naam": "Vischpoortenbrug",
+        "afstand": 3,
+        "beweegbaar": true,
+        "doorvaarthoogteGesloten": 1
+      },
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ophaalbrug",
+    "doorvaarthoogte": 1,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 200000,500000,220000,520000 --run nl-10_10 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 11,
+      "dekBreedte": 14.5,
+      "brugLengte": 11,
+      "water": [
+        -5,
+        5
+      ],
+      "portaalhoogte": 13,
+      "opritafstand": [
+        6.6,
+        6.6
+      ],
+      "oprithelling": 11,
+      "doorstekend": [],
+      "opritHoogtes": [
+        44.885,
+        44.859
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

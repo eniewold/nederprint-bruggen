@@ -1,0 +1,139 @@
+{
+  "name": "Paradijsbrug",
+  "file": "delft-paradijsbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    84608.05,
+    447397.69
+  ],
+  "xAxis": [
+    -0.575694,
+    0.817665
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 44.047,
+  "groundSamplePoints": [
+    [
+      -6.23,
+      0
+    ],
+    [
+      6.23,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0503.032e68f09de749cce0532ee22091b28c"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        84611.06,
+        447393.41
+      ],
+      "axis": [
+        0.575694,
+        -0.817665
+      ],
+      "halfLength": 3,
+      "halfWidth": 7.02,
+      "height": 44.445,
+      "gradient": [
+        -0.05,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        84605.04,
+        447401.97
+      ],
+      "axis": [
+        -0.575694,
+        0.817665
+      ],
+      "halfLength": 3,
+      "halfWidth": 7.02,
+      "height": 44.321,
+      "gradient": [
+        -0.09123,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0503.032e68f09de749cce0532ee22091b28c"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0503.032e68f09de749cce0532ee22091b28c",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/547686156",
+        "tags": {
+          "bicycle": "yes",
+          "bridge": "yes",
+          "description": "autoluwe binnenstad, toegang voor motorvoertuigen alleen met (dag)ontheffing",
+          "emergency": "yes",
+          "highway": "pedestrian",
+          "layer": "1",
+          "lit": "yes",
+          "motor_vehicle": "permit",
+          "motor_vehicle:conditional": "destination @ (Mo-Fr,Su 07:00-12:00, Sa 07:00-10:00)",
+          "name": "Paradijsbrug",
+          "parking:both": "no",
+          "parking:both:restriction": "loading_only @ (Mo-Fr,Su 07:00-12:00, Sa 07:00-10:00)",
+          "smoothness": "intermediate",
+          "surface": "paving_stones",
+          "zone:traffic": "NL:urban",
+          "bridge:structure": "humpback",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "bolbrug",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,440000,100000,460000 --run nl-4_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 4.5,
+      "dekBreedte": 10,
+      "brugLengte": 4.5,
+      "water": [
+        -1.7,
+        1.8
+      ],
+      "portaalhoogte": 9,
+      "opritafstand": [
+        4,
+        4
+      ],
+      "oprithelling": 6,
+      "bolling": 0.54,
+      "doorstekend": [],
+      "opritHoogtes": [
+        44.295,
+        44.047
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

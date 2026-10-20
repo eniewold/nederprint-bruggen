@@ -1,0 +1,144 @@
+{
+  "name": "Pontenbrug",
+  "file": "delft-pontenbrug-2.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    84591.91,
+    447219.42
+  ],
+  "xAxis": [
+    -0.37044,
+    0.928856
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 43.854,
+  "groundSamplePoints": [
+    [
+      -6.04,
+      0
+    ],
+    [
+      6.04,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0503.032e68f09de649cce0532ee22091b28c"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        84593.78,
+        447214.74
+      ],
+      "axis": [
+        0.37044,
+        -0.928856
+      ],
+      "halfLength": 3,
+      "halfWidth": 6.25,
+      "height": 44.723,
+      "gradient": [
+        -0.05,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        84590.04,
+        447224.11
+      ],
+      "axis": [
+        -0.37044,
+        0.928856
+      ],
+      "halfLength": 3,
+      "halfWidth": 6.25,
+      "height": 44.364,
+      "gradient": [
+        -0.16986,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0503.032e68f09de649cce0532ee22091b28c"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0503.032e68f09de649cce0532ee22091b28c",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/547672723",
+        "tags": {
+          "bicycle": "yes",
+          "bridge": "yes",
+          "bridge:name": "Pontenbrug",
+          "description": "autoluwe binnenstad, toegang voor motorvoertuigen alleen met (dag)ontheffing",
+          "emergency": "yes",
+          "highway": "pedestrian",
+          "lane_markings": "no",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "30",
+          "maxweight:signed": "no",
+          "motor_vehicle": "permit",
+          "motor_vehicle:conditional": "destination @ (Mo-Fr,Su 07:00-12:00, Sa 07:00-10:00)",
+          "name": "Pontenbrug",
+          "parking:both": "no",
+          "parking:both:restriction": "loading_only @ (Mo-Fr,Su 07:00-12:00, Sa 07:00-10:00)",
+          "sidewalk": "both",
+          "sidewalk:both:surface": "paving_stones",
+          "surface": "paving_stones",
+          "zone:traffic": "NL:urban",
+          "bridge:structure": "humpback",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "bolbrug",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,440000,100000,460000 --run nl-4_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 4.1,
+      "dekBreedte": 8.5,
+      "brugLengte": 4.1,
+      "water": [
+        -1.5,
+        2
+      ],
+      "portaalhoogte": 7.7,
+      "opritafstand": [
+        4,
+        4
+      ],
+      "oprithelling": 6,
+      "bolling": 0.5,
+      "doorstekend": [],
+      "opritHoogtes": [
+        44.573,
+        43.854
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

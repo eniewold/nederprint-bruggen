@@ -1,0 +1,150 @@
+{
+  "name": "Spoorbrug over Overlekersluis",
+  "file": "medemblik-spoorbrug-over-overlekersluis.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    135289.38,
+    531338.78
+  ],
+  "xAxis": [
+    -0.652218,
+    -0.758032
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 43.395,
+  "groundSamplePoints": [
+    [
+      -21.39,
+      0.49
+    ],
+    [
+      31.45,
+      0.46
+    ]
+  ],
+  "replacesTerrain": [
+    "L0004.3aef57255d5b4104b2e19d4bf54ab467"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        135304.26,
+        531356.08
+      ],
+      "axis": [
+        0.652218,
+        0.758032
+      ],
+      "halfLength": 11.42,
+      "halfWidth": 3.99,
+      "height": 43.56,
+      "gradient": [
+        -0.01313,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        135274.47,
+        531321.44
+      ],
+      "axis": [
+        -0.652218,
+        -0.758032
+      ],
+      "halfLength": 11.42,
+      "halfWidth": 3.99,
+      "height": 43.553,
+      "gradient": [
+        -0.01378,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "L0004.3aef57255d5b4104b2e19d4bf54ab467"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "L0004.3aef57255d5b4104b2e19d4bf54ab467",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/521675006",
+        "tags": {
+          "bridge": "movable",
+          "bridge:movable": "bascule",
+          "description": "Hoorn - Medemblik",
+          "electrified": "no",
+          "gauge": "1435",
+          "layer": "1",
+          "maxspeed": "30",
+          "railway": "rail",
+          "railway:atb": "no",
+          "railway:etcs": "no",
+          "railway:gnt": "no",
+          "railway:lzb": "no",
+          "railway:preserved": "yes",
+          "railway:pzb": "no",
+          "ref": "435",
+          "ref:ProRailID": "2892481.0",
+          "ref:ProRailSpoortak": "435_1V_19.9",
+          "source": "ProRail",
+          "source:date": "2014-01-03",
+          "usage": "tourism",
+          "man_made": "bridge"
+        }
+      },
+      "fis": {
+        "id": 28432,
+        "naam": "Spoorbrug over Overlekersluis",
+        "afstand": 6,
+        "beweegbaar": true,
+        "doorvaarthoogteGesloten": 2.9
+      },
+      "pdokBridgeVlakken": 1
+    },
+    "type": "basculebrug",
+    "doorvaarthoogte": 2.9,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,520000,140000,540000 --run nl-6_11 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 22.8,
+      "dekBreedte": 5.3,
+      "brugLengte": 22.8,
+      "water": [
+        -10.9,
+        10.1
+      ],
+      "portaalhoogte": 4.8,
+      "opritafstand": [
+        10,
+        20
+      ],
+      "spoorhoogteBron": "pdok",
+      "oprithelling": 22.8,
+      "doorstekend": [],
+      "opritHoogtes": [
+        43.41,
+        43.395
+      ]
+    },
+    "waarschuwingen": [
+      "oprit -: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "oprit +: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

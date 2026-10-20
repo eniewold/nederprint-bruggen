@@ -1,0 +1,163 @@
+{
+  "name": "Zwartewaterkloosterweg",
+  "file": "rouveen-brug-f407ec5b.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    203456.18,
+    516620.26
+  ],
+  "xAxis": [
+    0.079354,
+    -0.996847
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 42.215,
+  "groundSamplePoints": [
+    [
+      -6.67,
+      0
+    ],
+    [
+      6.67,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0180.f407ec5b829c49b1b6195d4c6f96b2e9"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        203456.18,
+        516620.26
+      ],
+      "axis": [
+        0.079354,
+        -0.996847
+      ],
+      "halfLength": 1.33,
+      "halfWidth": 3.01,
+      "height": 41.447,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.66,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        203455.73,
+        516625.9
+      ],
+      "axis": [
+        -0.079354,
+        0.996847
+      ],
+      "halfLength": 3,
+      "halfWidth": 3.77,
+      "height": 42.597,
+      "gradient": [
+        -0.05,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        203456.63,
+        516614.61
+      ],
+      "axis": [
+        0.079354,
+        -0.996847
+      ],
+      "halfLength": 3,
+      "halfWidth": 3.77,
+      "height": 42.481,
+      "gradient": [
+        -0.08872,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0180.f407ec5b829c49b1b6195d4c6f96b2e9"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0180.f407ec5b829c49b1b6195d4c6f96b2e9",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/645931204",
+        "tags": {
+          "bridge": "yes",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Zwartewaterkloosterweg",
+          "surface": "concrete"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 200000,500000,220000,520000 --run nl-10_10 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 5.3,
+      "dekBreedte": 5,
+      "brugLengte": 5.3,
+      "water": [
+        -0.2,
+        0.8
+      ],
+      "portaalhoogte": 4.5,
+      "opritafstand": [
+        4,
+        4
+      ],
+      "oprithelling": 6,
+      "doorstekend": [
+        {
+          "gmlId": "G0180.fc95bdcc0ce6404ebfe50ec87d56ef06",
+          "klasse": "Terrain",
+          "oppervlak": 26,
+          "onderDek": 0.04,
+          "bovenDekOnderkant": 0.66,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0180.8422590a6c304b39b0e57b3a78666b89",
+          "klasse": "Terrain",
+          "oppervlak": 30.6,
+          "onderDek": 0.14,
+          "bovenDekOnderkant": 0.59,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        42.447,
+        42.215
+      ]
+    },
+    "waarschuwingen": [
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

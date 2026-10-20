@@ -1,0 +1,137 @@
+{
+  "name": "rouveen-brug-e4138a4f",
+  "file": "rouveen-brug-e4138a4f.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    205037.4,
+    516960.3
+  ],
+  "xAxis": [
+    0.199173,
+    -0.979964
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 42.878,
+  "groundSamplePoints": [
+    [
+      -7.75,
+      0
+    ],
+    [
+      7.75,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0180.e4138a4f20f8499f8d3b6f8ce98edba9",
+    "W0664.b09d140591e54a679548a06d14a4e1e2",
+    "W0664.fff030cfaf4442e1a95efa9ffca18802"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        205036,
+        516967.2
+      ],
+      "axis": [
+        -0.199173,
+        0.979964
+      ],
+      "halfLength": 3.52,
+      "halfWidth": 7.28,
+      "height": 43.345,
+      "gradient": [
+        -0.04259,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        205038.81,
+        516953.39
+      ],
+      "axis": [
+        0.199173,
+        -0.979964
+      ],
+      "halfLength": 3.52,
+      "halfWidth": 7.28,
+      "height": 43.187,
+      "gradient": [
+        -0.08751,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0180.e4138a4f20f8499f8d3b6f8ce98edba9"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0180.e4138a4f20f8499f8d3b6f8ce98edba9",
+          "type": "dek"
+        }
+      ],
+      "osm": null,
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 200000,500000,220000,520000 --run nl-10_10 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 7,
+      "dekBreedte": 10.6,
+      "brugLengte": 7,
+      "water": [
+        -3,
+        3
+      ],
+      "portaalhoogte": 9.5,
+      "opritafstand": [
+        4.2,
+        4.2
+      ],
+      "oprithelling": 7,
+      "doorstekend": [
+        {
+          "gmlId": "W0664.b09d140591e54a679548a06d14a4e1e2",
+          "klasse": "Separation",
+          "oppervlak": 4.4,
+          "onderDek": 0.82,
+          "bovenDekOnderkant": 0.59,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "W0664.fff030cfaf4442e1a95efa9ffca18802",
+          "klasse": "Separation",
+          "oppervlak": 4.5,
+          "onderDek": 0.85,
+          "bovenDekOnderkant": 0.54,
+          "actie": "verbergen"
+        }
+      ],
+      "opritHoogtes": [
+        43.195,
+        42.878
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 2 verborgen, 0 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

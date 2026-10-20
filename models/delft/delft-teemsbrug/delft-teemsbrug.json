@@ -1,0 +1,147 @@
+{
+  "name": "Teemsbrug",
+  "file": "delft-teemsbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    84348.45,
+    447435.33
+  ],
+  "xAxis": [
+    0.940323,
+    0.340283
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 45.101,
+  "groundSamplePoints": [
+    [
+      -6.24,
+      0
+    ],
+    [
+      6.24,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0503.032e68f09d6649cce0532ee22091b28c"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        84343.52,
+        447433.55
+      ],
+      "axis": [
+        -0.940323,
+        -0.340283
+      ],
+      "halfLength": 3,
+      "halfWidth": 8.84,
+      "height": 45.262,
+      "gradient": [
+        -0.05,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        84353.38,
+        447437.12
+      ],
+      "axis": [
+        0.940323,
+        0.340283
+      ],
+      "halfLength": 3,
+      "halfWidth": 8.84,
+      "height": 45.256,
+      "gradient": [
+        -0.05176,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0503.032e68f09d6649cce0532ee22091b28c"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0503.032e68f09d6649cce0532ee22091b28c",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/547674815",
+        "tags": {
+          "bicycle": "yes",
+          "bridge": "yes",
+          "bridge:name": "Touwbrug",
+          "check_date": "2024-03-25",
+          "description": "autoluwe binnenstad, toegang voor motorvoertuigen alleen met (dag)ontheffing",
+          "emergency": "yes",
+          "highway": "pedestrian",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "30",
+          "maxweight:signed": "no",
+          "motor_vehicle": "permit",
+          "motor_vehicle:conditional": "destination @ (Mo-Fr,Su 07:00-12:00, Sa 07:00-10:00)",
+          "name": "Touwbrug",
+          "parking:both": "no",
+          "sidewalk": "both",
+          "sidewalk:both:surface": "paving_stones",
+          "surface": "paving_stones",
+          "wikidata": "Q17331022",
+          "zone:traffic": "NL:urban",
+          "bridge:structure": "humpback",
+          "heritage": "2",
+          "heritage:operator": "rce",
+          "man_made": "bridge",
+          "ref:rce": "12304"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "bolbrug",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,440000,100000,460000 --run nl-4_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 4.5,
+      "dekBreedte": 13.7,
+      "brugLengte": 4.5,
+      "water": [
+        -1.7,
+        1.8
+      ],
+      "portaalhoogte": 12.3,
+      "opritafstand": [
+        4,
+        4
+      ],
+      "oprithelling": 6,
+      "bolling": 0.54,
+      "doorstekend": [],
+      "opritHoogtes": [
+        45.112,
+        45.101
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "name": "Reineveldbrug",
+  "file": "delft-reineveldbrug-2.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    83979.45,
+    448431.54
+  ],
+  "xAxis": [
+    -0.01309,
+    0.999914
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 44.423,
+  "groundSamplePoints": [
+    [
+      -38.39,
+      2.19
+    ],
+    [
+      48.39,
+      1.96
+    ]
+  ],
+  "replacesTerrain": [
+    "P0028.364eb152a8be4762aa14ef1d24e42f2a",
+    "P0028.a0ca9c4dfd1b4a2d8c2d01e87852e37f",
+    "P0028.59ad5266d6044df086cb1a67752e08fe",
+    "P0028.67fe87a3e3f54ec49b20c88702e6a8ab",
+    "P0028.8a672bad28184a4bb5a4cef6d06bf94a",
+    "P0028.b7313c8666ec42c387f02b23d91b333f",
+    "G0503.3bb58c72b6eb41d28a1ee99be25a48a0"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        83979.85,
+        448401.15
+      ],
+      "axis": [
+        0.01309,
+        -0.999914
+      ],
+      "halfLength": 12,
+      "halfWidth": 11.93,
+      "height": 44.87,
+      "gradient": [
+        -0.03727,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        83979.05,
+        448461.93
+      ],
+      "axis": [
+        -0.01309,
+        0.999914
+      ],
+      "halfLength": 12,
+      "halfWidth": 11.93,
+      "height": 45.168,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "P0028.59ad5266d6044df086cb1a67752e08fe",
+      "G0503.3bb58c72b6eb41d28a1ee99be25a48a0"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "P0028.364eb152a8be4762aa14ef1d24e42f2a",
+          "type": "pijler"
+        },
+        {
+          "id": "P0028.a0ca9c4dfd1b4a2d8c2d01e87852e37f",
+          "type": "pijler"
+        },
+        {
+          "id": "P0028.59ad5266d6044df086cb1a67752e08fe",
+          "type": "dek"
+        },
+        {
+          "id": "P0028.67fe87a3e3f54ec49b20c88702e6a8ab",
+          "type": "pijler"
+        },
+        {
+          "id": "P0028.8a672bad28184a4bb5a4cef6d06bf94a",
+          "type": "landhoofd"
+        },
+        {
+          "id": "P0028.b7313c8666ec42c387f02b23d91b333f",
+          "type": "landhoofd"
+        },
+        {
+          "id": "G0503.3bb58c72b6eb41d28a1ee99be25a48a0",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/424755470",
+        "tags": {
+          "bridge": "movable",
+          "bridge:movable": "bascule",
+          "bridge:name": "Reineveldbrug",
+          "cycleway": "lane",
+          "embedded_rails:lanes:backward": "tram|",
+          "embedded_rails:lanes:forward": "tram|",
+          "highway": "secondary",
+          "lanes": "4",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "50",
+          "name": "Reineveldbrug",
+          "name:etymology:wikidata": "Q2265180",
+          "sidewalk": "left",
+          "surface": "asphalt",
+          "zone:traffic": "NL:urban",
+          "man_made": "bridge",
+          "wikidata": "Q15943638",
+          "wikipedia": "nl:Reineveldbrug"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 7
+    },
+    "type": "basculebrug",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,440000,100000,460000 --run nl-4_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 36.8,
+      "dekBreedte": 19.9,
+      "brugLengte": 36.8,
+      "water": [
+        -15.4,
+        6.1
+      ],
+      "portaalhoogte": 17.9,
+      "opritafstand": [
+        20,
+        30
+      ],
+      "spoorhoogteBron": "pdok",
+      "oprithelling": 24,
+      "doorstekend": [],
+      "opritHoogtes": [
+        44.423,
+        45.018
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "oprit -: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "oprit +: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "oprit + pas op 30 m langs het spoor gemeten (PDOK-spoorterrein bij de brug lager)"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

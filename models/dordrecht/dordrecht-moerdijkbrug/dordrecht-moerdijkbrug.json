@@ -1,0 +1,188 @@
+{
+  "name": "Moerdijkbrug",
+  "file": "dordrecht-moerdijkbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    103134.27,
+    414560.95
+  ],
+  "xAxis": [
+    0.342877,
+    -0.93938
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 54.73,
+  "groundSamplePoints": [
+    [
+      -541.26,
+      0
+    ],
+    [
+      541.26,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "L0002.50ff6893382140a6a36e922d59d8142f",
+    "L0002.c63bd45d152149c392d8d6050d9ef2e6"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        103134.27,
+        414560.95
+      ],
+      "axis": [
+        0.342877,
+        -0.93938
+      ],
+      "halfLength": 515.26,
+      "halfWidth": 23.29,
+      "height": 53.924,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.67,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        102951.43,
+        415061.89
+      ],
+      "axis": [
+        -0.342877,
+        0.93938
+      ],
+      "halfLength": 12,
+      "halfWidth": 24.79,
+      "height": 55.074,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        103317.12,
+        414060.01
+      ],
+      "axis": [
+        0.342877,
+        -0.93938
+      ],
+      "halfLength": 12,
+      "halfWidth": 24.79,
+      "height": 54.977,
+      "gradient": [
+        -0.02059,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "L0002.c63bd45d152149c392d8d6050d9ef2e6"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "L0002.50ff6893382140a6a36e922d59d8142f",
+          "type": "onbekend"
+        },
+        {
+          "id": "L0002.c63bd45d152149c392d8d6050d9ef2e6",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/404289971",
+        "tags": {
+          "bridge": "viaduct",
+          "bridge:name": "Moerdijkbrug",
+          "carriageway_ref": "Li",
+          "concrete:type": "high-strength",
+          "highway": "motorway",
+          "int_ref": "E 19",
+          "lanes": "3",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "100",
+          "maxspeed:conditional": "120 @ (19:00-06:00)",
+          "maxspeed:type": "sign",
+          "noname": "yes",
+          "official_name": "Rijksweg nr. 16",
+          "oneway": "yes",
+          "operator": "Rijkswaterstaat",
+          "owner": "Staat der Nederlanden",
+          "ref": "A16",
+          "source:official_name": "NWB",
+          "surface": "concrete",
+          "surface:description": "Hogesterktebeton",
+          "toll:hgv": "yes",
+          "zone:traffic": "NL:rural",
+          "man_made": "bridge",
+          "name": "Moerdijkbrug"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 2
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,400000,120000,420000 --run nl-5_5 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 1042.5,
+      "dekBreedte": 45.6,
+      "brugLengte": 1042.5,
+      "water": [
+        -474.8,
+        458.2
+      ],
+      "portaalhoogte": 41,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0505.32b37fe7af5c4db6ad74081a4427c81d",
+          "klasse": "Road",
+          "oppervlak": 1832.5,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.67,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0505.0554fbfa282d458ba496f23da51fe80f",
+          "klasse": "Road",
+          "oppervlak": 2983.6,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.47,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        54.924,
+        54.73
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

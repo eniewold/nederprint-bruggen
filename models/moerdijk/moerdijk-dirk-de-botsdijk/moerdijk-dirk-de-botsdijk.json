@@ -1,0 +1,166 @@
+{
+  "name": "Dirk de Botsdijk",
+  "file": "moerdijk-dirk-de-botsdijk.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    104186.84,
+    412070.27
+  ],
+  "xAxis": [
+    -0.820134,
+    -0.572172
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 50.693,
+  "groundSamplePoints": [
+    [
+      -60.86,
+      0
+    ],
+    [
+      60.86,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G1709.2613417c2ed56803e05332a1e90a7128",
+    "G1709.7c4a206040585803e05332a1e90a3c60"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        104186.84,
+        412070.27
+      ],
+      "axis": [
+        -0.820134,
+        -0.572172
+      ],
+      "halfLength": 34.86,
+      "halfWidth": 8.45,
+      "height": 49.757,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.78,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        104230.2,
+        412100.52
+      ],
+      "axis": [
+        0.820134,
+        0.572172
+      ],
+      "halfLength": 12,
+      "halfWidth": 9.95,
+      "height": 50.907,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        104143.49,
+        412040.02
+      ],
+      "axis": [
+        -0.820134,
+        -0.572172
+      ],
+      "halfLength": 12,
+      "halfWidth": 9.95,
+      "height": 50.875,
+      "gradient": [
+        -0.01516,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G1709.2613417c2ed56803e05332a1e90a7128"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G1709.2613417c2ed56803e05332a1e90a7128",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/460516984",
+        "tags": {
+          "bicycle": "no",
+          "bridge": "yes",
+          "highway": "secondary",
+          "lanes": "2",
+          "layer": "1",
+          "maxspeed": "80",
+          "name": "Dirk de Botsdijk",
+          "operator": "Gemeente Moerdijk",
+          "surface": "asphalt",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,400000,120000,420000 --run nl-5_5 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 81.7,
+      "dekBreedte": 15.9,
+      "brugLengte": 81.7,
+      "water": null,
+      "portaalhoogte": 14.3,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G1709.7c4a206040595803e05332a1e90a3c60",
+          "klasse": "Terrain",
+          "oppervlak": 226.4,
+          "onderDek": 0.54,
+          "bovenDekOnderkant": 0.78,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G1709.7c4a206040585803e05332a1e90a3c60",
+          "klasse": "Terrain",
+          "oppervlak": 154.3,
+          "onderDek": 0.9,
+          "bovenDekOnderkant": 0.62,
+          "actie": "verbergen"
+        }
+      ],
+      "opritHoogtes": [
+        50.757,
+        50.693
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 1 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

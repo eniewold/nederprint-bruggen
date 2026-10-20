@@ -1,0 +1,139 @@
+{
+  "name": "Zwartewaterbrug",
+  "file": "hasselt-zwartewaterbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    202305.55,
+    511812.39
+  ],
+  "xAxis": [
+    -0.795482,
+    -0.605978
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 48.705,
+  "groundSamplePoints": [
+    [
+      -112.96,
+      0
+    ],
+    [
+      112.96,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "L0002.cda7c45848b5406493f1e8a6232ec182",
+    "L0002.f5dafac1563045aeb000c2078a54016b",
+    "P0023.c6aa5e8c41a34f84af106a054156b56e"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        202389.04,
+        511875.99
+      ],
+      "axis": [
+        0.795482,
+        0.605978
+      ],
+      "halfLength": 12,
+      "halfWidth": 14.96,
+      "height": 49.179,
+      "gradient": [
+        -0.03955,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        202222.05,
+        511748.79
+      ],
+      "axis": [
+        -0.795482,
+        -0.605978
+      ],
+      "halfLength": 12,
+      "halfWidth": 14.96,
+      "height": 49.504,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "P0023.c6aa5e8c41a34f84af106a054156b56e"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "L0002.cda7c45848b5406493f1e8a6232ec182",
+          "type": "onbekend"
+        },
+        {
+          "id": "L0002.f5dafac1563045aeb000c2078a54016b",
+          "type": "onbekend"
+        },
+        {
+          "id": "P0023.c6aa5e8c41a34f84af106a054156b56e",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/726965887",
+        "tags": {
+          "bridge": "movable",
+          "bridge:material": "steel",
+          "bridge:movable": "bascule",
+          "bridge:name": "Zwartewaterbrug",
+          "bridge:structure": "arch",
+          "layer": "1",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 3
+    },
+    "type": "basculebrug",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 200000,500000,220000,520000 --run nl-10_10 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 185.9,
+      "dekBreedte": 25.9,
+      "brugLengte": 185.9,
+      "water": [
+        -72,
+        77.5
+      ],
+      "portaalhoogte": 23.3,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [],
+      "opritHoogtes": [
+        48.705,
+        49.354
+      ]
+    },
+    "waarschuwingen": [
+      "OSM zegt arch, gekozen type basculebrug",
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

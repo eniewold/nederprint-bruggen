@@ -1,0 +1,172 @@
+{
+  "name": "Grotiusbrug",
+  "file": "delft-grotiusbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    84124.2,
+    447344.5
+  ],
+  "xAxis": [
+    0.845129,
+    0.534562
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 44.182,
+  "groundSamplePoints": [
+    [
+      -12.9,
+      0
+    ],
+    [
+      12.9,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0503.010a21ca0c8444df8d7e69080f84c7d4",
+    "G0503.e8e462b0a2704294a389c19a8284a90a"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        84124.2,
+        447344.5
+      ],
+      "axis": [
+        0.845129,
+        0.534562
+      ],
+      "halfLength": 2.93,
+      "halfWidth": 39.11,
+      "height": 43.566,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.72,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        84114.29,
+        447338.23
+      ],
+      "axis": [
+        -0.845129,
+        -0.534562
+      ],
+      "halfLength": 5.87,
+      "halfWidth": 40.61,
+      "height": 44.524,
+      "gradient": [
+        -0.05832,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        84134.12,
+        447350.77
+      ],
+      "axis": [
+        0.845129,
+        0.534562
+      ],
+      "halfLength": 5.87,
+      "halfWidth": 40.61,
+      "height": 44.716,
+      "gradient": [
+        -0.02557,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0503.010a21ca0c8444df8d7e69080f84c7d4",
+      "G0503.e8e462b0a2704294a389c19a8284a90a"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0503.010a21ca0c8444df8d7e69080f84c7d4",
+          "type": "dek"
+        },
+        {
+          "id": "G0503.e8e462b0a2704294a389c19a8284a90a",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/526496618",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "yes",
+          "bridge:name": "Spoorhavenbrug",
+          "highway": "tertiary",
+          "lanes": "1",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "50",
+          "maxweight:signed": "no",
+          "name": "Spoorhavenbrug",
+          "oneway": "yes",
+          "smoothness": "excellent",
+          "surface": "asphalt",
+          "zone:traffic": "NL:urban",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 2
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,440000,100000,460000 --run nl-4_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 11.7,
+      "dekBreedte": 77.2,
+      "brugLengte": 11.7,
+      "water": [
+        -5.4,
+        0.6
+      ],
+      "portaalhoogte": 69.5,
+      "opritafstand": [
+        7,
+        7
+      ],
+      "oprithelling": 11.7,
+      "doorstekend": [
+        {
+          "gmlId": "G0503.e6ff4964437d47689944002973a6581f",
+          "klasse": "Road",
+          "oppervlak": 2618.1,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.72,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        44.182,
+        44.566
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

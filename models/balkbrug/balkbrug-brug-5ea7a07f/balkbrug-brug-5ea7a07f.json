@@ -1,0 +1,165 @@
+{
+  "name": "De Maat",
+  "file": "balkbrug-brug-5ea7a07f.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    218211.08,
+    512816.81
+  ],
+  "xAxis": [
+    0.497285,
+    0.867587
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 46.088,
+  "groundSamplePoints": [
+    [
+      -24.73,
+      0
+    ],
+    [
+      24.73,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0160.5ea7a07febdc491f8cea18fbff1ec79a"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        218211.08,
+        512816.81
+      ],
+      "axis": [
+        0.497285,
+        0.867587
+      ],
+      "halfLength": 5.62,
+      "halfWidth": 3.11,
+      "height": 45.146,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.65,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        218199.9,
+        512797.31
+      ],
+      "axis": [
+        -0.497285,
+        -0.867587
+      ],
+      "halfLength": 11.24,
+      "halfWidth": 3.92,
+      "height": 46.296,
+      "gradient": [
+        -0.01335,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        218222.25,
+        512836.32
+      ],
+      "axis": [
+        0.497285,
+        0.867587
+      ],
+      "halfLength": 11.24,
+      "halfWidth": 3.92,
+      "height": 46.267,
+      "gradient": [
+        -0.01593,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0160.5ea7a07febdc491f8cea18fbff1ec79a"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0160.5ea7a07febdc491f8cea18fbff1ec79a",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/182504916",
+        "tags": {
+          "bridge": "yes",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "De Maat",
+          "smoothness": "good",
+          "surface": "asphalt"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 200000,500000,220000,520000 --run nl-10_10 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 22.5,
+      "dekBreedte": 5.2,
+      "brugLengte": 22.5,
+      "water": [
+        -5.7,
+        5.3
+      ],
+      "portaalhoogte": 4.7,
+      "opritafstand": [
+        13.5,
+        13.5
+      ],
+      "oprithelling": 22.5,
+      "doorstekend": [
+        {
+          "gmlId": "G0160.d52c527ce57d4dbd89f07383e01d1458",
+          "klasse": "Terrain",
+          "oppervlak": 517.7,
+          "onderDek": 0.01,
+          "bovenDekOnderkant": 0.65,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0160.c1471be7ad6f45169f8ff01c6f34bf05",
+          "klasse": "Terrain",
+          "oppervlak": 583.9,
+          "onderDek": 0.01,
+          "bovenDekOnderkant": 0.6,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        46.146,
+        46.088
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

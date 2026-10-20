@@ -1,0 +1,132 @@
+{
+  "name": "Sluisbrug",
+  "file": "hasselt-sluisbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    202746.03,
+    511554.96
+  ],
+  "xAxis": [
+    -0.861468,
+    0.507812
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 45.443,
+  "groundSamplePoints": [
+    [
+      -7.83,
+      0
+    ],
+    [
+      7.83,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G1896.2ba1f8a847bc4ef99565fa0e55cecdb1"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        202752.16,
+        511551.35
+      ],
+      "axis": [
+        0.861468,
+        -0.507812
+      ],
+      "halfLength": 3.56,
+      "halfWidth": 3.79,
+      "height": 45.726,
+      "gradient": [
+        -0.04215,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        202739.89,
+        511558.57
+      ],
+      "axis": [
+        -0.861468,
+        0.507812
+      ],
+      "halfLength": 3.56,
+      "halfWidth": 3.79,
+      "height": 45.659,
+      "gradient": [
+        -0.06085,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G1896.2ba1f8a847bc4ef99565fa0e55cecdb1"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G1896.2ba1f8a847bc4ef99565fa0e55cecdb1",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/779875652",
+        "tags": {
+          "bridge": "movable",
+          "highway": "tertiary",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "30",
+          "name": "Eiland",
+          "smoothness": "good",
+          "surface": "wood",
+          "bridge:movable": "bascule",
+          "bridge:name": "Sluisbrug",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "basculebrug",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 200000,500000,220000,520000 --run nl-10_10 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 7.1,
+      "dekBreedte": 5.1,
+      "brugLengte": 7.1,
+      "water": [
+        -2.6,
+        2.4
+      ],
+      "portaalhoogte": 4.5,
+      "opritafstand": [
+        4.3,
+        4.3
+      ],
+      "oprithelling": 7.1,
+      "doorstekend": [],
+      "opritHoogtes": [
+        45.576,
+        45.443
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

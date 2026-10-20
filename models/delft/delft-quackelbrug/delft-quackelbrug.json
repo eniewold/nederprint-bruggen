@@ -1,0 +1,135 @@
+{
+  "name": "Quackelbrug",
+  "file": "delft-quackelbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    85158.82,
+    447418.39
+  ],
+  "xAxis": [
+    -0.2763,
+    -0.961071
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 45.136,
+  "groundSamplePoints": [
+    [
+      -6.92,
+      0
+    ],
+    [
+      6.92,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0503.032e68f09d7349cce0532ee22091b28c"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        85160.45,
+        447424.08
+      ],
+      "axis": [
+        0.2763,
+        0.961071
+      ],
+      "halfLength": 3,
+      "halfWidth": 21.14,
+      "height": 45.306,
+      "gradient": [
+        -0.05669,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        85157.18,
+        447412.71
+      ],
+      "axis": [
+        -0.2763,
+        -0.961071
+      ],
+      "halfLength": 3,
+      "halfWidth": 21.14,
+      "height": 45.326,
+      "gradient": [
+        -0.05,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0503.032e68f09d7349cce0532ee22091b28c"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0503.032e68f09d7349cce0532ee22091b28c",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/547724014",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "yes",
+          "foot": "no",
+          "highway": "secondary",
+          "lanes": "1",
+          "layer": "1",
+          "maxspeed": "50",
+          "maxweight:signed": "no",
+          "name": "Quackelbrug",
+          "oneway": "yes",
+          "surface": "asphalt",
+          "zone:traffic": "NL:urban",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,440000,100000,460000 --run nl-4_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 5.8,
+      "dekBreedte": 38.3,
+      "brugLengte": 5.8,
+      "water": [
+        -2.4,
+        2.6
+      ],
+      "portaalhoogte": 34.5,
+      "opritafstand": [
+        4,
+        4
+      ],
+      "oprithelling": 6,
+      "doorstekend": [],
+      "opritHoogtes": [
+        45.136,
+        45.176
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

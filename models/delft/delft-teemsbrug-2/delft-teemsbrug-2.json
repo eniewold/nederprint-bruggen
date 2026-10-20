@@ -1,0 +1,142 @@
+{
+  "name": "Teemsbrug",
+  "file": "delft-teemsbrug-2.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    84367.57,
+    447455.41
+  ],
+  "xAxis": [
+    0.446347,
+    -0.89486
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 44.711,
+  "groundSamplePoints": [
+    [
+      -5.5,
+      0
+    ],
+    [
+      5.5,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0503.032e68f09dd449cce0532ee22091b28c"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        84365.56,
+        447459.44
+      ],
+      "axis": [
+        -0.446347,
+        0.89486
+      ],
+      "halfLength": 3,
+      "halfWidth": 6.08,
+      "height": 45.063,
+      "gradient": [
+        -0.05,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        84369.58,
+        447451.39
+      ],
+      "axis": [
+        0.446347,
+        -0.89486
+      ],
+      "halfLength": 3,
+      "halfWidth": 6.08,
+      "height": 44.962,
+      "gradient": [
+        -0.08363,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0503.032e68f09dd449cce0532ee22091b28c"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0503.032e68f09dd449cce0532ee22091b28c",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/547674814",
+        "tags": {
+          "bicycle": "yes",
+          "bridge": "yes",
+          "bridge:name": "Teemsbrug",
+          "description": "autoluwe binnenstad, toegang voor motorvoertuigen alleen met (dag)ontheffing",
+          "emergency": "yes",
+          "highway": "pedestrian",
+          "layer": "1",
+          "lit": "yes",
+          "motor_vehicle": "permit",
+          "motor_vehicle:conditional": "destination @ (Mo-Fr,Su 07:00-12:00, Sa 07:00-10:00)",
+          "name": "Teemsbrug",
+          "parking:both": "no",
+          "surface": "paving_stones",
+          "wikidata": "Q17331020",
+          "zone:traffic": "NL:urban",
+          "bridge:structure": "humpback",
+          "heritage": "2",
+          "heritage:operator": "rce",
+          "man_made": "bridge",
+          "ref:rce": "12303"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "bolbrug",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,440000,100000,460000 --run nl-4_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 3,
+      "dekBreedte": 8.2,
+      "brugLengte": 3,
+      "water": [
+        -1,
+        1
+      ],
+      "portaalhoogte": 7.4,
+      "opritafstand": [
+        4,
+        4
+      ],
+      "oprithelling": 6,
+      "bolling": 0.5,
+      "doorstekend": [],
+      "opritHoogtes": [
+        44.913,
+        44.711
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

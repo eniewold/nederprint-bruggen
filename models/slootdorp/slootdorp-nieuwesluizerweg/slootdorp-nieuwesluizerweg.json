@@ -1,0 +1,187 @@
+{
+  "name": "Nieuwesluizerweg",
+  "file": "slootdorp-nieuwesluizerweg.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    122027.87,
+    538354.48
+  ],
+  "xAxis": [
+    -0.9984,
+    0.056552
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 44.324,
+  "groundSamplePoints": [
+    [
+      -66.91,
+      0
+    ],
+    [
+      66.91,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G1911.d3063c5c5cd04b84a71496f0ffd7c03a"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        122027.87,
+        538354.48
+      ],
+      "axis": [
+        -0.9984,
+        0.056552
+      ],
+      "halfLength": 40.91,
+      "halfWidth": 6.93,
+      "height": 44.059,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -2.03,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        122086.68,
+        538351.15
+      ],
+      "axis": [
+        0.9984,
+        -0.056552
+      ],
+      "halfLength": 12,
+      "halfWidth": 8.43,
+      "height": 44.841,
+      "gradient": [
+        -0.0431,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        121969.05,
+        538357.81
+      ],
+      "axis": [
+        -0.9984,
+        0.056552
+      ],
+      "halfLength": 12,
+      "halfWidth": 8.43,
+      "height": 45.209,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G1911.d3063c5c5cd04b84a71496f0ffd7c03a"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G1911.d3063c5c5cd04b84a71496f0ffd7c03a",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/728000452",
+        "tags": {
+          "bridge": "movable",
+          "bridge:movable": "bascule",
+          "bridge:name": "Nieuwesluizerbrug",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "80",
+          "name": "Nieuwesluizerweg",
+          "man_made": "bridge"
+        }
+      },
+      "fis": {
+        "id": 28727,
+        "naam": "Nieuwesluizerbrug",
+        "afstand": 6,
+        "beweegbaar": true,
+        "doorvaarthoogteGesloten": 2.9
+      },
+      "pdokBridgeVlakken": 1
+    },
+    "type": "basculebrug",
+    "doorvaarthoogte": 2.9,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,520000,140000,540000 --run nl-6_11 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 93.8,
+      "dekBreedte": 12.9,
+      "brugLengte": 93.8,
+      "water": [
+        -25.4,
+        33.6
+      ],
+      "portaalhoogte": 11.6,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G1911.18a3fa62e74842b58ddefc8f35c0447b",
+          "klasse": "Road",
+          "oppervlak": 1535.7,
+          "onderDek": 0.02,
+          "bovenDekOnderkant": 1.03,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "W0651.2be07912bfe24cc796032584e98d0449",
+          "klasse": "Forest",
+          "oppervlak": 156.4,
+          "onderDek": 0.03,
+          "bovenDekOnderkant": 0.89,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G1911.b68468a4af064537bec58a3b8bb6c7fd",
+          "klasse": "Terrain",
+          "oppervlak": 9.6,
+          "onderDek": 0.53,
+          "bovenDekOnderkant": 0.74,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G1911.9c53510dac7348b59bf740e433af227f",
+          "klasse": "Forest",
+          "oppervlak": 78.1,
+          "onderDek": 0.45,
+          "bovenDekOnderkant": 0.61,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        44.324,
+        45.059
+      ]
+    },
+    "waarschuwingen": [
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "4 PDOK-vorm(en) door het dek: 0 verborgen, 4 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

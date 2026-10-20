@@ -1,0 +1,178 @@
+{
+  "name": "Kolksluisbrug",
+  "file": "zwartsluis-kolksluisbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    201327.73,
+    517096.82
+  ],
+  "xAxis": [
+    0.534481,
+    -0.84518
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 45.516,
+  "groundSamplePoints": [
+    [
+      -12.09,
+      0
+    ],
+    [
+      12.09,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "P0023.a987a0e2289a4984838810b4cf74403a"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        201327.73,
+        517096.82
+      ],
+      "axis": [
+        0.534481,
+        -0.84518
+      ],
+      "halfLength": 2.75,
+      "halfWidth": 6.04,
+      "height": 44.998,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.76,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        201321.86,
+        517106.11
+      ],
+      "axis": [
+        -0.534481,
+        0.84518
+      ],
+      "halfLength": 5.5,
+      "halfWidth": 7.54,
+      "height": 45.907,
+      "gradient": [
+        -0.07107,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        201333.61,
+        517087.52
+      ],
+      "axis": [
+        0.534481,
+        -0.84518
+      ],
+      "halfLength": 5.5,
+      "halfWidth": 7.54,
+      "height": 46.148,
+      "gradient": [
+        -0.02728,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "P0023.a987a0e2289a4984838810b4cf74403a"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "P0023.a987a0e2289a4984838810b4cf74403a",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/842794374",
+        "tags": {
+          "bicycle": "no",
+          "bridge": "movable",
+          "foot": "use_sidepath",
+          "highway": "primary",
+          "lanes": "2",
+          "layer": "1",
+          "maxspeed": "50",
+          "maxspeed:type": "NL:urban",
+          "mofa": "no",
+          "moped": "no",
+          "name": "Kolksluisbrug",
+          "operator": "Provincie Overijssel",
+          "overtaking": "no",
+          "priority_road": "designated",
+          "ref": "N331",
+          "surface": "asphalt",
+          "zone:traffic": "NL:urban",
+          "bridge:movable": "bascule",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "basculebrug",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 200000,500000,220000,520000 --run nl-10_10 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 11,
+      "dekBreedte": 11.1,
+      "brugLengte": 11,
+      "water": [
+        -4,
+        4
+      ],
+      "portaalhoogte": 10,
+      "opritafstand": [
+        6.6,
+        6.6
+      ],
+      "oprithelling": 11,
+      "doorstekend": [
+        {
+          "gmlId": "L0002.0a1b509493b84b0bae4dcdbfb1410844",
+          "klasse": "Separation",
+          "oppervlak": 2.2,
+          "onderDek": 0.5,
+          "bovenDekOnderkant": 0.76,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "L0002.6d705939d6e542e2bd29e1adc0ba2194",
+          "klasse": "Separation",
+          "oppervlak": 2.3,
+          "onderDek": 0.49,
+          "bovenDekOnderkant": 0.75,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        45.516,
+        45.998
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

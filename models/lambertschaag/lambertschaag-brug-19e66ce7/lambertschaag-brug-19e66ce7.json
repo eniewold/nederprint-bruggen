@@ -1,0 +1,183 @@
+{
+  "name": "Dijkweg",
+  "file": "lambertschaag-brug-19e66ce7.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    131135.62,
+    529436.55
+  ],
+  "xAxis": [
+    0.997703,
+    0.067735
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 48.431,
+  "groundSamplePoints": [
+    [
+      -50.9,
+      0
+    ],
+    [
+      50.9,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "P0027.19e66ce7f2d5493ba839d099bda7e9e0",
+    "L0002.4eb14d8b6f444418bf2a4eedfa57dcf1",
+    "L0002.74fdf53f827946fab3aeb2499072cd0c",
+    "L0002.c8db0fe6be7e45a1b3323d2f23d6c6f3"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        131135.62,
+        529436.55
+      ],
+      "axis": [
+        0.997703,
+        0.067735
+      ],
+      "halfLength": 24.9,
+      "halfWidth": 15.19,
+      "height": 47.458,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.28,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        131092.81,
+        529433.65
+      ],
+      "axis": [
+        -0.997703,
+        -0.067735
+      ],
+      "halfLength": 12,
+      "halfWidth": 16.69,
+      "height": 48.608,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        131178.42,
+        529439.46
+      ],
+      "axis": [
+        0.997703,
+        0.067735
+      ],
+      "halfLength": 12,
+      "halfWidth": 16.69,
+      "height": 48.594,
+      "gradient": [
+        -0.0136,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "P0027.19e66ce7f2d5493ba839d099bda7e9e0"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "P0027.19e66ce7f2d5493ba839d099bda7e9e0",
+          "type": "dek"
+        },
+        {
+          "id": "L0002.4eb14d8b6f444418bf2a4eedfa57dcf1",
+          "type": "onbekend"
+        },
+        {
+          "id": "L0002.74fdf53f827946fab3aeb2499072cd0c",
+          "type": "onbekend"
+        },
+        {
+          "id": "L0002.c8db0fe6be7e45a1b3323d2f23d6c6f3",
+          "type": "onbekend"
+        }
+      ],
+      "osm": {
+        "id": "way/6583306",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "yes",
+          "foot": "use_sidepath",
+          "highway": "primary",
+          "layer": "1",
+          "maxspeed": "50",
+          "mofa": "use_sidepath",
+          "moped": "use_sidepath",
+          "name": "Dijkweg",
+          "operator": "Provincie Noord-Holland",
+          "ref": "N239",
+          "source:maxspeed": "sign",
+          "surface": "asphalt"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 4
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,520000,140000,540000 --run nl-6_11 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 61.8,
+      "dekBreedte": 29.4,
+      "brugLengte": 61.8,
+      "water": null,
+      "portaalhoogte": 26.4,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "P0027.be1caacb07fa45e48afe9c30ae021a39",
+          "klasse": "Terrain",
+          "oppervlak": 353.1,
+          "onderDek": 0.63,
+          "bovenDekOnderkant": 0.28,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "P0027.a1aec3a621264fb1b87f32347444e2e8",
+          "klasse": "Terrain",
+          "oppervlak": 321.5,
+          "onderDek": 0.67,
+          "bovenDekOnderkant": 0.25,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        48.458,
+        48.431
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

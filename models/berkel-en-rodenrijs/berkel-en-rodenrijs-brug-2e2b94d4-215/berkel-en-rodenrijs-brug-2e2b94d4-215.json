@@ -1,0 +1,165 @@
+{
+  "name": "Middelweg",
+  "file": "berkel-en-rodenrijs-brug-2e2b94d4-215.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    92757.55,
+    447680.26
+  ],
+  "xAxis": [
+    0.857716,
+    0.514124
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 39.132,
+  "groundSamplePoints": [
+    [
+      -33.05,
+      0
+    ],
+    [
+      33.05,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G1621.2e2b94d4877c4b6be05332a1e90a2401"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        92757.55,
+        447680.26
+      ],
+      "axis": [
+        0.857716,
+        0.514124
+      ],
+      "halfLength": 9.02,
+      "halfWidth": 3.03,
+      "height": 38.518,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -2.1,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        92734.38,
+        447666.37
+      ],
+      "axis": [
+        -0.857716,
+        -0.514124
+      ],
+      "halfLength": 12,
+      "halfWidth": 3.79,
+      "height": 39.475,
+      "gradient": [
+        -0.02858,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        92780.73,
+        447694.15
+      ],
+      "axis": [
+        0.857716,
+        0.514124
+      ],
+      "halfLength": 12,
+      "halfWidth": 3.79,
+      "height": 39.668,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G1621.2e2b94d4877c4b6be05332a1e90a2401"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G1621.2e2b94d4877c4b6be05332a1e90a2401",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1156466527",
+        "tags": {
+          "bridge": "yes",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Middelweg",
+          "zone:traffic": "NL:rural",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,440000,100000,460000 --run nl-4_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 30,
+      "dekBreedte": 5.1,
+      "brugLengte": 30,
+      "water": [
+        -6,
+        7
+      ],
+      "portaalhoogte": 4.6,
+      "opritafstand": [
+        18,
+        18
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G1621.4a8db3555b6c4a9db84b97781f0bbd95",
+          "klasse": "Terrain",
+          "oppervlak": 33.9,
+          "onderDek": 0.42,
+          "bovenDekOnderkant": 1.1,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G1621.f3f4ec7070e2489ca1307dc822178248",
+          "klasse": "Terrain",
+          "oppervlak": 29.8,
+          "onderDek": 0.3,
+          "bovenDekOnderkant": 1,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        39.132,
+        39.518
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

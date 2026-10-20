@@ -1,0 +1,179 @@
+{
+  "name": "Reineveldbrug",
+  "file": "delft-reineveldbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    83979.87,
+    448405.96
+  ],
+  "xAxis": [
+    0.011239,
+    -0.999937
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 43.241,
+  "groundSamplePoints": [
+    [
+      -42.28,
+      -2.21
+    ],
+    [
+      12.21,
+      -2.25
+    ]
+  ],
+  "replacesTerrain": [
+    "G0503.032e68f09e4849cce0532ee22091b28c"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        83979.87,
+        448405.96
+      ],
+      "axis": [
+        0.011239,
+        -0.999937
+      ],
+      "halfLength": 1.12,
+      "halfWidth": 10.62,
+      "height": 43.424,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.35,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        83979.81,
+        448411.24
+      ],
+      "axis": [
+        -0.011239,
+        0.999937
+      ],
+      "halfLength": 3,
+      "halfWidth": 12.12,
+      "height": 43.982,
+      "gradient": [
+        -0.24723,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        83979.93,
+        448400.75
+      ],
+      "axis": [
+        0.011239,
+        -0.999937
+      ],
+      "halfLength": 3,
+      "halfWidth": 12.12,
+      "height": 44.574,
+      "gradient": [
+        -0.05,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0503.032e68f09e4849cce0532ee22091b28c"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0503.032e68f09e4849cce0532ee22091b28c",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/424755470",
+        "tags": {
+          "bridge": "movable",
+          "bridge:movable": "bascule",
+          "bridge:name": "Reineveldbrug",
+          "cycleway": "lane",
+          "embedded_rails:lanes:backward": "tram|",
+          "embedded_rails:lanes:forward": "tram|",
+          "highway": "secondary",
+          "lanes": "4",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "50",
+          "name": "Reineveldbrug",
+          "name:etymology:wikidata": "Q2265180",
+          "sidewalk": "left",
+          "surface": "asphalt",
+          "zone:traffic": "NL:urban",
+          "man_made": "bridge",
+          "wikidata": "Q15943638",
+          "wikipedia": "nl:Reineveldbrug"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "basculebrug",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,440000,100000,460000 --run nl-4_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 4.5,
+      "dekBreedte": 20.2,
+      "brugLengte": 4.5,
+      "water": null,
+      "portaalhoogte": 18.2,
+      "opritafstand": [
+        40,
+        10
+      ],
+      "spoorhoogteBron": "pdok",
+      "oprithelling": 6,
+      "doorstekend": [
+        {
+          "gmlId": "G0503.24bfb6ec26cd4d6cadfa9385585b23af",
+          "klasse": "Road",
+          "oppervlak": 1223.3,
+          "onderDek": 0.05,
+          "bovenDekOnderkant": 0.35,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0503.701e549709574bf1a94eccebaeff03d5",
+          "klasse": "Separation",
+          "oppervlak": 2.3,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.25,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        43.241,
+        44.424
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "oprit -: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "oprit -: spoorterrein voorbij 150 m nog 2.2 m hoger (45.4 m); PDOK trekt het spoor hier ver naar beneden, controleer de dekhoogte of geef --opritafstand",
+      "oprit - pas op 40 m langs het spoor gemeten (PDOK-spoorterrein bij de brug lager)",
+      "oprit +: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

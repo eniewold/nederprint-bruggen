@@ -1,0 +1,169 @@
+{
+  "name": "Almersdorperweg",
+  "file": "opperdoes-brug-8abeacd5.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    133583.12,
+    531105.72
+  ],
+  "xAxis": [
+    0.672686,
+    -0.739928
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 42.788,
+  "groundSamplePoints": [
+    [
+      -16.1,
+      0
+    ],
+    [
+      16.1,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "W0651.8abeacd54a8b7500047d6a3829c1a819",
+    "W0651.8abeacd5439b757600000000a0819225"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        133583.12,
+        531105.72
+      ],
+      "axis": [
+        0.672686,
+        -0.739928
+      ],
+      "halfLength": 3.66,
+      "halfWidth": 15.91,
+      "height": 42.207,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.43,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        133573.27,
+        531116.55
+      ],
+      "axis": [
+        -0.672686,
+        0.739928
+      ],
+      "halfLength": 7.32,
+      "halfWidth": 17.41,
+      "height": 43.357,
+      "gradient": [
+        -0.02049,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        133592.96,
+        531094.88
+      ],
+      "axis": [
+        0.672686,
+        -0.739928
+      ],
+      "halfLength": 7.32,
+      "halfWidth": 17.41,
+      "height": 43.148,
+      "gradient": [
+        -0.04909,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "W0651.8abeacd54a8b7500047d6a3829c1a819"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "W0651.8abeacd54a8b7500047d6a3829c1a819",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/6582791",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "yes",
+          "foot": "use_sidepath",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "80",
+          "mofa": "use_sidepath",
+          "moped": "use_sidepath",
+          "name": "Almersdorperweg",
+          "uic_name": "no"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,520000,140000,540000 --run nl-6_11 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 14.6,
+      "dekBreedte": 30.8,
+      "brugLengte": 14.6,
+      "water": [
+        -5.8,
+        3.2
+      ],
+      "portaalhoogte": 27.7,
+      "opritafstand": [
+        8.8,
+        8.8
+      ],
+      "oprithelling": 14.6,
+      "doorstekend": [
+        {
+          "gmlId": "W0651.8abeacd5439b757600000000a0819225",
+          "klasse": "Road",
+          "oppervlak": 9.9,
+          "onderDek": 1,
+          "bovenDekOnderkant": 0.52,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "W0651.8d2b757f175a43258ac944f5ef04423f",
+          "klasse": "Terrain",
+          "oppervlak": 78.8,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.43,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        43.207,
+        42.788
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 1 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

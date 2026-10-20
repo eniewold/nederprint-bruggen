@@ -1,0 +1,189 @@
+{
+  "name": "Conradsweg",
+  "file": "rouveen-brug-1bdf48bb.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    203080.13,
+    516740.41
+  ],
+  "xAxis": [
+    0.526366,
+    0.850258
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 42.129,
+  "groundSamplePoints": [
+    [
+      -45.63,
+      0
+    ],
+    [
+      45.63,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "W0151.1bdf48bba8fb4a26ad0fe1f02620e87a",
+    "G0180.41618141155f4ac087690ffa7980e794",
+    "G0180.db56e7451b814591966031e464d6361f"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        203080.13,
+        516740.41
+      ],
+      "axis": [
+        0.526366,
+        0.850258
+      ],
+      "halfLength": 19.63,
+      "halfWidth": 4.33,
+      "height": 41.31,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -2.55,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        203060.33,
+        516708.42
+      ],
+      "axis": [
+        -0.526366,
+        -0.850258
+      ],
+      "halfLength": 12,
+      "halfWidth": 5.74,
+      "height": 42.369,
+      "gradient": [
+        -0.02005,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        203099.94,
+        516772.4
+      ],
+      "axis": [
+        0.526366,
+        0.850258
+      ],
+      "halfLength": 12,
+      "halfWidth": 5.74,
+      "height": 42.46,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "W0151.1bdf48bba8fb4a26ad0fe1f02620e87a",
+      "G0180.41618141155f4ac087690ffa7980e794"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "W0151.1bdf48bba8fb4a26ad0fe1f02620e87a",
+          "type": "dek"
+        },
+        {
+          "id": "G0180.41618141155f4ac087690ffa7980e794",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1299385259",
+        "tags": {
+          "bridge": "yes",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Conradsweg",
+          "smoothness": "good",
+          "surface": "asphalt",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 2
+    },
+    "type": "ophaalbrug",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 200000,500000,220000,520000 --run nl-10_10 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 51.3,
+      "dekBreedte": 7.7,
+      "brugLengte": 51.3,
+      "water": [
+        -25.6,
+        25.4
+      ],
+      "portaalhoogte": 6.9,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0180.db56e7451b814591966031e464d6361f",
+          "klasse": "Terrain",
+          "oppervlak": 17.1,
+          "onderDek": 0.75,
+          "bovenDekOnderkant": 1.63,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "G0180.a3e02280861d4c679a0546b3c7df68d3",
+          "klasse": "Terrain",
+          "oppervlak": 34.8,
+          "onderDek": 0.32,
+          "bovenDekOnderkant": 1.55,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0180.f7df4840caab48659689522c5a41e8bf",
+          "klasse": "Terrain",
+          "oppervlak": 1.9,
+          "onderDek": 0.02,
+          "bovenDekOnderkant": 1.48,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "L0001.9c4d3c868d274b56a6069695707c6e64",
+          "klasse": "Terrain",
+          "oppervlak": 33.4,
+          "onderDek": 0.04,
+          "bovenDekOnderkant": 0.1,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        42.129,
+        42.31
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "4 PDOK-vorm(en) door het dek: 1 verborgen, 3 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

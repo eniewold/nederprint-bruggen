@@ -1,0 +1,143 @@
+{
+  "name": "Catharijnebrug",
+  "file": "delft-catharijnebrug-2.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    85034.46,
+    447447.12
+  ],
+  "xAxis": [
+    0.260984,
+    0.965343
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 44.556,
+  "groundSamplePoints": [
+    [
+      -6.97,
+      0
+    ],
+    [
+      6.97,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0503.032e68f09d7049cce0532ee22091b28c"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        85032.9,
+        447441.36
+      ],
+      "axis": [
+        -0.260984,
+        -0.965343
+      ],
+      "halfLength": 3,
+      "halfWidth": 8.8,
+      "height": 44.794,
+      "gradient": [
+        -0.07916,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        85036.01,
+        447452.87
+      ],
+      "axis": [
+        0.260984,
+        0.965343
+      ],
+      "halfLength": 3,
+      "halfWidth": 8.8,
+      "height": 44.881,
+      "gradient": [
+        -0.05,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0503.032e68f09d7049cce0532ee22091b28c"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0503.032e68f09d7049cce0532ee22091b28c",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/138479406",
+        "tags": {
+          "bridge": "yes",
+          "highway": "residential",
+          "lane_markings": "no",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "30",
+          "maxweight:signed": "no",
+          "name": "Catharijnebrug",
+          "sidewalk": "both",
+          "sidewalk:both:surface": "paving_stones",
+          "surface": "paving_stones",
+          "wikidata": "Q17330972",
+          "zone:traffic": "NL:urban",
+          "bridge:structure": "humpback",
+          "heritage": "2",
+          "heritage:operator": "rce",
+          "man_made": "bridge",
+          "ref:rce": "12278",
+          "wikipedia": "nl:Catharijnebrug (Delft)",
+          "bridge:movable": "drawbridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ophaalbrug",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,440000,100000,460000 --run nl-4_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 5.9,
+      "dekBreedte": 13.6,
+      "brugLengte": 5.9,
+      "water": [
+        -2.5,
+        2.5
+      ],
+      "portaalhoogte": 12.2,
+      "opritafstand": [
+        4,
+        4
+      ],
+      "oprithelling": 6,
+      "doorstekend": [],
+      "opritHoogtes": [
+        44.556,
+        44.731
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "OSM zegt humpback, gekozen type ophaalbrug",
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

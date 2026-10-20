@@ -1,0 +1,192 @@
+{
+  "name": "Amertakbrug",
+  "file": "made-amertakbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    116485.24,
+    411964.17
+  ],
+  "xAxis": [
+    -0.988631,
+    -0.150361
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 52.654,
+  "groundSamplePoints": [
+    [
+      -112.58,
+      0
+    ],
+    [
+      112.58,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "L0002.85c1da31ce7d45deba7964dd274eea06",
+    "L0002.d7a30ee695f84d1995fdafb8f688c6c1",
+    "G1719.2ce83bdff41c126de05332a1e90af747",
+    "G0779.28ac9b9d94a51e92e05332a1e90a19ef",
+    "G1719.b3ff5291a36b4eadbdf526a79d2ccbef"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        116485.24,
+        411964.17
+      ],
+      "axis": [
+        -0.988631,
+        -0.150361
+      ],
+      "halfLength": 86.58,
+      "halfWidth": 11.77,
+      "height": 51.69,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.54,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        116588.64,
+        411979.9
+      ],
+      "axis": [
+        0.988631,
+        0.150361
+      ],
+      "halfLength": 12,
+      "halfWidth": 13.27,
+      "height": 52.84,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        116381.85,
+        411948.45
+      ],
+      "axis": [
+        -0.988631,
+        -0.150361
+      ],
+      "halfLength": 12,
+      "halfWidth": 13.27,
+      "height": 52.822,
+      "gradient": [
+        -0.01403,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G1719.2ce83bdff41c126de05332a1e90af747"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "L0002.85c1da31ce7d45deba7964dd274eea06",
+          "type": "onbekend"
+        },
+        {
+          "id": "L0002.d7a30ee695f84d1995fdafb8f688c6c1",
+          "type": "onbekend"
+        },
+        {
+          "id": "G1719.2ce83bdff41c126de05332a1e90af747",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/664696224",
+        "tags": {
+          "bridge": "viaduct",
+          "bridge:structure": "beam",
+          "layer": "1",
+          "man_made": "bridge",
+          "name": "Amertakbrug",
+          "bridge:movable": "bascule"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 3
+    },
+    "type": "basculebrug",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,400000,120000,420000 --run nl-5_5 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 185.2,
+      "dekBreedte": 22.5,
+      "brugLengte": 185.2,
+      "water": [
+        -49.6,
+        0.9
+      ],
+      "portaalhoogte": 20.3,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0779.28ac9b9d94a51e92e05332a1e90a19ef",
+          "klasse": "Terrain",
+          "oppervlak": 208.4,
+          "onderDek": 0.74,
+          "bovenDekOnderkant": 0.7,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "G1719.b3ff5291a36b4eadbdf526a79d2ccbef",
+          "klasse": "Terrain",
+          "oppervlak": 208.1,
+          "onderDek": 0.72,
+          "bovenDekOnderkant": 0.54,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "G1719.c3c467c87eeb430b9d376eb3042f1c01",
+          "klasse": "Forest",
+          "oppervlak": 248.2,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.54,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0779.28ac9b9d966e1e92e05332a1e90a19ef",
+          "klasse": "Forest",
+          "oppervlak": 219.1,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.54,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        52.69,
+        52.654
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "4 PDOK-vorm(en) door het dek: 2 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

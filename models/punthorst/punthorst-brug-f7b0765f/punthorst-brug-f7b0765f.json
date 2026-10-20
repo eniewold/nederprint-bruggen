@@ -1,0 +1,162 @@
+{
+  "name": "punthorst-brug-f7b0765f",
+  "file": "punthorst-brug-f7b0765f.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    213811.24,
+    512287.45
+  ],
+  "xAxis": [
+    -0.978145,
+    -0.207924
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 44.811,
+  "groundSamplePoints": [
+    [
+      -6.54,
+      0
+    ],
+    [
+      6.54,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0180.f7b0765f635642f99664272df1fe9cff"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        213811.24,
+        512287.45
+      ],
+      "axis": [
+        -0.978145,
+        -0.207924
+      ],
+      "halfLength": 1.27,
+      "halfWidth": 4.27,
+      "height": 43.812,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.66,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        213816.66,
+        512288.6
+      ],
+      "axis": [
+        0.978145,
+        0.207924
+      ],
+      "halfLength": 3,
+      "halfWidth": 5.65,
+      "height": 44.962,
+      "gradient": [
+        -0.05,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        213805.81,
+        512286.29
+      ],
+      "axis": [
+        -0.978145,
+        -0.207924
+      ],
+      "halfLength": 3,
+      "halfWidth": 5.65,
+      "height": 44.961,
+      "gradient": [
+        -0.05019,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0180.f7b0765f635642f99664272df1fe9cff"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0180.f7b0765f635642f99664272df1fe9cff",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/456184472",
+        "tags": {
+          "bridge": "yes",
+          "highway": "service",
+          "layer": "1",
+          "service": "driveway"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 200000,500000,220000,520000 --run nl-10_10 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 5.1,
+      "dekBreedte": 7.5,
+      "brugLengte": 5.1,
+      "water": [
+        -2,
+        1
+      ],
+      "portaalhoogte": 6.8,
+      "opritafstand": [
+        4,
+        4
+      ],
+      "oprithelling": 6,
+      "doorstekend": [
+        {
+          "gmlId": "G0180.8dbc78b779cd4415ac06f0860c1fb88d",
+          "klasse": "Terrain",
+          "oppervlak": 49.6,
+          "onderDek": 0.02,
+          "bovenDekOnderkant": 0.66,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0180.725d8a5f7a664719a932b74e06d8e076",
+          "klasse": "Road",
+          "oppervlak": 8,
+          "onderDek": 0.02,
+          "bovenDekOnderkant": 0.41,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        44.812,
+        44.811
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}
