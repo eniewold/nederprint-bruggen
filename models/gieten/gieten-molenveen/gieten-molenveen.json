@@ -1,0 +1,137 @@
+{
+  "name": "Molenveen",
+  "file": "gieten-molenveen.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    246202.03,
+    558949.77
+  ],
+  "xAxis": [
+    0.316228,
+    -0.948683
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 59.836,
+  "groundSamplePoints": [
+    [
+      -49.04,
+      0
+    ],
+    [
+      49.04,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G1680.8833f54c3b104565826e810b565ce6ea",
+    "L0002.45b19f795e5341df91fd79cc3630d0ff"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        246189.05,
+        558988.71
+      ],
+      "axis": [
+        -0.316228,
+        0.948683
+      ],
+      "halfLength": 12,
+      "halfWidth": 4.84,
+      "height": 61.024,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        246215,
+        558910.83
+      ],
+      "axis": [
+        0.316228,
+        -0.948683
+      ],
+      "halfLength": 12,
+      "halfWidth": 4.84,
+      "height": 60.505,
+      "gradient": [
+        -0.05573,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G1680.8833f54c3b104565826e810b565ce6ea"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G1680.8833f54c3b104565826e810b565ce6ea",
+          "type": "dek"
+        },
+        {
+          "id": "L0002.45b19f795e5341df91fd79cc3630d0ff",
+          "type": "onbekend"
+        }
+      ],
+      "osm": {
+        "id": "way/786574777",
+        "tags": {
+          "bridge": "yes",
+          "foot": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "lit": "yes",
+          "mofa": "designated",
+          "moped": "designated",
+          "segregated": "no",
+          "smoothness": "good",
+          "surface": "asphalt",
+          "traffic_sign": "NL:G12a",
+          "bridge:structure": "beam",
+          "man_made": "bridge",
+          "name": "Molenveen"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 2
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,540000,260000,560000 --run nl-12_12 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 58.1,
+      "dekBreedte": 6.5,
+      "brugLengte": 58.1,
+      "water": null,
+      "portaalhoogte": 5.8,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [],
+      "opritHoogtes": [
+        60.874,
+        59.836
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}
