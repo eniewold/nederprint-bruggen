@@ -1,0 +1,183 @@
+{
+  "name": "Feldbiss",
+  "file": "sittard-feldbiss-3.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    187141,
+    335458.08
+  ],
+  "xAxis": [
+    0.838812,
+    -0.544421
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 94.09,
+  "groundSamplePoints": [
+    [
+      -39.97,
+      0
+    ],
+    [
+      39.97,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G1883.54abb08bdee12e44e05301b51eac02c8",
+    "G1883.cfceef1eb4361169e05301b51eacf934",
+    "G1883.cfceef1eb4371169e05301b51eacf934"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        187141,
+        335458.08
+      ],
+      "axis": [
+        0.838812,
+        -0.544421
+      ],
+      "halfLength": 13.97,
+      "halfWidth": 9.32,
+      "height": 93.134,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.87,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        187114.18,
+        335475.49
+      ],
+      "axis": [
+        -0.838812,
+        0.544421
+      ],
+      "halfLength": 12,
+      "halfWidth": 10.82,
+      "height": 94.262,
+      "gradient": [
+        -0.01433,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        187167.82,
+        335440.68
+      ],
+      "axis": [
+        0.838812,
+        -0.544421
+      ],
+      "halfLength": 12,
+      "halfWidth": 10.82,
+      "height": 94.284,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G1883.54abb08bdee12e44e05301b51eac02c8",
+      "G1883.cfceef1eb4361169e05301b51eacf934",
+      "G1883.cfceef1eb4371169e05301b51eacf934"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G1883.54abb08bdee12e44e05301b51eac02c8",
+          "type": "dek"
+        },
+        {
+          "id": "G1883.cfceef1eb4361169e05301b51eacf934",
+          "type": "dek"
+        },
+        {
+          "id": "G1883.cfceef1eb4371169e05301b51eacf934",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/727942199",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "yes",
+          "bridge:name": "Feldbiss",
+          "highway": "secondary",
+          "lanes": "2",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "50",
+          "name": "Feldbiss",
+          "old_ref": "N574",
+          "oneway": "yes",
+          "sidewalk": "separate",
+          "surface": "asphalt",
+          "turn:lanes": "left|through",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 3
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 180000,320000,200000,340000 --run nl-9_1 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 39.9,
+      "dekBreedte": 17.6,
+      "brugLengte": 39.9,
+      "water": null,
+      "portaalhoogte": 15.9,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "P0031.29e92c0aec5d16d6e053160d000ad0a7",
+          "klasse": "Terrain",
+          "oppervlak": 385.3,
+          "onderDek": 0.27,
+          "bovenDekOnderkant": 0.87,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "P0031.29e92c0ae97b16d6e053160d000ad0a7",
+          "klasse": "Terrain",
+          "oppervlak": 378.3,
+          "onderDek": 0.26,
+          "bovenDekOnderkant": 0.46,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        94.09,
+        94.134
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}
