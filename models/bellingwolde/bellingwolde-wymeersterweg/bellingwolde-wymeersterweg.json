@@ -1,0 +1,131 @@
+{
+  "name": "Wymeersterweg",
+  "file": "bellingwolde-wymeersterweg.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    275041.62,
+    572598.97
+  ],
+  "xAxis": [
+    -0.982293,
+    -0.18735
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 42.649,
+  "groundSamplePoints": [
+    [
+      -40.37,
+      0
+    ],
+    [
+      40.37,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0007.867068bc1ea7460f9efa88dbda1bb952"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        275073.42,
+        572605.03
+      ],
+      "axis": [
+        0.982293,
+        0.18735
+      ],
+      "halfLength": 12,
+      "halfWidth": 6.02,
+      "height": 42.852,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        275009.82,
+        572592.9
+      ],
+      "axis": [
+        -0.982293,
+        -0.18735
+      ],
+      "halfLength": 12,
+      "halfWidth": 6.02,
+      "height": 42.826,
+      "gradient": [
+        -0.01469,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0007.867068bc1ea7460f9efa88dbda1bb952"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0007.867068bc1ea7460f9efa88dbda1bb952",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/6362753",
+        "tags": {
+          "bridge": "movable",
+          "bridge:movable": "bascule",
+          "bridge:name": "Wymeersterbrug",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "80",
+          "name": "Wymeersterweg",
+          "smoothness": "intermediate",
+          "surface": "asphalt",
+          "width": "4"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "basculebrug",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 260000,560000,280000,580000 --run nl-13_13 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 40.7,
+      "dekBreedte": 8,
+      "brugLengte": 40.7,
+      "water": [
+        -14.4,
+        14.6
+      ],
+      "portaalhoogte": 7.2,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [],
+      "opritHoogtes": [
+        42.702,
+        42.649
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}
