@@ -1,0 +1,211 @@
+{
+  "name": "Brug in Noordlangeweg",
+  "file": "dinteloord-brug-in-noordlangeweg.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    88461.54,
+    403043.32
+  ],
+  "xAxis": [
+    0.938894,
+    -0.344206
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 52.822,
+  "groundSamplePoints": [
+    [
+      -79.99,
+      0
+    ],
+    [
+      79.99,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "P0030.438e99e1f960424eabd2ac921351f78d",
+    "P0030.0c20b0e566cc47ec94f7b43708de768f",
+    "P0030.00f6f9695c5ff68ae050120a080440dd",
+    "G0851.8054185b46c54cbca55461bc0a024cf7"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        88461.54,
+        403043.32
+      ],
+      "axis": [
+        0.938894,
+        -0.344206
+      ],
+      "halfLength": 53.99,
+      "halfWidth": 10.45,
+      "height": 51.906,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -2.25,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        88393.95,
+        403068.1
+      ],
+      "axis": [
+        -0.938894,
+        0.344206
+      ],
+      "halfLength": 12,
+      "halfWidth": 11.95,
+      "height": 53.056,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        88529.13,
+        403018.54
+      ],
+      "axis": [
+        0.938894,
+        -0.344206
+      ],
+      "halfLength": 12,
+      "halfWidth": 11.95,
+      "height": 53.014,
+      "gradient": [
+        -0.01598,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "P0030.00f6f9695c5ff68ae050120a080440dd"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "P0030.438e99e1f960424eabd2ac921351f78d",
+          "type": "landhoofd"
+        },
+        {
+          "id": "P0030.0c20b0e566cc47ec94f7b43708de768f",
+          "type": "landhoofd"
+        },
+        {
+          "id": "P0030.00f6f9695c5ff68ae050120a080440dd",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1477901856",
+        "tags": {
+          "agricultural": "no",
+          "bicycle": "no",
+          "bridge": "yes",
+          "carriage": "no",
+          "disabled_vehicle": "no",
+          "foot": "no",
+          "hand_cart": "no",
+          "highway": "primary",
+          "horse": "no",
+          "lanes": "2",
+          "layer": "1",
+          "maxspeed": "80",
+          "microcar": "no",
+          "mofa": "no",
+          "moped": "no",
+          "name": "Noordlangeweg",
+          "operator": "Provincie Noord-Brabant",
+          "ref": "N268",
+          "toll:hgv": "yes",
+          "traffic_sign": "NL:C9",
+          "zone:traffic": "NL:rural",
+          "man_made": "bridge"
+        }
+      },
+      "fis": {
+        "id": 49825,
+        "naam": "Brug in Noordlangeweg",
+        "afstand": 5,
+        "beweegbaar": false,
+        "doorvaarthoogteGesloten": 7
+      },
+      "pdokBridgeVlakken": 3
+    },
+    "type": "ligger",
+    "doorvaarthoogte": 7,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,400000,100000,420000 --run nl-4_5 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 120,
+      "dekBreedte": 19.9,
+      "brugLengte": 120,
+      "water": [
+        -17.5,
+        17
+      ],
+      "portaalhoogte": 17.9,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0851.31c57d928f244f2e9d30fad4c4097ff6",
+          "klasse": "Road",
+          "oppervlak": 2455.3,
+          "onderDek": 0.01,
+          "bovenDekOnderkant": 1.25,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "P0030.00f6f969011af68ae050120a080440dd",
+          "klasse": "Terrain",
+          "oppervlak": 22.2,
+          "onderDek": 0.02,
+          "bovenDekOnderkant": 0.44,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0851.8054185b46c54cbca55461bc0a024cf7",
+          "klasse": "Terrain",
+          "oppervlak": 27.2,
+          "onderDek": 0.88,
+          "bovenDekOnderkant": 0.33,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "G0851.2731ca7ab830488990fb0ca21e544ace",
+          "klasse": "Forest",
+          "oppervlak": 164.1,
+          "onderDek": 0.01,
+          "bovenDekOnderkant": 0.33,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        52.906,
+        52.822
+      ]
+    },
+    "waarschuwingen": [
+      "4 PDOK-vorm(en) door het dek: 1 verborgen, 3 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

@@ -1,0 +1,188 @@
+{
+  "name": "Boezembrug",
+  "file": "rotterdam-boezembrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    93806.97,
+    438180.73
+  ],
+  "xAxis": [
+    0.998451,
+    0.055643
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 43.73,
+  "groundSamplePoints": [
+    [
+      -28.31,
+      0
+    ],
+    [
+      28.31,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0599.16fd017116449cac9e050210a7e24119",
+    "G0599.1dd0056015fb45cf9422edf7753e3125",
+    "G0599.3ec6ebe1908842168f1cfa5a940e5d92",
+    "G0599.965f3f147bd745d7bf0e57a2ecdbc7df"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        93806.97,
+        438180.73
+      ],
+      "axis": [
+        0.998451,
+        0.055643
+      ],
+      "halfLength": 12.31,
+      "halfWidth": 9.65,
+      "height": 42.741,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.07,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        93776.7,
+        438179.05
+      ],
+      "axis": [
+        -0.998451,
+        -0.055643
+      ],
+      "halfLength": 12,
+      "halfWidth": 11.15,
+      "height": 43.891,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        93837.23,
+        438182.42
+      ],
+      "axis": [
+        0.998451,
+        0.055643
+      ],
+      "halfLength": 12,
+      "halfWidth": 11.15,
+      "height": 43.885,
+      "gradient": [
+        -0.01299,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0599.16fd017116449cac9e050210a7e24119"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0599.16fd017116449cac9e050210a7e24119",
+          "type": "dek"
+        },
+        {
+          "id": "G0599.1dd0056015fb45cf9422edf7753e3125",
+          "type": "pijler"
+        },
+        {
+          "id": "G0599.3ec6ebe1908842168f1cfa5a940e5d92",
+          "type": "pijler"
+        },
+        {
+          "id": "G0599.965f3f147bd745d7bf0e57a2ecdbc7df",
+          "type": "pijler"
+        }
+      ],
+      "osm": {
+        "id": "way/620654421",
+        "tags": {
+          "bridge": "yes",
+          "electrified": "contact_line",
+          "frequency": "0",
+          "gauge": "1435",
+          "layer": "1",
+          "maxspeed": "60",
+          "oneway": "yes",
+          "railway": "tram",
+          "railway:atb": "no",
+          "railway:etcs": "no",
+          "railway:lzb": "no",
+          "railway:pzb": "no",
+          "railway:zub": "no",
+          "voltage": "600",
+          "width": "3.4",
+          "bridge:structure": "beam",
+          "man_made": "bridge",
+          "name": "Boezembrug",
+          "wikidata": "Q1816485",
+          "wikimedia_commons": "Category:Boezembrug (Rotterdam)",
+          "wikipedia": "nl:Boezembrug (Rotterdam)"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 4
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,420000,100000,440000 --run nl-4_6 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 36.6,
+      "dekBreedte": 18.3,
+      "brugLengte": 36.6,
+      "water": [
+        -14.3,
+        14.2
+      ],
+      "portaalhoogte": 16.5,
+      "opritafstand": [
+        10,
+        10
+      ],
+      "spoorhoogteBron": "pdok",
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0599.4a6d6e48d7764c29a75ecb9c6e273e71",
+          "klasse": "Terrain",
+          "oppervlak": 19.1,
+          "onderDek": 0.02,
+          "bovenDekOnderkant": 0.07,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        43.741,
+        43.73
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "oprit -: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "oprit +: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

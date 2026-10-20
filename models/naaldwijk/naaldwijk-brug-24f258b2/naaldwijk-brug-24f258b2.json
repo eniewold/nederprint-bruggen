@@ -1,0 +1,183 @@
+{
+  "name": "Hoefblad",
+  "file": "naaldwijk-brug-24f258b2.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    73370.91,
+    445803.8
+  ],
+  "xAxis": [
+    0.169789,
+    0.98548
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 44.523,
+  "groundSamplePoints": [
+    [
+      -14.63,
+      0
+    ],
+    [
+      14.63,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G1783.24f258b25ae54f42bb8aea8bbb416d5b"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        73370.91,
+        445803.8
+      ],
+      "axis": [
+        0.169789,
+        0.98548
+      ],
+      "halfLength": 3.33,
+      "halfWidth": 4.86,
+      "height": 43.714,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.25,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        73368.65,
+        445790.69
+      ],
+      "axis": [
+        -0.169789,
+        -0.98548
+      ],
+      "halfLength": 6.65,
+      "halfWidth": 6.36,
+      "height": 44.768,
+      "gradient": [
+        -0.03691,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        73373.17,
+        445816.9
+      ],
+      "axis": [
+        0.169789,
+        0.98548
+      ],
+      "halfLength": 6.65,
+      "halfWidth": 6.36,
+      "height": 44.864,
+      "gradient": [
+        -0.02256,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G1783.24f258b25ae54f42bb8aea8bbb416d5b"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G1783.24f258b25ae54f42bb8aea8bbb416d5b",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/7567481",
+        "tags": {
+          "bridge": "yes",
+          "cycleway:both": "no",
+          "highway": "living_street",
+          "lane_markings": "no",
+          "layer": "1",
+          "maxspeed": "15",
+          "maxweight:signed": "no",
+          "name": "Hoefblad",
+          "surface": "paving_stones",
+          "zone:traffic": "NL:urban"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 60000,440000,80000,460000 --run nl-3_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 13.3,
+      "dekBreedte": 8.7,
+      "brugLengte": 13.3,
+      "water": [
+        -4.2,
+        3.8
+      ],
+      "portaalhoogte": 7.8,
+      "opritafstand": [
+        8,
+        8
+      ],
+      "oprithelling": 13.3,
+      "doorstekend": [
+        {
+          "gmlId": "G1783.776ee7510f4a49de81e542a8ec3be48b",
+          "klasse": "Terrain",
+          "oppervlak": 13.7,
+          "onderDek": 0.23,
+          "bovenDekOnderkant": 0.25,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G1783.b4d39c7589bb4522a3566598c7e72243",
+          "klasse": "Road",
+          "oppervlak": 148.6,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.18,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G1783.adfbe66f9fc5438caf6860a414b10ed1",
+          "klasse": "Road",
+          "oppervlak": 41.4,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.1,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G1783.27be2daa1af04714a53e382dbd8277f5",
+          "klasse": "Separation",
+          "oppervlak": 2.5,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.08,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        44.523,
+        44.714
+      ]
+    },
+    "waarschuwingen": [
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "4 PDOK-vorm(en) door het dek: 0 verborgen, 4 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

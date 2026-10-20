@@ -1,0 +1,147 @@
+{
+  "name": "Roekenpad",
+  "file": "wanneperveen-brug-5c258e52.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    204556.21,
+    525103.54
+  ],
+  "xAxis": [
+    0.922285,
+    0.38651
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 41.725,
+  "groundSamplePoints": [
+    [
+      -30.61,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G1708.5c258e521749499582975131ed8b851d"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        204556.21,
+        525103.54
+      ],
+      "axis": [
+        0.922285,
+        0.38651
+      ],
+      "halfLength": 7.91,
+      "halfWidth": 7.71,
+      "height": 40.725,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.87,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        204532.31,
+        525093.52
+      ],
+      "axis": [
+        -0.922285,
+        -0.38651
+      ],
+      "halfLength": 12,
+      "halfWidth": 9.21,
+      "height": 41.875,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G1708.5c258e521749499582975131ed8b851d"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G1708.5c258e521749499582975131ed8b851d",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/254038168",
+        "tags": {
+          "bridge": "yes",
+          "foot": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "mofa": "no",
+          "moped": "no",
+          "name": "Roekenpad",
+          "segregated": "no",
+          "smoothness": "good",
+          "surface": "asphalt",
+          "traffic_sign": "NL:G13"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 200000,520000,220000,540000 --run nl-10_11 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 27.8,
+      "dekBreedte": 14.4,
+      "brugLengte": 27.8,
+      "water": [
+        -7.9,
+        2.6
+      ],
+      "portaalhoogte": 13,
+      "opritafstand": [
+        16.7,
+        50.1
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G1708.dbcb153610d14c8b98e07e6f4bd271a6",
+          "klasse": "Terrain",
+          "oppervlak": 1119.8,
+          "onderDek": 0.04,
+          "bovenDekOnderkant": 0.87,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G1708.d1bb1f7bf8e446af86f02243c89d6a26",
+          "klasse": "Terrain",
+          "oppervlak": 739.8,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.7,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        41.725,
+        null
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "oprit + zonder PDOK-maaiveld",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

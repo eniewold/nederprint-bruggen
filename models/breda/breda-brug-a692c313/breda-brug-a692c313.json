@@ -1,0 +1,177 @@
+{
+  "name": "Schelebrug",
+  "file": "breda-brug-a692c313.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    112707.14,
+    393608.31
+  ],
+  "xAxis": [
+    -0.895114,
+    -0.445837
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 48.28,
+  "groundSamplePoints": [
+    [
+      -36.89,
+      0
+    ],
+    [
+      36.89,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0758.2d5ec18adf8646c3e05332a1e90a3608",
+    "G0758.2d5ec18ae22b46c3e05332a1e90a3608",
+    "L0002.a692c313e156485fb2d046d70564cd59"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        112707.14,
+        393608.31
+      ],
+      "axis": [
+        -0.895114,
+        -0.445837
+      ],
+      "halfLength": 10.89,
+      "halfWidth": 8.02,
+      "height": 47.29,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.12,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        112733,
+        393621.2
+      ],
+      "axis": [
+        0.895114,
+        0.445837
+      ],
+      "halfLength": 12,
+      "halfWidth": 9.52,
+      "height": 48.435,
+      "gradient": [
+        -0.01292,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        112681.27,
+        393595.43
+      ],
+      "axis": [
+        -0.895114,
+        -0.445837
+      ],
+      "halfLength": 12,
+      "halfWidth": 9.52,
+      "height": 48.44,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "L0002.a692c313e156485fb2d046d70564cd59"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0758.2d5ec18adf8646c3e05332a1e90a3608",
+          "type": "landhoofd"
+        },
+        {
+          "id": "G0758.2d5ec18ae22b46c3e05332a1e90a3608",
+          "type": "landhoofd"
+        },
+        {
+          "id": "L0002.a692c313e156485fb2d046d70564cd59",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/833004596",
+        "tags": {
+          "bridge": "yes",
+          "carriageway_ref": "Li",
+          "highway": "motorway",
+          "int_ref": "E 312",
+          "lanes": "2",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "100",
+          "maxspeed:conditional": "130 @ (19:00-06:00)",
+          "official_ref": "A58",
+          "oneway": "yes",
+          "operator": "Rijkswaterstaat",
+          "ref": "A27;A58",
+          "surface": "asphalt",
+          "toll:hgv": "yes",
+          "man_made": "bridge",
+          "name": "Schelebrug",
+          "source:name": "BAG/BGT"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 3
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,380000,120000,400000 --run nl-5_4 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 33.8,
+      "dekBreedte": 15,
+      "brugLengte": 33.8,
+      "water": [
+        -9.4,
+        9.6
+      ],
+      "portaalhoogte": 13.5,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0758.2d5ec18b193346c3e05332a1e90a3608",
+          "klasse": "Terrain",
+          "oppervlak": 475.7,
+          "onderDek": 0.06,
+          "bovenDekOnderkant": 0.12,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        48.28,
+        48.29
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

@@ -1,0 +1,238 @@
+{
+  "name": "Soetendaalsebruggen",
+  "file": "rotterdam-soetendaalsebruggen.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    92991.53,
+    439589.95
+  ],
+  "xAxis": [
+    -0.037096,
+    0.999312
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 43.333,
+  "groundSamplePoints": [
+    [
+      -47.6,
+      0
+    ],
+    [
+      47.77,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0599.16fd016ff2f6acac9e050210a7e24119",
+    "G0599.16fd016ff2f6bcac9e050210a7e24119",
+    "G0599.16fd016ff2f6ccac9e050210a7e24119",
+    "G0599.16fd016ff2f6dcac9e050210a7e24119",
+    "G0599.16fd016ff2fa1cac9e050210a7e24119",
+    "G0599.16fd017009da2cac9e050210a7e24119",
+    "G0599.16fd0171161a1cac9e050210a7e24119",
+    "G0599.16fd0171161a2cac9e050210a7e24119",
+    "L0002.8abeacd54c7b7500047bb737df85db3c",
+    "L0002.8abeacd54c7b7500047bb737df85db9c",
+    "L0002.4a909e3f893945e5948e01c5ec593126"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        92991.53,
+        439589.95
+      ],
+      "axis": [
+        -0.037096,
+        0.999312
+      ],
+      "halfLength": 21.6,
+      "halfWidth": 27.65,
+      "height": 44.456,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.87,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        92993,
+        439550.38
+      ],
+      "axis": [
+        0.037096,
+        -0.999312
+      ],
+      "halfLength": 12,
+      "halfWidth": 29.15,
+      "height": 45.606,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        92990.05,
+        439629.7
+      ],
+      "axis": [
+        -0.037096,
+        0.999312
+      ],
+      "halfLength": 12,
+      "halfWidth": 29.15,
+      "height": 44.544,
+      "gradient": [
+        -0.10095,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0599.16fd0171161a1cac9e050210a7e24119",
+      "G0599.16fd0171161a2cac9e050210a7e24119"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0599.16fd016ff2f6acac9e050210a7e24119",
+          "type": "sloof"
+        },
+        {
+          "id": "G0599.16fd016ff2f6bcac9e050210a7e24119",
+          "type": "sloof"
+        },
+        {
+          "id": "G0599.16fd016ff2f6ccac9e050210a7e24119",
+          "type": "sloof"
+        },
+        {
+          "id": "G0599.16fd016ff2f6dcac9e050210a7e24119",
+          "type": "sloof"
+        },
+        {
+          "id": "G0599.16fd016ff2fa1cac9e050210a7e24119",
+          "type": "sloof"
+        },
+        {
+          "id": "G0599.16fd017009da2cac9e050210a7e24119",
+          "type": "sloof"
+        },
+        {
+          "id": "G0599.16fd0171161a1cac9e050210a7e24119",
+          "type": "dek"
+        },
+        {
+          "id": "G0599.16fd0171161a2cac9e050210a7e24119",
+          "type": "dek"
+        },
+        {
+          "id": "L0002.8abeacd54c7b7500047bb737df85db3c",
+          "type": "landhoofd"
+        },
+        {
+          "id": "L0002.8abeacd54c7b7500047bb737df85db9c",
+          "type": "landhoofd"
+        }
+      ],
+      "osm": {
+        "id": "way/706275134",
+        "tags": {
+          "bridge": "yes",
+          "carriageway_ref": "d",
+          "destination": "Den Haag;Hoek van Holland",
+          "destination:ref": "A20",
+          "highway": "motorway_link",
+          "junction:ref": "15",
+          "lanes": "1",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "50",
+          "maxspeed:type": "NL:urban",
+          "motorway": "no",
+          "oneway": "yes",
+          "operator": "Rijkswaterstaat",
+          "ref": "A20",
+          "surface": "asphalt",
+          "toll:hgv": "yes",
+          "zone:traffic": "NL:urban",
+          "man_made": "bridge",
+          "name": "Soetendaalsebruggen",
+          "wikidata": "Q107356528"
+        }
+      },
+      "fis": {
+        "id": 12455,
+        "naam": "Soetendaalse bruggen",
+        "afstand": 9,
+        "beweegbaar": false,
+        "doorvaarthoogteGesloten": 2.45
+      },
+      "pdokBridgeVlakken": 10
+    },
+    "type": "ligger",
+    "doorvaarthoogte": 2.45,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,420000,100000,440000 --run nl-4_6 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 55.2,
+      "dekBreedte": 54.3,
+      "brugLengte": 55.4,
+      "water": [
+        -21.6,
+        10.4
+      ],
+      "portaalhoogte": 48.9,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "L0002.e0f8e879db5645e39a6ddc348c25c069",
+          "klasse": "Terrain",
+          "oppervlak": 59.3,
+          "onderDek": 0.69,
+          "bovenDekOnderkant": 0.87,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "L0002.4a909e3f893945e5948e01c5ec593126",
+          "klasse": "Terrain",
+          "oppervlak": 101.1,
+          "onderDek": 0.84,
+          "bovenDekOnderkant": 0.82,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "G0599.408ccbdfe9714f8c925651f80810a382",
+          "klasse": "Forest",
+          "oppervlak": 1473,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.59,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        45.456,
+        43.333
+      ]
+    },
+    "waarschuwingen": [
+      "3 PDOK-vorm(en) door het dek: 1 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

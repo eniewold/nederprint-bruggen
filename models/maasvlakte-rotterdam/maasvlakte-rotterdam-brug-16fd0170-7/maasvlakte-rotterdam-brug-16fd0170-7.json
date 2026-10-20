@@ -1,0 +1,197 @@
+{
+  "name": "Europaweg",
+  "file": "maasvlakte-rotterdam-brug-16fd0170-7.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    61060.29,
+    441529.29
+  ],
+  "xAxis": [
+    0.50452,
+    0.8634
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 48.63,
+  "groundSamplePoints": [
+    [
+      -46.23,
+      0
+    ],
+    [
+      46.23,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0599.16fd017009fc6cac9e050210a7e24119",
+    "G0599.16fd016bb6707cac9e050210a7e24119",
+    "G0599.16fd016bb6706cac9e050210a7e24119",
+    "G0599.7b713d98174b434fbbf55f35aa65989b",
+    "G0599.2eac7c9552d744df880914d95bc7ba55"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        61060.29,
+        441529.29
+      ],
+      "axis": [
+        0.50452,
+        0.8634
+      ],
+      "halfLength": 20.23,
+      "halfWidth": 7.57,
+      "height": 47.919,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.53,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        61041,
+        441496.28
+      ],
+      "axis": [
+        -0.50452,
+        -0.8634
+      ],
+      "halfLength": 12,
+      "halfWidth": 9.07,
+      "height": 49.069,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        61079.58,
+        441562.3
+      ],
+      "axis": [
+        0.50452,
+        0.8634
+      ],
+      "halfLength": 12,
+      "halfWidth": 9.07,
+      "height": 48.925,
+      "gradient": [
+        -0.02455,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0599.16fd017009fc6cac9e050210a7e24119"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0599.16fd017009fc6cac9e050210a7e24119",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/698433609",
+        "tags": {
+          "bicycle": "no",
+          "bridge": "viaduct",
+          "highway": "secondary",
+          "lanes": "2",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "80",
+          "name": "Europaweg",
+          "oneway": "yes",
+          "operator": "Havenbedrijf Rotterdam N.V.",
+          "source:maxspeed": "sign",
+          "surface": "asphalt",
+          "zone:traffic": "NL:rural",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 60000,440000,80000,460000 --run nl-3_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 52.5,
+      "dekBreedte": 14.1,
+      "brugLengte": 52.5,
+      "water": null,
+      "portaalhoogte": 12.7,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0599.16fd016bb6707cac9e050210a7e24119",
+          "klasse": "Terrain",
+          "oppervlak": 75.9,
+          "onderDek": 0.93,
+          "bovenDekOnderkant": 0.61,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "G0599.16fd016bb6706cac9e050210a7e24119",
+          "klasse": "Terrain",
+          "oppervlak": 86.2,
+          "onderDek": 0.86,
+          "bovenDekOnderkant": 0.59,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "G0599.7b713d98174b434fbbf55f35aa65989b",
+          "klasse": "Separation",
+          "oppervlak": 92.8,
+          "onderDek": 0.86,
+          "bovenDekOnderkant": 0.57,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "L0004.cf76d70ce8e1405ea0798969f2a37c7f",
+          "klasse": "Road",
+          "oppervlak": 910.2,
+          "onderDek": 0.24,
+          "bovenDekOnderkant": 0.53,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0599.2eac7c9552d744df880914d95bc7ba55",
+          "klasse": "Separation",
+          "oppervlak": 93.6,
+          "onderDek": 0.92,
+          "bovenDekOnderkant": 0.41,
+          "actie": "verbergen"
+        }
+      ],
+      "opritHoogtes": [
+        48.919,
+        48.63
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "5 PDOK-vorm(en) door het dek: 4 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

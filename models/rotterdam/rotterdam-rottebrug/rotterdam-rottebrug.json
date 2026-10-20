@@ -1,0 +1,138 @@
+{
+  "name": "Rottebrug",
+  "file": "rotterdam-rottebrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    93067.05,
+    439549.03
+  ],
+  "xAxis": [
+    0.979363,
+    0.202108
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 45.494,
+  "groundSamplePoints": [
+    [
+      -27.02,
+      0
+    ],
+    [
+      27.02,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0599.16fd0171161a4cac9e050210a7e24119"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        93043.27,
+        439544.12
+      ],
+      "axis": [
+        -0.979363,
+        -0.202108
+      ],
+      "halfLength": 12,
+      "halfWidth": 15.73,
+      "height": 45.719,
+      "gradient": [
+        -0.01874,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        93090.83,
+        439553.94
+      ],
+      "axis": [
+        0.979363,
+        0.202108
+      ],
+      "halfLength": 12,
+      "halfWidth": 15.73,
+      "height": 45.794,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0599.16fd0171161a4cac9e050210a7e24119"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0599.16fd0171161a4cac9e050210a7e24119",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/706282466",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "yes",
+          "foot": "use_sidepath",
+          "highway": "secondary",
+          "lanes": "3",
+          "layer": "1",
+          "maxspeed": "50",
+          "mofa": "use_sidepath",
+          "name": "Rottebrug",
+          "oneway": "yes",
+          "placement": "middle_of:2",
+          "ref": "S111",
+          "surface": "asphalt",
+          "turn:lanes": "left|through|right",
+          "man_made": "bridge",
+          "wikidata": "Q105989551"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,420000,100000,440000 --run nl-4_6 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 24.6,
+      "dekBreedte": 27.5,
+      "brugLengte": 24.6,
+      "water": [
+        -8.3,
+        8.2
+      ],
+      "portaalhoogte": 24.7,
+      "opritafstand": [
+        14.7,
+        14.7
+      ],
+      "oprithelling": 24,
+      "doorstekend": [],
+      "opritHoogtes": [
+        45.494,
+        45.644
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "name": "Lokweg",
+  "file": "havelte-lokweg.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    211291.72,
+    529576.64
+  ],
+  "xAxis": [
+    -0.803788,
+    0.594916
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 44.614,
+  "groundSamplePoints": [
+    [
+      -17.59,
+      0
+    ],
+    [
+      17.59,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "P0022.5380f54ff9514c59b34e47a136dcd32e"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        211304.58,
+        529567.13
+      ],
+      "axis": [
+        0.803788,
+        -0.594916
+      ],
+      "halfLength": 8,
+      "halfWidth": 2.69,
+      "height": 44.874,
+      "gradient": [
+        -0.03255,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        211278.87,
+        529586.16
+      ],
+      "axis": [
+        -0.803788,
+        0.594916
+      ],
+      "halfLength": 8,
+      "halfWidth": 2.69,
+      "height": 44.985,
+      "gradient": [
+        -0.01876,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "P0022.5380f54ff9514c59b34e47a136dcd32e"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "P0022.5380f54ff9514c59b34e47a136dcd32e",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/80341276",
+        "tags": {
+          "bridge": "movable",
+          "bridge:movable": "swing",
+          "bridge:name": "Lokbrug",
+          "highway": "unclassified",
+          "lane_markings": "no",
+          "layer": "1",
+          "maxspeed": "60",
+          "maxweight": "1.5",
+          "name": "Lokweg",
+          "surface": "asphalt"
+        }
+      },
+      "fis": {
+        "id": 47916,
+        "naam": "Lokbrug",
+        "afstand": 7,
+        "beweegbaar": true,
+        "doorvaarthoogteGesloten": 0.4
+      },
+      "pdokBridgeVlakken": 1
+    },
+    "type": "draaibrug",
+    "doorvaarthoogte": 0.4,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 200000,520000,220000,540000 --run nl-10_11 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 16,
+      "dekBreedte": 3.6,
+      "brugLengte": 16,
+      "water": [
+        -7.5,
+        6
+      ],
+      "portaalhoogte": 3.2,
+      "opritafstand": [
+        9.6,
+        9.6
+      ],
+      "oprithelling": 16,
+      "doorstekend": [],
+      "opritHoogtes": [
+        44.614,
+        44.835
+      ]
+    },
+    "waarschuwingen": [
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

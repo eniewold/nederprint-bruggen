@@ -1,0 +1,170 @@
+{
+  "name": "Molenpadbrug",
+  "file": "rotterdam-molenpadbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    90109.57,
+    439412.62
+  ],
+  "xAxis": [
+    -0.666696,
+    0.745329
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 38.325,
+  "groundSamplePoints": [
+    [
+      -28.31,
+      0
+    ],
+    [
+      28.31,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0599.de180c829df34f50a6a9944576d2ca8a"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        90109.57,
+        439412.62
+      ],
+      "axis": [
+        -0.666696,
+        0.745329
+      ],
+      "halfLength": 6.87,
+      "halfWidth": 2.6,
+      "height": 37.435,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.26,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        90126.15,
+        439394.08
+      ],
+      "axis": [
+        0.666696,
+        -0.745329
+      ],
+      "halfLength": 12,
+      "halfWidth": 3.15,
+      "height": 38.585,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        90092.99,
+        439431.16
+      ],
+      "axis": [
+        -0.666696,
+        0.745329
+      ],
+      "halfLength": 12,
+      "halfWidth": 3.15,
+      "height": 38.53,
+      "gradient": [
+        -0.0171,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0599.de180c829df34f50a6a9944576d2ca8a"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0599.de180c829df34f50a6a9944576d2ca8a",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/696611899",
+        "tags": {
+          "bridge": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "mofa": "yes",
+          "moped": "no",
+          "name": "Molenpadbrug",
+          "oneway": "no",
+          "surface": "asphalt",
+          "traffic_sign": "NL:G11",
+          "zone:traffic": "NL:urban",
+          "man_made": "bridge",
+          "wikidata": "Q117960093"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,420000,100000,440000 --run nl-4_6 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 25.7,
+      "dekBreedte": 4.2,
+      "brugLengte": 25.7,
+      "water": [
+        -4.4,
+        6.6
+      ],
+      "portaalhoogte": 3.8,
+      "opritafstand": [
+        15.4,
+        15.4
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0599.7cbe4e73403a4eccaf9876cd304121fd",
+          "klasse": "Terrain",
+          "oppervlak": 32.1,
+          "onderDek": 0.22,
+          "bovenDekOnderkant": 0.26,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0599.16accc7b4094448c9b9632b06dff45a4",
+          "klasse": "Terrain",
+          "oppervlak": 21.1,
+          "onderDek": 0.03,
+          "bovenDekOnderkant": 0.1,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        38.435,
+        38.325
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

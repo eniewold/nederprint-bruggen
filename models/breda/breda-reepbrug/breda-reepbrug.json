@@ -1,0 +1,166 @@
+{
+  "name": "Reepbrug",
+  "file": "breda-reepbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    112945.02,
+    397925.2
+  ],
+  "xAxis": [
+    0.855847,
+    0.517229
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 46.651,
+  "groundSamplePoints": [
+    [
+      -29.99,
+      0
+    ],
+    [
+      29.99,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0758.222540fff4854d959caea31f6b15eed3"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        112945.02,
+        397925.2
+      ],
+      "axis": [
+        0.855847,
+        0.517229
+      ],
+      "halfLength": 7.63,
+      "halfWidth": 9.34,
+      "height": 45.742,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.77,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        112923.08,
+        397911.94
+      ],
+      "axis": [
+        -0.855847,
+        -0.517229
+      ],
+      "halfLength": 12,
+      "halfWidth": 10.84,
+      "height": 46.892,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        112966.95,
+        397938.46
+      ],
+      "axis": [
+        0.855847,
+        0.517229
+      ],
+      "halfLength": 12,
+      "halfWidth": 10.84,
+      "height": 46.846,
+      "gradient": [
+        -0.01627,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0758.222540fff4854d959caea31f6b15eed3"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0758.222540fff4854d959caea31f6b15eed3",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/580987962",
+        "tags": {
+          "bridge": "yes",
+          "highway": "residential",
+          "layer": "1",
+          "maxspeed": "30",
+          "maxweight:signed": "no",
+          "name": "Reepbrug",
+          "sidewalk": "both",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,380000,120000,400000 --run nl-5_4 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 27.3,
+      "dekBreedte": 17.7,
+      "brugLengte": 27.3,
+      "water": [
+        -6.6,
+        6.9
+      ],
+      "portaalhoogte": 15.9,
+      "opritafstand": [
+        16.4,
+        16.4
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0758.c4441759ea894c54a00122d116b15532",
+          "klasse": "Terrain",
+          "oppervlak": 766,
+          "onderDek": 0.01,
+          "bovenDekOnderkant": 0.77,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0758.caaebcd2bca745fcb2f594628c6344da",
+          "klasse": "Terrain",
+          "oppervlak": 663.4,
+          "onderDek": 0.01,
+          "bovenDekOnderkant": 0.29,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        46.742,
+        46.651
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "name": "Paradijsbrug",
+  "file": "rotterdam-paradijsbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    93960.73,
+    439071.3
+  ],
+  "xAxis": [
+    -0.778039,
+    -0.628216
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 45.155,
+  "groundSamplePoints": [
+    [
+      -39.68,
+      0
+    ],
+    [
+      39.68,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0599.16fd0171129a7cac9e050210a7e24119"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        93985.38,
+        439091.2
+      ],
+      "axis": [
+        0.778039,
+        0.628216
+      ],
+      "halfLength": 12,
+      "halfWidth": 20.52,
+      "height": 46.22,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        93936.08,
+        439051.4
+      ],
+      "axis": [
+        -0.778039,
+        -0.628216
+      ],
+      "halfLength": 12,
+      "halfWidth": 20.52,
+      "height": 45.762,
+      "gradient": [
+        -0.05063,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0599.16fd0171129a7cac9e050210a7e24119"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0599.16fd0171129a7cac9e050210a7e24119",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/706278383",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "yes",
+          "bridge:name": "Paradijsbrug",
+          "foot": "use_sidepath",
+          "highway": "secondary",
+          "lanes": "4",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "50",
+          "mofa": "use_sidepath",
+          "name": "Paradijsbrug",
+          "oneway": "yes",
+          "operator": "Gemeente Rotterdam",
+          "ref": "S109",
+          "source:maxspeed": "NL:urban",
+          "surface": "asphalt",
+          "turn:lanes": "left|through|through|right",
+          "zone:traffic": "NL:urban",
+          "man_made": "bridge",
+          "wikidata": "Q107295320"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,420000,100000,440000 --run nl-4_6 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 39.4,
+      "dekBreedte": 37,
+      "brugLengte": 39.4,
+      "water": [
+        -15.2,
+        14.8
+      ],
+      "portaalhoogte": 33.3,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [],
+      "opritHoogtes": [
+        46.07,
+        45.155
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

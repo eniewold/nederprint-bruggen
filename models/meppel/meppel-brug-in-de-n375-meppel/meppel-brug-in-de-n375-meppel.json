@@ -1,0 +1,184 @@
+{
+  "name": "Brug in de N375 Meppel",
+  "file": "meppel-brug-in-de-n375-meppel.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    209232.65,
+    524872.48
+  ],
+  "xAxis": [
+    0.991537,
+    -0.129824
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 48.203,
+  "groundSamplePoints": [
+    [
+      -58.68,
+      0
+    ],
+    [
+      58.68,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "P0022.12b080f44e054891bd0032fca5547c23",
+    "P0022.31b3215ddd0e4c808bd7bb08005dc284",
+    "P0022.169d4370790145d9877510c58772eac3"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        209232.65,
+        524872.48
+      ],
+      "axis": [
+        0.991537,
+        -0.129824
+      ],
+      "halfLength": 32.68,
+      "halfWidth": 7.74,
+      "height": 47.607,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.51,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        209182.4,
+        524879.06
+      ],
+      "axis": [
+        -0.991537,
+        0.129824
+      ],
+      "halfLength": 12,
+      "halfWidth": 9.24,
+      "height": 48.555,
+      "gradient": [
+        -0.02934,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        209282.9,
+        524865.9
+      ],
+      "axis": [
+        0.991537,
+        -0.129824
+      ],
+      "halfLength": 12,
+      "halfWidth": 9.24,
+      "height": 48.757,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "P0022.31b3215ddd0e4c808bd7bb08005dc284"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "P0022.12b080f44e054891bd0032fca5547c23",
+          "type": "onbekend"
+        },
+        {
+          "id": "P0022.31b3215ddd0e4c808bd7bb08005dc284",
+          "type": "dek"
+        },
+        {
+          "id": "P0022.169d4370790145d9877510c58772eac3",
+          "type": "onbekend"
+        }
+      ],
+      "osm": {
+        "id": "way/6443917",
+        "tags": {
+          "bicycle": "no",
+          "bridge": "yes",
+          "foot": "no",
+          "highway": "primary",
+          "layer": "1",
+          "maxspeed": "80",
+          "noname": "yes",
+          "official_name": "Provinciale weg N375",
+          "operator": "Provincie Drenthe",
+          "ref": "N375",
+          "source:official_name": "NWB"
+        }
+      },
+      "fis": {
+        "id": 10945,
+        "naam": "Brug in de N375 Meppel",
+        "afstand": 6,
+        "beweegbaar": false,
+        "doorvaarthoogteGesloten": 5.4
+      },
+      "pdokBridgeVlakken": 3
+    },
+    "type": "ligger",
+    "doorvaarthoogte": 5.4,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 200000,520000,220000,540000 --run nl-10_11 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 77.4,
+      "dekBreedte": 14.5,
+      "brugLengte": 77.4,
+      "water": [
+        -13.7,
+        13.3
+      ],
+      "portaalhoogte": 13,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "P0022.394e5ae7d6c24008a5024910c0982d84",
+          "klasse": "Terrain",
+          "oppervlak": 10171.1,
+          "onderDek": 0.06,
+          "bovenDekOnderkant": 0.51,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "P0022.41b4e6e46a194f50be02d004d913feba",
+          "klasse": "Forest",
+          "oppervlak": 7259.9,
+          "onderDek": 0.06,
+          "bovenDekOnderkant": 0.23,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        48.203,
+        48.607
+      ]
+    },
+    "waarschuwingen": [
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

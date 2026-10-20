@@ -1,0 +1,132 @@
+{
+  "name": "Winterbrug",
+  "file": "rotterdam-winterbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    90110.79,
+    439821.59
+  ],
+  "xAxis": [
+    -0.460239,
+    0.887795
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 38.556,
+  "groundSamplePoints": [
+    [
+      -24.39,
+      0
+    ],
+    [
+      24.39,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0599.16fd01711499bcac9e050210a7e24119"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        90121,
+        439801.9
+      ],
+      "axis": [
+        0.460239,
+        -0.887795
+      ],
+      "halfLength": 11.09,
+      "halfWidth": 3.06,
+      "height": 38.72,
+      "gradient": [
+        -0.01481,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        90100.59,
+        439841.27
+      ],
+      "axis": [
+        -0.460239,
+        0.887795
+      ],
+      "halfLength": 11.09,
+      "halfWidth": 3.06,
+      "height": 38.734,
+      "gradient": [
+        -0.01353,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0599.16fd01711499bcac9e050210a7e24119"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0599.16fd01711499bcac9e050210a7e24119",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/704124986",
+        "tags": {
+          "bridge": "yes",
+          "bridge:name": "Winterbrug",
+          "highway": "cycleway",
+          "layer": "1",
+          "mofa": "designated",
+          "moped": "designated",
+          "name": "Winterbrug",
+          "surface": "asphalt",
+          "traffic_sign": "NL:G12a",
+          "man_made": "bridge",
+          "wikidata": "Q106107029"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,420000,100000,440000 --run nl-4_6 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 22.2,
+      "dekBreedte": 4.1,
+      "brugLengte": 22.2,
+      "water": [
+        -7.1,
+        7.4
+      ],
+      "portaalhoogte": 3.7,
+      "opritafstand": [
+        13.3,
+        13.3
+      ],
+      "oprithelling": 22.2,
+      "doorstekend": [],
+      "opritHoogtes": [
+        38.556,
+        38.584
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

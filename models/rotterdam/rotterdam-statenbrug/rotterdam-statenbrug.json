@@ -1,0 +1,138 @@
+{
+  "name": "Statenbrug",
+  "file": "rotterdam-statenbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    91191.94,
+    438253.51
+  ],
+  "xAxis": [
+    0.460244,
+    -0.887792
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 42.675,
+  "groundSamplePoints": [
+    [
+      -6.01,
+      0
+    ],
+    [
+      6.01,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0599.44df1aa874b34460b2734f34115fc92c"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        91189.63,
+        438257.96
+      ],
+      "axis": [
+        -0.460244,
+        0.887792
+      ],
+      "halfLength": 3,
+      "halfWidth": 22.03,
+      "height": 42.902,
+      "gradient": [
+        -0.07577,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        91194.25,
+        438249.06
+      ],
+      "axis": [
+        0.460244,
+        -0.887792
+      ],
+      "halfLength": 3,
+      "halfWidth": 22.03,
+      "height": 42.979,
+      "gradient": [
+        -0.05,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0599.44df1aa874b34460b2734f34115fc92c"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0599.44df1aa874b34460b2734f34115fc92c",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/705811897",
+        "tags": {
+          "bicycle": "no",
+          "bridge": "yes",
+          "bridge:name": "Statenbrug",
+          "highway": "primary",
+          "lanes": "2",
+          "layer": "1",
+          "maxspeed": "50",
+          "name": "Statenbrug",
+          "name:etymology:wikidata": "Q769041",
+          "oneway": "yes",
+          "operator": "Gemeente Rotterdam",
+          "ref": "S113",
+          "surface": "asphalt",
+          "zone:traffic": "NL:urban",
+          "man_made": "bridge",
+          "wikidata": "Q105954010",
+          "wikimedia_commons": "Category:Statenbrug (Rotterdam)"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,420000,100000,440000 --run nl-4_6 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 4,
+      "dekBreedte": 40.1,
+      "brugLengte": 4,
+      "water": [
+        -1.5,
+        2
+      ],
+      "portaalhoogte": 36.1,
+      "opritafstand": [
+        4,
+        4
+      ],
+      "oprithelling": 6,
+      "doorstekend": [],
+      "opritHoogtes": [
+        42.675,
+        42.829
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

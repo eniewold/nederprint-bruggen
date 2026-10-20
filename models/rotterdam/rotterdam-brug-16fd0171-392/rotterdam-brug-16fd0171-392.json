@@ -1,0 +1,153 @@
+{
+  "name": "HSL-Zuid",
+  "file": "rotterdam-brug-16fd0171-392.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    90525.71,
+    438985.66
+  ],
+  "xAxis": [
+    -0.80723,
+    -0.590237
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 40.78,
+  "groundSamplePoints": [
+    [
+      -12.87,
+      0
+    ],
+    [
+      122.87,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0599.16fd0171149eecac9e050210a7e24119"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        90530.44,
+        438989.12
+      ],
+      "axis": [
+        0.80723,
+        0.590237
+      ],
+      "halfLength": 3,
+      "halfWidth": 1.65,
+      "height": 42.32,
+      "gradient": [
+        -0.51319,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        90520.97,
+        438982.2
+      ],
+      "axis": [
+        -0.80723,
+        -0.590237
+      ],
+      "halfLength": 3,
+      "halfWidth": 1.65,
+      "height": 43.709,
+      "gradient": [
+        -0.05,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0599.16fd0171149eecac9e050210a7e24119"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0599.16fd0171149eecac9e050210a7e24119",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/462170093",
+        "tags": {
+          "bridge": "yes",
+          "bridge:structure": "beam",
+          "electrified": "contact_line",
+          "frequency": "0",
+          "gauge": "1435",
+          "highspeed": "yes",
+          "layer": "1",
+          "loading_gauge": "TSI_GC",
+          "maxspeed": "140",
+          "name": "HSL-Zuid",
+          "operator": "Infraspeed",
+          "passenger_lines": "2",
+          "railway": "rail",
+          "railway:atb": "no",
+          "railway:atb-eg": "no",
+          "railway:atb-ng": "no",
+          "railway:etcs": "2",
+          "railway:maximum_current": "4000",
+          "railway:track_class": "D2",
+          "railway:traffic_mode": "passenger",
+          "ref:ProRailID": "2893433.0",
+          "ref:ProRailSpoortak": "114_393BV_53.9",
+          "source": "ProRail",
+          "source:date": "2014-01-03",
+          "usage": "main",
+          "voltage": "1500",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,420000,100000,440000 --run nl-4_6 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 5.7,
+      "dekBreedte": 2.2,
+      "brugLengte": 5.7,
+      "water": [
+        -1.4,
+        1.1
+      ],
+      "portaalhoogte": 2.5,
+      "opritafstand": [
+        10,
+        120
+      ],
+      "spoorhoogteBron": "pdok",
+      "oprithelling": 6,
+      "doorstekend": [],
+      "opritHoogtes": [
+        40.78,
+        43.559
+      ]
+    },
+    "waarschuwingen": [
+      "oprit -: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "oprit -: spoorterrein voorbij 150 m nog 4.3 m hoger (45.6 m); PDOK trekt het spoor hier ver naar beneden, controleer de dekhoogte of geef --opritafstand",
+      "oprit +: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "oprit +: spoorterrein voorbij 150 m nog 1.3 m hoger (45.3 m); PDOK trekt het spoor hier ver naar beneden, controleer de dekhoogte of geef --opritafstand",
+      "oprit + pas op 120 m langs het spoor gemeten (PDOK-spoorterrein bij de brug lager)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

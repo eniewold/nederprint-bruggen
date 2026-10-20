@@ -1,0 +1,171 @@
+{
+  "name": "Pettendijk",
+  "file": "s-gravenzande-brug-16fd0170.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    72770.37,
+    442636.1
+  ],
+  "xAxis": [
+    -0.870593,
+    0.492003
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 45.173,
+  "groundSamplePoints": [
+    [
+      -37,
+      0
+    ],
+    [
+      37,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0599.16fd017009f7ccac9e050210a7e24119"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        72770.37,
+        442636.1
+      ],
+      "axis": [
+        -0.870593,
+        0.492003
+      ],
+      "halfLength": 11,
+      "halfWidth": 6.71,
+      "height": 44.658,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.25,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        72795.61,
+        442621.83
+      ],
+      "axis": [
+        0.870593,
+        -0.492003
+      ],
+      "halfLength": 12,
+      "halfWidth": 8.21,
+      "height": 45.808,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        72745.13,
+        442650.36
+      ],
+      "axis": [
+        -0.870593,
+        0.492003
+      ],
+      "halfLength": 12,
+      "halfWidth": 8.21,
+      "height": 45.566,
+      "gradient": [
+        -0.0327,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0599.16fd017009f7ccac9e050210a7e24119"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0599.16fd017009f7ccac9e050210a7e24119",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/992816436",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "yes",
+          "foot": "use_sidepath",
+          "highway": "unclassified",
+          "lanes": "2",
+          "layer": "1",
+          "maxspeed": "60",
+          "maxweight:signed": "no",
+          "name": "Pettendijk",
+          "surface": "asphalt",
+          "zone:traffic": "NL:rural",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 60000,440000,80000,460000 --run nl-3_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 34,
+      "dekBreedte": 12.4,
+      "brugLengte": 34,
+      "water": [
+        -11,
+        9
+      ],
+      "portaalhoogte": 11.2,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "W0372.284c0f6dd579411183909b492865874c",
+          "klasse": "Terrain",
+          "oppervlak": 5265.4,
+          "onderDek": 0.02,
+          "bovenDekOnderkant": 0.25,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "P0028.bebf1e8062cf44e0aab58b9704e227f2",
+          "klasse": "Road",
+          "oppervlak": 1396.4,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.16,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        45.658,
+        45.173
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

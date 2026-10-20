@@ -1,0 +1,166 @@
+{
+  "name": "Houtbrug",
+  "file": "breda-houtbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    111166.79,
+    397475.3
+  ],
+  "xAxis": [
+    -0.622077,
+    0.782956
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 47.113,
+  "groundSamplePoints": [
+    [
+      -34.44,
+      0
+    ],
+    [
+      34.44,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0758.2d5ec18b272846c3e05332a1e90a3608"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        111166.79,
+        397475.3
+      ],
+      "axis": [
+        -0.622077,
+        0.782956
+      ],
+      "halfLength": 9.66,
+      "halfWidth": 7.61,
+      "height": 46.19,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.68,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        111184,
+        397453.65
+      ],
+      "axis": [
+        0.622077,
+        -0.782956
+      ],
+      "halfLength": 12,
+      "halfWidth": 9.11,
+      "height": 47.301,
+      "gradient": [
+        -0.0157,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        111149.59,
+        397496.96
+      ],
+      "axis": [
+        -0.622077,
+        0.782956
+      ],
+      "halfLength": 12,
+      "halfWidth": 9.11,
+      "height": 47.34,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0758.2d5ec18b272846c3e05332a1e90a3608"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0758.2d5ec18b272846c3e05332a1e90a3608",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/833004617",
+        "tags": {
+          "bridge": "yes",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxspeed": "50",
+          "name": "Houtbrug",
+          "official_name": "Dr. Batenburglaan",
+          "man_made": "bridge",
+          "source:name": "BAG/BGT"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,380000,120000,400000 --run nl-5_4 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 31.3,
+      "dekBreedte": 14.2,
+      "brugLengte": 31.3,
+      "water": [
+        -5.7,
+        7.8
+      ],
+      "portaalhoogte": 12.8,
+      "opritafstand": [
+        18.8,
+        18.8
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0758.2d5ec18abb5c46c3e05332a1e90a3608",
+          "klasse": "Terrain",
+          "oppervlak": 331,
+          "onderDek": 0.12,
+          "bovenDekOnderkant": 0.68,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0758.2d5ec18ab6f646c3e05332a1e90a3608",
+          "klasse": "Forest",
+          "oppervlak": 4686,
+          "onderDek": 0.01,
+          "bovenDekOnderkant": 0.38,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        47.113,
+        47.19
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

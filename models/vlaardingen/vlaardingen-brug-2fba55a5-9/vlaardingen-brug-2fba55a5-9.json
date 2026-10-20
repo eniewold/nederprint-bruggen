@@ -1,0 +1,162 @@
+{
+  "name": "Veenpad",
+  "file": "vlaardingen-brug-2fba55a5-9.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    82763.96,
+    439951.95
+  ],
+  "xAxis": [
+    -0.599169,
+    -0.800623
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 40.516,
+  "groundSamplePoints": [
+    [
+      -13.26,
+      0
+    ],
+    [
+      13.26,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0622.2fba55a512bf68c1e053aa1c030a8eb5"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        82763.96,
+        439951.95
+      ],
+      "axis": [
+        -0.599169,
+        -0.800623
+      ],
+      "halfLength": 3.01,
+      "halfWidth": 1.67,
+      "height": 39.638,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.46,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        82771.18,
+        439961.6
+      ],
+      "axis": [
+        0.599169,
+        0.800623
+      ],
+      "halfLength": 6.03,
+      "halfWidth": 1.76,
+      "height": 40.788,
+      "gradient": [
+        -0.02489,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        82756.74,
+        439942.3
+      ],
+      "axis": [
+        -0.599169,
+        -0.800623
+      ],
+      "halfLength": 6.03,
+      "halfWidth": 1.76,
+      "height": 40.727,
+      "gradient": [
+        -0.03501,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0622.2fba55a512bf68c1e053aa1c030a8eb5"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0622.2fba55a512bf68c1e053aa1c030a8eb5",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/146404621",
+        "tags": {
+          "bridge": "yes",
+          "highway": "path",
+          "layer": "1",
+          "name": "Veenpad",
+          "surface": "concrete"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,420000,100000,440000 --run nl-4_6 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 12.1,
+      "dekBreedte": 2.3,
+      "brugLengte": 12.1,
+      "water": [
+        -2,
+        2.5
+      ],
+      "portaalhoogte": 2.5,
+      "opritafstand": [
+        7.2,
+        7.2
+      ],
+      "oprithelling": 12.1,
+      "doorstekend": [
+        {
+          "gmlId": "G0622.2fba55a3edfe68c1e053aa1c030a8eb5",
+          "klasse": "Terrain",
+          "oppervlak": 151.5,
+          "onderDek": 0.02,
+          "bovenDekOnderkant": 0.46,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0622.969b3dc94b5d4a71e053291c030ae7e4",
+          "klasse": "Forest",
+          "oppervlak": 955.6,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.44,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        40.638,
+        40.516
+      ]
+    },
+    "waarschuwingen": [
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

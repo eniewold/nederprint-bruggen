@@ -1,0 +1,193 @@
+{
+  "name": "Spoorbrug Noorderkanaal",
+  "file": "rotterdam-spoorbrug-noorderkanaal.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    90579.42,
+    438746.75
+  ],
+  "xAxis": [
+    0.202804,
+    0.979219
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 47.352,
+  "groundSamplePoints": [
+    [
+      -37.12,
+      0
+    ],
+    [
+      39.28,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0599.16fd016ff3387cac9e050210a7e24119",
+    "G0599.16fd016ff3388cac9e050210a7e24119",
+    "G0599.16fd016ff3389cac9e050210a7e24119",
+    "G0599.16fd016ff338acac9e050210a7e24119",
+    "G0599.3b458cfdb9564ee2b537b8e42d0f37b9",
+    "G0599.8664ab402c3344468fed5ef985191aa4",
+    "L0004.b2e775e5d3ff4c1e94d4edc3eb1493da",
+    "L0004.f317fc26e93a43a081a379142ca1d19c",
+    "L0004.fafd58b97f244f1ab4d4bf2cef0eb8cd"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        90569.46,
+        438698.65
+      ],
+      "axis": [
+        -0.202804,
+        -0.979219
+      ],
+      "halfLength": 12,
+      "halfWidth": 9.13,
+      "height": 47.415,
+      "gradient": [
+        -0.00524,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        90589.82,
+        438796.96
+      ],
+      "axis": [
+        0.202804,
+        0.979219
+      ],
+      "halfLength": 12,
+      "halfWidth": 9.13,
+      "height": 47.477,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "L0004.b2e775e5d3ff4c1e94d4edc3eb1493da"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0599.16fd016ff3387cac9e050210a7e24119",
+          "type": "pijler"
+        },
+        {
+          "id": "G0599.16fd016ff3388cac9e050210a7e24119",
+          "type": "pijler"
+        },
+        {
+          "id": "G0599.16fd016ff3389cac9e050210a7e24119",
+          "type": "pijler"
+        },
+        {
+          "id": "G0599.16fd016ff338acac9e050210a7e24119",
+          "type": "sloof"
+        },
+        {
+          "id": "G0599.3b458cfdb9564ee2b537b8e42d0f37b9",
+          "type": "pijler"
+        },
+        {
+          "id": "G0599.8664ab402c3344468fed5ef985191aa4",
+          "type": "pijler"
+        },
+        {
+          "id": "L0004.b2e775e5d3ff4c1e94d4edc3eb1493da",
+          "type": "dek"
+        },
+        {
+          "id": "L0004.f317fc26e93a43a081a379142ca1d19c",
+          "type": "landhoofd"
+        },
+        {
+          "id": "L0004.fafd58b97f244f1ab4d4bf2cef0eb8cd",
+          "type": "landhoofd"
+        }
+      ],
+      "osm": {
+        "id": "way/696611950",
+        "tags": {
+          "axle_load": "22.5",
+          "bridge": "yes",
+          "electrified": "contact_line",
+          "frequency": "0",
+          "gauge": "1435",
+          "layer": "1",
+          "loading_gauge": "TSI_GB",
+          "maxspeed": "80",
+          "name": "Spoorbrug Noorderkanaal",
+          "old_name": "Ceintuurbaan",
+          "operator": "ProRail",
+          "passenger_lines": "2",
+          "railway": "rail",
+          "railway:atb": "yes",
+          "railway:atb-eg": "yes",
+          "railway:atb-ng": "no",
+          "railway:etcs": "no",
+          "railway:maximum_current": "4000",
+          "railway:track_class": "D4",
+          "railway:traffic_mode": "mixed",
+          "ref:ProRailID": "2888249.0",
+          "ref:ProRailSpoortak": "114_411AL_53.8",
+          "source": "ProRail",
+          "source:date": "2014-01-03",
+          "source:name": "http://www.commissiemer.nl/docs/mer/p24/p2426/2426-008vervolgwerkzaamheden.pdf",
+          "usage": "main",
+          "voltage": "1500",
+          "wikidata": "Q106313104",
+          "wikipedia": "nl:Spoorlijn Utrecht - Rotterdam",
+          "bridge:structure": "beam",
+          "man_made": "bridge",
+          "wikimedia_commons": "Category:Spoorbrug Noorderkanaal (Rotterdam)"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 9
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,420000,100000,440000 --run nl-4_6 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 74.2,
+      "dekBreedte": 14.3,
+      "brugLengte": 76.4,
+      "water": [
+        5.4,
+        34.9
+      ],
+      "portaalhoogte": 12.8,
+      "opritafstand": [
+        0,
+        0
+      ],
+      "spoorhoogteBron": "prorail-pvs",
+      "oprithelling": 24,
+      "doorstekend": [],
+      "opritHoogtes": [
+        47.352,
+        47.477
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

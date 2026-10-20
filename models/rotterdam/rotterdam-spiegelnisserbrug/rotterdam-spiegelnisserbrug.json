@@ -1,0 +1,172 @@
+{
+  "name": "Spiegelnisserbrug",
+  "file": "rotterdam-spiegelnisserbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    93384.89,
+    438307.9
+  ],
+  "xAxis": [
+    -0.210503,
+    -0.977593
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 42.402,
+  "groundSamplePoints": [
+    [
+      -12.93,
+      0
+    ],
+    [
+      12.93,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0599.16fd01700c362cac9e050210a7e24119"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        93384.89,
+        438307.9
+      ],
+      "axis": [
+        -0.210503,
+        -0.977593
+      ],
+      "halfLength": 2.94,
+      "halfWidth": 10.48,
+      "height": 41.433,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.83,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        93387.37,
+        438319.39
+      ],
+      "axis": [
+        0.210503,
+        0.977593
+      ],
+      "halfLength": 5.88,
+      "halfWidth": 11.98,
+      "height": 42.583,
+      "gradient": [
+        -0.02553,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        93382.42,
+        438296.42
+      ],
+      "axis": [
+        -0.210503,
+        -0.977593
+      ],
+      "halfLength": 5.88,
+      "halfWidth": 11.98,
+      "height": 42.568,
+      "gradient": [
+        -0.02812,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0599.16fd01700c362cac9e050210a7e24119"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0599.16fd01700c362cac9e050210a7e24119",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/706281212",
+        "tags": {
+          "bridge": "yes",
+          "bridge:name": "Spiegelnisserbrug",
+          "cycleway:both": "track",
+          "cycleway:both:surface": "asphalt",
+          "highway": "residential",
+          "layer": "1",
+          "maxspeed": "30",
+          "maxweight:signed": "no",
+          "name": "Spiegelnisserbrug",
+          "surface": "paving_stones",
+          "bridge:structure": "beam",
+          "man_made": "bridge",
+          "wikidata": "Q126194644",
+          "wikimedia_commons": "Category:Spiegelnisserbrug (Rotterdam)"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,420000,100000,440000 --run nl-4_6 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 11.8,
+      "dekBreedte": 20,
+      "brugLengte": 11.8,
+      "water": [
+        -2.4,
+        2.1
+      ],
+      "portaalhoogte": 18,
+      "opritafstand": [
+        7.1,
+        7.1
+      ],
+      "oprithelling": 11.8,
+      "doorstekend": [
+        {
+          "gmlId": "G0599.38ea20328fc641bba226cb3acbd65d21",
+          "klasse": "Terrain",
+          "oppervlak": 44.4,
+          "onderDek": 0.03,
+          "bovenDekOnderkant": 0.83,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0599.1654ca3d47f243b9b56f9d9f0bcf1768",
+          "klasse": "Terrain",
+          "oppervlak": 44.8,
+          "onderDek": 0.11,
+          "bovenDekOnderkant": 0.82,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        42.433,
+        42.402
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

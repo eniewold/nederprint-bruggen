@@ -1,0 +1,167 @@
+{
+  "name": "Brug in de Marktweg Standdaarbuiten",
+  "file": "standdaarbuiten-brug-in-de-marktweg-standdaarbuiten.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    95367.21,
+    403058.23
+  ],
+  "xAxis": [
+    0.775956,
+    -0.630787
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 52.007,
+  "groundSamplePoints": [
+    [
+      -68.5,
+      0
+    ],
+    [
+      68.5,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G1655.40bedc57ab134435beedeb8d7387e077",
+    "G1655.bce81f0c79404f7ca58a2b2abd4680ac"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        95367.21,
+        403058.23
+      ],
+      "axis": [
+        0.775956,
+        -0.630787
+      ],
+      "halfLength": 42.5,
+      "halfWidth": 11.44,
+      "height": 51.101,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.83,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        95320.27,
+        403096.39
+      ],
+      "axis": [
+        -0.775956,
+        0.630787
+      ],
+      "halfLength": 12,
+      "halfWidth": 12.94,
+      "height": 52.251,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        95414.16,
+        403020.06
+      ],
+      "axis": [
+        0.775956,
+        -0.630787
+      ],
+      "halfLength": 12,
+      "halfWidth": 12.94,
+      "height": 52.204,
+      "gradient": [
+        -0.01642,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G1655.40bedc57ab134435beedeb8d7387e077"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G1655.40bedc57ab134435beedeb8d7387e077",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/173314797",
+        "tags": {
+          "bridge": "yes",
+          "highway": "cycleway",
+          "layer": "1"
+        }
+      },
+      "fis": {
+        "id": 9398,
+        "naam": "Brug in de Marktweg Standdaarbuiten",
+        "afstand": 2,
+        "beweegbaar": false,
+        "doorvaarthoogteGesloten": 7
+      },
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": 7,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,400000,100000,420000 --run nl-4_5 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 97,
+      "dekBreedte": 21.9,
+      "brugLengte": 97,
+      "water": [
+        -25.5,
+        25
+      ],
+      "portaalhoogte": 19.7,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G1709.2613417b6c356803e05332a1e90a7128",
+          "klasse": "Road",
+          "oppervlak": 4193.8,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.83,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G1655.bce81f0c79404f7ca58a2b2abd4680ac",
+          "klasse": "Terrain",
+          "oppervlak": 454.1,
+          "onderDek": 0.76,
+          "bovenDekOnderkant": 0.12,
+          "actie": "verbergen"
+        }
+      ],
+      "opritHoogtes": [
+        52.101,
+        52.007
+      ]
+    },
+    "waarschuwingen": [
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 1 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

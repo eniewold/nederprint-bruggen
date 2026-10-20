@@ -1,0 +1,135 @@
+{
+  "name": "Brug Giethoorn-Noord",
+  "file": "giethoorn-brug-giethoorn-noord.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    201516.39,
+    528575.2
+  ],
+  "xAxis": [
+    -0.990106,
+    0.140325
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 42.162,
+  "groundSamplePoints": [
+    [
+      -11.07,
+      0
+    ],
+    [
+      11.07,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "P0023.205bcf1cfce843eea700a44aad9051c0"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        201526.36,
+        528573.79
+      ],
+      "axis": [
+        0.990106,
+        -0.140325
+      ],
+      "halfLength": 5.03,
+      "halfWidth": 4.11,
+      "height": 42.343,
+      "gradient": [
+        -0.03591,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        201506.42,
+        528576.61
+      ],
+      "axis": [
+        -0.990106,
+        0.140325
+      ],
+      "halfLength": 5.03,
+      "halfWidth": 4.11,
+      "height": 42.374,
+      "gradient": [
+        -0.0298,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "P0023.205bcf1cfce843eea700a44aad9051c0"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "P0023.205bcf1cfce843eea700a44aad9051c0",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/38812617",
+        "tags": {
+          "bridge": "movable",
+          "bridge:movable": "bascule",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxspeed": "60",
+          "maxspeed:type": "NL:zone60",
+          "name": "Beulakerweg",
+          "zone:maxspeed": "NL:60",
+          "zone:traffic": "NL:rural"
+        }
+      },
+      "fis": {
+        "id": 33200,
+        "naam": "Brug Giethoorn-Noord",
+        "afstand": 2,
+        "beweegbaar": true,
+        "doorvaarthoogteGesloten": 1.23
+      },
+      "pdokBridgeVlakken": 1
+    },
+    "type": "basculebrug",
+    "doorvaarthoogte": 1.23,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 200000,520000,220000,540000 --run nl-10_11 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 10.1,
+      "dekBreedte": 5.5,
+      "brugLengte": 10.1,
+      "water": [
+        -4.5,
+        4.5
+      ],
+      "portaalhoogte": 4.9,
+      "opritafstand": [
+        6,
+        6
+      ],
+      "oprithelling": 10.1,
+      "doorstekend": [],
+      "opritHoogtes": [
+        42.162,
+        42.224
+      ]
+    },
+    "waarschuwingen": [
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

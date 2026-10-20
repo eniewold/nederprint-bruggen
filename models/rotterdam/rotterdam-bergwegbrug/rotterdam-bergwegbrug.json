@@ -1,0 +1,167 @@
+{
+  "name": "Bergwegbrug",
+  "file": "rotterdam-bergwegbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    92582.79,
+    439561.67
+  ],
+  "xAxis": [
+    0.578629,
+    0.815591
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 44.987,
+  "groundSamplePoints": [
+    [
+      -34.1,
+      0
+    ],
+    [
+      34.08,
+      -3.26
+    ]
+  ],
+  "replacesTerrain": [
+    "G0599.16fd0171161a0cac9e050210a7e24119",
+    "G0599.e0f86c698c30420aaf9e51d13e833185",
+    "G0599.5be97df273b647ba87684e4c777098f8"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        92561.9,
+        439532.23
+      ],
+      "axis": [
+        -0.578629,
+        -0.815591
+      ],
+      "halfLength": 12,
+      "halfWidth": 16.46,
+      "height": 45.363,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        92603.67,
+        439591.12
+      ],
+      "axis": [
+        0.578629,
+        0.815591
+      ],
+      "halfLength": 12,
+      "halfWidth": 16.46,
+      "height": 45.25,
+      "gradient": [
+        -0.02194,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0599.16fd0171161a0cac9e050210a7e24119"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0599.16fd0171161a0cac9e050210a7e24119",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/706275132",
+        "tags": {
+          "bridge": "yes",
+          "electrified": "contact_line",
+          "frequency": "0",
+          "gauge": "1435",
+          "layer": "1",
+          "maxspeed": "60",
+          "oneway": "yes",
+          "railway": "tram",
+          "railway:atb": "no",
+          "railway:etcs": "no",
+          "railway:lzb": "no",
+          "railway:pzb": "no",
+          "railway:zub": "no",
+          "voltage": "600",
+          "man_made": "bridge",
+          "name": "Bergwegbrug",
+          "wikidata": "Q105961131",
+          "bridge:structure": "beam"
+        }
+      },
+      "fis": {
+        "id": 7360,
+        "naam": "Bergwegbrug",
+        "afstand": 1,
+        "beweegbaar": false,
+        "doorvaarthoogteGesloten": 2.4
+      },
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": 2.4,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,420000,100000,440000 --run nl-4_6 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 48.2,
+      "dekBreedte": 28.9,
+      "brugLengte": 48.2,
+      "water": [
+        -6.6,
+        6.4
+      ],
+      "portaalhoogte": 26,
+      "opritafstand": [
+        10,
+        10
+      ],
+      "spoorhoogteBron": "pdok",
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0599.e0f86c698c30420aaf9e51d13e833185",
+          "klasse": "Terrain",
+          "oppervlak": 63.2,
+          "onderDek": 0.85,
+          "bovenDekOnderkant": 1.13,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "G0599.5be97df273b647ba87684e4c777098f8",
+          "klasse": "Terrain",
+          "oppervlak": 60.3,
+          "onderDek": 0.8,
+          "bovenDekOnderkant": 1.01,
+          "actie": "verbergen"
+        }
+      ],
+      "opritHoogtes": [
+        45.213,
+        44.987
+      ]
+    },
+    "waarschuwingen": [
+      "oprit -: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "oprit +: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 2 verborgen, 0 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

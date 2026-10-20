@@ -1,0 +1,160 @@
+{
+  "name": "Dardanellenstraat",
+  "file": "maasvlakte-rotterdam-brug-16fd0170-6.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    60889.14,
+    441292.59
+  ],
+  "xAxis": [
+    0.531515,
+    -0.847049
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 48.707,
+  "groundSamplePoints": [
+    [
+      -31.61,
+      0
+    ],
+    [
+      31.61,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0599.16fd017009fb0cac9e050210a7e24119",
+    "G0599.16fd016bb66cccac9e050210a7e24119",
+    "G0599.0fd99f9be55944c0899d0a45876f7e71",
+    "G0599.ec1f38a64fb844288306c5c11873b4ea"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        60875.13,
+        441314.93
+      ],
+      "axis": [
+        -0.531515,
+        0.847049
+      ],
+      "halfLength": 12,
+      "halfWidth": 12.02,
+      "height": 48.892,
+      "gradient": [
+        -0.01539,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        60903.16,
+        441270.26
+      ],
+      "axis": [
+        0.531515,
+        -0.847049
+      ],
+      "halfLength": 12,
+      "halfWidth": 12.02,
+      "height": 48.926,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0599.16fd017009fb0cac9e050210a7e24119"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0599.16fd017009fb0cac9e050210a7e24119",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/698431189",
+        "tags": {
+          "bicycle": "no",
+          "bridge": "viaduct",
+          "foot": "no",
+          "highway": "tertiary",
+          "lanes": "2",
+          "layer": "1",
+          "maxspeed": "80",
+          "name": "Dardanellenstraat",
+          "oneway": "yes",
+          "operator": "Havenbedrijf Rotterdam N.V.",
+          "surface": "asphalt",
+          "zone:traffic": "NL:rural",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 60000,440000,80000,460000 --run nl-3_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 28.7,
+      "dekBreedte": 20,
+      "brugLengte": 28.7,
+      "water": null,
+      "portaalhoogte": 18,
+      "opritafstand": [
+        17.2,
+        17.2
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0599.16fd016bb66cccac9e050210a7e24119",
+          "klasse": "Terrain",
+          "oppervlak": 366.2,
+          "onderDek": 0.99,
+          "bovenDekOnderkant": 0.72,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "G0599.0fd99f9be55944c0899d0a45876f7e71",
+          "klasse": "Separation",
+          "oppervlak": 63.1,
+          "onderDek": 0.72,
+          "bovenDekOnderkant": 0.64,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "G0599.ec1f38a64fb844288306c5c11873b4ea",
+          "klasse": "Separation",
+          "oppervlak": 64.7,
+          "onderDek": 0.73,
+          "bovenDekOnderkant": 0.64,
+          "actie": "verbergen"
+        }
+      ],
+      "opritHoogtes": [
+        48.707,
+        48.776
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "3 PDOK-vorm(en) door het dek: 3 verborgen, 0 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

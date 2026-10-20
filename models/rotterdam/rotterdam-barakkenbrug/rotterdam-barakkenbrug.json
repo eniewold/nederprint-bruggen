@@ -1,0 +1,128 @@
+{
+  "name": "Barakkenbrug",
+  "file": "rotterdam-barakkenbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    93651.42,
+    439487.39
+  ],
+  "xAxis": [
+    0.804176,
+    0.594391
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 42.768,
+  "groundSamplePoints": [
+    [
+      -35.56,
+      0
+    ],
+    [
+      35.56,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0599.16fd017115625cac9e050210a7e24119"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        93628.77,
+        439470.65
+      ],
+      "axis": [
+        -0.804176,
+        -0.594391
+      ],
+      "halfLength": 12,
+      "halfWidth": 4.05,
+      "height": 43.71,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        93674.07,
+        439504.13
+      ],
+      "axis": [
+        0.804176,
+        0.594391
+      ],
+      "halfLength": 12,
+      "halfWidth": 4.05,
+      "height": 43.314,
+      "gradient": [
+        -0.04547,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0599.16fd017115625cac9e050210a7e24119"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0599.16fd017115625cac9e050210a7e24119",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/706278386",
+        "tags": {
+          "bridge": "yes",
+          "highway": "pedestrian",
+          "layer": "1",
+          "name": "Barakkenbrug",
+          "zone:traffic": "NL:urban",
+          "man_made": "bridge",
+          "wikidata": "Q107295175"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,420000,100000,440000 --run nl-4_6 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 32.3,
+      "dekBreedte": 5.4,
+      "brugLengte": 32.3,
+      "water": [
+        -15.7,
+        11.8
+      ],
+      "portaalhoogte": 4.9,
+      "opritafstand": [
+        19.4,
+        19.4
+      ],
+      "oprithelling": 24,
+      "doorstekend": [],
+      "opritHoogtes": [
+        43.56,
+        42.768
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

@@ -1,0 +1,168 @@
+{
+  "name": "rotterdam-brug-f645e5c4",
+  "file": "rotterdam-brug-f645e5c4.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    92725.77,
+    439689.14
+  ],
+  "xAxis": [
+    0.195188,
+    -0.980766
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 42.952,
+  "groundSamplePoints": [
+    [
+      -6.62,
+      0
+    ],
+    [
+      6.62,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "L0004.f645e5c491d1492cb2cee0626537de41"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        92725.77,
+        439689.14
+      ],
+      "axis": [
+        0.195188,
+        -0.980766
+      ],
+      "halfLength": 1.31,
+      "halfWidth": 1.95,
+      "height": 44.502,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -2.11,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        92724.67,
+        439694.65
+      ],
+      "axis": [
+        -0.195188,
+        0.980766
+      ],
+      "halfLength": 3,
+      "halfWidth": 2.17,
+      "height": 45.652,
+      "gradient": [
+        -0.05,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        92726.86,
+        439683.63
+      ],
+      "axis": [
+        0.195188,
+        -0.980766
+      ],
+      "halfLength": 3,
+      "halfWidth": 2.17,
+      "height": 44.377,
+      "gradient": [
+        -0.47498,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "L0004.f645e5c491d1492cb2cee0626537de41"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "L0004.f645e5c491d1492cb2cee0626537de41",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/709580317",
+        "tags": {
+          "asphalt:type": "porous",
+          "bridge": "viaduct",
+          "carriageway_ref": "d",
+          "destination": "Den Haag;Hoek van Holland",
+          "highway": "motorway_link",
+          "junction:ref": "15",
+          "lanes": "1",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "130",
+          "maxspeed:type": "NL:motorway",
+          "maxspeed:variable": "peak_traffic",
+          "motorway": "yes",
+          "note:maxspeed": "Counterintuitively, the maxspeed on this on-ramp is 130 km/h instead of the lower speed posted on the main road due to it having only a G1 (start motorway) sign at the start",
+          "note:maxspeed:url": "https://wiki.openstreetmap.org/wiki/Reduced_speed_limit_on_Dutch_motorways",
+          "oneway": "yes",
+          "operator": "Rijkswaterstaat",
+          "ref": "A20",
+          "surface": "asphalt",
+          "toll:hgv": "yes",
+          "zone:traffic": "NL:rural",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,420000,100000,440000 --run nl-4_6 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 5.2,
+      "dekBreedte": 2.9,
+      "brugLengte": 5.2,
+      "water": null,
+      "portaalhoogte": 2.6,
+      "opritafstand": [
+        4,
+        4
+      ],
+      "oprithelling": 6,
+      "doorstekend": [
+        {
+          "gmlId": "L0004.74dc2d8f441b47d9ad1f4bef7bbc6ef0",
+          "klasse": "Forest",
+          "oppervlak": 177.3,
+          "onderDek": 0.07,
+          "bovenDekOnderkant": 1.11,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        45.502,
+        42.952
+      ]
+    },
+    "waarschuwingen": [
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

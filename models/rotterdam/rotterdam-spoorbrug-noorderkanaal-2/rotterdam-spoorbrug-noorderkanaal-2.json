@@ -1,0 +1,196 @@
+{
+  "name": "Spoorbrug Noorderkanaal",
+  "file": "rotterdam-spoorbrug-noorderkanaal-2.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    90591.12,
+    438803.21
+  ],
+  "xAxis": [
+    0.215092,
+    0.976594
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 47.373,
+  "groundSamplePoints": [
+    [
+      -5.39,
+      0
+    ],
+    [
+      5.52,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "L0004.1cd67b7d54ce443c91f70c87659a8832",
+    "L0004.2f6185d34a644e298a7c051a84044051",
+    "L0004.c0ee33d7966c452680d492bd021776c4"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        90591.12,
+        438803.21
+      ],
+      "axis": [
+        0.215092,
+        0.976594
+      ],
+      "halfLength": 2.73,
+      "halfWidth": 7.86,
+      "height": 46.129,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.92,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        90588.78,
+        438792.63
+      ],
+      "axis": [
+        -0.215092,
+        -0.976594
+      ],
+      "halfLength": 5.45,
+      "halfWidth": 9.36,
+      "height": 47.429,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        90593.48,
+        438813.93
+      ],
+      "axis": [
+        0.215092,
+        0.976594
+      ],
+      "halfLength": 5.45,
+      "halfWidth": 9.36,
+      "height": 47.401,
+      "gradient": [
+        -0.0052,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "L0004.c0ee33d7966c452680d492bd021776c4"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "L0004.1cd67b7d54ce443c91f70c87659a8832",
+          "type": "landhoofd"
+        },
+        {
+          "id": "L0004.2f6185d34a644e298a7c051a84044051",
+          "type": "landhoofd"
+        },
+        {
+          "id": "L0004.c0ee33d7966c452680d492bd021776c4",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/696611951",
+        "tags": {
+          "axle_load": "22.5",
+          "bridge": "yes",
+          "electrified": "contact_line",
+          "frequency": "0",
+          "gauge": "1435",
+          "layer": "1",
+          "loading_gauge": "TSI_GB",
+          "maxspeed": "80",
+          "name": "Goudse lijn",
+          "old_name": "Ceintuurbaan",
+          "operator": "ProRail",
+          "passenger_lines": "2",
+          "railway": "rail",
+          "railway:atb": "yes",
+          "railway:atb-eg": "yes",
+          "railway:atb-ng": "no",
+          "railway:etcs": "no",
+          "railway:maximum_current": "4000",
+          "railway:track_class": "D4",
+          "railway:traffic_mode": "mixed",
+          "ref:ProRailID": "2888254.0",
+          "ref:ProRailSpoortak": "114_411BV_53.7",
+          "source": "ProRail",
+          "source:date": "2014-01-03",
+          "source:name": "http://www.commissiemer.nl/docs/mer/p24/p2426/2426-008vervolgwerkzaamheden.pdf",
+          "usage": "main",
+          "voltage": "1500",
+          "wikidata": "Q107456498",
+          "wikipedia": "nl:Spoorlijn Utrecht - Rotterdam",
+          "bridge:structure": "beam",
+          "man_made": "bridge",
+          "wikimedia_commons": "Category:Spoorbrug Vroesenkade (Rotterdam)"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 3
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,420000,100000,440000 --run nl-4_6 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 10.9,
+      "dekBreedte": 14.7,
+      "brugLengte": 10.9,
+      "water": null,
+      "portaalhoogte": 13.3,
+      "opritafstand": [
+        0,
+        0
+      ],
+      "spoorhoogteBron": "prorail-pvs",
+      "oprithelling": 10.9,
+      "doorstekend": [
+        {
+          "gmlId": "G0599.170ade266ef0b2d73e050210a7e24429",
+          "klasse": "Separation",
+          "oppervlak": 11.2,
+          "onderDek": 0.39,
+          "bovenDekOnderkant": 0.92,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0599.170ade233e9a42d73e050210a7e24429",
+          "klasse": "Road",
+          "oppervlak": 25.4,
+          "onderDek": 0.47,
+          "bovenDekOnderkant": 0.47,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        47.429,
+        47.373
+      ]
+    },
+    "waarschuwingen": [
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}
