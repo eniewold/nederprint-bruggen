@@ -1,0 +1,150 @@
+{
+  "name": "Rijksweg",
+  "file": "beilen-brug-a2c466e1.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    229704.9,
+    541816.24
+  ],
+  "xAxis": [
+    0.328487,
+    0.944508
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 59.204,
+  "groundSamplePoints": [
+    [
+      -48.23,
+      0
+    ],
+    [
+      48.22,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "L0002.3299756b144146019b6dbe14be1bc26f",
+    "L0002.3a943e41288247858c022c2b7cf8b85a",
+    "L0002.a2c466e19e1f4170a8167fea6417ac5b"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        229691.69,
+        541778.25
+      ],
+      "axis": [
+        -0.328487,
+        -0.944508
+      ],
+      "halfLength": 12,
+      "halfWidth": 10.32,
+      "height": 59.435,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        229718.11,
+        541854.23
+      ],
+      "axis": [
+        0.328487,
+        0.944508
+      ],
+      "halfLength": 12,
+      "halfWidth": 10.32,
+      "height": 59.394,
+      "gradient": [
+        -0.01587,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "L0002.a2c466e19e1f4170a8167fea6417ac5b"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "L0002.3299756b144146019b6dbe14be1bc26f",
+          "type": "onbekend"
+        },
+        {
+          "id": "L0002.3a943e41288247858c022c2b7cf8b85a",
+          "type": "onbekend"
+        },
+        {
+          "id": "L0002.a2c466e19e1f4170a8167fea6417ac5b",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/6451265",
+        "tags": {
+          "asphalt:type": "dense",
+          "bridge": "yes",
+          "carriageway_ref": "Re",
+          "destination": "Groningen;Assen",
+          "highway": "motorway",
+          "int_ref": "E 232",
+          "lanes": "3",
+          "layer": "1",
+          "maxspeed": "100",
+          "maxspeed:conditional": "130 @ (19:00-06:00)",
+          "name": "Rijksweg",
+          "oneway": "yes",
+          "operator": "Rijkswaterstaat",
+          "placement": "right_of:1",
+          "ref": "A28",
+          "source:name": "NWB;BAG",
+          "surface": "asphalt",
+          "toll:hgv": "yes",
+          "turn:lanes": "none|none|merge_to_left"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 3
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,540000,240000,560000 --run nl-11_12 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 56.3,
+      "dekBreedte": 16.6,
+      "brugLengte": 56.4,
+      "water": [
+        -8.7,
+        7.3
+      ],
+      "portaalhoogte": 15,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [],
+      "opritHoogtes": [
+        59.285,
+        59.204
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

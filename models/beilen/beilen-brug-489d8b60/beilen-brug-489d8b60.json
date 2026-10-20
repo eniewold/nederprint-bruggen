@@ -1,0 +1,190 @@
+{
+  "name": "beilen-brug-489d8b60",
+  "file": "beilen-brug-489d8b60.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    231291.55,
+    541006.24
+  ],
+  "xAxis": [
+    0.196776,
+    0.980448
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 55.091,
+  "groundSamplePoints": [
+    [
+      -13.99,
+      0
+    ],
+    [
+      13.99,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "L0004.489d8b6030e2434b8c1aa2a6b3aedb23",
+    "L0004.801e7a92fe804cd5b04a84fd831322a3"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        231291.55,
+        541006.24
+      ],
+      "axis": [
+        0.196776,
+        0.980448
+      ],
+      "halfLength": 7.99,
+      "halfWidth": 7.82,
+      "height": 53.803,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -2.02,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        231286.43,
+        540980.76
+      ],
+      "axis": [
+        -0.196776,
+        -0.980448
+      ],
+      "halfLength": 12,
+      "halfWidth": 9.32,
+      "height": 55.103,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        231296.66,
+        541031.73
+      ],
+      "axis": [
+        0.196776,
+        0.980448
+      ],
+      "halfLength": 12,
+      "halfWidth": 9.32,
+      "height": 55.097,
+      "gradient": [
+        -0.00051,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "L0004.489d8b6030e2434b8c1aa2a6b3aedb23"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "L0004.489d8b6030e2434b8c1aa2a6b3aedb23",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/97968386",
+        "tags": {
+          "axle_load": "22.5",
+          "bridge": "yes",
+          "description": "Meppel - Assen",
+          "electrified": "contact_line",
+          "frequency": "0",
+          "gauge": "1435",
+          "layer": "1",
+          "loading_gauge": "TSI_GB",
+          "maxspeed": "140",
+          "operator": "ProRail",
+          "passenger_lines": "2",
+          "railway": "rail",
+          "railway:atb": "yes",
+          "railway:maximum_current": "4000",
+          "railway:track_class": "D4",
+          "railway:traffic_mode": "mixed",
+          "ref": "012",
+          "ref:ProRailSpoortak": "012_343AL_24.2",
+          "source": "ProRail",
+          "source:date": "2014-01-03",
+          "usage": "main",
+          "voltage": "1500"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,540000,240000,560000 --run nl-11_12 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 28,
+      "dekBreedte": 14.6,
+      "brugLengte": 28,
+      "water": [
+        -5,
+        5.5
+      ],
+      "portaalhoogte": 13.2,
+      "opritafstand": [
+        0,
+        0
+      ],
+      "spoorhoogteBron": "prorail-pvs",
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "W0664.8abeacd5439b75760000000a1880b0e2",
+          "klasse": "Terrain",
+          "oppervlak": 25831.9,
+          "onderDek": 0.02,
+          "bovenDekOnderkant": 1.02,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "L0004.5c86bed61129460e9a1d2ee7e26e3108",
+          "klasse": "Forest",
+          "oppervlak": 146.8,
+          "onderDek": 0.01,
+          "bovenDekOnderkant": 0.83,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "L0004.801e7a92fe804cd5b04a84fd831322a3",
+          "klasse": "Separation",
+          "oppervlak": 0,
+          "onderDek": 1,
+          "bovenDekOnderkant": 0.78,
+          "actie": "verbergen"
+        }
+      ],
+      "opritHoogtes": [
+        55.103,
+        55.091
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "3 PDOK-vorm(en) door het dek: 1 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

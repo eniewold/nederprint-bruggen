@@ -1,0 +1,155 @@
+{
+  "name": "bergen-op-zoom-brug-d79b51d4",
+  "file": "bergen-op-zoom-brug-d79b51d4.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    77657.01,
+    388403.38
+  ],
+  "xAxis": [
+    0.962701,
+    -0.270566
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 46.92,
+  "groundSamplePoints": [
+    [
+      -17.65,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0748.d79b51d41e084be0b85941f00fc8e956"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        77657.01,
+        388403.38
+      ],
+      "axis": [
+        0.962701,
+        -0.270566
+      ],
+      "halfLength": 4.01,
+      "halfWidth": 4.52,
+      "height": 45.92,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.49,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        77641.56,
+        388407.72
+      ],
+      "axis": [
+        -0.962701,
+        0.270566
+      ],
+      "halfLength": 8.02,
+      "halfWidth": 6.02,
+      "height": 47.07,
+      "gradient": [
+        -0.0187,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0748.d79b51d41e084be0b85941f00fc8e956"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0748.d79b51d41e084be0b85941f00fc8e956",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/66160559",
+        "tags": {
+          "bridge": "yes",
+          "foot": "yes",
+          "highway": "cycleway",
+          "layer": "1"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 60000,380000,80000,400000 --run nl-3_4 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 16,
+      "dekBreedte": 8,
+      "brugLengte": 16,
+      "water": [
+        -1.5,
+        2
+      ],
+      "portaalhoogte": 7.2,
+      "opritafstand": [
+        9.6,
+        28.9
+      ],
+      "oprithelling": 16,
+      "doorstekend": [
+        {
+          "gmlId": "G0748.047828e525fb47e194e4f257e63bbdfb",
+          "klasse": "Road",
+          "oppervlak": 70.8,
+          "onderDek": 0.19,
+          "bovenDekOnderkant": 0.49,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0748.3dfb8a3726e2470fb0613027bbd8b50b",
+          "klasse": "Road",
+          "oppervlak": 71.1,
+          "onderDek": 0.19,
+          "bovenDekOnderkant": 0.37,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0748.2a30216e8a444129980416ed57817395",
+          "klasse": "Separation",
+          "oppervlak": 8.5,
+          "onderDek": 0.25,
+          "bovenDekOnderkant": 0.33,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0748.86fc12641b884342bec26e58429c9970",
+          "klasse": "Separation",
+          "oppervlak": 8.7,
+          "onderDek": 0.26,
+          "bovenDekOnderkant": 0.24,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        46.92,
+        null
+      ]
+    },
+    "waarschuwingen": [
+      "oprit + zonder PDOK-maaiveld",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "4 PDOK-vorm(en) door het dek: 0 verborgen, 4 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

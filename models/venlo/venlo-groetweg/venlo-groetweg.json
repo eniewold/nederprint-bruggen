@@ -1,0 +1,172 @@
+{
+  "name": "Groetweg",
+  "file": "venlo-groetweg.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    206868.08,
+    374967.67
+  ],
+  "xAxis": [
+    -0.570758,
+    -0.821118
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 68.904,
+  "groundSamplePoints": [
+    [
+      -45.14,
+      0
+    ],
+    [
+      45.03,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0983.db0950102435454081d8205e72a9470a",
+    "L0002.38582dc367a7486384c855219299389f",
+    "L0002.9f52bdc8ccf04976b5a4ecd1d7743f18",
+    "L0002.e6cb59f445da4bc3bb19201516905fa1"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        206868.08,
+        374967.67
+      ],
+      "axis": [
+        -0.570758,
+        -0.821118
+      ],
+      "halfLength": 19.03,
+      "halfWidth": 12.68,
+      "height": 68.146,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.24,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        206889.28,
+        374998.17
+      ],
+      "axis": [
+        0.570758,
+        0.821118
+      ],
+      "halfLength": 12,
+      "halfWidth": 14.18,
+      "height": 69.296,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        206846.94,
+        374937.27
+      ],
+      "axis": [
+        -0.570758,
+        -0.821118
+      ],
+      "halfLength": 12,
+      "halfWidth": 14.18,
+      "height": 69.175,
+      "gradient": [
+        -0.02258,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0983.db0950102435454081d8205e72a9470a"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0983.db0950102435454081d8205e72a9470a",
+          "type": "dek"
+        },
+        {
+          "id": "L0002.38582dc367a7486384c855219299389f",
+          "type": "onbekend"
+        },
+        {
+          "id": "L0002.9f52bdc8ccf04976b5a4ecd1d7743f18",
+          "type": "onbekend"
+        },
+        {
+          "id": "L0002.e6cb59f445da4bc3bb19201516905fa1",
+          "type": "onbekend"
+        }
+      ],
+      "osm": {
+        "id": "way/479176023",
+        "tags": {
+          "bridge": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "mofa": "designated",
+          "moped": "designated",
+          "surface": "asphalt",
+          "traffic_sign": "NL:G12a",
+          "bridge:structure": "beam",
+          "man_made": "bridge",
+          "name": "Groetweg"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 4
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 200000,360000,220000,380000 --run nl-10_3 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 50.1,
+      "dekBreedte": 24.4,
+      "brugLengte": 50.2,
+      "water": null,
+      "portaalhoogte": 21.9,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "L0002.74521964cc884f34b14124d470e6d7dc",
+          "klasse": "Terrain",
+          "oppervlak": 39.8,
+          "onderDek": 0.37,
+          "bovenDekOnderkant": 0.24,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        69.146,
+        68.904
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

@@ -1,0 +1,193 @@
+{
+  "name": "Zuiderbrug",
+  "file": "venlo-zuiderbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    207829.78,
+    374370.64
+  ],
+  "xAxis": [
+    0.739672,
+    -0.672968
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 70.312,
+  "groundSamplePoints": [
+    [
+      -181.14,
+      0
+    ],
+    [
+      181.14,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "L0002.d4c2567952bd423e8d86719927d4b8bd",
+    "L0002.3eab54193ce0498fa289bc6ccd4a8fe0",
+    "L0002.7e553c3c0917487789cbd7c8f63753e5",
+    "L0002.7ffc2f7bb4f44e7193b686be04e3428a",
+    "L0002.ca6933137ed14c32b3b834591da8ffde"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        207829.78,
+        374370.64
+      ],
+      "axis": [
+        0.739672,
+        -0.672968
+      ],
+      "halfLength": 155.14,
+      "halfWidth": 24.6,
+      "height": 70.409,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -2.03,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        207701.71,
+        374487.16
+      ],
+      "axis": [
+        -0.739672,
+        0.672968
+      ],
+      "halfLength": 12,
+      "halfWidth": 26.1,
+      "height": 71.01,
+      "gradient": [
+        -0.05821,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        207957.85,
+        374254.12
+      ],
+      "axis": [
+        0.739672,
+        -0.672968
+      ],
+      "halfLength": 12,
+      "halfWidth": 26.1,
+      "height": 71.559,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "L0002.d4c2567952bd423e8d86719927d4b8bd"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "L0002.d4c2567952bd423e8d86719927d4b8bd",
+          "type": "dek"
+        },
+        {
+          "id": "L0002.3eab54193ce0498fa289bc6ccd4a8fe0",
+          "type": "pijler"
+        },
+        {
+          "id": "L0002.7e553c3c0917487789cbd7c8f63753e5",
+          "type": "pijler"
+        },
+        {
+          "id": "L0002.7ffc2f7bb4f44e7193b686be04e3428a",
+          "type": "pijler"
+        },
+        {
+          "id": "L0002.ca6933137ed14c32b3b834591da8ffde",
+          "type": "pijler"
+        }
+      ],
+      "osm": {
+        "id": "way/463102270",
+        "tags": {
+          "bridge": "yes",
+          "bridge:material": "concrete",
+          "bridge:structure": "beam",
+          "highway": "cycleway",
+          "layer": "1",
+          "maxweight": "30",
+          "mofa": "designated",
+          "moped": "designated",
+          "name": "Zuiderbrug",
+          "surface": "asphalt",
+          "traffic_sign": "NL:G12a",
+          "man_made": "bridge",
+          "name:de": "Südbrücke",
+          "start_date": "1995",
+          "wikidata": "Q21197794",
+          "wikipedia": "nl:Zuiderbrug"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 5
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 200000,360000,220000,380000 --run nl-10_3 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 322.3,
+      "dekBreedte": 48.2,
+      "brugLengte": 322.3,
+      "water": [
+        -29.1,
+        100.9
+      ],
+      "portaalhoogte": 43.4,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "L0002.d5c53c16f41a4248bc5ec325edde3df4",
+          "klasse": "Road",
+          "oppervlak": 6721.3,
+          "onderDek": 0,
+          "bovenDekOnderkant": 1.03,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "L0002.d9a8c97720c54f668eb4091feae4d35b",
+          "klasse": "Road",
+          "oppervlak": 6016.1,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.98,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        70.312,
+        71.409
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

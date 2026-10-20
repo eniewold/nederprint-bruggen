@@ -1,0 +1,165 @@
+{
+  "name": "Klipper",
+  "file": "bergen-op-zoom-brug-d0e22628.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    77072.82,
+    388748.51
+  ],
+  "xAxis": [
+    0.768852,
+    0.639427
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 46.678,
+  "groundSamplePoints": [
+    [
+      -13.85,
+      0
+    ],
+    [
+      13.85,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0748.1c51360d619b4d80b4e366415fcc646a",
+    "G0748.d0e22628e21a49c89786dccf1cb8f13a",
+    "G0748.d3e2ac0188384cd4a36e7c35e5aea234"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        77072.82,
+        388748.51
+      ],
+      "axis": [
+        0.768852,
+        0.639427
+      ],
+      "halfLength": 3.15,
+      "halfWidth": 7.27,
+      "height": 45.754,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.21,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        77063.14,
+        388740.46
+      ],
+      "axis": [
+        -0.768852,
+        -0.639427
+      ],
+      "halfLength": 6.3,
+      "halfWidth": 8.77,
+      "height": 46.866,
+      "gradient": [
+        -0.02988,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        77082.5,
+        388756.56
+      ],
+      "axis": [
+        0.768852,
+        0.639427
+      ],
+      "halfLength": 6.3,
+      "halfWidth": 8.77,
+      "height": 46.904,
+      "gradient": [
+        -0.02383,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0748.d0e22628e21a49c89786dccf1cb8f13a"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0748.1c51360d619b4d80b4e366415fcc646a",
+          "type": "landhoofd"
+        },
+        {
+          "id": "G0748.d0e22628e21a49c89786dccf1cb8f13a",
+          "type": "dek"
+        },
+        {
+          "id": "G0748.d3e2ac0188384cd4a36e7c35e5aea234",
+          "type": "landhoofd"
+        }
+      ],
+      "osm": {
+        "id": "way/57394750",
+        "tags": {
+          "bridge": "yes",
+          "highway": "residential",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Klipper"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 3
+    },
+    "type": "ophaalbrug",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 60000,380000,80000,400000 --run nl-3_4 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 12.6,
+      "dekBreedte": 13.5,
+      "brugLengte": 12.6,
+      "water": [
+        -2.8,
+        3.2
+      ],
+      "portaalhoogte": 12.2,
+      "opritafstand": [
+        7.6,
+        7.6
+      ],
+      "oprithelling": 12.6,
+      "doorstekend": [
+        {
+          "gmlId": "W0652.93464dd18c0f4e32a364eb46afad0cca",
+          "klasse": "Terrain",
+          "oppervlak": 52.3,
+          "onderDek": 0.01,
+          "bovenDekOnderkant": 0.21,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        46.678,
+        46.754
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen FIS-brug binnen 35 m",
+      "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

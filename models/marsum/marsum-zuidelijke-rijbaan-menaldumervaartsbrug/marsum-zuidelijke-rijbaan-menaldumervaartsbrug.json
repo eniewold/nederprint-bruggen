@@ -1,0 +1,191 @@
+{
+  "name": "Zuidelijke rijbaan Menaldumervaartsbrug",
+  "file": "marsum-zuidelijke-rijbaan-menaldumervaartsbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    175435.3,
+    579931.28
+  ],
+  "xAxis": [
+    0.973769,
+    0.227538
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 43.838,
+  "groundSamplePoints": [
+    [
+      -41.01,
+      0
+    ],
+    [
+      41.02,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "L0002.1751dc22367f494a9ef2c879d592660e",
+    "L0002.4f05316380f944e28cc91a73b9e65bb5",
+    "L0002.c89ee1906f7f49f5b4a97603cd9c9ff0"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        175435.3,
+        579931.28
+      ],
+      "axis": [
+        0.973769,
+        0.227538
+      ],
+      "halfLength": 14.91,
+      "halfWidth": 7.19,
+      "height": 42.907,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.81,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        175403.15,
+        579923.77
+      ],
+      "axis": [
+        -0.973769,
+        -0.227538
+      ],
+      "halfLength": 12,
+      "halfWidth": 8.69,
+      "height": 44.057,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        175467.45,
+        579938.79
+      ],
+      "axis": [
+        0.973769,
+        0.227538
+      ],
+      "halfLength": 12,
+      "halfWidth": 8.69,
+      "height": 44.023,
+      "gradient": [
+        -0.01535,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "L0002.1751dc22367f494a9ef2c879d592660e"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "L0002.1751dc22367f494a9ef2c879d592660e",
+          "type": "dek"
+        },
+        {
+          "id": "L0002.4f05316380f944e28cc91a73b9e65bb5",
+          "type": "landhoofd"
+        },
+        {
+          "id": "L0002.c89ee1906f7f49f5b4a97603cd9c9ff0",
+          "type": "landhoofd"
+        }
+      ],
+      "osm": {
+        "id": "way/975301773",
+        "tags": {
+          "bridge": "yes",
+          "carriageway_ref": "Re",
+          "highway": "motorway",
+          "lanes": "2",
+          "layer": "1",
+          "lit": "no",
+          "loc_name": "Waadseewei",
+          "loc_name:fy": "Waadseewei",
+          "loc_name:nl": "Waddenzeeweg",
+          "maxspeed": "100",
+          "maxspeed:conditional": "130 @ (19:00-06:00)",
+          "noname": "yes",
+          "oneway": "yes",
+          "operator": "Rijkswaterstaat",
+          "ref": "A31",
+          "source:loc_name": "https://www.rijkswaterstaat.nl/wegen/wegenoverzicht/a31",
+          "source:noname": "NWB",
+          "surface": "asphalt",
+          "man_made": "bridge"
+        }
+      },
+      "fis": {
+        "id": 10669,
+        "naam": "Zuidelijke rijbaan Menaldumervaartsbrug",
+        "afstand": 3,
+        "beweegbaar": false,
+        "doorvaarthoogteGesloten": 2.49
+      },
+      "pdokBridgeVlakken": 3
+    },
+    "type": "ligger",
+    "doorvaarthoogte": 2.49,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,560000,180000,580000 --run nl-8_13 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 41.8,
+      "dekBreedte": 13.4,
+      "brugLengte": 42,
+      "water": [
+        -9,
+        10.5
+      ],
+      "portaalhoogte": 12,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G1908.991dd9f815724626813573dedcee8df1",
+          "klasse": "Terrain",
+          "oppervlak": 1324.4,
+          "onderDek": 0.06,
+          "bovenDekOnderkant": 0.81,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G1908.355df658d0bd4a94a1932c7bccbd6258",
+          "klasse": "Terrain",
+          "oppervlak": 537.6,
+          "onderDek": 0.1,
+          "bovenDekOnderkant": 0.68,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        43.907,
+        43.838
+      ]
+    },
+    "waarschuwingen": [
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

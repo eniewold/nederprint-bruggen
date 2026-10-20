@@ -1,0 +1,197 @@
+{
+  "name": "Tolmaat",
+  "file": "eursinge-tolmaat.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    233945.21,
+    541527.78
+  ],
+  "xAxis": [
+    0.733157,
+    -0.68006
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 60.263,
+  "groundSamplePoints": [
+    [
+      -42.63,
+      0
+    ],
+    [
+      42.63,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "P0022.0a7b6590f7544818be7b99126d438693",
+    "P0022.e33c0b605e1e4cf692323a4ce9d00952",
+    "P0022.f3475d8d8eff45789a330388e5a5b021",
+    "G1731.8abeacd5439b75760000000a175a31c0"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        233945.21,
+        541527.78
+      ],
+      "axis": [
+        0.733157,
+        -0.68006
+      ],
+      "halfLength": 16.63,
+      "halfWidth": 8.03,
+      "height": 59.281,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.79,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        233919.82,
+        541551.33
+      ],
+      "axis": [
+        -0.733157,
+        0.68006
+      ],
+      "halfLength": 12,
+      "halfWidth": 9.53,
+      "height": 60.422,
+      "gradient": [
+        -0.01327,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        233970.6,
+        541504.23
+      ],
+      "axis": [
+        0.733157,
+        -0.68006
+      ],
+      "halfLength": 12,
+      "halfWidth": 9.53,
+      "height": 60.431,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "P0022.0a7b6590f7544818be7b99126d438693"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "P0022.0a7b6590f7544818be7b99126d438693",
+          "type": "dek"
+        },
+        {
+          "id": "P0022.e33c0b605e1e4cf692323a4ce9d00952",
+          "type": "onbekend"
+        },
+        {
+          "id": "P0022.f3475d8d8eff45789a330388e5a5b021",
+          "type": "onbekend"
+        }
+      ],
+      "osm": {
+        "id": "way/716608603",
+        "tags": {
+          "bridge": "yes",
+          "highway": "trunk",
+          "lanes": "2",
+          "layer": "1",
+          "lit": "no",
+          "maxspeed": "100",
+          "maxweight:signed": "no",
+          "motorroad": "yes",
+          "name": "Tolmaat",
+          "operator": "Provincie Drenthe",
+          "overtaking": "no",
+          "ref": "N381",
+          "surface": "asphalt",
+          "zone:traffic": "NL:rural",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 3
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,540000,240000,560000 --run nl-11_12 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 45.3,
+      "dekBreedte": 15.1,
+      "brugLengte": 45.3,
+      "water": null,
+      "portaalhoogte": 13.5,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "P0022.0156a57be3df40019319a93135b456b0",
+          "klasse": "Terrain",
+          "oppervlak": 140.4,
+          "onderDek": 0.59,
+          "bovenDekOnderkant": 0.79,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "P0022.2b5779bda66041c1b0dc1e9fdcf37de3",
+          "klasse": "Forest",
+          "oppervlak": 1086.2,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.69,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "P0022.7ca8b6ea258e4c4d838d939d60117197",
+          "klasse": "Terrain",
+          "oppervlak": 521.2,
+          "onderDek": 0.63,
+          "bovenDekOnderkant": 0.54,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G1731.8abeacd5439b75760000000a175a31c0",
+          "klasse": "Terrain",
+          "oppervlak": 9.3,
+          "onderDek": 0.84,
+          "bovenDekOnderkant": 0.53,
+          "actie": "verbergen"
+        }
+      ],
+      "opritHoogtes": [
+        60.263,
+        60.281
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "4 PDOK-vorm(en) door het dek: 1 verborgen, 3 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}
