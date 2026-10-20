@@ -1,0 +1,183 @@
+{
+  "name": "nieuw-dordrecht-brug-bf5fcab6",
+  "file": "nieuw-dordrecht-brug-bf5fcab6.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    263002.34,
+    528682.51
+  ],
+  "xAxis": [
+    0.998374,
+    -0.057005
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 57.645,
+  "groundSamplePoints": [
+    [
+      -50.32,
+      0
+    ],
+    [
+      50.43,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "L0002.86edfe741b804487bf716a6321f925be",
+    "L0002.a14d9156f53148c5bd75d5d88b2bab6f",
+    "L0002.bf5fcab6102042b8b15043702a0681a8",
+    "L0002.d712051335d2476ab34ed480fd692c5c"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        263002.34,
+        528682.51
+      ],
+      "axis": [
+        0.998374,
+        -0.057005
+      ],
+      "halfLength": 24.27,
+      "halfWidth": 9.36,
+      "height": 67.715,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.26,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        262960.09,
+        528684.92
+      ],
+      "axis": [
+        -0.998374,
+        0.057005
+      ],
+      "halfLength": 12,
+      "halfWidth": 10.86,
+      "height": 68.865,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        263044.7,
+        528680.09
+      ],
+      "axis": [
+        0.998374,
+        -0.057005
+      ],
+      "halfLength": 12,
+      "halfWidth": 10.86,
+      "height": 63.33,
+      "gradient": [
+        -0.47375,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "L0002.bf5fcab6102042b8b15043702a0681a8"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "L0002.86edfe741b804487bf716a6321f925be",
+          "type": "onbekend"
+        },
+        {
+          "id": "L0002.a14d9156f53148c5bd75d5d88b2bab6f",
+          "type": "onbekend"
+        },
+        {
+          "id": "L0002.bf5fcab6102042b8b15043702a0681a8",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/480379819",
+        "tags": {
+          "asphalt:type": "porous:double",
+          "bridge": "viaduct",
+          "carriageway_ref": "Re",
+          "highway": "motorway",
+          "int_ref": "E 233",
+          "lanes": "3",
+          "layer": "1",
+          "lit": "no",
+          "maxspeed": "100",
+          "maxspeed:conditional": "130 @ (19:00-06:00)",
+          "oneway": "yes",
+          "operator": "Rijkswaterstaat",
+          "ref": "A37",
+          "surface": "asphalt",
+          "toll:hgv": "yes",
+          "turn:lanes": "none|none|merge_to_left",
+          "zone:traffic": "NL:rural"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 3
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 260000,520000,280000,540000 --run nl-13_11 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 60.5,
+      "dekBreedte": 17.7,
+      "brugLengte": 60.7,
+      "water": null,
+      "portaalhoogte": 15.9,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "L0002.d6c34da41ff94c16902155a5c69aa7e9",
+          "klasse": "Terrain",
+          "oppervlak": 182.1,
+          "onderDek": 0.42,
+          "bovenDekOnderkant": 0.26,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "L0002.d712051335d2476ab34ed480fd692c5c",
+          "klasse": "Terrain",
+          "oppervlak": 10.3,
+          "onderDek": 0.95,
+          "bovenDekOnderkant": 0.08,
+          "actie": "verbergen"
+        }
+      ],
+      "opritHoogtes": [
+        68.715,
+        57.645
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 1 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

@@ -1,0 +1,175 @@
+{
+  "name": "de-punt-brug-f34e00b1",
+  "file": "de-punt-brug-f34e00b1.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    236862.39,
+    571788.32
+  ],
+  "xAxis": [
+    0.109756,
+    -0.993959
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 48.553,
+  "groundSamplePoints": [
+    [
+      -58.31,
+      0
+    ],
+    [
+      58.31,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "L0002.f34e00b11891451cba0d0225a09e74dd",
+    "L0002.5d8c28799cf1486e9acabc715c53975c"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        236862.39,
+        571788.32
+      ],
+      "axis": [
+        0.109756,
+        -0.993959
+      ],
+      "halfLength": 32.31,
+      "halfWidth": 15.82,
+      "height": 47.604,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.98,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        236856.87,
+        571838.33
+      ],
+      "axis": [
+        -0.109756,
+        0.993959
+      ],
+      "halfLength": 12,
+      "halfWidth": 17.32,
+      "height": 48.729,
+      "gradient": [
+        -0.01461,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        236867.92,
+        571738.32
+      ],
+      "axis": [
+        0.109756,
+        -0.993959
+      ],
+      "halfLength": 12,
+      "halfWidth": 17.32,
+      "height": 48.754,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "L0002.f34e00b11891451cba0d0225a09e74dd"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "L0002.f34e00b11891451cba0d0225a09e74dd",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/718110751",
+        "tags": {
+          "bridge": "yes",
+          "carriageway_ref": "Li",
+          "destination": "Utrecht;Assen;Emmen;Eelde",
+          "highway": "motorway",
+          "int_ref": "E 232",
+          "lanes": "3",
+          "layer": "1",
+          "lit": "no",
+          "maxspeed": "100",
+          "maxspeed:conditional": "130 @ (19:00-06:00)",
+          "oneway": "yes",
+          "operator": "Rijkswaterstaat",
+          "overtaking:hgv:conditional": "no @ (Mo-Fr 06:00-10:00,15:00-19:00)",
+          "placement": "right_of:1",
+          "ref": "A28",
+          "surface": "asphalt",
+          "toll:hgv": "yes",
+          "turn:lanes": "none|none|slight_right",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,560000,240000,580000 --run nl-11_13 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 76.6,
+      "dekBreedte": 30.6,
+      "brugLengte": 76.6,
+      "water": null,
+      "portaalhoogte": 27.6,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "L0002.63d6120a4e514805b78b682b17dcfc5c",
+          "klasse": "Terrain",
+          "oppervlak": 844,
+          "onderDek": 0.56,
+          "bovenDekOnderkant": 0.98,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "L0002.5d8c28799cf1486e9acabc715c53975c",
+          "klasse": "Terrain",
+          "oppervlak": 256.2,
+          "onderDek": 0.93,
+          "bovenDekOnderkant": 0.47,
+          "actie": "verbergen"
+        }
+      ],
+      "opritHoogtes": [
+        48.553,
+        48.604
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 1 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

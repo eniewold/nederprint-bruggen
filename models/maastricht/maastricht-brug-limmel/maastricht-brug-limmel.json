@@ -1,0 +1,136 @@
+{
+  "name": "Brug Limmel",
+  "file": "maastricht-brug-limmel.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    177109.63,
+    320591.24
+  ],
+  "xAxis": [
+    -0.981603,
+    0.190932
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 100.099,
+  "groundSamplePoints": [
+    [
+      -58.5,
+      0
+    ],
+    [
+      58.5,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "L0002.bcbefe64edde4756abfffc35882b5a92"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        177159.21,
+        320581.6
+      ],
+      "axis": [
+        0.981603,
+        -0.190932
+      ],
+      "halfLength": 12,
+      "halfWidth": 8.54,
+      "height": 100.295,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        177060.06,
+        320600.88
+      ],
+      "axis": [
+        -0.981603,
+        0.190932
+      ],
+      "halfLength": 12,
+      "halfWidth": 8.54,
+      "height": 100.272,
+      "gradient": [
+        -0.01438,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "L0002.bcbefe64edde4756abfffc35882b5a92"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "L0002.bcbefe64edde4756abfffc35882b5a92",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/506746032",
+        "tags": {
+          "bridge": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "mofa": "designated",
+          "moped": "designated",
+          "name": "Sluisdijk",
+          "sidewalk": "no",
+          "surface": "asphalt",
+          "traffic_sign": "NL:G12a",
+          "man_made": "bridge"
+        }
+      },
+      "fis": {
+        "id": 6200,
+        "naam": "Brug Limmel",
+        "afstand": 4,
+        "beweegbaar": false,
+        "doorvaarthoogteGesloten": 9.049999999999997
+      },
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": 9.049999999999997,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,320000,180000,340000 --run nl-8_1 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 77,
+      "dekBreedte": 13.1,
+      "brugLengte": 77,
+      "water": [
+        -25.5,
+        25.5
+      ],
+      "portaalhoogte": 11.8,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [],
+      "opritHoogtes": [
+        100.145,
+        100.099
+      ]
+    },
+    "waarschuwingen": [
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

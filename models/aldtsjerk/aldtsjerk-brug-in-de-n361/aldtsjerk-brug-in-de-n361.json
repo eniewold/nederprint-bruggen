@@ -1,0 +1,148 @@
+{
+  "name": "Brug in de N361",
+  "file": "aldtsjerk-brug-in-de-n361.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    187918.77,
+    587127.05
+  ],
+  "xAxis": [
+    -0.301538,
+    -0.953454
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 42.494,
+  "groundSamplePoints": [
+    [
+      -6.98,
+      0
+    ],
+    [
+      6.98,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "P0021.1f4e99d295604aaa915f11506beafd60"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        187920.57,
+        587132.75
+      ],
+      "axis": [
+        0.301538,
+        0.953454
+      ],
+      "halfLength": 3,
+      "halfWidth": 10.1,
+      "height": 42.914,
+      "gradient": [
+        -0.05,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        187916.97,
+        587121.35
+      ],
+      "axis": [
+        -0.301538,
+        -0.953454
+      ],
+      "halfLength": 3,
+      "halfWidth": 10.1,
+      "height": 42.779,
+      "gradient": [
+        -0.09501,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "P0021.1f4e99d295604aaa915f11506beafd60"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "P0021.1f4e99d295604aaa915f11506beafd60",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1014422257",
+        "tags": {
+          "agricultural": "no",
+          "agricultural:conditional": "yes @ maxspeed >= 25",
+          "bicycle": "no",
+          "bridge": "yes",
+          "carriage": "no",
+          "foot": "no",
+          "hand_cart": "no",
+          "highway": "primary",
+          "horse": "no",
+          "lanes": "2",
+          "layer": "1",
+          "maxspeed": "80",
+          "microcar": "no",
+          "mofa": "no",
+          "moped": "no",
+          "name": "Lauwersseewei",
+          "operator": "Provincie Fryslân",
+          "ref": "N361",
+          "surface": "asphalt",
+          "traffic_sign": "NL:C9;NL:OB55",
+          "man_made": "bridge"
+        }
+      },
+      "fis": {
+        "id": 30964764,
+        "naam": "Brug in de N361",
+        "afstand": 0,
+        "beweegbaar": false,
+        "doorvaarthoogteGesloten": 2.49
+      },
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": 2.49,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 180000,580000,200000,600000 --run nl-9_14 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 6,
+      "dekBreedte": 16.2,
+      "brugLengte": 6,
+      "water": [
+        -2.5,
+        2.5
+      ],
+      "portaalhoogte": 14.6,
+      "opritafstand": [
+        4,
+        4
+      ],
+      "oprithelling": 6,
+      "doorstekend": [],
+      "opritHoogtes": [
+        42.764,
+        42.494
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}
