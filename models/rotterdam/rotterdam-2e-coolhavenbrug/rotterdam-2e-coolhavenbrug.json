@@ -1,0 +1,146 @@
+{
+  "name": "2e Coolhavenbrug",
+  "file": "rotterdam-2e-coolhavenbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    91439.82,
+    435924.17
+  ],
+  "xAxis": [
+    -0.914834,
+    -0.403829
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 47.374,
+  "groundSamplePoints": [
+    [
+      -13.81,
+      0
+    ],
+    [
+      13.65,
+      -1.7
+    ]
+  ],
+  "replacesTerrain": [
+    "G0599.16fd017113e02cac9e050210a7e24119"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        91446.72,
+        435927.22
+      ],
+      "axis": [
+        0.914834,
+        0.403829
+      ],
+      "halfLength": 3.73,
+      "halfWidth": 12.99,
+      "height": 47.752,
+      "gradient": [
+        -0.04019,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        91433.06,
+        435921.19
+      ],
+      "axis": [
+        -0.914834,
+        -0.403829
+      ],
+      "halfLength": 3.73,
+      "halfWidth": 12.99,
+      "height": 47.638,
+      "gradient": [
+        -0.07073,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0599.16fd017113e02cac9e050210a7e24119"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0599.16fd017113e02cac9e050210a7e24119",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/550126849",
+        "tags": {
+          "bridge": "yes",
+          "bridge:name": "2e Coolhavenbrug",
+          "electrified": "contact_line",
+          "frequency": "0",
+          "gauge": "1435",
+          "layer": "1",
+          "maxspeed": "60",
+          "oneway": "yes",
+          "railway": "tram",
+          "railway:atb": "no",
+          "railway:etcs": "no",
+          "railway:lzb": "no",
+          "railway:pzb": "no",
+          "railway:zub": "no",
+          "voltage": "600",
+          "man_made": "bridge",
+          "name": "2e Coolhavenbrug"
+        }
+      },
+      "fis": {
+        "id": 50290,
+        "naam": "Coolhavenbrug",
+        "afstand": 34,
+        "beweegbaar": true,
+        "doorvaarthoogteGesloten": 3.7800000000000002
+      },
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ophaalbrug",
+    "doorvaarthoogte": 3.7800000000000002,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,420000,100000,440000 --run nl-4_6 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 7.5,
+      "dekBreedte": 22,
+      "brugLengte": 7.5,
+      "water": [
+        -3.3,
+        3.2
+      ],
+      "portaalhoogte": 19.8,
+      "opritafstand": [
+        10,
+        10
+      ],
+      "spoorhoogteBron": "pdok",
+      "oprithelling": 7.5,
+      "doorstekend": [],
+      "opritHoogtes": [
+        47.602,
+        47.374
+      ]
+    },
+    "waarschuwingen": [
+      "oprit -: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "oprit +: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

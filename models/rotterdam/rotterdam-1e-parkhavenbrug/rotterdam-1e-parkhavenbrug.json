@@ -1,0 +1,147 @@
+{
+  "name": "1e Parkhavenbrug",
+  "file": "rotterdam-1e-parkhavenbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    91467.8,
+    435761.41
+  ],
+  "xAxis": [
+    0.925459,
+    0.378847
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 48.014,
+  "groundSamplePoints": [
+    [
+      -16.97,
+      -1.93
+    ],
+    [
+      17.01,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0599.16fd017112c46cac9e050210a7e24119"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        91454.86,
+        435756.12
+      ],
+      "axis": [
+        -0.925459,
+        -0.378847
+      ],
+      "halfLength": 7,
+      "halfWidth": 12.11,
+      "height": 48.326,
+      "gradient": [
+        -0.02144,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        91480.76,
+        435766.72
+      ],
+      "axis": [
+        0.925459,
+        0.378847
+      ],
+      "halfLength": 7,
+      "halfWidth": 12.11,
+      "height": 48.245,
+      "gradient": [
+        -0.03304,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0599.16fd017112c46cac9e050210a7e24119"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0599.16fd017112c46cac9e050210a7e24119",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/550126846",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "yes",
+          "bridge:name": "1e Parkhavenbrug",
+          "foot": "use_sidepath",
+          "highway": "secondary",
+          "lanes": "3",
+          "lanes:backward": "1",
+          "lanes:forward": "2",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "50",
+          "mofa": "use_sidepath",
+          "name": "1e Parkhavenbrug",
+          "ref": "S114",
+          "source:maxspeed": "NL:urban",
+          "surface": "asphalt",
+          "man_made": "bridge",
+          "wikidata": "Q17609842"
+        }
+      },
+      "fis": {
+        "id": 57921,
+        "naam": "Parkhavenbrug",
+        "afstand": 1,
+        "beweegbaar": true,
+        "doorvaarthoogteGesloten": 1.62
+      },
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ophaalbrug",
+    "doorvaarthoogte": 1.62,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,420000,100000,440000 --run nl-4_6 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 14,
+      "dekBreedte": 20.2,
+      "brugLengte": 14,
+      "water": [
+        -6.5,
+        6.5
+      ],
+      "portaalhoogte": 18.2,
+      "opritafstand": [
+        10,
+        10
+      ],
+      "spoorhoogteBron": "pdok",
+      "oprithelling": 14,
+      "doorstekend": [],
+      "opritHoogtes": [
+        48.176,
+        48.014
+      ]
+    },
+    "waarschuwingen": [
+      "oprit -: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "oprit +: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

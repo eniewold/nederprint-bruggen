@@ -1,0 +1,137 @@
+{
+  "name": "Koninginnebrug",
+  "file": "schiedam-koninginnebrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    87662.6,
+    435720.48
+  ],
+  "xAxis": [
+    -0.995693,
+    -0.092714
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 48.184,
+  "groundSamplePoints": [
+    [
+      -15.7,
+      0
+    ],
+    [
+      15.7,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0606.d55e35c3070a2413e0532e00010a04d4",
+    "G0606.2b68b31bcc337498e0530200010aefaa"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        87676.81,
+        435721.8
+      ],
+      "axis": [
+        0.995693,
+        0.092714
+      ],
+      "halfLength": 7.14,
+      "halfWidth": 10.56,
+      "height": 48.348,
+      "gradient": [
+        -0.02306,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        87648.39,
+        435719.15
+      ],
+      "axis": [
+        -0.995693,
+        -0.092714
+      ],
+      "halfLength": 7.14,
+      "halfWidth": 10.56,
+      "height": 48.363,
+      "gradient": [
+        -0.02102,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0606.2b68b31bcc337498e0530200010aefaa"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0606.d55e35c3070a2413e0532e00010a04d4",
+          "type": "landhoofd"
+        },
+        {
+          "id": "G0606.2b68b31bcc337498e0530200010aefaa",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/932604817",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "yes",
+          "bridge:name": "Koninginnebrug",
+          "hgv:conditional": "no @ (23:00-07:00)",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "50",
+          "name": "Koninginnebrug",
+          "note": "Between 23:00-07:00 exempted for LZV and exceptional transport",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 2
+    },
+    "type": "ophaalbrug",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,420000,100000,440000 --run nl-4_6 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 14.3,
+      "dekBreedte": 17.1,
+      "brugLengte": 14.3,
+      "water": [
+        -5.1,
+        3.9
+      ],
+      "portaalhoogte": 15.4,
+      "opritafstand": [
+        8.6,
+        8.6
+      ],
+      "oprithelling": 14.3,
+      "doorstekend": [],
+      "opritHoogtes": [
+        48.184,
+        48.213
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen FIS-brug binnen 35 m"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "name": "Tilburgseweg",
+  "file": "riel-brug-d8548fe6.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    130250.11,
+    393445.06
+  ],
+  "xAxis": [
+    0.941337,
+    0.337468
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 57.522,
+  "groundSamplePoints": [
+    [
+      -6.88,
+      0
+    ],
+    [
+      6.88,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0785.d8548fe6030648a8b79407d337374a0d"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        130250.11,
+        393445.06
+      ],
+      "axis": [
+        0.941337,
+        0.337468
+      ],
+      "halfLength": 1.44,
+      "halfWidth": 4.55,
+      "height": 56.679,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.71,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        130244.58,
+        393443.08
+      ],
+      "axis": [
+        -0.941337,
+        -0.337468
+      ],
+      "halfLength": 3,
+      "halfWidth": 6.05,
+      "height": 57.751,
+      "gradient": [
+        -0.07617,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        130255.64,
+        393447.05
+      ],
+      "axis": [
+        0.941337,
+        0.337468
+      ],
+      "halfLength": 3,
+      "halfWidth": 6.05,
+      "height": 57.829,
+      "gradient": [
+        -0.05,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0785.d8548fe6030648a8b79407d337374a0d"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0785.d8548fe6030648a8b79407d337374a0d",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/389047286",
+        "tags": {
+          "bicycle": "no",
+          "bridge": "yes",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Tilburgseweg"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,380000,140000,400000 --run nl-6_4 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 5.8,
+      "dekBreedte": 8.1,
+      "brugLengte": 5.8,
+      "water": [
+        -1.4,
+        0.6
+      ],
+      "portaalhoogte": 7.3,
+      "opritafstand": [
+        4,
+        4
+      ],
+      "oprithelling": 6,
+      "doorstekend": [
+        {
+          "gmlId": "G0785.680ccb4f694340139f26576bc26a0307",
+          "klasse": "Terrain",
+          "oppervlak": 0.8,
+          "onderDek": 0.33,
+          "bovenDekOnderkant": 0.71,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0785.f230144a69474336a44cd1036d6f77b7",
+          "klasse": "Road",
+          "oppervlak": 11.7,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.14,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        57.522,
+        57.679
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

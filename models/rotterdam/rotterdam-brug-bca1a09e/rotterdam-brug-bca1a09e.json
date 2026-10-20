@@ -1,0 +1,129 @@
+{
+  "name": "rotterdam-brug-bca1a09e",
+  "file": "rotterdam-brug-bca1a09e.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    94905.62,
+    435446.66
+  ],
+  "xAxis": [
+    0.249611,
+    -0.968346
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 45.218,
+  "groundSamplePoints": [
+    [
+      36.07,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0599.bca1a09e746e453e86d82d8e1ad55006"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        94905.62,
+        435446.66
+      ],
+      "axis": [
+        0.249611,
+        -0.968346
+      ],
+      "halfLength": 10.4,
+      "halfWidth": 4.13,
+      "height": 44.218,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -4.42,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        94912.7,
+        435419.16
+      ],
+      "axis": [
+        0.249611,
+        -0.968346
+      ],
+      "halfLength": 12,
+      "halfWidth": 5.44,
+      "height": 45.368,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0599.bca1a09e746e453e86d82d8e1ad55006"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0599.bca1a09e746e453e86d82d8e1ad55006",
+          "type": "dek"
+        }
+      ],
+      "osm": null,
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,420000,100000,440000 --run nl-4_6 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 32.8,
+      "dekBreedte": 7.3,
+      "brugLengte": 32.8,
+      "water": null,
+      "portaalhoogte": 6.5,
+      "opritafstand": [
+        59,
+        19.7
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0599.16fd016bb019bcac9e050210a7e24119",
+          "klasse": "Terrain",
+          "oppervlak": 3667,
+          "onderDek": 0.12,
+          "bovenDekOnderkant": 3.42,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0599.16fca6c88bf936560e050210a7e247d7",
+          "klasse": "Forest",
+          "oppervlak": 70.2,
+          "onderDek": 0,
+          "bovenDekOnderkant": 3.32,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        null,
+        45.218
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "oprit - zonder PDOK-maaiveld",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

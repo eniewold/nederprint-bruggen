@@ -1,0 +1,128 @@
+{
+  "name": "Hofbrug",
+  "file": "borculo-hofbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    232879.9,
+    458954.16
+  ],
+  "xAxis": [
+    -0.698341,
+    -0.715766
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 61.117,
+  "groundSamplePoints": [
+    [
+      -6.52,
+      0
+    ],
+    [
+      6.52,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G1859.14741e8ef0964d518963d774306a88c4"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        232883.75,
+        458958.11
+      ],
+      "axis": [
+        0.698341,
+        0.715766
+      ],
+      "halfLength": 3,
+      "halfWidth": 8.17,
+      "height": 61.279,
+      "gradient": [
+        -0.05405,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        232876.04,
+        458950.21
+      ],
+      "axis": [
+        -0.698341,
+        -0.715766
+      ],
+      "halfLength": 3,
+      "halfWidth": 8.17,
+      "height": 61.291,
+      "gradient": [
+        -0.05,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G1859.14741e8ef0964d518963d774306a88c4"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G1859.14741e8ef0964d518963d774306a88c4",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/783754052",
+        "tags": {
+          "bridge": "yes",
+          "highway": "residential",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Hofbrug",
+          "surface": "asphalt",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,440000,240000,460000 --run nl-11_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 5,
+      "dekBreedte": 12.3,
+      "brugLengte": 5,
+      "water": [
+        -1.5,
+        1.5
+      ],
+      "portaalhoogte": 11.1,
+      "opritafstand": [
+        4,
+        4
+      ],
+      "oprithelling": 6,
+      "doorstekend": [],
+      "opritHoogtes": [
+        61.117,
+        61.141
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

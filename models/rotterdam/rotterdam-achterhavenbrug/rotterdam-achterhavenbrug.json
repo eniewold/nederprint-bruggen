@@ -1,0 +1,138 @@
+{
+  "name": "Achterhavenbrug",
+  "file": "rotterdam-achterhavenbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    90525.21,
+    435905.68
+  ],
+  "xAxis": [
+    0.890046,
+    -0.45587
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 48.94,
+  "groundSamplePoints": [
+    [
+      -17.04,
+      0
+    ],
+    [
+      17.04,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0599.16fd017113b61cac9e050210a7e24119"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        90511.43,
+        435912.74
+      ],
+      "axis": [
+        -0.890046,
+        0.45587
+      ],
+      "halfLength": 7.74,
+      "halfWidth": 16.51,
+      "height": 49.785,
+      "gradient": [
+        -0.01937,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        90539,
+        435898.61
+      ],
+      "axis": [
+        0.890046,
+        -0.45587
+      ],
+      "halfLength": 7.74,
+      "halfWidth": 16.51,
+      "height": 49.438,
+      "gradient": [
+        -0.06424,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0599.16fd017113b61cac9e050210a7e24119"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0599.16fd017113b61cac9e050210a7e24119",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/554447141",
+        "tags": {
+          "bridge": "yes",
+          "cycleway:both": "no",
+          "highway": "residential",
+          "layer": "1",
+          "maxspeed": "50",
+          "maxweight:signed": "no",
+          "name": "Achterhavenbrug",
+          "parking:lane:both": "no",
+          "wikidata": "Q4410153",
+          "man_made": "bridge",
+          "wikipedia": "nl:Achterhavenbrug"
+        }
+      },
+      "fis": {
+        "id": 58215,
+        "naam": "Achterhavenbrug",
+        "afstand": 3,
+        "beweegbaar": true,
+        "doorvaarthoogteGesloten": 5.08
+      },
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ophaalbrug",
+    "doorvaarthoogte": 5.08,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,420000,100000,440000 --run nl-4_6 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 15.5,
+      "dekBreedte": 29,
+      "brugLengte": 15.5,
+      "water": [
+        -7.2,
+        6.8
+      ],
+      "portaalhoogte": 26.1,
+      "opritafstand": [
+        9.3,
+        9.3
+      ],
+      "oprithelling": 15.5,
+      "doorstekend": [],
+      "opritHoogtes": [
+        49.635,
+        48.94
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

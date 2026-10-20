@@ -1,0 +1,207 @@
+{
+  "name": "Vlaardingenbrug",
+  "file": "vlaardingen-vlaardingenbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    83429.3,
+    435540.99
+  ],
+  "xAxis": [
+    0.960751,
+    0.277413
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 47.408,
+  "groundSamplePoints": [
+    [
+      -46.99,
+      1.9
+    ],
+    [
+      26.97,
+      1.93
+    ]
+  ],
+  "replacesTerrain": [
+    "G0622.6fb1a2960d02056ce053061c030a9c40",
+    "G0622.6fb1a2960d09056ce053061c030a9c40",
+    "G0622.6fb1a2960d10056ce053061c030a9c40",
+    "G0622.6fb1a2960d17056ce053061c030a9c40",
+    "G0622.1280b35acf069d39e063bd1c030a0e54",
+    "L0004.6cb6b3b2c4d141369b294cdbfcaa5110"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        83429.3,
+        435540.99
+      ],
+      "axis": [
+        0.960751,
+        0.277413
+      ],
+      "halfLength": 10.98,
+      "halfWidth": 6.87,
+      "height": 46.695,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -2.34,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        83401.45,
+        435532.95
+      ],
+      "axis": [
+        -0.960751,
+        -0.277413
+      ],
+      "halfLength": 12,
+      "halfWidth": 8.37,
+      "height": 47.702,
+      "gradient": [
+        -0.02444,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        83457.13,
+        435549.03
+      ],
+      "axis": [
+        0.960751,
+        0.277413
+      ],
+      "halfLength": 12,
+      "halfWidth": 8.37,
+      "height": 47.845,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0622.1280b35acf069d39e063bd1c030a0e54",
+      "L0004.6cb6b3b2c4d141369b294cdbfcaa5110"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0622.6fb1a2960d02056ce053061c030a9c40",
+          "type": "pijler"
+        },
+        {
+          "id": "G0622.6fb1a2960d09056ce053061c030a9c40",
+          "type": "pijler"
+        },
+        {
+          "id": "G0622.6fb1a2960d10056ce053061c030a9c40",
+          "type": "pijler"
+        },
+        {
+          "id": "G0622.6fb1a2960d17056ce053061c030a9c40",
+          "type": "pijler"
+        },
+        {
+          "id": "G0622.1280b35acf069d39e063bd1c030a0e54",
+          "type": "dek"
+        },
+        {
+          "id": "L0004.6cb6b3b2c4d141369b294cdbfcaa5110",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/706069903",
+        "tags": {
+          "bridge": "movable",
+          "bridge:movable": "bascule",
+          "bridge:name": "Havenspoorbrug",
+          "description": "Metrolijnen A en B",
+          "designated_direction": "forward",
+          "electrified": "contact_line",
+          "frequency": "0",
+          "gauge": "1435",
+          "layer": "1",
+          "maxspeed": "100",
+          "name": "Vlaardingenbrug",
+          "operator": "RET",
+          "passenger_lines": "2",
+          "railway": "light_rail",
+          "railway:lzb": "yes",
+          "railway:track_ref": "2",
+          "ref": "A;B",
+          "usage": "main",
+          "voltage": "750",
+          "width": "3.4",
+          "wikidata": "Q803173",
+          "wikipedia": "nl:Hoekse Lijn",
+          "man_made": "bridge"
+        }
+      },
+      "fis": {
+        "id": 30441,
+        "naam": "Havenspoorbrug Vlaardingen",
+        "afstand": 18,
+        "beweegbaar": true,
+        "doorvaarthoogteGesloten": 2.5
+      },
+      "pdokBridgeVlakken": 6
+    },
+    "type": "basculebrug",
+    "doorvaarthoogte": 2.5,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,420000,100000,440000 --run nl-4_6 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 34,
+      "dekBreedte": 12.7,
+      "brugLengte": 34,
+      "water": [
+        -15.5,
+        -7.5
+      ],
+      "portaalhoogte": 11.5,
+      "opritafstand": [
+        30,
+        10
+      ],
+      "spoorhoogteBron": "pdok",
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0622.51835a9b62764cdde053aa1c030ab7b4",
+          "klasse": "Separation",
+          "oppervlak": 327.9,
+          "onderDek": 0.29,
+          "bovenDekOnderkant": 1.34,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        47.408,
+        47.695
+      ]
+    },
+    "waarschuwingen": [
+      "oprit -: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "oprit - pas op 30 m langs het spoor gemeten (PDOK-spoorterrein bij de brug lager)",
+      "oprit +: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}
