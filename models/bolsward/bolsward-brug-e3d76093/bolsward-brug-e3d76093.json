@@ -1,0 +1,126 @@
+{
+  "name": "Kerkstraat",
+  "file": "bolsward-brug-e3d76093.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    164189.93,
+    564034.05
+  ],
+  "xAxis": [
+    -0.558214,
+    -0.829697
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 43.208,
+  "groundSamplePoints": [
+    [
+      -6.47,
+      0
+    ],
+    [
+      6.47,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G1900.e3d76093a09c4126b60ee2aeb613078d"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        164192.98,
+        564038.6
+      ],
+      "axis": [
+        0.558214,
+        0.829697
+      ],
+      "halfLength": 3,
+      "halfWidth": 3.74,
+      "height": 43.424,
+      "gradient": [
+        -0.07223,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        164186.87,
+        564029.51
+      ],
+      "axis": [
+        -0.558214,
+        -0.829697
+      ],
+      "halfLength": 3,
+      "halfWidth": 3.74,
+      "height": 43.491,
+      "gradient": [
+        -0.05,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G1900.e3d76093a09c4126b60ee2aeb613078d"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G1900.e3d76093a09c4126b60ee2aeb613078d",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/68143431",
+        "tags": {
+          "bridge": "yes",
+          "highway": "residential",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Kerkstraat"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,560000,180000,580000 --run nl-8_13 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 4.9,
+      "dekBreedte": 5,
+      "brugLengte": 4.9,
+      "water": [
+        -2,
+        1
+      ],
+      "portaalhoogte": 4.5,
+      "opritafstand": [
+        4,
+        4
+      ],
+      "oprithelling": 6,
+      "doorstekend": [],
+      "opritHoogtes": [
+        43.208,
+        43.341
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

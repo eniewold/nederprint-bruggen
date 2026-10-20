@@ -1,0 +1,145 @@
+{
+  "name": "De Hoants",
+  "file": "bolsward-brug-48c577d5.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    164902.66,
+    564556.16
+  ],
+  "xAxis": [
+    0.349021,
+    0.937115
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 41.962,
+  "groundSamplePoints": [
+    [
+      -14.74,
+      0
+    ],
+    [
+      14.74,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G1900.48c577d5eb2d478a8c190ae8da4266b1",
+    "G1900.4e92b73061e2496399ab157e383c7c37",
+    "G1900.ec8ae8a40b64490a8a183bb8f6d6e6fc"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        164897.99,
+        564543.6
+      ],
+      "axis": [
+        -0.349021,
+        -0.937115
+      ],
+      "halfLength": 6.7,
+      "halfWidth": 3.39,
+      "height": 42.128,
+      "gradient": [
+        -0.02486,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        164907.34,
+        564568.71
+      ],
+      "axis": [
+        0.349021,
+        0.937115
+      ],
+      "halfLength": 6.7,
+      "halfWidth": 3.39,
+      "height": 42.145,
+      "gradient": [
+        -0.02239,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G1900.48c577d5eb2d478a8c190ae8da4266b1"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G1900.48c577d5eb2d478a8c190ae8da4266b1",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/79817445",
+        "tags": {
+          "bridge": "yes",
+          "highway": "residential",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "De Hoants"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,560000,180000,580000 --run nl-8_13 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 13.4,
+      "dekBreedte": 4.5,
+      "brugLengte": 13.4,
+      "water": [
+        -2.7,
+        2.8
+      ],
+      "portaalhoogte": 4.1,
+      "opritafstand": [
+        8,
+        8
+      ],
+      "oprithelling": 13.4,
+      "doorstekend": [
+        {
+          "gmlId": "G1900.4e92b73061e2496399ab157e383c7c37",
+          "klasse": "Terrain",
+          "oppervlak": 1,
+          "onderDek": 1,
+          "bovenDekOnderkant": 0.59,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "G1900.ec8ae8a40b64490a8a183bb8f6d6e6fc",
+          "klasse": "Terrain",
+          "oppervlak": 2.1,
+          "onderDek": 1,
+          "bovenDekOnderkant": 0.38,
+          "actie": "verbergen"
+        }
+      ],
+      "opritHoogtes": [
+        41.962,
+        41.995
+      ]
+    },
+    "waarschuwingen": [
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 2 verborgen, 0 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}
