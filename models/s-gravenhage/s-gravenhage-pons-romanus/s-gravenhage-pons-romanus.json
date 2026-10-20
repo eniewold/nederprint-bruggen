@@ -1,0 +1,176 @@
+{
+  "name": "Pons Romanus",
+  "file": "s-gravenhage-pons-romanus.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    79610.23,
+    449433.09
+  ],
+  "xAxis": [
+    -0.39969,
+    0.91665
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 45.027,
+  "groundSamplePoints": [
+    [
+      -22.5,
+      -1.76
+    ],
+    [
+      22.49,
+      -1.72
+    ]
+  ],
+  "replacesTerrain": [
+    "G0518.14280cb9c67c0772e053530a0b0af16a"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        79610.23,
+        449433.09
+      ],
+      "axis": [
+        -0.39969,
+        0.91665
+      ],
+      "halfLength": 6.5,
+      "halfWidth": 13.17,
+      "height": 44.104,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -2.12,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        79620.02,
+        449410.64
+      ],
+      "axis": [
+        0.39969,
+        -0.91665
+      ],
+      "halfLength": 12,
+      "halfWidth": 14.67,
+      "height": 45.216,
+      "gradient": [
+        -0.01572,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        79600.44,
+        449455.54
+      ],
+      "axis": [
+        -0.39969,
+        0.91665
+      ],
+      "halfLength": 12,
+      "halfWidth": 14.67,
+      "height": 45.254,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0518.14280cb9c67c0772e053530a0b0af16a"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0518.14280cb9c67c0772e053530a0b0af16a",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/718196887",
+        "tags": {
+          "bridge": "yes",
+          "electrified": "contact_line",
+          "frequency": "0",
+          "gauge": "1435",
+          "layer": "1",
+          "maxspeed": "50",
+          "oneway": "yes",
+          "railway": "tram",
+          "railway:ari": "no",
+          "railway:atb": "no",
+          "railway:etcs": "no",
+          "voltage": "600",
+          "width": "3.4",
+          "man_made": "bridge",
+          "name": "Pons Romanus"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 60000,440000,80000,460000 --run nl-3_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 25,
+      "dekBreedte": 25.3,
+      "brugLengte": 25,
+      "water": [
+        -6.5,
+        3.5
+      ],
+      "portaalhoogte": 22.8,
+      "opritafstand": [
+        10,
+        10
+      ],
+      "spoorhoogteBron": "pdok",
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0518.14280cb877e10772e053530a0b0af16a",
+          "klasse": "Terrain",
+          "oppervlak": 24,
+          "onderDek": 0.24,
+          "bovenDekOnderkant": 1.12,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0518.14280cb877e20772e053530a0b0af16a",
+          "klasse": "Terrain",
+          "oppervlak": 24.9,
+          "onderDek": 0.38,
+          "bovenDekOnderkant": 1.1,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        45.027,
+        45.104
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "oprit -: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "oprit +: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}
