@@ -1,0 +1,150 @@
+{
+  "name": "Keppelbroeksdijk",
+  "file": "westendorp-brug-cc64a938.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    224331.56,
+    440124.19
+  ],
+  "xAxis": [
+    -0.221906,
+    -0.975068
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 67.019,
+  "groundSamplePoints": [
+    [
+      -62.21,
+      0
+    ],
+    [
+      62.21,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "L0002.da83011374bb497398bc663ccbd843ef",
+    "G1509.cc64a938b0bc43dcb99c90e0b2464f75",
+    "G1509.74705046cd0e489997cc67d1901e9f1f",
+    "G1509.f562a30b1a0545968975cdb88a345c32"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        224343.59,
+        440177.05
+      ],
+      "axis": [
+        0.221906,
+        0.975068
+      ],
+      "halfLength": 12,
+      "halfWidth": 6.7,
+      "height": 67.271,
+      "gradient": [
+        -0.02098,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        224319.53,
+        440071.34
+      ],
+      "axis": [
+        -0.221906,
+        -0.975068
+      ],
+      "halfLength": 12,
+      "halfWidth": 6.7,
+      "height": 67.373,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G1509.cc64a938b0bc43dcb99c90e0b2464f75"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "L0002.da83011374bb497398bc663ccbd843ef",
+          "type": "onbekend"
+        },
+        {
+          "id": "G1509.cc64a938b0bc43dcb99c90e0b2464f75",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/6784155",
+        "tags": {
+          "bridge": "yes",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Keppelbroeksdijk",
+          "source:maxspeed": "NL:zone60",
+          "surface": "asphalt"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 2
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,440000,240000,460000 --run nl-11_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 84.4,
+      "dekBreedte": 9.4,
+      "brugLengte": 84.4,
+      "water": null,
+      "portaalhoogte": 8.5,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G1509.74705046cd0e489997cc67d1901e9f1f",
+          "klasse": "Terrain",
+          "oppervlak": 333.4,
+          "onderDek": 0.72,
+          "bovenDekOnderkant": 1.43,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "G1509.f562a30b1a0545968975cdb88a345c32",
+          "klasse": "Terrain",
+          "oppervlak": 214.8,
+          "onderDek": 1,
+          "bovenDekOnderkant": 1.21,
+          "actie": "verbergen"
+        }
+      ],
+      "opritHoogtes": [
+        67.019,
+        67.223
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 2 verborgen, 0 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

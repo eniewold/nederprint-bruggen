@@ -1,0 +1,132 @@
+{
+  "name": "Ledebrug",
+  "file": "rotterdam-ledebrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    94425.02,
+    433208.55
+  ],
+  "xAxis": [
+    0.877683,
+    0.479243
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 42.721,
+  "groundSamplePoints": [
+    [
+      -5.79,
+      0
+    ],
+    [
+      5.79,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0599.65cbdf6d162f4431a167b15f807e35a5"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        94420.81,
+        433206.26
+      ],
+      "axis": [
+        -0.877683,
+        -0.479243
+      ],
+      "halfLength": 3,
+      "halfWidth": 12.57,
+      "height": 42.89,
+      "gradient": [
+        -0.05625,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        94429.23,
+        433210.85
+      ],
+      "axis": [
+        0.877683,
+        0.479243
+      ],
+      "halfLength": 3,
+      "halfWidth": 12.57,
+      "height": 42.908,
+      "gradient": [
+        -0.05,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0599.65cbdf6d162f4431a167b15f807e35a5"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0599.65cbdf6d162f4431a167b15f807e35a5",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/825719764",
+        "tags": {
+          "bridge": "yes",
+          "cycleway": "shared_lane",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "50",
+          "name": "Ledebrug",
+          "oneway": "yes",
+          "oneway:bicycle": "yes",
+          "oneway:moped": "yes",
+          "surface": "paving_stones",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,420000,100000,440000 --run nl-4_6 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 3.6,
+      "dekBreedte": 21.1,
+      "brugLengte": 3.6,
+      "water": [
+        -1.3,
+        1.7
+      ],
+      "portaalhoogte": 19,
+      "opritafstand": [
+        4,
+        4
+      ],
+      "oprithelling": 6,
+      "doorstekend": [],
+      "opritHoogtes": [
+        42.721,
+        42.758
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

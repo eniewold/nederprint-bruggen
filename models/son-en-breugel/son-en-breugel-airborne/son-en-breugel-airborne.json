@@ -1,0 +1,131 @@
+{
+  "name": "Airborne",
+  "file": "son-en-breugel-airborne.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    161623.82,
+    394692.14
+  ],
+  "xAxis": [
+    0.998458,
+    -0.055508
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 61.816,
+  "groundSamplePoints": [
+    [
+      -43.25,
+      0
+    ],
+    [
+      43.25,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0848.798891b0f03e49468b33684af97d5011",
+    "L0002.d7c6706739e4477bade312f54211059c"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        161588.62,
+        394694.1
+      ],
+      "axis": [
+        -0.998458,
+        0.055508
+      ],
+      "halfLength": 12,
+      "halfWidth": 5.57,
+      "height": 62.514,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        161659.02,
+        394690.18
+      ],
+      "axis": [
+        0.998458,
+        -0.055508
+      ],
+      "halfLength": 12,
+      "halfWidth": 5.57,
+      "height": 62.24,
+      "gradient": [
+        -0.03532,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0848.798891b0f03e49468b33684af97d5011"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0848.798891b0f03e49468b33684af97d5011",
+          "type": "dek"
+        },
+        {
+          "id": "L0002.d7c6706739e4477bade312f54211059c",
+          "type": "onbekend"
+        }
+      ],
+      "osm": {
+        "id": "way/884549394",
+        "tags": {
+          "bridge": "yes",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Airborne",
+          "zone:traffic": "NL:rural",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 2
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,380000,180000,400000 --run nl-8_4 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 46.5,
+      "dekBreedte": 7.4,
+      "brugLengte": 46.5,
+      "water": null,
+      "portaalhoogte": 6.7,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [],
+      "opritHoogtes": [
+        62.364,
+        61.816
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

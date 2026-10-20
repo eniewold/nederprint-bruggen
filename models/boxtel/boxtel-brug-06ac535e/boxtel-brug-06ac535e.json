@@ -1,0 +1,156 @@
+{
+  "name": "Parallelweg Zuid",
+  "file": "boxtel-brug-06ac535e.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    151128.21,
+    398489.54
+  ],
+  "xAxis": [
+    0.994835,
+    -0.101506
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 51.525,
+  "groundSamplePoints": [
+    [
+      -8.86,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "W0539.06ac535e09be40adbdaefddf2a94e766"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        151128.21,
+        398489.54
+      ],
+      "axis": [
+        0.994835,
+        -0.101506
+      ],
+      "halfLength": 2.01,
+      "halfWidth": 3.21,
+      "height": 50.525,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.56,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        151120.19,
+        398490.36
+      ],
+      "axis": [
+        -0.994835,
+        0.101506
+      ],
+      "halfLength": 4.03,
+      "halfWidth": 4.07,
+      "height": 51.675,
+      "gradient": [
+        -0.03723,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "W0539.06ac535e09be40adbdaefddf2a94e766"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "W0539.06ac535e09be40adbdaefddf2a94e766",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/729366216",
+        "tags": {
+          "bridge": "yes",
+          "foot": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "name": "Parallelweg Zuid"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,380000,160000,400000 --run nl-7_4 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 8.1,
+      "dekBreedte": 5.4,
+      "brugLengte": 8.1,
+      "water": [
+        0,
+        0.5
+      ],
+      "portaalhoogte": 4.9,
+      "opritafstand": [
+        4.8,
+        14.5
+      ],
+      "oprithelling": 8.1,
+      "doorstekend": [
+        {
+          "gmlId": "W0539.92953571e48d4b31a2fa78bb2ad1d09d",
+          "klasse": "Terrain",
+          "oppervlak": 65.3,
+          "onderDek": 0.12,
+          "bovenDekOnderkant": 0.56,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "W0539.66f8970a71b843a780cd49f376f8e6b9",
+          "klasse": "Terrain",
+          "oppervlak": 72.1,
+          "onderDek": 0.11,
+          "bovenDekOnderkant": 0.4,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "W0539.798f00bef8c642d4be64b56e8cbb3a96",
+          "klasse": "Separation",
+          "oppervlak": 3.8,
+          "onderDek": 0.35,
+          "bovenDekOnderkant": 0.21,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "W0539.e9d8ebdcdb3d488ebcc8858e3a32dc96",
+          "klasse": "Separation",
+          "oppervlak": 3.7,
+          "onderDek": 0.35,
+          "bovenDekOnderkant": 0.1,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        51.525,
+        null
+      ]
+    },
+    "waarschuwingen": [
+      "oprit + zonder PDOK-maaiveld",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "4 PDOK-vorm(en) door het dek: 0 verborgen, 4 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

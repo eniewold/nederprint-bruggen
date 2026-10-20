@@ -1,0 +1,178 @@
+{
+  "name": "Veldkamperstraat",
+  "file": "westendorp-brug-45bade08.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    225374.79,
+    440077.24
+  ],
+  "xAxis": [
+    -0.074768,
+    0.997201
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 65.518,
+  "groundSamplePoints": [
+    [
+      -54.75,
+      0
+    ],
+    [
+      54.75,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G1509.45bade08601a4ef49b07905f98b5ccf8",
+    "L0002.a0a60d4d407349de90912cbcef69fdd8",
+    "G1509.7a84b2bad497446d89d06ba194e97c98"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        225374.79,
+        440077.24
+      ],
+      "axis": [
+        -0.074768,
+        0.997201
+      ],
+      "halfLength": 28.75,
+      "halfWidth": 5.98,
+      "height": 65.911,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -3.06,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        225378.28,
+        440030.63
+      ],
+      "axis": [
+        0.074768,
+        -0.997201
+      ],
+      "halfLength": 12,
+      "halfWidth": 7.48,
+      "height": 67.061,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        225371.29,
+        440123.86
+      ],
+      "axis": [
+        -0.074768,
+        0.997201
+      ],
+      "halfLength": 12,
+      "halfWidth": 7.48,
+      "height": 66.365,
+      "gradient": [
+        -0.07054,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G1509.45bade08601a4ef49b07905f98b5ccf8"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G1509.45bade08601a4ef49b07905f98b5ccf8",
+          "type": "dek"
+        },
+        {
+          "id": "L0002.a0a60d4d407349de90912cbcef69fdd8",
+          "type": "onbekend"
+        }
+      ],
+      "osm": {
+        "id": "way/758380765",
+        "tags": {
+          "bridge": "yes",
+          "highway": "tertiary",
+          "lanes": "1",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Veldkamperstraat",
+          "smoothness": "good",
+          "surface": "asphalt",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 2
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,440000,240000,460000 --run nl-11_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 69.5,
+      "dekBreedte": 11,
+      "brugLengte": 69.5,
+      "water": null,
+      "portaalhoogte": 9.9,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G1509.6b55852930dd491388a74d9f8feaac72",
+          "klasse": "Terrain",
+          "oppervlak": 123.8,
+          "onderDek": 0.69,
+          "bovenDekOnderkant": 2.06,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G1509.1b7d833a78e04f918c371c86470fa8bf",
+          "klasse": "Forest",
+          "oppervlak": 803.5,
+          "onderDek": 0,
+          "bovenDekOnderkant": 2.05,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G1509.7a84b2bad497446d89d06ba194e97c98",
+          "klasse": "Terrain",
+          "oppervlak": 268,
+          "onderDek": 0.79,
+          "bovenDekOnderkant": 1.99,
+          "actie": "verbergen"
+        }
+      ],
+      "opritHoogtes": [
+        66.911,
+        65.518
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "3 PDOK-vorm(en) door het dek: 1 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

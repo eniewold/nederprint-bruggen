@@ -1,0 +1,150 @@
+{
+  "name": "Bouwlustweg",
+  "file": "leidschendam-brug-bb27b536.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    87648.93,
+    457519.41
+  ],
+  "xAxis": [
+    -0.678983,
+    -0.734154
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 43.415,
+  "groundSamplePoints": [
+    [
+      -20.3,
+      0
+    ],
+    [
+      20.3,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G1916.bb27b536ade341b28808c6fcaad64604",
+    "G1916.7c115b3e7f6849b49d6f12d74cebb4a0",
+    "G1916.162fae3b85654af5a8770042681a0355"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        87661.46,
+        457532.96
+      ],
+      "axis": [
+        0.678983,
+        0.734154
+      ],
+      "halfLength": 9.23,
+      "halfWidth": 6.3,
+      "height": 43.84,
+      "gradient": [
+        -0.01626,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        87636.4,
+        457505.86
+      ],
+      "axis": [
+        -0.678983,
+        -0.734154
+      ],
+      "halfLength": 9.23,
+      "halfWidth": 6.3,
+      "height": 43.702,
+      "gradient": [
+        -0.03116,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G1916.bb27b536ade341b28808c6fcaad64604"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G1916.bb27b536ade341b28808c6fcaad64604",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1156933728",
+        "tags": {
+          "bridge": "yes",
+          "highway": "residential",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "30",
+          "maxweight:signed": "no",
+          "name": "Bouwlustweg",
+          "surface": "paving_stones",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,440000,100000,460000 --run nl-4_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 18.5,
+      "dekBreedte": 8.6,
+      "brugLengte": 18.5,
+      "water": [
+        -8.2,
+        6.3
+      ],
+      "portaalhoogte": 7.7,
+      "opritafstand": [
+        11.1,
+        11.1
+      ],
+      "oprithelling": 18.5,
+      "doorstekend": [
+        {
+          "gmlId": "G1916.7c115b3e7f6849b49d6f12d74cebb4a0",
+          "klasse": "Forest",
+          "oppervlak": 31.6,
+          "onderDek": 0.87,
+          "bovenDekOnderkant": 0.58,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "G1916.162fae3b85654af5a8770042681a0355",
+          "klasse": "Terrain",
+          "oppervlak": 4.8,
+          "onderDek": 1,
+          "bovenDekOnderkant": 0.47,
+          "actie": "verbergen"
+        }
+      ],
+      "opritHoogtes": [
+        43.69,
+        43.415
+      ]
+    },
+    "waarschuwingen": [
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 2 verborgen, 0 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

@@ -1,0 +1,190 @@
+{
+  "name": "Corridor",
+  "file": "sint-oedenrode-brug-fcd75cc3.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    160353.47,
+    397048.32
+  ],
+  "xAxis": [
+    -0.650901,
+    -0.759163
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 55.184,
+  "groundSamplePoints": [
+    [
+      -37.5,
+      0
+    ],
+    [
+      37.5,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0846.fcd75cc3cd8b4fa3aa25f11da686c0c9"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        160353.47,
+        397048.32
+      ],
+      "axis": [
+        -0.650901,
+        -0.759163
+      ],
+      "halfLength": 11.5,
+      "halfWidth": 4.39,
+      "height": 54.428,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.95,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        160372.67,
+        397070.71
+      ],
+      "axis": [
+        0.650901,
+        0.759163
+      ],
+      "halfLength": 12,
+      "halfWidth": 5.83,
+      "height": 55.578,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        160334.27,
+        397025.93
+      ],
+      "axis": [
+        -0.650901,
+        -0.759163
+      ],
+      "halfLength": 12,
+      "halfWidth": 5.83,
+      "height": 55.456,
+      "gradient": [
+        -0.02265,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0846.fcd75cc3cd8b4fa3aa25f11da686c0c9"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0846.fcd75cc3cd8b4fa3aa25f11da686c0c9",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/961132647",
+        "tags": {
+          "bicycle": "no",
+          "bridge": "yes",
+          "foot": "no",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "50",
+          "name": "Corridor",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,380000,180000,400000 --run nl-8_4 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 35,
+      "dekBreedte": 7.8,
+      "brugLengte": 35,
+      "water": [
+        -5,
+        4.5
+      ],
+      "portaalhoogte": 7,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "W0539.5f445f3338b3414c9168927618b9bc8b",
+          "klasse": "Terrain",
+          "oppervlak": 1543.4,
+          "onderDek": 0.03,
+          "bovenDekOnderkant": 0.95,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "W0539.d738b702c37e41838bdb1420cbb58f35",
+          "klasse": "Terrain",
+          "oppervlak": 1054.8,
+          "onderDek": 0.06,
+          "bovenDekOnderkant": 0.76,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0846.b090c6862c614b73bd4f0cb2c2bf478c",
+          "klasse": "Road",
+          "oppervlak": 47.9,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.72,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0846.73c7f4b77dec4325a1fcdf10c4b6254a",
+          "klasse": "Road",
+          "oppervlak": 1285.4,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.7,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0846.aca62b42a9ba4a70bc71d4227b27db9c",
+          "klasse": "Road",
+          "oppervlak": 54.3,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.43,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        55.428,
+        55.184
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "5 PDOK-vorm(en) door het dek: 0 verborgen, 5 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

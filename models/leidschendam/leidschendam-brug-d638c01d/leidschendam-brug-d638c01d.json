@@ -1,0 +1,167 @@
+{
+  "name": "Westeinderweg",
+  "file": "leidschendam-brug-d638c01d.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    92062.15,
+    457243.87
+  ],
+  "xAxis": [
+    0.521478,
+    -0.853265
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 39.449,
+  "groundSamplePoints": [
+    [
+      -6.07,
+      0
+    ],
+    [
+      6.07,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G1916.d638c01da93547b1ae0e8047d5ca0172"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        92062.15,
+        457243.87
+      ],
+      "axis": [
+        0.521478,
+        -0.853265
+      ],
+      "halfLength": 1.03,
+      "halfWidth": 3.36,
+      "height": 38.706,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.67,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        92059.51,
+        457248.19
+      ],
+      "axis": [
+        -0.521478,
+        0.853265
+      ],
+      "halfLength": 3,
+      "halfWidth": 4.29,
+      "height": 39.728,
+      "gradient": [
+        -0.09283,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        92064.79,
+        457239.55
+      ],
+      "axis": [
+        0.521478,
+        -0.853265
+      ],
+      "halfLength": 3,
+      "halfWidth": 4.29,
+      "height": 39.856,
+      "gradient": [
+        -0.05,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G1916.d638c01da93547b1ae0e8047d5ca0172"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G1916.d638c01da93547b1ae0e8047d5ca0172",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1263062176",
+        "tags": {
+          "bridge": "yes",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Westeinderweg",
+          "surface": "asphalt",
+          "zone:traffic": "NL:rural",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ophaalbrug",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,440000,100000,460000 --run nl-4_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 4.1,
+      "dekBreedte": 5.7,
+      "brugLengte": 4.1,
+      "water": [
+        -0.6,
+        0.9
+      ],
+      "portaalhoogte": 5.1,
+      "opritafstand": [
+        4,
+        4
+      ],
+      "oprithelling": 6,
+      "doorstekend": [
+        {
+          "gmlId": "W0616.4bb0de4f8dcd4f9688184db8af6a6e85",
+          "klasse": "Terrain",
+          "oppervlak": 45.6,
+          "onderDek": 0.01,
+          "bovenDekOnderkant": 0.67,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G1916.8cf936d1d8714a0bafa881d1561c04b9",
+          "klasse": "Terrain",
+          "oppervlak": 21.1,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.51,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        39.449,
+        39.706
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

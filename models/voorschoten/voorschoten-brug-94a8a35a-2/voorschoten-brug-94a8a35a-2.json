@@ -1,0 +1,163 @@
+{
+  "name": "voorschoten-brug-94a8a35a-2",
+  "file": "voorschoten-brug-94a8a35a-2.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    88589.36,
+    458075.77
+  ],
+  "xAxis": [
+    0.498173,
+    0.867078
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 43.165,
+  "groundSamplePoints": [
+    [
+      -6.53,
+      0
+    ],
+    [
+      6.53,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0626.94a8a35a44c34d22e053be020b0a470e"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        88589.36,
+        458075.77
+      ],
+      "axis": [
+        0.498173,
+        0.867078
+      ],
+      "halfLength": 1.26,
+      "halfWidth": 3.65,
+      "height": 42.188,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.71,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        88586.61,
+        458070.98
+      ],
+      "axis": [
+        -0.498173,
+        -0.867078
+      ],
+      "halfLength": 3,
+      "halfWidth": 4.72,
+      "height": 43.326,
+      "gradient": [
+        -0.05379,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        88592.12,
+        458080.56
+      ],
+      "axis": [
+        0.498173,
+        0.867078
+      ],
+      "halfLength": 3,
+      "halfWidth": 4.72,
+      "height": 43.338,
+      "gradient": [
+        -0.05,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0626.94a8a35a44c34d22e053be020b0a470e"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0626.94a8a35a44c34d22e053be020b0a470e",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1255766853",
+        "tags": {
+          "access": "private",
+          "bridge": "yes",
+          "highway": "track",
+          "layer": "1",
+          "tracktype": "grade2"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,440000,100000,460000 --run nl-4_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 5.1,
+      "dekBreedte": 6.3,
+      "brugLengte": 5.1,
+      "water": [
+        -0.5,
+        0.5
+      ],
+      "portaalhoogte": 5.7,
+      "opritafstand": [
+        4,
+        4
+      ],
+      "oprithelling": 6,
+      "doorstekend": [
+        {
+          "gmlId": "G0626.b984e7392e5e49b5e0550079628258db",
+          "klasse": "Terrain",
+          "oppervlak": 76.5,
+          "onderDek": 0.03,
+          "bovenDekOnderkant": 0.71,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "W0616.ce4861ca9b42423c82d418653182dbe4",
+          "klasse": "Terrain",
+          "oppervlak": 132.7,
+          "onderDek": 0.04,
+          "bovenDekOnderkant": 0.66,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        43.165,
+        43.188
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

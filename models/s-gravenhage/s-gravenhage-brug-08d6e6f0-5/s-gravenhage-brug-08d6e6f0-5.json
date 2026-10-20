@@ -1,0 +1,146 @@
+{
+  "name": "s-gravenhage-brug-08d6e6f0-5",
+  "file": "s-gravenhage-brug-08d6e6f0-5.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    80467.09,
+    457385.15
+  ],
+  "xAxis": [
+    -0.33574,
+    0.941955
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 48.009,
+  "groundSamplePoints": [
+    [
+      -40.77,
+      -10.4
+    ],
+    [
+      145.88,
+      36.05
+    ]
+  ],
+  "replacesTerrain": [
+    "G0518.08d6e6f08624653ae0502a0a313c2ff8",
+    "G0518.08d6e6f08566653ae0502a0a313c2ff8",
+    "G0518.08d6e6f08569653ae0502a0a313c2ff8",
+    "G0518.08d6e6f0ba03653ae0502a0a313c2ff8"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        80481.98,
+        457343.38
+      ],
+      "axis": [
+        0.33574,
+        -0.941955
+      ],
+      "halfLength": 12,
+      "halfWidth": 8.02,
+      "height": 49.074,
+      "gradient": [
+        -0.08876,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        80451.63,
+        457428.54
+      ],
+      "axis": [
+        -0.33574,
+        0.941955
+      ],
+      "halfLength": 12,
+      "halfWidth": 8.02,
+      "height": 49.989,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0518.08d6e6f0ba03653ae0502a0a313c2ff8"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0518.08d6e6f08624653ae0502a0a313c2ff8",
+          "type": "pijler"
+        },
+        {
+          "id": "G0518.08d6e6f08566653ae0502a0a313c2ff8",
+          "type": "landhoofd"
+        },
+        {
+          "id": "G0518.08d6e6f08569653ae0502a0a313c2ff8",
+          "type": "landhoofd"
+        },
+        {
+          "id": "G0518.08d6e6f0ba03653ae0502a0a313c2ff8",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/373248754",
+        "tags": {
+          "bridge": "viaduct",
+          "bridge:structure": "beam",
+          "bridge:support": "pier",
+          "layer": "1",
+          "man_made": "bridge",
+          "ref": "GW 74"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 4
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,440000,100000,460000 --run nl-4_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 64.7,
+      "dekBreedte": 12,
+      "brugLengte": 66.4,
+      "water": [
+        -13.8,
+        13.7
+      ],
+      "portaalhoogte": 10.8,
+      "opritafstand": [
+        10,
+        120
+      ],
+      "spoorhoogteBron": "pdok",
+      "oprithelling": 24,
+      "doorstekend": [],
+      "opritHoogtes": [
+        48.009,
+        49.839
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "oprit -: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "oprit +: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "oprit +: spoorterrein voorbij 150 m nog 2.0 m hoger (52.3 m); PDOK trekt het spoor hier ver naar beneden, controleer de dekhoogte of geef --opritafstand",
+      "oprit + pas op 120 m langs het spoor gemeten (PDOK-spoorterrein bij de brug lager)"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

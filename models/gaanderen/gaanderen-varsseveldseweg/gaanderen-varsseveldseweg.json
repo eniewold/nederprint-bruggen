@@ -1,0 +1,165 @@
+{
+  "name": "Varsseveldseweg",
+  "file": "gaanderen-varsseveldseweg.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    222974.54,
+    441144.94
+  ],
+  "xAxis": [
+    -0.912792,
+    0.408424
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 61.197,
+  "groundSamplePoints": [
+    [
+      -24.09,
+      0
+    ],
+    [
+      24.09,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0222.587d4ede6b774e8c87128ed4abbd774b",
+    "G0222.8391a37eaa704694aa5e639e943d3cf9"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        222974.54,
+        441144.94
+      ],
+      "axis": [
+        -0.912792,
+        0.408424
+      ],
+      "halfLength": 5.47,
+      "halfWidth": 8.75,
+      "height": 60.51,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.25,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        222994.53,
+        441135.99
+      ],
+      "axis": [
+        0.912792,
+        -0.408424
+      ],
+      "halfLength": 10.95,
+      "halfWidth": 10.25,
+      "height": 61.66,
+      "gradient": [
+        -0.0137,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        222954.56,
+        441153.88
+      ],
+      "axis": [
+        -0.912792,
+        0.408424
+      ],
+      "halfLength": 10.95,
+      "halfWidth": 10.25,
+      "height": 61.504,
+      "gradient": [
+        -0.02799,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0222.587d4ede6b774e8c87128ed4abbd774b",
+      "G0222.8391a37eaa704694aa5e639e943d3cf9"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0222.587d4ede6b774e8c87128ed4abbd774b",
+          "type": "dek"
+        },
+        {
+          "id": "G0222.8391a37eaa704694aa5e639e943d3cf9",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/6784134",
+        "tags": {
+          "bicycle": "no",
+          "bridge": "yes",
+          "bridge:name": "Bouwhuisbrug",
+          "highway": "secondary",
+          "lanes": "2",
+          "layer": "1",
+          "maxspeed": "80",
+          "name": "Varsseveldseweg",
+          "surface": "asphalt"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 2
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,440000,240000,460000 --run nl-11_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 21.9,
+      "dekBreedte": 16.5,
+      "brugLengte": 21.9,
+      "water": [
+        -8.9,
+        6.6
+      ],
+      "portaalhoogte": 14.8,
+      "opritafstand": [
+        13.1,
+        13.1
+      ],
+      "oprithelling": 21.9,
+      "doorstekend": [
+        {
+          "gmlId": "G0222.46843619b3c04fc7b25aa837a1cb33c7",
+          "klasse": "Terrain",
+          "oppervlak": 535.2,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.25,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        61.51,
+        61.197
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

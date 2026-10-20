@@ -1,0 +1,179 @@
+{
+  "name": "De Wrange",
+  "file": "doetinchem-de-wrange.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    220045.8,
+    440552.61
+  ],
+  "xAxis": [
+    0.557348,
+    -0.830279
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 64.101,
+  "groundSamplePoints": [
+    [
+      -50.36,
+      0
+    ],
+    [
+      50.36,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0222.2d0318d587724721982683d3d5986f3e",
+    "L0002.0e2ddc62a270426684f1c3fc5894c313",
+    "L0002.fc13ef94df394b90b41f21d071019baa"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        220045.8,
+        440552.61
+      ],
+      "axis": [
+        0.557348,
+        -0.830279
+      ],
+      "halfLength": 24.36,
+      "halfWidth": 7.47,
+      "height": 63.202,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.3,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        220022.19,
+        440587.79
+      ],
+      "axis": [
+        -0.557348,
+        0.830279
+      ],
+      "halfLength": 12,
+      "halfWidth": 8.97,
+      "height": 64.302,
+      "gradient": [
+        -0.01671,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        220069.41,
+        440517.44
+      ],
+      "axis": [
+        0.557348,
+        -0.830279
+      ],
+      "halfLength": 12,
+      "halfWidth": 8.97,
+      "height": 64.352,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0222.2d0318d587724721982683d3d5986f3e"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0222.2d0318d587724721982683d3d5986f3e",
+          "type": "dek"
+        },
+        {
+          "id": "L0002.0e2ddc62a270426684f1c3fc5894c313",
+          "type": "onbekend"
+        },
+        {
+          "id": "L0002.fc13ef94df394b90b41f21d071019baa",
+          "type": "onbekend"
+        }
+      ],
+      "osm": {
+        "id": "way/484624881",
+        "tags": {
+          "bridge": "viaduct",
+          "foot": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "mofa": "designated",
+          "moped": "designated",
+          "name": "De Wrange",
+          "segregated": "no",
+          "smoothness": "good",
+          "surface": "asphalt",
+          "traffic_sign": "NL:G12a",
+          "bridge:structure": "beam",
+          "building:material": "concrete",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 3
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,440000,240000,460000 --run nl-11_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 60.7,
+      "dekBreedte": 13.9,
+      "brugLengte": 60.7,
+      "water": null,
+      "portaalhoogte": 12.6,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "L0002.da014f877d2b43c08ff609c257c93540",
+          "klasse": "Terrain",
+          "oppervlak": 136.6,
+          "onderDek": 0.63,
+          "bovenDekOnderkant": 0.3,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "L0002.a8d8a61556ee4041977e657628658e05",
+          "klasse": "Terrain",
+          "oppervlak": 135,
+          "onderDek": 0.55,
+          "bovenDekOnderkant": 0.12,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        64.101,
+        64.202
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}
