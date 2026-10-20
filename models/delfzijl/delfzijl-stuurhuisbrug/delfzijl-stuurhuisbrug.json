@@ -1,0 +1,162 @@
+{
+  "name": "Stuurhuisbrug",
+  "file": "delfzijl-stuurhuisbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    256717.53,
+    594071.24
+  ],
+  "xAxis": [
+    -0.802556,
+    -0.596577
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 40.205,
+  "groundSamplePoints": [
+    [
+      -34.44,
+      0
+    ],
+    [
+      34.44,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0010.3ca642d7c9f34b9bbe1588d90cb26eae"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        256717.53,
+        594071.24
+      ],
+      "axis": [
+        -0.802556,
+        -0.596577
+      ],
+      "halfLength": 9.65,
+      "halfWidth": 2.78,
+      "height": 39.733,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.71,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        256739.73,
+        594087.74
+      ],
+      "axis": [
+        0.802556,
+        0.596577
+      ],
+      "halfLength": 12,
+      "halfWidth": 3.41,
+      "height": 40.883,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        256695.34,
+        594054.75
+      ],
+      "axis": [
+        -0.802556,
+        -0.596577
+      ],
+      "halfLength": 12,
+      "halfWidth": 3.41,
+      "height": 40.619,
+      "gradient": [
+        -0.03452,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0010.3ca642d7c9f34b9bbe1588d90cb26eae"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0010.3ca642d7c9f34b9bbe1588d90cb26eae",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/88528122",
+        "tags": {
+          "bridge": "movable",
+          "bridge:movable": "bascule",
+          "highway": "cycleway",
+          "layer": "1",
+          "mofa": "designated",
+          "moped": "designated",
+          "traffic_sign": "NL:G12a"
+        }
+      },
+      "fis": {
+        "id": 24460,
+        "naam": "Stuurhuisbrug",
+        "afstand": 1,
+        "beweegbaar": true,
+        "doorvaarthoogteGesloten": 2.5
+      },
+      "pdokBridgeVlakken": 1
+    },
+    "type": "basculebrug",
+    "doorvaarthoogte": 2.5,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,580000,260000,600000 --run nl-12_14 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 31.3,
+      "dekBreedte": 4.6,
+      "brugLengte": 31.3,
+      "water": [
+        -7.7,
+        8.3
+      ],
+      "portaalhoogte": 4.1,
+      "opritafstand": [
+        18.8,
+        18.8
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0010.8c86e623eb4d4dd5903a697c8f978651",
+          "klasse": "Terrain",
+          "oppervlak": 4158,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.71,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        40.733,
+        40.205
+      ]
+    },
+    "waarschuwingen": [
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "name": "Hoofdweg",
+  "file": "holwierde-brug-2c0b70c0.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    253684.41,
+    597903.33
+  ],
+  "xAxis": [
+    0.555406,
+    -0.831579
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 41.982,
+  "groundSamplePoints": [
+    [
+      -7.23,
+      0
+    ],
+    [
+      7.23,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0010.2c0b70c0279a4c43a7419018870714a1"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        253684.41,
+        597903.33
+      ],
+      "axis": [
+        0.555406,
+        -0.831579
+      ],
+      "halfLength": 1.62,
+      "halfWidth": 9.01,
+      "height": 41.083,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.92,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        253680.82,
+        597908.7
+      ],
+      "axis": [
+        -0.555406,
+        0.831579
+      ],
+      "halfLength": 3.23,
+      "halfWidth": 10.51,
+      "height": 42.233,
+      "gradient": [
+        -0.04639,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        253688,
+        597897.95
+      ],
+      "axis": [
+        0.555406,
+        -0.831579
+      ],
+      "halfLength": 3.23,
+      "halfWidth": 10.51,
+      "height": 42.183,
+      "gradient": [
+        -0.062,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0010.2c0b70c0279a4c43a7419018870714a1"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0010.2c0b70c0279a4c43a7419018870714a1",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/6352283",
+        "tags": {
+          "bridge": "yes",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Hoofdweg",
+          "smoothness": "excellent",
+          "surface": "asphalt"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,580000,260000,600000 --run nl-12_14 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 6.5,
+      "dekBreedte": 17,
+      "brugLengte": 6.5,
+      "water": [
+        -2.7,
+        1.3
+      ],
+      "portaalhoogte": 15.3,
+      "opritafstand": [
+        4,
+        4
+      ],
+      "oprithelling": 6.5,
+      "doorstekend": [
+        {
+          "gmlId": "W0647.852f2ab7bc11400fafe2930aedf94b84",
+          "klasse": "Terrain",
+          "oppervlak": 106.5,
+          "onderDek": 0.09,
+          "bovenDekOnderkant": 0.92,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        42.083,
+        41.982
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "name": "Waddenweg",
+  "file": "delfzijl-brug-daa92d73.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    256502.09,
+    595683.92
+  ],
+  "xAxis": [
+    0.970016,
+    0.24304
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 40.816,
+  "groundSamplePoints": [
+    [
+      -19.95,
+      0
+    ],
+    [
+      19.95,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0010.daa92d73e545421585d4b1a82fa8d37a"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        256502.09,
+        595683.92
+      ],
+      "axis": [
+        0.970016,
+        0.24304
+      ],
+      "halfLength": 4.53,
+      "halfWidth": 7.55,
+      "height": 39.863,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.75,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        256484.49,
+        595679.51
+      ],
+      "axis": [
+        -0.970016,
+        -0.24304
+      ],
+      "halfLength": 9.07,
+      "halfWidth": 9.05,
+      "height": 41.013,
+      "gradient": [
+        -0.01654,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        256519.68,
+        595688.33
+      ],
+      "axis": [
+        0.970016,
+        0.24304
+      ],
+      "halfLength": 9.07,
+      "halfWidth": 9.05,
+      "height": 40.989,
+      "gradient": [
+        -0.01915,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0010.daa92d73e545421585d4b1a82fa8d37a"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0010.daa92d73e545421585d4b1a82fa8d37a",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/6349266",
+        "tags": {
+          "bridge": "yes",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Waddenweg"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,580000,260000,600000 --run nl-12_14 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 18.1,
+      "dekBreedte": 14.1,
+      "brugLengte": 18.1,
+      "water": [
+        -3.1,
+        3.4
+      ],
+      "portaalhoogte": 12.7,
+      "opritafstand": [
+        10.9,
+        10.9
+      ],
+      "oprithelling": 18.1,
+      "doorstekend": [
+        {
+          "gmlId": "W0647.d0facbac9bf841f58f557142bb10da3b",
+          "klasse": "Separation",
+          "oppervlak": 19.8,
+          "onderDek": 0.24,
+          "bovenDekOnderkant": 0.75,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "W0647.75aa00b77d1c44e6a4b89b573f9124ec",
+          "klasse": "Terrain",
+          "oppervlak": 61.2,
+          "onderDek": 0.17,
+          "bovenDekOnderkant": 0.53,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0010.32430204876e4d4a9c29e6d063b22eed",
+          "klasse": "Forest",
+          "oppervlak": 3775.9,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.31,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        40.863,
+        40.816
+      ]
+    },
+    "waarschuwingen": [
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "3 PDOK-vorm(en) door het dek: 0 verborgen, 3 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}
