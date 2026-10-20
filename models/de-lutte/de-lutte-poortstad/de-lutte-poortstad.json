@@ -1,0 +1,172 @@
+{
+  "name": "Poortstad",
+  "file": "de-lutte-poortstad.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    264720.5,
+    481243.87
+  ],
+  "xAxis": [
+    -0.300218,
+    0.953871
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 87.715,
+  "groundSamplePoints": [
+    [
+      -55.3,
+      0
+    ],
+    [
+      55.3,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0168.3c4c64890d811f95e054002128f9eb56",
+    "L0002.99e506d6a0b05faae05332a1e90a352d",
+    "L0002.7f938030d136437398c2de1f99b13df9"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        264720.5,
+        481243.87
+      ],
+      "axis": [
+        -0.300218,
+        0.953871
+      ],
+      "halfLength": 29.3,
+      "halfWidth": 3.11,
+      "height": 87.09,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.77,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        264734.7,
+        481198.75
+      ],
+      "axis": [
+        0.300218,
+        -0.953871
+      ],
+      "halfLength": 12,
+      "halfWidth": 3.91,
+      "height": 88.052,
+      "gradient": [
+        -0.02813,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        264706.3,
+        481288.99
+      ],
+      "axis": [
+        -0.300218,
+        0.953871
+      ],
+      "halfLength": 12,
+      "halfWidth": 3.91,
+      "height": 88.24,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0168.3c4c64890d811f95e054002128f9eb56"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0168.3c4c64890d811f95e054002128f9eb56",
+          "type": "dek"
+        },
+        {
+          "id": "L0002.99e506d6a0b05faae05332a1e90a352d",
+          "type": "landhoofd"
+        },
+        {
+          "id": "L0002.7f938030d136437398c2de1f99b13df9",
+          "type": "onbekend"
+        }
+      ],
+      "osm": {
+        "id": "way/1222478655",
+        "tags": {
+          "bridge": "viaduct",
+          "bridge:structure": "beam",
+          "layer": "1",
+          "man_made": "bridge",
+          "name": "Poortstad"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 3
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 260000,480000,280000,500000 --run nl-13_9 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 70.6,
+      "dekBreedte": 5.2,
+      "brugLengte": 70.6,
+      "water": [
+        -21.8,
+        21.7
+      ],
+      "portaalhoogte": 4.7,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0168.3c4c6488b51c1f95e054002128f9eb56",
+          "klasse": "Forest",
+          "oppervlak": 1085.3,
+          "onderDek": 0.12,
+          "bovenDekOnderkant": 0.77,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0168.3c4c6488bbaa1f95e054002128f9eb56",
+          "klasse": "Forest",
+          "oppervlak": 456.6,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.77,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        87.715,
+        88.09
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

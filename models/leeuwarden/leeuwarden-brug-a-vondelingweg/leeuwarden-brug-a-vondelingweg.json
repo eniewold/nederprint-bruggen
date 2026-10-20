@@ -1,0 +1,159 @@
+{
+  "name": "Brug A Vondelingweg",
+  "file": "leeuwarden-brug-a-vondelingweg.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    184988.71,
+    579675.88
+  ],
+  "xAxis": [
+    0.347314,
+    -0.937749
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 47.847,
+  "groundSamplePoints": [
+    [
+      -49.02,
+      0
+    ],
+    [
+      49.02,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0080.24e907a800633789e0530d0957918266",
+    "G0080.24e907a5fa513789e0530d0957918266",
+    "G0080.24e907ab25933789e0530d0957918266"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        184974.47,
+        579714.34
+      ],
+      "axis": [
+        -0.347314,
+        0.937749
+      ],
+      "halfLength": 12,
+      "halfWidth": 14.34,
+      "height": 48.322,
+      "gradient": [
+        -0.03957,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        185002.96,
+        579637.42
+      ],
+      "axis": [
+        0.347314,
+        -0.937749
+      ],
+      "halfLength": 12,
+      "halfWidth": 14.34,
+      "height": 48.647,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0080.24e907a800633789e0530d0957918266"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0080.24e907a800633789e0530d0957918266",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/731727468",
+        "tags": {
+          "bicycle": "no",
+          "bridge": "yes",
+          "foot": "no",
+          "highway": "primary",
+          "lanes": "2",
+          "layer": "1",
+          "maxspeed": "70",
+          "name": "Anne Vondelingweg",
+          "oneway": "yes",
+          "ref": "RING",
+          "zone:traffic": "NL:urban",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
+      "fis": {
+        "id": 31229584,
+        "naam": "Brug A Vondelingweg",
+        "afstand": 3,
+        "beweegbaar": false,
+        "doorvaarthoogteGesloten": 6.57
+      },
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": 6.57,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 180000,560000,200000,580000 --run nl-9_13 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 58,
+      "dekBreedte": 24.7,
+      "brugLengte": 58,
+      "water": [
+        -6,
+        7
+      ],
+      "portaalhoogte": 22.2,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0080.24e907a5fa513789e0530d0957918266",
+          "klasse": "Terrain",
+          "oppervlak": 142.5,
+          "onderDek": 0.94,
+          "bovenDekOnderkant": 0.33,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "G0080.24e907ab25933789e0530d0957918266",
+          "klasse": "Terrain",
+          "oppervlak": 157.1,
+          "onderDek": 0.95,
+          "bovenDekOnderkant": 0.08,
+          "actie": "verbergen"
+        }
+      ],
+      "opritHoogtes": [
+        47.847,
+        48.497
+      ]
+    },
+    "waarschuwingen": [
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 2 verborgen, 0 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

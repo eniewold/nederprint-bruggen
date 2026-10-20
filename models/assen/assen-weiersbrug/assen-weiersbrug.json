@@ -1,0 +1,141 @@
+{
+  "name": "Weiersbrug",
+  "file": "assen-weiersbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    233437.17,
+    557308.17
+  ],
+  "xAxis": [
+    -0.755231,
+    0.655459
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 51.813,
+  "groundSamplePoints": [
+    [
+      -9.6,
+      0
+    ],
+    [
+      9.6,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0106.ab84eff6861541ad8388c57a326742c3"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        233443.76,
+        557302.45
+      ],
+      "axis": [
+        0.755231,
+        -0.655459
+      ],
+      "halfLength": 4.36,
+      "halfWidth": 12.76,
+      "height": 51.994,
+      "gradient": [
+        -0.04138,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        233430.59,
+        557313.88
+      ],
+      "axis": [
+        -0.755231,
+        0.655459
+      ],
+      "halfLength": 4.36,
+      "halfWidth": 12.76,
+      "height": 52.024,
+      "gradient": [
+        -0.03438,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0106.ab84eff6861541ad8388c57a326742c3"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0106.ab84eff6861541ad8388c57a326742c3",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/617000621",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "yes",
+          "highway": "secondary",
+          "lanes": "2",
+          "layer": "1",
+          "maxspeed": "50",
+          "name": "Weiersbrug",
+          "name:etymology:wikidata": "Q23810",
+          "oneway": "yes",
+          "surface": "asphalt",
+          "turn:lanes": "left|through",
+          "wikidata": "Q19371253",
+          "zone:traffic": "NL:urban",
+          "man_made": "bridge"
+        }
+      },
+      "fis": {
+        "id": 29031073,
+        "naam": "Weiersbrug",
+        "afstand": 1,
+        "beweegbaar": true,
+        "doorvaarthoogteGesloten": 0.8
+      },
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ophaalbrug",
+    "doorvaarthoogte": 0.8,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,540000,240000,560000 --run nl-11_12 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 8.7,
+      "dekBreedte": 21.5,
+      "brugLengte": 8.7,
+      "water": [
+        -3.9,
+        4.1
+      ],
+      "portaalhoogte": 19.4,
+      "opritafstand": [
+        5.2,
+        5.2
+      ],
+      "oprithelling": 8.7,
+      "doorstekend": [],
+      "opritHoogtes": [
+        51.813,
+        51.874
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

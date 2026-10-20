@@ -1,0 +1,183 @@
+{
+  "name": "Wachtum",
+  "file": "wachtum-wachtum.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    245779.51,
+    527200.47
+  ],
+  "xAxis": [
+    -0.96128,
+    -0.275574
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 61.536,
+  "groundSamplePoints": [
+    [
+      -47.97,
+      0
+    ],
+    [
+      47.99,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "L0002.3737ce1aee544698a692cc6736c1ad4b",
+    "L0002.d613883bb2e0499ca0b16102a4556eef",
+    "L0002.2939b7d8f480454d96c7e663d291e4cd",
+    "L0002.3077d53075c4470696205c67c1053501",
+    "L0002.e10f81763a984f63aadb491d110e6f7a"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        245779.51,
+        527200.47
+      ],
+      "axis": [
+        -0.96128,
+        -0.275574
+      ],
+      "halfLength": 21.94,
+      "halfWidth": 8.48,
+      "height": 60.615,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.18,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        245817.93,
+        527211.48
+      ],
+      "axis": [
+        0.96128,
+        0.275574
+      ],
+      "halfLength": 12,
+      "halfWidth": 9.98,
+      "height": 61.765,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        245741.07,
+        527189.45
+      ],
+      "axis": [
+        -0.96128,
+        -0.275574
+      ],
+      "halfLength": 12,
+      "halfWidth": 9.98,
+      "height": 61.725,
+      "gradient": [
+        -0.01581,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "L0002.2939b7d8f480454d96c7e663d291e4cd"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "L0002.3737ce1aee544698a692cc6736c1ad4b",
+          "type": "pijler"
+        },
+        {
+          "id": "L0002.d613883bb2e0499ca0b16102a4556eef",
+          "type": "pijler"
+        },
+        {
+          "id": "L0002.2939b7d8f480454d96c7e663d291e4cd",
+          "type": "dek"
+        },
+        {
+          "id": "L0002.3077d53075c4470696205c67c1053501",
+          "type": "landhoofd"
+        },
+        {
+          "id": "L0002.e10f81763a984f63aadb491d110e6f7a",
+          "type": "landhoofd"
+        }
+      ],
+      "osm": {
+        "id": "way/727889574",
+        "tags": {
+          "asphalt:type": "porous",
+          "bridge": "viaduct",
+          "carriageway_ref": "Li",
+          "highway": "motorway",
+          "int_ref": "E 233",
+          "lanes": "2",
+          "layer": "1",
+          "maxspeed": "100",
+          "maxspeed:conditional": "130 @ (19:00-06:00)",
+          "oneway": "yes",
+          "operator": "Rijkswaterstaat",
+          "ref": "A37",
+          "surface": "asphalt",
+          "toll:hgv": "yes",
+          "zone:traffic": "NL:rural",
+          "man_made": "bridge",
+          "name": "Wachtum"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 5
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,520000,260000,540000 --run nl-12_11 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 55.9,
+      "dekBreedte": 16,
+      "brugLengte": 56,
+      "water": null,
+      "portaalhoogte": 14.4,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "L0002.21de594249ca432186ea7740cf904cd9",
+          "klasse": "Terrain",
+          "oppervlak": 145.4,
+          "onderDek": 0.03,
+          "bovenDekOnderkant": 0.18,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        61.615,
+        61.536
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}
