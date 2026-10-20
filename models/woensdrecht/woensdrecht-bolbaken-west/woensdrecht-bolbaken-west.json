@@ -1,0 +1,185 @@
+{
+  "name": "Bolbaken-West",
+  "file": "woensdrecht-bolbaken-west.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    77759.52,
+    383052.11
+  ],
+  "xAxis": [
+    0.2257,
+    0.974197
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 52.935,
+  "groundSamplePoints": [
+    [
+      -61.9,
+      0
+    ],
+    [
+      61.9,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "L0002.065e0719d751425ca7384c2bcbb579a8",
+    "L0002.1f87bce43d33418bba3b8014a7f8a535",
+    "L0002.2c58cc2928fc4292b052d2b92c0f2666",
+    "L0002.8308da0c8e084e14b927d022065db37f",
+    "L0002.b1e38b8a0eb94887b30b87ec38c9b813"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        77759.52,
+        383052.11
+      ],
+      "axis": [
+        0.2257,
+        0.974197
+      ],
+      "halfLength": 35.9,
+      "halfWidth": 8.35,
+      "height": 51.985,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.18,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        77747.35,
+        382999.6
+      ],
+      "axis": [
+        -0.2257,
+        -0.974197
+      ],
+      "halfLength": 12,
+      "halfWidth": 9.85,
+      "height": 53.11,
+      "gradient": [
+        -0.01457,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        77771.68,
+        383104.62
+      ],
+      "axis": [
+        0.2257,
+        0.974197
+      ],
+      "halfLength": 12,
+      "halfWidth": 9.85,
+      "height": 53.135,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "L0002.8308da0c8e084e14b927d022065db37f"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "L0002.065e0719d751425ca7384c2bcbb579a8",
+          "type": "onbekend"
+        },
+        {
+          "id": "L0002.1f87bce43d33418bba3b8014a7f8a535",
+          "type": "onbekend"
+        },
+        {
+          "id": "L0002.2c58cc2928fc4292b052d2b92c0f2666",
+          "type": "onbekend"
+        },
+        {
+          "id": "L0002.8308da0c8e084e14b927d022065db37f",
+          "type": "dek"
+        },
+        {
+          "id": "L0002.b1e38b8a0eb94887b30b87ec38c9b813",
+          "type": "onbekend"
+        }
+      ],
+      "osm": {
+        "id": "way/425338744",
+        "tags": {
+          "bridge": "yes",
+          "carriageway_ref": "Re",
+          "highway": "motorway",
+          "lanes": "1",
+          "layer": "1",
+          "maxspeed": "100",
+          "maxspeed:advisory": "90",
+          "maxspeed:conditional": "120 @ (19:00-06:00)",
+          "name": "Bolbaken-West",
+          "oneway": "yes",
+          "operator": "Rijkswaterstaat",
+          "owner": "Staat der Nederlanden",
+          "ref": "A4",
+          "surface": "asphalt",
+          "toll:hgv": "yes",
+          "zone:traffic": "NL:rural",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 5
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 60000,380000,80000,400000 --run nl-3_4 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 83.8,
+      "dekBreedte": 15.7,
+      "brugLengte": 83.8,
+      "water": null,
+      "portaalhoogte": 14.1,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "L0002.8abeacd5439b75e08d845dd933fdeaae",
+          "klasse": "Terrain",
+          "oppervlak": 6.3,
+          "onderDek": 0.02,
+          "bovenDekOnderkant": 0.18,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        52.935,
+        52.985
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}
