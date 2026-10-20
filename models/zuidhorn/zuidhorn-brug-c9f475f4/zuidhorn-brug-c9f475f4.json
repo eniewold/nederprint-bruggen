@@ -1,0 +1,169 @@
+{
+  "name": "zuidhorn-brug-c9f475f4",
+  "file": "zuidhorn-brug-c9f475f4.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    223715.03,
+    584761.31
+  ],
+  "xAxis": [
+    -0.891512,
+    0.452996
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 45.797,
+  "groundSamplePoints": [
+    [
+      -14.44,
+      0
+    ],
+    [
+      14.44,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "L0004.c9f475f43dee457fb61bc72b655828bc"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        223715.03,
+        584761.31
+      ],
+      "axis": [
+        -0.891512,
+        0.452996
+      ],
+      "halfLength": 8.44,
+      "halfWidth": 6.23,
+      "height": 44.523,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.87,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        223738.6,
+        584749.33
+      ],
+      "axis": [
+        0.891512,
+        -0.452996
+      ],
+      "halfLength": 12,
+      "halfWidth": 7.73,
+      "height": 45.81,
+      "gradient": [
+        -0.0011,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        223691.46,
+        584773.28
+      ],
+      "axis": [
+        -0.891512,
+        0.452996
+      ],
+      "halfLength": 12,
+      "halfWidth": 7.73,
+      "height": 45.823,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "L0004.c9f475f43dee457fb61bc72b655828bc"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "L0004.c9f475f43dee457fb61bc72b655828bc",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/628897264",
+        "tags": {
+          "bridge": "yes",
+          "description": "Leeuwarden - Groningen",
+          "electrified": "no",
+          "gauge": "1435",
+          "layer": "1",
+          "maxspeed": "120",
+          "operator": "ProRail",
+          "passenger_lines": "2",
+          "railway": "rail",
+          "railway:track_class": "D2",
+          "railway:traffic_mode": "passenger",
+          "ref": "002",
+          "usage": "branch"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,580000,240000,600000 --run nl-11_14 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 28.9,
+      "dekBreedte": 11.5,
+      "brugLengte": 28.9,
+      "water": null,
+      "portaalhoogte": 10.3,
+      "opritafstand": [
+        0,
+        0
+      ],
+      "spoorhoogteBron": "prorail-pvs",
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "P0020.aa16d62f04aa41c9ad60027751b6703d",
+          "klasse": "Separation",
+          "oppervlak": 27.9,
+          "onderDek": 0.11,
+          "bovenDekOnderkant": 0.87,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "L0004.d4dfea007d8f47ca9c211b6210f27264",
+          "klasse": "Road",
+          "oppervlak": 2282.2,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.77,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        45.797,
+        45.823
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}
