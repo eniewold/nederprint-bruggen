@@ -1,0 +1,194 @@
+{
+  "name": "Rijksweg",
+  "file": "ten-boer-brug-0f109f82.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    243280.35,
+    589367.85
+  ],
+  "xAxis": [
+    0.608353,
+    0.793666
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 40.979,
+  "groundSamplePoints": [
+    [
+      -35.48,
+      0
+    ],
+    [
+      35.48,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "P0020.0f109f8224654162816814dc5ee0f23e",
+    "P0020.7f0242134a13483895f473dd12b78cc8",
+    "P0020.cee1e5c5a6074471b9bb5e9564385a75",
+    "P0020.faa66dd986774197ab3f7ecbd32b0553",
+    "P0020.fd8c9197f23f48359cc5a83d852266e9"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        243280.35,
+        589367.85
+      ],
+      "axis": [
+        0.608353,
+        0.793666
+      ],
+      "halfLength": 10.13,
+      "halfWidth": 7.38,
+      "height": 40.211,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.9,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        243263.24,
+        589345.53
+      ],
+      "axis": [
+        -0.608353,
+        -0.793666
+      ],
+      "halfLength": 12,
+      "halfWidth": 8.88,
+      "height": 41.361,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        243297.46,
+        589390.18
+      ],
+      "axis": [
+        0.608353,
+        0.793666
+      ],
+      "halfLength": 12,
+      "halfWidth": 8.88,
+      "height": 41.245,
+      "gradient": [
+        -0.02218,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "P0020.0f109f8224654162816814dc5ee0f23e",
+      "P0020.7f0242134a13483895f473dd12b78cc8",
+      "P0020.cee1e5c5a6074471b9bb5e9564385a75",
+      "P0020.faa66dd986774197ab3f7ecbd32b0553",
+      "P0020.fd8c9197f23f48359cc5a83d852266e9"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "P0020.0f109f8224654162816814dc5ee0f23e",
+          "type": "dek"
+        },
+        {
+          "id": "P0020.7f0242134a13483895f473dd12b78cc8",
+          "type": "dek"
+        },
+        {
+          "id": "P0020.cee1e5c5a6074471b9bb5e9564385a75",
+          "type": "dek"
+        },
+        {
+          "id": "P0020.faa66dd986774197ab3f7ecbd32b0553",
+          "type": "dek"
+        },
+        {
+          "id": "P0020.fd8c9197f23f48359cc5a83d852266e9",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/435521537",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "yes",
+          "foot": "use_sidepath",
+          "highway": "primary",
+          "lanes": "2",
+          "layer": "1",
+          "maxspeed": "60",
+          "mofa": "use_sidepath",
+          "moped": "use_sidepath",
+          "name": "Rijksweg",
+          "operator": "Provincie Groningen",
+          "ref": "N360"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 5
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,580000,260000,600000 --run nl-12_14 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 32.3,
+      "dekBreedte": 13.8,
+      "brugLengte": 32.3,
+      "water": [
+        -7.6,
+        7.4
+      ],
+      "portaalhoogte": 12.4,
+      "opritafstand": [
+        19.4,
+        19.4
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "P0020.9abc3f6ccc0e469884f7df7aa3e2dab4",
+          "klasse": "Terrain",
+          "oppervlak": 57.7,
+          "onderDek": 0.37,
+          "bovenDekOnderkant": 0.9,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0014.9fdc513b4e95dbe4e053660013ac8484",
+          "klasse": "Terrain",
+          "oppervlak": 155.1,
+          "onderDek": 0.07,
+          "bovenDekOnderkant": 0.29,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        41.211,
+        40.979
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

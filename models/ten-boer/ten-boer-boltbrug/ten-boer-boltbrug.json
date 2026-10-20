@@ -1,0 +1,158 @@
+{
+  "name": "Boltbrug",
+  "file": "ten-boer-boltbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    242533.91,
+    588242.23
+  ],
+  "xAxis": [
+    -0.77952,
+    0.626377
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 40.727,
+  "groundSamplePoints": [
+    [
+      -14.55,
+      0
+    ],
+    [
+      11.19,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "P0020.7a0c5c6cc06945b7bc0a39c2a47a73cd",
+    "G0014.b0c8e701951219ece053660013ac23bd",
+    "P0020.54afe27f6c2f4921a9e5d7af771c9030",
+    "P0020.9a0b169d693f471d96d4924052267019",
+    "P0020.0fe345f2379d4dbeb06e82c6cf17356a"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        242544.33,
+        588233.85
+      ],
+      "axis": [
+        0.77952,
+        -0.626377
+      ],
+      "halfLength": 5.85,
+      "halfWidth": 9.09,
+      "height": 41.041,
+      "gradient": [
+        -0.05376,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        242526.09,
+        588248.51
+      ],
+      "axis": [
+        -0.77952,
+        0.626377
+      ],
+      "halfLength": 5.85,
+      "halfWidth": 9.09,
+      "height": 41.206,
+      "gradient": [
+        -0.02564,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "P0020.9a0b169d693f471d96d4924052267019"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "P0020.7a0c5c6cc06945b7bc0a39c2a47a73cd",
+          "type": "landhoofd"
+        },
+        {
+          "id": "G0014.b0c8e701951219ece053660013ac23bd",
+          "type": "landhoofd"
+        },
+        {
+          "id": "P0020.54afe27f6c2f4921a9e5d7af771c9030",
+          "type": "landhoofd"
+        },
+        {
+          "id": "P0020.9a0b169d693f471d96d4924052267019",
+          "type": "dek"
+        },
+        {
+          "id": "P0020.0fe345f2379d4dbeb06e82c6cf17356a",
+          "type": "landhoofd"
+        }
+      ],
+      "osm": {
+        "id": "way/833002394",
+        "tags": {
+          "bridge": "movable",
+          "bridge:movable": "bascule",
+          "cycleway:right": "track",
+          "foot": "use_sidepath",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "50",
+          "name": "Boltbrug",
+          "smoothness": "good",
+          "surface": "asphalt",
+          "man_made": "bridge",
+          "source:name": "BAG/BGT"
+        }
+      },
+      "fis": {
+        "id": 33693,
+        "naam": "Boltbrug",
+        "afstand": 6,
+        "beweegbaar": true,
+        "doorvaarthoogteGesloten": 0.7799999999999999
+      },
+      "pdokBridgeVlakken": 5
+    },
+    "type": "basculebrug",
+    "doorvaarthoogte": 0.7799999999999999,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,580000,260000,600000 --run nl-12_14 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 8.3,
+      "dekBreedte": 14.2,
+      "brugLengte": 11.7,
+      "water": [
+        -2.5,
+        3.5
+      ],
+      "portaalhoogte": 12.8,
+      "opritafstand": [
+        7,
+        7
+      ],
+      "oprithelling": 11.7,
+      "doorstekend": [],
+      "opritHoogtes": [
+        40.727,
+        41.056
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

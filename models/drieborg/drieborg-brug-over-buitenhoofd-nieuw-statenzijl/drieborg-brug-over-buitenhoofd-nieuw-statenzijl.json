@@ -1,0 +1,169 @@
+{
+  "name": "Brug over buitenhoofd Nieuw Statenzijl",
+  "file": "drieborg-brug-over-buitenhoofd-nieuw-statenzijl.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    276584.65,
+    584325.9
+  ],
+  "xAxis": [
+    0.980139,
+    0.19831
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 48.477,
+  "groundSamplePoints": [
+    [
+      -9.72,
+      0
+    ],
+    [
+      9.72,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "W0646.2bd2a46424414abea59194b3971bb394"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        276584.65,
+        584325.9
+      ],
+      "axis": [
+        0.980139,
+        0.19831
+      ],
+      "halfLength": 2.21,
+      "halfWidth": 2.91,
+      "height": 48.075,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.81,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        276575.99,
+        584324.15
+      ],
+      "axis": [
+        -0.980139,
+        -0.19831
+      ],
+      "halfLength": 4.42,
+      "halfWidth": 3.62,
+      "height": 49.225,
+      "gradient": [
+        -0.03395,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        276593.31,
+        584327.65
+      ],
+      "axis": [
+        0.980139,
+        0.19831
+      ],
+      "halfLength": 4.42,
+      "halfWidth": 3.62,
+      "height": 48.926,
+      "gradient": [
+        -0.10165,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "W0646.2bd2a46424414abea59194b3971bb394"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "W0646.2bd2a46424414abea59194b3971bb394",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/96043384",
+        "tags": {
+          "bicycle": "yes",
+          "bridge": "movable",
+          "foot": "yes",
+          "highway": "service",
+          "layer": "1",
+          "name": "Nieuwe Statenzijl",
+          "smoothness": "good",
+          "surface": "asphalt",
+          "vehicle": "private",
+          "bridge:structure": "humpback",
+          "man_made": "bridge",
+          "source": "3dShapes"
+        }
+      },
+      "fis": {
+        "id": 55202,
+        "naam": "Brug over buitenhoofd Nieuw Statenzijl",
+        "afstand": 13,
+        "beweegbaar": true,
+        "doorvaarthoogteGesloten": 4
+      },
+      "pdokBridgeVlakken": 1
+    },
+    "type": "basculebrug",
+    "doorvaarthoogte": 4,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 260000,580000,280000,600000 --run nl-13_14 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 8.8,
+      "dekBreedte": 4.8,
+      "brugLengte": 8.8,
+      "water": [
+        -3.4,
+        4.1
+      ],
+      "portaalhoogte": 4.3,
+      "opritafstand": [
+        5.3,
+        5.3
+      ],
+      "oprithelling": 8.8,
+      "doorstekend": [
+        {
+          "gmlId": "W0646.af8101db4d43471f8044d940486fc65f",
+          "klasse": "Separation",
+          "oppervlak": 201.7,
+          "onderDek": 0.02,
+          "bovenDekOnderkant": 0.81,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        49.075,
+        48.477
+      ]
+    },
+    "waarschuwingen": [
+      "OSM zegt humpback, gekozen type basculebrug",
+      "bridge=movable zonder mechanisme: basculebrug is een gok",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}
