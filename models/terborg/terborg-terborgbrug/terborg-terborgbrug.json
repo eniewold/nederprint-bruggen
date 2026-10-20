@@ -1,0 +1,199 @@
+{
+  "name": "Terborgbrug",
+  "file": "terborg-terborgbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    221160.25,
+    436938.7
+  ],
+  "xAxis": [
+    0.893115,
+    0.449828
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 58.189,
+  "groundSamplePoints": [
+    [
+      -42.53,
+      0
+    ],
+    [
+      42.53,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G1509.ce52cf805cda47309424b11518d36a01",
+    "G1509.f56e10f43f404fdeb0bbdf75cfe7652f",
+    "G1509.e93b158c3e6f437f908bb387223d5d5e"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        221160.25,
+        436938.7
+      ],
+      "axis": [
+        0.893115,
+        0.449828
+      ],
+      "halfLength": 16.53,
+      "halfWidth": 6.14,
+      "height": 57.212,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.76,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        221129.41,
+        436923.17
+      ],
+      "axis": [
+        -0.893115,
+        -0.449828
+      ],
+      "halfLength": 12,
+      "halfWidth": 7.64,
+      "height": 58.362,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        221191.09,
+        436954.23
+      ],
+      "axis": [
+        0.893115,
+        0.449828
+      ],
+      "halfLength": 12,
+      "halfWidth": 7.64,
+      "height": 58.35,
+      "gradient": [
+        -0.01343,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G1509.e93b158c3e6f437f908bb387223d5d5e"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G1509.ce52cf805cda47309424b11518d36a01",
+          "type": "pijler"
+        },
+        {
+          "id": "G1509.f56e10f43f404fdeb0bbdf75cfe7652f",
+          "type": "pijler"
+        },
+        {
+          "id": "G1509.e93b158c3e6f437f908bb387223d5d5e",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/810211658",
+        "tags": {
+          "bridge": "yes",
+          "highway": "secondary",
+          "lanes": "1",
+          "layer": "1",
+          "maxspeed": "30",
+          "maxweight:signed": "no",
+          "name": "Terborgbrug",
+          "old_ref": "N818",
+          "surface": "asphalt",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
+      "fis": {
+        "id": 55707,
+        "naam": "Terborgbrug",
+        "afstand": 6,
+        "beweegbaar": true,
+        "doorvaarthoogteGesloten": 0.9900000000000002
+      },
+      "pdokBridgeVlakken": 3
+    },
+    "type": "ophaalbrug",
+    "doorvaarthoogte": 0.9900000000000002,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,420000,240000,440000 --run nl-11_6 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 45.1,
+      "dekBreedte": 11.3,
+      "brugLengte": 45.1,
+      "water": [
+        -12.5,
+        15.5
+      ],
+      "portaalhoogte": 10.2,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "W0152.e394a0a931b44f86a115014e344c669a",
+          "klasse": "Forest",
+          "oppervlak": 149.4,
+          "onderDek": 0.01,
+          "bovenDekOnderkant": 0.76,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "W0152.a0f9fb370e3b48de95f76b11c22fa50b",
+          "klasse": "Terrain",
+          "oppervlak": 3268.1,
+          "onderDek": 0.05,
+          "bovenDekOnderkant": 0.7,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "W0152.60de53180c574ff2a80d307a5dd2eb73",
+          "klasse": "Terrain",
+          "oppervlak": 27.3,
+          "onderDek": 0.15,
+          "bovenDekOnderkant": 0.39,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G1509.ae641f9292a546e1a51d155670d9f7d8",
+          "klasse": "Terrain",
+          "oppervlak": 15483.3,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.17,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        58.212,
+        58.189
+      ]
+    },
+    "waarschuwingen": [
+      "4 PDOK-vorm(en) door het dek: 0 verborgen, 4 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

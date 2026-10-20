@@ -1,0 +1,162 @@
+{
+  "name": "Tulenstraat",
+  "file": "voorst-brug-a0ed1496.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    227980.74,
+    432376.6
+  ],
+  "xAxis": [
+    -0.809131,
+    0.587628
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 60.078,
+  "groundSamplePoints": [
+    [
+      -8.28,
+      0
+    ],
+    [
+      8.28,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G1509.a0ed14965fdb411a8ce3494bdeaaf3f6"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        227980.74,
+        432376.6
+      ],
+      "axis": [
+        -0.809131,
+        0.587628
+      ],
+      "halfLength": 1.88,
+      "halfWidth": 2.4,
+      "height": 59.18,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.7,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        227986.83,
+        432372.17
+      ],
+      "axis": [
+        0.809131,
+        -0.587628
+      ],
+      "halfLength": 3.76,
+      "halfWidth": 2.84,
+      "height": 60.279,
+      "gradient": [
+        -0.05343,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        227974.65,
+        432381.02
+      ],
+      "axis": [
+        -0.809131,
+        0.587628
+      ],
+      "halfLength": 3.76,
+      "halfWidth": 2.84,
+      "height": 60.33,
+      "gradient": [
+        -0.03985,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G1509.a0ed14965fdb411a8ce3494bdeaaf3f6"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G1509.a0ed14965fdb411a8ce3494bdeaaf3f6",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/6784350",
+        "tags": {
+          "bridge": "yes",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Tulenstraat"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,420000,240000,440000 --run nl-11_6 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 7.5,
+      "dekBreedte": 3.8,
+      "brugLengte": 7.5,
+      "water": [
+        -0.3,
+        1.7
+      ],
+      "portaalhoogte": 3.4,
+      "opritafstand": [
+        4.5,
+        4.5
+      ],
+      "oprithelling": 7.5,
+      "doorstekend": [
+        {
+          "gmlId": "W0152.065c447b51314b93bb163eda68a64694",
+          "klasse": "Forest",
+          "oppervlak": 895.4,
+          "onderDek": 0.01,
+          "bovenDekOnderkant": 0.7,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "W0152.d5b45ad52b074132995815b2104cb437",
+          "klasse": "Terrain",
+          "oppervlak": 528.8,
+          "onderDek": 0.01,
+          "bovenDekOnderkant": 0.66,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        60.078,
+        60.18
+      ]
+    },
+    "waarschuwingen": [
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

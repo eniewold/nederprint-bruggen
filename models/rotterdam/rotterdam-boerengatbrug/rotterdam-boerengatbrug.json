@@ -1,0 +1,139 @@
+{
+  "name": "Boerengatbrug",
+  "file": "rotterdam-boerengatbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    93952.64,
+    437238.03
+  ],
+  "xAxis": [
+    -0.990411,
+    -0.138149
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 49.139,
+  "groundSamplePoints": [
+    [
+      -17.8,
+      0
+    ],
+    [
+      17.8,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0599.16fd017111bd4cac9e050210a7e24119"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        93968.67,
+        437240.27
+      ],
+      "axis": [
+        0.990411,
+        0.138149
+      ],
+      "halfLength": 8.09,
+      "halfWidth": 14.77,
+      "height": 49.451,
+      "gradient": [
+        -0.03849,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        93936.62,
+        437235.8
+      ],
+      "axis": [
+        -0.990411,
+        -0.138149
+      ],
+      "halfLength": 8.09,
+      "halfWidth": 14.77,
+      "height": 49.612,
+      "gradient": [
+        -0.01854,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0599.16fd017111bd4cac9e050210a7e24119"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0599.16fd017111bd4cac9e050210a7e24119",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/232189669",
+        "tags": {
+          "bicycle": "no",
+          "bridge": "movable",
+          "highway": "primary",
+          "lanes": "2",
+          "layer": "1",
+          "maxspeed": "50",
+          "maxweight:signed": "no",
+          "name": "Boerengatbrug",
+          "oneway": "yes",
+          "ref": "S107",
+          "surface": "asphalt",
+          "zone:traffic": "NL:urban",
+          "alt_name": "Boerengatsluis",
+          "bridge:movable": "bascule",
+          "man_made": "bridge",
+          "wikidata": "Q3173910",
+          "wikipedia": "nl:Boerengatbrug"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "basculebrug",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,420000,100000,440000 --run nl-4_6 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 16.2,
+      "dekBreedte": 25.5,
+      "brugLengte": 16.2,
+      "water": [
+        -7.1,
+        7.4
+      ],
+      "portaalhoogte": 23,
+      "opritafstand": [
+        9.7,
+        9.7
+      ],
+      "oprithelling": 16.2,
+      "doorstekend": [],
+      "opritHoogtes": [
+        49.139,
+        49.462
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

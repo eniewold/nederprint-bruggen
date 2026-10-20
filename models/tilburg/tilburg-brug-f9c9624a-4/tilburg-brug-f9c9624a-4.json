@@ -1,0 +1,164 @@
+{
+  "name": "tilburg-brug-f9c9624a-4",
+  "file": "tilburg-brug-f9c9624a-4.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    127365.63,
+    398301.1
+  ],
+  "xAxis": [
+    -0.06928,
+    0.997597
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 52.478,
+  "groundSamplePoints": [
+    [
+      -4.6,
+      0
+    ],
+    [
+      4.6,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0855.f9c9624a92cc329ce053c5fa010a3476"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        127365.63,
+        398301.1
+      ],
+      "axis": [
+        -0.06928,
+        0.997597
+      ],
+      "halfLength": 0.3,
+      "halfWidth": 17.58,
+      "height": 51.661,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.62,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        127365.88,
+        398297.51
+      ],
+      "axis": [
+        0.06928,
+        -0.997597
+      ],
+      "halfLength": 3,
+      "halfWidth": 19.08,
+      "height": 52.719,
+      "gradient": [
+        -0.08051,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        127365.38,
+        398304.69
+      ],
+      "axis": [
+        -0.06928,
+        0.997597
+      ],
+      "halfLength": 3,
+      "halfWidth": 19.08,
+      "height": 52.811,
+      "gradient": [
+        -0.05,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0855.f9c9624a92cc329ce053c5fa010a3476"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0855.f9c9624a92cc329ce053c5fa010a3476",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1220329563",
+        "tags": {
+          "bridge": "yes",
+          "highway": "path",
+          "layer": "1",
+          "lit": "no",
+          "smoothness": "good",
+          "surface": "concrete"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,380000,140000,400000 --run nl-6_4 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 1.2,
+      "dekBreedte": 34.2,
+      "brugLengte": 1.2,
+      "water": [
+        -0.6,
+        0.4
+      ],
+      "portaalhoogte": 30.7,
+      "opritafstand": [
+        4,
+        4
+      ],
+      "oprithelling": 6,
+      "doorstekend": [
+        {
+          "gmlId": "G0855.d3d43d20b4aa3718e053c5fa010a107a",
+          "klasse": "Terrain",
+          "oppervlak": 193.6,
+          "onderDek": 0.04,
+          "bovenDekOnderkant": 0.62,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0855.cf807777b7ff3ae4e053c5fa010afd32",
+          "klasse": "Forest",
+          "oppervlak": 304.5,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.5,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        52.478,
+        52.661
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "name": "Groene Wetering",
+  "file": "rotterdam-groene-wetering-6.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    95238.23,
+    437303.01
+  ],
+  "xAxis": [
+    -0.925436,
+    0.378904
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 42.647,
+  "groundSamplePoints": [
+    [
+      -8.94,
+      0
+    ],
+    [
+      8.94,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0599.e54492b763314a9c8c695295e75c09ae"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        95238.23,
+        437303.01
+      ],
+      "axis": [
+        -0.925436,
+        0.378904
+      ],
+      "halfLength": 2.03,
+      "halfWidth": 6.46,
+      "height": 41.723,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.62,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        95245.75,
+        437299.93
+      ],
+      "axis": [
+        0.925436,
+        -0.378904
+      ],
+      "halfLength": 4.06,
+      "halfWidth": 7.96,
+      "height": 42.835,
+      "gradient": [
+        -0.04629,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        95230.71,
+        437306.09
+      ],
+      "axis": [
+        -0.925436,
+        0.378904
+      ],
+      "halfLength": 4.06,
+      "halfWidth": 7.96,
+      "height": 42.873,
+      "gradient": [
+        -0.03692,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0599.e54492b763314a9c8c695295e75c09ae"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0599.e54492b763314a9c8c695295e75c09ae",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1104629915",
+        "tags": {
+          "access": "private",
+          "bridge": "yes",
+          "highway": "service",
+          "layer": "1",
+          "service": "driveway"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,420000,100000,440000 --run nl-4_6 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 8.1,
+      "dekBreedte": 11.9,
+      "brugLengte": 8.1,
+      "water": [
+        -1.6,
+        1.4
+      ],
+      "portaalhoogte": 10.7,
+      "opritafstand": [
+        4.9,
+        4.9
+      ],
+      "oprithelling": 8.1,
+      "doorstekend": [
+        {
+          "gmlId": "G0599.59f4756076a04eda8a60e6e874db79f6",
+          "klasse": "Terrain",
+          "oppervlak": 24.9,
+          "onderDek": 0.15,
+          "bovenDekOnderkant": 0.62,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0599.5cc896b67a4040efb75d5707d4068d09",
+          "klasse": "Terrain",
+          "oppervlak": 25.4,
+          "onderDek": 0.08,
+          "bovenDekOnderkant": 0.58,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        42.647,
+        42.723
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

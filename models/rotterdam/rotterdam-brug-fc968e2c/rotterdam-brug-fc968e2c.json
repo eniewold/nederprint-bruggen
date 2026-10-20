@@ -1,0 +1,164 @@
+{
+  "name": "Oudorpbrug",
+  "file": "rotterdam-brug-fc968e2c.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    95587.04,
+    437496.83
+  ],
+  "xAxis": [
+    -0.246542,
+    -0.969132
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 42.376,
+  "groundSamplePoints": [
+    [
+      -8.8,
+      0
+    ],
+    [
+      8.8,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0599.fc968e2c4bd541ea909470d2e6dbaea1"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        95587.04,
+        437496.83
+      ],
+      "axis": [
+        -0.246542,
+        -0.969132
+      ],
+      "halfLength": 2,
+      "halfWidth": 5.31,
+      "height": 41.472,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.82,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        95589.01,
+        437504.58
+      ],
+      "axis": [
+        0.246542,
+        0.969132
+      ],
+      "halfLength": 4,
+      "halfWidth": 6.81,
+      "height": 42.622,
+      "gradient": [
+        -0.0375,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        95585.07,
+        437489.08
+      ],
+      "axis": [
+        -0.246542,
+        -0.969132
+      ],
+      "halfLength": 4,
+      "halfWidth": 6.81,
+      "height": 42.574,
+      "gradient": [
+        -0.04944,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0599.fc968e2c4bd541ea909470d2e6dbaea1"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0599.fc968e2c4bd541ea909470d2e6dbaea1",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1062258539",
+        "tags": {
+          "bridge": "yes",
+          "highway": "residential",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Oudorpbrug",
+          "surface": "paving_stones"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,420000,100000,440000 --run nl-4_6 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 8,
+      "dekBreedte": 9.6,
+      "brugLengte": 8,
+      "water": [
+        -1,
+        1
+      ],
+      "portaalhoogte": 8.7,
+      "opritafstand": [
+        4.8,
+        4.8
+      ],
+      "oprithelling": 8,
+      "doorstekend": [
+        {
+          "gmlId": "G0599.98df0799e1ce4a7eb3460e126670b762",
+          "klasse": "Terrain",
+          "oppervlak": 27.3,
+          "onderDek": 0.23,
+          "bovenDekOnderkant": 0.82,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0599.9f014dcd984a4a46a2919eb6085364fb",
+          "klasse": "Terrain",
+          "oppervlak": 27.4,
+          "onderDek": 0.31,
+          "bovenDekOnderkant": 0.7,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        42.472,
+        42.376
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

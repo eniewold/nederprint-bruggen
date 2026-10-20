@@ -1,0 +1,165 @@
+{
+  "name": "Proveniersbrug",
+  "file": "rotterdam-proveniersbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    91850.99,
+    437949.41
+  ],
+  "xAxis": [
+    0.897062,
+    -0.441905
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 42.375,
+  "groundSamplePoints": [
+    [
+      -16.01,
+      0
+    ],
+    [
+      16.01,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0599.a29ebdeb3aa140e5b287ea3308df6047"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        91850.99,
+        437949.41
+      ],
+      "axis": [
+        0.897062,
+        -0.441905
+      ],
+      "halfLength": 3.64,
+      "halfWidth": 5.27,
+      "height": 41.411,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.42,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        91837.93,
+        437955.84
+      ],
+      "axis": [
+        -0.897062,
+        0.441905
+      ],
+      "halfLength": 7.28,
+      "halfWidth": 6.77,
+      "height": 42.561,
+      "gradient": [
+        -0.02061,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        91864.05,
+        437942.98
+      ],
+      "axis": [
+        0.897062,
+        -0.441905
+      ],
+      "halfLength": 7.28,
+      "halfWidth": 6.77,
+      "height": 42.543,
+      "gradient": [
+        -0.0231,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0599.a29ebdeb3aa140e5b287ea3308df6047"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0599.a29ebdeb3aa140e5b287ea3308df6047",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/588744532",
+        "tags": {
+          "bridge": "yes",
+          "highway": "residential",
+          "layer": "1",
+          "maxspeed": "30",
+          "maxweight:signed": "no",
+          "name": "Proveniersbrug",
+          "name:etymology:wikidata": "Q14178148",
+          "oneway": "yes",
+          "sidewalk": "right",
+          "source:maxspeed": "NL:zone30",
+          "surface": "asphalt",
+          "wikidata": "Q105761480",
+          "bridge:name": "Proveniersbrug",
+          "bridge:structure": "humpback",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "bolbrug",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,420000,100000,440000 --run nl-4_6 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 14.6,
+      "dekBreedte": 9.5,
+      "brugLengte": 14.6,
+      "water": [
+        -4.8,
+        4.7
+      ],
+      "portaalhoogte": 8.6,
+      "opritafstand": [
+        8.7,
+        8.7
+      ],
+      "oprithelling": 14.6,
+      "bolling": 1.75,
+      "doorstekend": [
+        {
+          "gmlId": "G0599.e6b6ccf7342649419a29c3f3bc031228",
+          "klasse": "Terrain",
+          "oppervlak": 7,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.42,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        42.411,
+        42.375
+      ]
+    },
+    "waarschuwingen": [
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

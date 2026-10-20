@@ -1,0 +1,198 @@
+{
+  "name": "Oude Lijn",
+  "file": "schiedam-brug-fefaa6dc.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    87356.43,
+    437753.29
+  ],
+  "xAxis": [
+    -0.717558,
+    0.696499
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 47.246,
+  "groundSamplePoints": [
+    [
+      -31.33,
+      0
+    ],
+    [
+      31.33,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "L0004.fefaa6dc313845a3a03e57665ed3e027",
+    "L0004.f898099b62b74f21beb2516d6642e97f",
+    "L0004.208c50995e224204a9c8ee103e23dd5a"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        87356.43,
+        437753.29
+      ],
+      "axis": [
+        -0.717558,
+        0.696499
+      ],
+      "halfLength": 25.33,
+      "halfWidth": 14.33,
+      "height": 46.231,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.87,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        87387.52,
+        437723.11
+      ],
+      "axis": [
+        0.717558,
+        -0.696499
+      ],
+      "halfLength": 12,
+      "halfWidth": 15.83,
+      "height": 47.531,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        87325.34,
+        437783.46
+      ],
+      "axis": [
+        -0.717558,
+        0.696499
+      ],
+      "halfLength": 12,
+      "halfWidth": 15.83,
+      "height": 47.389,
+      "gradient": [
+        -0.01188,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "L0004.fefaa6dc313845a3a03e57665ed3e027"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "L0004.fefaa6dc313845a3a03e57665ed3e027",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/321901457",
+        "tags": {
+          "bridge": "yes",
+          "description": "Schiedam Centrum",
+          "electrified": "contact_line",
+          "frequency": "0",
+          "gauge": "1435",
+          "layer": "1",
+          "maxspeed": "80",
+          "name": "Oude Lijn",
+          "operator": "ProRail",
+          "passenger_lines": "4",
+          "railway": "rail",
+          "railway:atb": "yes",
+          "railway:maximum_current": "4000",
+          "ref": "539",
+          "ref:ProRailID": "2877407.0",
+          "ref:ProRailSpoortak": "539_49AR_79.3",
+          "source": "ProRail",
+          "source:date": "2014-01-03",
+          "usage": "main",
+          "voltage": "1500",
+          "wikidata": "Q801843",
+          "wikipedia": "nl:Spoorlijn Amsterdam - Rotterdam",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,420000,100000,440000 --run nl-4_6 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 62.7,
+      "dekBreedte": 27.7,
+      "brugLengte": 62.7,
+      "water": null,
+      "portaalhoogte": 24.9,
+      "opritafstand": [
+        0,
+        0
+      ],
+      "spoorhoogteBron": "prorail-pvs",
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "L0004.f898099b62b74f21beb2516d6642e97f",
+          "klasse": "Terrain",
+          "oppervlak": 182.1,
+          "onderDek": 0.81,
+          "bovenDekOnderkant": 1.11,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "L0004.688c5505dea344b7b7dfa9c86aa2aa9b",
+          "klasse": "Separation",
+          "oppervlak": 0,
+          "onderDek": 0.02,
+          "bovenDekOnderkant": 0.87,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "L0004.208c50995e224204a9c8ee103e23dd5a",
+          "klasse": "Terrain",
+          "oppervlak": 133,
+          "onderDek": 0.73,
+          "bovenDekOnderkant": 0.86,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "L0004.3e98c85b3fc241e6b82b01e58c185242",
+          "klasse": "Forest",
+          "oppervlak": 286.9,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.36,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        47.531,
+        47.246
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "4 PDOK-vorm(en) door het dek: 2 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

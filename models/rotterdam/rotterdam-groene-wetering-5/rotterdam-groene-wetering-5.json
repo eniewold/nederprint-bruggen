@@ -1,0 +1,168 @@
+{
+  "name": "Groene Wetering",
+  "file": "rotterdam-groene-wetering-5.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    95381.18,
+    437269.31
+  ],
+  "xAxis": [
+    -0.925659,
+    0.378358
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 42.475,
+  "groundSamplePoints": [
+    [
+      -8.08,
+      0
+    ],
+    [
+      8.08,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0599.c8081d4af9f04d8fbcb43c50f0c9ce49"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        95381.18,
+        437269.31
+      ],
+      "axis": [
+        -0.925659,
+        0.378358
+      ],
+      "halfLength": 1.84,
+      "halfWidth": 5.92,
+      "height": 41.664,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.56,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        95387.97,
+        437266.53
+      ],
+      "axis": [
+        0.925659,
+        -0.378358
+      ],
+      "halfLength": 3.67,
+      "halfWidth": 7.42,
+      "height": 42.814,
+      "gradient": [
+        -0.04086,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        95374.38,
+        437272.09
+      ],
+      "axis": [
+        -0.925659,
+        0.378358
+      ],
+      "halfLength": 3.67,
+      "halfWidth": 7.42,
+      "height": 42.719,
+      "gradient": [
+        -0.06655,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0599.c8081d4af9f04d8fbcb43c50f0c9ce49"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0599.c8081d4af9f04d8fbcb43c50f0c9ce49",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/336344491",
+        "tags": {
+          "bridge": "yes",
+          "bridge:name": "Van Trompenburgsebrug",
+          "highway": "residential",
+          "layer": "1",
+          "maxspeed": "30",
+          "maxweight:signed": "no",
+          "name": "Groene Wetering",
+          "oneway": "no",
+          "surface": "paving_stones",
+          "wikidata": "Q126194782"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,420000,100000,440000 --run nl-4_6 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 7.3,
+      "dekBreedte": 10.8,
+      "brugLengte": 7.3,
+      "water": [
+        -0.7,
+        0.8
+      ],
+      "portaalhoogte": 9.8,
+      "opritafstand": [
+        4.4,
+        4.4
+      ],
+      "oprithelling": 7.3,
+      "doorstekend": [
+        {
+          "gmlId": "G0599.3084af9f733a42d986d841d58874c53c",
+          "klasse": "Terrain",
+          "oppervlak": 24.2,
+          "onderDek": 0.22,
+          "bovenDekOnderkant": 0.56,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0599.115e98d204364993b6b9c25ed21cee60",
+          "klasse": "Terrain",
+          "oppervlak": 24.1,
+          "onderDek": 0.24,
+          "bovenDekOnderkant": 0.49,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        42.664,
+        42.475
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

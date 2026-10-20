@@ -1,0 +1,132 @@
+{
+  "name": "Stokvisbrug",
+  "file": "rotterdam-stokvisbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    92779.23,
+    437569.26
+  ],
+  "xAxis": [
+    0.659404,
+    -0.751789
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 44.209,
+  "groundSamplePoints": [
+    [
+      -9.99,
+      0
+    ],
+    [
+      9.99,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0599.16fd0171161dacac9e050210a7e24119"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        92773.24,
+        437576.09
+      ],
+      "axis": [
+        -0.659404,
+        0.751789
+      ],
+      "halfLength": 4.54,
+      "halfWidth": 6.86,
+      "height": 44.423,
+      "gradient": [
+        -0.047,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        92785.22,
+        437562.44
+      ],
+      "axis": [
+        0.659404,
+        -0.751789
+      ],
+      "halfLength": 4.54,
+      "halfWidth": 6.86,
+      "height": 44.486,
+      "gradient": [
+        -0.03304,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0599.16fd0171161dacac9e050210a7e24119"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0599.16fd0171161dacac9e050210a7e24119",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/638209088",
+        "tags": {
+          "bridge": "yes",
+          "bridge:name": "Stokvisbrug",
+          "highway": "residential",
+          "layer": "1",
+          "maxspeed": "30",
+          "maxweight": "30",
+          "name": "Stokvisbrug",
+          "sidewalk": "both",
+          "surface": "paving_stones",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,420000,100000,440000 --run nl-4_6 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 9.1,
+      "dekBreedte": 9.7,
+      "brugLengte": 9.1,
+      "water": [
+        -3,
+        3
+      ],
+      "portaalhoogte": 8.7,
+      "opritafstand": [
+        5.4,
+        5.4
+      ],
+      "oprithelling": 9.1,
+      "doorstekend": [],
+      "opritHoogtes": [
+        44.209,
+        44.336
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

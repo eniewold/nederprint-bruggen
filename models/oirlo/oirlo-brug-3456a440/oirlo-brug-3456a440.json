@@ -1,0 +1,184 @@
+{
+  "name": "Rosakker",
+  "file": "oirlo-brug-3456a440.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    199320.18,
+    390570.93
+  ],
+  "xAxis": [
+    0.905448,
+    0.424457
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 74.43,
+  "groundSamplePoints": [
+    [
+      -54,
+      0
+    ],
+    [
+      54,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0984.3731cb2a727a46e3a5c0bbeaae04f43d",
+    "G0984.a298472789004ef6a910252ff1e9bc05",
+    "G0984.3456a44086cf4ab184e7bb927a1f0ea4",
+    "G0984.971acd482f7d4cffa7e7c66d5ca2c1b5",
+    "G0984.6fa40d886fa9478c8c0010a5cd75490d",
+    "G0984.1ee00b8c64474d93802cac3b2d462fab"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        199320.18,
+        390570.93
+      ],
+      "axis": [
+        0.905448,
+        0.424457
+      ],
+      "halfLength": 28,
+      "halfWidth": 4.72,
+      "height": 73.519,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.36,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        199278.52,
+        390551.4
+      ],
+      "axis": [
+        -0.905448,
+        -0.424457
+      ],
+      "halfLength": 12,
+      "halfWidth": 6.22,
+      "height": 74.625,
+      "gradient": [
+        -0.01621,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        199361.83,
+        390590.45
+      ],
+      "axis": [
+        0.905448,
+        0.424457
+      ],
+      "halfLength": 12,
+      "halfWidth": 6.22,
+      "height": 74.669,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0984.3456a44086cf4ab184e7bb927a1f0ea4"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0984.3731cb2a727a46e3a5c0bbeaae04f43d",
+          "type": "landhoofd"
+        },
+        {
+          "id": "G0984.a298472789004ef6a910252ff1e9bc05",
+          "type": "pijler"
+        },
+        {
+          "id": "G0984.3456a44086cf4ab184e7bb927a1f0ea4",
+          "type": "dek"
+        },
+        {
+          "id": "G0984.971acd482f7d4cffa7e7c66d5ca2c1b5",
+          "type": "landhoofd"
+        }
+      ],
+      "osm": {
+        "id": "way/6723382",
+        "tags": {
+          "bridge": "yes",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Rosakker"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 4
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 180000,380000,200000,400000 --run nl-9_4 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 68,
+      "dekBreedte": 8.4,
+      "brugLengte": 68,
+      "water": null,
+      "portaalhoogte": 7.6,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0984.6fa40d886fa9478c8c0010a5cd75490d",
+          "klasse": "Terrain",
+          "oppervlak": 61.5,
+          "onderDek": 0.89,
+          "bovenDekOnderkant": 0.36,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "G0984.643122985c1a4dacab09b40289238a31",
+          "klasse": "Forest",
+          "oppervlak": 76.8,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.36,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0984.1ee00b8c64474d93802cac3b2d462fab",
+          "klasse": "Terrain",
+          "oppervlak": 61.6,
+          "onderDek": 0.92,
+          "bovenDekOnderkant": 0.33,
+          "actie": "verbergen"
+        }
+      ],
+      "opritHoogtes": [
+        74.43,
+        74.519
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "3 PDOK-vorm(en) door het dek: 2 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

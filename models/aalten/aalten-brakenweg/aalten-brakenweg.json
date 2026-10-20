@@ -1,0 +1,160 @@
+{
+  "name": "Brakenweg",
+  "file": "aalten-brakenweg.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    232876.35,
+    436520.87
+  ],
+  "xAxis": [
+    0.50391,
+    -0.863756
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 64.173,
+  "groundSamplePoints": [
+    [
+      -12.38,
+      0
+    ],
+    [
+      12.38,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0197.2419ea62c4dc69abe0530e0a10acf6ec"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        232876.35,
+        436520.87
+      ],
+      "axis": [
+        0.50391,
+        -0.863756
+      ],
+      "halfLength": 2.81,
+      "halfWidth": 9.67,
+      "height": 63.216,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.65,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        232870.67,
+        436530.6
+      ],
+      "axis": [
+        -0.50391,
+        0.863756
+      ],
+      "halfLength": 5.63,
+      "halfWidth": 11.17,
+      "height": 64.344,
+      "gradient": [
+        -0.03048,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        232882.02,
+        436511.15
+      ],
+      "axis": [
+        0.50391,
+        -0.863756
+      ],
+      "halfLength": 5.63,
+      "halfWidth": 11.17,
+      "height": 64.366,
+      "gradient": [
+        -0.02665,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0197.2419ea62c4dc69abe0530e0a10acf6ec"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0197.2419ea62c4dc69abe0530e0a10acf6ec",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1092366774",
+        "tags": {
+          "bridge": "yes",
+          "bridge:name": "Maatkampsbrug",
+          "highway": "unclassified",
+          "layer": "1",
+          "lit": "no",
+          "maxspeed": "60",
+          "name": "Brakenweg",
+          "smoothness": "good",
+          "surface": "asphalt",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,420000,240000,440000 --run nl-11_6 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 11.3,
+      "dekBreedte": 18.3,
+      "brugLengte": 11.3,
+      "water": [
+        -2.1,
+        2.9
+      ],
+      "portaalhoogte": 16.5,
+      "opritafstand": [
+        6.8,
+        6.8
+      ],
+      "oprithelling": 11.3,
+      "doorstekend": [
+        {
+          "gmlId": "G0197.2419ea623cba69abe0530e0a10acf6ec",
+          "klasse": "Terrain",
+          "oppervlak": 644.4,
+          "onderDek": 0.02,
+          "bovenDekOnderkant": 0.65,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        64.173,
+        64.216
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

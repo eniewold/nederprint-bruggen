@@ -1,0 +1,147 @@
+{
+  "name": "Karnemelksbrug",
+  "file": "rotterdam-karnemelksbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    92951.66,
+    437773.93
+  ],
+  "xAxis": [
+    -0.966379,
+    0.257121
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 44.599,
+  "groundSamplePoints": [
+    [
+      -20.72,
+      -1.3
+    ],
+    [
+      130.72,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0599.16fd017112eb3cac9e050210a7e24119"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        92972.38,
+        437768.42
+      ],
+      "axis": [
+        0.966379,
+        -0.257121
+      ],
+      "halfLength": 10.72,
+      "halfWidth": 26.91,
+      "height": 45.651,
+      "gradient": [
+        -0.01399,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        92930.94,
+        437779.45
+      ],
+      "axis": [
+        -0.966379,
+        0.257121
+      ],
+      "halfLength": 10.72,
+      "halfWidth": 26.91,
+      "height": 45.2,
+      "gradient": [
+        -0.05605,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0599.16fd017112eb3cac9e050210a7e24119"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0599.16fd017112eb3cac9e050210a7e24119",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/635615352",
+        "tags": {
+          "bridge": "yes",
+          "electrified": "contact_line",
+          "frequency": "0",
+          "gauge": "1435",
+          "layer": "1",
+          "maxspeed": "60",
+          "oneway": "yes",
+          "railway": "tram",
+          "railway:atb": "no",
+          "railway:etcs": "no",
+          "railway:lzb": "no",
+          "railway:pzb": "no",
+          "railway:zub": "no",
+          "voltage": "600",
+          "width": "3.4",
+          "bridge:structure": "humpback",
+          "man_made": "bridge",
+          "name": "Karnemelksbrug",
+          "wikidata": "Q105962604",
+          "wikimedia_commons": "Category:Karnemelksbrug (Rotterdam)"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "bolbrug",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,420000,100000,440000 --run nl-4_6 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 21.4,
+      "dekBreedte": 49.8,
+      "brugLengte": 21.4,
+      "water": [
+        -6.7,
+        7.3
+      ],
+      "portaalhoogte": 44.8,
+      "opritafstand": [
+        10,
+        120
+      ],
+      "spoorhoogteBron": "pdok",
+      "oprithelling": 21.4,
+      "bolling": 2.5,
+      "doorstekend": [],
+      "opritHoogtes": [
+        45.501,
+        44.599
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "oprit -: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "oprit +: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "oprit +: spoorterrein voorbij 150 m nog 1.1 m hoger (45.7 m); PDOK trekt het spoor hier ver naar beneden, controleer de dekhoogte of geef --opritafstand",
+      "oprit + pas op 120 m langs het spoor gemeten (PDOK-spoorterrein bij de brug lager)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "name": "Oversluisbrug",
+  "file": "ulft-oversluisbrug-2.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    223791.79,
+    434003.32
+  ],
+  "xAxis": [
+    0.766096,
+    0.642726
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 59.811,
+  "groundSamplePoints": [
+    [
+      -45.68,
+      0
+    ],
+    [
+      45.68,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G1509.778a3be36279471eaeab7ccdd5735d9c"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        223791.79,
+        434003.32
+      ],
+      "axis": [
+        0.766096,
+        0.642726
+      ],
+      "halfLength": 19.68,
+      "halfWidth": 7.12,
+      "height": 58.866,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.85,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        223762.92,
+        433979.1
+      ],
+      "axis": [
+        -0.766096,
+        -0.642726
+      ],
+      "halfLength": 12,
+      "halfWidth": 8.62,
+      "height": 60.016,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        223820.66,
+        434027.54
+      ],
+      "axis": [
+        0.766096,
+        0.642726
+      ],
+      "halfLength": 12,
+      "halfWidth": 8.62,
+      "height": 59.989,
+      "gradient": [
+        -0.0148,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G1509.778a3be36279471eaeab7ccdd5735d9c"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G1509.778a3be36279471eaeab7ccdd5735d9c",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/810212219",
+        "tags": {
+          "bicycle": "no",
+          "bridge": "yes",
+          "foot": "no",
+          "highway": "secondary",
+          "layer": "1",
+          "maxspeed": "30",
+          "mofa": "no",
+          "name": "Oversluisbrug",
+          "surface": "asphalt",
+          "zone:maxspeed": "NL:30",
+          "zone:traffic": "NL:urban",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,420000,240000,440000 --run nl-11_6 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 51.4,
+      "dekBreedte": 13.2,
+      "brugLengte": 51.4,
+      "water": [
+        -14.2,
+        14.8
+      ],
+      "portaalhoogte": 11.9,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G1509.517a104b7ede42ecb5851d5517f7a137",
+          "klasse": "Forest",
+          "oppervlak": 64.4,
+          "onderDek": 0.27,
+          "bovenDekOnderkant": 0.85,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "W0152.0e97cb541ab84f4db83aa85555af1d0b",
+          "klasse": "Terrain",
+          "oppervlak": 4232.9,
+          "onderDek": 0.05,
+          "bovenDekOnderkant": 0.52,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        59.866,
+        59.811
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

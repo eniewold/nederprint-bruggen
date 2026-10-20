@@ -1,0 +1,197 @@
+{
+  "name": "Calandlijn",
+  "file": "rotterdam-brug-16fd0171-213.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    96641.54,
+    437200.11
+  ],
+  "xAxis": [
+    0.985139,
+    -0.171762
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 42.228,
+  "groundSamplePoints": [
+    [
+      -133.76,
+      31.5
+    ],
+    [
+      154,
+      -23.86
+    ]
+  ],
+  "replacesTerrain": [
+    "G0599.16fd016ff2b1acac9e050210a7e24119",
+    "G0599.16fd016ff2b1bcac9e050210a7e24119",
+    "G0599.16fd016ff2b1ccac9e050210a7e24119",
+    "G0599.16fd016ff2b1dcac9e050210a7e24119",
+    "G0599.16fd016ff2c3dcac9e050210a7e24119",
+    "G0599.16fd0171117ddcac9e050210a7e24119"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        96641.54,
+        437200.11
+      ],
+      "axis": [
+        0.985139,
+        -0.171762
+      ],
+      "halfLength": 118.1,
+      "halfWidth": 9.75,
+      "height": 43.318,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -3.13,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        96507.4,
+        437223.49
+      ],
+      "axis": [
+        -0.985139,
+        0.171762
+      ],
+      "halfLength": 12,
+      "halfWidth": 11.25,
+      "height": 43.423,
+      "gradient": [
+        -0.09957,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        96775.56,
+        437176.74
+      ],
+      "axis": [
+        0.985139,
+        -0.171762
+      ],
+      "halfLength": 12,
+      "halfWidth": 11.25,
+      "height": 44.468,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0599.16fd0171117ddcac9e050210a7e24119"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0599.16fd016ff2b1acac9e050210a7e24119",
+          "type": "pijler"
+        },
+        {
+          "id": "G0599.16fd016ff2b1bcac9e050210a7e24119",
+          "type": "pijler"
+        },
+        {
+          "id": "G0599.16fd016ff2b1ccac9e050210a7e24119",
+          "type": "pijler"
+        },
+        {
+          "id": "G0599.16fd016ff2b1dcac9e050210a7e24119",
+          "type": "pijler"
+        },
+        {
+          "id": "G0599.16fd016ff2c3dcac9e050210a7e24119",
+          "type": "pijler"
+        },
+        {
+          "id": "G0599.16fd0171117ddcac9e050210a7e24119",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/207627871",
+        "tags": {
+          "bridge": "yes",
+          "electrified": "rail",
+          "frequency": "0",
+          "gauge": "1435",
+          "layer": "1",
+          "maxspeed": "40",
+          "name": "Calandlijn",
+          "oneway": "yes",
+          "railway": "subway",
+          "railway:lzb": "yes",
+          "service": "yard",
+          "voltage": "750"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 6
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,420000,100000,440000 --run nl-4_6 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 248.2,
+      "dekBreedte": 18.5,
+      "brugLengte": 248.2,
+      "water": null,
+      "portaalhoogte": 16.6,
+      "opritafstand": [
+        10,
+        30
+      ],
+      "spoorhoogteBron": "pdok",
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0599.16fd016aa7b60cac9e050210a7e24119",
+          "klasse": "Terrain",
+          "oppervlak": 669.5,
+          "onderDek": 0.18,
+          "bovenDekOnderkant": 2.13,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0599.16fd016aaf36dcac9e050210a7e24119",
+          "klasse": "Terrain",
+          "oppervlak": 4429.3,
+          "onderDek": 0.28,
+          "bovenDekOnderkant": 1.71,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        42.228,
+        44.318
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "oprit -: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "oprit -: spoorterrein voorbij 150 m nog 1.1 m hoger (43.5 m); PDOK trekt het spoor hier ver naar beneden, controleer de dekhoogte of geef --opritafstand",
+      "oprit -: de sporen verschillen 2.0 m in hoogte (fly-over of wissel naast de brug); mediaan genomen",
+      "oprit +: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "oprit + pas op 30 m langs het spoor gemeten (PDOK-spoorterrein bij de brug lager)",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

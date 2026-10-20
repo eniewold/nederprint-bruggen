@@ -1,0 +1,174 @@
+{
+  "name": "Meentbrug",
+  "file": "rotterdam-meentbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    92774.84,
+    437465.39
+  ],
+  "xAxis": [
+    0.854255,
+    0.519854
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 44.049,
+  "groundSamplePoints": [
+    [
+      -16.4,
+      0
+    ],
+    [
+      16.4,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0599.16fd017116d25cac9e050210a7e24119"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        92774.84,
+        437465.39
+      ],
+      "axis": [
+        0.854255,
+        0.519854
+      ],
+      "halfLength": 3.73,
+      "halfWidth": 10.44,
+      "height": 43.135,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -2.05,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        92762.1,
+        437457.64
+      ],
+      "axis": [
+        -0.854255,
+        -0.519854
+      ],
+      "halfLength": 7.46,
+      "halfWidth": 11.94,
+      "height": 44.242,
+      "gradient": [
+        -0.0259,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        92787.58,
+        437473.14
+      ],
+      "axis": [
+        0.854255,
+        0.519854
+      ],
+      "halfLength": 7.46,
+      "halfWidth": 11.94,
+      "height": 44.285,
+      "gradient": [
+        -0.02012,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0599.16fd017116d25cac9e050210a7e24119"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0599.16fd017116d25cac9e050210a7e24119",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/706285414",
+        "tags": {
+          "bridge": "yes",
+          "highway": "residential",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "30",
+          "maxweight": "50",
+          "name": "Meentbrug",
+          "name:etymology:wikidata": "Q21014106",
+          "oneway": "no",
+          "sidewalk": "both",
+          "surface": "paving_stones",
+          "bridge:structure": "humpback",
+          "man_made": "bridge",
+          "wikidata": "Q105961820",
+          "wikimedia_commons": "Category:Meentbrug (Rotterdam)"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "bolbrug",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,420000,100000,440000 --run nl-4_6 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 14.9,
+      "dekBreedte": 19.9,
+      "brugLengte": 14.9,
+      "water": [
+        -3,
+        2.5
+      ],
+      "portaalhoogte": 17.9,
+      "opritafstand": [
+        8.9,
+        8.9
+      ],
+      "oprithelling": 14.9,
+      "bolling": 1.79,
+      "doorstekend": [
+        {
+          "gmlId": "G0599.170caf1ddb1c5f2eae050210a7e24745",
+          "klasse": "Terrain",
+          "oppervlak": 41.5,
+          "onderDek": 0.29,
+          "bovenDekOnderkant": 1.05,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0599.5c43fa378e5b48ad9cccec72d59ab1c8",
+          "klasse": "Terrain",
+          "oppervlak": 43.8,
+          "onderDek": 0.33,
+          "bovenDekOnderkant": 1.02,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        44.049,
+        44.135
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

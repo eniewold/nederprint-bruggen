@@ -1,0 +1,176 @@
+{
+  "name": "Spoorsingelbrug",
+  "file": "rotterdam-spoorsingelbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    91817.84,
+    437941.16
+  ],
+  "xAxis": [
+    -0.402731,
+    -0.915318
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 42.279,
+  "groundSamplePoints": [
+    [
+      -15.48,
+      3.73
+    ],
+    [
+      44.58,
+      -1.6
+    ]
+  ],
+  "replacesTerrain": [
+    "G0599.eac7ca7cd9b8406b8d5a03977a830eab"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        91817.84,
+        437941.16
+      ],
+      "axis": [
+        -0.402731,
+        -0.915318
+      ],
+      "halfLength": 2.76,
+      "halfWidth": 6.43,
+      "height": 41.314,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.4,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        91822.29,
+        437951.28
+      ],
+      "axis": [
+        0.402731,
+        0.915318
+      ],
+      "halfLength": 5.53,
+      "halfWidth": 7.93,
+      "height": 42.446,
+      "gradient": [
+        -0.03028,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        91813.39,
+        437931.04
+      ],
+      "axis": [
+        -0.402731,
+        -0.915318
+      ],
+      "halfLength": 5.53,
+      "halfWidth": 7.93,
+      "height": 42.464,
+      "gradient": [
+        -0.02713,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0599.eac7ca7cd9b8406b8d5a03977a830eab"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0599.eac7ca7cd9b8406b8d5a03977a830eab",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/588744534",
+        "tags": {
+          "bridge": "yes",
+          "highway": "residential",
+          "layer": "1",
+          "maxspeed": "30",
+          "maxweight:signed": "no",
+          "name": "Spoorsingelbrug",
+          "oneway": "yes",
+          "source:maxspeed": "NL:zone30",
+          "surface": "asphalt",
+          "bridge:name": "Spoorsingelbrug",
+          "bridge:structure": "humpback",
+          "man_made": "bridge",
+          "wikidata": "Q105956011",
+          "wikimedia_commons": "Category:Spoorsingelbrug (Rotterdam)"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "bolbrug",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,420000,100000,440000 --run nl-4_6 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 11.1,
+      "dekBreedte": 11.9,
+      "brugLengte": 11.1,
+      "water": [
+        -2.5,
+        3
+      ],
+      "portaalhoogte": 10.7,
+      "opritafstand": [
+        10,
+        40
+      ],
+      "spoorhoogteBron": "pdok",
+      "oprithelling": 11.1,
+      "bolling": 1.33,
+      "doorstekend": [
+        {
+          "gmlId": "G0599.603e541772364096ae4df189dc353192",
+          "klasse": "Terrain",
+          "oppervlak": 9,
+          "onderDek": 0.4,
+          "bovenDekOnderkant": 0.4,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0599.6c61ea5547944dfd9b94fb3218f03e8b",
+          "klasse": "Terrain",
+          "oppervlak": 18,
+          "onderDek": 0.23,
+          "bovenDekOnderkant": 0.19,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        42.279,
+        42.314
+      ]
+    },
+    "waarschuwingen": [
+      "oprit -: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "oprit +: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "oprit + pas op 40 m langs het spoor gemeten (PDOK-spoorterrein bij de brug lager)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}
