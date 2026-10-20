@@ -1,0 +1,144 @@
+{
+  "name": "Dieverbrug",
+  "file": "dieverbrug-dieverbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    219327.51,
+    540440.47
+  ],
+  "xAxis": [
+    0.902481,
+    -0.43073
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 50.862,
+  "groundSamplePoints": [
+    [
+      -6.35,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "P0022.ce5164292dfd4284a17b9db2324723b3"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        219327.51,
+        540440.47
+      ],
+      "axis": [
+        0.902481,
+        -0.43073
+      ],
+      "halfLength": 1.17,
+      "halfWidth": 2.39,
+      "height": 49.862,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.65,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        219322.68,
+        540442.77
+      ],
+      "axis": [
+        -0.902481,
+        0.43073
+      ],
+      "halfLength": 3,
+      "halfWidth": 2.84,
+      "height": 51.012,
+      "gradient": [
+        -0.05,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "P0022.ce5164292dfd4284a17b9db2324723b3"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "P0022.ce5164292dfd4284a17b9db2324723b3",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/39434838",
+        "tags": {
+          "bridge": "movable",
+          "bridge:movable": "bascule",
+          "foot": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "mofa": "designated",
+          "moped": "designated",
+          "oneway": "no",
+          "segregated": "no",
+          "surface": "asphalt",
+          "traffic_sign": "NL:G12a"
+        }
+      },
+      "fis": {
+        "id": 51685,
+        "naam": "Dieverbrug",
+        "afstand": 16,
+        "beweegbaar": true,
+        "doorvaarthoogteGesloten": 0.34999999999999964
+      },
+      "pdokBridgeVlakken": 1
+    },
+    "type": "basculebrug",
+    "doorvaarthoogte": 0.34999999999999964,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 200000,540000,220000,560000 --run nl-10_12 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 4.7,
+      "dekBreedte": 3.8,
+      "brugLengte": 4.7,
+      "water": [
+        -0.8,
+        2.2
+      ],
+      "portaalhoogte": 3.4,
+      "opritafstand": [
+        4,
+        12
+      ],
+      "oprithelling": 6,
+      "doorstekend": [
+        {
+          "gmlId": "P0022.8140857d7e664947818e0f4eb64f5d4a",
+          "klasse": "Terrain",
+          "oppervlak": 52.4,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.65,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        50.862,
+        null
+      ]
+    },
+    "waarschuwingen": [
+      "oprit + zonder PDOK-maaiveld",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}
