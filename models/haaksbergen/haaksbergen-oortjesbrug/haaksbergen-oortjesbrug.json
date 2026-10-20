@@ -1,0 +1,167 @@
+{
+  "name": "Oortjesbrug",
+  "file": "haaksbergen-oortjesbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    253611.02,
+    463532.04
+  ],
+  "xAxis": [
+    -0.613285,
+    -0.789862
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 76.564,
+  "groundSamplePoints": [
+    [
+      -39.74,
+      0
+    ],
+    [
+      39.74,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0158.d031ae9f3d434cc0885be70ba1ecbe89"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        253611.02,
+        463532.04
+      ],
+      "axis": [
+        -0.613285,
+        -0.789862
+      ],
+      "halfLength": 13.74,
+      "halfWidth": 4.59,
+      "height": 75.726,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.93,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        253630.49,
+        463557.11
+      ],
+      "axis": [
+        0.613285,
+        0.789862
+      ],
+      "halfLength": 12,
+      "halfWidth": 6.09,
+      "height": 76.876,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        253591.56,
+        463506.97
+      ],
+      "axis": [
+        -0.613285,
+        -0.789862
+      ],
+      "halfLength": 12,
+      "halfWidth": 6.09,
+      "height": 76.795,
+      "gradient": [
+        -0.01925,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0158.d031ae9f3d434cc0885be70ba1ecbe89"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0158.d031ae9f3d434cc0885be70ba1ecbe89",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/957030015",
+        "tags": {
+          "bridge": "yes",
+          "bridge:name": "Oortjesbrug",
+          "cycleway": "shared_lane",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Oortjesbrug",
+          "surface": "asphalt",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,460000,260000,480000 --run nl-12_8 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 39.5,
+      "dekBreedte": 8.2,
+      "brugLengte": 39.5,
+      "water": [
+        -5.7,
+        6.3
+      ],
+      "portaalhoogte": 7.4,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0158.9e7fee9b8cca41f592666802e523282e",
+          "klasse": "Forest",
+          "oppervlak": 468.8,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.93,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0158.c548ec16507c4c4eb0a132f23c17683b",
+          "klasse": "Forest",
+          "oppervlak": 777.4,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.92,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        76.726,
+        76.564
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "name": "Onze Lieve Vrouwebrug",
+  "file": "waalre-onze-lieve-vrouwebrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    157787.87,
+    379252.28
+  ],
+  "xAxis": [
+    0.591723,
+    -0.806141
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 62.749,
+  "groundSamplePoints": [
+    [
+      -24.98,
+      0
+    ],
+    [
+      24.98,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0866.5d6beaee85b7479ca5b57f1f7dabd7d6"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        157787.87,
+        379252.28
+      ],
+      "axis": [
+        0.591723,
+        -0.806141
+      ],
+      "halfLength": 5.68,
+      "halfWidth": 9.46,
+      "height": 61.944,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.6,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        157774.44,
+        379270.59
+      ],
+      "axis": [
+        -0.591723,
+        0.806141
+      ],
+      "halfLength": 11.35,
+      "halfWidth": 10.96,
+      "height": 63.094,
+      "gradient": [
+        -0.01321,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        157801.31,
+        379233.98
+      ],
+      "axis": [
+        0.591723,
+        -0.806141
+      ],
+      "halfLength": 11.35,
+      "halfWidth": 10.96,
+      "height": 62.996,
+      "gradient": [
+        -0.02179,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0866.5d6beaee85b7479ca5b57f1f7dabd7d6"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0866.5d6beaee85b7479ca5b57f1f7dabd7d6",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1104201610",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "yes",
+          "foot": "use_sidepath",
+          "highway": "secondary",
+          "lanes": "2",
+          "layer": "1",
+          "maxspeed": "60",
+          "mofa": "use_sidepath",
+          "moped": "use_sidepath",
+          "name": "Onze Lieve Vrouwebrug",
+          "zone:traffic": "NL:rural",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,360000,160000,380000 --run nl-7_3 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 22.7,
+      "dekBreedte": 17.9,
+      "brugLengte": 22.7,
+      "water": [
+        -3.4,
+        5.1
+      ],
+      "portaalhoogte": 16.1,
+      "opritafstand": [
+        13.6,
+        13.6
+      ],
+      "oprithelling": 22.7,
+      "doorstekend": [
+        {
+          "gmlId": "W0539.e93c3c3ab7a641048a239f7809202c92",
+          "klasse": "Terrain",
+          "oppervlak": 398.1,
+          "onderDek": 0.06,
+          "bovenDekOnderkant": 0.6,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0861.3666df27f7c478f5e053ac6496966606",
+          "klasse": "Road",
+          "oppervlak": 680.6,
+          "onderDek": 0.18,
+          "bovenDekOnderkant": 0.57,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        62.944,
+        62.749
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

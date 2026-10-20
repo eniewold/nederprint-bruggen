@@ -1,0 +1,169 @@
+{
+  "name": "Bovenweg",
+  "file": "wolvega-bovenweg.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    197913.47,
+    544111.3
+  ],
+  "xAxis": [
+    -0.147676,
+    0.989036
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 49.038,
+  "groundSamplePoints": [
+    [
+      -47.31,
+      0
+    ],
+    [
+      47.31,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "L0002.ac9e51218dee440d81a35db41cad40a1",
+    "L0002.15b39de9f3ca42fb88f1b4c40fa984b5",
+    "L0002.ae557bae1a2648d5b8d1f0d202287d9e",
+    "L0002.d24d3525f90b45a6af210cdc6d88c47b",
+    "L0002.5389b15e7d5943dc998f209975868abe"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        197919.28,
+        544072.42
+      ],
+      "axis": [
+        0.147676,
+        -0.989036
+      ],
+      "halfLength": 12,
+      "halfWidth": 18.65,
+      "height": 49.222,
+      "gradient": [
+        -0.01532,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        197907.67,
+        544150.18
+      ],
+      "axis": [
+        -0.147676,
+        0.989036
+      ],
+      "halfLength": 12,
+      "halfWidth": 18.65,
+      "height": 49.255,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "L0002.ac9e51218dee440d81a35db41cad40a1"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "L0002.ac9e51218dee440d81a35db41cad40a1",
+          "type": "dek"
+        },
+        {
+          "id": "L0002.15b39de9f3ca42fb88f1b4c40fa984b5",
+          "type": "landhoofd"
+        },
+        {
+          "id": "L0002.ae557bae1a2648d5b8d1f0d202287d9e",
+          "type": "landhoofd"
+        }
+      ],
+      "osm": {
+        "id": "way/817925995",
+        "tags": {
+          "asphalt:type": "dense",
+          "bridge": "yes",
+          "carriageway_ref": "Re",
+          "highway": "motorway",
+          "lanes": "3",
+          "layer": "1",
+          "maxspeed": "100",
+          "maxspeed:conditional": "130 @ (19:00-06:00)",
+          "noname": "yes",
+          "official_name": "Rijksweg A32",
+          "official_name:fy": "Rykswei A32",
+          "official_name:nl": "Rijksweg A32",
+          "oneway": "yes",
+          "operator": "Rijkswaterstaat",
+          "placement": "right_of:1",
+          "ref": "A32",
+          "source:official_name": "NWB",
+          "surface": "asphalt",
+          "toll:hgv": "yes",
+          "bridge:structure": "beam",
+          "man_made": "bridge",
+          "name": "Bovenweg"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 3
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 180000,540000,200000,560000 --run nl-9_12 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 54.5,
+      "dekBreedte": 33.3,
+      "brugLengte": 54.6,
+      "water": null,
+      "portaalhoogte": 30,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "L0002.d24d3525f90b45a6af210cdc6d88c47b",
+          "klasse": "Terrain",
+          "oppervlak": 223.5,
+          "onderDek": 0.84,
+          "bovenDekOnderkant": 0.53,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "L0002.5389b15e7d5943dc998f209975868abe",
+          "klasse": "Terrain",
+          "oppervlak": 216.5,
+          "onderDek": 0.85,
+          "bovenDekOnderkant": 0.31,
+          "actie": "verbergen"
+        }
+      ],
+      "opritHoogtes": [
+        49.038,
+        49.105
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "2 PDOK-vorm(en) door het dek: 2 verborgen, 0 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

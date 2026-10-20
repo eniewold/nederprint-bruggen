@@ -1,0 +1,194 @@
+{
+  "name": "Victoriebrug",
+  "file": "valkenswaard-victoriebrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    158937.09,
+    372186.44
+  ],
+  "xAxis": [
+    -0.516666,
+    -0.856187
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 69.94,
+  "groundSamplePoints": [
+    [
+      -28.66,
+      0
+    ],
+    [
+      28.66,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0858.128cfc6bf5be4fa1ae580c0ed0191349",
+    "G0858.24312327262044bb871ccf3c77a964d2",
+    "G0858.3b112488d1da45da917b429fb0034b8e",
+    "G0858.e99de3a77cfd475c957fe486566e037b"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        158937.09,
+        372186.44
+      ],
+      "axis": [
+        -0.516666,
+        -0.856187
+      ],
+      "halfLength": 7.03,
+      "halfWidth": 7.94,
+      "height": 69.045,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.47,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        158950.02,
+        372207.87
+      ],
+      "axis": [
+        0.516666,
+        0.856187
+      ],
+      "halfLength": 12,
+      "halfWidth": 9.44,
+      "height": 70.143,
+      "gradient": [
+        -0.01686,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        158924.16,
+        372165.02
+      ],
+      "axis": [
+        -0.516666,
+        -0.856187
+      ],
+      "halfLength": 12,
+      "halfWidth": 9.44,
+      "height": 70.195,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0858.128cfc6bf5be4fa1ae580c0ed0191349"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0858.128cfc6bf5be4fa1ae580c0ed0191349",
+          "type": "dek"
+        },
+        {
+          "id": "G0858.24312327262044bb871ccf3c77a964d2",
+          "type": "landhoofd"
+        },
+        {
+          "id": "G0858.3b112488d1da45da917b429fb0034b8e",
+          "type": "landhoofd"
+        },
+        {
+          "id": "G0858.e99de3a77cfd475c957fe486566e037b",
+          "type": "pijler"
+        }
+      ],
+      "osm": {
+        "id": "way/1167812726",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "yes",
+          "foot": "use_sidepath",
+          "highway": "primary",
+          "lanes": "2",
+          "layer": "1",
+          "maxspeed": "80",
+          "mofa": "use_sidepath",
+          "moped": "use_sidepath",
+          "name": "Victoriebrug",
+          "old_ref": "N69",
+          "surface": "asphalt",
+          "zone:traffic": "NL:rural",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 4
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,360000,160000,380000 --run nl-7_3 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 26.1,
+      "dekBreedte": 14.9,
+      "brugLengte": 26.1,
+      "water": [
+        -4.5,
+        5.5
+      ],
+      "portaalhoogte": 13.4,
+      "opritafstand": [
+        15.6,
+        15.6
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0858.dedbc92922784f14b9c04af8498403c0",
+          "klasse": "Terrain",
+          "oppervlak": 63.5,
+          "onderDek": 0.24,
+          "bovenDekOnderkant": 0.47,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0858.d7f8156d85614d4a80544ecc3d0eb5ac",
+          "klasse": "Terrain",
+          "oppervlak": 37.9,
+          "onderDek": 0.6,
+          "bovenDekOnderkant": 0.39,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "P0030.00f6f968e067f68ae050120a080440dd",
+          "klasse": "Terrain",
+          "oppervlak": 72.9,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.14,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        69.94,
+        70.045
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "3 PDOK-vorm(en) door het dek: 0 verborgen, 3 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

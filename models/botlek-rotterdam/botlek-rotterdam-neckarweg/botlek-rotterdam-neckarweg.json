@@ -1,0 +1,175 @@
+{
+  "name": "Neckarweg",
+  "file": "botlek-rotterdam-neckarweg.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    75232.53,
+    434608.48
+  ],
+  "xAxis": [
+    -0.987354,
+    -0.158533
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 49.059,
+  "groundSamplePoints": [
+    [
+      -35.42,
+      0
+    ],
+    [
+      35.42,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0599.16fd017009f1fcac9e050210a7e24119"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        75232.53,
+        434608.48
+      ],
+      "axis": [
+        -0.987354,
+        -0.158533
+      ],
+      "halfLength": 10.1,
+      "halfWidth": 10.48,
+      "height": 48.174,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.78,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        75260.27,
+        434612.94
+      ],
+      "axis": [
+        0.987354,
+        0.158533
+      ],
+      "halfLength": 12,
+      "halfWidth": 11.98,
+      "height": 49.267,
+      "gradient": [
+        -0.01729,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        75204.78,
+        434604.03
+      ],
+      "axis": [
+        -0.987354,
+        -0.158533
+      ],
+      "halfLength": 12,
+      "halfWidth": 11.98,
+      "height": 49.324,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0599.16fd017009f1fcac9e050210a7e24119"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0599.16fd017009f1fcac9e050210a7e24119",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/727030573",
+        "tags": {
+          "bridge": "movable",
+          "bridge:movable": "bascule",
+          "layer": "1",
+          "man_made": "bridge"
+        }
+      },
+      "fis": {
+        "id": 57361,
+        "naam": "Brug over buitenhoofd Rozenburgsesluis",
+        "afstand": 6,
+        "beweegbaar": true,
+        "doorvaarthoogteGesloten": 0.8900000000000001
+      },
+      "pdokBridgeVlakken": 1
+    },
+    "type": "basculebrug",
+    "doorvaarthoogte": 0.8900000000000001,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 60000,420000,80000,440000 --run nl-3_6 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 32.2,
+      "dekBreedte": 20,
+      "brugLengte": 32.2,
+      "water": [
+        -14.6,
+        8.9
+      ],
+      "portaalhoogte": 18,
+      "opritafstand": [
+        19.3,
+        19.3
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0599.48497050d36a4a1db03a8de6e0a321a2",
+          "klasse": "Terrain",
+          "oppervlak": 17.6,
+          "onderDek": 0.41,
+          "bovenDekOnderkant": 0.78,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0599.58b000e8ab944666b0c323d2e0ac4634",
+          "klasse": "Separation",
+          "oppervlak": 1692.1,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.6,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0599.170ade24400ed2d73e050210a7e24429",
+          "klasse": "Road",
+          "oppervlak": 210.5,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.54,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        49.059,
+        49.174
+      ]
+    },
+    "waarschuwingen": [
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "3 PDOK-vorm(en) door het dek: 0 verborgen, 3 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

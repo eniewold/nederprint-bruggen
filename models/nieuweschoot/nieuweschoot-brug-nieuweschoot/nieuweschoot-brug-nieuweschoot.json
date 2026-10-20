@@ -1,0 +1,165 @@
+{
+  "name": "Brug Nieuweschoot",
+  "file": "nieuweschoot-brug-nieuweschoot.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    190813.87,
+    549596.31
+  ],
+  "xAxis": [
+    -0.90085,
+    -0.43413
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 42.767,
+  "groundSamplePoints": [
+    [
+      -24.26,
+      0
+    ],
+    [
+      24.26,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0074.8abeacd5439b7576000000000a2117b1"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        190813.87,
+        549596.31
+      ],
+      "axis": [
+        -0.90085,
+        -0.43413
+      ],
+      "halfLength": 5.51,
+      "halfWidth": 5.67,
+      "height": 42.115,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.56,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        190833.74,
+        549605.89
+      ],
+      "axis": [
+        0.90085,
+        0.43413
+      ],
+      "halfLength": 11.03,
+      "halfWidth": 7.17,
+      "height": 43.265,
+      "gradient": [
+        -0.0136,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        190794.01,
+        549586.74
+      ],
+      "axis": [
+        -0.90085,
+        -0.43413
+      ],
+      "halfLength": 11.03,
+      "halfWidth": 7.17,
+      "height": 43.091,
+      "gradient": [
+        -0.02938,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0074.8abeacd5439b7576000000000a2117b1"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0074.8abeacd5439b7576000000000a2117b1",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/86974039",
+        "tags": {
+          "bridge": "movable",
+          "bridge:movable": "bascule",
+          "highway": "tertiary",
+          "lane_markings": "no",
+          "layer": "1",
+          "maxspeed": "80",
+          "maxweight:signed": "no",
+          "name": "Rotstergaastweg",
+          "surface": "asphalt",
+          "zone:traffic": "NL:rural"
+        }
+      },
+      "fis": {
+        "id": 33392,
+        "naam": "Brug Nieuweschoot",
+        "afstand": 4,
+        "beweegbaar": true,
+        "doorvaarthoogteGesloten": 1.0899999999999999
+      },
+      "pdokBridgeVlakken": 1
+    },
+    "type": "basculebrug",
+    "doorvaarthoogte": 1.0899999999999999,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 180000,540000,200000,560000 --run nl-9_12 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 22.1,
+      "dekBreedte": 10.3,
+      "brugLengte": 22.1,
+      "water": [
+        -3.5,
+        4
+      ],
+      "portaalhoogte": 9.3,
+      "opritafstand": [
+        13.2,
+        13.2
+      ],
+      "oprithelling": 22.1,
+      "doorstekend": [
+        {
+          "gmlId": "G0074.8abeacd5439b757600000000a0414d4f",
+          "klasse": "Road",
+          "oppervlak": 377.2,
+          "onderDek": 0.03,
+          "bovenDekOnderkant": 0.56,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        43.115,
+        42.767
+      ]
+    },
+    "waarschuwingen": [
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

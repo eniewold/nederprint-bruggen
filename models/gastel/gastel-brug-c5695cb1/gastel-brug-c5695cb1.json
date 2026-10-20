@@ -1,0 +1,143 @@
+{
+  "name": "Kluisweg",
+  "file": "gastel-brug-c5695cb1.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    165779.86,
+    366887
+  ],
+  "xAxis": [
+    0.697617,
+    -0.716471
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 72.973,
+  "groundSamplePoints": [
+    [
+      -7.95,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G1706.c5695cb14c29423ba7b7e753bfc3b8dd"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        165779.86,
+        366887
+      ],
+      "axis": [
+        0.697617,
+        -0.716471
+      ],
+      "halfLength": 1.81,
+      "halfWidth": 2.64,
+      "height": 71.973,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.34,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        165774.82,
+        366892.18
+      ],
+      "axis": [
+        -0.697617,
+        0.716471
+      ],
+      "halfLength": 3.61,
+      "halfWidth": 3.21,
+      "height": 73.123,
+      "gradient": [
+        -0.04152,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G1706.c5695cb14c29423ba7b7e753bfc3b8dd"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G1706.c5695cb14c29423ba7b7e753bfc3b8dd",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1167580061",
+        "tags": {
+          "bridge": "yes",
+          "highway": "unclassified",
+          "layer": "1",
+          "lit": "no",
+          "maxspeed": "60",
+          "name": "Kluisweg",
+          "smoothness": "intermediate",
+          "surface": "wood"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,360000,180000,380000 --run nl-8_3 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 7.2,
+      "dekBreedte": 4.3,
+      "brugLengte": 7.2,
+      "water": [
+        -1.1,
+        1.9
+      ],
+      "portaalhoogte": 3.8,
+      "opritafstand": [
+        4.3,
+        13
+      ],
+      "oprithelling": 7.2,
+      "doorstekend": [
+        {
+          "gmlId": "G1706.0e68443de0b94b53b75ed72d181c8931",
+          "klasse": "Terrain",
+          "oppervlak": 166.2,
+          "onderDek": 0.01,
+          "bovenDekOnderkant": 0.34,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G1706.c4d5a3c2d5f14b9e9788148e726286c1",
+          "klasse": "Terrain",
+          "oppervlak": 128.2,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.11,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        72.973,
+        null
+      ]
+    },
+    "waarschuwingen": [
+      "oprit + zonder PDOK-maaiveld",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

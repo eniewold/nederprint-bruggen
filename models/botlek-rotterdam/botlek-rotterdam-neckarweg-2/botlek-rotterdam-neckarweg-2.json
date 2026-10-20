@@ -1,0 +1,183 @@
+{
+  "name": "Neckarweg",
+  "file": "botlek-rotterdam-neckarweg-2.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    75289.62,
+    434249.52
+  ],
+  "xAxis": [
+    -0.987929,
+    -0.154907
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 49.142,
+  "groundSamplePoints": [
+    [
+      -35.71,
+      0
+    ],
+    [
+      35.71,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0599.16fd01700a1a4cac9e050210a7e24119"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        75289.62,
+        434249.52
+      ],
+      "axis": [
+        -0.987929,
+        -0.154907
+      ],
+      "halfLength": 10.23,
+      "halfWidth": 10.53,
+      "height": 48.469,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.34,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        75317.51,
+        434253.89
+      ],
+      "axis": [
+        0.987929,
+        0.154907
+      ],
+      "halfLength": 12,
+      "halfWidth": 12.03,
+      "height": 49.619,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        75261.73,
+        434245.15
+      ],
+      "axis": [
+        -0.987929,
+        -0.154907
+      ],
+      "halfLength": 12,
+      "halfWidth": 12.03,
+      "height": 49.455,
+      "gradient": [
+        -0.02612,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0599.16fd01700a1a4cac9e050210a7e24119"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0599.16fd01700a1a4cac9e050210a7e24119",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/846258140",
+        "tags": {
+          "bridge": "movable",
+          "bridge:movable": "bascule",
+          "bridge:name": "Rozenburgsesluis",
+          "highway": "cycleway",
+          "layer": "1",
+          "moped": "designated",
+          "name": "Rozenburgsebrug",
+          "traffic_sign": "NL:G12a",
+          "bridge:material": "steel",
+          "bridge:structure": "arch",
+          "man_made": "bridge"
+        }
+      },
+      "fis": {
+        "id": 7951,
+        "naam": "Brug over binnenhoofd Rozenburgsesluis",
+        "afstand": 7,
+        "beweegbaar": true,
+        "doorvaarthoogteGesloten": 1.15
+      },
+      "pdokBridgeVlakken": 1
+    },
+    "type": "basculebrug",
+    "doorvaarthoogte": 1.15,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 60000,420000,80000,440000 --run nl-3_6 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 32.5,
+      "dekBreedte": 20.1,
+      "brugLengte": 32.5,
+      "water": [
+        -14.7,
+        8.8
+      ],
+      "portaalhoogte": 18.1,
+      "opritafstand": [
+        19.5,
+        19.5
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0599.c0cba5ee2e93422991b41dcf7d79fcfb",
+          "klasse": "Terrain",
+          "oppervlak": 19.6,
+          "onderDek": 0.42,
+          "bovenDekOnderkant": 0.34,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0599.58b000e8ab944666b0c323d2e0ac4634",
+          "klasse": "Separation",
+          "oppervlak": 2291.5,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.32,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0599.170ade244008a2d73e050210a7e24429",
+          "klasse": "Road",
+          "oppervlak": 11.4,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.17,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        49.469,
+        49.142
+      ]
+    },
+    "waarschuwingen": [
+      "OSM zegt arch, gekozen type basculebrug",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "3 PDOK-vorm(en) door het dek: 0 verborgen, 3 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

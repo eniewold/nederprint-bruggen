@@ -1,0 +1,192 @@
+{
+  "name": "Brug Rijksweg A2",
+  "file": "weert-brug-rijksweg-a2.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    179632.59,
+    364594.57
+  ],
+  "xAxis": [
+    0.358156,
+    -0.933662
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 85.133,
+  "groundSamplePoints": [
+    [
+      -75.16,
+      0
+    ],
+    [
+      75.16,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0988.a6065f0326fc49cfab6033bc626d1603",
+    "L0002.5fa055d15b514c9985233f7d7af8c438",
+    "L0002.c19f868bd1fd4db884273dd01c1651c1",
+    "L0002.4ae5bdc888384f52acb2ffda58762e21",
+    "L0002.9aa33c948d804874b2aa593ed17541f0"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        179632.59,
+        364594.57
+      ],
+      "axis": [
+        0.358156,
+        -0.933662
+      ],
+      "halfLength": 49.11,
+      "halfWidth": 18.44,
+      "height": 84.567,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.2,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        179608.54,
+        364657.28
+      ],
+      "axis": [
+        -0.358156,
+        0.933662
+      ],
+      "halfLength": 12,
+      "halfWidth": 19.94,
+      "height": 85.5,
+      "gradient": [
+        -0.03057,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        179656.65,
+        364531.86
+      ],
+      "axis": [
+        0.358156,
+        -0.933662
+      ],
+      "halfLength": 12,
+      "halfWidth": 19.94,
+      "height": 85.717,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "L0002.5fa055d15b514c9985233f7d7af8c438"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0988.a6065f0326fc49cfab6033bc626d1603",
+          "type": "landhoofd"
+        },
+        {
+          "id": "L0002.5fa055d15b514c9985233f7d7af8c438",
+          "type": "dek"
+        },
+        {
+          "id": "L0002.c19f868bd1fd4db884273dd01c1651c1",
+          "type": "onbekend"
+        },
+        {
+          "id": "L0002.4ae5bdc888384f52acb2ffda58762e21",
+          "type": "onbekend"
+        },
+        {
+          "id": "L0002.9aa33c948d804874b2aa593ed17541f0",
+          "type": "onbekend"
+        }
+      ],
+      "osm": {
+        "id": "way/662709077",
+        "tags": {
+          "bridge": "yes",
+          "carriageway_ref": "Re",
+          "highway": "motorway",
+          "int_ref": "E 25",
+          "lanes": "2",
+          "layer": "1",
+          "lit": "no",
+          "maxspeed": "100",
+          "maxspeed:conditional": "130 @ (19:00-06:00)",
+          "noname": "yes",
+          "official_name": "Rijksweg A2",
+          "oneway": "yes",
+          "operator": "Rijkswaterstaat",
+          "ref": "A2",
+          "surface": "asphalt",
+          "toll:hgv": "yes",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
+      "fis": {
+        "id": 32089,
+        "naam": "Brug Rijksweg A2",
+        "afstand": 7,
+        "beweegbaar": false,
+        "doorvaarthoogteGesloten": 5.05
+      },
+      "pdokBridgeVlakken": 5
+    },
+    "type": "ligger",
+    "doorvaarthoogte": 5.05,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,360000,180000,380000 --run nl-8_3 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 110.2,
+      "dekBreedte": 35.9,
+      "brugLengte": 110.3,
+      "water": [
+        -22.7,
+        3.8
+      ],
+      "portaalhoogte": 32.3,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "L0002.d07595625dc544c0b38681ae52231c9a",
+          "klasse": "Terrain",
+          "oppervlak": 3,
+          "onderDek": 0.06,
+          "bovenDekOnderkant": 0.2,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        85.133,
+        85.567
+      ]
+    },
+    "waarschuwingen": [
+      "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

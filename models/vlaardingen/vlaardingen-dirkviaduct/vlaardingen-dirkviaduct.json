@@ -1,0 +1,196 @@
+{
+  "name": "Dirkviaduct",
+  "file": "vlaardingen-dirkviaduct.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    78823.52,
+    435949.17
+  ],
+  "xAxis": [
+    0.802656,
+    -0.596443
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 50.171,
+  "groundSamplePoints": [
+    [
+      -64.86,
+      0
+    ],
+    [
+      64.86,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0622.e10147875f862393e053bd1c030a51bc",
+    "L0002.2cf9438fe50d4715bb5e68ef004f0bea",
+    "L0002.8e4252b906c64147887cc76573f70a1d",
+    "L0002.d3bf5180bda34048ac37d6eb7801f0a3",
+    "L0002.d7198d9e857d48ddb5028bfde58ede0a"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        78823.52,
+        435949.17
+      ],
+      "axis": [
+        0.802656,
+        -0.596443
+      ],
+      "halfLength": 38.86,
+      "halfWidth": 8.84,
+      "height": 51.001,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -2.2,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        78777.87,
+        435983.08
+      ],
+      "axis": [
+        -0.802656,
+        0.596443
+      ],
+      "halfLength": 12,
+      "halfWidth": 10.34,
+      "height": 51.236,
+      "gradient": [
+        -0.08877,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        78869.16,
+        435915.25
+      ],
+      "axis": [
+        0.802656,
+        -0.596443
+      ],
+      "halfLength": 12,
+      "halfWidth": 10.34,
+      "height": 52.151,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0622.e10147875f862393e053bd1c030a51bc",
+      "L0002.2cf9438fe50d4715bb5e68ef004f0bea",
+      "L0002.d3bf5180bda34048ac37d6eb7801f0a3"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0622.e10147875f862393e053bd1c030a51bc",
+          "type": "dek"
+        },
+        {
+          "id": "L0002.2cf9438fe50d4715bb5e68ef004f0bea",
+          "type": "dek"
+        },
+        {
+          "id": "L0002.8e4252b906c64147887cc76573f70a1d",
+          "type": "pijler"
+        },
+        {
+          "id": "L0002.d3bf5180bda34048ac37d6eb7801f0a3",
+          "type": "dek"
+        },
+        {
+          "id": "L0002.d7198d9e857d48ddb5028bfde58ede0a",
+          "type": "pijler"
+        }
+      ],
+      "osm": {
+        "id": "way/1046348876",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "yes",
+          "foot": "use_sidepath",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "50",
+          "name": "Dirkviaduct",
+          "zone:traffic": "NL:rural",
+          "man_made": "bridge",
+          "name:etymology": "Dirk III van Holland",
+          "name:etymology:wikidata": "Q471758",
+          "wikidata": "Q125464724"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 60000,420000,80000,440000 --run nl-3_6 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 89.7,
+      "dekBreedte": 16.7,
+      "brugLengte": 89.7,
+      "water": null,
+      "portaalhoogte": 15,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0622.e10147875f692393e053bd1c030a51bc",
+          "klasse": "Road",
+          "oppervlak": 3181.2,
+          "onderDek": 0,
+          "bovenDekOnderkant": 1.2,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0622.38de790287b41087e063bd1c030a0f7a",
+          "klasse": "Forest",
+          "oppervlak": 1053.8,
+          "onderDek": 0.01,
+          "bovenDekOnderkant": 0.9,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0622.e10147875f772393e053bd1c030a51bc",
+          "klasse": "Terrain",
+          "oppervlak": 10.4,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.86,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        50.171,
+        52.001
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "3 PDOK-vorm(en) door het dek: 0 verborgen, 3 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "name": "Stationsbrug",
+  "file": "heerenveen-stationsbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    190621.26,
+    552966.39
+  ],
+  "xAxis": [
+    -0.787122,
+    -0.616797
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 42.891,
+  "groundSamplePoints": [
+    [
+      -9.64,
+      0
+    ],
+    [
+      9.64,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0074.8abeacd5439b7576000000000a221cf8"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        190628.16,
+        552971.8
+      ],
+      "axis": [
+        0.787122,
+        0.616797
+      ],
+      "halfLength": 4.38,
+      "halfWidth": 2.26,
+      "height": 43.134,
+      "gradient": [
+        -0.05545,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        190614.36,
+        552960.99
+      ],
+      "axis": [
+        -0.787122,
+        -0.616797
+      ],
+      "halfLength": 4.38,
+      "halfWidth": 2.26,
+      "height": 43.227,
+      "gradient": [
+        -0.03422,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0074.8abeacd5439b7576000000000a221cf8"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0074.8abeacd5439b7576000000000a221cf8",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1232042002",
+        "tags": {
+          "bridge": "movable",
+          "bridge:name": "Stationsbrug",
+          "highway": "cycleway",
+          "layer": "1",
+          "mofa": "designated",
+          "moped": "designated",
+          "oneway": "no",
+          "traffic_sign": "NL:G12a",
+          "bridge:movable": "bascule",
+          "man_made": "bridge"
+        }
+      },
+      "fis": {
+        "id": 24469,
+        "naam": "Stationsbrug Heerenveen",
+        "afstand": 4,
+        "beweegbaar": true,
+        "doorvaarthoogteGesloten": 1.29
+      },
+      "pdokBridgeVlakken": 1
+    },
+    "type": "basculebrug",
+    "doorvaarthoogte": 1.29,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 180000,540000,200000,560000 --run nl-9_12 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 8.8,
+      "dekBreedte": 3,
+      "brugLengte": 8.8,
+      "water": [
+        -4.4,
+        4.1
+      ],
+      "portaalhoogte": 2.7,
+      "opritafstand": [
+        5.3,
+        5.3
+      ],
+      "oprithelling": 8.8,
+      "doorstekend": [],
+      "opritHoogtes": [
+        42.891,
+        43.077
+      ]
+    },
+    "waarschuwingen": [
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

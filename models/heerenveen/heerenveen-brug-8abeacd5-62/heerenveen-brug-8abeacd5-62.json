@@ -1,0 +1,171 @@
+{
+  "name": "Bolster",
+  "file": "heerenveen-brug-8abeacd5-62.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    189858.97,
+    552404.95
+  ],
+  "xAxis": [
+    0.415155,
+    0.909751
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 42.382,
+  "groundSamplePoints": [
+    [
+      -11.65,
+      0
+    ],
+    [
+      11.65,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0074.8abeacd5439b7576000000000a22465b"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        189858.97,
+        552404.95
+      ],
+      "axis": [
+        0.415155,
+        0.909751
+      ],
+      "halfLength": 2.65,
+      "halfWidth": 8.73,
+      "height": 41.433,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.83,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        189854.58,
+        552395.32
+      ],
+      "axis": [
+        -0.415155,
+        -0.909751
+      ],
+      "halfLength": 5.29,
+      "halfWidth": 10.23,
+      "height": 42.583,
+      "gradient": [
+        -0.02834,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        189863.37,
+        552414.58
+      ],
+      "axis": [
+        0.415155,
+        0.909751
+      ],
+      "halfLength": 5.29,
+      "halfWidth": 10.23,
+      "height": 42.558,
+      "gradient": [
+        -0.0332,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0074.8abeacd5439b7576000000000a22465b"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0074.8abeacd5439b7576000000000a22465b",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/86974029",
+        "tags": {
+          "bridge": "yes",
+          "highway": "residential",
+          "layer": "1",
+          "maxspeed": "30",
+          "maxweight:signed": "no",
+          "name": "Bolster",
+          "name:fy": "Bolster",
+          "surface": "paving_stones"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 180000,540000,200000,560000 --run nl-9_12 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 10.6,
+      "dekBreedte": 16.5,
+      "brugLengte": 10.6,
+      "water": null,
+      "portaalhoogte": 14.8,
+      "opritafstand": [
+        6.4,
+        6.4
+      ],
+      "oprithelling": 10.6,
+      "doorstekend": [
+        {
+          "gmlId": "G0074.8abeacd5439b757600000000a05328e8",
+          "klasse": "Road",
+          "oppervlak": 238.6,
+          "onderDek": 0.27,
+          "bovenDekOnderkant": 0.83,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0074.c0086334f0ac4d858a43bafc7f7deb43",
+          "klasse": "Terrain",
+          "oppervlak": 96.7,
+          "onderDek": 0.08,
+          "bovenDekOnderkant": 0.72,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0074.95fc1f72634c4e3dbb319bded2b3fcee",
+          "klasse": "Forest",
+          "oppervlak": 613.1,
+          "onderDek": 0.02,
+          "bovenDekOnderkant": 0.49,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        42.433,
+        42.382
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "3 PDOK-vorm(en) door het dek: 0 verborgen, 3 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

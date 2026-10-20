@@ -1,0 +1,182 @@
+{
+  "name": "Weerterbos",
+  "file": "weert-weerterbos.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    174337.14,
+    365290.78
+  ],
+  "xAxis": [
+    -0.342563,
+    0.939495
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 81.89,
+  "groundSamplePoints": [
+    [
+      -59.44,
+      0
+    ],
+    [
+      59.44,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "L0002.1f62eef7b62d4fadb0468cdcb919afea",
+    "G0988.f8bf5e7aa7e24b8894dce252f09fd806"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        174337.14,
+        365290.78
+      ],
+      "axis": [
+        -0.342563,
+        0.939495
+      ],
+      "halfLength": 33.44,
+      "halfWidth": 11.49,
+      "height": 81.138,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.46,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        174354.76,
+        365242.45
+      ],
+      "axis": [
+        0.342563,
+        -0.939495
+      ],
+      "halfLength": 12,
+      "halfWidth": 12.99,
+      "height": 82.288,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        174319.51,
+        365339.11
+      ],
+      "axis": [
+        -0.342563,
+        0.939495
+      ],
+      "halfLength": 12,
+      "halfWidth": 12.99,
+      "height": 82.164,
+      "gradient": [
+        -0.02286,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0988.f8bf5e7aa7e24b8894dce252f09fd806"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "L0002.1f62eef7b62d4fadb0468cdcb919afea",
+          "type": "onbekend"
+        },
+        {
+          "id": "G0988.f8bf5e7aa7e24b8894dce252f09fd806",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/678272024",
+        "tags": {
+          "bicycle": "no",
+          "bridge": "yes",
+          "foot": "no",
+          "highway": "primary",
+          "lanes": "2",
+          "layer": "1",
+          "maxspeed": "80",
+          "name": "Weerterbos",
+          "old_ref": "N568",
+          "oneway": "yes",
+          "surface": "asphalt",
+          "turn:lanes": "left|through",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 2
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,360000,180000,380000 --run nl-8_3 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 78.9,
+      "dekBreedte": 22,
+      "brugLengte": 78.9,
+      "water": null,
+      "portaalhoogte": 19.8,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0988.fec3a83869af42999034cf8265fe73da",
+          "klasse": "Forest",
+          "oppervlak": 1160.1,
+          "onderDek": 0.28,
+          "bovenDekOnderkant": 0.46,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0946.ee04cc3d74274e4da6f808b0cc702f37",
+          "klasse": "Terrain",
+          "oppervlak": 159.3,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.23,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0946.aea427b1eef2479f99bb435fcc5c3a8b",
+          "klasse": "Forest",
+          "oppervlak": 1555.1,
+          "onderDek": 0.12,
+          "bovenDekOnderkant": 0.23,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        82.138,
+        81.89
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "3 PDOK-vorm(en) door het dek: 0 verborgen, 3 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}
