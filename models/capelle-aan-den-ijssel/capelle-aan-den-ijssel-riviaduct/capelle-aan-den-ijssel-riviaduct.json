@@ -1,0 +1,164 @@
+{
+  "name": "Riviaduct",
+  "file": "capelle-aan-den-ijssel-riviaduct.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    97153.69,
+    436516.59
+  ],
+  "xAxis": [
+    0.048867,
+    0.998805
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 48.402,
+  "groundSamplePoints": [
+    [
+      -48.5,
+      0
+    ],
+    [
+      48.5,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0502.1d2e2604c6b01102e0531f050e0a4efd"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        97153.69,
+        436516.59
+      ],
+      "axis": [
+        0.048867,
+        0.998805
+      ],
+      "halfLength": 22.5,
+      "halfWidth": 15.19,
+      "height": 47.93,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.55,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        97151.72,
+        436476.13
+      ],
+      "axis": [
+        -0.048867,
+        -0.998805
+      ],
+      "halfLength": 12,
+      "halfWidth": 16.69,
+      "height": 49.08,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        97155.67,
+        436557.04
+      ],
+      "axis": [
+        0.048867,
+        0.998805
+      ],
+      "halfLength": 12,
+      "halfWidth": 16.69,
+      "height": 48.816,
+      "gradient": [
+        -0.03449,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0502.1d2e2604c6b01102e0531f050e0a4efd"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0502.1d2e2604c6b01102e0531f050e0a4efd",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/624111212",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "yes",
+          "bridge:name": "Riviaduct",
+          "foot": "use_sidepath",
+          "highway": "tertiary",
+          "lanes": "2",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "50",
+          "mofa": "use_sidepath",
+          "moped": "use_sidepath",
+          "name": "Riviaduct",
+          "oneway": "yes",
+          "surface": "asphalt",
+          "turn:lanes": "left|left;through",
+          "zone:traffic": "NL:urban",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,420000,100000,440000 --run nl-4_6 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 57,
+      "dekBreedte": 29.4,
+      "brugLengte": 57,
+      "water": null,
+      "portaalhoogte": 26.4,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0502.1d2e260448c91102e0531f050e0a4efd",
+          "klasse": "Forest",
+          "oppervlak": 645.3,
+          "onderDek": 0.09,
+          "bovenDekOnderkant": 0.55,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        48.93,
+        48.402
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

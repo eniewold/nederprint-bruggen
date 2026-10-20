@@ -1,0 +1,142 @@
+{
+  "name": "Hoekse Lijn",
+  "file": "schiedam-brug-cecb4daf.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    85994.96,
+    437641.28
+  ],
+  "xAxis": [
+    -0.81113,
+    -0.584866
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 40.663,
+  "groundSamplePoints": [
+    [
+      -122.68,
+      0
+    ],
+    [
+      22.68,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0606.cecb4daf1dee2454e0532e00010a5aaf"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        86014.98,
+        437655.71
+      ],
+      "axis": [
+        0.81113,
+        0.584866
+      ],
+      "halfLength": 12,
+      "halfWidth": 4.43,
+      "height": 43.533,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        85974.94,
+        437626.84
+      ],
+      "axis": [
+        -0.81113,
+        -0.584866
+      ],
+      "halfLength": 12,
+      "halfWidth": 4.43,
+      "height": 42.173,
+      "gradient": [
+        -0.12582,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0606.cecb4daf1dee2454e0532e00010a5aaf"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0606.cecb4daf1dee2454e0532e00010a5aaf",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/663473514",
+        "tags": {
+          "bridge": "yes",
+          "description": "Metrolijnen A en B",
+          "designated_direction": "forward",
+          "electrified": "contact_line",
+          "frequency": "0",
+          "gauge": "1435",
+          "layer": "1",
+          "maxspeed": "100",
+          "name": "Hoekse Lijn",
+          "operator": "RET",
+          "passenger_lines": "2",
+          "railway": "light_rail",
+          "railway:lzb": "yes",
+          "railway:track_ref": "1",
+          "ref": "A;B",
+          "usage": "main",
+          "voltage": "750",
+          "width": "3.4",
+          "wikidata": "Q803173",
+          "wikipedia": "nl:Hoekse Lijn"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,420000,100000,440000 --run nl-4_6 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 25.4,
+      "dekBreedte": 5.9,
+      "brugLengte": 25.4,
+      "water": null,
+      "portaalhoogte": 5.3,
+      "opritafstand": [
+        110,
+        10
+      ],
+      "spoorhoogteBron": "pdok",
+      "oprithelling": 24,
+      "doorstekend": [],
+      "opritHoogtes": [
+        43.383,
+        40.663
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "oprit -: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "oprit - pas op 110 m langs het spoor gemeten (PDOK-spoorterrein bij de brug lager)",
+      "oprit +: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

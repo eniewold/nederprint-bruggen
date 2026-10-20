@@ -1,0 +1,164 @@
+{
+  "name": "Lievenlant",
+  "file": "zuid-scharwoude-brug-0c1ac5e7.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    114476.69,
+    522015.16
+  ],
+  "xAxis": [
+    0.940375,
+    0.340139
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 42.333,
+  "groundSamplePoints": [
+    [
+      -28.56,
+      0
+    ],
+    [
+      28.56,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G1980.0c1ac5e77c3a4d74bb8270d9bb9df6c2"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        114476.69,
+        522015.16
+      ],
+      "axis": [
+        0.940375,
+        0.340139
+      ],
+      "halfLength": 6.98,
+      "halfWidth": 3.98,
+      "height": 41.372,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.36,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        114453.2,
+        522006.66
+      ],
+      "axis": [
+        -0.940375,
+        -0.340139
+      ],
+      "halfLength": 12,
+      "halfWidth": 5.22,
+      "height": 42.502,
+      "gradient": [
+        -0.01411,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        114500.19,
+        522023.66
+      ],
+      "axis": [
+        0.940375,
+        0.340139
+      ],
+      "halfLength": 12,
+      "halfWidth": 5.22,
+      "height": 42.522,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G1980.0c1ac5e77c3a4d74bb8270d9bb9df6c2"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G1980.0c1ac5e77c3a4d74bb8270d9bb9df6c2",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1018556765",
+        "tags": {
+          "bridge": "yes",
+          "highway": "path",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Lievenlant",
+          "zone:traffic": "NL:urban"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,520000,120000,540000 --run nl-5_11 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 26,
+      "dekBreedte": 7,
+      "brugLengte": 26,
+      "water": [
+        -6,
+        5.5
+      ],
+      "portaalhoogte": 6.3,
+      "opritafstand": [
+        15.6,
+        15.6
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G1980.d94dbc7f8074478588b891015fed59e5",
+          "klasse": "Terrain",
+          "oppervlak": 49.3,
+          "onderDek": 0.22,
+          "bovenDekOnderkant": 0.36,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G1980.602d41083a1a41d69bc991a910ff06e3",
+          "klasse": "Terrain",
+          "oppervlak": 487.9,
+          "onderDek": 0.01,
+          "bovenDekOnderkant": 0.23,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        42.333,
+        42.372
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

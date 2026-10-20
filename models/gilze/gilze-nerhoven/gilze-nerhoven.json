@@ -1,0 +1,225 @@
+{
+  "name": "Nerhoven",
+  "file": "gilze-nerhoven.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    124367.75,
+    395968.1
+  ],
+  "xAxis": [
+    -0.992087,
+    0.125554
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 62.018,
+  "groundSamplePoints": [
+    [
+      -48.28,
+      0
+    ],
+    [
+      48.28,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0784.0603441ad8c4434fb09d3dcfbce3dd80",
+    "G0784.1c8682e69f9348e6ab88bf3d3d005aab",
+    "G0784.3ffd7c013707421085995875f94c1139",
+    "G0784.590e4b4d1d484d3295c47ba3b1e3104b",
+    "G0784.5e6cdf5af14444b597df1c870209fd28",
+    "G0784.6678e4ef7cca406ea860bbed8c497d62",
+    "G0784.b32e2b2cbf7c406e9fab34db1b756e19",
+    "G0784.b817dd3986174d468e3b0f35b3c7b1a5",
+    "L0002.135458476a1b4794b8a548a62e2f9264",
+    "L0002.486bf460a1eb42f59150417fb99d3369",
+    "L0002.77b4fc27fd1b4944a9fe84ec2097f120"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        124367.75,
+        395968.1
+      ],
+      "axis": [
+        -0.992087,
+        0.125554
+      ],
+      "halfLength": 22.28,
+      "halfWidth": 11.57,
+      "height": 61.071,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.69,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        124407.71,
+        395963.04
+      ],
+      "axis": [
+        0.992087,
+        -0.125554
+      ],
+      "halfLength": 12,
+      "halfWidth": 13.07,
+      "height": 62.195,
+      "gradient": [
+        -0.01473,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        124327.79,
+        395973.15
+      ],
+      "axis": [
+        -0.992087,
+        0.125554
+      ],
+      "halfLength": 12,
+      "halfWidth": 13.07,
+      "height": 62.221,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "L0002.77b4fc27fd1b4944a9fe84ec2097f120"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0784.0603441ad8c4434fb09d3dcfbce3dd80",
+          "type": "pijler"
+        },
+        {
+          "id": "G0784.1c8682e69f9348e6ab88bf3d3d005aab",
+          "type": "pijler"
+        },
+        {
+          "id": "G0784.3ffd7c013707421085995875f94c1139",
+          "type": "pijler"
+        },
+        {
+          "id": "G0784.590e4b4d1d484d3295c47ba3b1e3104b",
+          "type": "pijler"
+        },
+        {
+          "id": "G0784.5e6cdf5af14444b597df1c870209fd28",
+          "type": "pijler"
+        },
+        {
+          "id": "G0784.6678e4ef7cca406ea860bbed8c497d62",
+          "type": "pijler"
+        },
+        {
+          "id": "G0784.b32e2b2cbf7c406e9fab34db1b756e19",
+          "type": "pijler"
+        },
+        {
+          "id": "G0784.b817dd3986174d468e3b0f35b3c7b1a5",
+          "type": "pijler"
+        },
+        {
+          "id": "L0002.135458476a1b4794b8a548a62e2f9264",
+          "type": "onbekend"
+        },
+        {
+          "id": "L0002.486bf460a1eb42f59150417fb99d3369",
+          "type": "onbekend"
+        },
+        {
+          "id": "L0002.77b4fc27fd1b4944a9fe84ec2097f120",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/723603653",
+        "tags": {
+          "bridge": "yes",
+          "bridge:name": "Nerhoven",
+          "carriageway_ref": "Li",
+          "highway": "motorway",
+          "int_ref": "E 312",
+          "lanes": "3",
+          "layer": "1",
+          "maxspeed": "100",
+          "maxspeed:conditional": "130 @ (19:00-06:00)",
+          "noname": "yes",
+          "official_name": "Rijksweg-A58",
+          "oneway": "yes",
+          "operator": "Rijkswaterstaat",
+          "overtaking:hgv:conditional": "no @ (Mo-Fr 06:00-19:00)",
+          "ref": "A58",
+          "surface": "asphalt",
+          "toll:hgv": "yes",
+          "turn:lanes": "none|none|slight_right",
+          "bridge:structure": "beam",
+          "man_made": "bridge",
+          "name": "Nerhoven"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 11
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,380000,140000,400000 --run nl-6_4 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 56.6,
+      "dekBreedte": 22.1,
+      "brugLengte": 56.6,
+      "water": null,
+      "portaalhoogte": 19.9,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "L0002.462d1bb0b8dd411c941b58bc855bf514",
+          "klasse": "Terrain",
+          "oppervlak": 389.9,
+          "onderDek": 0.04,
+          "bovenDekOnderkant": 0.69,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "L0002.02f61fc0abf042b98064fdeb6b08b516",
+          "klasse": "Terrain",
+          "oppervlak": 357.5,
+          "onderDek": 0.32,
+          "bovenDekOnderkant": 0.41,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        62.018,
+        62.071
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

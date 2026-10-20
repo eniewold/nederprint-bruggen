@@ -1,0 +1,176 @@
+{
+  "name": "Rendierhoeve",
+  "file": "berkel-enschot-rendierhoeve.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    137216.66,
+    395837.32
+  ],
+  "xAxis": [
+    -0.787842,
+    0.615877
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 60.869,
+  "groundSamplePoints": [
+    [
+      -62.41,
+      0
+    ],
+    [
+      62.41,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "L0002.3a3f39723bef434fb4b0bf51545235e8",
+    "L0002.48a0e034b40d40ff936bbc6c601762cd",
+    "L0002.8b7d67f603c4405da633d5f3f50cfa18",
+    "L0002.8b8d62a58c8649e08799c4d8379b0ea4",
+    "L0002.a2a83bd24f80425c9e57fd1dd89c5ee1",
+    "L0002.d2111b7858cf4a63a761a904b3671e0e",
+    "L0002.60438fbfe91146b2a81bfef1f7281cf3",
+    "L0002.401308daa8c3444c9e349ac8b4674e21"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        137259.53,
+        395803.81
+      ],
+      "axis": [
+        0.787842,
+        -0.615877
+      ],
+      "halfLength": 12,
+      "halfWidth": 10.83,
+      "height": 62.316,
+      "gradient": [
+        -0.12052,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        137173.8,
+        395870.83
+      ],
+      "axis": [
+        -0.787842,
+        0.615877
+      ],
+      "halfLength": 12,
+      "halfWidth": 10.83,
+      "height": 63.612,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "L0002.60438fbfe91146b2a81bfef1f7281cf3"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "L0002.3a3f39723bef434fb4b0bf51545235e8",
+          "type": "onbekend"
+        },
+        {
+          "id": "L0002.48a0e034b40d40ff936bbc6c601762cd",
+          "type": "onbekend"
+        },
+        {
+          "id": "L0002.8b7d67f603c4405da633d5f3f50cfa18",
+          "type": "onbekend"
+        },
+        {
+          "id": "L0002.8b8d62a58c8649e08799c4d8379b0ea4",
+          "type": "onbekend"
+        },
+        {
+          "id": "L0002.a2a83bd24f80425c9e57fd1dd89c5ee1",
+          "type": "onbekend"
+        },
+        {
+          "id": "L0002.d2111b7858cf4a63a761a904b3671e0e",
+          "type": "onbekend"
+        },
+        {
+          "id": "L0002.60438fbfe91146b2a81bfef1f7281cf3",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/631285386",
+        "tags": {
+          "bridge": "yes",
+          "carriageway_ref": "t",
+          "destination": "Eindhoven",
+          "destination:int_ref": "E 312",
+          "destination:ref": "A58",
+          "highway": "motorway_link",
+          "lanes": "1",
+          "layer": "1",
+          "maxspeed": "100",
+          "maxspeed:conditional": "130 @ (19:00-06:00)",
+          "oneway": "yes",
+          "operator": "Rijkswaterstaat",
+          "ref": "A65",
+          "surface": "asphalt",
+          "toll:hgv": "yes",
+          "man_made": "bridge",
+          "name": "Rendierhoeve"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 7
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,380000,140000,400000 --run nl-6_4 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 84.8,
+      "dekBreedte": 17.7,
+      "brugLengte": 84.8,
+      "water": null,
+      "portaalhoogte": 15.9,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "L0002.401308daa8c3444c9e349ac8b4674e21",
+          "klasse": "Terrain",
+          "oppervlak": 189.7,
+          "onderDek": 0.81,
+          "bovenDekOnderkant": 0.13,
+          "actie": "verbergen"
+        }
+      ],
+      "opritHoogtes": [
+        60.869,
+        63.462
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "1 PDOK-vorm(en) door het dek: 1 verborgen, 0 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

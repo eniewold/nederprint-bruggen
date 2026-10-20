@@ -1,0 +1,163 @@
+{
+  "name": "Schoorldammerbrug",
+  "file": "warmenhuizen-brug-3bcd7d02.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    109722.99,
+    524718.23
+  ],
+  "xAxis": [
+    -0.998685,
+    0.05127
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 41.53,
+  "groundSamplePoints": [
+    [
+      -7.26,
+      0
+    ],
+    [
+      7.26,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0441.3bcd7d02e3e44139a15e4083d3ce25b9"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        109722.99,
+        524718.23
+      ],
+      "axis": [
+        -0.998685,
+        0.05127
+      ],
+      "halfLength": 1.63,
+      "halfWidth": 1.52,
+      "height": 40.553,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.43,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        109729.49,
+        524717.89
+      ],
+      "axis": [
+        0.998685,
+        -0.05127
+      ],
+      "halfLength": 3.26,
+      "halfWidth": 1.53,
+      "height": 41.692,
+      "gradient": [
+        -0.04946,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        109716.48,
+        524718.56
+      ],
+      "axis": [
+        -0.998685,
+        0.05127
+      ],
+      "halfLength": 3.26,
+      "halfWidth": 1.53,
+      "height": 41.703,
+      "gradient": [
+        -0.04603,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0441.3bcd7d02e3e44139a15e4083d3ce25b9"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0441.3bcd7d02e3e44139a15e4083d3ce25b9",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/374079777",
+        "tags": {
+          "bridge": "movable",
+          "bridge:movable": "bascule",
+          "layer": "1",
+          "man_made": "bridge",
+          "name": "Schoorldammerbrug"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "basculebrug",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,520000,120000,540000 --run nl-5_11 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 6.5,
+      "dekBreedte": 2,
+      "brugLengte": 6.5,
+      "water": [
+        -0.3,
+        1.2
+      ],
+      "portaalhoogte": 2.5,
+      "opritafstand": [
+        4,
+        4
+      ],
+      "oprithelling": 6.5,
+      "doorstekend": [
+        {
+          "gmlId": "W0651.200dc65edfc643938a3ad0da7bb61bec",
+          "klasse": "Terrain",
+          "oppervlak": 135.1,
+          "onderDek": 0.01,
+          "bovenDekOnderkant": 0.43,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "W0651.bbc1fa4c0e6d4fdb84cd5ab7af1244a0",
+          "klasse": "Terrain",
+          "oppervlak": 107.6,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.06,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        41.53,
+        41.553
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

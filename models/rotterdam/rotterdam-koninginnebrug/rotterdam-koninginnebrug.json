@@ -1,0 +1,146 @@
+{
+  "name": "Koninginnebrug",
+  "file": "rotterdam-koninginnebrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    93813.77,
+    436409.32
+  ],
+  "xAxis": [
+    0.664061,
+    -0.747679
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 48.219,
+  "groundSamplePoints": [
+    [
+      -66.32,
+      0
+    ],
+    [
+      66.32,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0599.16fd017009fc4cac9e050210a7e24119"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        93788.32,
+        436437.97
+      ],
+      "axis": [
+        -0.664061,
+        0.747679
+      ],
+      "halfLength": 12,
+      "halfWidth": 17.23,
+      "height": 48.695,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        93839.22,
+        436380.66
+      ],
+      "axis": [
+        0.664061,
+        -0.747679
+      ],
+      "halfLength": 12,
+      "halfWidth": 17.23,
+      "height": 48.532,
+      "gradient": [
+        -0.02609,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0599.16fd017009fc4cac9e050210a7e24119"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0599.16fd017009fc4cac9e050210a7e24119",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1029657846",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "yes",
+          "foot": "use_sidepath",
+          "highway": "secondary",
+          "lanes": "5",
+          "lanes:forward": "3",
+          "layer": "1",
+          "lit": "yes",
+          "maxaxleload": "10",
+          "maxspeed": "50",
+          "name": "Koninginnebrug",
+          "parking:both": "no",
+          "ref": "S123",
+          "sidewalk": "no",
+          "surface": "asphalt",
+          "turn:lanes:backward": "left;through;right|right",
+          "turn:lanes:forward": "left|left|right",
+          "zone:traffic": "NL:urban",
+          "bridge:movable": "bascule",
+          "man_made": "bridge",
+          "wikidata": "Q2177384",
+          "wikipedia": "nl:Koninginnebrug (Rotterdam)",
+          "bridge:structure": "beam"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "basculebrug",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,420000,100000,440000 --run nl-4_6 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 52.6,
+      "dekBreedte": 30.5,
+      "brugLengte": 52.6,
+      "water": [
+        -25.8,
+        25.7
+      ],
+      "portaalhoogte": 27.4,
+      "opritafstand": [
+        40,
+        40
+      ],
+      "oprithelling": 24,
+      "doorstekend": [],
+      "opritHoogtes": [
+        48.545,
+        48.219
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "oprit - pas op 40.0 m gemeten",
+      "oprit + pas op 40.0 m gemeten",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

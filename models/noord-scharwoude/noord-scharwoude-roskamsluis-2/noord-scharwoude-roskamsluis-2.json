@@ -1,0 +1,143 @@
+{
+  "name": "Roskamsluis",
+  "file": "noord-scharwoude-roskamsluis-2.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    116645.53,
+    524770.96
+  ],
+  "xAxis": [
+    -0.737844,
+    -0.674971
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 44.708,
+  "groundSamplePoints": [
+    [
+      -7.8,
+      0
+    ],
+    [
+      7.8,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "P0027.8da3bde41d8c4237b0caab67d21e578d"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        116650.76,
+        524775.75
+      ],
+      "axis": [
+        0.737844,
+        0.674971
+      ],
+      "halfLength": 3.55,
+      "halfWidth": 8.69,
+      "height": 46.276,
+      "gradient": [
+        -0.04229,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        116640.29,
+        524766.18
+      ],
+      "axis": [
+        -0.737844,
+        -0.674971
+      ],
+      "halfLength": 3.55,
+      "halfWidth": 8.69,
+      "height": 45.567,
+      "gradient": [
+        -0.24228,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "P0027.8da3bde41d8c4237b0caab67d21e578d"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "P0027.8da3bde41d8c4237b0caab67d21e578d",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/985533264",
+        "tags": {
+          "bicycle": "no",
+          "bridge": "yes",
+          "highway": "primary",
+          "lanes": "2",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "50",
+          "maxweight:signed": "no",
+          "name": "Roskamsluis",
+          "operator": "Provincie Noord-Holland",
+          "overtaking": "no",
+          "ref": "N504",
+          "surface": "asphalt",
+          "zone:traffic": "NL:rural",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
+      "fis": {
+        "id": 6041,
+        "naam": "Brug over benedenhoofd Roskamsluis",
+        "afstand": 5,
+        "beweegbaar": false,
+        "doorvaarthoogteGesloten": 3.6
+      },
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": 3.6,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,520000,120000,540000 --run nl-5_11 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 7.1,
+      "dekBreedte": 13.4,
+      "brugLengte": 7.1,
+      "water": [
+        -3,
+        3.5
+      ],
+      "portaalhoogte": 12,
+      "opritafstand": [
+        4.3,
+        4.3
+      ],
+      "oprithelling": 7.1,
+      "doorstekend": [],
+      "opritHoogtes": [
+        46.126,
+        44.708
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

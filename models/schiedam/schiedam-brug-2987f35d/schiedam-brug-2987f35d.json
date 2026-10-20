@@ -1,0 +1,132 @@
+{
+  "name": "Lobelialaan",
+  "file": "schiedam-brug-2987f35d.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    85054.61,
+    436899.39
+  ],
+  "xAxis": [
+    0.680937,
+    0.732342
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 45.974,
+  "groundSamplePoints": [
+    [
+      -71.89,
+      0
+    ],
+    [
+      11.89,
+      2.39
+    ]
+  ],
+  "replacesTerrain": [
+    "G0606.2987f35d9644664be0632e00010ac206"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        85051.28,
+        436895.81
+      ],
+      "axis": [
+        -0.680937,
+        -0.732342
+      ],
+      "halfLength": 3,
+      "halfWidth": 8.83,
+      "height": 46.617,
+      "gradient": [
+        -0.05,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        85057.94,
+        436902.96
+      ],
+      "axis": [
+        0.680937,
+        0.732342
+      ],
+      "halfLength": 3,
+      "halfWidth": 8.83,
+      "height": 46.371,
+      "gradient": [
+        -0.13212,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0606.2987f35d9644664be0632e00010ac206"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0606.2987f35d9644664be0632e00010ac206",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/830433516",
+        "tags": {
+          "bridge": "yes",
+          "highway": "service",
+          "layer": "1",
+          "moped": "no",
+          "moped:conditional": "permissive @ (Oct-Apr)",
+          "motor_vehicle": "no",
+          "name": "Lobelialaan"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,420000,100000,440000 --run nl-4_6 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 3.8,
+      "dekBreedte": 13.7,
+      "brugLengte": 3.8,
+      "water": [
+        -1.4,
+        1.6
+      ],
+      "portaalhoogte": 12.3,
+      "opritafstand": [
+        70,
+        10
+      ],
+      "spoorhoogteBron": "pdok",
+      "oprithelling": 6,
+      "doorstekend": [],
+      "opritHoogtes": [
+        46.467,
+        45.974
+      ]
+    },
+    "waarschuwingen": [
+      "oprit -: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "oprit -: spoorterrein voorbij 150 m nog 1.0 m hoger (47.9 m); PDOK trekt het spoor hier ver naar beneden, controleer de dekhoogte of geef --opritafstand",
+      "oprit - pas op 70 m langs het spoor gemeten (PDOK-spoorterrein bij de brug lager)",
+      "oprit +: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

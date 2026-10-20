@@ -1,0 +1,180 @@
+{
+  "name": "Provincialeweg",
+  "file": "heerhugowaard-brug-27f98e67.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    116987.14,
+    525022.95
+  ],
+  "xAxis": [
+    -0.92647,
+    -0.37637
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 41.742,
+  "groundSamplePoints": [
+    [
+      -12.45,
+      0
+    ],
+    [
+      12.45,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0398.27f98e67b9e0440f8dcec4ba5011ffed"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        116987.14,
+        525022.95
+      ],
+      "axis": [
+        -0.92647,
+        -0.37637
+      ],
+      "halfLength": 2.83,
+      "halfWidth": 8.25,
+      "height": 40.756,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.49,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        116997.62,
+        525027.2
+      ],
+      "axis": [
+        0.92647,
+        0.37637
+      ],
+      "halfLength": 5.66,
+      "halfWidth": 9.75,
+      "height": 41.899,
+      "gradient": [
+        -0.02773,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        116976.65,
+        525018.69
+      ],
+      "axis": [
+        -0.92647,
+        -0.37637
+      ],
+      "halfLength": 5.66,
+      "halfWidth": 9.75,
+      "height": 41.906,
+      "gradient": [
+        -0.02651,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0398.27f98e67b9e0440f8dcec4ba5011ffed"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0398.27f98e67b9e0440f8dcec4ba5011ffed",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1305625993",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "yes",
+          "foot": "use_sidepath",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxspeed": "60",
+          "mofa": "use_sidepath",
+          "name": "Provincialeweg",
+          "operator": "Provincie Noord-Holland",
+          "smoothness": "good",
+          "surface": "asphalt",
+          "zone:maxspeed": "NL:60",
+          "zone:traffic": "NL:rural",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,520000,120000,540000 --run nl-5_11 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 11.3,
+      "dekBreedte": 15.5,
+      "brugLengte": 11.3,
+      "water": [
+        -1.7,
+        2.3
+      ],
+      "portaalhoogte": 14,
+      "opritafstand": [
+        6.8,
+        6.8
+      ],
+      "oprithelling": 11.3,
+      "doorstekend": [
+        {
+          "gmlId": "P0027.33cc9d4a6c85448c90deabc56c1b3bcc",
+          "klasse": "Terrain",
+          "oppervlak": 1730.8,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.49,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "W0651.23ccf7cd4e8741aa9951278b392eac30",
+          "klasse": "Terrain",
+          "oppervlak": 30.7,
+          "onderDek": 0.45,
+          "bovenDekOnderkant": 0.45,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "W0651.a57f70ed0c0d4d3c9bf2a79b901968f1",
+          "klasse": "Terrain",
+          "oppervlak": 19,
+          "onderDek": 0.25,
+          "bovenDekOnderkant": 0.44,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        41.742,
+        41.756
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "3 PDOK-vorm(en) door het dek: 0 verborgen, 3 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

@@ -1,0 +1,206 @@
+{
+  "name": "Hoekse Lijn",
+  "file": "schiedam-brug-cbc63bb7.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    85484.3,
+    437282.77
+  ],
+  "xAxis": [
+    0.812505,
+    0.582955
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 44.711,
+  "groundSamplePoints": [
+    [
+      -64.42,
+      2.81
+    ],
+    [
+      64.43,
+      -2.14
+    ]
+  ],
+  "replacesTerrain": [
+    "G0606.2b68b31aee987498e0530200010aefaa",
+    "G0606.2b68b31b36e17498e0530200010aefaa",
+    "L0004.cbc63bb734f540d49f72faa48d59926b"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        85484.3,
+        437282.77
+      ],
+      "axis": [
+        0.812505,
+        0.582955
+      ],
+      "halfLength": 48.42,
+      "halfWidth": 7.49,
+      "height": 43.924,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -2.22,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        85430.33,
+        437244.05
+      ],
+      "axis": [
+        -0.812505,
+        -0.582955
+      ],
+      "halfLength": 12,
+      "halfWidth": 8.99,
+      "height": 44.968,
+      "gradient": [
+        -0.02139,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        85538.27,
+        437321.5
+      ],
+      "axis": [
+        0.812505,
+        0.582955
+      ],
+      "halfLength": 12,
+      "halfWidth": 8.99,
+      "height": 45.074,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "L0004.cbc63bb734f540d49f72faa48d59926b"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0606.2b68b31aee987498e0530200010aefaa",
+          "type": "landhoofd"
+        },
+        {
+          "id": "G0606.2b68b31b36e17498e0530200010aefaa",
+          "type": "landhoofd"
+        },
+        {
+          "id": "L0004.cbc63bb734f540d49f72faa48d59926b",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/459077249",
+        "tags": {
+          "bridge": "yes",
+          "description": "Metrolijnen A en B",
+          "designated_direction": "forward",
+          "electrified": "contact_line",
+          "frequency": "0",
+          "gauge": "1435",
+          "layer": "2",
+          "maxspeed": "100",
+          "name": "Hoekse Lijn",
+          "operator": "RET",
+          "passenger_lines": "2",
+          "railway": "light_rail",
+          "railway:lzb": "yes",
+          "railway:track_ref": "2",
+          "ref": "A;B",
+          "usage": "main",
+          "voltage": "750",
+          "width": "3.4",
+          "wikidata": "Q803173",
+          "wikipedia": "nl:Hoekse Lijn"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 3
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,420000,100000,440000 --run nl-4_6 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 108.8,
+      "dekBreedte": 14,
+      "brugLengte": 108.8,
+      "water": [
+        -22.4,
+        7.1
+      ],
+      "portaalhoogte": 12.6,
+      "opritafstand": [
+        10,
+        10
+      ],
+      "spoorhoogteBron": "pdok",
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0606.82f31637eacf3b7ae0532e00010acc1d",
+          "klasse": "Separation",
+          "oppervlak": 22.5,
+          "onderDek": 0.66,
+          "bovenDekOnderkant": 1.22,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0606.1885e55e1be0bfdee0632e00010a5816",
+          "klasse": "Forest",
+          "oppervlak": 64.5,
+          "onderDek": 0.31,
+          "bovenDekOnderkant": 1.22,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0606.82f31637eacb3b7ae0532e00010acc1d",
+          "klasse": "Separation",
+          "oppervlak": 22.3,
+          "onderDek": 0.42,
+          "bovenDekOnderkant": 1.2,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0606.1885e55e1bdebfdee0632e00010a5816",
+          "klasse": "Forest",
+          "oppervlak": 99.7,
+          "onderDek": 0.2,
+          "bovenDekOnderkant": 1.14,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        44.711,
+        44.924
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "oprit -: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "oprit +: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "4 PDOK-vorm(en) door het dek: 0 verborgen, 4 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

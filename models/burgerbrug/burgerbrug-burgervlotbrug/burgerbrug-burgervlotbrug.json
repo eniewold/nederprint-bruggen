@@ -1,0 +1,142 @@
+{
+  "name": "Burgervlotbrug",
+  "file": "burgerbrug-burgervlotbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    107394.28,
+    529854.53
+  ],
+  "xAxis": [
+    0.999902,
+    0.014005
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 42.55,
+  "groundSamplePoints": [
+    [
+      -41.5,
+      0
+    ],
+    [
+      51.5,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "P0027.fc1cb03f7a054e79bacefe02244d13e6"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        107360.78,
+        529854.06
+      ],
+      "axis": [
+        -0.999902,
+        -0.014005
+      ],
+      "halfLength": 12,
+      "halfWidth": 3.46,
+      "height": 44.091,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        107427.78,
+        529855
+      ],
+      "axis": [
+        0.999902,
+        0.014005
+      ],
+      "halfLength": 12,
+      "halfWidth": 3.46,
+      "height": 43.395,
+      "gradient": [
+        -0.07046,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "P0027.fc1cb03f7a054e79bacefe02244d13e6"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "P0027.fc1cb03f7a054e79bacefe02244d13e6",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1049161707",
+        "tags": {
+          "bridge": "movable",
+          "bridge:name": "Burgervlotbrug",
+          "highway": "tertiary",
+          "lane_markings": "no",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "50",
+          "maxweight": "12",
+          "name": "Burgerweg",
+          "sidewalk": "no",
+          "source:maxspeed": "NL:urban",
+          "surface": "concrete",
+          "bridge:structure": "floating:retractable",
+          "man_made": "bridge"
+        }
+      },
+      "fis": {
+        "id": 9182,
+        "naam": "Burgervlotbrug",
+        "afstand": 2,
+        "beweegbaar": true,
+        "doorvaarthoogteGesloten": 1
+      },
+      "pdokBridgeVlakken": 1
+    },
+    "type": "basculebrug",
+    "doorvaarthoogte": 1,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,520000,120000,540000 --run nl-5_11 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 43,
+      "dekBreedte": 4.6,
+      "brugLengte": 43,
+      "water": [
+        -21,
+        21
+      ],
+      "portaalhoogte": 4.1,
+      "opritafstand": [
+        20,
+        30
+      ],
+      "oprithelling": 24,
+      "doorstekend": [],
+      "opritHoogtes": [
+        43.941,
+        42.55
+      ]
+    },
+    "waarschuwingen": [
+      "bridge=movable zonder mechanisme: basculebrug is een gok",
+      "oprit + pas op 30.0 m gemeten",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

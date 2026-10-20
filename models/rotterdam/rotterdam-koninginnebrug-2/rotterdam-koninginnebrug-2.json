@@ -1,0 +1,139 @@
+{
+  "name": "Koninginnebrug",
+  "file": "rotterdam-koninginnebrug-2.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    93780.33,
+    436447.01
+  ],
+  "xAxis": [
+    0.663495,
+    -0.748181
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 47.558,
+  "groundSamplePoints": [
+    [
+      -19.96,
+      0
+    ],
+    [
+      19.96,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0599.afa00afc4944416f94f0021528d63661"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        93768.29,
+        436460.59
+      ],
+      "axis": [
+        -0.663495,
+        0.748181
+      ],
+      "halfLength": 9.07,
+      "halfWidth": 20.4,
+      "height": 48.746,
+      "gradient": [
+        -0.01653,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        93792.37,
+        436433.43
+      ],
+      "axis": [
+        0.663495,
+        -0.748181
+      ],
+      "halfLength": 9.07,
+      "halfWidth": 20.4,
+      "height": 48.227,
+      "gradient": [
+        -0.07372,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0599.afa00afc4944416f94f0021528d63661"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0599.afa00afc4944416f94f0021528d63661",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1029657837",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "yes",
+          "foot": "use_sidepath",
+          "highway": "secondary",
+          "lanes": "3",
+          "layer": "1",
+          "maxaxleload": "10",
+          "maxspeed": "50",
+          "name": "Koninginnebrug",
+          "oneway": "yes",
+          "parking:both": "no",
+          "ref": "S123",
+          "sidewalk": "no",
+          "turn:lanes": "left;through|right|right",
+          "zone:traffic": "NL:urban",
+          "man_made": "bridge",
+          "bridge:movable": "bascule"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "basculebrug",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,420000,100000,440000 --run nl-4_6 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 18.1,
+      "dekBreedte": 36.8,
+      "brugLengte": 18.1,
+      "water": [
+        -8.6,
+        8.9
+      ],
+      "portaalhoogte": 33.1,
+      "opritafstand": [
+        10.9,
+        10.9
+      ],
+      "oprithelling": 18.1,
+      "doorstekend": [],
+      "opritHoogtes": [
+        48.596,
+        47.558
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}
