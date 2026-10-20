@@ -1,0 +1,178 @@
+{
+  "name": "Roggelseweg",
+  "file": "egchel-brug-0cd9bf91.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    195122.65,
+    367667.87
+  ],
+  "xAxis": [
+    0.555479,
+    0.83153
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 75.264,
+  "groundSamplePoints": [
+    [
+      -14.19,
+      0
+    ],
+    [
+      14.19,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "P0031.0cd9bf91a6a3505ae0631350370a593c"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        195122.65,
+        367667.87
+      ],
+      "axis": [
+        0.555479,
+        0.83153
+      ],
+      "halfLength": 3.23,
+      "halfWidth": 8.22,
+      "height": 74.747,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.6,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        195115.48,
+        367657.14
+      ],
+      "axis": [
+        -0.555479,
+        -0.83153
+      ],
+      "halfLength": 6.45,
+      "halfWidth": 9.72,
+      "height": 75.656,
+      "gradient": [
+        -0.06071,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        195129.81,
+        367678.6
+      ],
+      "axis": [
+        0.555479,
+        0.83153
+      ],
+      "halfLength": 6.45,
+      "halfWidth": 9.72,
+      "height": 75.897,
+      "gradient": [
+        -0.02325,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "P0031.0cd9bf91a6a3505ae0631350370a593c"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "P0031.0cd9bf91a6a3505ae0631350370a593c",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/976466337",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "yes",
+          "foot": "use_sidepath",
+          "highway": "secondary",
+          "lanes": "2",
+          "layer": "1",
+          "maxspeed": "80",
+          "name": "Roggelseweg",
+          "operator": "Provincie Limburg",
+          "ref": "N562",
+          "surface": "asphalt",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 180000,360000,200000,380000 --run nl-9_3 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 12.9,
+      "dekBreedte": 15.4,
+      "brugLengte": 12.9,
+      "water": [
+        -2,
+        1.5
+      ],
+      "portaalhoogte": 13.9,
+      "opritafstand": [
+        7.7,
+        7.7
+      ],
+      "oprithelling": 12.9,
+      "doorstekend": [
+        {
+          "gmlId": "P0031.bf8a59506924aa3de0531350370adbc0",
+          "klasse": "Forest",
+          "oppervlak": 27.8,
+          "onderDek": 0.01,
+          "bovenDekOnderkant": 0.6,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "P0031.0cd9bf91a69f505ae0631350370a593c",
+          "klasse": "Road",
+          "oppervlak": 86.2,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.6,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "P0031.0cd9bf91a69e505ae0631350370a593c",
+          "klasse": "Road",
+          "oppervlak": 90.5,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.08,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        75.264,
+        75.747
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "3 PDOK-vorm(en) door het dek: 0 verborgen, 3 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

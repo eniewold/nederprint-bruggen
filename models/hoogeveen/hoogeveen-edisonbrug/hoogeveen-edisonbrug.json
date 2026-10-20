@@ -1,0 +1,136 @@
+{
+  "name": "Edisonbrug",
+  "file": "hoogeveen-edisonbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    230413.93,
+    527328.29
+  ],
+  "xAxis": [
+    -0.047541,
+    -0.998869
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 54.456,
+  "groundSamplePoints": [
+    [
+      -11.91,
+      0
+    ],
+    [
+      11.91,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0118.73f0c2bc99b24ab9ba794c28b644c50a",
+    "G0118.454202ef93814b22b17776fc264836b5"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        230414.44,
+        527339.1
+      ],
+      "axis": [
+        0.047541,
+        0.998869
+      ],
+      "halfLength": 5.41,
+      "halfWidth": 12,
+      "height": 54.642,
+      "gradient": [
+        -0.02772,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        230413.41,
+        527317.48
+      ],
+      "axis": [
+        -0.047541,
+        -0.998869
+      ],
+      "halfLength": 5.41,
+      "halfWidth": 12,
+      "height": 54.624,
+      "gradient": [
+        -0.03104,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0118.73f0c2bc99b24ab9ba794c28b644c50a"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0118.73f0c2bc99b24ab9ba794c28b644c50a",
+          "type": "dek"
+        },
+        {
+          "id": "G0118.454202ef93814b22b17776fc264836b5",
+          "type": "pijler"
+        }
+      ],
+      "osm": {
+        "id": "way/824833996",
+        "tags": {
+          "bridge": "movable",
+          "layer": "1",
+          "man_made": "bridge",
+          "name": "Edisonbrug"
+        }
+      },
+      "fis": {
+        "id": 58420,
+        "naam": "Edisonbrug",
+        "afstand": 3,
+        "beweegbaar": true,
+        "doorvaarthoogteGesloten": 0.7
+      },
+      "pdokBridgeVlakken": 2
+    },
+    "type": "basculebrug",
+    "doorvaarthoogte": 0.7,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,520000,240000,540000 --run nl-11_11 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 10.8,
+      "dekBreedte": 20,
+      "brugLengte": 10.8,
+      "water": [
+        -4.9,
+        3.1
+      ],
+      "portaalhoogte": 18,
+      "opritafstand": [
+        6.5,
+        6.5
+      ],
+      "oprithelling": 10.8,
+      "doorstekend": [],
+      "opritHoogtes": [
+        54.492,
+        54.456
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "bridge=movable zonder mechanisme: basculebrug is een gok"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

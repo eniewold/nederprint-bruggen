@@ -1,0 +1,136 @@
+{
+  "name": "Bekinkbruggen",
+  "file": "hoogeveen-bekinkbruggen.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    229504.08,
+    527376.13
+  ],
+  "xAxis": [
+    0.047659,
+    0.998864
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 54.434,
+  "groundSamplePoints": [
+    [
+      -10.39,
+      0
+    ],
+    [
+      10.39,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0118.5ac801f4dfe246cfab1f5ce475a13679"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        229503.63,
+        527366.69
+      ],
+      "axis": [
+        -0.047659,
+        -0.998864
+      ],
+      "halfLength": 4.72,
+      "halfWidth": 7.11,
+      "height": 54.664,
+      "gradient": [
+        -0.04863,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        229504.53,
+        527385.57
+      ],
+      "axis": [
+        0.047659,
+        0.998864
+      ],
+      "halfLength": 4.72,
+      "halfWidth": 7.11,
+      "height": 54.743,
+      "gradient": [
+        -0.03175,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0118.5ac801f4dfe246cfab1f5ce475a13679"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0118.5ac801f4dfe246cfab1f5ce475a13679",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/826502738",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "yes",
+          "foot": "use_sidepath",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "50",
+          "name": "Bekinkbruggen",
+          "oneway": "yes",
+          "man_made": "bridge"
+        }
+      },
+      "fis": {
+        "id": 7701,
+        "naam": "Bekinkbrug",
+        "afstand": 7,
+        "beweegbaar": true,
+        "doorvaarthoogteGesloten": 0.7
+      },
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ophaalbrug",
+    "doorvaarthoogte": 0.7,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,520000,240000,540000 --run nl-11_11 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 9.4,
+      "dekBreedte": 10.2,
+      "brugLengte": 9.4,
+      "water": [
+        -4.2,
+        3.3
+      ],
+      "portaalhoogte": 9.2,
+      "opritafstand": [
+        5.7,
+        5.7
+      ],
+      "oprithelling": 9.4,
+      "doorstekend": [],
+      "opritHoogtes": [
+        54.434,
+        54.593
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}
