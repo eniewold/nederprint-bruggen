@@ -1,0 +1,190 @@
+{
+  "name": "Constructiebrug",
+  "file": "delft-constructiebrug-2.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    84426.01,
+    446806.53
+  ],
+  "xAxis": [
+    -0.04757,
+    -0.998868
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 45.86,
+  "groundSamplePoints": [
+    [
+      -30.12,
+      0
+    ],
+    [
+      29.31,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0503.896210b75aee4b689ceb9d27dcc9e961"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        84426.01,
+        446806.53
+      ],
+      "axis": [
+        -0.04757,
+        -0.998868
+      ],
+      "halfLength": 13.71,
+      "halfWidth": 26.56,
+      "height": 44.948,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.88,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        84427.54,
+        446838.61
+      ],
+      "axis": [
+        0.04757,
+        0.998868
+      ],
+      "halfLength": 12,
+      "halfWidth": 28.06,
+      "height": 46.098,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        84424.52,
+        446775.26
+      ],
+      "axis": [
+        -0.04757,
+        -0.998868
+      ],
+      "halfLength": 12,
+      "halfWidth": 28.06,
+      "height": 46.054,
+      "gradient": [
+        -0.0162,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0503.896210b75aee4b689ceb9d27dcc9e961"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0503.896210b75aee4b689ceb9d27dcc9e961",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/351221423",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "yes",
+          "foot": "use_sidepath",
+          "highway": "secondary",
+          "lanes": "2",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "50",
+          "maxweight:signed": "no",
+          "mofa": "use_sidepath",
+          "moped": "use_sidepath",
+          "name": "Constructiebrug",
+          "name:etymology:wikidata": "Q263623",
+          "oneway": "yes",
+          "shoulder": "no",
+          "smoothness": "excellent",
+          "surface": "asphalt",
+          "zone:traffic": "NL:urban",
+          "bridge:structure": "beam",
+          "man_made": "bridge",
+          "wikidata": "Q141545253"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,440000,100000,460000 --run nl-4_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 39.4,
+      "dekBreedte": 52.1,
+      "brugLengte": 39.4,
+      "water": [
+        -10.6,
+        1.4
+      ],
+      "portaalhoogte": 46.9,
+      "opritafstand": [
+        10,
+        10
+      ],
+      "spoorhoogteBron": "pdok",
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0503.111117ab01564548bd1914d6894040ca",
+          "klasse": "Terrain",
+          "oppervlak": 618.2,
+          "onderDek": 0.1,
+          "bovenDekOnderkant": 0.88,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0503.74c61d784bb642728e3c4f1de1fa5aa6",
+          "klasse": "Forest",
+          "oppervlak": 104.5,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.86,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0503.8e026656db0f475a9ddb0244c7611c9d",
+          "klasse": "Road",
+          "oppervlak": 2417.1,
+          "onderDek": 0.18,
+          "bovenDekOnderkant": 0.74,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        45.948,
+        45.86
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "oprit -: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "oprit +: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "3 PDOK-vorm(en) door het dek: 0 verborgen, 3 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

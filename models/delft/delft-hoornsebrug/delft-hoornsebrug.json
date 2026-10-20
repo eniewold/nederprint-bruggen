@@ -1,0 +1,175 @@
+{
+  "name": "Hoornsebrug",
+  "file": "delft-hoornsebrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    83199.99,
+    446584.18
+  ],
+  "xAxis": [
+    0.473853,
+    0.880604
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 43.257,
+  "groundSamplePoints": [
+    [
+      -36.97,
+      0
+    ],
+    [
+      36.97,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0503.8292fd698f564c65a7811a12cf3e54fc"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        83199.99,
+        446584.18
+      ],
+      "axis": [
+        0.473853,
+        0.880604
+      ],
+      "halfLength": 10.97,
+      "halfWidth": 6.21,
+      "height": 43.02,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.88,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        83186.26,
+        446558.66
+      ],
+      "axis": [
+        -0.473853,
+        -0.880604
+      ],
+      "halfLength": 12,
+      "halfWidth": 7.71,
+      "height": 44.17,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        83213.72,
+        446609.69
+      ],
+      "axis": [
+        0.473853,
+        0.880604
+      ],
+      "halfLength": 12,
+      "halfWidth": 7.71,
+      "height": 43.788,
+      "gradient": [
+        -0.04427,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0503.8292fd698f564c65a7811a12cf3e54fc"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0503.8292fd698f564c65a7811a12cf3e54fc",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/791544770",
+        "tags": {
+          "bridge": "yes",
+          "foot": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "lit": "yes",
+          "mofa": "designated",
+          "moped": "designated",
+          "name": "Hoornsebrug",
+          "oneway": "no",
+          "segregated": "no",
+          "smoothness": "intermediate",
+          "surface": "wood",
+          "traffic_sign": "NL:G12a",
+          "zone:traffic": "NL:urban",
+          "bridge:structure": "beam",
+          "man_made": "bridge",
+          "bridge:movable": "bascule"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "basculebrug",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,440000,100000,460000 --run nl-4_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 33.9,
+      "dekBreedte": 11.4,
+      "brugLengte": 33.9,
+      "water": [
+        -16.5,
+        9
+      ],
+      "portaalhoogte": 10.3,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0503.8d957daad58443aebb646d0d68aa1652",
+          "klasse": "Forest",
+          "oppervlak": 176.1,
+          "onderDek": 0.01,
+          "bovenDekOnderkant": 0.88,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0503.032e68f098ad49cce0532ee22091b28c",
+          "klasse": "Separation",
+          "oppervlak": 3.1,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.51,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        44.02,
+        43.257
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

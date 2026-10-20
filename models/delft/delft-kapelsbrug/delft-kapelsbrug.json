@@ -1,0 +1,146 @@
+{
+  "name": "Kapelsbrug",
+  "file": "delft-kapelsbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    84542.11,
+    446885.87
+  ],
+  "xAxis": [
+    0.847946,
+    0.530083
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 45.526,
+  "groundSamplePoints": [
+    [
+      -16.65,
+      3.74
+    ],
+    [
+      116.19,
+      5.15
+    ]
+  ],
+  "replacesTerrain": [
+    "G0503.032e68f09d6a49cce0532ee22091b28c"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        84530.83,
+        446878.83
+      ],
+      "axis": [
+        -0.847946,
+        -0.530083
+      ],
+      "halfLength": 6.65,
+      "halfWidth": 14.43,
+      "height": 45.972,
+      "gradient": [
+        -0.06698,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        84553.39,
+        446892.92
+      ],
+      "axis": [
+        0.847946,
+        0.530083
+      ],
+      "halfLength": 6.65,
+      "halfWidth": 14.43,
+      "height": 46.267,
+      "gradient": [
+        -0.02256,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0503.032e68f09d6a49cce0532ee22091b28c"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0503.032e68f09d6a49cce0532ee22091b28c",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/367478762",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "yes",
+          "embedded_rails:lanes": "tram|",
+          "foot": "use_sidepath",
+          "highway": "secondary",
+          "lanes": "2",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "50",
+          "maxweight:signed": "no",
+          "mofa": "use_sidepath",
+          "name": "Kapelsbrug",
+          "note": "Name is Kapelsbrug (not Kapelsebrug, see www.delft.nl)",
+          "oneway": "yes",
+          "shoulder": "no",
+          "smoothness": "good",
+          "surface": "asphalt",
+          "width": "3.2",
+          "zone:traffic": "NL:urban",
+          "bridge:structure": "arch",
+          "man_made": "bridge",
+          "wikidata": "Q141647466"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "gewelf",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,440000,100000,460000 --run nl-4_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 13.3,
+      "dekBreedte": 24.9,
+      "brugLengte": 13.3,
+      "water": [
+        -5.1,
+        5.4
+      ],
+      "portaalhoogte": 22.4,
+      "opritafstand": [
+        10,
+        110
+      ],
+      "spoorhoogteBron": "pdok",
+      "oprithelling": 13.3,
+      "doorstekend": [],
+      "opritHoogtes": [
+        45.526,
+        46.117
+      ]
+    },
+    "waarschuwingen": [
+      "oprit -: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "oprit +: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "oprit + pas op 110 m langs het spoor gemeten (PDOK-spoorterrein bij de brug lager)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

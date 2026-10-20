@@ -1,0 +1,170 @@
+{
+  "name": "Den Dulder",
+  "file": "wateringen-den-dulder.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    80101.56,
+    447582.37
+  ],
+  "xAxis": [
+    0.967334,
+    -0.253505
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 44.246,
+  "groundSamplePoints": [
+    [
+      -51.54,
+      0
+    ],
+    [
+      51.54,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "P0028.3e324872c76d4d01ba28257a701a6c25",
+    "G1783.c2ed2cdc217740dc9a82076f3b311705"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        80101.56,
+        447582.37
+      ],
+      "axis": [
+        0.967334,
+        -0.253505
+      ],
+      "halfLength": 25.54,
+      "halfWidth": 5.22,
+      "height": 43.905,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -2.93,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        80059.44,
+        447593.41
+      ],
+      "axis": [
+        -0.967334,
+        0.253505
+      ],
+      "halfLength": 12,
+      "halfWidth": 6.72,
+      "height": 45.055,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        80143.68,
+        447571.33
+      ],
+      "axis": [
+        0.967334,
+        -0.253505
+      ],
+      "halfLength": 12,
+      "halfWidth": 6.72,
+      "height": 44.725,
+      "gradient": [
+        -0.04,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G1783.c2ed2cdc217740dc9a82076f3b311705"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "P0028.3e324872c76d4d01ba28257a701a6c25",
+          "type": "pijler"
+        },
+        {
+          "id": "G1783.c2ed2cdc217740dc9a82076f3b311705",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/551121489",
+        "tags": {
+          "bridge": "yes",
+          "bridge:name": "Den Dulder",
+          "cycleway": "shared_lane",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed:backward": "80",
+          "maxspeed:forward": "60",
+          "name": "Den Dulder",
+          "surface": "asphalt",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 2
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,440000,100000,460000 --run nl-4_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 63.1,
+      "dekBreedte": 9.4,
+      "brugLengte": 63.1,
+      "water": null,
+      "portaalhoogte": 8.5,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G1783.716b2d45836d4175a37b1abb7b1a09c9",
+          "klasse": "Terrain",
+          "oppervlak": 278.6,
+          "onderDek": 0.4,
+          "bovenDekOnderkant": 1.93,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G1783.ff29264926e44597bbafa41c4319bf48",
+          "klasse": "Terrain",
+          "oppervlak": 91.7,
+          "onderDek": 0,
+          "bovenDekOnderkant": 1.5,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        44.905,
+        44.246
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "name": "Bark",
+  "file": "obdam-brug-f19b8176.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    121692.38,
+    521165.34
+  ],
+  "xAxis": [
+    0.927674,
+    -0.373391
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 40.553,
+  "groundSamplePoints": [
+    [
+      -13.2,
+      0
+    ],
+    [
+      13.2,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G1598.f19b8176755949a480e1dc62f8919e85"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        121692.38,
+        521165.34
+      ],
+      "axis": [
+        0.927674,
+        -0.373391
+      ],
+      "halfLength": 3,
+      "halfWidth": 7.24,
+      "height": 39.632,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -2.05,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        121681.25,
+        521169.82
+      ],
+      "axis": [
+        -0.927674,
+        0.373391
+      ],
+      "halfLength": 6,
+      "halfWidth": 8.74,
+      "height": 40.782,
+      "gradient": [
+        -0.025,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        121703.51,
+        521160.86
+      ],
+      "axis": [
+        0.927674,
+        -0.373391
+      ],
+      "halfLength": 6,
+      "halfWidth": 8.74,
+      "height": 40.742,
+      "gradient": [
+        -0.03159,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G1598.f19b8176755949a480e1dc62f8919e85"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G1598.f19b8176755949a480e1dc62f8919e85",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1154044295",
+        "tags": {
+          "bridge": "yes",
+          "highway": "residential",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Bark",
+          "zone:traffic": "NL:urban"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,520000,140000,540000 --run nl-6_11 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 12,
+      "dekBreedte": 13.5,
+      "brugLengte": 12,
+      "water": [
+        -2.5,
+        0.5
+      ],
+      "portaalhoogte": 12.1,
+      "opritafstand": [
+        7.2,
+        7.2
+      ],
+      "oprithelling": 12,
+      "doorstekend": [
+        {
+          "gmlId": "G1598.bb19c3b078224edf8f401ccf58a227da",
+          "klasse": "Terrain",
+          "oppervlak": 39.5,
+          "onderDek": 0.4,
+          "bovenDekOnderkant": 1.05,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G1598.1a32c27ca25440b29322f90a6f0ac134",
+          "klasse": "Forest",
+          "oppervlak": 253.3,
+          "onderDek": 0,
+          "bovenDekOnderkant": 1.05,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G1598.b591a3319808413da030d629dc1eb07a",
+          "klasse": "Terrain",
+          "oppervlak": 33.5,
+          "onderDek": 0.01,
+          "bovenDekOnderkant": 0.28,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        40.632,
+        40.553
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "3 PDOK-vorm(en) door het dek: 0 verborgen, 3 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}
