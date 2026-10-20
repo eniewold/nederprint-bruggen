@@ -1,0 +1,141 @@
+{
+  "name": "Friesebrug",
+  "file": "alkmaar-friesebrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    112186.11,
+    516255.57
+  ],
+  "xAxis": [
+    -0.555713,
+    -0.831374
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 41.149,
+  "groundSamplePoints": [
+    [
+      -38.04,
+      0
+    ],
+    [
+      38.04,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "P0027.709c46c307ac4bf2827feb0075d536ae",
+    "G0361.8abeacd54a6b7500047cda0a1e2ab849"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        112202.81,
+        516280.55
+      ],
+      "axis": [
+        0.555713,
+        0.831374
+      ],
+      "halfLength": 12,
+      "halfWidth": 58.61,
+      "height": 42.594,
+      "gradient": [
+        -0.12047,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        112169.41,
+        516230.59
+      ],
+      "axis": [
+        -0.555713,
+        -0.831374
+      ],
+      "halfLength": 12,
+      "halfWidth": 58.61,
+      "height": 43.89,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "P0027.709c46c307ac4bf2827feb0075d536ae",
+      "G0361.8abeacd54a6b7500047cda0a1e2ab849"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "P0027.709c46c307ac4bf2827feb0075d536ae",
+          "type": "dek"
+        },
+        {
+          "id": "G0361.8abeacd54a6b7500047cda0a1e2ab849",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/338814973",
+        "tags": {
+          "bridge": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "mofa": "designated",
+          "moped": "no",
+          "oneway": "yes",
+          "traffic_sign": "NL:G11",
+          "bridge:movable": "bascule"
+        }
+      },
+      "fis": {
+        "id": 52163,
+        "naam": "Friesebrug",
+        "afstand": 24,
+        "beweegbaar": true,
+        "doorvaarthoogteGesloten": 4.08
+      },
+      "pdokBridgeVlakken": 2
+    },
+    "type": "basculebrug",
+    "doorvaarthoogte": 4.08,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,500000,120000,520000 --run nl-5_10 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 36.1,
+      "dekBreedte": 113.2,
+      "brugLengte": 36.1,
+      "water": [
+        -18,
+        18
+      ],
+      "portaalhoogte": 101.9,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [],
+      "opritHoogtes": [
+        41.149,
+        43.74
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

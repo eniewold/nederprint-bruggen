@@ -1,0 +1,135 @@
+{
+  "name": "Overslagbrug",
+  "file": "delft-overslagbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    86877.66,
+    444100.56
+  ],
+  "xAxis": [
+    -0.240376,
+    0.97068
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 42.533,
+  "groundSamplePoints": [
+    [
+      -5.44,
+      0
+    ],
+    [
+      5.44,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0503.559b3e17f6e54e24bd8780055a36f9cf"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        86878.73,
+        444096.25
+      ],
+      "axis": [
+        0.240376,
+        -0.97068
+      ],
+      "halfLength": 3,
+      "halfWidth": 22.35,
+      "height": 42.708,
+      "gradient": [
+        -0.05,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        86876.59,
+        444104.87
+      ],
+      "axis": [
+        -0.240376,
+        0.97068
+      ],
+      "halfLength": 3,
+      "halfWidth": 22.35,
+      "height": 42.695,
+      "gradient": [
+        -0.05426,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0503.559b3e17f6e54e24bd8780055a36f9cf"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0503.559b3e17f6e54e24bd8780055a36f9cf",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/823501579",
+        "tags": {
+          "bridge": "yes",
+          "carriageway_ref": "m",
+          "highway": "motorway_link",
+          "lanes": "1",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "80",
+          "oneway": "yes",
+          "operator": "Rijkswaterstaat",
+          "ref": "A13",
+          "surface": "asphalt",
+          "toll:hgv": "yes",
+          "man_made": "bridge",
+          "name": "Overslagbrug"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,440000,100000,460000 --run nl-4_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 2.9,
+      "dekBreedte": 40.7,
+      "brugLengte": 2.9,
+      "water": [
+        -0.9,
+        1.1
+      ],
+      "portaalhoogte": 36.6,
+      "opritafstand": [
+        4,
+        4
+      ],
+      "oprithelling": 6,
+      "doorstekend": [],
+      "opritHoogtes": [
+        42.558,
+        42.533
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

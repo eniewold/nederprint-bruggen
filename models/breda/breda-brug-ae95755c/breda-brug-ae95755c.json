@@ -1,0 +1,175 @@
+{
+  "name": "Nieuwe Kadijk",
+  "file": "breda-brug-ae95755c.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    115804.03,
+    401087.9
+  ],
+  "xAxis": [
+    0.43697,
+    -0.899476
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 55.298,
+  "groundSamplePoints": [
+    [
+      -54.39,
+      0
+    ],
+    [
+      54.39,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0758.ae95755ccb7a4ebeb9021bb655418d54",
+    "G0758.0f40c14d274d4a7d94363ad25c1f3b58",
+    "G0758.5164a878fde84d5180cfd953caeaf727"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        115804.03,
+        401087.9
+      ],
+      "axis": [
+        0.43697,
+        -0.899476
+      ],
+      "halfLength": 28.39,
+      "halfWidth": 12.91,
+      "height": 54.352,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -2.16,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        115783.76,
+        401129.62
+      ],
+      "axis": [
+        -0.43697,
+        0.899476
+      ],
+      "halfLength": 12,
+      "halfWidth": 14.41,
+      "height": 55.475,
+      "gradient": [
+        -0.01473,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        115824.3,
+        401046.17
+      ],
+      "axis": [
+        0.43697,
+        -0.899476
+      ],
+      "halfLength": 12,
+      "halfWidth": 14.41,
+      "height": 55.502,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0758.ae95755ccb7a4ebeb9021bb655418d54"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0758.ae95755ccb7a4ebeb9021bb655418d54",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/7219371",
+        "tags": {
+          "bicycle": "no",
+          "bridge": "yes",
+          "highway": "primary",
+          "lanes": "2",
+          "layer": "1",
+          "maxspeed": "70",
+          "name": "Nieuwe Kadijk",
+          "oneway": "yes",
+          "operator": "Gemeente Breda",
+          "zone:traffic": "NL:urban"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,400000,120000,420000 --run nl-5_5 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 68.8,
+      "dekBreedte": 24.8,
+      "brugLengte": 68.8,
+      "water": null,
+      "portaalhoogte": 22.3,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0758.0f40c14d274d4a7d94363ad25c1f3b58",
+          "klasse": "Terrain",
+          "oppervlak": 283.5,
+          "onderDek": 0.83,
+          "bovenDekOnderkant": 1.21,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "G0758.5164a878fde84d5180cfd953caeaf727",
+          "klasse": "Terrain",
+          "oppervlak": 599.6,
+          "onderDek": 0.85,
+          "bovenDekOnderkant": 1.18,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "G0758.92618b9177234b0da7ee288000817cbe",
+          "klasse": "Terrain",
+          "oppervlak": 27,
+          "onderDek": 0,
+          "bovenDekOnderkant": 1.16,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        55.298,
+        55.352
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "3 PDOK-vorm(en) door het dek: 2 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

@@ -1,0 +1,193 @@
+{
+  "name": "Schiphollijn",
+  "file": "warmond-brug-f1c091c5.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    94035.58,
+    467466.95
+  ],
+  "xAxis": [
+    0.262526,
+    -0.964925
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 46.577,
+  "groundSamplePoints": [
+    [
+      -26.33,
+      0
+    ],
+    [
+      26.33,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G1525.9824f664dc77488e83dee9f5dc466321",
+    "G1525.d2d56a507f3e4a46ae5e00d1f7195fb7",
+    "L0004.f1c091c545e9496c99001ab8bcec688f"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        94035.58,
+        467466.95
+      ],
+      "axis": [
+        0.262526,
+        -0.964925
+      ],
+      "halfLength": 20.33,
+      "halfWidth": 12.35,
+      "height": 45.28,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -2,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        94025.52,
+        467503.94
+      ],
+      "axis": [
+        -0.262526,
+        0.964925
+      ],
+      "halfLength": 12,
+      "halfWidth": 13.85,
+      "height": 46.578,
+      "gradient": [
+        -0.00012,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        94045.64,
+        467429.96
+      ],
+      "axis": [
+        0.262526,
+        -0.964925
+      ],
+      "halfLength": 12,
+      "halfWidth": 13.85,
+      "height": 46.58,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "L0004.f1c091c545e9496c99001ab8bcec688f"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G1525.9824f664dc77488e83dee9f5dc466321",
+          "type": "sloof"
+        },
+        {
+          "id": "G1525.d2d56a507f3e4a46ae5e00d1f7195fb7",
+          "type": "sloof"
+        },
+        {
+          "id": "L0004.f1c091c545e9496c99001ab8bcec688f",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/468856770",
+        "tags": {
+          "bridge": "yes",
+          "description": "Warmond",
+          "electrified": "contact_line",
+          "frequency": "0",
+          "gauge": "1435",
+          "layer": "1",
+          "maxspeed": "160",
+          "name": "Schiphollijn",
+          "operator": "ProRail",
+          "passenger_lines": "2",
+          "railway": "rail",
+          "railway:atb": "yes",
+          "railway:atb-eg": "yes",
+          "railway:atb-ng": "yes",
+          "railway:etcs": "no",
+          "railway:maximum_current": "4000",
+          "railway:track_class": "C2",
+          "railway:traffic_mode": "passenger",
+          "ref": "559",
+          "ref:ProRailID": "2878022.0",
+          "ref:ProRailSpoortak": "534_1001BL_44.6",
+          "source": "mapservices.prorail.nl",
+          "source:date": "25-01-2017",
+          "usage": "main",
+          "voltage": "1500",
+          "wikidata": "Q2236232",
+          "wikipedia": "nl:Spoorlijn Weesp - Leiden",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 3
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,460000,100000,480000 --run nl-4_8 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 52.7,
+      "dekBreedte": 23.7,
+      "brugLengte": 52.7,
+      "water": null,
+      "portaalhoogte": 21.3,
+      "opritafstand": [
+        0,
+        0
+      ],
+      "spoorhoogteBron": "prorail-pvs",
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "L0004.c0ac907ed00441f782b0b07eb4325cac",
+          "klasse": "Terrain",
+          "oppervlak": 116.3,
+          "onderDek": 0.69,
+          "bovenDekOnderkant": 1,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "L0004.2e75f2d532944cb6bdc6b0dbf0ea12a5",
+          "klasse": "Forest",
+          "oppervlak": 87.8,
+          "onderDek": 0.47,
+          "bovenDekOnderkant": 0.88,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        46.577,
+        46.58
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

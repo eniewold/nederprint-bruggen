@@ -1,0 +1,177 @@
+{
+  "name": "Hofpleinlijn",
+  "file": "berkel-en-rodenrijs-brug-2e2b94d4-63.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    91062.28,
+    444684.33
+  ],
+  "xAxis": [
+    0.355776,
+    -0.934571
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 40.864,
+  "groundSamplePoints": [
+    [
+      -33.51,
+      -1.78
+    ],
+    [
+      33.51,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G1621.2e2b94d4da4a4b6be05332a1e90a2401"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        91062.28,
+        444684.33
+      ],
+      "axis": [
+        0.355776,
+        -0.934571
+      ],
+      "halfLength": 17.51,
+      "halfWidth": 6.81,
+      "height": 40.503,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.48,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        91049.64,
+        444717.52
+      ],
+      "axis": [
+        -0.355776,
+        0.934571
+      ],
+      "halfLength": 12,
+      "halfWidth": 8.31,
+      "height": 41.334,
+      "gradient": [
+        -0.03912,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        91074.91,
+        444651.15
+      ],
+      "axis": [
+        0.355776,
+        -0.934571
+      ],
+      "halfLength": 12,
+      "halfWidth": 8.31,
+      "height": 41.653,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G1621.2e2b94d4da4a4b6be05332a1e90a2401"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G1621.2e2b94d4da4a4b6be05332a1e90a2401",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/900181042",
+        "tags": {
+          "bridge": "yes",
+          "description": "Metrolijn E",
+          "electrified": "contact_line",
+          "frequency": "0",
+          "gauge": "1435",
+          "layer": "1",
+          "maxspeed": "80",
+          "name": "Hofpleinlijn",
+          "operator": "RET",
+          "railway": "light_rail",
+          "railway:preferred_direction": "forward",
+          "railway:zub222c": "yes",
+          "ref": "E",
+          "voltage": "750",
+          "width": "3.4",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,440000,100000,460000 --run nl-4_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 47,
+      "dekBreedte": 12.6,
+      "brugLengte": 47,
+      "water": [
+        -14,
+        7
+      ],
+      "portaalhoogte": 11.4,
+      "opritafstand": [
+        10,
+        10
+      ],
+      "spoorhoogteBron": "pdok",
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G1621.986c425035cf4d6cb4a152e2d4dd8b9c",
+          "klasse": "Terrain",
+          "oppervlak": 143.5,
+          "onderDek": 0.23,
+          "bovenDekOnderkant": 0.48,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G1621.04fd3abb71e9403f99ce0b0a72b1809d",
+          "klasse": "Forest",
+          "oppervlak": 43.5,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.33,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        40.864,
+        41.503
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "oprit -: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "oprit +: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

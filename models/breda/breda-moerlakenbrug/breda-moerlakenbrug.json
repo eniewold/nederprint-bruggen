@@ -1,0 +1,160 @@
+{
+  "name": "Moerlakenbrug",
+  "file": "breda-moerlakenbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    111573.54,
+    402862.52
+  ],
+  "xAxis": [
+    -0.979308,
+    0.202376
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 52.369,
+  "groundSamplePoints": [
+    [
+      -81.46,
+      0
+    ],
+    [
+      81.46,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0758.66195e7d061d4e14bd9f9da08879bc72"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        111573.54,
+        402862.52
+      ],
+      "axis": [
+        -0.979308,
+        0.202376
+      ],
+      "halfLength": 55.46,
+      "halfWidth": 13.39,
+      "height": 51.371,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.49,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        111645.48,
+        402847.65
+      ],
+      "axis": [
+        0.979308,
+        -0.202376
+      ],
+      "halfLength": 12,
+      "halfWidth": 14.89,
+      "height": 52.52,
+      "gradient": [
+        -0.0126,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        111501.6,
+        402877.39
+      ],
+      "axis": [
+        -0.979308,
+        0.202376
+      ],
+      "halfLength": 12,
+      "halfWidth": 14.89,
+      "height": 52.521,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0758.66195e7d061d4e14bd9f9da08879bc72"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0758.66195e7d061d4e14bd9f9da08879bc72",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/678691745",
+        "tags": {
+          "bridge": "viaduct",
+          "bridge:structure": "beam",
+          "layer": "1",
+          "man_made": "bridge",
+          "name": "Moerlakenbrug"
+        }
+      },
+      "fis": {
+        "id": 31518,
+        "naam": "Moerlakenbrug",
+        "afstand": 10,
+        "beweegbaar": false,
+        "doorvaarthoogteGesloten": 7
+      },
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": 7,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,400000,120000,420000 --run nl-5_5 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 122.9,
+      "dekBreedte": 25.8,
+      "brugLengte": 122.9,
+      "water": [
+        -31.5,
+        32
+      ],
+      "portaalhoogte": 23.2,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0758.9f08170929a84a35869790a4be4fc9f7",
+          "klasse": "Forest",
+          "oppervlak": 293.3,
+          "onderDek": 0.48,
+          "bovenDekOnderkant": 0.49,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        52.369,
+        52.371
+      ]
+    },
+    "waarschuwingen": [
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

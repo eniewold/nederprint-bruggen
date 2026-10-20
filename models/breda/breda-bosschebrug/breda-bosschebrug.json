@@ -1,0 +1,183 @@
+{
+  "name": "Bosschebrug",
+  "file": "breda-bosschebrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    113503.93,
+    400636.23
+  ],
+  "xAxis": [
+    0.808483,
+    0.588519
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 46.648,
+  "groundSamplePoints": [
+    [
+      -47.62,
+      0
+    ],
+    [
+      47.62,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0758.9d4edf066a934e24958b2046706de21d",
+    "G0758.4144e1f66e9e4092869080e9b2cc1c2a",
+    "G0758.6299d6886612458d80408509f408e4e4"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        113503.93,
+        400636.23
+      ],
+      "axis": [
+        0.808483,
+        0.588519
+      ],
+      "halfLength": 21.62,
+      "halfWidth": 12.03,
+      "height": 45.882,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.7,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        113471.89,
+        400612.91
+      ],
+      "axis": [
+        -0.808483,
+        -0.588519
+      ],
+      "halfLength": 12,
+      "halfWidth": 13.53,
+      "height": 47.032,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        113535.96,
+        400659.55
+      ],
+      "axis": [
+        0.808483,
+        0.588519
+      ],
+      "halfLength": 12,
+      "halfWidth": 13.53,
+      "height": 46.915,
+      "gradient": [
+        -0.02227,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0758.9d4edf066a934e24958b2046706de21d"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0758.9d4edf066a934e24958b2046706de21d",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/579686164",
+        "tags": {
+          "bridge": "yes",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxspeed": "50",
+          "name": "Bosschebrug",
+          "oneway": "yes",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,400000,120000,420000 --run nl-5_5 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 55.2,
+      "dekBreedte": 23.1,
+      "brugLengte": 55.2,
+      "water": [
+        -14.1,
+        14.4
+      ],
+      "portaalhoogte": 20.8,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0758.124894a47683475da5eb5b6d14c5e1ba",
+          "klasse": "Terrain",
+          "oppervlak": 34.7,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.7,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0758.4144e1f66e9e4092869080e9b2cc1c2a",
+          "klasse": "Forest",
+          "oppervlak": 79.2,
+          "onderDek": 0.95,
+          "bovenDekOnderkant": 0.7,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "G0758.d80261cb6f844a63aeb3f742203a4a33",
+          "klasse": "Terrain",
+          "oppervlak": 571.2,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.67,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0758.6299d6886612458d80408509f408e4e4",
+          "klasse": "Forest",
+          "oppervlak": 103.9,
+          "onderDek": 0.87,
+          "bovenDekOnderkant": 0.62,
+          "actie": "verbergen"
+        }
+      ],
+      "opritHoogtes": [
+        46.882,
+        46.648
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "4 PDOK-vorm(en) door het dek: 2 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

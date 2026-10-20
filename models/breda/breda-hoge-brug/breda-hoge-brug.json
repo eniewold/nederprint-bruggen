@@ -1,0 +1,161 @@
+{
+  "name": "Hoge Brug",
+  "file": "breda-hoge-brug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    112428.11,
+    400291.17
+  ],
+  "xAxis": [
+    0.904144,
+    -0.427228
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 46.603,
+  "groundSamplePoints": [
+    [
+      -38.61,
+      0
+    ],
+    [
+      38.61,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0758.1b931500f0f2444ea18fef94ecfafc6b"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        112428.11,
+        400291.17
+      ],
+      "axis": [
+        0.904144,
+        -0.427228
+      ],
+      "halfLength": 12.61,
+      "halfWidth": 4.49,
+      "height": 45.994,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.96,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        112400.43,
+        400304.25
+      ],
+      "axis": [
+        -0.904144,
+        0.427228
+      ],
+      "halfLength": 12,
+      "halfWidth": 5.98,
+      "height": 46.948,
+      "gradient": [
+        -0.02879,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        112455.78,
+        400278.1
+      ],
+      "axis": [
+        0.904144,
+        -0.427228
+      ],
+      "halfLength": 12,
+      "halfWidth": 5.98,
+      "height": 47.144,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0758.1b931500f0f2444ea18fef94ecfafc6b"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0758.1b931500f0f2444ea18fef94ecfafc6b",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/578235873",
+        "tags": {
+          "bridge": "yes",
+          "bridge:structure": "beam",
+          "highway": "unclassified",
+          "lanes": "1",
+          "layer": "1",
+          "maxspeed": "30",
+          "maxweight:signed": "no",
+          "motor_vehicle:forward": "destination",
+          "name": "Hoge Brug",
+          "surface": "asphalt",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,400000,120000,420000 --run nl-5_5 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 37.2,
+      "dekBreedte": 8,
+      "brugLengte": 37.2,
+      "water": [
+        -12.6,
+        11.4
+      ],
+      "portaalhoogte": 7.2,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0758.030f10145e2f49bb9028d52b1f312b4d",
+          "klasse": "Separation",
+          "oppervlak": 32.9,
+          "onderDek": 0.11,
+          "bovenDekOnderkant": 0.96,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        46.603,
+        46.994
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

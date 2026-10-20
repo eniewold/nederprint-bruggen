@@ -1,0 +1,167 @@
+{
+  "name": "Boussinesqweg",
+  "file": "delft-brug-032e68f0-101.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    85847.79,
+    444772.93
+  ],
+  "xAxis": [
+    -0.382935,
+    0.923775
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 41.923,
+  "groundSamplePoints": [
+    [
+      -28.75,
+      0
+    ],
+    [
+      28.75,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0503.032e68f09d7849cce0532ee22091b28c"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        85847.79,
+        444772.93
+      ],
+      "axis": [
+        -0.382935,
+        0.923775
+      ],
+      "halfLength": 7.07,
+      "halfWidth": 5.06,
+      "height": 41.031,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.23,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        85857.39,
+        444749.77
+      ],
+      "axis": [
+        0.382935,
+        -0.923775
+      ],
+      "halfLength": 12,
+      "halfWidth": 6.56,
+      "height": 42.127,
+      "gradient": [
+        -0.01701,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        85838.19,
+        444796.09
+      ],
+      "axis": [
+        -0.382935,
+        0.923775
+      ],
+      "halfLength": 12,
+      "halfWidth": 6.56,
+      "height": 42.181,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0503.032e68f09d7849cce0532ee22091b28c"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0503.032e68f09d7849cce0532ee22091b28c",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/330931301",
+        "tags": {
+          "bridge": "yes",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxspeed": "15",
+          "name": "Boussinesqweg",
+          "name:etymology:wikidata": "Q121108",
+          "oneway": "no",
+          "sidewalk": "left",
+          "zone:traffic": "NL:urban"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,440000,100000,460000 --run nl-4_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 26.1,
+      "dekBreedte": 9.1,
+      "brugLengte": 26.1,
+      "water": [
+        -4.6,
+        4.9
+      ],
+      "portaalhoogte": 8.2,
+      "opritafstand": [
+        15.7,
+        15.7
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0503.bf1183acbf2c46b4817d5a95b86e548f",
+          "klasse": "Terrain",
+          "oppervlak": 2143,
+          "onderDek": 0.03,
+          "bovenDekOnderkant": 0.23,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0503.523bbb5747994dbc820bb13cdee55385",
+          "klasse": "Forest",
+          "oppervlak": 63.9,
+          "onderDek": 0.14,
+          "bovenDekOnderkant": 0.07,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        41.923,
+        42.031
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "name": "Tesselsebrug",
+  "file": "alkmaar-tesselsebrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    111682.53,
+    516668.75
+  ],
+  "xAxis": [
+    0.940775,
+    0.339032
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 45.056,
+  "groundSamplePoints": [
+    [
+      -41.43,
+      0
+    ],
+    [
+      41.43,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0361.8abeacd54b3b7500047d62daf76ada3c",
+    "P0027.e82b60202d554f2da611105b08cc3f9a",
+    "P0027.8aa3779cd43945c899e3e7a72392796c",
+    "P0027.f54c2b52183b4461a500abdc954c236b"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        111651.08,
+        516657.42
+      ],
+      "axis": [
+        -0.940775,
+        -0.339032
+      ],
+      "halfLength": 12,
+      "halfWidth": 16.94,
+      "height": 45.233,
+      "gradient": [
+        -0.01472,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        111713.98,
+        516680.08
+      ],
+      "axis": [
+        0.940775,
+        0.339032
+      ],
+      "halfLength": 12,
+      "halfWidth": 16.94,
+      "height": 45.259,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0361.8abeacd54b3b7500047d62daf76ada3c",
+      "P0027.e82b60202d554f2da611105b08cc3f9a"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0361.8abeacd54b3b7500047d62daf76ada3c",
+          "type": "dek"
+        },
+        {
+          "id": "P0027.e82b60202d554f2da611105b08cc3f9a",
+          "type": "dek"
+        },
+        {
+          "id": "P0027.8aa3779cd43945c899e3e7a72392796c",
+          "type": "onbekend"
+        },
+        {
+          "id": "P0027.f54c2b52183b4461a500abdc954c236b",
+          "type": "onbekend"
+        }
+      ],
+      "osm": {
+        "id": "way/727874920",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "movable",
+          "foot": "use_sidepath",
+          "highway": "secondary",
+          "lanes": "2",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "50",
+          "mofa": "use_sidepath",
+          "name": "Tesselsebrug",
+          "old_name": "Texelschebrug",
+          "oneway": "no",
+          "start_date": "1986",
+          "surface": "asphalt",
+          "bridge:structure": "cable-stayed",
+          "man_made": "bridge"
+        }
+      },
+      "fis": {
+        "id": 3087,
+        "naam": "Tesselsebrug",
+        "afstand": 5,
+        "beweegbaar": true,
+        "doorvaarthoogteGesloten": 3.13
+      },
+      "pdokBridgeVlakken": 4
+    },
+    "type": "tuibrug",
+    "doorvaarthoogte": 3.13,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,500000,120000,520000 --run nl-5_10 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 42.9,
+      "dekBreedte": 29.9,
+      "brugLengte": 42.9,
+      "water": [
+        -19.9,
+        20.6
+      ],
+      "portaalhoogte": 26.9,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [],
+      "opritHoogtes": [
+        45.056,
+        45.109
+      ]
+    },
+    "waarschuwingen": [
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "tuibrug zonder BGT-pylonen: alleen het dek"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

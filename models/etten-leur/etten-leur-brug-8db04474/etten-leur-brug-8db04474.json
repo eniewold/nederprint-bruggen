@@ -1,0 +1,105 @@
+{
+  "name": "Haansberg",
+  "file": "etten-leur-brug-8db04474.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    102423.73,
+    401638.63
+  ],
+  "xAxis": [
+    0.04712,
+    0.998889
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 44.642,
+  "groundSamplePoints": [
+    [
+      5.77,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0777.8db0447471784cfe8c2318dbaa7f3f65"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        102423.96,
+        401643.39
+      ],
+      "axis": [
+        0.04712,
+        0.998889
+      ],
+      "halfLength": 3,
+      "halfWidth": 6.99,
+      "height": 44.792,
+      "gradient": [
+        -0.05,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0777.8db0447471784cfe8c2318dbaa7f3f65"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0777.8db0447471784cfe8c2318dbaa7f3f65",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/236725134",
+        "tags": {
+          "bridge": "yes",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Haansberg",
+          "source:maxspeed": "NL:zone60"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,400000,120000,420000 --run nl-5_5 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 3.5,
+      "dekBreedte": 10,
+      "brugLengte": 3.5,
+      "water": [
+        -1.8,
+        1.7
+      ],
+      "portaalhoogte": 9,
+      "opritafstand": [
+        12,
+        4
+      ],
+      "oprithelling": 6,
+      "doorstekend": [],
+      "opritHoogtes": [
+        null,
+        44.642
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "oprit - zonder PDOK-maaiveld",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

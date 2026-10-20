@@ -1,0 +1,138 @@
+{
+  "name": "heerhugowaard-brug-95da1417",
+  "file": "heerhugowaard-brug-95da1417.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    115152.4,
+    517576.26
+  ],
+  "xAxis": [
+    0.65186,
+    -0.758339
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 39.868,
+  "groundSamplePoints": [
+    [
+      -15.41,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0398.95da141706ff4b56ad37457fe4148df8"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        115152.4,
+        517576.26
+      ],
+      "axis": [
+        0.65186,
+        -0.758339
+      ],
+      "halfLength": 3.5,
+      "halfWidth": 1.28,
+      "height": 38.868,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.19,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        115143.27,
+        517586.89
+      ],
+      "axis": [
+        -0.65186,
+        0.758339
+      ],
+      "halfLength": 7.01,
+      "halfWidth": 1.16,
+      "height": 40.018,
+      "gradient": [
+        -0.02141,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0398.95da141706ff4b56ad37457fe4148df8"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0398.95da141706ff4b56ad37457fe4148df8",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/161578208",
+        "tags": {
+          "bridge": "yes",
+          "highway": "footway",
+          "layer": "1"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,500000,120000,520000 --run nl-5_10 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 14,
+      "dekBreedte": 1.6,
+      "brugLengte": 14,
+      "water": [
+        -3,
+        2.5
+      ],
+      "portaalhoogte": 2.5,
+      "opritafstand": [
+        8.4,
+        25.2
+      ],
+      "oprithelling": 14,
+      "doorstekend": [
+        {
+          "gmlId": "G0398.539522a5d4b043eb8581eb9b729c2f0d",
+          "klasse": "Forest",
+          "oppervlak": 108.8,
+          "onderDek": 0.01,
+          "bovenDekOnderkant": 0.19,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "W0651.ff1a839591074c46ad984340b256f1c5",
+          "klasse": "Terrain",
+          "oppervlak": 49.2,
+          "onderDek": 0.01,
+          "bovenDekOnderkant": 0.08,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        39.868,
+        null
+      ]
+    },
+    "waarschuwingen": [
+      "oprit + zonder PDOK-maaiveld",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

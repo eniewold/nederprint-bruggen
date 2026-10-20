@@ -1,0 +1,171 @@
+{
+  "name": "Heukelspad",
+  "file": "alkmaar-brug-8abeacd5-178.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    112063.49,
+    518218.9
+  ],
+  "xAxis": [
+    -0.032484,
+    0.999472
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 42.172,
+  "groundSamplePoints": [
+    [
+      -8.5,
+      0
+    ],
+    [
+      8.5,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0361.8abeacd54b3b7500047cd9e4c0794178"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        112063.49,
+        518218.9
+      ],
+      "axis": [
+        -0.032484,
+        0.999472
+      ],
+      "halfLength": 1.93,
+      "halfWidth": 3.58,
+      "height": 41.189,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.65,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        112063.74,
+        518211.17
+      ],
+      "axis": [
+        0.032484,
+        -0.999472
+      ],
+      "halfLength": 3.87,
+      "halfWidth": 4.62,
+      "height": 42.331,
+      "gradient": [
+        -0.041,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        112063.24,
+        518226.62
+      ],
+      "axis": [
+        -0.032484,
+        0.999472
+      ],
+      "halfLength": 3.87,
+      "halfWidth": 4.62,
+      "height": 42.339,
+      "gradient": [
+        -0.03881,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0361.8abeacd54b3b7500047cd9e4c0794178"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0361.8abeacd54b3b7500047cd9e4c0794178",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/85866207",
+        "tags": {
+          "bridge": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "name": "Heukelspad",
+          "oneway": "no",
+          "surface": "asphalt"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,500000,120000,520000 --run nl-5_10 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 7.7,
+      "dekBreedte": 6.2,
+      "brugLengte": 7.7,
+      "water": [
+        -1.4,
+        1.6
+      ],
+      "portaalhoogte": 5.5,
+      "opritafstand": [
+        4.6,
+        4.6
+      ],
+      "oprithelling": 7.7,
+      "doorstekend": [
+        {
+          "gmlId": "G0361.3d3707c9592d43b2a1ccec2e247356d3",
+          "klasse": "Terrain",
+          "oppervlak": 12.1,
+          "onderDek": 0.3,
+          "bovenDekOnderkant": 0.65,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "W0651.8abeacd54a6b7500047f1a29dd7e6105",
+          "klasse": "Terrain",
+          "oppervlak": 110.3,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.45,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0361.da1d453a47c34758b1ae9cfa805673aa",
+          "klasse": "Terrain",
+          "oppervlak": 12.9,
+          "onderDek": 0.26,
+          "bovenDekOnderkant": 0.37,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        42.172,
+        42.189
+      ]
+    },
+    "waarschuwingen": [
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "3 PDOK-vorm(en) door het dek: 0 verborgen, 3 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

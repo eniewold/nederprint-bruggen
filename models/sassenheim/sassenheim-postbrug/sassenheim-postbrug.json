@@ -1,0 +1,180 @@
+{
+  "name": "Postbrug",
+  "file": "sassenheim-postbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    93138.72,
+    468719.21
+  ],
+  "xAxis": [
+    0.846531,
+    0.532339
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 45.98,
+  "groundSamplePoints": [
+    [
+      -12.95,
+      0
+    ],
+    [
+      12.95,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G1525.3b2bd326ec0049e1bcd27fa3d26f2340"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        93138.72,
+        468719.21
+      ],
+      "axis": [
+        0.846531,
+        0.532339
+      ],
+      "halfLength": 2.94,
+      "halfWidth": 4.12,
+      "height": 45.039,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -2.33,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        93128.76,
+        468712.94
+      ],
+      "axis": [
+        -0.846531,
+        -0.532339
+      ],
+      "halfLength": 5.89,
+      "halfWidth": 5.44,
+      "height": 46.16,
+      "gradient": [
+        -0.03048,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        93148.69,
+        468725.48
+      ],
+      "axis": [
+        0.846531,
+        0.532339
+      ],
+      "halfLength": 5.89,
+      "halfWidth": 5.44,
+      "height": 46.189,
+      "gradient": [
+        -0.02548,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G1525.3b2bd326ec0049e1bcd27fa3d26f2340"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G1525.3b2bd326ec0049e1bcd27fa3d26f2340",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/669552919",
+        "tags": {
+          "bicycle": "yes",
+          "bridge": "yes",
+          "cycleway:both": "no",
+          "foot": "yes",
+          "highway": "secondary",
+          "lanes": "2",
+          "layer": "1",
+          "maxspeed:backward": "80",
+          "maxspeed:forward": "50",
+          "maxspeed:type:backward": "NL:rural",
+          "maxspeed:type:forward": "sign",
+          "name": "Postbrug",
+          "operator": "Gemeente Teylingen",
+          "zone:traffic": "NL:rural",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,460000,100000,480000 --run nl-4_8 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 11.8,
+      "dekBreedte": 7.2,
+      "brugLengte": 11.8,
+      "water": [
+        -3.4,
+        3.1
+      ],
+      "portaalhoogte": 6.5,
+      "opritafstand": [
+        7.1,
+        7.1
+      ],
+      "oprithelling": 11.8,
+      "doorstekend": [
+        {
+          "gmlId": "G0546.3c215822894a41eea001346f62006b5e",
+          "klasse": "Terrain",
+          "oppervlak": 8.9,
+          "onderDek": 0.16,
+          "bovenDekOnderkant": 1.33,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "L0002.ac47b9a1ab3e46c1aed3ead77f0a385c",
+          "klasse": "Terrain",
+          "oppervlak": 105.9,
+          "onderDek": 0,
+          "bovenDekOnderkant": 1.15,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G1525.7b1b98850ee04186ab1367aaa231514b",
+          "klasse": "Terrain",
+          "oppervlak": 13.4,
+          "onderDek": 0.04,
+          "bovenDekOnderkant": 0.55,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        45.98,
+        46.039
+      ]
+    },
+    "waarschuwingen": [
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "3 PDOK-vorm(en) door het dek: 0 verborgen, 3 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

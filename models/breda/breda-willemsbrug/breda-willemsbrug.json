@@ -1,0 +1,126 @@
+{
+  "name": "Willemsbrug",
+  "file": "breda-willemsbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    112904.52,
+    400604.15
+  ],
+  "xAxis": [
+    0.075765,
+    -0.997126
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 46.511,
+  "groundSamplePoints": [
+    [
+      -19.86,
+      0
+    ],
+    [
+      19.86,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0758.05d59d1857e3455abc7f3b9c49a720c9"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        112903.16,
+        400622.15
+      ],
+      "axis": [
+        -0.075765,
+        0.997126
+      ],
+      "halfLength": 9.03,
+      "halfWidth": 12.15,
+      "height": 46.712,
+      "gradient": [
+        -0.02231,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        112905.89,
+        400586.15
+      ],
+      "axis": [
+        0.075765,
+        -0.997126
+      ],
+      "halfLength": 9.03,
+      "halfWidth": 12.15,
+      "height": 46.764,
+      "gradient": [
+        -0.01662,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0758.05d59d1857e3455abc7f3b9c49a720c9"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0758.05d59d1857e3455abc7f3b9c49a720c9",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/579416716",
+        "tags": {
+          "bridge": "low_water_crossing",
+          "bridge:structure": "arch",
+          "layer": "1",
+          "man_made": "bridge",
+          "name": "Willemsbrug"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "gewelf",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,400000,120000,420000 --run nl-5_5 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 18.1,
+      "dekBreedte": 20.3,
+      "brugLengte": 18.1,
+      "water": [
+        -8.5,
+        8.5
+      ],
+      "portaalhoogte": 18.3,
+      "opritafstand": [
+        10.8,
+        10.8
+      ],
+      "oprithelling": 18.1,
+      "doorstekend": [],
+      "opritHoogtes": [
+        46.511,
+        46.614
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

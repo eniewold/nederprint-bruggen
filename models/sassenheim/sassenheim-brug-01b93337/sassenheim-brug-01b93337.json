@@ -1,0 +1,142 @@
+{
+  "name": "Spoorpad",
+  "file": "sassenheim-brug-01b93337.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    93818.09,
+    468691.66
+  ],
+  "xAxis": [
+    -0.197214,
+    0.980361
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 43.255,
+  "groundSamplePoints": [
+    [
+      -18.4,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G1525.01b9333781ef4fb0bf8c68c405b75da9"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        93818.09,
+        468691.66
+      ],
+      "axis": [
+        -0.197214,
+        0.980361
+      ],
+      "halfLength": 4.18,
+      "halfWidth": 2.13,
+      "height": 42.255,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.85,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        93821.39,
+        468675.26
+      ],
+      "axis": [
+        0.197214,
+        -0.980361
+      ],
+      "halfLength": 8.36,
+      "halfWidth": 2.45,
+      "height": 43.405,
+      "gradient": [
+        -0.01794,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G1525.01b9333781ef4fb0bf8c68c405b75da9"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G1525.01b9333781ef4fb0bf8c68c405b75da9",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/170471129",
+        "tags": {
+          "bridge": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "mofa": "designated",
+          "moped": "designated",
+          "name": "Spoorpad",
+          "traffic_sign": "NL:G12a"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,460000,100000,480000 --run nl-4_8 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 16.7,
+      "dekBreedte": 3.3,
+      "brugLengte": 16.7,
+      "water": [
+        -2.9,
+        3.6
+      ],
+      "portaalhoogte": 2.9,
+      "opritafstand": [
+        10,
+        30.1
+      ],
+      "oprithelling": 16.7,
+      "doorstekend": [
+        {
+          "gmlId": "G1525.b0e1b83111884e07b20f41a47e2a9bcc",
+          "klasse": "Forest",
+          "oppervlak": 235.2,
+          "onderDek": 0.04,
+          "bovenDekOnderkant": 0.85,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G1525.17868975015f437aa8669e305665230d",
+          "klasse": "Forest",
+          "oppervlak": 778.6,
+          "onderDek": 0.02,
+          "bovenDekOnderkant": 0.83,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        43.255,
+        null
+      ]
+    },
+    "waarschuwingen": [
+      "oprit + zonder PDOK-maaiveld",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

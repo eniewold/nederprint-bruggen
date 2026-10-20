@@ -1,0 +1,128 @@
+{
+  "name": "Victoriebrug",
+  "file": "alkmaar-victoriebrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    111624.69,
+    516942.11
+  ],
+  "xAxis": [
+    0.983886,
+    0.178796
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 45.095,
+  "groundSamplePoints": [
+    [
+      -46.03,
+      0
+    ],
+    [
+      46.03,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "P0027.8abeacd54bdb7500047a984154d99236"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        111587.28,
+        516935.31
+      ],
+      "axis": [
+        -0.983886,
+        -0.178796
+      ],
+      "halfLength": 12,
+      "halfWidth": 6.02,
+      "height": 45.247,
+      "gradient": [
+        -0.01267,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        111662.1,
+        516948.91
+      ],
+      "axis": [
+        0.983886,
+        0.178796
+      ],
+      "halfLength": 12,
+      "halfWidth": 6.02,
+      "height": 45.249,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "P0027.8abeacd54bdb7500047a984154d99236"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "P0027.8abeacd54bdb7500047a984154d99236",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/474000533",
+        "tags": {
+          "bridge": "yes",
+          "bridge:name": "Victoriebrug",
+          "highway": "footway",
+          "layer": "1",
+          "name": "Victoriebrug",
+          "man_made": "bridge",
+          "bridge:movable": "bascule"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "basculebrug",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,500000,120000,520000 --run nl-5_10 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 52.1,
+      "dekBreedte": 8,
+      "brugLengte": 52.1,
+      "water": [
+        -26,
+        26
+      ],
+      "portaalhoogte": 7.2,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [],
+      "opritHoogtes": [
+        45.095,
+        45.099
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

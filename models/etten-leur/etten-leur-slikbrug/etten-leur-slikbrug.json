@@ -1,0 +1,133 @@
+{
+  "name": "Slikbrug",
+  "file": "etten-leur-slikbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    104218.48,
+    400311.35
+  ],
+  "xAxis": [
+    -0.976015,
+    -0.217704
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 45.926,
+  "groundSamplePoints": [
+    [
+      -13.89,
+      0
+    ],
+    [
+      13.89,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0777.0316b27ad85bcfcfe0535c02ef0a0ba2"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        104230.81,
+        400314.1
+      ],
+      "axis": [
+        0.976015,
+        0.217704
+      ],
+      "halfLength": 6.31,
+      "halfWidth": 2.41,
+      "height": 46.129,
+      "gradient": [
+        -0.03222,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        104206.16,
+        400308.6
+      ],
+      "axis": [
+        -0.976015,
+        -0.217704
+      ],
+      "halfLength": 6.31,
+      "halfWidth": 2.41,
+      "height": 46.183,
+      "gradient": [
+        -0.02376,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0777.0316b27ad85bcfcfe0535c02ef0a0ba2"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0777.0316b27ad85bcfcfe0535c02ef0a0ba2",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/682347605",
+        "tags": {
+          "bridge": "movable",
+          "highway": "cycleway",
+          "layer": "1",
+          "surface": "wood",
+          "man_made": "bridge",
+          "name": "Slikbrug"
+        }
+      },
+      "fis": {
+        "id": 1664,
+        "naam": "Slickbrug",
+        "afstand": 11,
+        "beweegbaar": true,
+        "doorvaarthoogteGesloten": 2
+      },
+      "pdokBridgeVlakken": 1
+    },
+    "type": "basculebrug",
+    "doorvaarthoogte": 2,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,400000,120000,420000 --run nl-5_5 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 12.6,
+      "dekBreedte": 3.2,
+      "brugLengte": 12.6,
+      "water": [
+        -5.8,
+        6.2
+      ],
+      "portaalhoogte": 2.9,
+      "opritafstand": [
+        7.6,
+        7.6
+      ],
+      "oprithelling": 12.6,
+      "doorstekend": [],
+      "opritHoogtes": [
+        45.926,
+        46.033
+      ]
+    },
+    "waarschuwingen": [
+      "bridge=movable zonder mechanisme: basculebrug is een gok",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

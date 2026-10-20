@@ -1,0 +1,136 @@
+{
+  "name": "Klinkenbergerbrug",
+  "file": "sassenheim-klinkenbergerbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    94010.94,
+    469467.14
+  ],
+  "xAxis": [
+    -0.728488,
+    -0.685059
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 45.469,
+  "groundSamplePoints": [
+    [
+      -5.94,
+      0
+    ],
+    [
+      5.94,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G1525.680819822f25416bb96f3efc0102a1fc"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        94014.55,
+        469470.52
+      ],
+      "axis": [
+        0.728488,
+        0.685059
+      ],
+      "halfLength": 3,
+      "halfWidth": 14.32,
+      "height": 45.654,
+      "gradient": [
+        -0.06156,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        94007.34,
+        469463.75
+      ],
+      "axis": [
+        -0.728488,
+        -0.685059
+      ],
+      "halfLength": 3,
+      "halfWidth": 14.32,
+      "height": 45.688,
+      "gradient": [
+        -0.05,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G1525.680819822f25416bb96f3efc0102a1fc"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G1525.680819822f25416bb96f3efc0102a1fc",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1266768081",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "yes",
+          "foot": "use_sidepath",
+          "highway": "secondary",
+          "lanes": "3",
+          "lanes:backward": "2",
+          "layer": "1",
+          "maxspeed": "60",
+          "mofa": "use_sidepath",
+          "moped": "use_sidepath",
+          "name": "Klinkenbergerbrug",
+          "operator": "Gemeente Teylingen",
+          "turn:lanes:backward": "through|right",
+          "zone:traffic": "NL:rural",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,460000,100000,480000 --run nl-4_8 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 3.9,
+      "dekBreedte": 24.6,
+      "brugLengte": 3.9,
+      "water": [
+        -1.4,
+        1.6
+      ],
+      "portaalhoogte": 22.2,
+      "opritafstand": [
+        4,
+        4
+      ],
+      "oprithelling": 6,
+      "doorstekend": [],
+      "opritHoogtes": [
+        45.469,
+        45.538
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

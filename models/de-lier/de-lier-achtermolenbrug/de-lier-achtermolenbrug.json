@@ -1,0 +1,187 @@
+{
+  "name": "Achtermolenbrug",
+  "file": "de-lier-achtermolenbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    80484.47,
+    444052.61
+  ],
+  "xAxis": [
+    0.786829,
+    0.617171
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 43.758,
+  "groundSamplePoints": [
+    [
+      -43.23,
+      0
+    ],
+    [
+      43.23,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G1783.d8fa452f132741348e8f46788a5789dc",
+    "G1783.31e3b0e605a44487b234ab4f2468341c",
+    "G1783.b6910f791c6b44d184423a8a171c7427",
+    "G1783.46d59cd3c70f4e5593e6766f8397cae8",
+    "G1783.cda194ef1fcb444db430d66b1ccfcaed"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        80484.47,
+        444052.61
+      ],
+      "axis": [
+        0.786829,
+        0.617171
+      ],
+      "halfLength": 17.23,
+      "halfWidth": 4.72,
+      "height": 43.39,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -2.78,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        80456.74,
+        444030.87
+      ],
+      "axis": [
+        -0.786829,
+        -0.617171
+      ],
+      "halfLength": 12,
+      "halfWidth": 6.22,
+      "height": 44.224,
+      "gradient": [
+        -0.03879,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        80512.19,
+        444074.36
+      ],
+      "axis": [
+        0.786829,
+        0.617171
+      ],
+      "halfLength": 12,
+      "halfWidth": 6.22,
+      "height": 44.54,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G1783.d8fa452f132741348e8f46788a5789dc"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G1783.d8fa452f132741348e8f46788a5789dc",
+          "type": "dek"
+        },
+        {
+          "id": "G1783.31e3b0e605a44487b234ab4f2468341c",
+          "type": "landhoofd"
+        },
+        {
+          "id": "G1783.b6910f791c6b44d184423a8a171c7427",
+          "type": "landhoofd"
+        }
+      ],
+      "osm": {
+        "id": "way/727912556",
+        "tags": {
+          "bridge": "yes",
+          "bridge:name": "Achtermolenbrug",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Achtermolenbrug",
+          "name:etymology:wikidata": "Q2646512",
+          "surface": "asphalt",
+          "zone:traffic": "NL:rural",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 3
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,440000,100000,460000 --run nl-4_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 46.5,
+      "dekBreedte": 8.4,
+      "brugLengte": 46.5,
+      "water": [
+        -14.2,
+        6.8
+      ],
+      "portaalhoogte": 7.6,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G1842.abff067976fb4afa86ed58cc9020f166",
+          "klasse": "Road",
+          "oppervlak": 685.2,
+          "onderDek": 0,
+          "bovenDekOnderkant": 1.78,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G1783.46d59cd3c70f4e5593e6766f8397cae8",
+          "klasse": "Terrain",
+          "oppervlak": 13.5,
+          "onderDek": 1,
+          "bovenDekOnderkant": 0.48,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "G1783.cda194ef1fcb444db430d66b1ccfcaed",
+          "klasse": "Terrain",
+          "oppervlak": 15.2,
+          "onderDek": 1,
+          "bovenDekOnderkant": 0.31,
+          "actie": "verbergen"
+        }
+      ],
+      "opritHoogtes": [
+        43.758,
+        44.39
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "3 PDOK-vorm(en) door het dek: 2 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

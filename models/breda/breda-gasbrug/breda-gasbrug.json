@@ -1,0 +1,136 @@
+{
+  "name": "Gasbrug",
+  "file": "breda-gasbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    112259.38,
+    400550.34
+  ],
+  "xAxis": [
+    0.422487,
+    -0.906369
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 46.526,
+  "groundSamplePoints": [
+    [
+      -22.97,
+      0
+    ],
+    [
+      22.97,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0758.799c62b00b194f339785c85added63d0"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        112250.56,
+        400569.26
+      ],
+      "axis": [
+        -0.422487,
+        0.906369
+      ],
+      "halfLength": 10.44,
+      "halfWidth": 20.74,
+      "height": 46.679,
+      "gradient": [
+        -0.01437,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        112268.2,
+        400531.41
+      ],
+      "axis": [
+        0.422487,
+        -0.906369
+      ],
+      "halfLength": 10.44,
+      "halfWidth": 20.74,
+      "height": 46.677,
+      "gradient": [
+        -0.01449,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0758.799c62b00b194f339785c85added63d0"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0758.799c62b00b194f339785c85added63d0",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/579331555",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "yes",
+          "foot": "use_sidepath",
+          "highway": "unclassified",
+          "lanes": "3",
+          "layer": "1",
+          "maxspeed": "50",
+          "maxweight:signed": "no",
+          "name": "Gasbrug",
+          "oneway": "yes",
+          "turn:lanes": "left;through|right|right",
+          "zone:traffic": "NL:urban",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,400000,120000,420000 --run nl-5_5 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 20.9,
+      "dekBreedte": 37.5,
+      "brugLengte": 20.9,
+      "water": [
+        -9.9,
+        10.1
+      ],
+      "portaalhoogte": 33.7,
+      "opritafstand": [
+        12.5,
+        12.5
+      ],
+      "oprithelling": 20.9,
+      "doorstekend": [],
+      "opritHoogtes": [
+        46.529,
+        46.526
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}

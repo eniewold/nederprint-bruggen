@@ -1,0 +1,190 @@
+{
+  "name": "Koudenhoornbrug",
+  "file": "warmond-koudenhoornbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    94564.06,
+    467705.7
+  ],
+  "xAxis": [
+    -0.78443,
+    0.620218
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 43.566,
+  "groundSamplePoints": [
+    [
+      -52.03,
+      0
+    ],
+    [
+      52.03,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G1525.0dc9dc6b97144674b1c7a61d5c78ad06",
+    "G1525.2e442369bcd3405fb075ee35dd6f94c1",
+    "G1525.5409c2415a104d10a8efb64f6c55683d"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        94564.06,
+        467705.7
+      ],
+      "axis": [
+        -0.78443,
+        0.620218
+      ],
+      "halfLength": 26.03,
+      "halfWidth": 1.76,
+      "height": 42.628,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.34,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        94598.6,
+        467678.39
+      ],
+      "axis": [
+        0.78443,
+        -0.620218
+      ],
+      "halfLength": 12,
+      "halfWidth": 1.89,
+      "height": 43.747,
+      "gradient": [
+        -0.0151,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        94529.53,
+        467733.01
+      ],
+      "axis": [
+        -0.78443,
+        0.620218
+      ],
+      "halfLength": 12,
+      "halfWidth": 1.89,
+      "height": 43.778,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G1525.0dc9dc6b97144674b1c7a61d5c78ad06",
+      "G1525.2e442369bcd3405fb075ee35dd6f94c1",
+      "G1525.5409c2415a104d10a8efb64f6c55683d"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G1525.0dc9dc6b97144674b1c7a61d5c78ad06",
+          "type": "dek"
+        },
+        {
+          "id": "G1525.2e442369bcd3405fb075ee35dd6f94c1",
+          "type": "dek"
+        },
+        {
+          "id": "G1525.5409c2415a104d10a8efb64f6c55683d",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/564407421",
+        "tags": {
+          "bridge": "movable",
+          "bridge:movable": "bascule",
+          "foot": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "lit": "yes",
+          "mofa": "no",
+          "moped": "no",
+          "name": "Koudenhoornbrug",
+          "segregated": "no",
+          "surface": "asphalt",
+          "traffic_sign": "NL:G13",
+          "bridge:structure": "humpback",
+          "man_made": "bridge"
+        }
+      },
+      "fis": {
+        "id": 2191,
+        "naam": "Koudenhoornbrug",
+        "afstand": 1,
+        "beweegbaar": true,
+        "doorvaarthoogteGesloten": 2.71
+      },
+      "pdokBridgeVlakken": 3
+    },
+    "type": "basculebrug",
+    "doorvaarthoogte": 2.71,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,460000,100000,480000 --run nl-4_8 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 64.1,
+      "dekBreedte": 2.5,
+      "brugLengte": 64.1,
+      "water": [
+        -24.5,
+        25.5
+      ],
+      "portaalhoogte": 2.5,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G1525.a1474682e53f75e5e053840018acc13d",
+          "klasse": "Road",
+          "oppervlak": 9.1,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.34,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G1525.5da5aa3a5077482b854608d397590aaa",
+          "klasse": "Terrain",
+          "oppervlak": 258.5,
+          "onderDek": 0.03,
+          "bovenDekOnderkant": 0.27,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        43.566,
+        43.628
+      ]
+    },
+    "waarschuwingen": [
+      "OSM zegt humpback, gekozen type basculebrug",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-19"
+  }
+}
