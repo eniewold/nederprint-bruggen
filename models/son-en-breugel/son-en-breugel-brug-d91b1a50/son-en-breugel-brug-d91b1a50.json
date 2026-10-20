@@ -1,0 +1,169 @@
+{
+  "name": "Thermaelaan",
+  "file": "son-en-breugel-brug-d91b1a50.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    162830.96,
+    392486.47
+  ],
+  "xAxis": [
+    -0.899735,
+    0.436436
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 57.686,
+  "groundSamplePoints": [
+    [
+      -34.47,
+      0
+    ],
+    [
+      34.47,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0848.d91b1a5009994ef39568700779e3645e",
+    "G0848.f92a8812cc304afda380a172a234b9ac"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        162830.96,
+        392486.47
+      ],
+      "axis": [
+        -0.899735,
+        0.436436
+      ],
+      "halfLength": 9.67,
+      "halfWidth": 8.58,
+      "height": 57.014,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.54,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        162855.85,
+        392474.39
+      ],
+      "axis": [
+        0.899735,
+        -0.436436
+      ],
+      "halfLength": 12,
+      "halfWidth": 10.08,
+      "height": 58,
+      "gradient": [
+        -0.0262,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        162806.07,
+        392498.55
+      ],
+      "axis": [
+        -0.899735,
+        0.436436
+      ],
+      "halfLength": 12,
+      "halfWidth": 10.08,
+      "height": 58.164,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0848.d91b1a5009994ef39568700779e3645e"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0848.d91b1a5009994ef39568700779e3645e",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1320091940",
+        "tags": {
+          "bicycle": "yes",
+          "bridge": "yes",
+          "highway": "residential",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "30",
+          "name": "Thermaelaan",
+          "sidewalk": "right",
+          "surface": "asphalt",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,380000,180000,400000 --run nl-8_4 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 31.3,
+      "dekBreedte": 16.2,
+      "brugLengte": 31.3,
+      "water": [
+        -7.2,
+        7.8
+      ],
+      "portaalhoogte": 14.5,
+      "opritafstand": [
+        18.8,
+        18.8
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "W0539.e8589e7a7fdf431a92a4a8b67e6b9425",
+          "klasse": "Terrain",
+          "oppervlak": 63.3,
+          "onderDek": 0.36,
+          "bovenDekOnderkant": 0.54,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0848.f92a8812cc304afda380a172a234b9ac",
+          "klasse": "Terrain",
+          "oppervlak": 40.7,
+          "onderDek": 0.74,
+          "bovenDekOnderkant": 0.09,
+          "actie": "verbergen"
+        }
+      ],
+      "opritHoogtes": [
+        57.686,
+        58.014
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 1 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

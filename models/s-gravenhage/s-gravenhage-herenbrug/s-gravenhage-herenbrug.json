@@ -1,0 +1,139 @@
+{
+  "name": "Herenbrug",
+  "file": "s-gravenhage-herenbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    81870.13,
+    455316.98
+  ],
+  "xAxis": [
+    -0.830669,
+    -0.556766
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 45.696,
+  "groundSamplePoints": [
+    [
+      -6.93,
+      0
+    ],
+    [
+      6.93,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0518.1e0a6f139b40e183e053530a0b0a8a7d"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        81875.05,
+        455320.28
+      ],
+      "axis": [
+        0.830669,
+        0.556766
+      ],
+      "halfLength": 3,
+      "halfWidth": 14.02,
+      "height": 45.862,
+      "gradient": [
+        -0.05527,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        81865.2,
+        455313.68
+      ],
+      "axis": [
+        -0.830669,
+        -0.556766
+      ],
+      "halfLength": 3,
+      "halfWidth": 14.02,
+      "height": 45.877,
+      "gradient": [
+        -0.05,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0518.1e0a6f139b40e183e053530a0b0a8a7d"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0518.1e0a6f139b40e183e053530a0b0a8a7d",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/742189593",
+        "tags": {
+          "bridge": "yes",
+          "cycleway:right": "lane",
+          "highway": "tertiary",
+          "lanes": "3",
+          "lanes:backward": "2",
+          "lanes:forward": "1",
+          "layer": "1",
+          "maxspeed": "50",
+          "maxweight:signed": "no",
+          "name": "Herenbrug",
+          "sidewalk": "both",
+          "sidewalk:both:surface": "paving_stones",
+          "surface": "asphalt",
+          "turn:lanes:backward": "left|through;right",
+          "zone:traffic": "NL:urban",
+          "bridge:structure": "beam",
+          "man_made": "bridge",
+          "source:name": "BAG/BGT"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,440000,100000,460000 --run nl-4_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 5.9,
+      "dekBreedte": 24,
+      "brugLengte": 5.9,
+      "water": [
+        -2.4,
+        2.6
+      ],
+      "portaalhoogte": 21.6,
+      "opritafstand": [
+        4,
+        4
+      ],
+      "oprithelling": 6,
+      "doorstekend": [],
+      "opritHoogtes": [
+        45.696,
+        45.727
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

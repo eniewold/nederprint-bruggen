@@ -1,0 +1,162 @@
+{
+  "name": "hoogvliet-rotterdam-brug-16fd0171-23",
+  "file": "hoogvliet-rotterdam-brug-16fd0171-23.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    84403.75,
+    430087.84
+  ],
+  "xAxis": [
+    0.486658,
+    0.873593
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 47.814,
+  "groundSamplePoints": [
+    [
+      -38.9,
+      -1.22
+    ],
+    [
+      109.01,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0599.16fd01711675bcac9e050210a7e24119"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        84403.75,
+        430087.84
+      ],
+      "axis": [
+        0.486658,
+        0.873593
+      ],
+      "halfLength": 22.95,
+      "halfWidth": 12.12,
+      "height": 47.337,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.55,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        84383.85,
+        430052.11
+      ],
+      "axis": [
+        -0.486658,
+        -0.873593
+      ],
+      "halfLength": 12,
+      "halfWidth": 13.62,
+      "height": 48.226,
+      "gradient": [
+        -0.03431,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        84423.71,
+        430123.66
+      ],
+      "axis": [
+        0.486658,
+        0.873593
+      ],
+      "halfLength": 12,
+      "halfWidth": 13.62,
+      "height": 48.487,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0599.16fd01711675bcac9e050210a7e24119"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0599.16fd01711675bcac9e050210a7e24119",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1496594819",
+        "tags": {
+          "bridge": "viaduct",
+          "highway": "footway",
+          "level": "1"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,420000,100000,440000 --run nl-4_6 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 57.9,
+      "dekBreedte": 23.2,
+      "brugLengte": 57.9,
+      "water": null,
+      "portaalhoogte": 20.9,
+      "opritafstand": [
+        10,
+        80
+      ],
+      "spoorhoogteBron": "pdok",
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0599.170ade2447fe52d73e050210a7e24429",
+          "klasse": "Road",
+          "oppervlak": 4875.7,
+          "onderDek": 0.11,
+          "bovenDekOnderkant": 0.55,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0599.16fd017330bc6cac9e050210a7e24119",
+          "klasse": "Terrain",
+          "oppervlak": 1442.5,
+          "onderDek": 0.47,
+          "bovenDekOnderkant": 0.45,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        47.814,
+        48.337
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "oprit -: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "oprit +: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "oprit + pas op 80 m langs het spoor gemeten (PDOK-spoorterrein bij de brug lager)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

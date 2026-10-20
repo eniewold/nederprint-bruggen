@@ -1,0 +1,165 @@
+{
+  "name": "Reesteijn",
+  "file": "rhoon-brug-9bd5c8ce.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    92417.11,
+    429987.75
+  ],
+  "xAxis": [
+    0.14204,
+    0.989861
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 43.269,
+  "groundSamplePoints": [
+    [
+      -27.61,
+      0
+    ],
+    [
+      27.61,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0613.9bd5c8cecffc4edc97af0dfbc43516a9"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        92417.11,
+        429987.75
+      ],
+      "axis": [
+        0.14204,
+        0.989861
+      ],
+      "halfLength": 6.55,
+      "halfWidth": 4.71,
+      "height": 42.31,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.5,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        92413.62,
+        429963.45
+      ],
+      "axis": [
+        -0.14204,
+        -0.989861
+      ],
+      "halfLength": 12,
+      "halfWidth": 6.21,
+      "height": 43.439,
+      "gradient": [
+        -0.01424,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        92420.59,
+        430012.05
+      ],
+      "axis": [
+        0.14204,
+        0.989861
+      ],
+      "halfLength": 12,
+      "halfWidth": 6.21,
+      "height": 43.46,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0613.9bd5c8cecffc4edc97af0dfbc43516a9"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0613.9bd5c8cecffc4edc97af0dfbc43516a9",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/642318811",
+        "tags": {
+          "bridge": "yes",
+          "highway": "residential",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Reesteijn",
+          "source:maxspeed": "NL:zone30",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,420000,100000,440000 --run nl-4_6 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 25.1,
+      "dekBreedte": 8.4,
+      "brugLengte": 25.1,
+      "water": [
+        -5.5,
+        7
+      ],
+      "portaalhoogte": 7.6,
+      "opritafstand": [
+        15.1,
+        15.1
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0613.6f965e3149c64e3ea39959cf69f41eb9",
+          "klasse": "Terrain",
+          "oppervlak": 41.5,
+          "onderDek": 0.17,
+          "bovenDekOnderkant": 0.5,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0613.7221385d5a274761b8780a7d671d5c5b",
+          "klasse": "Terrain",
+          "oppervlak": 28.9,
+          "onderDek": 0.08,
+          "bovenDekOnderkant": 0.17,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        43.269,
+        43.31
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

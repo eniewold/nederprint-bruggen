@@ -1,0 +1,170 @@
+{
+  "name": "Erasmuslijn",
+  "file": "poortugaal-brug-a4804bcc.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    86739.11,
+    430807.75
+  ],
+  "xAxis": [
+    0.956733,
+    -0.290967
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 45.66,
+  "groundSamplePoints": [
+    [
+      -25.53,
+      0
+    ],
+    [
+      25.53,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0613.df3a987a096848c6919f265afeb9d803",
+    "G0613.a4804bcc8c7e4288b0e562f36d5e0b88"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        86739.11,
+        430807.75
+      ],
+      "axis": [
+        0.956733,
+        -0.290967
+      ],
+      "halfLength": 9.53,
+      "halfWidth": 6.44,
+      "height": 45.102,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.8,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        86712.77,
+        430815.76
+      ],
+      "axis": [
+        -0.956733,
+        0.290967
+      ],
+      "halfLength": 12,
+      "halfWidth": 7.94,
+      "height": 46.252,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        86765.44,
+        430799.74
+      ],
+      "axis": [
+        0.956733,
+        -0.290967
+      ],
+      "halfLength": 12,
+      "halfWidth": 7.94,
+      "height": 46.031,
+      "gradient": [
+        -0.03091,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0613.a4804bcc8c7e4288b0e562f36d5e0b88"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0613.df3a987a096848c6919f265afeb9d803",
+          "type": "pijler"
+        },
+        {
+          "id": "G0613.a4804bcc8c7e4288b0e562f36d5e0b88",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/6307955",
+        "tags": {
+          "bridge": "yes",
+          "description": "Metrolijn D",
+          "designated_direction": "forward",
+          "electrified": "rail",
+          "frequency": "0",
+          "gauge": "1435",
+          "layer": "1",
+          "maxspeed": "80",
+          "name": "Erasmuslijn",
+          "railway": "subway",
+          "railway:lzb": "yes",
+          "railway:track_ref": "1",
+          "ref": "D",
+          "usage": "main",
+          "voltage": "750",
+          "width": "3.4"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 2
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,420000,100000,440000 --run nl-4_6 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 31.1,
+      "dekBreedte": 11.9,
+      "brugLengte": 31.1,
+      "water": null,
+      "portaalhoogte": 10.7,
+      "opritafstand": [
+        10,
+        10
+      ],
+      "spoorhoogteBron": "pdok",
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0613.cee46ceda27e49b0ba6ef8fb2b55b75b",
+          "klasse": "Terrain",
+          "oppervlak": 475.8,
+          "onderDek": 0.22,
+          "bovenDekOnderkant": 0.8,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        46.102,
+        45.66
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "oprit -: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "oprit +: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "name": "Brug Ronduite",
+  "file": "wanneperveen-brug-ronduite.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    199457.4,
+    522465.76
+  ],
+  "xAxis": [
+    -0.969079,
+    -0.246749
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 43.208,
+  "groundSamplePoints": [
+    [
+      -7.09,
+      0
+    ],
+    [
+      7.09,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "P0023.7b7c132ba32845a481fb64513238d94e"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        199463.39,
+        522467.28
+      ],
+      "axis": [
+        0.969079,
+        0.246749
+      ],
+      "halfLength": 3.09,
+      "halfWidth": 6.99,
+      "height": 43.419,
+      "gradient": [
+        -0.04857,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        199451.42,
+        522464.23
+      ],
+      "axis": [
+        -0.969079,
+        -0.246749
+      ],
+      "halfLength": 3.09,
+      "halfWidth": 6.99,
+      "height": 43.388,
+      "gradient": [
+        -0.05854,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "P0023.7b7c132ba32845a481fb64513238d94e"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "P0023.7b7c132ba32845a481fb64513238d94e",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/134076468",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "yes",
+          "foot": "use_sidepath",
+          "highway": "primary",
+          "lanes": "2",
+          "layer": "1",
+          "maxspeed": "50",
+          "mofa": "use_sidepath",
+          "moped": "use_sidepath",
+          "name": "Veneweg",
+          "operator": "Provincie Overijssel",
+          "overtaking": "no",
+          "priority_road": "designated",
+          "ref": "N762",
+          "surface": "asphalt",
+          "wikidata": "Q19632554"
+        }
+      },
+      "fis": {
+        "id": 12637,
+        "naam": "Brug Ronduite",
+        "afstand": 8,
+        "beweegbaar": true,
+        "doorvaarthoogteGesloten": 1.18
+      },
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ophaalbrug",
+    "doorvaarthoogte": 1.18,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 180000,520000,200000,540000 --run nl-9_11 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 6.2,
+      "dekBreedte": 10,
+      "brugLengte": 6.2,
+      "water": [
+        -2.6,
+        2.9
+      ],
+      "portaalhoogte": 9,
+      "opritafstand": [
+        4,
+        4
+      ],
+      "oprithelling": 6.2,
+      "doorstekend": [],
+      "opritHoogtes": [
+        43.269,
+        43.208
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

@@ -1,0 +1,166 @@
+{
+  "name": "rotterdam-brug-8cbd4ef8",
+  "file": "rotterdam-brug-8cbd4ef8.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    90010.53,
+    431667.41
+  ],
+  "xAxis": [
+    0.999301,
+    -0.037392
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 46.518,
+  "groundSamplePoints": [
+    [
+      -47.21,
+      0
+    ],
+    [
+      156.16,
+      15.54
+    ]
+  ],
+  "replacesTerrain": [
+    "G0599.16fd016ff2c17cac9e050210a7e24119",
+    "G0599.8cbd4ef83f8b454888b201379c5a3510"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        90010.53,
+        431667.41
+      ],
+      "axis": [
+        0.999301,
+        -0.037392
+      ],
+      "halfLength": 31.2,
+      "halfWidth": 4.74,
+      "height": 46.215,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.82,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        89961.35,
+        431669.25
+      ],
+      "axis": [
+        -0.999301,
+        0.037392
+      ],
+      "halfLength": 12,
+      "halfWidth": 6.24,
+      "height": 47.365,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        90059.69,
+        431665.57
+      ],
+      "axis": [
+        0.999301,
+        -0.037392
+      ],
+      "halfLength": 12,
+      "halfWidth": 6.24,
+      "height": 47.016,
+      "gradient": [
+        -0.04152,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0599.8cbd4ef83f8b454888b201379c5a3510"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0599.16fd016ff2c17cac9e050210a7e24119",
+          "type": "pijler"
+        },
+        {
+          "id": "G0599.8cbd4ef83f8b454888b201379c5a3510",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/456122318",
+        "tags": {
+          "bridge": "yes",
+          "electrified": "rail",
+          "frequency": "0",
+          "gauge": "1435",
+          "layer": "1",
+          "maxspeed": "40",
+          "railway": "subway",
+          "railway:lzb": "yes",
+          "service": "yard",
+          "source": "ProRail aerial imagery 2015",
+          "voltage": "750"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 2
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,420000,100000,440000 --run nl-4_6 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 74.4,
+      "dekBreedte": 8.5,
+      "brugLengte": 74.4,
+      "water": null,
+      "portaalhoogte": 7.6,
+      "opritafstand": [
+        10,
+        120
+      ],
+      "spoorhoogteBron": "pdok",
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0599.673e87a4b44a4fb58623813171af3dce",
+          "klasse": "Road",
+          "oppervlak": 283667.7,
+          "onderDek": 0.01,
+          "bovenDekOnderkant": 0.82,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        47.215,
+        46.518
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "oprit -: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "oprit +: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "oprit + pas op 120 m langs het spoor gemeten (PDOK-spoorterrein bij de brug lager)",
+      "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

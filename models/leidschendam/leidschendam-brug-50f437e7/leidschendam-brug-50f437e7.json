@@ -1,0 +1,164 @@
+{
+  "name": "leidschendam-brug-50f437e7",
+  "file": "leidschendam-brug-50f437e7.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    90292.4,
+    455533.01
+  ],
+  "xAxis": [
+    0.449648,
+    -0.893206
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 38.653,
+  "groundSamplePoints": [
+    [
+      -13.05,
+      0
+    ],
+    [
+      13.05,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "W0616.50f437e70a57400f87983bf438045519",
+    "G1916.beb26368b9c54321a3d971743bc1bc96"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        90292.4,
+        455533.01
+      ],
+      "axis": [
+        0.449648,
+        -0.893206
+      ],
+      "halfLength": 2.97,
+      "halfWidth": 2.88,
+      "height": 37.703,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.76,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        90287.07,
+        455543.6
+      ],
+      "axis": [
+        -0.449648,
+        0.893206
+      ],
+      "halfLength": 5.93,
+      "halfWidth": 3.57,
+      "height": 38.828,
+      "gradient": [
+        -0.02953,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        90297.74,
+        455522.42
+      ],
+      "axis": [
+        0.449648,
+        -0.893206
+      ],
+      "halfLength": 5.93,
+      "halfWidth": 3.57,
+      "height": 38.853,
+      "gradient": [
+        -0.02529,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "W0616.50f437e70a57400f87983bf438045519"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "W0616.50f437e70a57400f87983bf438045519",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/7445958",
+        "tags": {
+          "access": "private",
+          "bridge": "yes",
+          "highway": "track",
+          "layer": "1",
+          "surface": "concrete",
+          "tracktype": "grade1"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,440000,100000,460000 --run nl-4_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 11.9,
+      "dekBreedte": 4.8,
+      "brugLengte": 11.9,
+      "water": [
+        -0.9,
+        1.1
+      ],
+      "portaalhoogte": 4.3,
+      "opritafstand": [
+        7.1,
+        7.1
+      ],
+      "oprithelling": 11.9,
+      "doorstekend": [
+        {
+          "gmlId": "G1916.b2067cbd36904f558a0cbbc46bf9db4a",
+          "klasse": "Terrain",
+          "oppervlak": 9.3,
+          "onderDek": 0.55,
+          "bovenDekOnderkant": 0.76,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G1916.beb26368b9c54321a3d971743bc1bc96",
+          "klasse": "Terrain",
+          "oppervlak": 8.4,
+          "onderDek": 0.79,
+          "bovenDekOnderkant": 0.63,
+          "actie": "verbergen"
+        }
+      ],
+      "opritHoogtes": [
+        38.653,
+        38.703
+      ]
+    },
+    "waarschuwingen": [
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 1 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

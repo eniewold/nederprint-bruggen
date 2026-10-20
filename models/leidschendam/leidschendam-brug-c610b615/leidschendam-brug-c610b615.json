@@ -1,0 +1,159 @@
+{
+  "name": "De Koppels",
+  "file": "leidschendam-brug-c610b615.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    87789.06,
+    456186.81
+  ],
+  "xAxis": [
+    0.999232,
+    -0.039186
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 43.763,
+  "groundSamplePoints": [
+    [
+      -6.48,
+      0
+    ],
+    [
+      6.48,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G1916.c610b615571142ceb55de9156da3bb70"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        87789.06,
+        456186.81
+      ],
+      "axis": [
+        0.999232,
+        -0.039186
+      ],
+      "halfLength": 1.24,
+      "halfWidth": 3.27,
+      "height": 42.885,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.49,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        87783.59,
+        456187.03
+      ],
+      "axis": [
+        -0.999232,
+        0.039186
+      ],
+      "halfLength": 3,
+      "halfWidth": 4.15,
+      "height": 44.035,
+      "gradient": [
+        -0.05,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        87794.53,
+        456186.6
+      ],
+      "axis": [
+        0.999232,
+        -0.039186
+      ],
+      "halfLength": 3,
+      "halfWidth": 4.15,
+      "height": 43.974,
+      "gradient": [
+        -0.07038,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G1916.c610b615571142ceb55de9156da3bb70"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G1916.c610b615571142ceb55de9156da3bb70",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/943540731",
+        "tags": {
+          "bridge": "yes",
+          "highway": "residential",
+          "lanes": "1",
+          "layer": "1",
+          "lit": "no",
+          "maxspeed": "30",
+          "maxweight:signed": "no",
+          "name": "De Koppels",
+          "surface": "asphalt"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,440000,100000,460000 --run nl-4_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 5,
+      "dekBreedte": 5.5,
+      "brugLengte": 5,
+      "water": [
+        -2,
+        1
+      ],
+      "portaalhoogte": 5,
+      "opritafstand": [
+        4,
+        4
+      ],
+      "oprithelling": 6,
+      "doorstekend": [
+        {
+          "gmlId": "W0616.85f917f6aa91453eab2587db2cabc7c8",
+          "klasse": "Terrain",
+          "oppervlak": 124,
+          "onderDek": 0.01,
+          "bovenDekOnderkant": 0.49,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        43.885,
+        43.763
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

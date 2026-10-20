@@ -1,0 +1,179 @@
+{
+  "name": "rotterdam-brug-8abeacd5-3",
+  "file": "rotterdam-brug-8abeacd5-3.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    89717.46,
+    431516.64
+  ],
+  "xAxis": [
+    0.925914,
+    -0.377735
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 49.469,
+  "groundSamplePoints": [
+    [
+      -63.62,
+      0
+    ],
+    [
+      63.62,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "L0002.8abeacd54a6b7500047bb6e9b359ea14",
+    "L0002.8abeacd54a6b7500047bb6e9b359eb80",
+    "L0002.8abeacd54a6b7500047bbb7f0ff5394d"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        89717.46,
+        431516.64
+      ],
+      "axis": [
+        0.925914,
+        -0.377735
+      ],
+      "halfLength": 37.62,
+      "halfWidth": 18.64,
+      "height": 49.464,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.1,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        89665.96,
+        431537.65
+      ],
+      "axis": [
+        -0.925914,
+        0.377735
+      ],
+      "halfLength": 12,
+      "halfWidth": 20.14,
+      "height": 50.116,
+      "gradient": [
+        -0.05396,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        89768.97,
+        431495.63
+      ],
+      "axis": [
+        0.925914,
+        -0.377735
+      ],
+      "halfLength": 12,
+      "halfWidth": 20.14,
+      "height": 50.614,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "L0002.8abeacd54a6b7500047bbb7f0ff5394d"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "L0002.8abeacd54a6b7500047bb6e9b359ea14",
+          "type": "landhoofd"
+        },
+        {
+          "id": "L0002.8abeacd54a6b7500047bb6e9b359eb80",
+          "type": "landhoofd"
+        },
+        {
+          "id": "L0002.8abeacd54a6b7500047bbb7f0ff5394d",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/553628190",
+        "tags": {
+          "bridge": "yes",
+          "carriageway_ref": "Re",
+          "highway": "motorway",
+          "lanes": "3",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "100",
+          "noname": "yes",
+          "official_name": "Rijksweg A15",
+          "oneway": "yes",
+          "operator": "Rijkswaterstaat",
+          "ref": "A15",
+          "surface": "asphalt",
+          "toll:hgv": "yes",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 3
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,420000,100000,440000 --run nl-4_6 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 87.2,
+      "dekBreedte": 36.3,
+      "brugLengte": 87.2,
+      "water": null,
+      "portaalhoogte": 32.7,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "L0002.2e491f71ba8541e49ed4f0dcd81d764c",
+          "klasse": "Terrain",
+          "oppervlak": 89.3,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.1,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "L0002.17bf01d405a5493a9aadbe7a3e228bbe",
+          "klasse": "Terrain",
+          "oppervlak": 959.8,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.07,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        49.469,
+        50.464
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

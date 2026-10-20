@@ -1,0 +1,131 @@
+{
+  "name": "s-gravenhage-brug-1e0a6f13-25",
+  "file": "s-gravenhage-brug-1e0a6f13-25.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    82126.83,
+    453370.78
+  ],
+  "xAxis": [
+    0.627572,
+    -0.778559
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 43.841,
+  "groundSamplePoints": [
+    [
+      -113.85,
+      0
+    ],
+    [
+      73.57,
+      -9.02
+    ]
+  ],
+  "replacesTerrain": [
+    "G0518.1e0a6f13a0cee183e053530a0b0a8a7d"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        82121.97,
+        453376.81
+      ],
+      "axis": [
+        -0.627572,
+        0.778559
+      ],
+      "halfLength": 3.89,
+      "halfWidth": 18.61,
+      "height": 44.667,
+      "gradient": [
+        -0.03853,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        82131.74,
+        453364.68
+      ],
+      "axis": [
+        0.627572,
+        -0.778559
+      ],
+      "halfLength": 3.89,
+      "halfWidth": 18.61,
+      "height": 44.329,
+      "gradient": [
+        -0.12537,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0518.1e0a6f13a0cee183e053530a0b0a8a7d"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0518.1e0a6f13a0cee183e053530a0b0a8a7d",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1369587536",
+        "tags": {
+          "bridge": "yes",
+          "highway": "footway",
+          "layer": "1",
+          "surface": "paved",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,440000,100000,460000 --run nl-4_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 7.8,
+      "dekBreedte": 33.2,
+      "brugLengte": 7.8,
+      "water": [
+        -1.8,
+        2.2
+      ],
+      "portaalhoogte": 29.9,
+      "opritafstand": [
+        110,
+        70
+      ],
+      "spoorhoogteBron": "pdok",
+      "oprithelling": 7.8,
+      "doorstekend": [],
+      "opritHoogtes": [
+        44.517,
+        43.841
+      ]
+    },
+    "waarschuwingen": [
+      "oprit -: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "oprit -: spoorterrein voorbij 150 m nog 1.1 m hoger (46.1 m); PDOK trekt het spoor hier ver naar beneden, controleer de dekhoogte of geef --opritafstand",
+      "oprit - pas op 110 m langs het spoor gemeten (PDOK-spoorterrein bij de brug lager)",
+      "oprit +: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "oprit + pas op 70 m langs het spoor gemeten (PDOK-spoorterrein bij de brug lager)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

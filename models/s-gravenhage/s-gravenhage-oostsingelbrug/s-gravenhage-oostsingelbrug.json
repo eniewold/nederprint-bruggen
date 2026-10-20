@@ -1,0 +1,164 @@
+{
+  "name": "Oostsingelbrug",
+  "file": "s-gravenhage-oostsingelbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    82129.03,
+    454999.19
+  ],
+  "xAxis": [
+    -0.560644,
+    0.828057
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 43.673,
+  "groundSamplePoints": [
+    [
+      -5.51,
+      0
+    ],
+    [
+      5.51,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0518.24f5c66f3b554c0d9c2d0f3e0dcf85cc"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        82129.03,
+        454999.19
+      ],
+      "axis": [
+        -0.560644,
+        0.828057
+      ],
+      "halfLength": 0.75,
+      "halfWidth": 4.18,
+      "height": 42.726,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.66,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        82131.55,
+        454995.46
+      ],
+      "axis": [
+        0.560644,
+        -0.828057
+      ],
+      "halfLength": 3,
+      "halfWidth": 5.52,
+      "height": 43.849,
+      "gradient": [
+        -0.05869,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        82126.5,
+        455002.92
+      ],
+      "axis": [
+        -0.560644,
+        0.828057
+      ],
+      "halfLength": 3,
+      "halfWidth": 5.52,
+      "height": 43.876,
+      "gradient": [
+        -0.05,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0518.24f5c66f3b554c0d9c2d0f3e0dcf85cc"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0518.24f5c66f3b554c0d9c2d0f3e0dcf85cc",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/293473281",
+        "tags": {
+          "bridge": "yes",
+          "highway": "footway",
+          "layer": "1",
+          "name": "Oostsingelbrug",
+          "short_name": "GW 59",
+          "surface": "concrete",
+          "bridge:structure": "beam",
+          "man_made": "bridge",
+          "source:name": "BAG/BGT"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,440000,100000,460000 --run nl-4_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 3,
+      "dekBreedte": 7.4,
+      "brugLengte": 3,
+      "water": null,
+      "portaalhoogte": 6.6,
+      "opritafstand": [
+        4,
+        4
+      ],
+      "oprithelling": 6,
+      "doorstekend": [
+        {
+          "gmlId": "G0518.1e0a6f177de2e183e053530a0b0a8a7d",
+          "klasse": "Road",
+          "oppervlak": 80.2,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.66,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0518.1e0a6f17774ae183e053530a0b0a8a7d",
+          "klasse": "Road",
+          "oppervlak": 121.9,
+          "onderDek": 0.18,
+          "bovenDekOnderkant": 0.66,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        43.673,
+        43.726
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

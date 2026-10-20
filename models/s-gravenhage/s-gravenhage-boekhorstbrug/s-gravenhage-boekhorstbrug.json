@@ -1,0 +1,128 @@
+{
+  "name": "Boekhorstbrug",
+  "file": "s-gravenhage-boekhorstbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    81250.49,
+    454285.85
+  ],
+  "xAxis": [
+    0.475896,
+    -0.879502
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 44.64,
+  "groundSamplePoints": [
+    [
+      -6.5,
+      0
+    ],
+    [
+      6.5,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0518.1e0a6f13b1b8e183e053530a0b0a8a7d"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        81247.87,
+        454290.69
+      ],
+      "axis": [
+        -0.475896,
+        0.879502
+      ],
+      "halfLength": 3,
+      "halfWidth": 7.38,
+      "height": 44.855,
+      "gradient": [
+        -0.05,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        81253.1,
+        454281.01
+      ],
+      "axis": [
+        0.475896,
+        -0.879502
+      ],
+      "halfLength": 3,
+      "halfWidth": 7.38,
+      "height": 44.823,
+      "gradient": [
+        -0.06093,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0518.1e0a6f13b1b8e183e053530a0b0a8a7d"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0518.1e0a6f13b1b8e183e053530a0b0a8a7d",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/374567793",
+        "tags": {
+          "bridge": "viaduct",
+          "bridge:structure": "beam",
+          "bridge:support": "pier",
+          "layer": "1",
+          "man_made": "bridge",
+          "name": "Boekhorstbrug",
+          "short_name": "GW 3"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,440000,100000,460000 --run nl-4_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 5,
+      "dekBreedte": 10.8,
+      "brugLengte": 5,
+      "water": [
+        -2,
+        2
+      ],
+      "portaalhoogte": 9.7,
+      "opritafstand": [
+        4,
+        4
+      ],
+      "oprithelling": 6,
+      "doorstekend": [],
+      "opritHoogtes": [
+        44.705,
+        44.64
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

@@ -1,0 +1,184 @@
+{
+  "name": "Oude Lijn",
+  "file": "s-gravenhage-brug-eddc8cc8.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    82140.43,
+    454195.65
+  ],
+  "xAxis": [
+    0.818137,
+    -0.575023
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 43.416,
+  "groundSamplePoints": [
+    [
+      -64.75,
+      0
+    ],
+    [
+      24.75,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0518.eddc8cc8b01f41e8aa81986fb19a0f28"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        82140.43,
+        454195.65
+      ],
+      "axis": [
+        0.818137,
+        -0.575023
+      ],
+      "halfLength": 8.75,
+      "halfWidth": 6.74,
+      "height": 42.849,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.79,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        82118.54,
+        454211.03
+      ],
+      "axis": [
+        -0.818137,
+        0.575023
+      ],
+      "halfLength": 12,
+      "halfWidth": 8.24,
+      "height": 43.999,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        82162.31,
+        454180.27
+      ],
+      "axis": [
+        0.818137,
+        -0.575023
+      ],
+      "halfLength": 12,
+      "halfWidth": 8.24,
+      "height": 43.782,
+      "gradient": [
+        -0.03052,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0518.eddc8cc8b01f41e8aa81986fb19a0f28"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0518.eddc8cc8b01f41e8aa81986fb19a0f28",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1565555716",
+        "tags": {
+          "bridge": "yes",
+          "description": "Den Haag HS",
+          "electrified": "contact_line",
+          "frequency": "0",
+          "gauge": "1435",
+          "layer": "1",
+          "maxspeed": "40",
+          "name": "Oude Lijn",
+          "operator": "ProRail",
+          "passenger_lines": "4",
+          "railway": "rail",
+          "railway:atb": "yes",
+          "railway:maximum_current": "4000",
+          "railway:track_class": "D4",
+          "railway:traffic_mode": "passenger",
+          "ref": "10000134",
+          "ref:ProRailID": "2877755.0",
+          "ref:ProRailSpoortak": "536_239R_60.7",
+          "source": "ProRail",
+          "source:date": "2014-01-03",
+          "usage": "main",
+          "voltage": "1500",
+          "wikidata": "Q801843",
+          "wikipedia": "nl:Spoorlijn Amsterdam - Rotterdam",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,440000,100000,460000 --run nl-4_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 29.5,
+      "dekBreedte": 12.5,
+      "brugLengte": 29.5,
+      "water": null,
+      "portaalhoogte": 11.2,
+      "opritafstand": [
+        50,
+        10
+      ],
+      "spoorhoogteBron": "pdok",
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0518.14cc2a65ac7b41d28b83c6bdd3d51e58",
+          "klasse": "Terrain",
+          "oppervlak": 2289.5,
+          "onderDek": 0.03,
+          "bovenDekOnderkant": 0.79,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0518.477938a50907473e867a8a79cdcceb59",
+          "klasse": "Terrain",
+          "oppervlak": 160.4,
+          "onderDek": 0.16,
+          "bovenDekOnderkant": 0.56,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        43.849,
+        43.416
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "oprit -: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "oprit - pas op 50 m langs het spoor gemeten (PDOK-spoorterrein bij de brug lager)",
+      "oprit +: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

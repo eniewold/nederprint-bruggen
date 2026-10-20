@@ -1,0 +1,169 @@
+{
+  "name": "Hoogeweg",
+  "file": "kalenberg-brug-df75d936.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    194170.21,
+    533914.54
+  ],
+  "xAxis": [
+    0.470688,
+    0.8823
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 41.922,
+  "groundSamplePoints": [
+    [
+      -6.69,
+      0
+    ],
+    [
+      6.69,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G1708.df75d936db7c41539d19831262c5b83b"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        194170.21,
+        533914.54
+      ],
+      "axis": [
+        0.470688,
+        0.8823
+      ],
+      "halfLength": 1.35,
+      "halfWidth": 3.36,
+      "height": 41.482,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.29,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        194167.53,
+        533909.52
+      ],
+      "axis": [
+        -0.470688,
+        -0.8823
+      ],
+      "halfLength": 3,
+      "halfWidth": 4.29,
+      "height": 42.632,
+      "gradient": [
+        -0.05,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        194172.89,
+        533919.57
+      ],
+      "axis": [
+        0.470688,
+        0.8823
+      ],
+      "halfLength": 3,
+      "halfWidth": 4.29,
+      "height": 42.352,
+      "gradient": [
+        -0.14323,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G1708.df75d936db7c41539d19831262c5b83b"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G1708.df75d936db7c41539d19831262c5b83b",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/369356223",
+        "tags": {
+          "bridge": "yes",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "60",
+          "maxspeed:type": "NL:zone60",
+          "name": "Hoogeweg",
+          "sidewalk": "no",
+          "smoothness": "good",
+          "surface": "asphalt",
+          "zone:maxspeed": "NL:60",
+          "zone:traffic": "NL:rural"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 180000,520000,200000,540000 --run nl-9_11 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 5.4,
+      "dekBreedte": 5.7,
+      "brugLengte": 5.4,
+      "water": [
+        -0.7,
+        0.8
+      ],
+      "portaalhoogte": 5.1,
+      "opritafstand": [
+        4,
+        4
+      ],
+      "oprithelling": 6,
+      "doorstekend": [
+        {
+          "gmlId": "W0648.76fcee3b03254fb191b9bb0fe7bc1621",
+          "klasse": "Terrain",
+          "oppervlak": 81.6,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.29,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "W0648.f5c041f21f6e4c8183086686283d2b72",
+          "klasse": "Terrain",
+          "oppervlak": 51.5,
+          "onderDek": 0.04,
+          "bovenDekOnderkant": 0.25,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        42.482,
+        41.922
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

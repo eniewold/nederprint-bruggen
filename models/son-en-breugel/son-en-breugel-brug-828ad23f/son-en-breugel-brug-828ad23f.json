@@ -1,0 +1,192 @@
+{
+  "name": "Koppenberg",
+  "file": "son-en-breugel-brug-828ad23f.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    160975.02,
+    390631.92
+  ],
+  "xAxis": [
+    0.360105,
+    -0.932912
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 66.348,
+  "groundSamplePoints": [
+    [
+      -63.32,
+      0
+    ],
+    [
+      63.3,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "L0002.603d20269acb42a9957c43067fc64e16",
+    "L0002.69a0be459ad9418cbfb18e31ffb3411d",
+    "L0002.828ad23f673f4be69a09df60268c889d"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        160975.02,
+        390631.92
+      ],
+      "axis": [
+        0.360105,
+        -0.932912
+      ],
+      "halfLength": 37.26,
+      "halfWidth": 22,
+      "height": 65.42,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.89,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        160955.1,
+        390683.53
+      ],
+      "axis": [
+        -0.360105,
+        0.932912
+      ],
+      "halfLength": 12,
+      "halfWidth": 23.5,
+      "height": 66.534,
+      "gradient": [
+        -0.01551,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        160994.93,
+        390580.33
+      ],
+      "axis": [
+        0.360105,
+        -0.932912
+      ],
+      "halfLength": 12,
+      "halfWidth": 23.5,
+      "height": 66.57,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "L0002.828ad23f673f4be69a09df60268c889d"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "L0002.603d20269acb42a9957c43067fc64e16",
+          "type": "onbekend"
+        },
+        {
+          "id": "L0002.69a0be459ad9418cbfb18e31ffb3411d",
+          "type": "onbekend"
+        },
+        {
+          "id": "L0002.828ad23f673f4be69a09df60268c889d",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/83512830",
+        "tags": {
+          "bridge": "yes",
+          "carriageway_ref": "Li",
+          "destination:lanes": "Maastricht;Tilburg;'s-Hertogenbosch;Eindhoven|Maastricht;Tilburg;'s-Hertogenbosch;Eindhoven|Helmond;Eindhoven;-Centrum;-Woensel;-Tongelre|Helmond;Eindhoven;-Centrum;-Woensel;-Tongelre",
+          "highway": "motorway",
+          "lanes": "4",
+          "layer": "1",
+          "lit": "no",
+          "maxspeed": "100",
+          "maxspeed:conditional": "120 @ (19:00-06:00)",
+          "maxspeed:type": "sign",
+          "noname": "yes",
+          "official_name": "Rijksweg A50",
+          "oneway": "yes",
+          "operator": "Rijkswaterstaat",
+          "placement": "right_of:1",
+          "ref": "A50",
+          "source:official_name": "NWB",
+          "surface": "asphalt",
+          "toll:hgv": "yes",
+          "turn:lanes": "none|none|slight_right|slight_right",
+          "zone:traffic": "NL:rural",
+          "bridge:structure": "beam",
+          "man_made": "bridge",
+          "name": "Koppenberg"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 3
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,380000,180000,400000 --run nl-8_4 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 86.5,
+      "dekBreedte": 43,
+      "brugLengte": 86.6,
+      "water": [
+        -21.3,
+        11.7
+      ],
+      "portaalhoogte": 38.7,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0848.4779cc59c2c445b898c1c56314a41c9b",
+          "klasse": "Terrain",
+          "oppervlak": 1509.6,
+          "onderDek": 0.3,
+          "bovenDekOnderkant": 0.89,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "L0002.8f1952f7ed504ee7b789f5222c39545d",
+          "klasse": "Separation",
+          "oppervlak": 30.5,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.39,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        66.348,
+        66.42
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

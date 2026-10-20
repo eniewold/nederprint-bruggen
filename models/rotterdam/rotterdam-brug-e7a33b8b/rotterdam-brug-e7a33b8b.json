@@ -1,0 +1,185 @@
+{
+  "name": "Vondelingenweg",
+  "file": "rotterdam-brug-e7a33b8b.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    89807.89,
+    431577.98
+  ],
+  "xAxis": [
+    0.980406,
+    -0.19699
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 48.617,
+  "groundSamplePoints": [
+    [
+      -69.09,
+      0
+    ],
+    [
+      69.09,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0599.e7a33b8bea634c99a123f068c16a4e2b",
+    "L0002.8abeacd54a6b7500047bb6e9b359ea84",
+    "G0599.b6fe911ac8ac4e1d853970e5d45ec5b6"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        89807.89,
+        431577.98
+      ],
+      "axis": [
+        0.980406,
+        -0.19699
+      ],
+      "halfLength": 43.09,
+      "halfWidth": 7.54,
+      "height": 48.323,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.54,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        89748,
+        431590.01
+      ],
+      "axis": [
+        -0.980406,
+        0.19699
+      ],
+      "halfLength": 12,
+      "halfWidth": 9.04,
+      "height": 49.473,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        89867.79,
+        431565.94
+      ],
+      "axis": [
+        0.980406,
+        -0.19699
+      ],
+      "halfLength": 12,
+      "halfWidth": 9.04,
+      "height": 49.12,
+      "gradient": [
+        -0.04192,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0599.e7a33b8bea634c99a123f068c16a4e2b"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0599.e7a33b8bea634c99a123f068c16a4e2b",
+          "type": "dek"
+        },
+        {
+          "id": "L0002.8abeacd54a6b7500047bb6e9b359ea84",
+          "type": "landhoofd"
+        }
+      ],
+      "osm": {
+        "id": "way/553628194",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "yes",
+          "change:lanes:backward": "no",
+          "change:lanes:forward": "no",
+          "foot": "use_sidepath",
+          "highway": "secondary",
+          "lanes": "2",
+          "layer": "1",
+          "maxspeed": "80",
+          "mofa": "use_sidepath",
+          "moped": "use_sidepath",
+          "name": "Vondelingenweg",
+          "oneway": "no",
+          "operator": "Havenbedrijf Rotterdam N.V.",
+          "surface": "asphalt",
+          "zone:traffic": "NL:rural",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 2
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,420000,100000,440000 --run nl-4_6 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 98.2,
+      "dekBreedte": 14.1,
+      "brugLengte": 98.2,
+      "water": null,
+      "portaalhoogte": 12.7,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0599.170ade2440e242d73e050210a7e24429",
+          "klasse": "Road",
+          "oppervlak": 844.6,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.54,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0599.b6fe911ac8ac4e1d853970e5d45ec5b6",
+          "klasse": "Terrain",
+          "oppervlak": 27.4,
+          "onderDek": 0.8,
+          "bovenDekOnderkant": 0.54,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "L0002.4e5c4f253c78445eb9cd8d58f9b90370",
+          "klasse": "Forest",
+          "oppervlak": 95.4,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.35,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        49.323,
+        48.617
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "3 PDOK-vorm(en) door het dek: 1 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "name": "Brug Heuvel",
+  "file": "oirschot-brug-heuvel.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    148667.27,
+    390105.39
+  ],
+  "xAxis": [
+    -0.066238,
+    0.997804
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 60.016,
+  "groundSamplePoints": [
+    [
+      -27.61,
+      0
+    ],
+    [
+      27.61,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "L0002.b94d6bedac224abcac071ea89fb1f00c"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        148668.9,
+        390080.89
+      ],
+      "axis": [
+        0.066238,
+        -0.997804
+      ],
+      "halfLength": 12,
+      "halfWidth": 3.01,
+      "height": 60.241,
+      "gradient": [
+        -0.01879,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        148665.64,
+        390129.88
+      ],
+      "axis": [
+        -0.066238,
+        0.997804
+      ],
+      "halfLength": 12,
+      "halfWidth": 3.01,
+      "height": 60.317,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "L0002.b94d6bedac224abcac071ea89fb1f00c"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "L0002.b94d6bedac224abcac071ea89fb1f00c",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/665915661",
+        "tags": {
+          "bridge": "movable",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Brug Heuvel",
+          "zone:traffic": "NL:rural",
+          "bridge:movable": "bascule",
+          "man_made": "bridge",
+          "bridge:structure": "beam"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "basculebrug",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,380000,160000,400000 --run nl-7_4 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 25.1,
+      "dekBreedte": 4,
+      "brugLengte": 25.1,
+      "water": [
+        -11.6,
+        11.4
+      ],
+      "portaalhoogte": 3.6,
+      "opritafstand": [
+        15.1,
+        15.1
+      ],
+      "oprithelling": 24,
+      "doorstekend": [],
+      "opritHoogtes": [
+        60.016,
+        60.167
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

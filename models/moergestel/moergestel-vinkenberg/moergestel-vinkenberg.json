@@ -1,0 +1,193 @@
+{
+  "name": "Vinkenberg",
+  "file": "moergestel-vinkenberg.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    140564.74,
+    394090.48
+  ],
+  "xAxis": [
+    -0.086956,
+    -0.996212
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 59.277,
+  "groundSamplePoints": [
+    [
+      -50.82,
+      0
+    ],
+    [
+      50.82,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "L0002.60a57c98839a4f76bba438981571930c",
+    "L0002.62232310b4d44d58b2dd27609d5e35d8",
+    "L0002.67371cc692474bdcaeb6b009575c2a0f",
+    "G0824.19c03f3fac4f49c994858df35a9f07b8",
+    "G0824.c2ad1940ca454b49b22aa67468f5b2c4",
+    "G0824.d8bf7dcebbce4228b70f4116425c3e74"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        140564.74,
+        394090.48
+      ],
+      "axis": [
+        -0.086956,
+        -0.996212
+      ],
+      "halfLength": 24.82,
+      "halfWidth": 5.31,
+      "height": 58.322,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -2.15,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        140568.46,
+        394133.13
+      ],
+      "axis": [
+        0.086956,
+        0.996212
+      ],
+      "halfLength": 12,
+      "halfWidth": 6.81,
+      "height": 59.472,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        140561.01,
+        394047.82
+      ],
+      "axis": [
+        -0.086956,
+        -0.996212
+      ],
+      "halfLength": 12,
+      "halfWidth": 6.81,
+      "height": 59.45,
+      "gradient": [
+        -0.01435,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0824.19c03f3fac4f49c994858df35a9f07b8"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "L0002.60a57c98839a4f76bba438981571930c",
+          "type": "onbekend"
+        },
+        {
+          "id": "L0002.62232310b4d44d58b2dd27609d5e35d8",
+          "type": "onbekend"
+        },
+        {
+          "id": "L0002.67371cc692474bdcaeb6b009575c2a0f",
+          "type": "onbekend"
+        },
+        {
+          "id": "G0824.19c03f3fac4f49c994858df35a9f07b8",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/678253066",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "yes",
+          "foot": "use_sidepath",
+          "highway": "secondary",
+          "layer": "1",
+          "maxspeed": "50",
+          "maxspeed:type": "sign",
+          "maxweight:signed": "no",
+          "name": "Vinkenberg",
+          "surface": "asphalt",
+          "zone:traffic": "NL:rural",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 4
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,380000,160000,400000 --run nl-7_4 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 61.6,
+      "dekBreedte": 9.6,
+      "brugLengte": 61.6,
+      "water": null,
+      "portaalhoogte": 8.7,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0824.c2ad1940ca454b49b22aa67468f5b2c4",
+          "klasse": "Terrain",
+          "oppervlak": 66,
+          "onderDek": 0.84,
+          "bovenDekOnderkant": 1.15,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "G0824.27d9f56b5f3c464787b3cfc2fa431af8",
+          "klasse": "Forest",
+          "oppervlak": 12.6,
+          "onderDek": 0.03,
+          "bovenDekOnderkant": 1.15,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0824.d8bf7dcebbce4228b70f4116425c3e74",
+          "klasse": "Terrain",
+          "oppervlak": 65.6,
+          "onderDek": 0.86,
+          "bovenDekOnderkant": 0.53,
+          "actie": "verbergen"
+        }
+      ],
+      "opritHoogtes": [
+        59.322,
+        59.277
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "3 PDOK-vorm(en) door het dek: 2 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

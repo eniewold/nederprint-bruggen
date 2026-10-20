@@ -1,0 +1,198 @@
+{
+  "name": "Oude Lijn",
+  "file": "s-gravenhage-brug-739ee4c8.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    82633.04,
+    454473.1
+  ],
+  "xAxis": [
+    -0.820781,
+    -0.571243
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 48.253,
+  "groundSamplePoints": [
+    [
+      -32.55,
+      0
+    ],
+    [
+      32.57,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0518.1e0a6f100bfce183e053530a0b0a8a7d",
+    "G0518.1e0a6f13eaf1e183e053530a0b0a8a7d",
+    "G0518.1e0a6f13eaf2e183e053530a0b0a8a7d",
+    "L0004.739ee4c8a4be4b768ffa008687fa24da"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        82633.04,
+        454473.1
+      ],
+      "axis": [
+        -0.820781,
+        -0.571243
+      ],
+      "halfLength": 26.56,
+      "halfWidth": 11.33,
+      "height": 47.374,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.82,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        82669.61,
+        454498.54
+      ],
+      "axis": [
+        0.820781,
+        0.571243
+      ],
+      "halfLength": 12,
+      "halfWidth": 12.83,
+      "height": 48.674,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        82596.46,
+        454447.64
+      ],
+      "axis": [
+        -0.820781,
+        -0.571243
+      ],
+      "halfLength": 12,
+      "halfWidth": 12.83,
+      "height": 48.463,
+      "gradient": [
+        -0.01754,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "L0004.739ee4c8a4be4b768ffa008687fa24da"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0518.1e0a6f100bfce183e053530a0b0a8a7d",
+          "type": "landhoofd"
+        },
+        {
+          "id": "G0518.1e0a6f13eaf1e183e053530a0b0a8a7d",
+          "type": "sloof"
+        },
+        {
+          "id": "G0518.1e0a6f13eaf2e183e053530a0b0a8a7d",
+          "type": "sloof"
+        },
+        {
+          "id": "L0004.739ee4c8a4be4b768ffa008687fa24da",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/461575330",
+        "tags": {
+          "bridge": "yes",
+          "description": "Den Haag Binckhorst",
+          "electrified": "contact_line",
+          "frequency": "0",
+          "gauge": "1435",
+          "layer": "1",
+          "maxspeed": "100",
+          "name": "Oude Lijn",
+          "operator": "ProRail",
+          "passenger_lines": "4",
+          "railway": "rail",
+          "railway:atb": "yes",
+          "railway:maximum_current": "4000",
+          "railway:track_class": "D4",
+          "railway:traffic_mode": "passenger",
+          "ref": "DSB 368",
+          "ref:ProRailID": "2877683.0",
+          "ref:ProRailSpoortak": "564_215AL_59.8",
+          "source": "ProRail",
+          "source:date": "2014-01-03",
+          "start_date": "1985",
+          "usage": "main",
+          "voltage": "1500",
+          "wikidata": "Q801843",
+          "wikipedia": "nl:Spoorlijn Amsterdam - Rotterdam",
+          "bridge:structure": "beam",
+          "bridge:support": "pier",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 4
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,440000,100000,460000 --run nl-4_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 65.1,
+      "dekBreedte": 21.7,
+      "brugLengte": 65.1,
+      "water": null,
+      "portaalhoogte": 19.5,
+      "opritafstand": [
+        0,
+        0
+      ],
+      "spoorhoogteBron": "prorail-pvs",
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "L0004.ff69eb0b3b9a4968996867d0668f16ad",
+          "klasse": "Forest",
+          "oppervlak": 1978.9,
+          "onderDek": 0.12,
+          "bovenDekOnderkant": 0.82,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "L0004.96e4799e66414024ad974e9aca51124e",
+          "klasse": "Separation",
+          "oppervlak": 0.1,
+          "onderDek": 0.02,
+          "bovenDekOnderkant": 0.45,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        48.674,
+        48.253
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

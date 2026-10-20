@@ -1,0 +1,190 @@
+{
+  "name": "Zoetermeer Stadslijn",
+  "file": "zoetermeer-brug-1234b23f.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    91235.71,
+    453259.29
+  ],
+  "xAxis": [
+    -0.966781,
+    -0.255604
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 43.135,
+  "groundSamplePoints": [
+    [
+      -31.24,
+      -1.21
+    ],
+    [
+      51.38,
+      0.34
+    ]
+  ],
+  "replacesTerrain": [
+    "G0637.1234b23f3c7948ae9aace9421c9887ec",
+    "G0637.d958d9cbbfbb4566aa97b348c2dcdf0c",
+    "G0637.da49aae52f0547afbf5d501f9fe2b05d"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        91235.71,
+        453259.29
+      ],
+      "axis": [
+        -0.966781,
+        -0.255604
+      ],
+      "halfLength": 15.33,
+      "halfWidth": 12.49,
+      "height": 42.583,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.31,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        91267.84,
+        453267.79
+      ],
+      "axis": [
+        0.966781,
+        0.255604
+      ],
+      "halfLength": 12,
+      "halfWidth": 13.99,
+      "height": 43.509,
+      "gradient": [
+        -0.03117,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        91203.4,
+        453250.75
+      ],
+      "axis": [
+        -0.966781,
+        -0.255604
+      ],
+      "halfLength": 12,
+      "halfWidth": 13.99,
+      "height": 43.733,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0637.1234b23f3c7948ae9aace9421c9887ec"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0637.1234b23f3c7948ae9aace9421c9887ec",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/344832383",
+        "tags": {
+          "bridge": "viaduct",
+          "electrified": "contact_line",
+          "frequency": "0",
+          "gauge": "1435",
+          "layer": "1",
+          "maxspeed": "80",
+          "name": "Zoetermeer Stadslijn",
+          "oneway": "yes",
+          "operator": "HTM",
+          "railway": "light_rail",
+          "railway:zub222c": "yes",
+          "voltage": "750",
+          "width": "3.4",
+          "wikidata": "Q2765440",
+          "wikipedia": "nl:Spoorlijn Leidschendam aansluiting - Zoetermeer",
+          "bridge:structure": "beam",
+          "bridge:support": "pier",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,440000,100000,460000 --run nl-4_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 42.7,
+      "dekBreedte": 24,
+      "brugLengte": 42.7,
+      "water": [
+        -7.2,
+        8.8
+      ],
+      "portaalhoogte": 21.6,
+      "opritafstand": [
+        10,
+        30
+      ],
+      "spoorhoogteBron": "pdok",
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0637.d958d9cbbfbb4566aa97b348c2dcdf0c",
+          "klasse": "Separation",
+          "oppervlak": 67.9,
+          "onderDek": 1,
+          "bovenDekOnderkant": 0.8,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "G0637.da49aae52f0547afbf5d501f9fe2b05d",
+          "klasse": "Separation",
+          "oppervlak": 80.9,
+          "onderDek": 1,
+          "bovenDekOnderkant": 0.57,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "G0637.47edc2c9058d4bebb0bda04e65cb5401",
+          "klasse": "Forest",
+          "oppervlak": 6785,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.31,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        43.135,
+        43.583
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "oprit -: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "oprit +: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "oprit + pas op 30 m langs het spoor gemeten (PDOK-spoorterrein bij de brug lager)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "3 PDOK-vorm(en) door het dek: 2 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

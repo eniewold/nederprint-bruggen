@@ -1,0 +1,176 @@
+{
+  "name": "Beneluxlijn",
+  "file": "hoogvliet-rotterdam-brug-de1b0dd0.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    85739.33,
+    430910.25
+  ],
+  "xAxis": [
+    0.966795,
+    -0.255554
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 42.236,
+  "groundSamplePoints": [
+    [
+      -6.36,
+      0
+    ],
+    [
+      6.36,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0599.de1b0dd0fcf649df8e075bde704ccf94"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        85739.33,
+        430910.25
+      ],
+      "axis": [
+        0.966795,
+        -0.255554
+      ],
+      "halfLength": 1.18,
+      "halfWidth": 2.13,
+      "height": 41.486,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.33,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        85734.15,
+        430911.62
+      ],
+      "axis": [
+        -0.966795,
+        0.255554
+      ],
+      "halfLength": 3,
+      "halfWidth": 2.44,
+      "height": 42.511,
+      "gradient": [
+        -0.09161,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        85744.51,
+        430908.88
+      ],
+      "axis": [
+        0.966795,
+        -0.255554
+      ],
+      "halfLength": 3,
+      "halfWidth": 2.44,
+      "height": 42.636,
+      "gradient": [
+        -0.05,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0599.de1b0dd0fcf649df8e075bde704ccf94"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0599.de1b0dd0fcf649df8e075bde704ccf94",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/686638171",
+        "tags": {
+          "bridge": "viaduct",
+          "description": "Metrolijn C",
+          "designated_direction": "forward",
+          "electrified": "rail",
+          "frequency": "0",
+          "gauge": "1435",
+          "layer": "1",
+          "maxspeed": "80",
+          "name": "Beneluxlijn",
+          "operator": "RET",
+          "railway": "subway",
+          "railway:lzb": "yes",
+          "railway:track_ref": "10",
+          "ref": "C",
+          "usage": "main",
+          "voltage": "750",
+          "width": "3.4",
+          "wikidata": "Q4718561",
+          "wikipedia": "nl:Beneluxlijn"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,420000,100000,440000 --run nl-4_6 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 4.7,
+      "dekBreedte": 3.3,
+      "brugLengte": 4.7,
+      "water": [
+        -0.4,
+        0.6
+      ],
+      "portaalhoogte": 2.9,
+      "opritafstand": [
+        4,
+        4
+      ],
+      "oprithelling": 6,
+      "doorstekend": [
+        {
+          "gmlId": "G0599.16fd016bbe251cac9e050210a7e24119",
+          "klasse": "Terrain",
+          "oppervlak": 239.3,
+          "onderDek": 0.01,
+          "bovenDekOnderkant": 0.33,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0599.5363870cfd534effb53409be58dc92e8",
+          "klasse": "Terrain",
+          "oppervlak": 4.1,
+          "onderDek": 0.07,
+          "bovenDekOnderkant": 0.22,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        42.236,
+        42.486
+      ]
+    },
+    "waarschuwingen": [
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

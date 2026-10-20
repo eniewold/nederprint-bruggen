@@ -1,0 +1,145 @@
+{
+  "name": "Heuvel",
+  "file": "son-en-breugel-heuvel.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    161122.39,
+    390270.33
+  ],
+  "xAxis": [
+    0.338185,
+    -0.94108
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 66.129,
+  "groundSamplePoints": [
+    [
+      -51.8,
+      0
+    ],
+    [
+      51.8,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "L0002.10aacc08b3ec47aa8f1f57be60598c87",
+    "L0002.66c8a2f150fa43ff8002b59e50174b31",
+    "L0002.acb377e60f494bd99d2487a11e318dcf"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        161107.58,
+        390311.55
+      ],
+      "axis": [
+        -0.338185,
+        0.94108
+      ],
+      "halfLength": 12,
+      "halfWidth": 14.34,
+      "height": 66.715,
+      "gradient": [
+        -0.04886,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        161137.2,
+        390229.11
+      ],
+      "axis": [
+        0.338185,
+        -0.94108
+      ],
+      "halfLength": 12,
+      "halfWidth": 14.34,
+      "height": 67.152,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "L0002.66c8a2f150fa43ff8002b59e50174b31"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "L0002.10aacc08b3ec47aa8f1f57be60598c87",
+          "type": "onbekend"
+        },
+        {
+          "id": "L0002.66c8a2f150fa43ff8002b59e50174b31",
+          "type": "dek"
+        },
+        {
+          "id": "L0002.acb377e60f494bd99d2487a11e318dcf",
+          "type": "onbekend"
+        }
+      ],
+      "osm": {
+        "id": "way/678180311",
+        "tags": {
+          "bridge": "yes",
+          "carriageway_ref": "r",
+          "highway": "motorway_link",
+          "lanes": "2",
+          "layer": "1",
+          "maxspeed": "130",
+          "note:maxspeed": "Counterintuitively, the maxspeed on this on-ramp is 130 km/h instead of the lower speed posted on the main road due to it having only a G1 (start motorway) sign at the start",
+          "note:maxspeed:url": "https://wiki.openstreetmap.org/wiki/Reduced_speed_limit_on_Dutch_motorways",
+          "oneway": "yes",
+          "operator": "Rijkswaterstaat",
+          "ref": "A50",
+          "surface": "asphalt",
+          "toll:hgv": "yes",
+          "zone:traffic": "NL:rural",
+          "bridge:structure": "beam",
+          "man_made": "bridge",
+          "name": "Heuvel"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 3
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,380000,180000,400000 --run nl-8_4 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 63.5,
+      "dekBreedte": 24.7,
+      "brugLengte": 63.6,
+      "water": null,
+      "portaalhoogte": 22.2,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [],
+      "opritHoogtes": [
+        66.129,
+        67.002
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

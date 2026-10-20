@@ -1,0 +1,165 @@
+{
+  "name": "Waterloop",
+  "file": "s-gravenhage-brug-1e0a6f13-18.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    82091.95,
+    453832.43
+  ],
+  "xAxis": [
+    0.985622,
+    -0.168963
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 44.192,
+  "groundSamplePoints": [
+    [
+      -60.24,
+      0
+    ],
+    [
+      60.24,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0518.1e0a6f13a0d7e183e053530a0b0a8a7d"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        82091.95,
+        453832.43
+      ],
+      "axis": [
+        0.985622,
+        -0.168963
+      ],
+      "halfLength": 34.24,
+      "halfWidth": 3.92,
+      "height": 43.229,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.71,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        82040.46,
+        453841.25
+      ],
+      "axis": [
+        -0.985622,
+        0.168963
+      ],
+      "halfLength": 12,
+      "halfWidth": 5.14,
+      "height": 44.361,
+      "gradient": [
+        -0.01402,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        82143.44,
+        453823.6
+      ],
+      "axis": [
+        0.985622,
+        -0.168963
+      ],
+      "halfLength": 12,
+      "halfWidth": 5.14,
+      "height": 44.379,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0518.1e0a6f13a0d7e183e053530a0b0a8a7d"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0518.1e0a6f13a0d7e183e053530a0b0a8a7d",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/4845407",
+        "tags": {
+          "bridge": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "lit": "yes",
+          "moped": "designated",
+          "name": "Waterloop",
+          "surface": "asphalt"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,440000,100000,460000 --run nl-4_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 80.5,
+      "dekBreedte": 6.8,
+      "brugLengte": 80.5,
+      "water": [
+        -34.7,
+        36.3
+      ],
+      "portaalhoogte": 6.2,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0518.1e0a6f177138e183e053530a0b0a8a7d",
+          "klasse": "Road",
+          "oppervlak": 9.6,
+          "onderDek": 0.15,
+          "bovenDekOnderkant": 0.71,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0518.1e0a6f177136e183e053530a0b0a8a7d",
+          "klasse": "Road",
+          "oppervlak": 7.8,
+          "onderDek": 0.05,
+          "bovenDekOnderkant": 0.65,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        44.192,
+        44.229
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

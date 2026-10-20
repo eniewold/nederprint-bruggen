@@ -1,0 +1,180 @@
+{
+  "name": "Zoetermeer Stadslijn",
+  "file": "zoetermeer-brug-9744079d.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    93623.83,
+    454216.59
+  ],
+  "xAxis": [
+    0.922355,
+    -0.386344
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 41.412,
+  "groundSamplePoints": [
+    [
+      -307.38,
+      0
+    ],
+    [
+      41.28,
+      -13.68
+    ]
+  ],
+  "replacesTerrain": [
+    "G0637.9744079db32940d8baa30c2da4fd7598",
+    "G0637.17038532ebbe48318e06d01c52c7f899"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        93623.83,
+        454216.59
+      ],
+      "axis": [
+        0.922355,
+        -0.386344
+      ],
+      "halfLength": 8.33,
+      "halfWidth": 23.89,
+      "height": 40.883,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.12,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        93596.73,
+        454227.94
+      ],
+      "axis": [
+        -0.922355,
+        0.386344
+      ],
+      "halfLength": 12,
+      "halfWidth": 25.39,
+      "height": 42.033,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        93645.31,
+        454207.6
+      ],
+      "axis": [
+        0.922355,
+        -0.386344
+      ],
+      "halfLength": 12,
+      "halfWidth": 25.39,
+      "height": 41.798,
+      "gradient": [
+        -0.03215,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0637.9744079db32940d8baa30c2da4fd7598",
+      "G0637.17038532ebbe48318e06d01c52c7f899"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0637.9744079db32940d8baa30c2da4fd7598",
+          "type": "dek"
+        },
+        {
+          "id": "G0637.17038532ebbe48318e06d01c52c7f899",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/345328664",
+        "tags": {
+          "bridge": "viaduct",
+          "electrified": "contact_line",
+          "frequency": "0",
+          "gauge": "1435",
+          "layer": "1",
+          "maxspeed": "80",
+          "name": "Zoetermeer Stadslijn",
+          "oneway": "yes",
+          "operator": "HTM",
+          "railway": "light_rail",
+          "railway:zub222c": "yes",
+          "viaduct": "yes",
+          "voltage": "750",
+          "width": "3.4",
+          "wikidata": "Q2765440",
+          "wikipedia": "nl:Spoorlijn Leidschendam aansluiting - Zoetermeer",
+          "bridge:structure": "beam",
+          "bridge:support": "pier",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 2
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,440000,100000,460000 --run nl-4_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 28.7,
+      "dekBreedte": 46.8,
+      "brugLengte": 28.7,
+      "water": [
+        -17.4,
+        7.1
+      ],
+      "portaalhoogte": 42.1,
+      "opritafstand": [
+        290,
+        30
+      ],
+      "spoorhoogteBron": "pdok",
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "W0616.ecfb365e50f5478997ae64d18e63f424",
+          "klasse": "Terrain",
+          "oppervlak": 1352,
+          "onderDek": 0.25,
+          "bovenDekOnderkant": 0.12,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        41.883,
+        41.412
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "oprit -: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "oprit - pas op 290 m langs het spoor gemeten (PDOK-spoorterrein bij de brug lager)",
+      "oprit +: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "oprit + pas op 30 m langs het spoor gemeten (PDOK-spoorterrein bij de brug lager)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

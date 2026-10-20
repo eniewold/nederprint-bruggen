@@ -1,0 +1,181 @@
+{
+  "name": "Voordijk",
+  "file": "barendrecht-brug-e1089c1f.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    94481.73,
+    430250.93
+  ],
+  "xAxis": [
+    0.94693,
+    0.321439
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 44.615,
+  "groundSamplePoints": [
+    [
+      -44.55,
+      0
+    ],
+    [
+      44.48,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0489.8088471450224a73bfa8da3e51152926",
+    "G0489.9203b3630365497a9d4e0d58ecb19cea",
+    "G0489.e1089c1fe9b644de89709a379ef606b7",
+    "G0489.d656a9ac0b1d4e619c7245ea9d004f62"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        94481.73,
+        430250.93
+      ],
+      "axis": [
+        0.94693,
+        0.321439
+      ],
+      "halfLength": 17.79,
+      "halfWidth": 3.89,
+      "height": 44.094,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -2.06,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        94447.12,
+        430239.18
+      ],
+      "axis": [
+        -0.94693,
+        -0.321439
+      ],
+      "halfLength": 12,
+      "halfWidth": 5.08,
+      "height": 45.244,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        94516.28,
+        430262.65
+      ],
+      "axis": [
+        0.94693,
+        0.321439
+      ],
+      "halfLength": 12,
+      "halfWidth": 5.08,
+      "height": 45.005,
+      "gradient": [
+        -0.03243,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0489.e1089c1fe9b644de89709a379ef606b7"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0489.8088471450224a73bfa8da3e51152926",
+          "type": "sloof"
+        },
+        {
+          "id": "G0489.9203b3630365497a9d4e0d58ecb19cea",
+          "type": "landhoofd"
+        },
+        {
+          "id": "G0489.e1089c1fe9b644de89709a379ef606b7",
+          "type": "dek"
+        },
+        {
+          "id": "G0489.d656a9ac0b1d4e619c7245ea9d004f62",
+          "type": "landhoofd"
+        }
+      ],
+      "osm": {
+        "id": "way/7333449",
+        "tags": {
+          "bridge": "yes",
+          "cyclestreet": "yes",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxspeed": "30",
+          "mofa": "yes",
+          "moped": "yes",
+          "motor_vehicle": "no",
+          "name": "Voordijk",
+          "source:maxspeed": "NL:zone30",
+          "surface": "asphalt",
+          "traffic_sign": "NL:C12"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 4
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,420000,100000,440000 --run nl-4_6 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 47.6,
+      "dekBreedte": 6.8,
+      "brugLengte": 49,
+      "water": null,
+      "portaalhoogte": 6.1,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0489.d51cbec00b8e4e0da0c0d38153444945",
+          "klasse": "Terrain",
+          "oppervlak": 94.5,
+          "onderDek": 0.51,
+          "bovenDekOnderkant": 1.06,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0489.d3d0d8d00f8e4cffbf7bf81ba3d7f849",
+          "klasse": "Terrain",
+          "oppervlak": 82.4,
+          "onderDek": 0.51,
+          "bovenDekOnderkant": 0.38,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        45.094,
+        44.615
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

@@ -1,0 +1,193 @@
+{
+  "name": "Rijswijksebrug",
+  "file": "s-gravenhage-rijswijksebrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    82122.55,
+    454372.44
+  ],
+  "xAxis": [
+    0.401453,
+    0.915879
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 43.312,
+  "groundSamplePoints": [
+    [
+      -225.94,
+      -221.16
+    ],
+    [
+      28.84,
+      -26.35
+    ]
+  ],
+  "replacesTerrain": [
+    "G0518.1e0a6f13ac7be183e053530a0b0a8a7d"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        82122.55,
+        454372.44
+      ],
+      "axis": [
+        0.401453,
+        0.915879
+      ],
+      "halfLength": 13.32,
+      "halfWidth": 30.99,
+      "height": 44.275,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -2.72,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        82109.98,
+        454343.76
+      ],
+      "axis": [
+        -0.401453,
+        -0.915879
+      ],
+      "halfLength": 12,
+      "halfWidth": 32.49,
+      "height": 44.444,
+      "gradient": [
+        -0.09428,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        82135.13,
+        454401.12
+      ],
+      "axis": [
+        0.401453,
+        0.915879
+      ],
+      "halfLength": 12,
+      "halfWidth": 32.49,
+      "height": 45.425,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0518.1e0a6f13ac7be183e053530a0b0a8a7d"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0518.1e0a6f13ac7be183e053530a0b0a8a7d",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/371288443",
+        "tags": {
+          "bridge": "viaduct",
+          "bridge:structure": "beam",
+          "bridge:support": "pier",
+          "layer": "1",
+          "man_made": "bridge",
+          "name": "Rijswijksebrug",
+          "short_name": "GW 50"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,440000,100000,460000 --run nl-4_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 38.6,
+      "dekBreedte": 61,
+      "brugLengte": 38.6,
+      "water": [
+        -5.8,
+        5.7
+      ],
+      "portaalhoogte": 54.9,
+      "opritafstand": [
+        300,
+        10
+      ],
+      "spoorhoogteBron": "pdok",
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0518.1e0a6f17658de183e053530a0b0a8a7d",
+          "klasse": "Road",
+          "oppervlak": 14.5,
+          "onderDek": 0,
+          "bovenDekOnderkant": 1.72,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0518.239412617f9a402ca1340b6d1b668f76",
+          "klasse": "Terrain",
+          "oppervlak": 7.9,
+          "onderDek": 0,
+          "bovenDekOnderkant": 1.71,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0518.b46af233f0a84c24a4063fbd1eb7d577",
+          "klasse": "Terrain",
+          "oppervlak": 120.8,
+          "onderDek": 0,
+          "bovenDekOnderkant": 1.7,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0518.1e0a6f174d19e183e053530a0b0a8a7d",
+          "klasse": "Road",
+          "oppervlak": 333.6,
+          "onderDek": 0,
+          "bovenDekOnderkant": 1.7,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0518.1e0a6f174c5be183e053530a0b0a8a7d",
+          "klasse": "Road",
+          "oppervlak": 357.4,
+          "onderDek": 0,
+          "bovenDekOnderkant": 1.62,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        43.312,
+        45.275
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "oprit -: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "oprit - pas op 300 m langs het spoor gemeten (PDOK-spoorterrein bij de brug lager)",
+      "oprit +: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "5 PDOK-vorm(en) door het dek: 0 verborgen, 5 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

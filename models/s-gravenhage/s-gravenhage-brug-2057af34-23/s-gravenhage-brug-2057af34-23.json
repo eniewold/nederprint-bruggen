@@ -1,0 +1,186 @@
+{
+  "name": "IJsclubpad",
+  "file": "s-gravenhage-brug-2057af34-23.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    83981.1,
+    455576.37
+  ],
+  "xAxis": [
+    0.803023,
+    0.595948
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 46.011,
+  "groundSamplePoints": [
+    [
+      -3.83,
+      0
+    ],
+    [
+      3.55,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0518.2057af3467eec1fee053530a0b0aca32",
+    "L0004.2f9b21a16b8f47a9a6f36e3611bbc4e8",
+    "G0518.2057af3604e3c1fee053530a0b0aca32",
+    "G0518.e67ea30477c446c89d870a7329dcddc5"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        83981.1,
+        455576.37
+      ],
+      "axis": [
+        0.803023,
+        0.595948
+      ],
+      "halfLength": 1.85,
+      "halfWidth": 12.72,
+      "height": 44.823,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -2.14,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        83975.05,
+        455571.89
+      ],
+      "axis": [
+        -0.803023,
+        -0.595948
+      ],
+      "halfLength": 3.69,
+      "halfWidth": 14.22,
+      "height": 46.123,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        83986.91,
+        455580.69
+      ],
+      "axis": [
+        0.803023,
+        0.595948
+      ],
+      "halfLength": 3.69,
+      "halfWidth": 14.22,
+      "height": 46.067,
+      "gradient": [
+        -0.01527,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0518.2057af3467eec1fee053530a0b0aca32",
+      "L0004.2f9b21a16b8f47a9a6f36e3611bbc4e8"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0518.2057af3467eec1fee053530a0b0aca32",
+          "type": "dek"
+        },
+        {
+          "id": "L0004.2f9b21a16b8f47a9a6f36e3611bbc4e8",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/188445401",
+        "tags": {
+          "bridge": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "lit": "yes",
+          "name": "IJsclubpad",
+          "oneway": "no",
+          "surface": "wood"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 2
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,440000,100000,460000 --run nl-4_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 7.4,
+      "dekBreedte": 24.4,
+      "brugLengte": 7.4,
+      "water": null,
+      "portaalhoogte": 22,
+      "opritafstand": [
+        0,
+        0
+      ],
+      "spoorhoogteBron": "prorail-pvs",
+      "oprithelling": 7.4,
+      "doorstekend": [
+        {
+          "gmlId": "L0004.8b29ca47c38442f79f235b3b6489e40c",
+          "klasse": "Terrain",
+          "oppervlak": 2.8,
+          "onderDek": 0.32,
+          "bovenDekOnderkant": 1.14,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0518.33821f2b7773457fa2754d6bf8aacd0f",
+          "klasse": "Road",
+          "oppervlak": 4159.5,
+          "onderDek": 0,
+          "bovenDekOnderkant": 1,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0518.2057af3604e3c1fee053530a0b0aca32",
+          "klasse": "Road",
+          "oppervlak": 85.6,
+          "onderDek": 0.96,
+          "bovenDekOnderkant": 0.73,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "G0518.e67ea30477c446c89d870a7329dcddc5",
+          "klasse": "Road",
+          "oppervlak": 16.6,
+          "onderDek": 1,
+          "bovenDekOnderkant": 0.7,
+          "actie": "verbergen"
+        }
+      ],
+      "opritHoogtes": [
+        46.123,
+        46.011
+      ]
+    },
+    "waarschuwingen": [
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "4 PDOK-vorm(en) door het dek: 2 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

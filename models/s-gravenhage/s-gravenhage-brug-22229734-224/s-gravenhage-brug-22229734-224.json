@@ -1,0 +1,174 @@
+{
+  "name": "Mosselsingel",
+  "file": "s-gravenhage-brug-22229734-224.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    88190.33,
+    453294.77
+  ],
+  "xAxis": [
+    -0.633832,
+    0.773471
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 40.08,
+  "groundSamplePoints": [
+    [
+      -24.09,
+      0
+    ],
+    [
+      24.09,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0518.22229734a5e59258e053530a0b0ac95b",
+    "W0372.222297313cfd9258e053530a0b0ac95b"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        88190.33,
+        453294.77
+      ],
+      "axis": [
+        -0.633832,
+        0.773471
+      ],
+      "halfLength": 5.47,
+      "halfWidth": 7.89,
+      "height": 39.082,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -2.2,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        88204.21,
+        453277.83
+      ],
+      "axis": [
+        0.633832,
+        -0.773471
+      ],
+      "halfLength": 10.95,
+      "halfWidth": 9.39,
+      "height": 40.231,
+      "gradient": [
+        -0.01377,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        88176.45,
+        453311.7
+      ],
+      "axis": [
+        -0.633832,
+        0.773471
+      ],
+      "halfLength": 10.95,
+      "halfWidth": 9.39,
+      "height": 40.232,
+      "gradient": [
+        -0.0137,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0518.22229734a5e59258e053530a0b0ac95b"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0518.22229734a5e59258e053530a0b0ac95b",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1235182107",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "yes",
+          "highway": "residential",
+          "layer": "1",
+          "maxspeed": "50",
+          "name": "Mosselsingel",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,440000,100000,460000 --run nl-4_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 21.9,
+      "dekBreedte": 14.8,
+      "brugLengte": 21.9,
+      "water": [
+        -3.9,
+        4.1
+      ],
+      "portaalhoogte": 13.3,
+      "opritafstand": [
+        13.1,
+        13.1
+      ],
+      "oprithelling": 21.9,
+      "doorstekend": [
+        {
+          "gmlId": "G0518.222297374a949258e053530a0b0ac95b",
+          "klasse": "Forest",
+          "oppervlak": 93.3,
+          "onderDek": 0.44,
+          "bovenDekOnderkant": 1.2,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0518.222297374a969258e053530a0b0ac95b",
+          "klasse": "Forest",
+          "oppervlak": 105.9,
+          "onderDek": 0.24,
+          "bovenDekOnderkant": 1.09,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "W0372.222297313cfd9258e053530a0b0ac95b",
+          "klasse": "Terrain",
+          "oppervlak": 5.5,
+          "onderDek": 0.9,
+          "bovenDekOnderkant": 0.73,
+          "actie": "verbergen"
+        }
+      ],
+      "opritHoogtes": [
+        40.08,
+        40.082
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "3 PDOK-vorm(en) door het dek: 1 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

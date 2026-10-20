@@ -1,0 +1,135 @@
+{
+  "name": "Geuzenbrug",
+  "file": "emmeloord-geuzenbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    180106.03,
+    524817.33
+  ],
+  "xAxis": [
+    0.098077,
+    -0.995179
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 37.61,
+  "groundSamplePoints": [
+    [
+      -7,
+      0
+    ],
+    [
+      7,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0171.04024e85844349e0bd2c06eb73763258"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        180105.45,
+        524823.3
+      ],
+      "axis": [
+        -0.098077,
+        0.995179
+      ],
+      "halfLength": 3,
+      "halfWidth": 7.59,
+      "height": 37.938,
+      "gradient": [
+        -0.05,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        180106.62,
+        524811.36
+      ],
+      "axis": [
+        0.098077,
+        -0.995179
+      ],
+      "halfLength": 3,
+      "halfWidth": 7.59,
+      "height": 37.849,
+      "gradient": [
+        -0.07966,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0171.04024e85844349e0bd2c06eb73763258"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0171.04024e85844349e0bd2c06eb73763258",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/625120910",
+        "tags": {
+          "bridge": "yes",
+          "cycleway": "lane",
+          "foot": "use_sidepath",
+          "highway": "unclassified",
+          "lanes": "2",
+          "layer": "1",
+          "maxspeed": "50",
+          "maxspeed:type": "NL:urban",
+          "name": "Geuzenbrug",
+          "sidewalk:both": "separate",
+          "surface": "asphalt",
+          "zone:traffic": "NL:urban",
+          "area": "yes",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 180000,520000,200000,540000 --run nl-9_11 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 6,
+      "dekBreedte": 11.2,
+      "brugLengte": 6,
+      "water": [
+        -2.5,
+        3
+      ],
+      "portaalhoogte": 10.1,
+      "opritafstand": [
+        4,
+        4
+      ],
+      "oprithelling": 6,
+      "doorstekend": [],
+      "opritHoogtes": [
+        37.788,
+        37.61
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}
