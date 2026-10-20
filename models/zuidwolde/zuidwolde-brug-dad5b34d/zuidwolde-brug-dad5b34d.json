@@ -1,0 +1,204 @@
+{
+  "name": "zuidwolde-brug-dad5b34d",
+  "file": "zuidwolde-brug-dad5b34d.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    223867.09,
+    523397.51
+  ],
+  "xAxis": [
+    -0.659694,
+    -0.751534
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 48.197,
+  "groundSamplePoints": [
+    [
+      -23.37,
+      0
+    ],
+    [
+      23.38,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "L0002.dad5b34d3e4345ab85f63d313cd1cb24",
+    "L0002.4675d3da26df48cc854e80b8d1a96372",
+    "L0002.8bc3aae474294ec6936ebbeb867ecc2b"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        223867.09,
+        523397.51
+      ],
+      "axis": [
+        -0.659694,
+        -0.751534
+      ],
+      "halfLength": 5.28,
+      "halfWidth": 8.07,
+      "height": 47.218,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.66,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        223881.11,
+        523413.47
+      ],
+      "axis": [
+        0.659694,
+        0.751534
+      ],
+      "halfLength": 10.62,
+      "halfWidth": 9.57,
+      "height": 48.368,
+      "gradient": [
+        -0.01412,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        223853.07,
+        523381.53
+      ],
+      "axis": [
+        -0.659694,
+        -0.751534
+      ],
+      "halfLength": 10.62,
+      "halfWidth": 9.57,
+      "height": 48.358,
+      "gradient": [
+        -0.01512,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "L0002.dad5b34d3e4345ab85f63d313cd1cb24"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "L0002.dad5b34d3e4345ab85f63d313cd1cb24",
+          "type": "dek"
+        },
+        {
+          "id": "L0002.4675d3da26df48cc854e80b8d1a96372",
+          "type": "landhoofd"
+        },
+        {
+          "id": "L0002.8bc3aae474294ec6936ebbeb867ecc2b",
+          "type": "landhoofd"
+        }
+      ],
+      "osm": {
+        "id": "way/6438245",
+        "tags": {
+          "asphalt:type": "porous",
+          "bridge": "yes",
+          "carriageway_ref": "Re",
+          "destination": "Groningen;Assen;Hoogeveen",
+          "highway": "motorway",
+          "int_ref": "E 232",
+          "lanes": "2",
+          "layer": "1",
+          "lit": "no",
+          "maxspeed": "100",
+          "maxspeed:conditional": "130 @ (19:00-06:00)",
+          "noname": "yes",
+          "official_name": "Rijksweg A28",
+          "oneway": "yes",
+          "operator": "Rijkswaterstaat",
+          "overtaking:hgv:conditional": "no @ (Mo-Fr 06:00-19:00)",
+          "ref": "A28",
+          "source:name": "NWB",
+          "surface": "asphalt",
+          "toll:hgv": "yes",
+          "zone:traffic": "NL:rural"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 3
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,520000,240000,540000 --run nl-11_11 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 21.1,
+      "dekBreedte": 15.1,
+      "brugLengte": 21.2,
+      "water": [
+        -5.1,
+        5.4
+      ],
+      "portaalhoogte": 13.6,
+      "opritafstand": [
+        12.7,
+        12.7
+      ],
+      "oprithelling": 21.2,
+      "doorstekend": [
+        {
+          "gmlId": "L0002.6501f92c481f4dc88c44aac14bc1994b",
+          "klasse": "Terrain",
+          "oppervlak": 10.6,
+          "onderDek": 0.26,
+          "bovenDekOnderkant": 0.66,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G1690.73965dbce7e74c1eb98fd0f9898c80f5",
+          "klasse": "Forest",
+          "oppervlak": 21.5,
+          "onderDek": 0.13,
+          "bovenDekOnderkant": 0.65,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "L0002.2a7c9a19c80e4c71a244ad29797f701d",
+          "klasse": "Forest",
+          "oppervlak": 39.7,
+          "onderDek": 0.1,
+          "bovenDekOnderkant": 0.62,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "L0002.d6e5ec84b07a40dc863234a8cda084ee",
+          "klasse": "Terrain",
+          "oppervlak": 8.6,
+          "onderDek": 0.09,
+          "bovenDekOnderkant": 0.55,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        48.218,
+        48.197
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "4 PDOK-vorm(en) door het dek: 0 verborgen, 4 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}
