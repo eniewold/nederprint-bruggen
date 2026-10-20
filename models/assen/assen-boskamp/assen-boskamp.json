@@ -1,0 +1,189 @@
+{
+  "name": "Boskamp",
+  "file": "assen-boskamp.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    232630.12,
+    554639.88
+  ],
+  "xAxis": [
+    -0.893893,
+    0.44828
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 58.321,
+  "groundSamplePoints": [
+    [
+      -42.64,
+      0
+    ],
+    [
+      42.64,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0106.0927eb81f04146e4bb5209b8a4461c87",
+    "G0106.753c427e886d445981c87921bae4ab8c",
+    "G0106.d04655edbf3d4c5e8bbb25a6d636631b",
+    "G0106.e464c0964a864f9ab0a3bbad964cfd50",
+    "L0002.1bba204a9a234b6086942b23d65b675d",
+    "L0002.23e4d0598af24473acc3202e5d2ef078",
+    "L0002.3e8cfcacd9054abaad8cae9c6308acf9",
+    "L0002.4ae877a422ce407c98d13b90d03c8165",
+    "L0002.e9aa4ad984704c8391edea05e6788621"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        232661.08,
+        554624.35
+      ],
+      "axis": [
+        0.893893,
+        -0.44828
+      ],
+      "halfLength": 12,
+      "halfWidth": 19.64,
+      "height": 58.581,
+      "gradient": [
+        -0.02171,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        232599.15,
+        554655.4
+      ],
+      "axis": [
+        -0.893893,
+        0.44828
+      ],
+      "halfLength": 12,
+      "halfWidth": 19.64,
+      "height": 58.692,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "L0002.1bba204a9a234b6086942b23d65b675d"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0106.0927eb81f04146e4bb5209b8a4461c87",
+          "type": "pijler"
+        },
+        {
+          "id": "G0106.753c427e886d445981c87921bae4ab8c",
+          "type": "pijler"
+        },
+        {
+          "id": "G0106.d04655edbf3d4c5e8bbb25a6d636631b",
+          "type": "pijler"
+        },
+        {
+          "id": "G0106.e464c0964a864f9ab0a3bbad964cfd50",
+          "type": "pijler"
+        },
+        {
+          "id": "L0002.1bba204a9a234b6086942b23d65b675d",
+          "type": "dek"
+        },
+        {
+          "id": "L0002.23e4d0598af24473acc3202e5d2ef078",
+          "type": "landhoofd"
+        },
+        {
+          "id": "L0002.3e8cfcacd9054abaad8cae9c6308acf9",
+          "type": "landhoofd"
+        }
+      ],
+      "osm": {
+        "id": "way/576460511",
+        "tags": {
+          "bridge": "yes",
+          "carriageway_ref": "Li",
+          "destination": "Groningen",
+          "destination:ref": "A28",
+          "highway": "trunk",
+          "lanes": "2",
+          "layer": "1",
+          "lit": "no",
+          "maxspeed": "100",
+          "maxspeed:type": "NL:motorroad",
+          "motorroad": "yes",
+          "motorway": "no",
+          "oneway": "yes",
+          "operator": "Rijkswaterstaat",
+          "placement": "middle_of:1",
+          "ref": "N33",
+          "surface": "asphalt",
+          "turn:lanes": "none|merge_to_left",
+          "zone:traffic": "NL:rural",
+          "bridge:structure": "beam",
+          "man_made": "bridge",
+          "name": "Boskamp"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 7
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,540000,240000,560000 --run nl-11_12 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 45.2,
+      "dekBreedte": 35.3,
+      "brugLengte": 45.3,
+      "water": null,
+      "portaalhoogte": 31.7,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "L0002.4ae877a422ce407c98d13b90d03c8165",
+          "klasse": "Terrain",
+          "oppervlak": 144.3,
+          "onderDek": 0.87,
+          "bovenDekOnderkant": 0.3,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "L0002.e9aa4ad984704c8391edea05e6788621",
+          "klasse": "Terrain",
+          "oppervlak": 183,
+          "onderDek": 0.84,
+          "bovenDekOnderkant": 0.09,
+          "actie": "verbergen"
+        }
+      ],
+      "opritHoogtes": [
+        58.321,
+        58.542
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "2 PDOK-vorm(en) door het dek: 2 verborgen, 0 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

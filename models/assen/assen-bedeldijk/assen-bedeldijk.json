@@ -1,0 +1,198 @@
+{
+  "name": "Bedeldijk",
+  "file": "assen-bedeldijk.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    232884.9,
+    554005.22
+  ],
+  "xAxis": [
+    -0.291275,
+    -0.956639
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 52.931,
+  "groundSamplePoints": [
+    [
+      -83.79,
+      0
+    ],
+    [
+      82.42,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "L0002.3a1f1cd2c9b14bb6b421667de3fd813c",
+    "L0002.92387474bd184942b51d97ac54cb53bb",
+    "L0002.998a760e154442fb93ada8c6ed43abc1"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        232884.9,
+        554005.22
+      ],
+      "axis": [
+        -0.291275,
+        -0.956639
+      ],
+      "halfLength": 37.06,
+      "halfWidth": 12.53,
+      "height": 52.101,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -8.36,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        232906.98,
+        554077.72
+      ],
+      "axis": [
+        0.291275,
+        0.956639
+      ],
+      "halfLength": 12,
+      "halfWidth": 14.03,
+      "height": 53.166,
+      "gradient": [
+        -0.01956,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        232863.23,
+        553934.03
+      ],
+      "axis": [
+        -0.291275,
+        -0.956639
+      ],
+      "halfLength": 12,
+      "halfWidth": 14.03,
+      "height": 53.251,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "L0002.3a1f1cd2c9b14bb6b421667de3fd813c"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "L0002.3a1f1cd2c9b14bb6b421667de3fd813c",
+          "type": "dek"
+        },
+        {
+          "id": "L0002.92387474bd184942b51d97ac54cb53bb",
+          "type": "landhoofd"
+        },
+        {
+          "id": "L0002.998a760e154442fb93ada8c6ed43abc1",
+          "type": "landhoofd"
+        }
+      ],
+      "osm": {
+        "id": "way/576239893",
+        "tags": {
+          "asphalt:type": "porous",
+          "bridge": "yes",
+          "carriageway_ref": "Li",
+          "destination": "Utrecht;Zwolle;Hoogeveen;Assen-Zuid",
+          "highway": "motorway",
+          "int_ref": "E 232",
+          "lanes": "2",
+          "layer": "1",
+          "maxspeed": "100",
+          "maxspeed:conditional": "130 @ (19:00-06:00)",
+          "oneway": "yes",
+          "operator": "Rijkswaterstaat",
+          "ref": "A28",
+          "surface": "asphalt",
+          "toll:hgv": "yes",
+          "bridge:structure": "beam",
+          "man_made": "bridge",
+          "name": "Bedeldijk"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 3
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,540000,240000,560000 --run nl-11_12 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 86.1,
+      "dekBreedte": 24.1,
+      "brugLengte": 126.2,
+      "water": null,
+      "portaalhoogte": 21.7,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "L0002.c7c9c9f2d92642e49cbc887b0cf9d9e8",
+          "klasse": "Terrain",
+          "oppervlak": 13909.3,
+          "onderDek": 0,
+          "bovenDekOnderkant": 7.36,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "L0002.1fb04cf2c24f41db90af8608c07a315e",
+          "klasse": "Terrain",
+          "oppervlak": 6875.6,
+          "onderDek": 0.13,
+          "bovenDekOnderkant": 7.16,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "L0002.cb4600b4fe094d11b0fc5a482fdfc40d",
+          "klasse": "Terrain",
+          "oppervlak": 4253.6,
+          "onderDek": 0.12,
+          "bovenDekOnderkant": 6.82,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "L0002.9c4d8e239963452eb76c5c52855b9c85",
+          "klasse": "Road",
+          "oppervlak": 20143.7,
+          "onderDek": 0.17,
+          "bovenDekOnderkant": 1.29,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        52.931,
+        53.101
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "4 PDOK-vorm(en) door het dek: 0 verborgen, 4 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}
