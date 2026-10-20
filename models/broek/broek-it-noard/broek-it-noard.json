@@ -1,0 +1,170 @@
+{
+  "name": "It Noard",
+  "file": "broek-it-noard.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    181184.57,
+    555855.81
+  ],
+  "xAxis": [
+    -0.986703,
+    -0.162531
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 44.043,
+  "groundSamplePoints": [
+    [
+      -34.15,
+      0
+    ],
+    [
+      34.15,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G1940.cd7d20efa5fb41efad9e81d26cc3bf4d"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        181184.57,
+        555855.81
+      ],
+      "axis": [
+        -0.986703,
+        -0.162531
+      ],
+      "halfLength": 9.52,
+      "halfWidth": 3.83,
+      "height": 43.327,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.5,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        181211.72,
+        555860.28
+      ],
+      "axis": [
+        0.986703,
+        0.162531
+      ],
+      "halfLength": 12,
+      "halfWidth": 5,
+      "height": 44.477,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        181157.41,
+        555851.34
+      ],
+      "axis": [
+        -0.986703,
+        -0.162531
+      ],
+      "halfLength": 12,
+      "halfWidth": 5,
+      "height": 44.335,
+      "gradient": [
+        -0.02433,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G1940.cd7d20efa5fb41efad9e81d26cc3bf4d"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G1940.cd7d20efa5fb41efad9e81d26cc3bf4d",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/6497435",
+        "tags": {
+          "bridge": "yes",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Swettepoelsterdyk",
+          "source:maxspeed": "NL:zone60",
+          "surface": "asphalt"
+        }
+      },
+      "fis": {
+        "id": 32381468,
+        "naam": "It Noard",
+        "afstand": 4,
+        "beweegbaar": false,
+        "doorvaarthoogteGesloten": 2.5
+      },
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": 2.5,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 180000,540000,200000,560000 --run nl-9_12 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 31,
+      "dekBreedte": 6.7,
+      "brugLengte": 31,
+      "water": [
+        -4.5,
+        4.5
+      ],
+      "portaalhoogte": 6,
+      "opritafstand": [
+        18.6,
+        18.6
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G1940.42d3b17251bf4e47b80728a50826794d",
+          "klasse": "Terrain",
+          "oppervlak": 1287.7,
+          "onderDek": 0.02,
+          "bovenDekOnderkant": 0.5,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G1940.616241f18d6244faa81a0ba93301371b",
+          "klasse": "Terrain",
+          "oppervlak": 568.3,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.41,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        44.327,
+        44.043
+      ]
+    },
+    "waarschuwingen": [
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

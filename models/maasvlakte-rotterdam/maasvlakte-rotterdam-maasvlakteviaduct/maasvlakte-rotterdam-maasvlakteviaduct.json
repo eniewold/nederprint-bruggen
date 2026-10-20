@@ -1,0 +1,191 @@
+{
+  "name": "Maasvlakteviaduct",
+  "file": "maasvlakte-rotterdam-maasvlakteviaduct.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    62111.35,
+    438648.71
+  ],
+  "xAxis": [
+    0.961331,
+    -0.275396
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 48.622,
+  "groundSamplePoints": [
+    [
+      -63.89,
+      0
+    ],
+    [
+      63.89,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0599.16fd017009810cac9e050210a7e24119",
+    "G0599.16fd017009820cac9e050210a7e24119",
+    "G0599.16fd017009f0fcac9e050210a7e24119"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        62111.35,
+        438648.71
+      ],
+      "axis": [
+        0.961331,
+        -0.275396
+      ],
+      "halfLength": 37.89,
+      "halfWidth": 9.41,
+      "height": 47.76,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -2.03,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        62057.62,
+        438664.1
+      ],
+      "axis": [
+        -0.961331,
+        0.275396
+      ],
+      "halfLength": 12,
+      "halfWidth": 10.91,
+      "height": 48.91,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        62165.08,
+        438633.32
+      ],
+      "axis": [
+        0.961331,
+        -0.275396
+      ],
+      "halfLength": 12,
+      "halfWidth": 10.91,
+      "height": 48.841,
+      "gradient": [
+        -0.01824,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0599.16fd017009f0fcac9e050210a7e24119"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0599.16fd017009810cac9e050210a7e24119",
+          "type": "pijler"
+        },
+        {
+          "id": "G0599.16fd017009820cac9e050210a7e24119",
+          "type": "pijler"
+        },
+        {
+          "id": "G0599.16fd017009f0fcac9e050210a7e24119",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/696510462",
+        "tags": {
+          "agricultural": "no",
+          "bridge": "viaduct",
+          "bridge:name": "Maasvlakteviaduct",
+          "carriageway_ref": "Re",
+          "highway": "trunk",
+          "lanes": "2",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "100",
+          "motorroad": "yes",
+          "name": "Maasvlakteviaduct",
+          "official_ref": "N15",
+          "old_ref": "N15",
+          "oneway": "yes",
+          "operator": "Havenbedrijf Rotterdam N.V.",
+          "source:maxspeed": "sign",
+          "surface": "asphalt",
+          "zone:traffic": "NL:rural",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 3
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 60000,420000,80000,440000 --run nl-3_6 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 87.8,
+      "dekBreedte": 17.8,
+      "brugLengte": 87.8,
+      "water": null,
+      "portaalhoogte": 16,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0599.16fca6c8869126560e050210a7e247d7",
+          "klasse": "Forest",
+          "oppervlak": 5046.8,
+          "onderDek": 0.1,
+          "bovenDekOnderkant": 1.03,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0599.170ade244418d2d73e050210a7e24429",
+          "klasse": "Road",
+          "oppervlak": 27113.8,
+          "onderDek": 0.14,
+          "bovenDekOnderkant": 0.83,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0599.7024847b05e842348343c4742bc8d515",
+          "klasse": "Forest",
+          "oppervlak": 75502.6,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.76,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        48.76,
+        48.622
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "3 PDOK-vorm(en) door het dek: 0 verborgen, 3 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

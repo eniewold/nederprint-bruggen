@@ -1,0 +1,162 @@
+{
+  "name": "maasland-brug-cb7bc23e",
+  "file": "maasland-brug-cb7bc23e.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    77126.49,
+    439741.18
+  ],
+  "xAxis": [
+    -0.27262,
+    0.962122
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 42.258,
+  "groundSamplePoints": [
+    [
+      -6.02,
+      0
+    ],
+    [
+      6.02,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G1842.cb7bc23e925d44b391236a0fa9c487c6"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        77126.49,
+        439741.18
+      ],
+      "axis": [
+        -0.27262,
+        0.962122
+      ],
+      "halfLength": 1.01,
+      "halfWidth": 2.6,
+      "height": 41.472,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.4,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        77127.85,
+        439736.35
+      ],
+      "axis": [
+        0.27262,
+        -0.962122
+      ],
+      "halfLength": 3,
+      "halfWidth": 3.14,
+      "height": 42.515,
+      "gradient": [
+        -0.08573,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        77125.12,
+        439746
+      ],
+      "axis": [
+        -0.27262,
+        0.962122
+      ],
+      "halfLength": 3,
+      "halfWidth": 3.14,
+      "height": 42.622,
+      "gradient": [
+        -0.05,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G1842.cb7bc23e925d44b391236a0fa9c487c6"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G1842.cb7bc23e925d44b391236a0fa9c487c6",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/340750253",
+        "tags": {
+          "bridge": "yes",
+          "highway": "footway",
+          "layer": "1"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ophaalbrug",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 60000,420000,80000,440000 --run nl-3_6 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 4,
+      "dekBreedte": 4.2,
+      "brugLengte": 4,
+      "water": [
+        -0.5,
+        0
+      ],
+      "portaalhoogte": 3.8,
+      "opritafstand": [
+        4,
+        4
+      ],
+      "oprithelling": 6,
+      "doorstekend": [
+        {
+          "gmlId": "W0372.555f87247b4b4ff6a460471868a7aec1",
+          "klasse": "Terrain",
+          "oppervlak": 36.2,
+          "onderDek": 0.07,
+          "bovenDekOnderkant": 0.4,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "W0372.5374f6904e884966b197560f89d1ee82",
+          "klasse": "Terrain",
+          "oppervlak": 25,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.31,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        42.258,
+        42.472
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

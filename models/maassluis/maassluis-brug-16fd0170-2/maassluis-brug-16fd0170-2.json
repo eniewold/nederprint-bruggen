@@ -1,0 +1,179 @@
+{
+  "name": "Kortebuurt",
+  "file": "maassluis-brug-16fd0170-2.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    78424.8,
+    437669.57
+  ],
+  "xAxis": [
+    0.6,
+    -0.8
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 41.322,
+  "groundSamplePoints": [
+    [
+      -5.6,
+      0
+    ],
+    [
+      5.6,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0556.16fd01700b805cac9e050210a7e24119"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        78424.8,
+        437669.57
+      ],
+      "axis": [
+        0.6,
+        -0.8
+      ],
+      "halfLength": 0.8,
+      "halfWidth": 3.57,
+      "height": 40.573,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -3.11,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        78422.04,
+        437673.26
+      ],
+      "axis": [
+        -0.6,
+        0.8
+      ],
+      "halfLength": 3,
+      "halfWidth": 4.61,
+      "height": 41.723,
+      "gradient": [
+        -0.05,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        78427.57,
+        437665.89
+      ],
+      "axis": [
+        0.6,
+        -0.8
+      ],
+      "halfLength": 3,
+      "halfWidth": 4.61,
+      "height": 41.598,
+      "gradient": [
+        -0.0918,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0556.16fd01700b805cac9e050210a7e24119"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0556.16fd01700b805cac9e050210a7e24119",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/382890099",
+        "tags": {
+          "bridge": "yes",
+          "highway": "residential",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Kortebuurt"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 60000,420000,80000,440000 --run nl-3_6 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 3.2,
+      "dekBreedte": 6.1,
+      "brugLengte": 3.2,
+      "water": [
+        -1.6,
+        1.4
+      ],
+      "portaalhoogte": 5.5,
+      "opritafstand": [
+        4,
+        4
+      ],
+      "oprithelling": 6,
+      "doorstekend": [
+        {
+          "gmlId": "G0556.170ade244bfe72d73e050210a7e24429",
+          "klasse": "Road",
+          "oppervlak": 282.3,
+          "onderDek": 0,
+          "bovenDekOnderkant": 2.11,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0556.16fca6c88b11e6560e050210a7e247d7",
+          "klasse": "Forest",
+          "oppervlak": 501.1,
+          "onderDek": 0.01,
+          "bovenDekOnderkant": 2.07,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0556.16fd016cc20d2cac9e050210a7e24119",
+          "klasse": "Terrain",
+          "oppervlak": 2054.4,
+          "onderDek": 0,
+          "bovenDekOnderkant": 1.19,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "W0372.16fd01700c0e6cac9e050210a7e24119",
+          "klasse": "Terrain",
+          "oppervlak": 86,
+          "onderDek": 0.02,
+          "bovenDekOnderkant": 0.99,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        41.573,
+        41.322
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "4 PDOK-vorm(en) door het dek: 0 verborgen, 4 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

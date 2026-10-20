@@ -1,0 +1,171 @@
+{
+  "name": "Brug Ballingbuer",
+  "file": "goingarijp-brug-ballingbuer.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    180616.49,
+    557335.69
+  ],
+  "xAxis": [
+    0.582338,
+    0.812947
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 44.101,
+  "groundSamplePoints": [
+    [
+      -38.96,
+      0
+    ],
+    [
+      38.96,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G1940.f708bd42fc2c438fafac47058c364f63"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        180616.49,
+        557335.69
+      ],
+      "axis": [
+        0.582338,
+        0.812947
+      ],
+      "halfLength": 12.96,
+      "halfWidth": 3.73,
+      "height": 43.18,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.63,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        180598.46,
+        557310.52
+      ],
+      "axis": [
+        -0.582338,
+        -0.812947
+      ],
+      "halfLength": 12,
+      "halfWidth": 4.84,
+      "height": 44.29,
+      "gradient": [
+        -0.01579,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        180634.51,
+        557360.85
+      ],
+      "axis": [
+        0.582338,
+        0.812947
+      ],
+      "halfLength": 12,
+      "halfWidth": 4.84,
+      "height": 44.33,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G1940.f708bd42fc2c438fafac47058c364f63"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G1940.f708bd42fc2c438fafac47058c364f63",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1532824851",
+        "tags": {
+          "bridge": "yes",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Ballingbuer",
+          "source:maxspeed": "NL:zone60",
+          "surface": "asphalt",
+          "man_made": "bridge"
+        }
+      },
+      "fis": {
+        "id": 32026916,
+        "naam": "Brug Ballingbuer",
+        "afstand": 4,
+        "beweegbaar": false,
+        "doorvaarthoogteGesloten": 2.55
+      },
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": 2.55,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 180000,540000,200000,560000 --run nl-9_12 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 37.9,
+      "dekBreedte": 6.5,
+      "brugLengte": 37.9,
+      "water": [
+        -7.5,
+        7
+      ],
+      "portaalhoogte": 5.8,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G1940.ff758a439e394904a624eca0446a9292",
+          "klasse": "Terrain",
+          "oppervlak": 1650.1,
+          "onderDek": 0.02,
+          "bovenDekOnderkant": 0.63,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G1940.1d49f78dca5e40b0b793283566ca3066",
+          "klasse": "Forest",
+          "oppervlak": 1042.3,
+          "onderDek": 0.03,
+          "bovenDekOnderkant": 0.4,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        44.101,
+        44.18
+      ]
+    },
+    "waarschuwingen": [
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "name": "Zuiderval",
+  "file": "enschede-brug-3d6877e7-12.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    257784.49,
+    469078.89
+  ],
+  "xAxis": [
+    0.1535,
+    -0.988149
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 86.833,
+  "groundSamplePoints": [
+    [
+      -49.02,
+      0
+    ],
+    [
+      49.02,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0153.3d6877e732371eaee054002128f9eb56"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        257784.49,
+        469078.89
+      ],
+      "axis": [
+        0.1535,
+        -0.988149
+      ],
+      "halfLength": 23.02,
+      "halfWidth": 14.41,
+      "height": 85.947,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.67,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        257778.2,
+        469119.43
+      ],
+      "axis": [
+        -0.1535,
+        0.988149
+      ],
+      "halfLength": 12,
+      "halfWidth": 15.91,
+      "height": 87.097,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        257790.79,
+        469038.36
+      ],
+      "axis": [
+        0.1535,
+        -0.988149
+      ],
+      "halfLength": 12,
+      "halfWidth": 15.91,
+      "height": 87.04,
+      "gradient": [
+        -0.01724,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0153.3d6877e732371eaee054002128f9eb56"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0153.3d6877e732371eaee054002128f9eb56",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/274626486",
+        "tags": {
+          "bicycle": "no",
+          "bridge": "yes",
+          "destination:lanes": "||Gronau;Münster",
+          "destination:ref:lanes": "||N 35;B 54",
+          "foot": "no",
+          "highway": "primary",
+          "lanes": "3",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "50",
+          "name": "Zuiderval",
+          "oneway": "yes",
+          "operator": "Gemeente Enschede",
+          "psv:lanes": "yes|no|no",
+          "surface": "asphalt",
+          "turn:lanes": "|through|right",
+          "zone:traffic": "NL:urban",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,460000,260000,480000 --run nl-12_8 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 58,
+      "dekBreedte": 27.8,
+      "brugLengte": 58,
+      "water": null,
+      "portaalhoogte": 25,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "L0002.40b6f1b6473d4cca932e241e80a7b20d",
+          "klasse": "Terrain",
+          "oppervlak": 265.6,
+          "onderDek": 0.65,
+          "bovenDekOnderkant": 0.67,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0153.7ab52a50e66b5c93e0530100007f7da6",
+          "klasse": "Forest",
+          "oppervlak": 532.8,
+          "onderDek": 0.34,
+          "bovenDekOnderkant": 0.47,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        86.947,
+        86.833
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

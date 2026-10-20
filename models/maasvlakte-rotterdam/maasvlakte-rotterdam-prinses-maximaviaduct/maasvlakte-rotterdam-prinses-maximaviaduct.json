@@ -1,0 +1,162 @@
+{
+  "name": "Prinses Máximaviaduct",
+  "file": "maasvlakte-rotterdam-prinses-maximaviaduct.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    60915.15,
+    439110.76
+  ],
+  "xAxis": [
+    0.381518,
+    0.924361
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 48.769,
+  "groundSamplePoints": [
+    [
+      -40.21,
+      0
+    ],
+    [
+      40.21,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0599.16fd017009f83cac9e050210a7e24119"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        60915.15,
+        439110.76
+      ],
+      "axis": [
+        0.381518,
+        0.924361
+      ],
+      "halfLength": 14.21,
+      "halfWidth": 20.56,
+      "height": 53.615,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.84,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        60902.86,
+        439080.98
+      ],
+      "axis": [
+        -0.381518,
+        -0.924361
+      ],
+      "halfLength": 12,
+      "halfWidth": 22.06,
+      "height": 54.765,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        60927.44,
+        439140.53
+      ],
+      "axis": [
+        0.381518,
+        0.924361
+      ],
+      "halfLength": 12,
+      "halfWidth": 22.06,
+      "height": 51.842,
+      "gradient": [
+        -0.25608,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0599.16fd017009f83cac9e050210a7e24119"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0599.16fd017009f83cac9e050210a7e24119",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/698419470",
+        "tags": {
+          "bicycle": "no",
+          "bridge": "viaduct",
+          "bridge:name": "Prinses Máximaviaduct",
+          "foot": "no",
+          "highway": "tertiary",
+          "lanes": "3",
+          "layer": "1",
+          "maxspeed": "80",
+          "name": "Prinses Máximaviaduct",
+          "oneway": "yes",
+          "operator": "Havenbedrijf Rotterdam N.V.",
+          "surface": "asphalt",
+          "turn:lanes": "left|left|through",
+          "zone:traffic": "NL:rural",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 60000,420000,80000,440000 --run nl-3_6 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 40.4,
+      "dekBreedte": 40.1,
+      "brugLengte": 40.4,
+      "water": null,
+      "portaalhoogte": 36.1,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0599.16fd016bb6fd9cac9e050210a7e24119",
+          "klasse": "Terrain",
+          "oppervlak": 378.2,
+          "onderDek": 0.01,
+          "bovenDekOnderkant": 0.84,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        54.615,
+        48.769
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

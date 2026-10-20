@@ -1,0 +1,145 @@
+{
+  "name": "Anjewier",
+  "file": "heerenveen-anjewier.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    190531.22,
+    554360.43
+  ],
+  "xAxis": [
+    -0.767352,
+    0.641226
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 47.463,
+  "groundSamplePoints": [
+    [
+      -61.31,
+      0
+    ],
+    [
+      61.31,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "L0002.25ff787a948d405aa6d083e031366b90",
+    "L0002.8c2f1b6119db432e88ed37ad8d6928a4",
+    "L0002.d6892920aa7341cab86ca3d2983ecfce"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        190572.13,
+        554326.25
+      ],
+      "axis": [
+        0.767352,
+        -0.641226
+      ],
+      "halfLength": 12,
+      "halfWidth": 20.15,
+      "height": 47.658,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        190490.32,
+        554394.61
+      ],
+      "axis": [
+        -0.767352,
+        0.641226
+      ],
+      "halfLength": 12,
+      "halfWidth": 20.15,
+      "height": 47.636,
+      "gradient": [
+        -0.01437,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "L0002.25ff787a948d405aa6d083e031366b90"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "L0002.25ff787a948d405aa6d083e031366b90",
+          "type": "dek"
+        },
+        {
+          "id": "L0002.8c2f1b6119db432e88ed37ad8d6928a4",
+          "type": "onbekend"
+        },
+        {
+          "id": "L0002.d6892920aa7341cab86ca3d2983ecfce",
+          "type": "onbekend"
+        }
+      ],
+      "osm": {
+        "id": "way/1465688957",
+        "tags": {
+          "bridge": "yes",
+          "carriageway_ref": "Li",
+          "highway": "motorway",
+          "lanes": "3",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "100",
+          "maxspeed:conditional": "130 @ (19:00-06:00)",
+          "oneway": "yes",
+          "operator": "Rijkswaterstaat",
+          "ref": "A32",
+          "surface": "asphalt",
+          "toll:hgv": "yes",
+          "turn:lanes": "none|none|slight_right",
+          "bridge:structure": "beam",
+          "man_made": "bridge",
+          "name": "Anjewier"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 3
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 180000,540000,200000,560000 --run nl-9_12 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 82.5,
+      "dekBreedte": 36.3,
+      "brugLengte": 82.6,
+      "water": null,
+      "portaalhoogte": 32.7,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [],
+      "opritHoogtes": [
+        47.508,
+        47.463
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

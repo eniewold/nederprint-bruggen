@@ -1,0 +1,170 @@
+{
+  "name": "maasland-brug-bc47bb76",
+  "file": "maasland-brug-bc47bb76.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    77911.47,
+    438057.93
+  ],
+  "xAxis": [
+    -0.856759,
+    0.515717
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 47.573,
+  "groundSamplePoints": [
+    [
+      -130.46,
+      0
+    ],
+    [
+      130.46,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "L0002.8aa59d54a7a1411aa97d8ae92f652aac",
+    "L0002.5855d9e0071641a78aba725f4506e3d2",
+    "L0002.bc47bb7660da429d9a58d150d94fbcae",
+    "L0002.94e0246888d24197aa046fd0e1b908f4",
+    "L0002.5a8fe9f043bc480db7b7917d94fa57b8"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        78016.39,
+        437994.78
+      ],
+      "axis": [
+        0.856759,
+        -0.515717
+      ],
+      "halfLength": 12,
+      "halfWidth": 25.72,
+      "height": 48.247,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        77806.56,
+        438121.08
+      ],
+      "axis": [
+        -0.856759,
+        0.515717
+      ],
+      "halfLength": 12,
+      "halfWidth": 25.72,
+      "height": 47.985,
+      "gradient": [
+        -0.03435,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "L0002.bc47bb7660da429d9a58d150d94fbcae"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "L0002.8aa59d54a7a1411aa97d8ae92f652aac",
+          "type": "onbekend"
+        },
+        {
+          "id": "L0002.5855d9e0071641a78aba725f4506e3d2",
+          "type": "onbekend"
+        },
+        {
+          "id": "L0002.bc47bb7660da429d9a58d150d94fbcae",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/7563814",
+        "tags": {
+          "bridge": "yes",
+          "carriageway_ref": "Re",
+          "highway": "motorway",
+          "int_ref": "E 25",
+          "lanes": "3",
+          "layer": "1",
+          "maxspeed": "100",
+          "maxspeed:conditional": "130 @ (19:00-06:00)",
+          "noname": "yes",
+          "official_name": "Rijksweg A20",
+          "oneway": "yes",
+          "operator": "Rijkswaterstaat",
+          "overtaking:hgv:conditional": "no @ (Mo-Fr 06:00-19:00)",
+          "placement": "right_of:1",
+          "ref": "A20",
+          "surface": "asphalt",
+          "toll:hgv": "yes",
+          "turn:lanes": "none|none|slight_right",
+          "zone:traffic": "NL:rural"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 3
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 60000,420000,80000,440000 --run nl-3_6 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 220.8,
+      "dekBreedte": 47.4,
+      "brugLengte": 220.9,
+      "water": [
+        -49.5,
+        56
+      ],
+      "portaalhoogte": 42.7,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "L0002.94e0246888d24197aa046fd0e1b908f4",
+          "klasse": "Terrain",
+          "oppervlak": 797.9,
+          "onderDek": 0.88,
+          "bovenDekOnderkant": 0.47,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "L0002.5a8fe9f043bc480db7b7917d94fa57b8",
+          "klasse": "Terrain",
+          "oppervlak": 271.7,
+          "onderDek": 0.98,
+          "bovenDekOnderkant": 0.18,
+          "actie": "verbergen"
+        }
+      ],
+      "opritHoogtes": [
+        48.097,
+        47.573
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 2 verborgen, 0 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

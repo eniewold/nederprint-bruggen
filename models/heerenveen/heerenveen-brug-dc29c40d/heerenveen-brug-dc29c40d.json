@@ -1,0 +1,161 @@
+{
+  "name": "heerenveen-brug-dc29c40d",
+  "file": "heerenveen-brug-dc29c40d.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    191699.25,
+    553260.81
+  ],
+  "xAxis": [
+    0.575996,
+    -0.817452
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 47.528,
+  "groundSamplePoints": [
+    [
+      -46.53,
+      0
+    ],
+    [
+      46.8,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "L0002.dc29c40d794e485084093be69d3e314f",
+    "L0002.2124d1ac2a204b0ebfa9f4271150d7ef",
+    "L0002.6b7a0b3f15154346a4b84f4dc766b431",
+    "L0002.424860ad409743898ef6264a36886415",
+    "L0002.21131debb42c49fc90800f5cd5169d25"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        191677.05,
+        553292.31
+      ],
+      "axis": [
+        -0.575996,
+        0.817452
+      ],
+      "halfLength": 12,
+      "halfWidth": 20.15,
+      "height": 47.744,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        191721.59,
+        553229.09
+      ],
+      "axis": [
+        0.575996,
+        -0.817452
+      ],
+      "halfLength": 12,
+      "halfWidth": 20.15,
+      "height": 47.711,
+      "gradient": [
+        -0.01527,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "L0002.dc29c40d794e485084093be69d3e314f"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "L0002.dc29c40d794e485084093be69d3e314f",
+          "type": "dek"
+        },
+        {
+          "id": "L0002.2124d1ac2a204b0ebfa9f4271150d7ef",
+          "type": "onbekend"
+        },
+        {
+          "id": "L0002.6b7a0b3f15154346a4b84f4dc766b431",
+          "type": "onbekend"
+        }
+      ],
+      "osm": {
+        "id": "way/6493603",
+        "tags": {
+          "asphalt:type": "porous",
+          "bridge": "yes",
+          "carriageway_ref": "Li",
+          "highway": "motorway",
+          "lanes": "2",
+          "layer": "1",
+          "maxspeed": "100",
+          "maxspeed:conditional": "130 @ (19:00-06:00)",
+          "oneway": "yes",
+          "operator": "Rijkswaterstaat",
+          "ref": "A32",
+          "surface": "asphalt",
+          "toll:hgv": "yes"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 3
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 180000,540000,200000,560000 --run nl-9_12 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 53,
+      "dekBreedte": 36.3,
+      "brugLengte": 53.3,
+      "water": null,
+      "portaalhoogte": 32.7,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "L0002.424860ad409743898ef6264a36886415",
+          "klasse": "Terrain",
+          "oppervlak": 166.8,
+          "onderDek": 0.99,
+          "bovenDekOnderkant": 0.3,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "L0002.21131debb42c49fc90800f5cd5169d25",
+          "klasse": "Terrain",
+          "oppervlak": 168.8,
+          "onderDek": 0.94,
+          "bovenDekOnderkant": 0.21,
+          "actie": "verbergen"
+        }
+      ],
+      "opritHoogtes": [
+        47.594,
+        47.528
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 2 verborgen, 0 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

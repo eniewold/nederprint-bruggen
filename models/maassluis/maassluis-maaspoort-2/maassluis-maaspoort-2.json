@@ -1,0 +1,141 @@
+{
+  "name": "Maaspoort",
+  "file": "maassluis-maaspoort-2.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    76104.89,
+    437799.41
+  ],
+  "xAxis": [
+    0.693814,
+    -0.720154
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 47.447,
+  "groundSamplePoints": [
+    [
+      -18.31,
+      1.97
+    ],
+    [
+      18.31,
+      2.1
+    ]
+  ],
+  "replacesTerrain": [
+    "L0004.5996969a0691480295fb0437e46b7dd4"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        76093.36,
+        437811.38
+      ],
+      "axis": [
+        -0.693814,
+        0.720154
+      ],
+      "halfLength": 8.31,
+      "halfWidth": 8.08,
+      "height": 47.683,
+      "gradient": [
+        -0.02834,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        76116.42,
+        437787.45
+      ],
+      "axis": [
+        0.693814,
+        -0.720154
+      ],
+      "halfLength": 8.31,
+      "halfWidth": 8.08,
+      "height": 47.768,
+      "gradient": [
+        -0.01805,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "L0004.5996969a0691480295fb0437e46b7dd4"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "L0004.5996969a0691480295fb0437e46b7dd4",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1267944083",
+        "tags": {
+          "bridge": "yes",
+          "description": "Metrolijn B",
+          "designated_direction": "forward",
+          "electrified": "contact_line",
+          "frequency": "0",
+          "gauge": "1435",
+          "layer": "1",
+          "maxspeed": "100",
+          "name": "Maaspoort",
+          "operator": "RET",
+          "passenger_lines": "2",
+          "railway": "light_rail",
+          "railway:lzb": "yes",
+          "railway:track_ref": "1",
+          "ref": "B",
+          "usage": "main",
+          "voltage": "750",
+          "width": "3.4",
+          "wikidata": "Q803173",
+          "wikipedia": "nl:Hoekse Lijn",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 60000,420000,80000,440000 --run nl-3_6 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 16.6,
+      "dekBreedte": 12.2,
+      "brugLengte": 16.6,
+      "water": null,
+      "portaalhoogte": 11,
+      "opritafstand": [
+        10,
+        10
+      ],
+      "spoorhoogteBron": "pdok",
+      "oprithelling": 16.6,
+      "doorstekend": [],
+      "opritHoogtes": [
+        47.447,
+        47.618
+      ]
+    },
+    "waarschuwingen": [
+      "oprit -: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "oprit +: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

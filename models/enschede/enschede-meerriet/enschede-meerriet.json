@@ -1,0 +1,181 @@
+{
+  "name": "Meerriet",
+  "file": "enschede-meerriet.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    258024.23,
+    469075.1
+  ],
+  "xAxis": [
+    -0.431635,
+    0.902048
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 88.14,
+  "groundSamplePoints": [
+    [
+      -52.89,
+      0
+    ],
+    [
+      52.96,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "L0002.99c0ccc090402ed9e05332a1e90aebc4",
+    "G0153.3d6877e43b8b1eaee054002128f9eb56",
+    "L0002.697840ee60784fd18f6c76e5b001d0d4"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        258024.23,
+        469075.1
+      ],
+      "axis": [
+        -0.431635,
+        0.902048
+      ],
+      "halfLength": 26.89,
+      "halfWidth": 8.53,
+      "height": 87.669,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -2.09,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        258043.61,
+        469034.61
+      ],
+      "axis": [
+        0.431635,
+        -0.902048
+      ],
+      "halfLength": 12,
+      "halfWidth": 10.03,
+      "height": 88.819,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        258004.83,
+        469115.65
+      ],
+      "axis": [
+        -0.431635,
+        0.902048
+      ],
+      "halfLength": 12,
+      "halfWidth": 10.03,
+      "height": 88.554,
+      "gradient": [
+        -0.03454,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0153.3d6877e43b8b1eaee054002128f9eb56"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "L0002.99c0ccc090402ed9e05332a1e90aebc4",
+          "type": "landhoofd"
+        },
+        {
+          "id": "G0153.3d6877e43b8b1eaee054002128f9eb56",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/274630841",
+        "tags": {
+          "bicycle": "no",
+          "bridge": "yes",
+          "highway": "secondary",
+          "lanes": "2",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "50",
+          "maxweight:signed": "no",
+          "name": "Meerriet",
+          "smoothness": "good",
+          "surface": "asphalt",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 2
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,460000,260000,480000 --run nl-12_8 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 65.8,
+      "dekBreedte": 16.1,
+      "brugLengte": 65.8,
+      "water": null,
+      "portaalhoogte": 14.5,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "L0002.697840ee60784fd18f6c76e5b001d0d4",
+          "klasse": "Terrain",
+          "oppervlak": 183.5,
+          "onderDek": 0.75,
+          "bovenDekOnderkant": 1.24,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "L0002.b3d7d6bc51004d09a36dca34175d0e89",
+          "klasse": "Terrain",
+          "oppervlak": 661.4,
+          "onderDek": 0.02,
+          "bovenDekOnderkant": 1.09,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0153.3d6877e60ed81eaee054002128f9eb56",
+          "klasse": "Road",
+          "oppervlak": 204.1,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.78,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        88.669,
+        88.14
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "3 PDOK-vorm(en) door het dek: 1 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

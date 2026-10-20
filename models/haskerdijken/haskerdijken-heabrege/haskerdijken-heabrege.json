@@ -1,0 +1,162 @@
+{
+  "name": "Heabrêge",
+  "file": "haskerdijken-heabrege.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    187578.07,
+    557708.71
+  ],
+  "xAxis": [
+    -0.333795,
+    0.942646
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 47.647,
+  "groundSamplePoints": [
+    [
+      -63.99,
+      0
+    ],
+    [
+      63.99,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "L0002.c3add2c64d5142f7b45b1b79f379427c",
+    "L0002.24d79e17ceaa45c2a75c16a07f1ff85e",
+    "L0002.cc9b3244d0e144439b9362ff5103d25d",
+    "L0002.fa9127e8834c4dddb457fd26693c697e",
+    "L0002.3c03548d2b3f4888a2a5ebf0a99d8442"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        187596.76,
+        557655.93
+      ],
+      "axis": [
+        0.333795,
+        -0.942646
+      ],
+      "halfLength": 12,
+      "halfWidth": 16.91,
+      "height": 47.812,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        187559.38,
+        557761.49
+      ],
+      "axis": [
+        -0.333795,
+        0.942646
+      ],
+      "halfLength": 12,
+      "halfWidth": 16.91,
+      "height": 47.805,
+      "gradient": [
+        -0.01313,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "L0002.c3add2c64d5142f7b45b1b79f379427c"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "L0002.c3add2c64d5142f7b45b1b79f379427c",
+          "type": "dek"
+        },
+        {
+          "id": "L0002.24d79e17ceaa45c2a75c16a07f1ff85e",
+          "type": "pijler"
+        },
+        {
+          "id": "L0002.cc9b3244d0e144439b9362ff5103d25d",
+          "type": "landhoofd"
+        },
+        {
+          "id": "L0002.fa9127e8834c4dddb457fd26693c697e",
+          "type": "landhoofd"
+        }
+      ],
+      "osm": {
+        "id": "way/1465688958",
+        "tags": {
+          "bridge": "yes",
+          "carriageway_ref": "Re",
+          "highway": "motorway",
+          "lanes": "2",
+          "layer": "1",
+          "maxspeed": "100",
+          "maxspeed:conditional": "130 @ (19:00-06:00)",
+          "oneway": "yes",
+          "operator": "Rijkswaterstaat",
+          "ref": "A32",
+          "surface": "asphalt",
+          "toll:hgv": "yes",
+          "bridge:structure": "beam",
+          "man_made": "bridge",
+          "name": "Heabrêge",
+          "bridge:movable": "bascule"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 4
+    },
+    "type": "basculebrug",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 180000,540000,200000,560000 --run nl-9_12 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 87.9,
+      "dekBreedte": 29.8,
+      "brugLengte": 88,
+      "water": [
+        -4.5,
+        21
+      ],
+      "portaalhoogte": 26.8,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "L0002.3c03548d2b3f4888a2a5ebf0a99d8442",
+          "klasse": "Terrain",
+          "oppervlak": 343.3,
+          "onderDek": 0.98,
+          "bovenDekOnderkant": 0.06,
+          "actie": "verbergen"
+        }
+      ],
+      "opritHoogtes": [
+        47.662,
+        47.647
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "1 PDOK-vorm(en) door het dek: 1 verborgen, 0 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

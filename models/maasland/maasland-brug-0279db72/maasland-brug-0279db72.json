@@ -1,0 +1,182 @@
+{
+  "name": "maasland-brug-0279db72",
+  "file": "maasland-brug-0279db72.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    78231.98,
+    437897.9
+  ],
+  "xAxis": [
+    0.946438,
+    -0.322885
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 48.745,
+  "groundSamplePoints": [
+    [
+      -52.59,
+      0
+    ],
+    [
+      52.59,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "L0002.0279db722cd248c4be2f3a472fbf7f1f",
+    "L0002.15121022908d46c79d63385f1ff8305a",
+    "L0002.3ff7f165b7734d89b3f523b6a97375f5"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        78231.98,
+        437897.9
+      ],
+      "axis": [
+        0.946438,
+        -0.322885
+      ],
+      "halfLength": 26.53,
+      "halfWidth": 19.47,
+      "height": 47.829,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.67,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        78189.78,
+        437912.3
+      ],
+      "axis": [
+        -0.946438,
+        0.322885
+      ],
+      "halfLength": 12,
+      "halfWidth": 20.97,
+      "height": 48.979,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        78274.18,
+        437883.5
+      ],
+      "axis": [
+        0.946438,
+        -0.322885
+      ],
+      "halfLength": 12,
+      "halfWidth": 20.97,
+      "height": 48.937,
+      "gradient": [
+        -0.01599,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "L0002.0279db722cd248c4be2f3a472fbf7f1f"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "L0002.0279db722cd248c4be2f3a472fbf7f1f",
+          "type": "dek"
+        },
+        {
+          "id": "L0002.15121022908d46c79d63385f1ff8305a",
+          "type": "onbekend"
+        },
+        {
+          "id": "L0002.3ff7f165b7734d89b3f523b6a97375f5",
+          "type": "onbekend"
+        }
+      ],
+      "osm": {
+        "id": "way/311014682",
+        "tags": {
+          "bridge": "yes",
+          "carriageway_ref": "Re",
+          "highway": "motorway",
+          "int_ref": "E 25",
+          "lanes": "2",
+          "layer": "1",
+          "maxspeed": "100",
+          "maxspeed:conditional": "130 @ (19:00-06:00)",
+          "noname": "yes",
+          "official_name": "Rijksweg A20",
+          "oneway": "yes",
+          "operator": "Rijkswaterstaat",
+          "overtaking:hgv:conditional": "no @ (Mo-Fr 06:00-19:00)",
+          "ref": "A20",
+          "surface": "asphalt",
+          "toll:hgv": "yes",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 3
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 60000,420000,80000,440000 --run nl-3_6 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 65.1,
+      "dekBreedte": 37.9,
+      "brugLengte": 65.2,
+      "water": null,
+      "portaalhoogte": 34.2,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "L0002.33dcf2b773e94157a04c172872352288",
+          "klasse": "Terrain",
+          "oppervlak": 229.9,
+          "onderDek": 0.62,
+          "bovenDekOnderkant": 0.67,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "L0002.f4ebc3861a0448f6a6d493861315b233",
+          "klasse": "Terrain",
+          "oppervlak": 245.5,
+          "onderDek": 0.61,
+          "bovenDekOnderkant": 0.34,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        48.829,
+        48.745
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}
