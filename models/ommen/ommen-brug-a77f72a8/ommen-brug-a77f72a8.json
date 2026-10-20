@@ -1,0 +1,183 @@
+{
+  "name": "ommen-brug-a77f72a8",
+  "file": "ommen-brug-a77f72a8.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    224363.31,
+    505889.21
+  ],
+  "xAxis": [
+    0.556679,
+    0.830727
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 54.413,
+  "groundSamplePoints": [
+    [
+      -52.43,
+      0
+    ],
+    [
+      52.43,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "P0023.a77f72a886ba41d89ccb1ef60e079ae9",
+    "P0023.2435a66d8a744817bd6f93e71ff31955",
+    "P0023.f51fdd6d52f747e6b9ec920be6aa475f"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        224363.31,
+        505889.21
+      ],
+      "axis": [
+        0.556679,
+        0.830727
+      ],
+      "halfLength": 26.43,
+      "halfWidth": 6.45,
+      "height": 53.439,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.66,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        224338.57,
+        505852.31
+      ],
+      "axis": [
+        -0.556679,
+        -0.830727
+      ],
+      "halfLength": 12,
+      "halfWidth": 7.95,
+      "height": 54.589,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        224388.04,
+        505926.12
+      ],
+      "axis": [
+        0.556679,
+        0.830727
+      ],
+      "halfLength": 12,
+      "halfWidth": 7.95,
+      "height": 54.576,
+      "gradient": [
+        -0.01356,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "P0023.a77f72a886ba41d89ccb1ef60e079ae9"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "P0023.a77f72a886ba41d89ccb1ef60e079ae9",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/968197393",
+        "tags": {
+          "bridge": "yes",
+          "carriageway_ref:left": "Li",
+          "carriageway_ref:right": "Re",
+          "highway": "trunk",
+          "lanes": "2",
+          "layer": "1",
+          "lit": "no",
+          "maxspeed": "80",
+          "motorroad": "yes",
+          "noname": "yes",
+          "note:official_name": "De officiële straatnaam is nog steeds \"N48\", de gemeente Ommen heeft de naam nog niet gewijzigd in het huidige wegnummer N340.",
+          "official_name": "N48",
+          "old_ref:-2020": "N48",
+          "operator": "Provincie Overijssel",
+          "ref": "N340",
+          "surface": "asphalt",
+          "zone:traffic": "NL:rural",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,500000,240000,520000 --run nl-11_10 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 64.9,
+      "dekBreedte": 11.9,
+      "brugLengte": 64.9,
+      "water": null,
+      "portaalhoogte": 10.7,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "P0023.2435a66d8a744817bd6f93e71ff31955",
+          "klasse": "Terrain",
+          "oppervlak": 145.4,
+          "onderDek": 0.79,
+          "bovenDekOnderkant": 0.84,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "P0023.f51fdd6d52f747e6b9ec920be6aa475f",
+          "klasse": "Terrain",
+          "oppervlak": 145.3,
+          "onderDek": 0.79,
+          "bovenDekOnderkant": 0.69,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "P0023.1c0c768895ed45c98818cd49b6db05c6",
+          "klasse": "Terrain",
+          "oppervlak": 997.9,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.66,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        54.439,
+        54.413
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "3 PDOK-vorm(en) door het dek: 2 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

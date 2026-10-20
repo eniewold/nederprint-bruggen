@@ -1,0 +1,162 @@
+{
+  "name": "Venloseweg",
+  "file": "castenray-brug-374ec037.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    200330.99,
+    389193.32
+  ],
+  "xAxis": [
+    0.407888,
+    -0.913032
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 73.176,
+  "groundSamplePoints": [
+    [
+      -40,
+      0
+    ],
+    [
+      40,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "L0002.4cc25c5514ce4a0682feb1f7232bff6f",
+    "L0002.e5724953d0a74a70ae9b23ed9f1d5fe0",
+    "L0002.374ec037ec994e68b13074d050eacfde",
+    "L0002.4694483d47c64fd18a3910f812961925",
+    "L0002.49a6ac53b2d54747867b75106f94eb6c"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        200317.93,
+        389222.54
+      ],
+      "axis": [
+        -0.407888,
+        0.913032
+      ],
+      "halfLength": 12,
+      "halfWidth": 17.45,
+      "height": 73.35,
+      "gradient": [
+        -0.0145,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        200344.04,
+        389164.1
+      ],
+      "axis": [
+        0.407888,
+        -0.913032
+      ],
+      "halfLength": 12,
+      "halfWidth": 17.45,
+      "height": 73.374,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "L0002.374ec037ec994e68b13074d050eacfde"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "L0002.4cc25c5514ce4a0682feb1f7232bff6f",
+          "type": "onbekend"
+        },
+        {
+          "id": "L0002.e5724953d0a74a70ae9b23ed9f1d5fe0",
+          "type": "onbekend"
+        },
+        {
+          "id": "L0002.374ec037ec994e68b13074d050eacfde",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/6723474",
+        "tags": {
+          "bridge": "yes",
+          "carriageway_ref": "Li",
+          "highway": "motorway",
+          "lanes": "2",
+          "layer": "1",
+          "lit": "no",
+          "maxspeed": "100",
+          "maxspeed:conditional": "130 @ (19:00-06:00)",
+          "name": "Venloseweg",
+          "oneway": "yes",
+          "operator": "Rijkswaterstaat",
+          "ref": "A73",
+          "surface": "asphalt",
+          "toll:hgv": "yes"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 3
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 200000,380000,220000,400000 --run nl-10_4 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 39.9,
+      "dekBreedte": 30.9,
+      "brugLengte": 40,
+      "water": null,
+      "portaalhoogte": 27.8,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "L0002.4694483d47c64fd18a3910f812961925",
+          "klasse": "Terrain",
+          "oppervlak": 170.9,
+          "onderDek": 0.95,
+          "bovenDekOnderkant": 0.27,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "L0002.49a6ac53b2d54747867b75106f94eb6c",
+          "klasse": "Terrain",
+          "oppervlak": 184.4,
+          "onderDek": 0.94,
+          "bovenDekOnderkant": 0.22,
+          "actie": "verbergen"
+        }
+      ],
+      "opritHoogtes": [
+        73.176,
+        73.224
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 2 verborgen, 0 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

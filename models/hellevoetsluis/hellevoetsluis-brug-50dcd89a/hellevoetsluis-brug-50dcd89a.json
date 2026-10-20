@@ -1,0 +1,161 @@
+{
+  "name": "hellevoetsluis-brug-50dcd89a",
+  "file": "hellevoetsluis-brug-50dcd89a.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    69858.47,
+    427464.48
+  ],
+  "xAxis": [
+    -0.994965,
+    0.100227
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 44.205,
+  "groundSamplePoints": [
+    [
+      -12.68,
+      0
+    ],
+    [
+      12.68,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "W0655.50dcd89a840a4087a2541f36a734f59f",
+    "W0655.f12ec02881424405b5b55afe5e779fc7"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        69858.47,
+        427464.48
+      ],
+      "axis": [
+        -0.994965,
+        0.100227
+      ],
+      "halfLength": 2.88,
+      "halfWidth": 1.73,
+      "height": 43.223,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.51,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        69869.94,
+        427463.32
+      ],
+      "axis": [
+        0.994965,
+        -0.100227
+      ],
+      "halfLength": 5.76,
+      "halfWidth": 1.84,
+      "height": 44.373,
+      "gradient": [
+        -0.02604,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        69847.01,
+        427465.63
+      ],
+      "axis": [
+        -0.994965,
+        0.100227
+      ],
+      "halfLength": 5.76,
+      "halfWidth": 1.84,
+      "height": 44.364,
+      "gradient": [
+        -0.02757,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "W0655.50dcd89a840a4087a2541f36a734f59f"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "W0655.50dcd89a840a4087a2541f36a734f59f",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1496417386",
+        "tags": {
+          "bridge": "yes",
+          "highway": "footway",
+          "level": "1"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 60000,420000,80000,440000 --run nl-3_6 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 11.5,
+      "dekBreedte": 2.5,
+      "brugLengte": 11.5,
+      "water": [
+        -2.3,
+        0.7
+      ],
+      "portaalhoogte": 2.5,
+      "opritafstand": [
+        6.9,
+        6.9
+      ],
+      "oprithelling": 11.5,
+      "doorstekend": [
+        {
+          "gmlId": "W0655.f12ec02881424405b5b55afe5e779fc7",
+          "klasse": "Terrain",
+          "oppervlak": 5.5,
+          "onderDek": 0.85,
+          "bovenDekOnderkant": 0.78,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "W0655.cecbea2d59c64e188070da5a4a19116f",
+          "klasse": "Terrain",
+          "oppervlak": 6.7,
+          "onderDek": 0.09,
+          "bovenDekOnderkant": 0.51,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        44.223,
+        44.205
+      ]
+    },
+    "waarschuwingen": [
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 1 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

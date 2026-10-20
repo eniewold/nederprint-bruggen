@@ -1,0 +1,127 @@
+{
+  "name": "s-gravenhage-brug-14280cb9-78",
+  "file": "s-gravenhage-brug-14280cb9-78.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    78090.1,
+    450912.21
+  ],
+  "xAxis": [
+    -0.997701,
+    0.067762
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 42.563,
+  "groundSamplePoints": [
+    [
+      -7.01,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0518.14280cb9c5230772e053530a0b0af16a"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        78090.1,
+        450912.21
+      ],
+      "axis": [
+        -0.997701,
+        0.067762
+      ],
+      "halfLength": 1.5,
+      "halfWidth": 1.75,
+      "height": 41.563,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.97,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        78096.1,
+        450911.8
+      ],
+      "axis": [
+        0.997701,
+        -0.067762
+      ],
+      "halfLength": 3.01,
+      "halfWidth": 1.88,
+      "height": 42.713,
+      "gradient": [
+        -0.04991,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0518.14280cb9c5230772e053530a0b0af16a"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0518.14280cb9c5230772e053530a0b0af16a",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/403278689",
+        "tags": {
+          "bridge": "yes",
+          "highway": "footway",
+          "layer": "1"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 60000,440000,80000,460000 --run nl-3_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 6,
+      "dekBreedte": 2.5,
+      "brugLengte": 6,
+      "water": null,
+      "portaalhoogte": 2.5,
+      "opritafstand": [
+        4,
+        12
+      ],
+      "oprithelling": 6,
+      "doorstekend": [
+        {
+          "gmlId": "G0518.14280cbd59490772e053530a0b0af16a",
+          "klasse": "Forest",
+          "oppervlak": 441.1,
+          "onderDek": 0.02,
+          "bovenDekOnderkant": 0.97,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        42.563,
+        null
+      ]
+    },
+    "waarschuwingen": [
+      "oprit + zonder PDOK-maaiveld",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "name": "Ommerkanaal",
+  "file": "ommen-brug-4dddd1d0.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    226497.93,
+    509598.06
+  ],
+  "xAxis": [
+    -0.703341,
+    -0.710853
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 49.418,
+  "groundSamplePoints": [
+    [
+      -35.18,
+      0
+    ],
+    [
+      35.18,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0160.4dddd1d062ef4be1b813d741bfcb61b1"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        226497.93,
+        509598.06
+      ],
+      "axis": [
+        -0.703341,
+        -0.710853
+      ],
+      "halfLength": 9.99,
+      "halfWidth": 3.99,
+      "height": 48.605,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.66,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        226517.62,
+        509617.96
+      ],
+      "axis": [
+        0.703341,
+        0.710853
+      ],
+      "halfLength": 12,
+      "halfWidth": 5.24,
+      "height": 49.755,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        226478.24,
+        509578.17
+      ],
+      "axis": [
+        -0.703341,
+        -0.710853
+      ],
+      "halfLength": 12,
+      "halfWidth": 5.24,
+      "height": 49.662,
+      "gradient": [
+        -0.02029,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0160.4dddd1d062ef4be1b813d741bfcb61b1"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0160.4dddd1d062ef4be1b813d741bfcb61b1",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/6429164",
+        "tags": {
+          "bridge": "yes",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Ommerkanaal",
+          "surface": "asphalt"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,500000,240000,520000 --run nl-11_10 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 32,
+      "dekBreedte": 7,
+      "brugLengte": 32,
+      "water": [
+        -6,
+        6
+      ],
+      "portaalhoogte": 6.3,
+      "opritafstand": [
+        19.2,
+        19.2
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "W0663.8abeacd5439b75202003020904061521",
+          "klasse": "Terrain",
+          "oppervlak": 435.5,
+          "onderDek": 0.06,
+          "bovenDekOnderkant": 0.66,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "W0663.8abeacd5439b75202003020904157777",
+          "klasse": "Terrain",
+          "oppervlak": 332.8,
+          "onderDek": 0.08,
+          "bovenDekOnderkant": 0.6,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        49.605,
+        49.418
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

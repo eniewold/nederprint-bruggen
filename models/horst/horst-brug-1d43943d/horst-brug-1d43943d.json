@@ -1,0 +1,174 @@
+{
+  "name": "Meldersloseweg",
+  "file": "horst-brug-1d43943d.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    202504.47,
+    384620.63
+  ],
+  "xAxis": [
+    0.823685,
+    0.567048
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 67.282,
+  "groundSamplePoints": [
+    [
+      -18.11,
+      0
+    ],
+    [
+      18.11,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G1507.1d43943d5667464a8e03937487d6771d"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        202504.47,
+        384620.63
+      ],
+      "axis": [
+        0.823685,
+        0.567048
+      ],
+      "halfLength": 4.12,
+      "halfWidth": 20.98,
+      "height": 66.369,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.88,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        202490.9,
+        384611.29
+      ],
+      "axis": [
+        -0.823685,
+        -0.567048
+      ],
+      "halfLength": 8.23,
+      "halfWidth": 22.48,
+      "height": 67.475,
+      "gradient": [
+        -0.02347,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        202518.03,
+        384629.97
+      ],
+      "axis": [
+        0.823685,
+        0.567048
+      ],
+      "halfLength": 8.23,
+      "halfWidth": 22.48,
+      "height": 67.519,
+      "gradient": [
+        -0.01822,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G1507.1d43943d5667464a8e03937487d6771d"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G1507.1d43943d5667464a8e03937487d6771d",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1383816464",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "yes",
+          "destination:lanes": "Horst;Sevenum;Venlo|Horst-Noord;Venray;Nijmegen",
+          "highway": "tertiary",
+          "lanes": "2",
+          "layer": "1",
+          "maxspeed": "80",
+          "name": "Meldersloseweg",
+          "oneway": "yes",
+          "operator": "Provincie Limburg",
+          "placement": "middle_of:1",
+          "ref": "N556",
+          "surface": "asphalt",
+          "turn:lanes": "through|right",
+          "zone:traffic": "NL:rural",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 200000,380000,220000,400000 --run nl-10_4 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 16.5,
+      "dekBreedte": 41,
+      "brugLengte": 16.5,
+      "water": [
+        -3.2,
+        1.8
+      ],
+      "portaalhoogte": 36.9,
+      "opritafstand": [
+        9.9,
+        9.9
+      ],
+      "oprithelling": 16.5,
+      "doorstekend": [
+        {
+          "gmlId": "G1507.cb9875269a614326876705786dc4dae7",
+          "klasse": "Terrain",
+          "oppervlak": 3647.5,
+          "onderDek": 0.14,
+          "bovenDekOnderkant": 0.88,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G1507.dda6fd91665649a1a5964f07bf08fdfe",
+          "klasse": "Terrain",
+          "oppervlak": 2663.3,
+          "onderDek": 0.01,
+          "bovenDekOnderkant": 0.75,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        67.282,
+        67.369
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

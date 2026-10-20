@@ -1,0 +1,132 @@
+{
+  "name": "Geeuwbrug",
+  "file": "ijlst-geeuwbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    170750.98,
+    558219.77
+  ],
+  "xAxis": [
+    -0.791887,
+    0.610668
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 42.645,
+  "groundSamplePoints": [
+    [
+      -11.74,
+      0
+    ],
+    [
+      11.74,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G1900.e0921e07e46841c9989419377fd9a606"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        170759.44,
+        558213.25
+      ],
+      "axis": [
+        0.791887,
+        -0.610668
+      ],
+      "halfLength": 5.34,
+      "halfWidth": 5.93,
+      "height": 43.037,
+      "gradient": [
+        -0.0281,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        170742.53,
+        558226.29
+      ],
+      "axis": [
+        -0.791887,
+        0.610668
+      ],
+      "halfLength": 5.34,
+      "halfWidth": 5.93,
+      "height": 42.916,
+      "gradient": [
+        -0.05078,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G1900.e0921e07e46841c9989419377fd9a606"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G1900.e0921e07e46841c9989419377fd9a606",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/6556819",
+        "tags": {
+          "bridge": "movable",
+          "bridge:movable": "bascule",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Galamagracht"
+        }
+      },
+      "fis": {
+        "id": 6361,
+        "naam": "Geeuwbrug",
+        "afstand": 2,
+        "beweegbaar": true,
+        "doorvaarthoogteGesloten": 1.05
+      },
+      "pdokBridgeVlakken": 1
+    },
+    "type": "basculebrug",
+    "doorvaarthoogte": 1.05,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,540000,180000,560000 --run nl-8_12 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 10.7,
+      "dekBreedte": 7.9,
+      "brugLengte": 10.7,
+      "water": [
+        -4.8,
+        5.2
+      ],
+      "portaalhoogte": 7.1,
+      "opritafstand": [
+        6.4,
+        6.4
+      ],
+      "oprithelling": 10.7,
+      "doorstekend": [],
+      "opritHoogtes": [
+        42.887,
+        42.645
+      ]
+    },
+    "waarschuwingen": [
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

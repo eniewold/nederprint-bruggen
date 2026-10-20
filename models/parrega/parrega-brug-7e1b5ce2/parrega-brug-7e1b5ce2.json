@@ -1,0 +1,172 @@
+{
+  "name": "Trekweg",
+  "file": "parrega-brug-7e1b5ce2.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    160734.39,
+    557190.97
+  ],
+  "xAxis": [
+    0.071608,
+    -0.997433
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 42.006,
+  "groundSamplePoints": [
+    [
+      -17.57,
+      0
+    ],
+    [
+      17.57,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G1900.7e1b5ce2022d448eac7b179cdaa672ad"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        160734.39,
+        557190.97
+      ],
+      "axis": [
+        0.071608,
+        -0.997433
+      ],
+      "halfLength": 3.99,
+      "halfWidth": 9.79,
+      "height": 42.103,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.83,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        160733.25,
+        557206.9
+      ],
+      "axis": [
+        -0.071608,
+        0.997433
+      ],
+      "halfLength": 7.99,
+      "halfWidth": 11.29,
+      "height": 42.705,
+      "gradient": [
+        -0.08743,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        160735.53,
+        557175.04
+      ],
+      "axis": [
+        0.071608,
+        -0.997433
+      ],
+      "halfLength": 7.99,
+      "halfWidth": 11.29,
+      "height": 43.253,
+      "gradient": [
+        -0.01878,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G1900.7e1b5ce2022d448eac7b179cdaa672ad"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G1900.7e1b5ce2022d448eac7b179cdaa672ad",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/6568472",
+        "tags": {
+          "bridge": "yes",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Trekweg",
+          "towpath": "yes"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,540000,180000,560000 --run nl-8_12 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 16,
+      "dekBreedte": 18.6,
+      "brugLengte": 16,
+      "water": [
+        -3,
+        3
+      ],
+      "portaalhoogte": 16.7,
+      "opritafstand": [
+        9.6,
+        9.6
+      ],
+      "oprithelling": 16,
+      "doorstekend": [
+        {
+          "gmlId": "G1900.157640d5697a4d5da1f07d3d7f813a21",
+          "klasse": "Road",
+          "oppervlak": 11.7,
+          "onderDek": 0.39,
+          "bovenDekOnderkant": 0.83,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G1900.73a0c014a994489c8c3bc4ea5f544345",
+          "klasse": "Forest",
+          "oppervlak": 77.4,
+          "onderDek": 0.02,
+          "bovenDekOnderkant": 0.81,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "W0653.65c37240c60c4ccca3b7c8b4e336cd83",
+          "klasse": "Forest",
+          "oppervlak": 154.7,
+          "onderDek": 0.02,
+          "bovenDekOnderkant": 0.79,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        42.006,
+        43.103
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "3 PDOK-vorm(en) door het dek: 0 verborgen, 3 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

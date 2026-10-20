@@ -1,0 +1,133 @@
+{
+  "name": "Weisleatbrêge",
+  "file": "heeg-weisleatbrege.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    169371.76,
+    553584.61
+  ],
+  "xAxis": [
+    0.9407,
+    0.339241
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 41.715,
+  "groundSamplePoints": [
+    [
+      -39.52,
+      0
+    ],
+    [
+      39.52,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G1900.2621809cafa6490682f925d18dd82cbd"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        169342.11,
+        553573.91
+      ],
+      "axis": [
+        -0.9407,
+        -0.339241
+      ],
+      "halfLength": 12,
+      "halfWidth": 6.53,
+      "height": 42.337,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        169401.41,
+        553595.3
+      ],
+      "axis": [
+        0.9407,
+        0.339241
+      ],
+      "halfLength": 12,
+      "halfWidth": 6.53,
+      "height": 42.101,
+      "gradient": [
+        -0.03215,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G1900.2621809cafa6490682f925d18dd82cbd"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G1900.2621809cafa6490682f925d18dd82cbd",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/127033494",
+        "tags": {
+          "bridge": "movable",
+          "bridge:movable": "bascule",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Weisleatstrjitte",
+          "source:maxspeed": "sign"
+        }
+      },
+      "fis": {
+        "id": 30205273,
+        "naam": "Weisleatbrêge",
+        "afstand": 5,
+        "beweegbaar": true,
+        "doorvaarthoogteGesloten": 1.5
+      },
+      "pdokBridgeVlakken": 1
+    },
+    "type": "basculebrug",
+    "doorvaarthoogte": 1.5,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,540000,180000,560000 --run nl-8_12 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 39,
+      "dekBreedte": 9.1,
+      "brugLengte": 39,
+      "water": [
+        -15,
+        15
+      ],
+      "portaalhoogte": 8.2,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [],
+      "opritHoogtes": [
+        42.187,
+        41.715
+      ]
+    },
+    "waarschuwingen": [
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

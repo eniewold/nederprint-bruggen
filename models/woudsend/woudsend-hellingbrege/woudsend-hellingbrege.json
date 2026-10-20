@@ -1,0 +1,161 @@
+{
+  "name": "Hellingbrêge",
+  "file": "woudsend-hellingbrege.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    171351.4,
+    550734.53
+  ],
+  "xAxis": [
+    -0.987535,
+    0.157397
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 42.663,
+  "groundSamplePoints": [
+    [
+      -35.26,
+      0
+    ],
+    [
+      35.26,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G1900.2d2d5cfb60744f48984380628ae2c175"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        171351.4,
+        550734.53
+      ],
+      "axis": [
+        -0.987535,
+        0.157397
+      ],
+      "halfLength": 10.03,
+      "halfWidth": 3.85,
+      "height": 41.986,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.71,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        171379.08,
+        550730.12
+      ],
+      "axis": [
+        0.987535,
+        -0.157397
+      ],
+      "halfLength": 12,
+      "halfWidth": 5.02,
+      "height": 42.974,
+      "gradient": [
+        -0.02598,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        171323.72,
+        550738.94
+      ],
+      "axis": [
+        -0.987535,
+        0.157397
+      ],
+      "halfLength": 12,
+      "halfWidth": 5.02,
+      "height": 43.136,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G1900.2d2d5cfb60744f48984380628ae2c175"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G1900.2d2d5cfb60744f48984380628ae2c175",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/166887022",
+        "tags": {
+          "bridge": "movable",
+          "bridge:movable": "bascule",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Hellingbrege"
+        }
+      },
+      "fis": {
+        "id": 26820,
+        "naam": "Hellingbrêge",
+        "afstand": 4,
+        "beweegbaar": true,
+        "doorvaarthoogteGesloten": 2.45
+      },
+      "pdokBridgeVlakken": 1
+    },
+    "type": "basculebrug",
+    "doorvaarthoogte": 2.45,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,540000,180000,560000 --run nl-8_12 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 32.1,
+      "dekBreedte": 6.7,
+      "brugLengte": 32.1,
+      "water": [
+        -14.5,
+        15
+      ],
+      "portaalhoogte": 6,
+      "opritafstand": [
+        19.2,
+        19.2
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G1900.c767cb8931444b589719b30c8a024dbb",
+          "klasse": "Terrain",
+          "oppervlak": 26,
+          "onderDek": 0.64,
+          "bovenDekOnderkant": 0.71,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        42.663,
+        42.986
+      ]
+    },
+    "waarschuwingen": [
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

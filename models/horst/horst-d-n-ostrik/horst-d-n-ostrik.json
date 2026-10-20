@@ -1,0 +1,199 @@
+{
+  "name": "D'n Ostrik",
+  "file": "horst-d-n-ostrik.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    201400.47,
+    386867.54
+  ],
+  "xAxis": [
+    0.296529,
+    -0.955024
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 72.007,
+  "groundSamplePoints": [
+    [
+      -55.7,
+      0
+    ],
+    [
+      55.7,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "L0002.64993f272b9748d2b826115861360a57",
+    "L0002.c3baf67a62ea4a5588ebf9b27e02b564",
+    "L0002.31ea529226894cf19aad670f01ef5d55",
+    "L0002.8531b4db092f457f8c8501b55ff42174",
+    "L0002.b94239c515ed4d7f90ae07b83b1cd971"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        201400.47,
+        386867.54
+      ],
+      "axis": [
+        0.296529,
+        -0.955024
+      ],
+      "halfLength": 29.65,
+      "halfWidth": 16.17,
+      "height": 71.269,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -2.01,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        201386.32,
+        386913.1
+      ],
+      "axis": [
+        -0.296529,
+        0.955024
+      ],
+      "halfLength": 12,
+      "halfWidth": 17.67,
+      "height": 72.288,
+      "gradient": [
+        -0.02344,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        201414.61,
+        386821.99
+      ],
+      "axis": [
+        0.296529,
+        -0.955024
+      ],
+      "halfLength": 12,
+      "halfWidth": 17.67,
+      "height": 72.419,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "L0002.31ea529226894cf19aad670f01ef5d55"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "L0002.64993f272b9748d2b826115861360a57",
+          "type": "onbekend"
+        },
+        {
+          "id": "L0002.c3baf67a62ea4a5588ebf9b27e02b564",
+          "type": "onbekend"
+        },
+        {
+          "id": "L0002.31ea529226894cf19aad670f01ef5d55",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/723606777",
+        "tags": {
+          "bridge": "yes",
+          "bridge:name": "D'n Ostrik",
+          "carriageway_ref": "Re",
+          "highway": "motorway",
+          "lanes": "2",
+          "layer": "1",
+          "lit": "no",
+          "maxspeed": "100",
+          "maxspeed:conditional": "130 @ (19:00-06:00)",
+          "oneway": "yes",
+          "operator": "Rijkswaterstaat",
+          "ref": "A73",
+          "surface": "asphalt",
+          "toll:hgv": "yes",
+          "man_made": "bridge",
+          "name": "D'n Ostrik"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 3
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 200000,380000,220000,400000 --run nl-10_4 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 71.3,
+      "dekBreedte": 31.3,
+      "brugLengte": 71.4,
+      "water": null,
+      "portaalhoogte": 28.2,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "L0002.8531b4db092f457f8c8501b55ff42174",
+          "klasse": "Terrain",
+          "oppervlak": 199.5,
+          "onderDek": 0.97,
+          "bovenDekOnderkant": 1.14,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "L0002.8096d2706d09427eb6583213c36c368c",
+          "klasse": "Forest",
+          "oppervlak": 3154.9,
+          "onderDek": 0,
+          "bovenDekOnderkant": 1.01,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "L0002.b94239c515ed4d7f90ae07b83b1cd971",
+          "klasse": "Terrain",
+          "oppervlak": 396.5,
+          "onderDek": 0.96,
+          "bovenDekOnderkant": 0.18,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "L0002.dd8e8aa4bbd54d35885fc2533c5728dc",
+          "klasse": "Terrain",
+          "oppervlak": 207,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.17,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        72.007,
+        72.269
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "4 PDOK-vorm(en) door het dek: 2 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

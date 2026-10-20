@@ -1,0 +1,178 @@
+{
+  "name": "Brug in Polderwei",
+  "file": "heeg-brug-in-polderwei.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    169529.91,
+    553908.48
+  ],
+  "xAxis": [
+    -0.991264,
+    -0.131891
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 41.549,
+  "groundSamplePoints": [
+    [
+      -39.24,
+      0
+    ],
+    [
+      39.24,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G1900.65f4bde324974be2addfa230b268d71e",
+    "G1900.5dab414058604e3584bd0aed4727db6c",
+    "G1900.174f40cace39429aa86bf4d7d461677b"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        169529.91,
+        553908.48
+      ],
+      "axis": [
+        -0.991264,
+        -0.131891
+      ],
+      "halfLength": 13.24,
+      "halfWidth": 5.38,
+      "height": 41.521,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.09,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        169560.88,
+        553912.6
+      ],
+      "axis": [
+        0.991264,
+        0.131891
+      ],
+      "halfLength": 12,
+      "halfWidth": 6.88,
+      "height": 42.185,
+      "gradient": [
+        -0.05298,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        169498.94,
+        553904.35
+      ],
+      "axis": [
+        -0.991264,
+        -0.131891
+      ],
+      "halfLength": 12,
+      "halfWidth": 6.88,
+      "height": 42.671,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G1900.65f4bde324974be2addfa230b268d71e"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G1900.65f4bde324974be2addfa230b268d71e",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/24903179",
+        "tags": {
+          "bridge": "yes",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Polderwei"
+        }
+      },
+      "fis": {
+        "id": 30205238,
+        "naam": "Brug in Polderwei",
+        "afstand": 11,
+        "beweegbaar": false,
+        "doorvaarthoogteGesloten": 1.5
+      },
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": 1.5,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,540000,180000,560000 --run nl-8_12 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 38.5,
+      "dekBreedte": 9.8,
+      "brugLengte": 38.5,
+      "water": [
+        1.3,
+        12.3
+      ],
+      "portaalhoogte": 8.8,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G1900.5dab414058604e3584bd0aed4727db6c",
+          "klasse": "Road",
+          "oppervlak": 153.3,
+          "onderDek": 0.81,
+          "bovenDekOnderkant": 1.1,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "G1900.174f40cace39429aa86bf4d7d461677b",
+          "klasse": "Road",
+          "oppervlak": 20.3,
+          "onderDek": 0.84,
+          "bovenDekOnderkant": 0.73,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "W0653.2e01551c7e5640dd804eee60735711ae",
+          "klasse": "Terrain",
+          "oppervlak": 139,
+          "onderDek": 0.02,
+          "bovenDekOnderkant": 0.09,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        41.549,
+        42.521
+      ]
+    },
+    "waarschuwingen": [
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "3 PDOK-vorm(en) door het dek: 2 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}
