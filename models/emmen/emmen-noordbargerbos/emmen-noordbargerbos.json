@@ -1,0 +1,170 @@
+{
+  "name": "Noordbargerbos",
+  "file": "emmen-noordbargerbos.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    254678.69,
+    531222.68
+  ],
+  "xAxis": [
+    0.681675,
+    0.731655
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 58.961,
+  "groundSamplePoints": [
+    [
+      -56.53,
+      0
+    ],
+    [
+      56.53,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0114.40c65894fa984623e05363ab720ac7dc"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        254678.69,
+        531222.68
+      ],
+      "axis": [
+        0.681675,
+        0.731655
+      ],
+      "halfLength": 30.53,
+      "halfWidth": 11.56,
+      "height": 58.645,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.87,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        254645.61,
+        531187.17
+      ],
+      "axis": [
+        -0.681675,
+        -0.731655
+      ],
+      "halfLength": 12,
+      "halfWidth": 13.06,
+      "height": 59.795,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        254711.77,
+        531258.19
+      ],
+      "axis": [
+        0.681675,
+        0.731655
+      ],
+      "halfLength": 12,
+      "halfWidth": 13.06,
+      "height": 59.453,
+      "gradient": [
+        -0.04098,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0114.40c65894fa984623e05363ab720ac7dc"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0114.40c65894fa984623e05363ab720ac7dc",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1253359317",
+        "tags": {
+          "bridge": "yes",
+          "bridge:structure": "cable-stayed",
+          "foot": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "mofa": "yes",
+          "moped": "no",
+          "name": "Noordbargerbos",
+          "segregated": "no",
+          "traffic_sign": "NL:G11",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "tuibrug",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,520000,260000,540000 --run nl-12_11 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 73.1,
+      "dekBreedte": 22.1,
+      "brugLengte": 73.1,
+      "water": [
+        -27.5,
+        18.5
+      ],
+      "portaalhoogte": 19.9,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0114.40c65894c43d4623e05363ab720ac7dc",
+          "klasse": "Forest",
+          "oppervlak": 6257,
+          "onderDek": 0.01,
+          "bovenDekOnderkant": 0.87,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0114.dfde7c5b31e3459187a0971d770fe7e2",
+          "klasse": "Forest",
+          "oppervlak": 4263,
+          "onderDek": 0.01,
+          "bovenDekOnderkant": 0.06,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        59.645,
+        58.961
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "tuibrug zonder BGT-pylonen: alleen het dek",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

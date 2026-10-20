@@ -1,0 +1,192 @@
+{
+  "name": "Klinkmolen",
+  "file": "emmen-klinkmolen-2.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    253116.85,
+    531477.21
+  ],
+  "xAxis": [
+    -0.54468,
+    0.838644
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 64.139,
+  "groundSamplePoints": [
+    [
+      -69.05,
+      0
+    ],
+    [
+      69.05,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "P0022.4fc2a61d84cd47dba06b7e86679e4eb4",
+    "P0022.a192deb0193b4392b41540148de7c099",
+    "P0022.c67df956413d4a2ea02324f09cbc0dcb"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        253116.85,
+        531477.21
+      ],
+      "axis": [
+        -0.54468,
+        0.838644
+      ],
+      "halfLength": 43.05,
+      "halfWidth": 10.86,
+      "height": 64.929,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -3.83,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        253150.11,
+        531426.01
+      ],
+      "axis": [
+        0.54468,
+        -0.838644
+      ],
+      "halfLength": 12,
+      "halfWidth": 12.36,
+      "height": 66.079,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        253083.6,
+        531528.4
+      ],
+      "axis": [
+        -0.54468,
+        0.838644
+      ],
+      "halfLength": 12,
+      "halfWidth": 12.36,
+      "height": 65.184,
+      "gradient": [
+        -0.08708,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "P0022.c67df956413d4a2ea02324f09cbc0dcb"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "P0022.4fc2a61d84cd47dba06b7e86679e4eb4",
+          "type": "pijler"
+        },
+        {
+          "id": "P0022.a192deb0193b4392b41540148de7c099",
+          "type": "pijler"
+        },
+        {
+          "id": "P0022.c67df956413d4a2ea02324f09cbc0dcb",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/877573634",
+        "tags": {
+          "bridge": "yes",
+          "bridge:name": "Dolmen",
+          "carriageway_ref": "h",
+          "destination": "Emmen-West;Ter Apel",
+          "destination:ref": "N391",
+          "hazard": "curve",
+          "highway": "trunk_link",
+          "lanes": "1",
+          "layer": "1",
+          "lit": "no",
+          "maxspeed": "70",
+          "maxspeed:type": "sign",
+          "motorroad": "yes",
+          "oneway": "yes",
+          "operator": "Provincie Drenthe",
+          "ref": "N34",
+          "surface": "asphalt",
+          "zone:traffic": "NL:rural",
+          "man_made": "bridge",
+          "name": "Klinkmolen"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 3
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,520000,260000,540000 --run nl-12_11 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 98.1,
+      "dekBreedte": 20.7,
+      "brugLengte": 98.1,
+      "water": null,
+      "portaalhoogte": 18.7,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "P0022.efc1c3073bf241a9a01770d932fe8bf1",
+          "klasse": "Separation",
+          "oppervlak": 4.4,
+          "onderDek": 0.03,
+          "bovenDekOnderkant": 2.83,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "P0022.79e4217aee43421bbf8b96f6c00b778d",
+          "klasse": "Terrain",
+          "oppervlak": 41.1,
+          "onderDek": 0.04,
+          "bovenDekOnderkant": 2.33,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "P0022.4f8aa685fe454186aada590b64026ebb",
+          "klasse": "Separation",
+          "oppervlak": 57.5,
+          "onderDek": 0.18,
+          "bovenDekOnderkant": 1.48,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        65.929,
+        64.139
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "3 PDOK-vorm(en) door het dek: 0 verborgen, 3 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}
