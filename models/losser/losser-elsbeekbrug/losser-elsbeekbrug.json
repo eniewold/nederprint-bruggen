@@ -1,0 +1,174 @@
+{
+  "name": "Elsbeekbrug",
+  "file": "losser-elsbeekbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    263449.56,
+    474108.41
+  ],
+  "xAxis": [
+    -0.531567,
+    -0.847016
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 80.941,
+  "groundSamplePoints": [
+    [
+      -10.31,
+      0
+    ],
+    [
+      10.31,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0168.f81e043819985d5de0535b66230a7e84"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        263449.56,
+        474108.41
+      ],
+      "axis": [
+        -0.531567,
+        -0.847016
+      ],
+      "halfLength": 2.34,
+      "halfWidth": 4.62,
+      "height": 79.949,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.7,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        263454.54,
+        474116.35
+      ],
+      "axis": [
+        0.531567,
+        0.847016
+      ],
+      "halfLength": 4.68,
+      "halfWidth": 6.12,
+      "height": 81.099,
+      "gradient": [
+        -0.03202,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        263444.58,
+        474100.48
+      ],
+      "axis": [
+        -0.531567,
+        -0.847016
+      ],
+      "halfLength": 4.68,
+      "halfWidth": 6.12,
+      "height": 81.095,
+      "gradient": [
+        -0.03283,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0168.f81e043819985d5de0535b66230a7e84"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0168.f81e043819985d5de0535b66230a7e84",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1331653902",
+        "tags": {
+          "bridge": "yes",
+          "bridge:name": "Elsbeekbrug",
+          "cyclestreet": "yes",
+          "highway": "unclassified",
+          "lane_markings": "no",
+          "layer": "1",
+          "maxaxleload": "8",
+          "maxspeed": "30",
+          "mofa": "yes",
+          "moped": "yes",
+          "motor_vehicle": "destination",
+          "name": "Elsbeekbrug",
+          "source:maxspeed": "NL:zone30",
+          "surface": "asphalt",
+          "surface:colour": "red",
+          "traffic_sign": "NL:L51",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 260000,460000,280000,480000 --run nl-13_8 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 9.4,
+      "dekBreedte": 8.2,
+      "brugLengte": 9.4,
+      "water": [
+        -1.7,
+        -1.2
+      ],
+      "portaalhoogte": 7.4,
+      "opritafstand": [
+        5.6,
+        5.6
+      ],
+      "oprithelling": 9.4,
+      "doorstekend": [
+        {
+          "gmlId": "G0168.10b9144d59c8897ee0635b66230a1419",
+          "klasse": "Terrain",
+          "oppervlak": 395.7,
+          "onderDek": 0.11,
+          "bovenDekOnderkant": 0.7,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "W0663.8abeacd5439b75202003181031196012",
+          "klasse": "Terrain",
+          "oppervlak": 357,
+          "onderDek": 0.01,
+          "bovenDekOnderkant": 0.69,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        80.949,
+        80.941
+      ]
+    },
+    "waarschuwingen": [
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

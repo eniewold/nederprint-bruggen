@@ -1,0 +1,168 @@
+{
+  "name": "Gronausestraat",
+  "file": "glane-brug-3c4c6489.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    265397.5,
+    473146.65
+  ],
+  "xAxis": [
+    0.113162,
+    -0.993577
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 78.504,
+  "groundSamplePoints": [
+    [
+      -8.33,
+      0
+    ],
+    [
+      8.33,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0168.3c4c64890d861f95e054002128f9eb56"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        265397.5,
+        473146.65
+      ],
+      "axis": [
+        0.113162,
+        -0.993577
+      ],
+      "halfLength": 1.89,
+      "halfWidth": 4.8,
+      "height": 77.629,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.25,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        265396.64,
+        473154.18
+      ],
+      "axis": [
+        -0.113162,
+        0.993577
+      ],
+      "halfLength": 3.79,
+      "halfWidth": 6.3,
+      "height": 78.716,
+      "gradient": [
+        -0.05619,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        265398.36,
+        473139.12
+      ],
+      "axis": [
+        0.113162,
+        -0.993577
+      ],
+      "halfLength": 3.79,
+      "halfWidth": 6.3,
+      "height": 78.779,
+      "gradient": [
+        -0.0396,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0168.3c4c64890d861f95e054002128f9eb56"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0168.3c4c64890d861f95e054002128f9eb56",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/475144551",
+        "tags": {
+          "bridge": "yes",
+          "hgv": "destination",
+          "highway": "tertiary",
+          "lanes": "1",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "30",
+          "name": "Gronausestraat",
+          "smoothness": "good",
+          "surface": "asphalt"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 260000,460000,280000,480000 --run nl-13_8 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 7.6,
+      "dekBreedte": 8.6,
+      "brugLengte": 7.6,
+      "water": [
+        -0.8,
+        0.7
+      ],
+      "portaalhoogte": 7.7,
+      "opritafstand": [
+        4.5,
+        4.5
+      ],
+      "oprithelling": 7.6,
+      "doorstekend": [
+        {
+          "gmlId": "W0663.2285eba6d4854598ab68414a782159d5",
+          "klasse": "Terrain",
+          "oppervlak": 316.9,
+          "onderDek": 0.04,
+          "bovenDekOnderkant": 0.25,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "W0663.23ede428f62145aea38570f9e8cc0718",
+          "klasse": "Terrain",
+          "oppervlak": 371.3,
+          "onderDek": 0.09,
+          "bovenDekOnderkant": 0.12,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        78.504,
+        78.629
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

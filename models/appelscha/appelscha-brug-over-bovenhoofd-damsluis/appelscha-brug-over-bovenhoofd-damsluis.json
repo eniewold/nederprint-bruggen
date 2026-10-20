@@ -1,0 +1,137 @@
+{
+  "name": "Brug over bovenhoofd Damsluis",
+  "file": "appelscha-brug-over-bovenhoofd-damsluis.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    223361.54,
+    551397.55
+  ],
+  "xAxis": [
+    -0.465849,
+    -0.884864
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 54.62,
+  "groundSamplePoints": [
+    [
+      -7.15,
+      0
+    ],
+    [
+      7.15,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "P0021.0bb7a0e3a68a4ce09587316504d94def"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        223364.47,
+        551403.12
+      ],
+      "axis": [
+        0.465849,
+        0.884864
+      ],
+      "halfLength": 3.15,
+      "halfWidth": 2.65,
+      "height": 54.934,
+      "gradient": [
+        -0.04763,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        223358.61,
+        551391.98
+      ],
+      "axis": [
+        -0.465849,
+        -0.884864
+      ],
+      "halfLength": 3.15,
+      "halfWidth": 2.65,
+      "height": 54.852,
+      "gradient": [
+        -0.07373,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "P0021.0bb7a0e3a68a4ce09587316504d94def"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "P0021.0bb7a0e3a68a4ce09587316504d94def",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/473154806",
+        "tags": {
+          "bridge": "movable",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxheight": "3.9",
+          "maxspeed": "60",
+          "maxspeed:type": "NL:zone60",
+          "name": "Bruggewijk",
+          "surface": "asphalt",
+          "zone:maxspeed": "NL:60",
+          "zone:traffic": "NL:rural"
+        }
+      },
+      "fis": {
+        "id": 57618,
+        "naam": "Brug over bovenhoofd Damsluis",
+        "afstand": 2,
+        "beweegbaar": true,
+        "doorvaarthoogteGesloten": 1.0999999999999996
+      },
+      "pdokBridgeVlakken": 1
+    },
+    "type": "basculebrug",
+    "doorvaarthoogte": 1.0999999999999996,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,540000,240000,560000 --run nl-11_12 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 6.3,
+      "dekBreedte": 3.5,
+      "brugLengte": 6.3,
+      "water": [
+        -2.6,
+        2.9
+      ],
+      "portaalhoogte": 3.2,
+      "opritafstand": [
+        4,
+        4
+      ],
+      "oprithelling": 6.3,
+      "doorstekend": [],
+      "opritHoogtes": [
+        54.784,
+        54.62
+      ]
+    },
+    "waarschuwingen": [
+      "bridge=movable zonder mechanisme: basculebrug is een gok",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

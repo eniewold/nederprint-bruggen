@@ -1,0 +1,173 @@
+{
+  "name": "Rijksweg",
+  "file": "smilde-brug-a3452483.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    224962.25,
+    550106.05
+  ],
+  "xAxis": [
+    0.552264,
+    0.83367
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 55.094,
+  "groundSamplePoints": [
+    [
+      -12.21,
+      0
+    ],
+    [
+      12.21,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "P0022.a345248353554d1c949e84ef2c32f18a"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        224962.25,
+        550106.05
+      ],
+      "axis": [
+        0.552264,
+        0.83367
+      ],
+      "halfLength": 2.77,
+      "halfWidth": 5.81,
+      "height": 54.153,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.41,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        224956.12,
+        550096.8
+      ],
+      "axis": [
+        -0.552264,
+        -0.83367
+      ],
+      "halfLength": 5.55,
+      "halfWidth": 7.31,
+      "height": 55.274,
+      "gradient": [
+        -0.03229,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        224968.37,
+        550115.3
+      ],
+      "axis": [
+        0.552264,
+        0.83367
+      ],
+      "halfLength": 5.55,
+      "halfWidth": 7.31,
+      "height": 55.303,
+      "gradient": [
+        -0.02703,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "P0022.a345248353554d1c949e84ef2c32f18a"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "P0022.a345248353554d1c949e84ef2c32f18a",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/683599729",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "yes",
+          "foot": "use_sidepath",
+          "highway": "primary",
+          "lanes": "2",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "50",
+          "maxweight:signed": "no",
+          "mofa": "use_sidepath",
+          "moped": "use_sidepath",
+          "name": "Rijksweg",
+          "operator": "Provincie Drenthe",
+          "ref": "N371",
+          "surface": "asphalt",
+          "zone:traffic": "NL:urban"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,540000,240000,560000 --run nl-11_12 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 11.1,
+      "dekBreedte": 10.6,
+      "brugLengte": 11.1,
+      "water": [
+        -1.5,
+        2.5
+      ],
+      "portaalhoogte": 9.6,
+      "opritafstand": [
+        6.7,
+        6.7
+      ],
+      "oprithelling": 11.1,
+      "doorstekend": [
+        {
+          "gmlId": "W0664.8abeacd5439b75760000000a012ac708",
+          "klasse": "Terrain",
+          "oppervlak": 90.9,
+          "onderDek": 0.13,
+          "bovenDekOnderkant": 0.41,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "W0664.5211205b6f1d4c40af7e19e0b16b3631",
+          "klasse": "Terrain",
+          "oppervlak": 60.3,
+          "onderDek": 0.04,
+          "bovenDekOnderkant": 0.1,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        55.094,
+        55.153
+      ]
+    },
+    "waarschuwingen": [
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

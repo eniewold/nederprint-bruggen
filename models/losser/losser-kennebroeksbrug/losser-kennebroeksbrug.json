@@ -1,0 +1,164 @@
+{
+  "name": "Kennebroeksbrug",
+  "file": "losser-kennebroeksbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    263880.88,
+    473951.49
+  ],
+  "xAxis": [
+    0.751024,
+    0.660275
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 80.888,
+  "groundSamplePoints": [
+    [
+      -13.43,
+      0
+    ],
+    [
+      13.43,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0168.3c4c64890d781f95e054002128f9eb56"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        263880.88,
+        473951.49
+      ],
+      "axis": [
+        0.751024,
+        0.660275
+      ],
+      "halfLength": 3.05,
+      "halfWidth": 2.83,
+      "height": 79.99,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.64,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        263871.72,
+        473943.43
+      ],
+      "axis": [
+        -0.751024,
+        -0.660275
+      ],
+      "halfLength": 6.1,
+      "halfWidth": 3.49,
+      "height": 81.14,
+      "gradient": [
+        -0.02458,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        263890.05,
+        473959.55
+      ],
+      "axis": [
+        0.751024,
+        0.660275
+      ],
+      "halfLength": 6.1,
+      "halfWidth": 3.49,
+      "height": 81.089,
+      "gradient": [
+        -0.03292,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0168.3c4c64890d781f95e054002128f9eb56"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0168.3c4c64890d781f95e054002128f9eb56",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1331654053",
+        "tags": {
+          "bridge": "yes",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Kennebroeksbrug",
+          "zone:traffic": "NL:rural",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 260000,460000,280000,480000 --run nl-13_8 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 12.2,
+      "dekBreedte": 4.7,
+      "brugLengte": 12.2,
+      "water": [
+        -0.1,
+        2.4
+      ],
+      "portaalhoogte": 4.2,
+      "opritafstand": [
+        7.3,
+        7.3
+      ],
+      "oprithelling": 12.2,
+      "doorstekend": [
+        {
+          "gmlId": "W0663.8abeacd5439b75202003181031304144",
+          "klasse": "Terrain",
+          "oppervlak": 910.3,
+          "onderDek": 0.05,
+          "bovenDekOnderkant": 0.64,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0168.3c4c6488e6c81f95e054002128f9eb56",
+          "klasse": "Terrain",
+          "oppervlak": 709.8,
+          "onderDek": 0.01,
+          "bovenDekOnderkant": 0.13,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        80.99,
+        80.888
+      ]
+    },
+    "waarschuwingen": [
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

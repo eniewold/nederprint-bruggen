@@ -1,0 +1,183 @@
+{
+  "name": "Zaarderheiken",
+  "file": "venlo-brug-d1970ed7.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    206563.29,
+    378544.21
+  ],
+  "xAxis": [
+    0.048015,
+    0.998847
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 72.204,
+  "groundSamplePoints": [
+    [
+      -68.03,
+      0
+    ],
+    [
+      68.03,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "L0002.04896ce874eb45a389f32e8519447bc0",
+    "L0002.5d19d266197848e48cc37eb22441deaa",
+    "L0002.d1970ed7d0024ff3bc4b655d688a54e9",
+    "L0002.f20a178987e44672a5a532d452161316",
+    "L0002.8b581396e5df443692f65b2455afe87d"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        206563.29,
+        378544.21
+      ],
+      "axis": [
+        0.048015,
+        0.998847
+      ],
+      "halfLength": 41.98,
+      "halfWidth": 36.21,
+      "height": 71.22,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.49,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        206560.41,
+        378484.25
+      ],
+      "axis": [
+        -0.048015,
+        -0.998847
+      ],
+      "halfLength": 12,
+      "halfWidth": 37.71,
+      "height": 72.362,
+      "gradient": [
+        -0.01314,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        206566.17,
+        378604.16
+      ],
+      "axis": [
+        0.048015,
+        0.998847
+      ],
+      "halfLength": 12,
+      "halfWidth": 37.71,
+      "height": 72.37,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "L0002.d1970ed7d0024ff3bc4b655d688a54e9"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "L0002.04896ce874eb45a389f32e8519447bc0",
+          "type": "onbekend"
+        },
+        {
+          "id": "L0002.5d19d266197848e48cc37eb22441deaa",
+          "type": "onbekend"
+        },
+        {
+          "id": "L0002.d1970ed7d0024ff3bc4b655d688a54e9",
+          "type": "dek"
+        },
+        {
+          "id": "L0002.f20a178987e44672a5a532d452161316",
+          "type": "onbekend"
+        },
+        {
+          "id": "L0002.8b581396e5df443692f65b2455afe87d",
+          "type": "onbekend"
+        }
+      ],
+      "osm": {
+        "id": "way/479317142",
+        "tags": {
+          "bridge": "yes",
+          "carriageway_ref": "Li",
+          "highway": "motorway",
+          "lanes": "2",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "100",
+          "maxspeed:conditional": "130 @ (19:00-06:00)",
+          "oneway": "yes",
+          "operator": "Rijkswaterstaat",
+          "ref": "A73",
+          "surface": "asphalt",
+          "toll:hgv": "yes",
+          "bridge:structure": "beam",
+          "man_made": "bridge",
+          "name": "Zaarderheiken"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 5
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 200000,360000,220000,380000 --run nl-10_3 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 96,
+      "dekBreedte": 71.4,
+      "brugLengte": 96.1,
+      "water": null,
+      "portaalhoogte": 64.3,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "L0002.e83c878162334b108154363738897a0f",
+          "klasse": "Road",
+          "oppervlak": 107.5,
+          "onderDek": 0.01,
+          "bovenDekOnderkant": 0.49,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        72.204,
+        72.22
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}
