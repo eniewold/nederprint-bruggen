@@ -1,0 +1,164 @@
+{
+  "name": "Koraal",
+  "file": "heerhugowaard-brug-8e4a8068.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    116816.88,
+    519895.03
+  ],
+  "xAxis": [
+    0.760448,
+    0.649399
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 39.873,
+  "groundSamplePoints": [
+    [
+      -34.02,
+      0
+    ],
+    [
+      34.02,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "W0651.8e4a8068b4374ce9962acad4427685e4"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        116816.88,
+        519895.03
+      ],
+      "axis": [
+        0.760448,
+        0.649399
+      ],
+      "halfLength": 9.46,
+      "halfWidth": 6.26,
+      "height": 39.168,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.18,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        116796,
+        519877.2
+      ],
+      "axis": [
+        -0.760448,
+        -0.649399
+      ],
+      "halfLength": 12,
+      "halfWidth": 7.76,
+      "height": 40.171,
+      "gradient": [
+        -0.02481,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        116837.77,
+        519912.86
+      ],
+      "axis": [
+        0.760448,
+        0.649399
+      ],
+      "halfLength": 12,
+      "halfWidth": 7.76,
+      "height": 40.318,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "W0651.8e4a8068b4374ce9962acad4427685e4"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "W0651.8e4a8068b4374ce9962acad4427685e4",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/270645431",
+        "tags": {
+          "bridge": "yes",
+          "highway": "residential",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Koraal",
+          "surface": "paving_stones"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,500000,120000,520000 --run nl-5_10 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 30.9,
+      "dekBreedte": 11.5,
+      "brugLengte": 30.9,
+      "water": [
+        -7.5,
+        7
+      ],
+      "portaalhoogte": 10.4,
+      "opritafstand": [
+        18.6,
+        18.6
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0398.dc56c5962ac44278ba70c207c64859b7",
+          "klasse": "Forest",
+          "oppervlak": 262.2,
+          "onderDek": 0.05,
+          "bovenDekOnderkant": 0.18,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0398.b4720ad4deeb4a6997f4bb50fbe7333a",
+          "klasse": "Forest",
+          "oppervlak": 1721,
+          "onderDek": 0.01,
+          "bovenDekOnderkant": 0.1,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        39.873,
+        40.168
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "name": "Heerenbrug",
+  "file": "voorhout-heerenbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    95898.08,
+    472511.78
+  ],
+  "xAxis": [
+    0.675978,
+    0.736921
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 43.258,
+  "groundSamplePoints": [
+    [
+      -5.64,
+      0
+    ],
+    [
+      5.64,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G1525.6d0dbe23f6524174a0fdee7c5944f3d6"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        95894.94,
+        472508.36
+      ],
+      "axis": [
+        -0.675978,
+        -0.736921
+      ],
+      "halfLength": 3,
+      "halfWidth": 4.5,
+      "height": 43.865,
+      "gradient": [
+        -0.05,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        95901.22,
+        472515.2
+      ],
+      "axis": [
+        0.675978,
+        0.736921
+      ],
+      "halfLength": 3,
+      "halfWidth": 4.5,
+      "height": 43.637,
+      "gradient": [
+        -0.12605,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G1525.6d0dbe23f6524174a0fdee7c5944f3d6"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G1525.6d0dbe23f6524174a0fdee7c5944f3d6",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1288973454",
+        "tags": {
+          "bridge": "yes",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxspeed": "30",
+          "mofa": "yes",
+          "moped": "yes",
+          "motor_vehicle": "destination",
+          "name": "Heerenbrug",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,460000,100000,480000 --run nl-4_8 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 3.3,
+      "dekBreedte": 6,
+      "brugLengte": 3.3,
+      "water": [
+        -1.1,
+        1.4
+      ],
+      "portaalhoogte": 5.4,
+      "opritafstand": [
+        4,
+        4
+      ],
+      "oprithelling": 6,
+      "doorstekend": [],
+      "opritHoogtes": [
+        43.715,
+        43.258
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

@@ -1,0 +1,181 @@
+{
+  "name": "Terheijdense Brug",
+  "file": "breda-terheijdense-brug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    112099.03,
+    404627.38
+  ],
+  "xAxis": [
+    0.234628,
+    -0.972085
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 52.641,
+  "groundSamplePoints": [
+    [
+      -67.35,
+      0
+    ],
+    [
+      67.35,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "L0002.8abeacd54afb7500047bb89db650c89e",
+    "P0030.00f6f9695eb6f68ae050120a080440dd",
+    "G0758.6724b58a5b8c4ce19e7e24c4b04cf477",
+    "P0030.1e89b764090c40f5be154232c2d6450a"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        112099.03,
+        404627.38
+      ],
+      "axis": [
+        0.234628,
+        -0.972085
+      ],
+      "halfLength": 41.35,
+      "halfWidth": 16.02,
+      "height": 51.753,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.33,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        112085.1,
+        404685.07
+      ],
+      "axis": [
+        -0.234628,
+        0.972085
+      ],
+      "halfLength": 12,
+      "halfWidth": 17.52,
+      "height": 52.847,
+      "gradient": [
+        -0.01714,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        112112.95,
+        404569.7
+      ],
+      "axis": [
+        0.234628,
+        -0.972085
+      ],
+      "halfLength": 12,
+      "halfWidth": 17.52,
+      "height": 52.903,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "P0030.00f6f9695eb6f68ae050120a080440dd"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "L0002.8abeacd54afb7500047bb89db650c89e",
+          "type": "pijler"
+        },
+        {
+          "id": "P0030.00f6f9695eb6f68ae050120a080440dd",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/679147733",
+        "tags": {
+          "bridge": "viaduct",
+          "layer": "1",
+          "man_made": "bridge",
+          "name": "Terheijdense Brug"
+        }
+      },
+      "fis": {
+        "id": 2460,
+        "naam": "Terheijdense brug",
+        "afstand": 11,
+        "beweegbaar": false,
+        "doorvaarthoogteGesloten": 7.46
+      },
+      "pdokBridgeVlakken": 2
+    },
+    "type": "ligger",
+    "doorvaarthoogte": 7.46,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,400000,120000,420000 --run nl-5_5 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 94.7,
+      "dekBreedte": 31,
+      "brugLengte": 94.7,
+      "water": [
+        -15.8,
+        23.2
+      ],
+      "portaalhoogte": 27.9,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0758.6724b58a5b8c4ce19e7e24c4b04cf477",
+          "klasse": "Forest",
+          "oppervlak": 183.2,
+          "onderDek": 0.9,
+          "bovenDekOnderkant": 0.82,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "P0030.1e89b764090c40f5be154232c2d6450a",
+          "klasse": "Terrain",
+          "oppervlak": 183.3,
+          "onderDek": 0.91,
+          "bovenDekOnderkant": 0.78,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "G1719.8abeacd54c5b7500047c4cd3d3ee2ff4",
+          "klasse": "Forest",
+          "oppervlak": 2743.9,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.33,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        52.641,
+        52.753
+      ]
+    },
+    "waarschuwingen": [
+      "3 PDOK-vorm(en) door het dek: 2 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

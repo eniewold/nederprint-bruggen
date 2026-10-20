@@ -1,0 +1,143 @@
+{
+  "name": "Hofpleinlijn",
+  "file": "berkel-en-rodenrijs-brug-2e2b94d4-105.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    90866.74,
+    445201.32
+  ],
+  "xAxis": [
+    0.353506,
+    -0.935432
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 39.814,
+  "groundSamplePoints": [
+    [
+      -120.94,
+      -2.13
+    ],
+    [
+      40.92,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G1621.2e2b94d434b14b6be05332a1e90a2401"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        90855.09,
+        445232.13
+      ],
+      "axis": [
+        -0.353506,
+        0.935432
+      ],
+      "halfLength": 12,
+      "halfWidth": 8.42,
+      "height": 41.23,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        90878.38,
+        445170.52
+      ],
+      "axis": [
+        0.353506,
+        -0.935432
+      ],
+      "halfLength": 12,
+      "halfWidth": 8.42,
+      "height": 40.597,
+      "gradient": [
+        -0.06527,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G1621.2e2b94d434b14b6be05332a1e90a2401"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G1621.2e2b94d434b14b6be05332a1e90a2401",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/912756545",
+        "tags": {
+          "bridge": "yes",
+          "description": "Metrolijn E",
+          "designated_direction": "forward",
+          "electrified": "contact_line",
+          "frequency": "0",
+          "gauge": "1435",
+          "layer": "1",
+          "maxspeed": "100",
+          "name": "Hofpleinlijn",
+          "operator": "RET",
+          "railway": "light_rail",
+          "railway:track_ref": "2",
+          "railway:zub222c": "yes",
+          "ref": "E",
+          "voltage": "750",
+          "width": "3.4",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,440000,100000,460000 --run nl-4_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 41.9,
+      "dekBreedte": 12.8,
+      "brugLengte": 41.9,
+      "water": [
+        -14.9,
+        1.6
+      ],
+      "portaalhoogte": 11.5,
+      "opritafstand": [
+        100,
+        20
+      ],
+      "spoorhoogteBron": "pdok",
+      "oprithelling": 24,
+      "doorstekend": [],
+      "opritHoogtes": [
+        41.08,
+        39.814
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "oprit -: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "oprit -: spoorterrein voorbij 150 m nog 1.6 m hoger (43.2 m); PDOK trekt het spoor hier ver naar beneden, controleer de dekhoogte of geef --opritafstand",
+      "oprit - pas op 100 m langs het spoor gemeten (PDOK-spoorterrein bij de brug lager)",
+      "oprit +: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "name": "zevenhuizen-brug-00172ebc",
+  "file": "zevenhuizen-brug-00172ebc.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    98696.87,
+    444288.04
+  ],
+  "xAxis": [
+    -0.630003,
+    0.776593
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 38.373,
+  "groundSamplePoints": [
+    [
+      -41.38,
+      0
+    ],
+    [
+      41.38,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G1892.00172ebc81c544d6944fd01582668e83",
+    "G1892.55b4cb7b472e4dd9a572b2267d790fe7"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        98696.87,
+        444288.04
+      ],
+      "axis": [
+        -0.630003,
+        0.776593
+      ],
+      "halfLength": 15.38,
+      "halfWidth": 1.75,
+      "height": 37.681,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.97,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        98717.9,
+        444262.12
+      ],
+      "axis": [
+        0.630003,
+        -0.776593
+      ],
+      "halfLength": 12,
+      "halfWidth": 1.87,
+      "height": 38.677,
+      "gradient": [
+        -0.02532,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        98675.84,
+        444313.97
+      ],
+      "axis": [
+        -0.630003,
+        0.776593
+      ],
+      "halfLength": 12,
+      "halfWidth": 1.87,
+      "height": 38.831,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G1892.00172ebc81c544d6944fd01582668e83"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G1892.00172ebc81c544d6944fd01582668e83",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/90723703",
+        "tags": {
+          "bridge": "yes",
+          "highway": "footway",
+          "layer": "1"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,440000,100000,460000 --run nl-4_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 42.8,
+      "dekBreedte": 2.5,
+      "brugLengte": 42.8,
+      "water": [
+        -9.9,
+        17.1
+      ],
+      "portaalhoogte": 2.5,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G1892.a6e5153b12294a53b1353bdcc4e4bfc6",
+          "klasse": "Terrain",
+          "oppervlak": 26.6,
+          "onderDek": 0.45,
+          "bovenDekOnderkant": 0.97,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G1892.55b4cb7b472e4dd9a572b2267d790fe7",
+          "klasse": "Terrain",
+          "oppervlak": 1.2,
+          "onderDek": 1,
+          "bovenDekOnderkant": 0.55,
+          "actie": "verbergen"
+        }
+      ],
+      "opritHoogtes": [
+        38.373,
+        38.681
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 1 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

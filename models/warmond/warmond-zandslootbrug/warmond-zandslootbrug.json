@@ -1,0 +1,199 @@
+{
+  "name": "Zandslootbrug",
+  "file": "warmond-zandslootbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    95699.43,
+    470220.91
+  ],
+  "xAxis": [
+    -0.9837,
+    -0.179815
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 46.314,
+  "groundSamplePoints": [
+    [
+      -24.62,
+      0
+    ],
+    [
+      24.57,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "L0002.7d7d18b4033445a0b2e7423f9ef6e692",
+    "L0002.8536cd851b8d40eb9be37b3798339583",
+    "L0002.dfc41889853a49ecb70b94cc4cb81097"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        95699.43,
+        470220.91
+      ],
+      "axis": [
+        -0.9837,
+        -0.179815
+      ],
+      "halfLength": 5.58,
+      "halfWidth": 16.23,
+      "height": 45.351,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.32,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        95721.45,
+        470224.94
+      ],
+      "axis": [
+        0.9837,
+        0.179815
+      ],
+      "halfLength": 11.18,
+      "halfWidth": 17.73,
+      "height": 46.483,
+      "gradient": [
+        -0.01506,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        95677.46,
+        470216.9
+      ],
+      "axis": [
+        -0.9837,
+        -0.179815
+      ],
+      "halfLength": 11.18,
+      "halfWidth": 17.73,
+      "height": 46.501,
+      "gradient": [
+        -0.01342,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "L0002.dfc41889853a49ecb70b94cc4cb81097"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "L0002.7d7d18b4033445a0b2e7423f9ef6e692",
+          "type": "onbekend"
+        },
+        {
+          "id": "L0002.8536cd851b8d40eb9be37b3798339583",
+          "type": "onbekend"
+        },
+        {
+          "id": "L0002.dfc41889853a49ecb70b94cc4cb81097",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/645786021",
+        "tags": {
+          "bridge": "yes",
+          "carriageway_ref": "Li",
+          "highway": "motorway",
+          "lanes": "2",
+          "layer": "1",
+          "maxspeed": "100",
+          "maxspeed:conditional": "120 @ (19:00-06:00)",
+          "noname": "yes",
+          "official_name": "Rijksweg A44",
+          "oneway": "yes",
+          "operator": "Rijkswaterstaat",
+          "overtaking:hgv:conditional": "no @ (Mo-Fr 06:00-10:00,15:00-19:00)",
+          "ref": "A44",
+          "surface": "asphalt",
+          "toll:hgv": "yes",
+          "man_made": "bridge",
+          "name": "Zandslootbrug"
+        }
+      },
+      "fis": {
+        "id": 24972504,
+        "naam": "Zandslootbrug Warmond",
+        "afstand": 4,
+        "beweegbaar": false,
+        "doorvaarthoogteGesloten": null
+      },
+      "pdokBridgeVlakken": 3
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,460000,100000,480000 --run nl-4_8 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 22.3,
+      "dekBreedte": 31.5,
+      "brugLengte": 22.4,
+      "water": [
+        -4.2,
+        -0.7
+      ],
+      "portaalhoogte": 28.3,
+      "opritafstand": [
+        13.4,
+        13.4
+      ],
+      "oprithelling": 22.4,
+      "doorstekend": [
+        {
+          "gmlId": "G1525.93576c43960d48f3b883497b3ee49445",
+          "klasse": "Road",
+          "oppervlak": 788.5,
+          "onderDek": 0.02,
+          "bovenDekOnderkant": 0.32,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "L0002.13146a9e860647199eca2958828c8b5d",
+          "klasse": "Terrain",
+          "oppervlak": 152.9,
+          "onderDek": 0.4,
+          "bovenDekOnderkant": 0.25,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "L0002.073d460599b6441dab7375b47b55c146",
+          "klasse": "Forest",
+          "oppervlak": 161.4,
+          "onderDek": 0.05,
+          "bovenDekOnderkant": 0.25,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        46.314,
+        46.351
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "3 PDOK-vorm(en) door het dek: 0 verborgen, 3 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

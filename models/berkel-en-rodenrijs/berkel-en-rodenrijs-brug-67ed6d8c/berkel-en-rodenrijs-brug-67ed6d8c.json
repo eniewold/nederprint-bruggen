@@ -1,0 +1,176 @@
+{
+  "name": "Hofpleinlijn",
+  "file": "berkel-en-rodenrijs-brug-67ed6d8c.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    90740.83,
+    445534.02
+  ],
+  "xAxis": [
+    -0.355064,
+    0.934842
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 43.462,
+  "groundSamplePoints": [
+    [
+      -41.73,
+      0
+    ],
+    [
+      61.73,
+      2.03
+    ]
+  ],
+  "replacesTerrain": [
+    "G1621.67ed6d8c66037ce2e05332a1e90ad04a"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        90740.83,
+        445534.02
+      ],
+      "axis": [
+        -0.355064,
+        0.934842
+      ],
+      "halfLength": 25.73,
+      "halfWidth": 6.7,
+      "height": 42.535,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.58,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        90756.35,
+        445493.14
+      ],
+      "axis": [
+        0.355064,
+        -0.934842
+      ],
+      "halfLength": 12,
+      "halfWidth": 8.2,
+      "height": 43.685,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        90725.3,
+        445574.9
+      ],
+      "axis": [
+        -0.355064,
+        0.934842
+      ],
+      "halfLength": 12,
+      "halfWidth": 8.2,
+      "height": 43.648,
+      "gradient": [
+        -0.01554,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G1621.67ed6d8c66037ce2e05332a1e90ad04a"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G1621.67ed6d8c66037ce2e05332a1e90ad04a",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/314185332",
+        "tags": {
+          "bridge": "yes",
+          "description": "Metrolijn E",
+          "designated_direction": "forward",
+          "electrified": "contact_line",
+          "frequency": "0",
+          "gauge": "1435",
+          "layer": "1",
+          "maxspeed": "100",
+          "name": "Hofpleinlijn",
+          "operator": "RET",
+          "railway": "light_rail",
+          "railway:zub222c": "yes",
+          "ref": "E",
+          "voltage": "750",
+          "width": "3.4",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,440000,100000,460000 --run nl-4_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 63.5,
+      "dekBreedte": 12.4,
+      "brugLengte": 63.5,
+      "water": null,
+      "portaalhoogte": 11.2,
+      "opritafstand": [
+        10,
+        30
+      ],
+      "spoorhoogteBron": "pdok",
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G1621.2e2b94d3d0b14b6be05332a1e90a2401",
+          "klasse": "Separation",
+          "oppervlak": 7.9,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.58,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "P0028.1100019ff6d44ba4acc1efad06a65db9",
+          "klasse": "Separation",
+          "oppervlak": 32.9,
+          "onderDek": 0.19,
+          "bovenDekOnderkant": 0.12,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        43.535,
+        43.462
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "oprit -: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "oprit +: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "oprit + pas op 30 m langs het spoor gemeten (PDOK-spoorterrein bij de brug lager)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

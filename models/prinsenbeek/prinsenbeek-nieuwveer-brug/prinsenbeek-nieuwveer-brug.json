@@ -1,0 +1,203 @@
+{
+  "name": "Nieuwveer brug",
+  "file": "prinsenbeek-nieuwveer-brug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    107258.71,
+    405685.32
+  ],
+  "xAxis": [
+    0.391116,
+    -0.920341
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 52.081,
+  "groundSamplePoints": [
+    [
+      -89.06,
+      0
+    ],
+    [
+      89.11,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "L0002.4f35be0b011a4933b8b077b2fa0c399c",
+    "L0002.7b89496d82be42b68c88d3674f05b0bc",
+    "L0002.7fbf6fb7db1d450bbe1232975178c450",
+    "L0002.bacf8691f85a4c17abc32799855b4efc"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        107258.71,
+        405685.32
+      ],
+      "axis": [
+        0.391116,
+        -0.920341
+      ],
+      "halfLength": 63.06,
+      "halfWidth": 26.51,
+      "height": 51.139,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.56,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        107227.01,
+        405759.93
+      ],
+      "axis": [
+        -0.391116,
+        0.920341
+      ],
+      "halfLength": 12,
+      "halfWidth": 28.01,
+      "height": 52.289,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        107290.44,
+        405610.67
+      ],
+      "axis": [
+        0.391116,
+        -0.920341
+      ],
+      "halfLength": 12,
+      "halfWidth": 28.01,
+      "height": 52.26,
+      "gradient": [
+        -0.01493,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "L0002.4f35be0b011a4933b8b077b2fa0c399c",
+      "L0002.7fbf6fb7db1d450bbe1232975178c450"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "L0002.4f35be0b011a4933b8b077b2fa0c399c",
+          "type": "dek"
+        },
+        {
+          "id": "L0002.7b89496d82be42b68c88d3674f05b0bc",
+          "type": "onbekend"
+        },
+        {
+          "id": "L0002.7fbf6fb7db1d450bbe1232975178c450",
+          "type": "dek"
+        },
+        {
+          "id": "L0002.bacf8691f85a4c17abc32799855b4efc",
+          "type": "onbekend"
+        }
+      ],
+      "osm": {
+        "id": "way/460521643",
+        "tags": {
+          "bridge": "yes",
+          "carriageway_ref": "Re",
+          "highway": "motorway",
+          "int_ref": "E 19",
+          "lanes": "3",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "100",
+          "maxspeed:conditional": "130 @ (19:00-06:00)",
+          "oneway": "yes",
+          "operator": "Rijkswaterstaat",
+          "ref": "A16",
+          "surface": "asphalt",
+          "toll:hgv": "yes",
+          "man_made": "bridge",
+          "name": "Nieuwveer"
+        }
+      },
+      "fis": {
+        "id": 28397,
+        "naam": "Nieuwveer brug",
+        "afstand": 13,
+        "beweegbaar": false,
+        "doorvaarthoogteGesloten": 7
+      },
+      "pdokBridgeVlakken": 4
+    },
+    "type": "ligger",
+    "doorvaarthoogte": 7,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,400000,120000,420000 --run nl-5_5 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 138.1,
+      "dekBreedte": 52,
+      "brugLengte": 138.2,
+      "water": [
+        -34.6,
+        27.9
+      ],
+      "portaalhoogte": 46.8,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G1709.2613417b95856803e05332a1e90a7128",
+          "klasse": "Road",
+          "oppervlak": 288,
+          "onderDek": 0.02,
+          "bovenDekOnderkant": 0.56,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G1709.891405312cb00706e0534802e90ac056",
+          "klasse": "Forest",
+          "oppervlak": 2477.5,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.08,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G1709.2613417c2e0f6803e05332a1e90a7128",
+          "klasse": "Separation",
+          "oppervlak": 18.4,
+          "onderDek": 0.56,
+          "bovenDekOnderkant": 0.07,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        52.139,
+        52.081
+      ]
+    },
+    "waarschuwingen": [
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "3 PDOK-vorm(en) door het dek: 0 verborgen, 3 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

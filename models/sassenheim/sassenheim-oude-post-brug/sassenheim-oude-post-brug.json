@@ -1,0 +1,192 @@
+{
+  "name": "Oude Post Brug",
+  "file": "sassenheim-oude-post-brug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    95414.87,
+    470752.55
+  ],
+  "xAxis": [
+    -0.768592,
+    -0.639739
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 44.263,
+  "groundSamplePoints": [
+    [
+      -11.01,
+      0
+    ],
+    [
+      11.01,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G1525.bf09b198f22643a0bfa258a8f6988290"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        95414.87,
+        470752.55
+      ],
+      "axis": [
+        -0.768592,
+        -0.639739
+      ],
+      "halfLength": 2.5,
+      "halfWidth": 10.84,
+      "height": 43.752,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.97,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        95422.57,
+        470758.95
+      ],
+      "axis": [
+        0.768592,
+        0.639739
+      ],
+      "halfLength": 5.01,
+      "halfWidth": 12.34,
+      "height": 44.658,
+      "gradient": [
+        -0.07879,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        95407.17,
+        470746.14
+      ],
+      "axis": [
+        -0.768592,
+        -0.639739
+      ],
+      "halfLength": 5.01,
+      "halfWidth": 12.34,
+      "height": 44.902,
+      "gradient": [
+        -0.02996,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G1525.bf09b198f22643a0bfa258a8f6988290"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G1525.bf09b198f22643a0bfa258a8f6988290",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/645789023",
+        "tags": {
+          "bridge": "yes",
+          "cycleway": "shared_lane",
+          "highway": "secondary",
+          "layer": "1",
+          "maxspeed": "50",
+          "maxweight:signed": "no",
+          "name": "Oude Post Brug",
+          "surface": "asphalt",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,460000,100000,480000 --run nl-4_8 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 10,
+      "dekBreedte": 20.7,
+      "brugLengte": 10,
+      "water": [
+        -3,
+        1
+      ],
+      "portaalhoogte": 18.6,
+      "opritafstand": [
+        6,
+        6
+      ],
+      "oprithelling": 10,
+      "doorstekend": [
+        {
+          "gmlId": "G1525.fb0ad55a65b64c6eb90c680dbf6e6f13",
+          "klasse": "Terrain",
+          "oppervlak": 13.4,
+          "onderDek": 0.58,
+          "bovenDekOnderkant": 0.97,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G1525.5398629156424d27b49f7706734454f2",
+          "klasse": "Road",
+          "oppervlak": 616.8,
+          "onderDek": 0.01,
+          "bovenDekOnderkant": 0.97,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G1525.02833e73ed1846a7a3c715b8cd25dd90",
+          "klasse": "Road",
+          "oppervlak": 557.5,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.97,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G1525.5c886ea10032475689491fcb88574a3f",
+          "klasse": "Forest",
+          "oppervlak": 85.9,
+          "onderDek": 0.05,
+          "bovenDekOnderkant": 0.91,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G1525.bb03543a63d8429d8fcde8b453028902",
+          "klasse": "Road",
+          "oppervlak": 103,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.87,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        44.263,
+        44.752
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "5 PDOK-vorm(en) door het dek: 0 verborgen, 5 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

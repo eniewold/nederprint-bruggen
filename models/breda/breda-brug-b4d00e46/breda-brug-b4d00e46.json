@@ -1,0 +1,177 @@
+{
+  "name": "Bernard de Wildestraat",
+  "file": "breda-brug-b4d00e46.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    114404.3,
+    402314.8
+  ],
+  "xAxis": [
+    -0.133943,
+    -0.990989
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 45.705,
+  "groundSamplePoints": [
+    [
+      -11.88,
+      0
+    ],
+    [
+      11.88,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0758.b4d00e46080a4c4b8bea4abbe7621805"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        114404.3,
+        402314.8
+      ],
+      "axis": [
+        -0.133943,
+        -0.990989
+      ],
+      "halfLength": 2.7,
+      "halfWidth": 23.24,
+      "height": 44.874,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.65,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        114405.74,
+        402325.51
+      ],
+      "axis": [
+        0.133943,
+        0.990989
+      ],
+      "halfLength": 5.4,
+      "halfWidth": 24.74,
+      "height": 46.024,
+      "gradient": [
+        -0.02778,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        114402.85,
+        402304.1
+      ],
+      "axis": [
+        -0.133943,
+        -0.990989
+      ],
+      "halfLength": 5.4,
+      "halfWidth": 24.74,
+      "height": 45.939,
+      "gradient": [
+        -0.04344,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0758.b4d00e46080a4c4b8bea4abbe7621805"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0758.b4d00e46080a4c4b8bea4abbe7621805",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/540403608",
+        "tags": {
+          "bridge": "yes",
+          "highway": "residential",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Bernard de Wildestraat",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,400000,120000,420000 --run nl-5_5 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 10.8,
+      "dekBreedte": 45.5,
+      "brugLengte": 10.8,
+      "water": null,
+      "portaalhoogte": 40.9,
+      "opritafstand": [
+        6.5,
+        6.5
+      ],
+      "oprithelling": 10.8,
+      "doorstekend": [
+        {
+          "gmlId": "G0758.de72e5af1b7349e69293c8bc813e2fdd",
+          "klasse": "Forest",
+          "oppervlak": 114,
+          "onderDek": 0.51,
+          "bovenDekOnderkant": 0.65,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0758.50034d26944641d5b0193eabbc883d23",
+          "klasse": "Road",
+          "oppervlak": 186,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.61,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0758.6f1f9542caa94f97bbd0e2783e6e62bf",
+          "klasse": "Terrain",
+          "oppervlak": 43.6,
+          "onderDek": 0.38,
+          "bovenDekOnderkant": 0.58,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0758.ff56347edc3041ecaa77511f1bb7e15f",
+          "klasse": "Terrain",
+          "oppervlak": 30.2,
+          "onderDek": 0.53,
+          "bovenDekOnderkant": 0.42,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        45.874,
+        45.705
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "4 PDOK-vorm(en) door het dek: 0 verborgen, 4 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "name": "Koningsspil",
+  "file": "sint-pancras-brug-a0a2a60d.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    114859.84,
+    519905.39
+  ],
+  "xAxis": [
+    -0.03912,
+    0.999235
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 42.254,
+  "groundSamplePoints": [
+    [
+      -6.61,
+      0
+    ],
+    [
+      6.61,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G1980.a0a2a60db7f24d62aac31aa11a05c7e3"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        114860.06,
+        519899.79
+      ],
+      "axis": [
+        0.03912,
+        -0.999235
+      ],
+      "halfLength": 3,
+      "halfWidth": 8.52,
+      "height": 42.51,
+      "gradient": [
+        -0.05,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        114859.62,
+        519911
+      ],
+      "axis": [
+        -0.03912,
+        0.999235
+      ],
+      "halfLength": 3,
+      "halfWidth": 8.52,
+      "height": 42.457,
+      "gradient": [
+        -0.06765,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G1980.a0a2a60db7f24d62aac31aa11a05c7e3"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G1980.a0a2a60db7f24d62aac31aa11a05c7e3",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/454698573",
+        "tags": {
+          "bridge": "yes",
+          "highway": "residential",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Koningsspil"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ophaalbrug",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,500000,120000,520000 --run nl-5_10 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 5.2,
+      "dekBreedte": 13,
+      "brugLengte": 5.2,
+      "water": [
+        -2.1,
+        2.4
+      ],
+      "portaalhoogte": 11.7,
+      "opritafstand": [
+        4,
+        4
+      ],
+      "oprithelling": 6,
+      "doorstekend": [],
+      "opritHoogtes": [
+        42.36,
+        42.254
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

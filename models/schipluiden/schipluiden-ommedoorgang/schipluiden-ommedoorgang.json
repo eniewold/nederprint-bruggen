@@ -1,0 +1,149 @@
+{
+  "name": "Ommedoorgang",
+  "file": "schipluiden-ommedoorgang.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    81810.35,
+    445801.53
+  ],
+  "xAxis": [
+    0.978946,
+    0.204119
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 45.91,
+  "groundSamplePoints": [
+    [
+      -20.93,
+      0
+    ],
+    [
+      20.93,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G1842.aab0eccc02cc4e028c7e2d9cc36350ad",
+    "G1842.c543467716ae4517b1744f61a3653f6b"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        81791.72,
+        445797.65
+      ],
+      "axis": [
+        -0.978946,
+        -0.204119
+      ],
+      "halfLength": 9.51,
+      "halfWidth": 19.74,
+      "height": 46.092,
+      "gradient": [
+        -0.01577,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        81828.97,
+        445805.41
+      ],
+      "axis": [
+        0.978946,
+        0.204119
+      ],
+      "halfLength": 9.51,
+      "halfWidth": 19.74,
+      "height": 46.076,
+      "gradient": [
+        -0.01744,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G1842.aab0eccc02cc4e028c7e2d9cc36350ad"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G1842.aab0eccc02cc4e028c7e2d9cc36350ad",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/523442297",
+        "tags": {
+          "bicycle": "no",
+          "bridge": "yes",
+          "bridge:name": "Zuidhoornsebrug",
+          "foot": "no",
+          "highway": "secondary",
+          "lanes": "2",
+          "layer": "1",
+          "maxspeed": "50",
+          "mofa": "no",
+          "moped": "no",
+          "name": "Ommedoorgang",
+          "oneway": "yes",
+          "operator": "Gemeente Midden-Delfland",
+          "surface": "asphalt",
+          "zone:traffic": "NL:rural",
+          "bridge:structure": "suspension",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "hangbrug",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,440000,100000,460000 --run nl-4_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 19,
+      "dekBreedte": 35.5,
+      "brugLengte": 19,
+      "water": [
+        -1,
+        5.5
+      ],
+      "portaalhoogte": 31.9,
+      "opritafstand": [
+        11.4,
+        11.4
+      ],
+      "oprithelling": 19,
+      "doorstekend": [
+        {
+          "gmlId": "G1842.c543467716ae4517b1744f61a3653f6b",
+          "klasse": "Terrain",
+          "oppervlak": 60.5,
+          "onderDek": 1,
+          "bovenDekOnderkant": 0.98,
+          "actie": "verbergen"
+        }
+      ],
+      "opritHoogtes": [
+        45.942,
+        45.91
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "1 PDOK-vorm(en) door het dek: 1 verborgen, 0 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

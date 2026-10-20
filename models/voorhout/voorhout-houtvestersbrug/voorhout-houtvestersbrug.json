@@ -1,0 +1,130 @@
+{
+  "name": "Houtvestersbrug",
+  "file": "voorhout-houtvestersbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    95760.3,
+    471848.39
+  ],
+  "xAxis": [
+    -0.193637,
+    0.981073
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 43.982,
+  "groundSamplePoints": [
+    [
+      -6.11,
+      0
+    ],
+    [
+      6.11,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G1525.ca390d110b954064a68a1678cfe7e62c"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        95761.29,
+        471843.37
+      ],
+      "axis": [
+        0.193637,
+        -0.981073
+      ],
+      "halfLength": 3,
+      "halfWidth": 6.94,
+      "height": 44.241,
+      "gradient": [
+        -0.08636,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        95759.31,
+        471853.4
+      ],
+      "axis": [
+        -0.193637,
+        0.981073
+      ],
+      "halfLength": 3,
+      "halfWidth": 6.94,
+      "height": 44.35,
+      "gradient": [
+        -0.05,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G1525.ca390d110b954064a68a1678cfe7e62c"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G1525.ca390d110b954064a68a1678cfe7e62c",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1126565251",
+        "tags": {
+          "bridge": "yes",
+          "bridge:name": "Poortwachtersbrug",
+          "hgv": "destination",
+          "highway": "residential",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Poortwachtersbrug",
+          "zone:traffic": "NL:urban",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,460000,100000,480000 --run nl-4_8 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 4.2,
+      "dekBreedte": 9.9,
+      "brugLengte": 4.2,
+      "water": [
+        -1.6,
+        1.9
+      ],
+      "portaalhoogte": 8.9,
+      "opritafstand": [
+        4,
+        4
+      ],
+      "oprithelling": 6,
+      "doorstekend": [],
+      "opritHoogtes": [
+        43.982,
+        44.2
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

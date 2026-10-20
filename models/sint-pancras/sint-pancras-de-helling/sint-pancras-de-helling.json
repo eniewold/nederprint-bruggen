@@ -1,0 +1,183 @@
+{
+  "name": "De Helling",
+  "file": "sint-pancras-de-helling.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    113894.52,
+    519691.64
+  ],
+  "xAxis": [
+    0.958077,
+    -0.286511
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 42.316,
+  "groundSamplePoints": [
+    [
+      -24.54,
+      0
+    ],
+    [
+      24.54,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G1980.78da41fc2db74fef8502db500b235abd",
+    "G1980.7d30fcf3f92c4471bad64685e31a5eef",
+    "G1980.d71c032800c04592a4e9ab13513dd360"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        113894.52,
+        519691.64
+      ],
+      "axis": [
+        0.958077,
+        -0.286511
+      ],
+      "halfLength": 5.58,
+      "halfWidth": 5.03,
+      "height": 41.395,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.62,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        113873.14,
+        519698.03
+      ],
+      "axis": [
+        -0.958077,
+        0.286511
+      ],
+      "halfLength": 11.16,
+      "halfWidth": 6.53,
+      "height": 42.505,
+      "gradient": [
+        -0.01698,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        113915.89,
+        519685.25
+      ],
+      "axis": [
+        0.958077,
+        -0.286511
+      ],
+      "halfLength": 11.16,
+      "halfWidth": 6.53,
+      "height": 42.545,
+      "gradient": [
+        -0.01345,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G1980.d71c032800c04592a4e9ab13513dd360"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G1980.78da41fc2db74fef8502db500b235abd",
+          "type": "landhoofd"
+        },
+        {
+          "id": "G1980.7d30fcf3f92c4471bad64685e31a5eef",
+          "type": "landhoofd"
+        },
+        {
+          "id": "G1980.d71c032800c04592a4e9ab13513dd360",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1144243448",
+        "tags": {
+          "bridge": "yes",
+          "bridge:name": "De Helt",
+          "cycleway": "lane",
+          "highway": "residential",
+          "layer": "1",
+          "maxspeed": "30",
+          "maxweight:signed": "no",
+          "name": "De Helling",
+          "official_name": "de Helling",
+          "sidewalk": "left",
+          "surface": "asphalt",
+          "width": "6.4",
+          "bridge:structure": "humpback",
+          "man_made": "bridge",
+          "noname": "De Helt"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "bolbrug",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,500000,120000,520000 --run nl-5_10 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 22.3,
+      "dekBreedte": 9.1,
+      "brugLengte": 22.3,
+      "water": [
+        -3.2,
+        2.8
+      ],
+      "portaalhoogte": 8.2,
+      "opritafstand": [
+        13.4,
+        13.4
+      ],
+      "oprithelling": 22.3,
+      "bolling": 2.5,
+      "doorstekend": [
+        {
+          "gmlId": "G0416.9235b274fed5444b87abbedc5e53ecdd",
+          "klasse": "Forest",
+          "oppervlak": 6441.4,
+          "onderDek": 0.02,
+          "bovenDekOnderkant": 0.62,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G1980.8c0f5cab1d9144f5b22dc386a313c112",
+          "klasse": "Forest",
+          "oppervlak": 730.7,
+          "onderDek": 0.02,
+          "bovenDekOnderkant": 0.32,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        42.316,
+        42.395
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

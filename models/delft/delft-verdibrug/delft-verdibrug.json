@@ -1,0 +1,169 @@
+{
+  "name": "Verdibrug",
+  "file": "delft-verdibrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    83248.12,
+    445757.61
+  ],
+  "xAxis": [
+    -0.103119,
+    0.994669
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 43.066,
+  "groundSamplePoints": [
+    [
+      -11.05,
+      0
+    ],
+    [
+      11.05,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0503.032e68f09d5a49cce0532ee22091b28c"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        83248.12,
+        445757.61
+      ],
+      "axis": [
+        -0.103119,
+        0.994669
+      ],
+      "halfLength": 2.51,
+      "halfWidth": 2.87,
+      "height": 42.136,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.72,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        83249.15,
+        445747.62
+      ],
+      "axis": [
+        0.103119,
+        -0.994669
+      ],
+      "halfLength": 5.02,
+      "halfWidth": 3.55,
+      "height": 43.251,
+      "gradient": [
+        -0.0368,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        83247.08,
+        445767.6
+      ],
+      "axis": [
+        -0.103119,
+        0.994669
+      ],
+      "halfLength": 5.02,
+      "halfWidth": 3.55,
+      "height": 43.286,
+      "gradient": [
+        -0.02987,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0503.032e68f09d5a49cce0532ee22091b28c"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0503.032e68f09d5a49cce0532ee22091b28c",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/807911311",
+        "tags": {
+          "bridge": "yes",
+          "highway": "living_street",
+          "layer": "1",
+          "maxspeed": "15",
+          "maxweight:signed": "no",
+          "name": "Verdibrug",
+          "name:etymology:wikidata": "Q7317",
+          "smoothness": "excellent",
+          "surface": "asphalt",
+          "zone:traffic": "NL:urban",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,440000,100000,460000 --run nl-4_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 10,
+      "dekBreedte": 4.7,
+      "brugLengte": 10,
+      "water": [
+        -2.5,
+        2
+      ],
+      "portaalhoogte": 4.3,
+      "opritafstand": [
+        6,
+        6
+      ],
+      "oprithelling": 10,
+      "doorstekend": [
+        {
+          "gmlId": "G0503.54ea36a9447b4b3caeba0368cf3aa598",
+          "klasse": "Terrain",
+          "oppervlak": 88.7,
+          "onderDek": 0.02,
+          "bovenDekOnderkant": 0.72,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0503.92781a19b02147ab80f2ae45110621f6",
+          "klasse": "Terrain",
+          "oppervlak": 4.6,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.61,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        43.066,
+        43.136
+      ]
+    },
+    "waarschuwingen": [
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}
