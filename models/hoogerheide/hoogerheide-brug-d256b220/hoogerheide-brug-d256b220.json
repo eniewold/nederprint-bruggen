@@ -1,0 +1,152 @@
+{
+  "name": "hoogerheide-brug-d256b220",
+  "file": "hoogerheide-brug-d256b220.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    79281.58,
+    384569.39
+  ],
+  "xAxis": [
+    -0.999784,
+    -0.0208
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 45.642,
+  "groundSamplePoints": [
+    [
+      -56.76,
+      0
+    ],
+    [
+      56.76,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0873.d256b2208d8e43bb8c5e9faf341dee9e",
+    "P0030.4463953b00e149d2a923daa60e030b35"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        79281.58,
+        384569.39
+      ],
+      "axis": [
+        -0.999784,
+        -0.0208
+      ],
+      "halfLength": 30.76,
+      "halfWidth": 9.56,
+      "height": 44.651,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.65,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        79330.33,
+        384570.4
+      ],
+      "axis": [
+        0.999784,
+        0.0208
+      ],
+      "halfLength": 12,
+      "halfWidth": 11.06,
+      "height": 45.801,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        79232.82,
+        384568.37
+      ],
+      "axis": [
+        -0.999784,
+        -0.0208
+      ],
+      "halfLength": 12,
+      "halfWidth": 11.06,
+      "height": 45.796,
+      "gradient": [
+        -0.01287,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0873.d256b2208d8e43bb8c5e9faf341dee9e"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0873.d256b2208d8e43bb8c5e9faf341dee9e",
+          "type": "dek"
+        }
+      ],
+      "osm": null,
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 60000,380000,80000,400000 --run nl-3_4 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 73.5,
+      "dekBreedte": 18.1,
+      "brugLengte": 73.5,
+      "water": null,
+      "portaalhoogte": 16.3,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "P0030.4463953b00e149d2a923daa60e030b35",
+          "klasse": "Terrain",
+          "oppervlak": 1138.2,
+          "onderDek": 0.98,
+          "bovenDekOnderkant": 0.83,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "P0030.00f6f968e887f68ae050120a080440dd",
+          "klasse": "Terrain",
+          "oppervlak": 520.2,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.65,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        45.651,
+        45.642
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 1 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}
