@@ -1,5 +1,5 @@
 {
-  "name": "muiderberg-brug-171b06f5",
+  "name": "Irenehoeve",
   "file": "muiderberg-brug-171b06f5.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -13,7 +13,7 @@
     -0.199575
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 49.605,
+  "groundHeight": 49.604,
   "groundSamplePoints": [
     [
       -139.23,
@@ -25,7 +25,6 @@
     ]
   ],
   "replacesTerrain": [
-    "L0002.18fdd464e5f742e0a4e2812ff0e908f9",
     "L0002.5828c2fce65a43b6ad778abaa9758b0c",
     "L0002.7ba6c4962969445192db11fdb32644dd",
     "L0002.889603d5bdf9425d90b60ffb0d742ef9",
@@ -66,7 +65,7 @@
       "halfWidth": 12,
       "height": 50.699,
       "gradient": [
-        -0.0912,
+        -0.09122,
         0
       ],
       "minLift": 0.05,
@@ -79,10 +78,6 @@
     ],
     "bron": {
       "bgt": [
-        {
-          "id": "L0002.18fdd464e5f742e0a4e2812ff0e908f9",
-          "type": "onbekend"
-        },
         {
           "id": "L0002.5828c2fce65a43b6ad778abaa9758b0c",
           "type": "onbekend"
@@ -108,14 +103,50 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/438180372",
+        "tags": {
+          "bridge": "yes",
+          "bus": "no",
+          "carriageway_ref": "z",
+          "hazmat:B": "no",
+          "hazmat:C": "no",
+          "hazmat:D": "no",
+          "hazmat:E": "no",
+          "hgv": "no",
+          "highway": "motorway",
+          "lanes": "2",
+          "lanes:both_ways": "2",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "100",
+          "maxspeed:type": "sign",
+          "noname": "yes",
+          "note": "wisselbaan",
+          "official_name": "Rijksweg A6",
+          "oneway": "reversible",
+          "operator": "Rijkswaterstaat",
+          "placement:both_ways": "right_of:1",
+          "ref": "A6",
+          "source:official_name": "NWB",
+          "start_date": "2017-10-04",
+          "surface": "asphalt",
+          "toll:hgv": "yes",
+          "tourist_bus": "no",
+          "trailer": "no",
+          "zone:traffic": "NL:rural",
+          "bridge:structure": "beam",
+          "man_made": "bridge",
+          "name": "Irenehoeve"
+        }
+      },
       "fis": null,
-      "pdokBridgeVlakken": 7
+      "pdokBridgeVlakken": 6
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map muiderberg-brug-171b06f5 --plaats muiderberg --punt 136203,480792",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -135,13 +166,13 @@
       "doorstekend": [],
       "opritHoogtes": [
         51.493,
-        49.605
+        49.604
       ]
     },
     "waarschuwingen": [
       "geen FIS-brug binnen 35 m",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

@@ -225,20 +225,40 @@
           "type": "onbekend"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/266176852",
+        "tags": {
+          "bridge": "movable",
+          "bridge:movable": "bascule",
+          "carriageway_ref": "Re",
+          "highway": "trunk",
+          "lanes": "2",
+          "layer": "1",
+          "lit": "no",
+          "maxspeed": "100",
+          "motorroad": "yes",
+          "noname": "yes",
+          "oneway": "yes",
+          "operator": "Rijkswaterstaat",
+          "ref": "N33",
+          "source:noname": "NWB",
+          "surface": "asphalt",
+          "zone:traffic": "NL:rural"
+        }
+      },
       "fis": {
         "id": 11484,
         "naam": "Brug in de N33 Zuidbroek",
-        "afstand": 11,
+        "afstand": 12,
         "beweegbaar": true,
         "doorvaarthoogteGesloten": 3.79
       },
       "pdokBridgeVlakken": 29
     },
-    "type": "ophaalbrug",
+    "type": "basculebrug",
     "doorvaarthoogte": 3.79,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,560000,260000,580000 --run nl-12_13 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map meeden-brug-in-de-n33-zuidbroek --plaats meeden --punt 255833,576327",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

@@ -1,5 +1,5 @@
 {
-  "name": "helmond-brug-052156a7",
+  "name": "Houtse Parallelweg",
   "file": "helmond-brug-052156a7.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -138,14 +138,27 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/693136595",
+        "tags": {
+          "bridge": "yes",
+          "cycleway": "lane",
+          "highway": "residential",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "50",
+          "name": "Houtse Parallelweg",
+          "zone:traffic": "NL:urban",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 8
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,380000,180000,400000 --run nl-8_4 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map helmond-brug-052156a7 --plaats helmond --punt 172750,386888",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

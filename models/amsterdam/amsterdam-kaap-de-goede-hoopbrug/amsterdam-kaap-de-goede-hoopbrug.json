@@ -9,23 +9,24 @@
     485026.48
   ],
   "xAxis": [
-    -0.807572,
-    -0.589769
+    -0.589769,
+    0.807572
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 43.181,
+  "groundHeight": 42.965,
   "groundSamplePoints": [
     [
-      -24.54,
+      -44.49,
       0
     ],
     [
-      24.54,
+      44.49,
       0
     ]
   ],
   "replacesTerrain": [
-    "G0363.5735d62fc763489eaab74691a4583ffc"
+    "G0363.5735d62fc763489eaab74691a4583ffc",
+    "G0363.af0f0c35d47d4addba610856b471eca1"
   ],
   "terrainCorrections": [
     {
@@ -34,33 +35,33 @@
         485026.48
       ],
       "axis": [
-        -0.807572,
-        -0.589769
+        -0.589769,
+        0.807572
       ],
-      "halfLength": 5.58,
-      "halfWidth": 24.99,
-      "height": 42.273,
+      "halfLength": 18.49,
+      "halfWidth": 11.66,
+      "height": 42.546,
       "gradient": [
         0,
         0
       ],
-      "minLift": -1.84,
+      "minLift": -1.52,
       "maxLift": -0.01
     },
     {
       "centre": [
-        123305.36,
-        485039.64
+        123308.87,
+        484997.01
       ],
       "axis": [
-        0.807572,
-        0.589769
+        0.589769,
+        -0.807572
       ],
-      "halfLength": 11.16,
-      "halfWidth": 26.49,
-      "height": 43.423,
+      "halfLength": 12,
+      "halfWidth": 13.16,
+      "height": 43.406,
       "gradient": [
-        -0.01344,
+        -0.03669,
         0
       ],
       "minLift": 0.05,
@@ -68,18 +69,18 @@
     },
     {
       "centre": [
-        123269.33,
-        485013.32
+        123265.82,
+        485055.95
       ],
       "axis": [
-        -0.807572,
-        -0.589769
+        -0.589769,
+        0.807572
       ],
-      "halfLength": 11.16,
-      "halfWidth": 26.49,
-      "height": 43.377,
+      "halfLength": 12,
+      "halfWidth": 13.16,
+      "height": 43.696,
       "gradient": [
-        -0.01759,
+        -0.0125,
         0
       ],
       "minLift": 0.05,
@@ -127,49 +128,75 @@
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map amsterdam-kaap-de-goede-hoopbrug --plaats amsterdam --punt 123287,485026",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
-      "dekLengte": 22.3,
-      "dekBreedte": 49,
-      "brugLengte": 22.3,
-      "water": null,
-      "portaalhoogte": 44.1,
-      "opritafstand": [
-        13.4,
-        13.4
+      "dekLengte": 49,
+      "dekBreedte": 22.3,
+      "brugLengte": 49,
+      "water": [
+        4.5,
+        24
       ],
-      "oprithelling": 22.3,
+      "portaalhoogte": 20.1,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
       "doorstekend": [
         {
           "gmlId": "G0363.af0f0c35d47d4addba610856b471eca1",
           "klasse": "Forest",
           "oppervlak": 175.8,
-          "onderDek": 0.46,
-          "bovenDekOnderkant": 0.84,
+          "onderDek": 1,
+          "bovenDekOnderkant": 0.64,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "G0363.3263467447974be7a30f2ce698f76953",
+          "klasse": "Forest",
+          "oppervlak": 191.6,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.52,
           "actie": "verlagen"
         },
         {
           "gmlId": "G0363.c0be8cc8b7f944b6a9499e4a37c4662e",
           "klasse": "Forest",
           "oppervlak": 578.3,
-          "onderDek": 0.2,
-          "bovenDekOnderkant": 0.68,
+          "onderDek": 0.4,
+          "bovenDekOnderkant": 0.41,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0363.c017c025982d471bb5d1c67e47c86395",
+          "klasse": "Separation",
+          "oppervlak": 42.4,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.3,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0363.9938614b7da142abae75f31497888232",
+          "klasse": "Forest",
+          "oppervlak": 268.2,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.3,
           "actie": "verlagen"
         }
       ],
       "opritHoogtes": [
-        43.273,
-        43.181
+        42.965,
+        43.546
       ]
     },
     "waarschuwingen": [
-      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
       "geen FIS-brug binnen 35 m",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
-      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+      "5 PDOK-vorm(en) door het dek: 1 verborgen, 4 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

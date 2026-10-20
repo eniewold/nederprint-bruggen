@@ -1,5 +1,5 @@
 {
-  "name": "deurne-brug-35ed0740",
+  "name": "Helmondsingel",
   "file": "deurne-brug-35ed0740.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -45,7 +45,7 @@
         0,
         0
       ],
-      "minLift": -1.58,
+      "minLift": -1.55,
       "maxLift": -0.01
     },
     {
@@ -98,14 +98,30 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/536267229",
+        "tags": {
+          "bridge": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "mofa": "designated",
+          "moped": "designated",
+          "name": "Helmondsingel",
+          "oneway": "no",
+          "segregated": "no",
+          "smoothness": "good",
+          "surface": "paving_stones",
+          "traffic_sign": "NL:G12a",
+          "zone:traffic": "NL:rural"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,380000,180000,400000 --run nl-8_4 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map deurne-brug-35ed0740 --plaats deurne --punt 179174,386739",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -134,9 +150,9 @@
         {
           "gmlId": "G0762.35ed0740dded30f4e05332a1e90ac5d3",
           "klasse": "Terrain",
-          "oppervlak": 729.4,
+          "oppervlak": 120.8,
           "onderDek": 0.01,
-          "bovenDekOnderkant": 0.58,
+          "bovenDekOnderkant": 0.55,
           "actie": "verlagen"
         }
       ],

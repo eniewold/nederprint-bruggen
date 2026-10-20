@@ -99,10 +99,10 @@
         "tags": {
           "bicycle": "no",
           "bridge": "yes",
-          "carriageway_ref": "Li",
+          "carriageway_ref": "Re",
           "foot": "no",
           "highway": "primary",
-          "lanes": "2",
+          "lanes": "3",
           "layer": "1",
           "lit": "yes",
           "maxspeed": "70",
@@ -112,6 +112,7 @@
           "oneway": "yes",
           "operator": "Provincie Noord-Holland",
           "ref": "N208",
+          "turn:lanes": "through|through|right",
           "zone:traffic": "NL:urban",
           "bridge:structure": "beam",
           "man_made": "bridge"
@@ -123,7 +124,7 @@
     "type": "ophaalbrug",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,480000,120000,500000 --run nl-5_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map haarlem-randwegbrug-zuid --plaats haarlem --punt 102158,486452",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -134,7 +135,7 @@
         -7.6,
         8.9
       ],
-      "portaalhoogte": 39,
+      "portaalhoogte": 31.7,
       "opritafstand": [
         17,
         17
@@ -150,6 +151,6 @@
       "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
       "geen FIS-brug binnen 35 m"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

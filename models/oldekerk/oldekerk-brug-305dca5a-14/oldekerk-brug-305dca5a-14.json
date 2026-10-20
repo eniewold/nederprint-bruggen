@@ -9,18 +9,14 @@
     585015.8
   ],
   "xAxis": [
-    -0.999917,
-    0.012886
+    0.012886,
+    0.999917
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 39.721,
+  "groundHeight": 39.388,
   "groundSamplePoints": [
     [
-      -5.94,
-      0
-    ],
-    [
-      5.94,
+      -10.79,
       0
     ]
   ],
@@ -34,50 +30,31 @@
         585015.8
       ],
       "axis": [
-        -0.999917,
-        0.012886
+        0.012886,
+        0.999917
       ],
-      "halfLength": 0.97,
-      "halfWidth": 3.29,
-      "height": 38.898,
+      "halfLength": 1.4,
+      "halfWidth": 2.44,
+      "height": 38.388,
       "gradient": [
         0,
         0
       ],
-      "minLift": -1.62,
+      "minLift": -2.12,
       "maxLift": -0.01
     },
     {
       "centre": [
-        218370.26,
-        585015.74
+        218365.24,
+        585010.01
       ],
       "axis": [
-        0.999917,
-        -0.012886
+        -0.012886,
+        -0.999917
       ],
       "halfLength": 3,
-      "halfWidth": 4.19,
-      "height": 39.96,
-      "gradient": [
-        -0.07938,
-        0
-      ],
-      "minLift": 0.05,
-      "maxLift": 4
-    },
-    {
-      "centre": [
-        218360.38,
-        585015.87
-      ],
-      "axis": [
-        -0.999917,
-        0.012886
-      ],
-      "halfLength": 3,
-      "halfWidth": 4.19,
-      "height": 40.048,
+      "halfWidth": 2.91,
+      "height": 39.538,
       "gradient": [
         -0.05,
         0
@@ -104,45 +81,49 @@
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 200000,580000,220000,600000 --run nl-10_14 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map oldekerk-brug-305dca5a-14 --plaats oldekerk --punt 218365,585016",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
-      "dekLengte": 3.9,
-      "dekBreedte": 5.6,
-      "brugLengte": 3.9,
-      "water": null,
-      "portaalhoogte": 5,
+      "dekLengte": 5.6,
+      "dekBreedte": 3.9,
+      "brugLengte": 5.6,
+      "water": [
+        -2.8,
+        -2.8
+      ],
+      "portaalhoogte": 3.5,
       "opritafstand": [
-        4,
-        4
+        8,
+        12
       ],
       "oprithelling": 6,
       "doorstekend": [
         {
           "gmlId": "L0001.2820e40ca6754f18b27b744048d9d6d2",
           "klasse": "Forest",
-          "oppervlak": 2756.4,
+          "oppervlak": 1590.4,
           "onderDek": 0,
-          "bovenDekOnderkant": 0.62,
+          "bovenDekOnderkant": 1.12,
           "actie": "verlagen"
         },
         {
           "gmlId": "L0001.ddffaec6f0ce4e608de7eb513752c37c",
           "klasse": "Forest",
-          "oppervlak": 1339.8,
+          "oppervlak": 1345.5,
           "onderDek": 0,
-          "bovenDekOnderkant": 0.61,
+          "bovenDekOnderkant": 1.12,
           "actie": "verlagen"
         }
       ],
       "opritHoogtes": [
-        39.721,
-        39.898
+        39.388,
+        null
       ]
     },
     "waarschuwingen": [
-      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "oprit - pas op 8.0 m gemeten",
+      "oprit + zonder PDOK-maaiveld",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
       "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
     ],

@@ -78,14 +78,24 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1337685296",
+        "tags": {
+          "access": "private",
+          "bridge": "yes",
+          "highway": "track",
+          "layer": "1",
+          "surface": "concrete",
+          "tracktype": "grade1"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map weesp-brug-e81b9a8b --plaats weesp --punt 130411,482181",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -112,6 +122,6 @@
       "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

@@ -153,14 +153,31 @@
           "type": "pijler"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/6672446",
+        "tags": {
+          "bridge": "yes",
+          "carriageway_ref": "Re",
+          "highway": "motorway",
+          "lanes": "2",
+          "layer": "1",
+          "lit": "no",
+          "maxspeed": "100",
+          "maxspeed:conditional": "130 @ (19:00-06:00)",
+          "oneway": "yes",
+          "operator": "Rijkswaterstaat",
+          "ref": "A35",
+          "surface": "asphalt",
+          "toll:hgv": "yes"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 12
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,460000,260000,480000 --run nl-12_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map hengelo-brug-20935bd9 --plaats hengelo --punt 248945,473136",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

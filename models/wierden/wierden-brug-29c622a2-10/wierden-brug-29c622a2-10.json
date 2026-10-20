@@ -1,5 +1,5 @@
 {
-  "name": "wierden-brug-29c622a2-10",
+  "name": "Loonderesweg",
   "file": "wierden-brug-29c622a2-10.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -97,14 +97,29 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/43968052",
+        "tags": {
+          "bicycle": "no",
+          "bridge": "yes",
+          "foot": "use_sidepath",
+          "highway": "secondary",
+          "lanes": "2",
+          "layer": "1",
+          "maxspeed": "50",
+          "name": "Loonderesweg",
+          "old_ref": "N751",
+          "oneway": "no",
+          "surface": "asphalt"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,480000,240000,500000 --run nl-11_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map wierden-brug-29c622a2-10 --plaats wierden --punt 235911,486571",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -130,7 +145,7 @@
         {
           "gmlId": "G0189.29c622a231b0013de05332a1e90a4ae4",
           "klasse": "Forest",
-          "oppervlak": 534.9,
+          "oppervlak": 267.5,
           "onderDek": 0.03,
           "bovenDekOnderkant": 1.51,
           "actie": "verlagen"

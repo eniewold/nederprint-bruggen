@@ -1,5 +1,5 @@
 {
-  "name": "dordrecht-brug-72838659",
+  "name": "Riedijksbrug",
   "file": "dordrecht-brug-72838659.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,28 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/991114987",
+        "tags": {
+          "bicycle": "yes",
+          "bridge": "yes",
+          "bridge:name": "Riedijksbrug",
+          "highway": "footway",
+          "layer": "1",
+          "motor_vehicle": "no",
+          "name": "Riedijksbrug",
+          "surface": "paved",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ophaalbrug",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,420000,120000,440000 --run nl-5_6 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map dordrecht-brug-72838659 --plaats dordrecht --punt 105967,425806",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -96,7 +110,7 @@
         -14.5,
         16
       ],
-      "portaalhoogte": 6,
+      "portaalhoogte": 3.7,
       "opritafstand": [
         20,
         20
@@ -112,6 +126,6 @@
       "geen FIS-brug binnen 35 m",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

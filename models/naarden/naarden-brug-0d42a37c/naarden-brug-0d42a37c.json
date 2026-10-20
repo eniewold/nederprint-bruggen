@@ -13,7 +13,7 @@
     -0.741235
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 42.547,
+  "groundHeight": 42.546,
   "groundSamplePoints": [
     [
       -16.55,
@@ -39,9 +39,9 @@
       ],
       "halfLength": 7.52,
       "halfWidth": 2.94,
-      "height": 42.81,
+      "height": 42.809,
       "gradient": [
-        -0.03493,
+        -0.035,
         0
       ],
       "minLift": 0.05,
@@ -78,14 +78,23 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/858694235",
+        "tags": {
+          "access": "private",
+          "bridge": "yes",
+          "highway": "track",
+          "layer": "1",
+          "tracktype": "grade1"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map naarden-brug-0d42a37c --plaats naarden --punt 136825,480915",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -104,13 +113,13 @@
       "oprithelling": 15,
       "doorstekend": [],
       "opritHoogtes": [
-        42.547,
+        42.546,
         42.772
       ]
     },
     "waarschuwingen": [
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

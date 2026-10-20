@@ -1,5 +1,5 @@
 {
-  "name": "ijsselstein-brug-dc7e8302",
+  "name": "Kronenburgplantsoen",
   "file": "ijsselstein-brug-dc7e8302.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -123,14 +123,23 @@
           "type": "pijler"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/247743694",
+        "tags": {
+          "bridge": "yes",
+          "highway": "residential",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Kronenburgplantsoen"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,440000,140000,460000 --run nl-6_7 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map ijsselstein-brug-dc7e8302 --plaats ijsselstein --punt 131398,448107",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -154,6 +163,6 @@
       ]
     },
     "waarschuwingen": [],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

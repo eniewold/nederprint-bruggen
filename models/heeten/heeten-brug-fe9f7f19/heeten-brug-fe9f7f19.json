@@ -1,5 +1,5 @@
 {
-  "name": "heeten-brug-fe9f7f19",
+  "name": "Veldkampsbrug",
   "file": "heeten-brug-fe9f7f19.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,34 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1364114824",
+        "tags": {
+          "bicycle": "no",
+          "bridge": "yes",
+          "foot": "no",
+          "highway": "tertiary",
+          "lane_markings": "no",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "60",
+          "maxweight:signed": "no",
+          "name": "Veldkampsbrug",
+          "sidewalk": "no",
+          "smoothness": "good",
+          "surface": "asphalt",
+          "bridge:movable": "bascule",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
-    "type": "ligger",
+    "type": "basculebrug",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 200000,480000,220000,500000 --run nl-10_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map heeten-brug-fe9f7f19 --plaats heeten --punt 215167,483709",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -109,8 +129,9 @@
       ]
     },
     "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

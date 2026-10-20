@@ -1,5 +1,5 @@
 {
-  "name": "enter-brug-29c622a2-11",
+  "name": "Lage Dijk",
   "file": "enter-brug-29c622a2-11.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,28 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/551130810",
+        "tags": {
+          "bridge": "yes",
+          "highway": "unclassified",
+          "lanes": "1",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "30",
+          "name": "Lage Dijk",
+          "sidewalk": "no",
+          "smoothness": "intermediate",
+          "surface": "paving_stones"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,460000,240000,480000 --run nl-11_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map enter-brug-29c622a2-11 --plaats enter --punt 236478,479861",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

@@ -44,7 +44,7 @@
         0,
         0
       ],
-      "minLift": -1.42,
+      "minLift": -1.41,
       "maxLift": -0.01
     },
     {
@@ -97,14 +97,21 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1040177856",
+        "tags": {
+          "bridge": "yes",
+          "highway": "track",
+          "layer": "1"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ophaalbrug",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,440000,160000,460000 --run nl-7_7 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map amerongen-brug-91e3b9bf --plaats amerongen --punt 155072,444298",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -125,9 +132,9 @@
         {
           "gmlId": "W0636.967639700e1a4b3d960c1885be446683",
           "klasse": "Terrain",
-          "oppervlak": 1590,
+          "oppervlak": 264.8,
           "onderDek": 0,
-          "bovenDekOnderkant": 0.42,
+          "bovenDekOnderkant": 0.41,
           "actie": "verlagen"
         }
       ],
@@ -141,6 +148,6 @@
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
       "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "name": "mill-brug-b42d4239",
+  "name": "Vaardijk",
   "file": "mill-brug-b42d4239.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,27 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/995670336",
+        "tags": {
+          "bridge": "yes",
+          "foot": "yes",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxspeed": "60",
+          "motor_vehicle": "no",
+          "name": "Vaardijk",
+          "surface": "asphalt",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 180000,400000,200000,420000 --run nl-9_5 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map mill-brug-b42d4239 --plaats mill --punt 181995,413574",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -112,6 +125,6 @@
       "geen FIS-brug binnen 35 m",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

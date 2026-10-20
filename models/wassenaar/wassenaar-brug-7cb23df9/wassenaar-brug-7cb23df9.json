@@ -9,18 +9,18 @@
     461316.8
   ],
   "xAxis": [
-    0.691729,
-    0.722157
+    0.722157,
+    -0.691729
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 45.864,
+  "groundHeight": 43.081,
   "groundSamplePoints": [
     [
-      -16.49,
+      -43.5,
       0
     ],
     [
-      16.49,
+      28.15,
       0
     ]
   ],
@@ -34,33 +34,33 @@
         461316.8
       ],
       "axis": [
-        0.691729,
-        0.722157
+        0.722157,
+        -0.691729
       ],
-      "halfLength": 3.75,
-      "halfWidth": 13.29,
-      "height": 44.87,
+      "halfLength": 6.79,
+      "halfWidth": 8,
+      "height": 42.875,
       "gradient": [
         0,
         0
       ],
-      "minLift": -1.9,
+      "minLift": -3.93,
       "maxLift": -0.01
     },
     {
       "centre": [
-        86901.18,
-        461305.97
+        86893.65,
+        461333.95
       ],
       "axis": [
-        -0.691729,
-        -0.722157
+        -0.722157,
+        0.691729
       ],
-      "halfLength": 7.5,
-      "halfWidth": 14.79,
-      "height": 46.02,
+      "halfLength": 12,
+      "halfWidth": 9.5,
+      "height": 43.628,
       "gradient": [
-        -0.02001,
+        -0.04558,
         0
       ],
       "minLift": 0.05,
@@ -68,18 +68,18 @@
     },
     {
       "centre": [
-        86921.92,
-        461327.62
+        86929.46,
+        461299.65
       ],
       "axis": [
-        0.691729,
-        0.722157
+        0.722157,
+        -0.691729
       ],
-      "halfLength": 7.5,
-      "halfWidth": 14.79,
-      "height": 46.017,
+      "halfLength": 12,
+      "halfWidth": 9.5,
+      "height": 44.025,
       "gradient": [
-        -0.02038,
+        -0.0125,
         0
       ],
       "minLift": 0.05,
@@ -116,40 +116,44 @@
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,460000,100000,480000 --run nl-4_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map wassenaar-brug-7cb23df9 --plaats wassenaar --punt 86912,461317",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
-      "dekLengte": 15,
-      "dekBreedte": 25.6,
-      "brugLengte": 15,
-      "water": null,
-      "portaalhoogte": 23,
-      "opritafstand": [
-        9,
-        9
+      "dekLengte": 25.6,
+      "dekBreedte": 15,
+      "brugLengte": 25.6,
+      "water": [
+        -12.8,
+        12.7
       ],
-      "oprithelling": 15,
+      "portaalhoogte": 13.5,
+      "opritafstand": [
+        30.7,
+        15.4
+      ],
+      "oprithelling": 24,
       "doorstekend": [
         {
           "gmlId": "W0616.fefb99d3010c475aa1c62b093a040d69",
           "klasse": "Terrain",
-          "oppervlak": 906.8,
-          "onderDek": 0.57,
-          "bovenDekOnderkant": 0.9,
+          "oppervlak": 492.5,
+          "onderDek": 0.55,
+          "bovenDekOnderkant": 2.93,
           "actie": "verlagen"
         }
       ],
       "opritHoogtes": [
-        45.87,
-        45.864
+        43.081,
+        43.875
       ]
     },
     "waarschuwingen": [
-      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen FIS-brug binnen 35 m",
+      "oprit - pas op 30.7 m gemeten",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
       "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

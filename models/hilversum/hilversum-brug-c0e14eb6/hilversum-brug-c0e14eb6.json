@@ -1,5 +1,5 @@
 {
-  "name": "hilversum-brug-c0e14eb6",
+  "name": "Viaduct",
   "file": "hilversum-brug-c0e14eb6.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -88,14 +88,33 @@
           "type": "pijler"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1193123313",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "yes",
+          "foot": "use_sidepath",
+          "highway": "primary",
+          "lanes": "2",
+          "layer": "1",
+          "maxspeed": "50",
+          "maxweight:signed": "no",
+          "name": "Viaduct",
+          "ref": "RING",
+          "surface": "asphalt",
+          "zone:traffic": "NL:urban",
+          "bridge:structure": "beam",
+          "man_made": "bridge",
+          "source:name": "BGT"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 3
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,460000,160000,480000 --run nl-7_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map hilversum-brug-c0e14eb6 --plaats hilversum --punt 140563,471839",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -118,6 +137,6 @@
     "waarschuwingen": [
       "geen FIS-brug binnen 35 m"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

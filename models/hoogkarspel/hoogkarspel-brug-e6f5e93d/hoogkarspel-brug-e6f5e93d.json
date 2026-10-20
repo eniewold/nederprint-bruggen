@@ -1,5 +1,5 @@
 {
-  "name": "hoogkarspel-brug-e6f5e93d",
+  "name": "Streekweg",
   "file": "hoogkarspel-brug-e6f5e93d.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -97,14 +97,27 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/291776037",
+        "tags": {
+          "bicycle": "yes",
+          "bridge": "yes",
+          "bridge:name": "brug 25 - Kerckesloot",
+          "cycleway": "lane",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Streekweg",
+          "oneway": "no"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,520000,160000,540000 --run nl-7_11 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map hoogkarspel-brug-e6f5e93d --plaats hoogkarspel --punt 140717,523009",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -180,6 +193,6 @@
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
       "6 PDOK-vorm(en) door het dek: 0 verborgen, 6 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

@@ -41,7 +41,7 @@
       "halfWidth": 4.3,
       "height": 44.178,
       "gradient": [
-        -0.05197,
+        -0.05196,
         0
       ],
       "minLift": 0.05,
@@ -78,14 +78,23 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/794792319",
+        "tags": {
+          "access": "private",
+          "bridge": "yes",
+          "highway": "service",
+          "layer": "1",
+          "service": "driveway"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,440000,140000,460000 --run nl-6_7 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map vianen-brug-afd3ce48-7 --plaats vianen --punt 136108,441261",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -109,6 +118,6 @@
       "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

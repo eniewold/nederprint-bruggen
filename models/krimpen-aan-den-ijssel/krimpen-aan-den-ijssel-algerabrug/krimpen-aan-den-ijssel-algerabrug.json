@@ -1,5 +1,5 @@
 {
-  "name": "Algerabrug",
+  "name": "krimpen-aan-den-ijssel-algerabrug",
   "file": "krimpen-aan-den-ijssel-algerabrug.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -9,29 +9,26 @@
     436762.43
   ],
   "xAxis": [
-    0.478757,
-    0.877947
+    0.877947,
+    -0.478757
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 47.639,
+  "groundHeight": 42.425,
   "groundSamplePoints": [
     [
-      -44.04,
+      -206.63,
       0
     ],
     [
-      44.04,
+      206.63,
       0
     ]
   ],
   "replacesTerrain": [
     "L0002.5655b09ed9064888a1e453c3457d05be",
     "L0002.630fcb4591f94a33a714348c96722ae4",
-    "L0002.bf07a1efd1c84ad8aeae19717e2e059f",
-    "L0002.70b9e3fbc1724130a2a170aa115bafed",
-    "G0542.87c82bad7a464bbea341b1793b5e945d",
-    "L0002.a7c05eb1321b45d98e63e8933f1c5dca",
-    "L0002.a787df68d93c48b2b573d1b2e63a0e04"
+    "L0002.dda8d769a71f4c4188be6b4e61cd21d9",
+    "L0002.bf07a1efd1c84ad8aeae19717e2e059f"
   ],
   "terrainCorrections": [
     {
@@ -40,31 +37,31 @@
         436762.43
       ],
       "axis": [
-        0.478757,
-        0.877947
+        0.877947,
+        -0.478757
       ],
-      "halfLength": 18.04,
-      "halfWidth": 187.13,
-      "height": 47.323,
+      "halfLength": 180.63,
+      "halfWidth": 24.54,
+      "height": 49.362,
       "gradient": [
         0,
         0
       ],
-      "minLift": -2.91,
+      "minLift": -4,
       "maxLift": -0.01
     },
     {
       "centre": [
-        99467.04,
-        436730.79
+        99309.91,
+        436857.52
       ],
       "axis": [
-        -0.478757,
-        -0.877947
+        -0.877947,
+        0.478757
       ],
       "halfLength": 12,
-      "halfWidth": 188.63,
-      "height": 48.473,
+      "halfWidth": 26.04,
+      "height": 50.512,
       "gradient": [
         -0.0125,
         0
@@ -74,18 +71,18 @@
     },
     {
       "centre": [
-        99501.55,
-        436794.06
+        99658.68,
+        436667.33
       ],
       "axis": [
-        0.478757,
-        0.877947
+        0.877947,
+        -0.478757
       ],
       "halfLength": 12,
-      "halfWidth": 188.63,
-      "height": 48.131,
+      "halfWidth": 26.04,
+      "height": 46.544,
       "gradient": [
-        -0.04099,
+        -0.34322,
         0
       ],
       "minLift": 0.05,
@@ -104,6 +101,10 @@
         },
         {
           "id": "L0002.630fcb4591f94a33a714348c96722ae4",
+          "type": "pijler"
+        },
+        {
+          "id": "L0002.dda8d769a71f4c4188be6b4e61cd21d9",
           "type": "pijler"
         },
         {
@@ -126,20 +127,23 @@
         }
       },
       "fis": null,
-      "pdokBridgeVlakken": 3
+      "pdokBridgeVlakken": 4
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,420000,100000,440000 --run nl-4_6 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map krimpen-aan-den-ijssel-algerabrug --plaats krimpen-aan-den-ijssel --punt 99484,436762",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
-      "dekLengte": 48.1,
-      "dekBreedte": 373.3,
-      "brugLengte": 48.1,
-      "water": null,
-      "portaalhoogte": 335.9,
+      "dekLengte": 373.3,
+      "dekBreedte": 48.1,
+      "brugLengte": 373.3,
+      "water": [
+        -112.1,
+        -31.6
+      ],
+      "portaalhoogte": 43.3,
       "opritafstand": [
         20,
         20
@@ -147,103 +151,62 @@
       "oprithelling": 24,
       "doorstekend": [
         {
-          "gmlId": "L0002.20eaf2feffc7458eb9c0c6086233cf9f",
-          "klasse": "Terrain",
-          "oppervlak": 466.8,
-          "onderDek": 0.3,
-          "bovenDekOnderkant": 1.91,
+          "gmlId": "G0502.1d2e2604b3da1102e0531f050e0a4efd",
+          "klasse": "Road",
+          "oppervlak": 879.8,
+          "onderDek": 0.01,
+          "bovenDekOnderkant": 3,
           "actie": "verlagen"
         },
         {
-          "gmlId": "L0002.70b9e3fbc1724130a2a170aa115bafed",
+          "gmlId": "G0502.1d2e2604b4011102e0531f050e0a4efd",
+          "klasse": "Road",
+          "oppervlak": 1944.8,
+          "onderDek": 0,
+          "bovenDekOnderkant": 3,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0502.1d2e2604fbfb1102e0531f050e0a4efd",
+          "klasse": "Road",
+          "oppervlak": 190.4,
+          "onderDek": 0,
+          "bovenDekOnderkant": 2.34,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0502.1d2e2604821b1102e0531f050e0a4efd",
           "klasse": "Forest",
-          "oppervlak": 64.4,
-          "onderDek": 1,
-          "bovenDekOnderkant": 1.91,
-          "actie": "verbergen"
-        },
-        {
-          "gmlId": "L0002.e73b0e6651e346589b943b290e1b43d2",
-          "klasse": "Separation",
-          "oppervlak": 4.7,
-          "onderDek": 0.45,
-          "bovenDekOnderkant": 1.9,
+          "oppervlak": 66.7,
+          "onderDek": 0.07,
+          "bovenDekOnderkant": 1.65,
           "actie": "verlagen"
         },
         {
-          "gmlId": "G0542.87c82bad7a464bbea341b1793b5e945d",
+          "gmlId": "G0502.4f4eebeabbe83704e053540a19ac79e7",
           "klasse": "Terrain",
-          "oppervlak": 304.1,
-          "onderDek": 0.99,
-          "bovenDekOnderkant": 1.89,
-          "actie": "verbergen"
-        },
-        {
-          "gmlId": "L0002.3753b2a0362d46d4974b20792685004c",
-          "klasse": "Terrain",
-          "oppervlak": 264.4,
-          "onderDek": 0.13,
-          "bovenDekOnderkant": 1.87,
+          "oppervlak": 83.6,
+          "onderDek": 0.03,
+          "bovenDekOnderkant": 0.8,
           "actie": "verlagen"
         },
         {
-          "gmlId": "L0002.a7c05eb1321b45d98e63e8933f1c5dca",
-          "klasse": "Separation",
-          "oppervlak": 1.5,
-          "onderDek": 0.78,
-          "bovenDekOnderkant": 1.87,
-          "actie": "verbergen"
-        },
-        {
-          "gmlId": "L0002.a2381226c6f9416bb2ea4ee876e7cb73",
-          "klasse": "Separation",
-          "oppervlak": 7.5,
-          "onderDek": 0.4,
-          "bovenDekOnderkant": 1.86,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "L0002.426f9f4f0410453a902e6f2ca7b578e6",
-          "klasse": "Separation",
-          "oppervlak": 5.3,
-          "onderDek": 0.49,
-          "bovenDekOnderkant": 1.83,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "L0002.a787df68d93c48b2b573d1b2e63a0e04",
+          "gmlId": "G0502.1d2e26048f821102e0531f050e0a4efd",
           "klasse": "Forest",
-          "oppervlak": 117.9,
-          "onderDek": 0.93,
-          "bovenDekOnderkant": 0.37,
-          "actie": "verbergen"
-        },
-        {
-          "gmlId": "L0002.dc42c8ba48544b6db335d70b7bdd2f06",
-          "klasse": "Terrain",
-          "oppervlak": 827.9,
-          "onderDek": 0.15,
-          "bovenDekOnderkant": 0.33,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "L0002.0bb547d196a84cefa89d7077b705f4eb",
-          "klasse": "Terrain",
-          "oppervlak": 573.5,
-          "onderDek": 0.39,
-          "bovenDekOnderkant": 0.1,
+          "oppervlak": 891.1,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.13,
           "actie": "verlagen"
         }
       ],
       "opritHoogtes": [
-        48.323,
-        47.639
+        50.362,
+        42.425
       ]
     },
     "waarschuwingen": [
-      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
       "geen FIS-brug binnen 35 m",
-      "11 PDOK-vorm(en) door het dek: 4 verborgen, 7 verlaagd"
+      "6 PDOK-vorm(en) door het dek: 0 verborgen, 6 verlaagd"
     ],
     "gegenereerd": "2026-10-20"
   }

@@ -1,5 +1,5 @@
 {
-  "name": "deurne-brug-35ed0740-2",
+  "name": "Molenhof",
   "file": "deurne-brug-35ed0740-2.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -97,14 +97,25 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/817306101",
+        "tags": {
+          "bridge": "yes",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Molenhof",
+          "surface": "asphalt",
+          "zone:traffic": "NL:rural"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,380000,180000,400000 --run nl-8_4 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map deurne-brug-35ed0740-2 --plaats deurne --punt 179611,387952",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -125,7 +136,7 @@
         {
           "gmlId": "G0762.35ed0740d6c730f4e05332a1e90ac5d3",
           "klasse": "Terrain",
-          "oppervlak": 894.6,
+          "oppervlak": 595.7,
           "onderDek": 0.01,
           "bovenDekOnderkant": 0.17,
           "actie": "verlagen"

@@ -1,5 +1,5 @@
 {
-  "name": "hoogkarspel-brug-080e3712",
+  "name": "Tolweg",
   "file": "hoogkarspel-brug-080e3712.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -13,7 +13,7 @@
     0.97094
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 41.86,
+  "groundHeight": 41.848,
   "groundSamplePoints": [
     [
       -9.01,
@@ -77,9 +77,9 @@
       ],
       "halfLength": 4.1,
       "halfWidth": 6.87,
-      "height": 42.068,
+      "height": 42.061,
       "gradient": [
-        -0.05062,
+        -0.05212,
         0
       ],
       "minLift": 0.05,
@@ -97,14 +97,26 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/296629541",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "yes",
+          "foot": "use_sidepath",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "50",
+          "mofa": "use_sidepath",
+          "name": "Tolweg"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,520000,140000,540000 --run nl-6_11 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map hoogkarspel-brug-080e3712 --plaats hoogkarspel --punt 139946,522857",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -133,7 +145,7 @@
       ],
       "opritHoogtes": [
         41.975,
-        41.86
+        41.848
       ]
     },
     "waarschuwingen": [

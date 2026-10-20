@@ -1,5 +1,5 @@
 {
-  "name": "monnickendam-brug-8abeacd5-51",
+  "name": "Molenstraat",
   "file": "monnickendam-brug-8abeacd5-51.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -13,7 +13,7 @@
     0.050996
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 42.456,
+  "groundHeight": 42.452,
   "groundSamplePoints": [
     [
       -18.97,
@@ -58,9 +58,9 @@
       ],
       "halfLength": 8.62,
       "halfWidth": 6.4,
-      "height": 42.836,
+      "height": 42.834,
       "gradient": [
-        -0.04413,
+        -0.04438,
         0
       ],
       "minLift": 0.05,
@@ -78,14 +78,25 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/109863934",
+        "tags": {
+          "bridge": "yes",
+          "highway": "residential",
+          "layer": "1",
+          "maxspeed": "30",
+          "maxweight:signed": "no",
+          "name": "Molenstraat",
+          "sidewalk:both": "yes"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map monnickendam-brug-8abeacd5-51 --plaats monnickendam --punt 130979,497011",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -105,12 +116,12 @@
       "doorstekend": [],
       "opritHoogtes": [
         42.917,
-        42.456
+        42.452
       ]
     },
     "waarschuwingen": [
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

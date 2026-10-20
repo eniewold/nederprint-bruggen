@@ -1,5 +1,5 @@
 {
-  "name": "scheemda-brug-466ca2ee",
+  "name": "Scheepsjagerstraat",
   "file": "scheemda-brug-466ca2ee.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,26 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/6365756",
+        "tags": {
+          "bridge": "movable",
+          "bridge:movable": "bascule",
+          "highway": "residential",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Scheepsjagerstraat",
+          "smoothness": "intermediate",
+          "surface": "paved"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
-    "type": "ligger",
+    "type": "basculebrug",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 260000,560000,280000,580000 --run nl-13_13 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map scheemda-brug-466ca2ee --plaats scheemda --punt 260678,577837",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -109,6 +121,7 @@
       ]
     },
     "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
     "gegenereerd": "2026-10-20"

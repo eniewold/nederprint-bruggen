@@ -1,5 +1,5 @@
 {
-  "name": "Naarderpoortbrug",
+  "name": "Naarderstraat",
   "file": "muiden-naarderpoortbrug.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -110,7 +110,23 @@
           "type": "sloof"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/7039451",
+        "tags": {
+          "bicycle": "yes",
+          "bridge": "yes",
+          "cycleway:both": "no",
+          "highway": "tertiary",
+          "lane_markings": "no",
+          "layer": "1",
+          "lit": "yes",
+          "maxaxleload": "9",
+          "maxspeed": "30",
+          "name": "Naarderstraat",
+          "surface": "paving_stones",
+          "zone:traffic": "NL:urban"
+        }
+      },
       "fis": {
         "id": 58467,
         "naam": "Naarderpoortbrug",
@@ -123,7 +139,7 @@
     "type": "ophaalbrug",
     "doorvaarthoogte": 1,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map muiden-naarderpoortbrug --plaats muiden --punt 133496,482384",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -147,6 +163,6 @@
       ]
     },
     "waarschuwingen": [],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

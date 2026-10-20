@@ -1,5 +1,5 @@
 {
-  "name": "ijsselstein-brug-dedb61bc",
+  "name": "Beneluxweg",
   "file": "ijsselstein-brug-dedb61bc.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -9,18 +9,18 @@
     447888.87
   ],
   "xAxis": [
-    -0.998682,
-    -0.051317
+    -0.051317,
+    0.998682
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 44.484,
+  "groundHeight": 49.696,
   "groundSamplePoints": [
     [
-      -12.62,
+      -54.73,
       0
     ],
     [
-      12.62,
+      54.73,
       0
     ]
   ],
@@ -30,37 +30,18 @@
   "terrainCorrections": [
     {
       "centre": [
-        132013.63,
-        447888.87
+        132016.03,
+        447842.2
       ],
       "axis": [
-        -0.998682,
-        -0.051317
+        0.051317,
+        -0.998682
       ],
-      "halfLength": 2.87,
-      "halfWidth": 35.23,
-      "height": 43.974,
+      "halfLength": 12,
+      "halfWidth": 7.74,
+      "height": 49.931,
       "gradient": [
-        0,
-        0
-      ],
-      "minLift": -6.55,
-      "maxLift": -0.01
-    },
-    {
-      "centre": [
-        132025.09,
-        447889.46
-      ],
-      "axis": [
-        0.998682,
-        0.051317
-      ],
-      "halfLength": 5.74,
-      "halfWidth": 36.73,
-      "height": 44.879,
-      "gradient": [
-        -0.06884,
+        -0.01964,
         0
       ],
       "minLift": 0.05,
@@ -68,18 +49,18 @@
     },
     {
       "centre": [
-        132002.18,
-        447888.28
+        132011.24,
+        447935.54
       ],
       "axis": [
-        -0.998682,
-        -0.051317
+        -0.051317,
+        0.998682
       ],
-      "halfLength": 5.74,
-      "halfWidth": 36.73,
-      "height": 45.124,
+      "halfLength": 12,
+      "halfWidth": 7.74,
+      "height": 50.017,
       "gradient": [
-        -0.02615,
+        -0.0125,
         0
       ],
       "minLift": 0.05,
@@ -97,159 +78,53 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/706255928",
+        "tags": {
+          "bridge": "yes",
+          "cycleway": "lane",
+          "highway": "tertiary",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "50",
+          "name": "Beneluxweg",
+          "surface": "asphalt",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,440000,140000,460000 --run nl-6_7 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map ijsselstein-brug-dedb61bc --plaats ijsselstein --punt 132014,447889",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
-      "dekLengte": 11.5,
-      "dekBreedte": 69.5,
-      "brugLengte": 11.5,
-      "water": null,
-      "portaalhoogte": 62.5,
+      "dekLengte": 69.5,
+      "dekBreedte": 11.5,
+      "brugLengte": 69.5,
+      "water": [
+        2.8,
+        18.8
+      ],
+      "portaalhoogte": 10.3,
       "opritafstand": [
-        6.9,
-        6.9
+        20,
+        20
       ],
-      "oprithelling": 11.5,
-      "doorstekend": [
-        {
-          "gmlId": "G0353.4e5acfed341e49579042766e45f8f846",
-          "klasse": "Forest",
-          "oppervlak": 257.4,
-          "onderDek": 0.37,
-          "bovenDekOnderkant": 5.55,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "G0353.060829475e4040b5b779e21f27b5fee6",
-          "klasse": "Road",
-          "oppervlak": 117.2,
-          "onderDek": 0.38,
-          "bovenDekOnderkant": 5.55,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "G0353.e840cbbe87524bb687f66ef54953433d",
-          "klasse": "Terrain",
-          "oppervlak": 118.6,
-          "onderDek": 0.57,
-          "bovenDekOnderkant": 1.2,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "G0353.943d4b2b56d547fead72d73cdc32d5c2",
-          "klasse": "Road",
-          "oppervlak": 94.6,
-          "onderDek": 0.1,
-          "bovenDekOnderkant": 1.12,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "G0353.36d63b90103646e0ba72ddadaf8ead05",
-          "klasse": "Road",
-          "oppervlak": 125.9,
-          "onderDek": 0.47,
-          "bovenDekOnderkant": 1.07,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "G0353.c8a761f1e259436bbf866038c7569436",
-          "klasse": "Road",
-          "oppervlak": 996,
-          "onderDek": 0.06,
-          "bovenDekOnderkant": 1.04,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "G0353.3656767134cf4aa59b5f06ae4a11e0cb",
-          "klasse": "Terrain",
-          "oppervlak": 68.8,
-          "onderDek": 0.06,
-          "bovenDekOnderkant": 1.03,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "L0002.08ddcdc524a543c8a4fa03bcf9b0815e",
-          "klasse": "Separation",
-          "oppervlak": 16.5,
-          "onderDek": 0.11,
-          "bovenDekOnderkant": 0.63,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "G0353.8681c34dec76462d94cbe79ef35a6d11",
-          "klasse": "Road",
-          "oppervlak": 157.5,
-          "onderDek": 0.08,
-          "bovenDekOnderkant": 0.62,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "G0353.96b0cde3f96b4338b07a4a9763c76ed8",
-          "klasse": "Road",
-          "oppervlak": 251.9,
-          "onderDek": 0.19,
-          "bovenDekOnderkant": 0.59,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "G0353.567a52e645154e798384125441f95fd0",
-          "klasse": "Road",
-          "oppervlak": 196.2,
-          "onderDek": 0.12,
-          "bovenDekOnderkant": 0.58,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "G0353.27000f8f1e4b4d2e932382500b19bb18",
-          "klasse": "Road",
-          "oppervlak": 90.1,
-          "onderDek": 0.21,
-          "bovenDekOnderkant": 0.54,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "G0353.941cb4459ed54ae1be9179674ed21989",
-          "klasse": "Forest",
-          "oppervlak": 966.7,
-          "onderDek": 0.09,
-          "bovenDekOnderkant": 0.44,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "G0353.50ec6bfb133e44e1860a980f5aa3760b",
-          "klasse": "Road",
-          "oppervlak": 567.2,
-          "onderDek": 0.09,
-          "bovenDekOnderkant": 0.44,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "L0002.eef0d4ae0b5841a1b8a749e6593f976a",
-          "klasse": "Separation",
-          "oppervlak": 1.2,
-          "onderDek": 0.6,
-          "bovenDekOnderkant": 0.39,
-          "actie": "verlagen"
-        }
-      ],
+      "oprithelling": 24,
+      "doorstekend": [],
       "opritHoogtes": [
-        44.484,
-        44.974
+        49.696,
+        49.867
       ]
     },
     "waarschuwingen": [
-      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
-      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
-      "15 PDOK-vorm(en) door het dek: 0 verborgen, 15 verlaagd"
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

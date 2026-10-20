@@ -1,5 +1,5 @@
 {
-  "name": "Nijmeegseweg",
+  "name": "John Frostbrug",
   "file": "arnhem-brug-2af034b9-25.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -9,18 +9,18 @@
     443007.63
   ],
   "xAxis": [
-    -0.8629,
-    0.505375
+    0.505375,
+    0.8629
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 52.822,
+  "groundHeight": 60.078,
   "groundSamplePoints": [
     [
-      -35.02,
+      -321.45,
       0
     ],
     [
-      35.14,
+      321.45,
       0
     ]
   ],
@@ -33,37 +33,18 @@
   "terrainCorrections": [
     {
       "centre": [
-        190999.2,
-        443007.63
+        190840.78,
+        442737.15
       ],
       "axis": [
-        -0.8629,
-        0.505375
-      ],
-      "halfLength": 9.52,
-      "halfWidth": 301.95,
-      "height": 52.054,
-      "gradient": [
-        0,
-        0
-      ],
-      "minLift": -6.53,
-      "maxLift": -0.01
-    },
-    {
-      "centre": [
-        191023.26,
-        442993.54
-      ],
-      "axis": [
-        0.8629,
-        -0.505375
+        -0.505375,
+        -0.8629
       ],
       "halfLength": 12,
-      "halfWidth": 303.45,
-      "height": 53.204,
+      "halfWidth": 17.52,
+      "height": 62.201,
       "gradient": [
-        -0.0125,
+        -0.17691,
         0
       ],
       "minLift": 0.05,
@@ -71,18 +52,18 @@
     },
     {
       "centre": [
-        190975.03,
-        443021.78
+        191157.61,
+        443278.11
       ],
       "axis": [
-        -0.8629,
-        0.505375
+        0.505375,
+        0.8629
       ],
       "halfLength": 12,
-      "halfWidth": 303.45,
-      "height": 53.088,
+      "halfWidth": 17.52,
+      "height": 64.174,
       "gradient": [
-        -0.02217,
+        -0.0125,
         0
       ],
       "minLift": 0.05,
@@ -113,7 +94,7 @@
         }
       ],
       "osm": {
-        "id": "way/6879707",
+        "id": "way/595322843",
         "tags": {
           "access:lanes:forward": "yes|yes|no",
           "bicycle": "no",
@@ -121,7 +102,7 @@
           "bridge:name": "John Frostbrug",
           "bridge:name:en": "John Frost Bridge",
           "bridge:name:nl": "John Frostbrug",
-          "bridge:structure": "truss",
+          "bridge:structure": "arch",
           "bus:lanes:forward": "no|no|yes",
           "cycleway:both": "separate",
           "foot": "no",
@@ -132,156 +113,56 @@
           "layer": "1",
           "lit": "yes",
           "maxspeed": "50",
-          "name": "Nijmeegseweg",
+          "name": "John Frostbrug",
           "surface": "asphalt",
           "trolley_wire": "yes",
-          "zone:traffic": "NL:urban"
+          "zone:traffic": "NL:urban",
+          "alt_name": "Oude Rijnbrug",
+          "description": "Stalen verkeersbrug over de Rijn.",
+          "heritage": "2",
+          "heritage:operator": "rce",
+          "man_made": "bridge",
+          "name:en": "John Frost Bridge",
+          "name:nl": "John Frostbrug",
+          "old_name:-1978-09-16": "Rijnbrug",
+          "ref:rce": "529907",
+          "wikidata": "Q2692477",
+          "wikimedia_commons": "File:Arnhem,_de_John_Frostbrug_RM529907_vanaf_Arnhem_Zuid_IMG_8947_2019-03-31_20.13.jpg",
+          "wikipedia": "nl:John Frostbrug"
         }
       },
       "fis": null,
       "pdokBridgeVlakken": 4
     },
-    "type": "vakwerk",
+    "type": "boog",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 180000,440000,200000,460000 --run nl-9_7 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map arnhem-brug-2af034b9-25 --plaats arnhem --punt 190999,443008",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
-      "dekLengte": 31,
-      "dekBreedte": 602.9,
-      "brugLengte": 31.9,
-      "water": null,
-      "portaalhoogte": 542.6,
+      "dekLengte": 602.9,
+      "dekBreedte": 31,
+      "brugLengte": 602.9,
+      "water": [
+        6,
+        137.5
+      ],
+      "portaalhoogte": 27.9,
       "opritafstand": [
-        19.1,
-        19.1
+        20,
+        20
       ],
       "oprithelling": 24,
-      "doorstekend": [
-        {
-          "gmlId": "G0202.e812f455f5170bf7e0533f7ac80a37e6",
-          "klasse": "Road",
-          "oppervlak": 74.9,
-          "onderDek": 0.28,
-          "bovenDekOnderkant": 5.53,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "G0202.2af034b9d9e212c4e05343604191f184",
-          "klasse": "Forest",
-          "oppervlak": 2892.4,
-          "onderDek": 0.25,
-          "bovenDekOnderkant": 5.22,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "G0202.e812f455f5180bf7e0533f7ac80a37e6",
-          "klasse": "Road",
-          "oppervlak": 77.1,
-          "onderDek": 0.28,
-          "bovenDekOnderkant": 4.99,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "G0202.2af034b955c312c4e05343604191f184",
-          "klasse": "Terrain",
-          "oppervlak": 141.3,
-          "onderDek": 0.51,
-          "bovenDekOnderkant": 4.7,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "G0202.2af034b5d39712c4e05343604191f184",
-          "klasse": "Terrain",
-          "oppervlak": 177.6,
-          "onderDek": 0.17,
-          "bovenDekOnderkant": 3.15,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "G0202.2af034b9cc5812c4e05343604191f184",
-          "klasse": "Terrain",
-          "oppervlak": 176.4,
-          "onderDek": 0.19,
-          "bovenDekOnderkant": 2.99,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "G0202.2af034b5d51512c4e05343604191f184",
-          "klasse": "Forest",
-          "oppervlak": 903.8,
-          "onderDek": 0.09,
-          "bovenDekOnderkant": 2.94,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "G0202.2af034b83e5512c4e05343604191f184",
-          "klasse": "Road",
-          "oppervlak": 662.6,
-          "onderDek": 0.19,
-          "bovenDekOnderkant": 2.83,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "G0202.2af034b8382e12c4e05343604191f184",
-          "klasse": "Forest",
-          "oppervlak": 26088.6,
-          "onderDek": 0.19,
-          "bovenDekOnderkant": 2.75,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "G0202.41a80775d01fc12de0635f7ac80ac4f3",
-          "klasse": "Forest",
-          "oppervlak": 328.4,
-          "onderDek": 0.2,
-          "bovenDekOnderkant": 2.75,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "G0202.41a80775d020c12de0635f7ac80ac4f3",
-          "klasse": "Forest",
-          "oppervlak": 5406.8,
-          "onderDek": 0.17,
-          "bovenDekOnderkant": 2.6,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "L0002.e82f2be99f8848ffbff4631f5be87bbc",
-          "klasse": "Terrain",
-          "oppervlak": 544.9,
-          "onderDek": 0.4,
-          "bovenDekOnderkant": 1.97,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "L0002.a85a4aa13edb63a0e05332a1e90a4ce0",
-          "klasse": "Forest",
-          "oppervlak": 847.8,
-          "onderDek": 0.05,
-          "bovenDekOnderkant": 1.46,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "L0002.069ddfb1f46b43918b8036894169d210",
-          "klasse": "Terrain",
-          "oppervlak": 67,
-          "onderDek": 0.06,
-          "bovenDekOnderkant": 1.03,
-          "actie": "verlagen"
-        }
-      ],
+      "doorstekend": [],
       "opritHoogtes": [
-        53.054,
-        52.822
+        60.078,
+        64.024
       ]
     },
     "waarschuwingen": [
-      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
-      "geen FIS-brug binnen 35 m",
-      "14 PDOK-vorm(en) door het dek: 0 verborgen, 14 verlaagd"
+      "geen FIS-brug binnen 35 m"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

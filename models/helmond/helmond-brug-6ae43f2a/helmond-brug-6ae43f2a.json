@@ -1,5 +1,5 @@
 {
-  "name": "helmond-brug-6ae43f2a",
+  "name": "Zoete Kers",
   "file": "helmond-brug-6ae43f2a.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,27 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1071661430",
+        "tags": {
+          "bridge": "yes",
+          "highway": "residential",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Zoete Kers",
+          "oneway": "no",
+          "sidewalk": "right",
+          "zone:traffic": "NL:urban",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,380000,180000,400000 --run nl-8_4 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map helmond-brug-6ae43f2a --plaats helmond --punt 173247,389163",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

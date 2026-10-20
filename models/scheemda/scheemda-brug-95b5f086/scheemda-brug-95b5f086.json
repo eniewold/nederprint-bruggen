@@ -1,5 +1,5 @@
 {
-  "name": "scheemda-brug-95b5f086",
+  "name": "Oosterstraat",
   "file": "scheemda-brug-95b5f086.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -13,7 +13,7 @@
     -0.728339
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 40.468,
+  "groundHeight": 40.462,
   "groundSamplePoints": [
     [
       -37.6,
@@ -58,9 +58,9 @@
       ],
       "halfLength": 12,
       "halfWidth": 6.26,
-      "height": 40.642,
+      "height": 40.639,
       "gradient": [
-        -0.01449,
+        -0.01474,
         0
       ],
       "minLift": 0.05,
@@ -78,14 +78,26 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/6366258",
+        "tags": {
+          "bridge": "yes",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "80",
+          "name": "Oosterstraat",
+          "sidewalk": "right",
+          "smoothness": "good",
+          "surface": "asphalt"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 260000,560000,280000,580000 --run nl-13_13 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map scheemda-brug-95b5f086 --plaats scheemda --punt 261614,578449",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -102,7 +114,7 @@
       "doorstekend": [],
       "opritHoogtes": [
         40.516,
-        40.468
+        40.462
       ]
     },
     "waarschuwingen": [

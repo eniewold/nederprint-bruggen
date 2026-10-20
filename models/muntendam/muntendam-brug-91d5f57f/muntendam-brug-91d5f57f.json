@@ -1,5 +1,5 @@
 {
-  "name": "muntendam-brug-91d5f57f",
+  "name": "Schaive Klabbe",
   "file": "muntendam-brug-91d5f57f.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -39,9 +39,9 @@
       ],
       "halfLength": 8.18,
       "halfWidth": 5.1,
-      "height": 43.13,
+      "height": 43.125,
       "gradient": [
-        -0.02138,
+        -0.02075,
         0
       ],
       "minLift": 0.05,
@@ -58,7 +58,7 @@
       ],
       "halfLength": 8.18,
       "halfWidth": 5.1,
-      "height": 43.155,
+      "height": 43.145,
       "gradient": [
         -0.01834,
         0
@@ -78,14 +78,34 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1078027003",
+        "tags": {
+          "bicycle": "no",
+          "bridge": "yes",
+          "bridge:movable": "bascule",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "50",
+          "mofa": "no",
+          "moped": "no",
+          "name": "Schaive Klabbe",
+          "note": "bridge was formerly movable, but no longer since the control mechanism is now gone. source: rijksdienst cultureel erfgoed",
+          "traffic_sign": "NL:C15",
+          "heritage": "2",
+          "heritage:operator": "rce",
+          "man_made": "bridge",
+          "ref:rce": "520978",
+          "start_date": "1940"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
-    "type": "ophaalbrug",
+    "type": "basculebrug",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,560000,260000,580000 --run nl-12_13 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map muntendam-brug-91d5f57f --plaats muntendam --punt 254088,573556",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -105,7 +125,7 @@
       "doorstekend": [],
       "opritHoogtes": [
         42.955,
-        43.005
+        42.995
       ]
     },
     "waarschuwingen": [

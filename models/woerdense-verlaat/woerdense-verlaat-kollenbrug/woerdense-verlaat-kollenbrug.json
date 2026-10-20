@@ -83,11 +83,29 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/395251874",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "yes",
+          "bridge:name": "Kollenbrug",
+          "foot": "use_sidepath",
+          "highway": "secondary",
+          "layer": "1",
+          "maxspeed": "50",
+          "mofa": "use_sidepath",
+          "moped": "use_sidepath",
+          "name": "Kollenbrug",
+          "operator": "Provincie Zuid-Holland",
+          "ref": "N463",
+          "zone:traffic": "NL:urban",
+          "man_made": "bridge"
+        }
+      },
       "fis": {
         "id": 4804,
         "naam": "Kollenbrug",
-        "afstand": 3,
+        "afstand": 2,
         "beweegbaar": true,
         "doorvaarthoogteGesloten": 0.51
       },
@@ -96,7 +114,7 @@
     "type": "ophaalbrug",
     "doorvaarthoogte": 0.51,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,460000,120000,480000 --run nl-5_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map woerdense-verlaat-kollenbrug --plaats woerdense-verlaat --punt 119211,463009",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -107,7 +125,7 @@
         -4.4,
         4.1
       ],
-      "portaalhoogte": 18.7,
+      "portaalhoogte": 14.3,
       "opritafstand": [
         13.1,
         13.1
@@ -122,6 +140,6 @@
     "waarschuwingen": [
       "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

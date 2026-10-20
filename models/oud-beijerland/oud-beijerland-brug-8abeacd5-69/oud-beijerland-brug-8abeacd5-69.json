@@ -1,5 +1,5 @@
 {
-  "name": "oud-beijerland-brug-8abeacd5-69",
+  "name": "Dokter van Dongenkade",
   "file": "oud-beijerland-brug-8abeacd5-69.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,22 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/136659360",
+        "tags": {
+          "bridge": "yes",
+          "highway": "footway",
+          "layer": "1",
+          "name": "Dokter van Dongenkade"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,420000,100000,440000 --run nl-4_6 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map oud-beijerland-brug-8abeacd5-69 --plaats oud-beijerland --punt 88590,426593",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

@@ -1,5 +1,5 @@
 {
-  "name": "deurne-brug-35ed0741",
+  "name": "Vlierdensedreef",
   "file": "deurne-brug-35ed0741.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -97,14 +97,33 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/573198067",
+        "tags": {
+          "agricultural": "no",
+          "bicycle": "no",
+          "bridge": "yes",
+          "foot": "no",
+          "highway": "secondary",
+          "lanes": "2",
+          "layer": "1",
+          "maxspeed": "80",
+          "maxweight:signed": "no",
+          "mofa": "no",
+          "moped": "no",
+          "name": "Vlierdensedreef",
+          "old_ref": "N608",
+          "surface": "asphalt",
+          "zone:traffic": "NL:rural"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 180000,380000,200000,400000 --run nl-9_4 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map deurne-brug-35ed0741 --plaats deurne --punt 181654,383684",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

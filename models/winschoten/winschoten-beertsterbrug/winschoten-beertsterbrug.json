@@ -133,20 +133,43 @@
           "type": "onbekend"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1354176611",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "movable",
+          "bridge:movable": "bascule",
+          "bridge:name": "Beertsterbrug",
+          "foot": "use_sidepath",
+          "highway": "primary",
+          "lanes": "2",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "80",
+          "mofa": "use_sidepath",
+          "moped": "use_sidepath",
+          "name": "Beertsterbrug",
+          "name:etymology:wikidata": "Q2250772",
+          "operator": "Provincie Groningen",
+          "ref": "N367",
+          "surface": "asphalt",
+          "zone:traffic": "NL:rural",
+          "man_made": "bridge"
+        }
+      },
       "fis": {
         "id": 32747,
         "naam": "Beertsterbrug",
-        "afstand": 2,
+        "afstand": 3,
         "beweegbaar": true,
         "doorvaarthoogteGesloten": 0.9500000000000001
       },
       "pdokBridgeVlakken": 11
     },
-    "type": "ophaalbrug",
+    "type": "basculebrug",
     "doorvaarthoogte": 0.9500000000000001,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 260000,560000,280000,580000 --run nl-13_13 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map winschoten-beertsterbrug --plaats winschoten --punt 266504,575545",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

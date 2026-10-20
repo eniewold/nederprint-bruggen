@@ -1,5 +1,5 @@
 {
-  "name": "kortenhoef-brug-2b4decf9",
+  "name": "Kerkbrug",
   "file": "kortenhoef-brug-2b4decf9.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -39,7 +39,7 @@
       ],
       "halfLength": 3,
       "halfWidth": 2.58,
-      "height": 43.588,
+      "height": 43.564,
       "gradient": [
         -0.05,
         0
@@ -58,9 +58,9 @@
       ],
       "halfLength": 3,
       "halfWidth": 2.58,
-      "height": 43.549,
+      "height": 43.538,
       "gradient": [
-        -0.06271,
+        -0.05875,
         0
       ],
       "minLift": 0.05,
@@ -78,14 +78,25 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/496975052",
+        "tags": {
+          "bridge": "movable",
+          "bridge:movable": "bascule",
+          "highway": "service",
+          "layer": "1",
+          "name": "Kerkbrug",
+          "oneway": "no",
+          "surface": "wood"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
-    "type": "ligger",
+    "type": "basculebrug",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,460000,140000,480000 --run nl-6_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map kortenhoef-brug-2b4decf9 --plaats kortenhoef --punt 134662,471192",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -104,13 +115,14 @@
       "oprithelling": 6,
       "doorstekend": [],
       "opritHoogtes": [
-        43.438,
+        43.414,
         43.361
       ]
     },
     "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

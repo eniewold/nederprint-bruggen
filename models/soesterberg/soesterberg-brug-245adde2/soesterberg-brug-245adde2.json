@@ -1,5 +1,5 @@
 {
-  "name": "soesterberg-brug-245adde2",
+  "name": "Het Hollegat",
   "file": "soesterberg-brug-245adde2.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -93,14 +93,36 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1532232149",
+        "tags": {
+          "bicycle": "no",
+          "bridge": "viaduct",
+          "bridge:name": "Het Hollegat",
+          "carriageway_ref:left": "Li",
+          "carriageway_ref:right": "Re",
+          "foot": "no",
+          "highway": "secondary",
+          "lanes": "2",
+          "layer": "1",
+          "maxspeed": "80",
+          "name": "Het Hollegat",
+          "operator": "Provincie Utrecht",
+          "ref": "N413",
+          "surface": "asphalt",
+          "traffic_sign": "NL:C15",
+          "zone:traffic": "NL:rural",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 4
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,440000,160000,460000 --run nl-7_7 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map soesterberg-brug-245adde2 --plaats soesterberg --punt 149367,458606",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -124,6 +146,6 @@
       "geen FIS-brug binnen 35 m",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

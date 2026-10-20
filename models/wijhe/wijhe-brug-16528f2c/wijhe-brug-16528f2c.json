@@ -1,5 +1,5 @@
 {
-  "name": "wijhe-brug-16528f2c",
+  "name": "Velnerweg",
   "file": "wijhe-brug-16528f2c.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -39,7 +39,7 @@
       ],
       "halfLength": 4.4,
       "halfWidth": 3.66,
-      "height": 44.79,
+      "height": 44.786,
       "gradient": [
         0,
         0
@@ -58,7 +58,7 @@
       ],
       "halfLength": 8.79,
       "halfWidth": 4.74,
-      "height": 45.94,
+      "height": 45.936,
       "gradient": [
         -0.01706,
         0
@@ -77,9 +77,9 @@
       ],
       "halfLength": 8.79,
       "halfWidth": 4.74,
-      "height": 45.918,
+      "height": 45.915,
       "gradient": [
-        -0.0196,
+        -0.01936,
         0
       ],
       "minLift": 0.05,
@@ -97,14 +97,26 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/6811009",
+        "tags": {
+          "bridge": "yes",
+          "highway": "track",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Velnerweg",
+          "smoothness": "intermediate",
+          "surface": "asphalt",
+          "tracktype": "grade1"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 200000,480000,220000,500000 --run nl-10_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map wijhe-brug-16528f2c --plaats wijhe --punt 212089,492370",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -125,7 +137,7 @@
         {
           "gmlId": "L0001.2b102154bd5447e5890a2be4c26b1aad",
           "klasse": "Terrain",
-          "oppervlak": 1803.4,
+          "oppervlak": 450.6,
           "onderDek": 0.02,
           "bovenDekOnderkant": 0.71,
           "actie": "verlagen"
@@ -133,14 +145,14 @@
         {
           "gmlId": "W0151.56135dd7e787475ba004f925fbef6aa8",
           "klasse": "Terrain",
-          "oppervlak": 875,
+          "oppervlak": 437.4,
           "onderDek": 0,
           "bovenDekOnderkant": 0.47,
           "actie": "verlagen"
         }
       ],
       "opritHoogtes": [
-        45.79,
+        45.786,
         45.745
       ]
     },
@@ -148,6 +160,6 @@
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
       "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

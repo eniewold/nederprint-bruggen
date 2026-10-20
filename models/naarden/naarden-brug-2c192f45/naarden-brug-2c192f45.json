@@ -13,7 +13,7 @@
     0.999411
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 48.74,
+  "groundHeight": 48.728,
   "groundSamplePoints": [
     [
       -21.35,
@@ -58,9 +58,9 @@
       ],
       "halfLength": 9.7,
       "halfWidth": 7.14,
-      "height": 48.962,
+      "height": 48.956,
       "gradient": [
-        -0.02287,
+        -0.0235,
         0
       ],
       "minLift": 0.05,
@@ -97,14 +97,35 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/7035178",
+        "tags": {
+          "bridge": "yes",
+          "carriageway_ref": "d",
+          "destination": "Amsterdam",
+          "destination:ref": "A6",
+          "highway": "motorway_link",
+          "junction:ref": "1",
+          "lanes": "1",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "130",
+          "note:maxspeed": "Counterintuitively, the maxspeed on this on-ramp is 130 km/h instead of the lower speed posted on the main road due to it having only a G1 (start motorway) sign at the start",
+          "note:maxspeed:url": "https://wiki.openstreetmap.org/wiki/Reduced_speed_limit_on_Dutch_motorways",
+          "oneway": "yes",
+          "operator": "Rijkswaterstaat",
+          "ref": "A6",
+          "surface": "asphalt",
+          "toll:hgv": "yes"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map naarden-brug-2c192f45 --plaats naarden --punt 137309,481540",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -161,7 +182,7 @@
         }
       ],
       "opritHoogtes": [
-        48.74,
+        48.728,
         48.884
       ]
     },
@@ -169,6 +190,6 @@
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
       "5 PDOK-vorm(en) door het dek: 0 verborgen, 5 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

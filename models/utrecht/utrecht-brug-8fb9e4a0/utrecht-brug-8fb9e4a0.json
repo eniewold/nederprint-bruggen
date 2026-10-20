@@ -13,14 +13,14 @@
     -0.946805
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 44.423,
+  "groundHeight": 44.418,
   "groundSamplePoints": [
     [
-      -5.96,
+      -11.96,
       0
     ],
     [
-      5.96,
+      41.96,
       0
     ]
   ],
@@ -28,25 +28,6 @@
     "G0344.8fb9e4a031c1442ebecf257ef3ecc36e"
   ],
   "terrainCorrections": [
-    {
-      "centre": [
-        138360.59,
-        458531.59
-      ],
-      "axis": [
-        -0.321807,
-        -0.946805
-      ],
-      "halfLength": 0.98,
-      "halfWidth": 2.28,
-      "height": 44.06,
-      "gradient": [
-        0,
-        0
-      ],
-      "minLift": -1.24,
-      "maxLift": -0.01
-    },
     {
       "centre": [
         138362.19,
@@ -58,9 +39,9 @@
       ],
       "halfLength": 3,
       "halfWidth": 2.66,
-      "height": 44.891,
+      "height": 46.972,
       "gradient": [
-        -0.15608,
+        -0.85122,
         0
       ],
       "minLift": 0.05,
@@ -77,7 +58,7 @@
       ],
       "halfLength": 3,
       "halfWidth": 2.66,
-      "height": 45.21,
+      "height": 49.375,
       "gradient": [
         -0.05,
         0
@@ -130,7 +111,8 @@
     },
     "type": "ligger",
     "doorvaarthoogte": null,
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 126435,448710,141834,461610 --run utrecht-6 --parallel 4 --overschrijf 1",
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 126435,448710,141834,461610 --run utrecht-2026-10-20 --overschrijf 1 --parallel 5",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -143,29 +125,23 @@
       ],
       "portaalhoogte": 3.2,
       "opritafstand": [
-        4,
-        4
+        10,
+        40
       ],
+      "spoorhoogteBron": "pdok",
       "oprithelling": 6,
-      "doorstekend": [
-        {
-          "gmlId": "W0636.990968e0613e4fcd986fafde94030406",
-          "klasse": "Terrain",
-          "oppervlak": 92.4,
-          "onderDek": 0,
-          "bovenDekOnderkant": 0.24,
-          "actie": "verlagen"
-        }
-      ],
+      "doorstekend": [],
       "opritHoogtes": [
-        44.423,
-        45.06
+        44.418,
+        49.225
       ]
     },
     "waarschuwingen": [
-      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
-      "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
+      "oprit -: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "oprit +: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "oprit + pas op 40 m langs het spoor gemeten (PDOK-spoorterrein bij de brug lager)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-17"
+    "gegenereerd": "2026-10-20"
   }
 }

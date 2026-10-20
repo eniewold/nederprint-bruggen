@@ -1,5 +1,5 @@
 {
-  "name": "noordbroek-brug-fa841038",
+  "name": "Klingenweg",
   "file": "noordbroek-brug-fa841038.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -93,14 +93,25 @@
           "type": "pijler"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/6381918",
+        "tags": {
+          "bridge": "yes",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxspeed": "80",
+          "name": "Klingenweg",
+          "smoothness": "good",
+          "surface": "asphalt"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 4
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,560000,260000,580000 --run nl-12_13 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map noordbroek-brug-fa841038 --plaats noordbroek --punt 255696,578401",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

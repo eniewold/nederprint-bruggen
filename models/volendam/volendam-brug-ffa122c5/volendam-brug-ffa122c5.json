@@ -1,5 +1,5 @@
 {
-  "name": "volendam-brug-ffa122c5",
+  "name": "Harlingenlaan",
   "file": "volendam-brug-ffa122c5.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -97,14 +97,23 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/216479512",
+        "tags": {
+          "bridge": "yes",
+          "highway": "residential",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Harlingenlaan"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,500000,140000,520000 --run nl-6_10 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map volendam-brug-ffa122c5 --plaats volendam --punt 133645,502492",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -125,7 +134,7 @@
         {
           "gmlId": "W0651.3791a0c135f140ac9494c06e11a32390",
           "klasse": "Terrain",
-          "oppervlak": 195.8,
+          "oppervlak": 98,
           "onderDek": 0.03,
           "bovenDekOnderkant": 0.8,
           "actie": "verlagen"
@@ -140,6 +149,6 @@
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
       "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "name": "hengelo-brug-d66faf88",
+  "name": "Hampshire",
   "file": "hengelo-brug-d66faf88.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -13,7 +13,7 @@
     -0.281263
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 60.28,
+  "groundHeight": 60.279,
   "groundSamplePoints": [
     [
       -11.9,
@@ -39,7 +39,7 @@
       ],
       "halfLength": 2.71,
       "halfWidth": 4.41,
-      "height": 59.514,
+      "height": 59.512,
       "gradient": [
         0,
         0
@@ -58,7 +58,7 @@
       ],
       "halfLength": 5.41,
       "halfWidth": 5.86,
-      "height": 60.664,
+      "height": 60.662,
       "gradient": [
         -0.02772,
         0
@@ -77,9 +77,9 @@
       ],
       "halfLength": 5.41,
       "halfWidth": 5.86,
-      "height": 60.547,
+      "height": 60.545,
       "gradient": [
-        -0.0493,
+        -0.04926,
         0
       ],
       "minLift": 0.05,
@@ -97,14 +97,27 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/135087816",
+        "tags": {
+          "bridge": "yes",
+          "highway": "residential",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "30",
+          "name": "Hampshire",
+          "source:maxspeed": "NL:zone30",
+          "surface": "asphalt",
+          "zone:traffic": "NL:urban"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,460000,260000,480000 --run nl-12_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map hengelo-brug-d66faf88 --plaats hengelo --punt 250438,476648",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -132,8 +145,8 @@
         }
       ],
       "opritHoogtes": [
-        60.514,
-        60.28
+        60.512,
+        60.279
       ]
     },
     "waarschuwingen": [

@@ -1,5 +1,5 @@
 {
-  "name": "lutjebroek-brug-10d885e1",
+  "name": "Broeckerpad",
   "file": "lutjebroek-brug-10d885e1.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,23 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/60596555",
+        "tags": {
+          "bridge": "yes",
+          "foot": "permissive",
+          "highway": "cycleway",
+          "layer": "1",
+          "name": "Broeckerpad"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,520000,160000,540000 --run nl-7_11 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map lutjebroek-brug-10d885e1 --plaats lutjebroek --punt 142306,523950",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -112,6 +121,6 @@
       "geen FIS-brug binnen 35 m",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

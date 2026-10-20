@@ -78,14 +78,24 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/322001882",
+        "tags": {
+          "bridge": "yes",
+          "foot": "yes",
+          "highway": "footway",
+          "horse": "no",
+          "layer": "1",
+          "vehicle": "no"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 0
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 60000,420000,80000,440000 --run nl-3_6 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map zuidland-brug-cf3a0211 --plaats zuidland --punt 76607,423259",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

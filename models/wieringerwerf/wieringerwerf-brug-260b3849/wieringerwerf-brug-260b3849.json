@@ -1,5 +1,5 @@
 {
-  "name": "wieringerwerf-brug-260b3849",
+  "name": "Oom Keesweg",
   "file": "wieringerwerf-brug-260b3849.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -13,7 +13,7 @@
     0.447769
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 39.798,
+  "groundHeight": 39.784,
   "groundSamplePoints": [
     [
       -22.14,
@@ -58,9 +58,9 @@
       ],
       "halfLength": 10.06,
       "halfWidth": 2.35,
-      "height": 40.025,
+      "height": 40.018,
       "gradient": [
-        -0.02252,
+        -0.0232,
         0
       ],
       "minLift": 0.05,
@@ -78,14 +78,29 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/370429310",
+        "tags": {
+          "bridge": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "mofa": "yes",
+          "moped": "designated",
+          "name": "Oom Keesweg",
+          "sidewalk": "no",
+          "smoothness": "good",
+          "surface": "asphalt",
+          "traffic_sign": "NL:G12a",
+          "zone:traffic": "NL:rural"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,540000,140000,560000 --run nl-6_12 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map wieringerwerf-brug-260b3849 --plaats wieringerwerf --punt 132011,542853",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -105,7 +120,7 @@
       "doorstekend": [],
       "opritHoogtes": [
         39.951,
-        39.798
+        39.784
       ]
     },
     "waarschuwingen": [

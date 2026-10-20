@@ -13,7 +13,7 @@
     -0.987817
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 59.929,
+  "groundHeight": 59.92,
   "groundSamplePoints": [
     [
       -12.62,
@@ -44,7 +44,7 @@
         0,
         0
       ],
-      "minLift": -1.79,
+      "minLift": -1.77,
       "maxLift": -0.01
     },
     {
@@ -58,9 +58,9 @@
       ],
       "halfLength": 4.51,
       "halfWidth": 2.35,
-      "height": 60.537,
+      "height": 60.533,
       "gradient": [
-        -0.13493,
+        -0.13591,
         0
       ],
       "minLift": 0.05,
@@ -97,14 +97,23 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/788131260",
+        "tags": {
+          "bridge": "yes",
+          "highway": "track",
+          "layer": "1",
+          "surface": "ground",
+          "tracktype": "grade3"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,460000,180000,480000 --run nl-8_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map ermelo-brug-b00e3f35 --plaats ermelo --punt 178448,478320",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -125,25 +134,17 @@
         {
           "gmlId": "G0233.ec16306bae484b5facda3dca664312c9",
           "klasse": "Forest",
-          "oppervlak": 3101.3,
+          "oppervlak": 387.9,
           "onderDek": 0.01,
-          "bovenDekOnderkant": 0.79,
+          "bovenDekOnderkant": 0.77,
           "actie": "verlagen"
         },
         {
           "gmlId": "G0233.7c23d9a1ddbd41a3a060333c1cea7321",
           "klasse": "Forest",
-          "oppervlak": 2765.4,
+          "oppervlak": 691.1,
           "onderDek": 0,
           "bovenDekOnderkant": 0.68,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "W0662.b10212ebde550519e0531529a8c0d34b",
-          "klasse": "Terrain",
-          "oppervlak": 874.4,
-          "onderDek": 0.04,
-          "bovenDekOnderkant": 0.6,
           "actie": "verlagen"
         },
         {
@@ -153,10 +154,18 @@
           "onderDek": 0.11,
           "bovenDekOnderkant": 0.6,
           "actie": "verlagen"
+        },
+        {
+          "gmlId": "W0662.b10212ebde550519e0531529a8c0d34b",
+          "klasse": "Terrain",
+          "oppervlak": 109.3,
+          "onderDek": 0.05,
+          "bovenDekOnderkant": 0.59,
+          "actie": "verlagen"
         }
       ],
       "opritHoogtes": [
-        59.929,
+        59.92,
         60.845
       ]
     },
@@ -166,6 +175,6 @@
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
       "4 PDOK-vorm(en) door het dek: 0 verborgen, 4 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "name": "helmond-brug-3fb602de",
+  "name": "Rembrandtlaan",
   "file": "helmond-brug-3fb602de.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -88,14 +88,30 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/693084396",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "yes",
+          "bridge:material": "concrete",
+          "bridge:structure": "beam",
+          "foot": "use_sidepath",
+          "highway": "secondary",
+          "lanes": "2",
+          "layer": "1",
+          "maxspeed": "50",
+          "name": "Rembrandtlaan",
+          "zone:traffic": "NL:urban",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 3
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,380000,180000,400000 --run nl-8_4 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map helmond-brug-3fb602de --plaats helmond --punt 175474,389004",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

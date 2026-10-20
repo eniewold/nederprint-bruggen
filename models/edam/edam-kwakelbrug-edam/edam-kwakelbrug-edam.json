@@ -1,5 +1,5 @@
 {
-  "name": "Kwakelbrug Edam",
+  "name": "Kwakelbrug",
   "file": "edam-kwakelbrug-edam.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,7 +78,26 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1199303637",
+        "tags": {
+          "bridge": "movable",
+          "bridge:movable": "bascule",
+          "highway": "footway",
+          "image": "https://images.mapillary.com/0IznPUIRRbz1pr2pYWIHQh/thumb-2048.jpg",
+          "layer": "1",
+          "mapillary": "473393310618658",
+          "material": "wood",
+          "name": "Kwakelbrug",
+          "surface": "wood",
+          "width": "2",
+          "wikidata": "Q2341202",
+          "wikipedia": "nl:Kwakelbrug",
+          "zone:traffic": "NL:urban",
+          "man_made": "bridge",
+          "bridge:structure": "humpback"
+        }
+      },
       "fis": {
         "id": 32825,
         "naam": "Kwakelbrug Edam",
@@ -88,10 +107,10 @@
       },
       "pdokBridgeVlakken": 1
     },
-    "type": "ophaalbrug",
+    "type": "basculebrug",
     "doorvaarthoogte": 1.62,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,500000,140000,520000 --run nl-6_10 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map edam-kwakelbrug-edam --plaats edam --punt 131919,502656",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -115,8 +134,9 @@
       ]
     },
     "waarschuwingen": [
+      "OSM zegt humpback, gekozen type basculebrug",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

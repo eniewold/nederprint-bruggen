@@ -1,5 +1,5 @@
 {
-  "name": "wieringerwerf-brug-18197637",
+  "name": "Rijksweg",
   "file": "wieringerwerf-brug-18197637.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -95,14 +95,34 @@
           "type": "onbekend"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1465163694",
+        "tags": {
+          "bridge": "yes",
+          "carriageway_ref": "Li",
+          "highway": "motorway",
+          "int_ref": "E 22",
+          "lanes": "2",
+          "layer": "1",
+          "maxspeed": "100",
+          "maxspeed:conditional": "130 @ (19:00-06:00)",
+          "name": "Rijksweg",
+          "oneway": "yes",
+          "operator": "Rijkswaterstaat",
+          "ref": "A7",
+          "surface": "asphalt",
+          "toll:hgv": "yes",
+          "zone:traffic": "NL:rural",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 4
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,520000,140000,540000 --run nl-6_11 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map wieringerwerf-brug-18197637 --plaats wieringerwerf --punt 130323,538740",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

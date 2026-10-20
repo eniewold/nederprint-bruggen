@@ -1,5 +1,5 @@
 {
-  "name": "vaassen-brug-9074d15b",
+  "name": "Hattumseweg",
   "file": "vaassen-brug-9074d15b.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -97,14 +97,24 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/804352554",
+        "tags": {
+          "bridge": "yes",
+          "highway": "track",
+          "layer": "1",
+          "name": "Hattumseweg",
+          "smoothness": "good",
+          "surface": "wood"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 180000,460000,200000,480000 --run nl-9_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map vaassen-brug-9074d15b --plaats vaassen --punt 191894,477869",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -125,7 +135,7 @@
         {
           "gmlId": "W0662.a1b227a3f42e5f04e05332a1e90ad0db",
           "klasse": "Terrain",
-          "oppervlak": 193.4,
+          "oppervlak": 128.7,
           "onderDek": 0.03,
           "bovenDekOnderkant": 0.83,
           "actie": "verlagen"
@@ -133,8 +143,8 @@
         {
           "gmlId": "W0662.a1b227a401235f04e05332a1e90ad0db",
           "klasse": "Terrain",
-          "oppervlak": 372.7,
-          "onderDek": 0.08,
+          "oppervlak": 186.3,
+          "onderDek": 0.07,
           "bovenDekOnderkant": 0.81,
           "actie": "verlagen"
         }
@@ -148,6 +158,6 @@
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
       "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "name": "Brug in de Peelrug Petersburg",
+  "name": "Petersburg",
   "file": "donkerbroek-brug-in-de-peelrug-petersburg.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -88,7 +88,22 @@
           "type": "landhoofd"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/6468765",
+        "tags": {
+          "bridge": "movable",
+          "highway": "tertiary",
+          "lanes": "1",
+          "layer": "1",
+          "maxaxleload": "2.3",
+          "maxheight": "3.7",
+          "maxspeed": "60",
+          "name": "Petersburg",
+          "priority": "backward",
+          "smoothness": "intermediate",
+          "surface": "paved"
+        }
+      },
       "fis": {
         "id": 49534,
         "naam": "Brug in de Peelrug Petersburg",
@@ -98,10 +113,10 @@
       },
       "pdokBridgeVlakken": 3
     },
-    "type": "ophaalbrug",
+    "type": "basculebrug",
     "doorvaarthoogte": 1.85,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 200000,560000,220000,580000 --run nl-10_13 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map donkerbroek-brug-in-de-peelrug-petersburg --plaats donkerbroek --punt 210891,560911",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -124,7 +139,9 @@
         47.365
       ]
     },
-    "waarschuwingen": [],
+    "waarschuwingen": [
+      "bridge=movable zonder mechanisme: basculebrug is een gok"
+    ],
     "gegenereerd": "2026-10-20"
   }
 }

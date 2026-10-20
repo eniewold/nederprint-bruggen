@@ -1,5 +1,5 @@
 {
-  "name": "nijverdal-brug-2b418631-6",
+  "name": "Helmkruidlaan",
   "file": "nijverdal-brug-2b418631-6.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,35 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1270960195",
+        "tags": {
+          "bridge": "viaduct",
+          "description": "Dit was de oorspronkelijke brug tussen Nijverdal en Hulsen, waar later een fietspad van werd gemaakt. Deze brug werd vernieuwd omstreeks 2022. Van den Steen van Ommeren was één van de burgemeesters van Hellendoorn.",
+          "foot": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "lit": "yes",
+          "mofa": "designated",
+          "moped": "no",
+          "name": "Helmkruidlaan",
+          "old_name": "Van den Steen van Ommerenbrug",
+          "oneway": "no",
+          "segregated": "no",
+          "smoothness": "good",
+          "surface": "asphalt",
+          "traffic_sign": "NL:G11",
+          "man_made": "bridge",
+          "source:old_name": "Historische Kring Hellendoorn Nijverdal"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,480000,240000,500000 --run nl-11_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map nijverdal-brug-2b418631-6 --plaats nijverdal --punt 228490,487692",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

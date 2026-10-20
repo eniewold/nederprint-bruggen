@@ -1,5 +1,5 @@
 {
-  "name": "andijk-brug-69b4033a",
+  "name": "Nieuwe Dijk",
   "file": "andijk-brug-69b4033a.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -13,7 +13,7 @@
     0.552115
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 40.049,
+  "groundHeight": 40.044,
   "groundSamplePoints": [
     [
       -23.14,
@@ -58,9 +58,9 @@
       ],
       "halfLength": 10.52,
       "halfWidth": 2.44,
-      "height": 40.269,
+      "height": 40.267,
       "gradient": [
-        -0.02092,
+        -0.02115,
         0
       ],
       "minLift": 0.05,
@@ -78,14 +78,23 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/141754835",
+        "tags": {
+          "bridge": "yes",
+          "highway": "cycleway",
+          "lanes": "2",
+          "layer": "1",
+          "name": "Nieuwe Dijk"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,520000,160000,540000 --run nl-7_11 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map andijk-brug-69b4033a --plaats andijk --punt 141130,526015",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -105,13 +114,13 @@
       "doorstekend": [],
       "opritHoogtes": [
         40.189,
-        40.049
+        40.044
       ]
     },
     "waarschuwingen": [
       "geen FIS-brug binnen 35 m",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

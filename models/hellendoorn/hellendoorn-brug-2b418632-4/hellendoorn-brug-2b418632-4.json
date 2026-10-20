@@ -1,5 +1,5 @@
 {
-  "name": "hellendoorn-brug-2b418632-4",
+  "name": "Schuilenburgerbrug",
   "file": "hellendoorn-brug-2b418632-4.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -107,14 +107,26 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1282181939",
+        "tags": {
+          "bicycle": "no",
+          "bridge": "viaduct",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "80",
+          "name": "Schuilenburgerbrug",
+          "loc_name": "Schuilenburgerbrug",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 3
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,480000,240000,500000 --run nl-11_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map hellendoorn-brug-2b418632-4 --plaats hellendoorn --punt 228765,491875",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

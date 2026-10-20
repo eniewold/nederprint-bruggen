@@ -9,8 +9,8 @@
     475880.54
   ],
   "xAxis": [
-    0.969243,
-    -0.246104
+    0.969352,
+    -0.245675
   ],
   "groundOffsetMetres": 0,
   "groundHeight": 64.47,
@@ -31,11 +31,11 @@
     {
       "centre": [
         250574.04,
-        475882.4
+        475882.39
       ],
       "axis": [
-        -0.969243,
-        0.246104
+        -0.969352,
+        0.245675
       ],
       "halfLength": 3.77,
       "halfWidth": 7.94,
@@ -49,12 +49,12 @@
     },
     {
       "centre": [
-        250588.66,
+        250588.65,
         475878.69
       ],
       "axis": [
-        0.969243,
-        -0.246104
+        0.969352,
+        -0.245675
       ],
       "halfLength": 3.77,
       "halfWidth": 7.94,
@@ -78,14 +78,45 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1552791410",
+        "tags": {
+          "axle_load": "22.5",
+          "bridge": "yes",
+          "description": "Hengelo",
+          "electrified": "contact_line",
+          "frequency": "0",
+          "gauge": "1435",
+          "layer": "1",
+          "loading_gauge": "TSI_GB",
+          "maxspeed": "40",
+          "operator": "ProRail",
+          "passenger_lines": "2",
+          "railway": "rail",
+          "railway:atb": "yes",
+          "railway:atb-eg": "yes",
+          "railway:atb-ng": "no",
+          "railway:etcs": "no",
+          "railway:maximum_current": "4000",
+          "railway:track_class": "D4",
+          "railway:traffic_mode": "mixed",
+          "ref": "543a",
+          "ref:ProRailSpoortak": "606_109V_1.0",
+          "source": "ProRail",
+          "source:date": "2014-01-03",
+          "start_date": "1865-10-18",
+          "usage": "main",
+          "voltage": "1500",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,460000,260000,480000 --run nl-12_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map hengelo-brug-fd0eca79 --plaats hengelo --punt 250581,475881",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

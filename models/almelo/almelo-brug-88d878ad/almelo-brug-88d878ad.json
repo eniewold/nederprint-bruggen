@@ -1,5 +1,5 @@
 {
-  "name": "almelo-brug-88d878ad",
+  "name": "Bolkshoeksweg",
   "file": "almelo-brug-88d878ad.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -88,14 +88,29 @@
           "type": "landhoofd"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/6676926",
+        "tags": {
+          "bridge": "yes",
+          "highway": "unclassified",
+          "lane_markings": "no",
+          "layer": "1",
+          "maxspeed": "60",
+          "maxweight:signed": "no",
+          "mofa": "yes",
+          "moped": "yes",
+          "motor_vehicle": "destination",
+          "name": "Bolkshoeksweg",
+          "surface": "asphalt"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 3
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,480000,260000,500000 --run nl-12_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map almelo-brug-88d878ad --plaats almelo --punt 244003,485740",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

@@ -78,7 +78,16 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/381034655",
+        "tags": {
+          "bridge": "movable",
+          "bridge:movable": "swing",
+          "highway": "service",
+          "layer": "1",
+          "service": "driveway"
+        }
+      },
       "fis": {
         "id": 26484,
         "naam": "Draaibrug Abcoude",
@@ -88,10 +97,10 @@
       },
       "pdokBridgeVlakken": 1
     },
-    "type": "ophaalbrug",
+    "type": "draaibrug",
     "doorvaarthoogte": 1,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,460000,140000,480000 --run nl-6_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map abcoude-draaibrug-abcoude --plaats abcoude --punt 124703,474794",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -117,6 +126,6 @@
     "waarschuwingen": [
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "name": "dordrecht-brug-377b0a04",
+  "name": "Engelenburgerbrug",
   "file": "dordrecht-brug-377b0a04.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -103,14 +103,26 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1028085670",
+        "tags": {
+          "bridge": "yes",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Engelenburgerbrug",
+          "wikidata": "Q18976477",
+          "wikimedia_commons": "Category:Buiten Walevest, Dordrecht",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 6
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,420000,120000,440000 --run nl-5_6 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map dordrecht-brug-377b0a04 --plaats dordrecht --punt 104938,425438",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -136,6 +148,6 @@
     "waarschuwingen": [
       "geen FIS-brug binnen 35 m"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

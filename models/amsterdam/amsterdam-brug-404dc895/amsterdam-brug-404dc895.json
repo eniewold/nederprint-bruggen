@@ -1,5 +1,5 @@
 {
-  "name": "amsterdam-brug-404dc895",
+  "name": "Fritz Dietrich Kahlenbergstraat",
   "file": "amsterdam-brug-404dc895.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -83,14 +83,27 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1274409663",
+        "tags": {
+          "bridge": "yes",
+          "bridge:ref": "2047",
+          "cycleway": "track",
+          "highway": "residential",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Fritz Dietrich Kahlenbergstraat",
+          "smoothness": "intermediate",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 2
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map amsterdam-brug-404dc895 --plaats amsterdam --punt 129147,484499",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -116,6 +129,6 @@
     "waarschuwingen": [
       "geen FIS-brug binnen 35 m"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

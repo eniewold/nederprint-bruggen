@@ -1,5 +1,5 @@
 {
-  "name": "muiden-brug-21092476",
+  "name": "Eerste Kringpad",
   "file": "muiden-brug-21092476.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,24 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1352330901",
+        "tags": {
+          "bridge": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "name": "Eerste Kringpad",
+          "oneway": "no",
+          "zone:traffic": "NL:urban"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map muiden-brug-21092476 --plaats muiden --punt 132871,483234",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -111,6 +121,6 @@
     "waarschuwingen": [
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

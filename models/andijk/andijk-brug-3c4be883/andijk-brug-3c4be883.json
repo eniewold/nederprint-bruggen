@@ -1,5 +1,5 @@
 {
-  "name": "andijk-brug-3c4be883",
+  "name": "Bangert",
   "file": "andijk-brug-3c4be883.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,23 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/126270305",
+        "tags": {
+          "bridge": "yes",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Bangert"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,520000,160000,540000 --run nl-7_11 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map andijk-brug-3c4be883 --plaats andijk --punt 140877,527592",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -111,6 +120,6 @@
     "waarschuwingen": [
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

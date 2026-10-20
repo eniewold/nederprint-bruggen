@@ -1,5 +1,5 @@
 {
-  "name": "oud-beijerland-brug-8abeacd5-29",
+  "name": "Kreekbrug",
   "file": "oud-beijerland-brug-8abeacd5-29.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,26 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/607390966",
+        "tags": {
+          "bridge": "yes",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Kreekbrug",
+          "name:etymology:wikidata": "Q34951244",
+          "sidewalk": "both",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,420000,100000,440000 --run nl-4_6 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map oud-beijerland-brug-8abeacd5-29 --plaats oud-beijerland --punt 89382,425869",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

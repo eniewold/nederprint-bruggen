@@ -1,5 +1,5 @@
 {
-  "name": "zwaagdijk-oost-brug-0045c36d",
+  "name": "Tolweg",
   "file": "zwaagdijk-oost-brug-0045c36d.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -84,14 +84,29 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/880510872",
+        "tags": {
+          "bicycle": "no",
+          "bridge": "yes",
+          "highway": "tertiary",
+          "lane_markings": "no",
+          "layer": "1",
+          "maxspeed": "50",
+          "maxweight:signed": "no",
+          "name": "Tolweg",
+          "oneway": "no",
+          "surface": "asphalt",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 0
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,520000,140000,540000 --run nl-6_11 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map zwaagdijk-oost-brug-0045c36d --plaats zwaagdijk-oost --punt 139186,524956",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

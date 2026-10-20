@@ -1,5 +1,5 @@
 {
-  "name": "enter-brug-29c622a2-7",
+  "name": "Wolvesweg",
   "file": "enter-brug-29c622a2-7.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -107,14 +107,26 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/6684097",
+        "tags": {
+          "bridge": "yes",
+          "bridge:name": "Wolves",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Wolvesweg",
+          "oneway": "no",
+          "surface": "asphalt"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 3
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,460000,240000,480000 --run nl-11_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map enter-brug-29c622a2-7 --plaats enter --punt 238477,478416",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

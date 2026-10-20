@@ -90,20 +90,28 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/163127711",
+        "tags": {
+          "bridge": "movable",
+          "bridge:movable": "swing",
+          "highway": "cycleway",
+          "layer": "1"
+        }
+      },
       "fis": {
         "id": 12673,
         "naam": "Bruinsmadraai",
-        "afstand": 1,
+        "afstand": 2,
         "beweegbaar": true,
         "doorvaarthoogteGesloten": 0.6000000000000001
       },
       "pdokBridgeVlakken": 3
     },
-    "type": "ophaalbrug",
+    "type": "draaibrug",
     "doorvaarthoogte": 0.6000000000000001,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 200000,560000,220000,580000 --run nl-10_13 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map wijnjewoude-bruinsmadraai --plaats wijnjewoude --punt 208223,561486",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

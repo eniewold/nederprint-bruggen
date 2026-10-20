@@ -13,21 +13,40 @@
     -0.715449
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 47.509,
+  "groundHeight": 47.752,
   "groundSamplePoints": [
     [
-      -107.65,
-      0.79
+      -7.65,
+      0
     ],
     [
-      17.65,
-      1.6
+      7.65,
+      0
     ]
   ],
   "replacesTerrain": [
     "L0004.e6fc6187dfba5f61e0530b29a8c0e64a"
   ],
   "terrainCorrections": [
+    {
+      "centre": [
+        134893.03,
+        456984.42
+      ],
+      "axis": [
+        0.698665,
+        -0.715449
+      ],
+      "halfLength": 3.83,
+      "halfWidth": 6.63,
+      "height": 46.51,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.8,
+      "maxLift": -0.01
+    },
     {
       "centre": [
         134882.33,
@@ -39,9 +58,9 @@
       ],
       "halfLength": 7.65,
       "halfWidth": 8.13,
-      "height": 49.6,
+      "height": 47.81,
       "gradient": [
-        -0.0196,
+        0,
         0
       ],
       "minLift": 0.05,
@@ -58,9 +77,9 @@
       ],
       "halfLength": 7.65,
       "halfWidth": 8.13,
-      "height": 48.629,
+      "height": 47.781,
       "gradient": [
-        -0.14635,
+        -0.00373,
         0
       ],
       "minLift": 0.05,
@@ -88,7 +107,7 @@
       "naam": "utrecht-brug-e6fc6187",
       "straal": 40
     },
-    "opdracht": "node scripts/bridges/genereer.mjs --uit C:/Users/edwar/AppData/Local/Temp/claude/C--Users-edwar-source-Repos-nederprint/3bd9e161-d515-4f1b-bfbf-c9cc2320f835/scratchpad/rail-batch5 --map brug-e6fc6187 --plaats utrecht --punt 134893.03,456984.42 --naam utrecht-brug-e6fc6187 --straal 40",
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 126435,448710,141834,461610 --run utrecht-2026-10-20 --overschrijf 1 --parallel 5",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -98,20 +117,30 @@
       "water": null,
       "portaalhoogte": 11,
       "opritafstand": [
-        100,
-        10
+        0,
+        0
       ],
+      "spoorhoogteBron": "prorail-pvs",
       "oprithelling": 15.3,
-      "doorstekend": [],
+      "doorstekend": [
+        {
+          "gmlId": "G0344.5c0414dd5ad2464da02a05c4084558e2",
+          "klasse": "Terrain",
+          "oppervlak": 136.9,
+          "onderDek": 0.07,
+          "bovenDekOnderkant": 0.8,
+          "actie": "verlagen"
+        }
+      ],
       "opritHoogtes": [
-        49.45,
-        47.509
+        47.81,
+        47.752
       ]
     },
     "waarschuwingen": [
-      "oprit - pas op 100 m langs het spoor gemeten (PDOK-spoorterrein bij de brug lager)",
-      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
     ],
-    "gegenereerd": "2026-10-17"
+    "gegenereerd": "2026-10-20"
   }
 }

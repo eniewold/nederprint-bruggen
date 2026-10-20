@@ -1,5 +1,5 @@
 {
-  "name": "mierlo-brug-fe0f831d",
+  "name": "Broeksebrug",
   "file": "mierlo-brug-fe0f831d.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -13,7 +13,7 @@
     -0.986845
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 63.223,
+  "groundHeight": 63.217,
   "groundSamplePoints": [
     [
       -25.61,
@@ -44,7 +44,7 @@
         0,
         0
       ],
-      "minLift": -1.44,
+      "minLift": -1.43,
       "maxLift": -0.01
     },
     {
@@ -77,9 +77,9 @@
       ],
       "halfLength": 11.64,
       "halfWidth": 5.8,
-      "height": 63.602,
+      "height": 63.599,
       "gradient": [
-        -0.03254,
+        -0.03282,
         0
       ],
       "minLift": 0.05,
@@ -97,14 +97,32 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/85727342",
+        "tags": {
+          "bridge": "yes",
+          "bridge:material": "concrete",
+          "bridge:name": "Broeksebrug",
+          "bridge:structure": "beam",
+          "hgv": "destination",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Broeksebrug",
+          "oneway": "no",
+          "surface": "asphalt",
+          "zone:traffic": "NL:rural",
+          "man_made": "bridge",
+          "wikidata": "Q127421187"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,380000,180000,400000 --run nl-8_4 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map mierlo-brug-fe0f831d --plaats mierlo --punt 170038,384349",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -125,15 +143,15 @@
         {
           "gmlId": "W0539.b7629cf48cd84f97bc66b475813bb3ae",
           "klasse": "Terrain",
-          "oppervlak": 2455.1,
+          "oppervlak": 491.5,
           "onderDek": 0,
-          "bovenDekOnderkant": 0.44,
+          "bovenDekOnderkant": 0.43,
           "actie": "verlagen"
         },
         {
           "gmlId": "G0794.c0cb0bacaa644834a0a5b35286c6d7b7",
           "klasse": "Terrain",
-          "oppervlak": 2441.2,
+          "oppervlak": 487.8,
           "onderDek": 0,
           "bovenDekOnderkant": 0.06,
           "actie": "verlagen"
@@ -141,7 +159,7 @@
       ],
       "opritHoogtes": [
         63.681,
-        63.223
+        63.217
       ]
     },
     "waarschuwingen": [

@@ -94,20 +94,29 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/155708488",
+        "tags": {
+          "bridge": "movable",
+          "bridge:movable": "swing",
+          "highway": "cycleway",
+          "layer": "1",
+          "mofa": "yes"
+        }
+      },
       "fis": {
         "id": 27938,
         "naam": "Draaivonder Nr. 4",
-        "afstand": 2,
+        "afstand": 1,
         "beweegbaar": true,
         "doorvaarthoogteGesloten": 1
       },
       "pdokBridgeVlakken": 4
     },
-    "type": "ophaalbrug",
+    "type": "draaibrug",
     "doorvaarthoogte": 1,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 260000,540000,280000,560000 --run nl-13_12 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map stadskanaal-draaivonder-nr-4 --plaats stadskanaal --punt 261420,554567",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

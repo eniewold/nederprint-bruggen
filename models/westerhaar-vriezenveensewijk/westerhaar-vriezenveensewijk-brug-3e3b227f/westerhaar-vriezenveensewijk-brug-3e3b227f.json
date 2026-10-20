@@ -1,5 +1,5 @@
 {
-  "name": "westerhaar-vriezenveensewijk-brug-3e3b227f",
+  "name": "Dalweg",
   "file": "westerhaar-vriezenveensewijk-brug-3e3b227f.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,25 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1217485674",
+        "tags": {
+          "bridge": "viaduct",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Dalweg",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,480000,240000,500000 --run nl-11_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map westerhaar-vriezenveensewijk-brug-3e3b227f --plaats westerhaar-vriezenveensewijk --punt 239368,496733",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

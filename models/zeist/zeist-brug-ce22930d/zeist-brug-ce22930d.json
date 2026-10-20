@@ -1,5 +1,5 @@
 {
-  "name": "zeist-brug-ce22930d",
+  "name": "Zinzendorflaan",
   "file": "zeist-brug-ce22930d.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,28 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1021078423",
+        "tags": {
+          "bridge": "yes",
+          "highway": "residential",
+          "layer": "1",
+          "maxspeed": "30",
+          "maxweight": "5.0",
+          "name": "Zinzendorflaan",
+          "oneway": "no",
+          "surface": "asphalt",
+          "bridge:structure": "arch",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
-    "type": "ligger",
+    "type": "gewelf",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,440000,160000,460000 --run nl-7_7 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map zeist-brug-ce22930d --plaats zeist --punt 144598,454566",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -111,6 +125,6 @@
     "waarschuwingen": [
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

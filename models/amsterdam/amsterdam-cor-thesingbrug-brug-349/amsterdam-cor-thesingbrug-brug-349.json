@@ -87,22 +87,17 @@
       "osm": {
         "id": "way/1051550220",
         "tags": {
-          "bicycle": "use_sidepath",
           "bridge": "yes",
-          "bridge:ref": "349",
-          "foot": "use_sidepath",
-          "highway": "primary",
-          "lanes": "2",
+          "highway": "cycleway",
           "layer": "1",
-          "lit": "yes",
-          "maxspeed": "30",
-          "mofa": "use_sidepath",
-          "name": "Houtmankade",
-          "oneway": "no",
-          "ref": "S100",
-          "sidewalk": "both",
+          "lit:indirect": "yes",
+          "mofa": "designated",
+          "moped": "no",
+          "smoothness": "excellent",
           "surface": "asphalt",
-          "zone:traffic": "NL:urban",
+          "surface:colour": "red",
+          "traffic_sign": "NL:G11",
+          "width": "3",
           "bridge:structure": "beam",
           "man_made": "bridge"
         }
@@ -110,7 +105,7 @@
       "fis": {
         "id": 3375864,
         "naam": "Cor Thesingbrug (Brug 349)",
-        "afstand": 6,
+        "afstand": 3,
         "beweegbaar": true,
         "doorvaarthoogteGesloten": 2.05
       },
@@ -119,7 +114,7 @@
     "type": "ophaalbrug",
     "doorvaarthoogte": 2.05,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map amsterdam-cor-thesingbrug-brug-349 --plaats amsterdam --punt 120780,489171",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -130,7 +125,7 @@
         -6,
         6
       ],
-      "portaalhoogte": 14.8,
+      "portaalhoogte": 14.7,
       "opritafstand": [
         9.2,
         9.2
@@ -146,6 +141,6 @@
       "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

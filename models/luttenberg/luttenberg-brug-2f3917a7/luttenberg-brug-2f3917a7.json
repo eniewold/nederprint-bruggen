@@ -78,14 +78,23 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/123880047",
+        "tags": {
+          "bridge": "yes",
+          "highway": "track",
+          "layer": "1",
+          "maxspeed": "60",
+          "source": "Bing"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,480000,240000,500000 --run nl-11_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map luttenberg-brug-2f3917a7 --plaats luttenberg --punt 222924,490692",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

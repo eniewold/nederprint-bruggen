@@ -1,5 +1,5 @@
 {
-  "name": "diemen-brug-0775c455",
+  "name": "Uyllanderbrug",
   "file": "diemen-brug-0775c455.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -26,6 +26,7 @@
   ],
   "replacesTerrain": [
     "G0384.0775c455ed41412d9e3a9f9b78f3e23c",
+    "G0384.6c371f839db54d5192afe58b1e52fef1",
     "G0384.743ba70c08fc469c84191a4fe213ccf6"
   ],
   "terrainCorrections": [
@@ -40,7 +41,7 @@
       ],
       "halfLength": 12,
       "halfWidth": 22.97,
-      "height": 52.177,
+      "height": 52.168,
       "gradient": [
         -0.0125,
         0
@@ -59,9 +60,9 @@
       ],
       "halfLength": 12,
       "halfWidth": 22.97,
-      "height": 51.279,
+      "height": 51.275,
       "gradient": [
-        -0.08734,
+        -0.08695,
         0
       ],
       "minLift": 0.05,
@@ -79,18 +80,52 @@
           "type": "dek"
         },
         {
+          "id": "G0384.6c371f839db54d5192afe58b1e52fef1",
+          "type": "pyloon"
+        },
+        {
           "id": "G0384.743ba70c08fc469c84191a4fe213ccf6",
           "type": "pyloon"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/422941609",
+        "tags": {
+          "bridge": "yes",
+          "bridge:ref": "2007",
+          "bridge:wikipedia": "nl:Uyllanderbrug",
+          "foot": "yes",
+          "highway": "cycleway",
+          "lanes": "2",
+          "layer": "1",
+          "lit": "yes",
+          "mofa": "designated",
+          "moped": "designated",
+          "name": "Uyllanderbrug",
+          "oneway": "no",
+          "operator": "Gemeente Amsterdam",
+          "segregated": "yes",
+          "sidewalk": "left",
+          "smoothness": "good",
+          "surface": "asphalt",
+          "traffic_sign": "NL:G12a",
+          "width": "2.5",
+          "bridge:material": "steel",
+          "bridge:structure": "arch",
+          "man_made": "bridge",
+          "start_date": "2014",
+          "wikidata": "Q2385073",
+          "wikimedia_commons": "Category:Uyllanderbrug",
+          "wikipedia": "nl:Uyllanderbrug"
+        }
+      },
       "fis": null,
-      "pdokBridgeVlakken": 2
+      "pdokBridgeVlakken": 3
     },
-    "type": "ligger",
+    "type": "ophaalbrug",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map diemen-brug-0775c455 --plaats diemen --punt 129205,483243",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -98,10 +133,10 @@
       "dekBreedte": 41.9,
       "brugLengte": 369.6,
       "water": [
-        -106.3,
-        162.2
+        -86.8,
+        151.2
       ],
-      "portaalhoogte": 37.7,
+      "portaalhoogte": 24.2,
       "opritafstand": [
         20,
         20
@@ -109,14 +144,14 @@
       "oprithelling": 24,
       "doorstekend": [],
       "opritHoogtes": [
-        52.027,
+        52.018,
         50.231
       ]
     },
     "waarschuwingen": [
-      "geen FIS-brug binnen 35 m",
-      "losse BGT-pyloon G0384.743ba70c08fc469c84191a4fe213ccf6 als paaltje van 3 m"
+      "OSM zegt arch, gekozen type ophaalbrug",
+      "geen FIS-brug binnen 35 m"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "name": "tubbergen-brug-30c4620c-2",
+  "name": "Klarinet",
   "file": "tubbergen-brug-30c4620c-2.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -97,14 +97,24 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/864952852",
+        "tags": {
+          "bridge": "yes",
+          "highway": "residential",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Klarinet",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,480000,260000,500000 --run nl-12_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map tubbergen-brug-30c4620c-2 --plaats tubbergen --punt 250170,492557",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

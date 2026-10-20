@@ -1,5 +1,5 @@
 {
-  "name": "raalte-brug-b25ede79",
+  "name": "Heinoseweg",
   "file": "raalte-brug-b25ede79.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -138,14 +138,38 @@
           "type": "onbekend"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/653921804",
+        "tags": {
+          "agricultural": "no",
+          "bicycle": "no",
+          "bridge": "yes",
+          "foot": "no",
+          "highway": "primary",
+          "highway_authority_ref": "Rijksweg 835",
+          "lanes": "2",
+          "layer": "1",
+          "maxspeed": "80",
+          "mofa": "no",
+          "moped": "no",
+          "name": "Heinoseweg",
+          "official_ref": "N35",
+          "operator": "Rijkswaterstaat",
+          "ref": "N35;N348",
+          "source:maxspeed": "NL:rural",
+          "surface": "asphalt",
+          "zone:traffic": "NL:rural",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 13
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 200000,480000,220000,500000 --run nl-10_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map raalte-brug-b25ede79 --plaats raalte --punt 216037,489548",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -172,6 +196,6 @@
       "geen FIS-brug binnen 35 m",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

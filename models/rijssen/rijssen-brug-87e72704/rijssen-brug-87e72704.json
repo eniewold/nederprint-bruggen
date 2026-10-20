@@ -13,14 +13,14 @@
     -0.071945
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 50.479,
+  "groundHeight": 53.676,
   "groundSamplePoints": [
     [
-      -19.02,
+      -38.65,
       0
     ],
     [
-      19.02,
+      68.65,
       0
     ]
   ],
@@ -28,25 +28,6 @@
     "G1742.87e727041e38481ba615caf7fbc26829"
   ],
   "terrainCorrections": [
-    {
-      "centre": [
-        232122.78,
-        481040.72
-      ],
-      "axis": [
-        -0.997409,
-        -0.071945
-      ],
-      "halfLength": 4.32,
-      "halfWidth": 4.1,
-      "height": 50.475,
-      "gradient": [
-        0,
-        0
-      ],
-      "minLift": -3.31,
-      "maxLift": -0.01
-    },
     {
       "centre": [
         232140.03,
@@ -58,9 +39,9 @@
       ],
       "halfLength": 8.65,
       "halfWidth": 5.4,
-      "height": 51.127,
+      "height": 54.322,
       "gradient": [
-        -0.07493,
+        -0.01735,
         0
       ],
       "minLift": 0.05,
@@ -77,9 +58,9 @@
       ],
       "halfLength": 8.65,
       "halfWidth": 5.4,
-      "height": 51.625,
+      "height": 54.074,
       "gradient": [
-        -0.01735,
+        -0.04607,
         0
       ],
       "minLift": 0.05,
@@ -97,14 +78,44 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/305454140",
+        "tags": {
+          "axle_load": "22.5",
+          "bridge": "yes",
+          "description": "Deventer - Wierden",
+          "electrified": "contact_line",
+          "frequency": "0",
+          "gauge": "1435",
+          "layer": "1",
+          "loading_gauge": "TSI_GB",
+          "maxspeed": "120",
+          "operator": "ProRail",
+          "passenger_lines": "2",
+          "railway": "rail",
+          "railway:atb": "yes",
+          "railway:atb-eg": "yes",
+          "railway:atb-ng": "no",
+          "railway:etcs": "no",
+          "railway:maximum_current": "4000",
+          "railway:track_class": "D4",
+          "railway:traffic_mode": "mixed",
+          "ref": "024",
+          "ref:ProRailSpoortak": "024_201AL_25.7",
+          "source": "ProRail",
+          "source:date": "2013-07-10",
+          "start_date": "1888-09-01",
+          "usage": "main",
+          "voltage": "1500"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,480000,240000,500000 --run nl-11_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map rijssen-brug-87e72704 --plaats rijssen --punt 232123,481041",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -114,36 +125,23 @@
       "water": null,
       "portaalhoogte": 6.5,
       "opritafstand": [
-        10.4,
-        10.4
+        30,
+        60
       ],
+      "spoorhoogteBron": "pdok",
       "oprithelling": 17.3,
-      "doorstekend": [
-        {
-          "gmlId": "G1742.ac9c4f7c0a054a28912a4a2a4b884afc",
-          "klasse": "Terrain",
-          "oppervlak": 4.5,
-          "onderDek": 0.28,
-          "bovenDekOnderkant": 2.31,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "G1742.33910cfcd50f495db2fb36cfb81c6a51",
-          "klasse": "Road",
-          "oppervlak": 1399.5,
-          "onderDek": 0.04,
-          "bovenDekOnderkant": 2.31,
-          "actie": "verlagen"
-        }
-      ],
+      "doorstekend": [],
       "opritHoogtes": [
-        50.479,
-        51.475
+        54.172,
+        53.676
       ]
     },
     "waarschuwingen": [
-      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
-      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+      "oprit -: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "oprit - pas op 30 m langs het spoor gemeten (PDOK-spoorterrein bij de brug lager)",
+      "oprit +: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "oprit + pas op 60 m langs het spoor gemeten (PDOK-spoorterrein bij de brug lager)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
     "gegenereerd": "2026-10-20"
   }

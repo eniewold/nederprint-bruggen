@@ -1,5 +1,5 @@
 {
-  "name": "den-oever-brug-8abeacd5",
+  "name": "Coupure",
   "file": "den-oever-brug-8abeacd5.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -13,7 +13,7 @@
     0.626093
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 49.16,
+  "groundHeight": 49.153,
   "groundSamplePoints": [
     [
       -6.01,
@@ -77,9 +77,9 @@
       ],
       "halfLength": 3,
       "halfWidth": 2.53,
-      "height": 49.424,
+      "height": 49.421,
       "gradient": [
-        -0.08808,
+        -0.08929,
         0
       ],
       "minLift": 0.05,
@@ -97,14 +97,23 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/727677610",
+        "tags": {
+          "bridge": "yes",
+          "highway": "footway",
+          "layer": "1",
+          "name": "Coupure",
+          "surface": "concrete"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,540000,140000,560000 --run nl-6_12 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map den-oever-brug-8abeacd5 --plaats den-oever --punt 131147,549984",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -130,7 +139,7 @@
       ],
       "opritHoogtes": [
         49.389,
-        49.16
+        49.153
       ]
     },
     "waarschuwingen": [

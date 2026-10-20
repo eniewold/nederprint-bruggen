@@ -1,5 +1,5 @@
 {
-  "name": "almelo-brug-6d5c7278",
+  "name": "Zuidbroeksweg",
   "file": "almelo-brug-6d5c7278.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,27 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/58799560",
+        "tags": {
+          "bridge": "yes",
+          "foot": "permissive",
+          "highway": "unclassified",
+          "lanes": "1",
+          "layer": "1",
+          "maxspeed": "80",
+          "name": "Zuidbroeksweg",
+          "smoothness": "good",
+          "surface": "asphalt"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,480000,240000,500000 --run nl-11_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map almelo-brug-6d5c7278 --plaats almelo --punt 238080,484311",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

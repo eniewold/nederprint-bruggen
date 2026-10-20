@@ -1,5 +1,5 @@
 {
-  "name": "Prins Hendrikbrug Dordrecht",
+  "name": "Prins Hendrikbrug",
   "file": "dordrecht-prins-hendrikbrug-dordrecht.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -90,11 +90,27 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/457958263",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "yes",
+          "highway": "secondary",
+          "lanes": "3",
+          "lanes:backward": "1",
+          "lanes:forward": "2",
+          "layer": "1",
+          "maxspeed": "50",
+          "name": "Prins Hendrikbrug",
+          "surface": "asphalt",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
       "fis": {
         "id": 8021,
         "naam": "Prins Hendrikbrug Dordrecht",
-        "afstand": 3,
+        "afstand": 18,
         "beweegbaar": true,
         "doorvaarthoogteGesloten": 2.5300000000000002
       },
@@ -103,7 +119,7 @@
     "type": "ophaalbrug",
     "doorvaarthoogte": 2.5300000000000002,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,420000,120000,440000 --run nl-5_6 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map dordrecht-prins-hendrikbrug-dordrecht --plaats dordrecht --punt 106802,425627",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -114,7 +130,7 @@
         -37.2,
         30.8
       ],
-      "portaalhoogte": 19.5,
+      "portaalhoogte": 16.8,
       "opritafstand": [
         20,
         20
@@ -129,6 +145,6 @@
     "waarschuwingen": [
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

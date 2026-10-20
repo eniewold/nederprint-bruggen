@@ -1,5 +1,5 @@
 {
-  "name": "vriezenveen-brug-3fae5c36",
+  "name": "Hammerweg",
   "file": "vriezenveen-brug-3fae5c36.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -90,14 +90,26 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1228028423",
+        "tags": {
+          "bridge": "movable",
+          "bridge:movable": "drawbridge",
+          "highway": "secondary",
+          "layer": "1",
+          "maxspeed": "50",
+          "name": "Hammerweg",
+          "surface": "asphalt",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 3
     },
     "type": "ophaalbrug",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,480000,240000,500000 --run nl-11_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map vriezenveen-brug-3fae5c36 --plaats vriezenveen --punt 237578,491292",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -108,7 +120,7 @@
         -4.8,
         4.7
       ],
-      "portaalhoogte": 9.7,
+      "portaalhoogte": 9.6,
       "opritafstand": [
         5.8,
         5.8

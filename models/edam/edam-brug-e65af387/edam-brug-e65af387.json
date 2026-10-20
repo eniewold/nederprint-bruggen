@@ -1,5 +1,5 @@
 {
-  "name": "edam-brug-e65af387",
+  "name": "Groot Westerbuiten",
   "file": "edam-brug-e65af387.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -97,14 +97,23 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1323833952",
+        "tags": {
+          "bridge": "yes",
+          "highway": "residential",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Groot Westerbuiten"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,500000,140000,520000 --run nl-6_10 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map edam-brug-e65af387 --plaats edam --punt 131562,502717",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -141,6 +150,6 @@
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
       "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

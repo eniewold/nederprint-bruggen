@@ -78,14 +78,23 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/777459494",
+        "tags": {
+          "bridge": "yes",
+          "highway": "footway",
+          "layer": "1",
+          "lit": "no",
+          "surface": "asphalt"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ophaalbrug",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,440000,140000,460000 --run nl-6_7 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map hagestein-brug-a3381654 --plaats hagestein --punt 136638,444102",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -96,7 +105,7 @@
         -2.4,
         3.1
       ],
-      "portaalhoogte": 4,
+      "portaalhoogte": 3.9,
       "opritafstand": [
         5.3,
         5.3
@@ -112,6 +121,6 @@
       "geen FIS-brug binnen 35 m",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

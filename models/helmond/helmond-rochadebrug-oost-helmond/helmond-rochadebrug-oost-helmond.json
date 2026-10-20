@@ -1,5 +1,5 @@
 {
-  "name": "Rochadebrug Oost Helmond",
+  "name": "Rochadebrug oost",
   "file": "helmond-rochadebrug-oost-helmond.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -13,7 +13,7 @@
     -0.115959
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 71.816,
+  "groundHeight": 71.812,
   "groundSamplePoints": [
     [
       -70.6,
@@ -60,9 +60,9 @@
       ],
       "halfLength": 12,
       "halfWidth": 12.34,
-      "height": 72.004,
+      "height": 72.002,
       "gradient": [
-        -0.01569,
+        -0.01586,
         0
       ],
       "minLift": 0.05,
@@ -88,7 +88,27 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/693079823",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "yes",
+          "bridge:material": "concrete",
+          "bridge:structure": "beam",
+          "foot": "use_sidepath",
+          "highway": "secondary",
+          "lanes": "2",
+          "layer": "1",
+          "maxspeed": "80",
+          "mofa": "use_sidepath",
+          "moped": "use_sidepath",
+          "name": "Rochadebrug oost",
+          "smoothness": "good",
+          "surface": "asphalt",
+          "zone:traffic": "NL:rural",
+          "man_made": "bridge"
+        }
+      },
       "fis": {
         "id": 1654,
         "naam": "Rochadebrug Oost Helmond",
@@ -101,7 +121,7 @@
     "type": "ligger",
     "doorvaarthoogte": 5.79,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,380000,180000,400000 --run nl-8_4 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map helmond-rochadebrug-oost-helmond --plaats helmond --punt 176293,384873",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -121,7 +141,7 @@
       "doorstekend": [],
       "opritHoogtes": [
         71.892,
-        71.816
+        71.812
       ]
     },
     "waarschuwingen": [

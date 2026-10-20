@@ -1,5 +1,5 @@
 {
-  "name": "helmond-brug-1ae94463",
+  "name": "Venuslaan",
   "file": "helmond-brug-1ae94463.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,31 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/693084394",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "yes",
+          "bridge:material": "concrete",
+          "bridge:structure": "beam",
+          "highway": "tertiary",
+          "lanes": "2",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "50",
+          "name": "Venuslaan",
+          "oneway": "no",
+          "surface": "asphalt",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,380000,180000,400000 --run nl-8_4 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map helmond-brug-1ae94463 --plaats helmond --punt 175223,389889",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

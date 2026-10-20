@@ -1,5 +1,5 @@
 {
-  "name": "vriezenveen-brug-48f0ef4e",
+  "name": "Aadorpweg",
   "file": "vriezenveen-brug-48f0ef4e.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -99,14 +99,27 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/6682207",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "yes",
+          "foot": "no",
+          "highway": "secondary",
+          "lanes": "2",
+          "layer": "1",
+          "maxspeed": "80",
+          "name": "Aadorpweg",
+          "surface": "asphalt"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 5
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,480000,240000,500000 --run nl-11_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map vriezenveen-brug-48f0ef4e --plaats vriezenveen --punt 238229,490682",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

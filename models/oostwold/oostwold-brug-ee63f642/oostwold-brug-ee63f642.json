@@ -1,5 +1,5 @@
 {
-  "name": "oostwold-brug-ee63f642",
+  "name": "Kanaaljuffer",
   "file": "oostwold-brug-ee63f642.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -109,14 +109,27 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/181186276",
+        "tags": {
+          "bridge": "yes",
+          "highway": "unclassified",
+          "lanes": "1",
+          "layer": "1",
+          "maxspeed": "80",
+          "name": "Kanaaljuffer",
+          "priority": "forward",
+          "smoothness": "good",
+          "surface": "asphalt"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 3
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 260000,560000,280000,580000 --run nl-13_13 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map oostwold-brug-ee63f642 --plaats oostwold --punt 266120,577834",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

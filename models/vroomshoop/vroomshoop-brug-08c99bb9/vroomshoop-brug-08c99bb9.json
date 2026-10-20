@@ -1,5 +1,5 @@
 {
-  "name": "vroomshoop-brug-08c99bb9",
+  "name": "Kleine Puntbrug",
   "file": "vroomshoop-brug-08c99bb9.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,29 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1322136906",
+        "tags": {
+          "bridge": "movable",
+          "bridge:movable": "drawbridge",
+          "highway": "residential",
+          "layer": "1",
+          "maxspeed": "50",
+          "maxweight": "3.5",
+          "name": "Kleine Puntbrug",
+          "source:maxspeed": "NL:urban",
+          "man_made": "bridge",
+          "old_name": "Brug Separatiepunt",
+          "source:name": "anker-node"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
-    "type": "ligger",
+    "type": "ophaalbrug",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,480000,240000,500000 --run nl-11_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map vroomshoop-brug-08c99bb9 --plaats vroomshoop --punt 235604,496797",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -109,6 +124,7 @@
       ]
     },
     "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
     "gegenereerd": "2026-10-20"

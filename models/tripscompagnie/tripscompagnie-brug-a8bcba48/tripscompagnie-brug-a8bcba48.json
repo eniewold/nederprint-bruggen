@@ -1,5 +1,5 @@
 {
-  "name": "tripscompagnie-brug-a8bcba48",
+  "name": "Tripscompagniesterweg",
   "file": "tripscompagnie-brug-a8bcba48.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,22 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/792661182",
+        "tags": {
+          "bridge": "yes",
+          "highway": "service",
+          "layer": "1",
+          "name": "Tripscompagniesterweg"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,560000,260000,580000 --run nl-12_13 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map tripscompagnie-brug-a8bcba48 --plaats tripscompagnie --punt 251112,574730",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

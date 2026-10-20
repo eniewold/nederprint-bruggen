@@ -1,5 +1,5 @@
 {
-  "name": "volendam-brug-8bc44374",
+  "name": "Het Noordzeepad",
   "file": "volendam-brug-8bc44374.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -39,7 +39,7 @@
       ],
       "halfLength": 9.75,
       "halfWidth": 2.38,
-      "height": 42.566,
+      "height": 42.565,
       "gradient": [
         -0.01538,
         0
@@ -58,9 +58,9 @@
       ],
       "halfLength": 9.75,
       "halfWidth": 2.38,
-      "height": 42.54,
+      "height": 42.539,
       "gradient": [
-        -0.01807,
+        -0.01801,
         0
       ],
       "minLift": 0.05,
@@ -78,14 +78,27 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/724522975",
+        "tags": {
+          "bridge": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "name": "Het Noordzeepad",
+          "oneway": "no",
+          "smoothness": "excellent",
+          "surface": "asphalt",
+          "width": "4",
+          "zone:traffic": "NL:urban"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,500000,140000,520000 --run nl-6_10 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map volendam-brug-8bc44374 --plaats volendam --punt 133719,502739",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -104,13 +117,13 @@
       "oprithelling": 19.5,
       "doorstekend": [],
       "opritHoogtes": [
-        42.416,
+        42.415,
         42.364
       ]
     },
     "waarschuwingen": [
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "name": "helmond-brug-df6b201e",
+  "name": "Biezenlaan",
   "file": "helmond-brug-df6b201e.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,33 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/895009302",
+        "tags": {
+          "bridge": "yes",
+          "cycleway:both": "no",
+          "hgv": "no",
+          "highway": "unclassified",
+          "lane_markings": "no",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "30",
+          "name": "Biezenlaan",
+          "parking:both": "no",
+          "sidewalk": "both",
+          "surface": "paving_stones",
+          "zone:traffic": "NL:urban",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,380000,180000,400000 --run nl-8_4 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map helmond-brug-df6b201e --plaats helmond --punt 170491,385380",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

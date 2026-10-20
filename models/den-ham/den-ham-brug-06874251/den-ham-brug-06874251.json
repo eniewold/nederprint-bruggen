@@ -1,5 +1,5 @@
 {
-  "name": "den-ham-brug-06874251",
+  "name": "Janmansweg",
   "file": "den-ham-brug-06874251.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -97,14 +97,23 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/158646652",
+        "tags": {
+          "bridge": "yes",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxspeed": "80",
+          "name": "Janmansweg"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,480000,240000,500000 --run nl-11_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map den-ham-brug-06874251 --plaats den-ham --punt 228446,498841",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -133,7 +142,7 @@
         {
           "gmlId": "G1700.ad4a3b25581c4613a56ef3993a207d1b",
           "klasse": "Terrain",
-          "oppervlak": 889.6,
+          "oppervlak": 445.6,
           "onderDek": 0.04,
           "bovenDekOnderkant": 0.25,
           "actie": "verlagen"

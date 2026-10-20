@@ -1,5 +1,5 @@
 {
-  "name": "nieuwerbrug-aan-den-rijn-brug-277e8437-34",
+  "name": "Weijpoort",
   "file": "nieuwerbrug-aan-den-rijn-brug-277e8437-34.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -13,7 +13,7 @@
     0.521793
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 44.097,
+  "groundHeight": 44.094,
   "groundSamplePoints": [
     [
       -7.09,
@@ -41,7 +41,7 @@
       "halfWidth": 4.16,
       "height": 44.247,
       "gradient": [
-        -0.04869,
+        -0.04861,
         0
       ],
       "minLift": 0.05,
@@ -58,9 +58,9 @@
       ],
       "halfLength": 3.09,
       "halfWidth": 4.16,
-      "height": 44.247,
+      "height": 44.245,
       "gradient": [
-        -0.04861,
+        -0.04913,
         0
       ],
       "minLift": 0.05,
@@ -78,14 +78,29 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1342264978",
+        "tags": {
+          "bridge": "movable",
+          "bridge:movable": "bascule",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Weijpoort",
+          "operator": "Hoogheemraadschap De Stichtse Rijnlanden",
+          "surface": "chipseal",
+          "zone:maxspeed": "NL:30",
+          "zone:traffic": "NL:urban",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
-    "type": "ophaalbrug",
+    "type": "basculebrug",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,440000,120000,460000 --run nl-5_7 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map nieuwerbrug-aan-den-rijn-brug-277e8437-34 --plaats nieuwerbrug-aan-den-rijn --punt 115483,454592",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -105,13 +120,13 @@
       "doorstekend": [],
       "opritHoogtes": [
         44.097,
-        44.097
+        44.094
       ]
     },
     "waarschuwingen": [
       "geen FIS-brug binnen 35 m",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

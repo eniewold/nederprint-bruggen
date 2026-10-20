@@ -1,5 +1,5 @@
 {
-  "name": "lopikerkapel-brug-aa329df7",
+  "name": "Kapelsepad",
   "file": "lopikerkapel-brug-aa329df7.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,25 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/233034027",
+        "tags": {
+          "bridge": "yes",
+          "highway": "residential",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Kapelsepad",
+          "surface": "asphalt",
+          "zone:traffic": "NL:urban"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ophaalbrug",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,440000,140000,460000 --run nl-6_7 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map lopikerkapel-brug-aa329df7 --plaats lopikerkapel --punt 131308,444655",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -113,6 +124,6 @@
       "geen FIS-brug binnen 35 m",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

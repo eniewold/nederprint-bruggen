@@ -1,5 +1,5 @@
 {
-  "name": "borne-brug-3bf9d6e6-12",
+  "name": "Stroom-Eschlaan",
   "file": "borne-brug-3bf9d6e6-12.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -97,14 +97,26 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/55679455",
+        "tags": {
+          "bridge": "yes",
+          "cycleway": "lane",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "50",
+          "name": "Stroom-Eschlaan",
+          "source:maxspeed": "NL:urban",
+          "surface": "asphalt"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,480000,260000,500000 --run nl-12_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map borne-brug-3bf9d6e6-12 --plaats borne --punt 247750,481071",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -125,7 +137,7 @@
         {
           "gmlId": "W0663.8abeacd5439b75202003140823369543",
           "klasse": "Terrain",
-          "oppervlak": 1005.1,
+          "oppervlak": 502.9,
           "onderDek": 0,
           "bovenDekOnderkant": 0.18,
           "actie": "verlagen"

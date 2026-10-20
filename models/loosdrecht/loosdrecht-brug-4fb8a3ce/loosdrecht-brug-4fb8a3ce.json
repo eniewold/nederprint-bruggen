@@ -1,5 +1,5 @@
 {
-  "name": "loosdrecht-brug-4fb8a3ce",
+  "name": "Nieuw-Loosdrechtsedijk",
   "file": "loosdrecht-brug-4fb8a3ce.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -13,7 +13,7 @@
     -0.13405
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 43.413,
+  "groundHeight": 43.396,
   "groundSamplePoints": [
     [
       -7.52,
@@ -79,9 +79,9 @@
       ],
       "halfLength": 3.42,
       "halfWidth": 6.25,
-      "height": 43.581,
+      "height": 43.572,
       "gradient": [
-        -0.04897,
+        -0.05157,
         0
       ],
       "minLift": 0.05,
@@ -107,14 +107,25 @@
           "type": "landhoofd"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/177379156",
+        "tags": {
+          "bridge": "yes",
+          "cycleway": "shared_lane",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "50",
+          "name": "Nieuw-Loosdrechtsedijk",
+          "surface": "asphalt"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 3
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,460000,140000,480000 --run nl-6_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map loosdrecht-brug-4fb8a3ce --plaats loosdrecht --punt 134356,466552",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -151,13 +162,13 @@
       ],
       "opritHoogtes": [
         43.448,
-        43.413
+        43.396
       ]
     },
     "waarschuwingen": [
       "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
       "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

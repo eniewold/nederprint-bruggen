@@ -1,5 +1,5 @@
 {
-  "name": "almelo-brug-6c2dc85e",
+  "name": "Vriezenveenseweg",
   "file": "almelo-brug-6c2dc85e.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -140,14 +140,31 @@
           "type": "pijler"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/55584475",
+        "tags": {
+          "bicycle": "no",
+          "bridge": "yes",
+          "foot": "no",
+          "highway": "tertiary",
+          "lanes": "2",
+          "layer": "1",
+          "maxspeed": "50",
+          "maxweight:signed": "no",
+          "mofa": "no",
+          "moped": "no",
+          "name": "Vriezenveenseweg",
+          "source:maxspeed": "NL:urban",
+          "surface": "asphalt"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 13
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,480000,260000,500000 --run nl-12_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map almelo-brug-6c2dc85e --plaats almelo --punt 241950,488756",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

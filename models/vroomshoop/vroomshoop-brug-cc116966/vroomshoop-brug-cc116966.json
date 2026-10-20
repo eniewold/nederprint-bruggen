@@ -1,5 +1,5 @@
 {
-  "name": "vroomshoop-brug-cc116966",
+  "name": "Zwolsekanaal",
   "file": "vroomshoop-brug-cc116966.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,34 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1217591260",
+        "tags": {
+          "bridge": "viaduct",
+          "highway": "unclassified",
+          "lanes": "1",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "50",
+          "mofa": "yes",
+          "moped": "yes",
+          "motor_vehicle:conditional": "destination @ (06:00-09:00,16:00-19:00)",
+          "name": "Zwolsekanaal",
+          "sidewalk": "no",
+          "smoothness": "good",
+          "source:maxspeed": "NL:urban",
+          "surface": "asphalt",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,480000,240000,500000 --run nl-11_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map vroomshoop-brug-cc116966 --plaats vroomshoop --punt 234624,496495",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

@@ -1,5 +1,5 @@
 {
-  "name": "ijsselstein-brug-c4eeed38",
+  "name": "Daccastraat",
   "file": "ijsselstein-brug-c4eeed38.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -97,14 +97,23 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/174190134",
+        "tags": {
+          "bridge": "yes",
+          "highway": "residential",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Daccastraat"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,440000,140000,460000 --run nl-6_7 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map ijsselstein-brug-c4eeed38 --plaats ijsselstein --punt 131005,446835",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -149,6 +158,6 @@
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
       "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

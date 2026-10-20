@@ -1,5 +1,5 @@
 {
-  "name": "katwoude-brug-0cee0d32",
+  "name": "Zeddebrug",
   "file": "katwoude-brug-0cee0d32.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -108,14 +108,25 @@
           "type": "pijler"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/419940016",
+        "tags": {
+          "bridge": "yes",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxspeed": "80",
+          "name": "Zeddebrug",
+          "source:maxspeed": "NL:rural",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 7
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map katwoude-brug-0cee0d32 --plaats katwoude --punt 130719,499486",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -139,6 +150,6 @@
       ]
     },
     "waarschuwingen": [],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

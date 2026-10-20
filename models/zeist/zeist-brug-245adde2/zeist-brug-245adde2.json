@@ -1,5 +1,5 @@
 {
-  "name": "zeist-brug-245adde2",
+  "name": "Zandbergen",
   "file": "zeist-brug-245adde2.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -157,14 +157,34 @@
           "type": "onbekend"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1192745243",
+        "tags": {
+          "bicycle": "no",
+          "bridge": "yes",
+          "bridge:name": "Zandbergen",
+          "highway": "primary",
+          "lanes": "2",
+          "layer": "1",
+          "maxspeed": "80",
+          "maxweight:signed": "no",
+          "name": "Zandbergen",
+          "oneway": "yes",
+          "operator": "Provincie Utrecht",
+          "ref": "N238",
+          "surface": "asphalt",
+          "zone:traffic": "NL:rural",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 13
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,440000,160000,460000 --run nl-7_7 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map zeist-brug-245adde2 --plaats zeist --punt 146454,457652",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -206,6 +226,6 @@
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
       "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

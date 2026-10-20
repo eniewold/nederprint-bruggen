@@ -9,18 +9,14 @@
     446674.15
   ],
   "xAxis": [
-    0.32096,
-    0.947093
+    0.947093,
+    -0.32096
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 44.893,
+  "groundHeight": 50.562,
   "groundSamplePoints": [
     [
-      -5.13,
-      0
-    ],
-    [
-      5.13,
+      -28.35,
       0
     ]
   ],
@@ -31,56 +27,18 @@
   "terrainCorrections": [
     {
       "centre": [
-        135647.77,
-        446674.15
+        135624.2,
+        446682.14
       ],
       "axis": [
-        0.32096,
-        0.947093
+        -0.947093,
+        0.32096
       ],
-      "halfLength": 0.56,
-      "halfWidth": 13.39,
-      "height": 44.009,
+      "halfLength": 12,
+      "halfWidth": 1.69,
+      "height": 50.712,
       "gradient": [
-        0,
-        0
-      ],
-      "minLift": -5.58,
-      "maxLift": -0.01
-    },
-    {
-      "centre": [
-        135646.44,
-        446670.24
-      ],
-      "axis": [
-        -0.32096,
-        -0.947093
-      ],
-      "halfLength": 3,
-      "halfWidth": 14.89,
-      "height": 45.159,
-      "gradient": [
-        -0.05,
-        0
-      ],
-      "minLift": 0.05,
-      "maxLift": 4
-    },
-    {
-      "centre": [
-        135649.09,
-        446678.06
-      ],
-      "axis": [
-        0.32096,
-        0.947093
-      ],
-      "halfLength": 3,
-      "halfWidth": 14.89,
-      "height": 45.101,
-      "gradient": [
-        -0.06931,
+        -0.0125,
         0
       ],
       "minLift": 0.05,
@@ -102,54 +60,51 @@
           "type": "pijler"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/309470488",
+        "tags": {
+          "bridge": "yes",
+          "highway": "path",
+          "layer": "1",
+          "material": "steel",
+          "operator": "Rijkswaterstaat",
+          "vehicle": "no",
+          "website": "https://www.rws.nl"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 2
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,440000,140000,460000 --run nl-6_7 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map nieuwegein-brug-15e24ef3 --plaats nieuwegein --punt 135648,446674",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
-      "dekLengte": 2.3,
-      "dekBreedte": 25.8,
-      "brugLengte": 2.3,
-      "water": null,
-      "portaalhoogte": 23.2,
+      "dekLengte": 25.8,
+      "dekBreedte": 2.3,
+      "brugLengte": 25.8,
+      "water": [
+        6.6,
+        12.6
+      ],
+      "portaalhoogte": 2.5,
       "opritafstand": [
-        4,
-        4
+        15.5,
+        46.4
       ],
-      "oprithelling": 6,
-      "doorstekend": [
-        {
-          "gmlId": "L0001.dc8e556c4c104d63b2ca687e745afe8e",
-          "klasse": "Forest",
-          "oppervlak": 8506.3,
-          "onderDek": 0.01,
-          "bovenDekOnderkant": 4.58,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "L0002.c218954c22c8486188bfa2792173f485",
-          "klasse": "Terrain",
-          "oppervlak": 167.8,
-          "onderDek": 0.02,
-          "bovenDekOnderkant": 1.05,
-          "actie": "verlagen"
-        }
-      ],
+      "oprithelling": 24,
+      "doorstekend": [],
       "opritHoogtes": [
-        45.009,
-        44.893
+        50.562,
+        null
       ]
     },
     "waarschuwingen": [
-      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
-      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+      "geen FIS-brug binnen 35 m",
+      "oprit + zonder PDOK-maaiveld"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

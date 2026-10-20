@@ -1,5 +1,5 @@
 {
-  "name": "baarn-brug-936fe59f",
+  "name": "Kippenbruggetje",
   "file": "baarn-brug-936fe59f.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,31 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1078047326",
+        "tags": {
+          "bridge": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "moped": "no",
+          "name": "Kippenbruggetje",
+          "surface": "asphalt",
+          "traffic_sign": "NL:G11",
+          "alt_name": "Spoorbruggetje",
+          "bridge:structure": "arch",
+          "historic": "yes",
+          "man_made": "bridge",
+          "start_date": "1911",
+          "wikipedia": "nl:Voetgangersbrug Baarn"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
-    "type": "ligger",
+    "type": "boog",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,460000,160000,480000 --run nl-7_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map baarn-brug-936fe59f --plaats baarn --punt 147487,469017",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -109,6 +126,6 @@
       "geen FIS-brug binnen 35 m",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

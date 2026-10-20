@@ -1,5 +1,5 @@
 {
-  "name": "almelo-brug-8f0c16eb",
+  "name": "Mastboersweg",
   "file": "almelo-brug-8f0c16eb.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,28 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/276593059",
+        "tags": {
+          "bridge": "yes",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxspeed": "80",
+          "name": "Mastboersweg",
+          "sidewalk": "no",
+          "smoothness": "good",
+          "surface": "concrete",
+          "man_made": "bridge",
+          "material": "concrete"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,480000,260000,500000 --run nl-12_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map almelo-brug-8f0c16eb --plaats almelo --punt 245329,484298",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

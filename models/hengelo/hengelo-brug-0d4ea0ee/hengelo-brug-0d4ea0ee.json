@@ -1,5 +1,5 @@
 {
-  "name": "hengelo-brug-0d4ea0ee",
+  "name": "Oelerbrug",
   "file": "hengelo-brug-0d4ea0ee.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,35 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/727814186",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "yes",
+          "bridge:name": "Oelerbrug",
+          "foot": "use_sidepath",
+          "highway": "primary",
+          "lanes": "2",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "50",
+          "mofa": "use_sidepath",
+          "moped": "use_sidepath",
+          "name": "Oelerbrug",
+          "sidewalk": "no",
+          "source:maxspeed": "NL:urban",
+          "surface": "asphalt",
+          "bridge:structure": "arch",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
-    "type": "ligger",
+    "type": "boog",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,460000,260000,480000 --run nl-12_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map hengelo-brug-0d4ea0ee --plaats hengelo --punt 249250,474475",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

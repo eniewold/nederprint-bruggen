@@ -1,5 +1,5 @@
 {
-  "name": "wijhe-brug-7dd2fe08",
+  "name": "Assendorperallee",
   "file": "wijhe-brug-7dd2fe08.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -13,7 +13,7 @@
     -0.999138
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 45.675,
+  "groundHeight": 45.667,
   "groundSamplePoints": [
     [
       -14.84,
@@ -58,9 +58,9 @@
       ],
       "halfLength": 6.75,
       "halfWidth": 3.75,
-      "height": 45.828,
+      "height": 45.824,
       "gradient": [
-        -0.0226,
+        -0.02323,
         0
       ],
       "minLift": 0.05,
@@ -78,14 +78,23 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/55682722",
+        "tags": {
+          "bridge": "yes",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Assendorperallee"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 200000,480000,220000,500000 --run nl-10_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map wijhe-brug-7dd2fe08 --plaats wijhe --punt 211084,492047",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -105,12 +114,12 @@
       "doorstekend": [],
       "opritHoogtes": [
         45.68,
-        45.675
+        45.667
       ]
     },
     "waarschuwingen": [
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

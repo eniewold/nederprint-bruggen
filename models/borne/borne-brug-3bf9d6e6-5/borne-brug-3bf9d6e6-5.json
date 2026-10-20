@@ -1,5 +1,5 @@
 {
-  "name": "borne-brug-3bf9d6e6-5",
+  "name": "Weerselosestraat",
   "file": "borne-brug-3bf9d6e6-5.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,27 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/6669273",
+        "tags": {
+          "bicycle": "no",
+          "bridge": "yes",
+          "bridge:name": "Hoge Brug",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "50",
+          "mofa": "no",
+          "moped": "no",
+          "name": "Weerselosestraat"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,480000,260000,500000 --run nl-12_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map borne-brug-3bf9d6e6-5 --plaats borne --punt 248631,480515",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

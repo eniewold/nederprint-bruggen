@@ -1,5 +1,5 @@
 {
-  "name": "vlierden-brug-a51dc446",
+  "name": "Vlierdenseweg",
   "file": "vlierden-brug-a51dc446.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -97,14 +97,35 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/771375367",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "yes",
+          "foot": "use_sidepath",
+          "highway": "secondary",
+          "lanes": "2",
+          "layer": "1",
+          "maxspeed": "80",
+          "maxweight:signed": "no",
+          "mofa": "use_sidepath",
+          "moped": "use_sidepath",
+          "name": "Vlierdenseweg",
+          "old_ref": "N608",
+          "surface": "asphalt",
+          "wikidata": "Q19016177",
+          "zone:traffic": "NL:rural",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 180000,380000,200000,400000 --run nl-9_4 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map vlierden-brug-a51dc446 --plaats vlierden --punt 180544,382902",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

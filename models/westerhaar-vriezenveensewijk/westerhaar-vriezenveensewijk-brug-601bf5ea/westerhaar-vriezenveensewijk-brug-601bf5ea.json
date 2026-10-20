@@ -1,5 +1,5 @@
 {
-  "name": "westerhaar-vriezenveensewijk-brug-601bf5ea",
+  "name": "Hoofdweg",
   "file": "westerhaar-vriezenveensewijk-brug-601bf5ea.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -98,14 +98,25 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/55609180",
+        "tags": {
+          "bridge": "yes",
+          "cycleway": "shared_lane",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "50",
+          "name": "Hoofdweg",
+          "surface": "asphalt"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,480000,240000,500000 --run nl-11_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map westerhaar-vriezenveensewijk-brug-601bf5ea --plaats westerhaar-vriezenveensewijk --punt 238782,497138",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -142,7 +153,7 @@
         {
           "gmlId": "W0663.8abeacd5439b75202003030712060480",
           "klasse": "Terrain",
-          "oppervlak": 622.5,
+          "oppervlak": 415.3,
           "onderDek": 0.02,
           "bovenDekOnderkant": 0.77,
           "actie": "verlagen"
@@ -150,7 +161,7 @@
         {
           "gmlId": "W0663.8abeacd5439b75202003030711495645",
           "klasse": "Terrain",
-          "oppervlak": 563.6,
+          "oppervlak": 375.9,
           "onderDek": 0,
           "bovenDekOnderkant": 0.05,
           "actie": "verlagen"

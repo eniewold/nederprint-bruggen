@@ -1,5 +1,5 @@
 {
-  "name": "Brug in de N507",
+  "name": "Braken",
   "file": "obdam-brug-in-de-n507.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -9,18 +9,18 @@
     521001.06
   ],
   "xAxis": [
-    -0.209219,
-    -0.977869
+    -0.977869,
+    0.209219
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 42.034,
+  "groundHeight": 45.049,
   "groundSamplePoints": [
     [
-      -6.91,
+      -74.04,
       0
     ],
     [
-      6.91,
+      74.04,
       0
     ]
   ],
@@ -30,37 +30,18 @@
   "terrainCorrections": [
     {
       "centre": [
-        120308.04,
-        521001.06
+        120372.62,
+        520987.25
       ],
       "axis": [
-        -0.209219,
-        -0.977869
+        0.977869,
+        -0.209219
       ],
-      "halfLength": 1.45,
-      "halfWidth": 54.54,
-      "height": 41.051,
+      "halfLength": 12,
+      "halfWidth": 4.36,
+      "height": 45.419,
       "gradient": [
-        0,
-        0
-      ],
-      "minLift": -2.34,
-      "maxLift": -0.01
-    },
-    {
-      "centre": [
-        120309.28,
-        521006.84
-      ],
-      "axis": [
-        0.209219,
-        0.977869
-      ],
-      "halfLength": 3,
-      "halfWidth": 56.04,
-      "height": 42.192,
-      "gradient": [
-        -0.05274,
+        -0.0125,
         0
       ],
       "minLift": 0.05,
@@ -68,18 +49,18 @@
     },
     {
       "centre": [
-        120306.81,
-        520995.29
+        120243.47,
+        521014.88
       ],
       "axis": [
-        -0.209219,
-        -0.977869
+        -0.977869,
+        0.209219
       ],
-      "halfLength": 3,
-      "halfWidth": 56.04,
-      "height": 42.201,
+      "halfLength": 12,
+      "halfWidth": 4.36,
+      "height": 45.309,
       "gradient": [
-        -0.05,
+        -0.02165,
         0
       ],
       "minLift": 0.05,
@@ -116,7 +97,7 @@
       "fis": {
         "id": 51159,
         "naam": "Brug in de N507",
-        "afstand": 24,
+        "afstand": 23,
         "beweegbaar": false,
         "doorvaarthoogteGesloten": 3.4
       },
@@ -125,63 +106,31 @@
     "type": "ligger",
     "doorvaarthoogte": 3.4,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,520000,140000,540000 --run nl-6_11 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map obdam-brug-in-de-n507 --plaats obdam --punt 120308,521001",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
-      "dekLengte": 5.8,
-      "dekBreedte": 108.1,
-      "brugLengte": 5.8,
-      "water": null,
-      "portaalhoogte": 97.3,
+      "dekLengte": 108.1,
+      "dekBreedte": 5.8,
+      "brugLengte": 108.1,
+      "water": [
+        4.5,
+        27.5
+      ],
+      "portaalhoogte": 5.2,
       "opritafstand": [
-        4,
-        4
+        20,
+        20
       ],
-      "oprithelling": 6,
-      "doorstekend": [
-        {
-          "gmlId": "W0651.0d1c4005c04b4fe48468f38f3be5c7df",
-          "klasse": "Forest",
-          "oppervlak": 756.3,
-          "onderDek": 0.05,
-          "bovenDekOnderkant": 1.34,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "W0651.8abeacd54c7b7500047b25b3709f47aa",
-          "klasse": "Terrain",
-          "oppervlak": 10622.5,
-          "onderDek": 0.05,
-          "bovenDekOnderkant": 0.95,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "W0651.f16d871678ba4500abf387d40442d532",
-          "klasse": "Terrain",
-          "oppervlak": 186,
-          "onderDek": 0.02,
-          "bovenDekOnderkant": 0.73,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "W0651.8abeacd54c5b7500047bb59e46a22e9b",
-          "klasse": "Terrain",
-          "oppervlak": 180.7,
-          "onderDek": 0.01,
-          "bovenDekOnderkant": 0.71,
-          "actie": "verlagen"
-        }
-      ],
+      "oprithelling": 24,
+      "doorstekend": [],
       "opritHoogtes": [
-        42.034,
-        42.051
+        45.269,
+        45.049
       ]
     },
     "waarschuwingen": [
-      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
-      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
-      "4 PDOK-vorm(en) door het dek: 0 verborgen, 4 verlaagd"
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
     "gegenereerd": "2026-10-20"
   }

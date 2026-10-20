@@ -1,5 +1,5 @@
 {
-  "name": "geesteren-brug-30c4620b-3",
+  "name": "Bragersweg",
   "file": "geesteren-brug-30c4620b-3.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -13,7 +13,7 @@
     0.955175
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 56.081,
+  "groundHeight": 56.08,
   "groundSamplePoints": [
     [
       -13.74,
@@ -58,9 +58,9 @@
       ],
       "halfLength": 6.25,
       "halfWidth": 3.78,
-      "height": 56.26,
+      "height": 56.259,
       "gradient": [
-        -0.02857,
+        -0.02864,
         0
       ],
       "minLift": 0.05,
@@ -78,14 +78,27 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/55580600",
+        "tags": {
+          "bridge": "yes",
+          "highway": "unclassified",
+          "lanes": "1",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Bragersweg",
+          "sidewalk": "no",
+          "smoothness": "good",
+          "surface": "asphalt"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,480000,260000,500000 --run nl-12_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map geesteren-brug-30c4620b-3 --plaats geesteren --punt 244566,494815",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -105,7 +118,7 @@
       "doorstekend": [],
       "opritHoogtes": [
         56.138,
-        56.081
+        56.08
       ]
     },
     "waarschuwingen": [

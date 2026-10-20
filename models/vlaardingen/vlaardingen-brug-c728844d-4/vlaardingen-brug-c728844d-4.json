@@ -9,18 +9,18 @@
     436320.18
   ],
   "xAxis": [
-    -0.313476,
-    -0.949596
+    -0.949596,
+    0.313476
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 44.052,
+  "groundHeight": 44.879,
   "groundSamplePoints": [
     [
-      -14.82,
+      -39.9,
       0
     ],
     [
-      14.82,
+      19.08,
       0
     ]
   ],
@@ -34,33 +34,33 @@
         436320.18
       ],
       "axis": [
-        -0.313476,
-        -0.949596
+        -0.949596,
+        0.313476
       ],
-      "halfLength": 3.37,
-      "halfWidth": 9.17,
-      "height": 43.878,
+      "halfLength": 4.34,
+      "halfWidth": 7.24,
+      "height": 44.255,
       "gradient": [
         0,
         0
       ],
-      "minLift": -2.18,
+      "minLift": -1.8,
       "maxLift": -0.01
     },
     {
       "centre": [
-        83255.82,
-        436332.98
+        83268.07,
+        436314.74
       ],
       "axis": [
-        0.313476,
-        0.949596
+        0.949596,
+        -0.313476
       ],
-      "halfLength": 6.74,
-      "halfWidth": 10.67,
-      "height": 44.615,
+      "halfLength": 8.67,
+      "halfWidth": 8.74,
+      "height": 45.217,
       "gradient": [
-        -0.0836,
+        -0.03901,
         0
       ],
       "minLift": 0.05,
@@ -68,18 +68,18 @@
     },
     {
       "centre": [
-        83247.37,
-        436307.39
+        83235.12,
+        436325.62
       ],
       "axis": [
-        -0.313476,
-        -0.949596
+        -0.949596,
+        0.313476
       ],
-      "halfLength": 6.74,
-      "halfWidth": 10.67,
-      "height": 45.028,
+      "halfLength": 8.67,
+      "halfWidth": 8.74,
+      "height": 45.405,
       "gradient": [
-        -0.02227,
+        -0.01729,
         0
       ],
       "minLift": 0.05,
@@ -104,39 +104,47 @@
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,420000,100000,440000 --run nl-4_6 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map vlaardingen-brug-c728844d-4 --plaats vlaardingen --punt 83252,436320",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
-      "dekLengte": 13.5,
-      "dekBreedte": 17.3,
-      "brugLengte": 13.5,
+      "dekLengte": 17.3,
+      "dekBreedte": 13.5,
+      "brugLengte": 17.3,
       "water": null,
-      "portaalhoogte": 15.6,
+      "portaalhoogte": 12.1,
       "opritafstand": [
-        8.1,
-        8.1
+        31.2,
+        10.4
       ],
-      "oprithelling": 13.5,
+      "oprithelling": 17.3,
       "doorstekend": [
         {
           "gmlId": "G0622.66ac2ac7a4b32bfde053aa1c030a85a8",
           "klasse": "Terrain",
           "oppervlak": 222.4,
-          "onderDek": 0.44,
-          "bovenDekOnderkant": 1.18,
+          "onderDek": 0.53,
+          "bovenDekOnderkant": 0.8,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0622.2fba55a313cc68c1e053aa1c030a8eb5",
+          "klasse": "Terrain",
+          "oppervlak": 310.1,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.8,
           "actie": "verlagen"
         }
       ],
       "opritHoogtes": [
-        44.052,
-        44.878
+        44.879,
+        45.255
       ]
     },
     "waarschuwingen": [
-      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "oprit - pas op 31.2 m gemeten",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
-      "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
     ],
     "gegenereerd": "2026-10-20"
   }

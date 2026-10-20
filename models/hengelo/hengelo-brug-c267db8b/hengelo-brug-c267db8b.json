@@ -1,5 +1,5 @@
 {
-  "name": "hengelo-brug-c267db8b",
+  "name": "Watermolenpad",
   "file": "hengelo-brug-c267db8b.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,27 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/231620841",
+        "tags": {
+          "bicycle": "yes",
+          "bridge": "yes",
+          "foot": "yes",
+          "highway": "path",
+          "horse": "no",
+          "layer": "1",
+          "name": "Watermolenpad",
+          "smoothness": "good",
+          "surface": "wood"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,460000,260000,480000 --run nl-12_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map hengelo-brug-c267db8b --plaats hengelo --punt 248333,473250",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

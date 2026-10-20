@@ -1,5 +1,5 @@
 {
-  "name": "amsterdam-brug-c30c39f9",
+  "name": "Gerda Tarobrug",
   "file": "amsterdam-brug-c30c39f9.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,37 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/911834564",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "yes",
+          "bridge:ref": "2125",
+          "foot": "use_sidepath",
+          "highway": "tertiary",
+          "lanes": "2",
+          "layer": "1",
+          "maxspeed": "30",
+          "mofa": "use_sidepath",
+          "name": "Gerda Tarobrug",
+          "oneway": "no",
+          "surface": "asphalt",
+          "zone:traffic": "NL:urban",
+          "bridge:structure": "humpback",
+          "man_made": "bridge",
+          "name:etymology:wikidata": "Q77347",
+          "ref": "2125",
+          "wikidata": "Q109252757",
+          "wikipedia": "nl:Gerda Tarobrug"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
-    "type": "ligger",
+    "type": "bolbrug",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map amsterdam-brug-c30c39f9 --plaats amsterdam --punt 129927,484815",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -102,6 +125,7 @@
         20
       ],
       "oprithelling": 24,
+      "bolling": 2.5,
       "doorstekend": [],
       "opritHoogtes": [
         46.858,
@@ -112,6 +136,6 @@
       "geen FIS-brug binnen 35 m",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

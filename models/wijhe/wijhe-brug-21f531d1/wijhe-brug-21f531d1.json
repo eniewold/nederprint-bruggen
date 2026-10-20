@@ -1,5 +1,5 @@
 {
-  "name": "wijhe-brug-21f531d1",
+  "name": "Wechterholt",
   "file": "wijhe-brug-21f531d1.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -88,14 +88,27 @@
           "type": "landhoofd"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/6811103",
+        "tags": {
+          "bridge": "yes",
+          "highway": "tertiary",
+          "lanes": "1",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Wechterholt",
+          "sidewalk": "no",
+          "smoothness": "good",
+          "surface": "asphalt"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 3
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 200000,480000,220000,500000 --run nl-10_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map wijhe-brug-21f531d1 --plaats wijhe --punt 210564,491674",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -119,6 +132,6 @@
       ]
     },
     "waarschuwingen": [],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

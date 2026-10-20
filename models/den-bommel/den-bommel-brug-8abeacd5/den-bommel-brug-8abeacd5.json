@@ -9,18 +9,14 @@
     413160.05
   ],
   "xAxis": [
-    0.998703,
-    -0.050924
+    -0.050924,
+    -0.998703
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": -5.179,
+  "groundHeight": 50.626,
   "groundSamplePoints": [
     [
-      -4.67,
-      0
-    ],
-    [
-      4.67,
+      37.4,
       0
     ]
   ],
@@ -30,56 +26,18 @@
   "terrainCorrections": [
     {
       "centre": [
-        81899.81,
-        413160.05
+        81898.31,
+        413130.69
       ],
       "axis": [
-        0.998703,
-        -0.050924
+        -0.050924,
+        -0.998703
       ],
-      "halfLength": 0.33,
-      "halfWidth": 17.9,
-      "height": -6.035,
+      "halfLength": 12,
+      "halfWidth": 1,
+      "height": 50.776,
       "gradient": [
-        0,
-        0
-      ],
-      "minLift": -52.31,
-      "maxLift": -0.01
-    },
-    {
-      "centre": [
-        81896.15,
-        413160.23
-      ],
-      "axis": [
-        -0.998703,
-        0.050924
-      ],
-      "halfLength": 3,
-      "halfWidth": 19.4,
-      "height": -4.957,
-      "gradient": [
-        -0.07403,
-        0
-      ],
-      "minLift": 0.05,
-      "maxLift": 4
-    },
-    {
-      "centre": [
-        81903.47,
-        413159.86
-      ],
-      "axis": [
-        0.998703,
-        -0.050924
-      ],
-      "halfLength": 3,
-      "halfWidth": 19.4,
-      "height": -4.885,
-      "gradient": [
-        -0.05,
+        -0.0125,
         0
       ],
       "minLift": 0.05,
@@ -97,46 +55,46 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/228982929",
+        "tags": {
+          "bridge": "yes",
+          "foot": "yes",
+          "highway": "path",
+          "layer": "1",
+          "vehicle": "no"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,400000,100000,420000 --run nl-4_5 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map den-bommel-brug-8abeacd5 --plaats den-bommel --punt 81900,413160",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
-      "dekLengte": 1.3,
-      "dekBreedte": 34.8,
-      "brugLengte": 1.3,
+      "dekLengte": 34.8,
+      "dekBreedte": 1.3,
+      "brugLengte": 34.8,
       "water": null,
-      "portaalhoogte": 31.3,
+      "portaalhoogte": 2.5,
       "opritafstand": [
-        4,
-        4
+        60,
+        20
       ],
-      "oprithelling": 6,
-      "doorstekend": [
-        {
-          "gmlId": "G1924.8abeacd5439b75760000000a02184383",
-          "klasse": "Forest",
-          "oppervlak": 13072.1,
-          "onderDek": 0.01,
-          "bovenDekOnderkant": 51.31,
-          "actie": "verlagen"
-        }
-      ],
+      "oprithelling": 24,
+      "doorstekend": [],
       "opritHoogtes": [
-        -5.179,
-        -5.035
+        null,
+        50.626
       ]
     },
     "waarschuwingen": [
-      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
-      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
-      "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
+      "geen FIS-brug binnen 35 m",
+      "oprit - zonder PDOK-maaiveld",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
     "gegenereerd": "2026-10-20"
   }

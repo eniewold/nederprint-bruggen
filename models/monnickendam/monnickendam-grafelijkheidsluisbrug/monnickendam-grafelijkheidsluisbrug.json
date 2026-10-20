@@ -1,5 +1,5 @@
 {
-  "name": "Grafelijkheidsluisbrug",
+  "name": "Grafelijksheidsbrug",
   "file": "monnickendam-grafelijkheidsluisbrug.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -39,12 +39,12 @@
       ],
       "halfLength": 6.66,
       "halfWidth": 4.84,
-      "height": 45.361,
+      "height": 45.35,
       "gradient": [
         0,
         0
       ],
-      "minLift": -2.28,
+      "minLift": -2.29,
       "maxLift": -0.01
     },
     {
@@ -58,7 +58,7 @@
       ],
       "halfLength": 12,
       "halfWidth": 6.34,
-      "height": 46.511,
+      "height": 46.5,
       "gradient": [
         -0.0125,
         0
@@ -77,9 +77,9 @@
       ],
       "halfLength": 12,
       "halfWidth": 6.34,
-      "height": 46.452,
+      "height": 46.447,
       "gradient": [
-        -0.01738,
+        -0.01694,
         0
       ],
       "minLift": 0.05,
@@ -97,11 +97,25 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/281709302",
+        "tags": {
+          "abandoned:railway": "tram",
+          "bridge": "yes",
+          "highway": "tertiary",
+          "historic": "railway",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "50",
+          "name": "Grafelijksheidsbrug",
+          "railway": "abandoned",
+          "source:maxspeed": "NL:urban"
+        }
+      },
       "fis": {
         "id": 28652,
         "naam": "Grafelijkheidsluisbrug",
-        "afstand": 2,
+        "afstand": 1,
         "beweegbaar": false,
         "doorvaarthoogteGesloten": 3.5
       },
@@ -110,7 +124,7 @@
     "type": "ligger",
     "doorvaarthoogte": 3.5,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map monnickendam-grafelijkheidsluisbrug --plaats monnickendam --punt 131017,497379",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -133,7 +147,7 @@
           "klasse": "Terrain",
           "oppervlak": 175.6,
           "onderDek": 0.03,
-          "bovenDekOnderkant": 1.28,
+          "bovenDekOnderkant": 1.29,
           "actie": "verlagen"
         },
         {
@@ -141,7 +155,7 @@
           "klasse": "Forest",
           "oppervlak": 99.2,
           "onderDek": 0.09,
-          "bovenDekOnderkant": 0.82,
+          "bovenDekOnderkant": 0.83,
           "actie": "verlagen"
         },
         {
@@ -149,7 +163,7 @@
           "klasse": "Separation",
           "oppervlak": 79.8,
           "onderDek": 0.23,
-          "bovenDekOnderkant": 0.44,
+          "bovenDekOnderkant": 0.45,
           "actie": "verlagen"
         },
         {
@@ -157,12 +171,12 @@
           "klasse": "Separation",
           "oppervlak": 64.5,
           "onderDek": 0.27,
-          "bovenDekOnderkant": 0.14,
+          "bovenDekOnderkant": 0.15,
           "actie": "verlagen"
         }
       ],
       "opritHoogtes": [
-        46.361,
+        46.35,
         46.244
       ]
     },
@@ -170,6 +184,6 @@
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
       "4 PDOK-vorm(en) door het dek: 0 verborgen, 4 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

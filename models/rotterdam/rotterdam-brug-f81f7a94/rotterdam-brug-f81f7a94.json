@@ -9,24 +9,23 @@
     440196.2
   ],
   "xAxis": [
-    -0.85273,
-    0.522353
+    0.522353,
+    0.85273
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 40.294,
+  "groundHeight": 38.809,
   "groundSamplePoints": [
     [
-      -5.23,
+      -6.28,
       0
     ],
     [
-      5.23,
+      6.28,
       0
     ]
   ],
   "replacesTerrain": [
-    "G0599.f81f7a9422964f62a1e316cc5eda30c3",
-    "G0599.170caf1ddae6ff2eae050210a7e24745"
+    "G0599.f81f7a9422964f62a1e316cc5eda30c3"
   ],
   "terrainCorrections": [
     {
@@ -35,31 +34,31 @@
         440196.2
       ],
       "axis": [
-        -0.85273,
-        0.522353
+        0.522353,
+        0.85273
       ],
-      "halfLength": 0.62,
-      "halfWidth": 2.78,
-      "height": 39.513,
+      "halfLength": 1.14,
+      "halfWidth": 1.73,
+      "height": 38.106,
       "gradient": [
         0,
         0
       ],
-      "minLift": -1.65,
+      "minLift": -3.03,
       "maxLift": -0.01
     },
     {
       "centre": [
-        91931.71,
-        440193.99
+        91925.35,
+        440191.7
       ],
       "axis": [
-        0.85273,
-        -0.522353
+        -0.522353,
+        -0.85273
       ],
       "halfLength": 3,
-      "halfWidth": 3.42,
-      "height": 40.663,
+      "halfWidth": 1.85,
+      "height": 39.256,
       "gradient": [
         -0.05,
         0
@@ -69,18 +68,18 @@
     },
     {
       "centre": [
-        91924.5,
-        440198.41
+        91930.86,
+        440200.7
       ],
       "axis": [
-        -0.85273,
-        0.522353
+        0.522353,
+        0.85273
       ],
       "halfLength": 3,
-      "halfWidth": 3.42,
-      "height": 40.554,
+      "halfWidth": 1.85,
+      "height": 39.108,
       "gradient": [
-        -0.08637,
+        -0.09943,
         0
       ],
       "minLift": 0.05,
@@ -116,15 +115,15 @@
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,440000,100000,460000 --run nl-4_7 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map rotterdam-brug-f81f7a94 --plaats rotterdam --punt 91928,440196",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
-      "dekLengte": 2.5,
-      "dekBreedte": 4.6,
-      "brugLengte": 2.5,
+      "dekLengte": 4.6,
+      "dekBreedte": 2.5,
+      "brugLengte": 4.6,
       "water": null,
-      "portaalhoogte": 4.1,
+      "portaalhoogte": 2.5,
       "opritafstand": [
         4,
         4
@@ -132,48 +131,23 @@
       "oprithelling": 6,
       "doorstekend": [
         {
-          "gmlId": "G0599.170caf1ddae6ef2eae050210a7e24745",
-          "klasse": "Terrain",
-          "oppervlak": 1.9,
-          "onderDek": 0.62,
-          "bovenDekOnderkant": 0.65,
-          "actie": "verlagen"
-        },
-        {
           "gmlId": "G0599.170ade244f70c2d73e050210a7e24429",
           "klasse": "Road",
           "oppervlak": 186.7,
           "onderDek": 0.04,
-          "bovenDekOnderkant": 0.62,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "G0599.170caf1ddae6ff2eae050210a7e24745",
-          "klasse": "Terrain",
-          "oppervlak": 2.2,
-          "onderDek": 0.87,
-          "bovenDekOnderkant": 0.61,
-          "actie": "verbergen"
-        },
-        {
-          "gmlId": "G0599.16fca6c88ca2e6560e050210a7e247d7",
-          "klasse": "Forest",
-          "oppervlak": 1069,
-          "onderDek": 0,
-          "bovenDekOnderkant": 0.52,
+          "bovenDekOnderkant": 2.03,
           "actie": "verlagen"
         }
       ],
       "opritHoogtes": [
-        40.513,
-        40.294
+        39.106,
+        38.809
       ]
     },
     "waarschuwingen": [
-      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
-      "4 PDOK-vorm(en) door het dek: 1 verborgen, 3 verlaagd"
+      "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

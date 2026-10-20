@@ -1,5 +1,5 @@
 {
-  "name": "Nijveenbrug",
+  "name": "Nijveenlaan",
   "file": "wildervank-nijveenbrug.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,20 +78,31 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/6380720",
+        "tags": {
+          "bridge": "movable",
+          "bridge:movable": "bascule",
+          "hgv": "no",
+          "highway": "residential",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Nijveenlaan"
+        }
+      },
       "fis": {
         "id": 48803,
         "naam": "Nijveenbrug",
-        "afstand": 0,
+        "afstand": 1,
         "beweegbaar": true,
         "doorvaarthoogteGesloten": 1
       },
       "pdokBridgeVlakken": 1
     },
-    "type": "ophaalbrug",
+    "type": "basculebrug",
     "doorvaarthoogte": 1,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,560000,260000,580000 --run nl-12_13 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map wildervank-nijveenbrug --plaats wildervank --punt 253949,566979",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

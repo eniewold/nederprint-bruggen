@@ -103,14 +103,31 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/6382127",
+        "tags": {
+          "bridge": "yes",
+          "highway": "trunk",
+          "lanes": "2",
+          "layer": "1",
+          "maxspeed": "100",
+          "motorroad": "yes",
+          "noname": "yes",
+          "official_name": "Rijksweg N33",
+          "operator": "Rijkswaterstaat",
+          "ref": "N33",
+          "source:name": "NWB",
+          "surface": "asphalt",
+          "zone:traffic": "NL:rural"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 6
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,560000,260000,580000 --run nl-12_13 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map noordbroek-brug-bc5c402e --plaats noordbroek --punt 255711,579445",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

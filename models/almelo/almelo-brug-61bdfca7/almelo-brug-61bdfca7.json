@@ -1,5 +1,5 @@
 {
-  "name": "almelo-brug-61bdfca7",
+  "name": "Weezebeeksingel",
   "file": "almelo-brug-61bdfca7.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -13,7 +13,7 @@
     -0.976071
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 54.258,
+  "groundHeight": 54.252,
   "groundSamplePoints": [
     [
       -29.95,
@@ -41,9 +41,9 @@
       ],
       "halfLength": 12,
       "halfWidth": 8.5,
-      "height": 54.409,
+      "height": 54.408,
       "gradient": [
-        -0.01253,
+        -0.0125,
         0
       ],
       "minLift": 0.05,
@@ -60,9 +60,9 @@
       ],
       "halfLength": 12,
       "halfWidth": 8.5,
-      "height": 54.409,
+      "height": 54.405,
       "gradient": [
-        -0.0125,
+        -0.01275,
         0
       ],
       "minLift": 0.05,
@@ -88,14 +88,32 @@
           "type": "landhoofd"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/58800802",
+        "tags": {
+          "agricultural": "no",
+          "bicycle": "no",
+          "bridge": "yes",
+          "foot": "no",
+          "highway": "primary",
+          "lanes": "2",
+          "layer": "1",
+          "maxspeed": "80",
+          "maxweight:signed": "no",
+          "mofa": "no",
+          "moped": "no",
+          "name": "Weezebeeksingel",
+          "ref": "RING",
+          "surface": "asphalt"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 3
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,480000,240000,500000 --run nl-11_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map almelo-brug-61bdfca7 --plaats almelo --punt 239398,484735",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -115,7 +133,7 @@
       "doorstekend": [],
       "opritHoogtes": [
         54.258,
-        54.259
+        54.252
       ]
     },
     "waarschuwingen": [

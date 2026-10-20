@@ -1,5 +1,5 @@
 {
-  "name": "driebergen-rijsenburg-brug-01401b2a",
+  "name": "Ecoduct Mollebos",
   "file": "driebergen-rijsenburg-brug-01401b2a.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -13,7 +13,7 @@
     0.999934
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 61.885,
+  "groundHeight": 61.882,
   "groundSamplePoints": [
     [
       -61.35,
@@ -41,12 +41,12 @@
       ],
       "halfLength": 35.35,
       "halfWidth": 34.88,
-      "height": 62.343,
+      "height": 62.331,
       "gradient": [
         0,
         0
       ],
-      "minLift": -1.31,
+      "minLift": -1.32,
       "maxLift": -0.01
     },
     {
@@ -60,9 +60,9 @@
       ],
       "halfLength": 12,
       "halfWidth": 36.38,
-      "height": 62.764,
+      "height": 62.756,
       "gradient": [
-        -0.07327,
+        -0.07288,
         0
       ],
       "minLift": 0.05,
@@ -79,7 +79,7 @@
       ],
       "halfLength": 12,
       "halfWidth": 36.38,
-      "height": 63.493,
+      "height": 63.481,
       "gradient": [
         -0.0125,
         0
@@ -108,14 +108,25 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/232553627",
+        "tags": {
+          "bridge": "yes",
+          "layer": "1",
+          "man_made": "wildlife_crossing",
+          "name": "Ecoduct Mollebos",
+          "natural": "scrub",
+          "wikidata": "Q21022802",
+          "wikipedia": "nl:Ecoduct Mollebos"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 3
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,440000,160000,460000 --run nl-7_7 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map driebergen-rijsenburg-brug-01401b2a --plaats driebergen-rijsenburg --punt 150717,453033",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -135,43 +146,43 @@
           "klasse": "Terrain",
           "oppervlak": 5253.7,
           "onderDek": 0.14,
-          "bovenDekOnderkant": 0.31,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "L0004.bee75f6b6572470793d3ee1eeb945e21",
-          "klasse": "Forest",
-          "oppervlak": 3363.9,
-          "onderDek": 0.37,
-          "bovenDekOnderkant": 0.09,
+          "bovenDekOnderkant": 0.32,
           "actie": "verlagen"
         },
         {
           "gmlId": "G1581.134454ecf36a49b292a07a79506392fd",
           "klasse": "Terrain",
-          "oppervlak": 914.4,
+          "oppervlak": 609.2,
           "onderDek": 0.27,
-          "bovenDekOnderkant": 0.09,
+          "bovenDekOnderkant": 0.1,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "L0004.bee75f6b6572470793d3ee1eeb945e21",
+          "klasse": "Forest",
+          "oppervlak": 1681.2,
+          "onderDek": 0.37,
+          "bovenDekOnderkant": 0.1,
           "actie": "verlagen"
         },
         {
           "gmlId": "L0004.4375a1080b4f4e5288678dffed706cdb",
           "klasse": "Forest",
-          "oppervlak": 851.4,
+          "oppervlak": 567.2,
           "onderDek": 0.22,
-          "bovenDekOnderkant": 0.09,
+          "bovenDekOnderkant": 0.1,
           "actie": "verlagen"
         }
       ],
       "opritHoogtes": [
-        61.885,
-        63.343
+        61.882,
+        63.331
       ]
     },
     "waarschuwingen": [
       "geen FIS-brug binnen 35 m",
       "4 PDOK-vorm(en) door het dek: 0 verborgen, 4 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

@@ -142,14 +142,29 @@
           "type": "pijler"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/31718887",
+        "tags": {
+          "bridge": "yes",
+          "designation": "onverplicht fietspad",
+          "dog": "no",
+          "highway": "cycleway",
+          "layer": "1",
+          "maxaxleload": "3.3",
+          "maxweight": "10.0",
+          "mofa": "no",
+          "moped": "no",
+          "surface": "fine_gravel",
+          "traffic_sign": "NL:G13"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 9
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,460000,140000,480000 --run nl-6_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map hilversum-brug-d9fcbaa5 --plaats hilversum --punt 139893,473751",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -167,7 +182,7 @@
         {
           "gmlId": "G0402.7561f4c3e6ab4cc18c6568a92aa1e829",
           "klasse": "Forest",
-          "oppervlak": 41679.2,
+          "oppervlak": 27785.9,
           "onderDek": 0,
           "bovenDekOnderkant": 8.29,
           "actie": "verlagen"
@@ -302,6 +317,6 @@
       "geen FIS-brug binnen 35 m",
       "16 PDOK-vorm(en) door het dek: 5 verborgen, 11 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

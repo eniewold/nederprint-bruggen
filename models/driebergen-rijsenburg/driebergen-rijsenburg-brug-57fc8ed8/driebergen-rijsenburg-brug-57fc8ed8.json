@@ -1,5 +1,5 @@
 {
-  "name": "driebergen-rijsenburg-brug-57fc8ed8",
+  "name": "Zwitserse brug",
   "file": "driebergen-rijsenburg-brug-57fc8ed8.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -44,7 +44,7 @@
         0,
         0
       ],
-      "minLift": -2.62,
+      "minLift": -2.61,
       "maxLift": -0.01
     },
     {
@@ -97,14 +97,24 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/112044311",
+        "tags": {
+          "bicycle": "no",
+          "bridge": "yes",
+          "highway": "path",
+          "layer": "1",
+          "name": "Zwitserse brug",
+          "note": "ligt deze brug juist gemapt?"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ophaalbrug",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,440000,160000,460000 --run nl-7_7 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map driebergen-rijsenburg-brug-57fc8ed8 --plaats driebergen-rijsenburg --punt 148100,452683",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -125,9 +135,9 @@
         {
           "gmlId": "G1581.5bd8905b931e4ca6a5e04fdc2acb24e6",
           "klasse": "Forest",
-          "oppervlak": 94657.9,
+          "oppervlak": 31552.2,
           "onderDek": 0,
-          "bovenDekOnderkant": 1.62,
+          "bovenDekOnderkant": 1.61,
           "actie": "verlagen"
         },
         {
@@ -149,6 +159,6 @@
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
       "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

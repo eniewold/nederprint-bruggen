@@ -1,5 +1,5 @@
 {
-  "name": "muiden-brug-5ab8ae56",
+  "name": "Noordpolderweg",
   "file": "muiden-brug-5ab8ae56.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -98,14 +98,31 @@
           "type": "sloof"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/7039397",
+        "tags": {
+          "bridge": "yes",
+          "highway": "unclassified",
+          "lane_markings": "no",
+          "layer": "1",
+          "lit": "yes",
+          "maxaxleload": "2.2",
+          "maxspeed": "30",
+          "mofa": "yes",
+          "moped": "yes",
+          "motor_vehicle": "destination",
+          "name": "Noordpolderweg",
+          "source:maxspeed": "NL:zone30",
+          "surface": "wood"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 5
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map muiden-brug-5ab8ae56 --plaats muiden --punt 133566,482536",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -129,6 +146,6 @@
       ]
     },
     "waarschuwingen": [],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

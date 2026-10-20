@@ -1,5 +1,5 @@
 {
-  "name": "almelo-brug-2f1e5907",
+  "name": "Bleskolksingel",
   "file": "almelo-brug-2f1e5907.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -94,14 +94,34 @@
           "type": "landhoofd"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1458013182",
+        "tags": {
+          "agricultural": "no",
+          "bicycle": "no",
+          "bridge": "viaduct",
+          "foot": "no",
+          "highway": "primary",
+          "lane_markings": "no",
+          "lanes": "1",
+          "layer": "1",
+          "maxspeed": "70",
+          "maxweight:signed": "no",
+          "name": "Bleskolksingel",
+          "oneway": "yes",
+          "ref": "RING",
+          "surface": "asphalt",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 4
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,480000,260000,500000 --run nl-12_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map almelo-brug-2f1e5907 --plaats almelo --punt 240799,487828",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

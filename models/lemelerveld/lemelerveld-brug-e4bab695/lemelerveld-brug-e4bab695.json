@@ -1,5 +1,5 @@
 {
-  "name": "lemelerveld-brug-e4bab695",
+  "name": "Heideparkbrug",
   "file": "lemelerveld-brug-e4bab695.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -93,14 +93,31 @@
           "type": "landhoofd"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1322348107",
+        "tags": {
+          "bridge": "yes",
+          "highway": "unclassified",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "50",
+          "name": "Heideparkbrug",
+          "priority": "forward",
+          "sidewalk": "no",
+          "smoothness": "good",
+          "surface": "asphalt",
+          "bridge:structure": "beam",
+          "man_made": "bridge",
+          "source:name": "Informatiepaneel bij Sluis V te Vroomshoop"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 4
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,480000,240000,500000 --run nl-11_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map lemelerveld-brug-e4bab695 --plaats lemelerveld --punt 221105,495555",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

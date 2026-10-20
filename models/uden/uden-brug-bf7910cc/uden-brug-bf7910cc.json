@@ -98,14 +98,23 @@
           "type": "landhoofd"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/686384050",
+        "tags": {
+          "bicycle": "yes",
+          "bridge": "yes",
+          "highway": "footway",
+          "layer": "1",
+          "surface": "asphalt"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 5
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,400000,180000,420000 --run nl-8_5 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map uden-brug-bf7910cc --plaats uden --punt 170454,409375",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -131,6 +140,6 @@
     "waarschuwingen": [
       "geen FIS-brug binnen 35 m"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

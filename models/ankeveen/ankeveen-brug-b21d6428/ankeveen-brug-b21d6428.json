@@ -1,5 +1,5 @@
 {
-  "name": "ankeveen-brug-b21d6428",
+  "name": "Kooibrug",
   "file": "ankeveen-brug-b21d6428.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -83,14 +83,25 @@
           "type": "landhoofd"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/977090039",
+        "tags": {
+          "bridge": "yes",
+          "bridge:name": "Kooibrug",
+          "highway": "secondary",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Kooibrug",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,460000,140000,480000 --run nl-6_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map ankeveen-brug-b21d6428 --plaats ankeveen --punt 135892,476290",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -116,6 +127,6 @@
     "waarschuwingen": [
       "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

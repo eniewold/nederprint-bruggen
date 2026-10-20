@@ -1,5 +1,5 @@
 {
-  "name": "Heinoomsbrug",
+  "name": "Burgemeester Padmosweg",
   "file": "wilnis-heinoomsbrug-2.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,7 +78,16 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/866647041",
+        "tags": {
+          "bridge": "yes",
+          "highway": "residential",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Burgemeester Padmosweg"
+        }
+      },
       "fis": {
         "id": 30808,
         "naam": "Heinoomsbrug",
@@ -91,7 +100,7 @@
     "type": "ophaalbrug",
     "doorvaarthoogte": 0.9,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,460000,140000,480000 --run nl-6_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map wilnis-heinoomsbrug-2 --plaats wilnis --punt 121774,467539",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -102,7 +111,7 @@
         -1.6,
         0.9
       ],
-      "portaalhoogte": 4.2,
+      "portaalhoogte": 3.1,
       "opritafstand": [
         4,
         4
@@ -118,6 +127,6 @@
       "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

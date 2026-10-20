@@ -1,5 +1,5 @@
 {
-  "name": "rijssen-brug-72276245",
+  "name": "Grutto",
   "file": "rijssen-brug-72276245.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,27 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1218720402",
+        "tags": {
+          "bridge": "viaduct",
+          "highway": "cycleway",
+          "layer": "1",
+          "lit": "yes",
+          "name": "Grutto",
+          "smoothness": "good",
+          "surface": "wood",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,480000,240000,500000 --run nl-11_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map rijssen-brug-72276245 --plaats rijssen --punt 230828,480411",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

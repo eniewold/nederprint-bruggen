@@ -9,18 +9,14 @@
     413209.91
   ],
   "xAxis": [
-    0.743041,
-    0.669246
+    0.669246,
+    -0.743041
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 47.189,
+  "groundHeight": 49.043,
   "groundSamplePoints": [
     [
-      -4.6,
-      0
-    ],
-    [
-      4.6,
+      -11.67,
       0
     ]
   ],
@@ -34,52 +30,33 @@
         413209.91
       ],
       "axis": [
-        0.743041,
-        0.669246
+        0.669246,
+        -0.743041
       ],
-      "halfLength": 0.3,
-      "halfWidth": 5.81,
-      "height": 47.125,
+      "halfLength": 2.65,
+      "halfWidth": 1.1,
+      "height": 48.043,
       "gradient": [
         0,
         0
       ],
-      "minLift": -2.32,
+      "minLift": -1.18,
       "maxLift": -0.01
     },
     {
       "centre": [
-        146805.71,
-        413207.5
+        146801.29,
+        413217.79
       ],
       "axis": [
-        -0.743041,
-        -0.669246
+        -0.669246,
+        0.743041
       ],
-      "halfLength": 3,
-      "halfWidth": 7.31,
-      "height": 47.807,
+      "halfLength": 5.31,
+      "halfWidth": 0.9,
+      "height": 49.193,
       "gradient": [
-        -0.20592,
-        0
-      ],
-      "minLift": 0.05,
-      "maxLift": 4
-    },
-    {
-      "centre": [
-        146811.07,
-        413212.32
-      ],
-      "axis": [
-        0.743041,
-        0.669246
-      ],
-      "halfLength": 3,
-      "halfWidth": 7.31,
-      "height": 48.275,
-      "gradient": [
-        -0.05,
+        -0.02827,
         0
       ],
       "minLift": 0.05,
@@ -104,40 +81,43 @@
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,400000,160000,420000 --run nl-7_5 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map s-hertogenbosch-brug-056223cf --plaats s-hertogenbosch --punt 146808,413210",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
-      "dekLengte": 1.2,
-      "dekBreedte": 10.6,
-      "brugLengte": 1.2,
-      "water": null,
-      "portaalhoogte": 9.5,
-      "opritafstand": [
-        4,
-        4
+      "dekLengte": 10.6,
+      "dekBreedte": 1.2,
+      "brugLengte": 10.6,
+      "water": [
+        4.2,
+        5.2
       ],
-      "oprithelling": 6,
+      "portaalhoogte": 2.5,
+      "opritafstand": [
+        6.4,
+        19.1
+      ],
+      "oprithelling": 10.6,
       "doorstekend": [
         {
           "gmlId": "G0796.340be085e6a1bf87e0538d1013ac73b0",
           "klasse": "Terrain",
-          "oppervlak": 8552.8,
+          "oppervlak": 3715.8,
           "onderDek": 0,
-          "bovenDekOnderkant": 1.32,
+          "bovenDekOnderkant": 0.18,
           "actie": "verlagen"
         }
       ],
       "opritHoogtes": [
-        47.189,
-        48.125
+        49.043,
+        null
       ]
     },
     "waarschuwingen": [
-      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "oprit + zonder PDOK-maaiveld",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
       "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

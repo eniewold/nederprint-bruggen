@@ -1,5 +1,5 @@
 {
-  "name": "muiden-brug-e192241c",
+  "name": "Zinnigveld",
   "file": "muiden-brug-e192241c.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -13,7 +13,7 @@
     -0.339707
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 46.601,
+  "groundHeight": 46.597,
   "groundSamplePoints": [
     [
       -112.9,
@@ -80,9 +80,9 @@
       ],
       "halfLength": 12,
       "halfWidth": 20.5,
-      "height": 49.314,
+      "height": 49.312,
       "gradient": [
-        -0.22604,
+        -0.2262,
         0
       ],
       "minLift": 0.05,
@@ -108,14 +108,53 @@
           "type": "onbekend"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/422941612",
+        "tags": {
+          "bridge": "viaduct",
+          "bus": "no",
+          "carriageway_ref": "z",
+          "change:lanes:both_ways:forward": "not_left",
+          "description": "wisselbaan A9",
+          "hazmat:B": "no",
+          "hazmat:C": "no",
+          "hazmat:D": "no",
+          "hazmat:E": "no",
+          "hgv": "no",
+          "highway": "motorway",
+          "lanes": "3",
+          "lanes:backward": "1",
+          "lanes:both_ways": "1",
+          "lanes:forward": "1",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed:backward": "100",
+          "maxspeed:forward": "90",
+          "maxspeed:type:backward": "sign",
+          "maxspeed:type:forward": "electronic_sign",
+          "oneway": "reversible",
+          "operator": "Rijkswaterstaat",
+          "placement:backward": "left_of:1",
+          "ref": "A9",
+          "surface": "asphalt",
+          "toll:hgv": "yes",
+          "tourist_bus": "no",
+          "trailer": "no",
+          "turn:lanes:both_ways:forward": "merge_to_right",
+          "turn:lanes:forward": "slight_right",
+          "zone:traffic": "NL:rural",
+          "bridge:structure": "beam",
+          "man_made": "bridge",
+          "name": "Zinnigveld"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 3
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map muiden-brug-e192241c --plaats muiden --punt 130130,482714",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -133,7 +172,7 @@
         {
           "gmlId": "L0002.822a983603194d80b00989b374bbf333",
           "klasse": "Terrain",
-          "oppervlak": 5045.5,
+          "oppervlak": 3364.8,
           "onderDek": 0.29,
           "bovenDekOnderkant": 6.1,
           "actie": "verlagen"
@@ -173,7 +212,7 @@
       ],
       "opritHoogtes": [
         51.726,
-        46.601
+        46.597
       ]
     },
     "waarschuwingen": [
@@ -181,6 +220,6 @@
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
       "5 PDOK-vorm(en) door het dek: 1 verborgen, 4 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

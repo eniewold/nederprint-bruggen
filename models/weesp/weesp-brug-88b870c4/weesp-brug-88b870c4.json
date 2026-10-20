@@ -1,5 +1,5 @@
 {
-  "name": "weesp-brug-88b870c4",
+  "name": "Gooilijn",
   "file": "weesp-brug-88b870c4.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -9,18 +9,18 @@
     480264.34
   ],
   "xAxis": [
-    0.671026,
-    -0.741434
+    -0.67149,
+    0.741014
   ],
   "groundOffsetMetres": 0,
   "groundHeight": 46.941,
   "groundSamplePoints": [
     [
-      -35,
+      -34.53,
       0
     ],
     [
-      34.53,
+      35.01,
       0
     ]
   ],
@@ -41,10 +41,10 @@
         480264.34
       ],
       "axis": [
-        0.671026,
-        -0.741434
+        -0.67149,
+        0.741014
       ],
-      "halfLength": 28.76,
+      "halfLength": 28.77,
       "halfWidth": 16.36,
       "height": 45.715,
       "gradient": [
@@ -56,18 +56,18 @@
     },
     {
       "centre": [
-        131832.89,
-        480299.19
+        131895.67,
+        480229.86
       ],
       "axis": [
-        -0.671026,
-        0.741434
+        0.67149,
+        -0.741014
       ],
       "halfLength": 12,
       "halfWidth": 17.86,
-      "height": 46.978,
+      "height": 47.015,
       "gradient": [
-        -0.0031,
+        0,
         0
       ],
       "minLift": 0.05,
@@ -75,18 +75,18 @@
     },
     {
       "centre": [
-        131895.64,
-        480229.85
+        131832.86,
+        480299.17
       ],
       "axis": [
-        0.671026,
-        -0.741434
+        -0.67149,
+        0.741014
       ],
       "halfLength": 12,
       "halfWidth": 17.86,
-      "height": 47.015,
+      "height": 46.978,
       "gradient": [
-        0,
+        -0.0031,
         0
       ],
       "minLift": 0.05,
@@ -131,14 +131,50 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/529707934",
+        "tags": {
+          "axle_load": "22.5",
+          "bridge": "yes",
+          "description": "Diemen Aansl. - Weesp Aansl.",
+          "electrified": "contact_line",
+          "frequency": "0",
+          "gauge": "1435",
+          "layer": "1",
+          "loading_gauge": "TSI_GB",
+          "maxspeed": "130",
+          "name": "Gooilijn",
+          "operator": "ProRail",
+          "passenger_lines": "4",
+          "railway": "rail",
+          "railway:atb": "yes",
+          "railway:atb-eg": "yes",
+          "railway:atb-ng": "no",
+          "railway:etcs": "no",
+          "railway:maximum_current": "4000",
+          "railway:track_class": "D4",
+          "railway:traffic_mode": "mixed",
+          "ref": "128",
+          "ref:ProRailID": "2878531.0",
+          "ref:ProRailSpoortak": "128_55BV_13.3",
+          "source": "ProRail",
+          "source:date": "2014-01-03",
+          "usage": "main",
+          "voltage": "1500",
+          "wikidata": "Q801845",
+          "wikipedia": "nl:Spoorlijn Amsterdam - Zutphen",
+          "bridge:structure": "beam",
+          "man_made": "bridge",
+          "bridge:movable": "bascule"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 6
     },
-    "type": "ophaalbrug",
+    "type": "basculebrug",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map weesp-brug-88b870c4 --plaats weesp --punt 131864,480264",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -146,10 +182,10 @@
       "dekBreedte": 31.7,
       "brugLengte": 69.5,
       "water": [
-        -25.5,
-        28
+        -28,
+        25.5
       ],
-      "portaalhoogte": 28.5,
+      "portaalhoogte": 28.6,
       "opritafstand": [
         0,
         0
@@ -183,14 +219,14 @@
         }
       ],
       "opritHoogtes": [
-        46.941,
-        47.015
+        47.015,
+        46.941
       ]
     },
     "waarschuwingen": [
       "geen FIS-brug binnen 35 m",
       "3 PDOK-vorm(en) door het dek: 1 verborgen, 2 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

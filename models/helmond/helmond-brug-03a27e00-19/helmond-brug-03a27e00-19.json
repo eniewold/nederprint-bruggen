@@ -44,7 +44,7 @@
         0,
         0
       ],
-      "minLift": -1.25,
+      "minLift": -1.23,
       "maxLift": -0.01
     },
     {
@@ -97,14 +97,21 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/26416894",
+        "tags": {
+          "bridge": "yes",
+          "highway": "cycleway",
+          "layer": "1"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,380000,180000,400000 --run nl-8_4 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map helmond-brug-03a27e00-19 --plaats helmond --punt 175564,389345",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -125,9 +132,9 @@
         {
           "gmlId": "G0794.8cf5ec6e4dd449a88be78e1b824d205a",
           "klasse": "Terrain",
-          "oppervlak": 2854.7,
+          "oppervlak": 951.9,
           "onderDek": 0.02,
-          "bovenDekOnderkant": 0.25,
+          "bovenDekOnderkant": 0.23,
           "actie": "verlagen"
         }
       ],

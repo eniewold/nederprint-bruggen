@@ -1,5 +1,5 @@
 {
-  "name": "oldehove-brug-a2112ac1",
+  "name": "Electraweg",
   "file": "oldehove-brug-a2112ac1.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -43,7 +43,7 @@
       ],
       "halfLength": 12,
       "halfWidth": 5.32,
-      "height": 42.871,
+      "height": 42.835,
       "gradient": [
         -0.0125,
         0
@@ -62,9 +62,9 @@
       ],
       "halfLength": 12,
       "halfWidth": 5.32,
-      "height": 42.154,
+      "height": 42.136,
       "gradient": [
-        -0.07217,
+        -0.07068,
         0
       ],
       "minLift": 0.05,
@@ -98,14 +98,30 @@
           "type": "pijler"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/6529569",
+        "tags": {
+          "bridge": "yes",
+          "cycleway": "no",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxaxleload": "4.8",
+          "maxaxleload:emergency": "15",
+          "maxspeed": "60",
+          "name": "Electraweg",
+          "smoothness": "good",
+          "source:emergency": "Veiligheidsregio Groningen",
+          "source:emergency:date": "2024-3-21",
+          "surface": "asphalt"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 5
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 200000,580000,220000,600000 --run nl-10_14 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map oldehove-brug-a2112ac1 --plaats oldehove --punt 219614,592323",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -124,7 +140,7 @@
       "oprithelling": 24,
       "doorstekend": [],
       "opritHoogtes": [
-        42.721,
+        42.685,
         41.288
       ]
     },

@@ -1,5 +1,5 @@
 {
-  "name": "almelo-brug-a22a49b4",
+  "name": "Aadijk",
   "file": "almelo-brug-a22a49b4.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -112,14 +112,27 @@
           "type": "pijler"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/6676374",
+        "tags": {
+          "bridge": "yes",
+          "highway": "unclassified",
+          "lane_markings": "no",
+          "layer": "1",
+          "maxspeed": "60",
+          "maxweight:signed": "no",
+          "name": "Aadijk",
+          "source:maxspeed": "NL:rural",
+          "surface": "asphalt"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 4
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,480000,260000,500000 --run nl-12_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map almelo-brug-a22a49b4 --plaats almelo --punt 242454,489756",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

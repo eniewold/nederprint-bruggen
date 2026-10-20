@@ -1,5 +1,5 @@
 {
-  "name": "bornerbroek-brug-209f6bdc",
+  "name": "Zomerdijk",
   "file": "bornerbroek-brug-209f6bdc.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -88,14 +88,25 @@
           "type": "landhoofd"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/56033805",
+        "tags": {
+          "bridge": "yes",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxaxleload": "2.4",
+          "maxspeed": "60",
+          "name": "Zomerdijk",
+          "source:maxspeed": "NL:zone60"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 3
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,480000,240000,500000 --run nl-11_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map bornerbroek-brug-209f6bdc --plaats bornerbroek --punt 239446,481490",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

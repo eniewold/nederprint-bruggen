@@ -1,5 +1,5 @@
 {
-  "name": "lierop-brug-f704fb06",
+  "name": "Somerenseweg",
   "file": "lierop-brug-f704fb06.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,28 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/593162671",
+        "tags": {
+          "bridge": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "mofa": "yes",
+          "moped": "designated",
+          "name": "Somerenseweg",
+          "oneway": "no",
+          "surface": "concrete",
+          "traffic_sign": "NL:G12a",
+          "zone:traffic": "NL:rural"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,360000,180000,380000 --run nl-8_3 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map lierop-brug-f704fb06 --plaats lierop --punt 175768,379529",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

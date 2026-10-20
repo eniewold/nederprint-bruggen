@@ -1,5 +1,5 @@
 {
-  "name": "strijen-brug-8abeacd5-78",
+  "name": "Waleweg",
   "file": "strijen-brug-8abeacd5-78.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -97,14 +97,26 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1022286422",
+        "tags": {
+          "bridge": "yes",
+          "cycleway": "shared",
+          "highway": "unclassified",
+          "lane_markings": "no",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Waleweg",
+          "surface": "asphalt"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,400000,100000,420000 --run nl-4_5 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map strijen-brug-8abeacd5-78 --plaats strijen --punt 96805,418272",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

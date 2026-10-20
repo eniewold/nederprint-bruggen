@@ -1,5 +1,5 @@
 {
-  "name": "lopikerkapel-brug-12a4d859",
+  "name": "Batuwseweg",
   "file": "lopikerkapel-brug-12a4d859.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -13,7 +13,7 @@
     -0.615762
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 44.684,
+  "groundHeight": 44.681,
   "groundSamplePoints": [
     [
       -6.49,
@@ -58,9 +58,9 @@
       ],
       "halfLength": 3,
       "halfWidth": 3.66,
-      "height": 44.844,
+      "height": 44.843,
       "gradient": [
-        -0.05338,
+        -0.05389,
         0
       ],
       "minLift": 0.05,
@@ -97,14 +97,29 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1316871122",
+        "tags": {
+          "bridge": "yes",
+          "foot": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "mofa": "designated",
+          "moped": "no",
+          "name": "Batuwseweg",
+          "oneway": "no",
+          "traffic_sign": "NL:G11",
+          "zone:traffic": "NL:rural",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,440000,140000,460000 --run nl-6_7 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map lopikerkapel-brug-12a4d859 --plaats lopikerkapel --punt 130457,444265",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -132,7 +147,7 @@
         }
       ],
       "opritHoogtes": [
-        44.684,
+        44.681,
         44.704
       ]
     },
@@ -140,6 +155,6 @@
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
       "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

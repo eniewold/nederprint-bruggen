@@ -1,5 +1,5 @@
 {
-  "name": "scheemda-brug-c0e5fedd",
+  "name": "Oude Rijksweg",
   "file": "scheemda-brug-c0e5fedd.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -148,14 +148,33 @@
           "type": "landhoofd"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/6366455",
+        "tags": {
+          "bicycle": "no",
+          "bridge": "yes",
+          "highway": "primary",
+          "lanes": "1",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "80",
+          "mofa": "no",
+          "moped": "no",
+          "name": "Oude Rijksweg",
+          "oneway": "yes",
+          "operator": "Provincie Groningen",
+          "ref": "N362",
+          "surface": "asphalt",
+          "traffic_sign": "NL:C15"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 15
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 260000,560000,280000,580000 --run nl-13_13 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map scheemda-brug-c0e5fedd --plaats scheemda --punt 261206,578800",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

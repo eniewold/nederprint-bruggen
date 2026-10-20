@@ -30,6 +30,7 @@
     "P0026.245adde2215e469fe0531221500a72c8",
     "P0026.245adde22170469fe0531221500a72c8",
     "P0026.245adde221ee469fe0531221500a72c8",
+    "P0026.245adde221f3469fe0531221500a72c8",
     "P0026.245adde2220c469fe0531221500a72c8",
     "P0026.245adde22219469fe0531221500a72c8",
     "P0026.245adde22232469fe0531221500a72c8",
@@ -47,6 +48,7 @@
     "P0026.245adde22381469fe0531221500a72c8",
     "P0026.245adde22386469fe0531221500a72c8",
     "P0026.245adde2238b469fe0531221500a72c8",
+    "P0026.245adde223ab469fe0531221500a72c8",
     "L0002.07e635c72b8d4012a03fcde5ba515c8b",
     "L0002.85e432b202d34431b85512647430a4ee",
     "L0002.d676649cec5b40cf9dc29bd70aacd958",
@@ -122,6 +124,10 @@
           "type": "pijler"
         },
         {
+          "id": "P0026.245adde221f3469fe0531221500a72c8",
+          "type": "pijler"
+        },
+        {
           "id": "P0026.245adde2220c469fe0531221500a72c8",
           "type": "pijler"
         },
@@ -190,6 +196,10 @@
           "type": "pijler"
         },
         {
+          "id": "P0026.245adde223ab469fe0531221500a72c8",
+          "type": "pijler"
+        },
+        {
           "id": "L0002.07e635c72b8d4012a03fcde5ba515c8b",
           "type": "dek"
         },
@@ -206,14 +216,41 @@
           "type": "onbekend"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/7003388",
+        "tags": {
+          "access:lanes": "variable|yes|yes|yes|yes",
+          "bridge": "yes",
+          "carriageway_ref": "Li",
+          "destination:lanes": "||||Bunnik",
+          "destination:ref:lanes": "A12|A12|A12|A12|N229",
+          "highway": "motorway",
+          "int_ref": "E 35",
+          "lanes": "5",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "100",
+          "maxspeed:type": "sign",
+          "noname": "yes",
+          "official_name": "Rijksweg A 12",
+          "oneway": "yes",
+          "operator": "Rijkswaterstaat",
+          "placement": "right_of:2",
+          "ref": "A12",
+          "source:official_name": "NWB;BAG",
+          "surface": "asphalt",
+          "toll:hgv": "yes",
+          "turn:lanes": "none|none|none|none|slight_right",
+          "zone:traffic": "NL:rural"
+        }
+      },
       "fis": null,
-      "pdokBridgeVlakken": 26
+      "pdokBridgeVlakken": 28
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,440000,160000,460000 --run nl-7_7 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map bunnik-brug-07e635c7 --plaats bunnik --punt 143340,452382",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -257,6 +294,6 @@
       "geen FIS-brug binnen 35 m",
       "2 PDOK-vorm(en) door het dek: 2 verborgen, 0 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

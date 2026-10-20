@@ -1,5 +1,5 @@
 {
-  "name": "Brug Ossenzijl",
+  "name": "Motorkade",
   "file": "ossenzijl-brug-ossenzijl.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,7 +78,21 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/38571201",
+        "tags": {
+          "bridge": "movable",
+          "bridge:movable": "bascule",
+          "highway": "secondary",
+          "layer": "1",
+          "maxspeed": "30",
+          "maxspeed:type": "NL:zone30",
+          "name": "Motorkade",
+          "surface": "asphalt",
+          "zone:maxspeed": "NL:30",
+          "zone:traffic": "NL:urban"
+        }
+      },
       "fis": {
         "id": 49591,
         "naam": "Brug Ossenzijl",
@@ -88,10 +102,10 @@
       },
       "pdokBridgeVlakken": 1
     },
-    "type": "ophaalbrug",
+    "type": "basculebrug",
     "doorvaarthoogte": 1.56,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 180000,520000,200000,540000 --run nl-9_11 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map ossenzijl-brug-ossenzijl --plaats ossenzijl --punt 190940,535836",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

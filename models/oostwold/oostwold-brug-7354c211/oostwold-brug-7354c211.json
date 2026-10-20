@@ -1,5 +1,5 @@
 {
-  "name": "oostwold-brug-7354c211",
+  "name": "Buiten Meerlandseweg",
   "file": "oostwold-brug-7354c211.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,22 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1279894849",
+        "tags": {
+          "bridge": "yes",
+          "highway": "residential",
+          "layer": "1",
+          "name": "Buiten Meerlandseweg"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 260000,560000,280000,580000 --run nl-13_13 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map oostwold-brug-7354c211 --plaats oostwold --punt 266020,577745",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

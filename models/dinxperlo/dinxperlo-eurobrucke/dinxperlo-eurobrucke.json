@@ -9,18 +9,14 @@
     430191.2
   ],
   "xAxis": [
-    -0.909534,
-    0.415629
+    0.415629,
+    0.909534
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 59.975,
+  "groundHeight": 62.973,
   "groundSamplePoints": [
     [
-      -14.7,
-      0
-    ],
-    [
-      14.7,
+      31.76,
       0
     ]
   ],
@@ -30,56 +26,18 @@
   "terrainCorrections": [
     {
       "centre": [
-        229226.84,
-        430191.2
+        229237.83,
+        430215.24
       ],
       "axis": [
-        -0.909534,
-        0.415629
+        0.415629,
+        0.909534
       ],
-      "halfLength": 3.34,
-      "halfWidth": 14.94,
-      "height": 59.276,
+      "halfLength": 12,
+      "halfWidth": 8.68,
+      "height": 63.123,
       "gradient": [
-        0,
-        0
-      ],
-      "minLift": -4.56,
-      "maxLift": -0.01
-    },
-    {
-      "centre": [
-        229239,
-        430185.64
-      ],
-      "axis": [
-        0.909534,
-        -0.415629
-      ],
-      "halfLength": 6.68,
-      "halfWidth": 16.44,
-      "height": 60.426,
-      "gradient": [
-        -0.02244,
-        0
-      ],
-      "minLift": 0.05,
-      "maxLift": 4
-    },
-    {
-      "centre": [
-        229214.68,
-        430196.75
-      ],
-      "axis": [
-        -0.909534,
-        0.415629
-      ],
-      "halfLength": 6.68,
-      "halfWidth": 16.44,
-      "height": 60.275,
-      "gradient": [
-        -0.04503,
+        -0.0125,
         0
       ],
       "minLift": 0.05,
@@ -127,47 +85,33 @@
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,420000,240000,440000 --run nl-11_6 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map dinxperlo-eurobrucke --plaats dinxperlo --punt 229227,430191",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
-      "dekLengte": 13.4,
-      "dekBreedte": 28.9,
-      "brugLengte": 13.4,
-      "water": null,
-      "portaalhoogte": 26,
+      "dekLengte": 28.9,
+      "dekBreedte": 13.4,
+      "brugLengte": 28.9,
+      "water": [
+        -13.4,
+        -1.9
+      ],
+      "portaalhoogte": 12,
       "opritafstand": [
-        8,
-        8
+        52,
+        17.3
       ],
-      "oprithelling": 13.4,
-      "doorstekend": [
-        {
-          "gmlId": "G0197.4c249e1e0aaa4a75b58903f08d3252a1",
-          "klasse": "Forest",
-          "oppervlak": 638.8,
-          "onderDek": 0.13,
-          "bovenDekOnderkant": 3.56,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "G0197.2419ea61c2ce69abe0530e0a10acf6ec",
-          "klasse": "Terrain",
-          "oppervlak": 1403.5,
-          "onderDek": 0.04,
-          "bovenDekOnderkant": 0.7,
-          "actie": "verlagen"
-        }
-      ],
+      "oprithelling": 24,
+      "doorstekend": [],
       "opritHoogtes": [
-        60.276,
-        59.975
+        null,
+        62.973
       ]
     },
     "waarschuwingen": [
-      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
-      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
-      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+      "geen FIS-brug binnen 35 m",
+      "oprit - zonder PDOK-maaiveld",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
     "gegenereerd": "2026-10-20"
   }

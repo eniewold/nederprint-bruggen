@@ -9,40 +9,60 @@
     487266.2
   ],
   "xAxis": [
-    0.238099,
-    -0.971241
+    -0.971241,
+    -0.238099
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 40.912,
+  "groundHeight": 38.964,
   "groundSamplePoints": [
     [
-      -18.18,
+      -19.12,
       0
     ],
     [
-      18.18,
+      39.99,
       0
     ]
   ],
   "replacesTerrain": [
     "G0034.3d9d2b8c54e543adb90bf2ddeb7dfc9e",
-    "G0034.4810e79bc7e2438694b0c5842d619872"
+    "G0034.4810e79bc7e2438694b0c5842d619872",
+    "G0034.90db2ebd6b10487f90e80940163ee58b"
   ],
   "terrainCorrections": [
     {
       "centre": [
-        143309.01,
-        487282.25
+        143312.94,
+        487266.2
       ],
       "axis": [
-        -0.238099,
-        0.971241
+        -0.971241,
+        -0.238099
       ],
-      "halfLength": 8.26,
-      "halfWidth": 10.69,
-      "height": 41.178,
+      "halfLength": 4.35,
+      "halfWidth": 8.76,
+      "height": 38.262,
       "gradient": [
-        -0.01815,
+        0,
+        0
+      ],
+      "minLift": -3.82,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        143329.83,
+        487270.34
+      ],
+      "axis": [
+        0.971241,
+        0.238099
+      ],
+      "halfLength": 8.69,
+      "halfWidth": 10.26,
+      "height": 39.263,
+      "gradient": [
+        -0.0344,
         0
       ],
       "minLift": 0.05,
@@ -50,18 +70,18 @@
     },
     {
       "centre": [
-        143316.88,
-        487250.14
+        143296.06,
+        487262.06
       ],
       "axis": [
-        0.238099,
-        -0.971241
+        -0.971241,
+        -0.238099
       ],
-      "halfLength": 8.26,
-      "halfWidth": 10.69,
-      "height": 41.12,
+      "halfLength": 8.69,
+      "halfWidth": 10.26,
+      "height": 39.412,
       "gradient": [
-        -0.02515,
+        -0.01726,
         0
       ],
       "minLift": 0.05,
@@ -106,30 +126,64 @@
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,480000,160000,500000 --run nl-7_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map almere-ter-apelpoort --plaats almere --punt 143313,487266",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
-      "dekLengte": 16.5,
-      "dekBreedte": 17.4,
-      "brugLengte": 16.5,
+      "dekLengte": 17.4,
+      "dekBreedte": 16.5,
+      "brugLengte": 17.4,
       "water": null,
-      "portaalhoogte": 15.6,
+      "portaalhoogte": 14.9,
       "opritafstand": [
-        9.9,
-        9.9
+        10.4,
+        31.3
       ],
-      "oprithelling": 16.5,
-      "doorstekend": [],
+      "oprithelling": 17.4,
+      "doorstekend": [
+        {
+          "gmlId": "G0034.db3271d6456a4bebbdd94a2f9962e7b3",
+          "klasse": "Road",
+          "oppervlak": 83.1,
+          "onderDek": 0.55,
+          "bovenDekOnderkant": 2.82,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0034.0fa5a96bde314ca095716bfde3d9f45e",
+          "klasse": "Road",
+          "oppervlak": 82.9,
+          "onderDek": 0.54,
+          "bovenDekOnderkant": 2.78,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0034.fcae9392e96549e18863864ee1de8764",
+          "klasse": "Terrain",
+          "oppervlak": 5.8,
+          "onderDek": 0.37,
+          "bovenDekOnderkant": 0.75,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0034.90db2ebd6b10487f90e80940163ee58b",
+          "klasse": "Road",
+          "oppervlak": 32.2,
+          "onderDek": 0.8,
+          "bovenDekOnderkant": 0.09,
+          "actie": "verbergen"
+        }
+      ],
       "opritHoogtes": [
-        41.028,
-        40.912
+        38.964,
+        39.262
       ]
     },
     "waarschuwingen": [
-      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
-      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+      "oprit + pas op 31.3 m gemeten",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "4 PDOK-vorm(en) door het dek: 1 verborgen, 3 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

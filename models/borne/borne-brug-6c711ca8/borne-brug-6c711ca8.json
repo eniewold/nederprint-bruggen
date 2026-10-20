@@ -1,5 +1,5 @@
 {
-  "name": "borne-brug-6c711ca8",
+  "name": "Deldensestraat",
   "file": "borne-brug-6c711ca8.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -93,14 +93,27 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/6673850",
+        "tags": {
+          "bridge": "yes",
+          "cycleway": "lane",
+          "highway": "tertiary",
+          "lane_markings": "no",
+          "layer": "1",
+          "maxspeed": "60",
+          "maxweight:signed": "no",
+          "name": "Deldensestraat",
+          "surface": "asphalt"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 4
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,460000,260000,480000 --run nl-12_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map borne-brug-6c711ca8 --plaats borne --punt 247157,478561",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

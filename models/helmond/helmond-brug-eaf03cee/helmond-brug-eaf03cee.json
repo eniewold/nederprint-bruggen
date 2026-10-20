@@ -1,5 +1,5 @@
 {
-  "name": "helmond-brug-eaf03cee",
+  "name": "Arbergstraat",
   "file": "helmond-brug-eaf03cee.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,25 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/693137389",
+        "tags": {
+          "bridge": "yes",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Arbergstraat",
+          "zone:traffic": "NL:urban",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,380000,180000,400000 --run nl-8_4 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map helmond-brug-eaf03cee --plaats helmond --punt 172610,386988",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

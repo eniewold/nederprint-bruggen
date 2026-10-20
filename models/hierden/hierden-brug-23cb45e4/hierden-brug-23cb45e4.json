@@ -1,5 +1,5 @@
 {
-  "name": "hierden-brug-23cb45e4",
+  "name": "Hierderweg",
   "file": "hierden-brug-23cb45e4.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -103,14 +103,26 @@
           "type": "landhoofd"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/6964141",
+        "tags": {
+          "bridge": "yes",
+          "highway": "unclassified",
+          "lane_markings": "no",
+          "layer": "1",
+          "maxspeed": "60",
+          "maxweight:signed": "no",
+          "name": "Hierderweg",
+          "surface": "asphalt"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 6
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,480000,180000,500000 --run nl-8_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map hierden-brug-23cb45e4 --plaats hierden --punt 176586,483965",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -133,6 +145,6 @@
     "waarschuwingen": [
       "geen FIS-brug binnen 35 m"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

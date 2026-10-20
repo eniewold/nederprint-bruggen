@@ -1,5 +1,5 @@
 {
-  "name": "volendam-brug-f9dd1d37",
+  "name": "Kerkepad",
   "file": "volendam-brug-f9dd1d37.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,27 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/280720965",
+        "tags": {
+          "bicycle": "yes",
+          "bridge": "yes",
+          "highway": "pedestrian",
+          "layer": "1",
+          "maxspeed": "30",
+          "mofa": "yes",
+          "moped": "yes",
+          "motor_vehicle": "yes",
+          "name": "Kerkepad"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,500000,140000,520000 --run nl-6_10 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map volendam-brug-f9dd1d37 --plaats volendam --punt 133933,500940",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -111,6 +124,6 @@
     "waarschuwingen": [
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

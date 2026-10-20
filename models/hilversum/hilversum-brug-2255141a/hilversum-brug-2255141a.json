@@ -1,5 +1,5 @@
 {
-  "name": "hilversum-brug-2255141a",
+  "name": "Crailose Brug",
   "file": "hilversum-brug-2255141a.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -105,14 +105,29 @@
           "type": "landhoofd"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/832918379",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "yes",
+          "foot": "use_sidepath",
+          "highway": "tertiary",
+          "lanes": "2",
+          "layer": "1",
+          "maxspeed": "50",
+          "name": "Crailose Brug",
+          "zone:traffic": "NL:urban",
+          "man_made": "bridge",
+          "source:name": "BAG/BGT"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 4
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,460000,160000,480000 --run nl-7_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map hilversum-brug-2255141a --plaats hilversum --punt 140234,473006",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -153,6 +168,6 @@
       "geen FIS-brug binnen 35 m",
       "2 PDOK-vorm(en) door het dek: 2 verborgen, 0 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

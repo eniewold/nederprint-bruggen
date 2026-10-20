@@ -9,18 +9,18 @@
     455787.55
   ],
   "xAxis": [
-    0.887892,
-    0.460053
+    0.460053,
+    -0.887892
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 46.692,
+  "groundHeight": 46.51,
   "groundSamplePoints": [
     [
-      -5.01,
+      -10.98,
       0
     ],
     [
-      5.01,
+      10.98,
       0
     ]
   ],
@@ -30,37 +30,18 @@
   "terrainCorrections": [
     {
       "centre": [
-        138748.36,
-        455787.55
+        138743.77,
+        455796.41
       ],
       "axis": [
-        0.887892,
-        0.460053
+        -0.460053,
+        0.887892
       ],
-      "halfLength": 0.5,
-      "halfWidth": 5.49,
-      "height": 46.537,
+      "halfLength": 4.99,
+      "halfWidth": 1.51,
+      "height": 47.181,
       "gradient": [
-        0,
-        0
-      ],
-      "minLift": -1.06,
-      "maxLift": -0.01
-    },
-    {
-      "centre": [
-        138744.8,
-        455785.7
-      ],
-      "axis": [
-        -0.887892,
-        -0.460053
-      ],
-      "halfLength": 3,
-      "halfWidth": 6.99,
-      "height": 47.687,
-      "gradient": [
-        -0.05,
+        -0.1345,
         0
       ],
       "minLift": 0.05,
@@ -68,18 +49,18 @@
     },
     {
       "centre": [
-        138751.92,
-        455789.39
+        138752.95,
+        455778.68
       ],
       "axis": [
-        0.887892,
-        0.460053
+        0.460053,
+        -0.887892
       ],
-      "halfLength": 3,
-      "halfWidth": 6.99,
-      "height": 47.264,
+      "halfLength": 4.99,
+      "halfWidth": 1.51,
+      "height": 47.702,
       "gradient": [
-        -0.19081,
+        -0.03006,
         0
       ],
       "minLift": 0.05,
@@ -114,40 +95,30 @@
     },
     "type": "vakwerk",
     "doorvaarthoogte": null,
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 126435,448710,141834,461610 --run utrecht-6 --parallel 4 --overschrijf 1",
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 126435,448710,141834,461610 --run utrecht-2026-10-20 --overschrijf 1 --parallel 5",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
-      "dekLengte": 2,
-      "dekBreedte": 10,
-      "brugLengte": 2,
+      "dekLengte": 10,
+      "dekBreedte": 2,
+      "brugLengte": 10,
       "water": null,
-      "portaalhoogte": 9,
+      "portaalhoogte": 2.5,
       "opritafstand": [
-        4,
-        4
+        6,
+        6
       ],
-      "oprithelling": 6,
-      "doorstekend": [
-        {
-          "gmlId": "L0002.aa9e5e7990c5402ebc0fd4c67a99d71c",
-          "klasse": "Terrain",
-          "oppervlak": 499.1,
-          "onderDek": 0.04,
-          "bovenDekOnderkant": 0.06,
-          "actie": "verlagen"
-        }
-      ],
+      "oprithelling": 10,
+      "doorstekend": [],
       "opritHoogtes": [
-        47.537,
-        46.692
+        46.51,
+        47.552
       ]
     },
     "waarschuwingen": [
-      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
-      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
-      "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-17"
+    "gegenereerd": "2026-10-20"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "name": "mijnsheerenland-brug-71449694",
+  "name": "Groene weg",
   "file": "mijnsheerenland-brug-71449694.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -113,14 +113,29 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/422422677",
+        "tags": {
+          "bridge": "viaduct",
+          "highway": "unclassified",
+          "layer": "1",
+          "lit": "no",
+          "maxspeed": "60",
+          "name": "Groene weg",
+          "surface": "asphalt",
+          "area": "yes",
+          "bridge:structure": "beam",
+          "man_made": "bridge",
+          "source:name": "street sign"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 4
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,420000,100000,440000 --run nl-4_6 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map mijnsheerenland-brug-71449694 --plaats mijnsheerenland --punt 90374,423660",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

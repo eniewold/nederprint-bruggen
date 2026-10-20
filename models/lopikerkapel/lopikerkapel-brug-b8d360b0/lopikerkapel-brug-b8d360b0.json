@@ -1,5 +1,5 @@
 {
-  "name": "lopikerkapel-brug-b8d360b0",
+  "name": "Kapelsepad",
   "file": "lopikerkapel-brug-b8d360b0.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -39,9 +39,9 @@
       ],
       "halfLength": 3.05,
       "halfWidth": 5.44,
-      "height": 45.157,
+      "height": 45.154,
       "gradient": [
-        -0.06242,
+        -0.06136,
         0
       ],
       "minLift": 0.05,
@@ -58,7 +58,7 @@
       ],
       "halfLength": 3.05,
       "halfWidth": 5.44,
-      "height": 45.197,
+      "height": 45.191,
       "gradient": [
         -0.04918,
         0
@@ -78,14 +78,24 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/7105088",
+        "tags": {
+          "bridge": "yes",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Kapelsepad",
+          "zone:traffic": "NL:rural"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ophaalbrug",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,440000,140000,460000 --run nl-6_7 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map lopikerkapel-brug-b8d360b0 --plaats lopikerkapel --punt 131012,444503",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -105,7 +115,7 @@
       "doorstekend": [],
       "opritHoogtes": [
         44.967,
-        45.047
+        45.041
       ]
     },
     "waarschuwingen": [
@@ -113,6 +123,6 @@
       "geen FIS-brug binnen 35 m",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

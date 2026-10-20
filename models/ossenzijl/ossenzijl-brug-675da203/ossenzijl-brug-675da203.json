@@ -1,5 +1,5 @@
 {
-  "name": "ossenzijl-brug-675da203",
+  "name": "Venebosweg",
   "file": "ossenzijl-brug-675da203.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -108,14 +108,33 @@
           "type": "landhoofd"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/342447843",
+        "tags": {
+          "bridge": "movable",
+          "bridge:movable": "drawbridge",
+          "foot": "use_sidepath",
+          "highway": "tertiary",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "30",
+          "maxspeed:type": "NL:zone30",
+          "name": "Venebosweg",
+          "priority": "forward",
+          "sidewalk": "both",
+          "smoothness": "good",
+          "surface": "asphalt",
+          "zone:maxspeed": "NL:30",
+          "zone:traffic": "NL:urban"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 7
     },
     "type": "ophaalbrug",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 180000,520000,200000,540000 --run nl-9_11 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map ossenzijl-brug-675da203 --plaats ossenzijl --punt 191263,535705",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -126,7 +145,7 @@
         -10.5,
         10.5
       ],
-      "portaalhoogte": 8.1,
+      "portaalhoogte": 5.1,
       "opritafstand": [
         16.2,
         16.2

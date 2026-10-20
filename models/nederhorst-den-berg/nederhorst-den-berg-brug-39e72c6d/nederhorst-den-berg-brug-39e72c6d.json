@@ -44,7 +44,7 @@
         0,
         0
       ],
-      "minLift": -1.46,
+      "minLift": -1.45,
       "maxLift": -0.01
     },
     {
@@ -97,14 +97,21 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1448089124",
+        "tags": {
+          "bridge": "yes",
+          "highway": "track",
+          "tracktype": "grade1"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,460000,140000,480000 --run nl-6_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map nederhorst-den-berg-brug-39e72c6d --plaats nederhorst-den-berg --punt 131444,475747",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -125,9 +132,9 @@
         {
           "gmlId": "W0155.7a9238d7a9364df1bf1c899db6fcbe9d",
           "klasse": "Terrain",
-          "oppervlak": 91,
+          "oppervlak": 45.6,
           "onderDek": 0.02,
-          "bovenDekOnderkant": 0.46,
+          "bovenDekOnderkant": 0.45,
           "actie": "verlagen"
         }
       ],
@@ -141,6 +148,6 @@
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
       "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "name": "andijk-brug-d1406380",
+  "name": "Dijkweg",
   "file": "andijk-brug-d1406380.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -13,7 +13,7 @@
     -0.999968
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 40.558,
+  "groundHeight": 40.553,
   "groundSamplePoints": [
     [
       -10.17,
@@ -39,7 +39,7 @@
       ],
       "halfLength": 4.62,
       "halfWidth": 0.94,
-      "height": 40.802,
+      "height": 40.798,
       "gradient": [
         -0.03244,
         0
@@ -58,9 +58,9 @@
       ],
       "halfLength": 4.62,
       "halfWidth": 0.94,
-      "height": 40.755,
+      "height": 40.75,
       "gradient": [
-        -0.04261,
+        -0.04265,
         0
       ],
       "minLift": 0.05,
@@ -78,14 +78,26 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/277524642",
+        "tags": {
+          "bridge": "yes",
+          "foot": "yes",
+          "highway": "cycleway",
+          "horse": "no",
+          "layer": "1",
+          "name": "Dijkweg",
+          "oneway": "no",
+          "surface": "paved"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,520000,160000,540000 --run nl-7_11 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map andijk-brug-d1406380 --plaats andijk --punt 143686,529526",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -104,13 +116,13 @@
       "oprithelling": 9.2,
       "doorstekend": [],
       "opritHoogtes": [
-        40.652,
-        40.558
+        40.648,
+        40.553
       ]
     },
     "waarschuwingen": [
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

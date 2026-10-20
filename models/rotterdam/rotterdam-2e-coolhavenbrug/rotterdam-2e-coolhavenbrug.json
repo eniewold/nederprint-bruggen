@@ -81,29 +81,25 @@
       "osm": {
         "id": "way/550126849",
         "tags": {
+          "bicycle:forward": "use_sidepath",
           "bridge": "yes",
           "bridge:name": "2e Coolhavenbrug",
-          "electrified": "contact_line",
-          "frequency": "0",
-          "gauge": "1435",
+          "cycleway:left": "lane",
+          "foot": "use_sidepath",
+          "highway": "secondary",
           "layer": "1",
-          "maxspeed": "60",
-          "oneway": "yes",
-          "railway": "tram",
-          "railway:atb": "no",
-          "railway:etcs": "no",
-          "railway:lzb": "no",
-          "railway:pzb": "no",
-          "railway:zub": "no",
-          "voltage": "600",
-          "man_made": "bridge",
-          "name": "2e Coolhavenbrug"
+          "maxspeed": "50",
+          "mofa:forward": "use_sidepath",
+          "name": "2e Coolhavenbrug",
+          "ref": "S114",
+          "source:maxspeed": "NL:urban",
+          "man_made": "bridge"
         }
       },
       "fis": {
         "id": 50290,
         "naam": "Coolhavenbrug",
-        "afstand": 34,
+        "afstand": 33,
         "beweegbaar": true,
         "doorvaarthoogteGesloten": 3.7800000000000002
       },
@@ -112,7 +108,7 @@
     "type": "ophaalbrug",
     "doorvaarthoogte": 3.7800000000000002,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,420000,100000,440000 --run nl-4_6 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map rotterdam-2e-coolhavenbrug --plaats rotterdam --punt 91440,435924",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -123,7 +119,7 @@
         -3.3,
         3.2
       ],
-      "portaalhoogte": 19.8,
+      "portaalhoogte": 19.6,
       "opritafstand": [
         10,
         10

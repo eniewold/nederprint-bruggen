@@ -1,5 +1,5 @@
 {
-  "name": "helmond-brug-8db60a53",
+  "name": "Bloemvelderbrug",
   "file": "helmond-brug-8db60a53.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -26,12 +26,10 @@
   ],
   "replacesTerrain": [
     "G0794.09932291628f4074b10b1fb360e65542",
+    "G0794.3b532231001f4819a780b56fc1c81c13",
     "G0794.5a335fac87ae45ad8598d7e9d25c8541",
     "G0794.616c0ceac9fa4d5185c38926e6638d23",
-    "G0794.b30a5904bf934a3fb61d316e9a23aa5d",
-    "G0794.c8fa5a4e339941018612a028e5309bf9",
-    "G0794.e0932537403a48c09f6c08272f5d790b",
-    "G0794.e34600c3230849b0b7556c8d3b496f71",
+    "L0002.7f641b0928774146ba5903d7c31efa1e",
     "L0002.b16d9742c85b485ab551f6ee54a8839d",
     "G0794.8db60a5385904baeb916b1d8fba5d35c",
     "G0794.107816ae10d349739358f02a56824d41"
@@ -106,6 +104,10 @@
           "type": "pijler"
         },
         {
+          "id": "G0794.3b532231001f4819a780b56fc1c81c13",
+          "type": "sloof"
+        },
+        {
           "id": "G0794.5a335fac87ae45ad8598d7e9d25c8541",
           "type": "pijler"
         },
@@ -114,19 +116,7 @@
           "type": "pijler"
         },
         {
-          "id": "G0794.b30a5904bf934a3fb61d316e9a23aa5d",
-          "type": "pijler"
-        },
-        {
-          "id": "G0794.c8fa5a4e339941018612a028e5309bf9",
-          "type": "pijler"
-        },
-        {
-          "id": "G0794.e0932537403a48c09f6c08272f5d790b",
-          "type": "pijler"
-        },
-        {
-          "id": "G0794.e34600c3230849b0b7556c8d3b496f71",
+          "id": "L0002.7f641b0928774146ba5903d7c31efa1e",
           "type": "pijler"
         },
         {
@@ -138,14 +128,28 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/693084392",
+        "tags": {
+          "bridge": "yes",
+          "bridge:material": "steel",
+          "bridge:name": "Bloemvelderbrug",
+          "bridge:structure": "cable-stayed",
+          "highway": "cycleway",
+          "layer": "1",
+          "name": "Bloemvelderbrug",
+          "oneway": "no",
+          "zone:traffic": "NL:urban",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
-      "pdokBridgeVlakken": 9
+      "pdokBridgeVlakken": 7
     },
-    "type": "ligger",
+    "type": "tuibrug",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,380000,180000,400000 --run nl-8_4 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map helmond-brug-8db60a53 --plaats helmond --punt 175282,389481",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -198,7 +202,7 @@
         {
           "gmlId": "G0794.03a27dff3a822991e054001f290de175",
           "klasse": "Forest",
-          "oppervlak": 14082.6,
+          "oppervlak": 4694.8,
           "onderDek": 0.01,
           "bovenDekOnderkant": 0.87,
           "actie": "verlagen"
@@ -262,33 +266,33 @@
         {
           "gmlId": "G0794.061697b7c7f257ffe054001f290de076",
           "klasse": "Road",
-          "oppervlak": 11985.7,
+          "oppervlak": 7989.9,
           "onderDek": 0.01,
           "bovenDekOnderkant": 0.68,
           "actie": "verlagen"
         },
         {
+          "gmlId": "L0002.2d233b7104ea441791bc9142faa8aed0",
+          "klasse": "Forest",
+          "oppervlak": 2007.1,
+          "onderDek": 0.02,
+          "bovenDekOnderkant": 0.6,
+          "actie": "verlagen"
+        },
+        {
           "gmlId": "G0794.f3491efdc869480db64f67226c842d77",
           "klasse": "Forest",
-          "oppervlak": 57908.9,
+          "oppervlak": 15444.2,
           "onderDek": 0.02,
-          "bovenDekOnderkant": 0.61,
+          "bovenDekOnderkant": 0.58,
           "actie": "verlagen"
         },
         {
           "gmlId": "L0002.ef0a4f8e020542bf8688f61b48b5f080",
           "klasse": "Forest",
-          "oppervlak": 1487.1,
+          "oppervlak": 991.4,
           "onderDek": 0.01,
-          "bovenDekOnderkant": 0.61,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "L0002.2d233b7104ea441791bc9142faa8aed0",
-          "klasse": "Forest",
-          "oppervlak": 3010.8,
-          "onderDek": 0.02,
-          "bovenDekOnderkant": 0.6,
+          "bovenDekOnderkant": 0.58,
           "actie": "verlagen"
         },
         {
@@ -302,7 +306,7 @@
         {
           "gmlId": "L0002.c28bf70c95a142ae9709b6755a0d1ad6",
           "klasse": "Forest",
-          "oppervlak": 2458.9,
+          "oppervlak": 1227.6,
           "onderDek": 0.01,
           "bovenDekOnderkant": 0.54,
           "actie": "verlagen"
@@ -318,7 +322,7 @@
         {
           "gmlId": "G0794.7b2284a62b394368840e8678fc3dc87b",
           "klasse": "Forest",
-          "oppervlak": 1298.2,
+          "oppervlak": 865.7,
           "onderDek": 0.05,
           "bovenDekOnderkant": 0.45,
           "actie": "verlagen"
@@ -326,9 +330,9 @@
         {
           "gmlId": "G0794.061697b7b9b457ffe054001f290de076",
           "klasse": "Road",
-          "oppervlak": 11828.3,
+          "oppervlak": 2953.1,
           "onderDek": 0.01,
-          "bovenDekOnderkant": 0.4,
+          "bovenDekOnderkant": 0.39,
           "actie": "verlagen"
         },
         {
@@ -342,7 +346,7 @@
         {
           "gmlId": "L0002.5d6bd85b80ed47b3806e26905a3eb86a",
           "klasse": "Terrain",
-          "oppervlak": 2387.6,
+          "oppervlak": 1592.6,
           "onderDek": 0.02,
           "bovenDekOnderkant": 0.09,
           "actie": "verlagen"
@@ -355,6 +359,7 @@
     },
     "waarschuwingen": [
       "geen FIS-brug binnen 35 m",
+      "tuibrug zonder BGT-pylonen: alleen het dek",
       "23 PDOK-vorm(en) door het dek: 1 verborgen, 22 verlaagd"
     ],
     "gegenereerd": "2026-10-20"

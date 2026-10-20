@@ -1,5 +1,5 @@
 {
-  "name": "aarle-rixtel-brug-d770fece",
+  "name": "Croylaan",
   "file": "aarle-rixtel-brug-d770fece.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -13,7 +13,7 @@
     -0.75681
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 58.902,
+  "groundHeight": 58.893,
   "groundSamplePoints": [
     [
       -6.72,
@@ -39,9 +39,9 @@
       ],
       "halfLength": 3,
       "halfWidth": 3.06,
-      "height": 59.084,
+      "height": 59.077,
       "gradient": [
-        -0.06081,
+        -0.06131,
         0
       ],
       "minLift": 0.05,
@@ -58,7 +58,7 @@
       ],
       "halfLength": 3,
       "halfWidth": 3.06,
-      "height": 59.117,
+      "height": 59.111,
       "gradient": [
         -0.05,
         0
@@ -78,14 +78,23 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/177317758",
+        "tags": {
+          "bridge": "yes",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Croylaan"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,380000,180000,400000 --run nl-8_4 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map aarle-rixtel-brug-d770fece --plaats aarle-rixtel --punt 170643,391092",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -104,8 +113,8 @@
       "oprithelling": 6,
       "doorstekend": [],
       "opritHoogtes": [
-        58.902,
-        58.967
+        58.893,
+        58.961
       ]
     },
     "waarschuwingen": [

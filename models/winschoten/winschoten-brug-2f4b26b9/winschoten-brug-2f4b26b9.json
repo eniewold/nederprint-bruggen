@@ -1,5 +1,5 @@
 {
-  "name": "winschoten-brug-2f4b26b9",
+  "name": "Wunderline",
   "file": "winschoten-brug-2f4b26b9.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -9,8 +9,8 @@
     574465
   ],
   "xAxis": [
-    0.877589,
-    0.479413
+    0.877557,
+    0.479473
   ],
   "groundOffsetMetres": 0,
   "groundHeight": 43.386,
@@ -34,12 +34,12 @@
   "terrainCorrections": [
     {
       "centre": [
-        267731.34,
+        267731.35,
         574453.78
       ],
       "axis": [
-        -0.877589,
-        -0.479413
+        -0.877557,
+        -0.479473
       ],
       "halfLength": 11.7,
       "halfWidth": 5.67,
@@ -57,8 +57,8 @@
         574476.22
       ],
       "axis": [
-        0.877589,
-        0.479413
+        0.877557,
+        0.479473
       ],
       "halfLength": 11.7,
       "halfWidth": 5.67,
@@ -99,14 +99,39 @@
           "type": "landhoofd"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/409076923",
+        "tags": {
+          "alt_name": "Staatslijn B",
+          "bridge": "movable",
+          "bridge:movable": "bascule",
+          "description": "Zuidbroek - Nieuweschans Grens",
+          "electrified": "no",
+          "gauge": "1435",
+          "layer": "1",
+          "maxspeed": "100",
+          "name": "Wunderline",
+          "operator": "ProRail",
+          "passenger_lines": "1",
+          "railway": "rail",
+          "railway:atb": "yes",
+          "railway:atb-ng": "yes",
+          "railway:track_class": "D2",
+          "railway:traffic_mode": "passenger",
+          "ref": "005",
+          "ref:ProRailSpoortak": "005_99R_115.1",
+          "source": "ProRail",
+          "source:date": "2014-01-03",
+          "usage": "branch"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 5
     },
-    "type": "ophaalbrug",
+    "type": "basculebrug",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 260000,560000,280000,580000 --run nl-13_13 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map winschoten-brug-2f4b26b9 --plaats winschoten --punt 267752,574465",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

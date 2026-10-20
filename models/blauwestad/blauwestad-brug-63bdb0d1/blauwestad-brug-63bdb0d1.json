@@ -1,5 +1,5 @@
 {
-  "name": "blauwestad-brug-63bdb0d1",
+  "name": "Smaragdlibel",
   "file": "blauwestad-brug-63bdb0d1.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -88,14 +88,27 @@
           "type": "onbekend"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/819436312",
+        "tags": {
+          "bridge": "yes",
+          "highway": "residential",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Smaragdlibel",
+          "smoothness": "excellent",
+          "surface": "asphalt",
+          "bridge:structure": "humpback",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 3
     },
-    "type": "ligger",
+    "type": "bolbrug",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 260000,560000,280000,580000 --run nl-13_13 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map blauwestad-brug-63bdb0d1 --plaats blauwestad --punt 265434,577316",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -112,6 +125,7 @@
         19.6
       ],
       "oprithelling": 24,
+      "bolling": 2.5,
       "doorstekend": [],
       "opritHoogtes": [
         41.307,

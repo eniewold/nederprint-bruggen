@@ -1,5 +1,5 @@
 {
-  "name": "edam-brug-c2abcec9",
+  "name": "Dienaarssluisbrug",
   "file": "edam-brug-c2abcec9.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,36 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1199303933",
+        "tags": {
+          "bridge": "yes",
+          "hgv": "no",
+          "highway": "residential",
+          "lane_markings": "no",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "30",
+          "maxweight:signed": "no",
+          "name": "Dienaarssluisbrug",
+          "oneway": "no",
+          "oneway:bicycle": "no",
+          "surface": "paving_stones",
+          "width": "4.2",
+          "zone:traffic": "NL:urban",
+          "alt_name": "Dienaarssluis",
+          "bridge:structure": "humpback",
+          "man_made": "bridge",
+          "bridge:movable": "bascule"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
-    "type": "ligger",
+    "type": "basculebrug",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,500000,140000,520000 --run nl-6_10 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map edam-brug-c2abcec9 --plaats edam --punt 131965,502640",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -110,8 +132,10 @@
     },
     "waarschuwingen": [
       "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "OSM zegt humpback, gekozen type basculebrug",
+      "geen FIS-brug binnen 35 m",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

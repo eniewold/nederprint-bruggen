@@ -1,5 +1,5 @@
 {
-  "name": "harbrinkhoek-brug-b8290601",
+  "name": "Almeloseweg",
   "file": "harbrinkhoek-brug-b8290601.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -39,7 +39,7 @@
       ],
       "halfLength": 4.38,
       "halfWidth": 11.5,
-      "height": 57.053,
+      "height": 57.028,
       "gradient": [
         -0.03427,
         0
@@ -58,9 +58,9 @@
       ],
       "halfLength": 4.38,
       "halfWidth": 11.5,
-      "height": 56.881,
+      "height": 56.869,
       "gradient": [
-        -0.07346,
+        -0.07061,
         0
       ],
       "minLift": 0.05,
@@ -78,14 +78,31 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/438154039",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "yes",
+          "highway": "secondary",
+          "lanes": "2",
+          "layer": "1",
+          "maxspeed": "80",
+          "mofa": "use_sidepath",
+          "moped": "use_sidepath",
+          "name": "Almeloseweg",
+          "operator": "Provincie Overijssel",
+          "ref": "N746",
+          "smoothness": "good",
+          "surface": "asphalt"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,480000,260000,500000 --run nl-12_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map harbrinkhoek-brug-b8290601 --plaats harbrinkhoek --punt 246394,489621",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -104,7 +121,7 @@
       "oprithelling": 8.8,
       "doorstekend": [],
       "opritHoogtes": [
-        56.903,
+        56.878,
         56.56
       ]
     },

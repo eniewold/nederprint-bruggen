@@ -1,5 +1,5 @@
 {
-  "name": "oud-beijerland-brug-8abeacd5-80",
+  "name": "Poortlaan",
   "file": "oud-beijerland-brug-8abeacd5-80.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,31 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1152867821",
+        "tags": {
+          "bicycle": "designated",
+          "bridge": "yes",
+          "foot": "designated",
+          "highway": "cycleway",
+          "layer": "1",
+          "mofa": "yes",
+          "moped": "no",
+          "name": "Poortlaan",
+          "name:etymology:wikidata": "Q20088853",
+          "oneway": "no",
+          "surface": "asphalt",
+          "traffic_sign": "NL:G11",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,420000,100000,440000 --run nl-4_6 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map oud-beijerland-brug-8abeacd5-80 --plaats oud-beijerland --punt 89453,426094",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

@@ -1,5 +1,5 @@
 {
-  "name": "boskoop-brug-3794f417-116",
+  "name": "Hamwijck",
   "file": "boskoop-brug-3794f417-116.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,24 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/51086746",
+        "tags": {
+          "bridge": "yes",
+          "highway": "residential",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Hamwijck",
+          "zone:traffic": "NL:urban"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ophaalbrug",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,440000,120000,460000 --run nl-5_7 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map boskoop-brug-3794f417-116 --plaats boskoop --punt 105435,454118",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -112,6 +122,6 @@
       "geen FIS-brug binnen 35 m",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

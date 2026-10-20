@@ -13,15 +13,15 @@
     0.706022
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 47.766,
+  "groundHeight": 48.497,
   "groundSamplePoints": [
     [
-      -45.27,
-      -8.76
+      -35.3,
+      0
     ],
     [
-      45.17,
-      14.23
+      35.18,
+      0
     ]
   ],
   "replacesTerrain": [
@@ -46,12 +46,12 @@
       ],
       "halfLength": 29.24,
       "halfWidth": 31.59,
-      "height": 47.381,
+      "height": 47.218,
       "gradient": [
         0,
         0
       ],
-      "minLift": -2.09,
+      "minLift": -2.25,
       "maxLift": -0.01
     },
     {
@@ -65,9 +65,9 @@
       ],
       "halfLength": 12,
       "halfWidth": 33.09,
-      "height": 48.223,
+      "height": 48.518,
       "gradient": [
-        -0.03812,
+        0,
         0
       ],
       "minLift": 0.05,
@@ -84,9 +84,9 @@
       ],
       "halfLength": 12,
       "halfWidth": 33.09,
-      "height": 48.531,
+      "height": 48.507,
       "gradient": [
-        -0.0125,
+        -0.00087,
         0
       ],
       "minLift": 0.05,
@@ -133,7 +133,7 @@
           "frequency": "0",
           "gauge": "1435",
           "layer": "1",
-          "maxspeed": "160",
+          "maxspeed": "80",
           "name": "Plesmanviaduct",
           "operator": "ProRail",
           "passenger_lines": "4",
@@ -143,8 +143,8 @@
           "railway:track_class": "D4",
           "railway:traffic_mode": "passenger",
           "ref": "534b",
-          "ref:ProRailID": "2878129.0",
-          "ref:ProRailSpoortak": "534_1093AR_45.9",
+          "ref:ProRailID": "2878090.0",
+          "ref:ProRailSpoortak": "534_1047BV_45.6",
           "source": "ProRail",
           "source:date": "2014-01-03",
           "usage": "main",
@@ -164,7 +164,7 @@
       "naam": "Plesmanviaduct",
       "straal": 40
     },
-    "opdracht": "node scripts/bridges/genereer.mjs --uit C:/Users/edwar/AppData/Local/Temp/claude/C--Users-edwar-source-Repos-nederprint/3bd9e161-d515-4f1b-bfbf-c9cc2320f835/scratchpad/rail-batch5 --map plesmanviaduct --plaats leiden --punt 92845.74,464367.59 --naam Plesmanviaduct --straal 40",
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 90100,459364,95921,466645 --run leiden-2026-10-20 --overschrijf 1 --parallel 5",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -174,9 +174,10 @@
       "water": null,
       "portaalhoogte": 56,
       "opritafstand": [
-        10,
-        10
+        0,
+        0
       ],
+      "spoorhoogteBron": "prorail-pvs",
       "oprithelling": 24,
       "doorstekend": [
         {
@@ -184,7 +185,7 @@
           "klasse": "Terrain",
           "oppervlak": 30.1,
           "onderDek": 1,
-          "bovenDekOnderkant": 1.09,
+          "bovenDekOnderkant": 1.25,
           "actie": "verbergen"
         },
         {
@@ -192,7 +193,7 @@
           "klasse": "Terrain",
           "oppervlak": 41.4,
           "onderDek": 0.64,
-          "bovenDekOnderkant": 1.09,
+          "bovenDekOnderkant": 1.25,
           "actie": "verlagen"
         },
         {
@@ -200,7 +201,7 @@
           "klasse": "Terrain",
           "oppervlak": 443.4,
           "onderDek": 0.15,
-          "bovenDekOnderkant": 1.08,
+          "bovenDekOnderkant": 1.24,
           "actie": "verlagen"
         },
         {
@@ -208,7 +209,7 @@
           "klasse": "Terrain",
           "oppervlak": 28,
           "onderDek": 1,
-          "bovenDekOnderkant": 1.07,
+          "bovenDekOnderkant": 1.23,
           "actie": "verbergen"
         },
         {
@@ -216,7 +217,7 @@
           "klasse": "Forest",
           "oppervlak": 47.2,
           "onderDek": 0.05,
-          "bovenDekOnderkant": 0.44,
+          "bovenDekOnderkant": 0.6,
           "actie": "verlagen"
         },
         {
@@ -224,7 +225,7 @@
           "klasse": "Terrain",
           "oppervlak": 180.1,
           "onderDek": 0,
-          "bovenDekOnderkant": 0.24,
+          "bovenDekOnderkant": 0.4,
           "actie": "verlagen"
         },
         {
@@ -232,19 +233,19 @@
           "klasse": "Forest",
           "oppervlak": 1287.5,
           "onderDek": 0,
-          "bovenDekOnderkant": 0.19,
+          "bovenDekOnderkant": 0.36,
           "actie": "verlagen"
         }
       ],
       "opritHoogtes": [
-        47.766,
-        48.381
+        48.518,
+        48.497
       ]
     },
     "waarschuwingen": [
       "geen FIS-brug binnen 35 m",
       "7 PDOK-vorm(en) door het dek: 2 verborgen, 5 verlaagd"
     ],
-    "gegenereerd": "2026-10-17"
+    "gegenereerd": "2026-10-20"
   }
 }

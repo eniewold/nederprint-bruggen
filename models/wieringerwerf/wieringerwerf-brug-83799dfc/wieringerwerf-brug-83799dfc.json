@@ -1,5 +1,5 @@
 {
-  "name": "wieringerwerf-brug-83799dfc",
+  "name": "Rijksweg",
   "file": "wieringerwerf-brug-83799dfc.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -88,14 +88,40 @@
           "type": "onbekend"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1314690808",
+        "tags": {
+          "bridge": "yes",
+          "carriageway_ref": "Li",
+          "highway": "motorway",
+          "int_ref": "E 22",
+          "lanes": "3",
+          "layer": "1",
+          "lit": "no",
+          "maxspeed": "100",
+          "maxspeed:conditional": "130 @ (19:00-06:00)",
+          "maxspeed:type": "sign",
+          "maxspeed:type:conditional": "NL:motorway @ (19:00-06:00)",
+          "name": "Rijksweg",
+          "oneway": "yes",
+          "operator": "Rijkswaterstaat",
+          "placement": "right_of:1",
+          "ref": "A7",
+          "surface": "asphalt",
+          "toll:hgv": "yes",
+          "turn:lanes": "none|none|merge_to_left",
+          "zone:traffic": "NL:rural",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 3
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,540000,140000,560000 --run nl-6_12 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map wieringerwerf-brug-83799dfc --plaats wieringerwerf --punt 131347,548400",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

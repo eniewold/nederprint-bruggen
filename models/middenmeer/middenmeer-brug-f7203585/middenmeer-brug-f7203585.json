@@ -1,5 +1,5 @@
 {
-  "name": "middenmeer-brug-f7203585",
+  "name": "Flevoweg",
   "file": "middenmeer-brug-f7203585.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -98,14 +98,26 @@
           "type": "pijler"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/6583090",
+        "tags": {
+          "bridge": "yes",
+          "highway": "tertiary",
+          "layer": "1",
+          "lit": "no",
+          "maxspeed": "60",
+          "name": "Flevoweg",
+          "surface": "asphalt",
+          "zone:maxspeed": "NL:60"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 5
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,520000,140000,540000 --run nl-6_11 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map middenmeer-brug-f7203585 --plaats middenmeer --punt 130504,537321",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

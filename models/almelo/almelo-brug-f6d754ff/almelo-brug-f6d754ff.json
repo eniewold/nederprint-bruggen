@@ -1,5 +1,5 @@
 {
-  "name": "almelo-brug-f6d754ff",
+  "name": "Veldzicht",
   "file": "almelo-brug-f6d754ff.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -13,7 +13,7 @@
     0.917427
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 54.433,
+  "groundHeight": 54.426,
   "groundSamplePoints": [
     [
       -20.7,
@@ -40,9 +40,9 @@
       ],
       "halfLength": 8.21,
       "halfWidth": 2.9,
-      "height": 54.786,
+      "height": 54.782,
       "gradient": [
-        -0.043,
+        -0.0434,
         0
       ],
       "minLift": 0.05,
@@ -83,14 +83,26 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/230514875",
+        "tags": {
+          "bridge": "yes",
+          "highway": "living_street",
+          "layer": "1",
+          "maxspeed": "15",
+          "maxweight:signed": "no",
+          "name": "Veldzicht",
+          "surface": "concrete",
+          "zone:traffic": "NL:urban"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 2
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,480000,260000,500000 --run nl-12_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map almelo-brug-f6d754ff --plaats almelo --punt 243292,487153",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -109,7 +121,7 @@
       "oprithelling": 16.4,
       "doorstekend": [],
       "opritHoogtes": [
-        54.433,
+        54.426,
         54.838
       ]
     },

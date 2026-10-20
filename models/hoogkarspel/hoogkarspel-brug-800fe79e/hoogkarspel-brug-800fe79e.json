@@ -1,5 +1,5 @@
 {
-  "name": "hoogkarspel-brug-800fe79e",
+  "name": "Julianastraat",
   "file": "hoogkarspel-brug-800fe79e.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -88,14 +88,23 @@
           "type": "landhoofd"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/123519406",
+        "tags": {
+          "bridge": "yes",
+          "highway": "residential",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Julianastraat"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 3
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,520000,160000,540000 --run nl-7_11 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map hoogkarspel-brug-800fe79e --plaats hoogkarspel --punt 140963,522970",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -119,6 +128,6 @@
       ]
     },
     "waarschuwingen": [],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

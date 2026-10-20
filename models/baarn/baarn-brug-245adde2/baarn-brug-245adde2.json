@@ -1,5 +1,5 @@
 {
-  "name": "baarn-brug-245adde2",
+  "name": "Emmabrug",
   "file": "baarn-brug-245adde2.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -103,14 +103,34 @@
           "type": "landhoofd"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/366105692",
+        "tags": {
+          "bicycle": "no",
+          "bridge": "yes",
+          "foot": "no",
+          "highway": "primary",
+          "lane_markings": "yes",
+          "lanes": "2",
+          "layer": "1",
+          "maxspeed": "50",
+          "mofa": "no",
+          "moped": "no",
+          "name": "Emmabrug",
+          "operator": "Provincie Utrecht",
+          "ref": "N221",
+          "surface": "asphalt",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 2
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,460000,160000,480000 --run nl-7_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map baarn-brug-245adde2 --plaats baarn --punt 146993,469035",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -142,17 +162,17 @@
           "actie": "verlagen"
         },
         {
-          "gmlId": "L0004.0f9f98d586ed4166b3f7a2cab3c473d4",
+          "gmlId": "G0308.86011acf6bb74701ad010ff4a66b1d89",
           "klasse": "Forest",
-          "oppervlak": 2112.7,
+          "oppervlak": 464.9,
           "onderDek": 0,
           "bovenDekOnderkant": 0.64,
           "actie": "verlagen"
         },
         {
-          "gmlId": "G0308.86011acf6bb74701ad010ff4a66b1d89",
+          "gmlId": "L0004.0f9f98d586ed4166b3f7a2cab3c473d4",
           "klasse": "Forest",
-          "oppervlak": 464.9,
+          "oppervlak": 1055.9,
           "onderDek": 0,
           "bovenDekOnderkant": 0.64,
           "actie": "verlagen"
@@ -191,6 +211,6 @@
       "geen FIS-brug binnen 35 m",
       "7 PDOK-vorm(en) door het dek: 1 verborgen, 6 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

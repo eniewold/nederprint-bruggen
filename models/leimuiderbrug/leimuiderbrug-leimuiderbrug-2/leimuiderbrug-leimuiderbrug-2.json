@@ -87,14 +87,20 @@
       "osm": {
         "id": "relation/7426175",
         "tags": {
+          "bicycle": "no",
           "bridge": "yes",
-          "highway": "busway",
+          "foot": "no",
+          "highway": "primary",
+          "lanes": "4",
           "layer": "1",
           "maxspeed": "80",
+          "name": "Leimuiderbrug",
           "oneway": "yes",
           "operator": "Provincie Noord-Holland",
+          "ref": "N207",
+          "toll:hgv": "yes",
+          "turn:lanes": "left|through|through|right",
           "man_made": "bridge",
-          "name": "Leimuiderbrug",
           "wikidata": "Q31879146",
           "wikipedia": "nl:Leimuiderbrug (brug)"
         }
@@ -102,7 +108,7 @@
       "fis": {
         "id": 25728,
         "naam": "Leimuiderbrug",
-        "afstand": 21,
+        "afstand": 19,
         "beweegbaar": true,
         "doorvaarthoogteGesloten": 2.57
       },
@@ -111,7 +117,7 @@
     "type": "ophaalbrug",
     "doorvaarthoogte": 2.57,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,460000,120000,480000 --run nl-5_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map leimuiderbrug-leimuiderbrug-2 --plaats leimuiderbrug --punt 105988,471655",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -122,7 +128,7 @@
         -12.2,
         19.8
       ],
-      "portaalhoogte": 20.8,
+      "portaalhoogte": 20.2,
       "opritafstand": [
         20,
         20
@@ -137,6 +143,6 @@
     "waarschuwingen": [
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "name": "bilthoven-brug-76b24bf8",
+  "name": "Spoorlaan",
   "file": "bilthoven-brug-76b24bf8.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -98,14 +98,26 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/496700996",
+        "tags": {
+          "bridge": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "moped": "no",
+          "name": "Spoorlaan",
+          "traffic_sign": "NL:G11",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,460000,160000,480000 --run nl-7_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map bilthoven-brug-76b24bf8 --plaats bilthoven --punt 142392,460188",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -156,6 +168,6 @@
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
       "3 PDOK-vorm(en) door het dek: 1 verborgen, 2 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

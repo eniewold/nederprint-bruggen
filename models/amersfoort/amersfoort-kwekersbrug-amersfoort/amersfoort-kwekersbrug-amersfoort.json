@@ -1,5 +1,5 @@
 {
-  "name": "Kwekersbrug Amersfoort",
+  "name": "Kwekersbrug",
   "file": "amersfoort-kwekersbrug-amersfoort.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,20 +78,31 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/379812820",
+        "tags": {
+          "bridge": "movable",
+          "bridge:movable": "bascule",
+          "layer": "1",
+          "man_made": "bridge",
+          "name": "Kwekersbrug",
+          "operator": "Gemeente Amersfoort",
+          "wikidata": "Q3168900"
+        }
+      },
       "fis": {
         "id": 8917,
         "naam": "Kwekersbrug Amersfoort",
-        "afstand": 3,
+        "afstand": 1,
         "beweegbaar": true,
         "doorvaarthoogteGesloten": 1.8
       },
       "pdokBridgeVlakken": 1
     },
-    "type": "ophaalbrug",
+    "type": "basculebrug",
     "doorvaarthoogte": 1.8,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,460000,160000,480000 --run nl-7_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map amersfoort-kwekersbrug-amersfoort --plaats amersfoort --punt 154428,463767",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -118,6 +129,6 @@
       "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

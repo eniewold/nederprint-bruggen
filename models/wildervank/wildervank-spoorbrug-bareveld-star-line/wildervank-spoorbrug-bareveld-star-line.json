@@ -9,8 +9,8 @@
     563861.38
   ],
   "xAxis": [
-    0.362301,
-    0.932061
+    0.362156,
+    0.932117
   ],
   "groundOffsetMetres": 0,
   "groundHeight": 48.669,
@@ -38,14 +38,14 @@
         563829.32
       ],
       "axis": [
-        -0.362301,
-        -0.932061
+        -0.362156,
+        -0.932117
       ],
       "halfLength": 12,
       "halfWidth": 4.57,
       "height": 48.844,
       "gradient": [
-        -0.01463,
+        -0.01462,
         0
       ],
       "minLift": 0.05,
@@ -57,8 +57,8 @@
         563893.44
       ],
       "axis": [
-        0.362301,
-        0.932061
+        0.362156,
+        0.932117
       ],
       "halfLength": 12,
       "halfWidth": 4.57,
@@ -99,20 +99,44 @@
           "type": "landhoofd"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/6300473",
+        "tags": {
+          "bridge": "movable",
+          "bridge:movable": "swing",
+          "description": "Stadskanaal Hoofdstation - Zuidbroek",
+          "electrified": "no",
+          "gauge": "1435",
+          "historic": "railway",
+          "layer": "1",
+          "operator": "Stichting Stadskanaal Rail",
+          "railway": "rail",
+          "railway:atb": "no",
+          "railway:etcs": "no",
+          "railway:gnt": "no",
+          "railway:lzb": "no",
+          "railway:preserved": "yes",
+          "railway:pzb": "no",
+          "ref": "305a",
+          "ref:ProRailSpoortak": "305_6V_3.1",
+          "source": "ProRail",
+          "source:date": "2014-01-03",
+          "usage": "tourism"
+        }
+      },
       "fis": {
         "id": 49841,
         "naam": "Spoorbrug Bareveld (STAR) line",
-        "afstand": 4,
+        "afstand": 6,
         "beweegbaar": true,
         "doorvaarthoogteGesloten": 3.6999999999999997
       },
       "pdokBridgeVlakken": 5
     },
-    "type": "ophaalbrug",
+    "type": "draaibrug",
     "doorvaarthoogte": 3.6999999999999997,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,560000,260000,580000 --run nl-12_13 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map wildervank-spoorbrug-bareveld-star-line --plaats wildervank --punt 253065,563861",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

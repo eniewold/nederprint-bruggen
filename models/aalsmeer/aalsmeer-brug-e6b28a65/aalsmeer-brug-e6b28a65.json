@@ -9,18 +9,18 @@
     476196.2
   ],
   "xAxis": [
-    0.875198,
-    0.483765
+    0.483765,
+    -0.875198
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 39.537,
+  "groundHeight": 45.587,
   "groundSamplePoints": [
     [
-      -32.31,
+      -52.88,
       0
     ],
     [
-      32.29,
+      52.94,
       0
     ]
   ],
@@ -39,35 +39,16 @@
   "terrainCorrections": [
     {
       "centre": [
-        113930.45,
-        476196.2
+        113908.73,
+        476235.48
       ],
       "axis": [
-        0.875198,
-        0.483765
-      ],
-      "halfLength": 8.67,
-      "halfWidth": 30.74,
-      "height": 38.602,
-      "gradient": [
-        0,
-        0
-      ],
-      "minLift": -7.83,
-      "maxLift": -0.01
-    },
-    {
-      "centre": [
-        113907.08,
-        476183.28
-      ],
-      "axis": [
-        -0.875198,
-        -0.483765
+        -0.483765,
+        0.875198
       ],
       "halfLength": 12,
-      "halfWidth": 32.24,
-      "height": 39.752,
+      "halfWidth": 16.67,
+      "height": 45.825,
       "gradient": [
         -0.0125,
         0
@@ -77,18 +58,18 @@
     },
     {
       "centre": [
-        113953.79,
-        476209.1
+        113952.19,
+        476156.86
       ],
       "axis": [
-        0.875198,
-        0.483765
+        0.483765,
+        -0.875198
       ],
       "halfLength": 12,
-      "halfWidth": 32.24,
-      "height": 39.719,
+      "halfWidth": 16.67,
+      "height": 45.781,
       "gradient": [
-        -0.01522,
+        -0.01617,
         0
       ],
       "minLift": 0.05,
@@ -152,10 +133,9 @@
           "hazmat:D": "yes",
           "hazmat:E": "yes",
           "highway": "trunk",
-          "lanes": "2",
+          "lanes": "3",
           "layer": "1",
           "lit": "yes",
-          "maxheight": "4.3",
           "maxspeed": "80",
           "motorroad": "yes",
           "name": "Burgemeester Brouwerweg",
@@ -163,6 +143,7 @@
           "operator": "Provincie Noord-Holland",
           "ref": "N201",
           "surface": "asphalt",
+          "turn:lanes": "none|none|slight_right",
           "zone:traffic": "NL:rural",
           "man_made": "bridge"
         }
@@ -173,128 +154,32 @@
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,460000,120000,480000 --run nl-5_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map aalsmeer-brug-e6b28a65 --plaats aalsmeer --punt 113930,476196",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
-      "dekLengte": 29.3,
-      "dekBreedte": 60.5,
-      "brugLengte": 29.4,
-      "water": null,
-      "portaalhoogte": 54.4,
+      "dekLengte": 60.5,
+      "dekBreedte": 29.3,
+      "brugLengte": 65.8,
+      "water": [
+        -20.4,
+        -4.4
+      ],
+      "portaalhoogte": 26.4,
       "opritafstand": [
-        17.6,
-        17.6
+        20,
+        20
       ],
       "oprithelling": 24,
-      "doorstekend": [
-        {
-          "gmlId": "P0027.df6b9a5611914c7688bcfbd727c93267",
-          "klasse": "Terrain",
-          "oppervlak": 160.4,
-          "onderDek": 0.57,
-          "bovenDekOnderkant": 6.83,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "P0027.b3bab57a418b42c88806654090b2c162",
-          "klasse": "Terrain",
-          "oppervlak": 173.6,
-          "onderDek": 0.57,
-          "bovenDekOnderkant": 6.59,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "G0358.342e5eb584bb4ed892f065a527b4d619",
-          "klasse": "Terrain",
-          "oppervlak": 683.4,
-          "onderDek": 0.09,
-          "bovenDekOnderkant": 5.47,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "P0027.3553c24344c64ba6b20ad625b2975499",
-          "klasse": "Terrain",
-          "oppervlak": 1721.6,
-          "onderDek": 0.08,
-          "bovenDekOnderkant": 5.06,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "G0362.6d9d363d86554d9daaa8b26ce9aba196",
-          "klasse": "Terrain",
-          "oppervlak": 117.9,
-          "onderDek": 0.3,
-          "bovenDekOnderkant": 4.33,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "G0358.4da35aa5c5de40159d06ad5bf8597d0f",
-          "klasse": "Terrain",
-          "oppervlak": 210.5,
-          "onderDek": 0.32,
-          "bovenDekOnderkant": 1.7,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "G0358.3f523e7af48942f2898a7f458701444c",
-          "klasse": "Terrain",
-          "oppervlak": 212.4,
-          "onderDek": 0.23,
-          "bovenDekOnderkant": 0.67,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "G0358.ce338b691c6f408cb3e604e6d9695ef5",
-          "klasse": "Road",
-          "oppervlak": 2082.2,
-          "onderDek": 0.07,
-          "bovenDekOnderkant": 0.67,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "G0358.92280866554e47e4a27b4e57ea7309d9",
-          "klasse": "Road",
-          "oppervlak": 128.8,
-          "onderDek": 0.28,
-          "bovenDekOnderkant": 0.44,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "G0358.e1f89d0fd6c049a3a488b729d6452c92",
-          "klasse": "Road",
-          "oppervlak": 278.9,
-          "onderDek": 0.26,
-          "bovenDekOnderkant": 0.44,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "G0358.546b34a4324d46bdab486f2e39cc88f1",
-          "klasse": "Terrain",
-          "oppervlak": 57.6,
-          "onderDek": 0.21,
-          "bovenDekOnderkant": 0.36,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "G0358.71c5cd2a39d34d2891eeb2a239db3354",
-          "klasse": "Terrain",
-          "oppervlak": 360.8,
-          "onderDek": 0.09,
-          "bovenDekOnderkant": 0.13,
-          "actie": "verlagen"
-        }
-      ],
+      "doorstekend": [],
       "opritHoogtes": [
-        39.602,
-        39.537
+        45.675,
+        45.587
       ]
     },
     "waarschuwingen": [
-      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
-      "geen FIS-brug binnen 35 m",
-      "12 PDOK-vorm(en) door het dek: 0 verborgen, 12 verlaagd"
+      "geen FIS-brug binnen 35 m"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "name": "enter-brug-29c622a2-4",
+  "name": "Kartelaarsdijk",
   "file": "enter-brug-29c622a2-4.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -39,9 +39,9 @@
       ],
       "halfLength": 9.74,
       "halfWidth": 3.46,
-      "height": 54.235,
+      "height": 54.232,
       "gradient": [
-        -0.01664,
+        -0.01635,
         0
       ],
       "minLift": 0.05,
@@ -58,7 +58,7 @@
       ],
       "halfLength": 9.74,
       "halfWidth": 3.46,
-      "height": 54.247,
+      "height": 54.241,
       "gradient": [
         -0.0154,
         0
@@ -78,14 +78,31 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/6684632",
+        "tags": {
+          "bridge": "movable",
+          "bridge:movable": "drawbridge",
+          "highway": "unclassified",
+          "lanes": "1",
+          "layer": "1",
+          "maxaxleload": "5",
+          "maxspeed": "60",
+          "maxweight": "20",
+          "name": "Kartelaarsdijk",
+          "note": "Ik vermoed dat dit geen beweegbare brug is en dat de hameipoort en balans fictief zijn",
+          "sidewalk": "no",
+          "smoothness": "good",
+          "surface": "asphalt"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
-    "type": "ligger",
+    "type": "ophaalbrug",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,460000,240000,480000 --run nl-11_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map enter-brug-29c622a2-4 --plaats enter --punt 237997,478130",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -105,10 +122,11 @@
       "doorstekend": [],
       "opritHoogtes": [
         54.073,
-        54.097
+        54.091
       ]
     },
     "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
     "gegenereerd": "2026-10-20"

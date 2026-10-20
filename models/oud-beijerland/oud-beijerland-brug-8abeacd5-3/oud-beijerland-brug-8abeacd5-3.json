@@ -1,5 +1,5 @@
 {
-  "name": "oud-beijerland-brug-8abeacd5-3",
+  "name": "2e Kruisweg",
   "file": "oud-beijerland-brug-8abeacd5-3.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,30 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/7506151",
+        "tags": {
+          "bridge": "yes",
+          "highway": "unclassified",
+          "layer": "1",
+          "lit": "no",
+          "maxaxleload": "2.4",
+          "maxspeed": "60",
+          "maxwidth": "2.2",
+          "name": "2e Kruisweg",
+          "official_name": "Tweede Kruisweg",
+          "operator": "Waterschap Hollandse Delta",
+          "surface": "asphalt",
+          "zone:traffic": "NL:rural"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,420000,100000,440000 --run nl-4_6 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map oud-beijerland-brug-8abeacd5-3 --plaats oud-beijerland --punt 88571,422595",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

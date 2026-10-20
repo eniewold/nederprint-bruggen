@@ -1,5 +1,5 @@
 {
-  "name": "slootdorp-brug-47e6e75c",
+  "name": "Schelpenbolweg",
   "file": "slootdorp-brug-47e6e75c.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,23 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/6571064",
+        "tags": {
+          "bridge": "yes",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Schelpenbolweg"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,540000,140000,560000 --run nl-6_12 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map slootdorp-brug-47e6e75c --plaats slootdorp --punt 128264,542739",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

@@ -1,5 +1,5 @@
 {
-  "name": "dirksland-brug-1eed3507",
+  "name": "Trambrug",
   "file": "dirksland-brug-1eed3507.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -83,14 +83,26 @@
           "type": "landhoofd"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1029611433",
+        "tags": {
+          "bridge": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "name": "Trambrug",
+          "operator": "Gemeente Goeree-Overflakkee",
+          "surface": "wood",
+          "zone:traffic": "NL:urban",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 2
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 60000,400000,80000,420000 --run nl-3_5 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map dirksland-brug-1eed3507 --plaats dirksland --punt 66382,418788",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

@@ -1,5 +1,5 @@
 {
-  "name": "muiden-brug-1e63bb93",
+  "name": "Amsterdamsepoortbrug",
   "file": "muiden-brug-1e63bb93.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -98,14 +98,27 @@
           "type": "sloof"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/7039434",
+        "tags": {
+          "bicycle": "yes",
+          "bridge": "yes",
+          "highway": "residential",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Amsterdamsepoortbrug",
+          "oneway": "no",
+          "surface": "asphalt",
+          "zone:traffic": "NL:urban"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 5
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map muiden-brug-1e63bb93 --plaats muiden --punt 133127,482570",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -129,6 +142,6 @@
       ]
     },
     "waarschuwingen": [],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

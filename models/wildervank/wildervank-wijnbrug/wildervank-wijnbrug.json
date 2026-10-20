@@ -1,5 +1,5 @@
 {
-  "name": "Wijnbrug",
+  "name": "Brug de Eendracht",
   "file": "wildervank-wijnbrug.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,7 +78,18 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/6380900",
+        "tags": {
+          "bridge": "movable",
+          "bridge:movable": "bascule",
+          "highway": "residential",
+          "layer": "1",
+          "maxheight": "2.5",
+          "maxspeed": "50",
+          "name": "Brug de Eendracht"
+        }
+      },
       "fis": {
         "id": 2920,
         "naam": "Wijnbrug",
@@ -88,10 +99,10 @@
       },
       "pdokBridgeVlakken": 1
     },
-    "type": "ophaalbrug",
+    "type": "basculebrug",
     "doorvaarthoogte": 1,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,560000,260000,580000 --run nl-12_13 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map wildervank-wijnbrug --plaats wildervank --punt 254188,567675",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

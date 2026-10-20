@@ -1,5 +1,5 @@
 {
-  "name": "raalte-brug-a32466a0",
+  "name": "Hagweg",
   "file": "raalte-brug-a32466a0.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -13,7 +13,7 @@
     -0.953183
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 48.24,
+  "groundHeight": 48.234,
   "groundSamplePoints": [
     [
       -23.85,
@@ -39,9 +39,9 @@
       ],
       "halfLength": 10.84,
       "halfWidth": 3.65,
-      "height": 48.514,
+      "height": 48.511,
       "gradient": [
-        -0.02528,
+        -0.02559,
         0
       ],
       "minLift": 0.05,
@@ -78,14 +78,27 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/6808399",
+        "tags": {
+          "bridge": "yes",
+          "bridge:name": "Hagbrug",
+          "highway": "unclassified",
+          "lanes": "1",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Hagweg",
+          "smoothness": "intermediate",
+          "surface": "asphalt"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 200000,480000,220000,500000 --run nl-10_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map raalte-brug-a32466a0 --plaats raalte --punt 217272,491198",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -104,7 +117,7 @@
       "oprithelling": 21.7,
       "doorstekend": [],
       "opritHoogtes": [
-        48.24,
+        48.234,
         48.489
       ]
     },
@@ -112,6 +125,6 @@
       "geen FIS-brug binnen 35 m",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

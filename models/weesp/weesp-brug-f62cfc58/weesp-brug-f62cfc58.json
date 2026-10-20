@@ -13,7 +13,7 @@
     0.341209
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 41.977,
+  "groundHeight": 41.975,
   "groundSamplePoints": [
     [
       -22.52,
@@ -39,9 +39,9 @@
       ],
       "halfLength": 10.24,
       "halfWidth": 3.46,
-      "height": 42.221,
+      "height": 42.22,
       "gradient": [
-        -0.02392,
+        -0.02402,
         0
       ],
       "minLift": 0.05,
@@ -78,14 +78,27 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1350779145",
+        "tags": {
+          "bicycle": "yes",
+          "bridge": "yes",
+          "highway": "footway",
+          "layer": "1",
+          "oneway": "no",
+          "surface": "asphalt",
+          "surface:colour": "yellow",
+          "zone:traffic": "NL:urban",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map weesp-brug-f62cfc58 --plaats weesp --punt 131035,481361",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -104,7 +117,7 @@
       "oprithelling": 20.5,
       "doorstekend": [],
       "opritHoogtes": [
-        41.977,
+        41.975,
         42.166
       ]
     },
@@ -112,6 +125,6 @@
       "geen FIS-brug binnen 35 m",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

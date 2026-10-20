@@ -1,5 +1,5 @@
 {
-  "name": "den-ham-brug-bbd49b5a",
+  "name": "Ganzenmars",
   "file": "den-ham-brug-bbd49b5a.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,24 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1011994971",
+        "tags": {
+          "bridge": "yes",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Ganzenmars",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,480000,240000,500000 --run nl-11_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map den-ham-brug-bbd49b5a --plaats den-ham --punt 229851,499010",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

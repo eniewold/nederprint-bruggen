@@ -1,5 +1,5 @@
 {
-  "name": "Middenmeerbrug (Zuidzijde)",
+  "name": "Middenmeerbrug",
   "file": "middenmeer-middenmeerbrug-zuidzijde-2.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,11 +78,28 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1465167077",
+        "tags": {
+          "bridge": "movable",
+          "bridge:movable": "drawbridge",
+          "cycleway:right": "lane",
+          "highway": "tertiary",
+          "lanes": "1",
+          "layer": "1",
+          "maxspeed": "50",
+          "name": "Middenmeerbrug",
+          "oneway": "yes",
+          "sidewalk": "right",
+          "surface": "asphalt",
+          "zone:traffic": "NL:urban",
+          "man_made": "bridge"
+        }
+      },
       "fis": {
         "id": 28944,
         "naam": "Middenmeerbrug (Zuidzijde)",
-        "afstand": 9,
+        "afstand": 10,
         "beweegbaar": true,
         "doorvaarthoogteGesloten": 2.6
       },
@@ -91,7 +108,7 @@
     "type": "ophaalbrug",
     "doorvaarthoogte": 2.6,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,520000,140000,540000 --run nl-6_11 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map middenmeer-middenmeerbrug-zuidzijde-2 --plaats middenmeer --punt 128377,536186",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -102,7 +119,7 @@
         -13.1,
         13.4
       ],
-      "portaalhoogte": 8.3,
+      "portaalhoogte": 6.3,
       "opritafstand": [
         16.3,
         16.3

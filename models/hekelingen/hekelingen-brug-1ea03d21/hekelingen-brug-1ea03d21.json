@@ -1,5 +1,5 @@
 {
-  "name": "hekelingen-brug-1ea03d21",
+  "name": "Jan Hoogstadlaan",
   "file": "hekelingen-brug-1ea03d21.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -97,14 +97,24 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1120403630",
+        "tags": {
+          "bridge": "yes",
+          "highway": "residential",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Jan Hoogstadlaan",
+          "zone:traffic": "NL:urban"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,420000,100000,440000 --run nl-4_6 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map hekelingen-brug-1ea03d21 --plaats hekelingen --punt 82889,426932",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

@@ -97,20 +97,28 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/129992694",
+        "tags": {
+          "bridge": "movable",
+          "highway": "cycleway",
+          "layer": "1",
+          "surface": "asphalt"
+        }
+      },
       "fis": {
         "id": 53546,
         "naam": "Brug over bovenhoofd Nanningaverlaat",
-        "afstand": 4,
+        "afstand": 3,
         "beweegbaar": true,
         "doorvaarthoogteGesloten": 0.3
       },
       "pdokBridgeVlakken": 1
     },
-    "type": "ophaalbrug",
+    "type": "basculebrug",
     "doorvaarthoogte": 0.3,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 200000,540000,220000,560000 --run nl-10_12 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map oosterwolde-brug-over-bovenhoofd-nanningaverlaat-2 --plaats oosterwolde --punt 214901,556557",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -151,6 +159,7 @@
       ]
     },
     "waarschuwingen": [
+      "bridge=movable zonder mechanisme: basculebrug is een gok",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
       "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
     ],

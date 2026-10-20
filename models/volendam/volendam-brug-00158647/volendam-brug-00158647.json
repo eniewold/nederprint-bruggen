@@ -1,5 +1,5 @@
 {
-  "name": "volendam-brug-00158647",
+  "name": "Doolhof",
   "file": "volendam-brug-00158647.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -97,14 +97,25 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/521608739",
+        "tags": {
+          "bridge": "yes",
+          "disused:bridge:movable": "bascule",
+          "highway": "path",
+          "image": "https://images.mapillary.com/QfMmeK5FNKscpieP2aBZhg/thumb-2048.jpg",
+          "layer": "1",
+          "mapillary": "169310711649286",
+          "name": "Doolhof"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,500000,140000,520000 --run nl-6_10 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map volendam-brug-00158647 --plaats volendam --punt 133873,500890",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -140,6 +151,6 @@
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
       "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

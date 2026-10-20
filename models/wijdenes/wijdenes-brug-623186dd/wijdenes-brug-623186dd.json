@@ -1,5 +1,5 @@
 {
-  "name": "wijdenes-brug-623186dd",
+  "name": "Van Weeldenhof",
   "file": "wijdenes-brug-623186dd.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -88,14 +88,24 @@
           "type": "landhoofd"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1039182366",
+        "tags": {
+          "bridge": "yes",
+          "highway": "residential",
+          "layer": "1",
+          "maxspeed": "50",
+          "name": "Van Weeldenhof",
+          "zone:traffic": "NL:urban"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 3
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,500000,140000,520000 --run nl-6_10 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map wijdenes-brug-623186dd --plaats wijdenes --punt 139932,517119",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -119,6 +129,6 @@
       ]
     },
     "waarschuwingen": [],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

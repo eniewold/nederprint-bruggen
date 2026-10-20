@@ -1,5 +1,5 @@
 {
-  "name": "helmond-brug-40731541",
+  "name": "Engelseweg",
   "file": "helmond-brug-40731541.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -9,18 +9,18 @@
     387180.93
   ],
   "xAxis": [
-    0.92989,
-    0.367839
+    0.930235,
+    0.366963
   ],
   "groundOffsetMetres": 0,
   "groundHeight": 62.506,
   "groundSamplePoints": [
     [
-      -25.05,
+      -25.09,
       0
     ],
     [
-      24.1,
+      24.07,
       0
     ]
   ],
@@ -57,8 +57,8 @@
         387180.93
       ],
       "axis": [
-        0.92989,
-        0.367839
+        0.930235,
+        0.366963
       ],
       "halfLength": 18.58,
       "halfWidth": 40.36,
@@ -72,12 +72,12 @@
     },
     {
       "centre": [
-        173495.32,
-        387167.3
+        173495.27,
+        387167.32
       ],
       "axis": [
-        -0.92989,
-        -0.367839
+        -0.930235,
+        -0.366963
       ],
       "halfLength": 12,
       "halfWidth": 41.86,
@@ -91,12 +91,12 @@
     },
     {
       "centre": [
-        173563.34,
-        387194.21
+        173563.33,
+        387194.17
       ],
       "axis": [
-        0.92989,
-        0.367839
+        0.930235,
+        0.366963
       ],
       "halfLength": 12,
       "halfWidth": 41.86,
@@ -218,14 +218,34 @@
           "type": "landhoofd"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/692845762",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "movable",
+          "bridge:movable": "lift",
+          "foot": "use_sidepath",
+          "highway": "tertiary_link",
+          "lanes": "1",
+          "layer": "1",
+          "maxspeed": "50",
+          "name": "Engelseweg",
+          "note": "Brug is beweegbaar, maar wordt niet meer als zodanig gebruikt, omdat er geen scheepvaart meer door het kanaal gaat.",
+          "oneway": "yes",
+          "turn:lanes": "right",
+          "zone:traffic": "NL:urban",
+          "man_made": "bridge",
+          "wikidata": "Q130709744",
+          "bridge:structure": "beam"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 24
     },
     "type": "ophaalbrug",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,380000,180000,400000 --run nl-8_4 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map helmond-brug-40731541 --plaats helmond --punt 173530,387181",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -233,10 +253,10 @@
       "dekBreedte": 79.7,
       "brugLengte": 49.2,
       "water": [
-        -9.6,
+        -9.1,
         10.4
       ],
-      "portaalhoogte": 71.7,
+      "portaalhoogte": 71.8,
       "opritafstand": [
         0,
         0

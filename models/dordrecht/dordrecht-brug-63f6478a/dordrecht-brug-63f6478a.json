@@ -1,5 +1,5 @@
 {
-  "name": "dordrecht-brug-63f6478a",
+  "name": "Vriesestraat",
   "file": "dordrecht-brug-63f6478a.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,35 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/457907339",
+        "tags": {
+          "bridge": "yes",
+          "bridge:name": "Vriesebrug",
+          "bridge:wikidata": "Q62105259",
+          "bridge:wikimedia_commons": "Category:Vriesebrug, Dordrecht",
+          "bridge:wikipedia": "nl:Vriesebrug",
+          "highway": "cycleway",
+          "layer": "1",
+          "moped": "no",
+          "name": "Vriesestraat",
+          "oneway": "yes",
+          "surface": "asphalt",
+          "traffic_sign": "NL:G11",
+          "wikidata": "Q62105259",
+          "wikimedia_commons": "Category:Vriesebrug, Dordrecht",
+          "wikipedia": "nl:Vriesebrug",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,420000,120000,440000 --run nl-5_6 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map dordrecht-brug-63f6478a --plaats dordrecht --punt 105582,425069",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -113,6 +134,6 @@
       "oprit - pas op 17.6 m gemeten",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

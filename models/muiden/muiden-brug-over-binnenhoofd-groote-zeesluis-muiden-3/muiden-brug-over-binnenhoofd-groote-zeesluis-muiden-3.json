@@ -78,7 +78,27 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1020122981",
+        "tags": {
+          "bridge": "yes",
+          "highway": "residential",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "30",
+          "motor_vehicle:conditional": "no @ Su 12:00-17:00",
+          "note": "the street has no name",
+          "source": "survey",
+          "surface": "asphalt",
+          "zone:traffic": "NL:urban",
+          "barrier": "wall",
+          "bridge:structure": "beam",
+          "bridge:type": "aanbrug",
+          "man_made": "bridge",
+          "material": "masonry",
+          "bridge:movable": "swing"
+        }
+      },
       "fis": {
         "id": 50937,
         "naam": "Brug over binnenhoofd Groote Zeesluis Muiden",
@@ -88,10 +108,10 @@
       },
       "pdokBridgeVlakken": 1
     },
-    "type": "ophaalbrug",
+    "type": "draaibrug",
     "doorvaarthoogte": 2,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map muiden-brug-over-binnenhoofd-groote-zeesluis-muiden-3 --plaats muiden --punt 133323,482498",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -118,6 +138,6 @@
       "oprit - pas op 11.1 m gemeten",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

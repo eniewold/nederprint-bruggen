@@ -1,5 +1,5 @@
 {
-  "name": "oud-beijerland-brug-8abeacd5-57",
+  "name": "Karel Doormanstraat",
   "file": "oud-beijerland-brug-8abeacd5-57.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,25 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/987312541",
+        "tags": {
+          "bridge": "yes",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "50",
+          "name": "Karel Doormanstraat",
+          "name:etymology:wikidata": "Q437690",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,420000,100000,440000 --run nl-4_6 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map oud-beijerland-brug-8abeacd5-57 --plaats oud-beijerland --punt 87781,426628",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

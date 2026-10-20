@@ -1,5 +1,5 @@
 {
-  "name": "hoogkarspel-brug-9ef3d88f",
+  "name": "Markerwaardweg",
   "file": "hoogkarspel-brug-9ef3d88f.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,32 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/583363712",
+        "tags": {
+          "agricultural": "no",
+          "bicycle": "no",
+          "bridge": "yes",
+          "highway": "primary",
+          "lanes": "2",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "80",
+          "name": "Markerwaardweg",
+          "oneway": "yes",
+          "operator": "Provincie Noord-Holland",
+          "ref": "N240",
+          "source": "local survey & PDOK 0.07 07-07-22",
+          "surface": "asphalt"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ophaalbrug",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,520000,140000,540000 --run nl-6_11 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map hoogkarspel-brug-9ef3d88f --plaats hoogkarspel --punt 139042,523267",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

@@ -9,8 +9,8 @@
     585881.09
   ],
   "xAxis": [
-    0.99999,
-    0.004533
+    0.999988,
+    0.00498
   ],
   "groundOffsetMetres": 0,
   "groundHeight": 43.476,
@@ -34,11 +34,11 @@
     {
       "centre": [
         219611.87,
-        585880.98
+        585880.97
       ],
       "axis": [
-        -0.99999,
-        -0.004533
+        -0.999988,
+        -0.00498
       ],
       "halfLength": 11.77,
       "halfWidth": 5.27,
@@ -53,11 +53,11 @@
     {
       "centre": [
         219658.97,
-        585881.19
+        585881.2
       ],
       "axis": [
-        0.99999,
-        0.004533
+        0.999988,
+        0.00498
       ],
       "halfLength": 11.77,
       "halfWidth": 5.27,
@@ -94,11 +94,32 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/6299832",
+        "tags": {
+          "bridge": "yes",
+          "description": "Leeuwarden - Groningen",
+          "electrified": "no",
+          "gauge": "1435",
+          "layer": "1",
+          "maxspeed": "120",
+          "operator": "ProRail",
+          "passenger_lines": "1",
+          "railway": "rail",
+          "railway:atb": "yes",
+          "railway:track_class": "D2",
+          "railway:traffic_mode": "passenger",
+          "ref": "002",
+          "ref:ProRailSpoortak": "002_373V_63.7",
+          "source": "ProRail",
+          "source:date": "2014-01-03",
+          "usage": "branch"
+        }
+      },
       "fis": {
         "id": 26708,
         "naam": "Spoorbrug Oxwerd",
-        "afstand": 1,
+        "afstand": 2,
         "beweegbaar": false,
         "doorvaarthoogteGesloten": 3
       },
@@ -107,7 +128,7 @@
     "type": "ligger",
     "doorvaarthoogte": 3,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 200000,580000,220000,600000 --run nl-10_14 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map noordhorn-spoorbrug-oxwerd --plaats noordhorn --punt 219635,585881",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

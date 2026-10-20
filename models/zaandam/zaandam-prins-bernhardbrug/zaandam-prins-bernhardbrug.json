@@ -153,16 +153,21 @@
       "osm": {
         "id": "way/727863911",
         "tags": {
-          "bicycle": "dismount",
+          "bicycle": "use_sidepath",
           "bridge": "yes",
           "bridge:name": "Prins Bernhardbrug",
           "bridge:ref": "1002",
-          "highway": "steps",
-          "incline": "up",
+          "highway": "primary",
+          "lanes": "2",
           "layer": "1",
-          "man_made": "bridge",
+          "lit": "yes",
+          "maxspeed": "50",
           "name": "Prins Bernhardbrug",
-          "ref": "1002"
+          "operator": "Gemeente Zaanstad",
+          "ref": "1002",
+          "surface": "asphalt",
+          "zone:traffic": "NL:urban",
+          "man_made": "bridge"
         }
       },
       "fis": null,
@@ -171,7 +176,7 @@
     "type": "ophaalbrug",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,480000,120000,500000 --run nl-5_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map zaandam-prins-bernhardbrug --plaats zaandam --punt 116396,496159",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -198,6 +203,6 @@
       "geen FIS-brug binnen 35 m",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

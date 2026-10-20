@@ -1,5 +1,5 @@
 {
-  "name": "oud-beijerland-brug-8abeacd5-28",
+  "name": "Componistenpad",
   "file": "oud-beijerland-brug-8abeacd5-28.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -97,14 +97,28 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1160222328",
+        "tags": {
+          "bicycle": "designated",
+          "bridge": "yes",
+          "foot": "designated",
+          "highway": "cycleway",
+          "layer": "1",
+          "name": "Componistenpad",
+          "name:etymology:wikidata": "Q36834",
+          "segregated": "yes",
+          "surface": "paved",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,420000,100000,440000 --run nl-4_6 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map oud-beijerland-brug-8abeacd5-28 --plaats oud-beijerland --punt 89076,425692",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

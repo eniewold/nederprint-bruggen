@@ -1,5 +1,5 @@
 {
-  "name": "almelo-brug-19aa4878",
+  "name": "Slagenweg",
   "file": "almelo-brug-19aa4878.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -108,14 +108,31 @@
           "type": "sloof"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/6676345",
+        "tags": {
+          "bridge": "yes",
+          "cycleway:both": "no",
+          "highway": "unclassified",
+          "lanes": "1",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "50",
+          "maxweight:signed": "no",
+          "name": "Slagenweg",
+          "sidewalk": "right",
+          "sidewalk:right:surface": "paving_stones",
+          "smoothness": "good",
+          "surface": "asphalt"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 7
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,480000,260000,500000 --run nl-12_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map almelo-brug-19aa4878 --plaats almelo --punt 243531,489264",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

@@ -13,15 +13,15 @@
     -0.146482
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 47.762,
+  "groundHeight": 48.222,
   "groundSamplePoints": [
     [
-      -12.23,
-      5.22
+      -2.23,
+      0
     ],
     [
-      102.21,
-      9.5
+      2.21,
+      0
     ]
   ],
   "replacesTerrain": [
@@ -54,9 +54,9 @@
       ],
       "halfLength": 3,
       "halfWidth": 31.38,
-      "height": 48.651,
+      "height": 48.259,
       "gradient": [
-        -0.2962,
+        -0.01232,
         0
       ],
       "minLift": 0.05,
@@ -73,9 +73,9 @@
       ],
       "halfLength": 3,
       "halfWidth": 31.38,
-      "height": 49.39,
+      "height": 48.296,
       "gradient": [
-        -0.05,
+        0,
         0
       ],
       "minLift": 0.05,
@@ -167,8 +167,22 @@
       "osm": {
         "id": "way/493664157",
         "tags": {
-          "barrier": "retaining_wall",
+          "bridge": "yes",
+          "dog": "leashed",
+          "foot": "yes",
+          "highway": "cycleway",
           "layer": "-1",
+          "lit": "no",
+          "mofa": "yes",
+          "moped": "no",
+          "name": "De Rivier",
+          "scenic": "yes",
+          "segregated": "no",
+          "smoothness": "good",
+          "surface": "asphalt",
+          "traffic_sign": "NL:G11",
+          "width": "2",
+          "barrier": "retaining_wall",
           "man_made": "bridge",
           "source": "ProRail WMS: Geleidingssysteem 003",
           "source:date": "13-05-2017"
@@ -183,7 +197,7 @@
       "naam": "De Rivier",
       "straal": 40
     },
-    "opdracht": "node scripts/bridges/genereer.mjs --uit C:/Users/edwar/AppData/Local/Temp/claude/C--Users-edwar-source-Repos-nederprint/3bd9e161-d515-4f1b-bfbf-c9cc2320f835/scratchpad/rail-batch5 --map brug-612688d3 --plaats vleuten --punt 128168.04,457376.94 --naam \"De Rivier\" --straal 40",
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 126435,448710,141834,461610 --run utrecht-2026-10-20 --overschrijf 1 --parallel 5",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -196,19 +210,18 @@
       ],
       "portaalhoogte": 52.9,
       "opritafstand": [
-        10,
-        100
+        0,
+        0
       ],
+      "spoorhoogteBron": "prorail-pvs",
       "oprithelling": 6,
       "doorstekend": [],
       "opritHoogtes": [
-        47.762,
-        49.24
+        48.222,
+        48.296
       ]
     },
-    "waarschuwingen": [
-      "oprit + pas op 100 m langs het spoor gemeten (PDOK-spoorterrein bij de brug lager)"
-    ],
-    "gegenereerd": "2026-10-17"
+    "waarschuwingen": [],
+    "gegenereerd": "2026-10-20"
   }
 }

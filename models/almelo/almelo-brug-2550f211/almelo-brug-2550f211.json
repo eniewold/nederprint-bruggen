@@ -1,5 +1,5 @@
 {
-  "name": "almelo-brug-2550f211",
+  "name": "Hagenborgh",
   "file": "almelo-brug-2550f211.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -107,14 +107,28 @@
           "type": "landhoofd"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1455102467",
+        "tags": {
+          "bridge": "yes",
+          "highway": "residential",
+          "layer": "1",
+          "maxspeed": "30",
+          "maxweight:signed": "no",
+          "name": "Hagenborgh",
+          "sidewalk": "both",
+          "smoothness": "excellent",
+          "surface": "asphalt",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 3
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,480000,260000,500000 --run nl-12_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map almelo-brug-2550f211 --plaats almelo --punt 242299,486044",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

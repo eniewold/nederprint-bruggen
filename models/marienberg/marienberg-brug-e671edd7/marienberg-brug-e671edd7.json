@@ -1,5 +1,5 @@
 {
-  "name": "marienberg-brug-e671edd7",
+  "name": "Kloosterdijkbrug",
   "file": "marienberg-brug-e671edd7.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -83,14 +83,26 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/972058785",
+        "tags": {
+          "bridge": "movable",
+          "bridge:movable": "drawbridge",
+          "bridge:name": "Kloosterdijkbrug",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Kloosterdijkbrug",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 2
     },
     "type": "ophaalbrug",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,500000,240000,520000 --run nl-11_10 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map marienberg-brug-e671edd7 --plaats marienberg --punt 236395,502325",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

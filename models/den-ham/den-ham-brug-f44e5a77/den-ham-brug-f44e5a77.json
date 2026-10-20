@@ -1,5 +1,5 @@
 {
-  "name": "den-ham-brug-f44e5a77",
+  "name": "Ganzenpad",
   "file": "den-ham-brug-f44e5a77.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -13,7 +13,7 @@
     -0.995055
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 49.134,
+  "groundHeight": 49.12,
   "groundSamplePoints": [
     [
       -8.52,
@@ -58,9 +58,9 @@
       ],
       "halfLength": 3.87,
       "halfWidth": 1.05,
-      "height": 49.332,
+      "height": 49.325,
       "gradient": [
-        -0.05114,
+        -0.05292,
         0
       ],
       "minLift": 0.05,
@@ -78,14 +78,25 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1011994971",
+        "tags": {
+          "bridge": "yes",
+          "highway": "footway",
+          "layer": "1",
+          "name": "Ganzenpad",
+          "surface": "wood",
+          "width": "0.75",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,480000,240000,500000 --run nl-11_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map den-ham-brug-f44e5a77 --plaats den-ham --punt 229866,499012",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -105,7 +116,7 @@
       "doorstekend": [],
       "opritHoogtes": [
         49.23,
-        49.134
+        49.12
       ]
     },
     "waarschuwingen": [

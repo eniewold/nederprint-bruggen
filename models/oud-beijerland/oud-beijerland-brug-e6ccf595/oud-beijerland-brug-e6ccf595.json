@@ -1,5 +1,5 @@
 {
-  "name": "oud-beijerland-brug-e6ccf595",
+  "name": "Componistenpad",
   "file": "oud-beijerland-brug-e6ccf595.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,24 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/240817686",
+        "tags": {
+          "bridge": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "name": "Componistenpad",
+          "name:etymology:wikidata": "Q36834",
+          "sidewalk": "left"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,420000,100000,440000 --run nl-4_6 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map oud-beijerland-brug-e6ccf595 --plaats oud-beijerland --punt 89055,425476",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

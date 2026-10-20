@@ -78,14 +78,23 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1388636398",
+        "tags": {
+          "bridge": "movable",
+          "highway": "cycleway",
+          "layer": "1",
+          "oneway": "no",
+          "zone:traffic": "NL:urban"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 0
     },
-    "type": "ligger",
+    "type": "basculebrug",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map weesp-brug-b1731785 --plaats weesp --punt 131654,481545",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -109,9 +118,10 @@
       ]
     },
     "waarschuwingen": [
+      "bridge=movable zonder mechanisme: basculebrug is een gok",
       "geen FIS-brug binnen 35 m",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

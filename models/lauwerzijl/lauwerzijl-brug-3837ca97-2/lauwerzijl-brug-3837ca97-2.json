@@ -1,5 +1,5 @@
 {
-  "name": "lauwerzijl-brug-3837ca97-2",
+  "name": "Teenstraweg",
   "file": "lauwerzijl-brug-3837ca97-2.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,26 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/6529567",
+        "tags": {
+          "bridge": "yes",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxaxleload": "4.8",
+          "maxspeed": "60",
+          "name": "Teenstraweg",
+          "smoothness": "good",
+          "surface": "asphalt"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 200000,580000,220000,600000 --run nl-10_14 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map lauwerzijl-brug-3837ca97-2 --plaats lauwerzijl --punt 219511,592318",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

@@ -1,5 +1,5 @@
 {
-  "name": "Lange Vechtbrug (Brug 5043)",
+  "name": "Lange Vechtbrug",
   "file": "weesp-lange-vechtbrug-brug-5043.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -90,11 +90,23 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/483237096",
+        "tags": {
+          "bridge": "yes",
+          "bridge:name": "Lange Vechtbrug",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Lange Vechtbrug",
+          "surface": "asphalt",
+          "man_made": "bridge"
+        }
+      },
       "fis": {
         "id": 49549,
         "naam": "Lange Vechtbrug (Brug 5043)",
-        "afstand": 2,
+        "afstand": 1,
         "beweegbaar": true,
         "doorvaarthoogteGesloten": 1.9
       },
@@ -103,7 +115,7 @@
     "type": "ophaalbrug",
     "doorvaarthoogte": 1.9,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,460000,140000,480000 --run nl-6_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map weesp-lange-vechtbrug-brug-5043 --plaats weesp --punt 131662,479962",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -129,6 +141,6 @@
     "waarschuwingen": [
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

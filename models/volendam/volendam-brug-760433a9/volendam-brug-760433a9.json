@@ -1,5 +1,5 @@
 {
-  "name": "volendam-brug-760433a9",
+  "name": "Kimsterweg",
   "file": "volendam-brug-760433a9.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -13,7 +13,7 @@
     -0.934625
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 42.124,
+  "groundHeight": 42.119,
   "groundSamplePoints": [
     [
       -20.07,
@@ -41,9 +41,9 @@
       ],
       "halfLength": 9.12,
       "halfWidth": 6.75,
-      "height": 42.319,
+      "height": 42.316,
       "gradient": [
-        -0.02129,
+        -0.02158,
         0
       ],
       "minLift": 0.05,
@@ -88,14 +88,25 @@
           "type": "landhoofd"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/560472343",
+        "tags": {
+          "bicycle": "no",
+          "bridge": "yes",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Kimsterweg",
+          "zone:traffic": "NL:urban"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 3
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,500000,140000,520000 --run nl-6_10 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map volendam-brug-760433a9 --plaats volendam --punt 134122,502253",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -114,11 +125,11 @@
       "oprithelling": 18.2,
       "doorstekend": [],
       "opritHoogtes": [
-        42.124,
+        42.119,
         42.213
       ]
     },
     "waarschuwingen": [],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

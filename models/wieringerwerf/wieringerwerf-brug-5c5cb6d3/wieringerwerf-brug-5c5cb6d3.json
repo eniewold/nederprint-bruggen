@@ -1,5 +1,5 @@
 {
-  "name": "wieringerwerf-brug-5c5cb6d3",
+  "name": "Westerterpweg",
   "file": "wieringerwerf-brug-5c5cb6d3.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -118,14 +118,35 @@
           "type": "landhoofd"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1465164753",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "yes",
+          "foot": "use_sidepath",
+          "highway": "primary",
+          "lanes": "1",
+          "layer": "1",
+          "maxspeed": "80",
+          "mofa": "use_sidepath",
+          "moped": "use_sidepath",
+          "name": "Westerterpweg",
+          "oneway": "yes",
+          "operator": "Provincie Noord-Holland",
+          "ref": "N240",
+          "surface": "asphalt",
+          "wikidata": "Q19565474",
+          "zone:traffic": "NL:rural",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 9
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,520000,140000,540000 --run nl-6_11 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map wieringerwerf-brug-5c5cb6d3 --plaats wieringerwerf --punt 130105,539603",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

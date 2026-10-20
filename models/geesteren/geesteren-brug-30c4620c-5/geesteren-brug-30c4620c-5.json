@@ -1,5 +1,5 @@
 {
-  "name": "geesteren-brug-30c4620c-5",
+  "name": "Vermolenweg",
   "file": "geesteren-brug-30c4620c-5.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -13,7 +13,7 @@
     -0.521598
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 56.45,
+  "groundHeight": 56.447,
   "groundSamplePoints": [
     [
       -16.82,
@@ -39,9 +39,9 @@
       ],
       "halfLength": 7.65,
       "halfWidth": 3.98,
-      "height": 56.609,
+      "height": 56.608,
       "gradient": [
-        -0.02079,
+        -0.02099,
         0
       ],
       "minLift": 0.05,
@@ -78,14 +78,28 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/55580790",
+        "tags": {
+          "bridge": "yes",
+          "hgv": "destination",
+          "highway": "unclassified",
+          "lanes": "1",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Vermolenweg",
+          "sidewalk": "no",
+          "smoothness": "good",
+          "surface": "concrete"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,480000,260000,500000 --run nl-12_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map geesteren-brug-30c4620c-5 --plaats geesteren --punt 244871,495031",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -104,7 +118,7 @@
       "oprithelling": 15.3,
       "doorstekend": [],
       "opritHoogtes": [
-        56.45,
+        56.447,
         56.468
       ]
     },

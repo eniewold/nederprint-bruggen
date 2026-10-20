@@ -1,5 +1,5 @@
 {
-  "name": "amersfoort-brug-6ce7fb88",
+  "name": "Mauritskamp",
   "file": "amersfoort-brug-6ce7fb88.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -43,9 +43,9 @@
       ],
       "halfLength": 12,
       "halfWidth": 8.21,
-      "height": 81.842,
+      "height": 81.84,
       "gradient": [
-        -0.0721,
+        -0.07192,
         0
       ],
       "minLift": 0.05,
@@ -62,7 +62,7 @@
       ],
       "halfLength": 12,
       "halfWidth": 8.21,
-      "height": 82.557,
+      "height": 82.553,
       "gradient": [
         -0.0125,
         0
@@ -98,14 +98,28 @@
           "type": "onbekend"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1068310052",
+        "tags": {
+          "access": "private",
+          "bridge": "viaduct",
+          "bridge:name": "Mauritskamp",
+          "highway": "service",
+          "layer": "1",
+          "operator": "Ministerie van Defensie",
+          "zone:traffic": "NL:rural",
+          "bridge:structure": "beam",
+          "man_made": "bridge",
+          "name": "Mauritskamp"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 5
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,440000,160000,460000 --run nl-7_7 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map amersfoort-brug-6ce7fb88 --plaats amersfoort --punt 150883,458884",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -122,12 +136,12 @@
       "doorstekend": [],
       "opritHoogtes": [
         80.977,
-        82.407
+        82.403
       ]
     },
     "waarschuwingen": [
       "geen FIS-brug binnen 35 m"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

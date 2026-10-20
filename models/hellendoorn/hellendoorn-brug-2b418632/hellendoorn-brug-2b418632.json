@@ -1,5 +1,5 @@
 {
-  "name": "hellendoorn-brug-2b418632",
+  "name": "Hellendoornse brug",
   "file": "hellendoorn-brug-2b418632.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,32 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1271207806",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "viaduct",
+          "foot": "use_sidepath",
+          "highway": "primary",
+          "lanes": "2",
+          "layer": "1",
+          "maxspeed:backward": "80",
+          "maxspeed:forward": "60",
+          "name": "Hellendoornse brug",
+          "operator": "Gemeente Hellendoorn",
+          "ref": "N347",
+          "surface": "asphalt",
+          "zone:traffic": "NL:rural",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,480000,240000,500000 --run nl-11_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map hellendoorn-brug-2b418632 --plaats hellendoorn --punt 228408,488698",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

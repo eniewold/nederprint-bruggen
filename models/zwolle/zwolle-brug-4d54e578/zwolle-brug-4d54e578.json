@@ -1,5 +1,5 @@
 {
-  "name": "zwolle-brug-4d54e578",
+  "name": "IJsselallee",
   "file": "zwolle-brug-4d54e578.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -9,18 +9,14 @@
     501783.72
   ],
   "xAxis": [
-    -0.308432,
-    -0.951246
+    -0.951246,
+    0.308432
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 44.765,
+  "groundHeight": 44.382,
   "groundSamplePoints": [
     [
-      -5.75,
-      0
-    ],
-    [
-      5.75,
+      18.41,
       0
     ]
   ],
@@ -34,52 +30,33 @@
         501783.72
       ],
       "axis": [
-        -0.308432,
-        -0.951246
+        -0.951246,
+        0.308432
       ],
-      "halfLength": 0.87,
-      "halfWidth": 5.91,
-      "height": 43.783,
+      "halfLength": 2.71,
+      "halfWidth": 2.25,
+      "height": 43.382,
       "gradient": [
         0,
         0
       ],
-      "minLift": -1.75,
+      "minLift": -2.13,
       "maxLift": -0.01
     },
     {
       "centre": [
-        201923.8,
-        501788.24
+        201912.03,
+        501787.06
       ],
       "axis": [
-        0.308432,
-        0.951246
+        -0.951246,
+        0.308432
       ],
-      "halfLength": 3,
-      "halfWidth": 7.41,
-      "height": 44.924,
+      "halfLength": 5.41,
+      "halfWidth": 2.62,
+      "height": 44.532,
       "gradient": [
-        -0.05291,
-        0
-      ],
-      "minLift": 0.05,
-      "maxLift": 4
-    },
-    {
-      "centre": [
-        201920.87,
-        501779.21
-      ],
-      "axis": [
-        -0.308432,
-        -0.951246
-      ],
-      "halfLength": 3,
-      "halfWidth": 7.41,
-      "height": 44.933,
-      "gradient": [
-        -0.05,
+        -0.02771,
         0
       ],
       "minLift": 0.05,
@@ -97,94 +74,92 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1476167329",
+        "tags": {
+          "bicycle": "no",
+          "bridge": "yes",
+          "foot": "no",
+          "highway": "primary",
+          "layer": "1",
+          "maxspeed": "70",
+          "name": "IJsselallee",
+          "nat_ref": "N337",
+          "oneway": "yes",
+          "operator": "Gemeente Zwolle",
+          "ref": "RING;N337",
+          "zone:traffic": "NL:urban",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 200000,500000,220000,520000 --run nl-10_10 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map zwolle-brug-4d54e578 --plaats zwolle --punt 201922,501784",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
-      "dekLengte": 3.5,
-      "dekBreedte": 10.8,
-      "brugLengte": 3.5,
-      "water": null,
-      "portaalhoogte": 9.7,
-      "opritafstand": [
-        4,
-        4
+      "dekLengte": 10.8,
+      "dekBreedte": 3.5,
+      "brugLengte": 10.8,
+      "water": [
+        -5.4,
+        -4.9
       ],
-      "oprithelling": 6,
+      "portaalhoogte": 3.1,
+      "opritafstand": [
+        19.5,
+        13
+      ],
+      "oprithelling": 10.8,
       "doorstekend": [
         {
-          "gmlId": "G0193.8abeacd5439b7576000000000a121c4e",
-          "klasse": "Forest",
-          "oppervlak": 255.3,
-          "onderDek": 0.03,
-          "bovenDekOnderkant": 0.75,
+          "gmlId": "G0193.8abeacd5439b757600000000a067bbcc",
+          "klasse": "Terrain",
+          "oppervlak": 12.5,
+          "onderDek": 0.1,
+          "bovenDekOnderkant": 1.13,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0193.8abeacd5439b7576000000000a1256da",
+          "klasse": "Road",
+          "oppervlak": 148.5,
+          "onderDek": 0.06,
+          "bovenDekOnderkant": 1.13,
           "actie": "verlagen"
         },
         {
           "gmlId": "G0193.8abeacd5439b75760000000000a129a2",
           "klasse": "Road",
-          "oppervlak": 235.3,
-          "onderDek": 0.08,
-          "bovenDekOnderkant": 0.73,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "G0193.8abeacd5439b757600000000a067bbcc",
-          "klasse": "Terrain",
-          "oppervlak": 8.8,
-          "onderDek": 0.11,
-          "bovenDekOnderkant": 0.73,
+          "oppervlak": 147.2,
+          "onderDek": 0.06,
+          "bovenDekOnderkant": 1.13,
           "actie": "verlagen"
         },
         {
           "gmlId": "G0193.8abeacd5439b757600000000a067d5ae",
           "klasse": "Forest",
-          "oppervlak": 40,
-          "onderDek": 0.04,
-          "bovenDekOnderkant": 0.69,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "G0193.41a5e999202e4bf2bf60cb310289d7ac",
-          "klasse": "Separation",
-          "oppervlak": 2.1,
-          "onderDek": 0.47,
-          "bovenDekOnderkant": 0.6,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "G0193.8abeacd5439b757600000000a067d5b4",
-          "klasse": "Forest",
-          "oppervlak": 95.4,
-          "onderDek": 0.01,
-          "bovenDekOnderkant": 0.6,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "G0193.8abeacd5439b757600000000a0685906",
-          "klasse": "Terrain",
-          "oppervlak": 58.9,
-          "onderDek": 0.06,
-          "bovenDekOnderkant": 0.21,
+          "oppervlak": 54.7,
+          "onderDek": 0.05,
+          "bovenDekOnderkant": 1.09,
           "actie": "verlagen"
         }
       ],
       "opritHoogtes": [
-        44.765,
-        44.783
+        null,
+        44.382
       ]
     },
     "waarschuwingen": [
-      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "oprit - zonder PDOK-maaiveld",
+      "oprit + pas op 13.0 m gemeten",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
-      "7 PDOK-vorm(en) door het dek: 0 verborgen, 7 verlaagd"
+      "4 PDOK-vorm(en) door het dek: 0 verborgen, 4 verlaagd"
     ],
     "gegenereerd": "2026-10-20"
   }

@@ -1,5 +1,5 @@
 {
-  "name": "harbrinkhoek-brug-30c4620b-2",
+  "name": "Hagweg",
   "file": "harbrinkhoek-brug-30c4620b-2.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -97,14 +97,28 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/55583685",
+        "tags": {
+          "bridge": "yes",
+          "highway": "unclassified",
+          "lanes": "1",
+          "layer": "1",
+          "lit": "no",
+          "maxspeed": "60",
+          "name": "Hagweg",
+          "sidewalk": "no",
+          "smoothness": "good",
+          "surface": "asphalt"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,480000,260000,500000 --run nl-12_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map harbrinkhoek-brug-30c4620b-2 --plaats harbrinkhoek --punt 246441,489414",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

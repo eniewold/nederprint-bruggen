@@ -1,5 +1,5 @@
 {
-  "name": "putten-brug-b8b8c126",
+  "name": "Van Schermbeeklaan",
   "file": "putten-brug-b8b8c126.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,33 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/90490123",
+        "tags": {
+          "bicycle": "permissive",
+          "bridge": "yes",
+          "foot": "yes",
+          "highway": "track",
+          "horse": "yes",
+          "layer": "1",
+          "maxspeed": "60",
+          "motor_vehicle": "no",
+          "name": "Van Schermbeeklaan",
+          "note": "Nummer 905 in de wegenlegger: voetpad. Maar ook door Natuurmonumenten een aangegeven fietsroute.",
+          "ref:wegenlegger": "905",
+          "segregated": "no",
+          "smoothness": "intermediate",
+          "surface": "fine_gravel",
+          "tracktype": "grade2"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,460000,180000,480000 --run nl-8_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map putten-brug-b8b8c126 --plaats putten --punt 170400,476316",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -111,6 +130,6 @@
     "waarschuwingen": [
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

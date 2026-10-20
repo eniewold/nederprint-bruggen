@@ -78,14 +78,33 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1131937831",
+        "tags": {
+          "bicycle": "permissive",
+          "bridge": "yes",
+          "check_date:surface": "2026-09-27",
+          "foot": "permissive",
+          "highway": "path",
+          "horse": "no",
+          "layer": "1",
+          "motor_vehicle": "no",
+          "opening_hours": "sunrise-sunset",
+          "operator": "Goois Natuurreservaat",
+          "segregated": "no",
+          "source:access": "https://gnr.nl/media/1928/toegangsbepalingen-gnr2017.pdf",
+          "surface": "wood",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,460000,160000,480000 --run nl-7_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map hilversum-brug-9f936922 --plaats hilversum --punt 142574,470157",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -111,6 +130,6 @@
     "waarschuwingen": [
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

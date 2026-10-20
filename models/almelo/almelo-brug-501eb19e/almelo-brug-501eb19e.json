@@ -1,5 +1,5 @@
 {
-  "name": "almelo-brug-501eb19e",
+  "name": "Maardijk",
   "file": "almelo-brug-501eb19e.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -88,14 +88,23 @@
           "type": "landhoofd"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/25834743",
+        "tags": {
+          "bridge": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "name": "Maardijk",
+          "surface": "asphalt"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 3
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,480000,260000,500000 --run nl-12_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map almelo-brug-501eb19e --plaats almelo --punt 240957,484264",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

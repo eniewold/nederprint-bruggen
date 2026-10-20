@@ -1,5 +1,5 @@
 {
-  "name": "zenderen-brug-3bf9d6e6-4",
+  "name": "Zeilkerweg",
   "file": "zenderen-brug-3bf9d6e6-4.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -13,7 +13,7 @@
     -0.377961
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 55.429,
+  "groundHeight": 55.427,
   "groundSamplePoints": [
     [
       -11.99,
@@ -39,9 +39,9 @@
       ],
       "halfLength": 5.45,
       "halfWidth": 3.34,
-      "height": 55.648,
+      "height": 55.647,
       "gradient": [
-        -0.04016,
+        -0.04035,
         0
       ],
       "minLift": 0.05,
@@ -78,14 +78,26 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/81362163",
+        "tags": {
+          "bridge": "yes",
+          "highway": "unclassified",
+          "layer": "1",
+          "lit": "no",
+          "maxspeed": "60",
+          "name": "Zeilkerweg",
+          "source:maxspeed": "NL:zone60",
+          "surface": "asphalt"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,480000,260000,500000 --run nl-12_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map zenderen-brug-3bf9d6e6-4 --plaats zenderen --punt 245672,482390",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -104,7 +116,7 @@
       "oprithelling": 10.9,
       "doorstekend": [],
       "opritHoogtes": [
-        55.429,
+        55.427,
         55.567
       ]
     },

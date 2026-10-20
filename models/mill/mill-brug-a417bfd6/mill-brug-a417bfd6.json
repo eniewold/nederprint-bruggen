@@ -1,5 +1,5 @@
 {
-  "name": "mill-brug-a417bfd6",
+  "name": "Graafseweg",
   "file": "mill-brug-a417bfd6.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -39,7 +39,7 @@
       ],
       "halfLength": 4.98,
       "halfWidth": 5.15,
-      "height": 54.935,
+      "height": 54.934,
       "gradient": [
         0,
         0
@@ -60,7 +60,7 @@
       "halfWidth": 6.65,
       "height": 56.016,
       "gradient": [
-        -0.02201,
+        -0.02196,
         0
       ],
       "minLift": 0.05,
@@ -77,7 +77,7 @@
       ],
       "halfLength": 9.97,
       "halfWidth": 6.65,
-      "height": 56.085,
+      "height": 56.084,
       "gradient": [
         -0.01505,
         0
@@ -97,14 +97,24 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/995647900",
+        "tags": {
+          "bridge": "yes",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Graafseweg",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 180000,400000,200000,420000 --run nl-9_5 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map mill-brug-a417bfd6 --plaats mill --punt 181878,412274",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -125,7 +135,7 @@
         {
           "gmlId": "W0654.13fbd1c20b8541938048c56a4b0f4303",
           "klasse": "Terrain",
-          "oppervlak": 2871.4,
+          "oppervlak": 318.9,
           "onderDek": 0.03,
           "bovenDekOnderkant": 0.27,
           "actie": "verlagen"
@@ -133,13 +143,13 @@
       ],
       "opritHoogtes": [
         55.797,
-        55.935
+        55.934
       ]
     },
     "waarschuwingen": [
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
       "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

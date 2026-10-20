@@ -1,5 +1,5 @@
 {
-  "name": "giethmen-brug-03b491da",
+  "name": "Giethemer Kerkbrug",
   "file": "giethmen-brug-03b491da.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,29 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/29346176",
+        "tags": {
+          "bridge": "yes",
+          "foot": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "mofa": "yes",
+          "moped": "no",
+          "name": "Giethemer Kerkbrug",
+          "segregated": "no",
+          "smoothness": "intermediate",
+          "surface": "wood",
+          "traffic_sign": "NL:G11"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,500000,240000,520000 --run nl-11_10 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map giethmen-brug-03b491da --plaats giethmen --punt 224603,501738",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

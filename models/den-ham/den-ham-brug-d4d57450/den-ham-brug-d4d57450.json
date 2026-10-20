@@ -1,5 +1,5 @@
 {
-  "name": "den-ham-brug-d4d57450",
+  "name": "Archemer Brug",
   "file": "den-ham-brug-d4d57450.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,29 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1218031337",
+        "tags": {
+          "bridge": "yes",
+          "bridge:name": "Archemer Brug",
+          "bridge:structure": "beam",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxspeed": "60",
+          "mofa": "yes",
+          "moped": "yes",
+          "motor_vehicle": "destination",
+          "name": "Archemer Brug",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,480000,240000,500000 --run nl-11_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map den-ham-brug-d4d57450 --plaats den-ham --punt 227443,498705",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

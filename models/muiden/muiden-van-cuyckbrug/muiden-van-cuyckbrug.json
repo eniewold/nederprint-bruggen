@@ -1,5 +1,5 @@
 {
-  "name": "Van Cuyckbrug",
+  "name": "De Krijgsmanlaan",
   "file": "muiden-van-cuyckbrug.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,7 +78,21 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1352331493",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "yes",
+          "foot": "use_sidepath",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "80",
+          "mofa": "use_sidepath",
+          "moped": "use_sidepath",
+          "name": "De Krijgsmanlaan",
+          "man_made": "bridge"
+        }
+      },
       "fis": {
         "id": 30615,
         "naam": "Van Cuyckbrug",
@@ -91,7 +105,7 @@
     "type": "ligger",
     "doorvaarthoogte": 3.7,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map muiden-van-cuyckbrug --plaats muiden --punt 132283,482748",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -117,6 +131,6 @@
     "waarschuwingen": [
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

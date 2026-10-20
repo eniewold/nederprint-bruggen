@@ -1,5 +1,5 @@
 {
-  "name": "mill-brug-ce3fc1ef",
+  "name": "Langenboomseweg",
   "file": "mill-brug-ce3fc1ef.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -97,14 +97,26 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/992949981",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "yes",
+          "foot": "use_sidepath",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "50",
+          "name": "Langenboomseweg",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 180000,400000,200000,420000 --run nl-9_5 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map mill-brug-ce3fc1ef --plaats mill --punt 181941,410932",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -125,7 +137,7 @@
         {
           "gmlId": "W0654.65d0f925277d48cb85fa20d98df6e977",
           "klasse": "Terrain",
-          "oppervlak": 1403.2,
+          "oppervlak": 467.7,
           "onderDek": 0.06,
           "bovenDekOnderkant": 0.71,
           "actie": "verlagen"
@@ -133,9 +145,9 @@
         {
           "gmlId": "W0654.0e269be5966441d185f1da696f132d8a",
           "klasse": "Terrain",
-          "oppervlak": 3154.4,
+          "oppervlak": 1054.3,
           "onderDek": 0.03,
-          "bovenDekOnderkant": 0.62,
+          "bovenDekOnderkant": 0.61,
           "actie": "verlagen"
         }
       ],
@@ -149,6 +161,6 @@
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
       "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "name": "raalte-brug-ad6cd741",
+  "name": "'t Reelaer",
   "file": "raalte-brug-ad6cd741.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -44,7 +44,7 @@
         0,
         0
       ],
-      "minLift": -1.7,
+      "minLift": -1.69,
       "maxLift": -0.01
     },
     {
@@ -97,14 +97,23 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/6809616",
+        "tags": {
+          "access": "private",
+          "bridge": "yes",
+          "highway": "unclassified",
+          "layer": "1",
+          "name": "'t Reelaer"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 200000,480000,220000,500000 --run nl-10_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map raalte-brug-ad6cd741 --plaats raalte --punt 214235,493037",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -125,9 +134,9 @@
         {
           "gmlId": "W0664.5400cb34201f4f58ba6c72e7df887a50",
           "klasse": "Terrain",
-          "oppervlak": 3702.8,
+          "oppervlak": 1235.2,
           "onderDek": 0.03,
-          "bovenDekOnderkant": 0.7,
+          "bovenDekOnderkant": 0.69,
           "actie": "verlagen"
         }
       ],
@@ -140,6 +149,6 @@
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
       "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

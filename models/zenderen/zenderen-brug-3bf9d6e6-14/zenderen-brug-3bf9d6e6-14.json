@@ -1,5 +1,5 @@
 {
-  "name": "zenderen-brug-3bf9d6e6-14",
+  "name": "Bothorsterweg",
   "file": "zenderen-brug-3bf9d6e6-14.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,26 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/82117870",
+        "tags": {
+          "bridge": "yes",
+          "highway": "track",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Bothorsterweg",
+          "smoothness": "good",
+          "surface": "concrete",
+          "tracktype": "grade3"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,480000,260000,500000 --run nl-12_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map zenderen-brug-3bf9d6e6-14 --plaats zenderen --punt 247583,483522",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

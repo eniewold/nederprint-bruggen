@@ -9,18 +9,18 @@
     460776.72
   ],
   "xAxis": [
-    0.499899,
-    0.866084
+    0.866084,
+    -0.499899
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 42.928,
+  "groundHeight": 42.354,
   "groundSamplePoints": [
     [
-      -6.58,
+      -34.21,
       0
     ],
     [
-      6.58,
+      34.21,
       0
     ]
   ],
@@ -34,33 +34,33 @@
         460776.72
       ],
       "axis": [
-        0.499899,
-        0.866084
+        0.866084,
+        -0.499899
       ],
-      "halfLength": 1.29,
-      "halfWidth": 16.05,
-      "height": 41.949,
+      "halfLength": 9.55,
+      "halfWidth": 3.08,
+      "height": 42.244,
       "gradient": [
         0,
         0
       ],
-      "minLift": -2.71,
+      "minLift": -2.41,
       "maxLift": -0.01
     },
     {
       "centre": [
-        97161.5,
-        460771.89
+        97140.43,
+        460790.5
       ],
       "axis": [
-        -0.499899,
-        -0.866084
+        -0.866084,
+        0.499899
       ],
-      "halfLength": 3,
-      "halfWidth": 17.55,
-      "height": 43.089,
+      "halfLength": 12,
+      "halfWidth": 3.87,
+      "height": 42.949,
       "gradient": [
-        -0.05345,
+        -0.04955,
         0
       ],
       "minLift": 0.05,
@@ -68,18 +68,18 @@
     },
     {
       "centre": [
-        97167.08,
-        460781.56
+        97188.15,
+        460762.95
       ],
       "axis": [
-        0.499899,
-        0.866084
+        0.866084,
+        -0.499899
       ],
-      "halfLength": 3,
-      "halfWidth": 17.55,
-      "height": 43.099,
+      "halfLength": 12,
+      "halfWidth": 3.87,
+      "height": 43.394,
       "gradient": [
-        -0.05,
+        -0.0125,
         0
       ],
       "minLift": 0.05,
@@ -111,64 +111,51 @@
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,460000,100000,480000 --run nl-4_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map zoeterwoude-brug-a6135f9f --plaats zoeterwoude --punt 97164,460777",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
-      "dekLengte": 5.2,
-      "dekBreedte": 31.1,
-      "brugLengte": 5.2,
-      "water": null,
-      "portaalhoogte": 28,
-      "opritafstand": [
-        4,
-        4
+      "dekLengte": 31.1,
+      "dekBreedte": 5.2,
+      "brugLengte": 31.1,
+      "water": [
+        -12.5,
+        14
       ],
-      "oprithelling": 6,
+      "portaalhoogte": 4.6,
+      "opritafstand": [
+        18.7,
+        18.7
+      ],
+      "oprithelling": 24,
       "doorstekend": [
         {
           "gmlId": "L0001.0f2b4c6e74cc4c2496807acf0ee2bf01",
           "klasse": "Forest",
-          "oppervlak": 4304.9,
-          "onderDek": 0.04,
-          "bovenDekOnderkant": 1.71,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "G0638.1e24c0d1837743549ae494b299557d5a",
-          "klasse": "Road",
-          "oppervlak": 278.1,
-          "onderDek": 0,
-          "bovenDekOnderkant": 1.37,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "W0616.80095b0a14ed4121a4a30e184a9dbc47",
-          "klasse": "Terrain",
-          "oppervlak": 218.7,
-          "onderDek": 0.04,
-          "bovenDekOnderkant": 1.23,
+          "oppervlak": 2895.5,
+          "onderDek": 0.02,
+          "bovenDekOnderkant": 1.41,
           "actie": "verlagen"
         },
         {
           "gmlId": "W0616.cd079f75a77842ccbf3a08c3274bca2b",
           "klasse": "Terrain",
-          "oppervlak": 146.7,
+          "oppervlak": 210.6,
           "onderDek": 0.02,
-          "bovenDekOnderkant": 1.14,
+          "bovenDekOnderkant": 0.84,
           "actie": "verlagen"
         }
       ],
       "opritHoogtes": [
-        42.928,
-        42.949
+        42.354,
+        43.244
       ]
     },
     "waarschuwingen": [
-      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen FIS-brug binnen 35 m",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
-      "4 PDOK-vorm(en) door het dek: 0 verborgen, 4 verlaagd"
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

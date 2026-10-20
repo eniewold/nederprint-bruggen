@@ -1,5 +1,5 @@
 {
-  "name": "dalfsen-brug-5be34430",
+  "name": "Molenhoekweg",
   "file": "dalfsen-brug-5be34430.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -90,14 +90,26 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/196656154",
+        "tags": {
+          "bridge": "yes",
+          "highway": "unclassified",
+          "lanes": "1",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Molenhoekweg",
+          "smoothness": "good",
+          "surface": "asphalt"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 3
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 200000,480000,220000,500000 --run nl-10_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map dalfsen-brug-5be34430 --plaats dalfsen --punt 210557,499073",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -123,6 +135,6 @@
     "waarschuwingen": [
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

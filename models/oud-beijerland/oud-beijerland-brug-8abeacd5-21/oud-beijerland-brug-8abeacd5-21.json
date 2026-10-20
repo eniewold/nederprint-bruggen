@@ -1,5 +1,5 @@
 {
-  "name": "oud-beijerland-brug-8abeacd5-21",
+  "name": "Van de Veldepad",
   "file": "oud-beijerland-brug-8abeacd5-21.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,26 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/148310295",
+        "tags": {
+          "bicycle": "yes",
+          "bridge": "yes",
+          "highway": "footway",
+          "layer": "1",
+          "name": "Van de Veldepad",
+          "name:etymology:wikidata": "Q722912",
+          "segregated": "no",
+          "surface": "paved"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,420000,100000,440000 --run nl-4_6 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map oud-beijerland-brug-8abeacd5-21 --plaats oud-beijerland --punt 87793,425863",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

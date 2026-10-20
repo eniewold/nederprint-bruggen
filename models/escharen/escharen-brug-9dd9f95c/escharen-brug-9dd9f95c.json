@@ -1,5 +1,5 @@
 {
-  "name": "escharen-brug-9dd9f95c",
+  "name": "Zandvoortseweg",
   "file": "escharen-brug-9dd9f95c.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -13,7 +13,7 @@
     0.921745
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 55.585,
+  "groundHeight": 55.571,
   "groundSamplePoints": [
     [
       -6.54,
@@ -58,9 +58,9 @@
       ],
       "halfLength": 3,
       "halfWidth": 5.7,
-      "height": 55.849,
+      "height": 55.842,
       "gradient": [
-        -0.08775,
+        -0.09011,
         0
       ],
       "minLift": 0.05,
@@ -97,14 +97,24 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/750450654",
+        "tags": {
+          "access": "private",
+          "bridge": "yes",
+          "highway": "service",
+          "layer": "1",
+          "name": "Zandvoortseweg",
+          "surface": "unpaved"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,400000,180000,420000 --run nl-8_5 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map escharen-brug-9dd9f95c --plaats escharen --punt 177678,415448",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -125,14 +135,14 @@
         {
           "gmlId": "W0654.268a93e24a9048caa157621f404d3f51",
           "klasse": "Terrain",
-          "oppervlak": 533.4,
+          "oppervlak": 133.2,
           "onderDek": 0.01,
           "bovenDekOnderkant": 0.3,
           "actie": "verlagen"
         }
       ],
       "opritHoogtes": [
-        55.585,
+        55.571,
         55.812
       ]
     },
@@ -141,6 +151,6 @@
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
       "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

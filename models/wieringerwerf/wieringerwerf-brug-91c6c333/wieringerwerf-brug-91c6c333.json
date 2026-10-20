@@ -1,5 +1,5 @@
 {
-  "name": "wieringerwerf-brug-91c6c333",
+  "name": "Westerterpweg",
   "file": "wieringerwerf-brug-91c6c333.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -98,14 +98,28 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1465164752",
+        "tags": {
+          "bridge": "yes",
+          "emergency": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "mofa": "designated",
+          "moped": "designated",
+          "name": "Westerterpweg",
+          "oneway": "no",
+          "zone:traffic": "NL:rural",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 5
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,520000,140000,540000 --run nl-6_11 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map wieringerwerf-brug-91c6c333 --plaats wieringerwerf --punt 130112,539685",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

@@ -93,14 +93,35 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/266176849",
+        "tags": {
+          "bridge": "yes",
+          "carriageway_ref": "t",
+          "destination": "Groningen;Hoogezand",
+          "destination:ref": "A7",
+          "highway": "motorway_link",
+          "lanes": "1",
+          "layer": "1",
+          "lit": "no",
+          "maxspeed": "80",
+          "maxspeed:type": "sign",
+          "motorroad": "yes",
+          "motorway": "no",
+          "oneway": "yes",
+          "operator": "Rijkswaterstaat",
+          "ref": "N33",
+          "surface": "asphalt",
+          "zone:traffic": "NL:rural"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 4
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,560000,260000,580000 --run nl-12_13 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map zuidbroek-brug-c313360d --plaats zuidbroek --punt 255741,577265",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

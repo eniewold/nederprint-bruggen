@@ -1,5 +1,5 @@
 {
-  "name": "hengelo-brug-0d502451",
+  "name": "Wooldermeen",
   "file": "hengelo-brug-0d502451.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -9,8 +9,8 @@
     476589.29
   ],
   "xAxis": [
-    0.537409,
-    -0.843322
+    -0.53762,
+    0.843187
   ],
   "groundOffsetMetres": 0,
   "groundHeight": 61.682,
@@ -34,18 +34,18 @@
   "terrainCorrections": [
     {
       "centre": [
-        249913.9,
-        476611.66
+        249942.42,
+        476566.92
       ],
       "axis": [
-        -0.537409,
-        0.843322
+        0.53762,
+        -0.843187
       ],
       "halfLength": 12,
       "halfWidth": 7.9,
-      "height": 61.751,
+      "height": 61.82,
       "gradient": [
-        -0.00572,
+        0,
         0
       ],
       "minLift": 0.05,
@@ -53,18 +53,18 @@
     },
     {
       "centre": [
-        249942.42,
-        476566.92
+        249913.9,
+        476611.66
       ],
       "axis": [
-        0.537409,
-        -0.843322
+        -0.53762,
+        0.843187
       ],
       "halfLength": 12,
       "halfWidth": 7.9,
-      "height": 61.82,
+      "height": 61.751,
       "gradient": [
-        0,
+        -0.00572,
         0
       ],
       "minLift": 0.05,
@@ -98,14 +98,46 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1553577198",
+        "tags": {
+          "axle_load": "22.5",
+          "bridge": "viaduct",
+          "bridge:name": "Wooldermeen",
+          "description": "Almelo - Hengelo",
+          "electrified": "contact_line",
+          "frequency": "0",
+          "gauge": "1435",
+          "layer": "1",
+          "loading_gauge": "TSI_GB",
+          "maxspeed": "130",
+          "operator": "ProRail",
+          "passenger_lines": "2",
+          "railway": "rail",
+          "railway:atb": "yes",
+          "railway:atb-eg": "yes",
+          "railway:etcs": "no",
+          "railway:maximum_current": "4000",
+          "railway:track_class": "D4",
+          "railway:traffic_mode": "mixed",
+          "ref": "025",
+          "ref:ProRailSpoortak": "606_111V_1.0",
+          "source": "ProRail",
+          "source:date": "2014-01-03",
+          "start_date": "1976",
+          "usage": "main",
+          "voltage": "1500",
+          "man_made": "bridge",
+          "name": "Wooldermeen"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 5
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,460000,260000,480000 --run nl-12_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map hengelo-brug-0d502451 --plaats hengelo --punt 249928,476589",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -122,8 +154,8 @@
       "oprithelling": 24,
       "doorstekend": [],
       "opritHoogtes": [
-        61.682,
-        61.82
+        61.82,
+        61.682
       ]
     },
     "waarschuwingen": [

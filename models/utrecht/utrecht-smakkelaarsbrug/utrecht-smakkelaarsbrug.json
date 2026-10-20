@@ -20,7 +20,7 @@
       0
     ],
     [
-      105,
+      35,
       0
     ]
   ],
@@ -32,25 +32,6 @@
   "terrainCorrections": [
     {
       "centre": [
-        135963.91,
-        455999.15
-      ],
-      "axis": [
-        0.173232,
-        -0.984881
-      ],
-      "halfLength": 29.06,
-      "halfWidth": 10.5,
-      "height": 45.709,
-      "gradient": [
-        0,
-        0
-      ],
-      "minLift": -1.39,
-      "maxLift": -0.01
-    },
-    {
-      "centre": [
         135955.55,
         456046.69
       ],
@@ -60,9 +41,9 @@
       ],
       "halfLength": 12,
       "halfWidth": 12,
-      "height": 46.235,
+      "height": 46.684,
       "gradient": [
-        -0.06451,
+        -0.1019,
         0
       ],
       "minLift": 0.05,
@@ -79,7 +60,7 @@
       ],
       "halfLength": 12,
       "halfWidth": 12,
-      "height": 46.859,
+      "height": 47.757,
       "gradient": [
         -0.0125,
         0
@@ -136,7 +117,7 @@
       "naam": "Smakkelaarsbrug",
       "straal": 40
     },
-    "opdracht": "node scripts/bridges/genereer.mjs --uit C:/Users/edwar/AppData/Local/Temp/claude/C--Users-edwar-source-Repos-nederprint/3bd9e161-d515-4f1b-bfbf-c9cc2320f835/scratchpad/rail-batch5 --map smakkelaarsbrug --plaats utrecht --punt 135963.91,455999.15 --naam Smakkelaarsbrug --straal 40",
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 126435,448710,141834,461610 --run utrecht-2026-10-20 --overschrijf 1 --parallel 5",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -147,37 +128,20 @@
       "portaalhoogte": 18,
       "opritafstand": [
         20,
-        70
+        0
       ],
+      "spoorhoogteBron": "pdok",
       "oprithelling": 24,
-      "doorstekend": [
-        {
-          "gmlId": "G0344.d8bed3a971874e5298a78101798acb42",
-          "klasse": "Terrain",
-          "oppervlak": 41522.4,
-          "onderDek": 0.03,
-          "bovenDekOnderkant": 0.39,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "G0344.4cb421f88928471bb84ca1da40b355a3",
-          "klasse": "Terrain",
-          "oppervlak": 7801.7,
-          "onderDek": 0.02,
-          "bovenDekOnderkant": 0.38,
-          "actie": "verlagen"
-        }
-      ],
+      "doorstekend": [],
       "opritHoogtes": [
         45.461,
-        46.709
+        47.607
       ]
     },
     "waarschuwingen": [
       "geen FIS-brug binnen 35 m",
-      "oprit + pas op 70 m langs het spoor gemeten (PDOK-spoorterrein bij de brug lager)",
-      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+      "oprit -: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt"
     ],
-    "gegenereerd": "2026-10-17"
+    "gegenereerd": "2026-10-20"
   }
 }

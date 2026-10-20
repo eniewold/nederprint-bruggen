@@ -1,5 +1,5 @@
 {
-  "name": "Tolbrug Nieuwerbrug",
+  "name": "Nieuwerbrug",
   "file": "nieuwerbrug-aan-den-rijn-tolbrug-nieuwerbrug.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,7 +78,36 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/707303427",
+        "tags": {
+          "bridge": "movable",
+          "bridge:movable": "bascule",
+          "highway": "tertiary",
+          "lane_markings": "no",
+          "lanes": "1",
+          "layer": "1",
+          "maxspeed": "30",
+          "maxspeed:practical": "5",
+          "name": "Nieuwerbrug",
+          "note": "De 'operator' pacht van de 'owner'.",
+          "operator": "Tolbrug Nieuwerbrug",
+          "operator:designation": "eenmanszaak",
+          "owner": "College van Bruggemeesters",
+          "priority": "backward",
+          "start_date": "1990",
+          "surface": "chipseal",
+          "toll": "yes",
+          "toll:bicycle": "no",
+          "toll:foot": "no",
+          "toll:operator": "Tolbrug Nieuwerbrug",
+          "toll:operator:designation": "eenmanszaak",
+          "zone:maxspeed": "NL:30",
+          "zone:traffic": "NL:urban",
+          "man_made": "bridge",
+          "nat_name": "Tolbrug Nieuwerbrug"
+        }
+      },
       "fis": {
         "id": 24853,
         "naam": "Tolbrug Nieuwerbrug",
@@ -88,10 +117,10 @@
       },
       "pdokBridgeVlakken": 1
     },
-    "type": "ophaalbrug",
+    "type": "basculebrug",
     "doorvaarthoogte": 1.13,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,440000,120000,460000 --run nl-5_7 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map nieuwerbrug-aan-den-rijn-tolbrug-nieuwerbrug --plaats nieuwerbrug-aan-den-rijn --punt 115593,454583",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -117,6 +146,6 @@
     "waarschuwingen": [
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

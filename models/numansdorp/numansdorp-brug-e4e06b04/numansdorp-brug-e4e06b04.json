@@ -1,5 +1,5 @@
 {
-  "name": "numansdorp-brug-e4e06b04",
+  "name": "Groene Kruisweg",
   "file": "numansdorp-brug-e4e06b04.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -103,14 +103,38 @@
           "type": "landhoofd"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/422422691",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "yes",
+          "foot": "use_sidepath",
+          "highway": "secondary",
+          "lanes": "1",
+          "layer": "1",
+          "maxspeed": "50",
+          "mofa": "use_sidepath",
+          "moped": "use_sidepath",
+          "name": "Groene Kruisweg",
+          "oneway": "yes",
+          "operator": "Provincie Zuid-Holland",
+          "ref": "N487",
+          "surface": "asphalt",
+          "traffic_sign": "NL:C9",
+          "zone:traffic": "NL:rural",
+          "area": "yes",
+          "bridge:structure": "beam",
+          "man_made": "bridge",
+          "source:name": "street sign"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 6
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,400000,100000,420000 --run nl-4_5 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map numansdorp-brug-e4e06b04 --plaats numansdorp --punt 87930,418603",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

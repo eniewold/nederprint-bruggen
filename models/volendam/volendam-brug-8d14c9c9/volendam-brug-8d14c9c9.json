@@ -1,5 +1,5 @@
 {
-  "name": "volendam-brug-8d14c9c9",
+  "name": "Doolhof",
   "file": "volendam-brug-8d14c9c9.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,29 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/617237588",
+        "tags": {
+          "bridge": "yes",
+          "cycleway:both": "no",
+          "highway": "pedestrian",
+          "image": "https://images.mapillary.com/WJc2xsaJqQkL3ibUHDXpRa/thumb-2048.jpg",
+          "lane_markings": "no",
+          "layer": "1",
+          "mapillary": "472947780481843",
+          "maxspeed": "30",
+          "maxweight:signed": "no",
+          "name": "Doolhof",
+          "surface": "paving_stones"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,500000,140000,520000 --run nl-6_10 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map volendam-brug-8d14c9c9 --plaats volendam --punt 133879,500918",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -112,6 +127,6 @@
       "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

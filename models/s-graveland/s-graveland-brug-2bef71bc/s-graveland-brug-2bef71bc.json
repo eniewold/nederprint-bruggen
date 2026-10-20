@@ -1,5 +1,5 @@
 {
-  "name": "s-graveland-brug-2bef71bc",
+  "name": "Zuidersluisbrug",
   "file": "s-graveland-brug-2bef71bc.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -84,14 +84,27 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/728783548",
+        "tags": {
+          "bridge": "yes",
+          "bridge:name": "Zuidersluisbrug",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Zuidersluisbrug",
+          "surface": "asphalt",
+          "zone:traffic": "NL:urban",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 2
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,460000,140000,480000 --run nl-6_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map s-graveland-brug-2bef71bc --plaats s-graveland --punt 136898,470374",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -119,6 +132,6 @@
       "oprit + pas op 12.0 m gemeten",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "name": "hengelo-brug-7fcbc57d",
+  "name": "Spoorfietsen",
   "file": "hengelo-brug-7fcbc57d.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -9,18 +9,18 @@
     474302.72
   ],
   "xAxis": [
-    0.054935,
-    -0.99849
+    -0.052871,
+    0.998601
   ],
   "groundOffsetMetres": 0,
   "groundHeight": 66.507,
   "groundSamplePoints": [
     [
-      -24.98,
-      0
+      -44.96,
+      -0.15
     ],
     [
-      44.96,
+      24.99,
       0
     ]
   ],
@@ -30,18 +30,18 @@
   "terrainCorrections": [
     {
       "centre": [
-        251703.31,
-        474329.67
+        251706.22,
+        474275.81
       ],
       "axis": [
-        -0.054935,
-        0.99849
+        0.052871,
+        -0.998601
       ],
       "halfLength": 12,
-      "halfWidth": 4.07,
-      "height": 66.662,
+      "halfWidth": 4.12,
+      "height": 66.669,
       "gradient": [
-        -0.01285,
+        -0.0125,
         0
       ],
       "minLift": 0.05,
@@ -49,18 +49,18 @@
     },
     {
       "centre": [
-        251706.27,
-        474275.8
+        251703.36,
+        474329.67
       ],
       "axis": [
-        0.054935,
-        -0.99849
+        -0.052871,
+        0.998601
       ],
       "halfLength": 12,
-      "halfWidth": 4.07,
-      "height": 66.666,
+      "halfWidth": 4.12,
+      "height": 66.663,
       "gradient": [
-        -0.0125,
+        -0.01298,
         0
       ],
       "minLift": 0.05,
@@ -78,39 +78,63 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/47159540",
+        "tags": {
+          "bridge": "yes",
+          "description": "Hengelo - Hengelo Zoutindustrie",
+          "draisine": "yes",
+          "electrified": "no",
+          "foot": "yes",
+          "gauge": "1435",
+          "historic:usage": "industrial",
+          "layer": "1",
+          "name": "Spoorfietsen",
+          "operator": "Stichting Geldersch-Overijsselsche Lokaalspoorweg-Maatschappij (GOLS)",
+          "railway": "rail",
+          "railway:etcs": "no",
+          "railway:gnt": "no",
+          "railway:lzb": "no",
+          "railway:preserved": "yes",
+          "railway:pzb": "no",
+          "ref": "405",
+          "service": "spur",
+          "usage": "tourism",
+          "website": "https://www.spoorfietsen.nl/"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,460000,260000,480000 --run nl-12_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map hengelo-brug-7fcbc57d --plaats hengelo --punt 251705,474303",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
       "dekLengte": 29.9,
-      "dekBreedte": 5.4,
+      "dekBreedte": 5.5,
       "brugLengte": 29.9,
       "water": null,
       "portaalhoogte": 4.9,
       "opritafstand": [
-        10,
-        30
+        30,
+        10
       ],
       "spoorhoogteBron": "pdok",
       "oprithelling": 24,
       "doorstekend": [],
       "opritHoogtes": [
-        66.507,
-        66.516
+        66.519,
+        66.507
       ]
     },
     "waarschuwingen": [
       "geen FIS-brug binnen 35 m",
       "oprit -: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "oprit - pas op 30 m langs het spoor gemeten (PDOK-spoorterrein bij de brug lager)",
       "oprit +: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
-      "oprit + pas op 30 m langs het spoor gemeten (PDOK-spoorterrein bij de brug lager)",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
     "gegenereerd": "2026-10-20"

@@ -1,5 +1,5 @@
 {
-  "name": "Brug Ter Apel",
+  "name": "Westerstraat",
   "file": "ter-apel-brug-ter-apel.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -39,7 +39,7 @@
       ],
       "halfLength": 4.24,
       "halfWidth": 10.68,
-      "height": 53.608,
+      "height": 53.604,
       "gradient": [
         -0.03537,
         0
@@ -58,9 +58,9 @@
       ],
       "halfLength": 4.24,
       "halfWidth": 10.68,
-      "height": 53.587,
+      "height": 53.584,
       "gradient": [
-        -0.04049,
+        -0.03991,
         0
       ],
       "minLift": 0.05,
@@ -78,7 +78,20 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/6372025",
+        "tags": {
+          "bridge": "movable",
+          "bridge:movable": "bascule",
+          "cycleway": "shared_lane",
+          "highway": "secondary",
+          "layer": "1",
+          "maxspeed": "50",
+          "name": "Westerstraat",
+          "smoothness": "good",
+          "surface": "asphalt"
+        }
+      },
       "fis": {
         "id": 29320,
         "naam": "Brug Ter Apel",
@@ -88,10 +101,10 @@
       },
       "pdokBridgeVlakken": 1
     },
-    "type": "ophaalbrug",
+    "type": "basculebrug",
     "doorvaarthoogte": 1,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 260000,540000,280000,560000 --run nl-13_12 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map ter-apel-brug-ter-apel --plaats ter-apel --punt 266893,544274",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -110,7 +123,7 @@
       "oprithelling": 8.5,
       "doorstekend": [],
       "opritHoogtes": [
-        53.458,
+        53.454,
         53.415
       ]
     },

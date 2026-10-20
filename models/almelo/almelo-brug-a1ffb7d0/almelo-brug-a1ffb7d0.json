@@ -1,5 +1,5 @@
 {
-  "name": "almelo-brug-a1ffb7d0",
+  "name": "Gravenallee",
   "file": "almelo-brug-a1ffb7d0.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -93,14 +93,26 @@
           "type": "landhoofd"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/55586368",
+        "tags": {
+          "access": "private",
+          "bridge": "yes",
+          "highway": "service",
+          "layer": "1",
+          "motor_vehicle": "private",
+          "name": "Gravenallee",
+          "service": "driveway",
+          "surface": "paving_stones"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 4
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,480000,260000,500000 --run nl-12_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map almelo-brug-a1ffb7d0 --plaats almelo --punt 242410,486323",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

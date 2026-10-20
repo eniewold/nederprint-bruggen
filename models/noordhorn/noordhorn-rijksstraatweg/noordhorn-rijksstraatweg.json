@@ -1,5 +1,5 @@
 {
-  "name": "Rijksstraatweg",
+  "name": "Riek Sennemabrug",
   "file": "noordhorn-rijksstraatweg.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -92,11 +92,17 @@
         "id": "way/1170592453",
         "tags": {
           "bridge": "movable",
+          "bridge:movable": "lift",
+          "bridge:name": "Riek Sennemabrug",
+          "highway": "tertiary",
           "layer": "1",
-          "man_made": "bridge",
+          "maxspeed": "30",
           "name": "Riek Sennemabrug",
-          "website": "https://www.wkregister.nl/personen/hendrika-sennema/",
-          "bridge:movable": "lift"
+          "smoothness": "good",
+          "surface": "asphalt",
+          "zone:traffic": "NL:urban",
+          "man_made": "bridge",
+          "website": "https://www.wkregister.nl/personen/hendrika-sennema/"
         }
       },
       "fis": null,
@@ -105,7 +111,7 @@
     "type": "ophaalbrug",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,580000,240000,600000 --run nl-11_14 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map noordhorn-rijksstraatweg --plaats noordhorn --punt 222577,585878",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -116,7 +122,7 @@
         -26.4,
         26.6
       ],
-      "portaalhoogte": 12.5,
+      "portaalhoogte": 12.4,
       "opritafstand": [
         20,
         20

@@ -1,5 +1,5 @@
 {
-  "name": "overberg-brug-469b8f24",
+  "name": "Heuvelse Steeg",
   "file": "overberg-brug-469b8f24.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,27 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/868152594",
+        "tags": {
+          "alt_name": "Heuvelsesteeg",
+          "bridge": "yes",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Heuvelse Steeg",
+          "source": "name from BAG, alt_name from survey",
+          "surface": "asphalt",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ophaalbrug",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,440000,180000,460000 --run nl-8_7 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map overberg-brug-469b8f24 --plaats overberg --punt 162134,451171",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -112,6 +125,6 @@
       "geen FIS-brug binnen 35 m",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "name": "hilversum-brug-21f11475",
+  "name": "1e Kanaalbrug",
   "file": "hilversum-brug-21f11475.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -88,14 +88,35 @@
           "type": "landhoofd"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/360593728",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "yes",
+          "bridge:name": "1e Kanaalbrug",
+          "bus": "no",
+          "foot": "use_sidepath",
+          "hgv": "no",
+          "highway": "secondary",
+          "layer": "1",
+          "maxspeed": "60",
+          "maxweight": "35",
+          "mofa": "use_sidepath",
+          "moped": "use_sidepath",
+          "name": "1e Kanaalbrug",
+          "surface": "asphalt",
+          "tourist_bus": "no",
+          "zone:traffic": "NL:rural",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 3
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,460000,140000,480000 --run nl-6_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map hilversum-brug-21f11475 --plaats hilversum --punt 137013,470254",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -121,6 +142,6 @@
     "waarschuwingen": [
       "geen FIS-brug binnen 35 m"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

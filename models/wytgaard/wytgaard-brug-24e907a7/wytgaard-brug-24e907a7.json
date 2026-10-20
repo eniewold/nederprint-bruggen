@@ -9,18 +9,14 @@
     572906.58
   ],
   "xAxis": [
-    -0.980738,
-    0.195328
+    0.195328,
+    0.980738
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 41.379,
+  "groundHeight": 41.385,
   "groundSamplePoints": [
     [
-      -6.32,
-      0
-    ],
-    [
-      6.32,
+      -6.74,
       0
     ]
   ],
@@ -34,11 +30,11 @@
         572906.58
       ],
       "axis": [
-        -0.980738,
-        0.195328
+        0.195328,
+        0.980738
       ],
-      "halfLength": 1.16,
-      "halfWidth": 3.24,
+      "halfLength": 1.37,
+      "halfWidth": 2.82,
       "height": 40.385,
       "gradient": [
         0,
@@ -49,37 +45,18 @@
     },
     {
       "centre": [
-        180376.86,
-        572905.54
+        180370.52,
+        572900.95
       ],
       "axis": [
-        0.980738,
-        -0.195328
+        -0.195328,
+        -0.980738
       ],
       "halfLength": 3,
-      "halfWidth": 4.11,
+      "halfWidth": 3.48,
       "height": 41.535,
       "gradient": [
         -0.05,
-        0
-      ],
-      "minLift": 0.05,
-      "maxLift": 4
-    },
-    {
-      "centre": [
-        180366.42,
-        572907.62
-      ],
-      "axis": [
-        -0.980738,
-        0.195328
-      ],
-      "halfLength": 3,
-      "halfWidth": 4.11,
-      "height": 41.532,
-      "gradient": [
-        -0.05096,
         0
       ],
       "minLift": 0.05,
@@ -104,25 +81,25 @@
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 180000,560000,200000,580000 --run nl-9_13 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map wytgaard-brug-24e907a7 --plaats wytgaard --punt 180372,572907",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
-      "dekLengte": 4.6,
-      "dekBreedte": 5.5,
-      "brugLengte": 4.6,
+      "dekLengte": 5.5,
+      "dekBreedte": 4.6,
+      "brugLengte": 5.5,
       "water": null,
-      "portaalhoogte": 4.9,
+      "portaalhoogte": 4.2,
       "opritafstand": [
         4,
-        4
+        12
       ],
       "oprithelling": 6,
       "doorstekend": [
         {
           "gmlId": "L0001.79d3480a50e045038c6370aafb1207a0",
           "klasse": "Forest",
-          "oppervlak": 3432.4,
+          "oppervlak": 1716.4,
           "onderDek": 0.01,
           "bovenDekOnderkant": 0.82,
           "actie": "verlagen"
@@ -130,7 +107,7 @@
         {
           "gmlId": "L0001.6644d5f9080a4d06b9d1d11c41ceeeb6",
           "klasse": "Forest",
-          "oppervlak": 2185.3,
+          "oppervlak": 1113.1,
           "onderDek": 0.01,
           "bovenDekOnderkant": 0.7,
           "actie": "verlagen"
@@ -138,11 +115,11 @@
       ],
       "opritHoogtes": [
         41.385,
-        41.379
+        null
       ]
     },
     "waarschuwingen": [
-      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "oprit + zonder PDOK-maaiveld",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
       "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
     ],

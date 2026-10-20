@@ -1,5 +1,5 @@
 {
-  "name": "Hefbrug Broek in Waterland",
+  "name": "Provinciale weg",
   "file": "broek-in-waterland-hefbrug-broek-in-waterland.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -155,17 +155,29 @@
       "osm": {
         "id": "way/1529001162",
         "tags": {
+          "bicycle": "no",
           "bridge": "movable",
-          "bridge:structure": "beam",
+          "bridge:movable": "lift",
+          "foot": "no",
+          "highway": "primary",
+          "lanes": "2",
           "layer": "1",
-          "man_made": "bridge",
-          "bridge:movable": "lift"
+          "maxspeed": "50",
+          "mofa": "no",
+          "moped": "no",
+          "name": "Provinciale weg",
+          "operator": "Provincie Noord-Holland",
+          "ref": "N247",
+          "surface": "asphalt",
+          "zone:traffic": "NL:urban",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
         }
       },
       "fis": {
         "id": 56252,
         "naam": "Hefbrug Broek in Waterland",
-        "afstand": 7,
+        "afstand": 5,
         "beweegbaar": true,
         "doorvaarthoogteGesloten": 1.69
       },
@@ -174,7 +186,7 @@
     "type": "ophaalbrug",
     "doorvaarthoogte": 1.69,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map broek-in-waterland-hefbrug-broek-in-waterland --plaats broek-in-waterland --punt 128389,493985",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -185,7 +197,7 @@
         -5.2,
         4.3
       ],
-      "portaalhoogte": 10.9,
+      "portaalhoogte": 10.8,
       "opritafstand": [
         18.8,
         18.8
@@ -209,6 +221,6 @@
     "waarschuwingen": [
       "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

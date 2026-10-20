@@ -1,5 +1,5 @@
 {
-  "name": "edam-brug-676cf574",
+  "name": "Pompsluisbrug",
   "file": "edam-brug-676cf574.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,24 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1199303935",
+        "tags": {
+          "bridge": "movable",
+          "bridge:structure": "truss",
+          "layer": "1",
+          "man_made": "bridge",
+          "name": "Pompsluisbrug",
+          "bridge:movable": "bascule"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
-    "type": "ligger",
+    "type": "basculebrug",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,500000,140000,520000 --run nl-6_10 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map edam-brug-676cf574 --plaats edam --punt 131785,502687",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -109,8 +119,10 @@
       ]
     },
     "waarschuwingen": [
+      "OSM zegt truss, gekozen type basculebrug",
+      "geen FIS-brug binnen 35 m",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

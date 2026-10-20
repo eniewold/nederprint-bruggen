@@ -1,5 +1,5 @@
 {
-  "name": "blauwestad-brug-252dfa8d",
+  "name": "Freyabrug",
   "file": "blauwestad-brug-252dfa8d.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -88,14 +88,23 @@
           "type": "onbekend"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/114467999",
+        "tags": {
+          "bridge": "yes",
+          "highway": "residential",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Freyabrug"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 3
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 260000,560000,280000,580000 --run nl-13_13 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map blauwestad-brug-252dfa8d --plaats blauwestad --punt 267732,578234",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

@@ -1,5 +1,5 @@
 {
-  "name": "vreeland-brug-661a54b4",
+  "name": "Bergseweg",
   "file": "vreeland-brug-661a54b4.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -97,14 +97,31 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1419986637",
+        "tags": {
+          "bicycle": "yes",
+          "bridge": "yes",
+          "description": "Brug is open voor alleen voetgangers en (brom)fietsers.",
+          "foot": "yes",
+          "highway": "path",
+          "layer": "1",
+          "mofa": "yes",
+          "moped": "yes",
+          "name": "Bergseweg",
+          "surface": "asphalt",
+          "man_made": "bridge",
+          "wikidata": "Q108545935",
+          "wikipedia": "nl:Brug Bergseweg"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,460000,140000,480000 --run nl-6_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map vreeland-brug-661a54b4 --plaats vreeland --punt 130837,472032",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -165,6 +182,6 @@
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
       "4 PDOK-vorm(en) door het dek: 0 verborgen, 4 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

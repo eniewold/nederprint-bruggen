@@ -27,9 +27,11 @@
   "replacesTerrain": [
     "L0002.a51cabb2808d479294f6871a1b26f74d",
     "L0002.bd46646f84a549c9ad4f26e4dad554f8",
+    "L0002.ca67ca0a979b48e4a322fdfd69bf65e9",
+    "L0002.d0be3646c4ca4afbb28bfb442c4c61c6",
     "L0002.d44d4009eef44855973550f68b5e11cc",
-    "L0002.8eae57195e744331a14b475f8abbdb53",
-    "L0002.a9ed7aa98fdc405fb7a56a5e27ded7d0"
+    "L0002.dec291c416bc4e8fa8cf0a56e654ded0",
+    "L0002.8eae57195e744331a14b475f8abbdb53"
   ],
   "terrainCorrections": [
     {
@@ -86,50 +88,68 @@
           "type": "onbekend"
         },
         {
+          "id": "L0002.ca67ca0a979b48e4a322fdfd69bf65e9",
+          "type": "onbekend"
+        },
+        {
+          "id": "L0002.d0be3646c4ca4afbb28bfb442c4c61c6",
+          "type": "onbekend"
+        },
+        {
           "id": "L0002.d44d4009eef44855973550f68b5e11cc",
+          "type": "onbekend"
+        },
+        {
+          "id": "L0002.dec291c416bc4e8fa8cf0a56e654ded0",
           "type": "onbekend"
         },
         {
           "id": "L0002.8eae57195e744331a14b475f8abbdb53",
           "type": "dek"
-        },
-        {
-          "id": "L0002.a9ed7aa98fdc405fb7a56a5e27ded7d0",
-          "type": "onbekend"
         }
       ],
       "osm": {
-        "id": "way/474068275",
+        "id": "relation/9168318",
         "tags": {
-          "bridge": "movable",
-          "bridge:material": "steel",
-          "bridge:movable": "lift",
-          "bridge:structure": "beam",
-          "fixme": "Dit is een tafelbrug. Misschien is er een betere tag mogelijk dan bridge:movable=lift.",
-          "height": "9",
+          "bridge": "yes",
+          "highway": "cycleway",
           "layer": "1",
-          "man_made": "bridge",
-          "min_height": "7.5",
-          "start_date": "1962",
-          "surface": "asphalt",
+          "lit": "yes",
+          "mofa": "no",
+          "moped": "no",
+          "name": "Sint Servaasbrug",
+          "sidewalk": "both",
+          "smoothness": "intermediate",
+          "surface": "sett",
+          "traffic_sign": "NL:G11",
+          "width": "2.2",
           "wikidata": "Q604785",
           "wikimedia_commons": "Category:Sint-Servaasbrug (Maastricht)",
-          "wikipedia": "nl:Sint Servaasbrug"
+          "wikipedia": "nl:Sint Servaasbrug",
+          "heritage": "2",
+          "heritage:operator": "rce",
+          "man_made": "bridge",
+          "name:en": "Saint Servatius Bridge",
+          "name:fr": "Pont Saint-Servais",
+          "name:li": "Sint Servaosbrögk",
+          "name:nl": "Sint Servaasbrug",
+          "name:sl": "Most svetega Servacija",
+          "ref:rce": "28026"
         }
       },
       "fis": {
         "id": 54462,
         "naam": "Sint Servaasbrug (Sint Servaosbrögk)",
-        "afstand": 33,
+        "afstand": 17,
         "beweegbaar": true,
         "doorvaarthoogteGesloten": 6
       },
-      "pdokBridgeVlakken": 5
+      "pdokBridgeVlakken": 7
     },
     "type": "ophaalbrug",
     "doorvaarthoogte": 6,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,300000,180000,320000 --run nl-8_0 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map maastricht-sint-servaasbrug --plaats maastricht --punt 176749,317777",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -140,7 +160,7 @@
         -89.6,
         80.4
       ],
-      "portaalhoogte": 12.6,
+      "portaalhoogte": 11.7,
       "opritafstand": [
         20,
         20

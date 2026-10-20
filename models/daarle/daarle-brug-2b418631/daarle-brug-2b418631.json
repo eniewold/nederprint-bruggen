@@ -1,5 +1,5 @@
 {
-  "name": "daarle-brug-2b418631",
+  "name": "Groeneweg",
   "file": "daarle-brug-2b418631.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,29 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/696329332",
+        "tags": {
+          "bridge": "yes",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "80",
+          "name": "Groeneweg",
+          "sidewalk": "no",
+          "smoothness": "good",
+          "surface": "asphalt",
+          "bridge:structure": "beam",
+          "man_made": "bridge",
+          "material": "concrete"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,480000,240000,500000 --run nl-11_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map daarle-brug-2b418631 --plaats daarle --punt 235239,495102",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

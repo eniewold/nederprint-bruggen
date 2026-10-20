@@ -13,7 +13,7 @@
     -0.993139
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 41.106,
+  "groundHeight": 41.095,
   "groundSamplePoints": [
     [
       -6.17,
@@ -39,9 +39,9 @@
       ],
       "halfLength": 3,
       "halfWidth": 3.6,
-      "height": 41.322,
+      "height": 41.316,
       "gradient": [
-        -0.07204,
+        -0.07384,
         0
       ],
       "minLift": 0.05,
@@ -78,14 +78,24 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/481432293",
+        "tags": {
+          "access": "private",
+          "bridge": "yes",
+          "highway": "track",
+          "layer": "1",
+          "surface": "concrete",
+          "tracktype": "grade1"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map weesp-brug-b15cb193 --plaats weesp --punt 131045,481935",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -104,7 +114,7 @@
       "oprithelling": 6,
       "doorstekend": [],
       "opritHoogtes": [
-        41.106,
+        41.095,
         41.238
       ]
     },
@@ -112,6 +122,6 @@
       "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

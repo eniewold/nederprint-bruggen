@@ -13,7 +13,7 @@
     0.815311
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 42.017,
+  "groundHeight": 42.009,
   "groundSamplePoints": [
     [
       -8.19,
@@ -59,9 +59,9 @@
       ],
       "halfLength": 3.72,
       "halfWidth": 5.27,
-      "height": 42.205,
+      "height": 42.201,
       "gradient": [
-        -0.05055,
+        -0.05168,
         0
       ],
       "minLift": 0.05,
@@ -98,14 +98,26 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/797695023",
+        "tags": {
+          "access": "private",
+          "bridge": "yes",
+          "highway": "track",
+          "layer": "1",
+          "source": "local survey & PDOK 25 21-06-21",
+          "surface": "paved",
+          "tracktype": "grade1",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map muiden-brug-d6f3607c --plaats muiden --punt 134461,482356",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -123,17 +135,9 @@
         {
           "gmlId": "G1942.eeb88121b2904e4e86e84f3566add08a",
           "klasse": "Forest",
-          "oppervlak": 6559.8,
+          "oppervlak": 1312.2,
           "onderDek": 0,
           "bovenDekOnderkant": 0.45,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "L0001.3005515bfe0a4a73a3101c3d617620f9",
-          "klasse": "Forest",
-          "oppervlak": 4256.8,
-          "onderDek": 0,
-          "bovenDekOnderkant": 0.4,
           "actie": "verlagen"
         },
         {
@@ -141,6 +145,14 @@
           "klasse": "Terrain",
           "oppervlak": 58.3,
           "onderDek": 0.03,
+          "bovenDekOnderkant": 0.38,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "L0001.3005515bfe0a4a73a3101c3d617620f9",
+          "klasse": "Forest",
+          "oppervlak": 1419.1,
+          "onderDek": 0,
           "bovenDekOnderkant": 0.38,
           "actie": "verlagen"
         },
@@ -154,7 +166,7 @@
         }
       ],
       "opritHoogtes": [
-        42.017,
+        42.009,
         42.093
       ]
     },
@@ -162,6 +174,6 @@
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
       "4 PDOK-vorm(en) door het dek: 1 verborgen, 3 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

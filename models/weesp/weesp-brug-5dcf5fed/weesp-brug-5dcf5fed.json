@@ -1,5 +1,5 @@
 {
-  "name": "weesp-brug-5dcf5fed",
+  "name": "Gooilijn",
   "file": "weesp-brug-5dcf5fed.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -99,14 +99,49 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/529707936",
+        "tags": {
+          "axle_load": "22.5",
+          "bridge": "yes",
+          "description": "Diemen Aansl. - Weesp Aansl.",
+          "electrified": "contact_line",
+          "frequency": "0",
+          "gauge": "1435",
+          "layer": "1",
+          "loading_gauge": "TSI_GB",
+          "maxspeed": "130",
+          "name": "Gooilijn",
+          "operator": "ProRail",
+          "passenger_lines": "4",
+          "railway": "rail",
+          "railway:atb": "yes",
+          "railway:atb-eg": "yes",
+          "railway:atb-ng": "no",
+          "railway:etcs": "no",
+          "railway:maximum_current": "4000",
+          "railway:track_class": "D4",
+          "railway:traffic_mode": "mixed",
+          "ref": "128",
+          "ref:ProRailID": "2878531.0",
+          "ref:ProRailSpoortak": "128_55BV_13.3",
+          "source": "ProRail",
+          "source:date": "2014-01-03",
+          "usage": "main",
+          "voltage": "1500",
+          "wikidata": "Q801845",
+          "wikipedia": "nl:Spoorlijn Amsterdam - Zutphen",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map weesp-brug-5dcf5fed --plaats weesp --punt 131921,480200",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -165,6 +200,6 @@
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
       "4 PDOK-vorm(en) door het dek: 2 verborgen, 2 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

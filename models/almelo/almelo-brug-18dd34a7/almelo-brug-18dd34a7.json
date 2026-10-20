@@ -1,5 +1,5 @@
 {
-  "name": "almelo-brug-18dd34a7",
+  "name": "Krommendijk",
   "file": "almelo-brug-18dd34a7.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -43,7 +43,7 @@
       "halfWidth": 2.23,
       "height": 54.449,
       "gradient": [
-        -0.05361,
+        -0.05355,
         0
       ],
       "minLift": 0.05,
@@ -60,7 +60,7 @@
       ],
       "halfLength": 5.04,
       "halfWidth": 2.23,
-      "height": 54.57,
+      "height": 54.569,
       "gradient": [
         -0.02974,
         0
@@ -88,14 +88,23 @@
           "type": "landhoofd"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/219384673",
+        "tags": {
+          "bridge": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "name": "Krommendijk",
+          "surface": "paving_stones"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 3
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,480000,260000,500000 --run nl-12_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map almelo-brug-18dd34a7 --plaats almelo --punt 243820,488294",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -115,7 +124,7 @@
       "doorstekend": [],
       "opritHoogtes": [
         54.179,
-        54.42
+        54.419
       ]
     },
     "waarschuwingen": [],

@@ -1,5 +1,5 @@
 {
-  "name": "lopikerkapel-brug-eead2c28",
+  "name": "Radiolaan",
   "file": "lopikerkapel-brug-eead2c28.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,24 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/205971564",
+        "tags": {
+          "bridge": "yes",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Radiolaan",
+          "surface": "asphalt"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ophaalbrug",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,440000,140000,460000 --run nl-6_7 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map lopikerkapel-brug-eead2c28 --plaats lopikerkapel --punt 131996,445245",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -96,7 +106,7 @@
         -2.7,
         2.8
       ],
-      "portaalhoogte": 7.3,
+      "portaalhoogte": 5.7,
       "opritafstand": [
         4,
         4
@@ -113,6 +123,6 @@
       "geen FIS-brug binnen 35 m",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

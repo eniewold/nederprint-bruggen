@@ -1,5 +1,5 @@
 {
-  "name": "Winschoterhoogebrug",
+  "name": "Winschoterweg",
   "file": "winschoten-winschoterhoogebrug.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -124,20 +124,50 @@
           "type": "landhoofd"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1311388508",
+        "tags": {
+          "agricultural": "yes",
+          "bicycle": "no",
+          "bridge": "movable",
+          "bridge:movable": "bascule",
+          "carriage": "no",
+          "disabled_vehicle": "no",
+          "foot": "no",
+          "handcart": "no",
+          "highway": "primary",
+          "horse": "no",
+          "lanes": "2",
+          "layer": "1",
+          "maxspeed": "80",
+          "microcar": "no",
+          "mofa": "no",
+          "moped": "no",
+          "name": "Winschoterweg",
+          "operator": "Provincie Groningen",
+          "overtaking": "no",
+          "parking:both": "no",
+          "priority_road": "designated",
+          "ref": "N367",
+          "surface": "asphalt",
+          "traffic_sign": "NL:C9,OB55",
+          "zone:traffic": "NL:rural",
+          "man_made": "bridge"
+        }
+      },
       "fis": {
         "id": 58679,
         "naam": "Winschoterhoogebrug",
-        "afstand": 10,
+        "afstand": 9,
         "beweegbaar": true,
         "doorvaarthoogteGesloten": 0.38
       },
       "pdokBridgeVlakken": 10
     },
-    "type": "ophaalbrug",
+    "type": "basculebrug",
     "doorvaarthoogte": 0.38,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 260000,560000,280000,580000 --run nl-13_13 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map winschoten-winschoterhoogebrug --plaats winschoten --punt 266296,572637",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

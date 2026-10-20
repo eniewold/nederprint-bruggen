@@ -1,5 +1,5 @@
 {
-  "name": "Brug in de verbindingsweg A1/A6 Muiderberg",
+  "name": "Irenehoeve",
   "file": "muiderberg-brug-in-de-verbindingsweg-a1-a6-muiderberg.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -13,7 +13,7 @@
     -0.241355
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 50.042,
+  "groundHeight": 50.041,
   "groundSamplePoints": [
     [
       -130.64,
@@ -66,7 +66,7 @@
       "halfWidth": 14.39,
       "height": 51.211,
       "gradient": [
-        -0.09745,
+        -0.09747,
         0
       ],
       "minLift": 0.05,
@@ -108,20 +108,38 @@
           "type": "dek"
         }
       ],
-      "osm": null,
-      "fis": {
-        "id": 4668,
-        "naam": "Brug in de verbindingsweg A1/A6 Muiderberg",
-        "afstand": 31,
-        "beweegbaar": false,
-        "doorvaarthoogteGesloten": 5
+      "osm": {
+        "id": "way/438180372",
+        "tags": {
+          "bridge": "yes",
+          "carriageway_ref": "Re",
+          "highway": "motorway",
+          "lanes": "3",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "100",
+          "maxspeed:type": "sign",
+          "noname": "yes",
+          "official_name": "Rijksweg A6",
+          "oneway": "yes",
+          "operator": "Rijkswaterstaat",
+          "ref": "A6",
+          "source:official_name": "NWB",
+          "surface": "asphalt",
+          "toll:hgv": "yes",
+          "zone:traffic": "NL:rural",
+          "bridge:structure": "beam",
+          "man_made": "bridge",
+          "name": "Irenehoeve"
+        }
       },
+      "fis": null,
       "pdokBridgeVlakken": 7
     },
     "type": "ligger",
-    "doorvaarthoogte": 5,
+    "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map muiderberg-brug-in-de-verbindingsweg-a1-a6-muiderberg --plaats muiderberg --punt 136238,480777",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -141,12 +159,13 @@
       "doorstekend": [],
       "opritHoogtes": [
         52.081,
-        50.042
+        50.041
       ]
     },
     "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

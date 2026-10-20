@@ -1,5 +1,5 @@
 {
-  "name": "almelo-brug-85005f39",
+  "name": "Windmolenbroeksweg",
   "file": "almelo-brug-85005f39.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -88,14 +88,29 @@
           "type": "landhoofd"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/55616712",
+        "tags": {
+          "bridge": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "lit": "yes",
+          "mofa": "yes",
+          "moped": "designated",
+          "name": "Windmolenbroeksweg",
+          "oneway": "no",
+          "sidewalk": "left",
+          "surface": "asphalt",
+          "traffic_sign": "NL:G12a"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 3
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,480000,260000,500000 --run nl-12_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map almelo-brug-85005f39 --plaats almelo --punt 240384,484741",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

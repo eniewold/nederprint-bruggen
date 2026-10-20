@@ -1,5 +1,5 @@
 {
-  "name": "dordrecht-brug-047fc0f9-344",
+  "name": "Wijnbrug",
   "file": "dordrecht-brug-047fc0f9-344.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -93,14 +93,28 @@
           "type": "pijler"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/307073712",
+        "tags": {
+          "bicycle": "yes",
+          "bridge": "yes",
+          "description": "fietsen toegestaan ma t/m do tussen 7.00 en 11.00 en buiten sluitingstijd winkels",
+          "highway": "pedestrian",
+          "layer": "1",
+          "name": "Wijnbrug",
+          "surface": "asphalt",
+          "wikidata": "Q84560516",
+          "wikimedia_commons": "File:Zijgevel - Dordrecht - 20063058 - RCE.jpg",
+          "wikipedia": "nl:Wijnbrug (brug in Dordrecht)"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 4
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,420000,120000,440000 --run nl-5_6 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map dordrecht-brug-047fc0f9-344 --plaats dordrecht --punt 105436,425482",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -126,6 +140,6 @@
     "waarschuwingen": [
       "geen FIS-brug binnen 35 m"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

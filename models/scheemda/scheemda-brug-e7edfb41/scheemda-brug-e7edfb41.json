@@ -1,5 +1,5 @@
 {
-  "name": "scheemda-brug-e7edfb41",
+  "name": "Pastorieweg",
   "file": "scheemda-brug-e7edfb41.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -112,14 +112,23 @@
           "type": "landhoofd"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/6381232",
+        "tags": {
+          "bridge": "yes",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Pastorieweg"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 4
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 260000,560000,280000,580000 --run nl-13_13 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map scheemda-brug-e7edfb41 --plaats scheemda --punt 260176,579139",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

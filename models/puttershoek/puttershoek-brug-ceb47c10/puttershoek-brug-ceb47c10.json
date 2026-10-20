@@ -9,18 +9,18 @@
     423785.3
   ],
   "xAxis": [
-    0.066158,
-    0.997809
+    0.997809,
+    -0.066158
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 35.157,
+  "groundHeight": 42.313,
   "groundSamplePoints": [
     [
-      -7.42,
+      -17.4,
       0
     ],
     [
-      7.42,
+      17.4,
       0
     ]
   ],
@@ -30,37 +30,18 @@
   "terrainCorrections": [
     {
       "centre": [
-        99820.25,
-        423785.3
+        99804.47,
+        423786.35
       ],
       "axis": [
-        0.066158,
-        0.997809
+        -0.997809,
+        0.066158
       ],
-      "halfLength": 3.71,
-      "halfWidth": 8.41,
-      "height": 34.168,
+      "halfLength": 7.91,
+      "halfWidth": 9.42,
+      "height": 42.522,
       "gradient": [
-        0,
-        0
-      ],
-      "minLift": -1.88,
-      "maxLift": -0.01
-    },
-    {
-      "centre": [
-        99819.27,
-        423770.49
-      ],
-      "axis": [
-        -0.066158,
-        -0.997809
-      ],
-      "halfLength": 7.42,
-      "halfWidth": 9.91,
-      "height": 35.468,
-      "gradient": [
-        0,
+        -0.01897,
         0
       ],
       "minLift": 0.05,
@@ -68,18 +49,18 @@
     },
     {
       "centre": [
-        99821.23,
-        423800.12
+        99836.03,
+        423784.26
       ],
       "axis": [
-        0.066158,
-        0.997809
+        0.997809,
+        -0.066158
       ],
-      "halfLength": 7.42,
-      "halfWidth": 9.91,
-      "height": 35.312,
+      "halfLength": 7.91,
+      "halfWidth": 9.42,
+      "height": 42.492,
       "gradient": [
-        -0.02092,
+        -0.0227,
         0
       ],
       "minLift": 0.05,
@@ -97,47 +78,44 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1493520052",
+        "tags": {
+          "access": "no",
+          "bridge": "yes",
+          "highway": "steps",
+          "incline": "down",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,420000,100000,440000 --run nl-4_6 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map puttershoek-brug-ceb47c10 --plaats puttershoek --punt 99820,423785",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
-      "dekLengte": 14.8,
-      "dekBreedte": 15.8,
-      "brugLengte": 14.8,
+      "dekLengte": 15.8,
+      "dekBreedte": 14.8,
+      "brugLengte": 15.8,
       "water": null,
-      "portaalhoogte": 14.2,
+      "portaalhoogte": 13.4,
       "opritafstand": [
-        0,
-        0
+        9.5,
+        9.5
       ],
-      "spoorhoogteBron": "prorail-pvs",
-      "oprithelling": 14.8,
-      "doorstekend": [
-        {
-          "gmlId": "L0004.849d1b97cf8b4d62bd31cfd1a31406c1",
-          "klasse": "Terrain",
-          "oppervlak": 5246,
-          "onderDek": 0.03,
-          "bovenDekOnderkant": 0.88,
-          "actie": "verlagen"
-        }
-      ],
+      "oprithelling": 15.8,
+      "doorstekend": [],
       "opritHoogtes": [
-        35.468,
-        35.157
+        42.372,
+        42.313
       ]
     },
     "waarschuwingen": [
-      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
-      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
-      "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
     "gegenereerd": "2026-10-20"
   }

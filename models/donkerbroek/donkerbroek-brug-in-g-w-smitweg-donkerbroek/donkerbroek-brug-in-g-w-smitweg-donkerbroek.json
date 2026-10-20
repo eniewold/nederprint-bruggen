@@ -1,5 +1,5 @@
 {
-  "name": "Brug in G.W. Smitweg Donkerbroek",
+  "name": "Herenweg",
   "file": "donkerbroek-brug-in-g-w-smitweg-donkerbroek.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,7 +78,16 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/355200745",
+        "tags": {
+          "bridge": "movable",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Herenweg"
+        }
+      },
       "fis": {
         "id": 29138,
         "naam": "Brug in G.W. Smitweg Donkerbroek",
@@ -88,10 +97,10 @@
       },
       "pdokBridgeVlakken": 1
     },
-    "type": "ophaalbrug",
+    "type": "basculebrug",
     "doorvaarthoogte": 0.8999999999999999,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 200000,540000,220000,560000 --run nl-10_12 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map donkerbroek-brug-in-g-w-smitweg-donkerbroek --plaats donkerbroek --punt 211851,559276",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -115,6 +124,7 @@
       ]
     },
     "waarschuwingen": [
+      "bridge=movable zonder mechanisme: basculebrug is een gok",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
     "gegenereerd": "2026-10-20"

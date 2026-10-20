@@ -9,18 +9,18 @@
     502065.53
   ],
   "xAxis": [
-    0.021758,
-    0.999763
+    0.999763,
+    -0.021758
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 41.344,
+  "groundHeight": 41.611,
   "groundSamplePoints": [
     [
-      -5.42,
+      -38.49,
       0
     ],
     [
-      5.42,
+      38.49,
       0
     ]
   ],
@@ -34,33 +34,33 @@
         502065.53
       ],
       "axis": [
-        0.021758,
-        0.999763
+        0.999763,
+        -0.021758
       ],
-      "halfLength": 0.71,
-      "halfWidth": 18.99,
-      "height": 40.411,
+      "halfLength": 12.49,
+      "halfWidth": 1.92,
+      "height": 40.899,
       "gradient": [
         0,
         0
       ],
-      "minLift": -2.33,
+      "minLift": -1.4,
       "maxLift": -0.01
     },
     {
       "centre": [
-        118444.96,
-        502061.11
+        118414.58,
+        502066.19
       ],
       "axis": [
-        -0.021758,
-        -0.999763
+        -0.999763,
+        0.021758
       ],
-      "halfLength": 3,
-      "halfWidth": 20.49,
-      "height": 41.528,
+      "halfLength": 12,
+      "halfWidth": 2.13,
+      "height": 41.905,
       "gradient": [
-        -0.0612,
+        -0.02452,
         0
       ],
       "minLift": 0.05,
@@ -68,18 +68,18 @@
     },
     {
       "centre": [
-        118445.16,
-        502069.95
+        118475.54,
+        502064.87
       ],
       "axis": [
-        0.021758,
-        0.999763
+        0.999763,
+        -0.021758
       ],
-      "halfLength": 3,
-      "halfWidth": 20.49,
-      "height": 41.561,
+      "halfLength": 12,
+      "halfWidth": 2.13,
+      "height": 42.049,
       "gradient": [
-        -0.05,
+        -0.0125,
         0
       ],
       "minLift": 0.05,
@@ -112,48 +112,43 @@
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,500000,120000,520000 --run nl-5_10 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map jisp-brug-4751ae45-24 --plaats jisp --punt 118445,502066",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
-      "dekLengte": 2.8,
-      "dekBreedte": 37,
-      "brugLengte": 2.8,
-      "water": null,
-      "portaalhoogte": 33.3,
-      "opritafstand": [
-        4,
-        4
+      "dekLengte": 37,
+      "dekBreedte": 2.8,
+      "brugLengte": 37,
+      "water": [
+        -18,
+        17.5
       ],
-      "oprithelling": 6,
+      "portaalhoogte": 2.6,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
       "doorstekend": [
-        {
-          "gmlId": "G0880.4751ae45624852b5e05332a1e90ac06a",
-          "klasse": "Terrain",
-          "oppervlak": 749.8,
-          "onderDek": 0,
-          "bovenDekOnderkant": 1.33,
-          "actie": "verlagen"
-        },
         {
           "gmlId": "G0880.4751ae45b2c052b5e05332a1e90ac06a",
           "klasse": "Forest",
-          "oppervlak": 570.5,
-          "onderDek": 0.05,
-          "bovenDekOnderkant": 0.89,
+          "oppervlak": 1526.4,
+          "onderDek": 0.02,
+          "bovenDekOnderkant": 0.4,
           "actie": "verlagen"
         }
       ],
       "opritHoogtes": [
-        41.344,
-        41.411
+        41.611,
+        41.899
       ]
     },
     "waarschuwingen": [
-      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen FIS-brug binnen 35 m",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
-      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+      "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "name": "wierden-brug-768ac8f1",
+  "name": "Bedrijvenparksingel",
   "file": "wierden-brug-768ac8f1.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -113,14 +113,35 @@
           "type": "onbekend"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1374962811",
+        "tags": {
+          "bridge": "yes",
+          "carriageway_ref": "Li",
+          "highway": "trunk",
+          "lanes": "1",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "50",
+          "maxspeed:type": "sign",
+          "motorroad": "yes",
+          "name": "Bedrijvenparksingel",
+          "oneway": "yes",
+          "operator": "Rijkswaterstaat",
+          "ref": "N36",
+          "surface": "asphalt",
+          "zone:traffic": "NL:rural",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 8
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,480000,240000,500000 --run nl-11_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map wierden-brug-768ac8f1 --plaats wierden --punt 237410,484490",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

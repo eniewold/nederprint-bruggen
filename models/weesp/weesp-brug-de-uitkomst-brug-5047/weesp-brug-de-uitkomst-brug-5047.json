@@ -1,5 +1,5 @@
 {
-  "name": "Brug De Uitkomst (Brug 5047)",
+  "name": "De Uitkomst",
   "file": "weesp-brug-de-uitkomst-brug-5047.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -9,18 +9,18 @@
     479750.97
   ],
   "xAxis": [
-    -0.703306,
-    -0.710888
+    -0.710888,
+    0.703306
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 43.324,
+  "groundHeight": 42.94,
   "groundSamplePoints": [
     [
-      -17.43,
+      -52,
       0
     ],
     [
-      17.43,
+      52,
       0
     ]
   ],
@@ -31,37 +31,18 @@
   "terrainCorrections": [
     {
       "centre": [
-        130172.35,
-        479750.97
+        130203.63,
+        479720.03
       ],
       "axis": [
-        -0.703306,
-        -0.710888
+        0.710888,
+        -0.703306
       ],
-      "halfLength": 3.96,
-      "halfWidth": 32.5,
-      "height": 42.351,
+      "halfLength": 12,
+      "halfWidth": 9.92,
+      "height": 46.155,
       "gradient": [
-        0,
-        0
-      ],
-      "minLift": -1.86,
-      "maxLift": -0.01
-    },
-    {
-      "centre": [
-        130183.49,
-        479762.23
-      ],
-      "axis": [
-        0.703306,
-        0.710888
-      ],
-      "halfLength": 7.92,
-      "halfWidth": 34,
-      "height": 43.487,
-      "gradient": [
-        -0.02064,
+        -0.0125,
         0
       ],
       "minLift": 0.05,
@@ -69,18 +50,18 @@
     },
     {
       "centre": [
-        130161.21,
-        479739.71
+        130141.07,
+        479781.91
       ],
       "axis": [
-        -0.703306,
-        -0.710888
+        -0.710888,
+        0.703306
       ],
-      "halfLength": 7.92,
-      "halfWidth": 34,
-      "height": 43.501,
+      "halfLength": 12,
+      "halfWidth": 9.92,
+      "height": 44.623,
       "gradient": [
-        -0.01894,
+        -0.14018,
         0
       ],
       "minLift": 0.05,
@@ -102,11 +83,22 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/787981975",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "yes",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "50",
+          "name": "De Uitkomst",
+          "man_made": "bridge"
+        }
+      },
       "fis": {
         "id": 53711,
         "naam": "Brug De Uitkomst (Brug 5047)",
-        "afstand": 26,
+        "afstand": 21,
         "beweegbaar": true,
         "doorvaarthoogteGesloten": 3.4
       },
@@ -115,55 +107,30 @@
     "type": "ophaalbrug",
     "doorvaarthoogte": 3.4,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,460000,140000,480000 --run nl-6_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map weesp-brug-de-uitkomst-brug-5047 --plaats weesp --punt 130172,479751",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
-      "dekLengte": 15.8,
-      "dekBreedte": 64,
-      "brugLengte": 15.8,
-      "water": null,
-      "portaalhoogte": 57.6,
+      "dekLengte": 64,
+      "dekBreedte": 15.8,
+      "brugLengte": 64,
+      "water": [
+        -31.5,
+        -13.5
+      ],
+      "portaalhoogte": 7.9,
       "opritafstand": [
-        9.5,
-        9.5
+        20,
+        20
       ],
-      "oprithelling": 15.8,
-      "doorstekend": [
-        {
-          "gmlId": "G0457.167293297a2b480997b5770872d0d423",
-          "klasse": "Terrain",
-          "oppervlak": 12102.5,
-          "onderDek": 0.06,
-          "bovenDekOnderkant": 0.86,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "G0457.381cfcd0136a42f6b0063721a7bed9f4",
-          "klasse": "Terrain",
-          "oppervlak": 4072,
-          "onderDek": 0.08,
-          "bovenDekOnderkant": 0.7,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "G0457.0d9009fdcc0f46028a8ebbc442fbd93d",
-          "klasse": "Separation",
-          "oppervlak": 12.7,
-          "onderDek": 0.38,
-          "bovenDekOnderkant": 0.69,
-          "actie": "verlagen"
-        }
-      ],
+      "oprithelling": 24,
+      "doorstekend": [],
       "opritHoogtes": [
-        43.324,
-        43.351
+        46.005,
+        42.94
       ]
     },
-    "waarschuwingen": [
-      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
-      "3 PDOK-vorm(en) door het dek: 0 verborgen, 3 verlaagd"
-    ],
-    "gegenereerd": "2026-10-19"
+    "waarschuwingen": [],
+    "gegenereerd": "2026-10-20"
   }
 }

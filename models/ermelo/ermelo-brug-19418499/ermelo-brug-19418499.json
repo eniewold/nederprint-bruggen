@@ -78,14 +78,24 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/81929710",
+        "tags": {
+          "bicycle": "no",
+          "bridge": "yes",
+          "foot": "yes",
+          "highway": "path",
+          "layer": "1",
+          "surface": "wood"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,480000,180000,500000 --run nl-8_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map ermelo-brug-19418499 --plaats ermelo --punt 176828,481244",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -108,6 +118,6 @@
     "waarschuwingen": [
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

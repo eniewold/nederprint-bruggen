@@ -1,5 +1,5 @@
 {
-  "name": "hoogkarspel-brug-6b03f43e",
+  "name": "Keesmanlaan",
   "file": "hoogkarspel-brug-6b03f43e.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -97,14 +97,23 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/255557072",
+        "tags": {
+          "bridge": "yes",
+          "highway": "residential",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Keesmanlaan"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,520000,160000,540000 --run nl-7_11 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map hoogkarspel-brug-6b03f43e --plaats hoogkarspel --punt 140877,522783",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -148,6 +157,6 @@
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
       "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

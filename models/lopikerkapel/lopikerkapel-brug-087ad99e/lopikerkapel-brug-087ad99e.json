@@ -1,5 +1,5 @@
 {
-  "name": "lopikerkapel-brug-087ad99e",
+  "name": "Lopikerweg oost",
   "file": "lopikerkapel-brug-087ad99e.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,25 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/296474555",
+        "tags": {
+          "bridge": "yes",
+          "highway": "service",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Lopikerweg oost",
+          "surface": "concrete",
+          "zone:traffic": "NL:urban"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,440000,140000,460000 --run nl-6_7 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map lopikerkapel-brug-087ad99e --plaats lopikerkapel --punt 131725,445005",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -111,6 +122,6 @@
     "waarschuwingen": [
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

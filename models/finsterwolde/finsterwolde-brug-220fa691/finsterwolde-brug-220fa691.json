@@ -1,5 +1,5 @@
 {
-  "name": "finsterwolde-brug-220fa691",
+  "name": "Ekamperweg",
   "file": "finsterwolde-brug-220fa691.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -94,14 +94,31 @@
           "type": "landhoofd"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/114320110",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "yes",
+          "foot": "use_sidepath",
+          "highway": "secondary",
+          "lanes": "2",
+          "layer": "1",
+          "maxspeed": "60",
+          "mofa": "use_sidepath",
+          "name": "Ekamperweg",
+          "operator": "Provincie Groningen",
+          "ref": "N967",
+          "surface": "asphalt",
+          "zone:traffic": "NL:rural"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 4
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 260000,560000,280000,580000 --run nl-13_13 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map finsterwolde-brug-220fa691 --plaats finsterwolde --punt 267864,578454",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

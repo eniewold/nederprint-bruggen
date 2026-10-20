@@ -9,18 +9,14 @@
     534761.38
   ],
   "xAxis": [
-    -0.940982,
-    -0.338456
+    -0.338456,
+    0.940982
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 40.93,
+  "groundHeight": 41.723,
   "groundSamplePoints": [
     [
-      -4.76,
-      0
-    ],
-    [
-      4.76,
+      -11.74,
       0
     ]
   ],
@@ -34,52 +30,33 @@
         534761.38
       ],
       "axis": [
-        -0.940982,
-        -0.338456
+        -0.338456,
+        0.940982
       ],
-      "halfLength": 0.38,
-      "halfWidth": 5.84,
-      "height": 39.937,
+      "halfLength": 2.67,
+      "halfWidth": 1.26,
+      "height": 40.723,
       "gradient": [
         0,
         0
       ],
-      "minLift": -3.33,
+      "minLift": -1.81,
       "maxLift": -0.01
     },
     {
       "centre": [
-        114843.2,
-        534762.65
+        114843.28,
+        534751.34
       ],
       "axis": [
-        0.940982,
-        0.338456
+        0.338456,
+        -0.940982
       ],
-      "halfLength": 3,
-      "halfWidth": 7.34,
-      "height": 41.083,
+      "halfLength": 5.34,
+      "halfWidth": 1.13,
+      "height": 41.873,
       "gradient": [
-        -0.05114,
-        0
-      ],
-      "minLift": 0.05,
-      "maxLift": 4
-    },
-    {
-      "centre": [
-        114836.14,
-        534760.11
-      ],
-      "axis": [
-        -0.940982,
-        -0.338456
-      ],
-      "halfLength": 3,
-      "halfWidth": 7.34,
-      "height": 41.087,
-      "gradient": [
-        -0.05,
+        -0.02811,
         0
       ],
       "minLift": 0.05,
@@ -104,55 +81,42 @@
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,520000,120000,540000 --run nl-5_11 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map schagen-brug-33b54250 --plaats schagen --punt 114840,534761",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
-      "dekLengte": 1.5,
-      "dekBreedte": 10.7,
-      "brugLengte": 1.5,
-      "water": null,
-      "portaalhoogte": 9.6,
-      "opritafstand": [
-        4,
-        4
+      "dekLengte": 10.7,
+      "dekBreedte": 1.5,
+      "brugLengte": 10.7,
+      "water": [
+        -3.8,
+        -1.8
       ],
-      "oprithelling": 6,
+      "portaalhoogte": 2.5,
+      "opritafstand": [
+        6.4,
+        19.2
+      ],
+      "oprithelling": 10.7,
       "doorstekend": [
         {
           "gmlId": "G0441.778c5cb2aca6417a8dce6dd586cdafe3",
           "klasse": "Terrain",
           "oppervlak": 49.6,
-          "onderDek": 0.11,
-          "bovenDekOnderkant": 2.33,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "W0651.6a8588128b1b488f83a67e61a70e0078",
-          "klasse": "Terrain",
-          "oppervlak": 279.7,
-          "onderDek": 0.01,
-          "bovenDekOnderkant": 1.36,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "W0651.470a5040e7fe4cca9a3b58e00893a5f3",
-          "klasse": "Terrain",
-          "oppervlak": 275.2,
-          "onderDek": 0.01,
-          "bovenDekOnderkant": 0.67,
+          "onderDek": 0.07,
+          "bovenDekOnderkant": 0.81,
           "actie": "verlagen"
         }
       ],
       "opritHoogtes": [
-        40.93,
-        40.937
+        41.723,
+        null
       ]
     },
     "waarschuwingen": [
-      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "oprit + zonder PDOK-maaiveld",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
-      "3 PDOK-vorm(en) door het dek: 0 verborgen, 3 verlaagd"
+      "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
     ],
     "gegenereerd": "2026-10-20"
   }

@@ -1,5 +1,5 @@
 {
-  "name": "dalfsen-brug-97ced8b7",
+  "name": "Smalleweg",
   "file": "dalfsen-brug-97ced8b7.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -88,14 +88,22 @@
           "type": "landhoofd"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/115661275",
+        "tags": {
+          "bridge": "yes",
+          "highway": "track",
+          "layer": "1",
+          "name": "Smalleweg"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 3
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 200000,480000,220000,500000 --run nl-10_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map dalfsen-brug-97ced8b7 --plaats dalfsen --punt 214549,497886",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -119,6 +127,6 @@
       ]
     },
     "waarschuwingen": [],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

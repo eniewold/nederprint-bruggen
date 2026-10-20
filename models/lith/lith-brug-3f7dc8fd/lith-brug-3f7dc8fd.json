@@ -9,18 +9,14 @@
     425024.89
   ],
   "xAxis": [
-    -0.195827,
-    0.980638
+    0.980638,
+    0.195827
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 44.971,
+  "groundHeight": 48.431,
   "groundSamplePoints": [
     [
-      -4.57,
-      0
-    ],
-    [
-      4.57,
+      -32.21,
       0
     ]
   ],
@@ -30,56 +26,18 @@
   "terrainCorrections": [
     {
       "centre": [
-        156707.52,
-        425024.89
+        156681.39,
+        425019.67
       ],
       "axis": [
-        -0.195827,
-        0.980638
+        -0.980638,
+        -0.195827
       ],
-      "halfLength": 0.28,
-      "halfWidth": 15.14,
-      "height": 43.999,
+      "halfLength": 12,
+      "halfWidth": 0.85,
+      "height": 48.581,
       "gradient": [
-        0,
-        0
-      ],
-      "minLift": -5.47,
-      "maxLift": -0.01
-    },
-    {
-      "centre": [
-        156708.21,
-        425021.39
-      ],
-      "axis": [
-        0.195827,
-        -0.980638
-      ],
-      "halfLength": 3,
-      "halfWidth": 16.64,
-      "height": 45.135,
-      "gradient": [
-        -0.05453,
-        0
-      ],
-      "minLift": 0.05,
-      "maxLift": 4
-    },
-    {
-      "centre": [
-        156706.82,
-        425028.38
-      ],
-      "axis": [
-        -0.195827,
-        0.980638
-      ],
-      "halfLength": 3,
-      "halfWidth": 16.64,
-      "height": 45.149,
-      "gradient": [
-        -0.05,
+        -0.0125,
         0
       ],
       "minLift": 0.05,
@@ -104,72 +62,34 @@
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,420000,160000,440000 --run nl-7_6 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map lith-brug-3f7dc8fd --plaats lith --punt 156708,425025",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
-      "dekLengte": 1.1,
-      "dekBreedte": 29.3,
-      "brugLengte": 1.1,
-      "water": null,
-      "portaalhoogte": 26.4,
+      "dekLengte": 29.3,
+      "dekBreedte": 1.1,
+      "brugLengte": 29.3,
+      "water": [
+        2.4,
+        14.4
+      ],
+      "portaalhoogte": 2.5,
       "opritafstand": [
-        4,
-        4
+        17.6,
+        52.7
       ],
-      "oprithelling": 6,
-      "doorstekend": [
-        {
-          "gmlId": "L0002.331cf8dbd16043dfb0b2da21716aa863",
-          "klasse": "Terrain",
-          "oppervlak": 1252.8,
-          "onderDek": 0,
-          "bovenDekOnderkant": 4.47,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "L0002.50205ba6d3fa4eccb9f9634926df26dd",
-          "klasse": "Separation",
-          "oppervlak": 1.1,
-          "onderDek": 0.31,
-          "bovenDekOnderkant": 4.24,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "L0002.4d3643c365d44217b41198cddcc05a3e",
-          "klasse": "Terrain",
-          "oppervlak": 3.8,
-          "onderDek": 0.25,
-          "bovenDekOnderkant": 4.15,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "L0002.25443f0b14b54e3085b7c8cb585d4b4e",
-          "klasse": "Terrain",
-          "oppervlak": 1016.9,
-          "onderDek": 0.01,
-          "bovenDekOnderkant": 3.29,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "L0002.f031a2a08dcd42eb9294f42b2120cb3f",
-          "klasse": "Forest",
-          "oppervlak": 868.6,
-          "onderDek": 0.01,
-          "bovenDekOnderkant": 0.83,
-          "actie": "verlagen"
-        }
-      ],
+      "oprithelling": 24,
+      "doorstekend": [],
       "opritHoogtes": [
-        44.971,
-        44.999
+        48.431,
+        null
       ]
     },
     "waarschuwingen": [
-      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
-      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
-      "5 PDOK-vorm(en) door het dek: 0 verborgen, 5 verlaagd"
+      "geen FIS-brug binnen 35 m",
+      "oprit + zonder PDOK-maaiveld",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

@@ -81,18 +81,25 @@
       "osm": {
         "id": "way/739658930",
         "tags": {
+          "bicycle": "designated",
           "bridge": "movable",
-          "bridge:movable": "drawbridge",
+          "foot": "designated",
+          "highway": "cycleway",
           "layer": "1",
-          "man_made": "bridge",
+          "mofa": "designated",
+          "moped": "designated",
           "name": "Sint Maartensbrug",
-          "wikidata": "Q20746165"
+          "segregated": "no",
+          "traffic_sign": "NL:G12a",
+          "wikidata": "Q20746165",
+          "bridge:movable": "drawbridge",
+          "man_made": "bridge"
         }
       },
       "fis": {
         "id": 54483,
         "naam": "Sint Maartenbrug",
-        "afstand": 1,
+        "afstand": 0,
         "beweegbaar": true,
         "doorvaarthoogteGesloten": 2.3
       },
@@ -101,7 +108,7 @@
     "type": "ophaalbrug",
     "doorvaarthoogte": 2.3,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 40000,380000,60000,400000 --run nl-2_4 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map goes-sint-maartensbrug --plaats goes --punt 51131,391917",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -112,7 +119,7 @@
         -2.7,
         2.8
       ],
-      "portaalhoogte": 2.7,
+      "portaalhoogte": 2.6,
       "opritafstand": [
         4,
         4

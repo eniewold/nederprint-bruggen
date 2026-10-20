@@ -1,5 +1,5 @@
 {
-  "name": "kamperveen-brug-044431d1",
+  "name": "Hanzelijn",
   "file": "kamperveen-brug-044431d1.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -9,8 +9,8 @@
     502450.09
   ],
   "xAxis": [
-    0.96951,
-    -0.245054
+    0.969387,
+    -0.245539
   ],
   "groundOffsetMetres": 0,
   "groundHeight": 50.923,
@@ -32,15 +32,15 @@
   "terrainCorrections": [
     {
       "centre": [
-        193834.28,
-        502457.56
+        193834.29,
+        502457.57
       ],
       "axis": [
-        -0.96951,
-        0.245054
+        -0.969387,
+        0.245539
       ],
       "halfLength": 12,
-      "halfWidth": 8.46,
+      "halfWidth": 8.47,
       "height": 50.959,
       "gradient": [
         0,
@@ -52,14 +52,14 @@
     {
       "centre": [
         193893.37,
-        502442.62
+        502442.61
       ],
       "axis": [
-        0.96951,
-        -0.245054
+        0.969387,
+        -0.245539
       ],
       "halfLength": 12,
-      "halfWidth": 8.46,
+      "halfWidth": 8.47,
       "height": 50.941,
       "gradient": [
         -0.00149,
@@ -88,14 +88,49 @@
           "type": "landhoofd"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1200683246",
+        "tags": {
+          "axle_load": "22.5",
+          "bridge": "yes",
+          "description": "Lelystad Industrieterrein - Hattemerbroek",
+          "electrified": "contact_line",
+          "frequency": "0",
+          "gauge": "1435",
+          "layer": "1",
+          "loading_gauge": "TSI_GC",
+          "maxspeed": "200",
+          "name": "Hanzelijn",
+          "note:maxspeed": "Maxspeed 140 when ETCS is inactive",
+          "operator": "ProRail",
+          "passenger_lines": "2",
+          "railway": "rail",
+          "railway:atb": "yes",
+          "railway:atb-eg": "yes",
+          "railway:atb-ng": "no",
+          "railway:etcs": "2",
+          "railway:maximum_current": "4000",
+          "railway:track_class": "D4",
+          "railway:traffic_mode": "mixed",
+          "ref": "161",
+          "ref:ProRailID": "2885274.0",
+          "ref:ProRailSpoortak": "161_2707V_35.5",
+          "source": "ProRail",
+          "source:date": "2014-01-03",
+          "start_date": "2012-12-06",
+          "usage": "main",
+          "voltage": "1500",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 3
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 180000,500000,200000,520000 --run nl-9_10 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map kamperveen-brug-044431d1 --plaats kamperveen --punt 193864,502450",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -103,7 +138,7 @@
       "dekBreedte": 12.9,
       "brugLengte": 36.9,
       "water": null,
-      "portaalhoogte": 11.6,
+      "portaalhoogte": 11.7,
       "opritafstand": [
         0,
         0
@@ -119,6 +154,6 @@
     "waarschuwingen": [
       "geen FIS-brug binnen 35 m"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

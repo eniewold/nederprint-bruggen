@@ -1,5 +1,5 @@
 {
-  "name": "bunnik-brug-73986045",
+  "name": "Bunnikerbrug",
   "file": "bunnik-brug-73986045.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,31 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1558806965",
+        "tags": {
+          "bicycle": "yes",
+          "bridge": "yes",
+          "foot": "yes",
+          "highway": "cycleway",
+          "horse": "yes",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "30",
+          "motor_vehicle": "no",
+          "name": "Bunnikerbrug",
+          "sidewalk": "no",
+          "surface": "asphalt",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,440000,160000,460000 --run nl-7_7 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map bunnik-brug-73986045 --plaats bunnik --punt 142399,453401",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -111,6 +128,6 @@
     "waarschuwingen": [
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

@@ -78,14 +78,22 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1527163773",
+        "tags": {
+          "access": "private",
+          "bridge": "yes",
+          "highway": "path",
+          "layer": "1"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ophaalbrug",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,440000,160000,460000 --run nl-7_7 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map maarsbergen-brug-de532e5c --plaats maarsbergen --punt 156058,450884",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -96,7 +104,7 @@
         -0.9,
         4.1
       ],
-      "portaalhoogte": 3.3,
+      "portaalhoogte": 2.5,
       "opritafstand": [
         6.5,
         6.5
@@ -112,6 +120,6 @@
       "geen FIS-brug binnen 35 m",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

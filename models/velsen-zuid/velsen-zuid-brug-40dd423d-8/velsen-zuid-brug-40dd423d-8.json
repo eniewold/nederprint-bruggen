@@ -9,18 +9,18 @@
     495499.31
   ],
   "xAxis": [
-    0.738179,
-    -0.674605
+    -0.674605,
+    -0.738179
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 41.441,
+  "groundHeight": 40.811,
   "groundSamplePoints": [
     [
-      -5.69,
+      -6.37,
       0
     ],
     [
-      5.69,
+      14.37,
       0
     ]
   ],
@@ -34,33 +34,33 @@
         495499.31
       ],
       "axis": [
-        0.738179,
-        -0.674605
+        -0.674605,
+        -0.738179
       ],
-      "halfLength": 0.85,
-      "halfWidth": 2.87,
-      "height": 40.605,
+      "halfLength": 1.18,
+      "halfWidth": 2.19,
+      "height": 39.864,
       "gradient": [
         0,
         0
       ],
-      "minLift": -1.7,
+      "minLift": -2.42,
       "maxLift": -0.01
     },
     {
       "centre": [
-        107305.85,
-        495502.48
+        107312.94,
+        495503.28
       ],
       "axis": [
-        -0.738179,
-        0.674605
+        0.674605,
+        0.738179
       ],
       "halfLength": 3,
-      "halfWidth": 3.55,
-      "height": 41.673,
+      "halfWidth": 2.54,
+      "height": 41.014,
       "gradient": [
-        -0.07728,
+        -0.05,
         0
       ],
       "minLift": 0.05,
@@ -68,18 +68,18 @@
     },
     {
       "centre": [
-        107312.78,
-        495496.15
+        107305.7,
+        495495.35
       ],
       "axis": [
-        0.738179,
-        -0.674605
+        -0.674605,
+        -0.738179
       ],
       "halfLength": 3,
-      "halfWidth": 3.55,
-      "height": 41.755,
+      "halfWidth": 2.54,
+      "height": 40.987,
       "gradient": [
-        -0.05,
+        -0.0588,
         0
       ],
       "minLift": 0.05,
@@ -104,40 +104,48 @@
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,480000,120000,500000 --run nl-5_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map velsen-zuid-brug-40dd423d-8 --plaats velsen-zuid --punt 107309,495499",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
-      "dekLengte": 3.4,
-      "dekBreedte": 4.7,
-      "brugLengte": 3.4,
+      "dekLengte": 4.7,
+      "dekBreedte": 3.4,
+      "brugLengte": 4.7,
       "water": null,
-      "portaalhoogte": 4.3,
+      "portaalhoogte": 3,
       "opritafstand": [
         4,
-        4
+        12
       ],
       "oprithelling": 6,
       "doorstekend": [
         {
           "gmlId": "G0453.40dd423e6d305788e053cc1f0a0a3668",
           "klasse": "Terrain",
-          "oppervlak": 130,
-          "onderDek": 0.05,
-          "bovenDekOnderkant": 0.7,
+          "oppervlak": 130.3,
+          "onderDek": 0.07,
+          "bovenDekOnderkant": 1.42,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0453.40dd423fc5795788e053cc1f0a0a3668",
+          "klasse": "Terrain",
+          "oppervlak": 1011.2,
+          "onderDek": 0,
+          "bovenDekOnderkant": 1.35,
           "actie": "verlagen"
         }
       ],
       "opritHoogtes": [
-        41.441,
-        41.605
+        40.864,
+        40.811
       ]
     },
     "waarschuwingen": [
-      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "oprit + pas op 12.0 m gemeten",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
-      "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

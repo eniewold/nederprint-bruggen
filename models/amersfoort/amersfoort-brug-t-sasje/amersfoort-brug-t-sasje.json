@@ -78,20 +78,31 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/320358935",
+        "tags": {
+          "bridge": "movable",
+          "bridge:structure": "cable-stayed",
+          "layer": "1",
+          "man_made": "bridge",
+          "material": "composite",
+          "operator": "Gemeente Amersfoort",
+          "website": "https://www.amersfoort.nl/"
+        }
+      },
       "fis": {
         "id": 30302,
         "naam": "Brug 't Sasje",
-        "afstand": 1,
+        "afstand": 2,
         "beweegbaar": true,
         "doorvaarthoogteGesloten": 2.2
       },
       "pdokBridgeVlakken": 1
     },
-    "type": "ophaalbrug",
+    "type": "tuibrug",
     "doorvaarthoogte": 2.2,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,460000,160000,480000 --run nl-7_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map amersfoort-brug-t-sasje --plaats amersfoort --punt 154728,463561",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -115,8 +126,9 @@
       ]
     },
     "waarschuwingen": [
-      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "tuibrug zonder BGT-pylonen: alleen het dek"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

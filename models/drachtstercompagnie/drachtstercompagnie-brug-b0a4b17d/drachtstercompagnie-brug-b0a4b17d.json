@@ -1,5 +1,5 @@
 {
-  "name": "drachtstercompagnie-brug-b0a4b17d",
+  "name": "De Scheiding",
   "file": "drachtstercompagnie-brug-b0a4b17d.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -157,14 +157,34 @@
           "type": "onbekend"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/814717446",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "yes",
+          "foot": "use_sidepath",
+          "highway": "primary",
+          "lanes": "2",
+          "layer": "1",
+          "maxspeed": "80",
+          "mofa": "use_sidepath",
+          "moped": "use_sidepath",
+          "name": "De Scheiding",
+          "operator": "Provincie Fryslân",
+          "ref": "N358",
+          "surface": "asphalt",
+          "zone:traffic": "NL:rural",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 12
     },
     "type": "ophaalbrug",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 200000,560000,220000,580000 --run nl-10_13 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map drachtstercompagnie-brug-b0a4b17d --plaats drachtstercompagnie --punt 208394,571688",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -172,7 +192,7 @@
       "dekBreedte": 14.8,
       "brugLengte": 69.7,
       "water": null,
-      "portaalhoogte": 13.3,
+      "portaalhoogte": 13.2,
       "opritafstand": [
         20,
         20

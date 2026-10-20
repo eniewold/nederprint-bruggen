@@ -1,5 +1,5 @@
 {
-  "name": "tienhoven-brug-685d784c",
+  "name": "Nieuweweg",
   "file": "tienhoven-brug-685d784c.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -13,7 +13,7 @@
     -0.945224
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 43.284,
+  "groundHeight": 43.283,
   "groundSamplePoints": [
     [
       -7.56,
@@ -39,7 +39,7 @@
       ],
       "halfLength": 3.43,
       "halfWidth": 5.9,
-      "height": 43.502,
+      "height": 43.495,
       "gradient": [
         -0.04367,
         0
@@ -58,9 +58,9 @@
       ],
       "halfLength": 3.43,
       "halfWidth": 5.9,
-      "height": 43.468,
+      "height": 43.464,
       "gradient": [
-        -0.05349,
+        -0.05273,
         0
       ],
       "minLift": 0.05,
@@ -78,14 +78,26 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/749627525",
+        "tags": {
+          "bridge": "viaduct",
+          "cycleway": "shared_lane",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Nieuweweg",
+          "surface": "asphalt",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,460000,140000,480000 --run nl-6_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map tienhoven-brug-685d784c --plaats tienhoven --punt 130637,463794",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -104,14 +116,14 @@
       "oprithelling": 6.9,
       "doorstekend": [],
       "opritHoogtes": [
-        43.352,
-        43.284
+        43.345,
+        43.283
       ]
     },
     "waarschuwingen": [
       "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

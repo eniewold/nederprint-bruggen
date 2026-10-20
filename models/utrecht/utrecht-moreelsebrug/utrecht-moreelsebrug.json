@@ -26,13 +26,17 @@
   ],
   "replacesTerrain": [
     "L0004.060a64232e6949299cea911a0311e0e7",
+    "L0004.0b14098f77a44ad1a2ed533be2d5b093",
     "L0004.20c64ed64206467f90914f7ab60fa50a",
     "L0004.2af0ec2d094449b5b6dcfbf4ffca5966",
     "L0004.3042d3890ec84dc9872d5bd55735d1dd",
     "L0004.54262fb3dc1546b4a51753cac834833f",
     "L0004.56892ffc3f6f470caae1312c577b8907",
     "L0004.5cd9a49bc2ae4defa607e771fbc79658",
+    "L0004.6776d6eee76d43c38c7cd37efc1378a6",
     "L0004.6d37fe316041447b91f3865433961306",
+    "L0004.79ee6efe67de4d099cdf81ee30355b6a",
+    "L0004.92af11c730fc49c68d3881bdbfec9ef8",
     "L0004.944742e133804be8a4e010a71a5512ee",
     "L0004.9a3872e8935b4f98a003364ccf0a113a",
     "L0004.9e25adc38bc8483a86a76c9aca902367",
@@ -119,6 +123,10 @@
           "type": "sloof"
         },
         {
+          "id": "L0004.0b14098f77a44ad1a2ed533be2d5b093",
+          "type": "sloof"
+        },
+        {
           "id": "L0004.20c64ed64206467f90914f7ab60fa50a",
           "type": "pijler"
         },
@@ -143,7 +151,19 @@
           "type": "pijler"
         },
         {
+          "id": "L0004.6776d6eee76d43c38c7cd37efc1378a6",
+          "type": "pijler"
+        },
+        {
           "id": "L0004.6d37fe316041447b91f3865433961306",
+          "type": "sloof"
+        },
+        {
+          "id": "L0004.79ee6efe67de4d099cdf81ee30355b6a",
+          "type": "pijler"
+        },
+        {
+          "id": "L0004.92af11c730fc49c68d3881bdbfec9ef8",
           "type": "sloof"
         },
         {
@@ -205,7 +225,7 @@
         }
       },
       "fis": null,
-      "pdokBridgeVlakken": 17
+      "pdokBridgeVlakken": 21
     },
     "type": "ligger",
     "doorvaarthoogte": null,
@@ -213,7 +233,7 @@
       "naam": "Moreelsebrug",
       "straal": 40
     },
-    "opdracht": "node scripts/bridges/genereer.mjs --uit C:/Users/edwar/AppData/Local/Temp/claude/C--Users-edwar-source-Repos-nederprint/3bd9e161-d515-4f1b-bfbf-c9cc2320f835/scratchpad/rail-batch5 --map moreelsebrug --plaats utrecht --punt 136060.69,455534.07 --naam Moreelsebrug --straal 40",
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 126435,448710,141834,461610 --run utrecht-2026-10-20 --overschrijf 1 --parallel 5",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -226,6 +246,7 @@
         110,
         80
       ],
+      "spoorhoogteBron": "pdok",
       "oprithelling": 24,
       "doorstekend": [
         {
@@ -572,10 +593,12 @@
     },
     "waarschuwingen": [
       "geen FIS-brug binnen 35 m",
+      "oprit -: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
       "oprit - pas op 110 m langs het spoor gemeten (PDOK-spoorterrein bij de brug lager)",
+      "oprit +: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
       "oprit + pas op 80 m langs het spoor gemeten (PDOK-spoorterrein bij de brug lager)",
       "42 PDOK-vorm(en) door het dek: 6 verborgen, 36 verlaagd"
     ],
-    "gegenereerd": "2026-10-17"
+    "gegenereerd": "2026-10-20"
   }
 }

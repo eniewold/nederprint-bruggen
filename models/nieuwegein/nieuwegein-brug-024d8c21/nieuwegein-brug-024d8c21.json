@@ -1,5 +1,5 @@
 {
-  "name": "nieuwegein-brug-024d8c21",
+  "name": "Hooglandse Jaagpad",
   "file": "nieuwegein-brug-024d8c21.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -107,14 +107,28 @@
           "type": "landhoofd"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/791576163",
+        "tags": {
+          "bridge": "yes",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxspeed": "50",
+          "mofa": "yes",
+          "moped": "yes",
+          "motor_vehicle": "destination",
+          "motorcycle": "yes",
+          "name": "Hooglandse Jaagpad",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 3
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,440000,140000,460000 --run nl-6_7 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map nieuwegein-brug-024d8c21 --plaats nieuwegein --punt 133643,447485",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -149,6 +163,6 @@
     "waarschuwingen": [
       "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

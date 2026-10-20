@@ -1,5 +1,5 @@
 {
-  "name": "rijssen-brug-367cf3cc",
+  "name": "Reggesingel",
   "file": "rijssen-brug-367cf3cc.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -97,14 +97,29 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1220281789",
+        "tags": {
+          "bridge": "viaduct",
+          "cycleway": "shared_lane",
+          "highway": "unclassified",
+          "lanes": "1",
+          "layer": "1",
+          "maxspeed": "50",
+          "maxweight:signed": "no",
+          "name": "Reggesingel",
+          "surface": "asphalt",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,480000,240000,500000 --run nl-11_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map rijssen-brug-367cf3cc --plaats rijssen --punt 233078,481637",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

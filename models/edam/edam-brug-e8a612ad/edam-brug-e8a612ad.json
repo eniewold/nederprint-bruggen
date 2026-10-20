@@ -1,5 +1,5 @@
 {
-  "name": "edam-brug-e8a612ad",
+  "name": "Broekgouwstraat",
   "file": "edam-brug-e8a612ad.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -97,14 +97,25 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/280291478",
+        "tags": {
+          "bridge": "yes",
+          "cycleway": "shared_lane",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Broekgouwstraat",
+          "zone:traffic": "NL:urban"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,500000,140000,520000 --run nl-6_10 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map edam-brug-e8a612ad --plaats edam --punt 132572,502668",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -140,6 +151,6 @@
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
       "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

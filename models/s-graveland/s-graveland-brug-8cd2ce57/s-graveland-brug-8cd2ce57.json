@@ -1,5 +1,5 @@
 {
-  "name": "s-graveland-brug-8cd2ce57",
+  "name": "Herenweg",
   "file": "s-graveland-brug-8cd2ce57.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -95,14 +95,25 @@
           "type": "landhoofd"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/360591438",
+        "tags": {
+          "bicycle": "no",
+          "bridge": "yes",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Herenweg",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 4
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,460000,140000,480000 --run nl-6_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map s-graveland-brug-8cd2ce57 --plaats s-graveland --punt 136810,473447",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -138,6 +149,6 @@
       "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
       "1 PDOK-vorm(en) door het dek: 1 verborgen, 0 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

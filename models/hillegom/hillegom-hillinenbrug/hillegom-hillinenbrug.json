@@ -78,7 +78,20 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/652976084",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "movable",
+          "highway": "secondary",
+          "layer": "1",
+          "maxspeed": "50",
+          "name": "Hillinenbrug",
+          "zone:traffic": "NL:urban",
+          "bridge:movable": "bascule",
+          "man_made": "bridge"
+        }
+      },
       "fis": {
         "id": 34676,
         "naam": "Hillinenbrug",
@@ -88,10 +101,10 @@
       },
       "pdokBridgeVlakken": 1
     },
-    "type": "ophaalbrug",
+    "type": "basculebrug",
     "doorvaarthoogte": 2.11,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,460000,120000,480000 --run nl-5_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map hillegom-hillinenbrug --plaats hillegom --punt 100405,478037",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -118,6 +131,6 @@
       "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

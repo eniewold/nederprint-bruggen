@@ -1,5 +1,5 @@
 {
-  "name": "helmond-brug-9c33de55",
+  "name": "Goorsebrug",
   "file": "helmond-brug-9c33de55.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -83,14 +83,30 @@
           "type": "landhoofd"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/85729486",
+        "tags": {
+          "bridge": "yes",
+          "bridge:material": "wood",
+          "bridge:name": "Goorsebrug",
+          "bridge:structure": "humpback",
+          "highway": "cycleway",
+          "layer": "1",
+          "name": "Goorsebrug",
+          "oneway": "no",
+          "surface": "wood",
+          "man_made": "bridge",
+          "start_date": "2011",
+          "wikidata": "Q127421183"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 2
     },
-    "type": "ligger",
+    "type": "bolbrug",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,380000,180000,400000 --run nl-8_4 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map helmond-brug-9c33de55 --plaats helmond --punt 172625,385193",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -107,6 +123,7 @@
         12.2
       ],
       "oprithelling": 20.3,
+      "bolling": 1.79,
       "doorstekend": [],
       "opritHoogtes": [
         65.52,

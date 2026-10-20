@@ -13,7 +13,7 @@
     0.995228
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 44.344,
+  "groundHeight": 44.343,
   "groundSamplePoints": [
     [
       -13.44,
@@ -58,9 +58,9 @@
       ],
       "halfLength": 6.11,
       "halfWidth": 1.55,
-      "height": 44.651,
+      "height": 44.65,
       "gradient": [
-        -0.05011,
+        -0.05023,
         0
       ],
       "minLift": 0.05,
@@ -78,14 +78,24 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/816235251",
+        "tags": {
+          "bridge": "yes",
+          "highway": "footway",
+          "layer": "1",
+          "surface": "asphalt",
+          "bridge:structure": "humpback",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
-    "type": "ligger",
+    "type": "bolbrug",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,440000,140000,460000 --run nl-6_7 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map nieuwegein-brug-0466a50f --plaats nieuwegein --punt 134827,447101",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -102,15 +112,16 @@
         7.3
       ],
       "oprithelling": 12.2,
+      "bolling": 1.47,
       "doorstekend": [],
       "opritHoogtes": [
         44.657,
-        44.344
+        44.343
       ]
     },
     "waarschuwingen": [
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

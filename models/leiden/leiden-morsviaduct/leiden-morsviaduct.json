@@ -13,15 +13,15 @@
     -0.766573
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 47.437,
+  "groundHeight": 48.325,
   "groundSamplePoints": [
     [
-      -36.87,
-      -4.35
+      -26.87,
+      0
     ],
     [
-      36.87,
-      0.27
+      26.87,
+      0
     ]
   ],
   "replacesTerrain": [
@@ -41,12 +41,12 @@
       ],
       "halfLength": 20.87,
       "halfWidth": 15.04,
-      "height": 46.81,
+      "height": 47.121,
       "gradient": [
         0,
         0
       ],
-      "minLift": -1.63,
+      "minLift": -1.32,
       "maxLift": -0.01
     },
     {
@@ -60,9 +60,9 @@
       ],
       "halfLength": 12,
       "halfWidth": 16.54,
-      "height": 47.774,
+      "height": 48.421,
       "gradient": [
-        -0.02803,
+        0,
         0
       ],
       "minLift": 0.05,
@@ -79,9 +79,9 @@
       ],
       "halfLength": 12,
       "halfWidth": 16.54,
-      "height": 47.96,
+      "height": 48.373,
       "gradient": [
-        -0.0125,
+        -0.00398,
         0
       ],
       "minLift": 0.05,
@@ -150,7 +150,7 @@
       "naam": "Morsviaduct",
       "straal": 40
     },
-    "opdracht": "node scripts/bridges/genereer.mjs --uit C:/Users/edwar/AppData/Local/Temp/claude/C--Users-edwar-source-Repos-nederprint/3bd9e161-d515-4f1b-bfbf-c9cc2320f835/scratchpad/rail-batch5 --map morsviaduct --plaats leiden --punt 92373.45,463829.63 --naam Morsviaduct --straal 40",
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 90100,459364,95921,466645 --run leiden-2026-10-20 --overschrijf 1 --parallel 5",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -160,9 +160,10 @@
       "water": null,
       "portaalhoogte": 26.2,
       "opritafstand": [
-        10,
-        10
+        0,
+        0
       ],
+      "spoorhoogteBron": "prorail-pvs",
       "oprithelling": 24,
       "doorstekend": [
         {
@@ -170,27 +171,19 @@
           "klasse": "Road",
           "oppervlak": 19499.5,
           "onderDek": 0,
-          "bovenDekOnderkant": 0.63,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "L0004.c6cf2f74b52242eaac4e12a8545ba362",
-          "klasse": "Road",
-          "oppervlak": 113186.2,
-          "onderDek": 0,
-          "bovenDekOnderkant": 0.28,
+          "bovenDekOnderkant": 0.32,
           "actie": "verlagen"
         }
       ],
       "opritHoogtes": [
-        47.437,
-        47.81
+        48.421,
+        48.325
       ]
     },
     "waarschuwingen": [
       "geen FIS-brug binnen 35 m",
-      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+      "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
     ],
-    "gegenereerd": "2026-10-17"
+    "gegenereerd": "2026-10-20"
   }
 }

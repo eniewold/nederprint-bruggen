@@ -1,5 +1,5 @@
 {
-  "name": "wijnjewoude-brug-884bee4d",
+  "name": "Mûzebiterspaad",
   "file": "wijnjewoude-brug-884bee4d.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -79,7 +79,7 @@
       "halfWidth": 1.66,
       "height": 43.281,
       "gradient": [
-        -0.01924,
+        -0.01923,
         0
       ],
       "minLift": 0.05,
@@ -97,14 +97,24 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/240322417",
+        "tags": {
+          "bridge": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "mofa": "no",
+          "name": "Mûzebiterspaad",
+          "traffic_sign": "NL:G13"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 200000,560000,220000,580000 --run nl-10_13 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map wijnjewoude-brug-884bee4d --plaats wijnjewoude --punt 207316,564729",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -125,7 +135,7 @@
         {
           "gmlId": "G0086.c2ab1800c5e34b6e87c85433283e1cc7",
           "klasse": "Terrain",
-          "oppervlak": 423.5,
+          "oppervlak": 282.3,
           "onderDek": 0,
           "bovenDekOnderkant": 0.77,
           "actie": "verlagen"

@@ -9,18 +9,18 @@
     575961.99
   ],
   "xAxis": [
-    0.982953,
-    0.183854
+    0.981717,
+    0.190347
   ],
   "groundOffsetMetres": 0,
   "groundHeight": 46.634,
   "groundSamplePoints": [
     [
-      -19.89,
+      -19.93,
       0
     ],
     [
-      19.55,
+      19.58,
       0
     ]
   ],
@@ -37,14 +37,14 @@
     {
       "centre": [
         255717.99,
-        575956.13
+        575955.92
       ],
       "axis": [
-        -0.982953,
-        -0.183854
+        -0.981717,
+        -0.190347
       ],
       "halfLength": 12,
-      "halfWidth": 9.13,
+      "halfWidth": 9.15,
       "height": 46.635,
       "gradient": [
         -0.00012,
@@ -55,15 +55,15 @@
     },
     {
       "centre": [
-        255780.35,
-        575967.79
+        255780.34,
+        575968.01
       ],
       "axis": [
-        0.982953,
-        0.183854
+        0.981717,
+        0.190347
       ],
       "halfLength": 12,
-      "halfWidth": 9.13,
+      "halfWidth": 9.15,
       "height": 46.637,
       "gradient": [
         0,
@@ -110,25 +110,32 @@
           "type": "landhoofd"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/409067851",
+        "tags": {
+          "bridge": "movable",
+          "layer": "1",
+          "railway": "disused"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 7
     },
-    "type": "ophaalbrug",
+    "type": "basculebrug",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,560000,260000,580000 --run nl-12_13 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map muntendam-brug-e834b241 --plaats muntendam --punt 255749,575962",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
-      "dekLengte": 39.1,
+      "dekLengte": 39.2,
       "dekBreedte": 14.3,
-      "brugLengte": 39.4,
+      "brugLengte": 39.5,
       "water": [
         -10.4,
         10.1
       ],
-      "portaalhoogte": 12.8,
+      "portaalhoogte": 12.9,
       "opritafstand": [
         0,
         0
@@ -142,6 +149,7 @@
       ]
     },
     "waarschuwingen": [
+      "bridge=movable zonder mechanisme: basculebrug is een gok",
       "geen FIS-brug binnen 35 m"
     ],
     "gegenereerd": "2026-10-20"

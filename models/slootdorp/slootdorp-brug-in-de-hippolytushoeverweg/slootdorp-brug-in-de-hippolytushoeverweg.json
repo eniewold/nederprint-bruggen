@@ -1,5 +1,5 @@
 {
-  "name": "Brug in de Hippolytushoeverweg",
+  "name": "Hippolytushoeverweg",
   "file": "slootdorp-brug-in-de-hippolytushoeverweg.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,7 +78,18 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/6571153",
+        "tags": {
+          "bridge": "yes",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Hippolytushoeverweg",
+          "smoothness": "good",
+          "surface": "asphalt"
+        }
+      },
       "fis": {
         "id": 47617,
         "naam": "Brug in de Hippolytushoeverweg",
@@ -91,7 +102,7 @@
     "type": "ophaalbrug",
     "doorvaarthoogte": 3.95,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,540000,140000,560000 --run nl-6_12 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map slootdorp-brug-in-de-hippolytushoeverweg --plaats slootdorp --punt 129956,545696",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

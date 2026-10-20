@@ -1,5 +1,5 @@
 {
-  "name": "oud-beijerland-brug-8abeacd5-24",
+  "name": "Boezembaan",
   "file": "oud-beijerland-brug-8abeacd5-24.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -97,14 +97,29 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1160173750",
+        "tags": {
+          "bicycle": "designated",
+          "bridge": "yes",
+          "foot": "designated",
+          "highway": "cycleway",
+          "layer": "1",
+          "mofa": "yes",
+          "moped": "no",
+          "name": "Boezembaan",
+          "segregated": "yes",
+          "traffic_sign": "NL:G11",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,420000,100000,440000 --run nl-4_6 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map oud-beijerland-brug-8abeacd5-24 --plaats oud-beijerland --punt 88917,425845",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -125,7 +140,7 @@
         {
           "gmlId": "W0655.8abeacd5439b757600000000a508a047",
           "klasse": "Terrain",
-          "oppervlak": 1807.9,
+          "oppervlak": 904,
           "onderDek": 0.01,
           "bovenDekOnderkant": 0.16,
           "actie": "verlagen"

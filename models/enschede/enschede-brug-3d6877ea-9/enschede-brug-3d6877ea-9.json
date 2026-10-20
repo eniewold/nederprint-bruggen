@@ -1,5 +1,5 @@
 {
-  "name": "enschede-brug-3d6877ea-9",
+  "name": "Kwinkelerweg",
   "file": "enschede-brug-3d6877ea-9.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -39,9 +39,9 @@
       ],
       "halfLength": 12,
       "halfWidth": 8.16,
-      "height": 72.03,
+      "height": 72.025,
       "gradient": [
-        -0.01494,
+        -0.01454,
         0
       ],
       "minLift": 0.05,
@@ -58,7 +58,7 @@
       ],
       "halfLength": 12,
       "halfWidth": 8.16,
-      "height": 72.06,
+      "height": 72.05,
       "gradient": [
         -0.0125,
         0
@@ -78,14 +78,26 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/6669875",
+        "tags": {
+          "bridge": "yes",
+          "hgv": "no",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Kwinkelerweg",
+          "source:maxspeed": "NL:zone60",
+          "surface": "asphalt"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,460000,260000,480000 --run nl-12_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map enschede-brug-3d6877ea-9 --plaats enschede --punt 250652,471935",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -102,7 +114,7 @@
       "doorstekend": [],
       "opritHoogtes": [
         71.851,
-        71.91
+        71.9
       ]
     },
     "waarschuwingen": [

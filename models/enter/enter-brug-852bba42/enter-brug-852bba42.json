@@ -84,7 +84,7 @@
       "halfWidth": 29.8,
       "height": 54.121,
       "gradient": [
-        -0.02574,
+        -0.02573,
         0
       ],
       "minLift": 0.05,
@@ -123,14 +123,31 @@
           "type": "onbekend"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/114727091",
+        "tags": {
+          "bridge": "yes",
+          "carriageway_ref": "Li",
+          "highway": "motorway",
+          "lanes": "2",
+          "layer": "1",
+          "lit": "no",
+          "maxspeed": "100",
+          "maxspeed:conditional": "130 @ (19:00-06:00)",
+          "oneway": "yes",
+          "operator": "Rijkswaterstaat",
+          "ref": "A35",
+          "surface": "asphalt",
+          "toll:hgv": "yes"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 6
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,480000,240000,500000 --run nl-11_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map enter-brug-852bba42 --plaats enter --punt 237540,484270",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

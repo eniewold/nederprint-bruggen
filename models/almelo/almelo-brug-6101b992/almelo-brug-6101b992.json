@@ -9,8 +9,8 @@
     484372.18
   ],
   "xAxis": [
-    0.764198,
-    -0.644982
+    0.764,
+    -0.645216
   ],
   "groundOffsetMetres": 0,
   "groundHeight": 55.288,
@@ -36,8 +36,8 @@
         484372.18
       ],
       "axis": [
-        0.764198,
-        -0.644982
+        0.764,
+        -0.645216
       ],
       "halfLength": 3.17,
       "halfWidth": 8,
@@ -51,12 +51,12 @@
     },
     {
       "centre": [
-        242409.54,
+        242409.55,
         484380.35
       ],
       "axis": [
-        -0.764198,
-        0.644982
+        -0.764,
+        0.645216
       ],
       "halfLength": 6.33,
       "halfWidth": 9.5,
@@ -70,12 +70,12 @@
     },
     {
       "centre": [
-        242428.9,
+        242428.89,
         484364.02
       ],
       "axis": [
-        0.764198,
-        -0.644982
+        0.764,
+        -0.645216
       ],
       "halfLength": 6.33,
       "halfWidth": 9.5,
@@ -107,14 +107,43 @@
           "type": "onbekend"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/271945389",
+        "tags": {
+          "axle_load": "22.5",
+          "bridge": "yes",
+          "description": "Almelo - Hengelo",
+          "electrified": "contact_line",
+          "frequency": "0",
+          "gauge": "1435",
+          "layer": "1",
+          "loading_gauge": "TSI_GB",
+          "maxspeed": "130",
+          "operator": "ProRail",
+          "passenger_lines": "2",
+          "railway": "rail",
+          "railway:atb": "yes",
+          "railway:atb-eg": "yes",
+          "railway:etcs": "no",
+          "railway:maximum_current": "4000",
+          "railway:track_class": "D4",
+          "railway:traffic_mode": "mixed",
+          "ref": "025",
+          "ref:ProRailSpoortak": "606_111V_1.0",
+          "source": "ProRail",
+          "source:date": "2014-01-03",
+          "start_date": "1865-10-18",
+          "usage": "main",
+          "voltage": "1500"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 3
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,480000,260000,500000 --run nl-12_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map almelo-brug-6101b992 --plaats almelo --punt 242419,484372",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

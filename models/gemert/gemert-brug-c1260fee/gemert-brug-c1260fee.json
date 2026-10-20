@@ -1,5 +1,5 @@
 {
-  "name": "gemert-brug-c1260fee",
+  "name": "Peeldijk",
   "file": "gemert-brug-c1260fee.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -88,14 +88,27 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/533976232",
+        "tags": {
+          "bridge": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "mofa": "yes",
+          "moped": "designated",
+          "name": "Peeldijk",
+          "oneway": "yes",
+          "surface": "asphalt",
+          "traffic_sign": "NL:G12a"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 3
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,380000,180000,400000 --run nl-8_4 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map gemert-brug-c1260fee --plaats gemert --punt 177416,397722",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

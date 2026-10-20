@@ -9,18 +9,18 @@
     476033.4
   ],
   "xAxis": [
-    -0.883474,
-    -0.46848
+    0.70062,
+    -0.713535
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 59.88,
+  "groundHeight": 63.409,
   "groundSamplePoints": [
     [
-      -20.05,
+      -8.17,
       0
     ],
     [
-      40.48,
+      8.32,
       0
     ]
   ],
@@ -36,33 +36,33 @@
         476033.4
       ],
       "axis": [
-        -0.883474,
-        -0.46848
+        0.70062,
+        -0.713535
       ],
-      "halfLength": 4.15,
-      "halfWidth": 4.85,
-      "height": 59.229,
+      "halfLength": 3.27,
+      "halfWidth": 7.31,
+      "height": 62.119,
       "gradient": [
         0,
         0
       ],
-      "minLift": -5.26,
+      "minLift": -2.37,
       "maxLift": -0.01
     },
     {
       "centre": [
-        250310.1,
-        476042.92
+        250280.65,
+        476045.11
       ],
       "axis": [
-        0.883474,
-        0.46848
+        -0.70062,
+        0.713535
       ],
-      "halfLength": 10.27,
-      "halfWidth": 6.35,
-      "height": 60.205,
+      "halfLength": 8.24,
+      "halfWidth": 8.81,
+      "height": 63.414,
       "gradient": [
-        -0.03161,
+        -0.00059,
         0
       ],
       "minLift": 0.05,
@@ -70,18 +70,18 @@
     },
     {
       "centre": [
-        250273.82,
-        476023.68
+        250303.75,
+        476021.58
       ],
       "axis": [
-        -0.883474,
-        -0.46848
+        0.70062,
+        -0.713535
       ],
-      "halfLength": 10.27,
-      "halfWidth": 6.35,
-      "height": 60.379,
+      "halfLength": 8.24,
+      "halfWidth": 8.81,
+      "height": 63.419,
       "gradient": [
-        -0.01461,
+        0,
         0
       ],
       "minLift": 0.05,
@@ -107,43 +107,72 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/375679339",
+        "tags": {
+          "axle_load": "22.5",
+          "bridge": "yes",
+          "description": "Almelo - Hengelo",
+          "electrified": "contact_line",
+          "frequency": "0",
+          "gauge": "1435",
+          "layer": "1",
+          "loading_gauge": "TSI_GB",
+          "maxspeed": "120",
+          "operator": "ProRail",
+          "passenger_lines": "2",
+          "railway": "rail",
+          "railway:atb": "yes",
+          "railway:atb-eg": "yes",
+          "railway:etcs": "no",
+          "railway:maximum_current": "4000",
+          "railway:track_class": "D4",
+          "railway:traffic_mode": "mixed",
+          "ref": "025",
+          "ref:ProRailSpoortak": "606_111V_1.0",
+          "source": "ProRail",
+          "source:date": "2014-01-03",
+          "start_date": "1865-10-18",
+          "usage": "main",
+          "voltage": "1500"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 3
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,460000,260000,480000 --run nl-12_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map hengelo-brug-b2581f2e --plaats hengelo --punt 250292,476033",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
-      "dekLengte": 16.6,
-      "dekBreedte": 8.7,
-      "brugLengte": 20.5,
+      "dekLengte": 13.1,
+      "dekBreedte": 13.6,
+      "brugLengte": 16.5,
       "water": null,
-      "portaalhoogte": 7.8,
+      "portaalhoogte": 12.2,
       "opritafstand": [
-        10,
-        30
+        0,
+        0
       ],
-      "spoorhoogteBron": "pdok",
-      "oprithelling": 20.5,
+      "spoorhoogteBron": "prorail-pvs",
+      "oprithelling": 16.5,
       "doorstekend": [
         {
           "gmlId": "L0004.15fade473eb142a99901e41fc1746fd1",
           "klasse": "Road",
           "oppervlak": 5.6,
           "onderDek": 0.01,
-          "bovenDekOnderkant": 4.26,
+          "bovenDekOnderkant": 1.37,
           "actie": "verlagen"
         },
         {
           "gmlId": "G0164.7581d4fc3034447a8a19b77139b6b68b",
           "klasse": "Road",
           "oppervlak": 854.2,
-          "onderDek": 0.03,
-          "bovenDekOnderkant": 3.55,
+          "onderDek": 0.05,
+          "bovenDekOnderkant": 0.66,
           "actie": "verlagen"
         },
         {
@@ -151,52 +180,17 @@
           "klasse": "Road",
           "oppervlak": 328.7,
           "onderDek": 0.03,
-          "bovenDekOnderkant": 3.55,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "G0164.97764591095f489b9e86d50447b7bebf",
-          "klasse": "Road",
-          "oppervlak": 144.5,
-          "onderDek": 0.02,
-          "bovenDekOnderkant": 2.35,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "G0164.fe41fff8cd044b30994aee2e82bdba62",
-          "klasse": "Road",
-          "oppervlak": 395.8,
-          "onderDek": 0.02,
-          "bovenDekOnderkant": 0.98,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "G0164.a73b84e02f6146b09097fd8b2ff2b96d",
-          "klasse": "Road",
-          "oppervlak": 151.9,
-          "onderDek": 0.03,
-          "bovenDekOnderkant": 0.55,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "G0164.001e76939a234579a9b1dbe6ef9007c6",
-          "klasse": "Road",
-          "oppervlak": 785.4,
-          "onderDek": 0.02,
-          "bovenDekOnderkant": 0.5,
+          "bovenDekOnderkant": 0.66,
           "actie": "verlagen"
         }
       ],
       "opritHoogtes": [
-        59.88,
-        60.229
+        63.409,
+        63.419
       ]
     },
     "waarschuwingen": [
-      "oprit -: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
-      "oprit +: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
-      "oprit + pas op 30 m langs het spoor gemeten (PDOK-spoorterrein bij de brug lager)",
-      "7 PDOK-vorm(en) door het dek: 0 verborgen, 7 verlaagd"
+      "3 PDOK-vorm(en) door het dek: 0 verborgen, 3 verlaagd"
     ],
     "gegenereerd": "2026-10-20"
   }

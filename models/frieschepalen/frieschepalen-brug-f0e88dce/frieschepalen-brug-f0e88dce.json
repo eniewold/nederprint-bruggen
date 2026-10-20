@@ -1,5 +1,5 @@
 {
-  "name": "frieschepalen-brug-f0e88dce",
+  "name": "Langpaed",
   "file": "frieschepalen-brug-f0e88dce.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,25 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/6465838",
+        "tags": {
+          "bridge": "yes",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "80",
+          "name": "Langpaed",
+          "smoothness": "good",
+          "surface": "asphalt"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 200000,560000,220000,580000 --run nl-10_13 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map frieschepalen-brug-f0e88dce --plaats frieschepalen --punt 210946,569377",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

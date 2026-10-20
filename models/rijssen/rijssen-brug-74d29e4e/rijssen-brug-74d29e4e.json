@@ -1,5 +1,5 @@
 {
-  "name": "rijssen-brug-74d29e4e",
+  "name": "Kasteellaan",
   "file": "rijssen-brug-74d29e4e.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,23 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/81823586",
+        "tags": {
+          "bridge": "yes",
+          "highway": "residential",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Kasteellaan"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,480000,240000,500000 --run nl-11_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map rijssen-brug-74d29e4e --plaats rijssen --punt 233290,480756",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

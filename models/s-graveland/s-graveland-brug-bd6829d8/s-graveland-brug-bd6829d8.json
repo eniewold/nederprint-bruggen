@@ -1,5 +1,5 @@
 {
-  "name": "s-graveland-brug-bd6829d8",
+  "name": "Smidsbrug",
   "file": "s-graveland-brug-bd6829d8.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -13,7 +13,7 @@
     -0.009035
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 44.332,
+  "groundHeight": 44.328,
   "groundSamplePoints": [
     [
       -6.31,
@@ -39,9 +39,9 @@
       ],
       "halfLength": 3,
       "halfWidth": 7.79,
-      "height": 44.811,
+      "height": 44.809,
       "gradient": [
-        -0.15955,
+        -0.1603,
         0
       ],
       "minLift": 0.05,
@@ -78,14 +78,25 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/728785188",
+        "tags": {
+          "bridge": "yes",
+          "bridge:name": "Smidsbrug",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "50",
+          "name": "Smidsbrug",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,460000,140000,480000 --run nl-6_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map s-graveland-brug-bd6829d8 --plaats s-graveland --punt 136841,472283",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -104,7 +115,7 @@
       "oprithelling": 6,
       "doorstekend": [],
       "opritHoogtes": [
-        44.332,
+        44.328,
         44.989
       ]
     },
@@ -112,6 +123,6 @@
       "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "name": "almelo-brug-3d6b28ed",
+  "name": "Henriëtte Roland Holstlaan",
   "file": "almelo-brug-3d6b28ed.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -88,14 +88,36 @@
           "type": "landhoofd"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/55616798",
+        "tags": {
+          "agricultural": "no",
+          "bicycle": "no",
+          "bridge": "yes",
+          "bus:lanes": "yes|designated",
+          "foot": "no",
+          "highway": "secondary",
+          "horse": "no",
+          "lanes": "1",
+          "layer": "1",
+          "maxspeed": "50",
+          "maxweight:signed": "no",
+          "mofa": "no",
+          "moped": "no",
+          "name": "Henriëtte Roland Holstlaan",
+          "oneway": "yes",
+          "operator": "Gemeente Almelo",
+          "surface": "asphalt",
+          "zone:traffic": "NL:urban"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 3
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,480000,260000,500000 --run nl-12_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map almelo-brug-3d6b28ed --plaats almelo --punt 241578,484346",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

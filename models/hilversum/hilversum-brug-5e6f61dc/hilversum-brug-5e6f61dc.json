@@ -1,5 +1,5 @@
 {
-  "name": "hilversum-brug-5e6f61dc",
+  "name": "Hondenbrug",
   "file": "hilversum-brug-5e6f61dc.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -84,14 +84,32 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/832940345",
+        "tags": {
+          "bridge": "yes",
+          "cycleway": "lane",
+          "highway": "tertiary",
+          "lanes": "2",
+          "layer": "2",
+          "lit": "yes",
+          "maxspeed": "50",
+          "maxweight:signed": "no",
+          "name": "Hondenbrug",
+          "source:lit": "survey (2011-05-29)",
+          "surface": "asphalt",
+          "bridge:structure": "beam",
+          "man_made": "bridge",
+          "source:name": "BAG/BGT"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 2
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,460000,140000,480000 --run nl-6_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map hilversum-brug-5e6f61dc --plaats hilversum --punt 139247,470512",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -118,6 +136,6 @@
       "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

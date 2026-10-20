@@ -1,5 +1,5 @@
 {
-  "name": "andijk-brug-0a0edbec",
+  "name": "Bangert",
   "file": "andijk-brug-0a0edbec.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -13,7 +13,7 @@
     -0.342977
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 40.083,
+  "groundHeight": 40.068,
   "groundSamplePoints": [
     [
       -14.73,
@@ -58,9 +58,9 @@
       ],
       "halfLength": 6.7,
       "halfWidth": 1.12,
-      "height": 40.345,
+      "height": 40.338,
       "gradient": [
-        -0.03917,
+        -0.04028,
         0
       ],
       "minLift": 0.05,
@@ -78,14 +78,23 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/126270305",
+        "tags": {
+          "bridge": "yes",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Bangert"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,520000,160000,540000 --run nl-7_11 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map andijk-brug-0a0edbec --plaats andijk --punt 140850,527537",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -105,12 +114,12 @@
       "doorstekend": [],
       "opritHoogtes": [
         40.308,
-        40.083
+        40.068
       ]
     },
     "waarschuwingen": [
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

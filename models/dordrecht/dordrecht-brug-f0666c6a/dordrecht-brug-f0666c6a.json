@@ -1,5 +1,5 @@
 {
-  "name": "dordrecht-brug-f0666c6a",
+  "name": "Rondweg",
   "file": "dordrecht-brug-f0666c6a.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -13,7 +13,7 @@
     -0.824033
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 49.365,
+  "groundHeight": 49.362,
   "groundSamplePoints": [
     [
       -53.26,
@@ -68,9 +68,9 @@
       ],
       "halfLength": 12,
       "halfWidth": 26.59,
-      "height": 50.825,
+      "height": 50.823,
       "gradient": [
-        -0.12166,
+        -0.12179,
         0
       ],
       "minLift": 0.05,
@@ -128,14 +128,37 @@
           "type": "onbekend"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1388767999",
+        "tags": {
+          "agricultural": "no",
+          "bridge": "yes",
+          "bus": "yes",
+          "carriageway_ref": "Re",
+          "emergency": "yes",
+          "highway": "trunk",
+          "lanes": "3",
+          "layer": "1",
+          "maxspeed": "100",
+          "motorroad": "yes",
+          "name": "Rondweg",
+          "oneway": "yes",
+          "operator": "Rijkswaterstaat",
+          "placement": "right_of:1",
+          "ref": "N3",
+          "surface": "asphalt",
+          "turn:lanes": "none|none|slight_right",
+          "zone:traffic": "NL:rural",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 11
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,420000,120000,440000 --run nl-5_6 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map dordrecht-brug-f0666c6a --plaats dordrecht --punt 107396,424038",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -152,12 +175,12 @@
       "doorstekend": [],
       "opritHoogtes": [
         51.985,
-        49.365
+        49.362
       ]
     },
     "waarschuwingen": [
       "geen FIS-brug binnen 35 m"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

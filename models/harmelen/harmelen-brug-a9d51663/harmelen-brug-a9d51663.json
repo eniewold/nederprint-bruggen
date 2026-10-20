@@ -13,14 +13,14 @@
     -0.127983
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 44.608,
+  "groundHeight": 44.674,
   "groundSamplePoints": [
     [
-      -25.77,
-      3.05
+      -15.77,
+      0
     ],
     [
-      25.76,
+      15.76,
       0
     ]
   ],
@@ -42,12 +42,12 @@
       ],
       "halfLength": 9.76,
       "halfWidth": 19.57,
-      "height": 44.123,
+      "height": 43.431,
       "gradient": [
         0,
         0
       ],
-      "minLift": -2.57,
+      "minLift": -3.26,
       "maxLift": -0.01
     },
     {
@@ -61,9 +61,9 @@
       ],
       "halfLength": 12,
       "halfWidth": 21.07,
-      "height": 45.016,
+      "height": 44.702,
       "gradient": [
-        -0.03399,
+        -0.00239,
         0
       ],
       "minLift": 0.05,
@@ -80,9 +80,9 @@
       ],
       "halfLength": 12,
       "halfWidth": 21.07,
-      "height": 45.273,
+      "height": 44.731,
       "gradient": [
-        -0.0125,
+        0,
         0
       ],
       "minLift": 0.05,
@@ -110,7 +110,7 @@
       "naam": "harmelen-brug-a9d51663",
       "straal": 40
     },
-    "opdracht": "node scripts/bridges/genereer.mjs --uit C:/Users/edwar/AppData/Local/Temp/claude/C--Users-edwar-source-Repos-nederprint/3bd9e161-d515-4f1b-bfbf-c9cc2320f835/scratchpad/rail-batch5 --map brug-a9d51663 --plaats harmelen --punt 126533.6,457599.81 --naam harmelen-brug-a9d51663 --straal 40",
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 126435,448710,141834,461610 --run utrecht-2026-10-20 --overschrijf 1 --parallel 5",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -120,9 +120,10 @@
       "water": null,
       "portaalhoogte": 34.3,
       "opritafstand": [
-        10,
-        10
+        0,
+        0
       ],
+      "spoorhoogteBron": "prorail-pvs",
       "oprithelling": 24,
       "doorstekend": [
         {
@@ -130,7 +131,7 @@
           "klasse": "Road",
           "oppervlak": 681.2,
           "onderDek": 0.89,
-          "bovenDekOnderkant": 3.6,
+          "bovenDekOnderkant": 4.29,
           "actie": "verbergen"
         },
         {
@@ -138,7 +139,7 @@
           "klasse": "Road",
           "oppervlak": 107.8,
           "onderDek": 0.69,
-          "bovenDekOnderkant": 1.57,
+          "bovenDekOnderkant": 2.26,
           "actie": "verlagen"
         },
         {
@@ -146,7 +147,7 @@
           "klasse": "Road",
           "oppervlak": 238.3,
           "onderDek": 0.88,
-          "bovenDekOnderkant": 1.08,
+          "bovenDekOnderkant": 1.77,
           "actie": "verbergen"
         },
         {
@@ -154,7 +155,7 @@
           "klasse": "Separation",
           "oppervlak": 1,
           "onderDek": 0,
-          "bovenDekOnderkant": 0.72,
+          "bovenDekOnderkant": 1.41,
           "actie": "verlagen"
         },
         {
@@ -162,7 +163,7 @@
           "klasse": "Separation",
           "oppervlak": 1.4,
           "onderDek": 0,
-          "bovenDekOnderkant": 0.63,
+          "bovenDekOnderkant": 1.32,
           "actie": "verlagen"
         },
         {
@@ -170,7 +171,7 @@
           "klasse": "Terrain",
           "oppervlak": 55,
           "onderDek": 0.93,
-          "bovenDekOnderkant": 0.61,
+          "bovenDekOnderkant": 1.3,
           "actie": "verbergen"
         },
         {
@@ -178,20 +179,28 @@
           "klasse": "Forest",
           "oppervlak": 472.6,
           "onderDek": 0,
-          "bovenDekOnderkant": 0.52,
+          "bovenDekOnderkant": 1.22,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "L0004.c346bdf0e28043d8b7d48457f52eb1da",
+          "klasse": "Separation",
+          "oppervlak": 1.1,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.72,
           "actie": "verlagen"
         }
       ],
       "opritHoogtes": [
-        44.608,
-        45.123
+        44.674,
+        44.731
       ]
     },
     "waarschuwingen": [
       "geen FIS-brug binnen 35 m",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
-      "7 PDOK-vorm(en) door het dek: 3 verborgen, 4 verlaagd"
+      "8 PDOK-vorm(en) door het dek: 3 verborgen, 5 verlaagd"
     ],
-    "gegenereerd": "2026-10-17"
+    "gegenereerd": "2026-10-20"
   }
 }

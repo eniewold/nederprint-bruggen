@@ -1,5 +1,5 @@
 {
-  "name": "edam-brug-b154f28f",
+  "name": "Jansbrug",
   "file": "edam-brug-b154f28f.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,27 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1199301928",
+        "tags": {
+          "bridge": "movable",
+          "bridge:movable": "drawbridge",
+          "bridge:name": "Jansbrug",
+          "highway": "path",
+          "layer": "1",
+          "surface": "paving_stones",
+          "zone:traffic": "NL:urban",
+          "man_made": "bridge",
+          "name": "Jansbrug"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
-    "type": "ligger",
+    "type": "ophaalbrug",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,500000,140000,520000 --run nl-6_10 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map edam-brug-b154f28f --plaats edam --punt 132253,502857",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -96,7 +109,7 @@
         -3.1,
         3.4
       ],
-      "portaalhoogte": 3,
+      "portaalhoogte": 2.5,
       "opritafstand": [
         4.4,
         4.4
@@ -109,8 +122,9 @@
       ]
     },
     "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

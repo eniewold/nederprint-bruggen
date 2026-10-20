@@ -1,5 +1,5 @@
 {
-  "name": "muiden-brug-17c90c42",
+  "name": "Betlembrug",
   "file": "muiden-brug-17c90c42.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -100,14 +100,53 @@
           "type": "onbekend"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/480082192",
+        "tags": {
+          "bridge": "yes",
+          "bridge:name": "Betlembrug",
+          "bus": "no",
+          "carriageway_ref": "z",
+          "description": "wisselbaan A9",
+          "hazmat:B": "no",
+          "hazmat:C": "no",
+          "hazmat:D": "no",
+          "hazmat:E": "no",
+          "hgv": "no",
+          "highway": "motorway",
+          "lanes": "2",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "100",
+          "maxspeed:type": "sign",
+          "note": "Tot nu toe alleen avondspits eenrichtingsverkeer richting Almere; nog niet geopend in de andere rijrichting/ochtendspits.",
+          "oneway": "yes",
+          "operator": "Rijkswaterstaat",
+          "owner": "Staat der Nederlanden",
+          "planned:oneway": "reversible",
+          "ref": "A9",
+          "surface": "asphalt",
+          "toll:hgv": "yes",
+          "tourist_bus": "no",
+          "trailer": "no",
+          "zone:traffic": "NL:rural",
+          "bridge:material": "concrete",
+          "bridge:structure": "beam",
+          "man_made": "bridge",
+          "name": "Betlembrug",
+          "start_date": "2017",
+          "wikidata": "Q28806048",
+          "wikimedia_commons": "Category:Betlembrug",
+          "wikipedia": "nl:Betlembrug"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 5
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map muiden-brug-17c90c42 --plaats muiden --punt 129695,482595",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -134,6 +173,6 @@
       "geen FIS-brug binnen 35 m",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

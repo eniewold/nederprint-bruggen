@@ -1,5 +1,5 @@
 {
-  "name": "Wantijbrug",
+  "name": "Rondweg",
   "file": "dordrecht-wantijbrug.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -20,15 +20,15 @@
       0
     ],
     [
-      103.71,
+      103.65,
       0
     ]
   ],
   "replacesTerrain": [
+    "G0505.047fc0f925a6c003e0532b00500a66e1",
     "L0002.36c883a04d0941d0915846ff39631736",
     "L0002.45b0ab1b726649adbd35813bca921b89",
     "L0002.d1f187064b294d0780ba9ad008c0e834",
-    "L0002.1886a0c63fb1431c8ed4789d75a90cbd",
     "L0002.98ca8fe08d12446ca4e19675084ea21a"
   ],
   "terrainCorrections": [
@@ -53,8 +53,8 @@
     },
     {
       "centre": [
-        108133.31,
-        425283.55
+        108133.3,
+        425283.49
       ],
       "axis": [
         0.274768,
@@ -78,6 +78,10 @@
     "bron": {
       "bgt": [
         {
+          "id": "G0505.047fc0f925a6c003e0532b00500a66e1",
+          "type": "pijler"
+        },
+        {
           "id": "L0002.36c883a04d0941d0915846ff39631736",
           "type": "onbekend"
         },
@@ -90,34 +94,55 @@
           "type": "onbekend"
         },
         {
-          "id": "L0002.1886a0c63fb1431c8ed4789d75a90cbd",
-          "type": "onbekend"
-        },
-        {
           "id": "L0002.98ca8fe08d12446ca4e19675084ea21a",
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/711725072",
+        "tags": {
+          "bicycle": "no",
+          "bridge": "yes",
+          "bridge:name": "Wantijbrug",
+          "bus": "yes",
+          "carriageway_ref": "Re",
+          "emergency": "yes",
+          "foot": "no",
+          "highway": "primary",
+          "horse": "no",
+          "lanes": "2",
+          "layer": "1",
+          "maxspeed": "80",
+          "mofa": "no",
+          "moped": "no",
+          "name": "Rondweg",
+          "oneway": "yes",
+          "operator": "Rijkswaterstaat",
+          "ref": "N3",
+          "surface": "asphalt",
+          "zone:traffic": "NL:rural",
+          "bridge:movable": "bascule"
+        }
+      },
       "fis": {
         "id": 10519,
         "naam": "Wantijbrug",
-        "afstand": 10,
+        "afstand": 20,
         "beweegbaar": true,
         "doorvaarthoogteGesloten": 4.23
       },
       "pdokBridgeVlakken": 5
     },
-    "type": "ophaalbrug",
+    "type": "basculebrug",
     "doorvaarthoogte": 4.23,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,420000,120000,440000 --run nl-5_6 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map dordrecht-wantijbrug --plaats dordrecht --punt 108107,425192",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
       "dekLengte": 167.3,
       "dekBreedte": 31.1,
-      "brugLengte": 167.4,
+      "brugLengte": 167.3,
       "water": [
         -27.7,
         51.3
@@ -134,9 +159,7 @@
         51.294
       ]
     },
-    "waarschuwingen": [
-      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
-    ],
-    "gegenereerd": "2026-10-19"
+    "waarschuwingen": [],
+    "gegenereerd": "2026-10-20"
   }
 }

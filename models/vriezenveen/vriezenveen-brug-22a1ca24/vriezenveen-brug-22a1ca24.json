@@ -1,5 +1,5 @@
 {
-  "name": "vriezenveen-brug-22a1ca24",
+  "name": "J.R. Kerkdijkstraat",
   "file": "vriezenveen-brug-22a1ca24.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,22 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/902931740",
+        "tags": {
+          "bridge": "yes",
+          "highway": "path",
+          "layer": "1",
+          "name": "J.R. Kerkdijkstraat"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,480000,240000,500000 --run nl-11_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map vriezenveen-brug-22a1ca24 --plaats vriezenveen --punt 238081,491995",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

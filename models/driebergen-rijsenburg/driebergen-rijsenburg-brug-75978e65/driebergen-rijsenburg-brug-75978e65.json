@@ -1,5 +1,5 @@
 {
-  "name": "driebergen-rijsenburg-brug-75978e65",
+  "name": "Leeuwenburgerlaan",
   "file": "driebergen-rijsenburg-brug-75978e65.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -13,7 +13,7 @@
     0.801071
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 46.586,
+  "groundHeight": 46.576,
   "groundSamplePoints": [
     [
       -11.64,
@@ -58,9 +58,9 @@
       ],
       "halfLength": 5.29,
       "halfWidth": 3.14,
-      "height": 46.788,
+      "height": 46.783,
       "gradient": [
-        -0.03818,
+        -0.0391,
         0
       ],
       "minLift": 0.05,
@@ -78,14 +78,24 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1050992123",
+        "tags": {
+          "bridge": "yes",
+          "highway": "service",
+          "layer": "1",
+          "name": "Leeuwenburgerlaan",
+          "surface": "wood",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ophaalbrug",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,440000,160000,460000 --run nl-7_7 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map driebergen-rijsenburg-brug-75978e65 --plaats driebergen-rijsenburg --punt 149028,447814",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -96,7 +106,7 @@
         -4.3,
         4.2
       ],
-      "portaalhoogte": 3.8,
+      "portaalhoogte": 3.7,
       "opritafstand": [
         6.3,
         6.3
@@ -105,13 +115,13 @@
       "doorstekend": [],
       "opritHoogtes": [
         46.69,
-        46.586
+        46.576
       ]
     },
     "waarschuwingen": [
       "geen FIS-brug binnen 35 m",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

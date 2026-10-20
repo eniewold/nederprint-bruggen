@@ -1,5 +1,5 @@
 {
-  "name": "helmond-brug-62439a72",
+  "name": "Hulshoeve",
   "file": "helmond-brug-62439a72.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,24 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1425019160",
+        "tags": {
+          "bicycle": "yes",
+          "bridge": "yes",
+          "highway": "footway",
+          "horse": "no",
+          "layer": "1",
+          "name": "Hulshoeve"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,380000,180000,400000 --run nl-8_4 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map helmond-brug-62439a72 --plaats helmond --punt 170203,385186",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

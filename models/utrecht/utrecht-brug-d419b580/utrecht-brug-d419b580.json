@@ -13,14 +13,14 @@
     0.054414
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 49.846,
+  "groundHeight": 50.115,
   "groundSamplePoints": [
     [
-      -53.18,
-      8.74
+      -43.18,
+      0
     ],
     [
-      53.18,
+      43.18,
       0
     ]
   ],
@@ -52,12 +52,12 @@
       ],
       "halfLength": 37.18,
       "halfWidth": 14.86,
-      "height": 48.906,
+      "height": 48.835,
       "gradient": [
         0,
         0
       ],
-      "minLift": -2.38,
+      "minLift": -2.46,
       "maxLift": -0.01
     },
     {
@@ -71,9 +71,9 @@
       ],
       "halfLength": 12,
       "halfWidth": 16.36,
-      "height": 50.056,
+      "height": 50.125,
       "gradient": [
-        -0.0125,
+        -0.00084,
         0
       ],
       "minLift": 0.05,
@@ -90,9 +90,9 @@
       ],
       "halfLength": 12,
       "halfWidth": 16.36,
-      "height": 50.026,
+      "height": 50.135,
       "gradient": [
-        -0.01498,
+        0,
         0
       ],
       "minLift": 0.05,
@@ -184,8 +184,8 @@
           "railway:track_class": "D4",
           "railway:traffic_mode": "mixed",
           "ref": "100",
-          "ref:ProRailID": "2888640.0",
-          "ref:ProRailSpoortak": "100_2021AR_2.9",
+          "ref:ProRailID": "2888649.0",
+          "ref:ProRailSpoortak": "100_2025AL_2.9",
           "source": "ProRail WMS: Geleidingssysteem 003",
           "source:date": "13-05-2017",
           "source:name": "http://www.commissiemer.nl/docs/mer/p24/p2426/2426-008vervolgwerkzaamheden.pdf",
@@ -206,7 +206,7 @@
       "naam": "Goudse lijn",
       "straal": 40
     },
-    "opdracht": "node scripts/bridges/genereer.mjs --uit C:/Users/edwar/AppData/Local/Temp/claude/C--Users-edwar-source-Repos-nederprint/3bd9e161-d515-4f1b-bfbf-c9cc2320f835/scratchpad/rail-batch5 --map brug-d419b580 --plaats utrecht --punt 131968.09,456901.3 --naam \"Goudse lijn\" --straal 40",
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 126435,448710,141834,461610 --run utrecht-2026-10-20 --overschrijf 1 --parallel 5",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -216,25 +216,26 @@
       "water": null,
       "portaalhoogte": 25.8,
       "opritafstand": [
-        10,
-        10
+        0,
+        0
       ],
+      "spoorhoogteBron": "prorail-pvs",
       "oprithelling": 24,
       "doorstekend": [
-        {
-          "gmlId": "L0004.383607124adf4942802ae93a55ec05ff",
-          "klasse": "Terrain",
-          "oppervlak": 27.9,
-          "onderDek": 0.56,
-          "bovenDekOnderkant": 1.38,
-          "actie": "verlagen"
-        },
         {
           "gmlId": "L0004.99cd7f2129ca4aacaf9e1ae0e3d479f5",
           "klasse": "Separation",
           "oppervlak": 83.5,
           "onderDek": 0.17,
-          "bovenDekOnderkant": 1.38,
+          "bovenDekOnderkant": 1.46,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "L0004.383607124adf4942802ae93a55ec05ff",
+          "klasse": "Terrain",
+          "oppervlak": 27.9,
+          "onderDek": 0.56,
+          "bovenDekOnderkant": 1.45,
           "actie": "verlagen"
         },
         {
@@ -242,7 +243,7 @@
           "klasse": "Separation",
           "oppervlak": 41.4,
           "onderDek": 0.17,
-          "bovenDekOnderkant": 1.38,
+          "bovenDekOnderkant": 1.45,
           "actie": "verlagen"
         },
         {
@@ -250,19 +251,19 @@
           "klasse": "Terrain",
           "oppervlak": 50.5,
           "onderDek": 0.57,
-          "bovenDekOnderkant": 1.36,
+          "bovenDekOnderkant": 1.43,
           "actie": "verlagen"
         }
       ],
       "opritHoogtes": [
-        49.906,
-        49.846
+        50.115,
+        50.135
       ]
     },
     "waarschuwingen": [
       "geen FIS-brug binnen 35 m",
       "4 PDOK-vorm(en) door het dek: 0 verborgen, 4 verlaagd"
     ],
-    "gegenereerd": "2026-10-17"
+    "gegenereerd": "2026-10-20"
   }
 }

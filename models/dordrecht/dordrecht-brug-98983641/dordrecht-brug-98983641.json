@@ -1,5 +1,5 @@
 {
-  "name": "dordrecht-brug-98983641",
+  "name": "Rondweg",
   "file": "dordrecht-brug-98983641.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -90,14 +90,38 @@
           "type": "onbekend"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1388768584",
+        "tags": {
+          "agricultural": "no",
+          "bridge": "yes",
+          "bridge:operator": "ProRail",
+          "bus": "yes",
+          "carriageway_ref": "Li",
+          "emergency": "yes",
+          "highway": "trunk",
+          "lanes": "3",
+          "layer": "1",
+          "maxspeed": "100",
+          "motorroad": "yes",
+          "name": "Rondweg",
+          "oneway": "yes",
+          "operator": "ProRail",
+          "placement": "right_of:1",
+          "ref": "N3",
+          "surface": "asphalt",
+          "turn:lanes": "none|none|merge_to_left",
+          "zone:traffic": "NL:rural",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 3
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,420000,120000,440000 --run nl-5_6 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map dordrecht-brug-98983641 --plaats dordrecht --punt 107476,424154",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -142,6 +166,6 @@
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
       "2 PDOK-vorm(en) door het dek: 2 verborgen, 0 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

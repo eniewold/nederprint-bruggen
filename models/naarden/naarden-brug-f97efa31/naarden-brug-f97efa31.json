@@ -60,7 +60,7 @@
       "halfWidth": 2.98,
       "height": 43.597,
       "gradient": [
-        -0.03203,
+        -0.03206,
         0
       ],
       "minLift": 0.05,
@@ -78,14 +78,21 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/37608518",
+        "tags": {
+          "bridge": "yes",
+          "highway": "service",
+          "layer": "1"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,460000,140000,480000 --run nl-6_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map naarden-brug-f97efa31 --plaats naarden --punt 137778,476690",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -111,6 +118,6 @@
     "waarschuwingen": [
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

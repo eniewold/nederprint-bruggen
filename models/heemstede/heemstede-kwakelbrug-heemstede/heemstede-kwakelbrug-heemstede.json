@@ -1,5 +1,5 @@
 {
-  "name": "Kwakelbrug Heemstede",
+  "name": "Kwakelbrug",
   "file": "heemstede-kwakelbrug-heemstede.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -79,20 +79,26 @@
         }
       ],
       "osm": {
-        "id": "way/906492086",
+        "id": "way/906492083",
         "tags": {
           "bridge": "yes",
           "foot": "yes",
           "highway": "cycleway",
           "layer": "1",
           "lit": "yes",
+          "mofa": "yes",
+          "moped": "no",
+          "name": "Kwakelbrug",
+          "segregated": "no",
+          "smoothness": "good",
+          "surface": "wood",
           "traffic_sign": "NL:G11"
         }
       },
       "fis": {
         "id": 27785,
         "naam": "Kwakelbrug Heemstede",
-        "afstand": 8,
+        "afstand": 2,
         "beweegbaar": true,
         "doorvaarthoogteGesloten": 2.1
       },
@@ -101,7 +107,7 @@
     "type": "ophaalbrug",
     "doorvaarthoogte": 2.1,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,480000,120000,500000 --run nl-5_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map heemstede-kwakelbrug-heemstede --plaats heemstede --punt 103318,484831",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -127,6 +133,6 @@
     "waarschuwingen": [
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

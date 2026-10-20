@@ -1,5 +1,5 @@
 {
-  "name": "vriezenveen-brug-d5570cde",
+  "name": "Paterswal",
   "file": "vriezenveen-brug-d5570cde.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -13,7 +13,7 @@
     -0.993627
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 54.282,
+  "groundHeight": 54.272,
   "groundSamplePoints": [
     [
       -8.91,
@@ -58,9 +58,9 @@
       ],
       "halfLength": 4.05,
       "halfWidth": 3.91,
-      "height": 54.486,
+      "height": 54.481,
       "gradient": [
-        -0.05048,
+        -0.05169,
         0
       ],
       "minLift": 0.05,
@@ -97,14 +97,25 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1217485671",
+        "tags": {
+          "bridge": "viaduct",
+          "bridge:structure": "beam",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Paterswal",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,480000,260000,500000 --run nl-12_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map vriezenveen-brug-d5570cde --plaats vriezenveen --punt 241206,495777",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -130,14 +141,14 @@
         {
           "gmlId": "G1700.853b476e451f09e2e05332a1e90af472",
           "klasse": "Road",
-          "oppervlak": 452.9,
+          "oppervlak": 226.6,
           "onderDek": 0.1,
           "bovenDekOnderkant": 0.65,
           "actie": "verlagen"
         }
       ],
       "opritHoogtes": [
-        54.282,
+        54.272,
         54.391
       ]
     },

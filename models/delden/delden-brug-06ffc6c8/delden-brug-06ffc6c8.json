@@ -1,5 +1,5 @@
 {
-  "name": "delden-brug-06ffc6c8",
+  "name": "Watertorenstraat",
   "file": "delden-brug-06ffc6c8.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -107,14 +107,27 @@
           "type": "landhoofd"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/6673211",
+        "tags": {
+          "bridge": "yes",
+          "cycleway": "lane",
+          "highway": "tertiary",
+          "lane_markings": "no",
+          "layer": "1",
+          "maxspeed": "30",
+          "maxweight:signed": "no",
+          "name": "Watertorenstraat",
+          "surface": "asphalt"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 3
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,460000,260000,480000 --run nl-12_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map delden-brug-06ffc6c8 --plaats delden --punt 245255,476081",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

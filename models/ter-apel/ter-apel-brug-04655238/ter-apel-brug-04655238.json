@@ -1,5 +1,5 @@
 {
-  "name": "ter-apel-brug-04655238",
+  "name": "Nulweg",
   "file": "ter-apel-brug-04655238.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -88,14 +88,32 @@
           "type": "landhoofd"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/813588445",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "movable",
+          "bridge:movable": "bascule",
+          "foot": "use_sidepath",
+          "highway": "secondary",
+          "layer": "1",
+          "maxspeed": "50",
+          "mofa": "use_sidepath",
+          "moped": "use_sidepath",
+          "name": "Nulweg",
+          "operator": "Provincie Groningen",
+          "ref": "N976",
+          "zone:traffic": "NL:urban",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 3
     },
-    "type": "ophaalbrug",
+    "type": "basculebrug",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 260000,540000,280000,560000 --run nl-13_12 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map ter-apel-brug-04655238 --plaats ter-apel --punt 266822,545969",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

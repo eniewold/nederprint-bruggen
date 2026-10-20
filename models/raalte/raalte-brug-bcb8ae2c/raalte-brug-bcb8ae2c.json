@@ -1,5 +1,5 @@
 {
-  "name": "raalte-brug-bcb8ae2c",
+  "name": "Hondemotsweg",
   "file": "raalte-brug-bcb8ae2c.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -13,7 +13,7 @@
     -0.783104
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 46.136,
+  "groundHeight": 46.135,
   "groundSamplePoints": [
     [
       -15.64,
@@ -41,7 +41,7 @@
       "halfWidth": 4.9,
       "height": 46.351,
       "gradient": [
-        -0.03025,
+        -0.03034,
         0
       ],
       "minLift": 0.05,
@@ -78,14 +78,23 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/6811039",
+        "tags": {
+          "bridge": "yes",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Hondemotsweg"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 200000,480000,220000,500000 --run nl-10_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map raalte-brug-bcb8ae2c --plaats raalte --punt 212753,492332",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -104,13 +113,13 @@
       "oprithelling": 14.2,
       "doorstekend": [],
       "opritHoogtes": [
-        46.136,
+        46.135,
         46.266
       ]
     },
     "waarschuwingen": [
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

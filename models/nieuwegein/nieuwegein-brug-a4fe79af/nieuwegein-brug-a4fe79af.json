@@ -13,7 +13,7 @@
     0.036013
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 43.82,
+  "groundHeight": 43.819,
   "groundSamplePoints": [
     [
       -7.3,
@@ -60,7 +60,7 @@
       "halfWidth": 2.06,
       "height": 43.985,
       "gradient": [
-        -0.05009,
+        -0.0502,
         0
       ],
       "minLift": 0.05,
@@ -97,14 +97,23 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/800149292",
+        "tags": {
+          "bridge": "yes",
+          "highway": "footway",
+          "layer": "1",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,440000,140000,460000 --run nl-6_7 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map nieuwegein-brug-a4fe79af --plaats nieuwegein --punt 133972,447059",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -132,7 +141,7 @@
         }
       ],
       "opritHoogtes": [
-        43.82,
+        43.819,
         43.85
       ]
     },
@@ -140,6 +149,6 @@
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
       "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

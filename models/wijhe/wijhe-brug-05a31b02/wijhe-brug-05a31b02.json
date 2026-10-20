@@ -1,5 +1,5 @@
 {
-  "name": "wijhe-brug-05a31b02",
+  "name": "Wechterholt",
   "file": "wijhe-brug-05a31b02.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -97,14 +97,24 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/399060540",
+        "tags": {
+          "bridge": "yes",
+          "highway": "service",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Wechterholt",
+          "service": "driveway"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 200000,480000,220000,500000 --run nl-10_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map wijhe-brug-05a31b02 --plaats wijhe --punt 210753,493123",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -125,7 +135,7 @@
         {
           "gmlId": "W0151.31ce74fb62644390ae4e2b7e3567aea3",
           "klasse": "Terrain",
-          "oppervlak": 142,
+          "oppervlak": 71.2,
           "onderDek": 0.04,
           "bovenDekOnderkant": 0.33,
           "actie": "verlagen"
@@ -140,6 +150,6 @@
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
       "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

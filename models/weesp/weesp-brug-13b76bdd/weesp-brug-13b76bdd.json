@@ -1,5 +1,5 @@
 {
-  "name": "weesp-brug-13b76bdd",
+  "name": "Sluisbrug",
   "file": "weesp-brug-13b76bdd.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,29 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/832920911",
+        "tags": {
+          "bridge": "movable",
+          "bridge:movable": "bascule",
+          "highway": "residential",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Sluisbrug",
+          "oneway": "yes",
+          "oneway:bicycle": "no",
+          "surface": "asphalt",
+          "man_made": "bridge",
+          "source:name": "BAG/BGT"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
-    "type": "ophaalbrug",
+    "type": "basculebrug",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map weesp-brug-13b76bdd --plaats weesp --punt 131511,480173",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -112,6 +127,6 @@
       "geen FIS-brug binnen 35 m",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

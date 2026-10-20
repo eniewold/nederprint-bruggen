@@ -1,5 +1,5 @@
 {
-  "name": "midwolda-brug-4c385b11",
+  "name": "Hoofdweg",
   "file": "midwolda-brug-4c385b11.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,26 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/130438572",
+        "tags": {
+          "bridge": "yes",
+          "foot": "use_sidepath",
+          "highway": "secondary",
+          "layer": "1",
+          "maxspeed": "50",
+          "name": "Hoofdweg",
+          "smoothness": "good",
+          "surface": "asphalt"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 260000,560000,280000,580000 --run nl-13_13 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map midwolda-brug-4c385b11 --plaats midwolda --punt 262267,579420",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

@@ -1,5 +1,5 @@
 {
-  "name": "almelo-brug-20f374ee",
+  "name": "Van Rechteren Limpurgsingel",
   "file": "almelo-brug-20f374ee.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -13,7 +13,7 @@
     -0.98945
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 58.841,
+  "groundHeight": 58.837,
   "groundSamplePoints": [
     [
       -62.55,
@@ -53,9 +53,9 @@
       ],
       "halfLength": 12,
       "halfWidth": 10.15,
-      "height": 59.112,
+      "height": 59.11,
       "gradient": [
-        -0.02261,
+        -0.02277,
         0
       ],
       "minLift": 0.05,
@@ -148,14 +148,36 @@
           "type": "landhoofd"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/6677150",
+        "tags": {
+          "bicycle": "no",
+          "bridge": "yes",
+          "foot": "no",
+          "highway": "primary",
+          "lanes": "2",
+          "layer": "1",
+          "maxspeed": "70",
+          "maxweight:signed": "no",
+          "mofa": "no",
+          "moped": "no",
+          "name": "Van Rechteren Limpurgsingel",
+          "nat_ref": "N349",
+          "oneway": "no",
+          "operator": "Gemeente Almelo",
+          "ref": "N349;RING",
+          "source": "survey 18-11-12",
+          "surface": "asphalt",
+          "zone:traffic": "NL:urban"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 15
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,480000,260000,500000 --run nl-12_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map almelo-brug-20f374ee --plaats almelo --punt 242548,486813",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -174,7 +196,7 @@
       "oprithelling": 24,
       "doorstekend": [],
       "opritHoogtes": [
-        58.841,
+        58.837,
         59.083
       ]
     },

@@ -1,5 +1,5 @@
 {
-  "name": "sappemeer-brug-92fa8592",
+  "name": "Noordbroeksterstraat",
   "file": "sappemeer-brug-92fa8592.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -98,14 +98,24 @@
           "type": "landhoofd"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/6382465",
+        "tags": {
+          "bridge": "yes",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Noordbroeksterstraat",
+          "name:etymology:wikidata": "Q1924750"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 5
     },
     "type": "ophaalbrug",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,560000,260000,580000 --run nl-12_13 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map sappemeer-brug-92fa8592 --plaats sappemeer --punt 250389,577364",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -116,7 +126,7 @@
         -3,
         3
       ],
-      "portaalhoogte": 16.4,
+      "portaalhoogte": 10.5,
       "opritafstand": [
         7,
         7

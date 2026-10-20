@@ -1,5 +1,5 @@
 {
-  "name": "holtheme-brug-f952aac7",
+  "name": "De Haandrik",
   "file": "holtheme-brug-f952aac7.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -13,7 +13,7 @@
     -0.940568
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 53.754,
+  "groundHeight": 53.749,
   "groundSamplePoints": [
     [
       -9.38,
@@ -39,9 +39,9 @@
       ],
       "halfLength": 4.26,
       "halfWidth": 5.61,
-      "height": 53.906,
+      "height": 53.904,
       "gradient": [
-        -0.0357,
+        -0.03637,
         0
       ],
       "minLift": 0.05,
@@ -78,14 +78,27 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1517231985",
+        "tags": {
+          "bridge": "movable",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "De Haandrik",
+          "surface": "asphalt",
+          "zone:traffic": "NL:rural",
+          "man_made": "bridge",
+          "website": "https://waterkaart.net/gids/brug.php?naam=De-Haandrik,-brug-over-bovenhoofd"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
-    "type": "ophaalbrug",
+    "type": "basculebrug",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,500000,260000,520000 --run nl-12_10 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map holtheme-brug-f952aac7 --plaats holtheme --punt 243612,515487",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -104,11 +117,12 @@
       "oprithelling": 8.5,
       "doorstekend": [],
       "opritHoogtes": [
-        53.754,
+        53.749,
         53.759
       ]
     },
     "waarschuwingen": [
+      "bridge=movable zonder mechanisme: basculebrug is een gok",
       "geen FIS-brug binnen 35 m",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],

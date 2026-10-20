@@ -13,7 +13,7 @@
     -0.130551
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 43.378,
+  "groundHeight": 43.376,
   "groundSamplePoints": [
     [
       -6.84,
@@ -28,25 +28,6 @@
     "G1904.1e9d803765a84cf287acedd27851fb0d"
   ],
   "terrainCorrections": [
-    {
-      "centre": [
-        130926.9,
-        471224.59
-      ],
-      "axis": [
-        0.991442,
-        -0.130551
-      ],
-      "halfLength": 1.42,
-      "halfWidth": 2.39,
-      "height": 42.79,
-      "gradient": [
-        0,
-        0
-      ],
-      "minLift": -1.23,
-      "maxLift": -0.01
-    },
     {
       "centre": [
         130921.11,
@@ -77,9 +58,9 @@
       ],
       "halfLength": 3,
       "halfWidth": 2.84,
-      "height": 43.734,
+      "height": 43.733,
       "gradient": [
-        -0.11871,
+        -0.11912,
         0
       ],
       "minLift": 0.05,
@@ -97,14 +78,22 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/137569110",
+        "tags": {
+          "bridge": "yes",
+          "highway": "footway",
+          "layer": "1",
+          "surface": "wood"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,460000,140000,480000 --run nl-6_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map vreeland-brug-1e9d8037 --plaats vreeland --punt 130927,471225",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -121,33 +110,15 @@
         4
       ],
       "oprithelling": 6,
-      "doorstekend": [
-        {
-          "gmlId": "W0155.8abeacd5439b75202102100618266169",
-          "klasse": "Terrain",
-          "oppervlak": 161.2,
-          "onderDek": 0.01,
-          "bovenDekOnderkant": 0.23,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "W0155.8abeacd5439b75202102100618266224",
-          "klasse": "Terrain",
-          "oppervlak": 121.1,
-          "onderDek": 0,
-          "bovenDekOnderkant": 0.07,
-          "actie": "verlagen"
-        }
-      ],
+      "doorstekend": [],
       "opritHoogtes": [
         43.79,
-        43.378
+        43.376
       ]
     },
     "waarschuwingen": [
-      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
-      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

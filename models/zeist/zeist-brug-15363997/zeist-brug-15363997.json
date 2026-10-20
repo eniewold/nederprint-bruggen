@@ -1,5 +1,5 @@
 {
-  "name": "zeist-brug-15363997",
+  "name": "Griftlaan",
   "file": "zeist-brug-15363997.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -97,14 +97,26 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1030907950",
+        "tags": {
+          "bicycle": "no",
+          "bridge": "yes",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "50",
+          "name": "Griftlaan",
+          "surface": "asphalt",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,440000,160000,460000 --run nl-7_7 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map zeist-brug-15363997 --plaats zeist --punt 143701,455081",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -149,6 +161,6 @@
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
       "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

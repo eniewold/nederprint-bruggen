@@ -1,5 +1,5 @@
 {
-  "name": "Brug over benedenhoofd sluis 9",
+  "name": "Kanaaldijk Zuid Oost",
   "file": "helmond-brug-over-benedenhoofd-sluis-9.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,20 +78,41 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/693077270",
+        "tags": {
+          "bridge": "movable",
+          "bridge:movable": "bascule",
+          "bridge:name": "Sluis 9",
+          "fixme": "access tags voorlopig aangepast. Wat is de situatie nu ?",
+          "highway": "cycleway",
+          "layer": "1",
+          "maxaxleload": "5",
+          "maxspeed": "60",
+          "mofa": "designated",
+          "moped": "designated",
+          "motor_vehicle": "no",
+          "name": "Kanaaldijk Zuid Oost",
+          "official_name": "Kanaaldijk Z.O.",
+          "priority": "forward",
+          "traffic_sign": "NL:G12a",
+          "zone:traffic": "NL:rural",
+          "man_made": "bridge"
+        }
+      },
       "fis": {
         "id": 27248,
         "naam": "Brug over benedenhoofd sluis 9",
-        "afstand": 0,
+        "afstand": 1,
         "beweegbaar": true,
         "doorvaarthoogteGesloten": 3.1499999999999986
       },
       "pdokBridgeVlakken": 1
     },
-    "type": "ophaalbrug",
+    "type": "basculebrug",
     "doorvaarthoogte": 3.1499999999999986,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,380000,180000,400000 --run nl-8_4 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map helmond-brug-over-benedenhoofd-sluis-9 --plaats helmond --punt 175667,384315",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

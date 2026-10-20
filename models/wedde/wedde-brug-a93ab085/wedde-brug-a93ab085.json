@@ -1,5 +1,5 @@
 {
-  "name": "wedde-brug-a93ab085",
+  "name": "Hoofdweg",
   "file": "wedde-brug-a93ab085.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -60,7 +60,7 @@
       "halfWidth": 3.17,
       "height": 43.007,
       "gradient": [
-        -0.14348,
+        -0.14353,
         0
       ],
       "minLift": 0.05,
@@ -78,14 +78,28 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1430317377",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "yes",
+          "foot": "use_sidepath",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "30",
+          "mofa": "use_sidepath",
+          "name": "Hoofdweg",
+          "surface": "paving_stones",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 260000,560000,280000,580000 --run nl-13_13 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map wedde-brug-a93ab085 --plaats wedde --punt 267822,565899",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

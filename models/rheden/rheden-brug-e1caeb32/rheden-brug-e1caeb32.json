@@ -9,18 +9,14 @@
     447536.07
   ],
   "xAxis": [
-    0.876146,
-    0.482045
+    0.482045,
+    -0.876146
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 51.025,
+  "groundHeight": 56.606,
   "groundSamplePoints": [
     [
-      -4.51,
-      0
-    ],
-    [
-      4.51,
+      -24.67,
       0
     ]
   ],
@@ -30,56 +26,18 @@
   "terrainCorrections": [
     {
       "centre": [
-        200395.24,
-        447536.07
+        200384.43,
+        447555.71
       ],
       "axis": [
-        0.876146,
-        0.482045
+        -0.482045,
+        0.876146
       ],
-      "halfLength": 0.26,
-      "halfWidth": 11.71,
-      "height": 50.104,
+      "halfLength": 11.21,
+      "halfWidth": 0.77,
+      "height": 56.756,
       "gradient": [
-        0,
-        0
-      ],
-      "minLift": -5.17,
-      "maxLift": -0.01
-    },
-    {
-      "centre": [
-        200392.16,
-        447534.37
-      ],
-      "axis": [
-        -0.876146,
-        -0.482045
-      ],
-      "halfLength": 3,
-      "halfWidth": 13.21,
-      "height": 51.254,
-      "gradient": [
-        -0.05,
-        0
-      ],
-      "minLift": 0.05,
-      "maxLift": 4
-    },
-    {
-      "centre": [
-        200398.31,
-        447537.76
-      ],
-      "axis": [
-        0.876146,
-        0.482045
-      ],
-      "halfLength": 3,
-      "halfWidth": 13.21,
-      "height": 51.214,
-      "gradient": [
-        -0.06326,
+        -0.01338,
         0
       ],
       "minLift": 0.05,
@@ -104,56 +62,34 @@
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 200000,440000,220000,460000 --run nl-10_7 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map rheden-brug-e1caeb32 --plaats rheden --punt 200395,447536",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
-      "dekLengte": 1,
-      "dekBreedte": 22.4,
-      "brugLengte": 1,
-      "water": null,
-      "portaalhoogte": 20.2,
+      "dekLengte": 22.4,
+      "dekBreedte": 1,
+      "brugLengte": 22.4,
+      "water": [
+        3.3,
+        10.8
+      ],
+      "portaalhoogte": 2.5,
       "opritafstand": [
-        4,
-        4
+        13.5,
+        40.4
       ],
-      "oprithelling": 6,
-      "doorstekend": [
-        {
-          "gmlId": "G0275.622164c410c34d9b9567357b753255dc",
-          "klasse": "Terrain",
-          "oppervlak": 3356.2,
-          "onderDek": 0,
-          "bovenDekOnderkant": 4.17,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "L0002.e54d5bff76704b19ba0852b21145562e",
-          "klasse": "Forest",
-          "oppervlak": 485.9,
-          "onderDek": 0.01,
-          "bovenDekOnderkant": 2.42,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "L0002.04be2fce597a4332ab2f7270071c25ad",
-          "klasse": "Terrain",
-          "oppervlak": 312.1,
-          "onderDek": 0.04,
-          "bovenDekOnderkant": 0.66,
-          "actie": "verlagen"
-        }
-      ],
+      "oprithelling": 22.4,
+      "doorstekend": [],
       "opritHoogtes": [
-        51.104,
-        51.025
+        56.606,
+        null
       ]
     },
     "waarschuwingen": [
-      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
-      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
-      "3 PDOK-vorm(en) door het dek: 0 verborgen, 3 verlaagd"
+      "geen FIS-brug binnen 35 m",
+      "oprit + zonder PDOK-maaiveld",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "name": "Scheemderbrug",
+  "name": "Oude Rijksweg",
   "file": "scheemda-scheemderbrug.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -83,7 +83,21 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/6381266",
+        "tags": {
+          "bicycle": "no",
+          "bridge": "yes",
+          "highway": "secondary",
+          "layer": "1",
+          "maxspeed": "80",
+          "mofa": "no",
+          "moped": "no",
+          "name": "Oude Rijksweg",
+          "sidewalk": "no",
+          "traffic_sign": "NL:C15"
+        }
+      },
       "fis": {
         "id": 3203,
         "naam": "Scheemderbrug",
@@ -96,7 +110,7 @@
     "type": "ligger",
     "doorvaarthoogte": 3.1100000000000003,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 260000,560000,280000,580000 --run nl-13_13 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map scheemda-scheemderbrug --plaats scheemda --punt 260319,577932",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

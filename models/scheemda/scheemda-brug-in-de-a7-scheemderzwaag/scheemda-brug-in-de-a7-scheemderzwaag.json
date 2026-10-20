@@ -88,11 +88,32 @@
           "type": "landhoofd"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/6381286",
+        "tags": {
+          "bridge": "yes",
+          "carriageway_ref": "Re",
+          "destination": "Oldenburg;Winschoten",
+          "highway": "motorway",
+          "int_ref": "E 22",
+          "lanes": "2",
+          "layer": "1",
+          "lit": "no",
+          "maxspeed": "100",
+          "maxspeed:conditional": "130 @ (19:00-06:00)",
+          "noname": "yes",
+          "official_name": "Rijksweg A7",
+          "oneway": "yes",
+          "operator": "Rijkswaterstaat",
+          "ref": "A7",
+          "surface": "asphalt",
+          "toll:hgv": "yes"
+        }
+      },
       "fis": {
         "id": 6687,
         "naam": "Brug in de A7 Scheemderzwaag",
-        "afstand": 3,
+        "afstand": 4,
         "beweegbaar": false,
         "doorvaarthoogteGesloten": 3.62
       },
@@ -101,7 +122,7 @@
     "type": "ligger",
     "doorvaarthoogte": 3.62,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,560000,260000,580000 --run nl-12_13 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map scheemda-brug-in-de-a7-scheemderzwaag --plaats scheemda --punt 259521,579062",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

@@ -1,5 +1,5 @@
 {
-  "name": "zuid-beijerland-brug-8abeacd5-5",
+  "name": "Kraagweg",
   "file": "zuid-beijerland-brug-8abeacd5-5.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,24 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1074586706",
+        "tags": {
+          "bridge": "yes",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Kraagweg",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,420000,100000,440000 --run nl-4_6 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map zuid-beijerland-brug-8abeacd5-5 --plaats zuid-beijerland --punt 83588,421050",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

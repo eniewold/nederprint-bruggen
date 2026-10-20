@@ -1,5 +1,5 @@
 {
-  "name": "hellendoorn-brug-2b418631-6",
+  "name": "Kempersbrug",
   "file": "hellendoorn-brug-2b418631-6.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -13,7 +13,7 @@
     0.879679
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 50.97,
+  "groundHeight": 50.963,
   "groundSamplePoints": [
     [
       -30.53,
@@ -39,9 +39,9 @@
       ],
       "halfLength": 12,
       "halfWidth": 6.83,
-      "height": 51.157,
+      "height": 51.154,
       "gradient": [
-        -0.01562,
+        -0.01589,
         0
       ],
       "minLift": 0.05,
@@ -78,14 +78,31 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1322341935",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "yes",
+          "bridge:name": "Kempersbrug",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "80",
+          "mofa": "use_sidepath",
+          "moped": "use_sidepath",
+          "name": "Kempersbrug",
+          "source:maxspeed": "NL:rural",
+          "bridge:structure": "beam",
+          "man_made": "bridge",
+          "source:name": "Informatiepaneel bij Sluis V te Vroomshoop"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,480000,240000,500000 --run nl-11_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map hellendoorn-brug-2b418631-6 --plaats hellendoorn --punt 229185,494606",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -104,7 +121,7 @@
       "oprithelling": 24,
       "doorstekend": [],
       "opritHoogtes": [
-        50.97,
+        50.963,
         51.045
       ]
     },

@@ -1,5 +1,5 @@
 {
-  "name": "enter-brug-29c622a2-21",
+  "name": "Broezeweg",
   "file": "enter-brug-29c622a2-21.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,26 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/647705233",
+        "tags": {
+          "bridge": "yes",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Broezeweg",
+          "source:maxspeed": "NL:zone60",
+          "surface": "asphalt",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,480000,240000,500000 --run nl-11_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map enter-brug-29c622a2-21 --plaats enter --punt 237089,482317",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

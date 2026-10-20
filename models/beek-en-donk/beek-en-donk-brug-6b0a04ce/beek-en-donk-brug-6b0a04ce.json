@@ -1,5 +1,5 @@
 {
-  "name": "beek-en-donk-brug-6b0a04ce",
+  "name": "Herendijk",
   "file": "beek-en-donk-brug-6b0a04ce.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,23 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/7149206",
+        "tags": {
+          "bridge": "yes",
+          "highway": "residential",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Herendijk"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,380000,180000,400000 --run nl-8_4 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map beek-en-donk-brug-6b0a04ce --plaats beek-en-donk --punt 171033,394497",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

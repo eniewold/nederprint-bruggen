@@ -1,5 +1,5 @@
 {
-  "name": "oss-brug-00f6f969",
+  "name": "Rijsvensestraat",
   "file": "oss-brug-00f6f969.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -43,7 +43,7 @@
       ],
       "halfLength": 35.3,
       "halfWidth": 2.95,
-      "height": 57.752,
+      "height": 57.751,
       "gradient": [
         0,
         0
@@ -62,9 +62,9 @@
       ],
       "halfLength": 12,
       "halfWidth": 3.67,
-      "height": 58.881,
+      "height": 58.88,
       "gradient": [
-        -0.01431,
+        -0.01425,
         0
       ],
       "minLift": 0.05,
@@ -81,7 +81,7 @@
       ],
       "halfLength": 12,
       "halfWidth": 3.67,
-      "height": 58.902,
+      "height": 58.901,
       "gradient": [
         -0.0125,
         0
@@ -113,14 +113,25 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/6909373",
+        "tags": {
+          "bridge": "yes",
+          "foot": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "name": "Rijsvensestraat",
+          "segregated": "no",
+          "surface": "asphalt"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 4
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,400000,180000,420000 --run nl-8_5 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map oss-brug-00f6f969 --plaats oss --punt 167114,417599",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -157,13 +168,13 @@
       ],
       "opritHoogtes": [
         58.709,
-        58.752
+        58.751
       ]
     },
     "waarschuwingen": [
       "geen FIS-brug binnen 35 m",
       "2 PDOK-vorm(en) door het dek: 1 verborgen, 1 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

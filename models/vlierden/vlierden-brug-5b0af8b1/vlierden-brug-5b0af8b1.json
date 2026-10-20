@@ -13,14 +13,14 @@
     0.766529
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 65.354,
+  "groundHeight": 66.507,
   "groundSamplePoints": [
     [
-      -8.96,
+      -44.07,
       0
     ],
     [
-      8.96,
+      24.07,
       0
     ]
   ],
@@ -39,9 +39,9 @@
       ],
       "halfLength": 4.07,
       "halfWidth": 2.37,
-      "height": 65.53,
+      "height": 67.434,
       "gradient": [
-        -0.04306,
+        -0.03682,
         0
       ],
       "minLift": 0.05,
@@ -58,9 +58,9 @@
       ],
       "halfLength": 4.07,
       "halfWidth": 2.37,
-      "height": 65.555,
+      "height": 67.046,
       "gradient": [
-        -0.03682,
+        -0.13227,
         0
       ],
       "minLift": 0.05,
@@ -78,14 +78,42 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/546866684",
+        "tags": {
+          "axle_load": "22.5",
+          "bridge": "yes",
+          "description": "Blerick - Eindhoven",
+          "electrified": "contact_line",
+          "frequency": "0",
+          "gauge": "1435",
+          "layer": "1",
+          "loading_gauge": "TSI_GB",
+          "maxspeed": "160",
+          "operator": "ProRail",
+          "passenger_lines": "2",
+          "railway": "rail",
+          "railway:atb": "yes",
+          "railway:maximum_current": "4000",
+          "railway:track_class": "D4",
+          "railway:traffic_mode": "mixed",
+          "ref": "055",
+          "ref:ProRailID": "2888890.0",
+          "ref:ProRailSpoortak": "055_413AL_29.6",
+          "source": "ProRail",
+          "source:date": "2014-01-03",
+          "usage": "main",
+          "voltage": "1500",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,380000,180000,400000 --run nl-8_4 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map vlierden-brug-5b0af8b1 --plaats vlierden --punt 179398,386195",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -98,17 +126,21 @@
       ],
       "portaalhoogte": 2.8,
       "opritafstand": [
-        4.9,
-        4.9
+        40,
+        20
       ],
+      "spoorhoogteBron": "pdok",
       "oprithelling": 8.1,
       "doorstekend": [],
       "opritHoogtes": [
-        65.354,
-        65.405
+        67.284,
+        66.507
       ]
     },
     "waarschuwingen": [
+      "oprit -: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "oprit - pas op 40 m langs het spoor gemeten (PDOK-spoorterrein bij de brug lager)",
+      "oprit +: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
     "gegenereerd": "2026-10-20"

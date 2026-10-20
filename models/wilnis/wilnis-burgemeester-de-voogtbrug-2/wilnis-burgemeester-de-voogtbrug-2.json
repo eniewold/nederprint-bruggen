@@ -1,5 +1,5 @@
 {
-  "name": "Burgemeester de Voogtbrug",
+  "name": "Burg. de Voogtbrug",
   "file": "wilnis-burgemeester-de-voogtbrug-2.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -88,7 +88,20 @@
           "type": "landhoofd"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/377304626",
+        "tags": {
+          "bridge": "movable",
+          "bridge:movable": "bascule",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxaxleload": "4.8",
+          "maxspeed": "30",
+          "maxwidth": "2.3",
+          "name": "Burg. de Voogtbrug",
+          "man_made": "bridge"
+        }
+      },
       "fis": {
         "id": 58696,
         "naam": "Burgemeester de Voogtbrug",
@@ -98,10 +111,10 @@
       },
       "pdokBridgeVlakken": 3
     },
-    "type": "ophaalbrug",
+    "type": "basculebrug",
     "doorvaarthoogte": 0.8799999999999999,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,460000,140000,480000 --run nl-6_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map wilnis-burgemeester-de-voogtbrug-2 --plaats wilnis --punt 120742,467787",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -125,6 +138,6 @@
       ]
     },
     "waarschuwingen": [],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

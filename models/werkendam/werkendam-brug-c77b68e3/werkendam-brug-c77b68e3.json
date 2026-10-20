@@ -9,18 +9,18 @@
     422762.02
   ],
   "xAxis": [
-    0.835531,
-    0.549443
+    0.549443,
+    -0.835531
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 44.821,
+  "groundHeight": 44.856,
   "groundSamplePoints": [
     [
-      -4.5,
+      -12.68,
       0
     ],
     [
-      4.5,
+      12.68,
       0
     ]
   ],
@@ -30,37 +30,18 @@
   "terrainCorrections": [
     {
       "centre": [
-        116587.17,
-        422762.02
+        116580.83,
+        422771.66
       ],
       "axis": [
-        0.835531,
-        0.549443
+        -0.549443,
+        0.835531
       ],
-      "halfLength": 0.25,
-      "halfWidth": 6.27,
-      "height": 43.855,
+      "halfLength": 5.77,
+      "halfWidth": 0.75,
+      "height": 46.13,
       "gradient": [
-        0,
-        0
-      ],
-      "minLift": -4,
-      "maxLift": -0.01
-    },
-    {
-      "centre": [
-        116584.25,
-        422760.1
-      ],
-      "axis": [
-        -0.835531,
-        -0.549443
-      ],
-      "halfLength": 3,
-      "halfWidth": 7.77,
-      "height": 45.005,
-      "gradient": [
-        -0.05,
+        -0.22099,
         0
       ],
       "minLift": 0.05,
@@ -68,18 +49,18 @@
     },
     {
       "centre": [
-        116590.09,
-        422763.95
+        116593.51,
+        422752.39
       ],
       "axis": [
-        0.835531,
-        0.549443
+        0.549443,
+        -0.835531
       ],
-      "halfLength": 3,
-      "halfWidth": 7.77,
-      "height": 44.988,
+      "halfLength": 5.77,
+      "halfWidth": 0.75,
+      "height": 47.255,
       "gradient": [
-        -0.05562,
+        -0.02602,
         0
       ],
       "minLift": 0.05,
@@ -104,56 +85,29 @@
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,420000,120000,440000 --run nl-5_6 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map werkendam-brug-c77b68e3 --plaats werkendam --punt 116587,422762",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
-      "dekLengte": 1,
-      "dekBreedte": 11.5,
-      "brugLengte": 1,
+      "dekLengte": 11.5,
+      "dekBreedte": 1,
+      "brugLengte": 11.5,
       "water": null,
-      "portaalhoogte": 10.4,
+      "portaalhoogte": 2.5,
       "opritafstand": [
-        4,
-        4
+        6.9,
+        6.9
       ],
-      "oprithelling": 6,
-      "doorstekend": [
-        {
-          "gmlId": "G1959.979bd259202e2af7e05332a1e90a61f9",
-          "klasse": "Forest",
-          "oppervlak": 2309.7,
-          "onderDek": 0,
-          "bovenDekOnderkant": 3,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "G0870.774e5390e17f04fde05332a1e90abb9c",
-          "klasse": "Forest",
-          "oppervlak": 1698.7,
-          "onderDek": 0.01,
-          "bovenDekOnderkant": 0.64,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "G0870.75328aba00685d56e05332a1e90a315e",
-          "klasse": "Terrain",
-          "oppervlak": 24.9,
-          "onderDek": 0.02,
-          "bovenDekOnderkant": 0.62,
-          "actie": "verlagen"
-        }
-      ],
+      "oprithelling": 11.5,
+      "doorstekend": [],
       "opritHoogtes": [
-        44.855,
-        44.821
+        44.856,
+        47.105
       ]
     },
     "waarschuwingen": [
-      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
-      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
-      "3 PDOK-vorm(en) door het dek: 0 verborgen, 3 verlaagd"
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

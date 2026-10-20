@@ -1,5 +1,5 @@
 {
-  "name": "almelo-brug-124ac5a2",
+  "name": "Robbenhaarsweg",
   "file": "almelo-brug-124ac5a2.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -88,14 +88,30 @@
           "type": "landhoofd"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/55583881",
+        "tags": {
+          "bridge": "yes",
+          "foot": "yes",
+          "highway": "unclassified",
+          "lane_markings": "no",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "60",
+          "maxweight:signed": "no",
+          "name": "Robbenhaarsweg",
+          "sidewalk": "no",
+          "smoothness": "good",
+          "surface": "asphalt"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 3
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,480000,260000,500000 --run nl-12_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map almelo-brug-124ac5a2 --plaats almelo --punt 244665,487939",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

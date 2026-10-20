@@ -1,5 +1,5 @@
 {
-  "name": "weesp-brug-022391b4",
+  "name": "Groenebrug",
   "file": "weesp-brug-022391b4.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -84,14 +84,25 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/832921197",
+        "tags": {
+          "bicycle": "yes",
+          "bridge": "yes",
+          "highway": "path",
+          "layer": "1",
+          "name": "Groenebrug",
+          "man_made": "bridge",
+          "source:name": "BAG/BGT"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 2
     },
     "type": "ophaalbrug",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,460000,140000,480000 --run nl-6_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map weesp-brug-022391b4 --plaats weesp --punt 131338,479999",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -102,7 +113,7 @@
         -5.2,
         4.8
       ],
-      "portaalhoogte": 3,
+      "portaalhoogte": 2.5,
       "opritafstand": [
         6.8,
         6.8
@@ -118,6 +129,6 @@
       "geen FIS-brug binnen 35 m",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

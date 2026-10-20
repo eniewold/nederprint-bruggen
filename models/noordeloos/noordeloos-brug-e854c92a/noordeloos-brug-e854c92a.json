@@ -1,5 +1,5 @@
 {
-  "name": "noordeloos-brug-e854c92a",
+  "name": "Botersloot",
   "file": "noordeloos-brug-e854c92a.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,29 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/101154981",
+        "tags": {
+          "bridge": "yes",
+          "cycleway:both": "no",
+          "foot": "yes",
+          "highway": "tertiary",
+          "lane_markings": "no",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "60",
+          "name": "Botersloot",
+          "sidewalk:both": "no",
+          "surface": "asphalt"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ophaalbrug",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,420000,140000,440000 --run nl-6_6 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map noordeloos-brug-e854c92a --plaats noordeloos --punt 124129,434838",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -96,7 +111,7 @@
         -1.6,
         0.9
       ],
-      "portaalhoogte": 3.9,
+      "portaalhoogte": 3.8,
       "opritafstand": [
         4,
         4
@@ -113,6 +128,6 @@
       "geen FIS-brug binnen 35 m",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

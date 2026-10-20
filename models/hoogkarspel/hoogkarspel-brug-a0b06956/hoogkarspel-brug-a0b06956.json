@@ -1,5 +1,5 @@
 {
-  "name": "hoogkarspel-brug-a0b06956",
+  "name": "Tolweg",
   "file": "hoogkarspel-brug-a0b06956.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -88,14 +88,28 @@
           "type": "pijler"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/6576208",
+        "tags": {
+          "bicycle": "no",
+          "bridge": "yes",
+          "highway": "tertiary",
+          "lane_markings": "yes",
+          "lanes": "2",
+          "layer": "1",
+          "maxspeed": "60",
+          "maxweight:signed": "no",
+          "name": "Tolweg",
+          "surface": "asphalt"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 3
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,520000,140000,540000 --run nl-6_11 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map hoogkarspel-brug-a0b06956 --plaats hoogkarspel --punt 139715,523297",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

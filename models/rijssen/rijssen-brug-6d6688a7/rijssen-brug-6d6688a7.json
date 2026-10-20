@@ -1,5 +1,5 @@
 {
-  "name": "rijssen-brug-6d6688a7",
+  "name": "Nijverdalseweg",
   "file": "rijssen-brug-6d6688a7.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -97,14 +97,26 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/58903341",
+        "tags": {
+          "bicycle": "no",
+          "bridge": "yes",
+          "foot": "no",
+          "hgv": "no",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxspeed": "50",
+          "name": "Nijverdalseweg"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,480000,240000,500000 --run nl-11_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map rijssen-brug-6d6688a7 --plaats rijssen --punt 231166,481226",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

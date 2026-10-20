@@ -44,7 +44,7 @@
         0,
         0
       ],
-      "minLift": -1.23,
+      "minLift": -1.22,
       "maxLift": -0.01
     },
     {
@@ -97,14 +97,22 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/236524487",
+        "tags": {
+          "bridge": "yes",
+          "highway": "path",
+          "layer": "1",
+          "width": "4"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,380000,180000,400000 --run nl-8_4 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map ommel-brug-c4a1c8ba --plaats ommel --punt 176716,383272",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -125,9 +133,9 @@
         {
           "gmlId": "W0654.97ccaadd7b274b469a6195d5464a547d",
           "klasse": "Terrain",
-          "oppervlak": 257.1,
+          "oppervlak": 128.8,
           "onderDek": 0.06,
-          "bovenDekOnderkant": 0.23,
+          "bovenDekOnderkant": 0.22,
           "actie": "verlagen"
         }
       ],

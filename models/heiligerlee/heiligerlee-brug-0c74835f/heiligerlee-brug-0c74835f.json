@@ -1,5 +1,5 @@
 {
-  "name": "heiligerlee-brug-0c74835f",
+  "name": "Haven Zuidzijde",
   "file": "heiligerlee-brug-0c74835f.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -13,7 +13,7 @@
     -0.895108
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 43.073,
+  "groundHeight": 43.071,
   "groundSamplePoints": [
     [
       -34.05,
@@ -49,9 +49,9 @@
       ],
       "halfLength": 12,
       "halfWidth": 10.69,
-      "height": 43.224,
+      "height": 43.222,
       "gradient": [
-        -0.0125,
+        -0.01257,
         0
       ],
       "minLift": 0.05,
@@ -68,9 +68,9 @@
       ],
       "halfLength": 12,
       "halfWidth": 10.69,
-      "height": 43.224,
+      "height": 43.223,
       "gradient": [
-        -0.01256,
+        -0.0125,
         0
       ],
       "minLift": 0.05,
@@ -135,14 +135,29 @@
           "type": "onbekend"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/6366376",
+        "tags": {
+          "alt_name": "Graaf Adolfbrug",
+          "bicycle": "use_sidepath",
+          "bridge": "movable",
+          "bridge:movable": "bascule",
+          "foot": "use_sidepath",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "80",
+          "mofa": "use_sidepath",
+          "moped": "use_sidepath",
+          "name": "Haven Zuidzijde"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 11
     },
-    "type": "ophaalbrug",
+    "type": "basculebrug",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 260000,560000,280000,580000 --run nl-13_13 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map heiligerlee-brug-0c74835f --plaats heiligerlee --punt 262654,576550",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -161,7 +176,7 @@
       "oprithelling": 24,
       "doorstekend": [],
       "opritHoogtes": [
-        43.074,
+        43.071,
         43.073
       ]
     },

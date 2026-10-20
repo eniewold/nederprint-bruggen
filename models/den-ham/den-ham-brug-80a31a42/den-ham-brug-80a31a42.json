@@ -1,5 +1,5 @@
 {
-  "name": "den-ham-brug-80a31a42",
+  "name": "Meersendijk",
   "file": "den-ham-brug-80a31a42.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,28 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/6427640",
+        "tags": {
+          "bridge": "yes",
+          "highway": "unclassified",
+          "lanes": "1",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "60",
+          "name": "Meersendijk",
+          "sidewalk": "no",
+          "smoothness": "good",
+          "surface": "asphalt"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,480000,240000,500000 --run nl-11_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map den-ham-brug-80a31a42 --plaats den-ham --punt 229171,497909",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

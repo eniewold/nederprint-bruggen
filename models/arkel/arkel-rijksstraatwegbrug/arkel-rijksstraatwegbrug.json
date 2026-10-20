@@ -203,11 +203,23 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/7109297",
+        "tags": {
+          "bridge": "yes",
+          "hgv": "no",
+          "highway": "secondary",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Rijksstraatwegbrug",
+          "operator": "Gemeente Molenlanden",
+          "zone:traffic": "NL:urban"
+        }
+      },
       "fis": {
         "id": 33090,
         "naam": "Rijksstraatwegbrug",
-        "afstand": 10,
+        "afstand": 2,
         "beweegbaar": true,
         "doorvaarthoogteGesloten": 1
       },
@@ -216,7 +228,7 @@
     "type": "ophaalbrug",
     "doorvaarthoogte": 1,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,420000,140000,440000 --run nl-6_6 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map arkel-rijksstraatwegbrug --plaats arkel --punt 128101,431179",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -227,7 +239,7 @@
         -16.6,
         17.4
       ],
-      "portaalhoogte": 10,
+      "portaalhoogte": 9.6,
       "opritafstand": [
         20,
         20
@@ -240,6 +252,6 @@
       ]
     },
     "waarschuwingen": [],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

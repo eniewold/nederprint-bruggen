@@ -1,5 +1,5 @@
 {
-  "name": "leusden-brug-a1cbc520",
+  "name": "Ecoduct Leusderheide",
   "file": "leusden-brug-a1cbc520.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -143,14 +143,24 @@
           "type": "onbekend"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/28553312",
+        "tags": {
+          "bridge": "yes",
+          "layer": "1",
+          "man_made": "wildlife_crossing",
+          "name": "Ecoduct Leusderheide",
+          "natural": "heath",
+          "wikidata": "Q125777708"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 14
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,440000,160000,460000 --run nl-7_7 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map leusden-brug-a1cbc520 --plaats leusden --punt 151627,459319",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -173,6 +183,6 @@
     "waarschuwingen": [
       "geen FIS-brug binnen 35 m"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

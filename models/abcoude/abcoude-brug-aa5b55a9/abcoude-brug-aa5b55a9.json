@@ -1,5 +1,5 @@
 {
-  "name": "abcoude-brug-aa5b55a9",
+  "name": "Jan Swinkelsbrug",
   "file": "abcoude-brug-aa5b55a9.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -9,18 +9,18 @@
     476344.36
   ],
   "xAxis": [
-    0.483482,
-    -0.875355
+    -0.875355,
+    -0.483482
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 35.43,
+  "groundHeight": 43.533,
   "groundSamplePoints": [
     [
-      -4.32,
+      -22.44,
       0
     ],
     [
-      4.32,
+      22.44,
       0
     ]
   ],
@@ -30,37 +30,18 @@
   "terrainCorrections": [
     {
       "centre": [
-        127280.23,
-        476344.36
+        127298.08,
+        476354.22
       ],
       "axis": [
-        0.483482,
-        -0.875355
+        0.875355,
+        0.483482
       ],
-      "halfLength": 0.16,
-      "halfWidth": 10.7,
-      "height": 34.465,
+      "halfLength": 10.2,
+      "halfWidth": 0.47,
+      "height": 43.732,
       "gradient": [
-        0,
-        0
-      ],
-      "minLift": -1.71,
-      "maxLift": -0.01
-    },
-    {
-      "centre": [
-        127278.62,
-        476347.26
-      ],
-      "axis": [
-        -0.483482,
-        0.875355
-      ],
-      "halfLength": 3,
-      "halfWidth": 12.2,
-      "height": 35.615,
-      "gradient": [
-        -0.05,
+        -0.0147,
         0
       ],
       "minLift": 0.05,
@@ -68,18 +49,18 @@
     },
     {
       "centre": [
-        127281.83,
-        476341.46
+        127262.37,
+        476334.5
       ],
       "axis": [
-        0.483482,
-        -0.875355
+        -0.875355,
+        -0.483482
       ],
-      "halfLength": 3,
-      "halfWidth": 12.2,
-      "height": 35.597,
+      "halfLength": 10.2,
+      "halfWidth": 0.47,
+      "height": 43.707,
       "gradient": [
-        -0.05581,
+        -0.01708,
         0
       ],
       "minLift": 0.05,
@@ -97,47 +78,60 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/981024597",
+        "tags": {
+          "bridge": "yes",
+          "foot": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "lit": "yes",
+          "mofa": "designated",
+          "moped": "designated",
+          "surface": "fine_gravel",
+          "traffic_sign": "NL:G12a",
+          "width": "3.30",
+          "bridge:structure": "humpback",
+          "building:material": "steel",
+          "colour": "grey",
+          "man_made": "bridge",
+          "name": "Jan Swinkelsbrug",
+          "source": "local survey & PDOK 25 28-08-21",
+          "wikidata": "Q39252912",
+          "wikipedia": "nl:Jan Swinkelsbrug"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
-    "type": "ligger",
+    "type": "bolbrug",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,460000,140000,480000 --run nl-6_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map abcoude-brug-aa5b55a9 --plaats abcoude --punt 127280,476344",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
-      "dekLengte": 0.6,
-      "dekBreedte": 20.4,
-      "brugLengte": 0.6,
+      "dekLengte": 20.4,
+      "dekBreedte": 0.6,
+      "brugLengte": 20.4,
       "water": null,
-      "portaalhoogte": 18.4,
+      "portaalhoogte": 2.5,
       "opritafstand": [
-        4,
-        4
+        12.2,
+        12.2
       ],
-      "oprithelling": 6,
-      "doorstekend": [
-        {
-          "gmlId": "L0004.a2e9c971a9f64c6eb720f3f6e0cbaadd",
-          "klasse": "Terrain",
-          "oppervlak": 255,
-          "onderDek": 0,
-          "bovenDekOnderkant": 0.71,
-          "actie": "verlagen"
-        }
-      ],
+      "oprithelling": 20.4,
+      "bolling": 2.45,
+      "doorstekend": [],
       "opritHoogtes": [
-        35.465,
-        35.43
+        43.582,
+        43.533
       ]
     },
     "waarschuwingen": [
-      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
-      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
-      "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

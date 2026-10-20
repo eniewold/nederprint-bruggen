@@ -1,5 +1,5 @@
 {
-  "name": "vroomshoop-brug-59eaf061",
+  "name": "Grote Puntbrug",
   "file": "vroomshoop-brug-59eaf061.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,33 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1322136905",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "movable",
+          "bridge:movable": "drawbridge",
+          "bridge:name": "Puntbrug",
+          "highway": "tertiary",
+          "lanes": "2",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "50",
+          "name": "Grote Puntbrug",
+          "sidewalk": "no",
+          "smoothness": "good",
+          "surface": "asphalt",
+          "man_made": "bridge",
+          "source:name": "anker-node, maar daarmee rendert het niet"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
-    "type": "ligger",
+    "type": "ophaalbrug",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,480000,240000,500000 --run nl-11_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map vroomshoop-brug-59eaf061 --plaats vroomshoop --punt 235687,496887",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -96,7 +115,7 @@
         -4.9,
         5.1
       ],
-      "portaalhoogte": 14,
+      "portaalhoogte": 13.9,
       "opritafstand": [
         6.4,
         6.4
@@ -110,6 +129,7 @@
     },
     "waarschuwingen": [
       "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen FIS-brug binnen 35 m",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
     "gegenereerd": "2026-10-20"

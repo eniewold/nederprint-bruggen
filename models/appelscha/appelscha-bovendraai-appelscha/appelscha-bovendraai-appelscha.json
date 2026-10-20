@@ -1,5 +1,5 @@
 {
-  "name": "Bovendraai Appelscha",
+  "name": "Bovendraai",
   "file": "appelscha-bovendraai-appelscha.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,7 +78,16 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/843940532",
+        "tags": {
+          "bridge": "movable",
+          "bridge:movable": "swing",
+          "highway": "path",
+          "layer": "1",
+          "name": "Bovendraai"
+        }
+      },
       "fis": {
         "id": 1597,
         "naam": "Bovendraai Appelscha",
@@ -88,10 +97,10 @@
       },
       "pdokBridgeVlakken": 1
     },
-    "type": "ophaalbrug",
+    "type": "draaibrug",
     "doorvaarthoogte": 1.200000000000001,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,540000,240000,560000 --run nl-11_12 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map appelscha-bovendraai-appelscha --plaats appelscha --punt 222348,551574",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

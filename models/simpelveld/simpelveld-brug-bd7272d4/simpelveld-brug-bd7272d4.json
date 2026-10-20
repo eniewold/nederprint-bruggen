@@ -9,18 +9,18 @@
     316081.92
   ],
   "xAxis": [
-    0.873486,
-    0.486848
+    0.486848,
+    -0.873486
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 202.209,
+  "groundHeight": 188.177,
   "groundSamplePoints": [
     [
-      -12.5,
+      -105,
       0
     ],
     [
-      12.5,
+      35,
       0
     ]
   ],
@@ -32,18 +32,37 @@
   "terrainCorrections": [
     {
       "centre": [
-        197587.04,
-        316079.24
+        197591.85,
+        316081.92
       ],
       "axis": [
-        -0.873486,
-        -0.486848
+        0.486848,
+        -0.873486
       ],
-      "halfLength": 3,
-      "halfWidth": 18,
-      "height": 202.523,
+      "halfLength": 10,
+      "halfWidth": 3,
+      "height": 187.878,
       "gradient": [
-        -0.10444,
+        0,
+        0
+      ],
+      "minLift": -15.23,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        197573.83,
+        316114.24
+      ],
+      "axis": [
+        -0.486848,
+        0.873486
+      ],
+      "halfLength": 12,
+      "halfWidth": 3.75,
+      "height": 188.678,
+      "gradient": [
+        -0.04172,
         0
       ],
       "minLift": 0.05,
@@ -51,18 +70,18 @@
     },
     {
       "centre": [
-        197596.65,
-        316084.6
+        197609.86,
+        316049.6
       ],
       "axis": [
-        0.873486,
-        0.486848
+        0.486848,
+        -0.873486
       ],
-      "halfLength": 3,
-      "halfWidth": 18,
-      "height": 202.686,
+      "halfLength": 12,
+      "halfWidth": 3.75,
+      "height": 189.028,
       "gradient": [
-        -0.05,
+        -0.0125,
         0
       ],
       "minLift": 0.05,
@@ -95,31 +114,66 @@
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 180000,300000,200000,320000 --run nl-9_0 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map simpelveld-brug-bd7272d4 --plaats simpelveld --punt 197592,316082",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
-      "dekLengte": 5,
-      "dekBreedte": 32,
-      "brugLengte": 5,
+      "dekLengte": 32,
+      "dekBreedte": 5,
+      "brugLengte": 50,
       "water": null,
-      "portaalhoogte": 28.8,
+      "portaalhoogte": 4.5,
       "opritafstand": [
-        10,
+        80,
         10
       ],
       "spoorhoogteBron": "pdok",
-      "oprithelling": 6,
-      "doorstekend": [],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0965.242ff94a26d54c23e054d8d385f6d27e",
+          "klasse": "Forest",
+          "oppervlak": 11292.4,
+          "onderDek": 0,
+          "bovenDekOnderkant": 14.23,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0965.242ff94a55054c23e054d8d385f6d27e",
+          "klasse": "Forest",
+          "oppervlak": 5.5,
+          "onderDek": 0,
+          "bovenDekOnderkant": 14.22,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0965.242ff94a55024c23e054d8d385f6d27e",
+          "klasse": "Forest",
+          "oppervlak": 5658,
+          "onderDek": 0,
+          "bovenDekOnderkant": 14.13,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0965.242ff94a33704c23e054d8d385f6d27e",
+          "klasse": "Road",
+          "oppervlak": 425.5,
+          "onderDek": 0.6,
+          "bovenDekOnderkant": 6.73,
+          "actie": "verlagen"
+        }
+      ],
       "opritHoogtes": [
-        202.209,
-        202.536
+        188.177,
+        188.878
       ]
     },
     "waarschuwingen": [
-      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen FIS-brug binnen 35 m",
       "oprit -: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
-      "oprit +: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt"
+      "oprit - pas op 80 m langs het spoor gemeten (PDOK-spoorterrein bij de brug lager)",
+      "oprit +: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "4 PDOK-vorm(en) door het dek: 0 verborgen, 4 verlaagd"
     ],
     "gegenereerd": "2026-10-20"
   }

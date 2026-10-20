@@ -1,5 +1,5 @@
 {
-  "name": "slootdorp-brug-5efd5d45",
+  "name": "Klieverweg",
   "file": "slootdorp-brug-5efd5d45.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,23 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/6570488",
+        "tags": {
+          "bridge": "yes",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Klieverweg"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,540000,140000,560000 --run nl-6_12 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map slootdorp-brug-5efd5d45 --plaats slootdorp --punt 130505,543918",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

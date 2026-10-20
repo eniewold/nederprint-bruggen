@@ -78,14 +78,27 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/142046815",
+        "tags": {
+          "bridge": "yes",
+          "highway": "trunk_link",
+          "lanes": "2",
+          "layer": "1",
+          "maxspeed": "60",
+          "motorroad": "yes",
+          "operator": "Provincie Noord-Holland",
+          "source:maxspeed": "NL:zone60",
+          "surface": "asphalt"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,520000,160000,540000 --run nl-7_11 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map westwoud-brug-a5515acd --plaats westwoud --punt 140000,521471",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -109,6 +122,6 @@
       "geen FIS-brug binnen 35 m",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

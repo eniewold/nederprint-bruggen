@@ -13,15 +13,15 @@
     0.766937
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 44.029,
+  "groundHeight": 48.571,
   "groundSamplePoints": [
     [
-      -64.91,
-      -6.43
+      -15.05,
+      0
     ],
     [
-      145.11,
-      3.67
+      15.13,
+      0
     ]
   ],
   "replacesTerrain": [
@@ -46,9 +46,9 @@
       ],
       "halfLength": 12,
       "halfWidth": 34.64,
-      "height": 45.392,
+      "height": 48.587,
       "gradient": [
-        -0.11356,
+        0,
         0
       ],
       "minLift": 0.05,
@@ -65,9 +65,9 @@
       ],
       "halfLength": 12,
       "halfWidth": 34.64,
-      "height": 46.605,
+      "height": 48.579,
       "gradient": [
-        -0.0125,
+        -0.00066,
         0
       ],
       "minLift": 0.05,
@@ -126,7 +126,7 @@
           "frequency": "0",
           "gauge": "1435",
           "layer": "1",
-          "maxspeed": "160",
+          "maxspeed": "140",
           "name": "Rijnsburgerviaduct",
           "operator": "ProRail",
           "passenger_lines": "4",
@@ -134,10 +134,11 @@
           "railway:atb": "yes",
           "railway:maximum_current": "4000",
           "railway:track_class": "C2",
+          "railway:track_ref": "8",
           "railway:traffic_mode": "passenger",
           "ref": "534b",
-          "ref:ProRailID": "2878070.0",
-          "ref:ProRailSpoortak": "534_1033AL_45.1",
+          "ref:ProRailID": "2878073.0",
+          "ref:ProRailSpoortak": "534_1033BV_45.2",
           "source": "ProRail",
           "source:date": "2014-01-03",
           "usage": "main",
@@ -157,7 +158,7 @@
       "naam": "Rijnsburgerviaduct",
       "straal": 40
     },
-    "opdracht": "node scripts/bridges/genereer.mjs --uit C:/Users/edwar/AppData/Local/Temp/claude/C--Users-edwar-source-Repos-nederprint/3bd9e161-d515-4f1b-bfbf-c9cc2320f835/scratchpad/rail-batch5 --map rijnsburgerviaduct --plaats leiden --punt 93155.13,464727.56 --naam Rijnsburgerviaduct --straal 40",
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 90100,459364,95921,466645 --run leiden-2026-10-20 --overschrijf 1 --parallel 5",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -167,22 +168,20 @@
       "water": null,
       "portaalhoogte": 58.8,
       "opritafstand": [
-        50,
-        130
+        0,
+        0
       ],
+      "spoorhoogteBron": "prorail-pvs",
       "oprithelling": 24,
       "doorstekend": [],
       "opritHoogtes": [
-        44.029,
-        46.455
+        48.587,
+        48.571
       ]
     },
     "waarschuwingen": [
-      "geen FIS-brug binnen 35 m",
-      "oprit - pas op 50 m langs het spoor gemeten (PDOK-spoorterrein bij de brug lager)",
-      "oprit +: spoorterrein voorbij 150 m nog 1.2 m hoger (48.0 m); PDOK trekt het spoor hier ver naar beneden, controleer de dekhoogte of geef --opritafstand",
-      "oprit + pas op 130 m langs het spoor gemeten (PDOK-spoorterrein bij de brug lager)"
+      "geen FIS-brug binnen 35 m"
     ],
-    "gegenereerd": "2026-10-17"
+    "gegenereerd": "2026-10-20"
   }
 }

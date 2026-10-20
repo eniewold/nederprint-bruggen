@@ -1,5 +1,5 @@
 {
-  "name": "1e Mondsebrug",
+  "name": "Schoolkade",
   "file": "musselkanaal-1e-mondsebrug.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -90,20 +90,30 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/6371472",
+        "tags": {
+          "bridge": "movable",
+          "bridge:movable": "bascule",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "50",
+          "name": "Schoolkade"
+        }
+      },
       "fis": {
         "id": 2272,
         "naam": "1e Mondsebrug",
-        "afstand": 5,
+        "afstand": 4,
         "beweegbaar": true,
         "doorvaarthoogteGesloten": 1
       },
       "pdokBridgeVlakken": 3
     },
-    "type": "ophaalbrug",
+    "type": "basculebrug",
     "doorvaarthoogte": 1,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 260000,540000,280000,560000 --run nl-13_12 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map musselkanaal-1e-mondsebrug --plaats musselkanaal --punt 262678,552722",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

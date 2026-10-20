@@ -1,5 +1,5 @@
 {
-  "name": "heeten-brug-8b88ade5",
+  "name": "Zonnebergerbrug",
   "file": "heeten-brug-8b88ade5.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,34 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1341323648",
+        "tags": {
+          "bridge": "viaduct",
+          "bridge:movable": "drawbridge",
+          "bridge:name": "Zonnenbergerbrug",
+          "highway": "unclassified",
+          "lanes": "1",
+          "layer": "1",
+          "maxaxleload": "4.8",
+          "maxspeed": "60",
+          "maxwidth": "2.5 m",
+          "name": "Zonnebergerbrug",
+          "passing_places": "no",
+          "sidewalk": "no",
+          "smoothness": "good",
+          "surface": "wood",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
-    "type": "ligger",
+    "type": "ophaalbrug",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 200000,480000,220000,500000 --run nl-10_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map heeten-brug-8b88ade5 --plaats heeten --punt 214658,481166",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -96,7 +116,7 @@
         -3.8,
         3.7
       ],
-      "portaalhoogte": 2.6,
+      "portaalhoogte": 2.5,
       "opritafstand": [
         5.2,
         5.2
@@ -109,8 +129,9 @@
       ]
     },
     "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

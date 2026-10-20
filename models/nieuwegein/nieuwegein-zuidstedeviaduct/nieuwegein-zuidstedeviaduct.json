@@ -9,18 +9,18 @@
     448668.31
   ],
   "xAxis": [
-    0.942321,
-    -0.33471
+    -0.942915,
+    0.333035
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 48.03,
+  "groundHeight": 47.28,
   "groundSamplePoints": [
     [
-      -64.52,
+      -154.74,
       0
     ],
     [
-      124.69,
+      64.54,
       0
     ]
   ],
@@ -70,12 +70,12 @@
         448668.31
       ],
       "axis": [
-        0.942321,
-        -0.33471
+        -0.942915,
+        0.333035
       ],
-      "halfLength": 46.49,
-      "halfWidth": 25.78,
-      "height": 48.36,
+      "halfLength": 46.52,
+      "halfWidth": 25.8,
+      "height": 48.359,
       "gradient": [
         0,
         0
@@ -85,18 +85,18 @@
     },
     {
       "centre": [
-        134245.8,
-        448690.57
+        134371.41,
+        448646.08
       ],
       "axis": [
-        -0.942321,
-        0.33471
+        0.942915,
+        -0.333035
       ],
       "halfLength": 12,
-      "halfWidth": 27.28,
-      "height": 49.51,
+      "halfWidth": 27.3,
+      "height": 48.47,
       "gradient": [
-        -0.0125,
+        -0.09911,
         0
       ],
       "minLift": 0.05,
@@ -104,18 +104,18 @@
     },
     {
       "centre": [
-        134371.33,
-        448645.99
+        134245.74,
+        448690.47
       ],
       "axis": [
-        0.942321,
-        -0.33471
+        -0.942915,
+        0.333035
       ],
       "halfLength": 12,
-      "halfWidth": 27.28,
-      "height": 48.845,
+      "halfWidth": 27.3,
+      "height": 49.509,
       "gradient": [
-        -0.06792,
+        -0.0125,
         0
       ],
       "minLift": 0.05,
@@ -267,11 +267,33 @@
           "type": "landhoofd"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/706257514",
+        "tags": {
+          "bicycle": "no",
+          "bridge": "yes",
+          "foot": "no",
+          "highway": "secondary",
+          "lanes": "2",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "50",
+          "maxweight:signed": "no",
+          "mofa": "no",
+          "moped": "no",
+          "name": "Zuidstedeviaduct",
+          "oneway": "yes",
+          "surface": "asphalt",
+          "traffic_sign": "NL:C15",
+          "zone:traffic": "NL:urban",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
       "fis": {
         "id": 11314,
         "naam": "Zuidstedeviaduct",
-        "afstand": 9,
+        "afstand": 3,
         "beweegbaar": false,
         "doorvaarthoogteGesloten": 4.9
       },
@@ -280,21 +302,21 @@
     "type": "ligger",
     "doorvaarthoogte": 4.9,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,440000,140000,460000 --run nl-6_7 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map nieuwegein-zuidstedeviaduct --plaats nieuwegein --punt 134308,448668",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
       "dekLengte": 105,
       "dekBreedte": 50.6,
-      "brugLengte": 109.2,
+      "brugLengte": 109.3,
       "water": [
-        -10,
-        7.5
+        -7.2,
+        10.3
       ],
       "portaalhoogte": 45.5,
       "opritafstand": [
-        10,
-        70
+        100,
+        10
       ],
       "spoorhoogteBron": "pdok",
       "oprithelling": 24,
@@ -349,16 +371,16 @@
         }
       ],
       "opritHoogtes": [
-        49.36,
-        48.03
+        47.28,
+        49.359
       ]
     },
     "waarschuwingen": [
       "oprit -: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "oprit - pas op 100 m langs het spoor gemeten (PDOK-spoorterrein bij de brug lager)",
       "oprit +: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
-      "oprit + pas op 70 m langs het spoor gemeten (PDOK-spoorterrein bij de brug lager)",
       "6 PDOK-vorm(en) door het dek: 3 verborgen, 3 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

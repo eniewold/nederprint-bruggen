@@ -1,5 +1,5 @@
 {
-  "name": "hengelo-brug-687ebbed",
+  "name": "Europalaan",
   "file": "hengelo-brug-687ebbed.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -83,14 +83,29 @@
           "type": "onbekend"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/815611533",
+        "tags": {
+          "bicycle": "no",
+          "bridge": "yes",
+          "bridge:name": "Westermaatbrug",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "60",
+          "mofa": "no",
+          "moped": "no",
+          "name": "Europalaan",
+          "source:maxspeed": "sign",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 2
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,460000,260000,480000 --run nl-12_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map hengelo-brug-687ebbed --plaats hengelo --punt 250308,478792",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

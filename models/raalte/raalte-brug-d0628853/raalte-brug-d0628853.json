@@ -9,18 +9,18 @@
     489778.92
   ],
   "xAxis": [
-    -0.759738,
-    -0.650229
+    0.705644,
+    -0.708567
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 47.818,
+  "groundHeight": 49.711,
   "groundSamplePoints": [
     [
-      -196.83,
+      -4.7,
       0
     ],
     [
-      86.83,
+      4.7,
       0
     ]
   ],
@@ -34,33 +34,33 @@
         489778.92
       ],
       "axis": [
-        -0.759738,
-        -0.650229
+        0.705644,
+        -0.708567
       ],
-      "halfLength": 3.41,
-      "halfWidth": 4.7,
-      "height": 47.89,
+      "halfLength": 2.35,
+      "halfWidth": 7.02,
+      "height": 48.411,
       "gradient": [
         0,
         0
       ],
-      "minLift": -2.68,
+      "minLift": -2.16,
       "maxLift": -0.01
     },
     {
       "centre": [
-        215540.97,
-        489787.8
+        215523.96,
+        489785.58
       ],
       "axis": [
-        0.759738,
-        0.650229
+        -0.705644,
+        0.708567
       ],
-      "halfLength": 6.83,
-      "halfWidth": 6.2,
-      "height": 49.04,
+      "halfLength": 4.7,
+      "halfWidth": 8.52,
+      "height": 49.711,
       "gradient": [
-        -0.02197,
+        -0.00002,
         0
       ],
       "minLift": 0.05,
@@ -68,18 +68,18 @@
     },
     {
       "centre": [
-        215520.22,
-        489770.04
+        215537.23,
+        489772.26
       ],
       "axis": [
-        -0.759738,
-        -0.650229
+        0.705644,
+        -0.708567
       ],
-      "halfLength": 6.83,
-      "halfWidth": 6.2,
-      "height": 48.504,
+      "halfLength": 4.7,
+      "halfWidth": 8.52,
+      "height": 49.711,
       "gradient": [
-        -0.10045,
+        0,
         0
       ],
       "minLift": 0.05,
@@ -97,51 +97,83 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1416397606",
+        "tags": {
+          "bridge": "yes",
+          "description": "Zwolle - Wierden",
+          "electrified": "contact_line",
+          "frequency": "0",
+          "gauge": "1435",
+          "layer": "1",
+          "maxspeed": "60",
+          "note": "Start Electrical test trains 16-8-2017",
+          "operator": "ProRail",
+          "passenger_lines": "2",
+          "railway": "rail",
+          "railway:atb": "yes",
+          "railway:atb-ng": "yes",
+          "railway:etcs": "no",
+          "railway:maximum_current": "4000",
+          "railway:track_class": "C2",
+          "railway:traffic_mode": "passenger",
+          "ref": "206",
+          "ref:ProRailSpoortak": "206_121L_17.7",
+          "source": "ProRail",
+          "source:date": "2013-07-10",
+          "usage": "branch",
+          "voltage": "1500",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 0
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 200000,480000,220000,500000 --run nl-10_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map raalte-brug-d0628853 --plaats raalte --punt 215531,489779",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
-      "dekLengte": 13.7,
-      "dekBreedte": 8.4,
-      "brugLengte": 13.7,
+      "dekLengte": 9.4,
+      "dekBreedte": 13,
+      "brugLengte": 9.4,
       "water": null,
-      "portaalhoogte": 7.6,
+      "portaalhoogte": 11.7,
       "opritafstand": [
-        190,
-        80
+        0,
+        0
       ],
-      "spoorhoogteBron": "pdok",
-      "oprithelling": 13.7,
+      "spoorhoogteBron": "prorail-pvs",
+      "oprithelling": 9.4,
       "doorstekend": [
         {
           "gmlId": "L0004.bcf5dfe023414f81ab2b06c9e7e40f12",
           "klasse": "Road",
-          "oppervlak": 121261.3,
+          "oppervlak": 113179.3,
           "onderDek": 0.01,
-          "bovenDekOnderkant": 1.68,
+          "bovenDekOnderkant": 1.16,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "L0004.8c9b4430105f40faaceb09b52cd2400f",
+          "klasse": "Forest",
+          "oppervlak": 12373.1,
+          "onderDek": 0,
+          "bovenDekOnderkant": 1.14,
           "actie": "verlagen"
         }
       ],
       "opritHoogtes": [
-        48.89,
-        47.818
+        49.711,
+        49.711
       ]
     },
     "waarschuwingen": [
-      "oprit -: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
-      "oprit - pas op 190 m langs het spoor gemeten (PDOK-spoorterrein bij de brug lager)",
-      "oprit +: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
-      "oprit + pas op 80 m langs het spoor gemeten (PDOK-spoorterrein bij de brug lager)",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
-      "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

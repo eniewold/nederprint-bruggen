@@ -1,5 +1,5 @@
 {
-  "name": "zwijndrecht-brug-8104b425",
+  "name": "Staatslijn I",
   "file": "zwijndrecht-brug-8104b425.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -9,8 +9,8 @@
     425225.86
   ],
   "xAxis": [
-    0.843455,
-    -0.5372
+    0.843305,
+    -0.537436
   ],
   "groundOffsetMetres": 0,
   "groundHeight": 51.743,
@@ -20,7 +20,7 @@
       0
     ],
     [
-      12.54,
+      12.55,
       0
     ]
   ],
@@ -31,12 +31,12 @@
   "terrainCorrections": [
     {
       "centre": [
-        103854.46,
+        103854.47,
         425238.6
       ],
       "axis": [
-        -0.843455,
-        0.5372
+        -0.843305,
+        0.537436
       ],
       "halfLength": 12,
       "halfWidth": 8.3,
@@ -51,11 +51,11 @@
     {
       "centre": [
         103895.16,
-        425212.68
+        425212.67
       ],
       "axis": [
-        0.843455,
-        -0.5372
+        0.843305,
+        -0.537436
       ],
       "halfLength": 12,
       "halfWidth": 8.3,
@@ -84,14 +84,41 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/6308276",
+        "tags": {
+          "bridge": "yes",
+          "electrified": "contact_line",
+          "frequency": "0",
+          "gauge": "1435",
+          "layer": "1",
+          "maxspeed": "140",
+          "name": "Staatslijn I",
+          "operator": "ProRail",
+          "passenger_lines": "4",
+          "railway": "rail",
+          "railway:atb": "yes",
+          "railway:atb-eg": "yes",
+          "railway:atb-ng": "no",
+          "railway:etcs": "no",
+          "railway:maximum_current": "4000",
+          "railway:track_class": "D4",
+          "railway:track_ref": "JT",
+          "ref:ProRailID": "2881630.0",
+          "ref:ProRailSpoortak": "542_1267AR_29.9",
+          "source": "ProRail",
+          "source:date": "2014-01-03",
+          "usage": "main",
+          "voltage": "1500"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 2
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,420000,120000,440000 --run nl-5_6 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map zwijndrecht-brug-8104b425 --plaats zwijndrecht --punt 103874,425226",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -116,6 +143,6 @@
       "geen FIS-brug binnen 35 m",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

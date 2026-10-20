@@ -78,7 +78,20 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/810243390",
+        "tags": {
+          "bridge": "movable",
+          "bridge:movable": "bascule",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxspeed": "30",
+          "zone:traffic": "NL:urban",
+          "bridge:structure": "beam",
+          "man_made": "bridge",
+          "name": "Dolfinariumbrug"
+        }
+      },
       "fis": {
         "id": 33161407,
         "naam": "Dolfinariumbrug",
@@ -88,10 +101,10 @@
       },
       "pdokBridgeVlakken": 1
     },
-    "type": "ophaalbrug",
+    "type": "basculebrug",
     "doorvaarthoogte": 1.7,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,480000,180000,500000 --run nl-8_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map harderwijk-dolfinariumbrug --plaats harderwijk --punt 170915,485082",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -117,6 +130,6 @@
     "waarschuwingen": [
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

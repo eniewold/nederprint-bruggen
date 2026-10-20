@@ -13,7 +13,7 @@
     -0.993207
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 47.577,
+  "groundHeight": 47.562,
   "groundSamplePoints": [
     [
       -6.66,
@@ -44,7 +44,7 @@
         0,
         0
       ],
-      "minLift": -1.8,
+      "minLift": -1.77,
       "maxLift": -0.01
     },
     {
@@ -58,9 +58,9 @@
       ],
       "halfLength": 3,
       "halfWidth": 5.1,
-      "height": 47.732,
+      "height": 47.725,
       "gradient": [
-        -0.05193,
+        -0.05442,
         0
       ],
       "minLift": 0.05,
@@ -97,14 +97,23 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1039557918",
+        "tags": {
+          "access": "private",
+          "bridge": "yes",
+          "highway": "service",
+          "layer": "1",
+          "service": "driveway"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ophaalbrug",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,440000,160000,460000 --run nl-7_7 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map amerongen-brug-1fb41d7f --plaats amerongen --punt 155479,444349",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -125,14 +134,14 @@
         {
           "gmlId": "W0636.967639700e1a4b3d960c1885be446683",
           "klasse": "Terrain",
-          "oppervlak": 1264.9,
+          "oppervlak": 105.6,
           "onderDek": 0.01,
-          "bovenDekOnderkant": 0.8,
+          "bovenDekOnderkant": 0.77,
           "actie": "verlagen"
         }
       ],
       "opritHoogtes": [
-        47.577,
+        47.562,
         47.588
       ]
     },
@@ -142,6 +151,6 @@
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
       "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

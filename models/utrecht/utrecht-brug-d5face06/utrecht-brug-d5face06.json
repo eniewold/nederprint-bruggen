@@ -13,14 +13,14 @@
     -0.681898
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 49.277,
+  "groundHeight": 49.604,
   "groundSamplePoints": [
     [
-      -34.6,
+      -24.6,
       0
     ],
     [
-      114.53,
+      24.53,
       0
     ]
   ],
@@ -72,9 +72,9 @@
       ],
       "halfLength": 12,
       "halfWidth": 17.06,
-      "height": 49.517,
+      "height": 49.617,
       "gradient": [
-        -0.0125,
+        -0.00106,
         0
       ],
       "minLift": 0.05,
@@ -91,9 +91,9 @@
       ],
       "halfLength": 12,
       "halfWidth": 17.06,
-      "height": 49.472,
+      "height": 49.63,
       "gradient": [
-        -0.01626,
+        0,
         0
       ],
       "minLift": 0.05,
@@ -245,32 +245,14 @@
         }
       ],
       "osm": {
-        "id": "way/496701420",
+        "id": "way/1463502267",
         "tags": {
-          "axle_load": "22.5",
           "bridge": "yes",
-          "description": "Utrecht Centraal - Blauwkapel",
-          "electrified": "contact_line",
-          "frequency": "0",
-          "gauge": "1435",
+          "highway": "footway",
           "layer": "1",
-          "loading_gauge": "TSI_GB",
-          "maxspeed": "100",
-          "operator": "ProRail",
-          "passenger_lines": "4",
-          "railway": "rail",
-          "railway:atb": "yes",
-          "railway:maximum_current": "4000",
-          "railway:track_class": "D4",
-          "ref": "094",
-          "ref:ProRailID": "2887962.0",
-          "ref:ProRailSpoortak": "094_1107AR_1.8",
-          "source": "ProRail",
-          "source:date": "2014-01-03",
-          "usage": "main",
-          "voltage": "1500",
-          "bridge:structure": "beam",
-          "man_made": "bridge"
+          "surface": "paving_stones",
+          "man_made": "bridge",
+          "bridge:structure": "beam"
         }
       },
       "fis": null,
@@ -282,7 +264,7 @@
       "naam": "utrecht-brug-d5face06",
       "straal": 40
     },
-    "opdracht": "node scripts/bridges/genereer.mjs --uit C:/Users/edwar/AppData/Local/Temp/claude/C--Users-edwar-source-Repos-nederprint/3bd9e161-d515-4f1b-bfbf-c9cc2320f835/scratchpad/rail-batch5 --map brug-d5face06 --plaats utrecht --punt 135998.34,457417.95 --naam utrecht-brug-d5face06 --straal 40",
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 126435,448710,141834,461610 --run utrecht-2026-10-20 --overschrijf 1 --parallel 5",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -295,20 +277,20 @@
       ],
       "portaalhoogte": 27.1,
       "opritafstand": [
-        10,
-        90
+        0,
+        0
       ],
+      "spoorhoogteBron": "prorail-pvs",
       "oprithelling": 24,
       "doorstekend": [],
       "opritHoogtes": [
-        49.367,
-        49.277
+        49.604,
+        49.63
       ]
     },
     "waarschuwingen": [
-      "geen FIS-brug binnen 35 m",
-      "oprit + pas op 90 m langs het spoor gemeten (PDOK-spoorterrein bij de brug lager)"
+      "geen FIS-brug binnen 35 m"
     ],
-    "gegenereerd": "2026-10-17"
+    "gegenereerd": "2026-10-20"
   }
 }

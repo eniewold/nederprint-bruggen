@@ -9,18 +9,18 @@
     501086.86
   ],
   "xAxis": [
-    -0.19596,
-    0.980612
+    0.980612,
+    0.19596
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 41.548,
+  "groundHeight": 42.551,
   "groundSamplePoints": [
     [
-      -9.18,
+      -70.84,
       0
     ],
     [
-      9.18,
+      70.84,
       0
     ]
   ],
@@ -32,37 +32,18 @@
   "terrainCorrections": [
     {
       "centre": [
-        125080.18,
-        501086.86
+        125018.55,
+        501074.55
       ],
       "axis": [
-        -0.19596,
-        0.980612
+        -0.980612,
+        -0.19596
       ],
-      "halfLength": 2.09,
-      "halfWidth": 51.34,
-      "height": 40.942,
+      "halfLength": 12,
+      "halfWidth": 6.17,
+      "height": 43.63,
       "gradient": [
-        0,
-        0
-      ],
-      "minLift": -1.4,
-      "maxLift": -0.01
-    },
-    {
-      "centre": [
-        125081.81,
-        501078.68
-      ],
-      "axis": [
-        0.19596,
-        -0.980612
-      ],
-      "halfLength": 4.17,
-      "halfWidth": 52.84,
-      "height": 42.092,
-      "gradient": [
-        -0.03593,
+        -0.08988,
         0
       ],
       "minLift": 0.05,
@@ -70,18 +51,18 @@
     },
     {
       "centre": [
-        125078.54,
-        501095.05
+        125141.8,
+        501099.18
       ],
       "axis": [
-        -0.19596,
-        0.980612
+        0.980612,
+        0.19596
       ],
-      "halfLength": 4.17,
-      "halfWidth": 52.84,
-      "height": 41.895,
+      "halfLength": 12,
+      "halfWidth": 6.17,
+      "height": 44.558,
       "gradient": [
-        -0.08317,
+        -0.0125,
         0
       ],
       "minLift": 0.05,
@@ -125,67 +106,38 @@
           "man_made": "bridge"
         }
       },
-      "fis": {
-        "id": 6134,
-        "naam": "Jan Blankenbrug Purmerend",
-        "afstand": 31,
-        "beweegbaar": true,
-        "doorvaarthoogteGesloten": 2.55
-      },
+      "fis": null,
       "pdokBridgeVlakken": 3
     },
     "type": "basculebrug",
-    "doorvaarthoogte": 2.55,
+    "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,500000,140000,520000 --run nl-6_10 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map purmerend-jan-blankenbrug --plaats purmerend --punt 125080,501087",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
-      "dekLengte": 8.3,
-      "dekBreedte": 101.7,
-      "brugLengte": 8.3,
-      "water": null,
-      "portaalhoogte": 91.5,
+      "dekLengte": 101.7,
+      "dekBreedte": 8.3,
+      "brugLengte": 101.7,
+      "water": [
+        18.2,
+        45.2
+      ],
+      "portaalhoogte": 7.5,
       "opritafstand": [
-        5,
-        5
+        20,
+        20
       ],
-      "oprithelling": 8.3,
-      "doorstekend": [
-        {
-          "gmlId": "G0439.d55918d644174454881cb22e53badf0f",
-          "klasse": "Road",
-          "oppervlak": 126.6,
-          "onderDek": 0.1,
-          "bovenDekOnderkant": 0.4,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "G0439.8a1bcaa411934ebfa063755438fc0f23",
-          "klasse": "Road",
-          "oppervlak": 168.9,
-          "onderDek": 0.07,
-          "bovenDekOnderkant": 0.22,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "G0439.03815b99d4ef457fa12a3e534ffb073c",
-          "klasse": "Road",
-          "oppervlak": 346.1,
-          "onderDek": 0,
-          "bovenDekOnderkant": 0.21,
-          "actie": "verlagen"
-        }
-      ],
+      "oprithelling": 24,
+      "doorstekend": [],
       "opritHoogtes": [
-        41.942,
-        41.548
+        42.551,
+        44.408
       ]
     },
     "waarschuwingen": [
-      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
-      "3 PDOK-vorm(en) door het dek: 0 verborgen, 3 verlaagd"
+      "geen FIS-brug binnen 35 m"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

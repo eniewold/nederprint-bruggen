@@ -1,5 +1,5 @@
 {
-  "name": "borne-brug-3bf9d6e6",
+  "name": "Kuipersweg",
   "file": "borne-brug-3bf9d6e6.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -102,14 +102,29 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/435123853",
+        "tags": {
+          "bridge": "yes",
+          "highway": "unclassified",
+          "lanes": "1",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Kuipersweg",
+          "sidewalk": "no",
+          "smoothness": "good",
+          "surface": "asphalt",
+          "width": "3",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 2
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,480000,260000,500000 --run nl-12_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map borne-brug-3bf9d6e6 --plaats borne --punt 245327,480422",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

@@ -1,5 +1,5 @@
 {
-  "name": "D.W.M. brug",
+  "name": "Boven Oosterdiep",
   "file": "veendam-d-w-m-brug.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -42,7 +42,7 @@
       ],
       "halfLength": 6.43,
       "halfWidth": 5.22,
-      "height": 43.257,
+      "height": 43.253,
       "gradient": [
         -0.02331,
         0
@@ -61,9 +61,9 @@
       ],
       "halfLength": 6.43,
       "halfWidth": 5.22,
-      "height": 43.24,
+      "height": 43.238,
       "gradient": [
-        -0.02597,
+        -0.02561,
         0
       ],
       "minLift": 0.05,
@@ -93,20 +93,30 @@
           "type": "landhoofd"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/6379507",
+        "tags": {
+          "bridge": "movable",
+          "bridge:movable": "bascule",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxspeed": "50",
+          "name": "Boven Oosterdiep"
+        }
+      },
       "fis": {
         "id": 28425,
         "naam": "D.W.M. brug",
-        "afstand": 2,
+        "afstand": 0,
         "beweegbaar": true,
         "doorvaarthoogteGesloten": 1
       },
       "pdokBridgeVlakken": 4
     },
-    "type": "ophaalbrug",
+    "type": "basculebrug",
     "doorvaarthoogte": 1,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,560000,260000,580000 --run nl-12_13 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map veendam-d-w-m-brug --plaats veendam --punt 254617,568920",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -125,7 +135,7 @@
       "oprithelling": 12.9,
       "doorstekend": [],
       "opritHoogtes": [
-        43.107,
+        43.103,
         43.073
       ]
     },

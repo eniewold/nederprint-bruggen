@@ -1,5 +1,5 @@
 {
-  "name": "Brug Macharen",
+  "name": "Dorpenweg",
   "file": "macharen-brug-macharen.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -217,20 +217,35 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/668040689",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "movable",
+          "bridge:movable": "bascule",
+          "highway": "secondary",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "50",
+          "name": "Dorpenweg",
+          "old_ref": "N626",
+          "wikidata": "Q19014084",
+          "man_made": "bridge"
+        }
+      },
       "fis": {
         "id": 25400,
         "naam": "Brug Macharen",
-        "afstand": 6,
+        "afstand": 7,
         "beweegbaar": true,
         "doorvaarthoogteGesloten": 0.3
       },
       "pdokBridgeVlakken": 21
     },
-    "type": "ophaalbrug",
+    "type": "basculebrug",
     "doorvaarthoogte": 0.3,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,420000,180000,440000 --run nl-8_6 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map macharen-brug-macharen --plaats macharen --punt 166089,423826",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -274,6 +289,6 @@
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
       "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

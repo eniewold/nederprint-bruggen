@@ -1,5 +1,5 @@
 {
-  "name": "diemen-brug-9c592084-4",
+  "name": "Muiderboogviaduct",
   "file": "diemen-brug-9c592084-4.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -118,14 +118,33 @@
           "type": "pijler"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1222537170",
+        "tags": {
+          "bridge": "yes",
+          "carriageway_ref": "u",
+          "highway": "motorway_link",
+          "lanes": "1",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "80",
+          "name": "Muiderboogviaduct",
+          "oneway": "yes",
+          "operator": "Rijkswaterstaat",
+          "ref": "A9",
+          "surface": "asphalt",
+          "toll:hgv": "yes",
+          "man_made": "bridge",
+          "start_date": "2015"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 9
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map diemen-brug-9c592084-4 --plaats diemen --punt 129074,482084",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -148,6 +167,6 @@
     "waarschuwingen": [
       "geen FIS-brug binnen 35 m"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

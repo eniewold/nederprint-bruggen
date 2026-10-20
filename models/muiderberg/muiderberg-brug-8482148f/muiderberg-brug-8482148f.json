@@ -1,5 +1,5 @@
 {
-  "name": "muiderberg-brug-8482148f",
+  "name": "Ton Storkpad",
   "file": "muiderberg-brug-8482148f.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -118,14 +118,25 @@
           "type": "pijler"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/34949071",
+        "tags": {
+          "bridge": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "moped": "designated",
+          "name": "Ton Storkpad",
+          "smoothness": "excellent",
+          "surface": "asphalt"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 9
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map muiderberg-brug-8482148f --plaats muiderberg --punt 134531,480934",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -152,6 +163,6 @@
       "geen FIS-brug binnen 35 m",
       "oprit - pas op 20.8 m gemeten"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

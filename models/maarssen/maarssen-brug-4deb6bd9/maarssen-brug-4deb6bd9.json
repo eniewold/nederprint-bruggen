@@ -1,5 +1,5 @@
 {
-  "name": "maarssen-brug-4deb6bd9",
+  "name": "Maarsseveensevaart",
   "file": "maarssen-brug-4deb6bd9.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -39,12 +39,12 @@
       ],
       "halfLength": 1.69,
       "halfWidth": 2.16,
-      "height": 41.809,
+      "height": 41.806,
       "gradient": [
         0,
         0
       ],
-      "minLift": -1.75,
+      "minLift": -1.76,
       "maxLift": -0.01
     },
     {
@@ -58,7 +58,7 @@
       ],
       "halfLength": 3.39,
       "halfWidth": 2.49,
-      "height": 42.959,
+      "height": 42.956,
       "gradient": [
         -0.04426,
         0
@@ -77,9 +77,9 @@
       ],
       "halfLength": 3.39,
       "halfWidth": 2.49,
-      "height": 42.881,
+      "height": 42.879,
       "gradient": [
-        -0.06738,
+        -0.06691,
         0
       ],
       "minLift": 0.05,
@@ -97,14 +97,23 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/386545947",
+        "tags": {
+          "bridge": "yes",
+          "highway": "service",
+          "layer": "1",
+          "name": "Maarsseveensevaart",
+          "service": "driveway"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,460000,140000,480000 --run nl-6_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map maarssen-brug-4deb6bd9 --plaats maarssen --punt 132301,461759",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -127,12 +136,12 @@
           "klasse": "Terrain",
           "oppervlak": 119.5,
           "onderDek": 0.03,
-          "bovenDekOnderkant": 0.75,
+          "bovenDekOnderkant": 0.76,
           "actie": "verlagen"
         }
       ],
       "opritHoogtes": [
-        42.809,
+        42.806,
         42.653
       ]
     },
@@ -140,6 +149,6 @@
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
       "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

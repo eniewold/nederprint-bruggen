@@ -140,11 +140,31 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1364289171",
+        "tags": {
+          "bridge": "yes",
+          "highway": "residential",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "30",
+          "maxweight:signed": "no",
+          "name": "Compagniesbrug",
+          "oneway": "yes",
+          "oneway:bicycle": "no",
+          "oneway:mofa": "no",
+          "oneway:moped": "no",
+          "sidewalk": "left",
+          "sidewalk:left:surface": "wood",
+          "smoothness": "excellent",
+          "surface": "asphalt",
+          "zone:maxspeed": "NL:30"
+        }
+      },
       "fis": {
         "id": 27738,
         "naam": "Compagniesbrug",
-        "afstand": 2,
+        "afstand": 3,
         "beweegbaar": true,
         "doorvaarthoogteGesloten": 1.6
       },
@@ -153,7 +173,7 @@
     "type": "ophaalbrug",
     "doorvaarthoogte": 1.6,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,520000,160000,540000 --run nl-7_11 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map enkhuizen-compagniesbrug --plaats enkhuizen --punt 148851,524061",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -164,7 +184,7 @@
         -27.5,
         27.5
       ],
-      "portaalhoogte": 5.8,
+      "portaalhoogte": 4.8,
       "opritafstand": [
         20,
         20
@@ -177,6 +197,6 @@
       ]
     },
     "waarschuwingen": [],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

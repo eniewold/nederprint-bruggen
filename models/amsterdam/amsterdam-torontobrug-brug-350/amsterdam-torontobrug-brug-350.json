@@ -1,5 +1,5 @@
 {
-  "name": "Torontobrug (Brug 350)",
+  "name": "Torontobrug",
   "file": "amsterdam-torontobrug-brug-350.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -25,6 +25,7 @@
     ]
   ],
   "replacesTerrain": [
+    "G0363.02adb839cfbe41ed847e75f1036959e2",
     "G0363.10d41077c3d74ad9ab15449587ffd359",
     "G0363.4bee0953b7854448b8428efc75535e04",
     "G0363.55fe61f8b3364fef91a0b13600aae221",
@@ -83,6 +84,10 @@
     "bron": {
       "bgt": [
         {
+          "id": "G0363.02adb839cfbe41ed847e75f1036959e2",
+          "type": "pijler"
+        },
+        {
           "id": "G0363.10d41077c3d74ad9ab15449587ffd359",
           "type": "pijler"
         },
@@ -126,39 +131,38 @@
       "osm": {
         "id": "way/485674034",
         "tags": {
-          "bicycle": "use_sidepath",
+          "bicycle": "no",
           "bridge": "yes",
           "highway": "primary",
-          "lanes": "2",
+          "lanes": "3",
           "layer": "1",
           "lit": "yes",
           "maxspeed": "30",
           "oneway": "yes",
           "ref": "S100",
           "surface": "asphalt",
-          "turn:lanes": "right|through",
+          "turn:lanes": "merge_to_right|none|slight_right",
           "bridge:ref": "350",
           "man_made": "bridge",
           "name": "Torontobrug",
           "wikidata": "Q2498869",
           "wikimedia_commons": "Category:Brug 350, Torontobrug",
-          "wikipedia": "nl:Torontobrug",
-          "bridge:structure": "beam"
+          "wikipedia": "nl:Torontobrug"
         }
       },
       "fis": {
         "id": 32953,
         "naam": "Torontobrug (Brug 350)",
-        "afstand": 31,
+        "afstand": 2,
         "beweegbaar": true,
         "doorvaarthoogteGesloten": 4.590000000000001
       },
-      "pdokBridgeVlakken": 10
+      "pdokBridgeVlakken": 11
     },
     "type": "ophaalbrug",
     "doorvaarthoogte": 4.590000000000001,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map amsterdam-torontobrug-brug-350 --plaats amsterdam --punt 122138,485777",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -182,6 +186,6 @@
       ]
     },
     "waarschuwingen": [],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

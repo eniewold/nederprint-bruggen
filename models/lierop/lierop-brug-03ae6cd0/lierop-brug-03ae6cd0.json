@@ -1,5 +1,5 @@
 {
-  "name": "lierop-brug-03ae6cd0",
+  "name": "Bommerhei",
   "file": "lierop-brug-03ae6cd0.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -117,14 +117,35 @@
           "type": "pijler"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/692848864",
+        "tags": {
+          "bridge": "yes",
+          "bridge:material": "concrete",
+          "bridge:name": "Bommerhei",
+          "bridge:structure": "beam",
+          "highway": "cycleway",
+          "layer": "1",
+          "mofa": "designated",
+          "moped": "designated",
+          "name": "Bommerhei",
+          "oneway": "no",
+          "segregated": "no",
+          "smoothness": "good",
+          "source": "Bing",
+          "surface": "asphalt",
+          "traffic_sign": "NL:G12a",
+          "zone:traffic": "NL:rural",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 5
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,380000,180000,400000 --run nl-8_4 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map lierop-brug-03ae6cd0 --plaats lierop --punt 176809,381000",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

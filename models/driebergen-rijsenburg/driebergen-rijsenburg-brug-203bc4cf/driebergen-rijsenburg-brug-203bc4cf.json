@@ -78,14 +78,29 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1066036189",
+        "tags": {
+          "bridge": "yes",
+          "emergency": "no",
+          "foot": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "mofa": "no",
+          "moped": "no",
+          "segregated": "no",
+          "smoothness": "good",
+          "surface": "wood",
+          "traffic_sign": "NL:G13"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ophaalbrug",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,440000,160000,460000 --run nl-7_7 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map driebergen-rijsenburg-brug-203bc4cf --plaats driebergen-rijsenburg --punt 147734,452265",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -112,6 +127,6 @@
       "geen FIS-brug binnen 35 m",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

@@ -9,24 +9,23 @@
     494755.89
   ],
   "xAxis": [
-    0.134057,
-    -0.990974
+    -0.990974,
+    -0.134057
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 41.964,
+  "groundHeight": 42.249,
   "groundSamplePoints": [
     [
-      -5.71,
+      -6.87,
       0
     ],
     [
-      5.71,
+      6.87,
       0
     ]
   ],
   "replacesTerrain": [
-    "G0852.8abeacd5439b757600000000a2617d6b",
-    "G0852.8abeacd5439b757600000000a2622c9a"
+    "G0852.8abeacd5439b757600000000a2617d6b"
   ],
   "terrainCorrections": [
     {
@@ -35,33 +34,33 @@
         494755.89
       ],
       "axis": [
-        0.134057,
-        -0.990974
+        -0.990974,
+        -0.134057
       ],
-      "halfLength": 0.86,
-      "halfWidth": 3.37,
-      "height": 41.093,
+      "halfLength": 1.44,
+      "halfWidth": 2.21,
+      "height": 41.83,
       "gradient": [
         0,
         0
       ],
-      "minLift": -1.91,
+      "minLift": -1.39,
       "maxLift": -0.01
     },
     {
       "centre": [
-        125340.65,
-        494760.56
+        125347.1,
+        494756.68
       ],
       "axis": [
-        -0.134057,
-        0.990974
+        0.990974,
+        0.134057
       ],
       "halfLength": 3,
-      "halfWidth": 4.31,
-      "height": 42.179,
+      "halfWidth": 2.57,
+      "height": 42.69,
       "gradient": [
-        -0.07142,
+        -0.14676,
         0
       ],
       "minLift": 0.05,
@@ -69,16 +68,16 @@
     },
     {
       "centre": [
-        125341.92,
-        494751.22
+        125335.46,
+        494755.1
       ],
       "axis": [
-        0.134057,
-        -0.990974
+        -0.990974,
+        -0.134057
       ],
       "halfLength": 3,
-      "halfWidth": 4.31,
-      "height": 42.243,
+      "halfWidth": 2.57,
+      "height": 42.98,
       "gradient": [
         -0.05,
         0
@@ -112,15 +111,18 @@
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map watergang-brug-8abeacd5-9 --plaats watergang --punt 125341,494756",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
-      "dekLengte": 3.4,
-      "dekBreedte": 5.7,
-      "brugLengte": 3.4,
-      "water": null,
-      "portaalhoogte": 5.2,
+      "dekLengte": 5.7,
+      "dekBreedte": 3.4,
+      "brugLengte": 5.7,
+      "water": [
+        -1.9,
+        -0.9
+      ],
+      "portaalhoogte": 3.1,
       "opritafstand": [
         4,
         4
@@ -131,45 +133,28 @@
           "gmlId": "G0852.8abeacd5439b757600000000a2622c9a",
           "klasse": "Forest",
           "oppervlak": 7,
-          "onderDek": 0.95,
-          "bovenDekOnderkant": 1.24,
-          "actie": "verbergen"
+          "onderDek": 0.47,
+          "bovenDekOnderkant": 0.39,
+          "actie": "verlagen"
         },
         {
           "gmlId": "W0651.8abeacd5439b757600000000a26156b3",
           "klasse": "Terrain",
-          "oppervlak": 129.9,
+          "oppervlak": 132.5,
           "onderDek": 0.05,
-          "bovenDekOnderkant": 0.91,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "G0852.8abeacd5439b757600000000a2615683",
-          "klasse": "Terrain",
-          "oppervlak": 843.5,
-          "onderDek": 0,
-          "bovenDekOnderkant": 0.87,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "G0852.8abeacd5439b757600000000a261a831",
-          "klasse": "Forest",
-          "oppervlak": 2,
-          "onderDek": 0.66,
-          "bovenDekOnderkant": 0.72,
+          "bovenDekOnderkant": 0.17,
           "actie": "verlagen"
         }
       ],
       "opritHoogtes": [
-        41.964,
-        42.093
+        42.249,
+        42.83
       ]
     },
     "waarschuwingen": [
-      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
-      "4 PDOK-vorm(en) door het dek: 1 verborgen, 3 verlaagd"
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

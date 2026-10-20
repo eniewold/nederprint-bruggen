@@ -1,5 +1,5 @@
 {
-  "name": "loosdrecht-brug-89263459",
+  "name": "Nieuw-Loosdrechtsedijk",
   "file": "loosdrecht-brug-89263459.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -88,14 +88,23 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1058572877",
+        "tags": {
+          "access": "private",
+          "bridge": "yes",
+          "highway": "residential",
+          "layer": "1",
+          "name": "Nieuw-Loosdrechtsedijk"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 3
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,460000,140000,480000 --run nl-6_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map loosdrecht-brug-89263459 --plaats loosdrecht --punt 135665,467184",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -119,6 +128,6 @@
       ]
     },
     "waarschuwingen": [],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

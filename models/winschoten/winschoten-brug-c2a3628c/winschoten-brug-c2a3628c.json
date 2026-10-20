@@ -1,5 +1,5 @@
 {
-  "name": "winschoten-brug-c2a3628c",
+  "name": "Beertsterbrug",
   "file": "winschoten-brug-c2a3628c.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -93,14 +93,38 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1354176611",
+        "tags": {
+          "bicycle": "no",
+          "bridge": "movable",
+          "foot": "no",
+          "highway": "primary",
+          "lanes": "1",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "80",
+          "maxweight:signed": "no",
+          "mofa": "no",
+          "moped": "no",
+          "name": "Beertsterbrug",
+          "name:etymology:wikidata": "Q2250772",
+          "oneway": "yes",
+          "operator": "Provincie Groningen",
+          "ref": "N367",
+          "surface": "asphalt",
+          "zone:traffic": "NL:rural",
+          "bridge:movable": "bascule",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 4
     },
-    "type": "ligger",
+    "type": "basculebrug",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 260000,560000,280000,580000 --run nl-13_13 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map winschoten-brug-c2a3628c --plaats winschoten --punt 266531,575597",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

@@ -1,5 +1,5 @@
 {
-  "name": "zeist-brug-ecdec553",
+  "name": "Bunsinglaan",
   "file": "zeist-brug-ecdec553.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -97,14 +97,24 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/6993720",
+        "tags": {
+          "access": "yes",
+          "bridge": "yes",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Bunsinglaan"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,440000,160000,460000 --run nl-7_7 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map zeist-brug-ecdec553 --plaats zeist --punt 145166,453481",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -148,6 +158,6 @@
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
       "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

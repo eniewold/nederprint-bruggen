@@ -13,15 +13,15 @@
     0.48843
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 45.551,
+  "groundHeight": 45.438,
   "groundSamplePoints": [
     [
-      -37.82,
-      2.48
+      -27.82,
+      0
     ],
     [
-      52.37,
-      2.44
+      22.37,
+      0
     ]
   ],
   "replacesTerrain": [
@@ -54,9 +54,9 @@
       ],
       "halfLength": 12,
       "halfWidth": 9.77,
-      "height": 45.876,
+      "height": 45.465,
       "gradient": [
-        -0.0125,
+        -0.00223,
         0
       ],
       "minLift": 0.05,
@@ -73,9 +73,9 @@
       ],
       "halfLength": 12,
       "halfWidth": 9.77,
-      "height": 45.788,
+      "height": 45.492,
       "gradient": [
-        -0.01978,
+        0,
         0
       ],
       "minLift": 0.05,
@@ -162,35 +162,17 @@
         "id": "way/638602645",
         "tags": {
           "bridge": "movable",
-          "bridge:movable": "swing",
-          "description": "Spoorbrug over Rijn-Schiekanaal",
-          "electrified": "contact_line",
-          "frequency": "0",
-          "gauge": "1435",
-          "layer": "1",
-          "maxspeed": "130",
-          "operator": "ProRail",
-          "passenger_lines": "1",
-          "railway": "rail",
-          "railway:atb": "yes",
-          "railway:maximum_current": "3200",
-          "railway:track_class": "C2",
-          "railway:traffic_mode": "passenger",
-          "ref": "103",
-          "ref:ProRailID": "2888978.0",
-          "ref:ProRailSpoortak": "103_303V_28.8",
-          "source": "ProRail",
-          "source:date": "2014-01-03",
-          "usage": "branch",
-          "voltage": "1500",
           "bridge:structure": "beam",
-          "man_made": "bridge"
+          "description": "Spoorbrug over Rijn-Schiekanaal",
+          "layer": "1",
+          "man_made": "bridge",
+          "bridge:movable": "swing"
         }
       },
       "fis": {
         "id": 6140,
         "naam": "Spoorbrug R.S.K.B. Leiden",
-        "afstand": 2,
+        "afstand": 6,
         "beweegbaar": true,
         "doorvaarthoogteGesloten": 2.46
       },
@@ -202,7 +184,7 @@
       "naam": "Kanaalbrug",
       "straal": 40
     },
-    "opdracht": "node scripts/bridges/genereer.mjs --uit C:/Users/edwar/AppData/Local/Temp/claude/C--Users-edwar-source-Repos-nederprint/3bd9e161-d515-4f1b-bfbf-c9cc2320f835/scratchpad/rail-batch5 --map kanaalbrug-2 --plaats leiden --punt 94206.64,462195.52 --naam Kanaalbrug --straal 40",
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 90100,459364,95921,466645 --run leiden-2026-10-20 --overschrijf 1 --parallel 5",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -215,19 +197,18 @@
       ],
       "portaalhoogte": 14,
       "opritafstand": [
-        10,
-        30
+        0,
+        0
       ],
+      "spoorhoogteBron": "prorail-pvs",
       "oprithelling": 24,
       "doorstekend": [],
       "opritHoogtes": [
-        45.726,
-        45.551
+        45.438,
+        45.492
       ]
     },
-    "waarschuwingen": [
-      "oprit + pas op 30 m langs het spoor gemeten (PDOK-spoorterrein bij de brug lager)"
-    ],
-    "gegenereerd": "2026-10-17"
+    "waarschuwingen": [],
+    "gegenereerd": "2026-10-20"
   }
 }

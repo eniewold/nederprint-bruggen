@@ -1,5 +1,5 @@
 {
-  "name": "nijverdal-brug-2c356971",
+  "name": "Westervenne",
   "file": "nijverdal-brug-2c356971.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -9,8 +9,8 @@
     486870.66
   ],
   "xAxis": [
-    0.995362,
-    -0.096196
+    -0.995372,
+    0.096097
   ],
   "groundOffsetMetres": 0,
   "groundHeight": 58.248,
@@ -30,18 +30,18 @@
   "terrainCorrections": [
     {
       "centre": [
-        230137,
-        486873.84
+        230202.72,
+        486867.49
       ],
       "axis": [
-        -0.995362,
-        0.096196
+        0.995372,
+        -0.096097
       ],
       "halfLength": 12,
-      "halfWidth": 4.55,
-      "height": 58.261,
+      "halfWidth": 4.56,
+      "height": 58.273,
       "gradient": [
-        -0.00104,
+        0,
         0
       ],
       "minLift": 0.05,
@@ -49,18 +49,18 @@
     },
     {
       "centre": [
-        230202.72,
-        486867.48
+        230137,
+        486873.83
       ],
       "axis": [
-        0.995362,
-        -0.096196
+        -0.995372,
+        0.096097
       ],
       "halfLength": 12,
-      "halfWidth": 4.55,
-      "height": 58.273,
+      "halfWidth": 4.56,
+      "height": 58.261,
       "gradient": [
-        0,
+        -0.00104,
         0
       ],
       "minLift": 0.05,
@@ -78,14 +78,42 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/218920179",
+        "tags": {
+          "bridge": "yes",
+          "bridge:name": "Westervenne",
+          "description": "Zwolle - Wierden",
+          "electrified": "contact_line",
+          "frequency": "0",
+          "gauge": "1435",
+          "layer": "1",
+          "maxspeed": "140",
+          "note": "Start Electrical test trains 16-8-2017",
+          "operator": "ProRail",
+          "passenger_lines": "1",
+          "railway": "rail",
+          "railway:atb": "yes",
+          "railway:atb-ng": "yes",
+          "railway:etcs": "no",
+          "railway:maximum_current": "4000",
+          "railway:track_class": "C2",
+          "railway:traffic_mode": "passenger",
+          "ref": "206",
+          "ref:ProRailSpoortak": "605_1AV_33.4",
+          "source": "ProRail",
+          "source:date": "2013-07-10",
+          "usage": "branch",
+          "voltage": "1500"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,480000,240000,500000 --run nl-11_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map nijverdal-brug-2c356971 --plaats nijverdal --punt 230170,486871",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -102,8 +130,8 @@
       "oprithelling": 24,
       "doorstekend": [],
       "opritHoogtes": [
-        58.248,
-        58.273
+        58.273,
+        58.248
       ]
     },
     "waarschuwingen": [

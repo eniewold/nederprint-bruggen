@@ -1,5 +1,5 @@
 {
-  "name": "Rengersbrug Foxhol",
+  "name": "Rengersbrug",
   "file": "hoogezand-rengersbrug-foxhol.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -126,20 +126,42 @@
           "type": "landhoofd"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/537242762",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "movable",
+          "bridge:movable": "bascule",
+          "foot": "use_sidepath",
+          "highway": "primary",
+          "lanes": "2",
+          "layer": "1",
+          "maxspeed": "60",
+          "maxweight:signed": "no",
+          "mofa": "use_sidepath",
+          "moped": "use_sidepath",
+          "name": "Rengersbrug",
+          "operator": "Provincie Groningen",
+          "ref": "N386",
+          "surface": "asphalt",
+          "zone:traffic": "NL:rural",
+          "bridge:structure": "suspension",
+          "man_made": "bridge"
+        }
+      },
       "fis": {
         "id": 5530,
         "naam": "Rengersbrug Foxhol",
-        "afstand": 8,
+        "afstand": 5,
         "beweegbaar": true,
         "doorvaarthoogteGesloten": 0.87
       },
       "pdokBridgeVlakken": 10
     },
-    "type": "ophaalbrug",
+    "type": "basculebrug",
     "doorvaarthoogte": 0.87,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,560000,260000,580000 --run nl-12_13 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map hoogezand-rengersbrug-foxhol --plaats hoogezand --punt 244679,576908",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -162,7 +184,9 @@
         43.217
       ]
     },
-    "waarschuwingen": [],
+    "waarschuwingen": [
+      "OSM zegt suspension, gekozen type basculebrug"
+    ],
     "gegenereerd": "2026-10-20"
   }
 }

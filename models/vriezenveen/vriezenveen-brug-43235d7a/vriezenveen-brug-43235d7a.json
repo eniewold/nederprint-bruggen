@@ -1,5 +1,5 @@
 {
-  "name": "vriezenveen-brug-43235d7a",
+  "name": "Schottenweg",
   "file": "vriezenveen-brug-43235d7a.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,26 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/270734625",
+        "tags": {
+          "bridge": "yes",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Schottenweg",
+          "source:maxspeed": "NL:zone60",
+          "surface": "paved",
+          "width": "2.5"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,480000,240000,500000 --run nl-11_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map vriezenveen-brug-43235d7a --plaats vriezenveen --punt 237234,494172",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

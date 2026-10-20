@@ -1,5 +1,5 @@
 {
-  "name": "edam-brug-2aacf958",
+  "name": "Baanbrug",
   "file": "edam-brug-2aacf958.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,28 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1199302440",
+        "tags": {
+          "bridge": "movable",
+          "bridge:movable": "drawbridge",
+          "highway": "residential",
+          "layer": "1",
+          "lit": "yes",
+          "maxaxleload": "10",
+          "maxspeed": "30",
+          "name": "Baanbrug",
+          "zone:traffic": "NL:urban",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
-    "type": "ligger",
+    "type": "ophaalbrug",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,500000,140000,520000 --run nl-6_10 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map edam-brug-2aacf958 --plaats edam --punt 132073,502704",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -96,7 +110,7 @@
         -7.7,
         7.8
       ],
-      "portaalhoogte": 5.2,
+      "portaalhoogte": 4.2,
       "opritafstand": [
         9.8,
         9.8
@@ -109,8 +123,9 @@
       ]
     },
     "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

@@ -9,18 +9,14 @@
     548866.58
   ],
   "xAxis": [
-    0.246396,
-    0.969169
+    0.969169,
+    -0.246396
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 41.222,
+  "groundHeight": 41.007,
   "groundSamplePoints": [
     [
-      -5.7,
-      0
-    ],
-    [
-      5.7,
+      9.3,
       0
     ]
   ],
@@ -34,52 +30,33 @@
         548866.58
       ],
       "axis": [
-        0.246396,
-        0.969169
+        0.969169,
+        -0.246396
       ],
-      "halfLength": 0.85,
-      "halfWidth": 3.8,
-      "height": 40.561,
+      "halfLength": 1.65,
+      "halfWidth": 2.2,
+      "height": 40.007,
       "gradient": [
         0,
         0
       ],
-      "minLift": -1.54,
+      "minLift": -2.09,
       "maxLift": -0.01
     },
     {
       "centre": [
-        174144.87,
-        548862.03
+        174152.42,
+        548864.96
       ],
       "axis": [
-        -0.246396,
-        -0.969169
+        0.969169,
+        -0.246396
       ],
-      "halfLength": 3,
-      "halfWidth": 4.95,
-      "height": 41.541,
+      "halfLength": 3.3,
+      "halfWidth": 2.55,
+      "height": 41.157,
       "gradient": [
-        -0.10642,
-        0
-      ],
-      "minLift": 0.05,
-      "maxLift": 4
-    },
-    {
-      "centre": [
-        174147.19,
-        548871.14
-      ],
-      "axis": [
-        0.246396,
-        0.969169
-      ],
-      "halfLength": 3,
-      "halfWidth": 4.95,
-      "height": 41.711,
-      "gradient": [
-        -0.05,
+        -0.04545,
         0
       ],
       "minLift": 0.05,
@@ -104,37 +81,41 @@
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,540000,180000,560000 --run nl-8_12 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map tjerkgaast-brug-457b96a8 --plaats tjerkgaast --punt 174146,548867",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
-      "dekLengte": 3.4,
-      "dekBreedte": 6.6,
-      "brugLengte": 3.4,
-      "water": null,
-      "portaalhoogte": 5.9,
-      "opritafstand": [
-        4,
-        4
+      "dekLengte": 6.6,
+      "dekBreedte": 3.4,
+      "brugLengte": 6.6,
+      "water": [
+        -3.3,
+        3.2
       ],
-      "oprithelling": 6,
+      "portaalhoogte": 3.1,
+      "opritafstand": [
+        12,
+        6
+      ],
+      "oprithelling": 6.6,
       "doorstekend": [
         {
           "gmlId": "G1940.fdebceb89fd54b3291cfa3686fe38d63",
           "klasse": "Terrain",
           "oppervlak": 47.3,
-          "onderDek": 0.17,
-          "bovenDekOnderkant": 0.54,
+          "onderDek": 0.24,
+          "bovenDekOnderkant": 1.09,
           "actie": "verlagen"
         }
       ],
       "opritHoogtes": [
-        41.222,
-        41.561
+        null,
+        41.007
       ]
     },
     "waarschuwingen": [
-      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "oprit - zonder PDOK-maaiveld",
+      "oprit + pas op 6.0 m gemeten",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
       "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
     ],

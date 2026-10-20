@@ -1,5 +1,5 @@
 {
-  "name": "Brug Gietermond",
+  "name": "Gietermond",
   "file": "stadskanaal-brug-gietermond.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -88,20 +88,32 @@
           "type": "pijler"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/6375435",
+        "tags": {
+          "bridge": "movable",
+          "bridge:movable": "swing",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxaxleload": "8",
+          "maxspeed": "50",
+          "maxwidth": "3.25",
+          "name": "Gietermond"
+        }
+      },
       "fis": {
         "id": 56087,
         "naam": "Brug Gietermond",
-        "afstand": 9,
+        "afstand": 5,
         "beweegbaar": true,
         "doorvaarthoogteGesloten": 1.0000000000000004
       },
       "pdokBridgeVlakken": 3
     },
-    "type": "ophaalbrug",
+    "type": "draaibrug",
     "doorvaarthoogte": 1.0000000000000004,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,560000,260000,580000 --run nl-12_13 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map stadskanaal-brug-gietermond --plaats stadskanaal --punt 255069,561812",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

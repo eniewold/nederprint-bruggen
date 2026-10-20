@@ -1,5 +1,5 @@
 {
-  "name": "zuidland-brug-0d748c60",
+  "name": "Trambaanpad",
   "file": "zuidland-brug-0d748c60.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -97,14 +97,28 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/677711982",
+        "tags": {
+          "bridge": "yes",
+          "foot": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "mofa": "designated",
+          "moped": "designated",
+          "name": "Trambaanpad",
+          "oneway": "no",
+          "surface": "paving_stones",
+          "traffic_sign": "NL:G12a"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 60000,420000,80000,440000 --run nl-3_6 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map zuidland-brug-0d748c60 --plaats zuidland --punt 76679,426840",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

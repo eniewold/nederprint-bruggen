@@ -1,5 +1,5 @@
 {
-  "name": "zuidland-brug-64e08b47",
+  "name": "Kerckhoek",
   "file": "zuidland-brug-64e08b47.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -97,14 +97,26 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/25606346",
+        "tags": {
+          "bridge": "yes",
+          "cycleway:both": "no",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Kerckhoek",
+          "surface": "paving_stones",
+          "wikidata": "Q19293894"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 60000,420000,80000,440000 --run nl-3_6 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map zuidland-brug-64e08b47 --plaats zuidland --punt 77457,425867",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

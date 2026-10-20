@@ -13,14 +13,14 @@
     -0.136118
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 50.446,
+  "groundHeight": 51.09,
   "groundSamplePoints": [
     [
-      -43.83,
-      20.65
+      -33.83,
+      0
     ],
     [
-      64.47,
+      34.47,
       0
     ]
   ],
@@ -63,9 +63,9 @@
       ],
       "halfLength": 12,
       "halfWidth": 28.76,
-      "height": 50.943,
+      "height": 51.121,
       "gradient": [
-        -0.04149,
+        -0.00255,
         0
       ],
       "minLift": 0.05,
@@ -82,9 +82,9 @@
       ],
       "halfLength": 12,
       "halfWidth": 28.76,
-      "height": 51.291,
+      "height": 51.151,
       "gradient": [
-        -0.0125,
+        0,
         0
       ],
       "minLift": 0.05,
@@ -203,34 +203,22 @@
       "osm": {
         "id": "way/493664829",
         "tags": {
-          "axle_load": "22.5",
+          "bicycle": "no",
           "bridge": "yes",
-          "description": "Utrecht Centraal - Harmelen Aansl.",
-          "electrified": "contact_line",
-          "frequency": "0",
-          "gauge": "1435",
+          "foot": "no",
+          "highway": "secondary",
+          "lanes": "2",
           "layer": "1",
-          "loading_gauge": "TSI_GC",
-          "maxspeed": "140",
-          "name": "Goudse lijn",
-          "operator": "ProRail",
-          "railway": "rail",
-          "railway:atb": "yes",
-          "railway:maximum_current": "4000",
-          "railway:track_class": "D4",
-          "railway:traffic_mode": "mixed",
-          "ref": "100",
-          "ref:ProRailID": "2888643.0",
-          "ref:ProRailSpoortak": "100_2021BV_3.0",
-          "source": "ProRail WMS: Geleidingssysteem 003",
-          "source:date": "13-05-2017",
-          "source:name": "http://www.commissiemer.nl/docs/mer/p24/p2426/2426-008vervolgwerkzaamheden.pdf",
-          "usage": "main",
-          "voltage": "1500",
-          "wikidata": "Q803373",
-          "wikipedia": "nl:Spoorlijn Utrecht - Rotterdam",
+          "lit": "yes",
+          "maxspeed": "50",
+          "name": "Vleutensebaan",
+          "oneway": "yes",
+          "surface": "asphalt",
+          "turn:lanes": "left|through",
           "bridge:structure": "beam",
-          "man_made": "bridge"
+          "man_made": "bridge",
+          "source": "ProRail WMS: Geleidingssysteem 003",
+          "source:date": "13-05-2017"
         }
       },
       "fis": null,
@@ -242,7 +230,7 @@
       "naam": "Vleutensebaan",
       "straal": 40
     },
-    "opdracht": "node scripts/bridges/genereer.mjs --uit C:/Users/edwar/AppData/Local/Temp/claude/C--Users-edwar-source-Repos-nederprint/3bd9e161-d515-4f1b-bfbf-c9cc2320f835/scratchpad/rail-batch5 --map brug-4daaed68 --plaats utrecht --punt 132631.29,456824.26 --naam Vleutensebaan --straal 40",
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 126435,448710,141834,461610 --run utrecht-2026-10-20 --overschrijf 1 --parallel 5",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -255,20 +243,20 @@
       ],
       "portaalhoogte": 48.2,
       "opritafstand": [
-        10,
-        30
+        0,
+        0
       ],
+      "spoorhoogteBron": "prorail-pvs",
       "oprithelling": 24,
       "doorstekend": [],
       "opritHoogtes": [
-        50.446,
-        51.141
+        51.09,
+        51.151
       ]
     },
     "waarschuwingen": [
-      "geen FIS-brug binnen 35 m",
-      "oprit + pas op 30 m langs het spoor gemeten (PDOK-spoorterrein bij de brug lager)"
+      "geen FIS-brug binnen 35 m"
     ],
-    "gegenereerd": "2026-10-17"
+    "gegenereerd": "2026-10-20"
   }
 }

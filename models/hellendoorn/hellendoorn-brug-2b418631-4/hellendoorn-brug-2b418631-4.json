@@ -1,5 +1,5 @@
 {
-  "name": "hellendoorn-brug-2b418631-4",
+  "name": "Zuidelijke Kanaaldijk",
   "file": "hellendoorn-brug-2b418631-4.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -13,7 +13,7 @@
     0.380133
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 49.711,
+  "groundHeight": 49.701,
   "groundSamplePoints": [
     [
       -24.89,
@@ -39,9 +39,9 @@
       ],
       "halfLength": 11.32,
       "halfWidth": 3.52,
-      "height": 49.881,
+      "height": 49.876,
       "gradient": [
-        -0.015,
+        -0.01544,
         0
       ],
       "minLift": 0.05,
@@ -78,14 +78,24 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/6429989",
+        "tags": {
+          "bridge": "yes",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Zuidelijke Kanaaldijk",
+          "source:maxspeed": "NL:zone60"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,480000,240000,500000 --run nl-11_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map hellendoorn-brug-2b418631-4 --plaats hellendoorn --punt 226994,494839",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -104,7 +114,7 @@
       "oprithelling": 22.6,
       "doorstekend": [],
       "opritHoogtes": [
-        49.711,
+        49.701,
         49.75
       ]
     },

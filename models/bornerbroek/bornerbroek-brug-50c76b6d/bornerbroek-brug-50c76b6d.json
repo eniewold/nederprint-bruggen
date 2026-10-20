@@ -1,5 +1,5 @@
 {
-  "name": "bornerbroek-brug-50c76b6d",
+  "name": "Keursweg",
   "file": "bornerbroek-brug-50c76b6d.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -13,7 +13,7 @@
     0.321336
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 53.129,
+  "groundHeight": 53.128,
   "groundSamplePoints": [
     [
       -22.72,
@@ -62,7 +62,7 @@
       "halfWidth": 6.38,
       "height": 53.536,
       "gradient": [
-        -0.03944,
+        -0.03951,
         0
       ],
       "minLift": 0.05,
@@ -88,14 +88,23 @@
           "type": "landhoofd"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/56034237",
+        "tags": {
+          "bridge": "yes",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Keursweg"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 3
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,480000,240000,500000 --run nl-11_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map bornerbroek-brug-50c76b6d --plaats bornerbroek --punt 238150,481341",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -115,7 +124,7 @@
       "doorstekend": [],
       "opritHoogtes": [
         53.644,
-        53.129
+        53.128
       ]
     },
     "waarschuwingen": [

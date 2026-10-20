@@ -1,5 +1,5 @@
 {
-  "name": "helmond-brug-d3166a34",
+  "name": "Burgemeester Krollaan",
   "file": "helmond-brug-d3166a34.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -97,14 +97,33 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/872792974",
+        "tags": {
+          "bridge": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "lit": "yes",
+          "mofa": "yes",
+          "moped": "no",
+          "name": "Burgemeester Krollaan",
+          "oneway": "no",
+          "source:name": "Stickers op lantaarnpalen (van Gemeente Helmond)",
+          "surface": "wood",
+          "surface:colour": "red",
+          "traffic_sign": "NL:G11",
+          "zone:traffic": "NL:urban",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,380000,180000,400000 --run nl-8_4 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map helmond-brug-d3166a34 --plaats helmond --punt 170543,386025",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

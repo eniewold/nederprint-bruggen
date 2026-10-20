@@ -43,7 +43,7 @@
       ],
       "halfLength": 9.96,
       "halfWidth": 6.55,
-      "height": 42.873,
+      "height": 42.86,
       "gradient": [
         -0.01507,
         0
@@ -62,9 +62,9 @@
       ],
       "halfLength": 9.96,
       "halfWidth": 6.55,
-      "height": 42.743,
+      "height": 42.737,
       "gradient": [
-        -0.02806,
+        -0.02745,
         0
       ],
       "minLift": 0.05,
@@ -98,20 +98,31 @@
           "type": "landhoofd"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/843838741",
+        "tags": {
+          "bridge": "movable",
+          "bridge:movable": "bascule",
+          "highway": "residential",
+          "layer": "1",
+          "maxspeed": "50",
+          "name": "Freebrug",
+          "man_made": "bridge"
+        }
+      },
       "fis": {
         "id": 12015,
         "naam": "Freebrug",
-        "afstand": 2,
+        "afstand": 1,
         "beweegbaar": true,
         "doorvaarthoogteGesloten": 1
       },
       "pdokBridgeVlakken": 5
     },
-    "type": "ophaalbrug",
+    "type": "basculebrug",
     "doorvaarthoogte": 1,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 260000,560000,280000,580000 --run nl-13_13 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map oude-pekela-freebrug --plaats oude-pekela --punt 264539,570518",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -130,7 +141,7 @@
       "oprithelling": 19.9,
       "doorstekend": [],
       "opritHoogtes": [
-        42.723,
+        42.71,
         42.464
       ]
     },

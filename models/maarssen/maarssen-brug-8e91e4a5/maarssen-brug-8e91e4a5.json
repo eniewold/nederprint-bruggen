@@ -1,5 +1,5 @@
 {
-  "name": "maarssen-brug-8e91e4a5",
+  "name": "Middenweg",
   "file": "maarssen-brug-8e91e4a5.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -39,7 +39,7 @@
       ],
       "halfLength": 4.25,
       "halfWidth": 2.51,
-      "height": 41.541,
+      "height": 41.531,
       "gradient": [
         -0.03527,
         0
@@ -58,9 +58,9 @@
       ],
       "halfLength": 4.25,
       "halfWidth": 2.51,
-      "height": 41.221,
+      "height": 41.216,
       "gradient": [
-        -0.11067,
+        -0.1095,
         0
       ],
       "minLift": 0.05,
@@ -78,14 +78,24 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/73673519",
+        "tags": {
+          "bridge": "yes",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Middenweg",
+          "oneway": "no"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,460000,140000,480000 --run nl-6_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map maarssen-brug-8e91e4a5 --plaats maarssen --punt 132109,463262",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -104,13 +114,13 @@
       "oprithelling": 8.5,
       "doorstekend": [],
       "opritHoogtes": [
-        41.391,
+        41.381,
         40.75
       ]
     },
     "waarschuwingen": [
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

@@ -9,18 +9,14 @@
     430531.98
   ],
   "xAxis": [
-    -0.786405,
-    0.617711
+    0.617711,
+    0.786405
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 44.878,
+  "groundHeight": 46.997,
   "groundSamplePoints": [
     [
-      -4.85,
-      0
-    ],
-    [
-      4.85,
+      -10.99,
       0
     ]
   ],
@@ -30,56 +26,18 @@
   "terrainCorrections": [
     {
       "centre": [
-        103453.76,
-        430531.98
+        103447.59,
+        430524.13
       ],
       "axis": [
-        -0.786405,
-        0.617711
+        -0.617711,
+        -0.786405
       ],
-      "halfLength": 0.43,
-      "halfWidth": 5.49,
-      "height": 43.935,
+      "halfLength": 4.99,
+      "halfWidth": 1.28,
+      "height": 47.147,
       "gradient": [
-        0,
-        0
-      ],
-      "minLift": -1.86,
-      "maxLift": -0.01
-    },
-    {
-      "centre": [
-        103456.79,
-        430529.6
-      ],
-      "axis": [
-        0.786405,
-        -0.617711
-      ],
-      "halfLength": 3,
-      "halfWidth": 6.99,
-      "height": 45.057,
-      "gradient": [
-        -0.05951,
-        0
-      ],
-      "minLift": 0.05,
-      "maxLift": 4
-    },
-    {
-      "centre": [
-        103450.73,
-        430534.36
-      ],
-      "axis": [
-        -0.786405,
-        0.617711
-      ],
-      "halfLength": 3,
-      "halfWidth": 6.99,
-      "height": 45.085,
-      "gradient": [
-        -0.05,
+        -0.03003,
         0
       ],
       "minLift": 0.05,
@@ -104,40 +62,30 @@
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,420000,120000,440000 --run nl-5_6 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map ridderkerk-brug-53ba0120 --plaats ridderkerk --punt 103454,430532",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
-      "dekLengte": 1.7,
-      "dekBreedte": 10,
-      "brugLengte": 1.7,
+      "dekLengte": 10,
+      "dekBreedte": 1.7,
+      "brugLengte": 10,
       "water": null,
-      "portaalhoogte": 9,
+      "portaalhoogte": 2.5,
       "opritafstand": [
-        4,
-        4
+        6,
+        18
       ],
-      "oprithelling": 6,
-      "doorstekend": [
-        {
-          "gmlId": "G0489.4513aef4154f4b238259989d2281736d",
-          "klasse": "Terrain",
-          "oppervlak": 819.8,
-          "onderDek": 0.02,
-          "bovenDekOnderkant": 0.86,
-          "actie": "verlagen"
-        }
-      ],
+      "oprithelling": 10,
+      "doorstekend": [],
       "opritHoogtes": [
-        44.878,
-        44.935
+        46.997,
+        null
       ]
     },
     "waarschuwingen": [
-      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
-      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
-      "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
+      "oprit + zonder PDOK-maaiveld",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

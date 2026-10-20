@@ -1,5 +1,5 @@
 {
-  "name": "loosdrecht-brug-ca689ca8",
+  "name": "Nieuw-Loosdrechtsedijk",
   "file": "loosdrecht-brug-ca689ca8.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -41,7 +41,7 @@
       "halfWidth": 3.06,
       "height": 43.033,
       "gradient": [
-        -0.13234,
+        -0.13221,
         0
       ],
       "minLift": 0.05,
@@ -58,7 +58,7 @@
       ],
       "halfLength": 3,
       "halfWidth": 3.06,
-      "height": 43.28,
+      "height": 43.279,
       "gradient": [
         -0.05,
         0
@@ -78,14 +78,23 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1058572877",
+        "tags": {
+          "access": "private",
+          "bridge": "yes",
+          "highway": "residential",
+          "layer": "1",
+          "name": "Nieuw-Loosdrechtsedijk"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,460000,140000,480000 --run nl-6_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map loosdrecht-brug-ca689ca8 --plaats loosdrecht --punt 135702,467184",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -105,12 +114,12 @@
       "doorstekend": [],
       "opritHoogtes": [
         42.636,
-        43.13
+        43.129
       ]
     },
     "waarschuwingen": [
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "name": "noordhorn-brug-bb7ea178",
+  "name": "Bert Swartbrug",
   "file": "noordhorn-brug-bb7ea178.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -9,8 +9,8 @@
     585638.14
   ],
   "xAxis": [
-    0.90478,
-    -0.425879
+    0.904459,
+    -0.426561
   ],
   "groundOffsetMetres": 0,
   "groundHeight": 50.551,
@@ -25,21 +25,20 @@
     ]
   ],
   "replacesTerrain": [
-    "G0056.b5776063309a4faba48d01eaa6e9c5ef",
     "L0004.bb7ea17867104f3784278b53d9f226c0"
   ],
   "terrainCorrections": [
     {
       "centre": [
-        221902.62,
-        585680.81
+        221902.66,
+        585680.88
       ],
       "axis": [
-        -0.90478,
-        0.425879
+        -0.904459,
+        0.426561
       ],
       "halfLength": 12,
-      "halfWidth": 6.41,
+      "halfWidth": 6.43,
       "height": 50.56,
       "gradient": [
         -0.00074,
@@ -50,15 +49,15 @@
     },
     {
       "centre": [
-        222083.97,
-        585595.46
+        222083.94,
+        585595.39
       ],
       "axis": [
-        0.90478,
-        -0.425879
+        0.904459,
+        -0.426561
       ],
       "halfLength": 12,
-      "halfWidth": 6.41,
+      "halfWidth": 6.43,
       "height": 50.569,
       "gradient": [
         0,
@@ -75,33 +74,50 @@
     "bron": {
       "bgt": [
         {
-          "id": "G0056.b5776063309a4faba48d01eaa6e9c5ef",
-          "type": "pijler"
-        },
-        {
           "id": "L0004.bb7ea17867104f3784278b53d9f226c0",
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/463938182",
+        "tags": {
+          "bridge": "viaduct",
+          "description": "Leeuwarden - Groningen",
+          "electrified": "no",
+          "gauge": "1435",
+          "layer": "1",
+          "maxspeed": "120",
+          "name": "Bert Swartbrug",
+          "operator": "ProRail",
+          "passenger_lines": "1",
+          "railway": "rail",
+          "railway:atb": "yes",
+          "railway:track_class": "D2",
+          "railway:traffic_mode": "passenger",
+          "ref": "002",
+          "ref:ProRailSpoortak": "002_373V_63.7",
+          "start_date": "2017-10-01",
+          "usage": "branch"
+        }
+      },
       "fis": null,
-      "pdokBridgeVlakken": 2
+      "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,580000,240000,600000 --run nl-11_14 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map noordhorn-brug-bb7ea178 --plaats noordhorn --punt 221993,585638",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
       "dekLengte": 176.4,
-      "dekBreedte": 8.8,
+      "dekBreedte": 8.9,
       "brugLengte": 176.4,
       "water": [
         -48.7,
         49.8
       ],
-      "portaalhoogte": 7.9,
+      "portaalhoogte": 8,
       "opritafstand": [
         0,
         0
@@ -115,7 +131,8 @@
       ]
     },
     "waarschuwingen": [
-      "geen FIS-brug binnen 35 m"
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
     "gegenereerd": "2026-10-20"
   }

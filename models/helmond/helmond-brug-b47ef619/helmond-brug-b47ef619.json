@@ -1,5 +1,5 @@
 {
-  "name": "helmond-brug-b47ef619",
+  "name": "Doctor Dreeslaan",
   "file": "helmond-brug-b47ef619.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -108,14 +108,35 @@
           "type": "landhoofd"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/909447798",
+        "tags": {
+          "bridge": "yes",
+          "foot": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "lit": "yes",
+          "mofa": "yes",
+          "moped": "no",
+          "name": "Doctor Dreeslaan",
+          "official_name": "Dr. Dreeslaan",
+          "oneway": "no",
+          "segregated": "no",
+          "source:name": "Stickers op lantaarnpalen (van Gemeente Helmond)",
+          "surface": "asphalt",
+          "surface:colour": "red",
+          "traffic_sign": "NL:G11",
+          "zone:traffic": "NL:urban",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 3
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,380000,180000,400000 --run nl-8_4 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map helmond-brug-b47ef619 --plaats helmond --punt 171978,386610",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

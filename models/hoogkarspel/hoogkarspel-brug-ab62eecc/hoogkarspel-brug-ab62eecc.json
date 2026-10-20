@@ -1,5 +1,5 @@
 {
-  "name": "hoogkarspel-brug-ab62eecc",
+  "name": "Kranenburglaan",
   "file": "hoogkarspel-brug-ab62eecc.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -88,14 +88,25 @@
           "type": "landhoofd"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/255557071",
+        "tags": {
+          "bridge": "yes",
+          "highway": "residential",
+          "layer": "1",
+          "maxaxleload": "2.5",
+          "maxspeed": "30",
+          "name": "Kranenburglaan",
+          "source:maxaxleload": "sign"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 3
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,520000,160000,540000 --run nl-7_11 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map hoogkarspel-brug-ab62eecc --plaats hoogkarspel --punt 140839,522906",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -119,6 +130,6 @@
       ]
     },
     "waarschuwingen": [],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "name": "almelo-brug-8ae1d23c",
+  "name": "Het Brinkhuis",
   "file": "almelo-brug-8ae1d23c.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -60,7 +60,7 @@
       "halfWidth": 2.98,
       "height": 54.899,
       "gradient": [
-        -0.04573,
+        -0.04571,
         0
       ],
       "minLift": 0.05,
@@ -78,14 +78,25 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/286517649",
+        "tags": {
+          "bridge": "yes",
+          "highway": "living_street",
+          "layer": "2",
+          "maxspeed": "15",
+          "maxweight:signed": "no",
+          "name": "Het Brinkhuis",
+          "surface": "asphalt"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,480000,260000,500000 --run nl-12_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map almelo-brug-8ae1d23c --plaats almelo --punt 243297,485313",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

@@ -1,5 +1,5 @@
 {
-  "name": "helmond-brug-8a7de93f",
+  "name": "Henri Dunant",
   "file": "helmond-brug-8a7de93f.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -9,8 +9,8 @@
     387314.97
   ],
   "xAxis": [
-    0.96653,
-    -0.256554
+    -0.966541,
+    0.256511
   ],
   "groundOffsetMetres": 0,
   "groundHeight": 62.893,
@@ -32,18 +32,18 @@
   "terrainCorrections": [
     {
       "centre": [
-        175251.65,
-        387323.06
+        175312.6,
+        387306.88
       ],
       "axis": [
-        -0.96653,
-        0.256554
+        0.966541,
+        -0.256511
       ],
       "halfLength": 12,
       "halfWidth": 7.55,
-      "height": 62.897,
+      "height": 62.901,
       "gradient": [
-        -0.00034,
+        0,
         0
       ],
       "minLift": 0.05,
@@ -51,18 +51,18 @@
     },
     {
       "centre": [
-        175312.59,
-        387306.88
+        175251.65,
+        387323.05
       ],
       "axis": [
-        0.96653,
-        -0.256554
+        -0.966541,
+        0.256511
       ],
       "halfLength": 12,
       "halfWidth": 7.55,
-      "height": 62.901,
+      "height": 62.897,
       "gradient": [
-        0,
+        -0.00034,
         0
       ],
       "minLift": 0.05,
@@ -88,14 +88,46 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/546866751",
+        "tags": {
+          "axle_load": "22.5",
+          "bridge": "yes",
+          "description": "Blerick - Eindhoven",
+          "electrified": "contact_line",
+          "frequency": "0",
+          "gauge": "1435",
+          "layer": "1",
+          "loading_gauge": "TSI_GB",
+          "maxspeed": "130",
+          "operator": "ProRail",
+          "passenger_lines": "2",
+          "railway": "rail",
+          "railway:atb": "yes",
+          "railway:maximum_current": "4000",
+          "railway:track_class": "D4",
+          "railway:traffic_mode": "mixed",
+          "ref": "055",
+          "ref:ProRailID": "2888897.0",
+          "ref:ProRailSpoortak": "055_413BV_29.6",
+          "source": "ProRail",
+          "source:date": "2014-01-03",
+          "usage": "main",
+          "voltage": "1500",
+          "bridge:structure": "beam",
+          "man_made": "bridge",
+          "name": "Henri Dunant",
+          "name:etymology:wikidata": "Q12091",
+          "wikidata": "Q127414866"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 3
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,380000,180000,400000 --run nl-8_4 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map helmond-brug-8a7de93f --plaats helmond --punt 175282,387315",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -112,8 +144,8 @@
       "oprithelling": 24,
       "doorstekend": [],
       "opritHoogtes": [
-        62.893,
-        62.901
+        62.901,
+        62.893
       ]
     },
     "waarschuwingen": [

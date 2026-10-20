@@ -1,5 +1,5 @@
 {
-  "name": "Beerzerbrug",
+  "name": "Stenendijk",
   "file": "beerzerveld-beerzerbrug.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -93,11 +93,25 @@
           "type": "pijler"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/6425637",
+        "tags": {
+          "bridge": "movable",
+          "bridge:movable": "drawbridge",
+          "bridge:name": "De Neie Scholle",
+          "highway": "unclassified",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "50",
+          "name": "Stenendijk",
+          "smoothness": "good",
+          "surface": "asphalt"
+        }
+      },
       "fis": {
         "id": 10353,
         "naam": "Beerzerbrug",
-        "afstand": 2,
+        "afstand": 1,
         "beweegbaar": true,
         "doorvaarthoogteGesloten": 0.3
       },
@@ -106,7 +120,7 @@
     "type": "ophaalbrug",
     "doorvaarthoogte": 0.3,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,500000,240000,520000 --run nl-11_10 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map beerzerveld-beerzerbrug --plaats beerzerveld --punt 235684,501141",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

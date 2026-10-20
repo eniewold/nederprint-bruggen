@@ -1,5 +1,5 @@
 {
-  "name": "boekel-brug-48c1fbab",
+  "name": "Perrekerpad",
   "file": "boekel-brug-48c1fbab.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -39,12 +39,12 @@
       ],
       "halfLength": 1.4,
       "halfWidth": 1.93,
-      "height": 61.153,
+      "height": 61.148,
       "gradient": [
         0,
         0
       ],
-      "minLift": -1.4,
+      "minLift": -1.41,
       "maxLift": -0.01
     },
     {
@@ -58,9 +58,9 @@
       ],
       "halfLength": 3,
       "halfWidth": 2.14,
-      "height": 62.264,
+      "height": 62.261,
       "gradient": [
-        -0.06296,
+        -0.06211,
         0
       ],
       "minLift": 0.05,
@@ -77,7 +77,7 @@
       ],
       "halfLength": 3,
       "halfWidth": 2.14,
-      "height": 62.303,
+      "height": 62.298,
       "gradient": [
         -0.05,
         0
@@ -97,14 +97,23 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/382524145",
+        "tags": {
+          "bridge": "yes",
+          "highway": "path",
+          "layer": "1",
+          "name": "Perrekerpad",
+          "surface": "concrete"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,400000,180000,420000 --run nl-8_5 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map boekel-brug-48c1fbab --plaats boekel --punt 175774,401034",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -125,15 +134,15 @@
         {
           "gmlId": "W0654.1995d35b701647cdbf423e1b96229448",
           "klasse": "Terrain",
-          "oppervlak": 180.8,
+          "oppervlak": 90.4,
           "onderDek": 0.01,
-          "bovenDekOnderkant": 0.4,
+          "bovenDekOnderkant": 0.41,
           "actie": "verlagen"
         },
         {
           "gmlId": "W0654.2d7f380561784accb014b5535ecfc80f",
           "klasse": "Terrain",
-          "oppervlak": 94.8,
+          "oppervlak": 47.4,
           "onderDek": 0.01,
           "bovenDekOnderkant": 0.39,
           "actie": "verlagen"
@@ -141,13 +150,13 @@
       ],
       "opritHoogtes": [
         62.075,
-        62.153
+        62.148
       ]
     },
     "waarschuwingen": [
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
       "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

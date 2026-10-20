@@ -1,5 +1,5 @@
 {
-  "name": "oud-beijerland-brug-a0b53986",
+  "name": "Kwakscheweg",
   "file": "oud-beijerland-brug-a0b53986.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -100,14 +100,29 @@
           "type": "landhoofd"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/74231509",
+        "tags": {
+          "bridge": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "lit": "yes",
+          "moped": "designated",
+          "name": "Kwakscheweg",
+          "name:etymology:wikidata": "Q117149550",
+          "operator": "Gemeente Hoeksche Waard",
+          "source:name:etymology": "Schrijver, P. (2015). Woordenboek van de Brabantse dialecten (pp. 172-173). Uitgeverij Verloren",
+          "traffic_sign": "NL:G12a",
+          "zone:traffic": "NL:rural"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 5
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,420000,100000,440000 --run nl-4_6 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map oud-beijerland-brug-a0b53986 --plaats oud-beijerland --punt 88844,425142",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

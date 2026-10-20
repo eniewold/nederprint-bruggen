@@ -1,5 +1,5 @@
 {
-  "name": "nigtevecht-brug-8abeacd5-12",
+  "name": "Liniebrug",
   "file": "nigtevecht-brug-8abeacd5-12.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -26,19 +26,9 @@
   ],
   "replacesTerrain": [
     "P0026.8abeacd54c5b7500047b286baa5d6199",
-    "P0026.8abeacd54c5b7500047b286baa5d61d9",
-    "P0026.8abeacd54c5b7500047b286baa5d6209",
-    "P0026.8abeacd54c5b7500047b286baa5d6239",
-    "P0026.8abeacd54c5b7500047b286baa5d629e",
-    "P0026.8abeacd54c5b7500047b286baa5d62ce",
-    "P0026.8abeacd54c5b7500047b286baa5d62fe",
-    "P0026.8abeacd54c5b7500047b286baa5d632e",
-    "P0026.8abeacd54c5b7500047b286baa5d635e",
-    "P0026.8abeacd54c5b7500047b286baa5d6385",
     "L0002.7b29d8e00198483587098c4d3cae84db",
     "L0002.8abeacd54c5b7500047b285cfbe92a21",
     "P0026.8abeacd54c5b7500047b286baa5d615b",
-    "P0026.8abeacd54c5b7500047b286baa5d626e",
     "P0026.10913cc6c3774caf8c9482e1b3d9162f",
     "P0026.3204e3910f7444d7a85071e0d327bb85",
     "P0026.432e88e24e9441ac827eb7131f905522",
@@ -126,42 +116,6 @@
           "type": "pijler"
         },
         {
-          "id": "P0026.8abeacd54c5b7500047b286baa5d61d9",
-          "type": "pijler"
-        },
-        {
-          "id": "P0026.8abeacd54c5b7500047b286baa5d6209",
-          "type": "pijler"
-        },
-        {
-          "id": "P0026.8abeacd54c5b7500047b286baa5d6239",
-          "type": "pijler"
-        },
-        {
-          "id": "P0026.8abeacd54c5b7500047b286baa5d629e",
-          "type": "pijler"
-        },
-        {
-          "id": "P0026.8abeacd54c5b7500047b286baa5d62ce",
-          "type": "pijler"
-        },
-        {
-          "id": "P0026.8abeacd54c5b7500047b286baa5d62fe",
-          "type": "pijler"
-        },
-        {
-          "id": "P0026.8abeacd54c5b7500047b286baa5d632e",
-          "type": "pijler"
-        },
-        {
-          "id": "P0026.8abeacd54c5b7500047b286baa5d635e",
-          "type": "pijler"
-        },
-        {
-          "id": "P0026.8abeacd54c5b7500047b286baa5d6385",
-          "type": "pijler"
-        },
-        {
           "id": "L0002.7b29d8e00198483587098c4d3cae84db",
           "type": "landhoofd"
         },
@@ -171,10 +125,6 @@
         },
         {
           "id": "P0026.8abeacd54c5b7500047b286baa5d615b",
-          "type": "pijler"
-        },
-        {
-          "id": "P0026.8abeacd54c5b7500047b286baa5d626e",
           "type": "pijler"
         },
         {
@@ -210,14 +160,36 @@
           "type": "pijler"
         }
       ],
-      "osm": null,
-      "fis": null,
-      "pdokBridgeVlakken": 22
+      "osm": {
+        "id": "way/679214030",
+        "tags": {
+          "bridge": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "lit": "no",
+          "mofa": "yes",
+          "moped": "no",
+          "name": "Liniebrug",
+          "smoothness": "good",
+          "surface": "concrete",
+          "traffic_sign": "NL:G11",
+          "width": "4",
+          "man_made": "bridge"
+        }
+      },
+      "fis": {
+        "id": 23014790,
+        "naam": "Liniebrug",
+        "afstand": 33,
+        "beweegbaar": false,
+        "doorvaarthoogteGesloten": 9.71
+      },
+      "pdokBridgeVlakken": 12
     },
     "type": "ligger",
-    "doorvaarthoogte": null,
+    "doorvaarthoogte": 9.71,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,460000,140000,480000 --run nl-6_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map nigtevecht-brug-8abeacd5-12 --plaats nigtevecht --punt 129852,475693",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -225,7 +197,7 @@
       "dekBreedte": 83.1,
       "brugLengte": 219.6,
       "water": [
-        -109.8,
+        -9.3,
         90.2
       ],
       "portaalhoogte": 74.8,
@@ -254,9 +226,9 @@
         {
           "gmlId": "G0736.d31aea4b760745f1aad07a92808839c9",
           "klasse": "Terrain",
-          "oppervlak": 4713.1,
+          "oppervlak": 2357.9,
           "onderDek": 0.02,
-          "bovenDekOnderkant": 4.18,
+          "bovenDekOnderkant": 4.16,
           "actie": "verlagen"
         },
         {
@@ -466,10 +438,9 @@
       ]
     },
     "waarschuwingen": [
-      "geen FIS-brug binnen 35 m",
       "oprit - pas op 40.0 m gemeten",
       "28 PDOK-vorm(en) door het dek: 4 verborgen, 24 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

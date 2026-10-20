@@ -9,18 +9,14 @@
     444854.06
   ],
   "xAxis": [
-    -0.578898,
-    0.8154
+    0.8154,
+    0.578898
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 47.851,
+  "groundHeight": 48.799,
   "groundSamplePoints": [
     [
-      -5.07,
-      0
-    ],
-    [
-      5.07,
+      9.16,
       0
     ]
   ],
@@ -30,56 +26,18 @@
   "terrainCorrections": [
     {
       "centre": [
-        137712.2,
-        444854.06
+        137718.99,
+        444858.88
       ],
       "axis": [
-        -0.578898,
-        0.8154
+        0.8154,
+        0.578898
       ],
-      "halfLength": 0.53,
-      "halfWidth": 4.66,
-      "height": 46.879,
+      "halfLength": 4.16,
+      "halfWidth": 1.6,
+      "height": 48.949,
       "gradient": [
-        0,
-        0
-      ],
-      "minLift": -2.14,
-      "maxLift": -0.01
-    },
-    {
-      "centre": [
-        137714.55,
-        444850.74
-      ],
-      "axis": [
-        0.578898,
-        -0.8154
-      ],
-      "halfLength": 3,
-      "halfWidth": 6.16,
-      "height": 48.029,
-      "gradient": [
-        -0.05,
-        0
-      ],
-      "minLift": 0.05,
-      "maxLift": 4
-    },
-    {
-      "centre": [
-        137709.84,
-        444857.38
-      ],
-      "axis": [
-        -0.578898,
-        0.8154
-      ],
-      "halfLength": 3,
-      "halfWidth": 6.16,
-      "height": 48.015,
-      "gradient": [
-        -0.05474,
+        -0.03602,
         0
       ],
       "minLift": 0.05,
@@ -104,56 +62,30 @@
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,440000,140000,460000 --run nl-6_7 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map hagestein-brug-d898ce3b --plaats hagestein --punt 137712,444854",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
-      "dekLengte": 2.1,
-      "dekBreedte": 8.3,
-      "brugLengte": 2.1,
+      "dekLengte": 8.3,
+      "dekBreedte": 2.1,
+      "brugLengte": 8.3,
       "water": null,
-      "portaalhoogte": 7.5,
+      "portaalhoogte": 2.5,
       "opritafstand": [
-        4,
-        4
+        15,
+        5
       ],
-      "oprithelling": 6,
-      "doorstekend": [
-        {
-          "gmlId": "G0620.3d962809888844d68c34a36ce6b6f200",
-          "klasse": "Terrain",
-          "oppervlak": 483.3,
-          "onderDek": 0.02,
-          "bovenDekOnderkant": 1.14,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "L0002.08ebc37206614e41aab67ae3f90ade40",
-          "klasse": "Separation",
-          "oppervlak": 18,
-          "onderDek": 0.01,
-          "bovenDekOnderkant": 0.74,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "L0002.2956c427db5e4f2f9066a45de7d2de81",
-          "klasse": "Separation",
-          "oppervlak": 12.1,
-          "onderDek": 0,
-          "bovenDekOnderkant": 0.73,
-          "actie": "verlagen"
-        }
-      ],
+      "oprithelling": 8.3,
+      "doorstekend": [],
       "opritHoogtes": [
-        47.879,
-        47.851
+        null,
+        48.799
       ]
     },
     "waarschuwingen": [
-      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
-      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
-      "3 PDOK-vorm(en) door het dek: 0 verborgen, 3 verlaagd"
+      "oprit - zonder PDOK-maaiveld",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

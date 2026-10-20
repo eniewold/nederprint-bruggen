@@ -1,5 +1,5 @@
 {
-  "name": "Brug in de N247 Monnickendam",
+  "name": "Jaagweg",
   "file": "monnickendam-brug-in-de-n247-monnickendam.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -139,11 +139,33 @@
           "type": "pijler"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1079063059",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "yes",
+          "foot": "use_sidepath",
+          "highway": "primary",
+          "lanes": "2",
+          "lanes:forward": "1",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "80",
+          "mofa": "use_sidepath",
+          "moped": "use_sidepath",
+          "name": "Jaagweg",
+          "operator": "Provincie Noord-Holland",
+          "ref": "N247",
+          "surface": "asphalt",
+          "turn:lanes:backward": "through;right",
+          "zone:traffic": "NL:rural",
+          "man_made": "bridge"
+        }
+      },
       "fis": {
         "id": 57710,
         "naam": "Brug in de N247 Monnickendam",
-        "afstand": 4,
+        "afstand": 5,
         "beweegbaar": false,
         "doorvaarthoogteGesloten": 3.69
       },
@@ -152,7 +174,7 @@
     "type": "ligger",
     "doorvaarthoogte": 3.69,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map monnickendam-brug-in-de-n247-monnickendam --plaats monnickendam --punt 130865,497501",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -235,6 +257,6 @@
     "waarschuwingen": [
       "7 PDOK-vorm(en) door het dek: 2 verborgen, 5 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

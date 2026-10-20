@@ -1,5 +1,5 @@
 {
-  "name": "de-wilp-brug-34e8949f-5",
+  "name": "Oosterweg",
   "file": "de-wilp-brug-34e8949f-5.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,23 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/6462554",
+        "tags": {
+          "bridge": "yes",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Oosterweg"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 200000,560000,220000,580000 --run nl-10_13 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map de-wilp-brug-34e8949f-5 --plaats de-wilp --punt 213645,570599",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

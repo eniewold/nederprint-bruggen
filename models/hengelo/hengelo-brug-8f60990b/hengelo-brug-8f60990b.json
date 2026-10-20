@@ -1,5 +1,5 @@
 {
-  "name": "hengelo-brug-8f60990b",
+  "name": "Loninkvoetpad",
   "file": "hengelo-brug-8f60990b.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -13,7 +13,7 @@
     0.79249
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 62.272,
+  "groundHeight": 62.266,
   "groundSamplePoints": [
     [
       -16.73,
@@ -58,9 +58,9 @@
       ],
       "halfLength": 7.61,
       "halfWidth": 2.95,
-      "height": 62.808,
+      "height": 62.805,
       "gradient": [
-        -0.07053,
+        -0.07093,
         0
       ],
       "minLift": 0.05,
@@ -78,14 +78,31 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/55701442",
+        "tags": {
+          "access": "private",
+          "bicycle": "permissive",
+          "bridge": "yes",
+          "foot": "permissive",
+          "highway": "track",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Loninkvoetpad",
+          "operator": "Twickel",
+          "smoothness": "intermediate",
+          "surface": "concrete",
+          "tracktype": "grade1",
+          "width": "4"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,460000,260000,480000 --run nl-12_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map hengelo-brug-8f60990b --plaats hengelo --punt 246268,470637",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -105,7 +122,7 @@
       "doorstekend": [],
       "opritHoogtes": [
         63.045,
-        62.272
+        62.266
       ]
     },
     "waarschuwingen": [

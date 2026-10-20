@@ -97,20 +97,34 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1093417542",
+        "tags": {
+          "bridge": "movable",
+          "bridge:name": "Mazelaarsbrug",
+          "bridge:wikidata": "Q17341394",
+          "bridge:wikimedia_commons": "Q19312401",
+          "highway": "cycleway",
+          "layer": "1",
+          "name": "Mazelaarsbrug",
+          "wikidata": "Q17341394",
+          "wikimedia_commons": "Category:Korte Geldersekade, Dordrecht",
+          "man_made": "bridge"
+        }
+      },
       "fis": {
         "id": 48305,
         "naam": "Mazelaarsbrug",
-        "afstand": 5,
+        "afstand": 3,
         "beweegbaar": true,
         "doorvaarthoogteGesloten": 1.9200000000000002
       },
       "pdokBridgeVlakken": 1
     },
-    "type": "ophaalbrug",
+    "type": "basculebrug",
     "doorvaarthoogte": 1.9200000000000002,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,420000,120000,440000 --run nl-5_6 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map dordrecht-mazelaarsbrug --plaats dordrecht --punt 104776,425342",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -143,9 +157,10 @@
       ]
     },
     "waarschuwingen": [
+      "bridge=movable zonder mechanisme: basculebrug is een gok",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
       "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

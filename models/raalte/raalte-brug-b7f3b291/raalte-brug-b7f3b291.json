@@ -1,5 +1,5 @@
 {
-  "name": "raalte-brug-b7f3b291",
+  "name": "Raarhoeksweg",
   "file": "raalte-brug-b7f3b291.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -39,7 +39,7 @@
       ],
       "halfLength": 3.34,
       "halfWidth": 3.12,
-      "height": 46.929,
+      "height": 46.926,
       "gradient": [
         0,
         0
@@ -58,9 +58,9 @@
       ],
       "halfLength": 6.69,
       "halfWidth": 3.93,
-      "height": 48.058,
+      "height": 48.056,
       "gradient": [
-        -0.0256,
+        -0.02539,
         0
       ],
       "minLift": 0.05,
@@ -77,7 +77,7 @@
       ],
       "halfLength": 6.69,
       "halfWidth": 3.93,
-      "height": 48.079,
+      "height": 48.076,
       "gradient": [
         -0.02243,
         0
@@ -97,14 +97,27 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/399637295",
+        "tags": {
+          "bridge": "yes",
+          "highway": "unclassified",
+          "lanes": "1",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Raarhoeksweg",
+          "sidewalk": "no",
+          "smoothness": "intermediate",
+          "surface": "paving_stones"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 200000,480000,220000,500000 --run nl-10_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map raalte-brug-b7f3b291 --plaats raalte --punt 216780,493306",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -125,7 +138,7 @@
         {
           "gmlId": "W0151.b43942ee112645cbbcf94453f5511358",
           "klasse": "Terrain",
-          "oppervlak": 222.1,
+          "oppervlak": 110.6,
           "onderDek": 0.03,
           "bovenDekOnderkant": 0.72,
           "actie": "verlagen"
@@ -133,7 +146,7 @@
         {
           "gmlId": "W0151.8cc748d2747643d1b4bf61b05961fb82",
           "klasse": "Terrain",
-          "oppervlak": 120.8,
+          "oppervlak": 60.5,
           "onderDek": 0.03,
           "bovenDekOnderkant": 0.68,
           "actie": "verlagen"
@@ -141,13 +154,13 @@
       ],
       "opritHoogtes": [
         47.887,
-        47.929
+        47.926
       ]
     },
     "waarschuwingen": [
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
       "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

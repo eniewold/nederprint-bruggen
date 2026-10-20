@@ -75,14 +75,22 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1314241855",
+        "tags": {
+          "bridge": "yes",
+          "highway": "track",
+          "layer": "1",
+          "tracktype": "grade1"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,460000,140000,480000 --run nl-6_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map weesp-brug-874a2d18 --plaats weesp --punt 130521,478076",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -100,14 +108,6 @@
       ],
       "oprithelling": 6,
       "doorstekend": [
-        {
-          "gmlId": "L0001.281299a0991447b08e062994aea7567b",
-          "klasse": "Forest",
-          "oppervlak": 1585.9,
-          "onderDek": 0,
-          "bovenDekOnderkant": 1.18,
-          "actie": "verlagen"
-        },
         {
           "gmlId": "G0457.4d63f53afc674719b76cac684056ca4d",
           "klasse": "Terrain",
@@ -131,6 +131,14 @@
           "onderDek": 0.72,
           "bovenDekOnderkant": 1.16,
           "actie": "verbergen"
+        },
+        {
+          "gmlId": "L0001.281299a0991447b08e062994aea7567b",
+          "klasse": "Forest",
+          "oppervlak": 792.9,
+          "onderDek": 0,
+          "bovenDekOnderkant": 1.16,
+          "actie": "verlagen"
         }
       ],
       "opritHoogtes": [
@@ -144,6 +152,6 @@
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
       "4 PDOK-vorm(en) door het dek: 1 verborgen, 3 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "name": "amsterdam-brug-0ee5bfdc",
+  "name": "Peter Martensstraat",
   "file": "amsterdam-brug-0ee5bfdc.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,27 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1274409664",
+        "tags": {
+          "bridge": "yes",
+          "bridge:ref": "2033",
+          "cycleway": "track",
+          "highway": "residential",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Peter Martensstraat",
+          "surface": "asphalt",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map amsterdam-brug-0ee5bfdc --plaats amsterdam --punt 129287,484361",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -111,6 +124,6 @@
     "waarschuwingen": [
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

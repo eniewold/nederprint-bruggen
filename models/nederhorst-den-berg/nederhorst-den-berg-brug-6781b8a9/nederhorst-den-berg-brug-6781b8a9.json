@@ -1,5 +1,5 @@
 {
-  "name": "nederhorst-den-berg-brug-6781b8a9",
+  "name": "Radioweg",
   "file": "nederhorst-den-berg-brug-6781b8a9.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -13,7 +13,7 @@
     -0.085542
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 40.999,
+  "groundHeight": 40.995,
   "groundSamplePoints": [
     [
       -7.58,
@@ -58,9 +58,9 @@
       ],
       "halfLength": 3.44,
       "halfWidth": 3.98,
-      "height": 41.236,
+      "height": 41.233,
       "gradient": [
-        -0.06868,
+        -0.06931,
         0
       ],
       "minLift": 0.05,
@@ -97,14 +97,25 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/737276504",
+        "tags": {
+          "bridge": "yes",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxspeed": "50",
+          "motor_vehicle": "destination",
+          "name": "Radioweg",
+          "surface": "asphalt"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,460000,140000,480000 --run nl-6_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map nederhorst-den-berg-brug-6781b8a9 --plaats nederhorst-den-berg --punt 133186,472578",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -125,14 +136,14 @@
         {
           "gmlId": "G1696.deeefb2058084173b738565d526ed285",
           "klasse": "Forest",
-          "oppervlak": 516.5,
+          "oppervlak": 258.2,
           "onderDek": 0.01,
           "bovenDekOnderkant": 0.39,
           "actie": "verlagen"
         }
       ],
       "opritHoogtes": [
-        40.999,
+        40.995,
         41.172
       ]
     },
@@ -140,6 +151,6 @@
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
       "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

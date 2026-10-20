@@ -1,5 +1,5 @@
 {
-  "name": "erp-brug-0e6979c7",
+  "name": "Veerstraat",
   "file": "erp-brug-0e6979c7.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,25 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/7149255",
+        "tags": {
+          "bridge": "yes",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Veerstraat",
+          "surface": "paving_stones",
+          "wikidata": "Q19628105"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,380000,180000,400000 --run nl-8_4 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map erp-brug-0e6979c7 --plaats erp --punt 170774,396231",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

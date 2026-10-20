@@ -1,5 +1,5 @@
 {
-  "name": "Pekelderbrug",
+  "name": "H.J. Kniggestraat",
   "file": "stadskanaal-pekelderbrug.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -39,9 +39,9 @@
       ],
       "halfLength": 3.99,
       "halfWidth": 7.08,
-      "height": 46.333,
+      "height": 46.332,
       "gradient": [
-        -0.0492,
+        -0.04891,
         0
       ],
       "minLift": 0.05,
@@ -58,7 +58,7 @@
       ],
       "halfLength": 3.99,
       "halfWidth": 7.08,
-      "height": 46.379,
+      "height": 46.377,
       "gradient": [
         -0.03758,
         0
@@ -78,7 +78,21 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/6375460",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "movable",
+          "bridge:movable": "bascule",
+          "foot": "use_sidepath",
+          "highway": "secondary",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "50",
+          "mofa": "use_sidepath",
+          "name": "H.J. Kniggestraat"
+        }
+      },
       "fis": {
         "id": 52512,
         "naam": "Pekelderbrug",
@@ -88,10 +102,10 @@
       },
       "pdokBridgeVlakken": 1
     },
-    "type": "ophaalbrug",
+    "type": "basculebrug",
     "doorvaarthoogte": -2.2,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,560000,260000,580000 --run nl-12_13 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map stadskanaal-pekelderbrug --plaats stadskanaal --punt 256853,560033",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -111,7 +125,7 @@
       "doorstekend": [],
       "opritHoogtes": [
         46.137,
-        46.229
+        46.227
       ]
     },
     "waarschuwingen": [

@@ -1,5 +1,5 @@
 {
-  "name": "amsterdam-brug-58d31064",
+  "name": "Bert Haanstrakade",
   "file": "amsterdam-brug-58d31064.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,37 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/911834543",
+        "tags": {
+          "bridge": "movable",
+          "bridge:ref": "2023",
+          "foot": "yes",
+          "highway": "cycleway",
+          "lanes": "2",
+          "layer": "1",
+          "lit": "yes",
+          "mofa": "no",
+          "moped": "no",
+          "name": "Bert Haanstrakade",
+          "oneway": "no",
+          "sidewalk": "right",
+          "smoothness": "good",
+          "surface": "asphalt",
+          "surface:colour": "grey",
+          "traffic_sign": "NL:G11",
+          "width": "3.25",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
-    "type": "ligger",
+    "type": "basculebrug",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map amsterdam-brug-58d31064 --plaats amsterdam --punt 129026,485257",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -110,8 +133,10 @@
     },
     "waarschuwingen": [
       "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "bridge=movable zonder mechanisme: basculebrug is een gok",
+      "geen FIS-brug binnen 35 m",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

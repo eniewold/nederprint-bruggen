@@ -1,5 +1,5 @@
 {
-  "name": "helmond-brug-3e3a0929",
+  "name": "Nelson Mandela",
   "file": "helmond-brug-3e3a0929.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -97,14 +97,33 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/873013052",
+        "tags": {
+          "bridge": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "lit": "yes",
+          "moped": "no",
+          "name": "Nelson Mandela",
+          "oneway": "no",
+          "sidewalk": "left",
+          "smoothness": "excellent",
+          "surface": "asphalt",
+          "zone:traffic": "NL:urban",
+          "bridge:structure": "beam",
+          "man_made": "bridge",
+          "name:etymology:wikidata": "Q8023",
+          "wikidata": "Q127414865"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,380000,180000,400000 --run nl-8_4 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map helmond-brug-3e3a0929 --plaats helmond --punt 174023,387427",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

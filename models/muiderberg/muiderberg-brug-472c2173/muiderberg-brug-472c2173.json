@@ -1,5 +1,5 @@
 {
-  "name": "muiderberg-brug-472c2173",
+  "name": "Flevolijn",
   "file": "muiderberg-brug-472c2173.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -9,8 +9,8 @@
     481050.71
   ],
   "xAxis": [
-    0.995332,
-    0.096506
+    -0.995484,
+    -0.09493
   ],
   "groundOffsetMetres": 0,
   "groundHeight": 50.03,
@@ -20,7 +20,7 @@
       0
     ],
     [
-      94.06,
+      94.07,
       0
     ]
   ],
@@ -28,6 +28,7 @@
     "L0004.13cdc32abd7a4b9e9a73c3a44597e7cb",
     "L0004.3ecfecc995424ab4836a98be22277efe",
     "L0004.47c9f6863b8d4ad9bcba45829267db85",
+    "L0004.5dbbe71c5f7544348cd00886aa8e7c39",
     "L0004.6483c4eef0b549629852b07ffbb48852",
     "L0004.7a965a402b2545fdad6218e6787ca38a",
     "L0004.911e545776f2437c92efb53f7cf162dd",
@@ -37,18 +38,18 @@
   "terrainCorrections": [
     {
       "centre": [
-        135727.45,
-        481040.47
+        135938.62,
+        481060.78
       ],
       "axis": [
-        -0.995332,
-        -0.096506
+        0.995484,
+        0.09493
       ],
       "halfLength": 12,
-      "halfWidth": 8.78,
-      "height": 50.412,
+      "halfWidth": 8.75,
+      "height": 50.221,
       "gradient": [
-        0,
+        -0.01594,
         0
       ],
       "minLift": 0.05,
@@ -56,18 +57,18 @@
     },
     {
       "centre": [
-        135938.59,
-        481060.95
+        135727.44,
+        481040.64
       ],
       "axis": [
-        0.995332,
-        0.096506
+        -0.995484,
+        -0.09493
       ],
       "halfLength": 12,
-      "halfWidth": 8.78,
-      "height": 50.221,
+      "halfWidth": 8.75,
+      "height": 50.412,
       "gradient": [
-        -0.01594,
+        0,
         0
       ],
       "minLift": 0.05,
@@ -93,6 +94,10 @@
           "type": "pijler"
         },
         {
+          "id": "L0004.5dbbe71c5f7544348cd00886aa8e7c39",
+          "type": "pijler"
+        },
+        {
           "id": "L0004.6483c4eef0b549629852b07ffbb48852",
           "type": "pijler"
         },
@@ -113,25 +118,56 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/425860446",
+        "tags": {
+          "axle_load": "22.5",
+          "bridge": "yes",
+          "description": "Weesp Aansl. - Lelystad Industrieterrein",
+          "electrified": "contact_line",
+          "frequency": "0",
+          "gauge": "1435",
+          "layer": "1",
+          "loading_gauge": "TSI_GB",
+          "maxspeed": "140",
+          "name": "Flevolijn",
+          "operator": "ProRail",
+          "passenger_lines": "2",
+          "railway": "rail",
+          "railway:atb": "yes",
+          "railway:atb-eg": "yes",
+          "railway:atb-ng": "no",
+          "railway:etcs": "no",
+          "railway:maximum_current": "4000",
+          "railway:track_class": "D4",
+          "railway:traffic_mode": "mixed",
+          "ref": "135",
+          "ref:ProRailID": "2889155.0",
+          "ref:ProRailSpoortak": "135_143BV_2.4",
+          "source": "ProRail",
+          "source:date": "2014-01-03",
+          "usage": "main",
+          "voltage": "1500"
+        }
+      },
       "fis": null,
-      "pdokBridgeVlakken": 8
+      "pdokBridgeVlakken": 9
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map muiderberg-brug-472c2173 --plaats muiderberg --punt 135833,481051",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
       "dekLengte": 188.1,
-      "dekBreedte": 13.6,
+      "dekBreedte": 13.5,
       "brugLengte": 188.1,
       "water": [
-        3.9,
-        26.4
+        -26.6,
+        -3.6
       ],
-      "portaalhoogte": 12.2,
+      "portaalhoogte": 12.1,
       "opritafstand": [
         0,
         0
@@ -140,13 +176,13 @@
       "oprithelling": 24,
       "doorstekend": [],
       "opritHoogtes": [
-        50.412,
-        50.03
+        50.03,
+        50.412
       ]
     },
     "waarschuwingen": [
       "geen FIS-brug binnen 35 m"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

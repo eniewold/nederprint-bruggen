@@ -1,5 +1,5 @@
 {
-  "name": "almelo-brug-821668ce",
+  "name": "Newton",
   "file": "almelo-brug-821668ce.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -118,14 +118,34 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1076369500",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "yes",
+          "foot": "no",
+          "highway": "unclassified",
+          "lane_markings": "no",
+          "layer": "1",
+          "maxspeed": "50",
+          "maxweight:signed": "no",
+          "mofa": "use_sidepath",
+          "moped": "use_sidepath",
+          "name": "Newton",
+          "oneway": "yes",
+          "surface": "asphalt",
+          "zone:traffic": "NL:urban",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 9
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,480000,260000,500000 --run nl-12_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map almelo-brug-821668ce --plaats almelo --punt 241415,481912",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

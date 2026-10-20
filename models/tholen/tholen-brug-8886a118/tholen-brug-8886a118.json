@@ -79,14 +79,28 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/562755049",
+        "tags": {
+          "access": "permissive",
+          "bicycle": "yes",
+          "bridge": "movable",
+          "foot": "yes",
+          "highway": "path",
+          "layer": "1",
+          "lit": "yes",
+          "motor_vehicle": "no",
+          "note": "7 dagen per week open van 8.00 tot 20.00 uur",
+          "surface": "paved"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
-    "type": "ophaalbrug",
+    "type": "basculebrug",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 60000,380000,80000,400000 --run nl-3_4 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map tholen-brug-8886a118 --plaats tholen --punt 74278,393938",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -116,6 +130,7 @@
       ]
     },
     "waarschuwingen": [
+      "bridge=movable zonder mechanisme: basculebrug is een gok",
       "geen FIS-brug binnen 35 m",
       "oprit + pas op 19.6 m gemeten",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",

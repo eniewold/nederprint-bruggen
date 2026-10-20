@@ -1,5 +1,5 @@
 {
-  "name": "helmond-brug-061697b8-2",
+  "name": "Kasteel-Traverse",
   "file": "helmond-brug-061697b8-2.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -97,14 +97,28 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/586047809",
+        "tags": {
+          "bridge": "yes",
+          "bridge:material": "concrete",
+          "bridge:structure": "beam",
+          "highway": "footway",
+          "layer": "1",
+          "name": "Kasteel-Traverse",
+          "surface": "concrete",
+          "width": "2",
+          "man_made": "bridge",
+          "wikidata": "Q130709476"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,380000,180000,400000 --run nl-8_4 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map helmond-brug-061697b8-2 --plaats helmond --punt 173205,387742",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

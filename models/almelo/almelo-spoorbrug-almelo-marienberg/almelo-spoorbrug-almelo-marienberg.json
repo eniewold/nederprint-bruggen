@@ -9,18 +9,18 @@
     487610.09
   ],
   "xAxis": [
-    0.527176,
-    -0.849756
+    -0.523218,
+    0.852199
   ],
   "groundOffsetMetres": 0,
   "groundHeight": 60.204,
   "groundSamplePoints": [
     [
-      -39.24,
+      -39.21,
       0
     ],
     [
-      39.24,
+      39.21,
       0
     ]
   ],
@@ -32,18 +32,18 @@
   "terrainCorrections": [
     {
       "centre": [
-        239922.73,
-        487653.63
+        239976.54,
+        487566.45
       ],
       "axis": [
-        -0.527176,
-        0.849756
+        0.523218,
+        -0.852199
       ],
       "halfLength": 12,
-      "halfWidth": 6.78,
-      "height": 60.216,
+      "halfWidth": 6.8,
+      "height": 60.228,
       "gradient": [
-        -0.001,
+        0,
         0
       ],
       "minLift": 0.05,
@@ -51,18 +51,18 @@
     },
     {
       "centre": [
-        239976.75,
-        487566.56
+        239922.94,
+        487653.74
       ],
       "axis": [
-        0.527176,
-        -0.849756
+        -0.523218,
+        0.852199
       ],
       "halfLength": 12,
-      "halfWidth": 6.78,
-      "height": 60.228,
+      "halfWidth": 6.8,
+      "height": 60.216,
       "gradient": [
-        0,
+        -0.001,
         0
       ],
       "minLift": 0.05,
@@ -88,26 +88,56 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/780935790",
+        "tags": {
+          "axle_load": "22.5",
+          "bridge": "yes",
+          "description": "Mariënberg - Almelo",
+          "electrified": "no",
+          "gauge": "1435",
+          "layer": "1",
+          "loading_gauge": "TSI_GB",
+          "maxspeed": "120",
+          "operator": "ProRail",
+          "passenger_lines": "1",
+          "proposed:electrified": "contact_line",
+          "proposed:frequency": "0",
+          "proposed:voltage": "1500",
+          "railway": "rail",
+          "railway:atb": "yes",
+          "railway:atb-ng": "yes",
+          "railway:etcs": "no",
+          "railway:track_class": "D2",
+          "railway:traffic_mode": "mixed",
+          "ref": "205",
+          "ref:ProRailSpoortak": "606_35R_37.4",
+          "source": "ProRail",
+          "source:date": "2014-01-03",
+          "usage": "branch",
+          "bridge:structure": "arch",
+          "man_made": "bridge"
+        }
+      },
       "fis": {
         "id": 27864,
         "naam": "Spoorbrug Almelo-Mariënberg",
-        "afstand": 7,
+        "afstand": 5,
         "beweegbaar": false,
         "doorvaarthoogteGesloten": 6.539999999999999
       },
       "pdokBridgeVlakken": 3
     },
-    "type": "ligger",
+    "type": "boog",
     "doorvaarthoogte": 6.539999999999999,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,480000,240000,500000 --run nl-11_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map almelo-spoorbrug-almelo-marienberg --plaats almelo --punt 239950,487610",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
-      "dekLengte": 78.5,
+      "dekLengte": 78.4,
       "dekBreedte": 9.6,
-      "brugLengte": 78.5,
+      "brugLengte": 78.4,
       "water": [
         -20.7,
         20.8
@@ -121,8 +151,8 @@
       "oprithelling": 24,
       "doorstekend": [],
       "opritHoogtes": [
-        60.204,
-        60.228
+        60.228,
+        60.204
       ]
     },
     "waarschuwingen": [],

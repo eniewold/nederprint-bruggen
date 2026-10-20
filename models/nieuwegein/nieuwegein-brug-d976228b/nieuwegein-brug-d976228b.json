@@ -1,5 +1,5 @@
 {
-  "name": "nieuwegein-brug-d976228b",
+  "name": "Orvelterdek",
   "file": "nieuwegein-brug-d976228b.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -28,7 +28,6 @@
     "G0356.24801ccf82254c9fa283307532066b58",
     "G0356.25b805f29aec4486971bcc1ec6e1958f",
     "G0356.7da4e6de636e4e7a9e083dc26742bc35",
-    "G0356.84ecbf9b88594ba3ac6fbae4dab6d625",
     "G0356.93b57dfd88454e029be9595802d80a5d",
     "G0356.a7bbf764854a4544ae68cabe6fcfebee",
     "G0356.ad34a56708744af9a6d299f4df16fa58",
@@ -122,10 +121,6 @@
           "type": "pijler"
         },
         {
-          "id": "G0356.84ecbf9b88594ba3ac6fbae4dab6d625",
-          "type": "pijler"
-        },
-        {
           "id": "G0356.93b57dfd88454e029be9595802d80a5d",
           "type": "pijler"
         },
@@ -170,14 +165,23 @@
           "type": "pijler"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/33918495",
+        "tags": {
+          "bridge": "yes",
+          "highway": "footway",
+          "layer": "1",
+          "name": "Orvelterdek",
+          "surface": "paving_stones"
+        }
+      },
       "fis": null,
-      "pdokBridgeVlakken": 15
+      "pdokBridgeVlakken": 14
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,440000,140000,460000 --run nl-6_7 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map nieuwegein-brug-d976228b --plaats nieuwegein --punt 134783,447484",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -210,6 +214,6 @@
       "geen FIS-brug binnen 35 m",
       "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

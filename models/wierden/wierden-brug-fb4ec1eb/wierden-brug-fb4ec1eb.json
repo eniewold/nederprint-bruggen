@@ -13,7 +13,7 @@
     -0.596302
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 54.281,
+  "groundHeight": 54.277,
   "groundSamplePoints": [
     [
       -38.87,
@@ -41,9 +41,9 @@
       ],
       "halfLength": 12,
       "halfWidth": 8.25,
-      "height": 54.555,
+      "height": 54.553,
       "gradient": [
-        -0.0228,
+        -0.02296,
         0
       ],
       "minLift": 0.05,
@@ -88,14 +88,35 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/53835743",
+        "tags": {
+          "bridge": "yes",
+          "carriageway_ref": "b",
+          "highway": "motorway_link",
+          "junction:ref": "31",
+          "lanes": "1",
+          "layer": "1",
+          "lit": "no",
+          "maxspeed": "130",
+          "motorway": "yes",
+          "note:maxspeed": "Counterintuitively, the maxspeed on this on-ramp is 130 km/h instead of the lower speed posted on the main road due to it having only a G1 (start motorway) sign at the start",
+          "note:maxspeed:url": "https://wiki.openstreetmap.org/wiki/Reduced_speed_limit_on_Dutch_motorways",
+          "oneway": "yes",
+          "operator": "Rijkswaterstaat",
+          "ref": "A35",
+          "surface": "asphalt",
+          "toll:hgv": "yes",
+          "zone:traffic": "NL:rural"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 3
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,480000,240000,500000 --run nl-11_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map wierden-brug-fb4ec1eb --plaats wierden --punt 237504,484256",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -114,7 +135,7 @@
       "oprithelling": 24,
       "doorstekend": [],
       "opritHoogtes": [
-        54.281,
+        54.277,
         54.528
       ]
     },

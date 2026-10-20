@@ -1,5 +1,5 @@
 {
-  "name": "zenderen-brug-3bf9d6e6-13",
+  "name": "Bruggemansweg",
   "file": "zenderen-brug-3bf9d6e6-13.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,26 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/25833802",
+        "tags": {
+          "bridge": "yes",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Bruggemansweg",
+          "sidewalk": "no",
+          "smoothness": "good",
+          "surface": "asphalt"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,480000,260000,500000 --run nl-12_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map zenderen-brug-3bf9d6e6-13 --plaats zenderen --punt 247277,483180",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

@@ -9,8 +9,8 @@
     475843.7
   ],
   "xAxis": [
-    0.838462,
-    0.54496
+    -0.838201,
+    -0.545361
   ],
   "groundOffsetMetres": 0,
   "groundHeight": 64.844,
@@ -32,18 +32,18 @@
   "terrainCorrections": [
     {
       "centre": [
-        251551.93,
-        475830.59
+        251592.23,
+        475856.8
       ],
       "axis": [
-        -0.838462,
-        -0.54496
+        0.838201,
+        0.545361
       ],
       "halfLength": 12,
-      "halfWidth": 8.26,
-      "height": 64.845,
+      "halfWidth": 8.27,
+      "height": 64.844,
       "gradient": [
-        0,
+        -0.00005,
         0
       ],
       "minLift": 0.05,
@@ -51,18 +51,18 @@
     },
     {
       "centre": [
-        251592.24,
-        475856.8
+        251551.93,
+        475830.59
       ],
       "axis": [
-        0.838462,
-        0.54496
+        -0.838201,
+        -0.545361
       ],
       "halfLength": 12,
-      "halfWidth": 8.26,
-      "height": 64.844,
+      "halfWidth": 8.27,
+      "height": 64.845,
       "gradient": [
-        -0.00005,
+        0,
         0
       ],
       "minLift": 0.05,
@@ -88,14 +88,46 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/375053950",
+        "tags": {
+          "axle_load": "22.5",
+          "bridge": "yes",
+          "description": "Hengelo",
+          "electrified": "contact_line",
+          "frequency": "0",
+          "gauge": "1435",
+          "layer": "1",
+          "loading_gauge": "TSI_GB",
+          "maxspeed": "40",
+          "operator": "ProRail",
+          "passenger_lines": "2",
+          "railway": "rail",
+          "railway:atb": "yes",
+          "railway:atb-eg": "yes",
+          "railway:atb-ng": "no",
+          "railway:etcs": "no",
+          "railway:maximum_current": "4000",
+          "railway:track_class": "D4",
+          "railway:traffic_mode": "mixed",
+          "ref": "543b",
+          "ref:ProRailSpoortak": "543_219V_15.9",
+          "source": "ProRail",
+          "source:date": "2014-01-03",
+          "start_date": "1865-10-18",
+          "usage": "main",
+          "voltage": "1500",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 3
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,460000,260000,480000 --run nl-12_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map hengelo-brug-d931cb45 --plaats hengelo --punt 251572,475844",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -112,8 +144,8 @@
       "oprithelling": 24,
       "doorstekend": [],
       "opritHoogtes": [
-        64.845,
-        64.844
+        64.844,
+        64.845
       ]
     },
     "waarschuwingen": [

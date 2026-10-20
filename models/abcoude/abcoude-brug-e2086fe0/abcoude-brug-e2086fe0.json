@@ -9,25 +9,19 @@
     476952.74
   ],
   "xAxis": [
-    0.869622,
-    0.493719
+    0.493719,
+    -0.869622
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 41.586,
+  "groundHeight": 42.147,
   "groundSamplePoints": [
     [
-      -8.61,
-      0
-    ],
-    [
-      8.61,
+      12.88,
       0
     ]
   ],
   "replacesTerrain": [
-    "G0736.e2086fe09a4e426caacd7ccbf83dab02",
-    "G0736.899644a87dec476083c3f3f8b54dfa96",
-    "G0736.791aff8863d34a62a7539abe18842171"
+    "G0736.e2086fe09a4e426caacd7ccbf83dab02"
   ],
   "terrainCorrections": [
     {
@@ -36,52 +30,33 @@
         476952.74
       ],
       "axis": [
-        0.869622,
-        0.493719
+        0.493719,
+        -0.869622
       ],
-      "halfLength": 1.96,
-      "halfWidth": 6.35,
-      "height": 40.894,
+      "halfLength": 2.93,
+      "halfWidth": 4.41,
+      "height": 41.147,
       "gradient": [
         0,
         0
       ],
-      "minLift": -2.63,
+      "minLift": -1.93,
       "maxLift": -0.01
     },
     {
       "centre": [
-        123793.76,
-        476948.87
+        123806.35,
+        476942.55
       ],
       "axis": [
-        -0.869622,
-        -0.493719
+        0.493719,
+        -0.869622
       ],
-      "halfLength": 3.91,
-      "halfWidth": 7.85,
-      "height": 42.044,
+      "halfLength": 5.85,
+      "halfWidth": 5.87,
+      "height": 42.297,
       "gradient": [
-        -0.03832,
-        0
-      ],
-      "minLift": 0.05,
-      "maxLift": 4
-    },
-    {
-      "centre": [
-        123807.37,
-        476956.6
-      ],
-      "axis": [
-        0.869622,
-        0.493719
-      ],
-      "halfLength": 3.91,
-      "halfWidth": 7.85,
-      "height": 41.89,
-      "gradient": [
-        -0.07764,
+        -0.02562,
         0
       ],
       "minLift": 0.05,
@@ -106,64 +81,51 @@
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,460000,140000,480000 --run nl-6_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map abcoude-brug-e2086fe0 --plaats abcoude --punt 123801,476953",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
-      "dekLengte": 7.8,
-      "dekBreedte": 11.7,
-      "brugLengte": 7.8,
-      "water": null,
-      "portaalhoogte": 10.5,
-      "opritafstand": [
-        4.7,
-        4.7
+      "dekLengte": 11.7,
+      "dekBreedte": 7.8,
+      "brugLengte": 11.7,
+      "water": [
+        1.6,
+        3.1
       ],
-      "oprithelling": 7.8,
+      "portaalhoogte": 7,
+      "opritafstand": [
+        21.1,
+        7
+      ],
+      "oprithelling": 11.7,
       "doorstekend": [
         {
           "gmlId": "G0736.899644a87dec476083c3f3f8b54dfa96",
           "klasse": "Terrain",
           "oppervlak": 39.9,
-          "onderDek": 0.73,
-          "bovenDekOnderkant": 2.19,
-          "actie": "verbergen"
-        },
-        {
-          "gmlId": "G0736.817ffc27901a43328172584ef84070bb",
-          "klasse": "Terrain",
-          "oppervlak": 3653.9,
-          "onderDek": 0,
-          "bovenDekOnderkant": 1.63,
+          "onderDek": 0.49,
+          "bovenDekOnderkant": 0.93,
           "actie": "verlagen"
         },
         {
-          "gmlId": "G0736.791aff8863d34a62a7539abe18842171",
-          "klasse": "Terrain",
-          "oppervlak": 11.7,
-          "onderDek": 0.75,
-          "bovenDekOnderkant": 1.54,
-          "actie": "verbergen"
-        },
-        {
-          "gmlId": "W0155.8abeacd5439b75202011201210179729",
-          "klasse": "Terrain",
-          "oppervlak": 80.9,
-          "onderDek": 0.04,
-          "bovenDekOnderkant": 0.56,
+          "gmlId": "G0736.4b84f75ec99d493e9211176f92f106d6",
+          "klasse": "Forest",
+          "oppervlak": 104.2,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.21,
           "actie": "verlagen"
         }
       ],
       "opritHoogtes": [
-        41.894,
-        41.586
+        null,
+        42.147
       ]
     },
     "waarschuwingen": [
-      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "oprit - zonder PDOK-maaiveld",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
-      "4 PDOK-vorm(en) door het dek: 2 verborgen, 2 verlaagd"
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

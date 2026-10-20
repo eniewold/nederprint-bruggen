@@ -1,5 +1,5 @@
 {
-  "name": "Brug in de N201 Hilversum",
+  "name": "Vreelandseweg",
   "file": "hilversum-brug-in-de-n201-hilversum.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -88,7 +88,29 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/769034528",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "yes",
+          "foot": "use_sidepath",
+          "highway": "primary",
+          "lanes": "2",
+          "layer": "1",
+          "maxspeed": "80",
+          "mofa": "use_sidepath",
+          "moped": "use_sidepath",
+          "name": "Vreelandseweg",
+          "oneway": "yes",
+          "operator": "Provincie Noord-Holland",
+          "ref": "N201",
+          "surface": "asphalt",
+          "toll:hgv": "yes",
+          "turn:lanes": "left|through",
+          "zone:traffic": "NL:rural",
+          "man_made": "bridge"
+        }
+      },
       "fis": {
         "id": 9444,
         "naam": "Brug in de N201 Hilversum",
@@ -101,7 +123,7 @@
     "type": "ligger",
     "doorvaarthoogte": 2.17,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,460000,140000,480000 --run nl-6_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map hilversum-brug-in-de-n201-hilversum --plaats hilversum --punt 136921,470178",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -125,6 +147,6 @@
       ]
     },
     "waarschuwingen": [],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

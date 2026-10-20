@@ -1,5 +1,5 @@
 {
-  "name": "Brug De Vrijheid",
+  "name": "De Vrijheid",
   "file": "veendam-brug-de-vrijheid.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -115,20 +115,31 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1087968234",
+        "tags": {
+          "bridge": "movable",
+          "highway": "cycleway",
+          "layer": "1",
+          "moped": "designated",
+          "name": "De Vrijheid",
+          "traffic_sign": "NL:G12a",
+          "man_made": "bridge"
+        }
+      },
       "fis": {
         "id": 54657,
         "naam": "Brug De Vrijheid",
-        "afstand": 1,
+        "afstand": 2,
         "beweegbaar": true,
         "doorvaarthoogteGesloten": 0.88
       },
       "pdokBridgeVlakken": 8
     },
-    "type": "ophaalbrug",
+    "type": "basculebrug",
     "doorvaarthoogte": 0.88,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,560000,260000,580000 --run nl-12_13 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map veendam-brug-de-vrijheid --plaats veendam --punt 255396,569222",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -151,7 +162,9 @@
         42.986
       ]
     },
-    "waarschuwingen": [],
+    "waarschuwingen": [
+      "bridge=movable zonder mechanisme: basculebrug is een gok"
+    ],
     "gegenereerd": "2026-10-20"
   }
 }

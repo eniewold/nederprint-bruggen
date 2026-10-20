@@ -13,7 +13,7 @@
     0.162461
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 42.664,
+  "groundHeight": 42.645,
   "groundSamplePoints": [
     [
       -13.1,
@@ -39,12 +39,12 @@
       ],
       "halfLength": 2.98,
       "halfWidth": 3.65,
-      "height": 41.668,
+      "height": 41.66,
       "gradient": [
         0,
         0
       ],
-      "minLift": -1.84,
+      "minLift": -1.85,
       "maxLift": -0.01
     },
     {
@@ -58,9 +58,9 @@
       ],
       "halfLength": 5.95,
       "halfWidth": 4.73,
-      "height": 42.818,
+      "height": 42.803,
       "gradient": [
-        -0.0252,
+        -0.02647,
         0
       ],
       "minLift": 0.05,
@@ -77,9 +77,9 @@
       ],
       "halfLength": 5.95,
       "halfWidth": 4.73,
-      "height": 42.816,
+      "height": 42.81,
       "gradient": [
-        -0.02557,
+        -0.0252,
         0
       ],
       "minLift": 0.05,
@@ -97,14 +97,22 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/72606615",
+        "tags": {
+          "access": "private",
+          "bridge": "yes",
+          "highway": "service",
+          "layer": "1"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,460000,140000,480000 --run nl-6_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map maarssen-brug-10ee8e04 --plaats maarssen --punt 131469,462422",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -127,27 +135,27 @@
           "klasse": "Terrain",
           "oppervlak": 5.5,
           "onderDek": 0.08,
-          "bovenDekOnderkant": 0.84,
+          "bovenDekOnderkant": 0.85,
           "actie": "verlagen"
         },
         {
           "gmlId": "G1904.1b459ec59c2444d4930d6965139114ea",
           "klasse": "Terrain",
-          "oppervlak": 607.7,
+          "oppervlak": 151.8,
           "onderDek": 0,
-          "bovenDekOnderkant": 0.77,
+          "bovenDekOnderkant": 0.74,
           "actie": "verlagen"
         }
       ],
       "opritHoogtes": [
-        42.668,
-        42.664
+        42.645,
+        42.66
       ]
     },
     "waarschuwingen": [
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
       "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

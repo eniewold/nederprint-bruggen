@@ -9,18 +9,14 @@
     429290.81
   ],
   "xAxis": [
-    0.98844,
-    -0.151612
+    -0.151612,
+    -0.98844
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 57.141,
+  "groundHeight": 63.018,
   "groundSamplePoints": [
     [
-      -4.93,
-      0
-    ],
-    [
-      4.93,
+      -46.41,
       0
     ]
   ],
@@ -30,56 +26,18 @@
   "terrainCorrections": [
     {
       "centre": [
-        204665.7,
-        429290.81
+        204671.52,
+        429328.78
       ],
       "axis": [
-        0.98844,
-        -0.151612
+        0.151612,
+        0.98844
       ],
-      "halfLength": 0.47,
-      "halfWidth": 26.91,
-      "height": 57.066,
+      "halfLength": 12,
+      "halfWidth": 1.4,
+      "height": 63.168,
       "gradient": [
-        0,
-        0
-      ],
-      "minLift": -6.36,
-      "maxLift": -0.01
-    },
-    {
-      "centre": [
-        204661.81,
-        429291.41
-      ],
-      "axis": [
-        -0.98844,
-        0.151612
-      ],
-      "halfLength": 3,
-      "halfWidth": 28.41,
-      "height": 58.216,
-      "gradient": [
-        -0.05,
-        0
-      ],
-      "minLift": 0.05,
-      "maxLift": 4
-    },
-    {
-      "centre": [
-        204669.59,
-        429290.21
-      ],
-      "axis": [
-        0.98844,
-        -0.151612
-      ],
-      "halfLength": 3,
-      "halfWidth": 28.41,
-      "height": 57.754,
-      "gradient": [
-        -0.20427,
+        -0.0125,
         0
       ],
       "minLift": 0.05,
@@ -112,64 +70,34 @@
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 200000,420000,220000,440000 --run nl-10_6 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map tolkamer-brug-00461e25 --plaats tolkamer --punt 204666,429291",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
-      "dekLengte": 1.9,
-      "dekBreedte": 52.8,
-      "brugLengte": 1.9,
-      "water": null,
-      "portaalhoogte": 47.5,
+      "dekLengte": 52.8,
+      "dekBreedte": 1.9,
+      "brugLengte": 52.8,
+      "water": [
+        16.1,
+        26.1
+      ],
+      "portaalhoogte": 2.5,
       "opritafstand": [
-        4,
-        4
+        20,
+        60
       ],
-      "oprithelling": 6,
-      "doorstekend": [
-        {
-          "gmlId": "G0196.2326b5ba898c45bdbdcad8121d26a228",
-          "klasse": "Terrain",
-          "oppervlak": 70.1,
-          "onderDek": 0.04,
-          "bovenDekOnderkant": 5.36,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "L0002.a7eaa999bd7542d582b324ad950b9568",
-          "klasse": "Terrain",
-          "oppervlak": 495.1,
-          "onderDek": 0.01,
-          "bovenDekOnderkant": 4.82,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "L0002.6f4719f869b6446a82201a881f74da90",
-          "klasse": "Forest",
-          "oppervlak": 784.7,
-          "onderDek": 0.02,
-          "bovenDekOnderkant": 1.01,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "L0002.c3b9d51bb9f04859a2453401aaf5f446",
-          "klasse": "Forest",
-          "oppervlak": 62.1,
-          "onderDek": 0.06,
-          "bovenDekOnderkant": 0.86,
-          "actie": "verlagen"
-        }
-      ],
+      "oprithelling": 24,
+      "doorstekend": [],
       "opritHoogtes": [
-        58.066,
-        57.141
+        63.018,
+        null
       ]
     },
     "waarschuwingen": [
-      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
-      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
-      "4 PDOK-vorm(en) door het dek: 0 verborgen, 4 verlaagd"
+      "geen FIS-brug binnen 35 m",
+      "oprit + zonder PDOK-maaiveld",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

@@ -5,31 +5,31 @@
   "unitsPerMetre": 1,
   "crs": "EPSG:28992",
   "origin": [
-    135325.05,
-    411234.53
+    135325.57,
+    411232.99
   ],
   "xAxis": [
-    -0.219721,
-    0.975563
+    0.976288,
+    0.216475
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 46.126,
+  "groundHeight": 49.597,
   "groundSamplePoints": [
     [
-      -13.59,
+      -103.21,
       0
     ],
     [
-      14.06,
+      103.21,
       0
     ]
   ],
   "replacesTerrain": [
-    "G0867.5a6120dadd4647efbc2568ce77370992",
+    "G0867.576bec4072354992822cf469053511da",
     "G0867.5a67fcbef91c482e9cc02d79a6a14ba5",
     "G0867.82123ad90f6349e0b99694874c5bd7f9",
+    "G0867.a4d5e12998f54e6db550acd9173cd1be",
     "G0867.ad31f5f4496a4b7fbe7a8a488844af93",
-    "G0867.c4266e0292eb4653866410bdf5d23472",
     "G0867.d228f565f5404daf81dfd5b0cc2ab86f",
     "G0867.d6bb6ee2510f4f2a811b9640b6a5f64f",
     "G0867.f00141b2a1404a1f892d10408238c648"
@@ -37,37 +37,18 @@
   "terrainCorrections": [
     {
       "centre": [
-        135325.05,
-        411234.53
+        135232.62,
+        411212.38
       ],
       "axis": [
-        -0.219721,
-        0.975563
+        -0.976288,
+        -0.216475
       ],
-      "halfLength": 2.81,
-      "halfWidth": 83.87,
-      "height": 45.275,
+      "halfLength": 12,
+      "halfWidth": 3.66,
+      "height": 50.534,
       "gradient": [
-        0,
-        0
-      ],
-      "minLift": -4.1,
-      "maxLift": -0.01
-    },
-    {
-      "centre": [
-        135327.76,
-        411222.5
-      ],
-      "axis": [
-        0.219721,
-        -0.975563
-      ],
-      "halfLength": 6.28,
-      "halfWidth": 85.37,
-      "height": 46.425,
-      "gradient": [
-        -0.02387,
+        -0.0125,
         0
       ],
       "minLift": 0.05,
@@ -75,18 +56,18 @@
     },
     {
       "centre": [
-        135322.24,
-        411247.02
+        135418.52,
+        411253.6
       ],
       "axis": [
-        -0.219721,
-        0.975563
+        0.976288,
+        0.216475
       ],
-      "halfLength": 6.28,
-      "halfWidth": 85.37,
-      "height": 46.35,
+      "halfLength": 12,
+      "halfWidth": 3.66,
+      "height": 50.14,
       "gradient": [
-        -0.03568,
+        -0.04529,
         0
       ],
       "minLift": 0.05,
@@ -95,14 +76,13 @@
   ],
   "generated": {
     "deckBgtIds": [
-      "G0867.5a6120dadd4647efbc2568ce77370992",
       "G0867.d6bb6ee2510f4f2a811b9640b6a5f64f"
     ],
     "bron": {
       "bgt": [
         {
-          "id": "G0867.5a6120dadd4647efbc2568ce77370992",
-          "type": "dek"
+          "id": "G0867.576bec4072354992822cf469053511da",
+          "type": "pijler"
         },
         {
           "id": "G0867.5a67fcbef91c482e9cc02d79a6a14ba5",
@@ -113,11 +93,11 @@
           "type": "pijler"
         },
         {
-          "id": "G0867.ad31f5f4496a4b7fbe7a8a488844af93",
+          "id": "G0867.a4d5e12998f54e6db550acd9173cd1be",
           "type": "pijler"
         },
         {
-          "id": "G0867.c4266e0292eb4653866410bdf5d23472",
+          "id": "G0867.ad31f5f4496a4b7fbe7a8a488844af93",
           "type": "pijler"
         },
         {
@@ -133,108 +113,39 @@
           "type": "pijler"
         }
       ],
-      "osm": {
-        "id": "way/876195681",
-        "tags": {
-          "layer": "1",
-          "man_made": "bridge"
-        }
-      },
+      "osm": null,
       "fis": null,
       "pdokBridgeVlakken": 8
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,400000,140000,420000 --run nl-6_5 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map waalwijk-brug-5a6120da --plaats waalwijk --punt 135325,411235",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
-      "dekLengte": 11.3,
-      "dekBreedte": 166.7,
-      "brugLengte": 12.6,
-      "water": null,
-      "portaalhoogte": 150.1,
+      "dekLengte": 166.4,
+      "dekBreedte": 4.9,
+      "brugLengte": 166.4,
+      "water": [
+        -64.7,
+        -19.2
+      ],
+      "portaalhoogte": 4.4,
       "opritafstand": [
-        7.5,
-        7.5
+        20,
+        20
       ],
-      "oprithelling": 12.6,
-      "doorstekend": [
-        {
-          "gmlId": "G0867.12e7f56a94d549baa3b638daba482209",
-          "klasse": "Forest",
-          "oppervlak": 255,
-          "onderDek": 0.1,
-          "bovenDekOnderkant": 3.1,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "G0867.13c7dcc04fac4fad9dcc56a64f702fa0",
-          "klasse": "Forest",
-          "oppervlak": 403.7,
-          "onderDek": 0.08,
-          "bovenDekOnderkant": 2.97,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "G0867.7ee4cde6d6ef408fb28846fe642bb6a4",
-          "klasse": "Forest",
-          "oppervlak": 311.3,
-          "onderDek": 0.09,
-          "bovenDekOnderkant": 2.92,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "G0867.e4b2a9b56ee14a4694f8442335a3de9c",
-          "klasse": "Forest",
-          "oppervlak": 1041.3,
-          "onderDek": 0.12,
-          "bovenDekOnderkant": 0.51,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "G0867.9e0d6e46232a4bd5986afa3862567f9a",
-          "klasse": "Forest",
-          "oppervlak": 54.8,
-          "onderDek": 0.22,
-          "bovenDekOnderkant": 0.42,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "G0867.610ae3945a6643c49488daaa89eacf56",
-          "klasse": "Forest",
-          "oppervlak": 31,
-          "onderDek": 0.18,
-          "bovenDekOnderkant": 0.38,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "G0867.af707d1f630c4eefb02fa1828f8d7d4f",
-          "klasse": "Forest",
-          "oppervlak": 643.6,
-          "onderDek": 0.06,
-          "bovenDekOnderkant": 0.3,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "G0867.1a131723e47e49b6aca29d39bec1920c",
-          "klasse": "Forest",
-          "oppervlak": 1545.1,
-          "onderDek": 0.09,
-          "bovenDekOnderkant": 0.28,
-          "actie": "verlagen"
-        }
-      ],
+      "oprithelling": 24,
+      "doorstekend": [],
       "opritHoogtes": [
-        46.275,
-        46.126
+        50.384,
+        49.597
       ]
     },
     "waarschuwingen": [
-      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
-      "8 PDOK-vorm(en) door het dek: 0 verborgen, 8 verlaagd"
+      "geen FIS-brug binnen 35 m"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

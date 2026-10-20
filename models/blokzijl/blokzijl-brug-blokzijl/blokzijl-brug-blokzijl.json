@@ -1,5 +1,5 @@
 {
-  "name": "Brug Blokzijl",
+  "name": "Brouwerstraat",
   "file": "blokzijl-brug-blokzijl.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -39,7 +39,7 @@
       ],
       "halfLength": 4.2,
       "halfWidth": 2.88,
-      "height": 43.752,
+      "height": 43.737,
       "gradient": [
         -0.03574,
         0
@@ -58,9 +58,9 @@
       ],
       "halfLength": 4.2,
       "halfWidth": 2.88,
-      "height": 43.72,
+      "height": 43.713,
       "gradient": [
-        -0.04332,
+        -0.04147,
         0
       ],
       "minLift": 0.05,
@@ -78,7 +78,26 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1482471127",
+        "tags": {
+          "bridge": "movable",
+          "bridge:movable": "bascule",
+          "bus": "no",
+          "hgv": "no",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxlength": "10.4",
+          "maxlength:agricultural": "default",
+          "maxspeed": "30",
+          "maxspeed:type": "NL:zone30",
+          "name": "Brouwerstraat",
+          "start_date": "1975",
+          "zone:maxspeed": "NL:30",
+          "zone:traffic": "NL:urban",
+          "man_made": "bridge"
+        }
+      },
       "fis": {
         "id": 34179,
         "naam": "Brug Blokzijl",
@@ -88,10 +107,10 @@
       },
       "pdokBridgeVlakken": 1
     },
-    "type": "ophaalbrug",
+    "type": "basculebrug",
     "doorvaarthoogte": 1.4,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 180000,520000,200000,540000 --run nl-9_11 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map blokzijl-brug-blokzijl --plaats blokzijl --punt 193782,526721",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -110,7 +129,7 @@
       "oprithelling": 8.4,
       "doorstekend": [],
       "opritHoogtes": [
-        43.602,
+        43.587,
         43.539
       ]
     },

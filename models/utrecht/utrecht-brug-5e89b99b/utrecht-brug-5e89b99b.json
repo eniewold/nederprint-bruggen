@@ -13,40 +13,21 @@
     -0.136642
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 51.303,
+  "groundHeight": 51.883,
   "groundSamplePoints": [
     [
-      -56.51,
+      -16.51,
       0
     ],
     [
-      26.51,
-      -1.3
+      16.51,
+      0
     ]
   ],
   "replacesTerrain": [
     "L0004.5e89b99b62be44b28a2d8669f96db467"
   ],
   "terrainCorrections": [
-    {
-      "centre": [
-        132841.84,
-        456797.29
-      ],
-      "axis": [
-        0.99062,
-        -0.136642
-      ],
-      "halfLength": 10.51,
-      "halfWidth": 7.4,
-      "height": 50.656,
-      "gradient": [
-        0,
-        0
-      ],
-      "minLift": -1.13,
-      "maxLift": -0.01
-    },
     {
       "centre": [
         132813.6,
@@ -58,9 +39,9 @@
       ],
       "halfLength": 12,
       "halfWidth": 8.9,
-      "height": 51.63,
+      "height": 52.011,
       "gradient": [
-        -0.02724,
+        -0.01064,
         0
       ],
       "minLift": 0.05,
@@ -77,9 +58,9 @@
       ],
       "halfLength": 12,
       "halfWidth": 8.9,
-      "height": 51.806,
+      "height": 52.138,
       "gradient": [
-        -0.0125,
+        0,
         0
       ],
       "minLift": 0.05,
@@ -139,7 +120,7 @@
       "naam": "Goudse lijn",
       "straal": 40
     },
-    "opdracht": "node scripts/bridges/genereer.mjs --uit C:/Users/edwar/AppData/Local/Temp/claude/C--Users-edwar-source-Repos-nederprint/3bd9e161-d515-4f1b-bfbf-c9cc2320f835/scratchpad/rail-batch5 --map brug-5e89b99b --plaats utrecht --punt 132841.84,456797.29 --naam \"Goudse lijn\" --straal 40",
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 126435,448710,141834,461610 --run utrecht-2026-10-20 --overschrijf 1 --parallel 5",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -149,31 +130,21 @@
       "water": null,
       "portaalhoogte": 12.4,
       "opritafstand": [
-        40,
-        10
+        0,
+        0
       ],
+      "spoorhoogteBron": "prorail-pvs",
       "oprithelling": 24,
-      "doorstekend": [
-        {
-          "gmlId": "L0004.602f51b21aab4b53ab9ff2d3900cadd4",
-          "klasse": "Road",
-          "oppervlak": 5946.2,
-          "onderDek": 0,
-          "bovenDekOnderkant": 0.13,
-          "actie": "verlagen"
-        }
-      ],
+      "doorstekend": [],
       "opritHoogtes": [
-        51.303,
-        51.656
+        51.883,
+        52.138
       ]
     },
     "waarschuwingen": [
       "geen FIS-brug binnen 35 m",
-      "oprit - pas op 40 m langs het spoor gemeten (PDOK-spoorterrein bij de brug lager)",
-      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
-      "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-17"
+    "gegenereerd": "2026-10-20"
   }
 }

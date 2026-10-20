@@ -13,7 +13,7 @@
     -0.942375
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 51.948,
+  "groundHeight": 51.937,
   "groundSamplePoints": [
     [
       -8.6,
@@ -44,7 +44,7 @@
         0,
         0
       ],
-      "minLift": -1.25,
+      "minLift": -1.24,
       "maxLift": -0.01
     },
     {
@@ -58,9 +58,9 @@
       ],
       "halfLength": 3.91,
       "halfWidth": 3.68,
-      "height": 52.218,
+      "height": 52.212,
       "gradient": [
-        -0.06896,
+        -0.07042,
         0
       ],
       "minLift": 0.05,
@@ -97,14 +97,21 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/537766889",
+        "tags": {
+          "bridge": "yes",
+          "highway": "track",
+          "layer": "1"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,480000,180000,500000 --run nl-8_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map harderwijk-brug-482bae97 --plaats harderwijk --punt 177067,483471",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -125,22 +132,22 @@
         {
           "gmlId": "G0243.183ba5567e091231e053440a0c0a01f6",
           "klasse": "Forest",
-          "oppervlak": 7663.3,
+          "oppervlak": 1916.1,
           "onderDek": 0,
-          "bovenDekOnderkant": 0.25,
+          "bovenDekOnderkant": 0.24,
           "actie": "verlagen"
         },
         {
           "gmlId": "W0662.ac48d5752eb61afce0531529a8c063f2",
           "klasse": "Terrain",
-          "oppervlak": 338.6,
+          "oppervlak": 85.1,
           "onderDek": 0.07,
-          "bovenDekOnderkant": 0.23,
+          "bovenDekOnderkant": 0.22,
           "actie": "verlagen"
         }
       ],
       "opritHoogtes": [
-        51.948,
+        51.937,
         52.187
       ]
     },
@@ -148,6 +155,6 @@
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
       "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "name": "helmond-brug-80023040",
+  "name": "President Rooseveltlaan",
   "file": "helmond-brug-80023040.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -84,14 +84,26 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/693137379",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "yes",
+          "highway": "tertiary",
+          "lanes": "2",
+          "layer": "1",
+          "maxspeed": "50",
+          "name": "President Rooseveltlaan",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 2
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,380000,180000,400000 --run nl-8_4 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map helmond-brug-80023040 --plaats helmond --punt 172044,388099",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

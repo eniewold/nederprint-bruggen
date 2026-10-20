@@ -1,5 +1,5 @@
 {
-  "name": "Kerkbrug Wildervank",
+  "name": "Raadhuiskade",
   "file": "wildervank-kerkbrug-wildervank.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,7 +78,17 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/45768769",
+        "tags": {
+          "bridge": "yes",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxspeed": "50",
+          "name": "Raadhuiskade",
+          "bridge:movable": "bascule"
+        }
+      },
       "fis": {
         "id": 2428,
         "naam": "Kerkbrug Wildervank",
@@ -88,10 +98,10 @@
       },
       "pdokBridgeVlakken": 1
     },
-    "type": "ophaalbrug",
+    "type": "basculebrug",
     "doorvaarthoogte": 1,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,560000,260000,580000 --run nl-12_13 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map wildervank-kerkbrug-wildervank --plaats wildervank --punt 253748,566368",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

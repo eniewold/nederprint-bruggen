@@ -1,5 +1,5 @@
 {
-  "name": "Remisebrug",
+  "name": "J. Kammingakade",
   "file": "wildervank-remisebrug.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,20 +78,31 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/6384818",
+        "tags": {
+          "bridge": "movable",
+          "bridge:movable": "swing",
+          "highway": "residential",
+          "layer": "1",
+          "maxaxleload": "3.5",
+          "maxspeed": "50",
+          "name": "J. Kammingakade"
+        }
+      },
       "fis": {
         "id": 34028,
         "naam": "Remisebrug",
-        "afstand": 4,
+        "afstand": 3,
         "beweegbaar": true,
         "doorvaarthoogteGesloten": 1
       },
       "pdokBridgeVlakken": 1
     },
-    "type": "ophaalbrug",
+    "type": "draaibrug",
     "doorvaarthoogte": 1,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,560000,260000,580000 --run nl-12_13 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map wildervank-remisebrug --plaats wildervank --punt 253177,564725",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

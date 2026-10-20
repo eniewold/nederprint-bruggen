@@ -114,20 +114,21 @@
         "id": "way/552003221",
         "tags": {
           "bridge": "yes",
-          "footway": "sidewalk",
-          "highway": "footway",
+          "cycleway": "lane",
+          "hgv": "no",
+          "highway": "tertiary",
           "layer": "1",
-          "lit": "yes",
-          "smoothness": "good",
-          "surface": "asphalt",
-          "man_made": "bridge",
-          "name": "Bennebroekerbrug"
+          "maxspeed": "50",
+          "name": "Bennebroekerbrug",
+          "source:hgv": "Mapillary",
+          "source:maxspeed": "survey",
+          "man_made": "bridge"
         }
       },
       "fis": {
         "id": 34389,
         "naam": "Bennebroekerbrug",
-        "afstand": 15,
+        "afstand": 3,
         "beweegbaar": true,
         "doorvaarthoogteGesloten": 1.1099999999999999
       },
@@ -136,7 +137,7 @@
     "type": "ophaalbrug",
     "doorvaarthoogte": 1.1099999999999999,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,480000,120000,500000 --run nl-5_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map zwaanshoek-bennebroekerbrug --plaats zwaanshoek --punt 102132,481396",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -147,7 +148,7 @@
         -13.6,
         14.4
       ],
-      "portaalhoogte": 17.8,
+      "portaalhoogte": 10,
       "opritafstand": [
         20,
         20
@@ -160,6 +161,6 @@
       ]
     },
     "waarschuwingen": [],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "name": "bornerbroek-brug-d679eb09",
+  "name": "Pastoor Ossestraat",
   "file": "bornerbroek-brug-d679eb09.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,34 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/274709142",
+        "tags": {
+          "bicycle": "no",
+          "bridge": "yes",
+          "foot": "no",
+          "highway": "secondary",
+          "lane_markings": "no",
+          "layer": "1",
+          "maxspeed": "80",
+          "maxweight:signed": "no",
+          "name": "Pastoor Ossestraat",
+          "operator": "Provincie Overijssel",
+          "ref": "N741",
+          "surface": "asphalt",
+          "bridge:name": "Pastoor Ossestraatbrug",
+          "bridge:structure": "beam",
+          "man_made": "bridge",
+          "material": "concrete"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,480000,260000,500000 --run nl-12_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map bornerbroek-brug-d679eb09 --plaats bornerbroek --punt 241451,481550",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

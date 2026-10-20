@@ -1,5 +1,5 @@
 {
-  "name": "blauwestad-brug-27d4e090",
+  "name": "Watersnuffel",
   "file": "blauwestad-brug-27d4e090.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -83,14 +83,29 @@
           "type": "onbekend"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/181197036",
+        "tags": {
+          "bridge": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "mofa": "no",
+          "moped": "no",
+          "name": "Watersnuffel",
+          "segregated": "no",
+          "smoothness": "excellent",
+          "surface": "asphalt",
+          "traffic_sign": "NL:G13",
+          "width": "3.5"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 2
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 260000,560000,280000,580000 --run nl-13_13 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map blauwestad-brug-27d4e090 --plaats blauwestad --punt 265388,577478",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

@@ -13,7 +13,7 @@
     0.162211
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 41.245,
+  "groundHeight": 41.24,
   "groundSamplePoints": [
     [
       -5.49,
@@ -44,7 +44,7 @@
         0,
         0
       ],
-      "minLift": -1.43,
+      "minLift": -1.42,
       "maxLift": -0.01
     },
     {
@@ -77,9 +77,9 @@
       ],
       "halfLength": 3,
       "halfWidth": 2.9,
-      "height": 41.44,
+      "height": 41.438,
       "gradient": [
-        -0.06526,
+        -0.06599,
         0
       ],
       "minLift": 0.05,
@@ -97,14 +97,23 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1492787452",
+        "tags": {
+          "access": "private",
+          "bridge": "yes",
+          "highway": "track",
+          "layer": "1",
+          "tracktype": "grade1"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map amsterdam-brug-0a421bd3 --plaats amsterdam --punt 129362,480144",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -125,15 +134,15 @@
         {
           "gmlId": "G0363.e061193fcefd483da62f431e02b3a545",
           "klasse": "Terrain",
-          "oppervlak": 73.7,
+          "oppervlak": 36.9,
           "onderDek": 0,
-          "bovenDekOnderkant": 0.43,
+          "bovenDekOnderkant": 0.42,
           "actie": "verlagen"
         }
       ],
       "opritHoogtes": [
         41.336,
-        41.245
+        41.24
       ]
     },
     "waarschuwingen": [
@@ -141,6 +150,6 @@
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
       "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

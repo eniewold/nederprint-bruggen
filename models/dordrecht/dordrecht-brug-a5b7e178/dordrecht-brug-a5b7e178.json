@@ -1,5 +1,5 @@
 {
-  "name": "dordrecht-brug-a5b7e178",
+  "name": "Twintighoevenweg",
   "file": "dordrecht-brug-a5b7e178.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -98,14 +98,25 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/577954109",
+        "tags": {
+          "bridge": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "mofa": "yes",
+          "moped": "no",
+          "name": "Twintighoevenweg",
+          "traffic_sign": "NL:G11"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 5
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,420000,120000,440000 --run nl-5_6 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map dordrecht-brug-a5b7e178 --plaats dordrecht --punt 106785,424066",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -131,6 +142,6 @@
     "waarschuwingen": [
       "geen FIS-brug binnen 35 m"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

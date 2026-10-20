@@ -1,5 +1,5 @@
 {
-  "name": "Brug over benedenhoofd Vossenbeemd",
+  "name": "Vossenbeemd",
   "file": "helmond-brug-over-benedenhoofd-vossenbeemd.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -98,7 +98,22 @@
           "type": "onbekend"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/663861538",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "viaduct",
+          "bridge:material": "concrete",
+          "bridge:structure": "beam",
+          "highway": "secondary",
+          "lanes": "2",
+          "layer": "1",
+          "maxspeed": "50",
+          "name": "Vossenbeemd",
+          "surface": "asphalt",
+          "man_made": "bridge"
+        }
+      },
       "fis": {
         "id": 29104,
         "naam": "Brug over benedenhoofd Vossenbeemd",
@@ -111,7 +126,7 @@
     "type": "ligger",
     "doorvaarthoogte": 5.82,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,380000,180000,400000 --run nl-8_4 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map helmond-brug-over-benedenhoofd-vossenbeemd --plaats helmond --punt 176285,386514",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

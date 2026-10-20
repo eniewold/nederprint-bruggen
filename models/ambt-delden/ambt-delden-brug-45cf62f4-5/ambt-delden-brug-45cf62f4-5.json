@@ -13,7 +13,7 @@
     0.863556
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 59.522,
+  "groundHeight": 59.521,
   "groundSamplePoints": [
     [
       -7.03,
@@ -58,9 +58,9 @@
       ],
       "halfLength": 3.03,
       "halfWidth": 2.88,
-      "height": 59.767,
+      "height": 59.766,
       "gradient": [
-        -0.08072,
+        -0.0809,
         0
       ],
       "minLift": 0.05,
@@ -78,14 +78,24 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1563812972",
+        "tags": {
+          "access": "private",
+          "bridge": "yes",
+          "highway": "service",
+          "layer": "1",
+          "man_made": "bridge",
+          "bridge:movable": "drawbridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
-    "type": "ligger",
+    "type": "ophaalbrug",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,460000,260000,480000 --run nl-12_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map ambt-delden-brug-45cf62f4-5 --plaats ambt-delden --punt 245717,476281",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -105,10 +115,11 @@
       "doorstekend": [],
       "opritHoogtes": [
         59.712,
-        59.522
+        59.521
       ]
     },
     "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
     "gegenereerd": "2026-10-20"

@@ -1,5 +1,5 @@
 {
-  "name": "hoogkarspel-brug-71fc3839",
+  "name": "Streekweg",
   "file": "hoogkarspel-brug-71fc3839.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -83,14 +83,29 @@
           "type": "landhoofd"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/258666927",
+        "tags": {
+          "bicycle": "yes",
+          "bridge": "yes",
+          "cycleway": "lane",
+          "highway": "tertiary",
+          "lane_markings": "no",
+          "layer": "1",
+          "maxspeed": "50",
+          "maxweight:signed": "no",
+          "name": "Streekweg",
+          "oneway": "no",
+          "surface": "asphalt"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 2
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,520000,160000,540000 --run nl-7_11 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map hoogkarspel-brug-71fc3839 --plaats hoogkarspel --punt 140029,522822",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -116,6 +131,6 @@
     "waarschuwingen": [
       "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

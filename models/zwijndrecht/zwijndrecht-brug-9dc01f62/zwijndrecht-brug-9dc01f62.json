@@ -1,5 +1,5 @@
 {
-  "name": "zwijndrecht-brug-9dc01f62",
+  "name": "Koninginneviaduct",
   "file": "zwijndrecht-brug-9dc01f62.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -107,14 +107,40 @@
           "type": "landhoofd"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1433570035",
+        "tags": {
+          "bridge": "yes",
+          "bridge:name": "Koninginneviaduct",
+          "carriageway_ref": "Li",
+          "hazmat:B": "no",
+          "hazmat:C": "no",
+          "hazmat:D": "yes",
+          "hazmat:E": "yes",
+          "highway": "motorway",
+          "int_ref": "E 19",
+          "lanes": "4",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "100",
+          "maxspeed:type": "sign",
+          "oneway": "yes",
+          "operator": "Rijkswaterstaat",
+          "ref": "A16",
+          "surface": "asphalt",
+          "toll:hgv": "yes",
+          "zone:traffic": "NL:rural",
+          "man_made": "bridge",
+          "name": "Koninginneviaduct"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 3
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,420000,120000,440000 --run nl-5_6 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map zwijndrecht-brug-9dc01f62 --plaats zwijndrecht --punt 103231,425265",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -147,6 +173,6 @@
       "geen FIS-brug binnen 35 m",
       "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

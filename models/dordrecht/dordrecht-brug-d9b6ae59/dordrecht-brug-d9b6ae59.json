@@ -1,5 +1,5 @@
 {
-  "name": "dordrecht-brug-d9b6ae59",
+  "name": "Visbrug",
   "file": "dordrecht-brug-d9b6ae59.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -93,14 +93,34 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/620920910",
+        "tags": {
+          "access": "permissive",
+          "bicycle": "yes",
+          "bridge": "yes",
+          "bus": "yes",
+          "highway": "residential",
+          "layer": "1",
+          "maxspeed": "30",
+          "maxweight:signed": "no",
+          "name": "Visbrug",
+          "name:etymology:wikidata": "Q152",
+          "surface": "paving_stones",
+          "wikidata": "Q2555013",
+          "wikimedia_commons": "Category:Visbrug, Dordrecht",
+          "wikipedia": "nl:Visbrug (Dordrecht)",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 4
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,420000,120000,440000 --run nl-5_6 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map dordrecht-brug-d9b6ae59 --plaats dordrecht --punt 105221,425320",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -126,6 +146,6 @@
     "waarschuwingen": [
       "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

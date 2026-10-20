@@ -1,5 +1,5 @@
 {
-  "name": "gemert-brug-9350b222",
+  "name": "De Stroom",
   "file": "gemert-brug-9350b222.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -97,14 +97,24 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/744489107",
+        "tags": {
+          "bridge": "yes",
+          "highway": "residential",
+          "layer": "1",
+          "maxspeed": "30",
+          "motor_vehicle": "no",
+          "name": "De Stroom"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,380000,180000,400000 --run nl-8_4 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map gemert-brug-9350b222 --plaats gemert --punt 175844,396027",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -125,7 +135,7 @@
         {
           "gmlId": "W0654.e1b7ca08b588428db66f27a88018482b",
           "klasse": "Terrain",
-          "oppervlak": 160.6,
+          "oppervlak": 80.3,
           "onderDek": 0.02,
           "bovenDekOnderkant": 0.73,
           "actie": "verlagen"

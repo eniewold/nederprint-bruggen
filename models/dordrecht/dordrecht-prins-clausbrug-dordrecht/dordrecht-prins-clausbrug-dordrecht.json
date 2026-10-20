@@ -1,5 +1,5 @@
 {
-  "name": "Prins Clausbrug Dordrecht",
+  "name": "Prins Clausbrug",
   "file": "dordrecht-prins-clausbrug-dordrecht.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -44,7 +44,7 @@
         0,
         0
       ],
-      "minLift": -1.62,
+      "minLift": -1.61,
       "maxLift": -0.01
     },
     {
@@ -97,11 +97,32 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "relation/12856268",
+        "tags": {
+          "bicycle": "yes",
+          "bridge": "yes",
+          "bridge:name": "Prins Clausbrug",
+          "foot": "yes",
+          "highway": "path",
+          "layer": "1",
+          "motor_vehicle": "no",
+          "oneway": "no",
+          "source": "local_knowledge",
+          "surface": "paved",
+          "architect": "René van Zuuk",
+          "man_made": "bridge",
+          "name": "Prins Clausbrug",
+          "name:en": "Prince Claus Bridge",
+          "name:etymology:wikidata": "Q159609",
+          "wikidata": "Q110769565",
+          "wikipedia": "nl:Prins Clausbrug (Dordrecht)"
+        }
+      },
       "fis": {
         "id": 33724602,
         "naam": "Prins Clausbrug Dordrecht",
-        "afstand": 33,
+        "afstand": 15,
         "beweegbaar": true,
         "doorvaarthoogteGesloten": 4.25
       },
@@ -110,7 +131,7 @@
     "type": "ophaalbrug",
     "doorvaarthoogte": 4.25,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,420000,120000,440000 --run nl-5_6 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map dordrecht-prins-clausbrug-dordrecht --plaats dordrecht --punt 106102,425803",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -121,7 +142,7 @@
         -67.8,
         51.2
       ],
-      "portaalhoogte": 13.7,
+      "portaalhoogte": 7.4,
       "opritafstand": [
         20,
         20
@@ -131,9 +152,9 @@
         {
           "gmlId": "G0505.ad63f26c38184c3ce0533162500abfca",
           "klasse": "Forest",
-          "oppervlak": 21986.3,
+          "oppervlak": 14657.4,
           "onderDek": 0.01,
-          "bovenDekOnderkant": 0.62,
+          "bovenDekOnderkant": 0.61,
           "actie": "verlagen"
         }
       ],
@@ -146,6 +167,6 @@
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
       "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "name": "uitdam-brug-8abeacd5",
+  "name": "Rijperdwarsweg",
   "file": "uitdam-brug-8abeacd5.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -13,7 +13,7 @@
     -0.887451
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 41.492,
+  "groundHeight": 41.491,
   "groundSamplePoints": [
     [
       -7.32,
@@ -60,7 +60,7 @@
       "halfWidth": 2.66,
       "height": 41.708,
       "gradient": [
-        -0.06527,
+        -0.06531,
         0
       ],
       "minLift": 0.05,
@@ -78,14 +78,23 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/7039383",
+        "tags": {
+          "bridge": "yes",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Rijperdwarsweg"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map uitdam-brug-8abeacd5 --plaats uitdam --punt 132606,492983",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -105,12 +114,12 @@
       "doorstekend": [],
       "opritHoogtes": [
         41.625,
-        41.492
+        41.491
       ]
     },
     "waarschuwingen": [
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

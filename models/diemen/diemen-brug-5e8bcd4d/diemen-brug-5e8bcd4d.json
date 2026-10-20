@@ -1,5 +1,5 @@
 {
-  "name": "diemen-brug-5e8bcd4d",
+  "name": "Overdiemerweg",
   "file": "diemen-brug-5e8bcd4d.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -88,14 +88,24 @@
           "type": "landhoofd"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/7039585",
+        "tags": {
+          "access": "private",
+          "bridge": "yes",
+          "highway": "service",
+          "layer": "1",
+          "name": "Overdiemerweg",
+          "operator": "Vattenfall Nederland"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 3
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map diemen-brug-5e8bcd4d --plaats diemen --punt 129776,483521",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -121,6 +131,6 @@
     "waarschuwingen": [
       "geen FIS-brug binnen 35 m"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

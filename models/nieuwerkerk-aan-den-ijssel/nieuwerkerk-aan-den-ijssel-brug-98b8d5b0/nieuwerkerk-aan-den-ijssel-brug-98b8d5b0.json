@@ -9,18 +9,18 @@
     441161.03
   ],
   "xAxis": [
-    -0.481477,
-    -0.876459
+    -0.876459,
+    0.481477
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 41.676,
+  "groundHeight": 39.309,
   "groundSamplePoints": [
     [
-      -13.88,
+      -54.77,
       0
     ],
     [
-      13.88,
+      54.77,
       0
     ]
   ],
@@ -35,33 +35,33 @@
         441161.03
       ],
       "axis": [
-        -0.481477,
-        -0.876459
+        -0.876459,
+        0.481477
       ],
-      "halfLength": 3.15,
-      "halfWidth": 35.27,
-      "height": 40.755,
+      "halfLength": 28.77,
+      "halfWidth": 6.81,
+      "height": 41.016,
       "gradient": [
         0,
         0
       ],
-      "minLift": -2.44,
+      "minLift": -2.27,
       "maxLift": -0.01
     },
     {
       "centre": [
-        101783.31,
-        441172.09
+        101818.23,
+        441138.51
       ],
       "axis": [
-        0.481477,
-        0.876459
+        0.876459,
+        -0.481477
       ],
-      "halfLength": 6.31,
-      "halfWidth": 36.77,
-      "height": 41.866,
+      "halfLength": 12,
+      "halfWidth": 8.31,
+      "height": 42.166,
       "gradient": [
-        -0.03005,
+        -0.0125,
         0
       ],
       "minLift": 0.05,
@@ -69,18 +69,18 @@
     },
     {
       "centre": [
-        101771.16,
-        441149.97
+        101736.24,
+        441183.55
       ],
       "axis": [
-        -0.481477,
-        -0.876459
+        -0.876459,
+        0.481477
       ],
-      "halfLength": 6.31,
-      "halfWidth": 36.77,
-      "height": 41.905,
+      "halfLength": 12,
+      "halfWidth": 8.31,
+      "height": 40.812,
       "gradient": [
-        -0.02378,
+        -0.1253,
         0
       ],
       "minLift": 0.05,
@@ -116,48 +116,59 @@
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,440000,120000,460000 --run nl-5_7 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map nieuwerkerk-aan-den-ijssel-brug-98b8d5b0 --plaats nieuwerkerk-aan-den-ijssel --punt 101777,441161",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
-      "dekLengte": 12.6,
-      "dekBreedte": 69.5,
-      "brugLengte": 12.6,
-      "water": null,
-      "portaalhoogte": 62.6,
-      "opritafstand": [
-        7.6,
-        7.6
+      "dekLengte": 69.5,
+      "dekBreedte": 12.6,
+      "brugLengte": 69.5,
+      "water": [
+        -27.8,
+        -5.3
       ],
-      "oprithelling": 12.6,
+      "portaalhoogte": 11.4,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
       "doorstekend": [
         {
           "gmlId": "G1892.8b4c74e154ad4132b329da1245dd9318",
           "klasse": "Terrain",
           "oppervlak": 467.9,
-          "onderDek": 0.75,
-          "bovenDekOnderkant": 1.65,
+          "onderDek": 0.9,
+          "bovenDekOnderkant": 1.39,
           "actie": "verbergen"
+        },
+        {
+          "gmlId": "G1892.bf67f3f12ea24fae890dc6dae94b6d38",
+          "klasse": "Forest",
+          "oppervlak": 300.7,
+          "onderDek": 0,
+          "bovenDekOnderkant": 1.27,
+          "actie": "verlagen"
         },
         {
           "gmlId": "G1892.efd2dbcd8fa8483ca72099164d1883f5",
           "klasse": "Terrain",
           "oppervlak": 38.2,
-          "onderDek": 0.54,
-          "bovenDekOnderkant": 1.44,
+          "onderDek": 0.09,
+          "bovenDekOnderkant": 0.81,
           "actie": "verlagen"
         }
       ],
       "opritHoogtes": [
-        41.676,
-        41.755
+        42.016,
+        39.309
       ]
     },
     "waarschuwingen": [
-      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen FIS-brug binnen 35 m",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
-      "2 PDOK-vorm(en) door het dek: 1 verborgen, 1 verlaagd"
+      "3 PDOK-vorm(en) door het dek: 1 verborgen, 2 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

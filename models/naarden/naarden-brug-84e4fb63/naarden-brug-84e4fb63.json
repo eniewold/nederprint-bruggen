@@ -1,5 +1,5 @@
 {
-  "name": "naarden-brug-84e4fb63",
+  "name": "Oude Landweg",
   "file": "naarden-brug-84e4fb63.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -88,14 +88,29 @@
           "type": "onbekend"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/438180378",
+        "tags": {
+          "bridge": "viaduct",
+          "highway": "busway",
+          "lanes": "2",
+          "layer": "1",
+          "maxspeed": "80",
+          "maxspeed:type": "NL:rural",
+          "name": "Oude Landweg",
+          "operator": "Rijkswaterstaat",
+          "source:name": "NWB",
+          "surface": "asphalt",
+          "zone:traffic": "NL:rural"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 3
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map naarden-brug-84e4fb63 --plaats naarden --punt 137294,481449",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -119,6 +134,6 @@
       "geen FIS-brug binnen 35 m",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "name": "helmond-brug-4cf08004",
+  "name": "Lungendonksebrug",
   "file": "helmond-brug-4cf08004.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -13,7 +13,7 @@
     -0.99878
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 65.043,
+  "groundHeight": 65.036,
   "groundSamplePoints": [
     [
       -25.72,
@@ -39,9 +39,9 @@
       ],
       "halfLength": 11.69,
       "halfWidth": 5.78,
-      "height": 65.577,
+      "height": 65.574,
       "gradient": [
-        -0.04571,
+        -0.04597,
         0
       ],
       "minLift": 0.05,
@@ -78,14 +78,34 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/85729019",
+        "tags": {
+          "bridge": "yes",
+          "bridge:material": "concrete",
+          "bridge:name": "Lungendonksebrug",
+          "bridge:structure": "beam",
+          "cycleway:both": "no",
+          "description": "Maximum axial weight 1t.",
+          "highway": "unclassified",
+          "lane_markings": "no",
+          "layer": "1",
+          "maxspeed": "60",
+          "maxweight": "1",
+          "name": "Lungendonksebrug",
+          "surface": "asphalt",
+          "zone:traffic": "NL:rural",
+          "man_made": "bridge",
+          "wikidata": "Q127421174"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,380000,180000,400000 --run nl-8_4 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map helmond-brug-4cf08004 --plaats helmond --punt 174378,385346",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -104,7 +124,7 @@
       "oprithelling": 23.4,
       "doorstekend": [],
       "opritHoogtes": [
-        65.043,
+        65.036,
         65.811
       ]
     },

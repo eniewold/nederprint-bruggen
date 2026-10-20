@@ -1,5 +1,5 @@
 {
-  "name": "Slochterbrug",
+  "name": "Slochterstraat",
   "file": "sappemeer-slochterbrug.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -100,20 +100,37 @@
           "type": "pijler"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/6383285",
+        "tags": {
+          "bridge": "movable",
+          "bridge:movable": "bascule",
+          "cycleway:both": "no",
+          "highway": "tertiary",
+          "lane_markings": "no",
+          "layer": "1",
+          "maxspeed": "60",
+          "maxweight:signed": "no",
+          "name": "Slochterstraat",
+          "name:etymology:wikidata": "Q4325851",
+          "sidewalk": "both",
+          "smoothness": "good",
+          "surface": "asphalt"
+        }
+      },
       "fis": {
         "id": 50186,
         "naam": "Slochterbrug",
-        "afstand": 8,
+        "afstand": 9,
         "beweegbaar": true,
         "doorvaarthoogteGesloten": 0.7999999999999999
       },
       "pdokBridgeVlakken": 5
     },
-    "type": "ophaalbrug",
+    "type": "basculebrug",
     "doorvaarthoogte": 0.7999999999999999,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,560000,260000,580000 --run nl-12_13 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map sappemeer-slochterbrug --plaats sappemeer --punt 248767,576618",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

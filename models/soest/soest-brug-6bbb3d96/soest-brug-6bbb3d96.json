@@ -44,7 +44,7 @@
         0,
         0
       ],
-      "minLift": -1.62,
+      "minLift": -1.61,
       "maxLift": -0.01
     },
     {
@@ -97,14 +97,22 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1065200550",
+        "tags": {
+          "bridge": "yes",
+          "highway": "service",
+          "layer": "1",
+          "surface": "concrete"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,460000,160000,480000 --run nl-7_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map soest-brug-6bbb3d96 --plaats soest --punt 148811,467213",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -125,17 +133,17 @@
         {
           "gmlId": "W0662.0a25e9840bf94a19bb95254322511bc9",
           "klasse": "Terrain",
-          "oppervlak": 326.6,
+          "oppervlak": 81.9,
           "onderDek": 0.04,
-          "bovenDekOnderkant": 0.62,
+          "bovenDekOnderkant": 0.61,
           "actie": "verlagen"
         },
         {
           "gmlId": "W0662.fede21bb7788477098a3ba387a3881ab",
           "klasse": "Terrain",
-          "oppervlak": 426.7,
+          "oppervlak": 106.7,
           "onderDek": 0.01,
-          "bovenDekOnderkant": 0.42,
+          "bovenDekOnderkant": 0.4,
           "actie": "verlagen"
         }
       ],
@@ -148,6 +156,6 @@
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
       "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

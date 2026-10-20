@@ -1,5 +1,5 @@
 {
-  "name": "wierden-brug-29c622a2-12",
+  "name": "Wierdense Aa pad",
   "file": "wierden-brug-29c622a2-12.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,26 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1021639384",
+        "tags": {
+          "bicycle": "yes",
+          "bridge": "yes",
+          "foot": "yes",
+          "highway": "path",
+          "layer": "1",
+          "name": "Wierdense Aa pad",
+          "segregated": "no",
+          "surface": "wood"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,480000,240000,500000 --run nl-11_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map wierden-brug-29c622a2-12 --plaats wierden --punt 237952,486204",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

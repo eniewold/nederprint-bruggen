@@ -41,7 +41,7 @@
       ],
       "halfLength": 6.54,
       "halfWidth": 2.71,
-      "height": 43.028,
+      "height": 43.011,
       "gradient": [
         -0.02293,
         0
@@ -60,9 +60,9 @@
       ],
       "halfLength": 6.54,
       "halfWidth": 2.71,
-      "height": 42.952,
+      "height": 42.943,
       "gradient": [
-        -0.03453,
+        -0.03324,
         0
       ],
       "minLift": 0.05,
@@ -88,14 +88,22 @@
           "type": "landhoofd"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/6381666",
+        "tags": {
+          "bridge": "movable",
+          "bridge:movable": "bascule",
+          "highway": "footway",
+          "layer": "1"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 3
     },
-    "type": "ligger",
+    "type": "basculebrug",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,560000,260000,580000 --run nl-12_13 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map zuidbroek-brug-8d9bfc67 --plaats zuidbroek --punt 253681,575943",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -114,11 +122,13 @@
       "oprithelling": 13.1,
       "doorstekend": [],
       "opritHoogtes": [
-        42.878,
+        42.861,
         42.726
       ]
     },
-    "waarschuwingen": [],
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m"
+    ],
     "gegenereerd": "2026-10-20"
   }
 }

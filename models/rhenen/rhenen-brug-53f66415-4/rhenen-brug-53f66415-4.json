@@ -9,18 +9,18 @@
     445963.21
   ],
   "xAxis": [
-    0.889144,
-    0.457627
+    0.457627,
+    -0.889144
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 53.408,
+  "groundHeight": 52.698,
   "groundSamplePoints": [
     [
-      -5.56,
+      -9.17,
       0
     ],
     [
-      5.56,
+      9.17,
       0
     ]
   ],
@@ -30,37 +30,18 @@
   "terrainCorrections": [
     {
       "centre": [
-        165652.23,
-        445963.21
+        165648.41,
+        445970.62
       ],
       "axis": [
-        0.889144,
-        0.457627
+        -0.457627,
+        0.889144
       ],
-      "halfLength": 0.78,
-      "halfWidth": 4.67,
-      "height": 52.446,
+      "halfLength": 4.17,
+      "halfWidth": 2.35,
+      "height": 56.442,
       "gradient": [
-        0,
-        0
-      ],
-      "minLift": -5.59,
-      "maxLift": -0.01
-    },
-    {
-      "centre": [
-        165648.17,
-        445961.12
-      ],
-      "axis": [
-        -0.889144,
-        -0.457627
-      ],
-      "halfLength": 3,
-      "halfWidth": 6.17,
-      "height": 53.577,
-      "gradient": [
-        -0.05628,
+        -0.03598,
         0
       ],
       "minLift": 0.05,
@@ -68,18 +49,18 @@
     },
     {
       "centre": [
-        165656.28,
-        445965.3
+        165656.04,
+        445955.8
       ],
       "axis": [
-        0.889144,
-        0.457627
+        0.457627,
+        -0.889144
       ],
-      "halfLength": 3,
-      "halfWidth": 6.17,
-      "height": 53.596,
+      "halfLength": 4.17,
+      "halfWidth": 2.35,
+      "height": 54.645,
       "gradient": [
-        -0.05,
+        -0.46703,
         0
       ],
       "minLift": 0.05,
@@ -97,55 +78,43 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1030993808",
+        "tags": {
+          "bridge": "yes",
+          "highway": "footway",
+          "layer": "1"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,440000,180000,460000 --run nl-8_7 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map rhenen-brug-53f66415-4 --plaats rhenen --punt 165652,445963",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
-      "dekLengte": 3.1,
-      "dekBreedte": 8.3,
-      "brugLengte": 3.1,
+      "dekLengte": 8.3,
+      "dekBreedte": 3.1,
+      "brugLengte": 8.3,
       "water": null,
-      "portaalhoogte": 7.5,
+      "portaalhoogte": 2.8,
       "opritafstand": [
-        4,
-        4
+        5,
+        5
       ],
-      "oprithelling": 6,
-      "doorstekend": [
-        {
-          "gmlId": "G0340.80a108795e803d28e053800aa8c06af6",
-          "klasse": "Forest",
-          "oppervlak": 109,
-          "onderDek": 0.06,
-          "bovenDekOnderkant": 4.59,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "G0340.53f66414c546228be053800aa8c0da6b",
-          "klasse": "Road",
-          "oppervlak": 103.4,
-          "onderDek": 0.11,
-          "bovenDekOnderkant": 0.66,
-          "actie": "verlagen"
-        }
-      ],
+      "oprithelling": 8.3,
+      "doorstekend": [],
       "opritHoogtes": [
-        53.408,
-        53.446
+        56.292,
+        52.698
       ]
     },
     "waarschuwingen": [
-      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
-      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
-      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

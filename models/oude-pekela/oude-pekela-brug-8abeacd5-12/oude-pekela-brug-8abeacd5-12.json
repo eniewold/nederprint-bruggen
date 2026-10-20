@@ -1,5 +1,5 @@
 {
-  "name": "oude-pekela-brug-8abeacd5-12",
+  "name": "Houtstek",
   "file": "oude-pekela-brug-8abeacd5-12.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -88,14 +88,24 @@
           "type": "landhoofd"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/264915456",
+        "tags": {
+          "bridge": "movable",
+          "bridge:movable": "bascule",
+          "highway": "residential",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Houtstek"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 3
     },
-    "type": "ligger",
+    "type": "basculebrug",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 260000,560000,280000,580000 --run nl-13_13 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map oude-pekela-brug-8abeacd5-12 --plaats oude-pekela --punt 264366,570292",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -118,7 +128,9 @@
         42.588
       ]
     },
-    "waarschuwingen": [],
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m"
+    ],
     "gegenereerd": "2026-10-20"
   }
 }

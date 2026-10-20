@@ -1,5 +1,5 @@
 {
-  "name": "Evertsbrug",
+  "name": "Nijverheidsstraat",
   "file": "wildervank-evertsbrug.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -13,7 +13,7 @@
     -0.33727
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 43.849,
+  "groundHeight": 43.836,
   "groundSamplePoints": [
     [
       -17.82,
@@ -39,7 +39,7 @@
       ],
       "halfLength": 8.1,
       "halfWidth": 4.27,
-      "height": 44.134,
+      "height": 44.127,
       "gradient": [
         -0.01852,
         0
@@ -58,9 +58,9 @@
       ],
       "halfLength": 8.1,
       "halfWidth": 4.27,
-      "height": 44.067,
+      "height": 44.057,
       "gradient": [
-        -0.02691,
+        -0.0272,
         0
       ],
       "minLift": 0.05,
@@ -78,7 +78,20 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/6380680",
+        "tags": {
+          "bridge": "movable",
+          "bridge:movable": "swing",
+          "highway": "service",
+          "layer": "1",
+          "maxaxleload": "4.8",
+          "maxspeed": "50",
+          "maxweight": "4.8",
+          "name": "Nijverheidsstraat",
+          "width": "3.1"
+        }
+      },
       "fis": {
         "id": 34790,
         "naam": "Evertsbrug",
@@ -88,10 +101,10 @@
       },
       "pdokBridgeVlakken": 1
     },
-    "type": "ophaalbrug",
+    "type": "draaibrug",
     "doorvaarthoogte": 1,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,560000,260000,580000 --run nl-12_13 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map wildervank-evertsbrug --plaats wildervank --punt 254416,568339",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -110,8 +123,8 @@
       "oprithelling": 16.2,
       "doorstekend": [],
       "opritHoogtes": [
-        43.984,
-        43.849
+        43.977,
+        43.836
       ]
     },
     "waarschuwingen": [

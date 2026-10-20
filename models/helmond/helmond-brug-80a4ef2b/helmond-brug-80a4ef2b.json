@@ -1,5 +1,5 @@
 {
-  "name": "helmond-brug-80a4ef2b",
+  "name": "Raaphoeve",
   "file": "helmond-brug-80a4ef2b.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -97,14 +97,24 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/70032589",
+        "tags": {
+          "bridge": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "name": "Raaphoeve",
+          "oneway": "no",
+          "zone:traffic": "NL:urban"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,380000,180000,400000 --run nl-8_4 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map helmond-brug-80a4ef2b --plaats helmond --punt 170196,385113",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

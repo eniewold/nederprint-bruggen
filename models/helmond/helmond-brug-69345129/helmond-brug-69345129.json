@@ -1,5 +1,5 @@
 {
-  "name": "helmond-brug-69345129",
+  "name": "Veestraatbrug",
   "file": "helmond-brug-69345129.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,35 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/692846381",
+        "tags": {
+          "bridge": "movable",
+          "bridge:movable": "bascule",
+          "bridge:name": "Veestraatbrug",
+          "foot": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "lit": "yes",
+          "name": "Veestraatbrug",
+          "note": "Brug is beweegbaar, maar wordt niet meer als zodanig gebruikt, omdat er geen scheepvaart meer door het kanaal gaat.",
+          "oneway": "no",
+          "sidewalk": "both",
+          "smoothness": "excellent",
+          "surface": "asphalt",
+          "surface:colour": "rainbow",
+          "zone:traffic": "NL:urban",
+          "man_made": "bridge",
+          "wikidata": "Q130709044"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
-    "type": "ophaalbrug",
+    "type": "basculebrug",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,380000,180000,400000 --run nl-8_4 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map helmond-brug-69345129 --plaats helmond --punt 173372,387810",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

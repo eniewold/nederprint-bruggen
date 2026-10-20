@@ -88,14 +88,24 @@
           "type": "landhoofd"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/377394562",
+        "tags": {
+          "bridge:material": "artificial_rope",
+          "bridge:structure": "simple-suspension",
+          "layer": "1",
+          "man_made": "bridge",
+          "playground": "climbingframe",
+          "surface": "wood;rope;rubber"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 0
     },
-    "type": "ligger",
+    "type": "hangbrug",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,440000,140000,460000 --run nl-6_7 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map nieuwegein-brug-99d8d24c --plaats nieuwegein --punt 133892,445918",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -121,6 +131,6 @@
     "waarschuwingen": [
       "geen FIS-brug binnen 35 m"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

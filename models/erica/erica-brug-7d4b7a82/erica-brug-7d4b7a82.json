@@ -1,5 +1,5 @@
 {
-  "name": "erica-brug-7d4b7a82",
+  "name": "Peelstraat",
   "file": "erica-brug-7d4b7a82.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -122,16 +122,19 @@
         }
       ],
       "osm": {
-        "id": "way/462864703",
+        "id": "way/462864704",
         "tags": {
+          "bicycle": "use_sidepath",
           "bridge": "yes",
-          "foot": "yes",
-          "highway": "cycleway",
+          "foot": "use_sidepath",
+          "highway": "tertiary",
           "layer": "1",
-          "mofa": "designated",
-          "moped": "designated",
-          "oneway": "no",
-          "traffic_sign": "NL:G12a"
+          "maxspeed": "60",
+          "mofa": "use_sidepath",
+          "moped": "use_sidepath",
+          "name": "Peelstraat",
+          "source:maxspeed": "NL:zone60",
+          "surface": "asphalt"
         }
       },
       "fis": null,
@@ -140,7 +143,7 @@
     "type": "ophaalbrug",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,520000,260000,540000 --run nl-12_11 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map erica-brug-7d4b7a82 --plaats erica --punt 258247,523350",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -151,7 +154,7 @@
         -8.5,
         4.5
       ],
-      "portaalhoogte": 13.8,
+      "portaalhoogte": 10.8,
       "opritafstand": [
         16.1,
         16.1
@@ -161,7 +164,7 @@
         {
           "gmlId": "W0663.8abeacd5439b757600000000aa350def",
           "klasse": "Terrain",
-          "oppervlak": 1669.6,
+          "oppervlak": 371.9,
           "onderDek": 0.1,
           "bovenDekOnderkant": 0.46,
           "actie": "verlagen"

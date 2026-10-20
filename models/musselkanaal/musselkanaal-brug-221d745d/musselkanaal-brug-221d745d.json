@@ -1,5 +1,5 @@
 {
-  "name": "musselkanaal-brug-221d745d",
+  "name": "Exloërweg",
   "file": "musselkanaal-brug-221d745d.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -98,14 +98,23 @@
           "type": "landhoofd"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/36901877",
+        "tags": {
+          "bridge": "yes",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "80",
+          "name": "Exloërweg"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 5
     },
     "type": "ophaalbrug",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 260000,540000,280000,560000 --run nl-13_12 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map musselkanaal-brug-221d745d --plaats musselkanaal --punt 264255,553642",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -116,7 +125,7 @@
         -10.4,
         10.1
       ],
-      "portaalhoogte": 11.7,
+      "portaalhoogte": 11.5,
       "opritafstand": [
         20,
         20

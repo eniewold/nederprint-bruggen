@@ -1,5 +1,5 @@
 {
-  "name": "Heinoomsbrug",
+  "name": "Dorpsstraat",
   "file": "wilnis-heinoomsbrug.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,11 +78,21 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/328020802",
+        "tags": {
+          "bridge": "yes",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Dorpsstraat",
+          "zone:traffic": "NL:urban"
+        }
+      },
       "fis": {
         "id": 30808,
         "naam": "Heinoomsbrug",
-        "afstand": 4,
+        "afstand": 5,
         "beweegbaar": true,
         "doorvaarthoogteGesloten": 0.9
       },
@@ -91,7 +101,7 @@
     "type": "ophaalbrug",
     "doorvaarthoogte": 0.9,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,460000,140000,480000 --run nl-6_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map wilnis-heinoomsbrug --plaats wilnis --punt 121802,467549",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -117,6 +127,6 @@
     "waarschuwingen": [
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

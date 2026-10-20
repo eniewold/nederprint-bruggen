@@ -97,14 +97,23 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/255522759",
+        "tags": {
+          "access": "customers",
+          "bridge": "yes",
+          "highway": "footway",
+          "layer": "1",
+          "lit": "no"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,440000,160000,460000 --run nl-7_7 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map bunnik-brug-5c964cd2 --plaats bunnik --punt 143288,453005",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -125,7 +134,7 @@
         {
           "gmlId": "W0636.9ff707bf1b2848b4b13dc5a49be0c70a",
           "klasse": "Terrain",
-          "oppervlak": 832,
+          "oppervlak": 416.1,
           "onderDek": 0.01,
           "bovenDekOnderkant": 0.4,
           "actie": "verlagen"
@@ -140,6 +149,6 @@
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
       "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

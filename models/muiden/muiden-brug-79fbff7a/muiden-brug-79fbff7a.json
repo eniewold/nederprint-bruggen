@@ -1,5 +1,5 @@
 {
-  "name": "muiden-brug-79fbff7a",
+  "name": "De Stolpen",
   "file": "muiden-brug-79fbff7a.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -122,14 +122,23 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/783481203",
+        "tags": {
+          "bridge": "viaduct",
+          "bridge:structure": "beam",
+          "layer": "1",
+          "man_made": "bridge",
+          "name": "De Stolpen"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 6
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map muiden-brug-79fbff7a --plaats muiden --punt 130366,482754",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -195,6 +204,6 @@
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
       "5 PDOK-vorm(en) door het dek: 0 verborgen, 5 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

@@ -78,7 +78,25 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/692854703",
+        "tags": {
+          "bridge": "movable",
+          "bridge:movable": "bascule",
+          "bridge:name": "Donksebrug",
+          "highway": "tertiary",
+          "lane_markings": "no",
+          "layer": "1",
+          "maxspeed": "30",
+          "maxweight:signed": "no",
+          "name": "Donksebrug",
+          "surface": "asphalt",
+          "width": "5",
+          "zone:traffic": "NL:urban",
+          "man_made": "bridge",
+          "wikidata": "Q130709800"
+        }
+      },
       "fis": {
         "id": 51998,
         "naam": "Donksebrug",
@@ -88,10 +106,10 @@
       },
       "pdokBridgeVlakken": 1
     },
-    "type": "ophaalbrug",
+    "type": "basculebrug",
     "doorvaarthoogte": 1.9,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,380000,180000,400000 --run nl-8_4 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map beek-en-donk-donksebrug --plaats beek-en-donk --punt 171900,394570",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

@@ -1,5 +1,5 @@
 {
-  "name": "breukeleveen-brug-30b4d96f",
+  "name": "Herenweg",
   "file": "breukeleveen-brug-30b4d96f.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -40,7 +40,7 @@
       ],
       "halfLength": 1.53,
       "halfWidth": 2.45,
-      "height": 42.364,
+      "height": 42.359,
       "gradient": [
         0,
         0
@@ -59,9 +59,9 @@
       ],
       "halfLength": 3.8,
       "halfWidth": 2.93,
-      "height": 43.454,
+      "height": 43.451,
       "gradient": [
-        -0.05522,
+        -0.05455,
         0
       ],
       "minLift": 0.05,
@@ -78,7 +78,7 @@
       ],
       "halfLength": 3.8,
       "halfWidth": 2.93,
-      "height": 43.514,
+      "height": 43.509,
       "gradient": [
         -0.03943,
         0
@@ -102,14 +102,25 @@
           "type": "landhoofd"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/7066671",
+        "tags": {
+          "bridge": "yes",
+          "cycleway": "shared_lane",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Herenweg",
+          "surface": "asphalt"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 2
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,460000,140000,480000 --run nl-6_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map breukeleveen-brug-30b4d96f --plaats breukeleveen --punt 133308,464868",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -130,7 +141,7 @@
         {
           "gmlId": "G1696.3dd7d479dc1640f08454983e5d194bb8",
           "klasse": "Terrain",
-          "oppervlak": 4831.5,
+          "oppervlak": 1207.7,
           "onderDek": 0,
           "bovenDekOnderkant": 0.46,
           "actie": "verlagen"
@@ -140,18 +151,18 @@
           "klasse": "Terrain",
           "oppervlak": 35.2,
           "onderDek": 0.03,
-          "bovenDekOnderkant": 0.45,
+          "bovenDekOnderkant": 0.46,
           "actie": "verlagen"
         }
       ],
       "opritHoogtes": [
         43.244,
-        43.364
+        43.359
       ]
     },
     "waarschuwingen": [
       "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

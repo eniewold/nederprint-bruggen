@@ -1,5 +1,5 @@
 {
-  "name": "hengelo-brug-02235c47",
+  "name": "Schildsweg",
   "file": "hengelo-brug-02235c47.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -80,14 +80,29 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/6669645",
+        "tags": {
+          "bridge": "yes",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxspeed": "60",
+          "mofa": "yes",
+          "moped": "yes",
+          "motor_vehicle": "destination",
+          "name": "Schildsweg",
+          "note": "Gesloten \"uitgezonderd aanwonenden en exploitatie aanliggende percelen\"",
+          "source:maxspeed": "NL:zone60",
+          "surface": "asphalt"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,460000,260000,480000 --run nl-12_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map hengelo-brug-02235c47 --plaats hengelo --punt 248755,478431",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

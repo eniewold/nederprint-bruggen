@@ -1,5 +1,5 @@
 {
-  "name": "blauwestad-brug-c4d196ef",
+  "name": "Maanwaterjuffer",
   "file": "blauwestad-brug-c4d196ef.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -65,14 +65,26 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1084633945",
+        "tags": {
+          "bicycle": "dismount",
+          "bridge": "movable",
+          "bridge:movable": "swing",
+          "foot": "yes",
+          "highway": "footway",
+          "layer": "1",
+          "name": "Maanwaterjuffer",
+          "surface": "wood"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 3
     },
-    "type": "ophaalbrug",
+    "type": "draaibrug",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 260000,560000,280000,580000 --run nl-13_13 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map blauwestad-brug-c4d196ef --plaats blauwestad --punt 265337,576655",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

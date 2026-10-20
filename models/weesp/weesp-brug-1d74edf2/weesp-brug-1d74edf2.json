@@ -1,5 +1,5 @@
 {
-  "name": "weesp-brug-1d74edf2",
+  "name": "Slijkstraatbrug",
   "file": "weesp-brug-1d74edf2.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -90,14 +90,27 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/832921198",
+        "tags": {
+          "bridge": "yes",
+          "highway": "residential",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Slijkstraatbrug",
+          "surface": "paving_stones",
+          "man_made": "bridge",
+          "source:name": "BAG/BGT",
+          "bridge:movable": "bascule"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 3
     },
-    "type": "ligger",
+    "type": "basculebrug",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map weesp-brug-1d74edf2 --plaats weesp --punt 131327,480095",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -122,8 +135,9 @@
     },
     "waarschuwingen": [
       "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen FIS-brug binnen 35 m",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

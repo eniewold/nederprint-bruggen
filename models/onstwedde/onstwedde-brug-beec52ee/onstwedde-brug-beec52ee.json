@@ -1,5 +1,5 @@
 {
-  "name": "onstwedde-brug-beec52ee",
+  "name": "Sluisweg",
   "file": "onstwedde-brug-beec52ee.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -88,14 +88,23 @@
           "type": "landhoofd"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/6369794",
+        "tags": {
+          "bridge": "yes",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxspeed": "80",
+          "name": "Sluisweg"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 3
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 260000,560000,280000,580000 --run nl-13_13 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map onstwedde-brug-beec52ee --plaats onstwedde --punt 267723,561105",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

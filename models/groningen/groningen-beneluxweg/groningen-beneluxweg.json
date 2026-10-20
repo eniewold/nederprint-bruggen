@@ -1,5 +1,5 @@
 {
-  "name": "Beneluxweg",
+  "name": "Beijumerbrug",
   "file": "groningen-beneluxweg.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -9,18 +9,18 @@
     585271.65
   ],
   "xAxis": [
-    -0.48687,
-    -0.873475
+    -0.873475,
+    0.48687
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 40.266,
+  "groundHeight": 44.752,
   "groundSamplePoints": [
     [
-      -31.54,
+      -46.51,
       0
     ],
     [
-      31.54,
+      46.51,
       0
     ]
   ],
@@ -50,33 +50,33 @@
         585271.65
       ],
       "axis": [
-        -0.48687,
-        -0.873475
+        -0.873475,
+        0.48687
       ],
-      "halfLength": 8.33,
-      "halfWidth": 27.01,
-      "height": 39.762,
+      "halfLength": 20.51,
+      "halfWidth": 14.83,
+      "height": 43.935,
       "gradient": [
         0,
         0
       ],
-      "minLift": -5.88,
+      "minLift": -1.16,
       "maxLift": -0.01
     },
     {
       "centre": [
-        234548.29,
-        585294.65
+        234569.1,
+        585252.9
       ],
       "axis": [
-        0.48687,
-        0.873475
+        0.873475,
+        -0.48687
       ],
       "halfLength": 12,
-      "halfWidth": 28.51,
-      "height": 40.664,
+      "halfWidth": 16.33,
+      "height": 44.994,
       "gradient": [
-        -0.03314,
+        -0.02012,
         0
       ],
       "minLift": 0.05,
@@ -84,16 +84,16 @@
     },
     {
       "centre": [
-        234522.65,
-        585248.65
+        234501.83,
+        585290.4
       ],
       "axis": [
-        -0.48687,
-        -0.873475
+        -0.873475,
+        0.48687
       ],
       "halfLength": 12,
-      "halfWidth": 28.51,
-      "height": 40.912,
+      "halfWidth": 16.33,
+      "height": 45.085,
       "gradient": [
         -0.0125,
         0
@@ -204,7 +204,7 @@
       "fis": {
         "id": 4901,
         "naam": "Beijumerbrug (in Beneluxweg)",
-        "afstand": 10,
+        "afstand": 12,
         "beweegbaar": false,
         "doorvaarthoogteGesloten": 4.18
       },
@@ -213,134 +213,48 @@
     "type": "ligger",
     "doorvaarthoogte": 4.18,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,580000,240000,600000 --run nl-11_14 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map groningen-beneluxweg --plaats groningen --punt 234535,585272",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
-      "dekLengte": 28.7,
-      "dekBreedte": 53,
-      "brugLengte": 28.7,
-      "water": null,
-      "portaalhoogte": 47.7,
+      "dekLengte": 53,
+      "dekBreedte": 28.7,
+      "brugLengte": 53,
+      "water": [
+        -17.5,
+        -1
+      ],
+      "portaalhoogte": 25.8,
       "opritafstand": [
-        17.2,
-        17.2
+        20,
+        20
       ],
       "oprithelling": 24,
       "doorstekend": [
         {
-          "gmlId": "G0014.404f925c371e0015e053660013ac6945",
+          "gmlId": "G0014.404f925bc4f00015e053660013ac6945",
           "klasse": "Terrain",
-          "oppervlak": 26.5,
-          "onderDek": 0.6,
-          "bovenDekOnderkant": 4.88,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "P0020.5925f0c086594e5b901258e838acccb0",
-          "klasse": "Terrain",
-          "oppervlak": 180.7,
-          "onderDek": 0.52,
-          "bovenDekOnderkant": 4.8,
+          "oppervlak": 1935.5,
+          "onderDek": 0.17,
+          "bovenDekOnderkant": 0.16,
           "actie": "verlagen"
         },
         {
           "gmlId": "G0014.404f925a88f40015e053660013ac6945",
           "klasse": "Terrain",
-          "oppervlak": 4150.3,
-          "onderDek": 0.04,
-          "bovenDekOnderkant": 4.53,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "G0014.404f925bc4f00015e053660013ac6945",
-          "klasse": "Terrain",
-          "oppervlak": 1626.7,
-          "onderDek": 0.12,
-          "bovenDekOnderkant": 4.33,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "P0020.d33ad7ea9e6c4d888aaf208997dafaa7",
-          "klasse": "Separation",
-          "oppervlak": 226.8,
-          "onderDek": 0.16,
-          "bovenDekOnderkant": 4.1,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "P0020.951c97688cf74428b817976153318b69",
-          "klasse": "Terrain",
-          "oppervlak": 151.8,
-          "onderDek": 0.2,
-          "bovenDekOnderkant": 2.76,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "P0020.31bf3e66b6e540489d81ada271174941",
-          "klasse": "Terrain",
-          "oppervlak": 34,
-          "onderDek": 0.21,
-          "bovenDekOnderkant": 2.76,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "G0014.b72bc7db497b3352e053660013ac402d",
-          "klasse": "Terrain",
-          "oppervlak": 1235.6,
-          "onderDek": 0.13,
-          "bovenDekOnderkant": 1.76,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "P0020.bb5002f22f804b5b8295f85aa2096249",
-          "klasse": "Road",
-          "oppervlak": 21198.4,
-          "onderDek": 0.06,
-          "bovenDekOnderkant": 1.36,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "G0014.404f925ac22e0015e053660013ac6945",
-          "klasse": "Road",
-          "oppervlak": 1523.1,
-          "onderDek": 0.16,
-          "bovenDekOnderkant": 1.35,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "P0020.a360464ac32540f084990194258090b0",
-          "klasse": "Separation",
-          "oppervlak": 443.6,
-          "onderDek": 0.16,
-          "bovenDekOnderkant": 1.33,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "G0014.8952be366db0a4b7e053660013ac63df",
-          "klasse": "Road",
-          "oppervlak": 4096.5,
-          "onderDek": 0.07,
-          "bovenDekOnderkant": 1.21,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "G0014.404f925c87390015e053660013ac6945",
-          "klasse": "Forest",
-          "oppervlak": 3887,
-          "onderDek": 0.08,
-          "bovenDekOnderkant": 1.09,
+          "oppervlak": 5514.3,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.15,
           "actie": "verlagen"
         }
       ],
       "opritHoogtes": [
-        40.266,
-        40.762
+        44.752,
+        44.935
       ]
     },
     "waarschuwingen": [
-      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
-      "13 PDOK-vorm(en) door het dek: 0 verborgen, 13 verlaagd"
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
     ],
     "gegenereerd": "2026-10-20"
   }

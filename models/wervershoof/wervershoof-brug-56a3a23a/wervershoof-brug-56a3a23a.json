@@ -9,18 +9,14 @@
     526899.98
   ],
   "xAxis": [
-    -0.271669,
-    0.962391
+    0.962391,
+    0.271669
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 41.238,
+  "groundHeight": 39.914,
   "groundSamplePoints": [
     [
-      -6.41,
-      0
-    ],
-    [
-      6.41,
+      8.52,
       0
     ]
   ],
@@ -34,52 +30,33 @@
         526899.98
       ],
       "axis": [
-        -0.271669,
-        0.962391
+        0.962391,
+        0.271669
       ],
-      "halfLength": 1.21,
-      "halfWidth": 4.37,
-      "height": 40.559,
+      "halfLength": 1.94,
+      "halfWidth": 2.91,
+      "height": 38.914,
       "gradient": [
         0,
         0
       ],
-      "minLift": -1.69,
+      "minLift": -3.32,
       "maxLift": -0.01
     },
     {
       "centre": [
-        139719.91,
-        526894.77
+        139725.9,
+        526902.09
       ],
       "axis": [
-        0.271669,
-        -0.962391
+        0.962391,
+        0.271669
       ],
-      "halfLength": 3,
-      "halfWidth": 5.81,
-      "height": 41.549,
+      "halfLength": 3.87,
+      "halfWidth": 3.62,
+      "height": 40.064,
       "gradient": [
-        -0.10345,
-        0
-      ],
-      "minLift": 0.05,
-      "maxLift": 4
-    },
-    {
-      "centre": [
-        139716.97,
-        526905.19
-      ],
-      "axis": [
-        -0.271669,
-        0.962391
-      ],
-      "halfLength": 3,
-      "halfWidth": 5.81,
-      "height": 41.709,
-      "gradient": [
-        -0.05,
+        -0.03872,
         0
       ],
       "minLift": 0.05,
@@ -97,44 +74,50 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/909278291",
+        "tags": {
+          "layer": "1",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,520000,140000,540000 --run nl-6_11 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map wervershoof-brug-56a3a23a --plaats wervershoof --punt 139718,526900",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
-      "dekLengte": 4.8,
-      "dekBreedte": 7.7,
-      "brugLengte": 4.8,
+      "dekLengte": 7.7,
+      "dekBreedte": 4.8,
+      "brugLengte": 7.7,
       "water": null,
-      "portaalhoogte": 7,
+      "portaalhoogte": 4.3,
       "opritafstand": [
-        4,
-        4
+        13.9,
+        4.6
       ],
-      "oprithelling": 6,
+      "oprithelling": 7.7,
       "doorstekend": [
         {
           "gmlId": "G0420.f105ed0b176943a69e8476eb6d3f4690",
           "klasse": "Terrain",
-          "oppervlak": 5074.9,
+          "oppervlak": 5527.5,
           "onderDek": 0.01,
-          "bovenDekOnderkant": 0.69,
+          "bovenDekOnderkant": 2.32,
           "actie": "verlagen"
         }
       ],
       "opritHoogtes": [
-        41.238,
-        41.559
+        null,
+        39.914
       ]
     },
     "waarschuwingen": [
-      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "oprit - zonder PDOK-maaiveld",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
       "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
     ],

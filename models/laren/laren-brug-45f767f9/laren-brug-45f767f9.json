@@ -1,5 +1,5 @@
 {
-  "name": "laren-brug-45f767f9",
+  "name": "Vredelaan",
   "file": "laren-brug-45f767f9.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,31 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/973139568",
+        "tags": {
+          "bridge": "yes",
+          "cycleway": "lane",
+          "cycleway:lane": "advisory",
+          "highway": "residential",
+          "lane_markings": "no",
+          "layer": "1",
+          "maxspeed": "50",
+          "maxweight": "45",
+          "name": "Vredelaan",
+          "sidewalk": "both",
+          "surface": "asphalt",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,460000,160000,480000 --run nl-7_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map laren-brug-45f767f9 --plaats laren --punt 143635,472754",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -109,6 +126,6 @@
       "geen FIS-brug binnen 35 m",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

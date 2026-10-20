@@ -1,5 +1,5 @@
 {
-  "name": "almelo-brug-3874f35a",
+  "name": "Dikkersweg",
   "file": "almelo-brug-3874f35a.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -118,14 +118,26 @@
           "type": "pijler"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/55584575",
+        "tags": {
+          "bridge": "yes",
+          "highway": "unclassified",
+          "lane_markings": "no",
+          "layer": "1",
+          "maxspeed": "50",
+          "maxweight:signed": "no",
+          "name": "Dikkersweg",
+          "surface": "asphalt"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 9
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,480000,260000,500000 --run nl-12_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map almelo-brug-3874f35a --plaats almelo --punt 241052,487880",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

@@ -1,5 +1,5 @@
 {
-  "name": "Fietsbrug Ter Apel",
+  "name": "Brug Hoofdkade",
   "file": "ter-apel-fietsbrug-ter-apel.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,20 +78,37 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/286853227",
+        "tags": {
+          "bicycle": "yes",
+          "bridge": "movable",
+          "bridge:movable": "swing",
+          "foot": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "mofa": "no",
+          "moped": "no",
+          "name": "Brug Hoofdkade",
+          "segregated": "no",
+          "smoothness": "intermediate",
+          "surface": "wood",
+          "traffic_sign": "NL:G13"
+        }
+      },
       "fis": {
         "id": 31693,
         "naam": "Fietsbrug Ter Apel",
-        "afstand": 2,
+        "afstand": 1,
         "beweegbaar": true,
         "doorvaarthoogteGesloten": 1
       },
       "pdokBridgeVlakken": 1
     },
-    "type": "ophaalbrug",
+    "type": "draaibrug",
     "doorvaarthoogte": 1,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 260000,540000,280000,560000 --run nl-13_12 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map ter-apel-fietsbrug-ter-apel --plaats ter-apel --punt 267734,544259",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

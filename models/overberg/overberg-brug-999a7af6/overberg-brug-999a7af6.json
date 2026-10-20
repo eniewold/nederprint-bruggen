@@ -1,5 +1,5 @@
 {
-  "name": "overberg-brug-999a7af6",
+  "name": "Slaperdijk",
   "file": "overberg-brug-999a7af6.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -98,14 +98,25 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/897995084",
+        "tags": {
+          "bridge": "yes",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Slaperdijk",
+          "surface": "asphalt",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 5
     },
     "type": "ophaalbrug",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,440000,180000,460000 --run nl-8_7 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map overberg-brug-999a7af6 --plaats overberg --punt 164697,450218",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -131,6 +142,6 @@
     "waarschuwingen": [
       "geen FIS-brug binnen 35 m"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

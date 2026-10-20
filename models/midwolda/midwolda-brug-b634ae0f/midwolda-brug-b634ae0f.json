@@ -1,5 +1,5 @@
 {
-  "name": "midwolda-brug-b634ae0f",
+  "name": "Boslaan",
   "file": "midwolda-brug-b634ae0f.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -88,14 +88,25 @@
           "type": "landhoofd"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/130438143",
+        "tags": {
+          "bridge": "yes",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxspeed": "80",
+          "name": "Boslaan",
+          "smoothness": "intermediate",
+          "surface": "paved"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 3
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 260000,560000,280000,580000 --run nl-13_13 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map midwolda-brug-b634ae0f --plaats midwolda --punt 262534,577645",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

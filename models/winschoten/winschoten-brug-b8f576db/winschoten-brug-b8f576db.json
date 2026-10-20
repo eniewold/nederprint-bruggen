@@ -98,14 +98,38 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/992270655",
+        "tags": {
+          "bridge": "yes",
+          "carriageway_ref": "d",
+          "highway": "motorway_link",
+          "junction:ref": "47",
+          "lanes": "2",
+          "layer": "2",
+          "lit": "no",
+          "maxspeed": "130",
+          "maxspeed:type": "NL:motorway",
+          "motorway": "yes",
+          "note:maxspeed": "Counterintuitively, the maxspeed on this on-ramp is 130 km/h instead of the lower speed posted on the main road due to it having only a G1 (start motorway) sign at the start",
+          "note:maxspeed:url": "https://wiki.openstreetmap.org/wiki/Reduced_speed_limit_on_Dutch_motorways",
+          "oneway": "yes",
+          "operator": "Rijkswaterstaat",
+          "ref": "A7",
+          "surface": "asphalt",
+          "toll:hgv": "yes",
+          "turn:lanes": "merge_to_right|none",
+          "zone:traffic": "NL:rural",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 260000,560000,280000,580000 --run nl-13_13 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map winschoten-brug-b8f576db --plaats winschoten --punt 266534,575711",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

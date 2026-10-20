@@ -1,5 +1,5 @@
 {
-  "name": "driebergen-rijsenburg-brug-b0d914d9",
+  "name": "Boterbloem",
   "file": "driebergen-rijsenburg-brug-b0d914d9.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,25 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/104126566",
+        "tags": {
+          "bridge": "yes",
+          "highway": "residential",
+          "layer": "1",
+          "maxspeed": "50",
+          "maxweight": "30",
+          "name": "Boterbloem",
+          "surface": "wood"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ophaalbrug",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,440000,160000,460000 --run nl-7_7 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map driebergen-rijsenburg-brug-b0d914d9 --plaats driebergen-rijsenburg --punt 146850,451762",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -96,7 +107,7 @@
         -3.1,
         2.9
       ],
-      "portaalhoogte": 5.6,
+      "portaalhoogte": 4.8,
       "opritafstand": [
         7.3,
         7.3
@@ -112,6 +123,6 @@
       "geen FIS-brug binnen 35 m",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

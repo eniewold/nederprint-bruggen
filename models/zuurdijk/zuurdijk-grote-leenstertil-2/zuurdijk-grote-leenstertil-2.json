@@ -1,5 +1,5 @@
 {
-  "name": "Grote Leenstertil",
+  "name": "Leenstertillen",
   "file": "zuurdijk-grote-leenstertil-2.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -13,7 +13,7 @@
     -0.893633
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 41.339,
+  "groundHeight": 41.328,
   "groundSamplePoints": [
     [
       -32.88,
@@ -77,9 +77,9 @@
       ],
       "halfLength": 12,
       "halfWidth": 6.73,
-      "height": 41.581,
+      "height": 41.576,
       "gradient": [
-        -0.02019,
+        -0.02063,
         0
       ],
       "minLift": 0.05,
@@ -97,11 +97,31 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/665896312",
+        "tags": {
+          "bridge": "yes",
+          "bridge:name": "Grote Leenstertil",
+          "cycleway": "no",
+          "highway": "tertiary",
+          "lane_markings": "no",
+          "lanes": "2",
+          "layer": "1",
+          "maxspeed": "80",
+          "maxweight:signed": "no",
+          "name": "Leenstertillen",
+          "oneway": "no",
+          "smoothness": "good",
+          "surface": "asphalt",
+          "area": "yes",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
       "fis": {
         "id": 56304,
         "naam": "Grote Leenstertil",
-        "afstand": 4,
+        "afstand": 5,
         "beweegbaar": false,
         "doorvaarthoogteGesloten": 2.5100000000000002
       },
@@ -110,7 +130,7 @@
     "type": "ligger",
     "doorvaarthoogte": 2.5100000000000002,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,580000,240000,600000 --run nl-11_14 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map zuurdijk-grote-leenstertil-2 --plaats zuurdijk --punt 220392,596575",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -139,7 +159,7 @@
       ],
       "opritHoogtes": [
         41.523,
-        41.339
+        41.328
       ]
     },
     "waarschuwingen": [

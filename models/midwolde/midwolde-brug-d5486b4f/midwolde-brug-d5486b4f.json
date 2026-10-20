@@ -1,5 +1,5 @@
 {
-  "name": "midwolde-brug-d5486b4f",
+  "name": "Pasop",
   "file": "midwolde-brug-d5486b4f.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,31 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/6458149",
+        "tags": {
+          "bridge": "yes",
+          "bridge:name": "Auwematil",
+          "cycleway": "no",
+          "highway": "secondary",
+          "lanes": "1",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Pasop",
+          "operator": "Provincie Groningen",
+          "priority": "backward",
+          "ref": "N978",
+          "smoothness": "good",
+          "surface": "asphalt"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,580000,240000,600000 --run nl-11_14 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map midwolde-brug-d5486b4f --plaats midwolde --punt 221961,581250",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

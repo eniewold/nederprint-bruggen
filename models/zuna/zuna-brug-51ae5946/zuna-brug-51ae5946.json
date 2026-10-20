@@ -1,5 +1,5 @@
 {
-  "name": "zuna-brug-51ae5946",
+  "name": "Provincialeweg Zuna",
   "file": "zuna-brug-51ae5946.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -13,7 +13,7 @@
     -0.728128
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 52.601,
+  "groundHeight": 52.6,
   "groundSamplePoints": [
     [
       -23.85,
@@ -41,7 +41,7 @@
       "halfWidth": 7.38,
       "height": 52.805,
       "gradient": [
-        -0.01884,
+        -0.01886,
         0
       ],
       "minLift": 0.05,
@@ -78,14 +78,32 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/129458288",
+        "tags": {
+          "agricultural": "no",
+          "bicycle": "no",
+          "bridge": "yes",
+          "foot": "no",
+          "highway": "primary",
+          "lanes": "2",
+          "layer": "1",
+          "maxspeed": "80",
+          "mofa": "no",
+          "moped": "no",
+          "name": "Provincialeweg Zuna",
+          "operator": "Provincie Overijssel",
+          "ref": "N347",
+          "surface": "asphalt"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,480000,240000,500000 --run nl-11_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map zuna-brug-51ae5946 --plaats zuna --punt 230440,483854",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -104,7 +122,7 @@
       "oprithelling": 21.7,
       "doorstekend": [],
       "opritHoogtes": [
-        52.601,
+        52.6,
         52.709
       ]
     },

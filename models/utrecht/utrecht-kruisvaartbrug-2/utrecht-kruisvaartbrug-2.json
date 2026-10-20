@@ -13,15 +13,15 @@
     -0.596632
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 50.372,
+  "groundHeight": 50.307,
   "groundSamplePoints": [
     [
-      -20.34,
-      0.64
+      -10.35,
+      0
     ],
     [
-      20.35,
-      5.88
+      10.35,
+      0
     ]
   ],
   "replacesTerrain": [
@@ -39,12 +39,12 @@
       ],
       "halfLength": 5.17,
       "halfWidth": 14.55,
-      "height": 49.515,
+      "height": 49.011,
       "gradient": [
         0,
         0
       ],
-      "minLift": -2.15,
+      "minLift": -2.66,
       "maxLift": -0.01
     },
     {
@@ -58,9 +58,9 @@
       ],
       "halfLength": 10.35,
       "halfWidth": 16.05,
-      "height": 50.593,
+      "height": 50.311,
       "gradient": [
-        -0.02137,
+        0,
         0
       ],
       "minLift": 0.05,
@@ -77,9 +77,9 @@
       ],
       "halfLength": 10.35,
       "halfWidth": 16.05,
-      "height": 50.665,
+      "height": 50.309,
       "gradient": [
-        -0.0145,
+        -0.00022,
         0
       ],
       "minLift": 0.05,
@@ -136,7 +136,7 @@
       "naam": "Kruisvaartbrug",
       "straal": 40
     },
-    "opdracht": "node scripts/bridges/genereer.mjs --uit C:/Users/edwar/AppData/Local/Temp/claude/C--Users-edwar-source-Repos-nederprint/3bd9e161-d515-4f1b-bfbf-c9cc2320f835/scratchpad/rail-batch5 --map kruisvaartbrug-2 --plaats utrecht --punt 136717.71,454576.68 --naam Kruisvaartbrug --straal 40",
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 126435,448710,141834,461610 --run utrecht-2026-10-20 --overschrijf 1 --parallel 5",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -146,9 +146,10 @@
       "water": null,
       "portaalhoogte": 25.3,
       "opritafstand": [
-        10,
-        10
+        0,
+        0
       ],
+      "spoorhoogteBron": "prorail-pvs",
       "oprithelling": 20.7,
       "doorstekend": [
         {
@@ -156,7 +157,7 @@
           "klasse": "Road",
           "oppervlak": 482.9,
           "onderDek": 0.49,
-          "bovenDekOnderkant": 1.15,
+          "bovenDekOnderkant": 1.66,
           "actie": "verlagen"
         },
         {
@@ -164,13 +165,13 @@
           "klasse": "Road",
           "oppervlak": 70.5,
           "onderDek": 0.13,
-          "bovenDekOnderkant": 0.18,
+          "bovenDekOnderkant": 0.69,
           "actie": "verlagen"
         }
       ],
       "opritHoogtes": [
-        50.372,
-        50.515
+        50.311,
+        50.307
       ]
     },
     "waarschuwingen": [
@@ -178,6 +179,6 @@
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
       "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
     ],
-    "gegenereerd": "2026-10-17"
+    "gegenereerd": "2026-10-20"
   }
 }

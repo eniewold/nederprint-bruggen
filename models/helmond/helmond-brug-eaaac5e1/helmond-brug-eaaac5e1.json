@@ -1,5 +1,5 @@
 {
-  "name": "helmond-brug-eaaac5e1",
+  "name": "Spoormakerserf",
   "file": "helmond-brug-eaaac5e1.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -13,7 +13,7 @@
     0.979297
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 62.78,
+  "groundHeight": 62.774,
   "groundSamplePoints": [
     [
       -20.08,
@@ -58,9 +58,9 @@
       ],
       "halfLength": 9.13,
       "halfWidth": 3.71,
-      "height": 62.981,
+      "height": 62.978,
       "gradient": [
-        -0.02201,
+        -0.02233,
         0
       ],
       "minLift": 0.05,
@@ -78,14 +78,31 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/872792971",
+        "tags": {
+          "bridge": "yes",
+          "foot": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "lit": "no",
+          "name": "Spoormakerserf",
+          "oneway": "no",
+          "segregated": "no",
+          "source:name": "Stickers op lantaarnpalen (van Gemeente Helmond)",
+          "surface": "asphalt",
+          "zone:traffic": "NL:urban",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,380000,180000,400000 --run nl-8_4 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map helmond-brug-eaaac5e1 --plaats helmond --punt 170551,385991",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -105,7 +122,7 @@
       "doorstekend": [],
       "opritHoogtes": [
         62.881,
-        62.78
+        62.774
       ]
     },
     "waarschuwingen": [

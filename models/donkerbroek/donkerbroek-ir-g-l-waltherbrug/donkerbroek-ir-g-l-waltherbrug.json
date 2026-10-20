@@ -1,5 +1,5 @@
 {
-  "name": "Ir. G.L. Waltherbrug",
+  "name": "Petersburg",
   "file": "donkerbroek-ir-g-l-waltherbrug.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -46,7 +46,7 @@
         0,
         0
       ],
-      "minLift": -1.41,
+      "minLift": -1.4,
       "maxLift": -0.01
     },
     {
@@ -99,11 +99,23 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/6468827",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "yes",
+          "foot": "use_sidepath",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "60",
+          "mofa": "use_sidepath",
+          "name": "Petersburg"
+        }
+      },
       "fis": {
         "id": 25702,
         "naam": "Ir. G.L. Waltherbrug",
-        "afstand": 4,
+        "afstand": 3,
         "beweegbaar": false,
         "doorvaarthoogteGesloten": 4
       },
@@ -112,7 +124,7 @@
     "type": "ligger",
     "doorvaarthoogte": 4,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 200000,540000,220000,560000 --run nl-10_12 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map donkerbroek-ir-g-l-waltherbrug --plaats donkerbroek --punt 211577,559690",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -133,9 +145,9 @@
         {
           "gmlId": "G0085.197f8917dbe442c7b6729ecfba4a215f",
           "klasse": "Terrain",
-          "oppervlak": 2875.8,
+          "oppervlak": 1917.1,
           "onderDek": 0,
-          "bovenDekOnderkant": 0.41,
+          "bovenDekOnderkant": 0.4,
           "actie": "verlagen"
         },
         {

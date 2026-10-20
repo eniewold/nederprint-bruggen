@@ -1,5 +1,5 @@
 {
-  "name": "marum-brug-34e8949f-4",
+  "name": "Natuurpad",
   "file": "marum-brug-34e8949f-4.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -97,14 +97,25 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/182458004",
+        "tags": {
+          "bridge": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "mofa": "no",
+          "moped": "no",
+          "name": "Natuurpad",
+          "traffic_sign": "NL:G13"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 200000,560000,220000,580000 --run nl-10_13 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map marum-brug-34e8949f-4 --plaats marum --punt 212222,573524",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

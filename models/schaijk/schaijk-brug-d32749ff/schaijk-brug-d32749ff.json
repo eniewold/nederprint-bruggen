@@ -1,5 +1,5 @@
 {
-  "name": "schaijk-brug-d32749ff",
+  "name": "Ecoduct Herperduin",
   "file": "schaijk-brug-d32749ff.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -45,7 +45,7 @@
         0,
         0
       ],
-      "minLift": -1.62,
+      "minLift": -1.61,
       "maxLift": -0.01
     },
     {
@@ -102,14 +102,29 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/274665691",
+        "tags": {
+          "access": "no",
+          "bicycle": "no",
+          "bridge": "yes",
+          "foot": "no",
+          "landuse": "forest",
+          "layer": "1",
+          "man_made": "wildlife_crossing",
+          "motor_vehicle": "no",
+          "name": "Ecoduct Herperduin",
+          "wikidata": "Q22341263",
+          "wikipedia": "nl:Ecoduct Herperduin"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 2
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,400000,180000,420000 --run nl-8_5 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map schaijk-brug-d32749ff --plaats schaijk --punt 169059,417231",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -127,9 +142,9 @@
         {
           "gmlId": "L0002.ac00e6e8ea174e1abee5c8182139dbb3",
           "klasse": "Terrain",
-          "oppervlak": 5347.8,
+          "oppervlak": 1336.8,
           "onderDek": 0,
-          "bovenDekOnderkant": 0.62,
+          "bovenDekOnderkant": 0.61,
           "actie": "verlagen"
         }
       ],
@@ -143,6 +158,6 @@
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
       "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

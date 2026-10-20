@@ -1,5 +1,5 @@
 {
-  "name": "hengelo-brug-1f2f7a89",
+  "name": "Vöckersweg",
   "file": "hengelo-brug-1f2f7a89.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -52,7 +52,7 @@
         0,
         0
       ],
-      "minLift": -1.48,
+      "minLift": -1.47,
       "maxLift": -0.01
     },
     {
@@ -139,14 +139,28 @@
           "type": "pijler"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/136684187",
+        "tags": {
+          "bridge": "yes",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxspeed": "60",
+          "mofa": "yes",
+          "moped": "yes",
+          "motor_vehicle:conditional": "destination @ (Su 00:00-24:00)",
+          "name": "Vöckersweg",
+          "source:maxspeed": "NL:zone60",
+          "surface": "asphalt"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 9
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,460000,260000,480000 --run nl-12_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map hengelo-brug-1f2f7a89 --plaats hengelo --punt 248753,474465",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -167,9 +181,9 @@
         {
           "gmlId": "G0164.a7f6634e9faa46c5abb8361663a193a6",
           "klasse": "Terrain",
-          "oppervlak": 1018.6,
+          "oppervlak": 339.5,
           "onderDek": 0,
-          "bovenDekOnderkant": 0.48,
+          "bovenDekOnderkant": 0.47,
           "actie": "verlagen"
         }
       ],

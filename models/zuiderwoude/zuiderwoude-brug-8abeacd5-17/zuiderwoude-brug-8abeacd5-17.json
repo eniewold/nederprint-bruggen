@@ -1,5 +1,5 @@
 {
-  "name": "zuiderwoude-brug-8abeacd5-17",
+  "name": "Dir. Schoonbrood Brug",
   "file": "zuiderwoude-brug-8abeacd5-17.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,25 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1409740017",
+        "tags": {
+          "bridge": "yes",
+          "highway": "track",
+          "layer": "1",
+          "tracktype": "grade1",
+          "bridge:structure": "humpback",
+          "man_made": "bridge",
+          "name": "Dir. Schoonbrood Brug"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
-    "type": "ligger",
+    "type": "bolbrug",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map zuiderwoude-brug-8abeacd5-17 --plaats zuiderwoude --punt 131839,495492",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -102,6 +113,7 @@
         4
       ],
       "oprithelling": 6,
+      "bolling": 0.59,
       "doorstekend": [],
       "opritHoogtes": [
         42.63,
@@ -111,6 +123,6 @@
     "waarschuwingen": [
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

@@ -97,14 +97,24 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1270191081",
+        "tags": {
+          "access": "private",
+          "bridge": "yes",
+          "highway": "track",
+          "layer": "1",
+          "surface": "concrete",
+          "tracktype": "grade1"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,440000,140000,460000 --run nl-6_7 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map lexmond-brug-83023033 --plaats lexmond --punt 129705,441793",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -133,9 +143,9 @@
         {
           "gmlId": "W0621.b5f17fae53b3170fe0531529a8c0a20e",
           "klasse": "Terrain",
-          "oppervlak": 600.9,
+          "oppervlak": 300.9,
           "onderDek": 0,
-          "bovenDekOnderkant": 0.52,
+          "bovenDekOnderkant": 0.51,
           "actie": "verlagen"
         }
       ],
@@ -148,6 +158,6 @@
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
       "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

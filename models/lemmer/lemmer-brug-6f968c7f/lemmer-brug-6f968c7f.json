@@ -9,18 +9,18 @@
     539912.24
   ],
   "xAxis": [
-    0.232076,
-    0.972698
+    0.972698,
+    -0.232076
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 42.59,
+  "groundHeight": 41.453,
   "groundSamplePoints": [
     [
-      -4.96,
+      -42.64,
       0
     ],
     [
-      4.96,
+      42.64,
       0
     ]
   ],
@@ -34,33 +34,33 @@
         539912.24
       ],
       "axis": [
-        0.232076,
-        0.972698
+        0.972698,
+        -0.232076
       ],
-      "halfLength": 0.48,
-      "halfWidth": 23.14,
-      "height": 42.229,
+      "halfLength": 16.64,
+      "halfWidth": 1.46,
+      "height": 42.296,
       "gradient": [
         0,
         0
       ],
-      "minLift": -4.7,
+      "minLift": -3.03,
       "maxLift": -0.01
     },
     {
       "centre": [
-        174628.8,
-        539908.39
+        174596.02,
+        539920.28
       ],
       "axis": [
-        -0.232076,
-        -0.972698
+        -0.972698,
+        0.232076
       ],
-      "halfLength": 3,
-      "halfWidth": 24.64,
-      "height": 43.379,
+      "halfLength": 12,
+      "halfWidth": 1.44,
+      "height": 42.524,
       "gradient": [
-        -0.05,
+        -0.08932,
         0
       ],
       "minLift": 0.05,
@@ -68,18 +68,18 @@
     },
     {
       "centre": [
-        174630.64,
-        539916.1
+        174663.41,
+        539904.2
       ],
       "axis": [
-        0.232076,
-        0.972698
+        0.972698,
+        -0.232076
       ],
-      "halfLength": 3,
-      "halfWidth": 24.64,
-      "height": 43.059,
+      "halfLength": 12,
+      "halfWidth": 1.44,
+      "height": 43.446,
       "gradient": [
-        -0.15651,
+        -0.0125,
         0
       ],
       "minLift": 0.05,
@@ -113,33 +113,36 @@
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,520000,180000,540000 --run nl-8_11 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map lemmer-brug-6f968c7f --plaats lemmer --punt 174630,539912",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
-      "dekLengte": 1.9,
-      "dekBreedte": 45.3,
-      "brugLengte": 1.9,
-      "water": null,
-      "portaalhoogte": 40.8,
-      "opritafstand": [
-        4,
-        4
+      "dekLengte": 45.3,
+      "dekBreedte": 1.9,
+      "brugLengte": 45.3,
+      "water": [
+        -22.6,
+        -13.6
       ],
-      "oprithelling": 6,
+      "portaalhoogte": 2.5,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
       "doorstekend": [
         {
           "gmlId": "G1940.1d256877eb184efeafa492fe55fcf7ef",
           "klasse": "Terrain",
-          "oppervlak": 3721.7,
-          "onderDek": 0.02,
-          "bovenDekOnderkant": 3.7,
+          "oppervlak": 6180.6,
+          "onderDek": 0.01,
+          "bovenDekOnderkant": 2.03,
           "actie": "verlagen"
         },
         {
           "gmlId": "G1940.fab8c08a9eb24785822a92ff2924cff2",
           "klasse": "Terrain",
-          "oppervlak": 267.3,
+          "oppervlak": 455.4,
           "onderDek": 0.01,
           "bovenDekOnderkant": 1.03,
           "actie": "verlagen"
@@ -147,30 +150,30 @@
         {
           "gmlId": "G1940.f520e313842b4715b15f247759f8271a",
           "klasse": "Road",
-          "oppervlak": 297.8,
+          "oppervlak": 516,
           "onderDek": 0.01,
-          "bovenDekOnderkant": 1.03,
+          "bovenDekOnderkant": 0.96,
           "actie": "verlagen"
         },
         {
           "gmlId": "G1940.e2f204e3f7644e37be8d1d2bc624c905",
           "klasse": "Forest",
-          "oppervlak": 856.8,
+          "oppervlak": 1200.8,
           "onderDek": 0.02,
-          "bovenDekOnderkant": 0.97,
+          "bovenDekOnderkant": 0.93,
           "actie": "verlagen"
         }
       ],
       "opritHoogtes": [
-        43.229,
-        42.59
+        41.453,
+        43.296
       ]
     },
     "waarschuwingen": [
-      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen FIS-brug binnen 35 m",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
       "4 PDOK-vorm(en) door het dek: 0 verborgen, 4 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "name": "den-ham-brug-fcb5215b",
+  "name": "Dalvoorderbrug",
   "file": "den-ham-brug-fcb5215b.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,33 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/762790115",
+        "tags": {
+          "bicycle": "no",
+          "bridge": "yes",
+          "foot": "no",
+          "highway": "secondary",
+          "layer": "1",
+          "maxspeed": "80",
+          "mofa": "no",
+          "moped": "no",
+          "name": "Dalvoorderbrug",
+          "operator": "Provincie Overijssel",
+          "ref": "N751",
+          "surface": "asphalt",
+          "bridge:structure": "beam",
+          "man_made": "bridge",
+          "source:name": "Informatiepaneel bij Sluis V te Vroomshoop"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,480000,240000,500000 --run nl-11_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map den-ham-brug-fcb5215b --plaats den-ham --punt 232674,495736",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

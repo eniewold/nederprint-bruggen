@@ -1,5 +1,5 @@
 {
-  "name": "wijhe-brug-500a0789",
+  "name": "'t Nijenhuis",
   "file": "wijhe-brug-500a0789.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -39,9 +39,9 @@
       ],
       "halfLength": 3.33,
       "halfWidth": 2.67,
-      "height": 46.038,
+      "height": 46.037,
       "gradient": [
-        -0.08598,
+        -0.08566,
         0
       ],
       "minLift": 0.05,
@@ -58,7 +58,7 @@
       ],
       "halfLength": 3.33,
       "halfWidth": 2.67,
-      "height": 46.175,
+      "height": 46.173,
       "gradient": [
         -0.04503,
         0
@@ -78,14 +78,26 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/116254550",
+        "tags": {
+          "bridge": "yes",
+          "highway": "service",
+          "layer": "1",
+          "name": "'t Nijenhuis",
+          "service": "driveway",
+          "sidewalk": "no",
+          "smoothness": "intermediate",
+          "surface": "fine_gravel"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 200000,480000,220000,500000 --run nl-10_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map wijhe-brug-500a0789 --plaats wijhe --punt 211171,492462",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -105,12 +117,12 @@
       "doorstekend": [],
       "opritHoogtes": [
         45.752,
-        46.025
+        46.023
       ]
     },
     "waarschuwingen": [
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

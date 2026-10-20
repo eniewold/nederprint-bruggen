@@ -1,5 +1,5 @@
 {
-  "name": "ommel-brug-a6c440db",
+  "name": "Asten West",
   "file": "ommel-brug-a6c440db.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -118,14 +118,37 @@
           "type": "onbekend"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/678195020",
+        "tags": {
+          "bridge": "yes",
+          "carriageway_ref": "Li",
+          "highway": "motorway",
+          "int_ref": "E 34",
+          "lanes": "2",
+          "layer": "1",
+          "lit": "no",
+          "maxspeed": "100",
+          "maxspeed:conditional": "130 @ (19:00-06:00)",
+          "noname": "yes",
+          "official_name": "Rijksweg A67",
+          "oneway": "yes",
+          "operator": "Rijkswaterstaat",
+          "ref": "A67",
+          "surface": "asphalt",
+          "toll:hgv": "yes",
+          "bridge:structure": "beam",
+          "man_made": "bridge",
+          "name": "Asten West"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 9
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 180000,380000,200000,400000 --run nl-9_4 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map ommel-brug-a6c440db --plaats ommel --punt 180967,381059",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

@@ -1,5 +1,5 @@
 {
-  "name": "helmond-brug-03a27e00-9",
+  "name": "Eenselaarseweg",
   "file": "helmond-brug-03a27e00-9.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -39,12 +39,12 @@
       ],
       "halfLength": 2.66,
       "halfWidth": 1.7,
-      "height": 58.354,
+      "height": 58.352,
       "gradient": [
         0,
         0
       ],
-      "minLift": -1.2,
+      "minLift": -1.19,
       "maxLift": -0.01
     },
     {
@@ -58,7 +58,7 @@
       ],
       "halfLength": 5.32,
       "halfWidth": 1.8,
-      "height": 59.504,
+      "height": 59.502,
       "gradient": [
         -0.02818,
         0
@@ -77,9 +77,9 @@
       ],
       "halfLength": 5.32,
       "halfWidth": 1.8,
-      "height": 59.499,
+      "height": 59.498,
       "gradient": [
-        -0.02914,
+        -0.029,
         0
       ],
       "minLift": 0.05,
@@ -97,14 +97,23 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/693137496",
+        "tags": {
+          "bridge": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "name": "Eenselaarseweg",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,380000,180000,400000 --run nl-8_4 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map helmond-brug-03a27e00-9 --plaats helmond --punt 172009,388686",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -125,14 +134,14 @@
         {
           "gmlId": "G0794.4b84153eadc540589bbefa98c8e8dc2a",
           "klasse": "Terrain",
-          "oppervlak": 409.9,
+          "oppervlak": 205.2,
           "onderDek": 0.01,
-          "bovenDekOnderkant": 0.2,
+          "bovenDekOnderkant": 0.19,
           "actie": "verlagen"
         }
       ],
       "opritHoogtes": [
-        59.354,
+        59.352,
         59.343
       ]
     },

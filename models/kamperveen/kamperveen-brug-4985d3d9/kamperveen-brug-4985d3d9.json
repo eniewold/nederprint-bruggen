@@ -1,5 +1,5 @@
 {
-  "name": "kamperveen-brug-4985d3d9",
+  "name": "Kamperstraatweg",
   "file": "kamperveen-brug-4985d3d9.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -13,7 +13,7 @@
     0.991216
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 48.281,
+  "groundHeight": 48.279,
   "groundSamplePoints": [
     [
       -149.22,
@@ -38,6 +38,7 @@
     "L0002.dd01eaf52cb448c182bb4a4fb77f81eb",
     "L0002.dd5ed5c50bdf4736a257b143f61d3a57",
     "L0002.ea07c6a0883c4ab693e2d7fa3456b991",
+    "L0002.efe411d18c94492c84fd79328570b859",
     "L0002.f9d7c211065042f187c22bece55d5e23",
     "P0023.4985d3d9e4d74e3aafcf500c64c7406e"
   ],
@@ -53,7 +54,7 @@
       ],
       "halfLength": 12,
       "halfWidth": 8.46,
-      "height": 48.56,
+      "height": 48.541,
       "gradient": [
         -0.0125,
         0
@@ -72,9 +73,9 @@
       ],
       "halfLength": 12,
       "halfWidth": 8.46,
-      "height": 48.496,
+      "height": 48.485,
       "gradient": [
-        -0.01787,
+        -0.01717,
         0
       ],
       "minLift": 0.05,
@@ -140,6 +141,10 @@
           "type": "pijler"
         },
         {
+          "id": "L0002.efe411d18c94492c84fd79328570b859",
+          "type": "pijler"
+        },
+        {
           "id": "L0002.f9d7c211065042f187c22bece55d5e23",
           "type": "pijler"
         },
@@ -148,14 +153,32 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/619472035",
+        "tags": {
+          "bridge": "yes",
+          "foot": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "mofa": "designated",
+          "moped": "designated",
+          "name": "Kamperstraatweg",
+          "oneway": "no",
+          "segregated": "no",
+          "sidewalk": "no",
+          "smoothness": "good",
+          "surface": "concrete",
+          "traffic_sign": "NL:G12a",
+          "zone:traffic": "NL:rural"
+        }
+      },
       "fis": null,
-      "pdokBridgeVlakken": 15
+      "pdokBridgeVlakken": 16
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 180000,500000,200000,520000 --run nl-9_10 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map kamperveen-brug-4985d3d9 --plaats kamperveen --punt 193227,504580",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -171,13 +194,13 @@
       "oprithelling": 24,
       "doorstekend": [],
       "opritHoogtes": [
-        48.41,
-        48.281
+        48.391,
+        48.279
       ]
     },
     "waarschuwingen": [
       "geen FIS-brug binnen 35 m"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

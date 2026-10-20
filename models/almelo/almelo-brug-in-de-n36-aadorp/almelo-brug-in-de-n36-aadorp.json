@@ -13,7 +13,7 @@
     0.619381
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 59.966,
+  "groundHeight": 59.955,
   "groundSamplePoints": [
     [
       -77.61,
@@ -63,9 +63,9 @@
       ],
       "halfLength": 12,
       "halfWidth": 13.27,
-      "height": 60.515,
+      "height": 60.51,
       "gradient": [
-        -0.04576,
+        -0.04622,
         0
       ],
       "minLift": 0.05,
@@ -103,11 +103,30 @@
           "type": "pijler"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/6682229",
+        "tags": {
+          "bridge": "yes",
+          "highway": "trunk",
+          "lanes": "2",
+          "layer": "1",
+          "lit": "no",
+          "maxspeed": "100",
+          "maxweight:signed": "no",
+          "motorroad": "yes",
+          "noname": "yes",
+          "official_name": "Rijksweg 36",
+          "operator": "Rijkswaterstaat",
+          "ref": "N36",
+          "source:official_name": "NWB",
+          "surface": "asphalt",
+          "zone:traffic": "NL:rural"
+        }
+      },
       "fis": {
         "id": 56350,
         "naam": "Brug in de N36 Aadorp",
-        "afstand": 12,
+        "afstand": 16,
         "beweegbaar": false,
         "doorvaarthoogteGesloten": 7.3
       },
@@ -116,7 +135,7 @@
     "type": "ophaalbrug",
     "doorvaarthoogte": 7.3,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,480000,240000,500000 --run nl-11_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map almelo-brug-in-de-n36-aadorp --plaats almelo --punt 238583,489415",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -136,7 +155,7 @@
       "doorstekend": [],
       "opritHoogtes": [
         60.764,
-        59.966
+        59.955
       ]
     },
     "waarschuwingen": [],

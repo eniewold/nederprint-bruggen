@@ -1,5 +1,5 @@
 {
-  "name": "Draaibrug Dordrecht",
+  "name": "Draaibrug",
   "file": "dordrecht-draaibrug-dordrecht.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -97,7 +97,16 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/78850447",
+        "tags": {
+          "bicycle": "yes",
+          "bridge": "yes",
+          "highway": "path",
+          "layer": "1",
+          "name": "Draaibrug"
+        }
+      },
       "fis": {
         "id": 24360,
         "naam": "Draaibrug Dordrecht",
@@ -110,7 +119,7 @@
     "type": "ophaalbrug",
     "doorvaarthoogte": 0.3799999999999999,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,420000,120000,440000 --run nl-5_6 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map dordrecht-draaibrug-dordrecht --plaats dordrecht --punt 104466,425042",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -146,6 +155,6 @@
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
       "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

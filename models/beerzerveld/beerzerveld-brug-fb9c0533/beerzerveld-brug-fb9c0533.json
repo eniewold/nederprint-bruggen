@@ -1,5 +1,5 @@
 {
-  "name": "beerzerveld-brug-fb9c0533",
+  "name": "Twentseweg",
   "file": "beerzerveld-brug-fb9c0533.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -98,14 +98,30 @@
           "type": "onbekend"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/6425757",
+        "tags": {
+          "bridge": "yes",
+          "highway": "trunk",
+          "lanes": "2",
+          "layer": "1",
+          "lit": "no",
+          "maxspeed": "80",
+          "motorroad": "yes",
+          "name": "Twentseweg",
+          "operator": "Rijkswaterstaat",
+          "ref": "N36",
+          "surface": "asphalt",
+          "zone:traffic": "NL:rural"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 5
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,500000,240000,520000 --run nl-11_10 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map beerzerveld-brug-fb9c0533 --plaats beerzerveld --punt 235203,502565",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

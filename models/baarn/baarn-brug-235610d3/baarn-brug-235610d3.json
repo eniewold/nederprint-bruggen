@@ -1,5 +1,5 @@
 {
-  "name": "baarn-brug-235610d3",
+  "name": "Torenlaan",
   "file": "baarn-brug-235610d3.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -39,7 +39,7 @@
       ],
       "halfLength": 3.03,
       "halfWidth": 9.15,
-      "height": 46.004,
+      "height": 46.002,
       "gradient": [
         -0.04946,
         0
@@ -58,9 +58,9 @@
       ],
       "halfLength": 3.03,
       "halfWidth": 9.15,
-      "height": 45.935,
+      "height": 45.934,
       "gradient": [
-        -0.07215,
+        -0.07178,
         0
       ],
       "minLift": 0.05,
@@ -78,14 +78,24 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/986791533",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "yes",
+          "highway": "secondary",
+          "layer": "1",
+          "maxspeed": "50",
+          "name": "Torenlaan"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,460000,160000,480000 --run nl-7_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map baarn-brug-235610d3 --plaats baarn --punt 148471,467589",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -104,7 +114,7 @@
       "oprithelling": 6.1,
       "doorstekend": [],
       "opritHoogtes": [
-        45.854,
+        45.852,
         45.716
       ]
     },
@@ -112,6 +122,6 @@
       "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

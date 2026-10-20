@@ -1,5 +1,5 @@
 {
-  "name": "almelo-brug-a0b8f5f7",
+  "name": "Bavinksweg",
   "file": "almelo-brug-a0b8f5f7.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,26 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/55600394",
+        "tags": {
+          "bridge": "yes",
+          "highway": "residential",
+          "lane_markings": "no",
+          "layer": "1",
+          "maxspeed": "80",
+          "maxweight": "2",
+          "name": "Bavinksweg",
+          "surface": "wood"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,480000,260000,500000 --run nl-12_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map almelo-brug-a0b8f5f7 --plaats almelo --punt 244400,484325",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

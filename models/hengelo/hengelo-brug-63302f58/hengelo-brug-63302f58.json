@@ -1,5 +1,5 @@
 {
-  "name": "hengelo-brug-63302f58",
+  "name": "Heemafstraat",
   "file": "hengelo-brug-63302f58.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -97,14 +97,26 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/46780580",
+        "tags": {
+          "bridge": "yes",
+          "highway": "footway",
+          "layer": "1",
+          "lit": "yes",
+          "maxweight": "3.5",
+          "name": "Heemafstraat",
+          "smoothness": "good",
+          "surface": "wood"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,460000,260000,480000 --run nl-12_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map hengelo-brug-63302f58 --plaats hengelo --punt 250663,476402",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

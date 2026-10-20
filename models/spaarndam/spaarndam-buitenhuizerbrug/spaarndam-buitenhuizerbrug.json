@@ -29,7 +29,8 @@
     "L0002.9c56fee3483c4cb3947c2fcf5aa9ea62",
     "L0002.ca2d9f6749514043b7e4cf7cff68f552",
     "L0002.f530c1ef55df422da455d94b54b0c789",
-    "P0027.828a691bf4054569976f62dbc8e0d0e6"
+    "P0027.828a691bf4054569976f62dbc8e0d0e6",
+    "P0027.b6735095a4e441478d1dcc037802bf94"
   ],
   "terrainCorrections": [
     {
@@ -96,36 +97,41 @@
         {
           "id": "P0027.828a691bf4054569976f62dbc8e0d0e6",
           "type": "landhoofd"
+        },
+        {
+          "id": "P0027.b6735095a4e441478d1dcc037802bf94",
+          "type": "landhoofd"
         }
       ],
       "osm": {
         "id": "way/1280149350",
         "tags": {
-          "bicycle": "no",
           "bridge": "yes",
-          "highway": "primary",
+          "highway": "cycleway",
           "layer": "1",
-          "maxspeed": "80",
+          "mofa": "designated",
+          "moped": "designated",
+          "name": "Buitenhuizerbrug",
           "operator": "Provincie Noord-Holland",
-          "ref": "N202",
+          "traffic_sign": "NL:G12a",
+          "zone:traffic": "NL:rural",
           "bridge:structure": "beam",
-          "man_made": "bridge",
-          "name": "Buitenhuizerbrug"
+          "man_made": "bridge"
         }
       },
       "fis": {
         "id": 32623,
         "naam": "Buitenhuizerbrug",
-        "afstand": 17,
+        "afstand": 14,
         "beweegbaar": true,
         "doorvaarthoogteGesloten": 6.82
       },
-      "pdokBridgeVlakken": 5
+      "pdokBridgeVlakken": 6
     },
     "type": "ophaalbrug",
     "doorvaarthoogte": 6.82,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,480000,120000,500000 --run nl-5_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map spaarndam-buitenhuizerbrug --plaats spaarndam --punt 109542,493963",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -136,7 +142,7 @@
         -56.2,
         31.3
       ],
-      "portaalhoogte": 17.9,
+      "portaalhoogte": 17.5,
       "opritafstand": [
         20,
         20
@@ -149,6 +155,6 @@
       ]
     },
     "waarschuwingen": [],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

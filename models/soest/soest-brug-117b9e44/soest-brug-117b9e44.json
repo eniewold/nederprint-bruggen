@@ -1,5 +1,5 @@
 {
-  "name": "soest-brug-117b9e44",
+  "name": "Stichtse Lijn",
   "file": "soest-brug-117b9e44.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -9,18 +9,18 @@
     467169.8
   ],
   "xAxis": [
-    0.244767,
-    -0.969582
+    -0.244027,
+    0.969769
   ],
   "groundOffsetMetres": 0,
   "groundHeight": 47.021,
   "groundSamplePoints": [
     [
-      -2.9,
+      -2.93,
       0
     ],
     [
-      2.92,
+      2.9,
       0
     ]
   ],
@@ -30,18 +30,18 @@
   "terrainCorrections": [
     {
       "centre": [
-        149032.05,
-        467175.51
+        149034.94,
+        467164.05
       ],
       "axis": [
-        -0.244767,
-        0.969582
+        0.244027,
+        -0.969769
       ],
       "halfLength": 3,
       "halfWidth": 6.13,
-      "height": 47.034,
+      "height": 47.047,
       "gradient": [
-        -0.00429,
+        0,
         0
       ],
       "minLift": 0.05,
@@ -49,18 +49,18 @@
     },
     {
       "centre": [
-        149034.94,
-        467164.05
+        149032.05,
+        467175.52
       ],
       "axis": [
-        0.244767,
-        -0.969582
+        -0.244027,
+        0.969769
       ],
       "halfLength": 3,
       "halfWidth": 6.13,
-      "height": 47.047,
+      "height": 47.034,
       "gradient": [
-        0,
+        -0.00429,
         0
       ],
       "minLift": 0.05,
@@ -78,14 +78,42 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/496936771",
+        "tags": {
+          "bridge": "yes",
+          "description": "Den Dolder - Baarn",
+          "electrified": "contact_line",
+          "frequency": "0",
+          "gauge": "1435",
+          "layer": "1",
+          "maxspeed": "80",
+          "name": "Stichtse Lijn",
+          "operator": "ProRail",
+          "passenger_lines": "1",
+          "railway": "rail",
+          "railway:atb": "yes",
+          "railway:maximum_current": "4000",
+          "railway:track_class": "C2",
+          "ref": "091",
+          "ref:ProRailID": "2878479.0",
+          "ref:ProRailSpoortak": "509_41BV_36.6",
+          "source": "ProRail",
+          "source:date": "2014-01-03",
+          "usage": "branch",
+          "voltage": "1500",
+          "wikidata": "Q2483660",
+          "wikipedia": "nl:Spoorlijn Den Dolder - Baarn",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,460000,160000,480000 --run nl-7_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map soest-brug-117b9e44 --plaats soest --punt 149033,467170",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -105,13 +133,13 @@
       "oprithelling": 6,
       "doorstekend": [],
       "opritHoogtes": [
-        47.021,
-        47.047
+        47.047,
+        47.021
       ]
     },
     "waarschuwingen": [
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

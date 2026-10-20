@@ -1,5 +1,5 @@
 {
-  "name": "marum-brug-34e8949f-3",
+  "name": "De Koppel Paarden",
   "file": "marum-brug-34e8949f-3.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,24 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/408833010",
+        "tags": {
+          "bridge": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "lit": "no",
+          "name": "De Koppel Paarden",
+          "surface": "wood"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 200000,560000,220000,580000 --run nl-10_13 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map marum-brug-34e8949f-3 --plaats marum --punt 212978,573082",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

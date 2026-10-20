@@ -1,5 +1,5 @@
 {
-  "name": "puttershoek-brug-8abeacd5-14",
+  "name": "Laan van Heemstede",
   "file": "puttershoek-brug-8abeacd5-14.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,25 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/968442273",
+        "tags": {
+          "bridge": "yes",
+          "highway": "residential",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Laan van Heemstede",
+          "old_name": "Erven",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,420000,100000,440000 --run nl-4_6 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map puttershoek-brug-8abeacd5-14 --plaats puttershoek --punt 98753,423975",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

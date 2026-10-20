@@ -44,7 +44,7 @@
         0,
         0
       ],
-      "minLift": -1.17,
+      "minLift": -1.16,
       "maxLift": -0.01
     },
     {
@@ -97,14 +97,24 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/880311803",
+        "tags": {
+          "access": "agricultural",
+          "bridge": "yes",
+          "foot": "permissive",
+          "highway": "track",
+          "layer": "1",
+          "surface": "concrete"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,460000,180000,480000 --run nl-8_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map ermelo-brug-83831ae7 --plaats ermelo --punt 177906,478711",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -125,15 +135,15 @@
         {
           "gmlId": "W0662.b10212ebdac10519e0531529a8c0d34b",
           "klasse": "Terrain",
-          "oppervlak": 131.4,
+          "oppervlak": 65.7,
           "onderDek": 0.03,
-          "bovenDekOnderkant": 0.17,
+          "bovenDekOnderkant": 0.16,
           "actie": "verlagen"
         },
         {
           "gmlId": "W0662.b10212ebdd9c0519e0531529a8c0d34b",
           "klasse": "Terrain",
-          "oppervlak": 423.7,
+          "oppervlak": 105.7,
           "onderDek": 0,
           "bovenDekOnderkant": 0.14,
           "actie": "verlagen"
@@ -148,6 +158,6 @@
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
       "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "name": "blijham-brug-7349ba36",
+  "name": "Venneweg",
   "file": "blijham-brug-7349ba36.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,23 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/6363409",
+        "tags": {
+          "bridge": "yes",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxspeed": "80",
+          "name": "Venneweg"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 260000,560000,280000,580000 --run nl-13_13 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map blijham-brug-7349ba36 --plaats blijham --punt 267605,572484",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

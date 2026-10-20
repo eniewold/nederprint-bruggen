@@ -1,5 +1,5 @@
 {
-  "name": "wieringerwerf-brug-23ec2164",
+  "name": "Schelpenbolweg",
   "file": "wieringerwerf-brug-23ec2164.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,23 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/6570413",
+        "tags": {
+          "bridge": "yes",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Schelpenbolweg"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,540000,140000,560000 --run nl-6_12 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map wieringerwerf-brug-23ec2164 --plaats wieringerwerf --punt 130374,542476",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

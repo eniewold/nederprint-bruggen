@@ -1,5 +1,5 @@
 {
-  "name": "vriezenveen-brug-c95ffc6b",
+  "name": "Knuppelpad",
   "file": "vriezenveen-brug-c95ffc6b.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -13,7 +13,7 @@
     -0.943865
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 53.668,
+  "groundHeight": 53.662,
   "groundSamplePoints": [
     [
       -14.43,
@@ -39,9 +39,9 @@
       ],
       "halfLength": 6.56,
       "halfWidth": 1.18,
-      "height": 54.188,
+      "height": 54.185,
       "gradient": [
-        -0.0793,
+        -0.07971,
         0
       ],
       "minLift": 0.05,
@@ -58,7 +58,7 @@
       ],
       "halfLength": 6.56,
       "halfWidth": 1.18,
-      "height": 54.558,
+      "height": 54.557,
       "gradient": [
         -0.02288,
         0
@@ -78,14 +78,24 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/543769620",
+        "tags": {
+          "bridge": "yes",
+          "highway": "path",
+          "layer": "1",
+          "name": "Knuppelpad",
+          "smoothness": "good",
+          "surface": "wood"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,480000,260000,500000 --run nl-12_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map vriezenveen-brug-c95ffc6b --plaats vriezenveen --punt 240284,495598",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -101,8 +111,8 @@
       "oprithelling": 13.1,
       "doorstekend": [],
       "opritHoogtes": [
-        53.668,
-        54.408
+        53.662,
+        54.407
       ]
     },
     "waarschuwingen": [

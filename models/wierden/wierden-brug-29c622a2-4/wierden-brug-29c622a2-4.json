@@ -1,5 +1,5 @@
 {
-  "name": "wierden-brug-29c622a2-4",
+  "name": "Ypeloweg",
   "file": "wierden-brug-29c622a2-4.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,29 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/6682583",
+        "tags": {
+          "bridge": "yes",
+          "highway": "tertiary",
+          "lanes": "1",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "60",
+          "name": "Ypeloweg",
+          "sidewalk": "no",
+          "smoothness": "good",
+          "source:maxspeed": "NL:zone60",
+          "surface": "asphalt"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,480000,240000,500000 --run nl-11_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map wierden-brug-29c622a2-4 --plaats wierden --punt 237070,483743",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

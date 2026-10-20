@@ -13,7 +13,7 @@
     0.829039
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 41.574,
+  "groundHeight": 41.569,
   "groundSamplePoints": [
     [
       -13.45,
@@ -58,9 +58,9 @@
       ],
       "halfLength": 6.11,
       "halfWidth": 2.17,
-      "height": 41.989,
+      "height": 41.986,
       "gradient": [
-        -0.06791,
+        -0.06833,
         0
       ],
       "minLift": 0.05,
@@ -78,14 +78,24 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/274222272",
+        "tags": {
+          "bridge": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "mofa": "no",
+          "moped": "no",
+          "surface": "asphalt"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,500000,140000,520000 --run nl-6_10 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map edam-brug-21d4ba01 --plaats edam --punt 132652,502026",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -105,12 +115,12 @@
       "doorstekend": [],
       "opritHoogtes": [
         42.104,
-        41.574
+        41.569
       ]
     },
     "waarschuwingen": [
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

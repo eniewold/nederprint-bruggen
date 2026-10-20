@@ -1,5 +1,5 @@
 {
-  "name": "eemnes-brug-cb84ab58",
+  "name": "Wezeboom",
   "file": "eemnes-brug-cb84ab58.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,24 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/862057960",
+        "tags": {
+          "bridge": "yes",
+          "fixme": "motor vehicles allowed?",
+          "highway": "residential",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Wezeboom"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,460000,160000,480000 --run nl-7_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map eemnes-brug-cb84ab58 --plaats eemnes --punt 146034,473431",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -111,6 +121,6 @@
     "waarschuwingen": [
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

@@ -13,12 +13,8 @@
     -0.806809
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 65.444,
+  "groundHeight": 65.672,
   "groundSamplePoints": [
-    [
-      -4.68,
-      0
-    ],
     [
       4.68,
       0
@@ -46,25 +42,6 @@
       ],
       "minLift": -4.52,
       "maxLift": -0.01
-    },
-    {
-      "centre": [
-        189886.06,
-        352479.42
-      ],
-      "axis": [
-        0.590813,
-        0.806809
-      ],
-      "halfLength": 3,
-      "halfWidth": 7.71,
-      "height": 65.708,
-      "gradient": [
-        -0.088,
-        0
-      ],
-      "minLift": 0.05,
-      "maxLift": 4
     },
     {
       "centre": [
@@ -104,7 +81,7 @@
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 180000,340000,200000,360000 --run nl-9_2 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map wessem-brug-9b2f541e --plaats wessem --punt 189884,352476",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -114,7 +91,7 @@
       "water": null,
       "portaalhoogte": 10.3,
       "opritafstand": [
-        4,
+        12,
         4
       ],
       "oprithelling": 6,
@@ -122,7 +99,7 @@
         {
           "gmlId": "G1641.93be19a863324d7f90c1bc8e5ea9e90c",
           "klasse": "Forest",
-          "oppervlak": 571,
+          "oppervlak": 285.5,
           "onderDek": 0.01,
           "bovenDekOnderkant": 3.52,
           "actie": "verlagen"
@@ -130,19 +107,20 @@
         {
           "gmlId": "G1641.ace196d67bfa44f5935903e075780ecd",
           "klasse": "Forest",
-          "oppervlak": 330.7,
+          "oppervlak": 110.3,
           "onderDek": 0.01,
           "bovenDekOnderkant": 0.94,
           "actie": "verlagen"
         }
       ],
       "opritHoogtes": [
-        65.444,
+        null,
         65.672
       ]
     },
     "waarschuwingen": [
       "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "oprit - zonder PDOK-maaiveld",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
       "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
     ],

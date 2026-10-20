@@ -1,5 +1,5 @@
 {
-  "name": "vriezenveen-brug-116d4d91",
+  "name": "Nieuwe Wierdenseweg",
   "file": "vriezenveen-brug-116d4d91.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -94,14 +94,29 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/6682516",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "yes",
+          "foot": "no",
+          "highway": "secondary",
+          "lanes": "1",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Nieuwe Wierdenseweg",
+          "sidewalk": "no",
+          "smoothness": "good",
+          "surface": "asphalt"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 4
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,480000,240000,500000 --run nl-11_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map vriezenveen-brug-116d4d91 --plaats vriezenveen --punt 237472,490369",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

@@ -1,5 +1,5 @@
 {
-  "name": "muiderberg-brug-4efea811",
+  "name": "Zeldenrust",
   "file": "muiderberg-brug-4efea811.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -53,7 +53,7 @@
         0,
         0
       ],
-      "minLift": -1.09,
+      "minLift": -1.08,
       "maxLift": -0.01
     },
     {
@@ -143,14 +143,39 @@
           "type": "onbekend"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/438180376",
+        "tags": {
+          "bridge": "yes",
+          "carriageway_ref": "Li",
+          "destination": "Amsterdam",
+          "destination:int_ref": "E 231",
+          "destination:ref": "A1",
+          "highway": "motorway",
+          "lanes": "3",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "100",
+          "noname": "yes",
+          "official_name": "Rijksweg A6",
+          "oneway": "yes",
+          "operator": "Rijkswaterstaat",
+          "ref": "A6",
+          "source:official_name": "NWB",
+          "surface": "asphalt",
+          "toll:hgv": "yes",
+          "bridge:structure": "beam",
+          "man_made": "bridge",
+          "name": "Zeldenrust"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 10
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map muiderberg-brug-4efea811 --plaats muiderberg --punt 136159,480868",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -171,9 +196,9 @@
         {
           "gmlId": "L0002.484fa5aeda044d8fa194d9bdf3ec9ea2",
           "klasse": "Terrain",
-          "oppervlak": 38780.5,
+          "oppervlak": 16619.5,
           "onderDek": 0.01,
-          "bovenDekOnderkant": 0.09,
+          "bovenDekOnderkant": 0.08,
           "actie": "verlagen"
         }
       ],
@@ -187,6 +212,6 @@
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
       "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

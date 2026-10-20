@@ -1,5 +1,5 @@
 {
-  "name": "gemert-brug-37ba5167",
+  "name": "Kasteeltuin",
   "file": "gemert-brug-37ba5167.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -13,7 +13,7 @@
     -0.999985
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 59.716,
+  "groundHeight": 59.711,
   "groundSamplePoints": [
     [
       -10.64,
@@ -58,9 +58,9 @@
       ],
       "halfLength": 4.84,
       "halfWidth": 3.4,
-      "height": 60.297,
+      "height": 60.295,
       "gradient": [
-        -0.12017,
+        -0.12063,
         0
       ],
       "minLift": 0.05,
@@ -78,14 +78,22 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/814926701",
+        "tags": {
+          "bridge": "yes",
+          "highway": "footway",
+          "layer": "1",
+          "name": "Kasteeltuin"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,380000,180000,400000 --run nl-8_4 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map gemert-brug-37ba5167 --plaats gemert --punt 175379,396114",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -105,7 +113,7 @@
       "doorstekend": [],
       "opritHoogtes": [
         60.578,
-        59.716
+        59.711
       ]
     },
     "waarschuwingen": [

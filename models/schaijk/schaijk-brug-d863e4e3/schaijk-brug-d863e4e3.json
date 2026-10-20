@@ -1,5 +1,5 @@
 {
-  "name": "schaijk-brug-d863e4e3",
+  "name": "De Rijsvenseweg",
   "file": "schaijk-brug-d863e4e3.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -13,7 +13,7 @@
     -0.966696
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 60.644,
+  "groundHeight": 60.637,
   "groundSamplePoints": [
     [
       -64.79,
@@ -58,9 +58,9 @@
       ],
       "halfLength": 12,
       "halfWidth": 6.3,
-      "height": 61.571,
+      "height": 61.568,
       "gradient": [
-        -0.07728,
+        -0.07756,
         0
       ],
       "minLift": 0.05,
@@ -78,14 +78,24 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/6907446",
+        "tags": {
+          "bridge": "yes",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "De Rijsvenseweg",
+          "surface": "asphalt"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,400000,180000,420000 --run nl-8_5 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map schaijk-brug-d863e4e3 --plaats schaijk --punt 169103,417258",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -102,13 +112,13 @@
       "doorstekend": [],
       "opritHoogtes": [
         62.198,
-        60.644
+        60.637
       ]
     },
     "waarschuwingen": [
       "geen FIS-brug binnen 35 m",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "name": "Blijhamsterbrug",
+  "name": "Turfweg",
   "file": "oude-pekela-blijhamsterbrug.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -123,7 +123,25 @@
           "type": "landhoofd"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/6367630",
+        "tags": {
+          "bicycle": "no",
+          "bridge": "movable",
+          "bridge:movable": "bascule",
+          "foot": "no",
+          "highway": "primary",
+          "lanes": "2",
+          "layer": "1",
+          "maxspeed": "50",
+          "mofa": "no",
+          "moped": "no",
+          "name": "Turfweg",
+          "operator": "Provincie Groningen",
+          "ref": "N367",
+          "zone:traffic": "NL:urban"
+        }
+      },
       "fis": {
         "id": 4818,
         "naam": "Blijhamsterbrug",
@@ -133,10 +151,10 @@
       },
       "pdokBridgeVlakken": 10
     },
-    "type": "ophaalbrug",
+    "type": "basculebrug",
     "doorvaarthoogte": 0.38,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 260000,560000,280000,580000 --run nl-13_13 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map oude-pekela-blijhamsterbrug --plaats oude-pekela --punt 264717,570759",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

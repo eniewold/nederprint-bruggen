@@ -1,5 +1,5 @@
 {
-  "name": "Brug in de Reggersweg",
+  "name": "Reggersweg",
   "file": "staphorst-brug-in-de-reggersweg.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -9,18 +9,18 @@
     521790.46
   ],
   "xAxis": [
-    -0.843043,
-    -0.537846
+    -0.537846,
+    0.843043
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 44.115,
+  "groundHeight": 48.13,
   "groundSamplePoints": [
     [
-      -14.1,
+      -96.48,
       0
     ],
     [
-      14.4,
+      96.48,
       0
     ]
   ],
@@ -34,37 +34,18 @@
   "terrainCorrections": [
     {
       "centre": [
-        211016.39,
-        521790.46
+        211063.98,
+        521715.86
       ],
       "axis": [
-        -0.843043,
-        -0.537846
+        0.537846,
+        -0.843043
       ],
-      "halfLength": 2.66,
-      "halfWidth": 76.98,
-      "height": 43.219,
+      "halfLength": 12,
+      "halfWidth": 7.31,
+      "height": 49.163,
       "gradient": [
-        0,
-        0
-      ],
-      "minLift": -2,
-      "maxLift": -0.01
-    },
-    {
-      "centre": [
-        211027.19,
-        521797.34
-      ],
-      "axis": [
-        0.843043,
-        0.537846
-      ],
-      "halfLength": 6.48,
-      "halfWidth": 78.48,
-      "height": 44.317,
-      "gradient": [
-        -0.03116,
+        -0.0125,
         0
       ],
       "minLift": 0.05,
@@ -72,18 +53,18 @@
     },
     {
       "centre": [
-        211005.34,
-        521783.41
+        210968.8,
+        521865.05
       ],
       "axis": [
-        -0.843043,
-        -0.537846
+        -0.537846,
+        0.843043
       ],
-      "halfLength": 6.48,
-      "halfWidth": 78.48,
-      "height": 44.369,
+      "halfLength": 12,
+      "halfWidth": 7.31,
+      "height": 48.722,
       "gradient": [
-        -0.02316,
+        -0.04929,
         0
       ],
       "minLift": 0.05,
@@ -117,11 +98,24 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/783090659",
+        "tags": {
+          "bridge": "yes",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Reggersweg",
+          "smoothness": "good",
+          "surface": "asphalt",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
       "fis": {
         "id": 47760,
         "naam": "Brug in de Reggersweg",
-        "afstand": 24,
+        "afstand": 29,
         "beweegbaar": false,
         "doorvaarthoogteGesloten": 6.299999999999999
       },
@@ -130,111 +124,30 @@
     "type": "ligger",
     "doorvaarthoogte": 6.299999999999999,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 200000,520000,220000,540000 --run nl-10_11 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map staphorst-brug-in-de-reggersweg --plaats staphorst --punt 211016,521790",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
-      "dekLengte": 10.6,
-      "dekBreedte": 153,
-      "brugLengte": 13,
-      "water": null,
-      "portaalhoogte": 137.7,
+      "dekLengte": 153,
+      "dekBreedte": 10.6,
+      "brugLengte": 153,
+      "water": [
+        -10,
+        46
+      ],
+      "portaalhoogte": 9.6,
       "opritafstand": [
-        7.8,
-        7.8
+        20,
+        20
       ],
-      "oprithelling": 13,
-      "doorstekend": [
-        {
-          "gmlId": "L0002.7882e85cc8a24b68b67818a3d7788509",
-          "klasse": "Terrain",
-          "oppervlak": 691.5,
-          "onderDek": 0.14,
-          "bovenDekOnderkant": 1,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "L0002.93dd0091c42045639024e047ac24f6a0",
-          "klasse": "Road",
-          "oppervlak": 752.9,
-          "onderDek": 0.34,
-          "bovenDekOnderkant": 1,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "L0002.f19df50341594814820b012f1d0e1c9c",
-          "klasse": "Terrain",
-          "oppervlak": 6593.3,
-          "onderDek": 0.05,
-          "bovenDekOnderkant": 0.98,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "L0002.3f76f70a72944d30b1826ca311cfe1fe",
-          "klasse": "Road",
-          "oppervlak": 2400.6,
-          "onderDek": 0.08,
-          "bovenDekOnderkant": 0.98,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "L0002.ce05f3ac49e046c39613f7330c291762",
-          "klasse": "Road",
-          "oppervlak": 114.7,
-          "onderDek": 0.22,
-          "bovenDekOnderkant": 0.81,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "P0022.26ed327cf53e47ff82c74aee57c90145",
-          "klasse": "Terrain",
-          "oppervlak": 7936.6,
-          "onderDek": 0.03,
-          "bovenDekOnderkant": 0.63,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "P0022.e60c7826d2d244e895f7b211c37aedda",
-          "klasse": "Terrain",
-          "oppervlak": 1180,
-          "onderDek": 0.09,
-          "bovenDekOnderkant": 0.42,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "P0022.ecf9d1ad3adf4152a302b23bdf18cb0e",
-          "klasse": "Forest",
-          "oppervlak": 435.1,
-          "onderDek": 0.12,
-          "bovenDekOnderkant": 0.39,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "P0022.06e249d45dc846459a9e3671e6dd3ca6",
-          "klasse": "Terrain",
-          "oppervlak": 2392,
-          "onderDek": 0.05,
-          "bovenDekOnderkant": 0.35,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "P0022.a8dc0853ed684c67ba3f434d73c32338",
-          "klasse": "Forest",
-          "oppervlak": 80.6,
-          "onderDek": 0.45,
-          "bovenDekOnderkant": 0.25,
-          "actie": "verlagen"
-        }
-      ],
+      "oprithelling": 24,
+      "doorstekend": [],
       "opritHoogtes": [
-        44.115,
-        44.219
+        49.013,
+        48.13
       ]
     },
-    "waarschuwingen": [
-      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
-      "10 PDOK-vorm(en) door het dek: 0 verborgen, 10 verlaagd"
-    ],
+    "waarschuwingen": [],
     "gegenereerd": "2026-10-20"
   }
 }

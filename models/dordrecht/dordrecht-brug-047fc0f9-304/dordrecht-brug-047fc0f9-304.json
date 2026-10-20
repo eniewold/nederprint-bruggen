@@ -1,5 +1,5 @@
 {
-  "name": "dordrecht-brug-047fc0f9-304",
+  "name": "Westelijke Betuwelijn",
   "file": "dordrecht-brug-047fc0f9-304.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -9,8 +9,8 @@
     424238.93
   ],
   "xAxis": [
-    0.982328,
-    -0.187169
+    0.982354,
+    -0.187031
   ],
   "groundOffsetMetres": 0,
   "groundHeight": 44.857,
@@ -40,12 +40,12 @@
   "terrainCorrections": [
     {
       "centre": [
-        106913.49,
+        106913.48,
         424244.72
       ],
       "axis": [
-        -0.982328,
-        0.187169
+        -0.982354,
+        0.187031
       ],
       "halfLength": 12,
       "halfWidth": 27.44,
@@ -60,11 +60,11 @@
     {
       "centre": [
         107005.28,
-        424227.23
+        424227.24
       ],
       "axis": [
-        0.982328,
-        -0.187169
+        0.982354,
+        -0.187031
       ],
       "halfLength": 12,
       "halfWidth": 27.44,
@@ -131,14 +131,41 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/439400138",
+        "tags": {
+          "bridge": "yes",
+          "description": "Geldermalsen - Dordrecht",
+          "electrified": "contact_line",
+          "frequency": "0",
+          "gauge": "1435",
+          "layer": "1",
+          "maxspeed": "130",
+          "name": "Westelijke Betuwelijn",
+          "operator": "ProRail",
+          "passenger_lines": "2",
+          "railway": "rail",
+          "railway:atb": "yes",
+          "railway:maximum_current": "2700",
+          "railway:track_class": "D4",
+          "ref": "118",
+          "ref:ProRailID": "2883373.0",
+          "ref:ProRailSpoortak": "118_1095V_90.7",
+          "source": "ProRail",
+          "source:date": "2014-01-03",
+          "usage": "branch",
+          "voltage": "1500",
+          "wikidata": "Q2917550",
+          "wikipedia": "nl:Spoorlijn Elst - Dordrecht"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 11
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,420000,120000,440000 --run nl-5_6 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map dordrecht-brug-047fc0f9-304 --plaats dordrecht --punt 106944,424239",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -165,6 +192,6 @@
     "waarschuwingen": [
       "geen FIS-brug binnen 35 m"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

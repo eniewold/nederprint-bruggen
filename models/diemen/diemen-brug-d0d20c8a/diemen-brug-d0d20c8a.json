@@ -1,5 +1,5 @@
 {
-  "name": "diemen-brug-d0d20c8a",
+  "name": "Muiderbrug",
   "file": "diemen-brug-d0d20c8a.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,27 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/422941603",
+        "tags": {
+          "bridge:material": "concrete",
+          "bridge:structure": "cable-stayed",
+          "layer": "1",
+          "man_made": "bridge",
+          "name": "Muiderbrug",
+          "operator": "Rijkswaterstaat",
+          "owner": "Staat der Nederlanden",
+          "start_date": "1972",
+          "wikipedia": "nl:Muiderbrug"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
-    "type": "ligger",
+    "type": "tuibrug",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map diemen-brug-d0d20c8a --plaats diemen --punt 129583,482825",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -110,8 +123,9 @@
     },
     "waarschuwingen": [
       "geen FIS-brug binnen 35 m",
-      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "tuibrug zonder BGT-pylonen: alleen het dek"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

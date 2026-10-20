@@ -1,5 +1,5 @@
 {
-  "name": "ijsselstein-brug-cf3c81e2",
+  "name": "Walkade",
   "file": "ijsselstein-brug-cf3c81e2.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -13,7 +13,7 @@
     -0.695012
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 45.227,
+  "groundHeight": 45.224,
   "groundSamplePoints": [
     [
       -10.97,
@@ -58,9 +58,9 @@
       ],
       "halfLength": 4.99,
       "halfWidth": 4.49,
-      "height": 45.733,
+      "height": 45.732,
       "gradient": [
-        -0.10155,
+        -0.10187,
         0
       ],
       "minLift": 0.05,
@@ -97,14 +97,28 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/975814837",
+        "tags": {
+          "bridge": "yes",
+          "highway": "residential",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "30",
+          "name": "Walkade",
+          "source": "local survey & PDOK 25 19-11-19",
+          "surface": "paving_stones",
+          "vehicle:forward": "private",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,440000,140000,460000 --run nl-6_7 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map ijsselstein-brug-cf3c81e2 --plaats ijsselstein --punt 131341,447781",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -132,7 +146,7 @@
         }
       ],
       "opritHoogtes": [
-        45.227,
+        45.224,
         45.94
       ]
     },
@@ -140,6 +154,6 @@
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
       "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

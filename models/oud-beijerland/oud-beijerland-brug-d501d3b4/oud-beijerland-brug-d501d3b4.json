@@ -1,5 +1,5 @@
 {
-  "name": "oud-beijerland-brug-d501d3b4",
+  "name": "Vleugel",
   "file": "oud-beijerland-brug-d501d3b4.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,26 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1173245796",
+        "tags": {
+          "bridge": "yes",
+          "highway": "residential",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Vleugel",
+          "name:etymology:wikidata": "Q1148709",
+          "zone:maxspeed": "NL:30",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,420000,100000,440000 --run nl-4_6 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map oud-beijerland-brug-d501d3b4 --plaats oud-beijerland --punt 89321,425208",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

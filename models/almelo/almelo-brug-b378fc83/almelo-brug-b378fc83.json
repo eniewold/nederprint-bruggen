@@ -1,5 +1,5 @@
 {
-  "name": "almelo-brug-b378fc83",
+  "name": "Burgemeester Raveslootsingel",
   "file": "almelo-brug-b378fc83.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -117,14 +117,34 @@
           "type": "pyloon"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/375693040",
+        "tags": {
+          "bridge": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "lit": "yes",
+          "mofa": "yes",
+          "moped": "no",
+          "name": "Burgemeester Raveslootsingel",
+          "oneway": "no",
+          "segregated": "no",
+          "sidewalk": "no",
+          "smoothness": "good",
+          "speed_pedelec": "yes",
+          "surface": "wood",
+          "traffic_sign": "NL:G11",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 5
     },
     "type": "ophaalbrug",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,480000,260000,500000 --run nl-12_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map almelo-brug-b378fc83 --plaats almelo --punt 241678,485523",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -150,7 +170,7 @@
         {
           "gmlId": "L0004.d6fa7a93befc4b78a7f73ff95a47ba95",
           "klasse": "Terrain",
-          "oppervlak": 1025.6,
+          "oppervlak": 513.3,
           "onderDek": 0.03,
           "bovenDekOnderkant": 1.18,
           "actie": "verlagen"

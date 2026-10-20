@@ -1,5 +1,5 @@
 {
-  "name": "Hoge brug over de Grote Sluis Vianen",
+  "name": "Hoge Brug",
   "file": "vianen-hoge-brug-over-de-grote-sluis-vianen.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -158,11 +158,25 @@
           "type": "landhoofd"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1276551422",
+        "tags": {
+          "bridge": "movable",
+          "bridge:movable": "drawbridge",
+          "highway": "unclassified",
+          "lane_markings": "no",
+          "layer": "1",
+          "maxspeed": "50",
+          "maxweight": "10",
+          "name": "Hoge Brug",
+          "surface": "asphalt",
+          "man_made": "bridge"
+        }
+      },
       "fis": {
         "id": 48177,
         "naam": "Hoge brug over de Grote Sluis Vianen",
-        "afstand": 0,
+        "afstand": 1,
         "beweegbaar": true,
         "doorvaarthoogteGesloten": 5.78
       },
@@ -171,7 +185,7 @@
     "type": "ophaalbrug",
     "doorvaarthoogte": 5.78,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,440000,140000,460000 --run nl-6_7 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map vianen-hoge-brug-over-de-grote-sluis-vianen --plaats vianen --punt 135100,445255",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -195,6 +209,6 @@
       ]
     },
     "waarschuwingen": [],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

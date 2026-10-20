@@ -1,5 +1,5 @@
 {
-  "name": "diemen-brug-f6fa7416",
+  "name": "Stellingbrug",
   "file": "diemen-brug-f6fa7416.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -88,14 +88,28 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/832919160",
+        "tags": {
+          "bridge": "yes",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxspeed": "30",
+          "maxweight": "10",
+          "operator": "Vattenfall Nederland",
+          "smoothness": "intermediate",
+          "man_made": "bridge",
+          "name": "Stellingbrug",
+          "source:name": "BAG/BGT"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 3
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map diemen-brug-f6fa7416 --plaats diemen --punt 129453,483831",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -121,6 +135,6 @@
     "waarschuwingen": [
       "geen FIS-brug binnen 35 m"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

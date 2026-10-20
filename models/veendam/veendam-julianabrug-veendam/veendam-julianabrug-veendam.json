@@ -1,5 +1,5 @@
 {
-  "name": "Julianabrug Veendam",
+  "name": "van Stolbergbrug",
   "file": "veendam-julianabrug-veendam.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -108,20 +108,37 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1087972685",
+        "tags": {
+          "bridge": "movable",
+          "bridge:movable": "bascule",
+          "cycleway": "lane",
+          "highway": "secondary",
+          "lanes": "2",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "50",
+          "name": "van Stolbergbrug",
+          "name:etymology:wikidata": "Q202566",
+          "sidewalk": "both",
+          "surface": "asphalt",
+          "man_made": "bridge"
+        }
+      },
       "fis": {
         "id": 56895,
         "naam": "Julianabrug Veendam",
-        "afstand": 4,
+        "afstand": 2,
         "beweegbaar": true,
         "doorvaarthoogteGesloten": 1
       },
       "pdokBridgeVlakken": 6
     },
-    "type": "ophaalbrug",
+    "type": "basculebrug",
     "doorvaarthoogte": 1,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,560000,260000,580000 --run nl-12_13 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map veendam-julianabrug-veendam --plaats veendam --punt 254765,569352",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

@@ -1,5 +1,5 @@
 {
-  "name": "almelo-brug-8b2beba8",
+  "name": "Berlagelaan",
   "file": "almelo-brug-8b2beba8.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -88,14 +88,28 @@
           "type": "landhoofd"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/55616606",
+        "tags": {
+          "bridge": "yes",
+          "cycleway": "lane",
+          "highway": "tertiary",
+          "lane_markings": "no",
+          "layer": "1",
+          "material": "concrete",
+          "maxspeed": "50",
+          "maxweight:signed": "no",
+          "name": "Berlagelaan",
+          "surface": "asphalt"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 3
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,480000,260000,500000 --run nl-12_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map almelo-brug-8b2beba8 --plaats almelo --punt 240719,485489",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

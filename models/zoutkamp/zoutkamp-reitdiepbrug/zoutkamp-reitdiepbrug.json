@@ -1,5 +1,5 @@
 {
-  "name": "Reitdiepbrug",
+  "name": "Nittersweg",
   "file": "zoutkamp-reitdiepbrug.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -185,7 +185,27 @@
           "type": "landhoofd"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/172048459",
+        "tags": {
+          "bridge": "movable",
+          "bridge:movable": "swing",
+          "bridge:name": "Reitdiepbrug",
+          "cycleway": "no",
+          "highway": "primary",
+          "lanes": "2",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "50",
+          "name": "Nittersweg",
+          "operator": "Provincie Groningen",
+          "ref": "N388",
+          "sidewalk": "no",
+          "smoothness": "excellent",
+          "surface": "asphalt",
+          "zone:traffic": "NL:urban"
+        }
+      },
       "fis": {
         "id": 26133,
         "naam": "Reitdiepbrug",
@@ -195,10 +215,10 @@
       },
       "pdokBridgeVlakken": 22
     },
-    "type": "ophaalbrug",
+    "type": "draaibrug",
     "doorvaarthoogte": 3.5500000000000003,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 200000,580000,220000,600000 --run nl-10_14 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map zoutkamp-reitdiepbrug --plaats zoutkamp --punt 215616,594918",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

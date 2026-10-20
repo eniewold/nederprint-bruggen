@@ -1,5 +1,5 @@
 {
-  "name": "helmond-brug-23646987",
+  "name": "Sluis 7",
   "file": "helmond-brug-23646987.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,33 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/693078022",
+        "tags": {
+          "bridge": "movable",
+          "bridge:movable": "bascule",
+          "bridge:name": "Sluis 7",
+          "highway": "cycleway",
+          "layer": "1",
+          "lit": "yes",
+          "mofa": "designated",
+          "moped": "designated",
+          "note": "Brug is beweegbaar, maar wordt niet als zodanig gebruikt, omdat er geen scheepvaart meer door het kanaal gaat.",
+          "oneway": "no",
+          "traffic_sign": "NL:G12a",
+          "zone:traffic": "NL:rural",
+          "man_made": "bridge",
+          "name": "Sluis 7",
+          "start_date": "2013"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
-    "type": "ophaalbrug",
+    "type": "basculebrug",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,380000,180000,400000 --run nl-8_4 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map helmond-brug-23646987 --plaats helmond --punt 173406,389742",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

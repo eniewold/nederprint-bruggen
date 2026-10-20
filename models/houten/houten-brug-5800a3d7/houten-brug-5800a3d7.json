@@ -13,15 +13,15 @@
     -0.925005
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 46.344,
+  "groundHeight": 46.349,
   "groundSamplePoints": [
     [
-      -86.77,
+      -6.77,
       0
     ],
     [
-      16.77,
-      -3.64
+      6.77,
+      0
     ]
   ],
   "replacesTerrain": [
@@ -41,12 +41,12 @@
       ],
       "halfLength": 3.39,
       "halfWidth": 14.51,
-      "height": 45.6,
+      "height": 45.07,
       "gradient": [
         0,
         0
       ],
-      "minLift": -1.63,
+      "minLift": -2.16,
       "maxLift": -0.01
     },
     {
@@ -60,9 +60,9 @@
       ],
       "halfLength": 6.77,
       "halfWidth": 16.01,
-      "height": 46.75,
+      "height": 46.36,
       "gradient": [
-        -0.02216,
+        -0.00153,
         0
       ],
       "minLift": 0.05,
@@ -79,9 +79,9 @@
       ],
       "halfLength": 6.77,
       "halfWidth": 16.01,
-      "height": 46.622,
+      "height": 46.37,
       "gradient": [
-        -0.04108,
+        0,
         0
       ],
       "minLift": 0.05,
@@ -137,7 +137,7 @@
       "naam": "houten-brug-5800a3d7",
       "straal": 40
     },
-    "opdracht": "node scripts/bridges/genereer.mjs --uit C:/Users/edwar/AppData/Local/Temp/claude/C--Users-edwar-source-Repos-nederprint/3bd9e161-d515-4f1b-bfbf-c9cc2320f835/scratchpad/rail-batch5 --map brug-5800a3d7 --plaats houten --punt 140129.57,449150.53 --naam houten-brug-5800a3d7 --straal 40",
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 126435,448710,141834,461610 --run utrecht-2026-10-20 --overschrijf 1 --parallel 5",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -147,9 +147,10 @@
       "water": null,
       "portaalhoogte": 25.2,
       "opritafstand": [
-        80,
-        10
+        0,
+        0
       ],
+      "spoorhoogteBron": "prorail-pvs",
       "oprithelling": 13.5,
       "doorstekend": [
         {
@@ -157,7 +158,7 @@
           "klasse": "Terrain",
           "oppervlak": 49.8,
           "onderDek": 0.46,
-          "bovenDekOnderkant": 0.63,
+          "bovenDekOnderkant": 1.16,
           "actie": "verlagen"
         },
         {
@@ -165,7 +166,7 @@
           "klasse": "Terrain",
           "oppervlak": 26.3,
           "onderDek": 0.39,
-          "bovenDekOnderkant": 0.52,
+          "bovenDekOnderkant": 1.05,
           "actie": "verlagen"
         },
         {
@@ -173,7 +174,7 @@
           "klasse": "Road",
           "oppervlak": 111.9,
           "onderDek": 0.97,
-          "bovenDekOnderkant": 0.52,
+          "bovenDekOnderkant": 1.05,
           "actie": "verbergen"
         },
         {
@@ -181,7 +182,7 @@
           "klasse": "Road",
           "oppervlak": 40433.6,
           "onderDek": 0,
-          "bovenDekOnderkant": 0.44,
+          "bovenDekOnderkant": 0.97,
           "actie": "verlagen"
         },
         {
@@ -189,7 +190,7 @@
           "klasse": "Road",
           "oppervlak": 57.6,
           "onderDek": 0.75,
-          "bovenDekOnderkant": 0.37,
+          "bovenDekOnderkant": 0.9,
           "actie": "verbergen"
         },
         {
@@ -197,21 +198,19 @@
           "klasse": "Terrain",
           "oppervlak": 8.9,
           "onderDek": 0,
-          "bovenDekOnderkant": 0.1,
+          "bovenDekOnderkant": 0.63,
           "actie": "verlagen"
         }
       ],
       "opritHoogtes": [
-        46.6,
-        46.344
+        46.349,
+        46.37
       ]
     },
     "waarschuwingen": [
-      "oprit -: spoorterrein voorbij 150 m nog 1.1 m hoger (48.2 m); PDOK trekt het spoor hier ver naar beneden, controleer de dekhoogte of geef --opritafstand",
-      "oprit - pas op 80 m langs het spoor gemeten (PDOK-spoorterrein bij de brug lager)",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
       "6 PDOK-vorm(en) door het dek: 2 verborgen, 4 verlaagd"
     ],
-    "gegenereerd": "2026-10-17"
+    "gegenereerd": "2026-10-20"
   }
 }

@@ -9,18 +9,14 @@
     469909.71
   ],
   "xAxis": [
-    0.179069,
-    -0.983837
+    -0.983837,
+    -0.179069
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 39.448,
+  "groundHeight": 40.139,
   "groundSamplePoints": [
     [
-      -5.71,
-      0
-    ],
-    [
-      5.71,
+      -22.67,
       0
     ]
   ],
@@ -34,52 +30,33 @@
         469909.71
       ],
       "axis": [
-        0.179069,
-        -0.983837
+        -0.983837,
+        -0.179069
       ],
-      "halfLength": 0.85,
-      "halfWidth": 10.81,
-      "height": 38.721,
+      "halfLength": 5.15,
+      "halfWidth": 2.21,
+      "height": 39.139,
       "gradient": [
         0,
         0
       ],
-      "minLift": -1.52,
+      "minLift": -1.1,
       "maxLift": -0.01
     },
     {
       "centre": [
-        103209.28,
-        469914.34
+        103230.4,
+        469913.4
       ],
       "axis": [
-        -0.179069,
-        0.983837
+        0.983837,
+        0.179069
       ],
-      "halfLength": 3,
-      "halfWidth": 12.31,
-      "height": 39.734,
+      "halfLength": 10.31,
+      "halfWidth": 2.56,
+      "height": 40.289,
       "gradient": [
-        -0.09556,
-        0
-      ],
-      "minLift": 0.05,
-      "maxLift": 4
-    },
-    {
-      "centre": [
-        103210.96,
-        469905.08
-      ],
-      "axis": [
-        0.179069,
-        -0.983837
-      ],
-      "halfLength": 3,
-      "halfWidth": 12.31,
-      "height": 39.871,
-      "gradient": [
-        -0.05,
+        -0.01455,
         0
       ],
       "minLift": 0.05,
@@ -104,56 +81,44 @@
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,460000,120000,480000 --run nl-5_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map roelofarendsveen-brug-5f0cbcfc --plaats roelofarendsveen --punt 103210,469910",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
-      "dekLengte": 3.4,
-      "dekBreedte": 20.6,
-      "brugLengte": 3.4,
-      "water": null,
-      "portaalhoogte": 18.6,
-      "opritafstand": [
-        4,
-        4
+      "dekLengte": 20.6,
+      "dekBreedte": 3.4,
+      "brugLengte": 20.6,
+      "water": [
+        -10.3,
+        -10.3
       ],
-      "oprithelling": 6,
+      "portaalhoogte": 3.1,
+      "opritafstand": [
+        12.4,
+        37.1
+      ],
+      "oprithelling": 20.6,
       "doorstekend": [
         {
           "gmlId": "G1884.fbc37a78711a453eacfb3579b134aab2",
           "klasse": "Terrain",
           "oppervlak": 87.4,
-          "onderDek": 0.38,
-          "bovenDekOnderkant": 0.52,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "G1884.3f5b50e06d1805c6e05332a1e90a7be1",
-          "klasse": "Terrain",
-          "oppervlak": 136.4,
-          "onderDek": 0.05,
-          "bovenDekOnderkant": 0.5,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "G1884.3f5b50e0174405c6e05332a1e90a7be1",
-          "klasse": "Terrain",
-          "oppervlak": 101.2,
-          "onderDek": 0.01,
-          "bovenDekOnderkant": 0.48,
+          "onderDek": 0.27,
+          "bovenDekOnderkant": 0.1,
           "actie": "verlagen"
         }
       ],
       "opritHoogtes": [
-        39.448,
-        39.721
+        40.139,
+        null
       ]
     },
     "waarschuwingen": [
-      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen FIS-brug binnen 35 m",
+      "oprit + zonder PDOK-maaiveld",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
-      "3 PDOK-vorm(en) door het dek: 0 verborgen, 3 verlaagd"
+      "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

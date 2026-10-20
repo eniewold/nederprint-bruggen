@@ -9,18 +9,18 @@
     514658.76
   ],
   "xAxis": [
-    0.99334,
-    0.115217
+    0.115217,
+    -0.99334
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 53.669,
+  "groundHeight": 49.744,
   "groundSamplePoints": [
     [
-      -10.2,
+      -17.26,
       0
     ],
     [
-      10.2,
+      17.26,
       0
     ]
   ],
@@ -30,18 +30,37 @@
   "terrainCorrections": [
     {
       "centre": [
-        231609.86,
-        514657.69
+        231619.07,
+        514658.76
       ],
       "axis": [
-        -0.99334,
-        -0.115217
+        0.115217,
+        -0.99334
       ],
-      "halfLength": 4.64,
-      "halfWidth": 9.85,
-      "height": 53.939,
+      "halfLength": 3.92,
+      "halfWidth": 5.14,
+      "height": 48.849,
       "gradient": [
-        -0.05831,
+        0,
+        0
+      ],
+      "minLift": -3.54,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        231617.26,
+        514674.35
+      ],
+      "axis": [
+        -0.115217,
+        0.99334
+      ],
+      "halfLength": 7.85,
+      "halfWidth": 6.64,
+      "height": 49.946,
+      "gradient": [
+        -0.02578,
         0
       ],
       "minLift": 0.05,
@@ -49,18 +68,18 @@
     },
     {
       "centre": [
-        231628.28,
-        514659.83
+        231620.88,
+        514643.17
       ],
       "axis": [
-        0.99334,
-        0.115217
+        0.115217,
+        -0.99334
       ],
-      "halfLength": 4.64,
-      "halfWidth": 9.85,
-      "height": 54.059,
+      "halfLength": 7.85,
+      "halfWidth": 6.64,
+      "height": 49.999,
       "gradient": [
-        -0.03236,
+        -0.01912,
         0
       ],
       "minLift": 0.05,
@@ -100,29 +119,70 @@
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,500000,240000,520000 --run nl-11_10 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map dedemsvaart-coevorderweg --plaats dedemsvaart --punt 231619,514659",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
-      "dekLengte": 9.3,
-      "dekBreedte": 15.7,
-      "brugLengte": 9.3,
+      "dekLengte": 15.7,
+      "dekBreedte": 9.3,
+      "brugLengte": 15.7,
       "water": null,
-      "portaalhoogte": 14.1,
+      "portaalhoogte": 8.3,
       "opritafstand": [
-        5.6,
-        5.6
+        9.4,
+        9.4
       ],
-      "oprithelling": 9.3,
-      "doorstekend": [],
+      "oprithelling": 15.7,
+      "doorstekend": [
+        {
+          "gmlId": "P0023.9b516f8eefcc4a69b0177d0e644680d4",
+          "klasse": "Terrain",
+          "oppervlak": 72.1,
+          "onderDek": 0.19,
+          "bovenDekOnderkant": 2.54,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "P0023.b3d02c34bdd44d7ead0365e94a23c5c6",
+          "klasse": "Terrain",
+          "oppervlak": 118.6,
+          "onderDek": 0.11,
+          "bovenDekOnderkant": 1.97,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "P0023.38f2d165dfec44f4a33e2eaefcc10895",
+          "klasse": "Terrain",
+          "oppervlak": 73.2,
+          "onderDek": 0.11,
+          "bovenDekOnderkant": 1.8,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "P0023.8b1afd14206848979854480a5d3a9f4e",
+          "klasse": "Terrain",
+          "oppervlak": 37.7,
+          "onderDek": 0.08,
+          "bovenDekOnderkant": 1.51,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "P0023.975c84c71e5d422c919fcc83bbf083a1",
+          "klasse": "Road",
+          "oppervlak": 1212,
+          "onderDek": 0.1,
+          "bovenDekOnderkant": 0.79,
+          "actie": "verlagen"
+        }
+      ],
       "opritHoogtes": [
-        53.669,
-        53.909
+        49.744,
+        49.849
       ]
     },
     "waarschuwingen": [
-      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
-      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "5 PDOK-vorm(en) door het dek: 0 verborgen, 5 verlaagd"
     ],
     "gegenereerd": "2026-10-20"
   }

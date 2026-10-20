@@ -1,5 +1,5 @@
 {
-  "name": "blauwestad-brug-61ba250c",
+  "name": "Beekjuffer",
   "file": "blauwestad-brug-61ba250c.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -98,14 +98,27 @@
           "type": "onbekend"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1311034022",
+        "tags": {
+          "bridge": "yes",
+          "bridge:name": "Beekjuffer",
+          "foot": "use_sidepath",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Beekjuffer",
+          "surface": "asphalt",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 5
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 260000,560000,280000,580000 --run nl-13_13 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map blauwestad-brug-61ba250c --plaats blauwestad --punt 265611,576724",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

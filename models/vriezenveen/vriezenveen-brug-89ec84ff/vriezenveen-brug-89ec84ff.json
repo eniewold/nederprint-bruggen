@@ -1,5 +1,5 @@
 {
-  "name": "vriezenveen-brug-89ec84ff",
+  "name": "Hoffmansweg",
   "file": "vriezenveen-brug-89ec84ff.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -13,7 +13,7 @@
     0.992421
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 54.355,
+  "groundHeight": 54.347,
   "groundSamplePoints": [
     [
       -20.05,
@@ -39,9 +39,9 @@
       ],
       "halfLength": 9.11,
       "halfWidth": 5.16,
-      "height": 54.511,
+      "height": 54.507,
       "gradient": [
-        -0.01718,
+        -0.0176,
         0
       ],
       "minLift": 0.05,
@@ -78,14 +78,30 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1217485672",
+        "tags": {
+          "bridge": "viaduct",
+          "cycleway": "shared_lane",
+          "highway": "unclassified",
+          "lanes": "1",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Hoffmansweg",
+          "sidewalk": "no",
+          "smoothness": "good",
+          "surface": "asphalt",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,480000,240000,500000 --run nl-11_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map vriezenveen-brug-89ec84ff --plaats vriezenveen --punt 239712,495341",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -104,7 +120,7 @@
       "oprithelling": 18.2,
       "doorstekend": [],
       "opritHoogtes": [
-        54.355,
+        54.347,
         54.368
       ]
     },

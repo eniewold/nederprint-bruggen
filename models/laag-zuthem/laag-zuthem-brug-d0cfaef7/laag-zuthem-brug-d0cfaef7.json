@@ -1,5 +1,5 @@
 {
-  "name": "laag-zuthem-brug-d0cfaef7",
+  "name": "Ganzepannerbrug",
   "file": "laag-zuthem-brug-d0cfaef7.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -107,14 +107,30 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1276656958",
+        "tags": {
+          "bridge": "yes",
+          "highway": "unclassified",
+          "lanes": "1",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "60",
+          "name": "Ganzepannerbrug",
+          "operator": "Rijkswaterstaat",
+          "sidewalk": "no",
+          "smoothness": "good",
+          "surface": "asphalt",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 3
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 200000,480000,220000,500000 --run nl-10_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map laag-zuthem-brug-d0cfaef7 --plaats laag-zuthem --punt 210554,497759",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -149,6 +165,6 @@
     "waarschuwingen": [
       "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

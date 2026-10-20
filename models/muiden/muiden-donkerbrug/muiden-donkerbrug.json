@@ -78,11 +78,26 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1352331494",
+        "tags": {
+          "bridge": "yes",
+          "foot": "yes",
+          "highway": "cycleway",
+          "horse": "yes",
+          "layer": "1",
+          "mofa": "designated",
+          "moped": "designated",
+          "name": "Donkerbrug",
+          "oneway": "no",
+          "traffic_sign": "NL:G12a",
+          "man_made": "bridge"
+        }
+      },
       "fis": {
         "id": 31866204,
         "naam": "Donkerbrug",
-        "afstand": 1,
+        "afstand": 0,
         "beweegbaar": true,
         "doorvaarthoogteGesloten": 1.4
       },
@@ -91,7 +106,7 @@
     "type": "ophaalbrug",
     "doorvaarthoogte": 1.4,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map muiden-donkerbrug --plaats muiden --punt 132368,482747",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -117,6 +132,6 @@
     "waarschuwingen": [
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

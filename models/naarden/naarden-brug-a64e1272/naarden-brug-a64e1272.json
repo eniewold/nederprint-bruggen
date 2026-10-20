@@ -1,5 +1,5 @@
 {
-  "name": "naarden-brug-a64e1272",
+  "name": "Naardertrekvaart",
   "file": "naarden-brug-a64e1272.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -25,7 +25,6 @@
     ]
   ],
   "replacesTerrain": [
-    "L0002.446580b7cf464f6dbb7f472fce989756",
     "L0002.a64e1272b7144f579cedab62b3460dee",
     "L0002.720dbcab4b0c4234b3628d07aa781607",
     "L0002.4dad65d50a2849f2aa8418a10412581e"
@@ -42,7 +41,7 @@
       ],
       "halfLength": 12,
       "halfWidth": 17.45,
-      "height": 50.325,
+      "height": 50.298,
       "gradient": [
         -0.0125,
         0
@@ -61,9 +60,9 @@
       ],
       "halfLength": 12,
       "halfWidth": 17.45,
-      "height": 50.218,
+      "height": 50.205,
       "gradient": [
-        -0.0214,
+        -0.02029,
         0
       ],
       "minLift": 0.05,
@@ -77,22 +76,40 @@
     "bron": {
       "bgt": [
         {
-          "id": "L0002.446580b7cf464f6dbb7f472fce989756",
-          "type": "onbekend"
-        },
-        {
           "id": "L0002.a64e1272b7144f579cedab62b3460dee",
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/973139554",
+        "tags": {
+          "bridge": "yes",
+          "carriageway_ref": "Re",
+          "highway": "motorway",
+          "int_ref": "E 231",
+          "lanes": "4",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "100",
+          "maxspeed:conditional": "120 @ (19:00-06:00)",
+          "oneway": "yes",
+          "operator": "Rijkswaterstaat",
+          "ref": "A1",
+          "source:maxspeed": "sign",
+          "surface": "asphalt",
+          "toll:hgv": "yes",
+          "turn:lanes": "none|none|none|slight_right",
+          "man_made": "bridge",
+          "name": "Naardertrekvaart"
+        }
+      },
       "fis": null,
-      "pdokBridgeVlakken": 2
+      "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,460000,140000,480000 --run nl-6_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map naarden-brug-a64e1272 --plaats naarden --punt 137879,479774",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -115,7 +132,7 @@
           "klasse": "Terrain",
           "oppervlak": 176.7,
           "onderDek": 0.91,
-          "bovenDekOnderkant": 0.36,
+          "bovenDekOnderkant": 0.39,
           "actie": "verbergen"
         },
         {
@@ -123,12 +140,12 @@
           "klasse": "Terrain",
           "oppervlak": 159,
           "onderDek": 0.92,
-          "bovenDekOnderkant": 0.08,
+          "bovenDekOnderkant": 0.1,
           "actie": "verbergen"
         }
       ],
       "opritHoogtes": [
-        50.175,
+        50.148,
         49.961
       ]
     },
@@ -137,6 +154,6 @@
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
       "2 PDOK-vorm(en) door het dek: 2 verborgen, 0 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "name": "enschede-brug-18787c3f",
+  "name": "Ecoduct Oudste Grond",
   "file": "enschede-brug-18787c3f.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -132,14 +132,24 @@
           "type": "pijler"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/732398778",
+        "tags": {
+          "bridge": "yes",
+          "landuse": "grass",
+          "layer": "1",
+          "man_made": "wildlife_crossing",
+          "name": "Ecoduct Oudste Grond",
+          "wikidata": "Q125790363"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 8
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,460000,260000,480000 --run nl-12_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map enschede-brug-18787c3f --plaats enschede --punt 251497,470994",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

@@ -1,5 +1,5 @@
 {
-  "name": "helmond-brug-3881d7e3",
+  "name": "Julianabrug",
   "file": "helmond-brug-3881d7e3.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -122,14 +122,35 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/692848126",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "movable",
+          "bridge:movable": "bascule",
+          "bridge:name": "Julianabrug",
+          "foot": "use_sidepath",
+          "highway": "secondary",
+          "lanes": "2",
+          "layer": "1",
+          "maxspeed": "50",
+          "mofa": "use_sidepath",
+          "name": "Julianabrug",
+          "note": "Brug is beweegbaar, maar wordt niet meer als zodanig gebruikt, omdat er geen scheepvaart meer door het kanaal gaat.",
+          "oneway": "yes",
+          "turn:lanes": "left|through;right",
+          "zone:traffic": "NL:urban",
+          "man_made": "bridge",
+          "wikidata": "Q130709080"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 9
     },
-    "type": "ophaalbrug",
+    "type": "basculebrug",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,380000,180000,400000 --run nl-8_4 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map helmond-brug-3881d7e3 --plaats helmond --punt 173375,388508",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

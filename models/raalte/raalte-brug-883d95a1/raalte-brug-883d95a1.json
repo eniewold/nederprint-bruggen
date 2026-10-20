@@ -1,5 +1,5 @@
 {
-  "name": "raalte-brug-883d95a1",
+  "name": "Overkampsweg",
   "file": "raalte-brug-883d95a1.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -13,7 +13,7 @@
     0.106611
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 50.338,
+  "groundHeight": 50.329,
   "groundSamplePoints": [
     [
       -24.27,
@@ -60,9 +60,9 @@
       ],
       "halfLength": 11.03,
       "halfWidth": 9.51,
-      "height": 50.569,
+      "height": 50.565,
       "gradient": [
-        -0.02099,
+        -0.02138,
         0
       ],
       "minLift": 0.05,
@@ -88,14 +88,24 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/6810560",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "yes",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Overkampsweg"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 3
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 200000,480000,220000,500000 --run nl-10_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map raalte-brug-883d95a1 --plaats raalte --punt 215600,487233",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -115,12 +125,12 @@
       "doorstekend": [],
       "opritHoogtes": [
         50.501,
-        50.338
+        50.329
       ]
     },
     "waarschuwingen": [
       "geen FIS-brug binnen 35 m"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

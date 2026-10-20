@@ -1,5 +1,5 @@
 {
-  "name": "almelo-brug-5ee1523a",
+  "name": "Nijreessingel",
   "file": "almelo-brug-5ee1523a.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -118,14 +118,39 @@
           "type": "landhoofd"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/304363668",
+        "tags": {
+          "agricultural": "no",
+          "bicycle": "no",
+          "bridge": "yes",
+          "foot": "no",
+          "highway": "primary",
+          "lanes": "1",
+          "layer": "1",
+          "maxspeed": "70",
+          "maxweight:signed": "no",
+          "mofa": "no",
+          "moped": "no",
+          "name": "Nijreessingel",
+          "nat_ref": "N349",
+          "oneway": "yes",
+          "operator": "Gemeente Almelo",
+          "ref": "N349;RING",
+          "surface": "asphalt",
+          "zone:traffic": "NL:urban",
+          "bridge:structure": "beam",
+          "man_made": "bridge",
+          "material": "concrete"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 5
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,480000,260000,500000 --run nl-12_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map almelo-brug-5ee1523a --plaats almelo --punt 243048,484387",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

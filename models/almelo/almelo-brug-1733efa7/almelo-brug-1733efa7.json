@@ -1,5 +1,5 @@
 {
-  "name": "almelo-brug-1733efa7",
+  "name": "Weezebeeksweg",
   "file": "almelo-brug-1733efa7.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -118,14 +118,25 @@
           "type": "pijler"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/55617325",
+        "tags": {
+          "bridge": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "moped": "yes",
+          "name": "Weezebeeksweg",
+          "oneway": "no",
+          "surface": "asphalt"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 9
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,480000,260000,500000 --run nl-12_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map almelo-brug-1733efa7 --plaats almelo --punt 242379,484380",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

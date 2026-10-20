@@ -1,5 +1,5 @@
 {
-  "name": "haarle-brug-96809ac9",
+  "name": "Ecopassage Nijverdal",
   "file": "haarle-brug-96809ac9.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -9,14 +9,14 @@
     487314.7
   ],
   "xAxis": [
-    0.99499,
-    -0.099971
+    0.995052,
+    -0.099352
   ],
   "groundOffsetMetres": 0,
   "groundHeight": 60.5,
   "groundSamplePoints": [
     [
-      -14.29,
+      -14.3,
       0
     ],
     [
@@ -32,12 +32,12 @@
   "terrainCorrections": [
     {
       "centre": [
-        225276.47,
-        487317.33
+        225276.46,
+        487317.31
       ],
       "axis": [
-        -0.99499,
-        0.099971
+        -0.995052,
+        0.099352
       ],
       "halfLength": 12,
       "halfWidth": 4.31,
@@ -52,11 +52,11 @@
     {
       "centre": [
         225328.85,
-        487312.07
+        487312.08
       ],
       "axis": [
-        0.99499,
-        -0.099971
+        0.995052,
+        -0.099352
       ],
       "halfLength": 12,
       "halfWidth": 4.31,
@@ -88,14 +88,43 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1073568749",
+        "tags": {
+          "bridge": "yes",
+          "description": "Zwolle - Wierden",
+          "electrified": "contact_line",
+          "frequency": "0",
+          "gauge": "1435",
+          "layer": "1",
+          "maxspeed": "140",
+          "name": "Ecopassage Nijverdal",
+          "note": "Start Electrical test trains 16-8-2017",
+          "operator": "ProRail",
+          "passenger_lines": "1",
+          "railway": "rail",
+          "railway:atb": "yes",
+          "railway:atb-ng": "yes",
+          "railway:etcs": "no",
+          "railway:maximum_current": "4000",
+          "railway:track_class": "C2",
+          "railway:traffic_mode": "passenger",
+          "ref": "206",
+          "ref:ProRailSpoortak": "206_123V_18.2",
+          "source": "ProRail",
+          "source:date": "2013-07-10",
+          "usage": "branch",
+          "voltage": "1500",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 3
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,480000,240000,500000 --run nl-11_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map haarle-brug-96809ac9 --plaats haarle --punt 225303,487315",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

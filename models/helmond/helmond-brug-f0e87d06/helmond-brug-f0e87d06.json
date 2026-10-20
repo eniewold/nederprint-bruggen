@@ -1,5 +1,5 @@
 {
-  "name": "helmond-brug-f0e87d06",
+  "name": "De Plaetse",
   "file": "helmond-brug-f0e87d06.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,27 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1148040386",
+        "tags": {
+          "bridge": "yes",
+          "highway": "pedestrian",
+          "layer": "1",
+          "lit": "yes",
+          "name": "De Plaetse",
+          "official_name": "de Plaetse",
+          "surface": "paving_stones",
+          "zone:traffic": "NL:urban",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,380000,180000,400000 --run nl-8_4 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map helmond-brug-f0e87d06 --plaats helmond --punt 170520,385606",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

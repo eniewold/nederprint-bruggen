@@ -1,5 +1,5 @@
 {
-  "name": "naarden-brug-d91be37f",
+  "name": "Flevo-Oord",
   "file": "naarden-brug-d91be37f.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -9,18 +9,14 @@
     479340.04
   ],
   "xAxis": [
-    0.993497,
-    0.113858
+    0.113858,
+    -0.993497
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 50.112,
+  "groundHeight": 43.518,
   "groundSamplePoints": [
     [
-      -13.22,
-      0
-    ],
-    [
-      15.9,
+      33.92,
       0
     ]
   ],
@@ -33,37 +29,37 @@
   "terrainCorrections": [
     {
       "centre": [
-        142951.16,
-        479338.68
+        142962.97,
+        479340.04
       ],
       "axis": [
-        -0.993497,
-        -0.113858
+        0.113858,
+        -0.993497
       ],
-      "halfLength": 6.62,
-      "halfWidth": 11.98,
-      "height": 51.11,
+      "halfLength": 4.99,
+      "halfWidth": 5.78,
+      "height": 42.518,
       "gradient": [
-        -0.02267,
+        0,
         0
       ],
-      "minLift": 0.05,
-      "maxLift": 4
+      "minLift": -8.78,
+      "maxLift": -0.01
     },
     {
       "centre": [
-        142977.45,
-        479341.69
+        142965.24,
+        479320.21
       ],
       "axis": [
-        0.993497,
-        0.113858
+        0.113858,
+        -0.993497
       ],
-      "halfLength": 6.62,
-      "halfWidth": 11.98,
-      "height": 50.686,
+      "halfLength": 9.98,
+      "halfWidth": 7.28,
+      "height": 43.668,
       "gradient": [
-        -0.08675,
+        -0.01503,
         0
       ],
       "minLift": 0.05,
@@ -90,46 +86,99 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/187844673",
+        "tags": {
+          "bridge": "yes",
+          "highway": "track",
+          "layer": "1",
+          "name": "Flevo-Oord",
+          "tracktype": "grade2"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 3
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,460000,160000,480000 --run nl-7_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map naarden-brug-d91be37f --plaats naarden --punt 142963,479340",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
-      "dekLengte": 10.6,
-      "dekBreedte": 20,
-      "brugLengte": 13.2,
-      "water": null,
-      "portaalhoogte": 18,
-      "opritafstand": [
-        7.9,
-        7.9
+      "dekLengte": 20,
+      "dekBreedte": 10.6,
+      "brugLengte": 20,
+      "water": [
+        -10,
+        9.5
       ],
-      "oprithelling": 13.2,
+      "portaalhoogte": 9.5,
+      "opritafstand": [
+        35.9,
+        23.9
+      ],
+      "oprithelling": 20,
       "doorstekend": [
+        {
+          "gmlId": "G0406.1cc08fdd6aee4a45877a11efdcc248d4",
+          "klasse": "Terrain",
+          "oppervlak": 834.7,
+          "onderDek": 0.01,
+          "bovenDekOnderkant": 7.78,
+          "actie": "verlagen"
+        },
         {
           "gmlId": "G1942.4c40be7ad33d42829787995cba38395a",
           "klasse": "Terrain",
           "oppervlak": 22.7,
-          "onderDek": 0.82,
-          "bovenDekOnderkant": 0.22,
+          "onderDek": 1,
+          "bovenDekOnderkant": 7.66,
           "actie": "verbergen"
+        },
+        {
+          "gmlId": "G1942.677398c6796642efb196a03850f0e16e",
+          "klasse": "Terrain",
+          "oppervlak": 3778.7,
+          "onderDek": 0,
+          "bovenDekOnderkant": 7.47,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G1942.81500757f7b048a482513d29f497cfd5",
+          "klasse": "Forest",
+          "oppervlak": 5431.5,
+          "onderDek": 0,
+          "bovenDekOnderkant": 7.22,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "W0155.8abeacd5439b75202105111003326855",
+          "klasse": "Terrain",
+          "oppervlak": 189.2,
+          "onderDek": 0.22,
+          "bovenDekOnderkant": 6.27,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G1942.48c4bdbb7b0a4f73bcec109111254417",
+          "klasse": "Forest",
+          "oppervlak": 1804.8,
+          "onderDek": 0,
+          "bovenDekOnderkant": 5.52,
+          "actie": "verlagen"
         }
       ],
       "opritHoogtes": [
-        50.96,
-        50.112
+        null,
+        43.518
       ]
     },
     "waarschuwingen": [
-      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
-      "1 PDOK-vorm(en) door het dek: 1 verborgen, 0 verlaagd"
+      "oprit - zonder PDOK-maaiveld",
+      "oprit + pas op 23.9 m gemeten",
+      "6 PDOK-vorm(en) door het dek: 1 verborgen, 5 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "name": "volendam-brug-975c654f",
+  "name": "Werengouw",
   "file": "volendam-brug-975c654f.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -13,7 +13,7 @@
     0.973339
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 41.899,
+  "groundHeight": 41.892,
   "groundSamplePoints": [
     [
       -29.56,
@@ -59,9 +59,9 @@
       ],
       "halfLength": 12,
       "halfWidth": 13.64,
-      "height": 42.25,
+      "height": 42.246,
       "gradient": [
-        -0.02924,
+        -0.02955,
         0
       ],
       "minLift": 0.05,
@@ -103,14 +103,23 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/281649988",
+        "tags": {
+          "bridge": "yes",
+          "highway": "residential",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Werengouw"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 2
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,500000,140000,520000 --run nl-6_10 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map volendam-brug-975c654f --plaats volendam --punt 131903,500983",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -147,7 +156,7 @@
         {
           "gmlId": "G0385.1aa8002620f44b9980b122224609bc1a",
           "klasse": "Forest",
-          "oppervlak": 1508.5,
+          "oppervlak": 754.2,
           "onderDek": 0.01,
           "bovenDekOnderkant": 0.94,
           "actie": "verlagen"
@@ -162,7 +171,7 @@
         }
       ],
       "opritHoogtes": [
-        41.899,
+        41.892,
         42.301
       ]
     },
@@ -171,6 +180,6 @@
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
       "4 PDOK-vorm(en) door het dek: 0 verborgen, 4 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

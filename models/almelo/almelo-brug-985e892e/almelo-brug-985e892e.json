@@ -1,5 +1,5 @@
 {
-  "name": "almelo-brug-985e892e",
+  "name": "Sluiskade Noordzijde",
   "file": "almelo-brug-985e892e.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -88,14 +88,28 @@
           "type": "landhoofd"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/90576392",
+        "tags": {
+          "bridge": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "mofa": "yes",
+          "moped": "designated",
+          "name": "Sluiskade Noordzijde",
+          "oneway": "no",
+          "sidewalk": "no",
+          "surface": "asphalt",
+          "traffic_sign": "NL:G12a"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 3
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,480000,260000,500000 --run nl-12_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map almelo-brug-985e892e --plaats almelo --punt 244355,487634",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

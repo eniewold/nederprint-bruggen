@@ -9,18 +9,18 @@
     520764.86
   ],
   "xAxis": [
-    0.98487,
-    -0.173294
+    -0.173294,
+    -0.98487
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 40.431,
+  "groundHeight": 40.243,
   "groundSamplePoints": [
     [
-      -5.8,
+      -18.27,
       0
     ],
     [
-      5.8,
+      18.27,
       0
     ]
   ],
@@ -34,33 +34,33 @@
         520764.86
       ],
       "axis": [
-        0.98487,
-        -0.173294
+        -0.173294,
+        -0.98487
       ],
-      "halfLength": 0.9,
-      "halfWidth": 8.8,
-      "height": 39.537,
+      "halfLength": 4.15,
+      "halfWidth": 2.3,
+      "height": 41.331,
       "gradient": [
         0,
         0
       ],
-      "minLift": -4.25,
+      "minLift": -2.26,
       "maxLift": -0.01
     },
     {
       "centre": [
-        116146.37,
-        520765.69
+        116153.97,
+        520781.21
       ],
       "axis": [
-        -0.98487,
-        0.173294
+        0.173294,
+        0.98487
       ],
-      "halfLength": 3,
-      "halfWidth": 10.3,
-      "height": 40.687,
+      "halfLength": 8.3,
+      "halfWidth": 2.7,
+      "height": 42.481,
       "gradient": [
-        -0.05,
+        -0.01806,
         0
       ],
       "minLift": 0.05,
@@ -68,18 +68,18 @@
     },
     {
       "centre": [
-        116155.82,
-        520764.03
+        116148.21,
+        520748.5
       ],
       "axis": [
-        0.98487,
-        -0.173294
+        -0.173294,
+        -0.98487
       ],
-      "halfLength": 3,
-      "halfWidth": 10.3,
-      "height": 40.634,
+      "halfLength": 8.3,
+      "halfWidth": 2.7,
+      "height": 41.437,
       "gradient": [
-        -0.06766,
+        -0.14377,
         0
       ],
       "minLift": 0.05,
@@ -112,39 +112,46 @@
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,520000,120000,540000 --run nl-5_11 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map heerhugowaard-brug-d4d3bd14 --plaats heerhugowaard --punt 116151,520765",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
-      "dekLengte": 3.6,
-      "dekBreedte": 16.6,
-      "brugLengte": 3.6,
+      "dekLengte": 16.6,
+      "dekBreedte": 3.6,
+      "brugLengte": 16.6,
       "water": null,
-      "portaalhoogte": 14.9,
+      "portaalhoogte": 3.2,
       "opritafstand": [
-        4,
-        4
+        10,
+        10
       ],
-      "oprithelling": 6,
+      "oprithelling": 16.6,
       "doorstekend": [
         {
           "gmlId": "W0651.5e041fb1bbfa4f1486842476d429cd94",
           "klasse": "Forest",
           "oppervlak": 37.4,
-          "onderDek": 0.63,
-          "bovenDekOnderkant": 3.25,
+          "onderDek": 0.61,
+          "bovenDekOnderkant": 1.26,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "W0651.86581ee73f154615851920b1a21b9439",
+          "klasse": "Forest",
+          "oppervlak": 453.4,
+          "onderDek": 0,
+          "bovenDekOnderkant": 1.26,
           "actie": "verlagen"
         }
       ],
       "opritHoogtes": [
-        40.537,
-        40.431
+        42.331,
+        40.243
       ]
     },
     "waarschuwingen": [
-      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
-      "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
     ],
     "gegenereerd": "2026-10-20"
   }

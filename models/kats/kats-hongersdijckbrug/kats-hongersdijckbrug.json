@@ -5,66 +5,58 @@
   "unitsPerMetre": 1,
   "crs": "EPSG:28992",
   "origin": [
-    49222.45,
-    396104.39
+    49218.36,
+    396099.48
   ],
   "xAxis": [
-    0.513234,
-    -0.858249
+    0.132387,
+    -0.991198
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 48.114,
+  "groundHeight": 50.324,
   "groundSamplePoints": [
     [
-      -51.36,
-      0
-    ],
-    [
-      51.36,
+      -5.32,
       0
     ]
   ],
   "replacesTerrain": [
-    "P0029.0bb0f734522941fe8d084aa2579c194c",
-    "P0029.16f4a586053c402cae931c447b734bc8",
-    "P0029.9faa4951cb204f3883b9b5abda38ecdc",
-    "P0029.b91c4be832a2470dbdfb16721bacb28a",
-    "P0029.dd8e5df570f44c44a4535b4a14e1ebd1"
+    "P0029.6373fa248ebc46c5b4c30d0548fa8452"
   ],
   "terrainCorrections": [
     {
       "centre": [
-        49200.2,
-        396141.6
+        49218.36,
+        396099.48
       ],
       "axis": [
-        -0.513234,
-        0.858249
+        0.132387,
+        -0.991198
       ],
-      "halfLength": 12,
-      "halfWidth": 16.47,
-      "height": 49.558,
+      "halfLength": 0.66,
+      "halfWidth": 1.46,
+      "height": 49.324,
       "gradient": [
-        -0.0125,
+        0,
         0
       ],
-      "minLift": 0.05,
-      "maxLift": 4
+      "minLift": -1.12,
+      "maxLift": -0.01
     },
     {
       "centre": [
-        49244.71,
-        396067.17
+        49217.79,
+        396103.76
       ],
       "axis": [
-        0.513234,
-        -0.858249
+        -0.132387,
+        0.991198
       ],
-      "halfLength": 12,
-      "halfWidth": 16.47,
-      "height": 48.911,
+      "halfLength": 3,
+      "halfWidth": 1.45,
+      "height": 50.474,
       "gradient": [
-        -0.06642,
+        -0.05,
         0
       ],
       "minLift": 0.05,
@@ -73,32 +65,12 @@
   ],
   "generated": {
     "deckBgtIds": [
-      "P0029.0bb0f734522941fe8d084aa2579c194c",
-      "P0029.16f4a586053c402cae931c447b734bc8",
-      "P0029.9faa4951cb204f3883b9b5abda38ecdc",
-      "P0029.b91c4be832a2470dbdfb16721bacb28a",
-      "P0029.dd8e5df570f44c44a4535b4a14e1ebd1"
+      "P0029.6373fa248ebc46c5b4c30d0548fa8452"
     ],
     "bron": {
       "bgt": [
         {
-          "id": "P0029.0bb0f734522941fe8d084aa2579c194c",
-          "type": "dek"
-        },
-        {
-          "id": "P0029.16f4a586053c402cae931c447b734bc8",
-          "type": "dek"
-        },
-        {
-          "id": "P0029.9faa4951cb204f3883b9b5abda38ecdc",
-          "type": "dek"
-        },
-        {
-          "id": "P0029.b91c4be832a2470dbdfb16721bacb28a",
-          "type": "dek"
-        },
-        {
-          "id": "P0029.dd8e5df570f44c44a4535b4a14e1ebd1",
+          "id": "P0029.6373fa248ebc46c5b4c30d0548fa8452",
           "type": "dek"
         }
       ],
@@ -115,40 +87,48 @@
       "fis": {
         "id": 33821,
         "naam": "Hongersdijckbrug",
-        "afstand": 8,
+        "afstand": 19,
         "beweegbaar": true,
         "doorvaarthoogteGesloten": 0.9900000000000002
       },
-      "pdokBridgeVlakken": 5
+      "pdokBridgeVlakken": 1
     },
     "type": "ophaalbrug",
     "doorvaarthoogte": 0.9900000000000002,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 40000,380000,60000,400000 --run nl-2_4 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map kats-hongersdijckbrug --plaats kats --punt 49222,396104",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
-      "dekLengte": 62.7,
-      "dekBreedte": 28.9,
-      "brugLengte": 62.7,
-      "water": [
-        9.1,
-        31.1
-      ],
-      "portaalhoogte": 26,
+      "dekLengte": 2.6,
+      "dekBreedte": 1.9,
+      "brugLengte": 2.6,
+      "water": null,
+      "portaalhoogte": 2.5,
       "opritafstand": [
-        20,
-        20
+        4,
+        12
       ],
-      "oprithelling": 24,
-      "doorstekend": [],
+      "oprithelling": 6,
+      "doorstekend": [
+        {
+          "gmlId": "P0029.dbecde5a8a5347c5a8bbb199280bffe5",
+          "klasse": "Terrain",
+          "oppervlak": 19.9,
+          "onderDek": 0.02,
+          "bovenDekOnderkant": 0.12,
+          "actie": "verlagen"
+        }
+      ],
       "opritHoogtes": [
-        49.408,
-        48.114
+        50.324,
+        null
       ]
     },
     "waarschuwingen": [
-      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+      "oprit + zonder PDOK-maaiveld",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
     ],
     "gegenereerd": "2026-10-20"
   }

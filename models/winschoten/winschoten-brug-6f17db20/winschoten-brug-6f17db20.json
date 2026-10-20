@@ -1,5 +1,5 @@
 {
-  "name": "winschoten-brug-6f17db20",
+  "name": "Oostwolderweg",
   "file": "winschoten-brug-6f17db20.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -88,14 +88,31 @@
           "type": "landhoofd"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1354176737",
+        "tags": {
+          "bicycle": "no",
+          "bridge": "yes",
+          "foot": "no",
+          "highway": "secondary",
+          "layer": "1",
+          "maxspeed": "60",
+          "mofa": "no",
+          "name": "Oostwolderweg",
+          "operator": "Provincie Groningen",
+          "ref": "N967",
+          "surface": "asphalt",
+          "zone:traffic": "NL:rural",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 3
     },
     "type": "ophaalbrug",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 260000,560000,280000,580000 --run nl-13_13 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map winschoten-brug-6f17db20 --plaats winschoten --punt 266841,576483",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -106,7 +123,7 @@
         -20.4,
         19.6
       ],
-      "portaalhoogte": 10,
+      "portaalhoogte": 9.9,
       "opritafstand": [
         20,
         20

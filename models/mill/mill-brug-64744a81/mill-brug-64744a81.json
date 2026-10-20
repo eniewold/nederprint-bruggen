@@ -1,5 +1,5 @@
 {
-  "name": "mill-brug-64744a81",
+  "name": "Bergseweg",
   "file": "mill-brug-64744a81.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -44,7 +44,7 @@
         0,
         0
       ],
-      "minLift": -1.41,
+      "minLift": -1.39,
       "maxLift": -0.01
     },
     {
@@ -97,14 +97,24 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/992328773",
+        "tags": {
+          "bridge": "yes",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Bergseweg",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 180000,400000,200000,420000 --run nl-9_5 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map mill-brug-64744a81 --plaats mill --punt 181490,412677",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -125,17 +135,17 @@
         {
           "gmlId": "W0654.13fbd1c20b8541938048c56a4b0f4303",
           "klasse": "Terrain",
-          "oppervlak": 1506,
+          "oppervlak": 167.4,
           "onderDek": 0.01,
-          "bovenDekOnderkant": 0.41,
+          "bovenDekOnderkant": 0.39,
           "actie": "verlagen"
         },
         {
           "gmlId": "W0654.fd9edafa102f4a4697e1d0916e7d9784",
           "klasse": "Terrain",
-          "oppervlak": 1689.1,
+          "oppervlak": 188.7,
           "onderDek": 0.02,
-          "bovenDekOnderkant": 0.24,
+          "bovenDekOnderkant": 0.22,
           "actie": "verlagen"
         }
       ],
@@ -148,6 +158,6 @@
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
       "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "name": "zuidland-brug-d25c76b6",
+  "name": "Ganzenhoek",
   "file": "zuidland-brug-d25c76b6.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -88,14 +88,24 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/111113430",
+        "tags": {
+          "bridge": "yes",
+          "highway": "footway",
+          "layer": "1",
+          "name": "Ganzenhoek",
+          "surface": "paving_stones",
+          "wikidata": "Q19118707"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 3
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 60000,420000,80000,440000 --run nl-3_6 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map zuidland-brug-d25c76b6 --plaats zuidland --punt 76747,426742",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

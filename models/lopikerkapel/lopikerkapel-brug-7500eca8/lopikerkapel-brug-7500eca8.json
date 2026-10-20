@@ -1,5 +1,5 @@
 {
-  "name": "lopikerkapel-brug-7500eca8",
+  "name": "Batuwseweg",
   "file": "lopikerkapel-brug-7500eca8.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,29 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1316871121",
+        "tags": {
+          "bridge": "yes",
+          "foot": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "mofa": "designated",
+          "moped": "no",
+          "name": "Batuwseweg",
+          "oneway": "no",
+          "traffic_sign": "NL:G11",
+          "zone:traffic": "NL:rural",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ophaalbrug",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,440000,140000,460000 --run nl-6_7 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map lopikerkapel-brug-7500eca8 --plaats lopikerkapel --punt 130430,444204",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -96,7 +111,7 @@
         -1.7,
         1.8
       ],
-      "portaalhoogte": 4.2,
+      "portaalhoogte": 4.1,
       "opritafstand": [
         4,
         4
@@ -113,6 +128,6 @@
       "geen FIS-brug binnen 35 m",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

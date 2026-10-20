@@ -1,5 +1,5 @@
 {
-  "name": "Oude IJsselbrug",
+  "name": "IJsselspoorbrug",
   "file": "zutphen-oude-ijsselbrug.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -124,34 +124,27 @@
         }
       ],
       "osm": {
-        "id": "way/693820306",
+        "id": "way/418330473",
         "tags": {
-          "bridge": "movable",
+          "bridge": "yes",
           "bridge:material": "steel",
-          "bridge:movable": "lift",
-          "bridge:name": "IJsselspoorbrug",
-          "bridge:structure": "truss",
-          "description": "Zutphen",
-          "electrified": "contact_line",
-          "frequency": "0",
-          "gauge": "1435",
+          "bridge:name": "Oude IJsselbrug",
+          "bridge:structure": "arch",
+          "highway": "cycleway",
           "layer": "1",
-          "maxspeed": "130",
-          "name": "Oude IJsselbrug",
-          "operator": "ProRail",
-          "passenger_lines": "2",
-          "railway": "rail",
-          "railway:atb": "yes",
-          "railway:maximum_current": "4000",
-          "railway:track_class": "D4",
-          "ref": "609",
-          "ref:ProRailID": "2876780.0",
-          "ref:ProRailSpoortak": "609_127V_27.2",
-          "source": "ProRail",
-          "source:date": "2014-01-03",
-          "usage": "main",
-          "voltage": "1500",
-          "man_made": "bridge"
+          "lit": "yes",
+          "mofa": "yes",
+          "name": "IJsselspoorbrug",
+          "smoothness": "good",
+          "surface": "asphalt",
+          "traffic_sign": "NL:G11",
+          "width": "4",
+          "zone:traffic": "NL:urban",
+          "man_made": "bridge",
+          "start_date": "1985",
+          "wikidata": "Q21088699",
+          "wikipedia": "nl:IJsselspoorbrug (Zutphen)",
+          "bridge:movable": "lift"
         }
       },
       "fis": null,
@@ -160,7 +153,7 @@
     "type": "ophaalbrug",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 200000,460000,220000,480000 --run nl-10_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map zutphen-oude-ijsselbrug --plaats zutphen --punt 209752,461958",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -171,7 +164,7 @@
         -23.1,
         152.4
       ],
-      "portaalhoogte": 22.9,
+      "portaalhoogte": 22.5,
       "opritafstand": [
         0,
         0
@@ -185,9 +178,9 @@
       ]
     },
     "waarschuwingen": [
-      "OSM zegt truss, gekozen type ophaalbrug",
+      "OSM zegt arch, gekozen type ophaalbrug",
       "geen FIS-brug binnen 35 m"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

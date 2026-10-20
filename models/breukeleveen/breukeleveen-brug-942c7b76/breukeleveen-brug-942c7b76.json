@@ -1,5 +1,5 @@
 {
-  "name": "breukeleveen-brug-942c7b76",
+  "name": "Herenweg",
   "file": "breukeleveen-brug-942c7b76.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -13,7 +13,7 @@
     0.108028
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 43.3,
+  "groundHeight": 43.288,
   "groundSamplePoints": [
     [
       -9.1,
@@ -40,7 +40,7 @@
       ],
       "halfLength": 1.53,
       "halfWidth": 2.97,
-      "height": 42.519,
+      "height": 42.514,
       "gradient": [
         0,
         0
@@ -59,7 +59,7 @@
       ],
       "halfLength": 3.8,
       "halfWidth": 3.71,
-      "height": 43.669,
+      "height": 43.664,
       "gradient": [
         -0.03949,
         0
@@ -78,9 +78,9 @@
       ],
       "halfLength": 3.8,
       "halfWidth": 3.71,
-      "height": 43.559,
+      "height": 43.551,
       "gradient": [
-        -0.06839,
+        -0.06929,
         0
       ],
       "minLift": 0.05,
@@ -102,14 +102,25 @@
           "type": "landhoofd"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/7066671",
+        "tags": {
+          "bridge": "yes",
+          "cycleway": "shared_lane",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Herenweg",
+          "surface": "asphalt"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 2
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,460000,140000,480000 --run nl-6_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map breukeleveen-brug-942c7b76 --plaats breukeleveen --punt 133311,464846",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -140,26 +151,26 @@
           "klasse": "Forest",
           "oppervlak": 114,
           "onderDek": 0,
-          "bovenDekOnderkant": 0.29,
+          "bovenDekOnderkant": 0.3,
           "actie": "verlagen"
         },
         {
           "gmlId": "W0155.8abeacd5439b75202103101147067871",
           "klasse": "Terrain",
-          "oppervlak": 56,
+          "oppervlak": 27.7,
           "onderDek": 0.04,
           "bovenDekOnderkant": 0.13,
           "actie": "verlagen"
         }
       ],
       "opritHoogtes": [
-        43.519,
-        43.3
+        43.514,
+        43.288
       ]
     },
     "waarschuwingen": [
       "3 PDOK-vorm(en) door het dek: 0 verborgen, 3 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

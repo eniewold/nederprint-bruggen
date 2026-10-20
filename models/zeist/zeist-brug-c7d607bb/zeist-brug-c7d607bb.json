@@ -1,5 +1,5 @@
 {
-  "name": "zeist-brug-c7d607bb",
+  "name": "Kozakkenput",
   "file": "zeist-brug-c7d607bb.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -13,7 +13,7 @@
     0.939287
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 56.223,
+  "groundHeight": 56.221,
   "groundSamplePoints": [
     [
       -58.9,
@@ -63,9 +63,9 @@
       ],
       "halfLength": 12,
       "halfWidth": 3.42,
-      "height": 56.56,
+      "height": 56.559,
       "gradient": [
-        -0.02806,
+        -0.02815,
         0
       ],
       "minLift": 0.05,
@@ -118,14 +118,29 @@
           "type": "onbekend"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/6990338",
+        "tags": {
+          "bicycle": "designated",
+          "bridge": "yes",
+          "bridge:name": "Kozakkenput",
+          "foot": "designated",
+          "highway": "cycleway",
+          "layer": "1",
+          "lit": "no",
+          "oneway": "no",
+          "segregated": "no",
+          "sidewalk": "no",
+          "surface": "asphalt"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 5
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,440000,160000,460000 --run nl-7_7 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map zeist-brug-c7d607bb --plaats zeist --punt 147837,458146",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -159,7 +174,7 @@
         {
           "gmlId": "L0002.4d5ba00d986846bdbe87c27b4c710da7",
           "klasse": "Forest",
-          "oppervlak": 2822.1,
+          "oppervlak": 1411,
           "onderDek": 0,
           "bovenDekOnderkant": 0.11,
           "actie": "verlagen"
@@ -167,14 +182,14 @@
         {
           "gmlId": "L0002.d26f7868c2a84e1b941ef5f17f887d2f",
           "klasse": "Forest",
-          "oppervlak": 2594.3,
+          "oppervlak": 1297.2,
           "onderDek": 0,
           "bovenDekOnderkant": 0.07,
           "actie": "verlagen"
         }
       ],
       "opritHoogtes": [
-        56.223,
+        56.221,
         56.597
       ]
     },
@@ -182,6 +197,6 @@
       "geen FIS-brug binnen 35 m",
       "4 PDOK-vorm(en) door het dek: 1 verborgen, 3 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

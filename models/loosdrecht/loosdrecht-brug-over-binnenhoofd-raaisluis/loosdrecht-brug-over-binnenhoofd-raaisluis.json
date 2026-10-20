@@ -78,7 +78,14 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/317936969",
+        "tags": {
+          "bridge": "movable",
+          "highway": "path",
+          "layer": "1"
+        }
+      },
       "fis": {
         "id": 56545,
         "naam": "Brug over binnenhoofd Raaisluis",
@@ -88,10 +95,10 @@
       },
       "pdokBridgeVlakken": 1
     },
-    "type": "ophaalbrug",
+    "type": "basculebrug",
     "doorvaarthoogte": 0.31000000000000005,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,460000,140000,480000 --run nl-6_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map loosdrecht-brug-over-binnenhoofd-raaisluis --plaats loosdrecht --punt 136891,470069",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -115,8 +122,9 @@
       ]
     },
     "waarschuwingen": [
+      "bridge=movable zonder mechanisme: basculebrug is een gok",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

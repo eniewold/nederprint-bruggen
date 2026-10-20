@@ -1,5 +1,5 @@
 {
-  "name": "Phoenixbrug",
+  "name": "Adriaan Tripweg",
   "file": "veendam-phoenixbrug.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -13,7 +13,7 @@
     -0.691795
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 43.091,
+  "groundHeight": 43.086,
   "groundSamplePoints": [
     [
       -35.98,
@@ -43,9 +43,9 @@
       ],
       "halfLength": 12,
       "halfWidth": 7.52,
-      "height": 43.303,
+      "height": 43.3,
       "gradient": [
-        -0.01769,
+        -0.0179,
         0
       ],
       "minLift": 0.05,
@@ -99,7 +99,20 @@
           "type": "landhoofd"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/6379632",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "movable",
+          "bridge:movable": "bascule",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxspeed": "80",
+          "mofa": "use_sidepath",
+          "moped": "use_sidepath",
+          "name": "Adriaan Tripweg"
+        }
+      },
       "fis": {
         "id": 3325,
         "naam": "Phoenixbrug",
@@ -109,10 +122,10 @@
       },
       "pdokBridgeVlakken": 5
     },
-    "type": "ophaalbrug",
+    "type": "basculebrug",
     "doorvaarthoogte": 0.38,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,560000,260000,580000 --run nl-12_13 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map veendam-phoenixbrug --plaats veendam --punt 255346,568877",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -131,7 +144,7 @@
       "oprithelling": 24,
       "doorstekend": [],
       "opritHoogtes": [
-        43.091,
+        43.086,
         43.215
       ]
     },

@@ -1,5 +1,5 @@
 {
-  "name": "Brug Kalenberg",
+  "name": "Kalenbergerpad",
   "file": "kalenberg-brug-kalenberg.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,20 +78,40 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/38548635",
+        "tags": {
+          "bridge": "movable",
+          "bridge:movable": "bascule",
+          "foot": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "mofa": "no",
+          "mofa:conditional": "yes @ residents",
+          "moped": "no",
+          "moped:conditional": "yes @ residents",
+          "name": "Kalenbergerpad",
+          "oneway": "no",
+          "segregated": "no",
+          "smoothness": "good",
+          "surface": "wood",
+          "traffic_sign": "NL:G13",
+          "zone:traffic": "NL:urban"
+        }
+      },
       "fis": {
         "id": 54317,
         "naam": "Brug Kalenberg",
-        "afstand": 3,
+        "afstand": 2,
         "beweegbaar": true,
         "doorvaarthoogteGesloten": 1.22
       },
       "pdokBridgeVlakken": 1
     },
-    "type": "ophaalbrug",
+    "type": "basculebrug",
     "doorvaarthoogte": 1.22,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 180000,520000,200000,540000 --run nl-9_11 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map kalenberg-brug-kalenberg --plaats kalenberg --punt 193357,532228",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

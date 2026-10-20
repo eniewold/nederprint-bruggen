@@ -44,7 +44,7 @@
         0,
         0
       ],
-      "minLift": -1.36,
+      "minLift": -1.35,
       "maxLift": -0.01
     },
     {
@@ -97,14 +97,22 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1445433599",
+        "tags": {
+          "bridge": "yes",
+          "highway": "service",
+          "layer": "1",
+          "service": "driveway"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,480000,260000,500000 --run nl-12_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map geesteren-brug-30c4620c-2 --plaats geesteren --punt 242542,495722",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -125,15 +133,15 @@
         {
           "gmlId": "G1774.30c4620ab7b674f6e053390a1dac59df",
           "klasse": "Terrain",
-          "oppervlak": 436.8,
+          "oppervlak": 218,
           "onderDek": 0,
-          "bovenDekOnderkant": 0.36,
+          "bovenDekOnderkant": 0.35,
           "actie": "verlagen"
         },
         {
           "gmlId": "W0663.8abeacd5439b75202003041237484916",
           "klasse": "Terrain",
-          "oppervlak": 835.8,
+          "oppervlak": 418.3,
           "onderDek": 0.01,
           "bovenDekOnderkant": 0.24,
           "actie": "verlagen"

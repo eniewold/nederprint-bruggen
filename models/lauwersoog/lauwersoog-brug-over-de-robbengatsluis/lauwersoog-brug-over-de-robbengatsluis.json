@@ -1,5 +1,5 @@
 {
-  "name": "Brug over de Robbengatsluis",
+  "name": "Kustweg",
   "file": "lauwersoog-brug-over-de-robbengatsluis.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -61,7 +61,7 @@
       "halfWidth": 9.16,
       "height": 45.537,
       "gradient": [
-        -0.22298,
+        -0.22296,
         0
       ],
       "minLift": 0.05,
@@ -83,20 +83,41 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/46688447",
+        "tags": {
+          "bicycle": "no",
+          "bridge": "movable",
+          "bridge:movable": "bascule",
+          "foot": "use_sidepath",
+          "highway": "primary",
+          "lanes": "2",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "60",
+          "maxweight:signed": "no",
+          "mofa": "no",
+          "moped": "no",
+          "name": "Kustweg",
+          "operator": "Provincie Groningen",
+          "ref": "N361",
+          "surface": "asphalt",
+          "traffic_sign": "NL:C15"
+        }
+      },
       "fis": {
         "id": 26301,
         "naam": "Brug over de Robbengatsluis",
-        "afstand": 6,
+        "afstand": 3,
         "beweegbaar": true,
         "doorvaarthoogteGesloten": 6.130000000000001
       },
       "pdokBridgeVlakken": 2
     },
-    "type": "ophaalbrug",
+    "type": "basculebrug",
     "doorvaarthoogte": 6.130000000000001,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 200000,600000,220000,620000 --run nl-10_15 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map lauwersoog-brug-over-de-robbengatsluis --plaats lauwersoog --punt 208834,602763",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

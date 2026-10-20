@@ -1,5 +1,5 @@
 {
-  "name": "volendam-brug-963c2cf8",
+  "name": "Den Oeverlaan",
   "file": "volendam-brug-963c2cf8.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -13,7 +13,7 @@
     0.368903
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 42.244,
+  "groundHeight": 42.237,
   "groundSamplePoints": [
     [
       -16.66,
@@ -62,9 +62,9 @@
       ],
       "halfLength": 7.57,
       "halfWidth": 7.48,
-      "height": 42.404,
+      "height": 42.4,
       "gradient": [
-        -0.02107,
+        -0.02153,
         0
       ],
       "minLift": 0.05,
@@ -117,14 +117,23 @@
           "type": "landhoofd"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1349028554",
+        "tags": {
+          "bridge": "yes",
+          "highway": "residential",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Den Oeverlaan"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 5
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,500000,140000,520000 --run nl-6_10 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map volendam-brug-963c2cf8 --plaats volendam --punt 133779,502885",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -152,13 +161,13 @@
         }
       ],
       "opritHoogtes": [
-        42.244,
+        42.237,
         42.263
       ]
     },
     "waarschuwingen": [
       "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

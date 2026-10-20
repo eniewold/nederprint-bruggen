@@ -1,5 +1,5 @@
 {
-  "name": "Mandjeswaardbrug",
+  "name": "Mandjeswaardweg",
   "file": "grafhorst-mandjeswaardbrug.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -88,11 +88,25 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1524355256",
+        "tags": {
+          "bridge": "movable",
+          "bridge:movable": "drawbridge",
+          "highway": "unclassified",
+          "lanes": "1",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Mandjeswaardweg",
+          "smoothness": "good",
+          "surface": "asphalt",
+          "man_made": "bridge"
+        }
+      },
       "fis": {
         "id": 9236,
         "naam": "Mandjeswaardbrug",
-        "afstand": 2,
+        "afstand": 1,
         "beweegbaar": true,
         "doorvaarthoogteGesloten": 2.35
       },
@@ -101,7 +115,7 @@
     "type": "ophaalbrug",
     "doorvaarthoogte": 2.35,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 180000,500000,200000,520000 --run nl-9_10 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map grafhorst-mandjeswaardbrug --plaats grafhorst --punt 194074,511680",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -112,7 +126,7 @@
         -12.6,
         13.4
       ],
-      "portaalhoogte": 8.5,
+      "portaalhoogte": 5.8,
       "opritafstand": [
         16.4,
         16.4
@@ -125,6 +139,6 @@
       ]
     },
     "waarschuwingen": [],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

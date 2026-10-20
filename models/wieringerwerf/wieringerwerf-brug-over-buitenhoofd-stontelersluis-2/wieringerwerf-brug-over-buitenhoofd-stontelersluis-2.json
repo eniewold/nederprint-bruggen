@@ -1,5 +1,5 @@
 {
-  "name": "Brug over buitenhoofd Stontelersluis",
+  "name": "Noorderdijkweg",
   "file": "wieringerwerf-brug-over-buitenhoofd-stontelersluis-2.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,7 +78,19 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/72431924",
+        "tags": {
+          "bridge": "yes",
+          "highway": "tertiary",
+          "lane_markings": "no",
+          "layer": "1",
+          "maxaxleload": "4.8",
+          "maxspeed": "60",
+          "name": "Noorderdijkweg",
+          "surface": "asphalt"
+        }
+      },
       "fis": {
         "id": 25152,
         "naam": "Brug over buitenhoofd Stontelersluis",
@@ -91,7 +103,7 @@
     "type": "ophaalbrug",
     "doorvaarthoogte": 4.1,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,540000,140000,560000 --run nl-6_12 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map wieringerwerf-brug-over-buitenhoofd-stontelersluis-2 --plaats wieringerwerf --punt 131507,548323",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -102,7 +114,7 @@
         -2.6,
         2.9
       ],
-      "portaalhoogte": 5.6,
+      "portaalhoogte": 5.5,
       "opritafstand": [
         4,
         4

@@ -1,5 +1,5 @@
 {
-  "name": "Kloosterdijksluisbrug",
+  "name": "Kloosterdijksbrug",
   "file": "monnickendam-kloosterdijksluisbrug.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -13,7 +13,7 @@
     0.309267
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 43.58,
+  "groundHeight": 43.565,
   "groundSamplePoints": [
     [
       -7.17,
@@ -58,9 +58,9 @@
       ],
       "halfLength": 3.17,
       "halfWidth": 2.62,
-      "height": 43.845,
+      "height": 43.838,
       "gradient": [
-        -0.08356,
+        -0.08597,
         0
       ],
       "minLift": 0.05,
@@ -78,7 +78,23 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1079063059",
+        "tags": {
+          "bridge": "movable",
+          "bridge:movable": "bascule",
+          "foot": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "mofa": "designated",
+          "moped": "designated",
+          "name": "Kloosterdijksbrug",
+          "oneway": "no",
+          "traffic_sign": "NL:G12a",
+          "zone:traffic": "NL:rural",
+          "man_made": "bridge"
+        }
+      },
       "fis": {
         "id": 10956,
         "naam": "Kloosterdijksluisbrug",
@@ -88,10 +104,10 @@
       },
       "pdokBridgeVlakken": 1
     },
-    "type": "ophaalbrug",
+    "type": "basculebrug",
     "doorvaarthoogte": 2.06,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map monnickendam-kloosterdijksluisbrug --plaats monnickendam --punt 130872,497409",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -111,12 +127,12 @@
       "doorstekend": [],
       "opritHoogtes": [
         43.81,
-        43.58
+        43.565
       ]
     },
     "waarschuwingen": [
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

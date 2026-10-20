@@ -1,5 +1,5 @@
 {
-  "name": "almelo-brug-bdfbdedd",
+  "name": "Rensumaborg",
   "file": "almelo-brug-bdfbdedd.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -88,14 +88,26 @@
           "type": "landhoofd"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1018368824",
+        "tags": {
+          "bridge": "yes",
+          "highway": "residential",
+          "lane_markings": "no",
+          "layer": "1",
+          "maxspeed": "50",
+          "maxweight:signed": "no",
+          "name": "Rensumaborg",
+          "surface": "concrete"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 3
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,480000,260000,500000 --run nl-12_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map almelo-brug-bdfbdedd --plaats almelo --punt 242994,489351",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

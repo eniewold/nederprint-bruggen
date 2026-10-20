@@ -9,18 +9,14 @@
     411129.34
   ],
   "xAxis": [
-    -0.762605,
-    -0.646864
+    -0.646864,
+    0.762605
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 44.666,
+  "groundHeight": 48.746,
   "groundSamplePoints": [
     [
-      -17.37,
-      0
-    ],
-    [
-      17.37,
+      -30.95,
       0
     ]
   ],
@@ -31,37 +27,18 @@
   "terrainCorrections": [
     {
       "centre": [
-        86927.41,
-        411139.55
+        86932.1,
+        411109.61
       ],
       "axis": [
-        0.762605,
-        0.646864
+        0.646864,
+        -0.762605
       ],
-      "halfLength": 7.9,
-      "halfWidth": 15.87,
-      "height": 44.888,
+      "halfLength": 12,
+      "halfWidth": 9.9,
+      "height": 48.896,
       "gradient": [
-        -0.01899,
-        0
-      ],
-      "minLift": 0.05,
-      "maxLift": 4
-    },
-    {
-      "centre": [
-        86903.32,
-        411119.12
-      ],
-      "axis": [
-        -0.762605,
-        -0.646864
-      ],
-      "halfLength": 7.9,
-      "halfWidth": 15.87,
-      "height": 44.852,
-      "gradient": [
-        -0.02352,
+        -0.0125,
         0
       ],
       "minLift": 0.05,
@@ -90,28 +67,32 @@
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,400000,100000,420000 --run nl-4_5 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map willemstad-brug-e992cd39 --plaats willemstad --punt 86915,411129",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
-      "dekLengte": 15.8,
-      "dekBreedte": 27.7,
-      "brugLengte": 15.8,
-      "water": null,
-      "portaalhoogte": 25,
-      "opritafstand": [
-        9.5,
-        9.5
+      "dekLengte": 27.7,
+      "dekBreedte": 15.8,
+      "brugLengte": 28.5,
+      "water": [
+        2.6,
+        14.1
       ],
-      "oprithelling": 15.8,
+      "portaalhoogte": 14.2,
+      "opritafstand": [
+        17.1,
+        51.2
+      ],
+      "oprithelling": 24,
       "doorstekend": [],
       "opritHoogtes": [
-        44.738,
-        44.666
+        48.746,
+        null
       ]
     },
     "waarschuwingen": [
-      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen FIS-brug binnen 35 m",
+      "oprit + zonder PDOK-maaiveld",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
     "gegenereerd": "2026-10-20"

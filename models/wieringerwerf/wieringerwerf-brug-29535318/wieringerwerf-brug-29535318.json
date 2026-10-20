@@ -1,5 +1,5 @@
 {
-  "name": "wieringerwerf-brug-29535318",
+  "name": "Robbenoordweg",
   "file": "wieringerwerf-brug-29535318.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -13,7 +13,7 @@
     0.890408
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 39.307,
+  "groundHeight": 39.301,
   "groundSamplePoints": [
     [
       -33.73,
@@ -39,9 +39,9 @@
       ],
       "halfLength": 12,
       "halfWidth": 4.86,
-      "height": 39.466,
+      "height": 39.464,
       "gradient": [
-        -0.01328,
+        -0.01351,
         0
       ],
       "minLift": 0.05,
@@ -78,14 +78,24 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/271530382",
+        "tags": {
+          "bridge": "yes",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Robbenoordweg",
+          "surface": "asphalt"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,540000,140000,560000 --run nl-6_12 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map wieringerwerf-brug-29535318 --plaats wieringerwerf --punt 132189,540674",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -104,7 +114,7 @@
       "oprithelling": 24,
       "doorstekend": [],
       "opritHoogtes": [
-        39.307,
+        39.301,
         39.326
       ]
     },

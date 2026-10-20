@@ -1,5 +1,5 @@
 {
-  "name": "amsterdam-brug-046ba9fb",
+  "name": "Eva Besnyöstraat",
   "file": "amsterdam-brug-046ba9fb.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -88,14 +88,29 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1274409667",
+        "tags": {
+          "bridge": "yes",
+          "bridge:ref": "2031",
+          "highway": "residential",
+          "lanes": "2",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Eva Besnyöstraat",
+          "name:etymology:wikidata": "Q214198",
+          "oneway": "no",
+          "smoothness": "good",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 3
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map amsterdam-brug-046ba9fb --plaats amsterdam --punt 129336,484583",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -121,6 +136,6 @@
     "waarschuwingen": [
       "geen FIS-brug binnen 35 m"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

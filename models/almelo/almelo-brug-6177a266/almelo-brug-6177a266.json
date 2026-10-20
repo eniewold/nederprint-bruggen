@@ -1,5 +1,5 @@
 {
-  "name": "almelo-brug-6177a266",
+  "name": "De Grenzen",
   "file": "almelo-brug-6177a266.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -13,7 +13,7 @@
     0.855919
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 54.509,
+  "groundHeight": 54.503,
   "groundSamplePoints": [
     [
       -7.71,
@@ -60,9 +60,9 @@
       ],
       "halfLength": 3.5,
       "halfWidth": 8.8,
-      "height": 54.69,
+      "height": 54.687,
       "gradient": [
-        -0.05164,
+        -0.05259,
         0
       ],
       "minLift": 0.05,
@@ -88,14 +88,30 @@
           "type": "landhoofd"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/780935798",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "movable",
+          "bridge:movable": "bascule",
+          "highway": "unclassified",
+          "lane_markings": "no",
+          "layer": "1",
+          "maxspeed": "50",
+          "maxweight:signed": "no",
+          "name": "De Grenzen",
+          "surface": "asphalt",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 3
     },
-    "type": "ophaalbrug",
+    "type": "basculebrug",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,480000,260000,500000 --run nl-12_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map almelo-brug-6177a266 --plaats almelo --punt 241476,486403",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -115,7 +131,7 @@
       "doorstekend": [],
       "opritHoogtes": [
         54.571,
-        54.509
+        54.503
       ]
     },
     "waarschuwingen": [

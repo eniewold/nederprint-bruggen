@@ -108,20 +108,36 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/496710506",
+        "tags": {
+          "bridge": "movable",
+          "bridge:name": "Westerbuitenbrug",
+          "highway": "cycleway",
+          "layer": "1",
+          "mofa": "designated",
+          "moped": "designated",
+          "name": "Brug Edam",
+          "note": "oneway is no",
+          "traffic_sign": "NL:G12a",
+          "bridge:movable": "bascule",
+          "man_made": "bridge",
+          "source": "3dShapes"
+        }
+      },
       "fis": {
         "id": 25783,
         "naam": "Brug Edam",
-        "afstand": 6,
+        "afstand": 10,
         "beweegbaar": true,
         "doorvaarthoogteGesloten": 0.9199999999999999
       },
       "pdokBridgeVlakken": 5
     },
-    "type": "ophaalbrug",
+    "type": "basculebrug",
     "doorvaarthoogte": 0.9199999999999999,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,500000,140000,520000 --run nl-6_10 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map edam-brug-edam-2 --plaats edam --punt 131698,502650",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -173,6 +189,6 @@
       "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
       "3 PDOK-vorm(en) door het dek: 3 verborgen, 0 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

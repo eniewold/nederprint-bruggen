@@ -1,5 +1,5 @@
 {
-  "name": "spijkenisse-brug-a6d87455",
+  "name": "Vedergras",
   "file": "spijkenisse-brug-a6d87455.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -88,14 +88,25 @@
           "type": "landhoofd"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/155339265",
+        "tags": {
+          "bridge": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "mofa": "no",
+          "moped": "no",
+          "name": "Vedergras",
+          "traffic_sign": "NL:G13"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 3
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,420000,100000,440000 --run nl-4_6 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map spijkenisse-brug-a6d87455 --plaats spijkenisse --punt 81890,426810",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

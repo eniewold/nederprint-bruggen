@@ -9,18 +9,18 @@
     501068.37
   ],
   "xAxis": [
-    -0.197356,
-    0.980332
+    0.980332,
+    0.197356
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 41.637,
+  "groundHeight": 42.767,
   "groundSamplePoints": [
     [
-      -24.54,
+      -71.58,
       0
     ],
     [
-      24.54,
+      71.58,
       0
     ]
   ],
@@ -31,37 +31,18 @@
   "terrainCorrections": [
     {
       "centre": [
-        125084.64,
-        501068.37
+        125022.31,
+        501055.82
       ],
       "axis": [
-        -0.197356,
-        0.980332
+        -0.980332,
+        -0.197356
       ],
-      "halfLength": 4.38,
-      "halfWidth": 52.08,
-      "height": 40.835,
+      "halfLength": 12,
+      "halfWidth": 10.76,
+      "height": 43.777,
       "gradient": [
-        0,
-        0
-      ],
-      "minLift": -4.61,
-      "maxLift": -0.01
-    },
-    {
-      "centre": [
-        125088.1,
-        501051.18
-      ],
-      "axis": [
-        0.197356,
-        -0.980332
-      ],
-      "halfLength": 8.76,
-      "halfWidth": 53.58,
-      "height": 41.985,
-      "gradient": [
-        -0.01712,
+        -0.08418,
         0
       ],
       "minLift": 0.05,
@@ -69,18 +50,18 @@
     },
     {
       "centre": [
-        125081.18,
-        501085.55
+        125146.97,
+        501080.91
       ],
       "axis": [
-        -0.197356,
-        0.980332
+        0.980332,
+        0.197356
       ],
-      "halfLength": 8.76,
-      "halfWidth": 53.58,
-      "height": 41.886,
+      "halfLength": 12,
+      "halfWidth": 10.76,
+      "height": 44.638,
       "gradient": [
-        -0.02841,
+        -0.0125,
         0
       ],
       "minLift": 0.05,
@@ -123,7 +104,7 @@
       "fis": {
         "id": 6134,
         "naam": "Jan Blankenbrug Purmerend",
-        "afstand": 34,
+        "afstand": 30,
         "beweegbaar": true,
         "doorvaarthoogteGesloten": 2.55
       },
@@ -132,73 +113,30 @@
     "type": "basculebrug",
     "doorvaarthoogte": 2.55,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,500000,140000,520000 --run nl-6_10 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map purmerend-jan-blankenbrug-2 --plaats purmerend --punt 125085,501068",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
-      "dekLengte": 17.5,
-      "dekBreedte": 103.2,
-      "brugLengte": 17.5,
-      "water": null,
-      "portaalhoogte": 92.8,
+      "dekLengte": 103.2,
+      "dekBreedte": 17.5,
+      "brugLengte": 103.2,
+      "water": [
+        17.4,
+        44.4
+      ],
+      "portaalhoogte": 15.8,
       "opritafstand": [
-        15.8,
-        15.8
+        20,
+        20
       ],
-      "oprithelling": 17.5,
-      "doorstekend": [
-        {
-          "gmlId": "G0439.876a4c02dad0454c962f465312aeff95",
-          "klasse": "Terrain",
-          "oppervlak": 118.5,
-          "onderDek": 0.52,
-          "bovenDekOnderkant": 3.61,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "G0439.e3233e3cd3f84016a2bbfbe5f6d1fa6f",
-          "klasse": "Road",
-          "oppervlak": 5.7,
-          "onderDek": 0.01,
-          "bovenDekOnderkant": 3.61,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "G0439.d8a4839b98c34bad8e3f13d2320395e0",
-          "klasse": "Road",
-          "oppervlak": 242.6,
-          "onderDek": 0,
-          "bovenDekOnderkant": 3.6,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "G0439.6ef46fc837f446a79efb01d05d1135d6",
-          "klasse": "Road",
-          "oppervlak": 298.5,
-          "onderDek": 0.15,
-          "bovenDekOnderkant": 0.51,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "G0439.8a1bcaa411934ebfa063755438fc0f23",
-          "klasse": "Road",
-          "oppervlak": 333.4,
-          "onderDek": 0.13,
-          "bovenDekOnderkant": 0.37,
-          "actie": "verlagen"
-        }
-      ],
+      "oprithelling": 24,
+      "doorstekend": [],
       "opritHoogtes": [
-        41.835,
-        41.637
+        42.767,
+        44.488
       ]
     },
-    "waarschuwingen": [
-      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
-      "oprit - pas op 15.8 m gemeten",
-      "oprit + pas op 15.8 m gemeten",
-      "5 PDOK-vorm(en) door het dek: 0 verborgen, 5 verlaagd"
-    ],
-    "gegenereerd": "2026-10-19"
+    "waarschuwingen": [],
+    "gegenereerd": "2026-10-20"
   }
 }

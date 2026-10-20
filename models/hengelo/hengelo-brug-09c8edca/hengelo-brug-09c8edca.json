@@ -1,5 +1,5 @@
 {
-  "name": "hengelo-brug-09c8edca",
+  "name": "Eggerinksweg",
   "file": "hengelo-brug-09c8edca.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,27 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/693877342",
+        "tags": {
+          "bridge": "yes",
+          "highway": "unclassified",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "50",
+          "name": "Eggerinksweg",
+          "smoothness": "good",
+          "source:maxspeed": "NL:urban",
+          "surface": "asphalt"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,460000,260000,480000 --run nl-12_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map hengelo-brug-09c8edca --plaats hengelo --punt 249722,477262",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

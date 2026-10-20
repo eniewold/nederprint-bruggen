@@ -1,5 +1,5 @@
 {
-  "name": "dordrecht-brug-047fc0f9-213",
+  "name": "Berkenhof",
   "file": "dordrecht-brug-047fc0f9-213.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -97,14 +97,25 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/83385703",
+        "tags": {
+          "bridge": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "mofa": "yes",
+          "moped": "no",
+          "name": "Berkenhof",
+          "traffic_sign": "NL:G11"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,420000,120000,440000 --run nl-5_6 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map dordrecht-brug-047fc0f9-213 --plaats dordrecht --punt 107520,423859",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -148,6 +159,6 @@
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
       "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

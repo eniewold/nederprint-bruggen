@@ -9,18 +9,18 @@
     442483.97
   ],
   "xAxis": [
-    -0.363284,
-    -0.931679
+    -0.931679,
+    0.363284
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 30.55,
+  "groundHeight": 39.117,
   "groundSamplePoints": [
     [
-      -0.4,
+      -16.54,
       0
     ],
     [
-      0.4,
+      106.54,
       0
     ]
   ],
@@ -30,37 +30,18 @@
   "terrainCorrections": [
     {
       "centre": [
-        91430.63,
-        442483.97
+        91442.82,
+        442479.21
       ],
       "axis": [
-        -0.363284,
-        -0.931679
+        0.931679,
+        -0.363284
       ],
-      "halfLength": 0.2,
-      "halfWidth": 7.04,
-      "height": 29.254,
+      "halfLength": 6.54,
+      "halfWidth": 0.6,
+      "height": 40.013,
       "gradient": [
-        0,
-        0
-      ],
-      "minLift": -10.16,
-      "maxLift": -0.01
-    },
-    {
-      "centre": [
-        91431.87,
-        442487.13
-      ],
-      "axis": [
-        0.363284,
-        0.931679
-      ],
-      "halfLength": 3,
-      "halfWidth": 8.54,
-      "height": 30.554,
-      "gradient": [
-        0,
+        -0.02293,
         0
       ],
       "minLift": 0.05,
@@ -68,18 +49,18 @@
     },
     {
       "centre": [
-        91429.4,
-        442480.8
+        91418.44,
+        442488.72
       ],
       "axis": [
-        -0.363284,
-        -0.931679
+        -0.931679,
+        0.363284
       ],
-      "halfLength": 3,
-      "halfWidth": 8.54,
-      "height": 30.552,
+      "halfLength": 6.54,
+      "halfWidth": 0.6,
+      "height": 39.64,
       "gradient": [
-        -0.00058,
+        -0.07995,
         0
       ],
       "minLift": 0.05,
@@ -126,73 +107,33 @@
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,440000,100000,460000 --run nl-4_7 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map rotterdam-brug-dab37d1d --plaats rotterdam --punt 91431,442484",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
-      "dekLengte": 0.8,
-      "dekBreedte": 13.1,
-      "brugLengte": 0.8,
+      "dekLengte": 13.1,
+      "dekBreedte": 0.8,
+      "brugLengte": 13.1,
       "water": null,
-      "portaalhoogte": 11.8,
+      "portaalhoogte": 2.5,
       "opritafstand": [
-        0,
-        0
+        10,
+        100
       ],
-      "spoorhoogteBron": "prorail-pvs",
-      "oprithelling": 6,
-      "doorstekend": [
-        {
-          "gmlId": "L0004.f05e5a10af885655e0530b29a8c0b415",
-          "klasse": "Terrain",
-          "oppervlak": 147.3,
-          "onderDek": 0.01,
-          "bovenDekOnderkant": 9.16,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "L0004.f05e5a10aefb5655e0530b29a8c0b415",
-          "klasse": "Terrain",
-          "oppervlak": 132,
-          "onderDek": 0,
-          "bovenDekOnderkant": 8.41,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "L0004.f05e5a10af5b5655e0530b29a8c0b415",
-          "klasse": "Terrain",
-          "oppervlak": 117.2,
-          "onderDek": 0,
-          "bovenDekOnderkant": 4.26,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "L0004.f05e5a10af5c5655e0530b29a8c0b415",
-          "klasse": "Terrain",
-          "oppervlak": 73.3,
-          "onderDek": 0.01,
-          "bovenDekOnderkant": 2.37,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "L0004.1a85714f16004bc6bd98f90dee1c6c99",
-          "klasse": "Terrain",
-          "oppervlak": 128.1,
-          "onderDek": 0,
-          "bovenDekOnderkant": 1.58,
-          "actie": "verlagen"
-        }
-      ],
+      "spoorhoogteBron": "pdok",
+      "oprithelling": 13.1,
+      "doorstekend": [],
       "opritHoogtes": [
-        30.554,
-        30.55
+        39.863,
+        39.117
       ]
     },
     "waarschuwingen": [
-      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
-      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
-      "5 PDOK-vorm(en) door het dek: 0 verborgen, 5 verlaagd"
+      "oprit -: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "oprit +: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "oprit + pas op 100 m langs het spoor gemeten (PDOK-spoorterrein bij de brug lager)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

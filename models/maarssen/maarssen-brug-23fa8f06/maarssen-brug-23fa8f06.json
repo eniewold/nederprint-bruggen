@@ -44,7 +44,7 @@
         0,
         0
       ],
-      "minLift": -1.45,
+      "minLift": -1.41,
       "maxLift": -0.01
     },
     {
@@ -97,14 +97,23 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1063071462",
+        "tags": {
+          "bridge": "yes",
+          "highway": "track",
+          "layer": "1",
+          "surface": "paved",
+          "tracktype": "grade1"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,460000,140000,480000 --run nl-6_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map maarssen-brug-23fa8f06 --plaats maarssen --punt 130623,462971",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -122,9 +131,9 @@
         {
           "gmlId": "G1904.664c9158ba5a41c3bf15cc3a2cb09d54",
           "klasse": "Terrain",
-          "oppervlak": 7742.2,
+          "oppervlak": 2580.7,
           "onderDek": 0.01,
-          "bovenDekOnderkant": 0.45,
+          "bovenDekOnderkant": 0.41,
           "actie": "verlagen"
         }
       ],
@@ -137,6 +146,6 @@
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
       "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

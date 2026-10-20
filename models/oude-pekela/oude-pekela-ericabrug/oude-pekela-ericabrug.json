@@ -88,7 +88,17 @@
           "type": "landhoofd"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/843838777",
+        "tags": {
+          "bridge": "movable",
+          "bridge:movable": "bascule",
+          "highway": "residential",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Ericabrug"
+        }
+      },
       "fis": {
         "id": 29232,
         "naam": "Ericabrug",
@@ -98,10 +108,10 @@
       },
       "pdokBridgeVlakken": 3
     },
-    "type": "ophaalbrug",
+    "type": "basculebrug",
     "doorvaarthoogte": 1,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 260000,560000,280000,580000 --run nl-13_13 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map oude-pekela-ericabrug --plaats oude-pekela --punt 263050,569390",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

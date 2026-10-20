@@ -1,5 +1,5 @@
 {
-  "name": "2e Mondsebrug",
+  "name": "Sluiskade",
   "file": "musselkanaal-2e-mondsebrug.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -41,7 +41,7 @@
       ],
       "halfLength": 3.65,
       "halfWidth": 6.91,
-      "height": 51.757,
+      "height": 51.749,
       "gradient": [
         -0.04109,
         0
@@ -60,9 +60,9 @@
       ],
       "halfLength": 3.65,
       "halfWidth": 6.91,
-      "height": 51.509,
+      "height": 51.506,
       "gradient": [
-        -0.10885,
+        -0.10786,
         0
       ],
       "minLift": 0.05,
@@ -90,7 +90,17 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/6372727",
+        "tags": {
+          "bridge": "movable",
+          "bridge:movable": "swing",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "50",
+          "name": "Sluiskade"
+        }
+      },
       "fis": {
         "id": 31493,
         "naam": "2e Mondsebrug",
@@ -100,10 +110,10 @@
       },
       "pdokBridgeVlakken": 3
     },
-    "type": "ophaalbrug",
+    "type": "draaibrug",
     "doorvaarthoogte": 1,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 260000,540000,280000,560000 --run nl-13_12 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map musselkanaal-2e-mondsebrug --plaats musselkanaal --punt 263807,551190",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -122,7 +132,7 @@
       "oprithelling": 7.3,
       "doorstekend": [],
       "opritHoogtes": [
-        51.607,
+        51.599,
         51.112
       ]
     },

@@ -1,5 +1,5 @@
 {
-  "name": "blauwestad-brug-7096c4c5",
+  "name": "Viknabrug",
   "file": "blauwestad-brug-7096c4c5.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -88,14 +88,23 @@
           "type": "onbekend"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/35330064",
+        "tags": {
+          "bridge": "yes",
+          "highway": "residential",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Viknabrug"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 3
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 260000,560000,280000,580000 --run nl-13_13 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map blauwestad-brug-7096c4c5 --plaats blauwestad --punt 267521,578457",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

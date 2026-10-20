@@ -1,5 +1,5 @@
 {
-  "name": "Brug in de A35 Loofriet",
+  "name": "Loofriet",
   "file": "hengelo-brug-in-de-a35-loofriet-2.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -16,7 +16,7 @@
   "groundHeight": 67.413,
   "groundSamplePoints": [
     [
-      -93.81,
+      -93.75,
       0
     ],
     [
@@ -25,7 +25,6 @@
     ]
   ],
   "replacesTerrain": [
-    "L0002.bf68e95bb6eb406ba3d9039960622329",
     "L0002.fd41d24611a948a8a718db826f139f37"
   ],
   "terrainCorrections": [
@@ -40,18 +39,18 @@
       ],
       "halfLength": 67.75,
       "halfWidth": 8.14,
-      "height": 66.464,
+      "height": 66.462,
       "gradient": [
         0,
         0
       ],
-      "minLift": -1.92,
+      "minLift": -1.91,
       "maxLift": -0.01
     },
     {
       "centre": [
-        248339.29,
-        474630.07
+        248339.31,
+        474630.01
       ],
       "axis": [
         -0.215223,
@@ -59,9 +58,9 @@
       ],
       "halfLength": 12,
       "halfWidth": 9.64,
-      "height": 67.589,
+      "height": 67.588,
       "gradient": [
-        -0.01465,
+        -0.01454,
         0
       ],
       "minLift": 0.05,
@@ -78,7 +77,7 @@
       ],
       "halfLength": 12,
       "halfWidth": 9.64,
-      "height": 67.614,
+      "height": 67.612,
       "gradient": [
         -0.0125,
         0
@@ -94,37 +93,41 @@
     "bron": {
       "bgt": [
         {
-          "id": "L0002.bf68e95bb6eb406ba3d9039960622329",
-          "type": "onbekend"
-        },
-        {
           "id": "L0002.fd41d24611a948a8a718db826f139f37",
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/727812771",
+        "tags": {
+          "bridge:structure": "beam",
+          "layer": "1",
+          "man_made": "bridge",
+          "name": "Loofriet"
+        }
+      },
       "fis": {
         "id": 48381,
         "naam": "Brug in de A35 Loofriet",
-        "afstand": 17,
+        "afstand": 19,
         "beweegbaar": false,
         "doorvaarthoogteGesloten": 6.41
       },
-      "pdokBridgeVlakken": 2
+      "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": 6.41,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,460000,260000,480000 --run nl-12_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map hengelo-brug-in-de-a35-loofriet-2 --plaats hengelo --punt 248358,474546",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
       "dekLengte": 147.5,
       "dekBreedte": 15.3,
-      "brugLengte": 147.6,
+      "brugLengte": 147.5,
       "water": [
-        -25.3,
-        47.7
+        -25.2,
+        57.3
       ],
       "portaalhoogte": 13.8,
       "opritafstand": [
@@ -136,15 +139,15 @@
         {
           "gmlId": "L0002.5e20262e395849c881d36e0e765fee6d",
           "klasse": "Road",
-          "oppervlak": 2157.1,
+          "oppervlak": 1078.8,
           "onderDek": 0,
-          "bovenDekOnderkant": 0.92,
+          "bovenDekOnderkant": 0.91,
           "actie": "verlagen"
         }
       ],
       "opritHoogtes": [
         67.413,
-        67.464
+        67.462
       ]
     },
     "waarschuwingen": [

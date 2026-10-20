@@ -78,20 +78,32 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/843838798",
+        "tags": {
+          "bridge": "movable",
+          "bridge:movable": "bascule",
+          "highway": "residential",
+          "layer": "1",
+          "maxspeed": "30",
+          "maxweight": "3.5",
+          "maxwidth": "2.9",
+          "name": "Britanniaklap"
+        }
+      },
       "fis": {
         "id": 8430,
         "naam": "Britanniaklap",
-        "afstand": 5,
+        "afstand": 3,
         "beweegbaar": true,
         "doorvaarthoogteGesloten": 0.7999999999999999
       },
       "pdokBridgeVlakken": 1
     },
-    "type": "ophaalbrug",
+    "type": "basculebrug",
     "doorvaarthoogte": 0.7999999999999999,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 260000,560000,280000,580000 --run nl-13_13 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map oude-pekela-britanniaklap --plaats oude-pekela --punt 264102,569966",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

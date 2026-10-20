@@ -1,5 +1,5 @@
 {
-  "name": "laag-zuthem-brug-d8c09eee",
+  "name": "Ganzepannerbrug",
   "file": "laag-zuthem-brug-d8c09eee.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -138,14 +138,37 @@
           "type": "onbekend"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1276656958",
+        "tags": {
+          "agricultural": "no",
+          "bicycle": "no",
+          "bridge": "yes",
+          "bridge:name": "Ganzepannerbrug",
+          "foot": "no",
+          "highway": "primary",
+          "highway_authority_ref": "Rijksweg 835",
+          "lanes": "2",
+          "layer": "1",
+          "maxspeed": "80",
+          "mofa": "no",
+          "moped": "no",
+          "name": "Ganzepannerbrug",
+          "operator": "Rijkswaterstaat",
+          "ref": "N35",
+          "source:maxspeed": "NL:rural",
+          "surface": "asphalt",
+          "zone:traffic": "NL:rural",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 13
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 200000,480000,220000,500000 --run nl-10_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map laag-zuthem-brug-d8c09eee --plaats laag-zuthem --punt 210587,497758",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -168,6 +191,6 @@
     "waarschuwingen": [
       "geen FIS-brug binnen 35 m"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

@@ -9,24 +9,19 @@
     502326.97
   ],
   "xAxis": [
-    0.61217,
-    0.790726
+    0.790726,
+    -0.61217
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 41.593,
+  "groundHeight": 41.576,
   "groundSamplePoints": [
     [
-      -4.82,
-      0
-    ],
-    [
-      4.82,
+      -18.72,
       0
     ]
   ],
   "replacesTerrain": [
-    "G0439.da70f18f232d40afad19b407af92042c",
-    "G0439.38d982927b8b4d78910fd8d089b2db59"
+    "G0439.da70f18f232d40afad19b407af92042c"
   ],
   "terrainCorrections": [
     {
@@ -35,52 +30,33 @@
         502326.97
       ],
       "axis": [
-        0.61217,
-        0.790726
+        0.790726,
+        -0.61217
       ],
-      "halfLength": 0.41,
-      "halfWidth": 9.01,
-      "height": 40.676,
+      "halfLength": 4.25,
+      "halfWidth": 1.32,
+      "height": 40.576,
       "gradient": [
         0,
         0
       ],
-      "minLift": -1.74,
+      "minLift": -2.27,
       "maxLift": -0.01
     },
     {
       "centre": [
-        127188.25,
-        502323.95
+        127177.13,
+        502337.38
       ],
       "axis": [
-        -0.61217,
-        -0.790726
+        -0.790726,
+        0.61217
       ],
-      "halfLength": 3,
-      "halfWidth": 10.51,
-      "height": 41.826,
+      "halfLength": 8.51,
+      "halfWidth": 1.23,
+      "height": 41.726,
       "gradient": [
-        -0.05,
-        0
-      ],
-      "minLift": 0.05,
-      "maxLift": 4
-    },
-    {
-      "centre": [
-        127192.93,
-        502329.99
-      ],
-      "axis": [
-        0.61217,
-        0.790726
-      ],
-      "halfLength": 3,
-      "halfWidth": 10.51,
-      "height": 41.785,
-      "gradient": [
-        -0.06393,
+        -0.01763,
         0
       ],
       "minLift": 0.05,
@@ -105,48 +81,43 @@
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,500000,140000,520000 --run nl-6_10 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map purmerend-brug-da70f18f --plaats purmerend --punt 127191,502327",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
-      "dekLengte": 1.6,
-      "dekBreedte": 17,
-      "brugLengte": 1.6,
-      "water": null,
-      "portaalhoogte": 15.3,
-      "opritafstand": [
-        4,
-        4
+      "dekLengte": 17,
+      "dekBreedte": 1.6,
+      "brugLengte": 17,
+      "water": [
+        -5.5,
+        -1.5
       ],
-      "oprithelling": 6,
+      "portaalhoogte": 2.5,
+      "opritafstand": [
+        10.2,
+        30.6
+      ],
+      "oprithelling": 17,
       "doorstekend": [
         {
           "gmlId": "G0439.38d982927b8b4d78910fd8d089b2db59",
           "klasse": "Forest",
           "oppervlak": 16,
-          "onderDek": 0.81,
-          "bovenDekOnderkant": 1.9,
-          "actie": "verbergen"
-        },
-        {
-          "gmlId": "G0439.418711111cb8400184ad61143e2c03fd",
-          "klasse": "Forest",
-          "oppervlak": 413.7,
-          "onderDek": 0,
-          "bovenDekOnderkant": 0.74,
+          "onderDek": 0.55,
+          "bovenDekOnderkant": 1.27,
           "actie": "verlagen"
         }
       ],
       "opritHoogtes": [
-        41.676,
-        41.593
+        41.576,
+        null
       ]
     },
     "waarschuwingen": [
-      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "oprit + zonder PDOK-maaiveld",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
-      "2 PDOK-vorm(en) door het dek: 1 verborgen, 1 verlaagd"
+      "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

@@ -13,7 +13,7 @@
     -0.825244
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 43.98,
+  "groundHeight": 43.938,
   "groundSamplePoints": [
     [
       -6.6,
@@ -44,7 +44,7 @@
         0,
         0
       ],
-      "minLift": -1.19,
+      "minLift": -1.16,
       "maxLift": -0.01
     },
     {
@@ -58,9 +58,9 @@
       ],
       "halfLength": 3,
       "halfWidth": 3.2,
-      "height": 44.181,
+      "height": 44.16,
       "gradient": [
-        -0.06703,
+        -0.07411,
         0
       ],
       "minLift": 0.05,
@@ -97,14 +97,23 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1428107070",
+        "tags": {
+          "bridge": "yes",
+          "highway": "track",
+          "layer": "1",
+          "surface": "paved",
+          "tracktype": "grade1"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,460000,140000,480000 --run nl-6_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map westbroek-brug-4c0f7f15 --plaats westbroek --punt 136486,462991",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -125,14 +134,14 @@
         {
           "gmlId": "G0310.872c49339b08475393f233c1d9410e0a",
           "klasse": "Terrain",
-          "oppervlak": 5021.2,
+          "oppervlak": 1255.7,
           "onderDek": 0,
-          "bovenDekOnderkant": 0.19,
+          "bovenDekOnderkant": 0.16,
           "actie": "verlagen"
         }
       ],
       "opritHoogtes": [
-        43.98,
+        43.938,
         44.083
       ]
     },
@@ -140,6 +149,6 @@
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
       "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "name": "Brug over benedenhoofd Vossenbeemd",
+  "name": "Piet van Bokhovenpad",
   "file": "helmond-brug-over-benedenhoofd-vossenbeemd-2.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -88,11 +88,23 @@
           "type": "onbekend"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/663861538",
+        "tags": {
+          "bridge": "viaduct",
+          "foot": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "name": "Piet van Bokhovenpad",
+          "bridge:material": "concrete",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
       "fis": {
         "id": 29104,
         "naam": "Brug over benedenhoofd Vossenbeemd",
-        "afstand": 20,
+        "afstand": 19,
         "beweegbaar": false,
         "doorvaarthoogteGesloten": 5.82
       },
@@ -101,7 +113,7 @@
     "type": "ligger",
     "doorvaarthoogte": 5.82,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,380000,180000,400000 --run nl-8_4 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map helmond-brug-over-benedenhoofd-vossenbeemd-2 --plaats helmond --punt 176289,386493",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

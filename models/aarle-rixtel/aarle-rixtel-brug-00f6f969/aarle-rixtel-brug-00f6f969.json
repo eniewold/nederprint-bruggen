@@ -1,5 +1,5 @@
 {
-  "name": "aarle-rixtel-brug-00f6f969",
+  "name": "Bakelseweg",
   "file": "aarle-rixtel-brug-00f6f969.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,27 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/693084395",
+        "tags": {
+          "bicycle": "no",
+          "bridge": "yes",
+          "bridge:material": "concrete",
+          "bridge:structure": "beam",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Bakelseweg",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,380000,180000,400000 --run nl-8_4 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map aarle-rixtel-brug-00f6f969 --plaats aarle-rixtel --punt 174156,391549",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

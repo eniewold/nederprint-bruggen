@@ -13,7 +13,7 @@
     -0.907478
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 44.7,
+  "groundHeight": 44.685,
   "groundSamplePoints": [
     [
       -6.82,
@@ -44,7 +44,7 @@
         0,
         0
       ],
-      "minLift": -1.53,
+      "minLift": -1.51,
       "maxLift": -0.01
     },
     {
@@ -58,9 +58,9 @@
       ],
       "halfLength": 3,
       "halfWidth": 1.75,
-      "height": 44.873,
+      "height": 44.865,
       "gradient": [
-        -0.05768,
+        -0.06011,
         0
       ],
       "minLift": 0.05,
@@ -97,14 +97,22 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/830259785",
+        "tags": {
+          "bridge": "yes",
+          "highway": "path",
+          "layer": "1",
+          "surface": "gravel"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,460000,160000,480000 --run nl-7_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map baarn-brug-f3f30c71 --plaats baarn --punt 145694,469834",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -125,14 +133,14 @@
         {
           "gmlId": "W0662.a4583a7d71614cf6e05332a1e90a7c27",
           "klasse": "Terrain",
-          "oppervlak": 275.3,
+          "oppervlak": 91.7,
           "onderDek": 0,
-          "bovenDekOnderkant": 0.53,
+          "bovenDekOnderkant": 0.51,
           "actie": "verlagen"
         }
       ],
       "opritHoogtes": [
-        44.7,
+        44.685,
         44.746
       ]
     },
@@ -140,6 +148,6 @@
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
       "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

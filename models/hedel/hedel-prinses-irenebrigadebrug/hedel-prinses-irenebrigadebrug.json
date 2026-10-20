@@ -9,18 +9,18 @@
     416856.9
   ],
   "xAxis": [
-    -0.986874,
-    -0.161495
+    -0.161495,
+    0.986874
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 45.644,
+  "groundHeight": 55.056,
   "groundSamplePoints": [
     [
-      -28.54,
+      -237.86,
       0
     ],
     [
-      28.71,
+      237.86,
       0
     ]
   ],
@@ -32,37 +32,18 @@
   "terrainCorrections": [
     {
       "centre": [
-        146791.1,
-        416856.9
+        146828.23,
+        416630.06
       ],
       "axis": [
-        -0.986874,
-        -0.161495
-      ],
-      "halfLength": 4.56,
-      "halfWidth": 218.36,
-      "height": 45.051,
-      "gradient": [
-        0,
-        0
-      ],
-      "minLift": -3.23,
-      "maxLift": -0.01
-    },
-    {
-      "centre": [
-        146815.7,
-        416860.93
-      ],
-      "axis": [
-        0.986874,
-        0.161495
+        0.161495,
+        -0.986874
       ],
       "halfLength": 12,
-      "halfWidth": 219.86,
-      "height": 45.998,
+      "halfWidth": 11.12,
+      "height": 56.659,
       "gradient": [
-        -0.02945,
+        -0.0125,
         0
       ],
       "minLift": 0.05,
@@ -70,18 +51,18 @@
     },
     {
       "centre": [
-        146766.34,
-        416852.85
+        146753.98,
+        417083.75
       ],
       "axis": [
-        -0.986874,
-        -0.161495
+        -0.161495,
+        0.986874
       ],
       "halfLength": 12,
-      "halfWidth": 219.86,
-      "height": 46.201,
+      "halfWidth": 11.12,
+      "height": 55.933,
       "gradient": [
-        -0.0125,
+        -0.07305,
         0
       ],
       "minLift": 0.05,
@@ -134,50 +115,35 @@
       "fis": null,
       "pdokBridgeVlakken": 3
     },
-    "type": "gewelf",
+    "type": "boog",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,400000,160000,420000 --run nl-7_5 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map hedel-prinses-irenebrigadebrug --plaats hedel --punt 146791,416857",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
-      "dekLengte": 18.2,
-      "dekBreedte": 435.7,
-      "brugLengte": 26,
-      "water": null,
-      "portaalhoogte": 392.2,
+      "dekLengte": 435.7,
+      "dekBreedte": 18.2,
+      "brugLengte": 435.7,
+      "water": [
+        -160.9,
+        -5.4
+      ],
+      "portaalhoogte": 16.4,
       "opritafstand": [
-        15.6,
-        15.6
+        20,
+        20
       ],
       "oprithelling": 24,
-      "doorstekend": [
-        {
-          "gmlId": "L0001.462ab307101640ba8fb470e6d7dd0249",
-          "klasse": "Forest",
-          "oppervlak": 49924.5,
-          "onderDek": 0.08,
-          "bovenDekOnderkant": 2.23,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "L0002.c68b7d05c55a42f18d2fd1409c92ccbd",
-          "klasse": "Terrain",
-          "oppervlak": 257.8,
-          "onderDek": 0.01,
-          "bovenDekOnderkant": 1.67,
-          "actie": "verlagen"
-        }
-      ],
+      "doorstekend": [],
       "opritHoogtes": [
-        45.644,
-        46.051
+        56.509,
+        55.056
       ]
     },
     "waarschuwingen": [
-      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
-      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+      "geen FIS-brug binnen 35 m"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

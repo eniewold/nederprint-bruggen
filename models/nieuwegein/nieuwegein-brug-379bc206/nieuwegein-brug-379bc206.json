@@ -1,5 +1,5 @@
 {
-  "name": "nieuwegein-brug-379bc206",
+  "name": "Ganzenpad",
   "file": "nieuwegein-brug-379bc206.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -13,7 +13,7 @@
     0.927339
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 43.739,
+  "groundHeight": 43.731,
   "groundSamplePoints": [
     [
       -15.33,
@@ -58,9 +58,9 @@
       ],
       "halfLength": 6.97,
       "halfWidth": 2.53,
-      "height": 44.196,
+      "height": 44.192,
       "gradient": [
-        -0.06554,
+        -0.06614,
         0
       ],
       "minLift": 0.05,
@@ -78,14 +78,29 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1029408236",
+        "tags": {
+          "bridge": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "lit": "no",
+          "mofa": "no",
+          "name": "Ganzenpad",
+          "segregated": "no",
+          "sidewalk": "no",
+          "surface": "asphalt",
+          "traffic_sign": "NL:G13",
+          "width": "2.5"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,440000,140000,460000 --run nl-6_7 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map nieuwegein-brug-379bc206 --plaats nieuwegein --punt 133084,447957",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -105,12 +120,12 @@
       "doorstekend": [],
       "opritHoogtes": [
         44.353,
-        43.739
+        43.731
       ]
     },
     "waarschuwingen": [
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

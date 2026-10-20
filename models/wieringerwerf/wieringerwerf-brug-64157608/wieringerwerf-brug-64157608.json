@@ -1,5 +1,5 @@
 {
-  "name": "wieringerwerf-brug-64157608",
+  "name": "Rijksweg",
   "file": "wieringerwerf-brug-64157608.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -41,7 +41,7 @@
       ],
       "halfLength": 12,
       "halfWidth": 21.02,
-      "height": 41.86,
+      "height": 41.853,
       "gradient": [
         -0.0125,
         0
@@ -60,9 +60,9 @@
       ],
       "halfLength": 12,
       "halfWidth": 21.02,
-      "height": 41.822,
+      "height": 41.819,
       "gradient": [
-        -0.01565,
+        -0.01534,
         0
       ],
       "minLift": 0.05,
@@ -88,14 +88,34 @@
           "type": "onbekend"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/6570561",
+        "tags": {
+          "bridge": "yes",
+          "carriageway_ref": "Re",
+          "highway": "motorway",
+          "int_ref": "E 22",
+          "lanes": "3",
+          "layer": "1",
+          "lit": "no",
+          "maxspeed": "100",
+          "maxspeed:conditional": "130 @ (19:00-06:00)",
+          "name": "Rijksweg",
+          "oneway": "yes",
+          "operator": "Rijkswaterstaat",
+          "ref": "A7",
+          "surface": "asphalt",
+          "toll:hgv": "yes",
+          "zone:traffic": "NL:rural"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 3
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,540000,140000,560000 --run nl-6_12 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map wieringerwerf-brug-64157608 --plaats wieringerwerf --punt 130237,540307",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -114,7 +134,7 @@
       "oprithelling": 24,
       "doorstekend": [],
       "opritHoogtes": [
-        41.71,
+        41.703,
         41.634
       ]
     },

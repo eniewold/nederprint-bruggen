@@ -1,5 +1,5 @@
 {
-  "name": "zuid-beijerland-brug-8abeacd5-22",
+  "name": "Henrik Ibsenstraat",
   "file": "zuid-beijerland-brug-8abeacd5-22.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,22 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/141322233",
+        "tags": {
+          "bridge": "yes",
+          "highway": "track",
+          "layer": "1",
+          "name": "Henrik Ibsenstraat"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,400000,100000,420000 --run nl-4_5 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map zuid-beijerland-brug-8abeacd5-22 --plaats zuid-beijerland --punt 81233,419196",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

@@ -1,5 +1,5 @@
 {
-  "name": "muiden-brug-fbaced2b",
+  "name": "Schootsveldpad",
   "file": "muiden-brug-fbaced2b.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -39,12 +39,12 @@
       ],
       "halfLength": 3.16,
       "halfWidth": 1.96,
-      "height": 43.13,
+      "height": 43.12,
       "gradient": [
         0,
         0
       ],
-      "minLift": -1.92,
+      "minLift": -1.93,
       "maxLift": -0.01
     },
     {
@@ -58,9 +58,9 @@
       ],
       "halfLength": 6.33,
       "halfWidth": 2.18,
-      "height": 43.673,
+      "height": 43.668,
       "gradient": [
-        -0.11957,
+        -0.11881,
         0
       ],
       "minLift": 0.05,
@@ -77,7 +77,7 @@
       ],
       "halfLength": 6.33,
       "halfWidth": 2.18,
-      "height": 44.28,
+      "height": 44.27,
       "gradient": [
         -0.0237,
         0
@@ -97,14 +97,26 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/997288308",
+        "tags": {
+          "bridge": "yes",
+          "highway": "footway",
+          "layer": "1",
+          "name": "Schootsveldpad",
+          "access": "private",
+          "building:material": "wood",
+          "man_made": "bridge",
+          "surface": "wood"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map muiden-brug-fbaced2b --plaats muiden --punt 133156,483156",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -127,19 +139,19 @@
           "klasse": "Forest",
           "oppervlak": 2164,
           "onderDek": 0,
-          "bovenDekOnderkant": 0.92,
+          "bovenDekOnderkant": 0.93,
           "actie": "verlagen"
         }
       ],
       "opritHoogtes": [
         42.916,
-        44.13
+        44.12
       ]
     },
     "waarschuwingen": [
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
       "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

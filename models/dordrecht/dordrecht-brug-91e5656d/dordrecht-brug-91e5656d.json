@@ -1,5 +1,5 @@
 {
-  "name": "dordrecht-brug-91e5656d",
+  "name": "Boombrug",
   "file": "dordrecht-brug-91e5656d.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -88,14 +88,32 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/991117830",
+        "tags": {
+          "bridge": "movable",
+          "bridge:movable": "bascule",
+          "bridge:name": "Boombrug",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "30",
+          "maxweight:signed": "no",
+          "name": "Boombrug",
+          "sidewalk": "both",
+          "surface": "asphalt",
+          "wikidata": "Q18962375",
+          "wikimedia_commons": "Category:Boomstraat (Dordrecht)",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 3
     },
-    "type": "ophaalbrug",
+    "type": "basculebrug",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,420000,120000,440000 --run nl-5_6 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map dordrecht-brug-91e5656d --plaats dordrecht --punt 105603,425885",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -122,6 +140,6 @@
       "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
       "geen FIS-brug binnen 35 m"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

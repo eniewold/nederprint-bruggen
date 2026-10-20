@@ -78,7 +78,24 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1016902605",
+        "tags": {
+          "bridge": "yes",
+          "foot": "yes",
+          "highway": "cycleway",
+          "horse": "yes",
+          "layer": "1",
+          "mofa": "designated",
+          "moped": "designated",
+          "name": "Brediusbrug",
+          "oneway": "no",
+          "traffic_sign": "NL:G12a",
+          "zone:traffic": "NL:urban",
+          "man_made": "bridge",
+          "material": "concrete"
+        }
+      },
       "fis": {
         "id": 31933549,
         "naam": "Brediusbrug",
@@ -91,7 +108,7 @@
     "type": "ophaalbrug",
     "doorvaarthoogte": 1.4,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map muiden-brediusbrug --plaats muiden --punt 132742,482673",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -117,6 +134,6 @@
     "waarschuwingen": [
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

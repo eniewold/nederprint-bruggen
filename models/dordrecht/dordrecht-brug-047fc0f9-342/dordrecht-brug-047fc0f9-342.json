@@ -1,5 +1,5 @@
 {
-  "name": "dordrecht-brug-047fc0f9-342",
+  "name": "Mazelaarsbrug",
   "file": "dordrecht-brug-047fc0f9-342.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -13,7 +13,7 @@
     0.97581
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 47.211,
+  "groundHeight": 47.21,
   "groundSamplePoints": [
     [
       -12.41,
@@ -58,9 +58,9 @@
       ],
       "halfLength": 5.64,
       "halfWidth": 7.4,
-      "height": 47.592,
+      "height": 47.591,
       "gradient": [
-        -0.06753,
+        -0.06765,
         0
       ],
       "minLift": 0.05,
@@ -78,14 +78,27 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1093417542",
+        "tags": {
+          "bridge": "yes",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxlength": "7.5",
+          "maxspeed": "30",
+          "name": "Mazelaarsbrug",
+          "surface": "sett",
+          "wikidata": "Q17341469",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,420000,120000,440000 --run nl-5_6 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map dordrecht-brug-047fc0f9-342 --plaats dordrecht --punt 104802,425286",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -105,12 +118,12 @@
       "doorstekend": [],
       "opritHoogtes": [
         47.673,
-        47.211
+        47.21
       ]
     },
     "waarschuwingen": [
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

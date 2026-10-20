@@ -1,5 +1,5 @@
 {
-  "name": "Stationsbrug Stadskanaal",
+  "name": "Stationsstraat",
   "file": "stadskanaal-stationsbrug-stadskanaal.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -13,7 +13,7 @@
     0.7009
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 47.172,
+  "groundHeight": 47.169,
   "groundSamplePoints": [
     [
       -8.91,
@@ -60,9 +60,9 @@
       ],
       "halfLength": 4.05,
       "halfWidth": 8.49,
-      "height": 47.369,
+      "height": 47.368,
       "gradient": [
-        -0.0488,
+        -0.04908,
         0
       ],
       "minLift": 0.05,
@@ -90,20 +90,31 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/6374708",
+        "tags": {
+          "bridge": "movable",
+          "bridge:movable": "bascule",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Stationsstraat",
+          "surface": "asphalt"
+        }
+      },
       "fis": {
         "id": 52432,
         "naam": "Stationsbrug Stadskanaal",
-        "afstand": 3,
+        "afstand": 4,
         "beweegbaar": true,
         "doorvaarthoogteGesloten": 1
       },
       "pdokBridgeVlakken": 3
     },
-    "type": "ophaalbrug",
+    "type": "basculebrug",
     "doorvaarthoogte": 1,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,540000,260000,560000 --run nl-12_12 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map stadskanaal-stationsbrug-stadskanaal --plaats stadskanaal --punt 259029,557798",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -123,7 +134,7 @@
       "doorstekend": [],
       "opritHoogtes": [
         47.267,
-        47.172
+        47.169
       ]
     },
     "waarschuwingen": [

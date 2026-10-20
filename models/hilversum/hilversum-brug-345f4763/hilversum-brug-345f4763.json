@@ -1,5 +1,5 @@
 {
-  "name": "hilversum-brug-345f4763",
+  "name": "Zwaluwenbergbrug",
   "file": "hilversum-brug-345f4763.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -83,14 +83,30 @@
           "type": "pijler"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1072685577",
+        "tags": {
+          "bridge": "yes",
+          "foot": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "lit": "no",
+          "mofa": "no",
+          "name": "Zwaluwenbergbrug",
+          "surface": "asphalt",
+          "traffic_sign": "NL:G13",
+          "bridge:structure": "beam",
+          "man_made": "bridge",
+          "source:name": "BAG/BGT"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 2
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,460000,160000,480000 --run nl-7_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map hilversum-brug-345f4763 --plaats hilversum --punt 141159,466440",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -113,6 +129,6 @@
     "waarschuwingen": [
       "geen FIS-brug binnen 35 m"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

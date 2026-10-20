@@ -97,14 +97,22 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1112866591",
+        "tags": {
+          "bridge": "yes",
+          "highway": "service",
+          "layer": "1",
+          "service": "driveway"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,440000,140000,460000 --run nl-6_7 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map ijsselstein-brug-2cc3b10e --plaats ijsselstein --punt 129697,448620",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -123,18 +131,18 @@
       "oprithelling": 6,
       "doorstekend": [
         {
-          "gmlId": "W0636.f37eaff7f8744110b061b91dc3c31c30",
-          "klasse": "Terrain",
-          "oppervlak": 62.3,
-          "onderDek": 0.01,
-          "bovenDekOnderkant": 0.73,
-          "actie": "verlagen"
-        },
-        {
           "gmlId": "W0636.9c7044f0fbb747b5842685a483e2ffaf",
           "klasse": "Terrain",
           "oppervlak": 27.1,
           "onderDek": 0.06,
+          "bovenDekOnderkant": 0.73,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "W0636.f37eaff7f8744110b061b91dc3c31c30",
+          "klasse": "Terrain",
+          "oppervlak": 21.1,
+          "onderDek": 0.01,
           "bovenDekOnderkant": 0.73,
           "actie": "verlagen"
         }
@@ -149,6 +157,6 @@
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
       "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

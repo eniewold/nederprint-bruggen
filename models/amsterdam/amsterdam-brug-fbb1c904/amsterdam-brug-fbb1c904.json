@@ -1,5 +1,5 @@
 {
-  "name": "amsterdam-brug-fbb1c904",
+  "name": "Pampuslaan",
   "file": "amsterdam-brug-fbb1c904.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -9,18 +9,18 @@
     484921.37
   ],
   "xAxis": [
-    -0.660728,
-    -0.750626
+    -0.891897,
+    -0.452239
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 46.268,
+  "groundHeight": 46.712,
   "groundSamplePoints": [
     [
-      -11.91,
+      -35.69,
       0
     ],
     [
-      11.32,
+      35.05,
       0
     ]
   ],
@@ -31,18 +31,37 @@
   "terrainCorrections": [
     {
       "centre": [
-        129051.27,
-        484929.51
+        129044.1,
+        484921.37
       ],
       "axis": [
-        0.660728,
-        0.750626
+        -0.891897,
+        -0.452239
       ],
-      "halfLength": 5.28,
-      "halfWidth": 32.05,
-      "height": 46.58,
+      "halfLength": 9.76,
+      "halfWidth": 26.56,
+      "height": 45.732,
       "gradient": [
-        -0.02841,
+        0,
+        0
+      ],
+      "minLift": -1.4,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        129069.43,
+        484934.21
+      ],
+      "axis": [
+        0.891897,
+        0.452239
+      ],
+      "halfLength": 12,
+      "halfWidth": 28.06,
+      "height": 46.882,
+      "gradient": [
+        -0.0125,
         0
       ],
       "minLift": 0.05,
@@ -50,18 +69,18 @@
     },
     {
       "centre": [
-        129037.31,
-        484913.66
+        129019.34,
+        484908.82
       ],
       "axis": [
-        -0.660728,
-        -0.750626
+        -0.891897,
+        -0.452239
       ],
-      "halfLength": 5.28,
-      "halfWidth": 32.05,
-      "height": 46.499,
+      "halfLength": 12,
+      "halfWidth": 28.06,
+      "height": 46.872,
       "gradient": [
-        -0.04382,
+        -0.01332,
         0
       ],
       "minLift": 0.05,
@@ -83,39 +102,134 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1553688409",
+        "tags": {
+          "bridge": "yes",
+          "bridge:ref": "2026",
+          "highway": "busway",
+          "lanes": "2",
+          "layer": "1",
+          "name": "Pampuslaan",
+          "zone:traffic": "NL:urban",
+          "man_made": "bridge",
+          "ref": "2026"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 2
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map amsterdam-brug-fbb1c904 --plaats amsterdam --punt 129044,484921",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
-      "dekLengte": 10,
-      "dekBreedte": 60.1,
-      "brugLengte": 10.6,
+      "dekLengte": 31.5,
+      "dekBreedte": 52.1,
+      "brugLengte": 32.2,
       "water": [
-        -4.6,
-        4.9
+        -4.9,
+        5.1
       ],
-      "portaalhoogte": 54.1,
+      "portaalhoogte": 46.9,
       "opritafstand": [
-        6.3,
-        6.3
+        19.3,
+        19.3
       ],
-      "oprithelling": 10.6,
-      "doorstekend": [],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0363.118d19d68eee45db848a5b178744a28f",
+          "klasse": "Forest",
+          "oppervlak": 87.6,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.4,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0363.4fc0b4f0fc694af6819d7b33451686c4",
+          "klasse": "Forest",
+          "oppervlak": 197.8,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.4,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0363.d2e850ae59f84ea98c48055c59c47e5e",
+          "klasse": "Road",
+          "oppervlak": 221.8,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.37,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0363.ee8f8665f07b4d028da161957e1b16d2",
+          "klasse": "Forest",
+          "oppervlak": 51.4,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.35,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0363.fbb7ea3047e5475681d420f9f7534058",
+          "klasse": "Road",
+          "oppervlak": 27.4,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.32,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0363.7cd18ebd26cf4a068ab3b8bd14cbcaae",
+          "klasse": "Road",
+          "oppervlak": 27.6,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.31,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0363.95bd3c9da53843a8aa1603a5eb60d2b7",
+          "klasse": "Road",
+          "oppervlak": 958,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.29,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0363.7c1697fe1bfd4bf580ccefe3c6d2452e",
+          "klasse": "Road",
+          "oppervlak": 69.4,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.27,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0363.f41fc55a60bd4b4dbef34d110bc2d27f",
+          "klasse": "Road",
+          "oppervlak": 528.7,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.23,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0363.12324ab58c4b40aeb7ecc2252d369fbe",
+          "klasse": "Terrain",
+          "oppervlak": 80.8,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.21,
+          "actie": "verlagen"
+        }
+      ],
       "opritHoogtes": [
-        46.43,
-        46.268
+        46.732,
+        46.712
       ]
     },
     "waarschuwingen": [
-      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)"
+      "geen FIS-brug binnen 35 m",
+      "10 PDOK-vorm(en) door het dek: 0 verborgen, 10 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

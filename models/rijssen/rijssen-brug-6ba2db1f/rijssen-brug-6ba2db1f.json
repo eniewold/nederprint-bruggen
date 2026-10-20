@@ -1,5 +1,5 @@
 {
-  "name": "rijssen-brug-6ba2db1f",
+  "name": "Holterstraatweg",
   "file": "rijssen-brug-6ba2db1f.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -97,14 +97,27 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/6801196",
+        "tags": {
+          "bridge": "yes",
+          "highway": "unclassified",
+          "lane_markings": "no",
+          "layer": "1",
+          "maxspeed": "60",
+          "maxweight:signed": "no",
+          "name": "Holterstraatweg",
+          "operator": "Provincie Overijssel",
+          "surface": "asphalt"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,480000,240000,500000 --run nl-11_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map rijssen-brug-6ba2db1f --plaats rijssen --punt 230245,480043",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

@@ -1,5 +1,5 @@
 {
-  "name": "zeist-brug-081ed9e0",
+  "name": "Weg naar Heibergen",
   "file": "zeist-brug-081ed9e0.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -13,7 +13,7 @@
     -0.917927
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 54.879,
+  "groundHeight": 54.874,
   "groundSamplePoints": [
     [
       -69.94,
@@ -49,9 +49,9 @@
       ],
       "halfLength": 12,
       "halfWidth": 7.1,
-      "height": 55.035,
+      "height": 55.026,
       "gradient": [
-        -0.0125,
+        -0.01269,
         0
       ],
       "minLift": 0.05,
@@ -68,9 +68,9 @@
       ],
       "halfLength": 12,
       "halfWidth": 7.1,
-      "height": 55.032,
+      "height": 55.028,
       "gradient": [
-        -0.01276,
+        -0.0125,
         0
       ],
       "minLift": 0.05,
@@ -128,14 +128,24 @@
           "type": "landhoofd"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/6991438",
+        "tags": {
+          "bridge": "yes",
+          "bridge:name": "Wallenburg",
+          "highway": "cycleway",
+          "layer": "1",
+          "name": "Weg naar Heibergen",
+          "oneway": "no"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 11
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,440000,160000,460000 --run nl-7_7 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map zeist-brug-081ed9e0 --plaats zeist --punt 146925,457823",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -151,13 +161,13 @@
       "oprithelling": 24,
       "doorstekend": [],
       "opritHoogtes": [
-        54.885,
-        54.879
+        54.874,
+        54.878
       ]
     },
     "waarschuwingen": [
       "geen FIS-brug binnen 35 m"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

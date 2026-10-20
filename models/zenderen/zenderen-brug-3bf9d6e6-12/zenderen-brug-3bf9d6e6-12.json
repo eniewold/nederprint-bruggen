@@ -1,5 +1,5 @@
 {
-  "name": "zenderen-brug-3bf9d6e6-12",
+  "name": "Kottermansweg",
   "file": "zenderen-brug-3bf9d6e6-12.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,26 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/25833798",
+        "tags": {
+          "bridge": "yes",
+          "highway": "track",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Kottermansweg",
+          "smoothness": "good",
+          "surface": "concrete",
+          "tracktype": "grade1"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,480000,260000,500000 --run nl-12_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map zenderen-brug-3bf9d6e6-12 --plaats zenderen --punt 246917,483405",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

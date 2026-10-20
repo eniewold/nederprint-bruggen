@@ -1,5 +1,5 @@
 {
-  "name": "ermelo-brug-0e71ac28",
+  "name": "Staverdenseweg",
   "file": "ermelo-brug-0e71ac28.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -13,7 +13,7 @@
     0.678197
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 60.987,
+  "groundHeight": 60.985,
   "groundSamplePoints": [
     [
       -7.79,
@@ -58,9 +58,9 @@
       ],
       "halfLength": 3.54,
       "halfWidth": 1.63,
-      "height": 61.176,
+      "height": 61.175,
       "gradient": [
-        -0.05348,
+        -0.05376,
         0
       ],
       "minLift": 0.05,
@@ -78,14 +78,29 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/539935079",
+        "tags": {
+          "bridge": "yes",
+          "foot": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "mofa": "no",
+          "moped": "no",
+          "name": "Staverdenseweg",
+          "segregated": "no",
+          "smoothness": "good",
+          "surface": "wood",
+          "traffic_sign": "NL:G13"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,460000,180000,480000 --run nl-8_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map ermelo-brug-0e71ac28 --plaats ermelo --punt 178871,477588",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -105,12 +120,12 @@
       "doorstekend": [],
       "opritHoogtes": [
         61.066,
-        60.987
+        60.985
       ]
     },
     "waarschuwingen": [
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

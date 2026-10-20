@@ -1,5 +1,5 @@
 {
-  "name": "Brug over benedenhoofd sluis Kuinre",
+  "name": "Burchtstraat",
   "file": "kuinre-brug-over-benedenhoofd-sluis-kuinre.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -88,7 +88,23 @@
           "type": "landhoofd"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1212969977",
+        "tags": {
+          "bridge": "yes",
+          "highway": "residential",
+          "layer": "1",
+          "maxspeed": "30",
+          "maxspeed:type": "NL:zone30",
+          "maxweight": "45",
+          "name": "Burchtstraat",
+          "priority": "backward",
+          "surface": "asphalt",
+          "zone:maxspeed": "NL:30",
+          "zone:traffic": "NL:urban",
+          "man_made": "bridge"
+        }
+      },
       "fis": {
         "id": 1698,
         "naam": "Brug over benedenhoofd sluis Kuinre",
@@ -101,7 +117,7 @@
     "type": "ophaalbrug",
     "doorvaarthoogte": 1.72,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 180000,520000,200000,540000 --run nl-9_11 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map kuinre-brug-over-benedenhoofd-sluis-kuinre --plaats kuinre --punt 185611,533393",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

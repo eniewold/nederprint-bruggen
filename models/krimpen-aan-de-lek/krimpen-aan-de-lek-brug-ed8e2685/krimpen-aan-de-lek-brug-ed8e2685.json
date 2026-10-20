@@ -9,18 +9,18 @@
     434702.98
   ],
   "xAxis": [
-    0.86602,
-    -0.500008
+    -0.500008,
+    -0.86602
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 44.466,
+  "groundHeight": 46.745,
   "groundSamplePoints": [
     [
-      -4.58,
+      -16.75,
       0
     ],
     [
-      4.58,
+      35.03,
       0
     ]
   ],
@@ -30,37 +30,18 @@
   "terrainCorrections": [
     {
       "centre": [
-        100887.92,
-        434702.98
+        100895.54,
+        434716.17
       ],
       "axis": [
-        0.86602,
-        -0.500008
+        0.500008,
+        0.86602
       ],
-      "halfLength": 0.29,
-      "halfWidth": 8.12,
-      "height": 43.75,
+      "halfLength": 7.62,
+      "halfWidth": 0.88,
+      "height": 47.871,
       "gradient": [
-        0,
-        0
-      ],
-      "minLift": -2.98,
-      "maxLift": -0.01
-    },
-    {
-      "centre": [
-        100884.82,
-        434704.77
-      ],
-      "axis": [
-        -0.86602,
-        0.500008
-      ],
-      "halfLength": 3,
-      "halfWidth": 9.62,
-      "height": 44.9,
-      "gradient": [
-        -0.05,
+        -0.0197,
         0
       ],
       "minLift": 0.05,
@@ -68,18 +49,18 @@
     },
     {
       "centre": [
-        100891.02,
-        434701.19
+        100880.3,
+        434689.79
       ],
       "axis": [
-        0.86602,
-        -0.500008
+        -0.500008,
+        -0.86602
       ],
-      "halfLength": 3,
-      "halfWidth": 9.62,
-      "height": 44.758,
+      "halfLength": 7.62,
+      "halfWidth": 0.88,
+      "height": 47.383,
       "gradient": [
-        -0.09733,
+        -0.08378,
         0
       ],
       "minLift": 0.05,
@@ -104,56 +85,33 @@
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,420000,120000,440000 --run nl-5_6 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map krimpen-aan-de-lek-brug-ed8e2685 --plaats krimpen-aan-de-lek --punt 100888,434703",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
-      "dekLengte": 1.2,
-      "dekBreedte": 15.2,
-      "brugLengte": 1.2,
-      "water": null,
-      "portaalhoogte": 13.7,
+      "dekLengte": 15.2,
+      "dekBreedte": 1.2,
+      "brugLengte": 15.2,
+      "water": [
+        3.4,
+        7.4
+      ],
+      "portaalhoogte": 2.5,
       "opritafstand": [
-        4,
-        4
+        9.1,
+        27.4
       ],
-      "oprithelling": 6,
-      "doorstekend": [
-        {
-          "gmlId": "L0002.c9f92c762be3402eb98cff9f90d983ee",
-          "klasse": "Terrain",
-          "oppervlak": 465.3,
-          "onderDek": 0.01,
-          "bovenDekOnderkant": 1.98,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "L0002.57d315d89fe246aea875b54a2d2a7f82",
-          "klasse": "Terrain",
-          "oppervlak": 137.5,
-          "onderDek": 0,
-          "bovenDekOnderkant": 0.5,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "L0002.84ca3be47f294ec0b508a8eb1963a5d0",
-          "klasse": "Terrain",
-          "oppervlak": 273,
-          "onderDek": 0.01,
-          "bovenDekOnderkant": 0.26,
-          "actie": "verlagen"
-        }
-      ],
+      "oprithelling": 15.2,
+      "doorstekend": [],
       "opritHoogtes": [
-        44.75,
-        44.466
+        47.721,
+        46.745
       ]
     },
     "waarschuwingen": [
-      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
-      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
-      "3 PDOK-vorm(en) door het dek: 0 verborgen, 3 verlaagd"
+      "oprit + pas op 27.4 m gemeten",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

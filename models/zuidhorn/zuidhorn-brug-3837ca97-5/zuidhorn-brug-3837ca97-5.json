@@ -1,5 +1,5 @@
 {
-  "name": "zuidhorn-brug-3837ca97-5",
+  "name": "Tjalk",
   "file": "zuidhorn-brug-3837ca97-5.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,23 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/93669329",
+        "tags": {
+          "bridge": "yes",
+          "highway": "residential",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Tjalk"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,580000,240000,600000 --run nl-11_14 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map zuidhorn-brug-3837ca97-5 --plaats zuidhorn --punt 221920,584818",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

@@ -1,5 +1,5 @@
 {
-  "name": "wieringerwerf-brug-ba979eb3",
+  "name": "Oosterkwelweg",
   "file": "wieringerwerf-brug-ba979eb3.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -13,7 +13,7 @@
     0.892645
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 40.238,
+  "groundHeight": 40.209,
   "groundSamplePoints": [
     [
       -30.25,
@@ -39,9 +39,9 @@
       ],
       "halfLength": 12,
       "halfWidth": 3.6,
-      "height": 40.508,
+      "height": 40.493,
       "gradient": [
-        -0.02246,
+        -0.02368,
         0
       ],
       "minLift": 0.05,
@@ -78,14 +78,24 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/271523501",
+        "tags": {
+          "bridge": "yes",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxaxleload": "4.8",
+          "maxspeed": "60",
+          "name": "Oosterkwelweg"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,540000,140000,560000 --run nl-6_12 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map wieringerwerf-brug-ba979eb3 --plaats wieringerwerf --punt 132830,543231",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -104,7 +114,7 @@
       "oprithelling": 24,
       "doorstekend": [],
       "opritHoogtes": [
-        40.238,
+        40.209,
         40.477
       ]
     },

@@ -1,5 +1,5 @@
 {
-  "name": "stad-aan-t-haringvliet-brug-8abeacd5-4",
+  "name": "Brienensbrug",
   "file": "stad-aan-t-haringvliet-brug-8abeacd5-4.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,25 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/7581484",
+        "tags": {
+          "bridge": "yes",
+          "bridge:name": "Brienensbrug",
+          "highway": "cycleway",
+          "layer": "1",
+          "mofa": "no",
+          "moped": "no",
+          "traffic_sign": "NL:G13"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 60000,400000,80000,420000 --run nl-3_5 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map stad-aan-t-haringvliet-brug-8abeacd5-4 --plaats stad-aan-t-haringvliet --punt 73870,419009",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

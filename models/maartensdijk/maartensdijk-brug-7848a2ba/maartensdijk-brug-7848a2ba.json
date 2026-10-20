@@ -1,5 +1,5 @@
 {
-  "name": "maartensdijk-brug-7848a2ba",
+  "name": "Achterweteringseweg",
   "file": "maartensdijk-brug-7848a2ba.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -39,7 +39,7 @@
       ],
       "halfLength": 3,
       "halfWidth": 4.84,
-      "height": 45.62,
+      "height": 45.603,
       "gradient": [
         -0.05,
         0
@@ -58,9 +58,9 @@
       ],
       "halfLength": 3,
       "halfWidth": 4.84,
-      "height": 45.592,
+      "height": 45.583,
       "gradient": [
-        -0.05953,
+        -0.05658,
         0
       ],
       "minLift": 0.05,
@@ -78,14 +78,28 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/60660021",
+        "tags": {
+          "bridge": "yes",
+          "cycleway:both": "shared_lane",
+          "cycleway:both:lane": "advisory",
+          "highway": "tertiary",
+          "lane_markings": "no",
+          "layer": "1",
+          "maxspeed": "50",
+          "maxweight:signed": "no",
+          "name": "Achterweteringseweg",
+          "surface": "asphalt"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,460000,140000,480000 --run nl-6_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map maartensdijk-brug-7848a2ba --plaats maartensdijk --punt 139215,462368",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -104,7 +118,7 @@
       "oprithelling": 6,
       "doorstekend": [],
       "opritHoogtes": [
-        45.47,
+        45.453,
         45.413
       ]
     },
@@ -112,6 +126,6 @@
       "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

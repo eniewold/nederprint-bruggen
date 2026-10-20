@@ -1,5 +1,5 @@
 {
-  "name": "dordrecht-brug-d9c77366",
+  "name": "Lombardbrug",
   "file": "dordrecht-brug-d9c77366.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,29 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/892985707",
+        "tags": {
+          "bicycle:conditional": "yes @ (Mo-Th 07:00-11:00)",
+          "bridge": "yes",
+          "bridge:name": "Lombardbrug",
+          "bridge:wikidata": "Q17341399",
+          "highway": "pedestrian",
+          "layer": "1",
+          "motor_vehicle": "delivery",
+          "name": "Lombardbrug",
+          "wikidata": "Q19329318",
+          "wikimedia_commons": "Category:Lombardbrug (Dordrecht)",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,420000,120000,440000 --run nl-5_6 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map dordrecht-brug-d9c77366 --plaats dordrecht --punt 105164,425268",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -112,6 +127,6 @@
       "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

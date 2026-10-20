@@ -1,5 +1,5 @@
 {
-  "name": "wieringerwerf-brug-532d3876",
+  "name": "Medemblikkerweg",
   "file": "wieringerwerf-brug-532d3876.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -84,14 +84,30 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1465163692",
+        "tags": {
+          "bridge": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "lit": "no",
+          "mofa": "designated",
+          "moped": "designated",
+          "name": "Medemblikkerweg",
+          "oneway": "no",
+          "sidewalk": "no",
+          "traffic_sign": "NL:G12a",
+          "zone:traffic": "NL:rural",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 2
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,520000,140000,540000 --run nl-6_11 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map wieringerwerf-brug-532d3876 --plaats wieringerwerf --punt 130627,538715",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

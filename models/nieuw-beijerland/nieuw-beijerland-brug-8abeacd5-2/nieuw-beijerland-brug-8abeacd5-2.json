@@ -1,5 +1,5 @@
 {
-  "name": "nieuw-beijerland-brug-8abeacd5-2",
+  "name": "Langeweg",
   "file": "nieuw-beijerland-brug-8abeacd5-2.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,33 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/7507973",
+        "tags": {
+          "bicycle": "yes",
+          "bridge": "yes",
+          "cycleway:both": "no",
+          "highway": "tertiary",
+          "lane_markings": "no",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "30",
+          "maxweight:signed": "no",
+          "name": "Langeweg",
+          "operator": "Gemeente Hoeksche Waard",
+          "smoothness": "good",
+          "surface": "asphalt",
+          "zone:maxspeed": "NL:30",
+          "zone:traffic": "NL:urban"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,420000,100000,440000 --run nl-4_6 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map nieuw-beijerland-brug-8abeacd5-2 --plaats nieuw-beijerland --punt 84244,422032",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

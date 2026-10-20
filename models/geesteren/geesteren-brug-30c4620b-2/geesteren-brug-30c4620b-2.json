@@ -1,5 +1,5 @@
 {
-  "name": "geesteren-brug-30c4620b-2",
+  "name": "Koelenbeekweg",
   "file": "geesteren-brug-30c4620b-2.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -13,7 +13,7 @@
     -0.601852
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 55.832,
+  "groundHeight": 55.83,
   "groundSamplePoints": [
     [
       -12.4,
@@ -39,9 +39,9 @@
       ],
       "halfLength": 5.64,
       "halfWidth": 3.42,
-      "height": 56.026,
+      "height": 56.025,
       "gradient": [
-        -0.03443,
+        -0.03458,
         0
       ],
       "minLift": 0.05,
@@ -78,14 +78,27 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/55571516",
+        "tags": {
+          "bridge": "yes",
+          "highway": "unclassified",
+          "lanes": "1",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Koelenbeekweg",
+          "sidewalk": "no",
+          "smoothness": "good",
+          "surface": "asphalt"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,480000,260000,500000 --run nl-12_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map geesteren-brug-30c4620b-2 --plaats geesteren --punt 244199,494973",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -104,7 +117,7 @@
       "oprithelling": 11.3,
       "doorstekend": [],
       "opritHoogtes": [
-        55.832,
+        55.83,
         55.92
       ]
     },

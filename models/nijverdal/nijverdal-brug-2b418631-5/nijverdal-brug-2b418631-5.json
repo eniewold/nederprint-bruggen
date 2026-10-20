@@ -1,5 +1,5 @@
 {
-  "name": "nijverdal-brug-2b418631-5",
+  "name": "Helmkruidlaan",
   "file": "nijverdal-brug-2b418631-5.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,25 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1425753632",
+        "tags": {
+          "bridge": "viaduct",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxspeed": "50",
+          "name": "Helmkruidlaan",
+          "ownership": "private",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,480000,240000,500000 --run nl-11_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map nijverdal-brug-2b418631-5 --plaats nijverdal --punt 228570,487692",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

@@ -120,7 +120,8 @@
           "operator": "Gemeente Haarlem",
           "parking:both": "no",
           "ref": "N200",
-          "sidewalk:both": "no",
+          "sidewalk:left": "no",
+          "sidewalk:right": "separate",
           "start_date": "1957",
           "surface": "asphalt",
           "zone:traffic": "NL:urban",
@@ -133,7 +134,7 @@
       "fis": {
         "id": 8386,
         "naam": "Prinsenbrug (Brug 3)",
-        "afstand": 7,
+        "afstand": 1,
         "beweegbaar": true,
         "doorvaarthoogteGesloten": 3.1
       },
@@ -142,7 +143,7 @@
     "type": "ophaalbrug",
     "doorvaarthoogte": 3.1,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,480000,120000,500000 --run nl-5_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map haarlem-prinsenbrug --plaats haarlem --punt 104636,488944",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -153,7 +154,7 @@
         -27.3,
         29.7
       ],
-      "portaalhoogte": 19.8,
+      "portaalhoogte": 17.6,
       "opritafstand": [
         20,
         20
@@ -166,6 +167,6 @@
       ]
     },
     "waarschuwingen": [],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

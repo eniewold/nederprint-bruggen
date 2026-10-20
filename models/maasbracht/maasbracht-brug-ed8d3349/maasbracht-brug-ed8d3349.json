@@ -9,61 +9,41 @@
     352490.42
   ],
   "xAxis": [
-    0.7664,
-    0.642364
+    0.642364,
+    -0.7664
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 67.321,
+  "groundHeight": 76.021,
   "groundSamplePoints": [
     [
-      -32.03,
+      -273.78,
       0
     ],
     [
-      32.03,
+      273.78,
       0
     ]
   ],
   "replacesTerrain": [
     "L0002.05ea1fe3f66a41ef94af57cb442387c7",
-    "L0002.b49e0adfb1ce4867802a848997f00f22",
     "L0002.fdacbc604a684dd0b689a2836ae065bb",
     "L0002.ed8d3349cd0b48c3805a6b9a34939ea9"
   ],
   "terrainCorrections": [
     {
       "centre": [
-        190143.41,
-        352490.42
+        189972.68,
+        352694.11
       ],
       "axis": [
-        0.7664,
-        0.642364
-      ],
-      "halfLength": 8.56,
-      "halfWidth": 254.28,
-      "height": 66.432,
-      "gradient": [
-        0,
-        0
-      ],
-      "minLift": -1.76,
-      "maxLift": -0.01
-    },
-    {
-      "centre": [
-        190123.05,
-        352473.36
-      ],
-      "axis": [
-        -0.7664,
-        -0.642364
+        -0.642364,
+        0.7664
       ],
       "halfLength": 12,
-      "halfWidth": 255.78,
-      "height": 67.527,
+      "halfWidth": 16.56,
+      "height": 76.36,
       "gradient": [
-        -0.01713,
+        -0.02822,
         0
       ],
       "minLift": 0.05,
@@ -71,16 +51,16 @@
     },
     {
       "centre": [
-        190163.76,
-        352507.48
+        190314.13,
+        352286.73
       ],
       "axis": [
-        0.7664,
-        0.642364
+        0.642364,
+        -0.7664
       ],
       "halfLength": 12,
-      "halfWidth": 255.78,
-      "height": 67.582,
+      "halfWidth": 16.56,
+      "height": 76.548,
       "gradient": [
         -0.0125,
         0
@@ -100,10 +80,6 @@
           "type": "onbekend"
         },
         {
-          "id": "L0002.b49e0adfb1ce4867802a848997f00f22",
-          "type": "onbekend"
-        },
-        {
           "id": "L0002.fdacbc604a684dd0b689a2836ae065bb",
           "type": "onbekend"
         },
@@ -114,61 +90,37 @@
       ],
       "osm": null,
       "fis": null,
-      "pdokBridgeVlakken": 4
+      "pdokBridgeVlakken": 3
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 180000,340000,200000,360000 --run nl-9_2 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map maasbracht-brug-ed8d3349 --plaats maasbracht --punt 190143,352490",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
-      "dekLengte": 29.1,
-      "dekBreedte": 507.6,
-      "brugLengte": 29.1,
-      "water": null,
-      "portaalhoogte": 456.8,
+      "dekLengte": 507.6,
+      "dekBreedte": 29.1,
+      "brugLengte": 507.6,
+      "water": [
+        -199.3,
+        -74.3
+      ],
+      "portaalhoogte": 26.2,
       "opritafstand": [
-        17.5,
-        17.5
+        20,
+        20
       ],
       "oprithelling": 24,
-      "doorstekend": [
-        {
-          "gmlId": "L0002.400351a4d40c4b9591165bb6202ef7d8",
-          "klasse": "Forest",
-          "oppervlak": 67531.4,
-          "onderDek": 0.17,
-          "bovenDekOnderkant": 0.76,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "L0002.16e08792eba94d1c91a6286bfc7fc37d",
-          "klasse": "Forest",
-          "oppervlak": 470.9,
-          "onderDek": 0.18,
-          "bovenDekOnderkant": 0.42,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "L0002.c847f070942349439dabfdf64ebd2998",
-          "klasse": "Forest",
-          "oppervlak": 113.3,
-          "onderDek": 0.15,
-          "bovenDekOnderkant": 0.08,
-          "actie": "verlagen"
-        }
-      ],
+      "doorstekend": [],
       "opritHoogtes": [
-        67.321,
-        67.432
+        76.021,
+        76.398
       ]
     },
     "waarschuwingen": [
-      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
       "geen FIS-brug binnen 35 m",
-      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
-      "3 PDOK-vorm(en) door het dek: 0 verborgen, 3 verlaagd"
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
     "gegenereerd": "2026-10-20"
   }

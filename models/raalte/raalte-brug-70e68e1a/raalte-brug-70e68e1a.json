@@ -1,5 +1,5 @@
 {
-  "name": "raalte-brug-70e68e1a",
+  "name": "Weidelaan",
   "file": "raalte-brug-70e68e1a.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -13,7 +13,7 @@
     -0.704853
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 50.103,
+  "groundHeight": 50.087,
   "groundSamplePoints": [
     [
       -25.02,
@@ -58,9 +58,9 @@
       ],
       "halfLength": 11.37,
       "halfWidth": 9.09,
-      "height": 50.348,
+      "height": 50.34,
       "gradient": [
-        -0.02158,
+        -0.02226,
         0
       ],
       "minLift": 0.05,
@@ -78,14 +78,27 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/653921802",
+        "tags": {
+          "bicycle": "no",
+          "bridge": "yes",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "50",
+          "name": "Weidelaan",
+          "surface": "asphalt",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 200000,480000,220000,500000 --run nl-10_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map raalte-brug-70e68e1a --plaats raalte --punt 216248,489756",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -105,13 +118,13 @@
       "doorstekend": [],
       "opritHoogtes": [
         50.294,
-        50.103
+        50.087
       ]
     },
     "waarschuwingen": [
       "geen FIS-brug binnen 35 m",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

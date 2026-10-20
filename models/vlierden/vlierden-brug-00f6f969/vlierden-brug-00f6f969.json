@@ -1,5 +1,5 @@
 {
-  "name": "vlierden-brug-00f6f969",
+  "name": "Brouwhuisweg",
   "file": "vlierden-brug-00f6f969.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -88,14 +88,29 @@
           "type": "landhoofd"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/693089549",
+        "tags": {
+          "bridge": "yes",
+          "cycleway": "lane",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Brouwhuisweg",
+          "wikidata": "Q18975316",
+          "zone:traffic": "NL:rural",
+          "bridge:material": "concrete",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 3
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,380000,180000,400000 --run nl-8_4 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map vlierden-brug-00f6f969 --plaats vlierden --punt 178859,383877",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

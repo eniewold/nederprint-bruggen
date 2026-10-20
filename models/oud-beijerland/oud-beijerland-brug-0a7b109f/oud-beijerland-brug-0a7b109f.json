@@ -1,5 +1,5 @@
 {
-  "name": "oud-beijerland-brug-0a7b109f",
+  "name": "Viool",
   "file": "oud-beijerland-brug-0a7b109f.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,26 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1173245798",
+        "tags": {
+          "bridge": "yes",
+          "highway": "residential",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Viool",
+          "name:etymology:wikidata": "Q8355",
+          "zone:maxspeed": "NL:30",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,420000,100000,440000 --run nl-4_6 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map oud-beijerland-brug-0a7b109f --plaats oud-beijerland --punt 88983,425355",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

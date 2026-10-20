@@ -1,5 +1,5 @@
 {
-  "name": "s-graveland-brug-4d67eb00",
+  "name": "Stenen brug",
   "file": "s-graveland-brug-4d67eb00.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -88,14 +88,34 @@
           "type": "landhoofd"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/832940266",
+        "tags": {
+          "bridge": "yes",
+          "highway": "service",
+          "lane_markings": "no",
+          "layer": "1",
+          "maxspeed": "50",
+          "maxweight:signed": "no",
+          "name": "Stenen brug",
+          "oneway": "no",
+          "start_date": "1699",
+          "surface": "unhewn_cobblestone",
+          "bridge:structure": "humpback",
+          "description": "Oudste brug van Hilversum. Het opschrift bevat aan beide kanten het Hilversumse wapen en het jaartal 1699",
+          "heritage": "8",
+          "historic": "bridge",
+          "man_made": "bridge",
+          "source:name": "BAG/BGT"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 3
     },
-    "type": "ligger",
+    "type": "bolbrug",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,460000,140000,480000 --run nl-6_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map s-graveland-brug-4d67eb00 --plaats s-graveland --punt 138049,470756",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -112,6 +132,7 @@
         6.6
       ],
       "oprithelling": 11,
+      "bolling": 0.62,
       "doorstekend": [],
       "opritHoogtes": [
         44.434,
@@ -119,6 +140,6 @@
       ]
     },
     "waarschuwingen": [],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

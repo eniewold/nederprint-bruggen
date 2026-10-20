@@ -1,5 +1,5 @@
 {
-  "name": "Brug in de N366 Nieuwe Pekela",
+  "name": "Provinciale Weg",
   "file": "nieuwe-pekela-brug-in-de-n366-nieuwe-pekela.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -88,11 +88,27 @@
           "type": "landhoofd"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/6368591",
+        "tags": {
+          "bridge": "yes",
+          "destination:backward": "Stadskanaal",
+          "destination:forward": "Groningen",
+          "highway": "trunk",
+          "lanes": "2",
+          "layer": "1",
+          "maxspeed": "70",
+          "motorroad": "yes",
+          "name": "Provinciale Weg",
+          "operator": "Provincie Groningen",
+          "ref": "N366",
+          "surface": "asphalt"
+        }
+      },
       "fis": {
         "id": 54632,
         "naam": "Brug in de N366 Nieuwe Pekela",
-        "afstand": 3,
+        "afstand": 5,
         "beweegbaar": false,
         "doorvaarthoogteGesloten": 4.4799999999999995
       },
@@ -101,7 +117,7 @@
     "type": "ophaalbrug",
     "doorvaarthoogte": 4.4799999999999995,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 260000,560000,280000,580000 --run nl-13_13 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map nieuwe-pekela-brug-in-de-n366-nieuwe-pekela --plaats nieuwe-pekela --punt 261309,567331",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -112,7 +128,7 @@
         -2.6,
         6.4
       ],
-      "portaalhoogte": 11.7,
+      "portaalhoogte": 11.6,
       "opritafstand": [
         20,
         20

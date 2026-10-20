@@ -9,18 +9,18 @@
     444575.85
   ],
   "xAxis": [
-    0.234252,
-    -0.972176
+    -0.972176,
+    -0.234252
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 59.772,
+  "groundHeight": 59.196,
   "groundSamplePoints": [
     [
-      -4.88,
+      -11.76,
       0
     ],
     [
-      4.88,
+      11.76,
       0
     ]
   ],
@@ -34,33 +34,33 @@
         444575.85
       ],
       "axis": [
-        0.234252,
-        -0.972176
+        -0.972176,
+        -0.234252
       ],
-      "halfLength": 0.44,
-      "halfWidth": 3.96,
-      "height": 58.901,
+      "halfLength": 1.73,
+      "halfWidth": 1.38,
+      "height": 58.82,
       "gradient": [
         0,
         0
       ],
-      "minLift": -1.65,
+      "minLift": -1.72,
       "maxLift": -0.01
     },
     {
       "centre": [
-        192682.51,
-        444579.63
+        192690.14,
+        444577.47
       ],
       "axis": [
-        -0.234252,
-        0.972176
+        0.972176,
+        0.234252
       ],
-      "halfLength": 3,
-      "halfWidth": 5.19,
-      "height": 60.051,
+      "halfLength": 3.46,
+      "halfWidth": 1.32,
+      "height": 59.97,
       "gradient": [
-        -0.05,
+        -0.04338,
         0
       ],
       "minLift": 0.05,
@@ -68,18 +68,18 @@
     },
     {
       "centre": [
-        192684.32,
-        444572.08
+        192676.69,
+        444574.23
       ],
       "axis": [
-        0.234252,
-        -0.972176
+        -0.972176,
+        -0.234252
       ],
-      "halfLength": 3,
-      "halfWidth": 5.19,
-      "height": 59.986,
+      "halfLength": 3.46,
+      "halfWidth": 1.32,
+      "height": 59.658,
       "gradient": [
-        -0.07154,
+        -0.13364,
         0
       ],
       "minLift": 0.05,
@@ -110,40 +110,44 @@
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 180000,440000,200000,460000 --run nl-9_7 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map arnhem-brug-4d79d1af --plaats arnhem --punt 192683,444576",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
-      "dekLengte": 1.8,
-      "dekBreedte": 6.9,
-      "brugLengte": 1.8,
-      "water": null,
-      "portaalhoogte": 6.2,
-      "opritafstand": [
-        4,
-        4
+      "dekLengte": 6.9,
+      "dekBreedte": 1.8,
+      "brugLengte": 6.9,
+      "water": [
+        -3.5,
+        -2.5
       ],
-      "oprithelling": 6,
+      "portaalhoogte": 2.5,
+      "opritafstand": [
+        8.3,
+        8.3
+      ],
+      "oprithelling": 6.9,
       "doorstekend": [
         {
           "gmlId": "G0202.2af034b645aa12c4e05343604191f184",
           "klasse": "Terrain",
-          "oppervlak": 5912,
+          "oppervlak": 1808.9,
           "onderDek": 0,
-          "bovenDekOnderkant": 0.65,
+          "bovenDekOnderkant": 0.72,
           "actie": "verlagen"
         }
       ],
       "opritHoogtes": [
-        59.901,
-        59.772
+        59.82,
+        59.196
       ]
     },
     "waarschuwingen": [
-      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "oprit - pas op 8.3 m gemeten",
+      "oprit + pas op 8.3 m gemeten",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
       "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

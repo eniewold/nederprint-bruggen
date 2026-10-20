@@ -1,5 +1,5 @@
 {
-  "name": "hengelo-brug-cd937f2a",
+  "name": "Bornsestraat",
   "file": "hengelo-brug-cd937f2a.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -98,14 +98,33 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/6669725",
+        "tags": {
+          "bicycle": "no",
+          "bridge": "yes",
+          "highway": "primary",
+          "lanes": "3",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "80",
+          "maxweight:signed": "no",
+          "name": "Bornsestraat",
+          "oneway": "yes",
+          "placement": "right_of:1",
+          "source:maxspeed": "NL:rural",
+          "surface": "asphalt",
+          "turn:lanes": "through|through|right",
+          "zone:traffic": "NL:rural"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,460000,260000,480000 --run nl-12_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map hengelo-brug-cd937f2a --plaats hengelo --punt 249470,478612",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

@@ -1,5 +1,5 @@
 {
-  "name": "Zwaagsterklap",
+  "name": "Zwaagsterweg",
   "file": "scheemda-zwaagsterklap.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -41,9 +41,9 @@
       ],
       "halfLength": 8.42,
       "halfWidth": 6.63,
-      "height": 41.447,
+      "height": 41.444,
       "gradient": [
-        -0.02206,
+        -0.02166,
         0
       ],
       "minLift": 0.05,
@@ -60,7 +60,7 @@
       ],
       "halfLength": 8.42,
       "halfWidth": 6.63,
-      "height": 41.483,
+      "height": 41.476,
       "gradient": [
         -0.01783,
         0
@@ -88,11 +88,23 @@
           "type": "landhoofd"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/6381246",
+        "tags": {
+          "bridge": "yes",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "80",
+          "maxweight:signed": "no",
+          "name": "Zwaagsterweg",
+          "smoothness": "intermediate",
+          "surface": "paved"
+        }
+      },
       "fis": {
         "id": 9198,
         "naam": "Zwaagsterklap",
-        "afstand": 1,
+        "afstand": 2,
         "beweegbaar": true,
         "doorvaarthoogteGesloten": 1.31
       },
@@ -101,7 +113,7 @@
     "type": "ophaalbrug",
     "doorvaarthoogte": 1.31,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,560000,260000,580000 --run nl-12_13 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map scheemda-zwaagsterklap --plaats scheemda --punt 259598,578386",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -112,7 +124,7 @@
         -6.3,
         7.2
       ],
-      "portaalhoogte": 8.3,
+      "portaalhoogte": 6.9,
       "opritafstand": [
         10.1,
         10.1
@@ -121,7 +133,7 @@
       "doorstekend": [],
       "opritHoogtes": [
         41.261,
-        41.333
+        41.326
       ]
     },
     "waarschuwingen": [],

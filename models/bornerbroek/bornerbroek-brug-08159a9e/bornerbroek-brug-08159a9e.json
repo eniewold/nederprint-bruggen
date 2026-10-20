@@ -1,5 +1,5 @@
 {
-  "name": "bornerbroek-brug-08159a9e",
+  "name": "Hoeselderdijk",
   "file": "bornerbroek-brug-08159a9e.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -88,14 +88,28 @@
           "type": "landhoofd"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/56034158",
+        "tags": {
+          "bridge": "yes",
+          "highway": "unclassified",
+          "lanes": "1",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Hoeselderdijk",
+          "sidewalk": "no",
+          "smoothness": "good",
+          "source:maxspeed": "NL:zone60",
+          "surface": "asphalt"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 3
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,480000,240000,500000 --run nl-11_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map bornerbroek-brug-08159a9e --plaats bornerbroek --punt 238735,481262",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

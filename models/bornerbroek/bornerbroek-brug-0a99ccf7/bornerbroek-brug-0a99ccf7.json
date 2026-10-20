@@ -78,14 +78,27 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/140546038",
+        "tags": {
+          "access:conditional": "no @ (sunset-sunrise)",
+          "bridge": "yes",
+          "designation:NL:wegenwet": "eigen_weg",
+          "dog": "leashed",
+          "foot": "permissive",
+          "highway": "footway",
+          "layer": "1",
+          "opening_hours": "sunrise-sunset",
+          "surface": "wood"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,480000,260000,500000 --run nl-12_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map bornerbroek-brug-0a99ccf7 --plaats bornerbroek --punt 243262,482099",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

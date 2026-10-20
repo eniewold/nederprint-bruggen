@@ -1,5 +1,5 @@
 {
-  "name": "almelo-brug-8932e04f",
+  "name": "Laak",
   "file": "almelo-brug-8932e04f.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -98,14 +98,30 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/370473186",
+        "tags": {
+          "bridge": "yes",
+          "check_date:surface": "2023-10-04",
+          "highway": "cycleway",
+          "layer": "1",
+          "lit": "yes",
+          "mofa": "yes",
+          "moped": "designated",
+          "name": "Laak",
+          "sidewalk": "no",
+          "smoothness": "intermediate",
+          "surface": "wood",
+          "traffic_sign": "NL:G12a"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 5
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,480000,260000,500000 --run nl-12_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map almelo-brug-8932e04f --plaats almelo --punt 243717,488009",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

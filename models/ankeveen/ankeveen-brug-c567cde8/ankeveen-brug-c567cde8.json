@@ -1,5 +1,5 @@
 {
-  "name": "ankeveen-brug-c567cde8",
+  "name": "Faunapassage",
   "file": "ankeveen-brug-c567cde8.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,32 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/235756665",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "yes",
+          "foot": "use_sidepath",
+          "highway": "primary",
+          "layer": "1",
+          "maxspeed": "80",
+          "mofa": "use_sidepath",
+          "moped": "use_sidepath",
+          "name": "Faunapassage",
+          "oneway": "yes",
+          "operator": "Provincie Noord-Holland",
+          "ref": "N236",
+          "man_made": "bridge",
+          "material": "concrete"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,460000,140000,480000 --run nl-6_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map ankeveen-brug-c567cde8 --plaats ankeveen --punt 136370,476246",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -112,6 +130,6 @@
       "geen FIS-brug binnen 35 m",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

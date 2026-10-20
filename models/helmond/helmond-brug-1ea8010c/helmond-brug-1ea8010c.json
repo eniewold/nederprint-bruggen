@@ -1,5 +1,5 @@
 {
-  "name": "helmond-brug-1ea8010c",
+  "name": "Sportpark Brandevoort",
   "file": "helmond-brug-1ea8010c.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,26 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/21557902",
+        "tags": {
+          "bridge": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "lit": "no",
+          "name": "Sportpark Brandevoort",
+          "oneway": "no",
+          "surface": "wood",
+          "zone:traffic": "NL:urban"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,380000,180000,400000 --run nl-8_4 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map helmond-brug-1ea8010c --plaats helmond --punt 170853,385135",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

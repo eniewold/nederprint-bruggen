@@ -81,12 +81,25 @@
       "osm": {
         "id": "way/1280802415",
         "tags": {
+          "bicycle": "use_sidepath",
           "bridge": "movable",
           "bridge:movable": "drawbridge",
-          "bridge:structure": "beam",
+          "foot": "use_sidepath",
+          "highway": "primary",
           "layer": "1",
-          "man_made": "bridge",
-          "name": "Veenhoopsbrug"
+          "lit": "yes",
+          "maxspeed": "50",
+          "maxweight:signed": "no",
+          "mofa": "use_sidepath",
+          "moped": "use_sidepath",
+          "name": "Veenhoopsbrug",
+          "operator": "Provincie Drenthe",
+          "ref": "N371",
+          "smoothness": "good",
+          "surface": "asphalt",
+          "zone:traffic": "NL:urban",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
         }
       },
       "fis": {
@@ -101,7 +114,7 @@
     "type": "ophaalbrug",
     "doorvaarthoogte": 0.7999999999999989,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,540000,240000,560000 --run nl-11_12 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map smilde-veenhoopsbrug --plaats smilde --punt 225647,551153",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -112,7 +125,7 @@
         -3.1,
         3.4
       ],
-      "portaalhoogte": 20.5,
+      "portaalhoogte": 14,
       "opritafstand": [
         4.3,
         4.3

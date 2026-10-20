@@ -1,5 +1,5 @@
 {
-  "name": "zeist-brug-80bcc4a6",
+  "name": "Dijnselburg",
   "file": "zeist-brug-80bcc4a6.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -13,7 +13,7 @@
     0.995421
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 51.301,
+  "groundHeight": 51.297,
   "groundSamplePoints": [
     [
       -58.52,
@@ -49,7 +49,7 @@
         0,
         0
       ],
-      "minLift": -3.01,
+      "minLift": -3,
       "maxLift": -0.01
     },
     {
@@ -82,9 +82,9 @@
       ],
       "halfLength": 12,
       "halfWidth": 3.23,
-      "height": 51.47,
+      "height": 51.468,
       "gradient": [
-        -0.01407,
+        -0.01425,
         0
       ],
       "minLift": 0.05,
@@ -118,14 +118,24 @@
           "type": "onbekend"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/33175640",
+        "tags": {
+          "bridge": "yes",
+          "highway": "footway",
+          "layer": "1",
+          "lit": "no",
+          "name": "Dijnselburg",
+          "surface": "concrete"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 5
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,440000,160000,460000 --run nl-7_7 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map zeist-brug-80bcc4a6 --plaats zeist --punt 145241,457360",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -143,9 +153,9 @@
         {
           "gmlId": "G0355.eb38e62bfe904862b9ed2f71aa2566e0",
           "klasse": "Forest",
-          "oppervlak": 3913.1,
+          "oppervlak": 1304.4,
           "onderDek": 0,
-          "bovenDekOnderkant": 2.01,
+          "bovenDekOnderkant": 2,
           "actie": "verlagen"
         },
         {
@@ -175,13 +185,13 @@
       ],
       "opritHoogtes": [
         51.339,
-        51.301
+        51.297
       ]
     },
     "waarschuwingen": [
       "geen FIS-brug binnen 35 m",
       "4 PDOK-vorm(en) door het dek: 1 verborgen, 3 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

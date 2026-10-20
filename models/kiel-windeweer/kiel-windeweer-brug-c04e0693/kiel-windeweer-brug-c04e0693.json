@@ -1,5 +1,5 @@
 {
-  "name": "kiel-windeweer-brug-c04e0693",
+  "name": "Klaplaan",
   "file": "kiel-windeweer-brug-c04e0693.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -41,7 +41,7 @@
       ],
       "halfLength": 5.26,
       "halfWidth": 4,
-      "height": 43.925,
+      "height": 43.902,
       "gradient": [
         -0.02853,
         0
@@ -60,9 +60,9 @@
       ],
       "halfLength": 5.26,
       "halfWidth": 4,
-      "height": 43.906,
+      "height": 43.894,
       "gradient": [
-        -0.03233,
+        -0.03009,
         0
       ],
       "minLift": 0.05,
@@ -90,14 +90,28 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/6385618",
+        "tags": {
+          "bridge": "movable",
+          "bridge:movable": "bascule",
+          "bridge:name": "Brug Klaplaan/Middelsteklap",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxaxleload": "2.4",
+          "maxspeed": "50",
+          "name": "Klaplaan",
+          "smoothness": "intermediate",
+          "surface": "wood"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 3
     },
-    "type": "ophaalbrug",
+    "type": "basculebrug",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,560000,260000,580000 --run nl-12_13 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map kiel-windeweer-brug-c04e0693 --plaats kiel-windeweer --punt 248178,570510",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -116,7 +130,7 @@
       "oprithelling": 10.5,
       "doorstekend": [],
       "opritHoogtes": [
-        43.775,
+        43.752,
         43.736
       ]
     },

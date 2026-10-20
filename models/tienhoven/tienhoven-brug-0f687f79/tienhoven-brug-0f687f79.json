@@ -1,5 +1,5 @@
 {
-  "name": "tienhoven-brug-0f687f79",
+  "name": "Bethuneweg",
   "file": "tienhoven-brug-0f687f79.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -13,7 +13,7 @@
     -0.93832
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 40.638,
+  "groundHeight": 40.625,
   "groundSamplePoints": [
     [
       -8.3,
@@ -58,9 +58,9 @@
       ],
       "halfLength": 3.77,
       "halfWidth": 2.58,
-      "height": 40.801,
+      "height": 40.794,
       "gradient": [
-        -0.04316,
+        -0.04494,
         0
       ],
       "minLift": 0.05,
@@ -78,14 +78,24 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/73673494",
+        "tags": {
+          "bridge": "yes",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxspeed": "60",
+          "motor_vehicle": "destination",
+          "name": "Bethuneweg"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,460000,140000,480000 --run nl-6_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map tienhoven-brug-0f687f79 --plaats tienhoven --punt 132597,463428",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -105,12 +115,12 @@
       "doorstekend": [],
       "opritHoogtes": [
         40.664,
-        40.638
+        40.625
       ]
     },
     "waarschuwingen": [
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

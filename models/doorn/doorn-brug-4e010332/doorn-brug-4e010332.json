@@ -97,14 +97,21 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1031519494",
+        "tags": {
+          "bridge": "yes",
+          "highway": "path",
+          "layer": "1"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ophaalbrug",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,440000,160000,460000 --run nl-7_7 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map doorn-brug-4e010332 --plaats doorn --punt 149646,451462",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -125,7 +132,7 @@
         {
           "gmlId": "G1581.15bbfb1a82504e22858d53bb76af67ae",
           "klasse": "Forest",
-          "oppervlak": 7046.9,
+          "oppervlak": 3523.1,
           "onderDek": 0,
           "bovenDekOnderkant": 0.15,
           "actie": "verlagen"
@@ -133,9 +140,9 @@
         {
           "gmlId": "W0636.cea7742dec3f44ddb2f12462c483ec59",
           "klasse": "Terrain",
-          "oppervlak": 1165.8,
+          "oppervlak": 388.8,
           "onderDek": 0.01,
-          "bovenDekOnderkant": 0.13,
+          "bovenDekOnderkant": 0.12,
           "actie": "verlagen"
         }
       ],
@@ -149,6 +156,6 @@
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
       "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "name": "Wilhelminabrug Enkhuizen",
+  "name": "Wilhelminabrug",
   "file": "enkhuizen-wilhelminabrug-enkhuizen.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -130,20 +130,34 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/601137467",
+        "tags": {
+          "bridge": "movable",
+          "bridge:movable": "bascule",
+          "highway": "tertiary",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "30",
+          "name": "Wilhelminabrug",
+          "sidewalk:both": "yes",
+          "surface": "asphalt",
+          "zone:maxspeed": "NL:30"
+        }
+      },
       "fis": {
         "id": 28598,
         "naam": "Wilhelminabrug Enkhuizen",
-        "afstand": 3,
+        "afstand": 4,
         "beweegbaar": true,
         "doorvaarthoogteGesloten": 1.99
       },
       "pdokBridgeVlakken": 9
     },
-    "type": "ophaalbrug",
+    "type": "basculebrug",
     "doorvaarthoogte": 1.99,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,520000,160000,540000 --run nl-7_11 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map enkhuizen-wilhelminabrug-enkhuizen --plaats enkhuizen --punt 148439,523836",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -167,6 +181,6 @@
       ]
     },
     "waarschuwingen": [],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

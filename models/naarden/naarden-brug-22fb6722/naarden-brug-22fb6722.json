@@ -1,5 +1,5 @@
 {
-  "name": "naarden-brug-22fb6722",
+  "name": "Kapitein G.A. Meijerweg",
   "file": "naarden-brug-22fb6722.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -93,14 +93,23 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/38210966",
+        "tags": {
+          "bridge": "yes",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Kapitein G.A. Meijerweg"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 4
     },
     "type": "ophaalbrug",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,460000,140000,480000 --run nl-6_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map naarden-brug-22fb6722 --plaats naarden --punt 139976,478270",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -127,6 +136,6 @@
       "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
       "geen FIS-brug binnen 35 m"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

@@ -88,20 +88,37 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1079451266",
+        "tags": {
+          "bridge": "movable",
+          "bridge:movable": "bascule",
+          "bridge:name": "Middenweteringbrug",
+          "cycleway": "shared_lane",
+          "highway": "residential",
+          "layer": "1",
+          "maxspeed": "50",
+          "name": "Middenweteringbrug",
+          "sidewalk": "both",
+          "surface": "paved",
+          "zone:traffic": "NL:urban",
+          "man_made": "bridge",
+          "wikidata": "Q41781107"
+        }
+      },
       "fis": {
         "id": 33537,
         "naam": "Middenweteringbrug",
-        "afstand": 6,
+        "afstand": 7,
         "beweegbaar": true,
         "doorvaarthoogteGesloten": 0.9500000000000002
       },
       "pdokBridgeVlakken": 3
     },
-    "type": "ophaalbrug",
+    "type": "basculebrug",
     "doorvaarthoogte": 0.9500000000000002,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,460000,140000,480000 --run nl-6_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map vinkeveen-middenweteringbrug --plaats vinkeveen --punt 126117,471972",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -125,6 +142,6 @@
       ]
     },
     "waarschuwingen": [],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

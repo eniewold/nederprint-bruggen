@@ -1,5 +1,5 @@
 {
-  "name": "kortenhoef-brug-18eafe41",
+  "name": "Graversbrug",
   "file": "kortenhoef-brug-18eafe41.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -13,7 +13,7 @@
     -0.716614
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 42.815,
+  "groundHeight": 42.811,
   "groundSamplePoints": [
     [
       -8.8,
@@ -39,9 +39,9 @@
       ],
       "halfLength": 4,
       "halfWidth": 6.05,
-      "height": 43.154,
+      "height": 43.148,
       "gradient": [
-        -0.08477,
+        -0.0842,
         0
       ],
       "minLift": 0.05,
@@ -58,7 +58,7 @@
       ],
       "halfLength": 4,
       "halfWidth": 6.05,
-      "height": 43.343,
+      "height": 43.334,
       "gradient": [
         -0.03751,
         0
@@ -78,14 +78,23 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1540845802",
+        "tags": {
+          "bridge": "yes",
+          "highway": "service",
+          "layer": "1",
+          "name": "Graversbrug",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,460000,140000,480000 --run nl-6_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map kortenhoef-brug-18eafe41 --plaats kortenhoef --punt 134019,470669",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -104,14 +113,14 @@
       "oprithelling": 8,
       "doorstekend": [],
       "opritHoogtes": [
-        42.815,
-        43.193
+        42.811,
+        43.184
       ]
     },
     "waarschuwingen": [
       "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

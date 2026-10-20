@@ -78,11 +78,18 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/181152478",
+        "tags": {
+          "bridge": "yes",
+          "highway": "cycleway",
+          "layer": "1"
+        }
+      },
       "fis": {
         "id": 29095,
         "naam": "Lubbermansdraai",
-        "afstand": 2,
+        "afstand": 1,
         "beweegbaar": true,
         "doorvaarthoogteGesloten": 1
       },
@@ -91,7 +98,7 @@
     "type": "ophaalbrug",
     "doorvaarthoogte": 1,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 260000,560000,280000,580000 --run nl-13_13 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map oude-pekela-lubbermansdraai --plaats oude-pekela --punt 263541,569610",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

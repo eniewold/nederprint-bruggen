@@ -1,5 +1,5 @@
 {
-  "name": "lutjebroek-brug-78b89775",
+  "name": "Pieter Janszoon Jongstraat",
   "file": "lutjebroek-brug-78b89775.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -107,14 +107,25 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/143721536",
+        "tags": {
+          "bicycle": "yes",
+          "bridge": "yes",
+          "cycleway": "lane",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Pieter Janszoon Jongstraat"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 3
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,520000,160000,540000 --run nl-7_11 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map lutjebroek-brug-78b89775 --plaats lutjebroek --punt 142208,523388",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -149,6 +160,6 @@
     "waarschuwingen": [
       "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "name": "vroomshoop-brug-dd6c78f7",
+  "name": "Hammerstraat",
   "file": "vroomshoop-brug-dd6c78f7.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -83,14 +83,30 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/6426703",
+        "tags": {
+          "bridge": "movable",
+          "bridge:movable": "bascule",
+          "cycleway": "lane",
+          "highway": "primary",
+          "lanes": "2",
+          "layer": "1",
+          "maxspeed": "50",
+          "name": "Hammerstraat",
+          "operator": "Gemeente Twenterand",
+          "ref": "N341",
+          "surface": "asphalt",
+          "zone:traffic": "NL:urban"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 2
     },
-    "type": "ophaalbrug",
+    "type": "basculebrug",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,480000,240000,500000 --run nl-11_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map vroomshoop-brug-dd6c78f7 --plaats vroomshoop --punt 235601,497723",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

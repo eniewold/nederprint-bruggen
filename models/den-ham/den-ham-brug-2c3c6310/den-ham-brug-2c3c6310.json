@@ -1,5 +1,5 @@
 {
-  "name": "den-ham-brug-2c3c6310",
+  "name": "Daarleseweg",
   "file": "den-ham-brug-2c3c6310.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,31 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1376845113",
+        "tags": {
+          "bicycle": "no",
+          "bridge": "yes",
+          "foot": "no",
+          "highway": "secondary",
+          "layer": "1",
+          "maxspeed": "80",
+          "mofa": "no",
+          "moped": "no",
+          "name": "Daarleseweg",
+          "operator": "Provincie Overijssel",
+          "ref": "N751",
+          "surface": "asphalt",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,480000,240000,500000 --run nl-11_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map den-ham-brug-2c3c6310 --plaats den-ham --punt 232472,495801",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

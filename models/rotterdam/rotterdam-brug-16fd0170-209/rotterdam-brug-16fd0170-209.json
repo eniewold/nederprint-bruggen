@@ -1,5 +1,5 @@
 {
-  "name": "rotterdam-brug-16fd0170-209",
+  "name": "Wout van Heusdensingel",
   "file": "rotterdam-brug-16fd0170-209.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -9,18 +9,18 @@
     444374.32
   ],
   "xAxis": [
-    0.090621,
-    0.995885
+    0.995885,
+    -0.090621
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 37.58,
+  "groundHeight": 38.44,
   "groundSamplePoints": [
     [
-      -7.53,
+      -66.53,
       0
     ],
     [
-      7.53,
+      66.53,
       0
     ]
   ],
@@ -30,37 +30,18 @@
   "terrainCorrections": [
     {
       "centre": [
-        100008.29,
-        444374.32
+        99950,
+        444379.62
       ],
       "axis": [
-        0.090621,
-        0.995885
+        -0.995885,
+        0.090621
       ],
-      "halfLength": 1.71,
-      "halfWidth": 47.03,
-      "height": 36.849,
+      "halfLength": 12,
+      "halfWidth": 5.14,
+      "height": 39.224,
       "gradient": [
-        0,
-        0
-      ],
-      "minLift": -1.98,
-      "maxLift": -0.01
-    },
-    {
-      "centre": [
-        100007.67,
-        444367.49
-      ],
-      "axis": [
-        -0.090621,
-        -0.995885
-      ],
-      "halfLength": 3.42,
-      "halfWidth": 48.53,
-      "height": 37.999,
-      "gradient": [
-        -0.0438,
+        -0.0125,
         0
       ],
       "minLift": 0.05,
@@ -68,18 +49,18 @@
     },
     {
       "centre": [
-        100008.91,
-        444381.14
+        100066.58,
+        444369.01
       ],
       "axis": [
-        0.090621,
-        0.995885
+        0.995885,
+        -0.090621
       ],
-      "halfLength": 3.42,
-      "halfWidth": 48.53,
-      "height": 37.865,
+      "halfLength": 12,
+      "halfWidth": 5.14,
+      "height": 38.907,
       "gradient": [
-        -0.0831,
+        -0.03891,
         0
       ],
       "minLift": 0.05,
@@ -101,9 +82,10 @@
         "id": "way/1059848318",
         "tags": {
           "bridge": "yes",
-          "highway": "footway",
+          "highway": "cycleway",
           "incline": "up",
           "layer": "1",
+          "name": "Wout van Heusdensingel",
           "man_made": "bridge"
         }
       },
@@ -113,55 +95,32 @@
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,440000,100000,460000 --run nl-4_7 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map rotterdam-brug-16fd0170-209 --plaats rotterdam --punt 100008,444374",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
-      "dekLengte": 6.8,
-      "dekBreedte": 93.1,
-      "brugLengte": 6.8,
-      "water": null,
-      "portaalhoogte": 83.8,
+      "dekLengte": 93.1,
+      "dekBreedte": 6.8,
+      "brugLengte": 93.1,
+      "water": [
+        -44.5,
+        41.5
+      ],
+      "portaalhoogte": 6.2,
       "opritafstand": [
-        4.1,
-        4.1
+        20,
+        20
       ],
-      "oprithelling": 6.8,
-      "doorstekend": [
-        {
-          "gmlId": "G0599.16fca6c88ab356560e050210a7e247d7",
-          "klasse": "Forest",
-          "oppervlak": 1175.2,
-          "onderDek": 0.04,
-          "bovenDekOnderkant": 0.98,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "G0599.16fca6c88ab346560e050210a7e247d7",
-          "klasse": "Forest",
-          "oppervlak": 187.9,
-          "onderDek": 0.06,
-          "bovenDekOnderkant": 0.87,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "G0599.16fca6c77824d6560e050210a7e247d7",
-          "klasse": "Forest",
-          "oppervlak": 1526.1,
-          "onderDek": 0.15,
-          "bovenDekOnderkant": 0.8,
-          "actie": "verlagen"
-        }
-      ],
+      "oprithelling": 24,
+      "doorstekend": [],
       "opritHoogtes": [
-        37.849,
-        37.58
+        39.074,
+        38.44
       ]
     },
     "waarschuwingen": [
-      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
-      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
-      "3 PDOK-vorm(en) door het dek: 0 verborgen, 3 verlaagd"
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
     "gegenereerd": "2026-10-20"
   }

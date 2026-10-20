@@ -1,5 +1,5 @@
 {
-  "name": "ijsselstein-brug-63631cd3",
+  "name": "Statensingel",
   "file": "ijsselstein-brug-63631cd3.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -97,14 +97,25 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1021630584",
+        "tags": {
+          "bridge": "yes",
+          "highway": "residential",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "30",
+          "name": "Statensingel",
+          "surface": "paving_stones"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,440000,140000,460000 --run nl-6_7 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map ijsselstein-brug-63631cd3 --plaats ijsselstein --punt 130993,446774",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -149,7 +160,7 @@
         {
           "gmlId": "W0636.d6e7604eea2c44b8bc03d969e02a44c7",
           "klasse": "Terrain",
-          "oppervlak": 1461.4,
+          "oppervlak": 729.6,
           "onderDek": 0.02,
           "bovenDekOnderkant": 0.56,
           "actie": "verlagen"
@@ -165,6 +176,6 @@
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
       "4 PDOK-vorm(en) door het dek: 0 verborgen, 4 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

@@ -9,19 +9,19 @@
     485025.77
   ],
   "xAxis": [
-    0.997051,
-    -0.076744
+    -0.076744,
+    -0.997051
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 42.389,
+  "groundHeight": 48.262,
   "groundSamplePoints": [
     [
-      -35.51,
-      -41.3
+      -90.6,
+      0
     ],
     [
-      165.07,
-      -20.73
+      90.6,
+      0
     ]
   ],
   "replacesTerrain": [
@@ -43,50 +43,23 @@
     "G0363.f2348acb532543399af2ca1f68fd05a2",
     "G0363.f80fa7b6046d4965bf1f15525d690247",
     "G0363.f82daaa64af54975971e97d8a7bb2972",
-    "L0002.8335a5c31d6748eda85725bc6122e890",
-    "L0002.d52ea60360f74913a19f52c387764500",
-    "L0002.f5db8366a1824c2bbf29b7f490789325",
-    "G0363.e5ac8a93556448f99f6c1d0ba5d6d662",
-    "G0363.4c1d60025033408ba53686552a484cb7",
-    "G0363.9b9db0231be3468b81c02e2f05fea8b6",
-    "G0363.49bc8b923e30439bbb1d76338b270120",
-    "G0363.aad6eb54438a4f49bd57cae810c0c554",
-    "G0363.8d20ee6e9cb145edb951c9c7bfb96dac"
+    "L0002.d52ea60360f74913a19f52c387764500"
   ],
   "terrainCorrections": [
     {
       "centre": [
-        117894.93,
-        485025.77
+        117901.27,
+        485108.13
       ],
       "axis": [
-        0.997051,
-        -0.076744
-      ],
-      "halfLength": 19.51,
-      "halfWidth": 71.1,
-      "height": 44.853,
-      "gradient": [
-        0,
-        0
-      ],
-      "minLift": -3.14,
-      "maxLift": -0.01
-    },
-    {
-      "centre": [
-        117857.53,
-        485028.65
-      ],
-      "axis": [
-        -0.997051,
-        0.076744
+        0.076744,
+        0.997051
       ],
       "halfLength": 12,
-      "halfWidth": 72.6,
-      "height": 44.271,
+      "halfWidth": 27.51,
+      "height": 48.538,
       "gradient": [
-        -0.15682,
+        -0.02295,
         0
       ],
       "minLift": 0.05,
@@ -94,16 +67,16 @@
     },
     {
       "centre": [
-        117932.34,
-        485022.89
+        117888.59,
+        484943.42
       ],
       "axis": [
-        0.997051,
-        -0.076744
+        -0.076744,
+        -0.997051
       ],
       "halfLength": 12,
-      "halfWidth": 72.6,
-      "height": 46.003,
+      "halfWidth": 27.51,
+      "height": 48.663,
       "gradient": [
         -0.0125,
         0
@@ -191,10 +164,6 @@
           "type": "pijler"
         },
         {
-          "id": "L0002.8335a5c31d6748eda85725bc6122e890",
-          "type": "onbekend"
-        },
-        {
           "id": "L0002.d52ea60360f74913a19f52c387764500",
           "type": "dek"
         }
@@ -228,113 +197,37 @@
         }
       },
       "fis": null,
-      "pdokBridgeVlakken": 20
+      "pdokBridgeVlakken": 19
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,480000,120000,500000 --run nl-5_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map amsterdam-brug-d52ea603 --plaats amsterdam --punt 117895,485026",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
-      "dekLengte": 51,
-      "dekBreedte": 141.2,
-      "brugLengte": 51,
-      "water": null,
-      "portaalhoogte": 127.1,
+      "dekLengte": 141.2,
+      "dekBreedte": 51,
+      "brugLengte": 141.2,
+      "water": [
+        -36.6,
+        -7.1
+      ],
+      "portaalhoogte": 45.9,
       "opritafstand": [
-        10,
-        140
+        20,
+        20
       ],
-      "spoorhoogteBron": "pdok",
       "oprithelling": 24,
-      "doorstekend": [
-        {
-          "gmlId": "L0002.bd72870f13194b5388dcc10c51baeb68",
-          "klasse": "Terrain",
-          "oppervlak": 493.3,
-          "onderDek": 0.68,
-          "bovenDekOnderkant": 2.14,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "L0002.f5db8366a1824c2bbf29b7f490789325",
-          "klasse": "Terrain",
-          "oppervlak": 425.9,
-          "onderDek": 0.73,
-          "bovenDekOnderkant": 2.06,
-          "actie": "verbergen"
-        },
-        {
-          "gmlId": "G0363.7114b6ba868542259a96babb939e6284",
-          "klasse": "Road",
-          "oppervlak": 2016.1,
-          "onderDek": 0.35,
-          "bovenDekOnderkant": 1.55,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "G0363.e5ac8a93556448f99f6c1d0ba5d6d662",
-          "klasse": "Forest",
-          "oppervlak": 20.7,
-          "onderDek": 0.83,
-          "bovenDekOnderkant": 1.47,
-          "actie": "verbergen"
-        },
-        {
-          "gmlId": "G0363.4c1d60025033408ba53686552a484cb7",
-          "klasse": "Forest",
-          "oppervlak": 2,
-          "onderDek": 1,
-          "bovenDekOnderkant": 1.47,
-          "actie": "verbergen"
-        },
-        {
-          "gmlId": "G0363.9b9db0231be3468b81c02e2f05fea8b6",
-          "klasse": "Road",
-          "oppervlak": 506.9,
-          "onderDek": 0.87,
-          "bovenDekOnderkant": 1.36,
-          "actie": "verbergen"
-        },
-        {
-          "gmlId": "G0363.49bc8b923e30439bbb1d76338b270120",
-          "klasse": "Forest",
-          "oppervlak": 13.9,
-          "onderDek": 0.96,
-          "bovenDekOnderkant": 1.35,
-          "actie": "verbergen"
-        },
-        {
-          "gmlId": "G0363.aad6eb54438a4f49bd57cae810c0c554",
-          "klasse": "Terrain",
-          "oppervlak": 174.1,
-          "onderDek": 0.78,
-          "bovenDekOnderkant": 0.54,
-          "actie": "verbergen"
-        },
-        {
-          "gmlId": "G0363.8d20ee6e9cb145edb951c9c7bfb96dac",
-          "klasse": "Terrain",
-          "oppervlak": 261.9,
-          "onderDek": 0.84,
-          "bovenDekOnderkant": 0.21,
-          "actie": "verbergen"
-        }
-      ],
+      "doorstekend": [],
       "opritHoogtes": [
-        42.389,
-        45.853
+        48.262,
+        48.513
       ]
     },
     "waarschuwingen": [
-      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
-      "geen FIS-brug binnen 35 m",
-      "oprit -: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
-      "oprit +: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
-      "oprit + pas op 140 m langs het spoor gemeten (PDOK-spoorterrein bij de brug lager)",
-      "9 PDOK-vorm(en) door het dek: 7 verborgen, 2 verlaagd"
+      "geen FIS-brug binnen 35 m"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

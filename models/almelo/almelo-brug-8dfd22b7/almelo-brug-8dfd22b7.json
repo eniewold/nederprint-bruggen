@@ -1,5 +1,5 @@
 {
-  "name": "almelo-brug-8dfd22b7",
+  "name": "Weezebeeksweg",
   "file": "almelo-brug-8dfd22b7.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -9,18 +9,18 @@
     484362.51
   ],
   "xAxis": [
-    -0.64847,
-    -0.76124
+    -0.76124,
+    0.64847
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 52.29,
+  "groundHeight": 54.497,
   "groundSamplePoints": [
     [
-      -5.48,
+      -20.01,
       0
     ],
     [
-      5.48,
+      20.01,
       0
     ]
   ],
@@ -34,33 +34,33 @@
         484362.51
       ],
       "axis": [
-        -0.64847,
-        -0.76124
+        -0.76124,
+        0.64847
       ],
-      "halfLength": 0.74,
-      "halfWidth": 9.59,
-      "height": 52.232,
+      "halfLength": 4.55,
+      "halfWidth": 1.98,
+      "height": 53.957,
       "gradient": [
         0,
         0
       ],
-      "minLift": -3.55,
+      "minLift": -1.62,
       "maxLift": -0.01
     },
     {
       "centre": [
-        242410.25,
-        484365.93
+        242421.19,
+        484350.72
       ],
       "axis": [
-        0.64847,
-        0.76124
+        0.76124,
+        -0.64847
       ],
-      "halfLength": 3,
-      "halfWidth": 11.09,
-      "height": 52.911,
+      "halfLength": 9.09,
+      "halfWidth": 2.22,
+      "height": 55.107,
       "gradient": [
-        -0.20685,
+        -0.01649,
         0
       ],
       "minLift": 0.05,
@@ -68,18 +68,18 @@
     },
     {
       "centre": [
-        242404.43,
-        484359.1
+        242393.5,
+        484374.31
       ],
       "axis": [
-        -0.64847,
-        -0.76124
+        -0.76124,
+        0.64847
       ],
-      "halfLength": 3,
-      "halfWidth": 11.09,
-      "height": 53.382,
+      "halfLength": 9.09,
+      "halfWidth": 2.22,
+      "height": 54.877,
       "gradient": [
-        -0.05,
+        -0.04176,
         0
       ],
       "minLift": 0.05,
@@ -97,86 +97,81 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/271945378",
+        "tags": {
+          "bridge": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "moped": "designated",
+          "name": "Weezebeeksweg",
+          "oneway": "no",
+          "surface": "asphalt",
+          "traffic_sign": "NL:G12a"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,480000,260000,500000 --run nl-12_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map almelo-brug-8dfd22b7 --plaats almelo --punt 242407,484363",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
-      "dekLengte": 3,
-      "dekBreedte": 18.2,
-      "brugLengte": 3,
+      "dekLengte": 18.2,
+      "dekBreedte": 3,
+      "brugLengte": 18.2,
       "water": null,
-      "portaalhoogte": 16.4,
+      "portaalhoogte": 2.7,
       "opritafstand": [
-        4,
-        4
+        10.9,
+        10.9
       ],
-      "oprithelling": 6,
+      "oprithelling": 18.2,
       "doorstekend": [
-        {
-          "gmlId": "G0141.53e6a0e6498d45eeae2635ab143035de",
-          "klasse": "Forest",
-          "oppervlak": 201.5,
-          "onderDek": 0.04,
-          "bovenDekOnderkant": 2.55,
-          "actie": "verlagen"
-        },
         {
           "gmlId": "G0141.024458e8a4e64d4998c34fc504a5e375",
           "klasse": "Forest",
           "oppervlak": 203,
-          "onderDek": 0.05,
-          "bovenDekOnderkant": 2.49,
+          "onderDek": 0.02,
+          "bovenDekOnderkant": 0.62,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0141.53e6a0e6498d45eeae2635ab143035de",
+          "klasse": "Forest",
+          "oppervlak": 268.6,
+          "onderDek": 0.01,
+          "bovenDekOnderkant": 0.55,
           "actie": "verlagen"
         },
         {
           "gmlId": "G0141.3900dce755f74c8fac071c89d886b4dd",
           "klasse": "Separation",
-          "oppervlak": 21.9,
+          "oppervlak": 25.5,
           "onderDek": 0.04,
-          "bovenDekOnderkant": 2.24,
+          "bovenDekOnderkant": 0.51,
           "actie": "verlagen"
         },
         {
           "gmlId": "G0141.6f377df6c9244de8a9e57ebd47bb2b70",
           "klasse": "Separation",
-          "oppervlak": 22.4,
-          "onderDek": 0.04,
-          "bovenDekOnderkant": 2.22,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "G0141.8d814db28dcf413c9e96643ff0469475",
-          "klasse": "Road",
-          "oppervlak": 266.8,
-          "onderDek": 0.04,
-          "bovenDekOnderkant": 0.67,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "G0141.72d9c70414014c17b5abfc050d3eb2c5",
-          "klasse": "Road",
-          "oppervlak": 164.4,
-          "onderDek": 0.04,
-          "bovenDekOnderkant": 0.27,
+          "oppervlak": 25.8,
+          "onderDek": 0.03,
+          "bovenDekOnderkant": 0.49,
           "actie": "verlagen"
         }
       ],
       "opritHoogtes": [
-        52.29,
-        53.232
+        54.957,
+        54.497
       ]
     },
     "waarschuwingen": [
-      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
-      "6 PDOK-vorm(en) door het dek: 0 verborgen, 6 verlaagd"
+      "4 PDOK-vorm(en) door het dek: 0 verborgen, 4 verlaagd"
     ],
     "gegenereerd": "2026-10-20"
   }

@@ -1,5 +1,5 @@
 {
-  "name": "hilversum-brug-1c6a098f",
+  "name": "Lutrapassage",
   "file": "hilversum-brug-1c6a098f.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -88,14 +88,38 @@
           "type": "landhoofd"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/235756666",
+        "tags": {
+          "bicycle": "no",
+          "bridge": "yes",
+          "bridge:name": "Lutrapassage",
+          "foot": "no",
+          "highway": "primary",
+          "layer": "1",
+          "maxspeed": "80",
+          "mofa": "no",
+          "moped": "no",
+          "name": "Lutrapassage",
+          "oneway": "yes",
+          "operator": "Provincie Noord-Holland",
+          "ref": "N236",
+          "surface": "asphalt",
+          "zone:traffic": "NL:rural",
+          "man_made": "bridge",
+          "material": "concrete",
+          "website": "https://web.archive.org/web/20210827220440/https://www.wijdemeersewebkrant.nl/2014/mrt14/140313-02.php",
+          "wikidata": "Q125790605",
+          "wikimedia_commons": "Category:Lutrapassage"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 3
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,460000,140000,480000 --run nl-6_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map hilversum-brug-1c6a098f --plaats hilversum --punt 135577,476845",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -121,6 +145,6 @@
     "waarschuwingen": [
       "geen FIS-brug binnen 35 m"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

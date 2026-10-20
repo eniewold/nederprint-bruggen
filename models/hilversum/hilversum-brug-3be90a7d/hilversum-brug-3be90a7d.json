@@ -1,5 +1,5 @@
 {
-  "name": "hilversum-brug-3be90a7d",
+  "name": "Erfgooiersbrug",
   "file": "hilversum-brug-3be90a7d.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -13,7 +13,7 @@
     0.909081
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 43.27,
+  "groundHeight": 43.258,
   "groundSamplePoints": [
     [
       -19.94,
@@ -41,9 +41,9 @@
       ],
       "halfLength": 8.87,
       "halfWidth": 2.9,
-      "height": 43.651,
+      "height": 43.645,
       "gradient": [
-        -0.04297,
+        -0.04367,
         0
       ],
       "minLift": 0.05,
@@ -88,14 +88,27 @@
           "type": "landhoofd"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/700588679",
+        "tags": {
+          "bridge": "yes",
+          "bridge:name": "Erfgooiersbrug",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxaxleload": "6.9",
+          "maxspeed": "80",
+          "name": "Erfgooiersbrug",
+          "man_made": "bridge",
+          "survey:date": "2019-06-27"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 3
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,460000,140000,480000 --run nl-6_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map hilversum-brug-3be90a7d --plaats hilversum --punt 137042,476351",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -114,11 +127,11 @@
       "oprithelling": 17.7,
       "doorstekend": [],
       "opritHoogtes": [
-        43.27,
+        43.258,
         43.733
       ]
     },
     "waarschuwingen": [],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

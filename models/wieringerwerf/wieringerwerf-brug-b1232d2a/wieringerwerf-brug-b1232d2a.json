@@ -1,5 +1,5 @@
 {
-  "name": "wieringerwerf-brug-b1232d2a",
+  "name": "Terppad",
   "file": "wieringerwerf-brug-b1232d2a.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -13,7 +13,7 @@
     -0.996252
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 37.801,
+  "groundHeight": 37.779,
   "groundSamplePoints": [
     [
       -25.62,
@@ -39,9 +39,9 @@
       ],
       "halfLength": 11.65,
       "halfWidth": 1.82,
-      "height": 38.003,
+      "height": 37.992,
       "gradient": [
-        -0.01738,
+        -0.01829,
         0
       ],
       "minLift": 0.05,
@@ -78,14 +78,28 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/172991808",
+        "tags": {
+          "bridge": "yes",
+          "emergency": "no",
+          "highway": "cycleway",
+          "layer": "1",
+          "lit": "yes",
+          "maxweight": "1",
+          "name": "Terppad",
+          "smoothness": "excellent",
+          "surface": "asphalt",
+          "wikidata": "Q19565448"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,540000,140000,560000 --run nl-6_12 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map wieringerwerf-brug-b1232d2a --plaats wieringerwerf --punt 130643,540266",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -104,7 +118,7 @@
       "oprithelling": 23.3,
       "doorstekend": [],
       "opritHoogtes": [
-        37.801,
+        37.779,
         37.905
       ]
     },

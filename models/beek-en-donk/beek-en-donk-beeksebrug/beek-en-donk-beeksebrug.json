@@ -103,20 +103,43 @@
           "type": "pyloon"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/692856081",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "movable",
+          "bridge:movable": "bascule",
+          "bridge:name": "Beeksebrug",
+          "foot": "use_sidepath",
+          "highway": "secondary",
+          "lanes": "2",
+          "layer": "1",
+          "maxspeed": "60",
+          "maxweight:signed": "no",
+          "mofa": "use_sidepath",
+          "moped": "use_sidepath",
+          "name": "Beeksebrug",
+          "operator": "Provincie Noord-Brabant",
+          "ref": "N615",
+          "surface": "asphalt",
+          "zone:traffic": "NL:rural",
+          "man_made": "bridge",
+          "wikidata": "Q130709798"
+        }
+      },
       "fis": {
         "id": 31533,
         "naam": "Beeksebrug",
-        "afstand": 1,
+        "afstand": 0,
         "beweegbaar": true,
         "doorvaarthoogteGesloten": 0.5
       },
       "pdokBridgeVlakken": 4
     },
-    "type": "ophaalbrug",
+    "type": "basculebrug",
     "doorvaarthoogte": 0.5,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,380000,180000,400000 --run nl-8_4 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map beek-en-donk-beeksebrug --plaats beek-en-donk --punt 172696,393403",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

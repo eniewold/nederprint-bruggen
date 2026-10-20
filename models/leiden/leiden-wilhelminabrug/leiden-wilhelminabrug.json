@@ -161,27 +161,20 @@
       "osm": {
         "id": "way/1068845904",
         "tags": {
-          "access:conditional": "no @ (2022 Aug 27-2022 Aug 28)",
-          "bicycle": "use_sidepath",
           "bridge": "movable",
           "bridge:name": "Wilhelminabrug",
-          "check_date": "2025-08-30",
-          "check_date:lit": "2025-08-30",
-          "foot": "use_sidepath",
-          "highway": "secondary",
-          "lanes": "3",
-          "lanes:backward": "2",
-          "lanes:forward": "1",
+          "highway": "cycleway",
           "layer": "1",
           "lit": "yes",
-          "maxspeed": "50",
-          "mofa": "use_sidepath",
-          "moped": "use_sidepath",
+          "mofa": "designated",
+          "moped": "designated",
           "name": "Wilhelminabrug",
-          "surface": "asphalt",
-          "turn:lanes:forward": "left|through",
-          "man_made": "bridge",
           "note": "Wilhelminabrug meerdere maanden gesloten, bewegend brugdek is verwijderd, LAW/RWN omgeleid in veld, RCN niet",
+          "sidewalk": "right",
+          "smoothness": "good",
+          "surface": "asphalt",
+          "traffic_sign": "NL:G12a",
+          "man_made": "bridge",
           "wikidata": "Q2108788",
           "wikimedia_commons": "Category:Wilhelminabrug (Leiden)",
           "wikipedia": "nl:Wilhelminabrug (Leiden)"
@@ -190,7 +183,7 @@
       "fis": {
         "id": 26463,
         "naam": "Wilhelminabrug Leiden",
-        "afstand": 7,
+        "afstand": 5,
         "beweegbaar": true,
         "doorvaarthoogteGesloten": 2.51
       },
@@ -203,7 +196,7 @@
       "naam": "Wilhelminabrug",
       "hameizijde": "+"
     },
-    "opdracht": "node scripts/bridges/genereer.mjs --map wilhelminabrug --lonlat 4.5138933,52.1548073 --naam Wilhelminabrug --type ophaalbrug --hameizijde +",
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 90100,459364,95921,466645 --run leiden-2026-10-20 --overschrijf 1 --parallel 5",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -214,7 +207,7 @@
         -8.6,
         13.9
       ],
-      "portaalhoogte": 17.9,
+      "portaalhoogte": 15.6,
       "opritafstand": [
         20,
         20
@@ -227,6 +220,6 @@
       ]
     },
     "waarschuwingen": [],
-    "gegenereerd": "2026-10-17"
+    "gegenereerd": "2026-10-20"
   }
 }

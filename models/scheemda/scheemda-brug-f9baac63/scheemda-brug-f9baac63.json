@@ -1,5 +1,5 @@
 {
-  "name": "scheemda-brug-f9baac63",
+  "name": "Scheemderzwaag",
   "file": "scheemda-brug-f9baac63.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -112,14 +112,28 @@
           "type": "landhoofd"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/6381271",
+        "tags": {
+          "bridge": "yes",
+          "check_date:cycleway": "2026-07-07",
+          "cycleway:both": "no",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "80",
+          "maxweight:signed": "no",
+          "name": "Scheemderzwaag",
+          "smoothness": "good",
+          "surface": "asphalt"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 4
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,560000,260000,580000 --run nl-12_13 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map scheemda-brug-f9baac63 --plaats scheemda --punt 259111,578890",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

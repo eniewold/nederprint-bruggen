@@ -1,5 +1,5 @@
 {
-  "name": "Oranjebrug IJsselstein",
+  "name": "Oranjebrug",
   "file": "ijsselstein-oranjebrug-ijsselstein.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,20 +78,33 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/706255930",
+        "tags": {
+          "bridge": "movable",
+          "bridge:movable": "bascule",
+          "cycleway": "shared_lane",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Oranjebrug",
+          "source:maxspeed": "NL:zone30",
+          "man_made": "bridge"
+        }
+      },
       "fis": {
         "id": 27449,
         "naam": "Oranjebrug IJsselstein",
-        "afstand": 2,
+        "afstand": 1,
         "beweegbaar": true,
         "doorvaarthoogteGesloten": 1.9500000000000002
       },
       "pdokBridgeVlakken": 1
     },
-    "type": "ophaalbrug",
+    "type": "basculebrug",
     "doorvaarthoogte": 1.9500000000000002,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,440000,140000,460000 --run nl-6_7 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map ijsselstein-oranjebrug-ijsselstein --plaats ijsselstein --punt 131465,448395",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -118,6 +131,6 @@
       "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

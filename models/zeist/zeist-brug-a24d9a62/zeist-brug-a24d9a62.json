@@ -1,5 +1,5 @@
 {
-  "name": "zeist-brug-a24d9a62",
+  "name": "Kampweg",
   "file": "zeist-brug-a24d9a62.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -83,14 +83,30 @@
           "type": "landhoofd"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/975053872",
+        "tags": {
+          "bridge": "yes",
+          "bridge:name": "Zeisterspoor",
+          "cycleway": "shared_lane",
+          "foot": "no",
+          "highway": "tertiary",
+          "lane_markings": "no",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Kampweg",
+          "surface": "asphalt",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 2
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,440000,160000,460000 --run nl-7_7 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map zeist-brug-a24d9a62 --plaats zeist --punt 148405,458352",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -113,6 +129,6 @@
     "waarschuwingen": [
       "geen FIS-brug binnen 35 m"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

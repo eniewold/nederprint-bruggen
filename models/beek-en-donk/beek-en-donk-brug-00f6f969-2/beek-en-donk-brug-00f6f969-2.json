@@ -1,5 +1,5 @@
 {
-  "name": "beek-en-donk-brug-00f6f969-2",
+  "name": "Broekdalerbaan",
   "file": "beek-en-donk-brug-00f6f969-2.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -46,7 +46,7 @@
         0,
         0
       ],
-      "minLift": -1.43,
+      "minLift": -1.4,
       "maxLift": -0.01
     },
     {
@@ -107,14 +107,43 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1167854639",
+        "tags": {
+          "agricultural": "no",
+          "bicycle": "no",
+          "bridge": "yes",
+          "carriage": "no",
+          "disabled_vehicle": "no",
+          "foot": "no",
+          "hand_cart": "no",
+          "highway": "primary",
+          "horse": "no",
+          "lanes": "2",
+          "layer": "1",
+          "maxspeed": "80",
+          "microcar": "no",
+          "mofa": "no",
+          "moped": "no",
+          "name": "Broekdalerbaan",
+          "oneway": "no",
+          "operator": "Provincie Noord-Brabant",
+          "ref": "N279",
+          "surface": "asphalt",
+          "toll:hgv": "yes",
+          "traffic_sign": "NL:C9",
+          "zone:traffic": "NL:rural",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 3
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,380000,180000,400000 --run nl-8_4 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map beek-en-donk-brug-00f6f969-2 --plaats beek-en-donk --punt 173053,395228",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -135,9 +164,9 @@
         {
           "gmlId": "W0654.50470a7ece2e445483444c45e37aa7ed",
           "klasse": "Terrain",
-          "oppervlak": 1903,
+          "oppervlak": 634.7,
           "onderDek": 0.05,
-          "bovenDekOnderkant": 0.43,
+          "bovenDekOnderkant": 0.4,
           "actie": "verlagen"
         }
       ],

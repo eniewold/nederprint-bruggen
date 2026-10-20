@@ -1,5 +1,5 @@
 {
-  "name": "Vischpoortbrug Harderwijk",
+  "name": "Vischpoortbrug",
   "file": "harderwijk-vischpoortbrug-harderwijk.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,20 +78,32 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/832949955",
+        "tags": {
+          "bridge": "movable",
+          "bridge:movable": "bascule",
+          "highway": "pedestrian",
+          "layer": "1",
+          "motor_vehicle": "no",
+          "name": "Vischpoortbrug",
+          "man_made": "bridge",
+          "source:name": "BAG/BGT"
+        }
+      },
       "fis": {
         "id": 33161301,
         "naam": "Vischpoortbrug Harderwijk",
-        "afstand": 0,
+        "afstand": 1,
         "beweegbaar": true,
         "doorvaarthoogteGesloten": 2.1
       },
       "pdokBridgeVlakken": 1
     },
-    "type": "ophaalbrug",
+    "type": "basculebrug",
     "doorvaarthoogte": 2.1,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,480000,180000,500000 --run nl-8_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map harderwijk-vischpoortbrug-harderwijk --plaats harderwijk --punt 170723,484922",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -117,6 +129,6 @@
     "waarschuwingen": [
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

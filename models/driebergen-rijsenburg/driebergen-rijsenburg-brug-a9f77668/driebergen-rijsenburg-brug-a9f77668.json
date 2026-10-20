@@ -1,5 +1,5 @@
 {
-  "name": "driebergen-rijsenburg-brug-a9f77668",
+  "name": "Engweg",
   "file": "driebergen-rijsenburg-brug-a9f77668.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -60,7 +60,7 @@
       "halfWidth": 3.6,
       "height": 48.374,
       "gradient": [
-        -0.04714,
+        -0.04718,
         0
       ],
       "minLift": 0.05,
@@ -97,14 +97,23 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/104124620",
+        "tags": {
+          "access": "private",
+          "bridge": "yes",
+          "highway": "service",
+          "layer": "1",
+          "name": "Engweg"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ophaalbrug",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,440000,160000,460000 --run nl-7_7 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map driebergen-rijsenburg-brug-a9f77668 --plaats driebergen-rijsenburg --punt 147685,450915",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -141,6 +150,6 @@
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
       "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

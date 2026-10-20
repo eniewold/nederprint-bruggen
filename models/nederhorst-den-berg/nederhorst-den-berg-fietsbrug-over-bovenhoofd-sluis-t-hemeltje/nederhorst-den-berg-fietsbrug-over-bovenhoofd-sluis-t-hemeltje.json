@@ -1,5 +1,5 @@
 {
-  "name": "Fietsbrug over bovenhoofd sluis 't Hemeltje",
+  "name": "'t Hemeltje",
   "file": "nederhorst-den-berg-fietsbrug-over-bovenhoofd-sluis-t-hemeltje.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -99,11 +99,26 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/769053490",
+        "tags": {
+          "bicycle": "no",
+          "bridge": "yes",
+          "highway": "secondary",
+          "layer": "1",
+          "maxspeed": "30",
+          "mofa": "no",
+          "moped": "no",
+          "name": "'t Hemeltje",
+          "operator": "Provincie Noord-Holland",
+          "ref": "N523",
+          "man_made": "bridge"
+        }
+      },
       "fis": {
         "id": 24892,
         "naam": "Fietsbrug over bovenhoofd sluis 't Hemeltje",
-        "afstand": 1,
+        "afstand": 4,
         "beweegbaar": true,
         "doorvaarthoogteGesloten": 1
       },
@@ -112,7 +127,7 @@
     "type": "ophaalbrug",
     "doorvaarthoogte": 1,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,460000,140000,480000 --run nl-6_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map nederhorst-den-berg-fietsbrug-over-bovenhoofd-sluis-t-hemeltje --plaats nederhorst-den-berg --punt 131804,472902",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -138,6 +153,6 @@
     "waarschuwingen": [
       "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

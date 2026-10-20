@@ -1,5 +1,5 @@
 {
-  "name": "onstwedde-brug-34662302",
+  "name": "Kampweg",
   "file": "onstwedde-brug-34662302.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -103,14 +103,29 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/6369904",
+        "tags": {
+          "bicycle": "no",
+          "bridge": "yes",
+          "foot": "no",
+          "highway": "primary",
+          "layer": "1",
+          "maxspeed": "80",
+          "mofa": "no",
+          "moped": "no",
+          "name": "Kampweg",
+          "operator": "Provincie Groningen",
+          "ref": "N365"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 2
     },
     "type": "ophaalbrug",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 260000,560000,280000,580000 --run nl-13_13 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map onstwedde-brug-34662302 --plaats onstwedde --punt 267727,560981",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -121,7 +136,7 @@
         -7.8,
         7.7
       ],
-      "portaalhoogte": 15.9,
+      "portaalhoogte": 15.1,
       "opritafstand": [
         19,
         19

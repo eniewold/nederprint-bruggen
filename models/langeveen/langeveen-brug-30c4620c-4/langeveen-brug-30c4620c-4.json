@@ -1,5 +1,5 @@
 {
-  "name": "langeveen-brug-30c4620c-4",
+  "name": "Haarakkersweg",
   "file": "langeveen-brug-30c4620c-4.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,27 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/55581184",
+        "tags": {
+          "bridge": "yes",
+          "highway": "unclassified",
+          "lanes": "1",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Haarakkersweg",
+          "sidewalk": "no",
+          "smoothness": "good",
+          "surface": "concrete"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,480000,260000,500000 --run nl-12_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map langeveen-brug-30c4620c-4 --plaats langeveen --punt 246006,496458",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

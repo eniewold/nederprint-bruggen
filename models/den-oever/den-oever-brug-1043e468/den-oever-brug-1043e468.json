@@ -1,5 +1,5 @@
 {
-  "name": "den-oever-brug-1043e468",
+  "name": "Rijksweg",
   "file": "den-oever-brug-1043e468.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -13,7 +13,7 @@
     -0.958077
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 49.233,
+  "groundHeight": 49.232,
   "groundSamplePoints": [
     [
       -34.15,
@@ -41,9 +41,9 @@
       ],
       "halfLength": 12,
       "halfWidth": 9.45,
-      "height": 49.388,
+      "height": 49.382,
       "gradient": [
-        -0.0125,
+        -0.01254,
         0
       ],
       "minLift": 0.05,
@@ -60,9 +60,9 @@
       ],
       "halfLength": 12,
       "halfWidth": 9.45,
-      "height": 49.385,
+      "height": 49.383,
       "gradient": [
-        -0.01273,
+        -0.0125,
         0
       ],
       "minLift": 0.05,
@@ -88,14 +88,38 @@
           "type": "landhoofd"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1089059326",
+        "tags": {
+          "bridge": "yes",
+          "carriageway_ref": "Li",
+          "destination": "Amsterdam;Hoorn",
+          "highway": "motorway",
+          "int_ref": "E 22",
+          "lanes": "2",
+          "layer": "1",
+          "lit": "no",
+          "maxspeed": "100",
+          "maxspeed:conditional": "130 @ (19:00-06:00)",
+          "maxspeed:type": "sign",
+          "maxspeed:type:conditional": "NL:motorway @ (19:00-06:00)",
+          "name": "Rijksweg",
+          "oneway": "yes",
+          "operator": "Rijkswaterstaat",
+          "ref": "A7",
+          "surface": "asphalt",
+          "toll:hgv": "yes",
+          "zone:traffic": "NL:rural",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 3
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,540000,140000,560000 --run nl-6_12 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map den-oever-brug-1043e468 --plaats den-oever --punt 131322,549164",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -111,7 +135,7 @@
       "oprithelling": 24,
       "doorstekend": [],
       "opritHoogtes": [
-        49.238,
+        49.232,
         49.233
       ]
     },

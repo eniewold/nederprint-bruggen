@@ -1,5 +1,5 @@
 {
-  "name": "zuidbroek-brug-852ac2f7",
+  "name": "Spoorstraat",
   "file": "zuidbroek-brug-852ac2f7.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -88,14 +88,29 @@
           "type": "landhoofd"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/6382114",
+        "tags": {
+          "bridge": "movable",
+          "bridge:movable": "bascule",
+          "highway": "tertiary",
+          "lane_markings": "no",
+          "layer": "1",
+          "maxspeed": "30",
+          "maxweight:signed": "no",
+          "name": "Spoorstraat",
+          "sidewalk": "both",
+          "smoothness": "good",
+          "surface": "asphalt"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 3
     },
-    "type": "ophaalbrug",
+    "type": "basculebrug",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,560000,260000,580000 --run nl-12_13 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map zuidbroek-brug-852ac2f7 --plaats zuidbroek --punt 253700,576052",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

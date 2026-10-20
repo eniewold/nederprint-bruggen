@@ -1,5 +1,5 @@
 {
-  "name": "hengelo-brug-a5fbe9dd",
+  "name": "Kamphorst",
   "file": "hengelo-brug-a5fbe9dd.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -46,9 +46,9 @@
       ],
       "halfLength": 12,
       "halfWidth": 20.83,
-      "height": 65.674,
+      "height": 65.673,
       "gradient": [
-        -0.06981,
+        -0.06977,
         0
       ],
       "minLift": 0.05,
@@ -65,7 +65,7 @@
       ],
       "halfLength": 12,
       "halfWidth": 20.83,
-      "height": 66.362,
+      "height": 66.361,
       "gradient": [
         -0.0125,
         0
@@ -114,14 +114,32 @@
           "type": "pijler"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/6672608",
+        "tags": {
+          "bridge": "yes",
+          "bridge:name": "Kamphorst",
+          "carriageway_ref": "Li",
+          "highway": "motorway",
+          "lanes": "2",
+          "layer": "1",
+          "lit": "no",
+          "maxspeed": "100",
+          "maxspeed:conditional": "130 @ (19:00-06:00)",
+          "oneway": "yes",
+          "operator": "Rijkswaterstaat",
+          "ref": "A35",
+          "surface": "asphalt",
+          "toll:hgv": "yes"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 8
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,460000,260000,480000 --run nl-12_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map hengelo-brug-a5fbe9dd --plaats hengelo --punt 248077,476177",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -138,7 +156,7 @@
       "doorstekend": [],
       "opritHoogtes": [
         64.836,
-        66.212
+        66.211
       ]
     },
     "waarschuwingen": [

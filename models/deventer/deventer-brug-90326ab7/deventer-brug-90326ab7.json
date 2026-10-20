@@ -9,78 +9,35 @@
     473275.57
   ],
   "xAxis": [
-    0.985278,
-    -0.170961
+    -0.170961,
+    -0.985278
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 46.569,
+  "groundHeight": 49.933,
   "groundSamplePoints": [
     [
-      -4.77,
-      0
-    ],
-    [
-      4.77,
+      22.82,
       0
     ]
   ],
   "replacesTerrain": [
-    "G0150.90326ab7da834543b6403736ad3064f8",
-    "G0150.b83e0db965c94c6eb622597017b689de"
+    "G0150.90326ab7da834543b6403736ad3064f8"
   ],
   "terrainCorrections": [
     {
       "centre": [
-        208198.64,
-        473275.57
+        208195.1,
+        473255.13
       ],
       "axis": [
-        0.985278,
-        -0.170961
+        -0.170961,
+        -0.985278
       ],
-      "halfLength": 0.38,
-      "halfWidth": 10.87,
-      "height": 45.604,
+      "halfLength": 10.37,
+      "halfWidth": 1.15,
+      "height": 50.083,
       "gradient": [
-        0,
-        0
-      ],
-      "minLift": -5.98,
-      "maxLift": -0.01
-    },
-    {
-      "centre": [
-        208194.93,
-        473276.21
-      ],
-      "axis": [
-        -0.985278,
-        0.170961
-      ],
-      "halfLength": 3,
-      "halfWidth": 12.37,
-      "height": 46.754,
-      "gradient": [
-        -0.05,
-        0
-      ],
-      "minLift": 0.05,
-      "maxLift": 4
-    },
-    {
-      "centre": [
-        208202.35,
-        473274.92
-      ],
-      "axis": [
-        0.985278,
-        -0.170961
-      ],
-      "halfLength": 3,
-      "halfWidth": 12.37,
-      "height": 46.737,
-      "gradient": [
-        -0.05584,
+        -0.01446,
         0
       ],
       "minLift": 0.05,
@@ -105,64 +62,34 @@
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 200000,460000,220000,480000 --run nl-10_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map deventer-brug-90326ab7 --plaats deventer --punt 208199,473276",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
-      "dekLengte": 1.5,
-      "dekBreedte": 20.7,
-      "brugLengte": 1.5,
-      "water": null,
-      "portaalhoogte": 18.7,
+      "dekLengte": 20.7,
+      "dekBreedte": 1.5,
+      "brugLengte": 20.7,
+      "water": [
+        -10.4,
+        -1.9
+      ],
+      "portaalhoogte": 2.5,
       "opritafstand": [
-        4,
-        4
+        37.3,
+        12.4
       ],
-      "oprithelling": 6,
-      "doorstekend": [
-        {
-          "gmlId": "G0150.b83e0db965c94c6eb622597017b689de",
-          "klasse": "Forest",
-          "oppervlak": 1.4,
-          "onderDek": 1,
-          "bovenDekOnderkant": 5.25,
-          "actie": "verbergen"
-        },
-        {
-          "gmlId": "G0150.9cd31af37f054abe859de3955f0128f3",
-          "klasse": "Forest",
-          "oppervlak": 19,
-          "onderDek": 0.03,
-          "bovenDekOnderkant": 4.98,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "G0150.43fbe740d8014281acc1e48b4aefb208",
-          "klasse": "Forest",
-          "oppervlak": 978,
-          "onderDek": 0.01,
-          "bovenDekOnderkant": 4.09,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "G0150.43d79ae0c04645f78eac2e4269f753a6",
-          "klasse": "Terrain",
-          "oppervlak": 217.7,
-          "onderDek": 0,
-          "bovenDekOnderkant": 0.79,
-          "actie": "verlagen"
-        }
-      ],
+      "oprithelling": 20.7,
+      "doorstekend": [],
       "opritHoogtes": [
-        46.604,
-        46.569
+        null,
+        49.933
       ]
     },
     "waarschuwingen": [
-      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
-      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
-      "4 PDOK-vorm(en) door het dek: 1 verborgen, 3 verlaagd"
+      "geen FIS-brug binnen 35 m",
+      "oprit - zonder PDOK-maaiveld",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "name": "heino-brug-ba0c28c4",
+  "name": "Molenweg",
   "file": "heino-brug-ba0c28c4.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -13,7 +13,7 @@
     0.527465
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 45.858,
+  "groundHeight": 45.831,
   "groundSamplePoints": [
     [
       -19.95,
@@ -58,9 +58,9 @@
       ],
       "halfLength": 9.07,
       "halfWidth": 4.93,
-      "height": 46.211,
+      "height": 46.197,
       "gradient": [
-        -0.03893,
+        -0.04041,
         0
       ],
       "minLift": 0.05,
@@ -78,14 +78,29 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/204736533",
+        "tags": {
+          "bridge": "yes",
+          "cycleway": "lane",
+          "highway": "tertiary",
+          "lanes": "1",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "60",
+          "name": "Molenweg",
+          "sidewalk": "no",
+          "smoothness": "good",
+          "surface": "asphalt"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 200000,480000,220000,500000 --run nl-10_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map heino-brug-ba0c28c4 --plaats heino --punt 210481,494906",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -105,12 +120,12 @@
       "doorstekend": [],
       "opritHoogtes": [
         46.264,
-        45.858
+        45.831
       ]
     },
     "waarschuwingen": [
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

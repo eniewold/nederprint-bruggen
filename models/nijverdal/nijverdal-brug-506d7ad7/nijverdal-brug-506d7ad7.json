@@ -1,5 +1,5 @@
 {
-  "name": "nijverdal-brug-506d7ad7",
+  "name": "Eversberg",
   "file": "nijverdal-brug-506d7ad7.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -9,8 +9,8 @@
     486956.64
   ],
   "xAxis": [
-    0.995308,
-    -0.096753
+    -0.995293,
+    0.096907
   ],
   "groundOffsetMetres": 0,
   "groundHeight": 53.162,
@@ -36,18 +36,18 @@
   "terrainCorrections": [
     {
       "centre": [
-        229235.52,
-        486959.56
+        229295.69,
+        486953.71
       ],
       "axis": [
-        -0.995308,
-        0.096753
+        0.995293,
+        -0.096907
       ],
       "halfLength": 12,
       "halfWidth": 5.6,
-      "height": 53.164,
+      "height": 53.166,
       "gradient": [
-        -0.00015,
+        0,
         0
       ],
       "minLift": 0.05,
@@ -55,18 +55,18 @@
     },
     {
       "centre": [
-        229295.69,
-        486953.71
+        229235.52,
+        486959.57
       ],
       "axis": [
-        0.995308,
-        -0.096753
+        -0.995293,
+        0.096907
       ],
       "halfLength": 12,
       "halfWidth": 5.6,
-      "height": 53.166,
+      "height": 53.164,
       "gradient": [
-        0,
+        -0.00015,
         0
       ],
       "minLift": 0.05,
@@ -108,14 +108,44 @@
           "type": "pijler"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1281818202",
+        "tags": {
+          "bridge": "viaduct",
+          "bridge:name": "Eversberg",
+          "description": "Zwolle - Wierden",
+          "electrified": "contact_line",
+          "frequency": "0",
+          "gauge": "1435",
+          "layer": "1",
+          "maxspeed": "140",
+          "note": "Start Electrical test trains 16-8-2017",
+          "operator": "ProRail",
+          "passenger_lines": "1",
+          "railway": "rail",
+          "railway:atb": "yes",
+          "railway:atb-ng": "yes",
+          "railway:etcs": "no",
+          "railway:maximum_current": "4000",
+          "railway:track_class": "C2",
+          "railway:traffic_mode": "passenger",
+          "ref": "206",
+          "ref:ProRailSpoortak": "605_1AV_33.4",
+          "source": "ProRail",
+          "source:date": "2013-07-10",
+          "usage": "branch",
+          "voltage": "1500",
+          "man_made": "bridge",
+          "name": "Eversberg"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 7
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,480000,240000,500000 --run nl-11_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map nijverdal-brug-506d7ad7 --plaats nijverdal --punt 229266,486957",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -135,8 +165,8 @@
       "oprithelling": 24,
       "doorstekend": [],
       "opritHoogtes": [
-        53.162,
-        53.166
+        53.166,
+        53.162
       ]
     },
     "waarschuwingen": [

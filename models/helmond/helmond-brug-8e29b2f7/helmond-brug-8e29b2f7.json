@@ -9,8 +9,8 @@
     386882.66
   ],
   "xAxis": [
-    0.96415,
-    -0.265358
+    -0.964225,
+    0.265086
   ],
   "groundOffsetMetres": 0,
   "groundHeight": 66.212,
@@ -32,18 +32,18 @@
   "terrainCorrections": [
     {
       "centre": [
-        176830.15,
-        386886.48
+        176857.93,
+        386878.84
       ],
       "axis": [
-        -0.96415,
-        0.265358
+        0.964225,
+        -0.265086
       ],
       "halfLength": 7.2,
       "halfWidth": 10.12,
-      "height": 66.212,
+      "height": 66.213,
       "gradient": [
-        -0.00007,
+        0,
         0
       ],
       "minLift": 0.05,
@@ -51,18 +51,18 @@
     },
     {
       "centre": [
-        176857.93,
-        386878.83
+        176830.15,
+        386886.48
       ],
       "axis": [
-        0.96415,
-        -0.265358
+        -0.964225,
+        0.265086
       ],
       "halfLength": 7.2,
       "halfWidth": 10.12,
-      "height": 66.213,
+      "height": 66.212,
       "gradient": [
-        0,
+        -0.00007,
         0
       ],
       "minLift": 0.05,
@@ -88,14 +88,42 @@
           "type": "landhoofd"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/546866699",
+        "tags": {
+          "axle_load": "22.5",
+          "bridge": "yes",
+          "description": "Blerick - Eindhoven",
+          "electrified": "contact_line",
+          "frequency": "0",
+          "gauge": "1435",
+          "layer": "1",
+          "loading_gauge": "TSI_GB",
+          "maxspeed": "160",
+          "operator": "ProRail",
+          "passenger_lines": "2",
+          "railway": "rail",
+          "railway:atb": "yes",
+          "railway:maximum_current": "4000",
+          "railway:track_class": "D4",
+          "railway:traffic_mode": "mixed",
+          "ref": "055",
+          "ref:ProRailID": "2888895.0",
+          "ref:ProRailSpoortak": "055_413BV_29.6",
+          "source": "ProRail",
+          "source:date": "2014-01-03",
+          "usage": "main",
+          "voltage": "1500",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 3
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,380000,180000,400000 --run nl-8_4 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map helmond-brug-8e29b2f7 --plaats helmond --punt 176844,386883",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -112,8 +140,8 @@
       "oprithelling": 14.4,
       "doorstekend": [],
       "opritHoogtes": [
-        66.212,
-        66.213
+        66.213,
+        66.212
       ]
     },
     "waarschuwingen": [],

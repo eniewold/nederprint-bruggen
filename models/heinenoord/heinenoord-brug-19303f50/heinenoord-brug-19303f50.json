@@ -1,5 +1,5 @@
 {
-  "name": "heinenoord-brug-19303f50",
+  "name": "Reedijk",
   "file": "heinenoord-brug-19303f50.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -103,14 +103,36 @@
           "type": "landhoofd"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/422416007",
+        "tags": {
+          "agricultural": "no",
+          "bicycle": "no",
+          "bridge": "yes",
+          "highway": "primary",
+          "lanes": "1",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "50",
+          "name": "Reedijk",
+          "oneway": "yes",
+          "operator": "Provincie Zuid-Holland",
+          "ref": "N217",
+          "surface": "asphalt",
+          "width": "3.5",
+          "area": "yes",
+          "bridge:structure": "beam",
+          "man_made": "bridge",
+          "source:name": "local knowledge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 6
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,420000,100000,440000 --run nl-4_6 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map heinenoord-brug-19303f50 --plaats heinenoord --punt 93168,425768",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

@@ -1,5 +1,5 @@
 {
-  "name": "Brug in de A7 Den Oever (b)",
+  "name": "Afsluitdijk",
   "file": "den-oever-brug-in-de-a7-den-oever-b.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -113,20 +113,54 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/601350616",
+        "tags": {
+          "bridge": "movable",
+          "bridge:movable": "swing",
+          "carriageway_ref": "Re",
+          "highway": "motorway",
+          "int_ref": "E 22",
+          "lanes": "2",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "50",
+          "maxspeed:type": "sign",
+          "maxwidth": "3",
+          "name": "Afsluitdijk",
+          "name:af": "Afsluitdyk",
+          "name:de": "Abschlussdeich",
+          "name:eo": "Fermdigo",
+          "name:fy": "Ofslútdyk",
+          "name:lb": "Ofschlossdäich",
+          "name:lt": "Afleitdeikas",
+          "name:nds": "Afslussdiek",
+          "name:nds-nl": "Ofsluutdiek",
+          "name:nl": "Afsluitdijk",
+          "name:vls": "Ofsluutdyk",
+          "oneway": "yes",
+          "operator": "Rijkswaterstaat",
+          "ref": "A7",
+          "surface": "asphalt",
+          "toll:hgv": "yes",
+          "zone:traffic": "NL:rural",
+          "man_made": "bridge",
+          "bridge:structure": "beam"
+        }
+      },
       "fis": {
         "id": 56358,
         "naam": "Brug in de A7 Den Oever (b)",
-        "afstand": 3,
+        "afstand": 8,
         "beweegbaar": true,
         "doorvaarthoogteGesloten": 1.4
       },
       "pdokBridgeVlakken": 8
     },
-    "type": "ophaalbrug",
+    "type": "draaibrug",
     "doorvaarthoogte": 1.4,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,540000,140000,560000 --run nl-6_12 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map den-oever-brug-in-de-a7-den-oever-b --plaats den-oever --punt 131792,549728",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

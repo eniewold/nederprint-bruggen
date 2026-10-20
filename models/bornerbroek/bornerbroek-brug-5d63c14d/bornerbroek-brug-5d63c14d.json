@@ -1,5 +1,5 @@
 {
-  "name": "bornerbroek-brug-5d63c14d",
+  "name": "Bolscher Landen",
   "file": "bornerbroek-brug-5d63c14d.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -88,14 +88,26 @@
           "type": "landhoofd"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/140560908",
+        "tags": {
+          "bridge": "yes",
+          "highway": "service",
+          "layer": "1",
+          "maxspeed": "60",
+          "maxweight:signed": "no",
+          "name": "Bolscher Landen",
+          "service": "alley",
+          "surface": "asphalt"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 3
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,480000,260000,500000 --run nl-12_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map bornerbroek-brug-5d63c14d --plaats bornerbroek --punt 242330,481610",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

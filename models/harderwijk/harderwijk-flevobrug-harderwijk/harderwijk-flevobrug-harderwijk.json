@@ -1,5 +1,5 @@
 {
-  "name": "Flevobrug Harderwijk",
+  "name": "Flevobrug",
   "file": "harderwijk-flevobrug-harderwijk.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -93,7 +93,21 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/810243392",
+        "tags": {
+          "bridge": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "mofa": "yes",
+          "moped": "no",
+          "name": "Flevobrug",
+          "oneway": "no",
+          "traffic_sign": "NL:G11",
+          "zone:traffic": "NL:urban",
+          "man_made": "bridge"
+        }
+      },
       "fis": {
         "id": 30055341,
         "naam": "Flevobrug Harderwijk",
@@ -106,7 +120,7 @@
     "type": "ophaalbrug",
     "doorvaarthoogte": 1.3,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,480000,180000,500000 --run nl-8_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map harderwijk-flevobrug-harderwijk --plaats harderwijk --punt 171033,485317",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -117,7 +131,7 @@
         -6.4,
         6.6
       ],
-      "portaalhoogte": 5.6,
+      "portaalhoogte": 5.3,
       "opritafstand": [
         8.9,
         8.9
@@ -130,6 +144,6 @@
       ]
     },
     "waarschuwingen": [],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

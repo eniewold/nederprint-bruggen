@@ -1,5 +1,5 @@
 {
-  "name": "hem-brug-85f9ef56",
+  "name": "Voormalige Zuiderkogge-tramlijn 1913-1935",
   "file": "hem-brug-85f9ef56.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,26 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1214927100",
+        "tags": {
+          "access": "private",
+          "bridge": "yes",
+          "highway": "track",
+          "layer": "1",
+          "surface": "concrete",
+          "tracktype": "grade1",
+          "man_made": "bridge",
+          "name": "Voormalige Zuiderkogge-tramlijn 1913-1935"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,500000,160000,520000 --run nl-7_10 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map hem-brug-85f9ef56 --plaats hem --punt 141521,519025",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -111,6 +123,6 @@
     "waarschuwingen": [
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

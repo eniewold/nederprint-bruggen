@@ -1,5 +1,5 @@
 {
-  "name": "hellendoorn-brug-2b418632-7",
+  "name": "Zuidelijke Kanaaldijk",
   "file": "hellendoorn-brug-2b418632-7.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -102,14 +102,25 @@
           "type": "pijler"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/58629577",
+        "tags": {
+          "bridge": "yes",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Zuidelijke Kanaaldijk",
+          "source:maxspeed": "NL:zone60",
+          "surface": "asphalt"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 2
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,480000,240000,500000 --run nl-11_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map hellendoorn-brug-2b418632-7 --plaats hellendoorn --punt 227787,494702",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

@@ -1,5 +1,5 @@
 {
-  "name": "hierden-brug-1a6d4ca7",
+  "name": "Watervalweg",
   "file": "hierden-brug-1a6d4ca7.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -44,7 +44,7 @@
         0,
         0
       ],
-      "minLift": -1.64,
+      "minLift": -1.56,
       "maxLift": -0.01
     },
     {
@@ -97,14 +97,27 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/537766917",
+        "tags": {
+          "bridge": "yes",
+          "highway": "unclassified",
+          "lanes": "1",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Watervalweg",
+          "sidewalk": "no",
+          "smoothness": "good",
+          "surface": "asphalt"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,480000,180000,500000 --run nl-8_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map hierden-brug-1a6d4ca7 --plaats hierden --punt 176490,484573",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -125,9 +138,9 @@
         {
           "gmlId": "W0662.ac48d5752e731afce0531529a8c063f2",
           "klasse": "Terrain",
-          "oppervlak": 313.4,
-          "onderDek": 0.05,
-          "bovenDekOnderkant": 0.64,
+          "oppervlak": 156.8,
+          "onderDek": 0.04,
+          "bovenDekOnderkant": 0.56,
           "actie": "verlagen"
         }
       ],
@@ -140,6 +153,6 @@
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
       "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

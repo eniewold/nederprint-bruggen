@@ -1,5 +1,5 @@
 {
-  "name": "K.J. Wilkensbrug",
+  "name": "K. & J. Wilkensbrug",
   "file": "veendam-k-j-wilkensbrug.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -13,7 +13,7 @@
     0.305772
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 43.196,
+  "groundHeight": 43.193,
   "groundSamplePoints": [
     [
       -11.97,
@@ -39,7 +39,7 @@
       ],
       "halfLength": 5.44,
       "halfWidth": 5.93,
-      "height": 43.555,
+      "height": 43.553,
       "gradient": [
         -0.02756,
         0
@@ -58,9 +58,9 @@
       ],
       "halfLength": 5.44,
       "halfWidth": 5.93,
-      "height": 43.45,
+      "height": 43.448,
       "gradient": [
-        -0.04671,
+        -0.04687,
         0
       ],
       "minLift": 0.05,
@@ -78,20 +78,34 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/614582674",
+        "tags": {
+          "bridge": "movable",
+          "bridge:movable": "bascule",
+          "heritage": "2",
+          "heritage:operator": "rce",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxspeed": "50",
+          "maxweight": "1.5",
+          "name": "K. & J. Wilkensbrug",
+          "ref:rce": "515420"
+        }
+      },
       "fis": {
         "id": 25967,
         "naam": "K.J. Wilkensbrug",
-        "afstand": 0,
+        "afstand": 1,
         "beweegbaar": true,
         "doorvaarthoogteGesloten": 1
       },
       "pdokBridgeVlakken": 1
     },
-    "type": "ophaalbrug",
+    "type": "basculebrug",
     "doorvaarthoogte": 1,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,560000,260000,580000 --run nl-12_13 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map veendam-k-j-wilkensbrug --plaats veendam --punt 254714,569199",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -110,8 +124,8 @@
       "oprithelling": 10.9,
       "doorstekend": [],
       "opritHoogtes": [
-        43.405,
-        43.196
+        43.403,
+        43.193
       ]
     },
     "waarschuwingen": [

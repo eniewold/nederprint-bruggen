@@ -1,5 +1,5 @@
 {
-  "name": "Amaliabrug Dordrecht",
+  "name": "Prinses Amaliabrug",
   "file": "dordrecht-amaliabrug-dordrecht.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -13,7 +13,7 @@
     -0.46247
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 48.661,
+  "groundHeight": 48.657,
   "groundSamplePoints": [
     [
       -61.64,
@@ -63,9 +63,9 @@
       ],
       "halfLength": 12,
       "halfWidth": 3.01,
-      "height": 49.02,
+      "height": 49.018,
       "gradient": [
-        -0.02989,
+        -0.03009,
         0
       ],
       "minLift": 0.05,
@@ -103,7 +103,18 @@
           "type": "pijler"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/71506885",
+        "tags": {
+          "alt_name": "Vlijbrug",
+          "bridge": "yes",
+          "bridge:name": "Prinses Amaliabrug",
+          "emergency": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "surface": "asphalt"
+        }
+      },
       "fis": {
         "id": 36510832,
         "naam": "Amaliabrug Dordrecht",
@@ -116,7 +127,7 @@
     "type": "ophaalbrug",
     "doorvaarthoogte": 3,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,420000,120000,440000 --run nl-5_6 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map dordrecht-amaliabrug-dordrecht --plaats dordrecht --punt 107536,425407",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -136,10 +147,10 @@
       "doorstekend": [],
       "opritHoogtes": [
         49.079,
-        48.661
+        48.657
       ]
     },
     "waarschuwingen": [],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

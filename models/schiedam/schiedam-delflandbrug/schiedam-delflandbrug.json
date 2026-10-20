@@ -1,5 +1,5 @@
 {
-  "name": "Delflandbrug",
+  "name": "Brug in de A20 Schiedam",
   "file": "schiedam-delflandbrug.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -164,38 +164,45 @@
         }
       ],
       "osm": {
-        "id": "way/728735825",
+        "id": "way/321901459",
         "tags": {
-          "bridge": "movable",
-          "bridge:movable": "lift",
-          "bridge:name": "Delflandbrug",
-          "highway": "cycleway",
+          "bridge": "yes",
+          "carriageway_ref": "Li",
+          "destination:lanes": "Hoek van Holland;Europoort;Schiedam-Noord|Hoek van Holland;Europoort;Schiedam-Noord|Hoek van Holland;Europoort;Schiedam-Noord|Schiedam",
+          "destination:ref:lanes": "RING A20|RING A20|RING A20|S115",
+          "highway": "motorway",
+          "int_ref": "E 25",
+          "lanes": "4",
           "layer": "1",
           "lit": "yes",
-          "mofa": "yes",
-          "moped": "no",
-          "name": "Delflandbrug",
-          "oneway": "no",
+          "maxspeed": "100",
+          "noname": "yes",
+          "official_name": "Rijksweg A20",
+          "oneway": "yes",
+          "operator": "Rijkswaterstaat",
+          "placement": "middle_of:2",
+          "ref": "A20",
           "surface": "asphalt",
-          "traffic_sign": "NL:G11",
+          "toll:hgv": "yes",
+          "turn:lanes": "none|none|none|slight_right",
           "bridge:structure": "beam",
           "man_made": "bridge",
-          "wikidata": "Q115325885"
+          "bridge:movable": "lift"
         }
       },
       "fis": {
-        "id": 3574,
-        "naam": "Delflandbrug",
-        "afstand": 16,
-        "beweegbaar": true,
-        "doorvaarthoogteGesloten": 0.53
+        "id": 26906,
+        "naam": "Brug in de A20 Schiedam",
+        "afstand": 11,
+        "beweegbaar": false,
+        "doorvaarthoogteGesloten": 5.33
       },
       "pdokBridgeVlakken": 13
     },
     "type": "ophaalbrug",
-    "doorvaarthoogte": 0.53,
+    "doorvaarthoogte": 5.33,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,420000,100000,440000 --run nl-4_6 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map schiedam-delflandbrug --plaats schiedam --punt 87664,437762",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

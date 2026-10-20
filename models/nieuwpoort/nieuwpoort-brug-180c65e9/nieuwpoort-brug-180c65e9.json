@@ -1,5 +1,5 @@
 {
-  "name": "nieuwpoort-brug-180c65e9",
+  "name": "Waterlinie",
   "file": "nieuwpoort-brug-180c65e9.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,24 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1084295584",
+        "tags": {
+          "bridge": "yes",
+          "highway": "service",
+          "layer": "1",
+          "name": "Waterlinie",
+          "surface": "paving_stones",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ophaalbrug",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,420000,120000,440000 --run nl-5_6 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map nieuwpoort-brug-180c65e9 --plaats nieuwpoort --punt 119713,438115",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -93,7 +103,7 @@
       "dekBreedte": 8.4,
       "brugLengte": 15.8,
       "water": null,
-      "portaalhoogte": 7.6,
+      "portaalhoogte": 2.5,
       "opritafstand": [
         9.5,
         9.5
@@ -109,6 +119,6 @@
       "geen FIS-brug binnen 35 m",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

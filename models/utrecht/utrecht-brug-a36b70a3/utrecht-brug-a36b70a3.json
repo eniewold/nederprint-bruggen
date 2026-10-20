@@ -107,7 +107,7 @@
       "naam": "utrecht-brug-a36b70a3",
       "straal": 40
     },
-    "opdracht": "node scripts/bridges/genereer.mjs --uit C:/Users/edwar/AppData/Local/Temp/claude/C--Users-edwar-source-Repos-nederprint/3bd9e161-d515-4f1b-bfbf-c9cc2320f835/scratchpad/rail-batch5 --map brug-a36b70a3 --plaats utrecht --punt 137445.57,455360.11 --naam utrecht-brug-a36b70a3 --straal 40",
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 126435,448710,141834,461610 --run utrecht-2026-10-20 --overschrijf 1 --parallel 5",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -115,11 +115,12 @@
       "dekBreedte": 6.9,
       "brugLengte": 23.1,
       "water": null,
-      "portaalhoogte": 6.2,
+      "portaalhoogte": 5.9,
       "opritafstand": [
         10,
         20
       ],
+      "spoorhoogteBron": "pdok",
       "oprithelling": 23.1,
       "doorstekend": [
         {
@@ -138,10 +139,12 @@
     },
     "waarschuwingen": [
       "geen FIS-brug binnen 35 m",
+      "oprit -: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "oprit +: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
       "oprit +: spoorterrein voorbij 150 m nog 1.0 m hoger (47.3 m); PDOK trekt het spoor hier ver naar beneden, controleer de dekhoogte of geef --opritafstand",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
       "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
     ],
-    "gegenereerd": "2026-10-17"
+    "gegenereerd": "2026-10-20"
   }
 }

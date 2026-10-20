@@ -78,20 +78,27 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/690060173",
+        "tags": {
+          "bridge": "movable",
+          "highway": "footway",
+          "layer": "1"
+        }
+      },
       "fis": {
         "id": 27877,
         "naam": "Brug over benedenhoofd Verlaat 6 Jipsingboermussel",
-        "afstand": 0,
+        "afstand": 1,
         "beweegbaar": true,
         "doorvaarthoogteGesloten": 0.9999999999999991
       },
       "pdokBridgeVlakken": 1
     },
-    "type": "ophaalbrug",
+    "type": "basculebrug",
     "doorvaarthoogte": 0.9999999999999991,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 260000,540000,280000,560000 --run nl-13_12 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map ter-apelkanaal-brug-over-benedenhoofd-verlaat-6-jipsingboermussel --plaats ter-apelkanaal --punt 266648,548994",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -115,6 +122,7 @@
       ]
     },
     "waarschuwingen": [
+      "bridge=movable zonder mechanisme: basculebrug is een gok",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
     "gegenereerd": "2026-10-20"

@@ -78,20 +78,30 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/295454022",
+        "tags": {
+          "bicycle": "yes",
+          "bridge": "movable",
+          "bridge:movable": "bascule",
+          "highway": "path",
+          "layer": "1",
+          "surface": "paved"
+        }
+      },
       "fis": {
         "id": 25209,
         "naam": "Brug Musselkanaal (Aldiklap)",
-        "afstand": 5,
+        "afstand": 4,
         "beweegbaar": true,
         "doorvaarthoogteGesloten": 0.9999999999999991
       },
       "pdokBridgeVlakken": 1
     },
-    "type": "ophaalbrug",
+    "type": "basculebrug",
     "doorvaarthoogte": 0.9999999999999991,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 260000,540000,280000,560000 --run nl-13_12 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map musselkanaal-brug-musselkanaal-aldiklap --plaats musselkanaal --punt 264444,550322",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

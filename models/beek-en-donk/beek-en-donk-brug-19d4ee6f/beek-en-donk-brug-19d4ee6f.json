@@ -1,5 +1,5 @@
 {
-  "name": "beek-en-donk-brug-19d4ee6f",
+  "name": "Lekerstraat",
   "file": "beek-en-donk-brug-19d4ee6f.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -41,7 +41,7 @@
       ],
       "halfLength": 12,
       "halfWidth": 9.65,
-      "height": 58.114,
+      "height": 58.113,
       "gradient": [
         -0.0125,
         0
@@ -90,14 +90,27 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1167854636",
+        "tags": {
+          "bicycle": "no",
+          "bridge": "yes",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Lekerstraat",
+          "zone:traffic": "NL:rural",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 3
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,380000,180000,400000 --run nl-8_4 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map beek-en-donk-brug-19d4ee6f --plaats beek-en-donk --punt 173047,395003",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -116,7 +129,7 @@
       "oprithelling": 24,
       "doorstekend": [],
       "opritHoogtes": [
-        57.964,
+        57.963,
         57.916
       ]
     },

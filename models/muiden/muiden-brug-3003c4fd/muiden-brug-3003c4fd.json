@@ -44,7 +44,7 @@
         0,
         0
       ],
-      "minLift": -1.62,
+      "minLift": -1.57,
       "maxLift": -0.01
     },
     {
@@ -97,14 +97,26 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/957688302",
+        "tags": {
+          "access": "private",
+          "bridge": "yes",
+          "highway": "track",
+          "layer": "1",
+          "surface": "concrete",
+          "tracktype": "grade1",
+          "building:material": "concrete",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map muiden-brug-3003c4fd --plaats muiden --punt 134090,483418",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -125,9 +137,9 @@
         {
           "gmlId": "W0155.8abeacd5439b75202102152143218827",
           "klasse": "Terrain",
-          "oppervlak": 204.4,
+          "oppervlak": 101.8,
           "onderDek": 0.07,
-          "bovenDekOnderkant": 0.62,
+          "bovenDekOnderkant": 0.57,
           "actie": "verlagen"
         },
         {
@@ -148,6 +160,6 @@
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
       "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

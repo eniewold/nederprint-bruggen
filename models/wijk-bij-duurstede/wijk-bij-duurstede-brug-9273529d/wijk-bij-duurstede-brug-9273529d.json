@@ -9,18 +9,18 @@
     442203.35
   ],
   "xAxis": [
-    0.909001,
-    -0.416793
+    -0.416793,
+    -0.909001
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 46.494,
+  "groundHeight": 56.248,
   "groundSamplePoints": [
     [
-      -19.98,
+      -98.93,
       0
     ],
     [
-      19.96,
+      98.93,
       0
     ]
   ],
@@ -37,33 +37,33 @@
         442203.35
       ],
       "axis": [
-        0.909001,
-        -0.416793
+        -0.416793,
+        -0.909001
       ],
-      "halfLength": 4.53,
-      "halfWidth": 79.43,
-      "height": 54.104,
+      "halfLength": 72.93,
+      "halfWidth": 9.57,
+      "height": 55.675,
       "gradient": [
         0,
         0
       ],
-      "minLift": -3.66,
+      "minLift": -2.09,
       "maxLift": -0.01
     },
     {
       "centre": [
-        150157.46,
-        442210.92
+        150211.87,
+        442286
       ],
       "axis": [
-        -0.909001,
-        0.416793
+        0.416793,
+        0.909001
       ],
-      "halfLength": 9.08,
-      "halfWidth": 80.93,
-      "height": 50.949,
+      "halfLength": 12,
+      "halfWidth": 11.07,
+      "height": 56.612,
       "gradient": [
-        -0.49085,
+        -0.0303,
         0
       ],
       "minLift": 0.05,
@@ -71,18 +71,18 @@
     },
     {
       "centre": [
-        150190.46,
-        442195.79
+        150136.08,
+        442120.7
       ],
       "axis": [
-        0.909001,
-        -0.416793
+        -0.416793,
+        -0.909001
       ],
-      "halfLength": 9.08,
-      "halfWidth": 80.93,
-      "height": 55.254,
+      "halfLength": 12,
+      "halfWidth": 11.07,
+      "height": 56.825,
       "gradient": [
-        -0.01653,
+        -0.0125,
         0
       ],
       "minLift": 0.05,
@@ -112,54 +112,81 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/620099675",
+        "tags": {
+          "access": "private",
+          "bridge": "yes",
+          "highway": "service",
+          "layer": "1"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 4
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,440000,160000,460000 --run nl-7_7 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map wijk-bij-duurstede-brug-9273529d --plaats wijk-bij-duurstede --punt 150174,442203",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
-      "dekLengte": 18.1,
-      "dekBreedte": 157.9,
-      "brugLengte": 18.2,
-      "water": null,
-      "portaalhoogte": 142.1,
-      "opritafstand": [
-        10.9,
-        10.9
+      "dekLengte": 157.9,
+      "dekBreedte": 18.1,
+      "brugLengte": 157.9,
+      "water": [
+        -48.4,
+        40.6
       ],
-      "oprithelling": 18.2,
+      "portaalhoogte": 16.3,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
       "doorstekend": [
         {
           "gmlId": "G0352.8abeacd5439b7576000000000a037835",
           "klasse": "Road",
-          "oppervlak": 427.3,
-          "onderDek": 0.3,
-          "bovenDekOnderkant": 2.66,
+          "oppervlak": 1730.8,
+          "onderDek": 0.12,
+          "bovenDekOnderkant": 1.09,
           "actie": "verlagen"
         },
         {
           "gmlId": "G0352.8abeacd5439b7576000000000a037836",
           "klasse": "Road",
-          "oppervlak": 66.4,
-          "onderDek": 0,
-          "bovenDekOnderkant": 2.22,
+          "oppervlak": 1194.5,
+          "onderDek": 0.1,
+          "bovenDekOnderkant": 0.64,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0352.8abeacd5439b7576000000000a032e1d",
+          "klasse": "Terrain",
+          "oppervlak": 79.8,
+          "onderDek": 0.26,
+          "bovenDekOnderkant": 0.46,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0352.8abeacd5439b7576000000000a03220f",
+          "klasse": "Terrain",
+          "oppervlak": 295.3,
+          "onderDek": 0.13,
+          "bovenDekOnderkant": 0.35,
           "actie": "verlagen"
         }
       ],
       "opritHoogtes": [
-        46.494,
-        55.104
+        56.248,
+        56.675
       ]
     },
     "waarschuwingen": [
-      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
-      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+      "geen FIS-brug binnen 35 m",
+      "4 PDOK-vorm(en) door het dek: 0 verborgen, 4 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

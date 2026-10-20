@@ -1,5 +1,5 @@
 {
-  "name": "venhuizen-brug-4c553130",
+  "name": "De Vliegende Faam",
   "file": "venhuizen-brug-4c553130.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -88,14 +88,25 @@
           "type": "landhoofd"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/238867256",
+        "tags": {
+          "bridge": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "name": "De Vliegende Faam",
+          "oneway": "no",
+          "source": "survey",
+          "zone:traffic": "NL:urban"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 3
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,500000,160000,520000 --run nl-7_10 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map venhuizen-brug-4c553130 --plaats venhuizen --punt 142278,519363",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -119,6 +130,6 @@
       ]
     },
     "waarschuwingen": [],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

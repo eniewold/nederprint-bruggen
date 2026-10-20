@@ -1,5 +1,5 @@
 {
-  "name": "zwijndrecht-brug-ad0a48b2",
+  "name": "Staatslijn I",
   "file": "zwijndrecht-brug-ad0a48b2.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -9,18 +9,18 @@
     425333.81
   ],
   "xAxis": [
-    0.822892,
-    -0.568197
+    0.824223,
+    -0.566265
   ],
   "groundOffsetMetres": 0,
   "groundHeight": 49.423,
   "groundSamplePoints": [
     [
-      -18.48,
+      -18.51,
       0
     ],
     [
-      18.48,
+      18.51,
       0
     ]
   ],
@@ -30,15 +30,15 @@
   "terrainCorrections": [
     {
       "centre": [
-        103699.68,
-        425351.12
+        103699.61,
+        425351.08
       ],
       "axis": [
-        -0.822892,
-        0.568197
+        -0.824223,
+        0.566265
       ],
       "halfLength": 12,
-      "halfWidth": 15.69,
+      "halfWidth": 15.65,
       "height": 49.519,
       "gradient": [
         -0.008,
@@ -49,15 +49,15 @@
     },
     {
       "centre": [
-        103749.84,
-        425316.49
+        103749.9,
+        425316.53
       ],
       "axis": [
-        0.822892,
-        -0.568197
+        0.824223,
+        -0.566265
       ],
       "halfLength": 12,
-      "halfWidth": 15.69,
+      "halfWidth": 15.65,
       "height": 49.615,
       "gradient": [
         0,
@@ -78,19 +78,48 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/6308265",
+        "tags": {
+          "bridge": "yes",
+          "electrified": "contact_line",
+          "frequency": "0",
+          "gauge": "1435",
+          "layer": "1",
+          "loading_gauge": "TSI_GB",
+          "maxspeed": "140",
+          "name": "Staatslijn I",
+          "operator": "ProRail",
+          "passenger_lines": "4",
+          "railway": "rail",
+          "railway:atb": "yes",
+          "railway:atb-eg": "yes",
+          "railway:atb-ng": "no",
+          "railway:etcs": "no",
+          "railway:maximum_current": "4000",
+          "railway:track_class": "D4",
+          "railway:track_ref": "KS",
+          "railway:traffic_mode": "mixed",
+          "ref:ProRailID": "2881638.0",
+          "ref:ProRailSpoortak": "542_1271AL_29.9",
+          "source": "ProRail",
+          "source:date": "2014-01-03",
+          "usage": "main",
+          "voltage": "1500"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,420000,120000,440000 --run nl-5_6 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map zwijndrecht-brug-ad0a48b2 --plaats zwijndrecht --punt 103725,425334",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
       "dekLengte": 37,
-      "dekBreedte": 27.4,
+      "dekBreedte": 27.3,
       "brugLengte": 37,
       "water": null,
       "portaalhoogte": 24.6,
@@ -110,6 +139,6 @@
       "geen FIS-brug binnen 35 m",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

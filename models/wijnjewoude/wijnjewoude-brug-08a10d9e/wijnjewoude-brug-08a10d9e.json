@@ -1,5 +1,5 @@
 {
-  "name": "wijnjewoude-brug-08a10d9e",
+  "name": "Compagnonsfeart",
   "file": "wijnjewoude-brug-08a10d9e.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -108,14 +108,27 @@
           "type": "landhoofd"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/6465738",
+        "tags": {
+          "bridge": "movable",
+          "bridge:movable": "bascule",
+          "highway": "unclassified",
+          "lanes": "1",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Compagnonsfeart",
+          "smoothness": "good",
+          "surface": "asphalt"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 7
     },
-    "type": "ophaalbrug",
+    "type": "basculebrug",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 200000,560000,220000,580000 --run nl-10_13 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map wijnjewoude-brug-08a10d9e --plaats wijnjewoude --punt 209705,562311",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

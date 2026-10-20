@@ -1,5 +1,5 @@
 {
-  "name": "westwoud-brug-ee64d859",
+  "name": "Landpad",
   "file": "westwoud-brug-ee64d859.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -13,7 +13,7 @@
     -0.867701
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 42.02,
+  "groundHeight": 42.011,
   "groundSamplePoints": [
     [
       -14.01,
@@ -39,9 +39,9 @@
       ],
       "halfLength": 6.37,
       "halfWidth": 1.09,
-      "height": 42.437,
+      "height": 42.433,
       "gradient": [
-        -0.0655,
+        -0.0662,
         0
       ],
       "minLift": 0.05,
@@ -78,14 +78,25 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/291918499",
+        "tags": {
+          "bicycle": "designated",
+          "bridge": "yes",
+          "foot": "designated",
+          "highway": "footway",
+          "layer": "1",
+          "name": "Landpad",
+          "segregated": "no"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,520000,140000,540000 --run nl-6_11 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map westwoud-brug-ee64d859 --plaats westwoud --punt 139109,521733",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -104,7 +115,7 @@
       "oprithelling": 12.7,
       "doorstekend": [],
       "opritHoogtes": [
-        42.02,
+        42.011,
         42.554
       ]
     },

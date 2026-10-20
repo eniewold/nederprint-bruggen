@@ -1,5 +1,5 @@
 {
-  "name": "Willemsbrug Veendam",
+  "name": "Boven Oosterdiep",
   "file": "veendam-willemsbrug-veendam.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -41,7 +41,7 @@
       "halfWidth": 4.2,
       "height": 43.188,
       "gradient": [
-        -0.03629,
+        -0.03631,
         0
       ],
       "minLift": 0.05,
@@ -78,20 +78,30 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/6379487",
+        "tags": {
+          "bridge": "movable",
+          "bridge:movable": "bascule",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxspeed": "50",
+          "name": "Boven Oosterdiep"
+        }
+      },
       "fis": {
         "id": 33493,
         "naam": "Willemsbrug Veendam",
-        "afstand": 2,
+        "afstand": 1,
         "beweegbaar": true,
         "doorvaarthoogteGesloten": 1
       },
       "pdokBridgeVlakken": 1
     },
-    "type": "ophaalbrug",
+    "type": "basculebrug",
     "doorvaarthoogte": 1,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,560000,260000,580000 --run nl-12_13 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map veendam-willemsbrug-veendam --plaats veendam --punt 254580,568810",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

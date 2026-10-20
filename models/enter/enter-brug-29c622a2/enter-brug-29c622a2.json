@@ -1,5 +1,5 @@
 {
-  "name": "enter-brug-29c622a2",
+  "name": "Stokreefsweg",
   "file": "enter-brug-29c622a2.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -44,7 +44,7 @@
         0,
         0
       ],
-      "minLift": -1.11,
+      "minLift": -1.1,
       "maxLift": -0.01
     },
     {
@@ -97,14 +97,28 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/189505668",
+        "tags": {
+          "bridge": "yes",
+          "highway": "unclassified",
+          "lanes": "1",
+          "layer": "1",
+          "lit": "no",
+          "maxspeed": "60",
+          "name": "Stokreefsweg",
+          "sidewalk": "no",
+          "smoothness": "good",
+          "surface": "asphalt"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,460000,240000,480000 --run nl-11_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map enter-brug-29c622a2 --plaats enter --punt 238286,476883",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -125,9 +139,9 @@
         {
           "gmlId": "W0663.8abeacd5439b75202003100735241084",
           "klasse": "Terrain",
-          "oppervlak": 628.6,
+          "oppervlak": 314.5,
           "onderDek": 0.05,
-          "bovenDekOnderkant": 0.11,
+          "bovenDekOnderkant": 0.1,
           "actie": "verlagen"
         }
       ],

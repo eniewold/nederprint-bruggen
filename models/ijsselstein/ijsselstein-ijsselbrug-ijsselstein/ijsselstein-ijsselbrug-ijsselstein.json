@@ -1,5 +1,5 @@
 {
-  "name": "IJsselbrug IJsselstein",
+  "name": "IJsselbrug",
   "file": "ijsselstein-ijsselbrug-ijsselstein.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,7 +78,20 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/706255929",
+        "tags": {
+          "bridge": "movable",
+          "bridge:movable": "bascule",
+          "highway": "cycleway",
+          "layer": "1",
+          "mofa": "designated",
+          "moped": "designated",
+          "name": "IJsselbrug",
+          "traffic_sign": "NL:G12a",
+          "man_made": "bridge"
+        }
+      },
       "fis": {
         "id": 33666,
         "naam": "IJsselbrug IJsselstein",
@@ -88,10 +101,10 @@
       },
       "pdokBridgeVlakken": 1
     },
-    "type": "ophaalbrug",
+    "type": "basculebrug",
     "doorvaarthoogte": 2.25,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,440000,140000,460000 --run nl-6_7 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map ijsselstein-ijsselbrug-ijsselstein --plaats ijsselstein --punt 131693,448129",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -117,6 +130,6 @@
     "waarschuwingen": [
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

@@ -97,11 +97,29 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/727814185",
+        "tags": {
+          "bicycle": "no",
+          "bridge": "yes",
+          "bridge:name": "Boekelosebrug",
+          "foot": "no",
+          "highway": "secondary",
+          "lanes": "2",
+          "layer": "1",
+          "maxspeed": "50",
+          "maxweight:signed": "no",
+          "name": "Boekelosebrug",
+          "surface": "asphalt",
+          "zone:traffic": "NL:urban",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
       "fis": {
         "id": 51596,
         "naam": "Boekelosebrug",
-        "afstand": 8,
+        "afstand": 3,
         "beweegbaar": false,
         "doorvaarthoogteGesloten": 8
       },
@@ -110,7 +128,7 @@
     "type": "ligger",
     "doorvaarthoogte": 8,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,460000,260000,480000 --run nl-12_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map hengelo-boekelosebrug --plaats hengelo --punt 250748,474225",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

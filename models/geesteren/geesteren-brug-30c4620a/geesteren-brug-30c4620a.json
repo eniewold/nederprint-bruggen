@@ -1,5 +1,5 @@
 {
-  "name": "geesteren-brug-30c4620a",
+  "name": "Huyerenseweg",
   "file": "geesteren-brug-30c4620a.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -97,14 +97,27 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/340532130",
+        "tags": {
+          "bridge": "yes",
+          "highway": "unclassified",
+          "lanes": "1",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Huyerenseweg",
+          "sidewalk": "no",
+          "smoothness": "good",
+          "surface": "asphalt"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,480000,260000,500000 --run nl-12_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map geesteren-brug-30c4620a --plaats geesteren --punt 247872,492074",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

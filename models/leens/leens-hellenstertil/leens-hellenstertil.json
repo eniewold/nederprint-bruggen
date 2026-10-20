@@ -1,5 +1,5 @@
 {
-  "name": "Hellenstertil",
+  "name": "Trekweg",
   "file": "leens-hellenstertil.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,11 +78,28 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/6528825",
+        "tags": {
+          "bridge": "yes",
+          "bridge:alt_name": "Scheeftil",
+          "bridge:name": "Hellenstertil",
+          "est_width": "4",
+          "highway": "cycleway",
+          "layer": "1",
+          "mofa": "no",
+          "moped": "no",
+          "name": "Trekweg",
+          "segregated": "no",
+          "smoothness": "bad",
+          "surface": "paved",
+          "traffic_sign": "NL:G13"
+        }
+      },
       "fis": {
         "id": 49152,
         "naam": "Hellenstertil",
-        "afstand": 2,
+        "afstand": 1,
         "beweegbaar": false,
         "doorvaarthoogteGesloten": 3.27
       },
@@ -91,7 +108,7 @@
     "type": "ligger",
     "doorvaarthoogte": 3.27,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,580000,240000,600000 --run nl-11_14 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map leens-hellenstertil --plaats leens --punt 221778,596707",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

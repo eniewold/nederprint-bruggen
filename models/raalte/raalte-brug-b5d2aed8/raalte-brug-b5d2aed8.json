@@ -1,5 +1,5 @@
 {
-  "name": "raalte-brug-b5d2aed8",
+  "name": "Almelosestraat",
   "file": "raalte-brug-b5d2aed8.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,32 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1460795826",
+        "tags": {
+          "bridge": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "lit": "yes",
+          "mofa": "yes",
+          "moped": "designated",
+          "name": "Almelosestraat",
+          "oneway": "no",
+          "segregated": "no",
+          "smoothness": "good",
+          "surface": "asphalt",
+          "traffic_sign": "NL:G12a",
+          "bridge:movable": "bascule",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
-    "type": "ligger",
+    "type": "basculebrug",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 200000,480000,220000,500000 --run nl-10_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map raalte-brug-b5d2aed8 --plaats raalte --punt 215753,488798",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -109,8 +127,9 @@
       ]
     },
     "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

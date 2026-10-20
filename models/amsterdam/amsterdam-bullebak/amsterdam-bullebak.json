@@ -81,20 +81,25 @@
       "osm": {
         "id": "way/452338603",
         "tags": {
+          "bicycle": "yes",
           "bridge": "yes",
-          "electrified": "contact_line",
-          "frequency": "0",
-          "gauge": "1435",
+          "cycleway:both": "separate",
+          "embedded_rails": "tram",
+          "foot": "yes",
+          "highway": "unclassified",
+          "lanes": "2",
           "layer": "1",
-          "maxspeed": "50",
+          "lit": "yes",
+          "maxspeed": "30",
+          "maxweight:signed": "no",
+          "name": "Bullebak",
           "note_2": "https://www.amsterdam.nl/projecten/werkzaamheden/bullebak-bullebakssluis/bullebak-afsluiting/",
-          "oneway": "yes",
           "opening_date": "2023-06-01",
-          "railway": "tram",
-          "voltage": "600",
+          "sidewalk:both": "separate",
+          "surface": "asphalt",
+          "width": "7.25",
           "bridge:structure": "beam",
           "man_made": "bridge",
-          "name": "Bullebak",
           "ref": "149",
           "source": "survey",
           "wikidata": "Q12012502",
@@ -114,7 +119,7 @@
     "type": "ophaalbrug",
     "doorvaarthoogte": 1.22,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map amsterdam-bullebak --plaats amsterdam --punt 120645,488568",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -144,6 +149,6 @@
       "oprit +: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

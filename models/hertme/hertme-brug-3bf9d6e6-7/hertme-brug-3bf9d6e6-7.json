@@ -1,5 +1,5 @@
 {
-  "name": "hertme-brug-3bf9d6e6-7",
+  "name": "Hertmerweg",
   "file": "hertme-brug-3bf9d6e6-7.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,26 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/182765376",
+        "tags": {
+          "bridge": "yes",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Hertmerweg",
+          "smoothness": "good",
+          "source:maxspeed": "NL:zone60",
+          "surface": "asphalt"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,480000,260000,500000 --run nl-12_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map hertme-brug-3bf9d6e6-7 --plaats hertme --punt 247578,482977",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

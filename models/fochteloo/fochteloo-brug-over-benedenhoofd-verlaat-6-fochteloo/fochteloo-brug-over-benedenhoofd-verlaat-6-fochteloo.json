@@ -78,20 +78,29 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/499056303",
+        "tags": {
+          "bridge": "movable",
+          "foot": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "moped": "yes"
+        }
+      },
       "fis": {
         "id": 8292,
         "naam": "Brug over benedenhoofd Verlaat 6 Fochteloo",
-        "afstand": 3,
+        "afstand": 2,
         "beweegbaar": true,
         "doorvaarthoogteGesloten": 1.5
       },
       "pdokBridgeVlakken": 1
     },
-    "type": "ophaalbrug",
+    "type": "basculebrug",
     "doorvaarthoogte": 1.5,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 200000,540000,220000,560000 --run nl-10_12 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map fochteloo-brug-over-benedenhoofd-verlaat-6-fochteloo --plaats fochteloo --punt 217975,554422",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -115,6 +124,7 @@
       ]
     },
     "waarschuwingen": [
+      "bridge=movable zonder mechanisme: basculebrug is een gok",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
     "gegenereerd": "2026-10-20"

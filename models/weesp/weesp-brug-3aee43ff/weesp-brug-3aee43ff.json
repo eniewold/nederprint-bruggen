@@ -1,5 +1,5 @@
 {
-  "name": "weesp-brug-3aee43ff",
+  "name": "Oude Papelaan",
   "file": "weesp-brug-3aee43ff.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,26 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1217525780",
+        "tags": {
+          "access": "no",
+          "bridge": "movable",
+          "bridge:movable": "drawbridge",
+          "highway": "path",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Oude Papelaan",
+          "old_name": "Papelaan"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
-    "type": "ligger",
+    "type": "ophaalbrug",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map weesp-brug-3aee43ff --plaats weesp --punt 130758,481702",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -96,7 +108,7 @@
         -7.7,
         7.8
       ],
-      "portaalhoogte": 4.4,
+      "portaalhoogte": 4.1,
       "opritafstand": [
         13.4,
         13.4
@@ -112,6 +124,6 @@
       "geen FIS-brug binnen 35 m",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

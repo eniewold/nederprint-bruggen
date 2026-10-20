@@ -1,5 +1,5 @@
 {
-  "name": "westerhaar-vriezenveensewijk-brug-d11cd76d",
+  "name": "Grintweg",
   "file": "westerhaar-vriezenveensewijk-brug-d11cd76d.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,27 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/507591283",
+        "tags": {
+          "bridge": "yes",
+          "highway": "track",
+          "layer": "1",
+          "maxaxleload": "4.8",
+          "maxspeed": "60",
+          "name": "Grintweg",
+          "smoothness": "intermediate",
+          "surface": "asphalt",
+          "tracktype": "grade1"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,480000,240000,500000 --run nl-11_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map westerhaar-vriezenveensewijk-brug-d11cd76d --plaats westerhaar-vriezenveensewijk --punt 237367,496083",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

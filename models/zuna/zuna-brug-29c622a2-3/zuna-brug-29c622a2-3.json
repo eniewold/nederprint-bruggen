@@ -1,5 +1,5 @@
 {
-  "name": "zuna-brug-29c622a2-3",
+  "name": "Keppelbrug",
   "file": "zuna-brug-29c622a2-3.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,27 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1270439660",
+        "tags": {
+          "bridge": "viaduct",
+          "foot": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "oneway": "no",
+          "surface": "wood",
+          "traffic_sign": "NL:G11",
+          "man_made": "bridge",
+          "name": "Keppelbrug"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,480000,240000,500000 --run nl-11_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map zuna-brug-29c622a2-3 --plaats zuna --punt 230026,484532",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

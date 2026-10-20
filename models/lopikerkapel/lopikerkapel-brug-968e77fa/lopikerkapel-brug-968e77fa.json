@@ -1,5 +1,5 @@
 {
-  "name": "lopikerkapel-brug-968e77fa",
+  "name": "Kapelsepad",
   "file": "lopikerkapel-brug-968e77fa.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -13,7 +13,7 @@
     0.951105
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 44.73,
+  "groundHeight": 44.729,
   "groundSamplePoints": [
     [
       -8.81,
@@ -41,7 +41,7 @@
       "halfWidth": 7.07,
       "height": 44.924,
       "gradient": [
-        -0.04854,
+        -0.04864,
         0
       ],
       "minLift": 0.05,
@@ -78,14 +78,24 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/296474549",
+        "tags": {
+          "bridge": "yes",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Kapelsepad",
+          "zone:traffic": "NL:rural"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,440000,140000,460000 --run nl-6_7 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map lopikerkapel-brug-968e77fa --plaats lopikerkapel --punt 130636,444280",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -104,7 +114,7 @@
       "oprithelling": 8,
       "doorstekend": [],
       "opritHoogtes": [
-        44.73,
+        44.729,
         44.818
       ]
     },
@@ -112,6 +122,6 @@
       "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

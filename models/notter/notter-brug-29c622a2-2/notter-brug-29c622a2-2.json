@@ -1,5 +1,5 @@
 {
-  "name": "notter-brug-29c622a2-2",
+  "name": "Keppelbrug",
   "file": "notter-brug-29c622a2-2.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -13,7 +13,7 @@
     -0.916522
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 52.667,
+  "groundHeight": 52.665,
   "groundSamplePoints": [
     [
       -41.13,
@@ -77,9 +77,9 @@
       ],
       "halfLength": 12,
       "halfWidth": 8.43,
-      "height": 52.831,
+      "height": 52.829,
       "gradient": [
-        -0.01363,
+        -0.01373,
         0
       ],
       "minLift": 0.05,
@@ -97,14 +97,30 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1270439660",
+        "tags": {
+          "bicycle": "no",
+          "bridge": "viaduct",
+          "foot": "no",
+          "highway": "primary",
+          "lanes": "2",
+          "layer": "1",
+          "maxspeed": "80",
+          "name": "Keppelbrug",
+          "operator": "Gemeente Wierden",
+          "ref": "N347",
+          "surface": "asphalt",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,480000,240000,500000 --run nl-11_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map notter-brug-29c622a2-2 --plaats notter --punt 230047,484513",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -133,7 +149,7 @@
       ],
       "opritHoogtes": [
         52.694,
-        52.667
+        52.665
       ]
     },
     "waarschuwingen": [

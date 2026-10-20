@@ -1,5 +1,5 @@
 {
-  "name": "Keersluisbrug Scheemda",
+  "name": "Oude Rijksweg",
   "file": "scheemda-keersluisbrug-scheemda.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -13,7 +13,7 @@
     0.331379
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 46.492,
+  "groundHeight": 46.491,
   "groundSamplePoints": [
     [
       -9.19,
@@ -39,9 +39,9 @@
       ],
       "halfLength": 4.18,
       "halfWidth": 6.86,
-      "height": 46.653,
+      "height": 46.641,
       "gradient": [
-        -0.03592,
+        -0.03609,
         0
       ],
       "minLift": 0.05,
@@ -58,9 +58,9 @@
       ],
       "halfLength": 4.18,
       "halfWidth": 6.86,
-      "height": 46.648,
+      "height": 46.642,
       "gradient": [
-        -0.03724,
+        -0.03592,
         0
       ],
       "minLift": 0.05,
@@ -78,11 +78,25 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/6381261",
+        "tags": {
+          "bicycle": "no",
+          "bridge": "yes",
+          "highway": "secondary",
+          "layer": "1",
+          "maxspeed": "80",
+          "mofa": "no",
+          "moped": "no",
+          "name": "Oude Rijksweg",
+          "sidewalk": "no",
+          "traffic_sign": "NL:C15"
+        }
+      },
       "fis": {
         "id": 35063,
         "naam": "Keersluisbrug Scheemda",
-        "afstand": 7,
+        "afstand": 6,
         "beweegbaar": false,
         "doorvaarthoogteGesloten": 4.63
       },
@@ -91,7 +105,7 @@
     "type": "ligger",
     "doorvaarthoogte": 4.63,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 260000,560000,280000,580000 --run nl-13_13 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map scheemda-keersluisbrug-scheemda --plaats scheemda --punt 260156,577580",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -110,7 +124,7 @@
       "oprithelling": 8.4,
       "doorstekend": [],
       "opritHoogtes": [
-        46.503,
+        46.491,
         46.492
       ]
     },

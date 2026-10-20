@@ -1,5 +1,5 @@
 {
-  "name": "hekelingen-brug-1b9b1b0c",
+  "name": "Groede",
   "file": "hekelingen-brug-1b9b1b0c.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,23 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1015092137",
+        "tags": {
+          "bridge": "yes",
+          "highway": "footway",
+          "layer": "1",
+          "name": "Groede",
+          "zone:traffic": "NL:urban"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,420000,100000,440000 --run nl-4_6 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map hekelingen-brug-1b9b1b0c --plaats hekelingen --punt 82716,426844",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

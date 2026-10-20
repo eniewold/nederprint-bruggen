@@ -1,5 +1,5 @@
 {
-  "name": "Renselbrug",
+  "name": "Oostelijke Rondweg",
   "file": "winschoten-renselbrug.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -13,7 +13,7 @@
     0.999334
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 43.506,
+  "groundHeight": 43.485,
   "groundSamplePoints": [
     [
       -38.44,
@@ -47,7 +47,7 @@
       ],
       "halfLength": 12,
       "halfWidth": 9.45,
-      "height": 44.097,
+      "height": 44.085,
       "gradient": [
         -0.0125,
         0
@@ -66,9 +66,9 @@
       ],
       "halfLength": 12,
       "halfWidth": 9.45,
-      "height": 43.876,
+      "height": 43.86,
       "gradient": [
-        -0.03087,
+        -0.03125,
         0
       ],
       "minLift": 0.05,
@@ -119,20 +119,51 @@
           "type": "onbekend"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/6366978",
+        "tags": {
+          "agricultural": "yes",
+          "alt_name": "Renselbrug",
+          "bicycle": "no",
+          "bridge": "movable",
+          "bridge:movable": "bascule",
+          "carriage": "no",
+          "disabled_vehicle": "no",
+          "foot": "no",
+          "handcart": "no",
+          "highway": "primary",
+          "horse": "no",
+          "lanes": "2",
+          "layer": "1",
+          "maxspeed": "80",
+          "maxspeed:type": "NL:rural",
+          "maxweight:signed": "no",
+          "microcar": "no",
+          "mofa": "no",
+          "moped": "no",
+          "name": "Oostelijke Rondweg",
+          "operator": "Provincie Groningen",
+          "parking:both": "no",
+          "priority_road": "designated",
+          "ref": "N367",
+          "surface": "asphalt",
+          "traffic_sign": "NL:C9,OB55",
+          "zone:traffic": "NL:rural"
+        }
+      },
       "fis": {
         "id": 29596,
         "naam": "Renselbrug",
-        "afstand": 12,
+        "afstand": 5,
         "beweegbaar": true,
         "doorvaarthoogteGesloten": 0.9500000000000001
       },
       "pdokBridgeVlakken": 9
     },
-    "type": "ophaalbrug",
+    "type": "basculebrug",
     "doorvaarthoogte": 0.9500000000000001,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 260000,560000,280000,580000 --run nl-13_13 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map winschoten-renselbrug --plaats winschoten --punt 267189,574386",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -151,8 +182,8 @@
       "oprithelling": 24,
       "doorstekend": [],
       "opritHoogtes": [
-        43.947,
-        43.506
+        43.935,
+        43.485
       ]
     },
     "waarschuwingen": [],

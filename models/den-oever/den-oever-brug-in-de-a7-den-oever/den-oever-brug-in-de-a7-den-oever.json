@@ -113,20 +113,31 @@
           "type": "onbekend"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/601350619",
+        "tags": {
+          "bridge": "movable",
+          "bridge:movable": "swing",
+          "image": "https://photos.app.goo.gl/okRdPQFAg1DrKwLP6",
+          "layer": "1",
+          "man_made": "bridge",
+          "url": "https://youtu.be/RKDc4Xu9-GQ",
+          "bridge:structure": "beam"
+        }
+      },
       "fis": {
         "id": 24230,
         "naam": "Brug in de A7 Den Oever",
-        "afstand": 3,
+        "afstand": 5,
         "beweegbaar": true,
         "doorvaarthoogteGesloten": 1.3000000000000003
       },
       "pdokBridgeVlakken": 8
     },
-    "type": "ophaalbrug",
+    "type": "draaibrug",
     "doorvaarthoogte": 1.3000000000000003,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,540000,140000,560000 --run nl-6_12 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map den-oever-brug-in-de-a7-den-oever --plaats den-oever --punt 131762,549768",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

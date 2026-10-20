@@ -13,7 +13,7 @@
     -0.229991
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 66.38,
+  "groundHeight": 66.375,
   "groundSamplePoints": [
     [
       -7.25,
@@ -30,6 +30,25 @@
   "terrainCorrections": [
     {
       "centre": [
+        138710.31,
+        381746.7
+      ],
+      "axis": [
+        0.973193,
+        -0.229991
+      ],
+      "halfLength": 1.63,
+      "halfWidth": 1.79,
+      "height": 65.794,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.05,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
         138703.98,
         381748.2
       ],
@@ -39,9 +58,9 @@
       ],
       "halfLength": 3.25,
       "halfWidth": 1.94,
-      "height": 66.741,
+      "height": 66.734,
       "gradient": [
-        -0.11127,
+        -0.11059,
         0
       ],
       "minLift": 0.05,
@@ -58,7 +77,7 @@
       ],
       "halfLength": 3.25,
       "halfWidth": 1.94,
-      "height": 66.953,
+      "height": 66.944,
       "gradient": [
         -0.04615,
         0
@@ -96,7 +115,7 @@
     "type": "ophaalbrug",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,380000,140000,400000 --run nl-6_4 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map lage-mierde-brug-af9e7b0e --plaats lage-mierde --punt 138710,381747",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -113,15 +132,25 @@
         4
       ],
       "oprithelling": 6.5,
-      "doorstekend": [],
+      "doorstekend": [
+        {
+          "gmlId": "W0539.883066d5bff6462c91a16541005aadcd",
+          "klasse": "Terrain",
+          "oppervlak": 163,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.05,
+          "actie": "verlagen"
+        }
+      ],
       "opritHoogtes": [
-        66.38,
-        66.803
+        66.375,
+        66.794
       ]
     },
     "waarschuwingen": [
       "geen FIS-brug binnen 35 m",
-      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
     ],
     "gegenereerd": "2026-10-20"
   }

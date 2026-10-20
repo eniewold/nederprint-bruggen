@@ -9,18 +9,14 @@
     443805.79
   ],
   "xAxis": [
-    -0.845426,
-    -0.534092
+    -0.534092,
+    0.845426
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 51.862,
+  "groundHeight": 55.44,
   "groundSamplePoints": [
     [
-      -4.48,
-      0
-    ],
-    [
-      4.48,
+      17.92,
       0
     ]
   ],
@@ -30,56 +26,18 @@
   "terrainCorrections": [
     {
       "centre": [
-        188778.85,
-        443805.79
+        188770.15,
+        443819.56
       ],
       "axis": [
-        -0.845426,
-        -0.534092
+        -0.534092,
+        0.845426
       ],
-      "halfLength": 0.24,
-      "halfWidth": 8.65,
-      "height": 50.876,
+      "halfLength": 8.15,
+      "halfWidth": 0.72,
+      "height": 55.59,
       "gradient": [
-        0,
-        0
-      ],
-      "minLift": -4.54,
-      "maxLift": -0.01
-    },
-    {
-      "centre": [
-        188781.8,
-        443807.65
-      ],
-      "axis": [
-        0.845426,
-        0.534092
-      ],
-      "halfLength": 3,
-      "halfWidth": 10.15,
-      "height": 52.026,
-      "gradient": [
-        -0.05,
-        0
-      ],
-      "minLift": 0.05,
-      "maxLift": 4
-    },
-    {
-      "centre": [
-        188775.91,
-        443803.93
-      ],
-      "axis": [
-        -0.845426,
-        -0.534092
-      ],
-      "halfLength": 3,
-      "halfWidth": 10.15,
-      "height": 52.019,
-      "gradient": [
-        -0.05225,
+        -0.01841,
         0
       ],
       "minLift": 0.05,
@@ -114,40 +72,33 @@
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 180000,440000,200000,460000 --run nl-9_7 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map arnhem-brug-d152b42a --plaats arnhem --punt 188779,443806",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
-      "dekLengte": 1,
-      "dekBreedte": 16.3,
-      "brugLengte": 1,
-      "water": null,
-      "portaalhoogte": 14.7,
+      "dekLengte": 16.3,
+      "dekBreedte": 1,
+      "brugLengte": 16.3,
+      "water": [
+        -8.1,
+        -4.1
+      ],
+      "portaalhoogte": 2.5,
       "opritafstand": [
-        4,
-        4
+        29.3,
+        9.8
       ],
-      "oprithelling": 6,
-      "doorstekend": [
-        {
-          "gmlId": "L0002.79ff131690d545178b65bce132ed9a69",
-          "klasse": "Forest",
-          "oppervlak": 2197.4,
-          "onderDek": 0.01,
-          "bovenDekOnderkant": 3.54,
-          "actie": "verlagen"
-        }
-      ],
+      "oprithelling": 16.3,
+      "doorstekend": [],
       "opritHoogtes": [
-        51.876,
-        51.862
+        null,
+        55.44
       ]
     },
     "waarschuwingen": [
-      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
-      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
-      "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
+      "oprit - zonder PDOK-maaiveld",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

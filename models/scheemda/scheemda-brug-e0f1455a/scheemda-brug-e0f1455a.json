@@ -1,5 +1,5 @@
 {
-  "name": "scheemda-brug-e0f1455a",
+  "name": "Provincialeweg",
   "file": "scheemda-brug-e0f1455a.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -13,7 +13,7 @@
     0.811861
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 45.49,
+  "groundHeight": 45.479,
   "groundSamplePoints": [
     [
       -50.48,
@@ -43,9 +43,9 @@
       ],
       "halfLength": 12,
       "halfWidth": 6.55,
-      "height": 45.675,
+      "height": 45.67,
       "gradient": [
-        -0.01546,
+        -0.01589,
         0
       ],
       "minLift": 0.05,
@@ -98,14 +98,38 @@
           "type": "onbekend"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1283693730",
+        "tags": {
+          "agricultural": "no",
+          "bicycle": "no",
+          "bridge": "yes",
+          "highway": "secondary",
+          "horse": "no",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "80",
+          "microcar": "no",
+          "mofa": "no",
+          "moped": "no",
+          "name": "Provincialeweg",
+          "operator": "Provincie Groningen",
+          "ref": "N964",
+          "sidewalk": "no",
+          "surface": "asphalt",
+          "traffic_sign": "NL:C9",
+          "zone:traffic": "NL:rural",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 5
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 260000,560000,280000,580000 --run nl-13_13 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map scheemda-brug-e0f1455a --plaats scheemda --punt 262940,577037",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -121,7 +145,7 @@
       "oprithelling": 24,
       "doorstekend": [],
       "opritHoogtes": [
-        45.49,
+        45.479,
         45.561
       ]
     },

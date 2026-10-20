@@ -1,5 +1,5 @@
 {
-  "name": "almelo-brug-ef293129",
+  "name": "Van Rechteren Limpurgsingel",
   "file": "almelo-brug-ef293129.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -107,14 +107,30 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/55584452",
+        "tags": {
+          "bridge": "yes",
+          "highway": "primary",
+          "lanes": "2",
+          "layer": "1",
+          "lit": "no",
+          "maxspeed": "80",
+          "maxweight:signed": "no",
+          "name": "Van Rechteren Limpurgsingel",
+          "oneway": "no",
+          "operator": "Gemeente Almelo",
+          "surface": "asphalt",
+          "zone:traffic": "NL:rural"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 3
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,480000,260000,500000 --run nl-12_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map almelo-brug-ef293129 --plaats almelo --punt 242191,488904",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

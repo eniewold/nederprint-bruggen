@@ -26,6 +26,8 @@
   ],
   "replacesTerrain": [
     "G0344.76097068fe7e46b897ca0ebdd08a69fa",
+    "G0344.f07886be6de74ab6be63ddf5a8b004d1",
+    "G0344.c5e79076c1d04f9e88c9034c22913acf",
     "L0004.6d805b480d73459694e8df54faa4528e",
     "G0344.26f08a1652d3497f9a381a19cb0ff358",
     "G0344.5522c99e4094404cb304c6a292996c0e",
@@ -102,6 +104,14 @@
           "type": "dek"
         },
         {
+          "id": "G0344.f07886be6de74ab6be63ddf5a8b004d1",
+          "type": "pijler"
+        },
+        {
+          "id": "G0344.c5e79076c1d04f9e88c9034c22913acf",
+          "type": "pijler"
+        },
+        {
           "id": "L0004.6d805b480d73459694e8df54faa4528e",
           "type": "dek"
         },
@@ -118,9 +128,20 @@
           "type": "pijler"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1244903378",
+        "tags": {
+          "bridge": "yes",
+          "highway": "footway",
+          "layer": "2",
+          "lit": "no",
+          "surface": "asphalt",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
-      "pdokBridgeVlakken": 5
+      "pdokBridgeVlakken": 7
     },
     "type": "ligger",
     "doorvaarthoogte": null,
@@ -128,7 +149,7 @@
       "naam": "utrecht-brug-76097068",
       "straal": 40
     },
-    "opdracht": "node scripts/bridges/genereer.mjs --map brug-76097068 --plaats utrecht --punt 135764.9,456200.51 --naam utrecht-brug-76097068 --straal 40",
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 126435,448710,141834,461610 --run utrecht-2026-10-20 --overschrijf 1 --parallel 5",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -147,7 +168,7 @@
         {
           "gmlId": "L0004.467f30af47ed4732ac881911c354bb3c",
           "klasse": "Road",
-          "oppervlak": 271870.9,
+          "oppervlak": 407807.4,
           "onderDek": 0,
           "bovenDekOnderkant": 1.82,
           "actie": "verlagen"
@@ -234,6 +255,6 @@
       "geen FIS-brug binnen 35 m",
       "10 PDOK-vorm(en) door het dek: 0 verborgen, 10 verlaagd"
     ],
-    "gegenereerd": "2026-10-17"
+    "gegenereerd": "2026-10-20"
   }
 }

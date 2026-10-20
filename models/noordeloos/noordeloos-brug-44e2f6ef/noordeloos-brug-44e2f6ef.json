@@ -13,7 +13,7 @@
     0.309018
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 42.384,
+  "groundHeight": 42.383,
   "groundSamplePoints": [
     [
       -6,
@@ -41,7 +41,7 @@
       "halfWidth": 2.25,
       "height": 42.603,
       "gradient": [
-        -0.07328,
+        -0.07344,
         0
       ],
       "minLift": 0.05,
@@ -78,14 +78,22 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/97684939",
+        "tags": {
+          "access": "private",
+          "bridge": "yes",
+          "highway": "track",
+          "layer": "1"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ophaalbrug",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,420000,140000,440000 --run nl-6_6 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map noordeloos-brug-44e2f6ef --plaats noordeloos --punt 123914,434304",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -104,7 +112,7 @@
       "oprithelling": 6,
       "doorstekend": [],
       "opritHoogtes": [
-        42.384,
+        42.383,
         42.523
       ]
     },
@@ -112,6 +120,6 @@
       "geen FIS-brug binnen 35 m",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

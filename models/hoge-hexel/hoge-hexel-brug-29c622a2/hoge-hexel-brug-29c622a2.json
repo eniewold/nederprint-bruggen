@@ -1,5 +1,5 @@
 {
-  "name": "hoge-hexel-brug-29c622a2",
+  "name": "Wierdenseweg",
   "file": "hoge-hexel-brug-29c622a2.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -97,14 +97,28 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/55610822",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "yes",
+          "foot": "no",
+          "highway": "secondary",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Wierdenseweg",
+          "operator": "Provincie Overijssel",
+          "ref": "N749",
+          "surface": "asphalt"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,480000,240000,500000 --run nl-11_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map hoge-hexel-brug-29c622a2 --plaats hoge-hexel --punt 237335,489462",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

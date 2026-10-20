@@ -1,5 +1,5 @@
 {
-  "name": "bornerbroek-brug-1e7c736c",
+  "name": "Tusveld",
   "file": "bornerbroek-brug-1e7c736c.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -223,14 +223,37 @@
           "type": "onbekend"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/6674908",
+        "tags": {
+          "bridge": "yes",
+          "bridge:name": "Tusveld",
+          "carriageway_ref": "Re",
+          "highway": "motorway",
+          "lanes": "3",
+          "layer": "1",
+          "lit": "no",
+          "maxspeed": "100",
+          "maxspeed:conditional": "120 @ (19:00-06:00)",
+          "noname": "yes",
+          "official_name": "Rijksweg A35",
+          "oneway": "yes",
+          "operator": "Rijkswaterstaat",
+          "placement": "right_of:1",
+          "ref": "A35",
+          "source:name": "NWB",
+          "surface": "asphalt",
+          "toll:hgv": "yes",
+          "turn:lanes": "none|none|slight_right"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 26
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,480000,260000,500000 --run nl-12_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map bornerbroek-brug-1e7c736c --plaats bornerbroek --punt 243710,481537",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

@@ -1,5 +1,5 @@
 {
-  "name": "Muiderspoorbrug",
+  "name": "Gooilijn",
   "file": "muiden-muiderspoorbrug.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -97,11 +97,40 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/529707951",
+        "tags": {
+          "axle_load": "22.5",
+          "bridge": "yes",
+          "description": "Diemen Aansl. - Weesp Aansl.",
+          "electrified": "contact_line",
+          "frequency": "0",
+          "gauge": "1435",
+          "layer": "1",
+          "loading_gauge": "TSI_GB",
+          "maxspeed": "130",
+          "name": "Gooilijn",
+          "operator": "ProRail",
+          "passenger_lines": "4",
+          "railway": "rail",
+          "railway:atb": "yes",
+          "railway:maximum_current": "4000",
+          "railway:track_class": "D4",
+          "ref": "128",
+          "ref:ProRailID": "2893985.0",
+          "ref:ProRailSpoortak": "128_9AV_12.1",
+          "source": "ProRail",
+          "source:date": "2014-01-03",
+          "usage": "main",
+          "voltage": "1500",
+          "wikidata": "Q801845",
+          "wikipedia": "nl:Spoorlijn Amsterdam - Zutphen"
+        }
+      },
       "fis": {
         "id": 53843,
         "naam": "Muiderspoorbrug",
-        "afstand": 22,
+        "afstand": 15,
         "beweegbaar": false,
         "doorvaarthoogteGesloten": 9.110000000000001
       },
@@ -110,7 +139,7 @@
     "type": "ligger",
     "doorvaarthoogte": 9.110000000000001,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map muiden-muiderspoorbrug --plaats muiden --punt 129794,481938",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -132,7 +161,7 @@
         {
           "gmlId": "L0004.1c73795898564343a02582c00e411cb8",
           "klasse": "Road",
-          "oppervlak": 64864.4,
+          "oppervlak": 67682.3,
           "onderDek": 0,
           "bovenDekOnderkant": 1.17,
           "actie": "verlagen"
@@ -155,6 +184,6 @@
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
       "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

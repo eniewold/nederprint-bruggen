@@ -1,5 +1,5 @@
 {
-  "name": "muiden-brug-d5f3faa3",
+  "name": "Buffelhoeve",
   "file": "muiden-brug-d5f3faa3.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -107,14 +107,23 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/422941578",
+        "tags": {
+          "bridge": "viaduct",
+          "layer": "1",
+          "man_made": "bridge",
+          "name": "Buffelhoeve",
+          "operator": "Rijkswaterstaat"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 3
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map muiden-brug-d5f3faa3 --plaats muiden --punt 131901,482442",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -132,7 +141,7 @@
         {
           "gmlId": "L0002.33d33a88611242c1bb3aa04a9a14ed75",
           "klasse": "Terrain",
-          "oppervlak": 7279.1,
+          "oppervlak": 4852.3,
           "onderDek": 0.04,
           "bovenDekOnderkant": 6.82,
           "actie": "verlagen"
@@ -140,7 +149,7 @@
         {
           "gmlId": "L0002.b59c2839f7644813b3128617aeb58379",
           "klasse": "Terrain",
-          "oppervlak": 16333.8,
+          "oppervlak": 10889.4,
           "onderDek": 0.03,
           "bovenDekOnderkant": 6.57,
           "actie": "verlagen"
@@ -148,7 +157,7 @@
         {
           "gmlId": "L0002.85c3a5abb94e41719ba1704f5bdfa697",
           "klasse": "Road",
-          "oppervlak": 15156.3,
+          "oppervlak": 10105.4,
           "onderDek": 0.11,
           "bovenDekOnderkant": 0.59,
           "actie": "verlagen"
@@ -164,6 +173,6 @@
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
       "3 PDOK-vorm(en) door het dek: 0 verborgen, 3 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

@@ -78,14 +78,27 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/377047617",
+        "tags": {
+          "bridge": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "surface": "wood",
+          "bridge:material": "wood",
+          "bridge:structure": "beam",
+          "man_made": "bridge",
+          "operator": "Gemeente Almelo",
+          "website": "https://www.almelo.nl/"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,480000,240000,500000 --run nl-11_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map almelo-brug-dcce05c8 --plaats almelo --punt 239243,483987",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

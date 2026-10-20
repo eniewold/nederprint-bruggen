@@ -1,5 +1,5 @@
 {
-  "name": "gemert-brug-f8b4e135",
+  "name": "Kasteellaan",
   "file": "gemert-brug-f8b4e135.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -13,7 +13,7 @@
     0.949807
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 58.787,
+  "groundHeight": 58.784,
   "groundSamplePoints": [
     [
       -6.81,
@@ -58,9 +58,9 @@
       ],
       "halfLength": 3,
       "halfWidth": 3.45,
-      "height": 58.938,
+      "height": 58.936,
       "gradient": [
-        -0.0502,
+        -0.05076,
         0
       ],
       "minLift": 0.05,
@@ -97,14 +97,22 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/744490309",
+        "tags": {
+          "bridge": "yes",
+          "highway": "footway",
+          "layer": "1",
+          "name": "Kasteellaan"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,380000,180000,400000 --run nl-8_4 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map gemert-brug-f8b4e135 --plaats gemert --punt 175389,396039",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -132,7 +140,7 @@
         }
       ],
       "opritHoogtes": [
-        58.787,
+        58.784,
         58.788
       ]
     },

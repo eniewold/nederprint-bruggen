@@ -1,5 +1,5 @@
 {
-  "name": "driebruggen-brug-277e8437-9",
+  "name": "Hogebrug",
   "file": "driebruggen-brug-277e8437-9.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -39,9 +39,9 @@
       ],
       "halfLength": 3.51,
       "halfWidth": 3.43,
-      "height": 43.399,
+      "height": 43.398,
       "gradient": [
-        -0.11899,
+        -0.11874,
         0
       ],
       "minLift": 0.05,
@@ -58,7 +58,7 @@
       ],
       "halfLength": 3.51,
       "halfWidth": 3.43,
-      "height": 43.667,
+      "height": 43.665,
       "gradient": [
         -0.04271,
         0
@@ -78,14 +78,24 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/7357231",
+        "tags": {
+          "bridge": "yes",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxspeed": "30",
+          "maxwidth": "2.2",
+          "name": "Hogebrug"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ophaalbrug",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,440000,120000,460000 --run nl-5_7 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map driebruggen-brug-277e8437-9 --plaats driebruggen --punt 115010,448847",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -105,13 +115,13 @@
       "doorstekend": [],
       "opritHoogtes": [
         42.981,
-        43.517
+        43.515
       ]
     },
     "waarschuwingen": [
       "geen FIS-brug binnen 35 m",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

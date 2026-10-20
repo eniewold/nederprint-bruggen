@@ -1,5 +1,5 @@
 {
-  "name": "St. Annabrug Delden",
+  "name": "Sint Annabrug",
   "file": "delden-st-annabrug-delden.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -13,7 +13,7 @@
     0.966216
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 66.607,
+  "groundHeight": 66.596,
   "groundSamplePoints": [
     [
       -59.08,
@@ -39,9 +39,9 @@
       ],
       "halfLength": 12,
       "halfWidth": 9.18,
-      "height": 66.79,
+      "height": 66.784,
       "gradient": [
-        -0.01522,
+        -0.01568,
         0
       ],
       "minLift": 0.05,
@@ -78,20 +78,38 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/727810466",
+        "tags": {
+          "bicycle": "no",
+          "bridge": "yes",
+          "bridge:name": "Sint Annabrug",
+          "highway": "secondary",
+          "lanes": "2",
+          "layer": "1",
+          "maxspeed": "80",
+          "maxweight:signed": "no",
+          "name": "Sint Annabrug",
+          "operator": "Provincie Overijssel",
+          "ref": "N740",
+          "surface": "asphalt",
+          "bridge:structure": "arch",
+          "man_made": "bridge"
+        }
+      },
       "fis": {
         "id": 31515,
         "naam": "St. Annabrug Delden",
-        "afstand": 6,
+        "afstand": 5,
         "beweegbaar": false,
         "doorvaarthoogteGesloten": 6.59
       },
       "pdokBridgeVlakken": 1
     },
-    "type": "ligger",
+    "type": "boog",
     "doorvaarthoogte": 6.59,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,460000,260000,480000 --run nl-12_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map delden-st-annabrug-delden --plaats delden --punt 244569,474618",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -110,7 +128,7 @@
       "oprithelling": 24,
       "doorstekend": [],
       "opritHoogtes": [
-        66.607,
+        66.596,
         66.673
       ]
     },

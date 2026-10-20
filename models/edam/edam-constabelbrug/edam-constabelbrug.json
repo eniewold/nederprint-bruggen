@@ -78,11 +78,29 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1199302439",
+        "tags": {
+          "bridge": "movable",
+          "bridge:movable": "drawbridge",
+          "bridge:name": "Constabelbrug",
+          "highway": "residential",
+          "image": "https://images.mapillary.com/J9EsaPMHZ5O8SUKjJxjrF3/thumb-2048.jpg",
+          "layer": "1",
+          "mapillary": "874039736510952",
+          "maxspeed": "30",
+          "maxweight:signed": "no",
+          "name": "Constabelbrug",
+          "oneway": "yes",
+          "oneway:bicycle": "no",
+          "zone:traffic": "NL:urban",
+          "man_made": "bridge"
+        }
+      },
       "fis": {
         "id": 6385,
         "naam": "Constabelbrug",
-        "afstand": 3,
+        "afstand": 4,
         "beweegbaar": true,
         "doorvaarthoogteGesloten": 0.9199999999999999
       },
@@ -91,7 +109,7 @@
     "type": "ophaalbrug",
     "doorvaarthoogte": 0.9199999999999999,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,500000,140000,520000 --run nl-6_10 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map edam-constabelbrug --plaats edam --punt 132032,502691",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -102,7 +120,7 @@
         -2.9,
         3.1
       ],
-      "portaalhoogte": 3.9,
+      "portaalhoogte": 3.8,
       "opritafstand": [
         4.6,
         4.6
@@ -117,6 +135,6 @@
     "waarschuwingen": [
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

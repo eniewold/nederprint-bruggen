@@ -1,5 +1,5 @@
 {
-  "name": "diemen-brug-1b25c0c0",
+  "name": "Spoorviaduct Diemen",
   "file": "diemen-brug-1b25c0c0.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -9,18 +9,18 @@
     482277.25
   ],
   "xAxis": [
-    0.86584,
-    -0.500321
+    -0.8733,
+    0.487183
   ],
   "groundOffsetMetres": 0,
   "groundHeight": 50.424,
   "groundSamplePoints": [
     [
-      -40.41,
+      -40.34,
       0
     ],
     [
-      40.13,
+      40.62,
       0
     ]
   ],
@@ -34,18 +34,18 @@
   "terrainCorrections": [
     {
       "centre": [
-        129184.14,
-        482303.47
+        129275.23,
+        482251.75
       ],
       "axis": [
-        -0.86584,
-        0.500321
+        0.8733,
+        -0.487183
       ],
       "halfLength": 12,
-      "halfWidth": 20.2,
-      "height": 50.571,
+      "halfWidth": 20.13,
+      "height": 50.718,
       "gradient": [
-        -0.01224,
+        0,
         0
       ],
       "minLift": 0.05,
@@ -53,18 +53,18 @@
     },
     {
       "centre": [
-        129274.65,
-        482251.16
+        129183.57,
+        482302.88
       ],
       "axis": [
-        0.86584,
-        -0.500321
+        -0.8733,
+        0.487183
       ],
       "halfLength": 12,
-      "halfWidth": 20.2,
-      "height": 50.718,
+      "halfWidth": 20.13,
+      "height": 50.571,
       "gradient": [
-        0,
+        -0.01224,
         0
       ],
       "minLift": 0.05,
@@ -98,22 +98,56 @@
           "type": "pijler"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/422941551",
+        "tags": {
+          "axle_load": "22.5",
+          "bridge": "yes",
+          "bridge:name": "Spoorviaduct Diemen",
+          "description": "Diemen Aansl. - Weesp Aansl.",
+          "electrified": "contact_line",
+          "frequency": "0",
+          "gauge": "1435",
+          "layer": "1",
+          "loading_gauge": "TSI_GB",
+          "maxspeed": "140",
+          "name": "Spoorviaduct Diemen",
+          "operator": "ProRail",
+          "passenger_lines": "4",
+          "railway": "rail",
+          "railway:atb": "yes",
+          "railway:maximum_current": "4000",
+          "railway:track_class": "D4",
+          "railway:traffic_mode": "mixed",
+          "ref": "128",
+          "ref:ProRailID": "2893092.0",
+          "ref:ProRailSpoortak": "585_1187L_8.3",
+          "source": "ProRail",
+          "source:date": "2014-01-03",
+          "usage": "main",
+          "voltage": "1500",
+          "wikidata": "Q801845",
+          "wikipedia": "nl:Spoorlijn Amsterdam - Zutphen",
+          "bridge:structure": "beam",
+          "man_made": "bridge",
+          "man_made:bridge": "viaduct"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 5
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map diemen-brug-1b25c0c0 --plaats diemen --punt 129230,482277",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
-      "dekLengte": 70.3,
-      "dekBreedte": 36.4,
-      "brugLengte": 80.5,
+      "dekLengte": 70.8,
+      "dekBreedte": 36.3,
+      "brugLengte": 81,
       "water": null,
-      "portaalhoogte": 32.8,
+      "portaalhoogte": 32.6,
       "opritafstand": [
         0,
         0
@@ -122,13 +156,13 @@
       "oprithelling": 24,
       "doorstekend": [],
       "opritHoogtes": [
-        50.424,
-        50.718
+        50.718,
+        50.424
       ]
     },
     "waarschuwingen": [
       "geen FIS-brug binnen 35 m"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

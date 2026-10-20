@@ -9,18 +9,18 @@
     381459.06
   ],
   "xAxis": [
-    0.456223,
-    -0.889865
+    -0.889865,
+    -0.456223
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 68.056,
+  "groundHeight": 62.472,
   "groundSamplePoints": [
     [
-      -42.96,
+      -70.63,
       0
     ],
     [
-      42.95,
+      70.65,
       0
     ]
   ],
@@ -31,23 +31,44 @@
     "L0002.86d2ae8f72504fa2bcb7fd970138ca52",
     "L0002.c095862869974337935cbe1070267d63",
     "L0002.850eeaf4aa1d494286133e4808b9ce17",
-    "L0002.cd3559b12ab445699667267570692ee9"
+    "L0002.cd3559b12ab445699667267570692ee9",
+    "L0002.98bc9fafa1c34f7a9cbde1c1e0cbe985",
+    "G0772.c8393e664adb47d98fc4cc40f262c404"
   ],
   "terrainCorrections": [
     {
       "centre": [
-        157853.26,
-        381490.17
+        157869.21,
+        381459.06
       ],
       "axis": [
-        -0.456223,
-        0.889865
+        -0.889865,
+        -0.456223
+      ],
+      "halfLength": 44.6,
+      "halfWidth": 23.38,
+      "height": 62.196,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -6.75,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        157924.94,
+        381487.63
+      ],
+      "axis": [
+        0.889865,
+        0.456223
       ],
       "halfLength": 12,
-      "halfWidth": 52.6,
-      "height": 68.224,
+      "halfWidth": 24.88,
+      "height": 62.984,
       "gradient": [
-        -0.01406,
+        -0.04269,
         0
       ],
       "minLift": 0.05,
@@ -55,16 +76,16 @@
     },
     {
       "centre": [
-        157885.16,
-        381427.96
+        157813.47,
+        381430.48
       ],
       "axis": [
-        0.456223,
-        -0.889865
+        -0.889865,
+        -0.456223
       ],
       "halfLength": 12,
-      "halfWidth": 52.6,
-      "height": 68.243,
+      "halfWidth": 24.88,
+      "height": 63.346,
       "gradient": [
         -0.0125,
         0
@@ -131,15 +152,18 @@
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,380000,160000,400000 --run nl-7_4 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map eindhoven-brug-0a78a6fb --plaats eindhoven --punt 157869,381459",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
-      "dekLengte": 45.8,
-      "dekBreedte": 101.2,
-      "brugLengte": 45.9,
-      "water": null,
-      "portaalhoogte": 91.1,
+      "dekLengte": 101.2,
+      "dekBreedte": 45.8,
+      "brugLengte": 101.3,
+      "water": [
+        -50.6,
+        -42.1
+      ],
+      "portaalhoogte": 41.2,
       "opritafstand": [
         20,
         20
@@ -150,29 +174,108 @@
           "gmlId": "L0002.850eeaf4aa1d494286133e4808b9ce17",
           "klasse": "Terrain",
           "oppervlak": 486.5,
-          "onderDek": 0.76,
-          "bovenDekOnderkant": 0.95,
+          "onderDek": 0.88,
+          "bovenDekOnderkant": 5.85,
           "actie": "verbergen"
         },
         {
           "gmlId": "L0002.cd3559b12ab445699667267570692ee9",
           "klasse": "Terrain",
           "oppervlak": 481.6,
-          "onderDek": 0.75,
-          "bovenDekOnderkant": 0.93,
+          "onderDek": 0.87,
+          "bovenDekOnderkant": 5.83,
           "actie": "verbergen"
+        },
+        {
+          "gmlId": "L0002.6e30abd8d9ed45cb8642ee959ef4b3d3",
+          "klasse": "Terrain",
+          "oppervlak": 396.6,
+          "onderDek": 0,
+          "bovenDekOnderkant": 5.75,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "L0002.e4a4ccc8fa924427a3dfd519361ef295",
+          "klasse": "Terrain",
+          "oppervlak": 242.7,
+          "onderDek": 0,
+          "bovenDekOnderkant": 5.44,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "L0002.98bc9fafa1c34f7a9cbde1c1e0cbe985",
+          "klasse": "Terrain",
+          "oppervlak": 43,
+          "onderDek": 0.89,
+          "bovenDekOnderkant": 4.87,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "G0772.ee13782559ae4e6cbd5678710f4f3883",
+          "klasse": "Forest",
+          "oppervlak": 2896,
+          "onderDek": 0.13,
+          "bovenDekOnderkant": 4.76,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0772.bf99ef6a4c3a4785accc3873d4f366b4",
+          "klasse": "Forest",
+          "oppervlak": 3305,
+          "onderDek": 0.25,
+          "bovenDekOnderkant": 4.71,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0772.c8393e664adb47d98fc4cc40f262c404",
+          "klasse": "Road",
+          "oppervlak": 49.4,
+          "onderDek": 0.96,
+          "bovenDekOnderkant": 1.33,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "G0772.8f1310c84a514c92aa7c2ac738c8c923",
+          "klasse": "Terrain",
+          "oppervlak": 3200.3,
+          "onderDek": 0.56,
+          "bovenDekOnderkant": 1.1,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0772.407d7ca568254ad8a1916154a84c6cbb",
+          "klasse": "Road",
+          "oppervlak": 1479,
+          "onderDek": 0.57,
+          "bovenDekOnderkant": 0.55,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0861.2becf46d48e948c5aaadc0cdd630ce67",
+          "klasse": "Road",
+          "oppervlak": 4.2,
+          "onderDek": 0.07,
+          "bovenDekOnderkant": 0.55,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0772.3655d69be658490ea35a9190fc7f9c7d",
+          "klasse": "Road",
+          "oppervlak": 4606.9,
+          "onderDek": 0.19,
+          "bovenDekOnderkant": 0.35,
+          "actie": "verlagen"
         }
       ],
       "opritHoogtes": [
-        68.056,
-        68.093
+        62.472,
+        63.196
       ]
     },
     "waarschuwingen": [
-      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
       "geen FIS-brug binnen 35 m",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
-      "2 PDOK-vorm(en) door het dek: 2 verborgen, 0 verlaagd"
+      "12 PDOK-vorm(en) door het dek: 4 verborgen, 8 verlaagd"
     ],
     "gegenereerd": "2026-10-20"
   }

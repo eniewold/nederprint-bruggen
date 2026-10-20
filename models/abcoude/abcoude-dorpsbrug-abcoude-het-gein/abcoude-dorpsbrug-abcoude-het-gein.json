@@ -1,5 +1,5 @@
 {
-  "name": "Dorpsbrug Abcoude (Het Gein)",
+  "name": "Brug Nauwe Gein",
   "file": "abcoude-dorpsbrug-abcoude-het-gein.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -13,7 +13,7 @@
     0.935777
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 43.357,
+  "groundHeight": 43.354,
   "groundSamplePoints": [
     [
       -6.31,
@@ -60,9 +60,9 @@
       ],
       "halfLength": 3,
       "halfWidth": 6.35,
-      "height": 43.696,
+      "height": 43.694,
       "gradient": [
-        -0.113,
+        -0.11348,
         0
       ],
       "minLift": 0.05,
@@ -88,20 +88,40 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1078529457",
+        "tags": {
+          "bridge": "movable",
+          "bridge:name": "Brug Nauwe Gein",
+          "cycleway:both": "no",
+          "highway": "tertiary",
+          "lane_markings": "no",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "30",
+          "maxweight:signed": "no",
+          "name": "Brug Nauwe Gein",
+          "sidewalk": "both",
+          "surface": "concrete",
+          "wikidata": "Q15873565",
+          "wikipedia": "nl:Brug Nauwe Gein",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
       "fis": {
         "id": 7069,
         "naam": "Dorpsbrug Abcoude (Het Gein)",
-        "afstand": 4,
+        "afstand": 3,
         "beweegbaar": true,
         "doorvaarthoogteGesloten": 0.7
       },
       "pdokBridgeVlakken": 3
     },
-    "type": "ophaalbrug",
+    "type": "basculebrug",
     "doorvaarthoogte": 0.7,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,460000,140000,480000 --run nl-6_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map abcoude-dorpsbrug-abcoude-het-gein --plaats abcoude --punt 126833,476069",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -121,12 +141,13 @@
       "doorstekend": [],
       "opritHoogtes": [
         43.735,
-        43.357
+        43.354
       ]
     },
     "waarschuwingen": [
-      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)"
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "bridge=movable zonder mechanisme: basculebrug is een gok"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

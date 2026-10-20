@@ -1,5 +1,5 @@
 {
-  "name": "fleringen-brug-30c4620c",
+  "name": "Putmansweg",
   "file": "fleringen-brug-30c4620c.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -13,7 +13,7 @@
     -0.987299
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 59.007,
+  "groundHeight": 59.006,
   "groundSamplePoints": [
     [
       -8.26,
@@ -39,9 +39,9 @@
       ],
       "halfLength": 3.75,
       "halfWidth": 2.52,
-      "height": 59.171,
+      "height": 59.17,
       "gradient": [
-        -0.04372,
+        -0.04385,
         0
       ],
       "minLift": 0.05,
@@ -78,14 +78,23 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/6664928",
+        "tags": {
+          "bridge": "yes",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Putmansweg"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,480000,260000,500000 --run nl-12_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map fleringen-brug-30c4620c --plaats fleringen --punt 250981,487382",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -104,7 +113,7 @@
       "oprithelling": 7.5,
       "doorstekend": [],
       "opritHoogtes": [
-        59.007,
+        59.006,
         59.035
       ]
     },

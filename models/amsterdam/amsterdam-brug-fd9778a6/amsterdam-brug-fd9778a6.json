@@ -1,5 +1,5 @@
 {
-  "name": "amsterdam-brug-fd9778a6",
+  "name": "Weesperbrug",
   "file": "amsterdam-brug-fd9778a6.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -83,14 +83,30 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/496656016",
+        "tags": {
+          "bridge": "yes",
+          "highway": "footway",
+          "layer": "1",
+          "operator": "Rijkswaterstaat",
+          "owner": "Staat der Nederlanden",
+          "bridge:material": "steel",
+          "bridge:structure": "arch",
+          "man_made": "bridge",
+          "name": "Weesperbrug",
+          "wikidata": "Q14518137",
+          "wikimedia_commons": "Category:Weesperbrug",
+          "wikipedia": "nl:Weesperbrug"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 2
     },
-    "type": "ligger",
+    "type": "boog",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,460000,140000,480000 --run nl-6_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map amsterdam-brug-fd9778a6 --plaats amsterdam --punt 130045,479491",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -116,6 +132,6 @@
     "waarschuwingen": [
       "geen FIS-brug binnen 35 m"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

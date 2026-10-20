@@ -1,5 +1,5 @@
 {
-  "name": "doezum-brug-305dca5a-5",
+  "name": "Peebos",
   "file": "doezum-brug-305dca5a-5.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,29 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/6464626",
+        "tags": {
+          "bridge": "yes",
+          "cycleway": "no",
+          "highway": "tertiary",
+          "lanes": "1",
+          "layer": "1",
+          "maxaxleload": "15",
+          "maxspeed": "60",
+          "name": "Peebos",
+          "passing_places": "no",
+          "smoothness": "intermediate",
+          "surface": "paved"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 200000,560000,220000,580000 --run nl-10_13 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map doezum-brug-305dca5a-5 --plaats doezum --punt 211528,579381",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

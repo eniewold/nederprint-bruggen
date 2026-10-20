@@ -1,5 +1,5 @@
 {
-  "name": "monnickendam-brug-8abeacd5-39",
+  "name": "Middendam",
   "file": "monnickendam-brug-8abeacd5-39.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -97,14 +97,30 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/474870527",
+        "tags": {
+          "bridge": "yes",
+          "cycleway:both": "no",
+          "highway": "tertiary",
+          "lane_markings": "no",
+          "layer": "1",
+          "maxspeed": "30",
+          "maxweight:signed": "no",
+          "name": "Middendam",
+          "smoothness": "intermediate",
+          "surface": "paving_stones",
+          "bridge:structure": "humpback",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
-    "type": "ligger",
+    "type": "bolbrug",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map monnickendam-brug-8abeacd5-39 --plaats monnickendam --punt 131153,496877",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -121,6 +137,7 @@
         7.1
       ],
       "oprithelling": 11.8,
+      "bolling": 1.41,
       "doorstekend": [
         {
           "gmlId": "G0852.8abeacd5439b757600000000a144e9d0",
@@ -157,6 +174,6 @@
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
       "3 PDOK-vorm(en) door het dek: 0 verborgen, 3 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

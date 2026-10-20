@@ -1,5 +1,5 @@
 {
-  "name": "raalte-brug-654eafde",
+  "name": "Heetenseweg",
   "file": "raalte-brug-654eafde.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -39,12 +39,12 @@
       ],
       "halfLength": 4.3,
       "halfWidth": 24.63,
-      "height": 49.773,
+      "height": 49.755,
       "gradient": [
         0,
         0
       ],
-      "minLift": -1.94,
+      "minLift": -1.96,
       "maxLift": -0.01
     },
     {
@@ -58,9 +58,9 @@
       ],
       "halfLength": 8.61,
       "halfWidth": 26.13,
-      "height": 50.767,
+      "height": 50.758,
       "gradient": [
-        -0.03563,
+        -0.03457,
         0
       ],
       "minLift": 0.05,
@@ -77,7 +77,7 @@
       ],
       "halfLength": 8.61,
       "halfWidth": 26.13,
-      "height": 50.923,
+      "height": 50.905,
       "gradient": [
         -0.01742,
         0
@@ -97,14 +97,35 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1374218560",
+        "tags": {
+          "bicycle": "yes",
+          "bridge": "yes",
+          "foot": "yes",
+          "highway": "primary",
+          "lanes": "2",
+          "layer": "1",
+          "maxspeed": "80",
+          "mofa": "yes",
+          "moped": "yes",
+          "name": "Heetenseweg",
+          "operator": "Provincie Overijssel",
+          "parking:lane:both": "no_parking",
+          "priority_road": "designated",
+          "ref": "N332",
+          "surface": "asphalt",
+          "zone:traffic": "NL:rural",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 200000,480000,220000,500000 --run nl-10_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map raalte-brug-654eafde --plaats raalte --punt 215337,485920",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -125,15 +146,15 @@
         {
           "gmlId": "P0023.caccafba0ba64683a703678109457689",
           "klasse": "Road",
-          "oppervlak": 2048.4,
+          "oppervlak": 511.2,
           "onderDek": 0,
-          "bovenDekOnderkant": 0.94,
+          "bovenDekOnderkant": 0.96,
           "actie": "verlagen"
         }
       ],
       "opritHoogtes": [
         50.46,
-        50.773
+        50.755
       ]
     },
     "waarschuwingen": [
@@ -141,6 +162,6 @@
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
       "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "name": "amsterdam-brug-adb49be9",
+  "name": "Aandammerbrug",
   "file": "amsterdam-brug-adb49be9.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -39,7 +39,7 @@
       ],
       "halfLength": 5.63,
       "halfWidth": 2.12,
-      "height": 42.331,
+      "height": 42.328,
       "gradient": [
         -0.02664,
         0
@@ -58,9 +58,9 @@
       ],
       "halfLength": 5.63,
       "halfWidth": 2.12,
-      "height": 42.205,
+      "height": 42.203,
       "gradient": [
-        -0.04899,
+        -0.04869,
         0
       ],
       "minLift": 0.05,
@@ -78,14 +78,25 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/121282999",
+        "tags": {
+          "bridge": "yes",
+          "highway": "unclassified",
+          "layer": "1",
+          "lit": "no",
+          "maxspeed": "60",
+          "maxwidth": "2",
+          "name": "Aandammerbrug"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map amsterdam-brug-adb49be9 --plaats amsterdam --punt 130313,492541",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -104,13 +115,13 @@
       "oprithelling": 11.3,
       "doorstekend": [],
       "opritHoogtes": [
-        42.181,
+        42.178,
         41.929
       ]
     },
     "waarschuwingen": [
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

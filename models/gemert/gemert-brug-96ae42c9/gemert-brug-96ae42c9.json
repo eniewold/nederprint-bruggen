@@ -1,5 +1,5 @@
 {
-  "name": "gemert-brug-96ae42c9",
+  "name": "Drossard Meijerstraat",
   "file": "gemert-brug-96ae42c9.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -97,14 +97,23 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/744490983",
+        "tags": {
+          "bridge": "yes",
+          "highway": "residential",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Drossard Meijerstraat"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,380000,180000,400000 --run nl-8_4 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map gemert-brug-96ae42c9 --plaats gemert --punt 176413,396181",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -125,7 +134,7 @@
         {
           "gmlId": "G1652.7d00adede91c4a95b953f83c177a6f39",
           "klasse": "Forest",
-          "oppervlak": 247,
+          "oppervlak": 123.5,
           "onderDek": 0.03,
           "bovenDekOnderkant": 0.71,
           "actie": "verlagen"

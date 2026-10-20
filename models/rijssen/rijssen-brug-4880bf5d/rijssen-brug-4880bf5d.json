@@ -13,14 +13,14 @@
     -0.993659
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 50.488,
+  "groundHeight": 52.891,
   "groundSamplePoints": [
     [
-      -19.83,
+      -49.01,
       0
     ],
     [
-      19.83,
+      39.01,
       0
     ]
   ],
@@ -28,25 +28,6 @@
     "G1742.4880bf5d67ed4f788995bfd804e18b4a"
   ],
   "terrainCorrections": [
-    {
-      "centre": [
-        232144.71,
-        481059.35
-      ],
-      "axis": [
-        -0.112437,
-        -0.993659
-      ],
-      "halfLength": 4.51,
-      "halfWidth": 4.09,
-      "height": 50.829,
-      "gradient": [
-        0,
-        0
-      ],
-      "minLift": -3.38,
-      "maxLift": -0.01
-    },
     {
       "centre": [
         232146.74,
@@ -58,9 +39,9 @@
       ],
       "halfLength": 9.01,
       "halfWidth": 5.39,
-      "height": 51.979,
+      "height": 53.723,
       "gradient": [
-        -0.01665,
+        -0.0923,
         0
       ],
       "minLift": 0.05,
@@ -77,9 +58,9 @@
       ],
       "halfLength": 9.01,
       "halfWidth": 5.39,
-      "height": 51.308,
+      "height": 54.405,
       "gradient": [
-        -0.09103,
+        -0.01665,
         0
       ],
       "minLift": 0.05,
@@ -97,14 +78,44 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/305454140",
+        "tags": {
+          "axle_load": "22.5",
+          "bridge": "yes",
+          "description": "Deventer - Wierden",
+          "electrified": "contact_line",
+          "frequency": "0",
+          "gauge": "1435",
+          "layer": "1",
+          "loading_gauge": "TSI_GB",
+          "maxspeed": "120",
+          "operator": "ProRail",
+          "passenger_lines": "2",
+          "railway": "rail",
+          "railway:atb": "yes",
+          "railway:atb-eg": "yes",
+          "railway:atb-ng": "no",
+          "railway:etcs": "no",
+          "railway:maximum_current": "4000",
+          "railway:track_class": "D4",
+          "railway:traffic_mode": "mixed",
+          "ref": "024",
+          "ref:ProRailSpoortak": "024_201AL_25.7",
+          "source": "ProRail",
+          "source:date": "2013-07-10",
+          "start_date": "1888-09-01",
+          "usage": "main",
+          "voltage": "1500"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,480000,240000,500000 --run nl-11_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map rijssen-brug-4880bf5d --plaats rijssen --punt 232145,481059",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -114,44 +125,23 @@
       "water": null,
       "portaalhoogte": 6.5,
       "opritafstand": [
-        10.8,
-        10.8
+        40,
+        30
       ],
+      "spoorhoogteBron": "pdok",
       "oprithelling": 18,
-      "doorstekend": [
-        {
-          "gmlId": "G1742.33910cfcd50f495db2fb36cfb81c6a51",
-          "klasse": "Road",
-          "oppervlak": 1399.5,
-          "onderDek": 0.04,
-          "bovenDekOnderkant": 2.38,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "G1742.1c8d68104ac049ed86c600d4846fc026",
-          "klasse": "Terrain",
-          "oppervlak": 7.8,
-          "onderDek": 0.28,
-          "bovenDekOnderkant": 2.26,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "G1742.efdede428a51468c9cc8acfa3e377a2a",
-          "klasse": "Road",
-          "oppervlak": 2731.6,
-          "onderDek": 0.01,
-          "bovenDekOnderkant": 1.91,
-          "actie": "verlagen"
-        }
-      ],
+      "doorstekend": [],
       "opritHoogtes": [
-        51.829,
-        50.488
+        52.891,
+        54.255
       ]
     },
     "waarschuwingen": [
-      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
-      "3 PDOK-vorm(en) door het dek: 0 verborgen, 3 verlaagd"
+      "oprit -: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "oprit - pas op 40 m langs het spoor gemeten (PDOK-spoorterrein bij de brug lager)",
+      "oprit +: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "oprit + pas op 30 m langs het spoor gemeten (PDOK-spoorterrein bij de brug lager)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
     "gegenereerd": "2026-10-20"
   }

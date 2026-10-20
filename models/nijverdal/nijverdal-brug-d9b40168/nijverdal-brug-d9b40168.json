@@ -1,5 +1,5 @@
 {
-  "name": "nijverdal-brug-d9b40168",
+  "name": "Tolhuisbrug",
   "file": "nijverdal-brug-d9b40168.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -88,14 +88,48 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1281818203",
+        "tags": {
+          "agricultural": "no",
+          "bicycle": "no",
+          "bridge": "viaduct",
+          "carriage": "no",
+          "carriageway_ref": "Re",
+          "disabled_vehicle": "no",
+          "foot": "no",
+          "hand_cart": "no",
+          "hazmat:B": "no",
+          "hazmat:C": "no",
+          "hazmat:D": "yes",
+          "hazmat:E": "yes",
+          "highway": "primary",
+          "highway_authority_ref": "Rijksweg 835",
+          "horse": "no",
+          "lanes": "1",
+          "layer": "1",
+          "maxspeed": "80",
+          "microcar": "no",
+          "mofa": "no",
+          "moped": "no",
+          "oneway": "yes",
+          "operator": "Rijkswaterstaat",
+          "ref": "N35",
+          "surface": "asphalt",
+          "traffic_sign": "NL:C9",
+          "zone:traffic": "NL:rural",
+          "man_made": "bridge",
+          "name": "Tolhuisbrug",
+          "year_of_construction": "2015"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 3
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,480000,240000,500000 --run nl-11_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map nijverdal-brug-d9b40168 --plaats nijverdal --punt 229063,486951",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

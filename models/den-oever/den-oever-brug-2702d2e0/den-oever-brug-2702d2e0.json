@@ -1,5 +1,5 @@
 {
-  "name": "den-oever-brug-2702d2e0",
+  "name": "Stontelerweg",
   "file": "den-oever-brug-2702d2e0.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -55,14 +55,25 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1314690809",
+        "tags": {
+          "bridge": "yes",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxaxleload": "4.8 t",
+          "maxspeed": "60",
+          "name": "Stontelerweg",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,540000,140000,560000 --run nl-6_12 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map den-oever-brug-2702d2e0 --plaats den-oever --punt 131420,548458",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

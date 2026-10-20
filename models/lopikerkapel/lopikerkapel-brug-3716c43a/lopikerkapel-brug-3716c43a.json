@@ -1,5 +1,5 @@
 {
-  "name": "lopikerkapel-brug-3716c43a",
+  "name": "Lopikerweg oost",
   "file": "lopikerkapel-brug-3716c43a.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -13,7 +13,7 @@
     -0.623107
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 44.56,
+  "groundHeight": 44.558,
   "groundSamplePoints": [
     [
       -6.73,
@@ -60,7 +60,7 @@
       "halfWidth": 3.9,
       "height": 45.015,
       "gradient": [
-        -0.15182,
+        -0.15208,
         0
       ],
       "minLift": 0.05,
@@ -78,14 +78,25 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/233034025",
+        "tags": {
+          "bridge": "yes",
+          "highway": "service",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Lopikerweg oost",
+          "surface": "concrete",
+          "zone:traffic": "NL:rural"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ophaalbrug",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,440000,140000,460000 --run nl-6_7 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map lopikerkapel-brug-3716c43a --plaats lopikerkapel --punt 131824,445142",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -96,7 +107,7 @@
         -2.2,
         2.3
       ],
-      "portaalhoogte": 4.7,
+      "portaalhoogte": 4.6,
       "opritafstand": [
         4,
         4
@@ -105,13 +116,13 @@
       "doorstekend": [],
       "opritHoogtes": [
         45.171,
-        44.56
+        44.558
       ]
     },
     "waarschuwingen": [
       "geen FIS-brug binnen 35 m",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

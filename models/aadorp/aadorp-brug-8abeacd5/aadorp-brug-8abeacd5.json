@@ -1,5 +1,5 @@
 {
-  "name": "aadorp-brug-8abeacd5",
+  "name": "Bruglaan",
   "file": "aadorp-brug-8abeacd5.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,25 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/249444559",
+        "tags": {
+          "bridge": "yes",
+          "check_date:surface": "2023-09-24",
+          "highway": "cycleway",
+          "layer": "1",
+          "name": "Bruglaan",
+          "oneway": "no",
+          "surface": "wood"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,480000,240000,500000 --run nl-11_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map aadorp-brug-8abeacd5 --plaats aadorp --punt 238947,487636",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

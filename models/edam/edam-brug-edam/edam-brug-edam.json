@@ -1,5 +1,5 @@
 {
-  "name": "Brug Edam",
+  "name": "Trambrug",
   "file": "edam-brug-edam.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,20 +78,37 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/496710507",
+        "tags": {
+          "bridge": "movable",
+          "bridge:movable": "bascule",
+          "bridge:name": "Trambrug",
+          "highway": "unclassified",
+          "historic": "railway",
+          "layer": "1",
+          "maxspeed": "30",
+          "maxweight:signed": "no",
+          "name": "Trambrug",
+          "railway": "abandoned",
+          "man_made": "bridge",
+          "source": "3dShapes",
+          "bridge:structure": "truss"
+        }
+      },
       "fis": {
         "id": 25783,
         "naam": "Brug Edam",
-        "afstand": 31,
+        "afstand": 32,
         "beweegbaar": true,
         "doorvaarthoogteGesloten": 0.9199999999999999
       },
       "pdokBridgeVlakken": 1
     },
-    "type": "ophaalbrug",
+    "type": "basculebrug",
     "doorvaarthoogte": 0.9199999999999999,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,500000,140000,520000 --run nl-6_10 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map edam-brug-edam --plaats edam --punt 131740,502652",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -115,8 +132,9 @@
       ]
     },
     "waarschuwingen": [
+      "OSM zegt truss, gekozen type basculebrug",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

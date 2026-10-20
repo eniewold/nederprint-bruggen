@@ -1,5 +1,5 @@
 {
-  "name": "abcoude-brug-ba7dba3c",
+  "name": "Jan Swinkelsbrug",
   "file": "abcoude-brug-ba7dba3c.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -9,18 +9,18 @@
     476340.36
   ],
   "xAxis": [
-    0.483482,
-    -0.875354
+    -0.875354,
+    -0.483482
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 35.397,
+  "groundHeight": 43.572,
   "groundSamplePoints": [
     [
-      -4.35,
+      -22.41,
       0
     ],
     [
-      4.35,
+      22.41,
       0
     ]
   ],
@@ -30,37 +30,18 @@
   "terrainCorrections": [
     {
       "centre": [
-        127282.42,
-        476340.36
+        127300.25,
+        476350.21
       ],
       "axis": [
-        0.483482,
-        -0.875354
+        0.875354,
+        0.483482
       ],
-      "halfLength": 0.17,
-      "halfWidth": 10.68,
-      "height": 34.447,
+      "halfLength": 10.18,
+      "halfWidth": 0.52,
+      "height": 43.73,
       "gradient": [
-        0,
-        0
-      ],
-      "minLift": -4.81,
-      "maxLift": -0.01
-    },
-    {
-      "centre": [
-        127280.8,
-        476343.3
-      ],
-      "axis": [
-        -0.483482,
-        0.875354
-      ],
-      "halfLength": 3,
-      "halfWidth": 12.18,
-      "height": 35.597,
-      "gradient": [
-        -0.05,
+        -0.01548,
         0
       ],
       "minLift": 0.05,
@@ -68,18 +49,18 @@
     },
     {
       "centre": [
-        127284.04,
-        476337.43
+        127264.59,
+        476330.52
       ],
       "axis": [
-        0.483482,
-        -0.875354
+        -0.875354,
+        -0.483482
       ],
-      "halfLength": 3,
-      "halfWidth": 12.18,
-      "height": 35.572,
+      "halfLength": 10.18,
+      "halfWidth": 0.52,
+      "height": 43.737,
       "gradient": [
-        -0.05832,
+        -0.01473,
         0
       ],
       "minLift": 0.05,
@@ -97,71 +78,60 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/981024597",
+        "tags": {
+          "bridge": "yes",
+          "foot": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "lit": "yes",
+          "mofa": "designated",
+          "moped": "designated",
+          "surface": "fine_gravel",
+          "traffic_sign": "NL:G12a",
+          "width": "3.30",
+          "bridge:structure": "humpback",
+          "building:material": "steel",
+          "colour": "grey",
+          "man_made": "bridge",
+          "name": "Jan Swinkelsbrug",
+          "source": "local survey & PDOK 25 28-08-21",
+          "wikidata": "Q39252912",
+          "wikipedia": "nl:Jan Swinkelsbrug"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
-    "type": "ligger",
+    "type": "bolbrug",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,460000,140000,480000 --run nl-6_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map abcoude-brug-ba7dba3c --plaats abcoude --punt 127282,476340",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
-      "dekLengte": 0.7,
-      "dekBreedte": 20.4,
-      "brugLengte": 0.7,
+      "dekLengte": 20.4,
+      "dekBreedte": 0.7,
+      "brugLengte": 20.4,
       "water": null,
-      "portaalhoogte": 18.3,
+      "portaalhoogte": 2.5,
       "opritafstand": [
-        4,
-        4
+        12.2,
+        12.2
       ],
-      "oprithelling": 6,
-      "doorstekend": [
-        {
-          "gmlId": "L0004.a2912ae55ea840429c4c3625e8dff217",
-          "klasse": "Terrain",
-          "oppervlak": 105.8,
-          "onderDek": 0.01,
-          "bovenDekOnderkant": 3.81,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "L0004.775cd730f3814926a43b8e14828c9646",
-          "klasse": "Terrain",
-          "oppervlak": 176,
-          "onderDek": 0.01,
-          "bovenDekOnderkant": 0.77,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "L0004.a2e9c971a9f64c6eb720f3f6e0cbaadd",
-          "klasse": "Terrain",
-          "oppervlak": 240.3,
-          "onderDek": 0,
-          "bovenDekOnderkant": 0.66,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "L0004.b21e6e6c21f243f79ef6550fa2de0f5c",
-          "klasse": "Terrain",
-          "oppervlak": 111.5,
-          "onderDek": 0.01,
-          "bovenDekOnderkant": 0.33,
-          "actie": "verlagen"
-        }
-      ],
+      "oprithelling": 20.4,
+      "bolling": 2.44,
+      "doorstekend": [],
       "opritHoogtes": [
-        35.447,
-        35.397
+        43.572,
+        43.587
       ]
     },
     "waarschuwingen": [
-      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
-      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
-      "4 PDOK-vorm(en) door het dek: 0 verborgen, 4 verlaagd"
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

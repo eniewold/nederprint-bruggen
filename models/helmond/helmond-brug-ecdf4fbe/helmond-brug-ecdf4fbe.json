@@ -1,5 +1,5 @@
 {
-  "name": "helmond-brug-ecdf4fbe",
+  "name": "Kasteelplein",
   "file": "helmond-brug-ecdf4fbe.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,26 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/107057785",
+        "tags": {
+          "bridge": "yes",
+          "highway": "pedestrian",
+          "layer": "1",
+          "lit": "yes",
+          "name": "Kasteelplein",
+          "smoothness": "intermediate",
+          "surface": "sett",
+          "zone:traffic": "NL:urban"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,380000,180000,400000 --run nl-8_4 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map helmond-brug-ecdf4fbe --plaats helmond --punt 173471,387615",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

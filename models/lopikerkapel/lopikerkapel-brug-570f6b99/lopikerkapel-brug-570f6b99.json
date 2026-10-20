@@ -1,5 +1,5 @@
 {
-  "name": "lopikerkapel-brug-570f6b99",
+  "name": "Kapelsepad",
   "file": "lopikerkapel-brug-570f6b99.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -88,14 +88,24 @@
           "type": "pijler"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/339205305",
+        "tags": {
+          "bridge": "yes",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Kapelsepad",
+          "zone:traffic": "NL:rural"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 3
     },
     "type": "ophaalbrug",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,440000,140000,460000 --run nl-6_7 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map lopikerkapel-brug-570f6b99 --plaats lopikerkapel --punt 131226,444574",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -106,7 +116,7 @@
         -3.6,
         2.9
       ],
-      "portaalhoogte": 10.7,
+      "portaalhoogte": 6.8,
       "opritafstand": [
         6.8,
         6.8
@@ -122,6 +132,6 @@
       "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
       "geen FIS-brug binnen 35 m"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

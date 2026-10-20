@@ -1,5 +1,5 @@
 {
-  "name": "Lange IJzerenbrug",
+  "name": "Lange IJzeren Brug",
   "file": "dordrecht-lange-ijzerenbrug.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,11 +78,25 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/620732349",
+        "tags": {
+          "bridge": "yes",
+          "highway": "pedestrian",
+          "layer": "1",
+          "lit": "yes",
+          "name": "Lange IJzeren Brug",
+          "surface": "wood",
+          "wikidata": "Q2786245",
+          "bridge:structure": "beam",
+          "man_made": "bridge",
+          "wikipedia": "nl:Lange IJzeren Brug"
+        }
+      },
       "fis": {
         "id": 1789,
         "naam": "Lange IJzerenbrug",
-        "afstand": 0,
+        "afstand": 4,
         "beweegbaar": true,
         "doorvaarthoogteGesloten": 0.9800000000000002
       },
@@ -91,7 +105,7 @@
     "type": "ophaalbrug",
     "doorvaarthoogte": 0.9800000000000002,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,420000,120000,440000 --run nl-5_6 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map dordrecht-lange-ijzerenbrug --plaats dordrecht --punt 105092,425486",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -102,7 +116,7 @@
         -28.9,
         29.1
       ],
-      "portaalhoogte": 2.6,
+      "portaalhoogte": 2.5,
       "opritafstand": [
         20,
         20
@@ -117,6 +131,6 @@
     "waarschuwingen": [
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

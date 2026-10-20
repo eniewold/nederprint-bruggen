@@ -1,5 +1,5 @@
 {
-  "name": "Brug Aadorp",
+  "name": "Bruglaan",
   "file": "aadorp-brug-aadorp.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -84,11 +84,27 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/780935788",
+        "tags": {
+          "bridge": "yes",
+          "highway": "tertiary",
+          "lane_markings": "no",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "30",
+          "maxweight:signed": "no",
+          "name": "Bruglaan",
+          "priority": "forward",
+          "surface": "asphalt",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
       "fis": {
         "id": 49753,
         "naam": "Brug Aadorp",
-        "afstand": 3,
+        "afstand": 2,
         "beweegbaar": true,
         "doorvaarthoogteGesloten": 0.7
       },
@@ -97,7 +113,7 @@
     "type": "ophaalbrug",
     "doorvaarthoogte": 0.7,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,480000,240000,500000 --run nl-11_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map aadorp-brug-aadorp --plaats aadorp --punt 239633,488198",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

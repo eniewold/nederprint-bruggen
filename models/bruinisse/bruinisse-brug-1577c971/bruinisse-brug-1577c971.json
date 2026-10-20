@@ -1,5 +1,5 @@
 {
-  "name": "Philipsdam",
+  "name": "bruinisse-brug-1577c971",
   "file": "bruinisse-brug-1577c971.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -9,18 +9,18 @@
     408944.96
   ],
   "xAxis": [
-    0.999473,
-    0.032466
+    0.032466,
+    -0.999473
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 49.19,
+  "groundHeight": 59.236,
   "groundSamplePoints": [
     [
-      -22.62,
+      -348.62,
       0
     ],
     [
-      22.62,
+      348.62,
       0
     ]
   ],
@@ -37,37 +37,18 @@
   "terrainCorrections": [
     {
       "centre": [
-        70226.26,
-        408944.96
+        70215.2,
+        409285.4
       ],
       "axis": [
-        0.999473,
-        0.032466
+        -0.032466,
+        0.999473
       ],
-      "halfLength": 5.14,
-      "halfWidth": 329.12,
-      "height": 48.697,
+      "halfLength": 12,
+      "halfWidth": 12.28,
+      "height": 64.006,
       "gradient": [
-        0,
-        0
-      ],
-      "minLift": -1.28,
-      "maxLift": -0.01
-    },
-    {
-      "centre": [
-        70205.71,
-        408944.29
-      ],
-      "axis": [
-        -0.999473,
-        -0.032466
-      ],
-      "halfLength": 10.28,
-      "halfWidth": 330.62,
-      "height": 49.847,
-      "gradient": [
-        -0.01459,
+        -0.0125,
         0
       ],
       "minLift": 0.05,
@@ -75,18 +56,18 @@
     },
     {
       "centre": [
-        70246.81,
-        408945.63
+        70237.32,
+        408604.52
       ],
       "axis": [
-        0.999473,
-        0.032466
+        0.032466,
+        -0.999473
       ],
-      "halfLength": 10.28,
-      "halfWidth": 330.62,
-      "height": 49.594,
+      "halfLength": 12,
+      "halfWidth": 12.28,
+      "height": 61.696,
       "gradient": [
-        -0.03928,
+        -0.205,
         0
       ],
       "minLift": 0.05,
@@ -132,93 +113,39 @@
           "type": "dek"
         }
       ],
-      "osm": {
-        "id": "way/437511237",
-        "tags": {
-          "agricultural": "no",
-          "bicycle": "no",
-          "bridge": "yes",
-          "carriage": "no",
-          "disabled_vehicle": "no",
-          "foot": "no",
-          "hand_cart": "no",
-          "highway": "primary",
-          "horse": "no",
-          "lanes": "2",
-          "lanes:backward": "1",
-          "lanes:forward": "1",
-          "layer": "1",
-          "lit": "yes",
-          "maxspeed": "80",
-          "microcar": "no",
-          "mofa": "no",
-          "moped": "no",
-          "name": "Philipsdam",
-          "operator": "Provincie Zeeland",
-          "overtaking": "no",
-          "owner": "Staat der Nederlanden",
-          "ref": "N257",
-          "surface": "asphalt",
-          "traffic_sign": "NL:C9",
-          "zone:traffic": "NL:rural"
-        }
-      },
+      "osm": null,
       "fis": null,
       "pdokBridgeVlakken": 8
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 60000,400000,80000,420000 --run nl-3_5 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map bruinisse-brug-1577c971 --plaats bruinisse --punt 70226,408945",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
-      "dekLengte": 20.6,
-      "dekBreedte": 657.2,
-      "brugLengte": 20.6,
-      "water": null,
-      "portaalhoogte": 591.5,
+      "dekLengte": 657.2,
+      "dekBreedte": 20.6,
+      "brugLengte": 657.2,
+      "water": [
+        -51.1,
+        285.4
+      ],
+      "portaalhoogte": 18.5,
       "opritafstand": [
-        12.3,
-        12.3
+        20,
+        20
       ],
-      "oprithelling": 20.6,
-      "doorstekend": [
-        {
-          "gmlId": "L0002.b4278f32feb347c285f90d3dc0bce275",
-          "klasse": "Forest",
-          "oppervlak": 1609.6,
-          "onderDek": 0.1,
-          "bovenDekOnderkant": 0.28,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "L0002.c432eb8a066e459c97b3f12a233b223b",
-          "klasse": "Forest",
-          "oppervlak": 1592.9,
-          "onderDek": 0.1,
-          "bovenDekOnderkant": 0.28,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "L0002.1bb20aaf7c214fd39bcc48a1e4831ed4",
-          "klasse": "Forest",
-          "oppervlak": 1117,
-          "onderDek": 0.12,
-          "bovenDekOnderkant": 0.18,
-          "actie": "verlagen"
-        }
-      ],
+      "oprithelling": 24,
+      "doorstekend": [],
       "opritHoogtes": [
-        49.697,
-        49.19
+        63.856,
+        59.236
       ]
     },
     "waarschuwingen": [
-      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
       "geen FIS-brug binnen 35 m",
-      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
-      "3 PDOK-vorm(en) door het dek: 0 verborgen, 3 verlaagd"
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
     "gegenereerd": "2026-10-20"
   }

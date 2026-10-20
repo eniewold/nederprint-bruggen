@@ -1,5 +1,5 @@
 {
-  "name": "goudswaard-brug-8abeacd5-9",
+  "name": "Stavangerstraat",
   "file": "goudswaard-brug-8abeacd5-9.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,23 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/400823994",
+        "tags": {
+          "bridge": "yes",
+          "highway": "service",
+          "layer": "1",
+          "name": "Stavangerstraat",
+          "service": "driveway"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,400000,100000,420000 --run nl-4_5 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map goudswaard-brug-8abeacd5-9 --plaats goudswaard --punt 81084,419203",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

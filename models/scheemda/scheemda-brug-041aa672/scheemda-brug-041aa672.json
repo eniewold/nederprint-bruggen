@@ -1,5 +1,5 @@
 {
-  "name": "scheemda-brug-041aa672",
+  "name": "Stationsstraat",
   "file": "scheemda-brug-041aa672.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -98,14 +98,30 @@
           "type": "landhoofd"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/6366314",
+        "tags": {
+          "alt_name": "Eexterbrug",
+          "bridge": "movable",
+          "bridge:movable": "bascule",
+          "hgv:backward": "destination",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Stationsstraat",
+          "sidewalk": "both",
+          "smoothness": "good",
+          "surface": "asphalt",
+          "traffic_sign:backward": "NL:C7,NL:OB108"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 5
     },
-    "type": "ophaalbrug",
+    "type": "basculebrug",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 260000,560000,280000,580000 --run nl-13_13 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map scheemda-brug-041aa672 --plaats scheemda --punt 260919,577520",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

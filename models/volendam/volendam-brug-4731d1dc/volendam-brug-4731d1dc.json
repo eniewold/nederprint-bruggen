@@ -1,5 +1,5 @@
 {
-  "name": "volendam-brug-4731d1dc",
+  "name": "Het Noordzeepad",
   "file": "volendam-brug-4731d1dc.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -88,14 +88,26 @@
           "type": "landhoofd"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1349028533",
+        "tags": {
+          "bridge": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "name": "Het Noordzeepad",
+          "smoothness": "excellent",
+          "surface": "asphalt",
+          "width": "4",
+          "zone:traffic": "NL:urban"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 3
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,500000,140000,520000 --run nl-6_10 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map volendam-brug-4731d1dc --plaats volendam --punt 134146,502570",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -119,6 +131,6 @@
       ]
     },
     "waarschuwingen": [],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

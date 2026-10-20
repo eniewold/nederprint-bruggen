@@ -1,5 +1,5 @@
 {
-  "name": "Brug in de N36 Beerzerveld",
+  "name": "Twentseweg",
   "file": "beerzerveld-brug-in-de-n36-beerzerveld.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -103,11 +103,28 @@
           "type": "landhoofd"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/764381516",
+        "tags": {
+          "bridge": "yes",
+          "highway": "trunk",
+          "lanes": "2",
+          "layer": "1",
+          "lit": "no",
+          "maxspeed": "80",
+          "motorroad": "yes",
+          "name": "Twentseweg",
+          "operator": "Rijkswaterstaat",
+          "ref": "N36",
+          "surface": "asphalt",
+          "zone:traffic": "NL:rural",
+          "man_made": "bridge"
+        }
+      },
       "fis": {
         "id": 31959,
         "naam": "Brug in de N36 Beerzerveld",
-        "afstand": 9,
+        "afstand": 7,
         "beweegbaar": false,
         "doorvaarthoogteGesloten": 6.5
       },
@@ -116,7 +133,7 @@
     "type": "ligger",
     "doorvaarthoogte": 6.5,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,500000,240000,520000 --run nl-11_10 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map beerzerveld-brug-in-de-n36-beerzerveld --plaats beerzerveld --punt 236083,501819",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

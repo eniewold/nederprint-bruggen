@@ -1,5 +1,5 @@
 {
-  "name": "oud-beijerland-brug-8abeacd5-16",
+  "name": "Zinkweg N",
   "file": "oud-beijerland-brug-8abeacd5-16.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -97,14 +97,23 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/275065275",
+        "tags": {
+          "access": "private",
+          "bridge": "yes",
+          "highway": "service",
+          "layer": "1",
+          "name": "Zinkweg N"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,420000,100000,440000 --run nl-4_6 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map oud-beijerland-brug-8abeacd5-16 --plaats oud-beijerland --punt 86190,425151",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -125,7 +134,7 @@
         {
           "gmlId": "W0655.8abeacd5439b757600000000a519340f",
           "klasse": "Terrain",
-          "oppervlak": 799.3,
+          "oppervlak": 266.5,
           "onderDek": 0,
           "bovenDekOnderkant": 0.66,
           "actie": "verlagen"

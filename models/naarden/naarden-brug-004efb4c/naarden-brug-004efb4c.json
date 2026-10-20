@@ -1,5 +1,5 @@
 {
-  "name": "naarden-brug-004efb4c",
+  "name": "Flevolijn",
   "file": "naarden-brug-004efb4c.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -9,18 +9,18 @@
     481625
   ],
   "xAxis": [
-    0.842409,
-    0.538839
+    -0.842621,
+    -0.538506
   ],
   "groundOffsetMetres": 0,
   "groundHeight": 56.089,
   "groundSamplePoints": [
     [
-      -34.09,
+      -34.08,
       0
     ],
     [
-      34.08,
+      34.09,
       0
     ]
   ],
@@ -44,18 +44,18 @@
   "terrainCorrections": [
     {
       "centre": [
-        137476.96,
-        481600.16
+        137554.62,
+        481649.81
       ],
       "axis": [
-        -0.842409,
-        -0.538839
+        0.842621,
+        0.538506
       ],
       "halfLength": 12,
-      "halfWidth": 8.7,
-      "height": 56.255,
+      "halfWidth": 8.71,
+      "height": 56.421,
       "gradient": [
-        -0.01383,
+        0,
         0
       ],
       "minLift": 0.05,
@@ -63,18 +63,18 @@
     },
     {
       "centre": [
-        137554.61,
-        481649.83
+        137476.95,
+        481600.18
       ],
       "axis": [
-        0.842409,
-        0.538839
+        -0.842621,
+        -0.538506
       ],
       "halfLength": 12,
-      "halfWidth": 8.7,
-      "height": 56.421,
+      "halfWidth": 8.71,
+      "height": 56.255,
       "gradient": [
-        0,
+        -0.01383,
         0
       ],
       "minLift": 0.05,
@@ -150,14 +150,45 @@
           "type": "pijler"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/425860433",
+        "tags": {
+          "axle_load": "22.5",
+          "bridge": "yes",
+          "description": "Weesp Aansl. - Lelystad Industrieterrein",
+          "electrified": "contact_line",
+          "frequency": "0",
+          "gauge": "1435",
+          "layer": "1",
+          "loading_gauge": "TSI_GB",
+          "maxspeed": "140",
+          "name": "Flevolijn",
+          "operator": "ProRail",
+          "passenger_lines": "2",
+          "railway": "rail",
+          "railway:atb": "yes",
+          "railway:atb-eg": "yes",
+          "railway:atb-ng": "no",
+          "railway:etcs": "no",
+          "railway:maximum_current": "4000",
+          "railway:track_class": "D4",
+          "railway:traffic_mode": "mixed",
+          "ref": "135",
+          "ref:ProRailID": "2889155.0",
+          "ref:ProRailSpoortak": "135_143BV_2.4",
+          "source": "ProRail",
+          "source:date": "2014-01-03",
+          "usage": "main",
+          "voltage": "1500"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 15
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map naarden-brug-004efb4c --plaats naarden --punt 137516,481625",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -174,13 +205,13 @@
       "oprithelling": 24,
       "doorstekend": [],
       "opritHoogtes": [
-        56.089,
-        56.421
+        56.421,
+        56.089
       ]
     },
     "waarschuwingen": [
       "geen FIS-brug binnen 35 m"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

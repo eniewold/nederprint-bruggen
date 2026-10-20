@@ -1,5 +1,5 @@
 {
-  "name": "almelo-brug-291db073",
+  "name": "Joke Smitstraat",
   "file": "almelo-brug-291db073.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,29 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/350181853",
+        "tags": {
+          "bridge": "yes",
+          "highway": "residential",
+          "lanes": "1",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "30",
+          "maxweight:signed": "no",
+          "name": "Joke Smitstraat",
+          "sidewalk": "no",
+          "smoothness": "good",
+          "surface": "asphalt"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,480000,260000,500000 --run nl-12_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map almelo-brug-291db073 --plaats almelo --punt 241738,486250",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

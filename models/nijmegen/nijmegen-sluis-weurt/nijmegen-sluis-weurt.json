@@ -27,6 +27,8 @@
   "replacesTerrain": [
     "G0268.42ff08b2cd2a5775e0530100007f0cc2",
     "L0002.4f8bd1d87995453cabf04af9d026f929",
+    "L0002.7d00d2bcbc2b4d4e8194aa1f6fc17552",
+    "L0002.939532b37f9a425fa2a16e8922fee7d0",
     "L0002.b3c306f9c48a4e4db885898620972887",
     "L0002.c0b85137c21b439e87f042a443b33fe4",
     "L0002.740f8abe24314c0d857bee24aa8529b0",
@@ -107,6 +109,14 @@
           "type": "onbekend"
         },
         {
+          "id": "L0002.7d00d2bcbc2b4d4e8194aa1f6fc17552",
+          "type": "onbekend"
+        },
+        {
+          "id": "L0002.939532b37f9a425fa2a16e8922fee7d0",
+          "type": "onbekend"
+        },
+        {
           "id": "L0002.b3c306f9c48a4e4db885898620972887",
           "type": "onbekend"
         },
@@ -122,30 +132,30 @@
       "osm": {
         "id": "way/706289153",
         "tags": {
-          "bridge": "movable",
-          "bridge:movable": "lift",
+          "bridge": "yes",
           "highway": "cycleway",
           "layer": "1",
           "name": "Sluis Weurt",
           "oneway": "yes",
           "surface": "asphalt",
           "traffic_sign": "NL:G11",
+          "bridge:movable": "lift",
           "man_made": "bridge"
         }
       },
       "fis": {
         "id": 38542494,
         "naam": "Brug over buitenhoofd Westsluis Weurt",
-        "afstand": 6,
+        "afstand": 33,
         "beweegbaar": true,
         "doorvaarthoogteGesloten": 4.289999999999999
       },
-      "pdokBridgeVlakken": 5
+      "pdokBridgeVlakken": 7
     },
     "type": "ophaalbrug",
     "doorvaarthoogte": 4.289999999999999,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 180000,420000,200000,440000 --run nl-9_6 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map nijmegen-sluis-weurt --plaats nijmegen --punt 185021,429664",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -153,7 +163,7 @@
       "dekBreedte": 111.8,
       "brugLengte": 34.4,
       "water": null,
-      "portaalhoogte": 100.6,
+      "portaalhoogte": 3.1,
       "opritafstand": [
         20,
         20
@@ -331,6 +341,6 @@
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
       "20 PDOK-vorm(en) door het dek: 2 verborgen, 18 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

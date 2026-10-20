@@ -41,7 +41,7 @@
       ],
       "halfLength": 36.91,
       "halfWidth": 18.07,
-      "height": 47.051,
+      "height": 47.05,
       "gradient": [
         0,
         0
@@ -62,7 +62,7 @@
       "halfWidth": 19.57,
       "height": 48.007,
       "gradient": [
-        -0.0286,
+        -0.02858,
         0
       ],
       "minLift": 0.05,
@@ -79,7 +79,7 @@
       ],
       "halfLength": 12,
       "halfWidth": 19.57,
-      "height": 48.201,
+      "height": 48.2,
       "gradient": [
         -0.0125,
         0
@@ -103,14 +103,38 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "relation/21655277",
+        "tags": {
+          "bridge": "viaduct",
+          "carriageway_ref": "m",
+          "highway": "motorway",
+          "int_ref": "E 19",
+          "lanes": "3",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "100",
+          "noname": "yes",
+          "not:side_road": "rotary",
+          "official_name": "Rijksweg nr. 16",
+          "oneway": "yes",
+          "operator": "Rijkswaterstaat",
+          "placement": "right_of:1",
+          "ref": "A16",
+          "source:official_name": "NWB",
+          "surface": "asphalt",
+          "toll:hgv": "yes",
+          "turn:lanes": "none|none|merge_to_left",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 2
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,420000,120000,440000 --run nl-5_6 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map dordrecht-brug-ed83c266 --plaats dordrecht --punt 104123,423921",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -160,13 +184,13 @@
       ],
       "opritHoogtes": [
         47.664,
-        48.051
+        48.05
       ]
     },
     "waarschuwingen": [
       "geen FIS-brug binnen 35 m",
       "4 PDOK-vorm(en) door het dek: 1 verborgen, 3 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

@@ -13,7 +13,7 @@
     -0.535567
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 42.991,
+  "groundHeight": 42.979,
   "groundSamplePoints": [
     [
       -35.75,
@@ -64,9 +64,9 @@
       ],
       "halfLength": 12,
       "halfWidth": 10.74,
-      "height": 43.335,
+      "height": 43.329,
       "gradient": [
-        -0.0287,
+        -0.02921,
         0
       ],
       "minLift": 0.05,
@@ -112,20 +112,42 @@
           "type": "pijler"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1078062246",
+        "tags": {
+          "bicycle": "no",
+          "bridge": "movable",
+          "bridge:movable": "bascule",
+          "foot": "no",
+          "highway": "secondary",
+          "lanes": "2",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "50",
+          "mofa": "no",
+          "moped": "no",
+          "name": "Geert Veenhuizenbrug",
+          "name:etymology:wikidata": "Q2249802",
+          "operator": "Provincie Groningen",
+          "ref": "N366",
+          "surface": "asphalt",
+          "traffic_sign": "NL:C15;NL:C16",
+          "man_made": "bridge"
+        }
+      },
       "fis": {
         "id": 27109,
         "naam": "Geert Veenhuizenbrug",
-        "afstand": 4,
+        "afstand": 3,
         "beweegbaar": true,
         "doorvaarthoogteGesloten": 0.38
       },
       "pdokBridgeVlakken": 7
     },
-    "type": "ophaalbrug",
+    "type": "basculebrug",
     "doorvaarthoogte": 0.38,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,560000,260000,580000 --run nl-12_13 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map veendam-geert-veenhuizenbrug --plaats veendam --punt 255562,569480",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -145,7 +167,7 @@
       "doorstekend": [],
       "opritHoogtes": [
         43.38,
-        42.991
+        42.979
       ]
     },
     "waarschuwingen": [],

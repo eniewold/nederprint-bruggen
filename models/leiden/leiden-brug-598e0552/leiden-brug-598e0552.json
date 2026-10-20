@@ -13,15 +13,15 @@
     0.812502
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 47.654,
+  "groundHeight": 47.488,
   "groundSamplePoints": [
     [
-      -18.72,
-      -14.13
+      -8.72,
+      0
     ],
     [
-      28.44,
-      2.04
+      8.44,
+      0
     ]
   ],
   "replacesTerrain": [
@@ -33,7 +33,8 @@
     "G0546.37dd6c0848354fc98b87559bb3b3194a",
     "G0546.ffb071061b3c46329487b385b46c6f43",
     "G0546.f5ac3161a34848c1bb48fde3b3b04732",
-    "G0546.5abc0bd43d3a45f6a697971313ef532c"
+    "G0546.5abc0bd43d3a45f6a697971313ef532c",
+    "G0626.3107ff6675054bc29dff0c2cd894de6f"
   ],
   "terrainCorrections": [
     {
@@ -47,12 +48,12 @@
       ],
       "halfLength": 4.29,
       "halfWidth": 19.68,
-      "height": 46.944,
+      "height": 46.268,
       "gradient": [
         0,
         0
       ],
-      "minLift": -4.63,
+      "minLift": -5.31,
       "maxLift": -0.01
     },
     {
@@ -66,9 +67,9 @@
       ],
       "halfLength": 8.58,
       "halfWidth": 21.18,
-      "height": 47.949,
+      "height": 47.528,
       "gradient": [
-        -0.03437,
+        -0.00466,
         0
       ],
       "minLift": 0.05,
@@ -85,9 +86,9 @@
       ],
       "halfLength": 8.58,
       "halfWidth": 21.18,
-      "height": 48.094,
+      "height": 47.568,
       "gradient": [
-        -0.01748,
+        0,
         0
       ],
       "minLift": 0.05,
@@ -125,7 +126,7 @@
       "naam": "leiden-brug-598e0552",
       "straal": 40
     },
-    "opdracht": "node scripts/bridges/genereer.mjs --uit C:/Users/edwar/AppData/Local/Temp/claude/C--Users-edwar-source-Repos-nederprint/3bd9e161-d515-4f1b-bfbf-c9cc2320f835/scratchpad/rail-batch5 --map brug-598e0552 --plaats leiden --punt 91275.38,462507.13 --naam leiden-brug-598e0552 --straal 40",
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 90100,459364,95921,466645 --run leiden-2026-10-20 --overschrijf 1 --parallel 5",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -135,9 +136,10 @@
       "water": null,
       "portaalhoogte": 34.5,
       "opritafstand": [
-        10,
-        20
+        0,
+        0
       ],
+      "spoorhoogteBron": "prorail-pvs",
       "oprithelling": 17.2,
       "doorstekend": [
         {
@@ -145,7 +147,7 @@
           "klasse": "Road",
           "oppervlak": 479,
           "onderDek": 0.23,
-          "bovenDekOnderkant": 3.63,
+          "bovenDekOnderkant": 4.31,
           "actie": "verlagen"
         },
         {
@@ -153,7 +155,7 @@
           "klasse": "Terrain",
           "oppervlak": 8.1,
           "onderDek": 1,
-          "bovenDekOnderkant": 1.24,
+          "bovenDekOnderkant": 1.92,
           "actie": "verbergen"
         },
         {
@@ -161,7 +163,7 @@
           "klasse": "Terrain",
           "oppervlak": 82.9,
           "onderDek": 1,
-          "bovenDekOnderkant": 1.24,
+          "bovenDekOnderkant": 1.92,
           "actie": "verbergen"
         },
         {
@@ -169,7 +171,7 @@
           "klasse": "Forest",
           "oppervlak": 4.5,
           "onderDek": 0.97,
-          "bovenDekOnderkant": 0.98,
+          "bovenDekOnderkant": 1.66,
           "actie": "verbergen"
         },
         {
@@ -177,7 +179,7 @@
           "klasse": "Forest",
           "oppervlak": 2.2,
           "onderDek": 1,
-          "bovenDekOnderkant": 0.8,
+          "bovenDekOnderkant": 1.47,
           "actie": "verbergen"
         },
         {
@@ -185,7 +187,7 @@
           "klasse": "Forest",
           "oppervlak": 1.6,
           "onderDek": 0.99,
-          "bovenDekOnderkant": 0.65,
+          "bovenDekOnderkant": 1.32,
           "actie": "verbergen"
         },
         {
@@ -193,7 +195,7 @@
           "klasse": "Separation",
           "oppervlak": 1183.5,
           "onderDek": 0,
-          "bovenDekOnderkant": 0.53,
+          "bovenDekOnderkant": 1.2,
           "actie": "verlagen"
         },
         {
@@ -201,19 +203,27 @@
           "klasse": "Terrain",
           "oppervlak": 8,
           "onderDek": 0.96,
-          "bovenDekOnderkant": 0.25,
+          "bovenDekOnderkant": 0.93,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "G0626.3107ff6675054bc29dff0c2cd894de6f",
+          "klasse": "Terrain",
+          "oppervlak": 7.7,
+          "onderDek": 0.96,
+          "bovenDekOnderkant": 0.45,
           "actie": "verbergen"
         }
       ],
       "opritHoogtes": [
-        47.654,
-        47.944
+        47.488,
+        47.568
       ]
     },
     "waarschuwingen": [
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
-      "8 PDOK-vorm(en) door het dek: 6 verborgen, 2 verlaagd"
+      "9 PDOK-vorm(en) door het dek: 7 verborgen, 2 verlaagd"
     ],
-    "gegenereerd": "2026-10-17"
+    "gegenereerd": "2026-10-20"
   }
 }

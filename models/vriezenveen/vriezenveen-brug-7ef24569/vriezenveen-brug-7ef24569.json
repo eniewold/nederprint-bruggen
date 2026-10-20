@@ -1,5 +1,5 @@
 {
-  "name": "vriezenveen-brug-7ef24569",
+  "name": "Katerjanspad",
   "file": "vriezenveen-brug-7ef24569.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -41,7 +41,7 @@
       "halfWidth": 2.1,
       "height": 54.837,
       "gradient": [
-        -0.05433,
+        -0.05432,
         0
       ],
       "minLift": 0.05,
@@ -78,14 +78,30 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/366036214",
+        "tags": {
+          "bridge": "yes",
+          "foot": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "lit": "no",
+          "mofa": "no",
+          "moped": "no",
+          "name": "Katerjanspad",
+          "segregated": "no",
+          "smoothness": "good",
+          "surface": "wood",
+          "traffic_sign": "NL:G13"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,480000,260000,500000 --run nl-12_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map vriezenveen-brug-7ef24569 --plaats vriezenveen --punt 241251,496805",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

@@ -1,5 +1,5 @@
 {
-  "name": "beerzerveld-brug-b4bc2830",
+  "name": "Beerzerhaar",
   "file": "beerzerveld-brug-b4bc2830.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,27 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/339392837",
+        "tags": {
+          "bridge": "yes",
+          "highway": "tertiary",
+          "lanes": "1",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Beerzerhaar",
+          "sidewalk": "no",
+          "smoothness": "good",
+          "surface": "asphalt"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,500000,240000,520000 --run nl-11_10 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map beerzerveld-brug-b4bc2830 --plaats beerzerveld --punt 235682,502502",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

@@ -1,5 +1,5 @@
 {
-  "name": "slootdorp-brug-b6da8f11",
+  "name": "Burgerweg",
   "file": "slootdorp-brug-b6da8f11.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,24 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/6571182",
+        "tags": {
+          "bridge": "yes",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Burgerweg",
+          "wikidata": "Q18980541"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,540000,140000,560000 --run nl-6_12 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map slootdorp-brug-b6da8f11 --plaats slootdorp --punt 129012,546070",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

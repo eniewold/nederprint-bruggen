@@ -1,5 +1,5 @@
 {
-  "name": "vroomshoop-brug-d82855d3",
+  "name": "Dille",
   "file": "vroomshoop-brug-d82855d3.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,23 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/270725594",
+        "tags": {
+          "bridge": "yes",
+          "highway": "residential",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Dille"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,480000,240000,500000 --run nl-11_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map vroomshoop-brug-d82855d3 --plaats vroomshoop --punt 235976,496939",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

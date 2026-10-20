@@ -9,23 +9,24 @@
     586289.44
   ],
   "xAxis": [
-    -0.968766,
-    0.247976
+    0.247976,
+    0.968766
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 40.802,
+  "groundHeight": 44.652,
   "groundSamplePoints": [
     [
-      -12.59,
+      -100.73,
       0
     ],
     [
-      12.59,
+      100.73,
       0
     ]
   ],
   "replacesTerrain": [
-    "P0021.a95a6ed86d88484c8d317eda534daa3d"
+    "P0021.a95a6ed86d88484c8d317eda534daa3d",
+    "P0021.00b4d84b61684992940deb5004104f66"
   ],
   "terrainCorrections": [
     {
@@ -34,33 +35,33 @@
         586289.44
       ],
       "axis": [
-        -0.968766,
-        0.247976
+        0.247976,
+        0.968766
       ],
-      "halfLength": 2.86,
-      "halfWidth": 81.23,
-      "height": 39.83,
+      "halfLength": 74.73,
+      "halfWidth": 6.22,
+      "height": 44.16,
       "gradient": [
         0,
         0
       ],
-      "minLift": -1.86,
+      "minLift": -1.38,
       "maxLift": -0.01
     },
     {
       "centre": [
-        196781.03,
-        586286.6
+        196746.94,
+        586199.6
       ],
       "axis": [
-        0.968766,
-        -0.247976
+        -0.247976,
+        -0.968766
       ],
-      "halfLength": 5.72,
-      "halfWidth": 82.73,
-      "height": 40.966,
+      "halfLength": 12,
+      "halfWidth": 7.72,
+      "height": 45.31,
       "gradient": [
-        -0.0286,
+        -0.0125,
         0
       ],
       "minLift": 0.05,
@@ -68,18 +69,18 @@
     },
     {
       "centre": [
-        196758.85,
-        586292.28
+        196792.94,
+        586379.28
       ],
       "axis": [
-        -0.968766,
-        0.247976
+        0.247976,
+        0.968766
       ],
-      "halfLength": 5.72,
-      "halfWidth": 82.73,
-      "height": 40.98,
+      "halfLength": 12,
+      "halfWidth": 7.72,
+      "height": 45.056,
       "gradient": [
-        -0.02622,
+        -0.03368,
         0
       ],
       "minLift": 0.05,
@@ -104,47 +105,58 @@
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 180000,580000,200000,600000 --run nl-9_14 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map de-falom-brug-96671c93 --plaats de-falom --punt 196770,586289",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
-      "dekLengte": 11.4,
-      "dekBreedte": 161.5,
-      "brugLengte": 11.4,
-      "water": null,
-      "portaalhoogte": 145.3,
-      "opritafstand": [
-        6.9,
-        6.9
+      "dekLengte": 161.5,
+      "dekBreedte": 11.4,
+      "brugLengte": 161.5,
+      "water": [
+        -50.2,
+        63.3
       ],
-      "oprithelling": 11.4,
+      "portaalhoogte": 10.3,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
       "doorstekend": [
         {
-          "gmlId": "L0001.5dc20150ab7e47fc92fdb53edf30174e",
-          "klasse": "Forest",
-          "oppervlak": 22421.8,
-          "onderDek": 0.07,
-          "bovenDekOnderkant": 0.86,
+          "gmlId": "P0021.00b4d84b61684992940deb5004104f66",
+          "klasse": "Terrain",
+          "oppervlak": 5.8,
+          "onderDek": 0.7,
+          "bovenDekOnderkant": 0.41,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "P0021.c5c73ca80b1a4ad981637aa91adfc8b8",
+          "klasse": "Terrain",
+          "oppervlak": 1021,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.38,
           "actie": "verlagen"
         },
         {
-          "gmlId": "G1891.4d0d63887c677a35e053ad1857915464",
+          "gmlId": "P0021.42e284cc3e1d4db8aa133d070d192d50",
           "klasse": "Terrain",
-          "oppervlak": 449.1,
-          "onderDek": 0.09,
-          "bovenDekOnderkant": 0.77,
+          "oppervlak": 336.7,
+          "onderDek": 0.28,
+          "bovenDekOnderkant": 0.09,
           "actie": "verlagen"
         }
       ],
       "opritHoogtes": [
-        40.802,
-        40.83
+        45.16,
+        44.652
       ]
     },
     "waarschuwingen": [
-      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen FIS-brug binnen 35 m",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
-      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+      "3 PDOK-vorm(en) door het dek: 1 verborgen, 2 verlaagd"
     ],
     "gegenereerd": "2026-10-20"
   }

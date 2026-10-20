@@ -13,15 +13,15 @@
     -0.129869
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 45.188,
+  "groundHeight": 45.535,
   "groundSamplePoints": [
     [
-      -17.14,
-      2.11
+      -7.14,
+      0
     ],
     [
-      17.14,
-      -2.11
+      7.14,
+      0
     ]
   ],
   "replacesTerrain": [
@@ -43,9 +43,9 @@
       ],
       "halfLength": 7.14,
       "halfWidth": 16.61,
-      "height": 45.44,
+      "height": 45.538,
       "gradient": [
-        -0.03536,
+        -0.00046,
         0
       ],
       "minLift": 0.05,
@@ -62,9 +62,9 @@
       ],
       "halfLength": 7.14,
       "halfWidth": 16.61,
-      "height": 45.543,
+      "height": 45.541,
       "gradient": [
-        -0.02101,
+        0,
         0
       ],
       "minLift": 0.05,
@@ -107,7 +107,7 @@
       "naam": "harmelen-brug-2aa698a7",
       "straal": 40
     },
-    "opdracht": "node scripts/bridges/genereer.mjs --uit C:/Users/edwar/AppData/Local/Temp/claude/C--Users-edwar-source-Repos-nederprint/3bd9e161-d515-4f1b-bfbf-c9cc2320f835/scratchpad/rail-batch5 --map brug-2aa698a7 --plaats harmelen --punt 126814.16,457564.58 --naam harmelen-brug-2aa698a7 --straal 40",
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 126435,448710,141834,461610 --run utrecht-2026-10-20 --overschrijf 1 --parallel 5",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -120,9 +120,10 @@
       ],
       "portaalhoogte": 26.3,
       "opritafstand": [
-        10,
-        10
+        0,
+        0
       ],
+      "spoorhoogteBron": "prorail-pvs",
       "oprithelling": 14.3,
       "doorstekend": [
         {
@@ -130,7 +131,7 @@
           "klasse": "Terrain",
           "oppervlak": 9.1,
           "onderDek": 1,
-          "bovenDekOnderkant": 1.19,
+          "bovenDekOnderkant": 1.34,
           "actie": "verbergen"
         },
         {
@@ -138,19 +139,18 @@
           "klasse": "Terrain",
           "oppervlak": 9.2,
           "onderDek": 1,
-          "bovenDekOnderkant": 1.15,
+          "bovenDekOnderkant": 1.3,
           "actie": "verbergen"
         }
       ],
       "opritHoogtes": [
-        45.188,
-        45.393
+        45.535,
+        45.541
       ]
     },
     "waarschuwingen": [
-      "oprit -: spoorterrein voorbij 150 m nog 2.4 m hoger (47.6 m); PDOK trekt het spoor hier ver naar beneden, controleer de dekhoogte of geef --opritafstand",
       "2 PDOK-vorm(en) door het dek: 2 verborgen, 0 verlaagd"
     ],
-    "gegenereerd": "2026-10-17"
+    "gegenereerd": "2026-10-20"
   }
 }

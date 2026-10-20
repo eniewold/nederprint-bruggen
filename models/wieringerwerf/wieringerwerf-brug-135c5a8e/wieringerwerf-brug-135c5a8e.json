@@ -1,5 +1,5 @@
 {
-  "name": "wieringerwerf-brug-135c5a8e",
+  "name": "Oom Keesweg",
   "file": "wieringerwerf-brug-135c5a8e.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,25 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/6570463",
+        "tags": {
+          "bridge": "yes",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxaxleload": "4.8",
+          "maxspeed": "60",
+          "name": "Oom Keesweg",
+          "surface": "asphalt"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,540000,140000,560000 --run nl-6_12 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map wieringerwerf-brug-135c5a8e --plaats wieringerwerf --punt 132789,543241",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

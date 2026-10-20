@@ -97,14 +97,21 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1211634278",
+        "tags": {
+          "bridge": "yes",
+          "highway": "footway",
+          "layer": "1"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,480000,240000,500000 --run nl-11_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map nijverdal-brug-aa7a1abd --plaats nijverdal --punt 228908,486732",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -133,7 +140,7 @@
         {
           "gmlId": "G0163.aa7a1abd84d45f67e05309011bac9be1",
           "klasse": "Terrain",
-          "oppervlak": 1910.8,
+          "oppervlak": 955.4,
           "onderDek": 0.01,
           "bovenDekOnderkant": 0.48,
           "actie": "verlagen"

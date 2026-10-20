@@ -1,5 +1,5 @@
 {
-  "name": "enter-brug-29c622a2-22",
+  "name": "Ypeloweg",
   "file": "enter-brug-29c622a2-22.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -13,7 +13,7 @@
     0.700241
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 54.248,
+  "groundHeight": 54.24,
   "groundSamplePoints": [
     [
       -19.7,
@@ -39,9 +39,9 @@
       ],
       "halfLength": 8.95,
       "halfWidth": 6.96,
-      "height": 54.426,
+      "height": 54.422,
       "gradient": [
-        -0.01989,
+        -0.02031,
         0
       ],
       "minLift": 0.05,
@@ -78,14 +78,28 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/56034402",
+        "tags": {
+          "bridge": "yes",
+          "highway": "tertiary",
+          "lanes": "1",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Ypeloweg",
+          "sidewalk": "no",
+          "smoothness": "good",
+          "source:maxspeed": "NL:zone60",
+          "surface": "asphalt"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,480000,240000,500000 --run nl-11_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map enter-brug-29c622a2-22 --plaats enter --punt 237473,482242",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -104,7 +118,7 @@
       "oprithelling": 17.9,
       "doorstekend": [],
       "opritHoogtes": [
-        54.248,
+        54.24,
         54.304
       ]
     },

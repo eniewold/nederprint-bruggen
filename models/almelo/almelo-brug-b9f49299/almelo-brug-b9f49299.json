@@ -1,5 +1,5 @@
 {
-  "name": "almelo-brug-b9f49299",
+  "name": "Gravenallee",
   "file": "almelo-brug-b9f49299.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -13,7 +13,7 @@
     -0.295805
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 54.507,
+  "groundHeight": 54.493,
   "groundSamplePoints": [
     [
       -34.41,
@@ -41,9 +41,9 @@
       ],
       "halfLength": 12,
       "halfWidth": 4.06,
-      "height": 54.782,
+      "height": 54.775,
       "gradient": [
-        -0.02288,
+        -0.02348,
         0
       ],
       "minLift": 0.05,
@@ -88,14 +88,33 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1228028424",
+        "tags": {
+          "bridge": "viaduct",
+          "highway": "residential",
+          "lanes": "1",
+          "layer": "1",
+          "maxspeed": "60",
+          "mofa": "yes",
+          "moped": "yes",
+          "motor_vehicle": "destination",
+          "name": "Gravenallee",
+          "sidewalk": "no",
+          "smoothness": "good",
+          "surface": "asphalt",
+          "traffic_sign": "traffic_sign=NL:C12;NL:OB108;NL:OB109",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 3
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,480000,260000,500000 --run nl-12_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map almelo-brug-b9f49299 --plaats almelo --punt 243052,486522",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -114,7 +133,7 @@
       "oprithelling": 24,
       "doorstekend": [],
       "opritHoogtes": [
-        54.507,
+        54.493,
         54.756
       ]
     },

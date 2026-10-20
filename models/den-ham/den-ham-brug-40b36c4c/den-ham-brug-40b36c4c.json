@@ -1,5 +1,5 @@
 {
-  "name": "den-ham-brug-40b36c4c",
+  "name": "Marleseweg",
   "file": "den-ham-brug-40b36c4c.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,32 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1376188778",
+        "tags": {
+          "bridge": "yes",
+          "foot": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "mofa": "designated",
+          "moped": "designated",
+          "name": "Marleseweg",
+          "oneway": "no",
+          "segregated": "no",
+          "sidewalk": "no",
+          "smoothness": "good",
+          "surface": "asphalt",
+          "traffic_sign": "NL:G12a",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,480000,240000,500000 --run nl-11_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map den-ham-brug-40b36c4c --plaats den-ham --punt 229699,496820",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

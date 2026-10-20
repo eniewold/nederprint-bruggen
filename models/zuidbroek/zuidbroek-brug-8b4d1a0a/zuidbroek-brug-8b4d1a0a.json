@@ -1,5 +1,5 @@
 {
-  "name": "zuidbroek-brug-8b4d1a0a",
+  "name": "Kerkstraat",
   "file": "zuidbroek-brug-8b4d1a0a.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -93,14 +93,30 @@
           "type": "onbekend"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/6382033",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "yes",
+          "destination:backward": "Winschoten;Bad Nieuweschans",
+          "destination:forward": "Hoogezand;Groningen",
+          "foot": "use_sidepath",
+          "highway": "tertiary",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "50",
+          "mofa": "use_sidepath",
+          "name": "Kerkstraat",
+          "surface": "asphalt"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 4
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,560000,260000,580000 --run nl-12_13 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map zuidbroek-brug-8b4d1a0a --plaats zuidbroek --punt 253612,576782",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

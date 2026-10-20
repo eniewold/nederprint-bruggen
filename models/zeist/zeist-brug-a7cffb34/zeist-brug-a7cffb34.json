@@ -1,5 +1,5 @@
 {
-  "name": "zeist-brug-a7cffb34",
+  "name": "Broederplein",
   "file": "zeist-brug-a7cffb34.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -97,14 +97,26 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/80230448",
+        "tags": {
+          "access": "permissive",
+          "bridge": "yes",
+          "highway": "residential",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Broederplein",
+          "note": "Eigen terrein: geen bord verboden toegang. Wel verboden te parkeren.",
+          "surface": "paving_stones"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,440000,160000,460000 --run nl-7_7 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map zeist-brug-a7cffb34 --plaats zeist --punt 144712,454693",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -140,6 +152,6 @@
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
       "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

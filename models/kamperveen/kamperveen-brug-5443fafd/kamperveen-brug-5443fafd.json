@@ -1,5 +1,5 @@
 {
-  "name": "kamperveen-brug-5443fafd",
+  "name": "Nieuwendijkbrug",
   "file": "kamperveen-brug-5443fafd.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -9,18 +9,18 @@
     504360.67
   ],
   "xAxis": [
-    0.926338,
-    -0.376692
+    -0.376692,
+    -0.926338
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 42.332,
+  "groundHeight": 47.652,
   "groundSamplePoints": [
     [
-      -12.07,
+      -203.96,
       0
     ],
     [
-      12.07,
+      203.96,
       0
     ]
   ],
@@ -42,37 +42,18 @@
   "terrainCorrections": [
     {
       "centre": [
-        190264.52,
-        504360.67
+        190338.34,
+        504542.19
       ],
       "axis": [
-        0.926338,
-        -0.376692
+        0.376692,
+        0.926338
       ],
-      "halfLength": 2.29,
-      "halfWidth": 184.46,
-      "height": 41.41,
+      "halfLength": 12,
+      "halfWidth": 6.58,
+      "height": 48.145,
       "gradient": [
-        0,
-        0
-      ],
-      "minLift": -1.82,
-      "maxLift": -0.01
-    },
-    {
-      "centre": [
-        190254.36,
-        504364.8
-      ],
-      "axis": [
-        -0.926338,
-        0.376692
-      ],
-      "halfLength": 5.49,
-      "halfWidth": 185.96,
-      "height": 42.56,
-      "gradient": [
-        -0.02734,
+        -0.0125,
         0
       ],
       "minLift": 0.05,
@@ -80,18 +61,18 @@
     },
     {
       "centre": [
-        190274.69,
-        504356.53
+        190190.71,
+        504179.14
       ],
       "axis": [
-        0.926338,
-        -0.376692
+        -0.376692,
+        -0.926338
       ],
-      "halfLength": 5.49,
-      "halfWidth": 185.96,
-      "height": 42.521,
+      "halfLength": 12,
+      "halfWidth": 6.58,
+      "height": 47.974,
       "gradient": [
-        -0.03439,
+        -0.02678,
         0
       ],
       "minLift": 0.05,
@@ -159,54 +140,56 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/909592125",
+        "tags": {
+          "bridge": "yes",
+          "bridge:structure": "beam",
+          "highway": "tertiary",
+          "lane_markings": "no",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Nieuwendijkbrug",
+          "surface": "asphalt",
+          "zone:traffic": "NL:rural",
+          "area": "yes",
+          "man_made": "bridge",
+          "wikidata": "Q63608463",
+          "wikipedia": "nl:Nieuwendijkbrug (Kampen)"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 13
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 180000,500000,200000,520000 --run nl-9_10 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map kamperveen-brug-5443fafd --plaats kamperveen --punt 190265,504361",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
-      "dekLengte": 9.2,
-      "dekBreedte": 367.9,
-      "brugLengte": 11,
-      "water": null,
-      "portaalhoogte": 331.1,
+      "dekLengte": 367.9,
+      "dekBreedte": 9.2,
+      "brugLengte": 367.9,
+      "water": [
+        -115.5,
+        74.5
+      ],
+      "portaalhoogte": 8.3,
       "opritafstand": [
-        6.6,
-        6.6
+        20,
+        20
       ],
-      "oprithelling": 11,
-      "doorstekend": [
-        {
-          "gmlId": "G0166.ff0107b63f0c4a35a5d543d8838d278e",
-          "klasse": "Forest",
-          "oppervlak": 21276.1,
-          "onderDek": 0.04,
-          "bovenDekOnderkant": 0.82,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "G0166.d37c945d93334324beba2ded5d0986f0",
-          "klasse": "Forest",
-          "oppervlak": 12028.4,
-          "onderDek": 0.04,
-          "bovenDekOnderkant": 0.73,
-          "actie": "verlagen"
-        }
-      ],
+      "oprithelling": 24,
+      "doorstekend": [],
       "opritHoogtes": [
-        42.41,
-        42.332
+        47.995,
+        47.652
       ]
     },
     "waarschuwingen": [
-      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
-      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+      "geen FIS-brug binnen 35 m"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

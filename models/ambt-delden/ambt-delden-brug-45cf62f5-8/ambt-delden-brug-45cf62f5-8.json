@@ -1,5 +1,5 @@
 {
-  "name": "ambt-delden-brug-45cf62f5-8",
+  "name": "Twickelerlaan",
   "file": "ambt-delden-brug-45cf62f5-8.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,30 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/647437708",
+        "tags": {
+          "bridge": "yes",
+          "highway": "unclassified",
+          "lane_markings": "no",
+          "layer": "1",
+          "lit": "no",
+          "maxspeed": "60",
+          "maxweight:signed": "no",
+          "name": "Twickelerlaan",
+          "source:maxspeed": "NL:zone60",
+          "surface": "asphalt",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,460000,260000,480000 --run nl-12_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map ambt-delden-brug-45cf62f5-8 --plaats ambt-delden --punt 244940,478687",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

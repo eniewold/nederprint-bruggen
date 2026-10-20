@@ -1,5 +1,5 @@
 {
-  "name": "saasveld-brug-30c4620c-7",
+  "name": "Dulderbroekweg",
   "file": "saasveld-brug-30c4620c-7.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,23 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/55678362",
+        "tags": {
+          "bridge": "yes",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Dulderbroekweg"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,480000,260000,500000 --run nl-12_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map saasveld-brug-30c4620c-7 --plaats saasveld --punt 249139,484710",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

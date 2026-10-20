@@ -13,7 +13,7 @@
     -0.527531
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 39.964,
+  "groundHeight": 39.95,
   "groundSamplePoints": [
     [
       -8.55,
@@ -58,9 +58,9 @@
       ],
       "halfLength": 3.88,
       "halfWidth": 5.99,
-      "height": 40.152,
+      "height": 40.145,
       "gradient": [
-        -0.04839,
+        -0.05018,
         0
       ],
       "minLift": 0.05,
@@ -97,14 +97,22 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/795013128",
+        "tags": {
+          "bridge": "yes",
+          "highway": "service",
+          "layer": "1",
+          "service": "driveway"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,500000,140000,520000 --run nl-6_10 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map purmer-brug-3d4cd5e6 --plaats purmer --punt 130613,502694",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -132,7 +140,7 @@
         }
       ],
       "opritHoogtes": [
-        39.964,
+        39.95,
         40.04
       ]
     },
@@ -141,6 +149,6 @@
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
       "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

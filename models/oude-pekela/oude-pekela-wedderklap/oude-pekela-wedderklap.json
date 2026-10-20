@@ -1,5 +1,5 @@
 {
-  "name": "Wedderklap",
+  "name": "Wedderweg",
   "file": "oude-pekela-wedderklap.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -83,20 +83,30 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/6368063",
+        "tags": {
+          "bridge": "movable",
+          "bridge:movable": "bascule",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Wedderweg"
+        }
+      },
       "fis": {
         "id": 9974,
         "naam": "Wedderklap",
-        "afstand": 2,
+        "afstand": 1,
         "beweegbaar": true,
         "doorvaarthoogteGesloten": 0.7999999999999999
       },
       "pdokBridgeVlakken": 2
     },
-    "type": "ophaalbrug",
+    "type": "basculebrug",
     "doorvaarthoogte": 0.7999999999999999,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 260000,560000,280000,580000 --run nl-13_13 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map oude-pekela-wedderklap --plaats oude-pekela --punt 263622,569674",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

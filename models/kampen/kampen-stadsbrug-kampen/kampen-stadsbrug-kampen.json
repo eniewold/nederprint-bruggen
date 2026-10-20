@@ -1,5 +1,5 @@
 {
-  "name": "Stadsbrug Kampen",
+  "name": "Stadsbrug",
   "file": "kampen-stadsbrug-kampen.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -88,7 +88,31 @@
           "type": "pijler"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/693824726",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "yes",
+          "bridge:material": "steel",
+          "bridge:name": "Stadsbrug",
+          "foot": "use_sidepath",
+          "hgv": "no",
+          "highway": "tertiary",
+          "lanes": "2",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "50",
+          "mofa": "use_sidepath",
+          "moped": "use_sidepath",
+          "name": "Stadsbrug",
+          "surface": "asphalt",
+          "bridge:movable": "lift",
+          "man_made": "bridge",
+          "start_date": "1999",
+          "wikidata": "Q2372445",
+          "wikipedia": "nl:Stadsbrug (Kampen)"
+        }
+      },
       "fis": {
         "id": 2727,
         "naam": "Stadsbrug Kampen",
@@ -101,7 +125,7 @@
     "type": "ophaalbrug",
     "doorvaarthoogte": 3.7299999999999995,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 180000,500000,200000,520000 --run nl-9_10 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map kampen-stadsbrug-kampen --plaats kampen --punt 191057,508129",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -112,7 +136,7 @@
         -99.7,
         103.8
       ],
-      "portaalhoogte": 18.3,
+      "portaalhoogte": 18.2,
       "opritafstand": [
         20,
         20
@@ -125,6 +149,6 @@
       ]
     },
     "waarschuwingen": [],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

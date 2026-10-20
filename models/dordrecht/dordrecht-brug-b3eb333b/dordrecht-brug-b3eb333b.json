@@ -1,5 +1,5 @@
 {
-  "name": "dordrecht-brug-b3eb333b",
+  "name": "Werf van Spaan",
   "file": "dordrecht-brug-b3eb333b.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -55,14 +55,22 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1168572067",
+        "tags": {
+          "bridge": "yes",
+          "highway": "footway",
+          "layer": "1",
+          "name": "Werf van Spaan"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,420000,120000,440000 --run nl-5_6 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map dordrecht-brug-b3eb333b --plaats dordrecht --punt 106609,425682",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -90,6 +98,6 @@
       "oprit + zonder PDOK-maaiveld",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

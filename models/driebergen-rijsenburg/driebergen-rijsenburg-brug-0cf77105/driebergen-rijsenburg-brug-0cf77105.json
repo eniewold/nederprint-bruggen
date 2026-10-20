@@ -13,7 +13,7 @@
     -0.709684
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 45.956,
+  "groundHeight": 45.942,
   "groundSamplePoints": [
     [
       -6.81,
@@ -39,9 +39,9 @@
       ],
       "halfLength": 3,
       "halfWidth": 1.66,
-      "height": 46.199,
+      "height": 46.192,
       "gradient": [
-        -0.08112,
+        -0.0833,
         0
       ],
       "minLift": 0.05,
@@ -78,14 +78,24 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1043375656",
+        "tags": {
+          "access": "private",
+          "bridge": "yes",
+          "highway": "track",
+          "layer": "1",
+          "tracktype": "grade4",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ophaalbrug",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,440000,160000,460000 --run nl-7_7 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map driebergen-rijsenburg-brug-0cf77105 --plaats driebergen-rijsenburg --punt 147721,448413",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -104,7 +114,7 @@
       "oprithelling": 6,
       "doorstekend": [],
       "opritHoogtes": [
-        45.956,
+        45.942,
         46.142
       ]
     },
@@ -112,6 +122,6 @@
       "geen FIS-brug binnen 35 m",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

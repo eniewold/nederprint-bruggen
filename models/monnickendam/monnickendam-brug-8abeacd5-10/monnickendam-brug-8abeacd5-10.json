@@ -1,5 +1,5 @@
 {
-  "name": "monnickendam-brug-8abeacd5-10",
+  "name": "Dir. Schoonbrood Brug",
   "file": "monnickendam-brug-8abeacd5-10.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,30 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1409740017",
+        "tags": {
+          "bridge": "yes",
+          "highway": "residential",
+          "lane_markings": "no",
+          "layer": "1",
+          "maxspeed": "50",
+          "maxweight:signed": "no",
+          "name": "Dir. Schoonbrood Brug",
+          "sidewalk:both": "yes",
+          "source:maxspeed": "NL:urban",
+          "surface": "asphalt",
+          "bridge:structure": "humpback",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
-    "type": "ligger",
+    "type": "bolbrug",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map monnickendam-brug-8abeacd5-10 --plaats monnickendam --punt 131866,495546",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -102,6 +118,7 @@
         6
       ],
       "oprithelling": 10,
+      "bolling": 1.2,
       "doorstekend": [],
       "opritHoogtes": [
         42.632,
@@ -111,6 +128,6 @@
     "waarschuwingen": [
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

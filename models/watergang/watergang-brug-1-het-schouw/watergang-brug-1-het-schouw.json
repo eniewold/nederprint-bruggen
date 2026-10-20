@@ -1,5 +1,5 @@
 {
-  "name": "Brug 1 Het Schouw",
+  "name": "Kanaaldijk",
   "file": "watergang-brug-1-het-schouw.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -9,18 +9,18 @@
     492928.47
   ],
   "xAxis": [
-    -0.907905,
-    -0.419176
+    -0.419176,
+    0.907905
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 41.797,
+  "groundHeight": 45.926,
   "groundSamplePoints": [
     [
-      -11.79,
+      -41.01,
       0
     ],
     [
-      11.79,
+      41.01,
       0
     ]
   ],
@@ -30,37 +30,18 @@
   "terrainCorrections": [
     {
       "centre": [
-        125383.32,
-        492928.47
+        125397.15,
+        492898.49
       ],
       "axis": [
-        -0.907905,
-        -0.419176
+        0.419176,
+        -0.907905
       ],
-      "halfLength": 2.68,
-      "halfWidth": 21.51,
-      "height": 41.352,
+      "halfLength": 12,
+      "halfWidth": 7.36,
+      "height": 46.386,
       "gradient": [
-        0,
-        0
-      ],
-      "minLift": -6,
-      "maxLift": -0.01
-    },
-    {
-      "centre": [
-        125393.04,
-        492932.96
-      ],
-      "axis": [
-        0.907905,
-        0.419176
-      ],
-      "halfLength": 5.36,
-      "halfWidth": 23.01,
-      "height": 42.224,
-      "gradient": [
-        -0.07985,
+        -0.03831,
         0
       ],
       "minLift": 0.05,
@@ -68,18 +49,18 @@
     },
     {
       "centre": [
-        125373.59,
-        492923.97
+        125369.48,
+        492958.44
       ],
       "axis": [
-        -0.907905,
-        -0.419176
+        -0.419176,
+        0.907905
       ],
-      "halfLength": 5.36,
-      "halfWidth": 23.01,
-      "height": 42.502,
+      "halfLength": 12,
+      "halfWidth": 7.36,
+      "height": 46.696,
       "gradient": [
-        -0.02799,
+        -0.0125,
         0
       ],
       "minLift": 0.05,
@@ -125,80 +106,32 @@
     "type": "ligger",
     "doorvaarthoogte": 4.0600000000000005,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map watergang-brug-1-het-schouw --plaats watergang --punt 125383,492928",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
-      "dekLengte": 10.7,
-      "dekBreedte": 42,
-      "brugLengte": 10.7,
-      "water": null,
-      "portaalhoogte": 37.8,
+      "dekLengte": 42,
+      "dekBreedte": 10.7,
+      "brugLengte": 42,
+      "water": [
+        0.5,
+        10.5
+      ],
+      "portaalhoogte": 9.6,
       "opritafstand": [
-        6.4,
-        6.4
+        20,
+        20
       ],
-      "oprithelling": 10.7,
-      "doorstekend": [
-        {
-          "gmlId": "P0027.9e65b714d70243e888f7d9420ae42caa",
-          "klasse": "Terrain",
-          "oppervlak": 251.3,
-          "onderDek": 0.2,
-          "bovenDekOnderkant": 5,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "P0027.a9856a8a0e1d4d0bae892819c465e33b",
-          "klasse": "Terrain",
-          "oppervlak": 181.7,
-          "onderDek": 0.27,
-          "bovenDekOnderkant": 4.66,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "P0027.d8351c3ba11a4a37ac51c8f3cd7c42ed",
-          "klasse": "Separation",
-          "oppervlak": 30.7,
-          "onderDek": 0.14,
-          "bovenDekOnderkant": 2.9,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "W0651.8abeacd5439b757600000000a1552900",
-          "klasse": "Terrain",
-          "oppervlak": 109.1,
-          "onderDek": 0.23,
-          "bovenDekOnderkant": 0.7,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "W0651.8abeacd5439b757600000000a15528de",
-          "klasse": "Separation",
-          "oppervlak": 29.6,
-          "onderDek": 0.06,
-          "bovenDekOnderkant": 0.7,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "P0027.d5bc7e09fba740ae8cca65d21b1d0286",
-          "klasse": "Terrain",
-          "oppervlak": 112.8,
-          "onderDek": 0.07,
-          "bovenDekOnderkant": 0.2,
-          "actie": "verlagen"
-        }
-      ],
+      "oprithelling": 24,
+      "doorstekend": [],
       "opritHoogtes": [
-        41.797,
-        42.352
+        45.926,
+        46.546
       ]
     },
     "waarschuwingen": [
-      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
-      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
-      "6 PDOK-vorm(en) door het dek: 0 verborgen, 6 verlaagd"
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

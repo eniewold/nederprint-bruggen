@@ -1,5 +1,5 @@
 {
-  "name": "Hefbrug Rondweg",
+  "name": "Rondweg",
   "file": "mijdrecht-hefbrug-rondweg.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -41,7 +41,7 @@
       ],
       "halfLength": 7.26,
       "halfWidth": 11.02,
-      "height": 42.54,
+      "height": 42.534,
       "gradient": [
         -0.02066,
         0
@@ -60,9 +60,9 @@
       ],
       "halfLength": 7.26,
       "halfWidth": 11.02,
-      "height": 42.453,
+      "height": 42.45,
       "gradient": [
-        -0.03257,
+        -0.0322,
         0
       ],
       "minLift": 0.05,
@@ -88,7 +88,18 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/7353849",
+        "tags": {
+          "bridge": "yes",
+          "cycleway:both": "track",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "50",
+          "name": "Rondweg",
+          "surface": "asphalt"
+        }
+      },
       "fis": {
         "id": 58071,
         "naam": "Hefbrug Rondweg",
@@ -101,7 +112,7 @@
     "type": "ophaalbrug",
     "doorvaarthoogte": 1.1,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,460000,120000,480000 --run nl-5_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map mijdrecht-hefbrug-rondweg --plaats mijdrecht --punt 119557,468569",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -112,7 +123,7 @@
         -2.8,
         2.7
       ],
-      "portaalhoogte": 16.2,
+      "portaalhoogte": 14.1,
       "opritafstand": [
         8.7,
         8.7
@@ -120,13 +131,13 @@
       "oprithelling": 14.5,
       "doorstekend": [],
       "opritHoogtes": [
-        42.39,
+        42.384,
         42.217
       ]
     },
     "waarschuwingen": [
       "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

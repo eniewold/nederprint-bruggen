@@ -1,5 +1,5 @@
 {
-  "name": "hellendoorn-brug-2b418631-5",
+  "name": "Hancateweg-Oost",
   "file": "hellendoorn-brug-2b418631-5.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -13,7 +13,7 @@
     0.903721
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 49.719,
+  "groundHeight": 49.716,
   "groundSamplePoints": [
     [
       -25.03,
@@ -39,9 +39,9 @@
       ],
       "halfLength": 11.38,
       "halfWidth": 4.48,
-      "height": 49.898,
+      "height": 49.896,
       "gradient": [
-        -0.01576,
+        -0.01585,
         0
       ],
       "minLift": 0.05,
@@ -78,14 +78,25 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/6430044",
+        "tags": {
+          "bridge": "yes",
+          "cycleway": "shared_lane",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Hancateweg-Oost",
+          "source:maxspeed": "NL:zone60"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,480000,240000,500000 --run nl-11_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map hellendoorn-brug-2b418631-5 --plaats hellendoorn --punt 226965,494867",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -104,7 +115,7 @@
       "oprithelling": 22.8,
       "doorstekend": [],
       "opritHoogtes": [
-        49.719,
+        49.716,
         49.777
       ]
     },

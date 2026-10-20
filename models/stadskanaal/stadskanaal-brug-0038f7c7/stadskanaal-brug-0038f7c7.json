@@ -1,5 +1,5 @@
 {
-  "name": "stadskanaal-brug-0038f7c7",
+  "name": "Buinerweg",
   "file": "stadskanaal-brug-0038f7c7.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -41,7 +41,7 @@
       ],
       "halfLength": 7.09,
       "halfWidth": 9.09,
-      "height": 48.807,
+      "height": 48.805,
       "gradient": [
         -0.02115,
         0
@@ -62,7 +62,7 @@
       "halfWidth": 9.09,
       "height": 48.741,
       "gradient": [
-        -0.03036,
+        -0.03027,
         0
       ],
       "minLift": 0.05,
@@ -88,14 +88,33 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/264575024",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "movable",
+          "bridge:movable": "bascule",
+          "foot": "use_sidepath",
+          "highway": "primary",
+          "lanes": "1",
+          "layer": "1",
+          "maxspeed": "50",
+          "mofa": "use_sidepath",
+          "name": "Buinerweg",
+          "oneway": "yes",
+          "operator": "Provincie Groningen",
+          "ref": "N374",
+          "surface": "asphalt",
+          "zone:traffic": "NL:urban"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 3
     },
-    "type": "ophaalbrug",
+    "type": "basculebrug",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 260000,540000,280000,560000 --run nl-13_12 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map stadskanaal-brug-0038f7c7 --plaats stadskanaal --punt 260906,555892",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -114,7 +133,7 @@
       "oprithelling": 14.2,
       "doorstekend": [],
       "opritHoogtes": [
-        48.657,
+        48.655,
         48.526
       ]
     },

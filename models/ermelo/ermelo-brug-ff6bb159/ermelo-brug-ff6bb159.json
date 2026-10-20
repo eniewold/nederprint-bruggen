@@ -97,14 +97,22 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/220002752",
+        "tags": {
+          "bicycle": "no",
+          "bridge": "yes",
+          "highway": "path",
+          "layer": "1"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,460000,180000,480000 --run nl-8_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map ermelo-brug-ff6bb159 --plaats ermelo --punt 177290,479959",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -125,7 +133,7 @@
         {
           "gmlId": "W0662.b10212ebddda0519e0531529a8c0d34b",
           "klasse": "Terrain",
-          "oppervlak": 275.9,
+          "oppervlak": 138,
           "onderDek": 0.01,
           "bovenDekOnderkant": 0.77,
           "actie": "verlagen"
@@ -133,9 +141,9 @@
         {
           "gmlId": "W0662.b10212ebd9d00519e0531529a8c0d34b",
           "klasse": "Terrain",
-          "oppervlak": 201.9,
+          "oppervlak": 101.2,
           "onderDek": 0.01,
-          "bovenDekOnderkant": 0.21,
+          "bovenDekOnderkant": 0.19,
           "actie": "verlagen"
         }
       ],
@@ -148,6 +156,6 @@
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
       "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

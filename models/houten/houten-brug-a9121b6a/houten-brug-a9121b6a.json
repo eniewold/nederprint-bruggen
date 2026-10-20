@@ -13,14 +13,14 @@
     0.925247
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 47.923,
+  "groundHeight": 48.261,
   "groundSamplePoints": [
     [
-      -119.1,
-      -6.73
+      -109.1,
+      0
     ],
     [
-      129.12,
+      109.12,
       0
     ]
   ],
@@ -41,12 +41,12 @@
       ],
       "halfLength": 103.11,
       "halfWidth": 16.51,
-      "height": 47.395,
+      "height": 46.974,
       "gradient": [
         0,
         0
       ],
-      "minLift": -2.67,
+      "minLift": -3.09,
       "maxLift": -0.01
     },
     {
@@ -60,9 +60,9 @@
       ],
       "halfLength": 12,
       "halfWidth": 18.01,
-      "height": 48.545,
+      "height": 48.267,
       "gradient": [
-        -0.0125,
+        -0.00051,
         0
       ],
       "minLift": 0.05,
@@ -79,9 +79,9 @@
       ],
       "halfLength": 12,
       "halfWidth": 18.01,
-      "height": 48.309,
+      "height": 48.274,
       "gradient": [
-        -0.03214,
+        0,
         0
       ],
       "minLift": 0.05,
@@ -119,8 +119,8 @@
           "railway:track_class": "D4",
           "railway:traffic_mode": "mixed",
           "ref": "117",
-          "ref:ProRailID": "2887720.0",
-          "ref:ProRailSpoortak": "117_1847R_6.3",
+          "ref:ProRailID": "2887715.0",
+          "ref:ProRailSpoortak": "117_1843L_6.3",
           "source": "ProRail",
           "source:date": "2014-01-03",
           "usage": "main",
@@ -137,7 +137,7 @@
       "naam": "houten-brug-a9121b6a",
       "straal": 40
     },
-    "opdracht": "node scripts/bridges/genereer.mjs --uit C:/Users/edwar/AppData/Local/Temp/claude/C--Users-edwar-source-Repos-nederprint/3bd9e161-d515-4f1b-bfbf-c9cc2320f835/scratchpad/rail-batch5 --map brug-a9121b6a --plaats houten --punt 139965.54,449549.15 --naam houten-brug-a9121b6a --straal 40",
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 126435,448710,141834,461610 --run utrecht-2026-10-20 --overschrijf 1 --parallel 5",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -150,9 +150,10 @@
       ],
       "portaalhoogte": 28.8,
       "opritafstand": [
-        10,
-        20
+        0,
+        0
       ],
+      "spoorhoogteBron": "prorail-pvs",
       "oprithelling": 24,
       "doorstekend": [
         {
@@ -160,7 +161,7 @@
           "klasse": "Separation",
           "oppervlak": 388.7,
           "onderDek": 0,
-          "bovenDekOnderkant": 1.67,
+          "bovenDekOnderkant": 2.09,
           "actie": "verlagen"
         },
         {
@@ -168,7 +169,7 @@
           "klasse": "Terrain",
           "oppervlak": 35.1,
           "onderDek": 0,
-          "bovenDekOnderkant": 1.3,
+          "bovenDekOnderkant": 1.72,
           "actie": "verlagen"
         },
         {
@@ -176,7 +177,7 @@
           "klasse": "Road",
           "oppervlak": 1309.6,
           "onderDek": 0.02,
-          "bovenDekOnderkant": 0.94,
+          "bovenDekOnderkant": 1.37,
           "actie": "verlagen"
         },
         {
@@ -184,7 +185,7 @@
           "klasse": "Road",
           "oppervlak": 48.7,
           "onderDek": 0.91,
-          "bovenDekOnderkant": 0.34,
+          "bovenDekOnderkant": 0.76,
           "actie": "verbergen"
         },
         {
@@ -192,7 +193,7 @@
           "klasse": "Terrain",
           "oppervlak": 23.2,
           "onderDek": 0.44,
-          "bovenDekOnderkant": 0.3,
+          "bovenDekOnderkant": 0.72,
           "actie": "verlagen"
         },
         {
@@ -200,7 +201,7 @@
           "klasse": "Terrain",
           "oppervlak": 46,
           "onderDek": 0.44,
-          "bovenDekOnderkant": 0.21,
+          "bovenDekOnderkant": 0.63,
           "actie": "verlagen"
         },
         {
@@ -208,20 +209,28 @@
           "klasse": "Road",
           "oppervlak": 54.1,
           "onderDek": 0.89,
-          "bovenDekOnderkant": 0.11,
+          "bovenDekOnderkant": 0.53,
           "actie": "verbergen"
+        },
+        {
+          "gmlId": "G0321.201986fbdedd4395baf2f4a8738b2af5",
+          "klasse": "Road",
+          "oppervlak": 941,
+          "onderDek": 0.29,
+          "bovenDekOnderkant": 0.31,
+          "actie": "verlagen"
         }
       ],
       "opritHoogtes": [
-        48.395,
-        47.923
+        48.261,
+        48.274
       ]
     },
     "waarschuwingen": [
       "geen FIS-brug binnen 35 m",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
-      "7 PDOK-vorm(en) door het dek: 2 verborgen, 5 verlaagd"
+      "8 PDOK-vorm(en) door het dek: 2 verborgen, 6 verlaagd"
     ],
-    "gegenereerd": "2026-10-17"
+    "gegenereerd": "2026-10-20"
   }
 }

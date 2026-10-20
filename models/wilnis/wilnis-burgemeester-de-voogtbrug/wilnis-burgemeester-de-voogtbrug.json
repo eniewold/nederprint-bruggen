@@ -1,5 +1,5 @@
 {
-  "name": "Burgemeester de Voogtbrug",
+  "name": "Burg. de Voogtbrug",
   "file": "wilnis-burgemeester-de-voogtbrug.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -40,9 +40,9 @@
       ],
       "halfLength": 3,
       "halfWidth": 2.47,
-      "height": 41.763,
+      "height": 41.761,
       "gradient": [
-        -0.08401,
+        -0.08328,
         0
       ],
       "minLift": 0.05,
@@ -59,7 +59,7 @@
       ],
       "halfLength": 3,
       "halfWidth": 2.47,
-      "height": 41.865,
+      "height": 41.861,
       "gradient": [
         -0.05,
         0
@@ -83,20 +83,33 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/377304626",
+        "tags": {
+          "bridge": "movable",
+          "bridge:movable": "bascule",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxaxleload": "4.8",
+          "maxspeed": "30",
+          "maxwidth": "2.3",
+          "name": "Burg. de Voogtbrug",
+          "man_made": "bridge"
+        }
+      },
       "fis": {
         "id": 58696,
         "naam": "Burgemeester de Voogtbrug",
-        "afstand": 20,
+        "afstand": 21,
         "beweegbaar": true,
         "doorvaarthoogteGesloten": 0.8799999999999999
       },
       "pdokBridgeVlakken": 2
     },
-    "type": "ophaalbrug",
+    "type": "basculebrug",
     "doorvaarthoogte": 0.8799999999999999,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,460000,140000,480000 --run nl-6_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map wilnis-burgemeester-de-voogtbrug --plaats wilnis --punt 120741,467767",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -116,10 +129,10 @@
       "doorstekend": [],
       "opritHoogtes": [
         41.511,
-        41.715
+        41.711
       ]
     },
     "waarschuwingen": [],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "name": "zwijndrecht-brug-00e8fc63",
+  "name": "Develbrug",
   "file": "zwijndrecht-brug-00e8fc63.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -97,14 +97,27 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1237770679",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "yes",
+          "highway": "secondary",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "50",
+          "name": "Develbrug",
+          "surface": "asphalt",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,420000,120000,440000 --run nl-5_6 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map zwijndrecht-brug-00e8fc63 --plaats zwijndrecht --punt 101937,425580",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -125,7 +138,7 @@
         {
           "gmlId": "G0642.baede01cc894459eb8e8c79be72e045b",
           "klasse": "Terrain",
-          "oppervlak": 5353.3,
+          "oppervlak": 3568.5,
           "onderDek": 0.08,
           "bovenDekOnderkant": 0.25,
           "actie": "verlagen"
@@ -141,6 +154,6 @@
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
       "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

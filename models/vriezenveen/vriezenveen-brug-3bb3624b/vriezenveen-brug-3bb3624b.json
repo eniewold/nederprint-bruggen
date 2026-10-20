@@ -1,5 +1,5 @@
 {
-  "name": "vriezenveen-brug-3bb3624b",
+  "name": "Knuppelpad",
   "file": "vriezenveen-brug-3bb3624b.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -98,14 +98,22 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/864663309",
+        "tags": {
+          "bridge": "boardwalk",
+          "highway": "path",
+          "name": "Knuppelpad",
+          "surface": "wood"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,480000,260000,500000 --run nl-12_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map vriezenveen-brug-3bb3624b --plaats vriezenveen --punt 240244,495890",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -123,7 +131,7 @@
         {
           "gmlId": "G1700.4a3bd2d97506440598bebfeb1849335e",
           "klasse": "Forest",
-          "oppervlak": 22608.2,
+          "oppervlak": 11304,
           "onderDek": 0,
           "bovenDekOnderkant": 0.73,
           "actie": "verlagen"

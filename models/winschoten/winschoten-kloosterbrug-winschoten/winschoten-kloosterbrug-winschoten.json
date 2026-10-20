@@ -1,5 +1,5 @@
 {
-  "name": "Kloosterbrug Winschoten",
+  "name": "Kloosterbrug",
   "file": "winschoten-kloosterbrug-winschoten.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -139,20 +139,38 @@
           "type": "pijler"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/533972652",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "movable",
+          "bridge:movable": "bascule",
+          "foot": "use_sidepath",
+          "highway": "secondary",
+          "lanes": "2",
+          "layer": "1",
+          "maxspeed": "50",
+          "mofa": "use_sidepath",
+          "moped": "use_sidepath",
+          "name": "Kloosterbrug",
+          "operator": "Provincie Groningen",
+          "ref": "N964",
+          "zone:traffic": "NL:urban"
+        }
+      },
       "fis": {
         "id": 8676,
         "naam": "Kloosterbrug Winschoten",
-        "afstand": 2,
+        "afstand": 3,
         "beweegbaar": true,
         "doorvaarthoogteGesloten": 0.9500000000000001
       },
       "pdokBridgeVlakken": 9
     },
-    "type": "ophaalbrug",
+    "type": "basculebrug",
     "doorvaarthoogte": 0.9500000000000001,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 260000,560000,280000,580000 --run nl-13_13 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map winschoten-kloosterbrug-winschoten --plaats winschoten --punt 264443,576233",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

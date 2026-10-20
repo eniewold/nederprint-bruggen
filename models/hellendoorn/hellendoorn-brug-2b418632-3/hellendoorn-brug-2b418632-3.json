@@ -1,5 +1,5 @@
 {
-  "name": "hellendoorn-brug-2b418632-3",
+  "name": "Overwaterbrug",
   "file": "hellendoorn-brug-2b418632-3.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,33 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1364296839",
+        "tags": {
+          "bridge": "yes",
+          "foot": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "mofa": "no",
+          "moped": "no",
+          "oneway": "no",
+          "surface": "wood",
+          "traffic_sign": "NL:G13",
+          "bridge:movable": "no",
+          "bridge:structure": "beam",
+          "man_made": "bridge",
+          "material": "wood",
+          "name": "Overwaterbrug",
+          "start_date": "2011"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
-    "type": "ligger",
+    "type": "ophaalbrug",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,480000,240000,500000 --run nl-11_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map hellendoorn-brug-2b418632-3 --plaats hellendoorn --punt 228198,489610",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

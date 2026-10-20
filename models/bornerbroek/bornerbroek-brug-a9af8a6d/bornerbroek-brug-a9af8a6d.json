@@ -1,5 +1,5 @@
 {
-  "name": "bornerbroek-brug-a9af8a6d",
+  "name": "Tusveld",
   "file": "bornerbroek-brug-a9af8a6d.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,24 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/766937698",
+        "tags": {
+          "bridge": "yes",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Tusveld",
+          "source:maxspeed": "NL:zone60"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,480000,260000,500000 --run nl-12_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map bornerbroek-brug-a9af8a6d --plaats bornerbroek --punt 244138,481952",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

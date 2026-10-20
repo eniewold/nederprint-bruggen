@@ -117,20 +117,29 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/945246923",
+        "tags": {
+          "bridge": "movable",
+          "bridge:movable": "swing",
+          "highway": "path",
+          "layer": "1",
+          "man_made": "bridge"
+        }
+      },
       "fis": {
         "id": 24874,
         "naam": "Fietsbrug Oosterwolde",
-        "afstand": 2,
+        "afstand": 1,
         "beweegbaar": true,
         "doorvaarthoogteGesloten": 1.7
       },
       "pdokBridgeVlakken": 8
     },
-    "type": "ophaalbrug",
+    "type": "draaibrug",
     "doorvaarthoogte": 1.7,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 200000,540000,220000,560000 --run nl-10_12 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map oosterwolde-fietsbrug-oosterwolde --plaats oosterwolde --punt 216000,556354",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

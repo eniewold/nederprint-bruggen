@@ -44,7 +44,7 @@
         0,
         0
       ],
-      "minLift": -1.13,
+      "minLift": -1.12,
       "maxLift": -0.01
     },
     {
@@ -97,14 +97,22 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/665622479",
+        "tags": {
+          "bridge": "yes",
+          "highway": "service",
+          "layer": "1",
+          "service": "driveway"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 200000,560000,220000,580000 --run nl-10_13 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map doezum-brug-305dca5a-3 --plaats doezum --punt 211521,578219",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -125,15 +133,15 @@
         {
           "gmlId": "G1969.cd97fde7b6bc62f6e053650013ac075f",
           "klasse": "Terrain",
-          "oppervlak": 974.1,
+          "oppervlak": 418.9,
           "onderDek": 0.01,
-          "bovenDekOnderkant": 0.13,
+          "bovenDekOnderkant": 0.12,
           "actie": "verlagen"
         },
         {
           "gmlId": "G0015.305dca5a57f18d93e053660013ac9a1a",
           "klasse": "Terrain",
-          "oppervlak": 910.2,
+          "oppervlak": 390.8,
           "onderDek": 0.02,
           "bovenDekOnderkant": 0.06,
           "actie": "verlagen"

@@ -1,5 +1,5 @@
 {
-  "name": "wijnjewoude-brug-90572131",
+  "name": "Tjalling Harkeswei",
   "file": "wijnjewoude-brug-90572131.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -94,14 +94,25 @@
           "type": "landhoofd"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/6468645",
+        "tags": {
+          "bridge": "movable",
+          "bridge:movable": "bascule",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxaxleload": "2.2",
+          "maxspeed": "60",
+          "name": "Tjalling Harkeswei"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 4
     },
-    "type": "ophaalbrug",
+    "type": "basculebrug",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 200000,560000,220000,580000 --run nl-10_13 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map wijnjewoude-brug-90572131 --plaats wijnjewoude --punt 207844,561219",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

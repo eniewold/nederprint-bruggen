@@ -1,5 +1,5 @@
 {
-  "name": "nuis-brug-34e8949f-3",
+  "name": "Turfweg",
   "file": "nuis-brug-34e8949f-3.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -97,14 +97,31 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/6462946",
+        "tags": {
+          "bridge": "yes",
+          "description": "Bordje G13 \"uitgezonderd vergunninghouders\"",
+          "est_width": "3.5",
+          "highway": "cycleway",
+          "horse": "private",
+          "layer": "1",
+          "mofa": "private",
+          "motor_vehicle": "private",
+          "name": "Turfweg",
+          "segregated": "no",
+          "smoothness": "good",
+          "surface": "asphalt",
+          "traffic_sign": "NL:G13"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 200000,560000,220000,580000 --run nl-10_13 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map nuis-brug-34e8949f-3 --plaats nuis --punt 215937,576144",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -125,7 +142,7 @@
         {
           "gmlId": "G0025.34e8949f426dd6b5e053660013acd39e",
           "klasse": "Terrain",
-          "oppervlak": 221.1,
+          "oppervlak": 73.7,
           "onderDek": 0,
           "bovenDekOnderkant": 0.41,
           "actie": "verlagen"

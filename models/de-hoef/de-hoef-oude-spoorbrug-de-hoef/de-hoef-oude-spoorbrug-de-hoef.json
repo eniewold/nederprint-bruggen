@@ -1,5 +1,5 @@
 {
-  "name": "Oude spoorbrug De Hoef",
+  "name": "Oude Spoorbaan",
   "file": "de-hoef-oude-spoorbrug-de-hoef.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -13,7 +13,7 @@
     -0.288804
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 43.375,
+  "groundHeight": 43.366,
   "groundSamplePoints": [
     [
       -28.38,
@@ -42,9 +42,9 @@
       ],
       "halfLength": 12,
       "halfWidth": 9.94,
-      "height": 43.676,
+      "height": 43.671,
       "gradient": [
-        -0.02505,
+        -0.02542,
         0
       ],
       "minLift": 0.05,
@@ -93,20 +93,37 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/343988045",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "movable",
+          "bridge:movable": "bascule",
+          "foot": "use_sidepath",
+          "highway": "tertiary",
+          "lane_markings": "no",
+          "layer": "1",
+          "maxspeed": "50",
+          "mofa": "use_sidepath",
+          "moped": "use_sidepath",
+          "name": "Oude Spoorbaan",
+          "zone:traffic": "NL:urban",
+          "man_made": "bridge"
+        }
+      },
       "fis": {
         "id": 54619,
         "naam": "Oude spoorbrug De Hoef",
-        "afstand": 1,
+        "afstand": 2,
         "beweegbaar": true,
         "doorvaarthoogteGesloten": 0.65
       },
       "pdokBridgeVlakken": 4
     },
-    "type": "ophaalbrug",
+    "type": "basculebrug",
     "doorvaarthoogte": 0.65,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,460000,120000,480000 --run nl-5_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map de-hoef-oude-spoorbrug-de-hoef --plaats de-hoef --punt 115784,469191",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -125,11 +142,11 @@
       "oprithelling": 24,
       "doorstekend": [],
       "opritHoogtes": [
-        43.375,
+        43.366,
         43.676
       ]
     },
     "waarschuwingen": [],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "name": "gemert-brug-0987d09f",
+  "name": "Beekveld",
   "file": "gemert-brug-0987d09f.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,23 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/250563159",
+        "tags": {
+          "bridge": "yes",
+          "highway": "residential",
+          "layer": "1",
+          "maxspeed": "50",
+          "name": "Beekveld"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,380000,180000,400000 --run nl-8_4 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map gemert-brug-0987d09f --plaats gemert --punt 176868,396063",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

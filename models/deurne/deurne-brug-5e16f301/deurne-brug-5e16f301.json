@@ -1,5 +1,5 @@
 {
-  "name": "deurne-brug-5e16f301",
+  "name": "Ooftweg",
   "file": "deurne-brug-5e16f301.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -13,7 +13,7 @@
     0.086889
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 64.679,
+  "groundHeight": 64.674,
   "groundSamplePoints": [
     [
       -23.42,
@@ -44,7 +44,7 @@
         0,
         0
       ],
-      "minLift": -1.62,
+      "minLift": -1.61,
       "maxLift": -0.01
     },
     {
@@ -58,9 +58,9 @@
       ],
       "halfLength": 10.65,
       "halfWidth": 3.4,
-      "height": 64.915,
+      "height": 64.912,
       "gradient": [
-        -0.02213,
+        -0.02237,
         0
       ],
       "minLift": 0.05,
@@ -97,14 +97,25 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/771364304",
+        "tags": {
+          "bridge": "yes",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Ooftweg",
+          "surface": "asphalt",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,380000,180000,400000 --run nl-8_4 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map deurne-brug-5e16f301 --plaats deurne --punt 179057,387263",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -125,22 +136,22 @@
         {
           "gmlId": "G0762.35ed0740dbf030f4e05332a1e90ac5d3",
           "klasse": "Terrain",
-          "oppervlak": 652.1,
+          "oppervlak": 434.9,
           "onderDek": 0.04,
-          "bovenDekOnderkant": 0.62,
+          "bovenDekOnderkant": 0.61,
           "actie": "verlagen"
         },
         {
           "gmlId": "G0762.35ed0740db2b30f4e05332a1e90ac5d3",
           "klasse": "Terrain",
-          "oppervlak": 1104.4,
+          "oppervlak": 736.1,
           "onderDek": 0.03,
           "bovenDekOnderkant": 0.48,
           "actie": "verlagen"
         }
       ],
       "opritHoogtes": [
-        64.679,
+        64.674,
         64.85
       ]
     },

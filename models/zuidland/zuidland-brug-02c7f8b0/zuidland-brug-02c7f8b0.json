@@ -1,5 +1,5 @@
 {
-  "name": "zuidland-brug-02c7f8b0",
+  "name": "Puntgorspad",
   "file": "zuidland-brug-02c7f8b0.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -108,14 +108,29 @@
           "type": "landhoofd"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/951300625",
+        "tags": {
+          "bridge": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "mofa": "designated",
+          "moped": "designated",
+          "name": "Puntgorspad",
+          "oneway": "no",
+          "smoothness": "excellent",
+          "traffic_sign": "NL:G12a",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 7
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 60000,420000,80000,440000 --run nl-3_6 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map zuidland-brug-02c7f8b0 --plaats zuidland --punt 76922,426868",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

@@ -1,5 +1,5 @@
 {
-  "name": "hilversum-brug-215c33b3",
+  "name": "Via de Kijkbuis",
   "file": "hilversum-brug-215c33b3.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -30,7 +30,6 @@
     "G0402.79ab3c72126a43fa9023f0a465390b61",
     "G0402.8075c1d4e7584f7e99e8aa64e5d5de90",
     "G0402.8c6cfe05db4142ca9e635018dfeaaefa",
-    "G0402.d1fc2f659e174e31a3c3c4d9be39055a",
     "G0402.d236f8f6ecaa4f4eba5652cfcb2cdd73",
     "G0402.c4c45fa0698d4bd382a873a46e8013ad",
     "G0402.37ce4dd21d814b94842bd3162c013d52"
@@ -100,7 +99,6 @@
       "G0402.46d045a79f214a218aaea15c02bcd0c6",
       "G0402.79ab3c72126a43fa9023f0a465390b61",
       "G0402.8c6cfe05db4142ca9e635018dfeaaefa",
-      "G0402.d1fc2f659e174e31a3c3c4d9be39055a",
       "G0402.d236f8f6ecaa4f4eba5652cfcb2cdd73"
     ],
     "bron": {
@@ -126,22 +124,29 @@
           "type": "dek"
         },
         {
-          "id": "G0402.d1fc2f659e174e31a3c3c4d9be39055a",
-          "type": "dek"
-        },
-        {
           "id": "G0402.d236f8f6ecaa4f4eba5652cfcb2cdd73",
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/128812193",
+        "tags": {
+          "bridge": "yes",
+          "highway": "footway",
+          "horse": "no",
+          "layer": "1",
+          "name": "Via de Kijkbuis",
+          "surface": "wood",
+          "zone:traffic": "NL:urban"
+        }
+      },
       "fis": null,
-      "pdokBridgeVlakken": 7
+      "pdokBridgeVlakken": 6
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,460000,160000,480000 --run nl-7_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map hilversum-brug-215c33b3 --plaats hilversum --punt 140360,472240",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -198,6 +203,6 @@
       "geen FIS-brug binnen 35 m",
       "4 PDOK-vorm(en) door het dek: 2 verborgen, 2 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

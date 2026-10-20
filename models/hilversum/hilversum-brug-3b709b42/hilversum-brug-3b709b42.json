@@ -1,5 +1,5 @@
 {
-  "name": "hilversum-brug-3b709b42",
+  "name": "Parkeertoegang Hilvertshof",
   "file": "hilversum-brug-3b709b42.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -97,14 +97,28 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/39944119",
+        "tags": {
+          "bicycle": "no",
+          "bridge": "yes",
+          "foot": "no",
+          "highway": "service",
+          "incline": "up",
+          "layer": "1",
+          "maxheight": "2.00",
+          "maxweight:signed": "no",
+          "name": "Parkeertoegang Hilvertshof",
+          "surface": "asphalt"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,460000,160000,480000 --run nl-7_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map hilversum-brug-3b709b42 --plaats hilversum --punt 140571,470681",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -162,6 +176,6 @@
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
       "4 PDOK-vorm(en) door het dek: 0 verborgen, 4 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "name": "odijk-brug-dc8a2220",
+  "name": "Zeisterweg",
   "file": "odijk-brug-dc8a2220.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -60,7 +60,7 @@
       "halfWidth": 3.15,
       "height": 46.45,
       "gradient": [
-        -0.01592,
+        -0.0159,
         0
       ],
       "minLift": 0.05,
@@ -78,14 +78,26 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/25225433",
+        "tags": {
+          "alt_name": "Odijkerbrug",
+          "bridge": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "name": "Zeisterweg",
+          "oneway": "no",
+          "surface": "asphalt",
+          "width": "3"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,440000,160000,460000 --run nl-7_7 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map odijk-brug-dc8a2220 --plaats odijk --punt 145074,451962",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -112,6 +124,6 @@
       "geen FIS-brug binnen 35 m",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

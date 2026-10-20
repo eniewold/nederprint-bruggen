@@ -1,5 +1,5 @@
 {
-  "name": "holtheme-brug-39ffa349",
+  "name": "De Haandrik",
   "file": "holtheme-brug-39ffa349.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -60,7 +60,7 @@
       "halfWidth": 5.63,
       "height": 53.947,
       "gradient": [
-        -0.05026,
+        -0.05023,
         0
       ],
       "minLift": 0.05,
@@ -78,14 +78,25 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/6421501",
+        "tags": {
+          "bridge": "movable",
+          "bridge:movable": "bascule",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "De Haandrik",
+          "zone:traffic": "NL:rural"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
-    "type": "ophaalbrug",
+    "type": "basculebrug",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,500000,260000,520000 --run nl-12_10 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map holtheme-brug-39ffa349 --plaats holtheme --punt 244253,515970",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

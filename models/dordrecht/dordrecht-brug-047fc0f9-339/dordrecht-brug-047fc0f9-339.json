@@ -1,5 +1,5 @@
 {
-  "name": "dordrecht-brug-047fc0f9-339",
+  "name": "De Blauwe Brug",
   "file": "dordrecht-brug-047fc0f9-339.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -13,7 +13,7 @@
     0.871099
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 46.73,
+  "groundHeight": 46.727,
   "groundSamplePoints": [
     [
       -79.4,
@@ -64,9 +64,9 @@
       ],
       "halfLength": 12,
       "halfWidth": 3.49,
-      "height": 48.671,
+      "height": 48.67,
       "gradient": [
-        -0.16182,
+        -0.16193,
         0
       ],
       "minLift": 0.05,
@@ -110,14 +110,29 @@
           "type": "onbekend"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1012569922",
+        "tags": {
+          "bridge": "movable",
+          "bridge:movable": "lift",
+          "emergency": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "moped": "designated",
+          "surface": "paved",
+          "traffic_sign": "NL:G12a",
+          "bridge:structure": "beam",
+          "man_made": "bridge",
+          "name": "De Blauwe Brug"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 7
     },
     "type": "ophaalbrug",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,420000,120000,440000 --run nl-5_6 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map dordrecht-brug-047fc0f9-339 --plaats dordrecht --punt 110196,424207",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -137,12 +152,12 @@
       "doorstekend": [],
       "opritHoogtes": [
         50.313,
-        46.73
+        46.727
       ]
     },
     "waarschuwingen": [
       "geen FIS-brug binnen 35 m"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

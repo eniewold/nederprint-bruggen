@@ -13,7 +13,7 @@
     -0.932113
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 48.096,
+  "groundHeight": 48.093,
   "groundSamplePoints": [
     [
       -6.78,
@@ -77,9 +77,9 @@
       ],
       "halfLength": 3,
       "halfWidth": 1.54,
-      "height": 48.287,
+      "height": 48.285,
       "gradient": [
-        -0.0637,
+        -0.06427,
         0
       ],
       "minLift": 0.05,
@@ -97,14 +97,23 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1528916674",
+        "tags": {
+          "access": "private",
+          "bridge": "yes",
+          "highway": "path",
+          "layer": "1",
+          "surface": "unpaved"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ophaalbrug",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,440000,160000,460000 --run nl-7_7 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map doorn-brug-aa9ecdf0 --plaats doorn --punt 152400,448332",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -125,7 +134,7 @@
         {
           "gmlId": "W0636.640cb6c5fddc4f4faa13594bae52b579",
           "klasse": "Terrain",
-          "oppervlak": 339.7,
+          "oppervlak": 169.5,
           "onderDek": 0,
           "bovenDekOnderkant": 0.19,
           "actie": "verlagen"
@@ -133,7 +142,7 @@
       ],
       "opritHoogtes": [
         48.178,
-        48.096
+        48.093
       ]
     },
     "waarschuwingen": [
@@ -141,6 +150,6 @@
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
       "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

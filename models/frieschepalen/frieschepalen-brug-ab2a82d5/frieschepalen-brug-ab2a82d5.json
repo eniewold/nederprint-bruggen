@@ -1,5 +1,5 @@
 {
-  "name": "frieschepalen-brug-ab2a82d5",
+  "name": "Hearsterwei",
   "file": "frieschepalen-brug-ab2a82d5.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,31 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/6465873",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "yes",
+          "foot": "use_sidepath",
+          "highway": "tertiary",
+          "lane_markings": "no",
+          "layer": "1",
+          "maxspeed": "60",
+          "maxweight:signed": "no",
+          "mofa": "use_sidepath",
+          "name": "Hearsterwei",
+          "name:fy": "Hearsterwei",
+          "name:nl": "Haarsterweg",
+          "surface": "asphalt"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 200000,560000,220000,580000 --run nl-10_13 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map frieschepalen-brug-ab2a82d5 --plaats frieschepalen --punt 209839,570150",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

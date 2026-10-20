@@ -9,18 +9,18 @@
     501901.53
   ],
   "xAxis": [
-    -0.99295,
-    0.118535
+    0.118535,
+    0.99295
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 43.09,
+  "groundHeight": 44.085,
   "groundSamplePoints": [
     [
-      -8.21,
+      -40.82,
       0
     ],
     [
-      8.21,
+      40.82,
       0
     ]
   ],
@@ -35,33 +35,33 @@
         501901.53
       ],
       "axis": [
-        -0.99295,
-        0.118535
+        0.118535,
+        0.99295
       ],
-      "halfLength": 1.87,
-      "halfWidth": 21.32,
-      "height": 42.441,
+      "halfLength": 14.82,
+      "halfWidth": 4.23,
+      "height": 43.212,
       "gradient": [
         0,
         0
       ],
-      "minLift": -2.6,
+      "minLift": -1.64,
       "maxLift": -0.01
     },
     {
       "centre": [
-        202480.88,
-        501900.64
+        202469.58,
+        501868.93
       ],
       "axis": [
-        0.99295,
-        -0.118535
+        -0.118535,
+        -0.99295
       ],
-      "halfLength": 3.73,
-      "halfWidth": 22.82,
-      "height": 43.415,
+      "halfLength": 12,
+      "halfWidth": 5.6,
+      "height": 44.298,
       "gradient": [
-        -0.08712,
+        -0.01778,
         0
       ],
       "minLift": 0.05,
@@ -69,18 +69,18 @@
     },
     {
       "centre": [
-        202466.05,
-        501902.41
+        202477.36,
+        501934.12
       ],
       "axis": [
-        -0.99295,
-        0.118535
+        0.118535,
+        0.99295
       ],
-      "halfLength": 3.73,
-      "halfWidth": 22.82,
-      "height": 43.591,
+      "halfLength": 12,
+      "halfWidth": 5.6,
+      "height": 44.362,
       "gradient": [
-        -0.04017,
+        -0.0125,
         0
       ],
       "minLift": 0.05,
@@ -98,42 +98,59 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1320701802",
+        "tags": {
+          "bridge": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "lit": "yes",
+          "mofa": "yes",
+          "moped": "designated",
+          "sidewalk": "right",
+          "surface": "asphalt",
+          "traffic_sign": "NL:G12a",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 200000,500000,220000,520000 --run nl-10_10 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map zwolle-brug-6a280510 --plaats zwolle --punt 202473,501902",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
-      "dekLengte": 7.5,
-      "dekBreedte": 41.6,
-      "brugLengte": 7.5,
-      "water": null,
-      "portaalhoogte": 37.5,
-      "opritafstand": [
-        4.5,
-        4.5
+      "dekLengte": 41.6,
+      "dekBreedte": 7.5,
+      "brugLengte": 41.6,
+      "water": [
+        3.7,
+        20.2
       ],
-      "oprithelling": 7.5,
+      "portaalhoogte": 6.7,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
       "doorstekend": [
-        {
-          "gmlId": "G0193.ed7fc33a533c461b8a646e40cd4fa49b",
-          "klasse": "Separation",
-          "oppervlak": 3.2,
-          "onderDek": 0.52,
-          "bovenDekOnderkant": 1.6,
-          "actie": "verlagen"
-        },
         {
           "gmlId": "G0193.8abeacd5439b757600000000a067f296",
           "klasse": "Terrain",
-          "oppervlak": 1994.2,
-          "onderDek": 0.09,
-          "bovenDekOnderkant": 1.45,
+          "oppervlak": 2170.5,
+          "onderDek": 0.06,
+          "bovenDekOnderkant": 0.64,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0193.8abeacd5439b757600000000a067f024",
+          "klasse": "Terrain",
+          "oppervlak": 1141.4,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.64,
           "actie": "verlagen"
         },
         {
@@ -141,17 +158,17 @@
           "klasse": "Separation",
           "oppervlak": 3.1,
           "onderDek": 0.73,
-          "bovenDekOnderkant": 0.89,
+          "bovenDekOnderkant": 0.11,
           "actie": "verbergen"
         }
       ],
       "opritHoogtes": [
-        43.09,
-        43.441
+        44.085,
+        44.212
       ]
     },
     "waarschuwingen": [
-      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen FIS-brug binnen 35 m",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
       "3 PDOK-vorm(en) door het dek: 1 verborgen, 2 verlaagd"
     ],

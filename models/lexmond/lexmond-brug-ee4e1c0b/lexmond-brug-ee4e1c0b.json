@@ -1,5 +1,5 @@
 {
-  "name": "lexmond-brug-ee4e1c0b",
+  "name": "Oude Rijksweg",
   "file": "lexmond-brug-ee4e1c0b.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -9,18 +9,18 @@
     441333.58
   ],
   "xAxis": [
-    -0.716182,
-    -0.697914
+    -0.697914,
+    0.716182
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 45.67,
+  "groundHeight": 44.456,
   "groundSamplePoints": [
     [
-      -6.75,
+      -13.38,
       0
     ],
     [
-      6.75,
+      13.38,
       0
     ]
   ],
@@ -30,18 +30,37 @@
   "terrainCorrections": [
     {
       "centre": [
-        130948.15,
-        441337.59
+        130944.03,
+        441333.58
       ],
       "axis": [
-        0.716182,
-        0.697914
+        -0.697914,
+        0.716182
       ],
-      "halfLength": 3,
-      "halfWidth": 8.08,
-      "height": 46.704,
+      "halfLength": 3.04,
+      "halfWidth": 3.25,
+      "height": 43.589,
       "gradient": [
-        -0.34482,
+        0,
+        0
+      ],
+      "minLift": -4.7,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        130952.52,
+        441324.86
+      ],
+      "axis": [
+        0.697914,
+        -0.716182
+      ],
+      "halfLength": 6.08,
+      "halfWidth": 4.13,
+      "height": 44.672,
+      "gradient": [
+        -0.0356,
         0
       ],
       "minLift": 0.05,
@@ -49,18 +68,18 @@
     },
     {
       "centre": [
-        130939.91,
-        441329.56
+        130935.54,
+        441342.29
       ],
       "axis": [
-        -0.716182,
-        -0.697914
+        -0.697914,
+        0.716182
       ],
-      "halfLength": 3,
-      "halfWidth": 8.08,
-      "height": 47.588,
+      "halfLength": 6.08,
+      "halfWidth": 4.13,
+      "height": 44.739,
       "gradient": [
-        -0.05,
+        -0.02466,
         0
       ],
       "minLift": 0.05,
@@ -78,37 +97,97 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/7105484",
+        "tags": {
+          "bicycle": "no",
+          "bridge": "yes",
+          "foot": "no",
+          "highway": "secondary",
+          "lane_markings": "yes",
+          "lanes": "2",
+          "lanes:backward": "1",
+          "lanes:forward": "1",
+          "layer": "1",
+          "maxspeed": "80",
+          "name": "Oude Rijksweg",
+          "operator": "Waterschap Rivierenland",
+          "placement:forward": "left_of:1",
+          "surface": "asphalt",
+          "zone:traffic": "NL:rural"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,440000,140000,460000 --run nl-6_7 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map lexmond-brug-ee4e1c0b --plaats lexmond --punt 130944,441334",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
-      "dekLengte": 5.5,
-      "dekBreedte": 12.2,
-      "brugLengte": 5.5,
+      "dekLengte": 12.2,
+      "dekBreedte": 5.5,
+      "brugLengte": 12.2,
       "water": null,
-      "portaalhoogte": 10.9,
+      "portaalhoogte": 5,
       "opritafstand": [
-        4,
-        4
+        7.3,
+        7.3
       ],
-      "oprithelling": 6,
-      "doorstekend": [],
+      "oprithelling": 12.2,
+      "doorstekend": [
+        {
+          "gmlId": "W0621.5e9e00e9cafa4abdb83c29a8024b5a92",
+          "klasse": "Road",
+          "oppervlak": 1042.1,
+          "onderDek": 0,
+          "bovenDekOnderkant": 3.7,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "W0621.1c2ba83824194e8794f4b3166d9b9375",
+          "klasse": "Road",
+          "oppervlak": 479.5,
+          "onderDek": 0,
+          "bovenDekOnderkant": 1.8,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "W0621.471524b5581642c79b2cd093f4b708ba",
+          "klasse": "Road",
+          "oppervlak": 50.3,
+          "onderDek": 0.25,
+          "bovenDekOnderkant": 0.81,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "W0621.51b2ffacd7544712abc22b645b45ef3e",
+          "klasse": "Road",
+          "oppervlak": 72.7,
+          "onderDek": 0.34,
+          "bovenDekOnderkant": 0.8,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "W0621.696763d081524aeaa4ef3de378430442",
+          "klasse": "Road",
+          "oppervlak": 148.5,
+          "onderDek": 0.49,
+          "bovenDekOnderkant": 0.6,
+          "actie": "verlagen"
+        }
+      ],
       "opritHoogtes": [
-        45.67,
-        47.438
+        44.456,
+        44.589
       ]
     },
     "waarschuwingen": [
-      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
-      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "5 PDOK-vorm(en) door het dek: 0 verborgen, 5 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "name": "enschede-brug-3d6877e8-22",
+  "name": "De Loerhazen",
   "file": "enschede-brug-3d6877e8-22.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -83,14 +83,27 @@
           "type": "onbekend"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/371652637",
+        "tags": {
+          "bridge": "yes",
+          "cycleway": "lane",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "De Loerhazen",
+          "surface": "asphalt",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 2
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,460000,260000,480000 --run nl-12_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map enschede-brug-3d6877e8-22 --plaats enschede --punt 251871,470553",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

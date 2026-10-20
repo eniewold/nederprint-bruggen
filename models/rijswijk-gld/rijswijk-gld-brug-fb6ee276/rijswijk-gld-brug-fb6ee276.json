@@ -9,24 +9,19 @@
     440520.76
   ],
   "xAxis": [
-    -0.844093,
-    0.536196
+    0.536196,
+    0.844093
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 47.249,
+  "groundHeight": 48.741,
   "groundSamplePoints": [
     [
-      -5.28,
-      0
-    ],
-    [
-      5.28,
+      37,
       0
     ]
   ],
   "replacesTerrain": [
-    "L0002.fb6ee276db6c484784a315359db6b312",
-    "G0214.9272dfd0b9094f50baa871c704b81eb0"
+    "L0002.fb6ee276db6c484784a315359db6b312"
   ],
   "terrainCorrections": [
     {
@@ -35,52 +30,33 @@
         440520.76
       ],
       "axis": [
-        -0.844093,
-        0.536196
+        0.536196,
+        0.844093
       ],
-      "halfLength": 0.64,
-      "halfWidth": 17.5,
-      "height": 46.362,
+      "halfLength": 11,
+      "halfWidth": 1.78,
+      "height": 47.741,
       "gradient": [
         0,
         0
       ],
-      "minLift": -3.78,
+      "minLift": -2.29,
       "maxLift": -0.01
     },
     {
       "centre": [
-        153275.15,
-        440518.46
+        153287.09,
+        440545.23
       ],
       "axis": [
-        0.844093,
-        -0.536196
+        0.536196,
+        0.844093
       ],
-      "halfLength": 3,
-      "halfWidth": 19,
-      "height": 47.512,
+      "halfLength": 12,
+      "halfWidth": 1.92,
+      "height": 48.891,
       "gradient": [
-        -0.05,
-        0
-      ],
-      "minLift": 0.05,
-      "maxLift": 4
-    },
-    {
-      "centre": [
-        153267.93,
-        440523.05
-      ],
-      "axis": [
-        -0.844093,
-        0.536196
-      ],
-      "halfLength": 3,
-      "halfWidth": 19,
-      "height": 47.456,
-      "gradient": [
-        -0.06875,
+        -0.0125,
         0
       ],
       "minLift": 0.05,
@@ -105,56 +81,60 @@
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,440000,160000,460000 --run nl-7_7 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map rijswijk-gld-brug-fb6ee276 --plaats rijswijk-gld --punt 153272,440521",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
-      "dekLengte": 2.6,
-      "dekBreedte": 34,
-      "brugLengte": 2.6,
-      "water": null,
-      "portaalhoogte": 30.6,
-      "opritafstand": [
-        4,
-        4
+      "dekLengte": 34,
+      "dekBreedte": 2.6,
+      "brugLengte": 34,
+      "water": [
+        -17,
+        -1.5
       ],
-      "oprithelling": 6,
+      "portaalhoogte": 2.5,
+      "opritafstand": [
+        60,
+        20
+      ],
+      "oprithelling": 24,
       "doorstekend": [
         {
           "gmlId": "G0214.9272dfd0b9094f50baa871c704b81eb0",
           "klasse": "Forest",
           "oppervlak": 23.8,
-          "onderDek": 0.8,
-          "bovenDekOnderkant": 2.83,
-          "actie": "verbergen"
+          "onderDek": 0.46,
+          "bovenDekOnderkant": 1.29,
+          "actie": "verlagen"
         },
         {
-          "gmlId": "G0214.46b20b3298a24c57bfa924421781133d",
-          "klasse": "Terrain",
-          "oppervlak": 12.8,
-          "onderDek": 0.01,
-          "bovenDekOnderkant": 2.78,
+          "gmlId": "L0001.11c98f6a13e04129a35b805d272602a2",
+          "klasse": "Forest",
+          "oppervlak": 1705,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.68,
           "actie": "verlagen"
         },
         {
           "gmlId": "L0002.228569bda6404fa79b44746f7c9dab81",
           "klasse": "Terrain",
-          "oppervlak": 1779.6,
-          "onderDek": 0.02,
-          "bovenDekOnderkant": 1.58,
+          "oppervlak": 950,
+          "onderDek": 0.01,
+          "bovenDekOnderkant": 0.2,
           "actie": "verlagen"
         }
       ],
       "opritHoogtes": [
-        47.362,
-        47.249
+        null,
+        48.741
       ]
     },
     "waarschuwingen": [
-      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen FIS-brug binnen 35 m",
+      "oprit - zonder PDOK-maaiveld",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
-      "3 PDOK-vorm(en) door het dek: 1 verborgen, 2 verlaagd"
+      "3 PDOK-vorm(en) door het dek: 0 verborgen, 3 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

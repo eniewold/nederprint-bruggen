@@ -1,5 +1,5 @@
 {
-  "name": "landhorst-brug-8fac9191",
+  "name": "Noordstraat",
   "file": "landhorst-brug-8fac9191.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -39,9 +39,9 @@
       ],
       "halfLength": 6.72,
       "halfWidth": 2.69,
-      "height": 64.239,
+      "height": 64.234,
       "gradient": [
-        -0.02689,
+        -0.02609,
         0
       ],
       "minLift": 0.05,
@@ -58,7 +58,7 @@
       ],
       "halfLength": 6.72,
       "halfWidth": 2.69,
-      "height": 64.27,
+      "height": 64.259,
       "gradient": [
         -0.02232,
         0
@@ -78,14 +78,27 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/218865608",
+        "tags": {
+          "bridge": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "mofa": "yes",
+          "moped": "designated",
+          "name": "Noordstraat",
+          "surface": "wood",
+          "traffic_sign": "NL:G12a",
+          "width": "3"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 180000,400000,200000,420000 --run nl-9_5 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map landhorst-brug-8fac9191 --plaats landhorst --punt 180092,404995",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -105,12 +118,12 @@
       "doorstekend": [],
       "opritHoogtes": [
         64.059,
-        64.12
+        64.109
       ]
     },
     "waarschuwingen": [
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

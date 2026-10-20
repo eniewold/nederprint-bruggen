@@ -1,5 +1,5 @@
 {
-  "name": "diemen-brug-37f8e517",
+  "name": "Fortdiemerdamweg",
   "file": "diemen-brug-37f8e517.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -107,14 +107,38 @@
           "type": "landhoofd"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/911834562",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "yes",
+          "bridge:name": "Stellingbrug",
+          "bridge:ref": "2006",
+          "foot": "use_sidepath",
+          "highway": "secondary",
+          "lanes": "4",
+          "layer": "1",
+          "maxspeed": "70",
+          "maxspeed:advisory": "50",
+          "maxspeed:type": "sign",
+          "mofa": "use_sidepath",
+          "moped": "use_sidepath",
+          "name": "Fortdiemerdamweg",
+          "oneway": "yes",
+          "operator": "Gemeente Amsterdam",
+          "ref": "S114",
+          "turn:lanes": "left|through|through|right",
+          "zone:traffic": "NL:rural",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 3
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map diemen-brug-37f8e517 --plaats diemen --punt 129602,483712",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -158,6 +182,6 @@
       "geen FIS-brug binnen 35 m",
       "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

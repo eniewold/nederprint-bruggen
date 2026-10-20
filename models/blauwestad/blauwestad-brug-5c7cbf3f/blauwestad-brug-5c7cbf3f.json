@@ -1,5 +1,5 @@
 {
-  "name": "blauwestad-brug-5c7cbf3f",
+  "name": "Palmarbrug",
   "file": "blauwestad-brug-5c7cbf3f.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -98,14 +98,24 @@
           "type": "onbekend"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1309832620",
+        "tags": {
+          "bridge": "yes",
+          "highway": "residential",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Palmarbrug",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 5
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 260000,560000,280000,580000 --run nl-13_13 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map blauwestad-brug-5c7cbf3f --plaats blauwestad --punt 265482,577022",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

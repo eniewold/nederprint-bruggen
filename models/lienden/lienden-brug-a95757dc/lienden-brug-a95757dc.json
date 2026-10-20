@@ -9,18 +9,18 @@
     441891.28
   ],
   "xAxis": [
-    -0.951145,
-    0.308745
+    0.308745,
+    0.951145
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 49.964,
+  "groundHeight": 53.68,
   "groundSamplePoints": [
     [
-      -8.06,
+      -132.52,
       0
     ],
     [
-      8.06,
+      132.52,
       0
     ]
   ],
@@ -34,33 +34,33 @@
         441891.28
       ],
       "axis": [
-        -0.951145,
-        0.308745
+        0.308745,
+        0.951145
       ],
-      "halfLength": 1.83,
-      "halfWidth": 113.02,
-      "height": 48.985,
+      "halfLength": 106.52,
+      "halfWidth": 4.16,
+      "height": 53.445,
       "gradient": [
         0,
         0
       ],
-      "minLift": -1.84,
+      "minLift": -1.16,
       "maxLift": -0.01
     },
     {
       "centre": [
-        164629.42,
-        441889.02
+        164584,
+        441772.85
       ],
       "axis": [
-        0.951145,
-        -0.308745
+        -0.308745,
+        -0.951145
       ],
-      "halfLength": 3.66,
-      "halfWidth": 114.52,
-      "height": 50.135,
+      "halfLength": 12,
+      "halfWidth": 5.5,
+      "height": 54.595,
       "gradient": [
-        -0.04094,
+        -0.0125,
         0
       ],
       "minLift": 0.05,
@@ -68,18 +68,18 @@
     },
     {
       "centre": [
-        164615.48,
-        441893.55
+        164660.89,
+        442009.72
       ],
       "axis": [
-        -0.951145,
-        0.308745
+        0.308745,
+        0.951145
       ],
-      "halfLength": 3.66,
-      "halfWidth": 114.52,
-      "height": 50.124,
+      "halfLength": 12,
+      "halfWidth": 5.5,
+      "height": 54.212,
       "gradient": [
-        -0.04388,
+        -0.04434,
         0
       ],
       "minLift": 0.05,
@@ -104,41 +104,51 @@
     "type": "ophaalbrug",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,440000,180000,460000 --run nl-8_7 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map lienden-brug-a95757dc --plaats lienden --punt 164622,441891",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
-      "dekLengte": 7.3,
-      "dekBreedte": 225,
-      "brugLengte": 7.3,
-      "water": null,
-      "portaalhoogte": 202.5,
-      "opritafstand": [
-        4.4,
-        4.4
+      "dekLengte": 225,
+      "dekBreedte": 7.3,
+      "brugLengte": 225,
+      "water": [
+        44,
+        92.5
       ],
-      "oprithelling": 7.3,
+      "portaalhoogte": 6.5,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
       "doorstekend": [
         {
-          "gmlId": "G0214.759d6715744d485a8e057d99306693d9",
+          "gmlId": "G0214.d08d5cc5f7c24e11bd904d90db36dfae",
           "klasse": "Forest",
-          "oppervlak": 608.8,
-          "onderDek": 0.54,
-          "bovenDekOnderkant": 0.84,
+          "oppervlak": 178.4,
+          "onderDek": 0.42,
+          "bovenDekOnderkant": 0.16,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "L0001.8681ee2edfea4dc0b5824e22aa38883e",
+          "klasse": "Forest",
+          "oppervlak": 9037.1,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.16,
           "actie": "verlagen"
         }
       ],
       "opritHoogtes": [
-        49.985,
-        49.964
+        54.445,
+        53.68
       ]
     },
     "waarschuwingen": [
-      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
       "geen FIS-brug binnen 35 m",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
-      "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

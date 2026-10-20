@@ -9,18 +9,18 @@
     486617.25
   ],
   "xAxis": [
-    -0.289958,
-    0.957039
+    -0.995299,
+    0.096853
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 52.487,
+  "groundHeight": 54.233,
   "groundSamplePoints": [
     [
-      -5.44,
+      -5.13,
       0
     ],
     [
-      75.44,
+      5.13,
       0
     ]
   ],
@@ -30,18 +30,37 @@
   "terrainCorrections": [
     {
       "centre": [
-        232460.01,
-        486606.84
+        232456.86,
+        486617.25
       ],
       "axis": [
-        0.289958,
-        -0.957039
+        -0.995299,
+        0.096853
       ],
-      "halfLength": 5.44,
-      "halfWidth": 4.96,
-      "height": 54.383,
+      "halfLength": 2.57,
+      "halfWidth": 4.28,
+      "height": 52.935,
       "gradient": [
-        -0.02757,
+        0,
+        0
+      ],
+      "minLift": -1.24,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        232467.07,
+        486616.25
+      ],
+      "axis": [
+        0.995299,
+        -0.096853
+      ],
+      "halfLength": 5.13,
+      "halfWidth": 5.67,
+      "height": 54.234,
+      "gradient": [
+        -0.00018,
         0
       ],
       "minLift": 0.05,
@@ -49,18 +68,18 @@
     },
     {
       "centre": [
-        232453.7,
-        486627.66
+        232446.65,
+        486618.24
       ],
       "axis": [
-        -0.289958,
-        0.957039
+        -0.995299,
+        0.096853
       ],
-      "halfLength": 5.44,
-      "halfWidth": 4.96,
-      "height": 53.51,
+      "halfLength": 5.13,
+      "halfWidth": 5.67,
+      "height": 54.235,
       "gradient": [
-        -0.18806,
+        0,
         0
       ],
       "minLift": 0.05,
@@ -78,38 +97,81 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/6303228",
+        "tags": {
+          "bridge": "yes",
+          "description": "Zwolle - Wierden",
+          "electrified": "contact_line",
+          "frequency": "0",
+          "gauge": "1435",
+          "layer": "1",
+          "maxspeed": "140",
+          "note": "Start Electrical test trains 16-8-2017",
+          "operator": "ProRail",
+          "passenger_lines": "1",
+          "railway": "rail",
+          "railway:atb": "yes",
+          "railway:atb-ng": "yes",
+          "railway:etcs": "no",
+          "railway:maximum_current": "4000",
+          "railway:track_class": "C2",
+          "railway:traffic_mode": "passenger",
+          "ref": "206",
+          "ref:ProRailSpoortak": "605_1AV_33.4",
+          "source": "ProRail",
+          "source:date": "2013-07-10",
+          "usage": "branch",
+          "voltage": "1500"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,480000,240000,500000 --run nl-11_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map wierden-brug-d9cdaff1 --plaats wierden --punt 232457,486617",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
-      "dekLengte": 10.9,
-      "dekBreedte": 6.6,
-      "brugLengte": 10.9,
+      "dekLengte": 10.3,
+      "dekBreedte": 7.6,
+      "brugLengte": 10.3,
       "water": null,
-      "portaalhoogte": 6,
+      "portaalhoogte": 6.8,
       "opritafstand": [
         0,
-        70
+        0
       ],
-      "spoorhoogteBron": "pdok",
-      "oprithelling": 10.9,
-      "doorstekend": [],
+      "spoorhoogteBron": "prorail-pvs",
+      "oprithelling": 10.3,
+      "doorstekend": [
+        {
+          "gmlId": "G0189.29c622a21788013de05332a1e90a4ae4",
+          "klasse": "Road",
+          "oppervlak": 31.7,
+          "onderDek": 0.5,
+          "bovenDekOnderkant": 0.24,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0189.a77d05a57c9b4c75b54f085651dc210d",
+          "klasse": "Separation",
+          "oppervlak": 5.9,
+          "onderDek": 0.41,
+          "bovenDekOnderkant": 0.14,
+          "actie": "verlagen"
+        }
+      ],
       "opritHoogtes": [
         54.233,
-        52.487
+        54.235
       ]
     },
     "waarschuwingen": [
-      "oprit +: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
-      "oprit + pas op 70 m langs het spoor gemeten (PDOK-spoorterrein bij de brug lager)",
-      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
     ],
     "gegenereerd": "2026-10-20"
   }

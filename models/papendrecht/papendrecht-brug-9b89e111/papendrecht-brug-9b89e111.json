@@ -9,58 +9,40 @@
     428355.68
   ],
   "xAxis": [
-    0.959139,
-    -0.282937
+    -0.282937,
+    -0.959139
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 42.636,
+  "groundHeight": 42.372,
   "groundSamplePoints": [
     [
-      -14.54,
+      -19.95,
       0
     ],
     [
-      14.54,
+      19.95,
       0
     ]
   ],
   "replacesTerrain": [
-    "G0590.9b89e1117f1a4be59983f20f893a20eb"
+    "G0590.9b89e1117f1a4be59983f20f893a20eb",
+    "G0590.6f667a4fb7cb478b9fc58015db67492a"
   ],
   "terrainCorrections": [
     {
       "centre": [
-        106923.17,
-        428355.68
+        106928.3,
+        428373.07
       ],
       "axis": [
-        0.959139,
-        -0.282937
+        0.282937,
+        0.959139
       ],
-      "halfLength": 3.31,
-      "halfWidth": 9.57,
-      "height": 41.642,
+      "halfLength": 9.07,
+      "halfWidth": 8.61,
+      "height": 42.562,
       "gradient": [
-        0,
-        0
-      ],
-      "minLift": -1.77,
-      "maxLift": -0.01
-    },
-    {
-      "centre": [
-        106910.49,
-        428359.42
-      ],
-      "axis": [
-        -0.959139,
-        0.282937
-      ],
-      "halfLength": 6.61,
-      "halfWidth": 11.07,
-      "height": 42.789,
-      "gradient": [
-        -0.02316,
+        -0.01655,
         0
       ],
       "minLift": 0.05,
@@ -68,18 +50,18 @@
     },
     {
       "centre": [
-        106935.85,
-        428351.94
+        106918.04,
+        428338.29
       ],
       "axis": [
-        0.959139,
-        -0.282937
+        -0.282937,
+        -0.959139
       ],
-      "halfLength": 6.61,
-      "halfWidth": 11.07,
-      "height": 42.792,
+      "halfLength": 9.07,
+      "halfWidth": 8.61,
+      "height": 42.542,
       "gradient": [
-        -0.02269,
+        -0.01876,
         0
       ],
       "minLift": 0.05,
@@ -118,56 +100,42 @@
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,420000,120000,440000 --run nl-5_6 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map papendrecht-brug-9b89e111 --plaats papendrecht --punt 106923,428356",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
-      "dekLengte": 13.2,
-      "dekBreedte": 18.1,
-      "brugLengte": 13.2,
-      "water": null,
-      "portaalhoogte": 16.3,
-      "opritafstand": [
-        7.9,
+      "dekLengte": 18.1,
+      "dekBreedte": 13.2,
+      "brugLengte": 18.1,
+      "water": [
+        -8.1,
         7.9
       ],
-      "oprithelling": 13.2,
+      "portaalhoogte": 11.9,
+      "opritafstand": [
+        10.9,
+        10.9
+      ],
+      "oprithelling": 18.1,
       "doorstekend": [
         {
           "gmlId": "G0590.6f667a4fb7cb478b9fc58015db67492a",
           "klasse": "Terrain",
           "oppervlak": 62.5,
-          "onderDek": 0.53,
-          "bovenDekOnderkant": 0.77,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "G0590.5e64b33be0a748359bd69e2bf9a084a3",
-          "klasse": "Terrain",
-          "oppervlak": 9.6,
-          "onderDek": 0.52,
-          "bovenDekOnderkant": 0.66,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "G0590.f34584d9fcb34de5be5d9ea1bfbf0ebc",
-          "klasse": "Terrain",
-          "oppervlak": 8.7,
-          "onderDek": 0.52,
-          "bovenDekOnderkant": 0.62,
-          "actie": "verlagen"
+          "onderDek": 1,
+          "bovenDekOnderkant": 1.09,
+          "actie": "verbergen"
         }
       ],
       "opritHoogtes": [
-        42.636,
-        42.642
+        42.412,
+        42.372
       ]
     },
     "waarschuwingen": [
-      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
-      "3 PDOK-vorm(en) door het dek: 0 verborgen, 3 verlaagd"
+      "1 PDOK-vorm(en) door het dek: 1 verborgen, 0 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

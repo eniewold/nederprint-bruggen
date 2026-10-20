@@ -1,5 +1,5 @@
 {
-  "name": "winschoten-brug-63492df5",
+  "name": "Oostereinde",
   "file": "winschoten-brug-63492df5.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -93,14 +93,28 @@
           "type": "landhoofd"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/113750741",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "yes",
+          "foot": "use_sidepath",
+          "highway": "secondary",
+          "layer": "1",
+          "maxspeed": "60",
+          "mofa": "use_sidepath",
+          "name": "Oostereinde",
+          "operator": "Provincie Groningen",
+          "ref": "N966"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 4
     },
     "type": "ophaalbrug",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 260000,560000,280000,580000 --run nl-13_13 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map winschoten-brug-63492df5 --plaats winschoten --punt 267345,575410",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -111,7 +125,7 @@
         -23.4,
         7.1
       ],
-      "portaalhoogte": 10.7,
+      "portaalhoogte": 10,
       "opritafstand": [
         20,
         20

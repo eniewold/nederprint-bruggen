@@ -1,5 +1,5 @@
 {
-  "name": "hilversum-brug-d6f3f4f8",
+  "name": "Schaarmeesterspad",
   "file": "hilversum-brug-d6f3f4f8.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -39,9 +39,9 @@
       ],
       "halfLength": 7.5,
       "halfWidth": 2.96,
-      "height": 43.276,
+      "height": 43.272,
       "gradient": [
-        -0.03151,
+        -0.03103,
         0
       ],
       "minLift": 0.05,
@@ -58,7 +58,7 @@
       ],
       "halfLength": 7.5,
       "halfWidth": 2.96,
-      "height": 43.362,
+      "height": 43.355,
       "gradient": [
         -0.02001,
         0
@@ -78,14 +78,24 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/241162402",
+        "tags": {
+          "bridge": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "name": "Schaarmeesterspad",
+          "note": "New, no traffic sign (G11/G12a/G13) found",
+          "surface": "concrete:plates"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,460000,140000,480000 --run nl-6_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map hilversum-brug-d6f3f4f8 --plaats hilversum --punt 137640,475513",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -105,12 +115,12 @@
       "doorstekend": [],
       "opritHoogtes": [
         43.04,
-        43.212
+        43.205
       ]
     },
     "waarschuwingen": [
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "name": "driebergen-rijsenburg-brug-ca2abce9",
+  "name": "Sprengenbrug",
   "file": "driebergen-rijsenburg-brug-ca2abce9.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -30,25 +30,6 @@
   "terrainCorrections": [
     {
       "centre": [
-        147428.15,
-        453727.48
-      ],
-      "axis": [
-        0.786475,
-        0.617622
-      ],
-      "halfLength": 1.94,
-      "halfWidth": 2.07,
-      "height": 47.822,
-      "gradient": [
-        0,
-        0
-      ],
-      "minLift": -1.27,
-      "maxLift": -0.01
-    },
-    {
-      "centre": [
         147422.05,
         453722.69
       ],
@@ -58,7 +39,7 @@
       ],
       "halfLength": 3.88,
       "halfWidth": 2.36,
-      "height": 48.972,
+      "height": 48.968,
       "gradient": [
         -0.0387,
         0
@@ -77,9 +58,9 @@
       ],
       "halfLength": 3.88,
       "halfWidth": 2.36,
-      "height": 48.916,
+      "height": 48.914,
       "gradient": [
-        -0.05318,
+        -0.05264,
         0
       ],
       "minLift": 0.05,
@@ -97,14 +78,25 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/677297255",
+        "tags": {
+          "bridge": "yes",
+          "bridge:name": "Sprengenbrug",
+          "highway": "track",
+          "layer": "1",
+          "surface": "metal",
+          "tracktype": "grade1",
+          "vehicle": "no"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ophaalbrug",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,440000,160000,460000 --run nl-7_7 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map driebergen-rijsenburg-brug-ca2abce9 --plaats driebergen-rijsenburg --punt 147428,453727",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -121,26 +113,16 @@
         4.7
       ],
       "oprithelling": 7.8,
-      "doorstekend": [
-        {
-          "gmlId": "W0636.06d9e43ca01d40ffbaca46ff3bcc66be",
-          "klasse": "Terrain",
-          "oppervlak": 3260,
-          "onderDek": 0.01,
-          "bovenDekOnderkant": 0.27,
-          "actie": "verlagen"
-        }
-      ],
+      "doorstekend": [],
       "opritHoogtes": [
-        48.822,
+        48.818,
         48.71
       ]
     },
     "waarschuwingen": [
       "geen FIS-brug binnen 35 m",
-      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
-      "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "name": "helmond-brug-53b03137",
+  "name": "Sluis 8",
   "file": "helmond-brug-53b03137.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,23 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/663861537",
+        "tags": {
+          "bridge": "movable",
+          "bridge:movable": "bascule",
+          "layer": "1",
+          "man_made": "bridge",
+          "name": "Sluis 8"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
-    "type": "ophaalbrug",
+    "type": "basculebrug",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,380000,180000,400000 --run nl-8_4 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map helmond-brug-53b03137 --plaats helmond --punt 174134,386366",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

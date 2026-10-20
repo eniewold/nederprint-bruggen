@@ -1,5 +1,5 @@
 {
-  "name": "kortenhoef-brug-ba911643",
+  "name": "Kattenbrug",
   "file": "kortenhoef-brug-ba911643.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,31 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1512082638",
+        "tags": {
+          "bridge": "yes",
+          "bridge:name": "Kattenbrug",
+          "cycleway": "shared_lane",
+          "cycleway:lane": "advisory",
+          "highway": "tertiary",
+          "lane_markings": "no",
+          "layer": "1",
+          "maxaxleload": "6.0",
+          "maxspeed": "50",
+          "name": "Kattenbrug",
+          "surface": "asphalt",
+          "zone:traffic": "NL:urban",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,460000,140000,480000 --run nl-6_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map kortenhoef-brug-ba911643 --plaats kortenhoef --punt 135325,471727",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -111,6 +128,6 @@
     "waarschuwingen": [
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "name": "marum-brug-758559b1",
+  "name": "Rijksweg",
   "file": "marum-brug-758559b1.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -88,14 +88,34 @@
           "type": "landhoofd"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/6464159",
+        "tags": {
+          "bridge": "yes",
+          "carriageway_ref": "Li",
+          "highway": "motorway",
+          "int_ref": "E 22",
+          "lanes": "2",
+          "layer": "1",
+          "lit": "no",
+          "maxspeed": "100",
+          "maxspeed:conditional": "130 @ (19:00-06:00)",
+          "name": "Rijksweg",
+          "oneway": "yes",
+          "operator": "Rijkswaterstaat",
+          "ref": "A7",
+          "source:name": "NWB",
+          "surface": "asphalt",
+          "toll:hgv": "yes"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 3
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 200000,560000,220000,580000 --run nl-10_13 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map marum-brug-758559b1 --plaats marum --punt 214082,574500",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

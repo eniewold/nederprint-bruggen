@@ -9,18 +9,18 @@
     469666.47
   ],
   "xAxis": [
-    0.573068,
-    0.819508
+    -0.565923,
+    -0.824458
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 69.069,
+  "groundHeight": 69.369,
   "groundSamplePoints": [
     [
-      -12.17,
-      0.81
+      -32.16,
+      -1.94
     ],
     [
-      12.17,
+      12.15,
       0
     ]
   ],
@@ -30,18 +30,18 @@
   "terrainCorrections": [
     {
       "centre": [
-        251775.08,
-        469662.23
+        251780.98,
+        469670.75
       ],
       "axis": [
-        -0.573068,
-        -0.819508
+        0.565923,
+        0.824458
       ],
       "halfLength": 3,
-      "halfWidth": 3.13,
-      "height": 69.735,
+      "halfWidth": 3.16,
+      "height": 69.632,
       "gradient": [
-        -0.05,
+        -0.08773,
         0
       ],
       "minLift": 0.05,
@@ -49,18 +49,18 @@
     },
     {
       "centre": [
-        251781.01,
-        469670.71
+        251775.13,
+        469662.22
       ],
       "axis": [
-        0.573068,
-        0.819508
+        -0.565923,
+        -0.824458
       ],
       "halfLength": 3,
-      "halfWidth": 3.13,
-      "height": 69.477,
+      "halfWidth": 3.16,
+      "height": 69.746,
       "gradient": [
-        -0.13597,
+        -0.05,
         0
       ],
       "minLift": 0.05,
@@ -78,14 +78,26 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/315546238",
+        "tags": {
+          "bridge": "yes",
+          "electrified": "no",
+          "gauge": "1435",
+          "layer": "1",
+          "maxspeed": "20",
+          "railway": "rail",
+          "railway:preserved": "yes",
+          "wikidata": "Q1954418"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,460000,260000,480000 --run nl-12_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map enschede-brug-3d6877e6-4 --plaats enschede --punt 251778,469666",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -93,24 +105,25 @@
       "dekBreedte": 4.2,
       "brugLengte": 4.3,
       "water": [
-        -1.2,
+        -0.7,
         0.8
       ],
       "portaalhoogte": 3.8,
       "opritafstand": [
-        10,
+        30,
         10
       ],
       "spoorhoogteBron": "pdok",
       "oprithelling": 6,
       "doorstekend": [],
       "opritHoogtes": [
-        69.585,
-        69.069
+        69.369,
+        69.596
       ]
     },
     "waarschuwingen": [
       "oprit -: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "oprit - pas op 30 m langs het spoor gemeten (PDOK-spoorterrein bij de brug lager)",
       "oprit +: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],

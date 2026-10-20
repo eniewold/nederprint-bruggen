@@ -1,5 +1,5 @@
 {
-  "name": "beerzerveld-brug-c9fed29e",
+  "name": "Stenendijk",
   "file": "beerzerveld-brug-c9fed29e.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,23 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/440508969",
+        "tags": {
+          "bridge": "yes",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Stenendijk"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,500000,240000,520000 --run nl-11_10 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map beerzerveld-brug-c9fed29e --plaats beerzerveld --punt 236685,500607",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

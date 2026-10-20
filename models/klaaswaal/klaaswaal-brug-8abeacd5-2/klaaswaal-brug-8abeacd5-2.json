@@ -1,5 +1,5 @@
 {
-  "name": "klaaswaal-brug-8abeacd5-2",
+  "name": "Oud-Cromstrijensedijk",
   "file": "klaaswaal-brug-8abeacd5-2.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -107,14 +107,30 @@
           "type": "pijler"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/422422686",
+        "tags": {
+          "bridge": "yes",
+          "cycleway": "shared_lane",
+          "highway": "tertiary",
+          "layer": "1",
+          "lit": "no",
+          "maxspeed": "60",
+          "name": "Oud-Cromstrijensedijk",
+          "official_name": "Oud-Cromstrijensedijk WZ",
+          "area": "yes",
+          "bridge:structure": "beam",
+          "man_made": "bridge",
+          "source:name": "street sign"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 3
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,420000,100000,440000 --run nl-4_6 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map klaaswaal-brug-8abeacd5-2 --plaats klaaswaal --punt 88378,420774",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

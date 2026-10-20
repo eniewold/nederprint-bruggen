@@ -1,5 +1,5 @@
 {
-  "name": "puttershoek-brug-8abeacd5-26",
+  "name": "Koninginnebrug",
   "file": "puttershoek-brug-8abeacd5-26.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -13,7 +13,7 @@
     0.577847
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 43.312,
+  "groundHeight": 43.297,
   "groundSamplePoints": [
     [
       -21.95,
@@ -58,9 +58,9 @@
       ],
       "halfLength": 9.98,
       "halfWidth": 1.71,
-      "height": 44.563,
+      "height": 44.556,
       "gradient": [
-        -0.12544,
+        -0.1262,
         0
       ],
       "minLift": 0.05,
@@ -78,14 +78,24 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/405990784",
+        "tags": {
+          "bridge": "movable",
+          "bridge:movable": "bascule",
+          "layer": "1",
+          "man_made": "bridge",
+          "name": "Koninginnebrug",
+          "start_date": "2004"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
-    "type": "ligger",
+    "type": "basculebrug",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,420000,100000,440000 --run nl-4_6 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map puttershoek-brug-8abeacd5-26 --plaats puttershoek --punt 98936,424307",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -105,10 +115,11 @@
       "doorstekend": [],
       "opritHoogtes": [
         45.515,
-        43.312
+        43.297
       ]
     },
     "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
     "gegenereerd": "2026-10-20"

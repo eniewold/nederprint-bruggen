@@ -1,5 +1,5 @@
 {
-  "name": "hoogezand-brug-03506aef",
+  "name": "Zwedenweg",
   "file": "hoogezand-brug-03506aef.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -115,14 +115,25 @@
           "type": "pijler"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/6388701",
+        "tags": {
+          "bridge": "movable",
+          "bridge:movable": "bascule",
+          "cycleway": "shared_lane",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Zwedenweg"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 8
     },
-    "type": "ophaalbrug",
+    "type": "basculebrug",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,560000,260000,580000 --run nl-12_13 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map hoogezand-brug-03506aef --plaats hoogezand --punt 245672,576619",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

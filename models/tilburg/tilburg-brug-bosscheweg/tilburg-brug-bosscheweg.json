@@ -1,5 +1,5 @@
 {
-  "name": "Brug Bosscheweg",
+  "name": "Bosscheweg",
   "file": "tilburg-brug-bosscheweg.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -131,20 +131,27 @@
         }
       ],
       "osm": {
-        "id": "way/631123488",
+        "id": "way/665350390",
         "tags": {
-          "bridge": "viaduct",
-          "bridge:structure": "beam",
+          "bicycle": "use_sidepath",
+          "bridge": "movable",
+          "foot": "use_sidepath",
+          "highway": "secondary",
           "layer": "1",
+          "maxspeed": "50",
+          "mofa": "use_sidepath",
+          "name": "Bosscheweg",
+          "name:etymology:wikidata": "Q2766547",
+          "bridge:movable": "lift",
           "man_made": "bridge",
           "source": "KRT Tilburg",
-          "bridge:movable": "lift"
+          "bridge:structure": "beam"
         }
       },
       "fis": {
         "id": 48190,
         "naam": "Brug Bosscheweg",
-        "afstand": 8,
+        "afstand": 3,
         "beweegbaar": true,
         "doorvaarthoogteGesloten": 1
       },
@@ -153,7 +160,7 @@
     "type": "ophaalbrug",
     "doorvaarthoogte": 1,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,380000,140000,400000 --run nl-6_4 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map tilburg-brug-bosscheweg --plaats tilburg --punt 135664,397190",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -164,7 +171,7 @@
         -16.1,
         16.4
       ],
-      "portaalhoogte": 17.1,
+      "portaalhoogte": 13.4,
       "opritafstand": [
         20,
         20

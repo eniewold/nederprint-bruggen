@@ -1,5 +1,5 @@
 {
-  "name": "Oranjebrug Vreeswijk",
+  "name": "Oranjebrug",
   "file": "nieuwegein-oranjebrug-vreeswijk.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -110,20 +110,37 @@
           "type": "landhoofd"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/954427912",
+        "tags": {
+          "bridge": "movable",
+          "bridge:movable": "bascule",
+          "bridge:name": "Oranjebrug",
+          "highway": "residential",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "30",
+          "name": "Oranjebrug",
+          "bridge:structure": "beam",
+          "building:material": "steel",
+          "man_made": "bridge",
+          "source": "local survey & PDOK 25 14-06-21",
+          "surface": "paved"
+        }
+      },
       "fis": {
         "id": 50098,
         "naam": "Oranjebrug Vreeswijk",
-        "afstand": 0,
+        "afstand": 2,
         "beweegbaar": true,
         "doorvaarthoogteGesloten": 0.5
       },
       "pdokBridgeVlakken": 7
     },
-    "type": "ophaalbrug",
+    "type": "basculebrug",
     "doorvaarthoogte": 0.5,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,440000,140000,460000 --run nl-6_7 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map nieuwegein-oranjebrug-vreeswijk --plaats nieuwegein --punt 135043,446591",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -147,6 +164,6 @@
       ]
     },
     "waarschuwingen": [],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

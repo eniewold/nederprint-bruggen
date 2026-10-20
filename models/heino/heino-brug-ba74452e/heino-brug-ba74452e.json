@@ -9,8 +9,8 @@
     494658.5
   ],
   "xAxis": [
-    0.703441,
-    -0.710753
+    -0.703293,
+    0.7109
   ],
   "groundOffsetMetres": 0,
   "groundHeight": 46.721,
@@ -30,18 +30,18 @@
   "terrainCorrections": [
     {
       "centre": [
-        210676.47,
-        494675.71
+        210710.52,
+        494641.29
       ],
       "axis": [
-        -0.703441,
-        0.710753
+        0.703293,
+        -0.7109
       ],
       "halfLength": 12,
       "halfWidth": 6.06,
-      "height": 46.73,
+      "height": 46.739,
       "gradient": [
-        -0.00073,
+        0,
         0
       ],
       "minLift": 0.05,
@@ -49,18 +49,18 @@
     },
     {
       "centre": [
-        210710.52,
-        494641.3
+        210676.47,
+        494675.71
       ],
       "axis": [
-        0.703441,
-        -0.710753
+        -0.703293,
+        0.7109
       ],
       "halfLength": 12,
       "halfWidth": 6.06,
-      "height": 46.739,
+      "height": 46.73,
       "gradient": [
-        0,
+        -0.00073,
         0
       ],
       "minLift": 0.05,
@@ -78,14 +78,41 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/378330315",
+        "tags": {
+          "bridge": "yes",
+          "description": "Zwolle - Wierden",
+          "electrified": "contact_line",
+          "frequency": "0",
+          "gauge": "1435",
+          "layer": "1",
+          "maxspeed": "140",
+          "note": "Start Electrical test trains 16-8-2017",
+          "operator": "ProRail",
+          "passenger_lines": "1",
+          "railway": "rail",
+          "railway:atb": "yes",
+          "railway:atb-ng": "yes",
+          "railway:etcs": "no",
+          "railway:maximum_current": "4000",
+          "railway:track_class": "C2",
+          "railway:traffic_mode": "passenger",
+          "ref": "206",
+          "ref:ProRailSpoortak": "206_101V_12.2",
+          "source": "ProRail",
+          "source:date": "2013-07-10",
+          "usage": "branch",
+          "voltage": "1500"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 200000,480000,220000,500000 --run nl-10_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map heino-brug-ba74452e --plaats heino --punt 210693,494659",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -93,8 +120,8 @@
       "dekBreedte": 8.1,
       "brugLengte": 24.4,
       "water": [
-        -4.7,
-        5.3
+        -5.2,
+        4.8
       ],
       "portaalhoogte": 7.3,
       "opritafstand": [
@@ -105,14 +132,14 @@
       "oprithelling": 24,
       "doorstekend": [],
       "opritHoogtes": [
-        46.721,
-        46.739
+        46.739,
+        46.721
       ]
     },
     "waarschuwingen": [
       "geen FIS-brug binnen 35 m",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

@@ -44,7 +44,7 @@
         0,
         0
       ],
-      "minLift": -1.31,
+      "minLift": -1.28,
       "maxLift": -0.01
     },
     {
@@ -97,14 +97,24 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1167756463",
+        "tags": {
+          "access": "private",
+          "bridge": "low_water_crossing",
+          "highway": "service",
+          "layer": "1",
+          "service": "driveway",
+          "surface": "wood"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,460000,160000,480000 --run nl-7_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map maartensdijk-brug-181a35ab --plaats maartensdijk --punt 141738,463500",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -125,9 +135,9 @@
         {
           "gmlId": "W0636.2b303a663a804ccd895d474865f0bbe5",
           "klasse": "Terrain",
-          "oppervlak": 166.4,
+          "oppervlak": 83.5,
           "onderDek": 0.05,
-          "bovenDekOnderkant": 0.31,
+          "bovenDekOnderkant": 0.28,
           "actie": "verlagen"
         }
       ],
@@ -140,6 +150,6 @@
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
       "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

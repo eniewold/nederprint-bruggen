@@ -13,7 +13,7 @@
     0.813085
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 42.991,
+  "groundHeight": 42.969,
   "groundSamplePoints": [
     [
       -5.75,
@@ -39,9 +39,9 @@
       ],
       "halfLength": 3,
       "halfWidth": 2.96,
-      "height": 43.203,
+      "height": 43.191,
       "gradient": [
-        -0.07067,
+        -0.07408,
         0
       ],
       "minLift": 0.05,
@@ -58,7 +58,7 @@
       ],
       "halfLength": 3,
       "halfWidth": 2.96,
-      "height": 43.265,
+      "height": 43.263,
       "gradient": [
         -0.05,
         0
@@ -78,14 +78,22 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1304297279",
+        "tags": {
+          "bridge": "yes",
+          "highway": "track",
+          "layer": "1",
+          "bridge:movable": "bascule"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
-    "type": "ligger",
+    "type": "basculebrug",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,460000,140000,480000 --run nl-6_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map kortenhoef-brug-1142907d --plaats kortenhoef --punt 134628,471167",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -104,14 +112,15 @@
       "oprithelling": 6,
       "doorstekend": [],
       "opritHoogtes": [
-        42.991,
-        43.115
+        42.969,
+        43.113
       ]
     },
     "waarschuwingen": [
       "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen FIS-brug binnen 35 m",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

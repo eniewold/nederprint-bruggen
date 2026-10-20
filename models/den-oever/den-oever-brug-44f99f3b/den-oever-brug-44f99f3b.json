@@ -1,5 +1,5 @@
 {
-  "name": "den-oever-brug-44f99f3b",
+  "name": "Afsluitdijk",
   "file": "den-oever-brug-44f99f3b.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -220,14 +220,45 @@
           "type": "onbekend"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/108802319",
+        "tags": {
+          "bridge": "yes",
+          "carriageway_ref": "Li",
+          "destination": "Amsterdam;Den Helder",
+          "highway": "motorway",
+          "int_ref": "E 22",
+          "lanes": "2",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "50",
+          "maxspeed:type": "sign",
+          "name": "Afsluitdijk",
+          "name:af": "Afsluitdyk",
+          "name:de": "Abschlussdeich",
+          "name:eo": "Fermdigo",
+          "name:fy": "Ofslútdyk",
+          "name:lb": "Ofschlossdäich",
+          "name:lt": "Afleitdeikas",
+          "name:nds": "Afslussdiek",
+          "name:nds-nl": "Ofsluutdiek",
+          "name:nl": "Afsluitdijk",
+          "name:vls": "Ofsluutdyk",
+          "oneway": "yes",
+          "operator": "Rijkswaterstaat",
+          "ref": "A7",
+          "surface": "asphalt",
+          "toll:hgv": "yes",
+          "zone:traffic": "NL:rural"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 29
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,540000,140000,560000 --run nl-6_12 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map den-oever-brug-44f99f3b --plaats den-oever --punt 131958,549912",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

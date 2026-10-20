@@ -1,5 +1,5 @@
 {
-  "name": "Gemeenlandsvaartbrug",
+  "name": "Achterbos",
   "file": "vinkeveen-gemeenlandsvaartbrug-2.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -41,9 +41,9 @@
       ],
       "halfLength": 3.34,
       "halfWidth": 3.91,
-      "height": 41.739,
+      "height": 41.731,
       "gradient": [
-        -0.0982,
+        -0.09604,
         0
       ],
       "minLift": 0.05,
@@ -60,7 +60,7 @@
       ],
       "halfLength": 3.34,
       "halfWidth": 3.91,
-      "height": 41.916,
+      "height": 41.902,
       "gradient": [
         -0.04492,
         0
@@ -88,7 +88,23 @@
           "type": "landhoofd"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1079462033",
+        "tags": {
+          "bridge": "movable",
+          "bridge:movable": "bascule",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Achterbos",
+          "sidewalk": "no",
+          "source:maxspeed": "observation",
+          "surface": "paved",
+          "zone:maxspeed": "NL:30",
+          "zone:traffic": "NL:urban",
+          "man_made": "bridge"
+        }
+      },
       "fis": {
         "id": 23537413,
         "naam": "Gemeenlandsvaartbrug",
@@ -98,10 +114,10 @@
       },
       "pdokBridgeVlakken": 3
     },
-    "type": "ophaalbrug",
+    "type": "basculebrug",
     "doorvaarthoogte": 0.9,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,460000,140000,480000 --run nl-6_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map vinkeveen-gemeenlandsvaartbrug-2 --plaats vinkeveen --punt 123629,470757",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -121,10 +137,10 @@
       "doorstekend": [],
       "opritHoogtes": [
         41.411,
-        41.766
+        41.752
       ]
     },
     "waarschuwingen": [],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

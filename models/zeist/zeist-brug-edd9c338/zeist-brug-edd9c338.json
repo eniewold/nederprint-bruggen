@@ -1,5 +1,5 @@
 {
-  "name": "zeist-brug-edd9c338",
+  "name": "Huis ter Heideweg",
   "file": "zeist-brug-edd9c338.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -138,14 +138,26 @@
           "type": "landhoofd"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/6991465",
+        "tags": {
+          "bicycle": "no",
+          "bridge": "yes",
+          "bridge:name": "Huis ter Heide",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "50",
+          "name": "Huis ter Heideweg",
+          "surface": "asphalt"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 9
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,440000,160000,460000 --run nl-7_7 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map zeist-brug-edd9c338 --plaats zeist --punt 145956,457472",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -186,6 +198,6 @@
       "geen FIS-brug binnen 35 m",
       "2 PDOK-vorm(en) door het dek: 1 verborgen, 1 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

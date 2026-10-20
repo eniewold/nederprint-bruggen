@@ -13,15 +13,15 @@
     0.779367
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 48.015,
+  "groundHeight": 48.523,
   "groundSamplePoints": [
     [
-      -91.1,
+      -51.1,
       0
     ],
     [
-      61.09,
-      13.66
+      51.09,
+      0
     ]
   ],
   "replacesTerrain": [
@@ -47,12 +47,12 @@
       ],
       "halfLength": 45.09,
       "halfWidth": 19.03,
-      "height": 47.221,
+      "height": 47.235,
       "gradient": [
         0,
         0
       ],
-      "minLift": -5.58,
+      "minLift": -5.56,
       "maxLift": -0.01
     },
     {
@@ -66,9 +66,9 @@
       ],
       "halfLength": 12,
       "halfWidth": 20.53,
-      "height": 48.268,
+      "height": 48.535,
       "gradient": [
-        -0.02108,
+        0,
         0
       ],
       "minLift": 0.05,
@@ -85,9 +85,9 @@
       ],
       "halfLength": 12,
       "halfWidth": 20.53,
-      "height": 48.371,
+      "height": 48.529,
       "gradient": [
-        -0.0125,
+        -0.00051,
         0
       ],
       "minLift": 0.05,
@@ -135,32 +135,14 @@
         }
       ],
       "osm": {
-        "id": "way/461748300",
+        "id": "way/461748299",
         "tags": {
           "bridge": "yes",
-          "description": "Leiden Centraal",
-          "electrified": "contact_line",
-          "frequency": "0",
-          "gauge": "1435",
+          "highway": "cycleway",
           "layer": "1",
-          "maxspeed": "160",
-          "name": "Haarlemmerviaduct",
-          "operator": "ProRail",
-          "passenger_lines": "4",
-          "railway": "rail",
-          "railway:atb": "yes",
-          "railway:maximum_current": "4000",
-          "railway:track_class": "C2",
-          "railway:traffic_mode": "passenger",
-          "ref": "534b",
-          "ref:ProRailID": "2878043.0",
-          "ref:ProRailSpoortak": "534_1013BV_44.8",
-          "source": "ProRail",
-          "source:date": "2014-01-03",
-          "usage": "main",
-          "voltage": "1500",
-          "wikidata": "Q2236232",
-          "wikipedia": "nl:Spoorlijn Weesp - Leiden",
+          "lit": "yes",
+          "name": "Maredijkviaduct",
+          "surface": "asphalt",
           "man_made": "bridge"
         }
       },
@@ -173,7 +155,7 @@
       "naam": "Haarlemmerviaduct",
       "straal": 40
     },
-    "opdracht": "node scripts/bridges/genereer.mjs --uit C:/Users/edwar/AppData/Local/Temp/claude/C--Users-edwar-source-Repos-nederprint/3bd9e161-d515-4f1b-bfbf-c9cc2320f835/scratchpad/rail-batch5 --map haarlemmerviaduct --plaats leiden --punt 93557.44,465230.36 --naam Haarlemmerviaduct --straal 40",
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 90100,459364,95921,466645 --run leiden-2026-10-20 --overschrijf 1 --parallel 5",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -186,9 +168,10 @@
       ],
       "portaalhoogte": 33.4,
       "opritafstand": [
-        40,
-        10
+        0,
+        0
       ],
+      "spoorhoogteBron": "prorail-pvs",
       "oprithelling": 24,
       "doorstekend": [
         {
@@ -196,7 +179,7 @@
           "klasse": "Road",
           "oppervlak": 528.5,
           "onderDek": 0.47,
-          "bovenDekOnderkant": 4.58,
+          "bovenDekOnderkant": 4.56,
           "actie": "verlagen"
         },
         {
@@ -204,7 +187,7 @@
           "klasse": "Road",
           "oppervlak": 741.7,
           "onderDek": 0.2,
-          "bovenDekOnderkant": 1.25,
+          "bovenDekOnderkant": 1.24,
           "actie": "verlagen"
         },
         {
@@ -212,7 +195,7 @@
           "klasse": "Road",
           "oppervlak": 80039.2,
           "onderDek": 0,
-          "bovenDekOnderkant": 1,
+          "bovenDekOnderkant": 0.98,
           "actie": "verlagen"
         },
         {
@@ -220,7 +203,7 @@
           "klasse": "Terrain",
           "oppervlak": 178,
           "onderDek": 0.63,
-          "bovenDekOnderkant": 0.74,
+          "bovenDekOnderkant": 0.73,
           "actie": "verlagen"
         },
         {
@@ -228,7 +211,7 @@
           "klasse": "Road",
           "oppervlak": 221.1,
           "onderDek": 0.36,
-          "bovenDekOnderkant": 0.73,
+          "bovenDekOnderkant": 0.71,
           "actie": "verlagen"
         },
         {
@@ -236,20 +219,19 @@
           "klasse": "Terrain",
           "oppervlak": 44.8,
           "onderDek": 0.86,
-          "bovenDekOnderkant": 0.33,
+          "bovenDekOnderkant": 0.31,
           "actie": "verbergen"
         }
       ],
       "opritHoogtes": [
-        48.015,
-        48.221
+        48.535,
+        48.523
       ]
     },
     "waarschuwingen": [
       "geen FIS-brug binnen 35 m",
-      "oprit - pas op 40 m langs het spoor gemeten (PDOK-spoorterrein bij de brug lager)",
       "6 PDOK-vorm(en) door het dek: 1 verborgen, 5 verlaagd"
     ],
-    "gegenereerd": "2026-10-17"
+    "gegenereerd": "2026-10-20"
   }
 }

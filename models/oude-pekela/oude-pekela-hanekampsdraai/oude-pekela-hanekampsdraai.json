@@ -88,20 +88,27 @@
           "type": "landhoofd"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/814999543",
+        "tags": {
+          "bridge": "movable",
+          "highway": "path",
+          "layer": "1"
+        }
+      },
       "fis": {
         "id": 31637,
         "naam": "Hanekampsdraai",
-        "afstand": 4,
+        "afstand": 2,
         "beweegbaar": true,
         "doorvaarthoogteGesloten": 1
       },
       "pdokBridgeVlakken": 3
     },
-    "type": "ophaalbrug",
+    "type": "basculebrug",
     "doorvaarthoogte": 1,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 260000,560000,280000,580000 --run nl-13_13 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map oude-pekela-hanekampsdraai --plaats oude-pekela --punt 262848,569300",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -124,7 +131,9 @@
         42.749
       ]
     },
-    "waarschuwingen": [],
+    "waarschuwingen": [
+      "bridge=movable zonder mechanisme: basculebrug is een gok"
+    ],
     "gegenereerd": "2026-10-20"
   }
 }

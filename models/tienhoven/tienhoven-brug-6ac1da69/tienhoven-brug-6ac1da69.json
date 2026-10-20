@@ -1,5 +1,5 @@
 {
-  "name": "tienhoven-brug-6ac1da69",
+  "name": "Laan van Niftarlake",
   "file": "tienhoven-brug-6ac1da69.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -13,7 +13,7 @@
     0.397602
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 43.172,
+  "groundHeight": 43.171,
   "groundSamplePoints": [
     [
       -7.3,
@@ -60,7 +60,7 @@
       "halfWidth": 3.86,
       "height": 43.472,
       "gradient": [
-        -0.09113,
+        -0.09116,
         0
       ],
       "minLift": 0.05,
@@ -78,14 +78,25 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/60675058",
+        "tags": {
+          "alt_name": "Burgemeester A.A. van den Hoornbrug",
+          "bridge": "yes",
+          "cycleway": "shared_lane",
+          "highway": "residential",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Laan van Niftarlake"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,460000,140000,480000 --run nl-6_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map tienhoven-brug-6ac1da69 --plaats tienhoven --punt 134028,464718",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -105,12 +116,12 @@
       "doorstekend": [],
       "opritHoogtes": [
         43.472,
-        43.172
+        43.171
       ]
     },
     "waarschuwingen": [
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

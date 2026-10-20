@@ -1,5 +1,5 @@
 {
-  "name": "ijsselstein-brug-b1f436ee",
+  "name": "Benschopperstraat",
   "file": "ijsselstein-brug-b1f436ee.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -97,14 +97,30 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/828945273",
+        "tags": {
+          "bridge": "yes",
+          "cycleway:both": "no",
+          "foot": "yes",
+          "highway": "unclassified",
+          "lane_markings": "no",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Benschopperstraat",
+          "sidewalk": "no",
+          "surface": "paving_stones",
+          "bridge:structure": "arch",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
-    "type": "ligger",
+    "type": "gewelf",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,440000,140000,460000 --run nl-6_7 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map ijsselstein-brug-b1f436ee --plaats ijsselstein --punt 131238,447805",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -149,6 +165,6 @@
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
       "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

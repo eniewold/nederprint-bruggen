@@ -1,5 +1,5 @@
 {
-  "name": "Maaseikerweg",
+  "name": "Brug Roosteren",
   "file": "susteren-maaseikerweg.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -9,68 +9,48 @@
     343387.77
   ],
   "xAxis": [
-    -0.466288,
-    -0.884633
+    -0.884633,
+    0.466288
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 78.953,
+  "groundHeight": 84.916,
   "groundSamplePoints": [
     [
-      -25.13,
+      -118,
       0
     ],
     [
-      26.15,
+      118,
       0
     ]
   ],
   "replacesTerrain": [
-    "P0031.40c710dd229d0192e053160d000a0233",
     "P0031.2566655219ef47f48c01890e2066a5f6",
     "P0031.f62b4e11bf8148f994b86a90f340f0d6",
     "G1711.288df6a9efff43f9a5912327ccb369a6",
     "P0031.40c710dd21fe0192e053160d000a0233",
+    "L0002.c5f24f075e4c416f8f2ca05cac13b914",
+    "L0002.cdbd7e50a085410fa5e947851e96509f",
     "P0031.40c710dd191e0192e053160d000a0233",
-    "G1711.0a7caca483c347769aba5f57505e86c4",
     "P0031.40c710dd26400192e053160d000a0233",
     "P0031.1ab34504a52e4d83ba7d7c7360a487b6",
-    "P0031.40c710dd1bce0192e053160d000a0233",
     "P0031.fc6869e546d6495e8052a64835695568"
   ],
   "terrainCorrections": [
     {
       "centre": [
-        185752.93,
-        343387.77
+        185850.24,
+        343336.48
       ],
       "axis": [
-        -0.466288,
-        -0.884633
+        0.884633,
+        -0.466288
       ],
-      "halfLength": 4.18,
-      "halfWidth": 98.5,
-      "height": 78.039,
+      "halfLength": 12,
+      "halfWidth": 10.36,
+      "height": 86.734,
       "gradient": [
-        0,
-        0
-      ],
-      "minLift": -6.91,
-      "maxLift": -0.01
-    },
-    {
-      "centre": [
-        185763.56,
-        343407.94
-      ],
-      "axis": [
-        0.466288,
-        0.884633
-      ],
-      "halfLength": 11.66,
-      "halfWidth": 100,
-      "height": 79.146,
-      "gradient": [
-        -0.01657,
+        -0.15151,
         0
       ],
       "minLift": 0.05,
@@ -78,18 +58,18 @@
     },
     {
       "centre": [
-        185741.82,
-        343366.7
+        185655.62,
+        343439.07
       ],
       "axis": [
-        -0.466288,
-        -0.884633
+        -0.884633,
+        0.466288
       ],
-      "halfLength": 11.66,
-      "halfWidth": 100,
-      "height": 79.189,
+      "halfLength": 12,
+      "halfWidth": 10.36,
+      "height": 88.402,
       "gradient": [
-        -0.01287,
+        -0.0125,
         0
       ],
       "minLift": 0.05,
@@ -103,10 +83,6 @@
     ],
     "bron": {
       "bgt": [
-        {
-          "id": "P0031.40c710dd229d0192e053160d000a0233",
-          "type": "landhoofd"
-        },
         {
           "id": "P0031.2566655219ef47f48c01890e2066a5f6",
           "type": "landhoofd"
@@ -124,12 +100,16 @@
           "type": "landhoofd"
         },
         {
-          "id": "P0031.40c710dd191e0192e053160d000a0233",
-          "type": "dek"
+          "id": "L0002.c5f24f075e4c416f8f2ca05cac13b914",
+          "type": "onbekend"
         },
         {
-          "id": "G1711.0a7caca483c347769aba5f57505e86c4",
-          "type": "landhoofd"
+          "id": "L0002.cdbd7e50a085410fa5e947851e96509f",
+          "type": "onbekend"
+        },
+        {
+          "id": "P0031.40c710dd191e0192e053160d000a0233",
+          "type": "dek"
         },
         {
           "id": "P0031.40c710dd26400192e053160d000a0233",
@@ -140,135 +120,61 @@
           "type": "landhoofd"
         },
         {
-          "id": "P0031.40c710dd1bce0192e053160d000a0233",
-          "type": "landhoofd"
-        },
-        {
           "id": "P0031.fc6869e546d6495e8052a64835695568",
           "type": "landhoofd"
         }
       ],
       "osm": {
-        "id": "way/734846122",
+        "id": "way/503968149",
         "tags": {
           "bicycle": "no",
           "bridge": "yes",
+          "bridge:name": "Brug Roosteren",
           "highway": "primary",
           "lanes": "2",
           "layer": "1",
           "maxspeed": "80",
+          "maxweight": "3.5",
           "mofa": "use_sidepath",
           "moped": "use_sidepath",
-          "name": "Maaseikerweg",
+          "name": "Brug Roosteren",
           "operator": "Provincie Limburg",
           "ref": "N296",
           "surface": "asphalt",
-          "bridge:structure": "beam",
           "man_made": "bridge"
         }
       },
       "fis": null,
-      "pdokBridgeVlakken": 11
+      "pdokBridgeVlakken": 10
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 180000,340000,200000,360000 --run nl-9_2 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map susteren-maaseikerweg --plaats susteren --punt 185753,343388",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
-      "dekLengte": 16.7,
-      "dekBreedte": 196,
-      "brugLengte": 23.3,
-      "water": null,
-      "portaalhoogte": 176.4,
+      "dekLengte": 196,
+      "dekBreedte": 16.7,
+      "brugLengte": 196,
+      "water": [
+        3.5,
+        78
+      ],
+      "portaalhoogte": 15.1,
       "opritafstand": [
-        14,
-        14
+        20,
+        20
       ],
-      "oprithelling": 23.3,
-      "doorstekend": [
-        {
-          "gmlId": "G1711.47e11bea3eaa4134b8482185ab633b16",
-          "klasse": "Terrain",
-          "oppervlak": 325.9,
-          "onderDek": 0.57,
-          "bovenDekOnderkant": 5.91,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "G1711.ccce78e3a9404c9fbb646b76189e685b",
-          "klasse": "Terrain",
-          "oppervlak": 241.6,
-          "onderDek": 0.35,
-          "bovenDekOnderkant": 2.45,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "G1711.caada083f8fd4f088d2e1b1a114ae2fa",
-          "klasse": "Terrain",
-          "oppervlak": 36.9,
-          "onderDek": 0.54,
-          "bovenDekOnderkant": 1.29,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "L0002.5da3248b104d4cf7abc10fe0d770e4b0",
-          "klasse": "Terrain",
-          "oppervlak": 13.4,
-          "onderDek": 0.45,
-          "bovenDekOnderkant": 1.19,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "G1711.fbacca84cb654649940cbb46b4ad5d34",
-          "klasse": "Terrain",
-          "oppervlak": 54.3,
-          "onderDek": 0.55,
-          "bovenDekOnderkant": 0.91,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "G1711.0e0f30bad43e408a89c3c67ae6df586f",
-          "klasse": "Road",
-          "oppervlak": 320.5,
-          "onderDek": 0.11,
-          "bovenDekOnderkant": 0.86,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "G1711.432335ec808646efadf0f1386b52f606",
-          "klasse": "Terrain",
-          "oppervlak": 27.4,
-          "onderDek": 0.58,
-          "bovenDekOnderkant": 0.68,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "L0002.6b3873f6b6754e7f98c2558ec91ebe7d",
-          "klasse": "Terrain",
-          "oppervlak": 24.2,
-          "onderDek": 0.59,
-          "bovenDekOnderkant": 0.32,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "L0002.e46d8a59bead4ffa8635d5ba6f5d0352",
-          "klasse": "Terrain",
-          "oppervlak": 51.1,
-          "onderDek": 0.3,
-          "bovenDekOnderkant": 0.07,
-          "actie": "verlagen"
-        }
-      ],
+      "oprithelling": 24,
+      "doorstekend": [],
       "opritHoogtes": [
-        78.953,
-        79.039
+        84.916,
+        88.252
       ]
     },
     "waarschuwingen": [
-      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
-      "9 PDOK-vorm(en) door het dek: 0 verborgen, 9 verlaagd"
+      "geen FIS-brug binnen 35 m"
     ],
     "gegenereerd": "2026-10-20"
   }

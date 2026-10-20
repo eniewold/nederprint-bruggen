@@ -1,5 +1,5 @@
 {
-  "name": "Blauwpoortbrug",
+  "name": "Blauwpoortsbrug",
   "file": "enkhuizen-blauwpoortbrug.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -100,20 +100,36 @@
           "type": "pijler"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/220795312",
+        "tags": {
+          "bridge": "movable",
+          "bridge:movable": "bascule",
+          "highway": "residential",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "30",
+          "maxweight": "3.5",
+          "name": "Blauwpoortsbrug",
+          "sidewalk": "both",
+          "sidewalk:both:surface": "asphalt",
+          "surface": "asphalt",
+          "zone:maxspeed": "NL:30"
+        }
+      },
       "fis": {
         "id": 9635,
         "naam": "Blauwpoortbrug",
-        "afstand": 3,
+        "afstand": 4,
         "beweegbaar": true,
         "doorvaarthoogteGesloten": 2
       },
       "pdokBridgeVlakken": 5
     },
-    "type": "ophaalbrug",
+    "type": "basculebrug",
     "doorvaarthoogte": 2,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,520000,160000,540000 --run nl-7_11 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map enkhuizen-blauwpoortbrug --plaats enkhuizen --punt 148767,523694",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -137,6 +153,6 @@
       ]
     },
     "waarschuwingen": [],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

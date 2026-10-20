@@ -9,18 +9,18 @@
     399643.91
   ],
   "xAxis": [
-    -0.875378,
-    0.483439
+    0.483439,
+    0.875378
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 45.575,
+  "groundHeight": 45.108,
   "groundSamplePoints": [
     [
-      -5.31,
+      -65.48,
       0
     ],
     [
-      5.31,
+      55.48,
       0
     ]
   ],
@@ -34,33 +34,33 @@
         399643.91
       ],
       "axis": [
-        -0.875378,
-        0.483439
+        0.483439,
+        0.875378
       ],
-      "halfLength": 0.65,
-      "halfWidth": 25.98,
-      "height": 44.58,
+      "halfLength": 19.48,
+      "halfWidth": 1.81,
+      "height": 44.25,
       "gradient": [
         0,
         0
       ],
-      "minLift": -4.39,
+      "minLift": -3.2,
       "maxLift": -0.01
     },
     {
       "centre": [
-        46713.37,
-        399641.83
+        46691.48,
+        399611.1
       ],
       "axis": [
-        0.875378,
-        -0.483439
+        -0.483439,
+        -0.875378
       ],
-      "halfLength": 3,
-      "halfWidth": 27.48,
-      "height": 45.728,
+      "halfLength": 12,
+      "halfWidth": 1.96,
+      "height": 45.4,
       "gradient": [
-        -0.05078,
+        -0.0125,
         0
       ],
       "minLift": 0.05,
@@ -68,18 +68,18 @@
     },
     {
       "centre": [
-        46705.82,
-        399645.99
+        46727.71,
+        399676.72
       ],
       "axis": [
-        -0.875378,
-        0.483439
+        0.483439,
+        0.875378
       ],
-      "halfLength": 3,
-      "halfWidth": 27.48,
-      "height": 45.73,
+      "halfLength": 12,
+      "halfWidth": 1.96,
+      "height": 45.329,
       "gradient": [
-        -0.05,
+        -0.0184,
         0
       ],
       "minLift": 0.05,
@@ -113,69 +113,74 @@
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 40000,380000,60000,400000 --run nl-2_4 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map colijnsplaat-brug-89922bab --plaats colijnsplaat --punt 46710,399644",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
-      "dekLengte": 2.6,
-      "dekBreedte": 51,
-      "brugLengte": 2.6,
-      "water": null,
-      "portaalhoogte": 45.9,
-      "opritafstand": [
-        4,
-        4
+      "dekLengte": 51,
+      "dekBreedte": 2.6,
+      "brugLengte": 51,
+      "water": [
+        -17,
+        -9.5
       ],
-      "oprithelling": 6,
+      "portaalhoogte": 2.5,
+      "opritafstand": [
+        40,
+        30
+      ],
+      "oprithelling": 24,
       "doorstekend": [
         {
           "gmlId": "P0029.361aae9b370d4a50a44b628b27fb29c9",
           "klasse": "Terrain",
-          "oppervlak": 2420.4,
-          "onderDek": 0.03,
-          "bovenDekOnderkant": 3.39,
+          "oppervlak": 10246.6,
+          "onderDek": 0,
+          "bovenDekOnderkant": 2.2,
           "actie": "verlagen"
         },
         {
           "gmlId": "P0029.e1cb5e532f5849148fd91cefabfe35e4",
           "klasse": "Terrain",
-          "oppervlak": 2901.9,
-          "onderDek": 0.04,
-          "bovenDekOnderkant": 1.39,
+          "oppervlak": 7490.1,
+          "onderDek": 0.01,
+          "bovenDekOnderkant": 1.76,
           "actie": "verlagen"
         },
         {
           "gmlId": "P0029.0bbc943c889e4f549c76d7312cbc958d",
           "klasse": "Terrain",
-          "oppervlak": 1638.6,
-          "onderDek": 0.02,
-          "bovenDekOnderkant": 0.74,
+          "oppervlak": 4176.2,
+          "onderDek": 0.01,
+          "bovenDekOnderkant": 1.06,
           "actie": "verlagen"
         },
         {
           "gmlId": "W0661.6716ca29f72f4ca7a7653020eb697a93",
           "klasse": "Terrain",
-          "oppervlak": 792.7,
-          "onderDek": 0.06,
-          "bovenDekOnderkant": 0.7,
+          "oppervlak": 2026.2,
+          "onderDek": 0.01,
+          "bovenDekOnderkant": 0.97,
           "actie": "verlagen"
         },
         {
           "gmlId": "P0029.bfb1121848cf43ea9f202fcc0968fc68",
           "klasse": "Terrain",
-          "oppervlak": 2014.7,
-          "onderDek": 0.02,
-          "bovenDekOnderkant": 0.63,
+          "oppervlak": 4272.3,
+          "onderDek": 0.01,
+          "bovenDekOnderkant": 0.96,
           "actie": "verlagen"
         }
       ],
       "opritHoogtes": [
-        45.575,
-        45.58
+        45.25,
+        45.108
       ]
     },
     "waarschuwingen": [
-      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen FIS-brug binnen 35 m",
+      "oprit - pas op 40.0 m gemeten",
+      "oprit + pas op 30.0 m gemeten",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
       "5 PDOK-vorm(en) door het dek: 0 verborgen, 5 verlaagd"
     ],

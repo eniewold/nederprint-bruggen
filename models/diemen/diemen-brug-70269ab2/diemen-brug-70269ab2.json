@@ -1,5 +1,5 @@
 {
-  "name": "diemen-brug-70269ab2",
+  "name": "Fortdiemerdamweg",
   "file": "diemen-brug-70269ab2.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -26,8 +26,8 @@
   ],
   "replacesTerrain": [
     "L0002.5b55f52b00604ff3894cb70ce7743cc2",
-    "L0002.71b3747fcd164fe385ec8de32b9e3724",
     "L0002.7dbb0f948a174796b76ab69172be02a3",
+    "L0002.8584bbc780d647379afba16bed82c077",
     "L0002.8a7244a88d824122b2b364414c6f8251",
     "L0002.8f9a7ed7e7234e3a9f4059161b5290d0",
     "L0002.a48259cd64f848f388ef0913ded5d8e7",
@@ -88,11 +88,11 @@
           "type": "onbekend"
         },
         {
-          "id": "L0002.71b3747fcd164fe385ec8de32b9e3724",
+          "id": "L0002.7dbb0f948a174796b76ab69172be02a3",
           "type": "onbekend"
         },
         {
-          "id": "L0002.7dbb0f948a174796b76ab69172be02a3",
+          "id": "L0002.8584bbc780d647379afba16bed82c077",
           "type": "onbekend"
         },
         {
@@ -128,14 +128,38 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1487655515",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "yes",
+          "bridge:name": "Benno Premselabrug",
+          "bridge:wikidata": "Q2677042",
+          "bridge:wikimedia_commons": "Category:Brug 2005, Benno Premselabrug",
+          "bridge:wikipedia": "nl:Benno Premselabrug",
+          "foot": "no",
+          "highway": "secondary",
+          "lanes": "2",
+          "layer": "1",
+          "maxspeed": "70",
+          "maxweight:signed": "no",
+          "mofa": "use_sidepath",
+          "moped": "use_sidepath",
+          "name": "Fortdiemerdamweg",
+          "oneway": "yes",
+          "operator": "Gemeente Amsterdam",
+          "ref": "S114",
+          "surface": "asphalt",
+          "zone:traffic": "NL:rural"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 11
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map diemen-brug-70269ab2 --plaats diemen --punt 129690,484386",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -162,6 +186,6 @@
       "geen FIS-brug binnen 35 m",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

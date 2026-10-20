@@ -39,12 +39,12 @@
       ],
       "halfLength": 2.35,
       "halfWidth": 1.04,
-      "height": 48.829,
+      "height": 48.81,
       "gradient": [
         0,
         0
       ],
-      "minLift": -1.15,
+      "minLift": -1.17,
       "maxLift": -0.01
     },
     {
@@ -58,9 +58,9 @@
       ],
       "halfLength": 4.7,
       "halfWidth": 0.81,
-      "height": 49.915,
+      "height": 49.906,
       "gradient": [
-        -0.04538,
+        -0.04336,
         0
       ],
       "minLift": 0.05,
@@ -77,7 +77,7 @@
       ],
       "halfLength": 4.7,
       "halfWidth": 0.81,
-      "height": 49.979,
+      "height": 49.96,
       "gradient": [
         -0.03188,
         0
@@ -97,14 +97,27 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/289350586",
+        "tags": {
+          "access:conditional": "no @ (Oct 01-Mar 31; sunset-sunrise)",
+          "bridge": "yes",
+          "foot": "permissive",
+          "foot:conditional": "no @ (Oct 01-Mar 31; sunset-sunrise)",
+          "highway": "path",
+          "layer": "1",
+          "opening_hours": "Apr 01-Sep 30: sunrise-sunset open",
+          "operator": "Staatsbosbeheer",
+          "website": "https://www.staatsbosbeheer.nl/natuurgebieden/uiterwaarden-rijn-en-lek/toegankelijkheid"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ophaalbrug",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,440000,160000,460000 --run nl-7_7 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map amerongen-brug-07a77940 --plaats amerongen --punt 159630,444876",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -127,20 +140,28 @@
           "klasse": "Terrain",
           "oppervlak": 304.8,
           "onderDek": 0.01,
-          "bovenDekOnderkant": 0.15,
+          "bovenDekOnderkant": 0.17,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "W0636.1f50f9610418425eb289ed42f3317d3c",
+          "klasse": "Terrain",
+          "oppervlak": 240.6,
+          "onderDek": 0.01,
+          "bovenDekOnderkant": 0.05,
           "actie": "verlagen"
         }
       ],
       "opritHoogtes": [
         49.702,
-        49.829
+        49.81
       ]
     },
     "waarschuwingen": [
       "geen FIS-brug binnen 35 m",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
-      "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

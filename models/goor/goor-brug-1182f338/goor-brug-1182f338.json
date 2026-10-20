@@ -1,5 +1,5 @@
 {
-  "name": "goor-brug-1182f338",
+  "name": "Kwartelstraat",
   "file": "goor-brug-1182f338.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,25 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/245130072",
+        "tags": {
+          "bridge": "yes",
+          "highway": "footway",
+          "layer": "1",
+          "lit": "yes",
+          "name": "Kwartelstraat",
+          "smoothness": "good",
+          "surface": "paving_stones"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ophaalbrug",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,460000,240000,480000 --run nl-11_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map goor-brug-1182f338 --plaats goor --punt 236235,472713",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

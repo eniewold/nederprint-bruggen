@@ -1,5 +1,5 @@
 {
-  "name": "langenboom-brug-77aeda04",
+  "name": "Graafsebaan",
   "file": "langenboom-brug-77aeda04.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -39,7 +39,7 @@
       ],
       "halfLength": 3.15,
       "halfWidth": 3.64,
-      "height": 57.156,
+      "height": 57.15,
       "gradient": [
         -0.04765,
         0
@@ -58,9 +58,9 @@
       ],
       "halfLength": 3.15,
       "halfWidth": 3.64,
-      "height": 57.083,
+      "height": 57.08,
       "gradient": [
-        -0.07073,
+        -0.06977,
         0
       ],
       "minLift": 0.05,
@@ -78,14 +78,23 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/750450653",
+        "tags": {
+          "bridge": "yes",
+          "highway": "track",
+          "layer": "1",
+          "name": "Graafsebaan",
+          "tracktype": "grade3"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,400000,180000,420000 --run nl-8_5 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map langenboom-brug-77aeda04 --plaats langenboom --punt 177253,415221",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -104,13 +113,13 @@
       "oprithelling": 6.3,
       "doorstekend": [],
       "opritHoogtes": [
-        57.006,
+        57,
         56.861
       ]
     },
     "waarschuwingen": [
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

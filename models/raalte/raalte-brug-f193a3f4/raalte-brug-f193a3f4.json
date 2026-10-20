@@ -1,5 +1,5 @@
 {
-  "name": "raalte-brug-f193a3f4",
+  "name": "Crismansweg",
   "file": "raalte-brug-f193a3f4.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,27 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/6808373",
+        "tags": {
+          "bridge": "yes",
+          "bridge:name": "Crismansbrug",
+          "cycleway:both": "no",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxaxleload": "8",
+          "maxspeed": "60",
+          "name": "Crismansweg",
+          "sidewalk": "no"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 200000,480000,220000,500000 --run nl-10_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map raalte-brug-f193a3f4 --plaats raalte --punt 217842,491733",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -111,6 +124,6 @@
     "waarschuwingen": [
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

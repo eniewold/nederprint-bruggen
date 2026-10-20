@@ -1,5 +1,5 @@
 {
-  "name": "ermelo-brug-b7b5c40e",
+  "name": "Staverdenseweg",
   "file": "ermelo-brug-b7b5c40e.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -39,12 +39,12 @@
       ],
       "halfLength": 1.4,
       "halfWidth": 1.55,
-      "height": 63.414,
+      "height": 63.403,
       "gradient": [
         0,
         0
       ],
-      "minLift": -1.59,
+      "minLift": -1.6,
       "maxLift": -0.01
     },
     {
@@ -58,9 +58,9 @@
       ],
       "halfLength": 3,
       "halfWidth": 1.58,
-      "height": 64.501,
+      "height": 64.496,
       "gradient": [
-        -0.07079,
+        -0.0691,
         0
       ],
       "minLift": 0.05,
@@ -77,7 +77,7 @@
       ],
       "halfLength": 3,
       "halfWidth": 1.58,
-      "height": 64.564,
+      "height": 64.553,
       "gradient": [
         -0.05,
         0
@@ -97,14 +97,29 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/692943752",
+        "tags": {
+          "bridge": "yes",
+          "foot": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "mofa": "no",
+          "moped": "no",
+          "name": "Staverdenseweg",
+          "segregated": "no",
+          "smoothness": "good",
+          "surface": "wood",
+          "traffic_sign": "NL:G13"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,460000,180000,480000 --run nl-8_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map ermelo-brug-b7b5c40e --plaats ermelo --punt 179470,477740",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -124,27 +139,27 @@
           "klasse": "Terrain",
           "oppervlak": 104,
           "onderDek": 0.05,
-          "bovenDekOnderkant": 0.59,
+          "bovenDekOnderkant": 0.6,
           "actie": "verlagen"
         },
         {
           "gmlId": "G0233.5a92e04f99c34c88bf6ea2dadbed2997",
           "klasse": "Forest",
-          "oppervlak": 85.5,
+          "oppervlak": 42.8,
           "onderDek": 0.02,
-          "bovenDekOnderkant": 0.35,
+          "bovenDekOnderkant": 0.36,
           "actie": "verlagen"
         }
       ],
       "opritHoogtes": [
         64.289,
-        64.414
+        64.403
       ]
     },
     "waarschuwingen": [
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
       "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "name": "wijnjewoude-brug-5f3e6a4e",
+  "name": "Turfbrêge",
   "file": "wijnjewoude-brug-5f3e6a4e.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -147,14 +147,35 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/490698381",
+        "tags": {
+          "bridge": "yes",
+          "carriageway_ref": "Re",
+          "highway": "trunk",
+          "lanes": "2",
+          "layer": "1",
+          "lit": "no",
+          "maxspeed": "100",
+          "maxweight:signed": "no",
+          "motorroad": "yes",
+          "oneway": "yes",
+          "operator": "Provincie Fryslân",
+          "ref": "N381",
+          "surface": "asphalt",
+          "zone:traffic": "NL:rural",
+          "bridge:structure": "beam",
+          "man_made": "bridge",
+          "name": "Turfbrêge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 11
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 200000,560000,220000,580000 --run nl-10_13 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map wijnjewoude-brug-5f3e6a4e --plaats wijnjewoude --punt 208977,561985",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

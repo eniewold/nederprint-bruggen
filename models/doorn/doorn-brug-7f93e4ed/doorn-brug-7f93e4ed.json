@@ -78,14 +78,27 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/247544828",
+        "tags": {
+          "bicycle": "no",
+          "bridge": "yes",
+          "description": "Bridge may be knee-deep underwater when lake level is high (which it is for over a year 2024 and 2025).",
+          "foot": "permissive",
+          "highway": "path",
+          "layer": "1",
+          "note": "Trail runners can cross if they are okay getting wet.",
+          "surface": "sand",
+          "tracktype": "grade4"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,440000,160000,460000 --run nl-7_7 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map doorn-brug-7f93e4ed --plaats doorn --punt 151582,452921",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -112,6 +125,6 @@
       "geen FIS-brug binnen 35 m",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

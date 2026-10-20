@@ -58,9 +58,9 @@
       ],
       "halfLength": 12,
       "halfWidth": 11.78,
-      "height": 43.41,
+      "height": 43.408,
       "gradient": [
-        -0.01553,
+        -0.01543,
         0
       ],
       "minLift": 0.05,
@@ -77,7 +77,7 @@
       ],
       "halfLength": 12,
       "halfWidth": 11.78,
-      "height": 43.446,
+      "height": 43.444,
       "gradient": [
         -0.0125,
         0
@@ -176,20 +176,37 @@
           "type": "landhoofd"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/816297086",
+        "tags": {
+          "bicycle": "no",
+          "bridge": "movable",
+          "bridge:movable": "bascule",
+          "foot": "no",
+          "highway": "secondary",
+          "layer": "1",
+          "maxspeed": "80",
+          "mofa": "no",
+          "moped": "no",
+          "name": "Waterhuizerbrug",
+          "operator": "Provincie Groningen",
+          "ref": "N860",
+          "man_made": "bridge"
+        }
+      },
       "fis": {
         "id": 28157,
         "naam": "Waterhuizerbrug",
-        "afstand": 7,
+        "afstand": 1,
         "beweegbaar": true,
         "doorvaarthoogteGesloten": 0.9500000000000001
       },
       "pdokBridgeVlakken": 20
     },
-    "type": "ophaalbrug",
+    "type": "basculebrug",
     "doorvaarthoogte": 0.9500000000000001,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,560000,240000,580000 --run nl-11_13 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map waterhuizen-waterhuizerbrug --plaats waterhuizen --punt 239373,578365",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -209,7 +226,7 @@
       "doorstekend": [],
       "opritHoogtes": [
         43.223,
-        43.296
+        43.294
       ]
     },
     "waarschuwingen": [],

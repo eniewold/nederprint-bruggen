@@ -1,5 +1,5 @@
 {
-  "name": "wijhe-brug-2523ed9a",
+  "name": "Assendorperdijk",
   "file": "wijhe-brug-2523ed9a.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,31 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/336741642",
+        "tags": {
+          "agricultural": "yes",
+          "bridge": "yes",
+          "bridge:structure": "beam",
+          "foot": "permissive",
+          "highway": "track",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Assendorperdijk",
+          "opening_hours": "sunrise-sunset",
+          "smoothness": "good",
+          "surface": "concrete",
+          "tracktype": "grade1",
+          "vehicle": "private"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 200000,480000,220000,500000 --run nl-10_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map wijhe-brug-2523ed9a --plaats wijhe --punt 210759,492023",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -111,6 +128,6 @@
     "waarschuwingen": [
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

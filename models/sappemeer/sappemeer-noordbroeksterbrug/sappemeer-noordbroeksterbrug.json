@@ -1,5 +1,5 @@
 {
-  "name": "Noordbroeksterbrug",
+  "name": "Noordbroeksterstraat",
   "file": "sappemeer-noordbroeksterbrug.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -116,7 +116,20 @@
           "type": "pijler"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/6383298",
+        "tags": {
+          "bicycle": "no",
+          "bridge": "movable",
+          "bridge:movable": "bascule",
+          "foot": "no",
+          "highway": "secondary",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Noordbroeksterstraat",
+          "name:etymology:wikidata": "Q1924750"
+        }
+      },
       "fis": {
         "id": 34619,
         "naam": "Noordbroeksterbrug",
@@ -126,10 +139,10 @@
       },
       "pdokBridgeVlakken": 8
     },
-    "type": "ophaalbrug",
+    "type": "basculebrug",
     "doorvaarthoogte": 0.9500000000000001,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,560000,260000,580000 --run nl-12_13 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map sappemeer-noordbroeksterbrug --plaats sappemeer --punt 250065,576531",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

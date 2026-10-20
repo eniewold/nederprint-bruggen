@@ -1,5 +1,5 @@
 {
-  "name": "Sluis Panheel",
+  "name": "Thornerweg",
   "file": "heel-sluis-panheel.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -9,18 +9,18 @@
     353966.39
   ],
   "xAxis": [
-    -0.897214,
-    0.441596
+    0.441596,
+    0.897214
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 68.215,
+  "groundHeight": 75.029,
   "groundSamplePoints": [
     [
-      -35.14,
+      -69.22,
       0
     ],
     [
-      31.52,
+      69.25,
       0
     ]
   ],
@@ -31,7 +31,9 @@
     "L0002.3440cf03bb5647858bfbfbcfbf080347",
     "L0002.9895bf59a7c44759a3457a6c6ae72677",
     "L0002.d15d5ba07bf547f788f3a49036ddcffc",
-    "L0002.edc28ab48ee148ceb6b646d8ae119754"
+    "L0002.edc28ab48ee148ceb6b646d8ae119754",
+    "G1641.e4b7b4f2c20f422dbbed05c380de826c",
+    "L0002.9ecc541623514830a60b6e0c9891eaf2"
   ],
   "terrainCorrections": [
     {
@@ -40,33 +42,33 @@
         353966.39
       ],
       "axis": [
-        -0.897214,
-        0.441596
+        0.441596,
+        0.897214
       ],
-      "halfLength": 3.87,
-      "halfWidth": 49.72,
-      "height": 73.287,
+      "halfLength": 43.22,
+      "halfWidth": 8.23,
+      "height": 74.051,
       "gradient": [
         0,
         0
       ],
-      "minLift": -1.97,
+      "minLift": -2.08,
       "maxLift": -0.01
     },
     {
       "centre": [
-        188268.59,
-        353953.6
+        188215.57,
+        353911.46
       ],
       "axis": [
-        0.897214,
-        -0.441596
+        -0.441596,
+        -0.897214
       ],
       "halfLength": 12,
-      "halfWidth": 51.22,
-      "height": 71.401,
+      "halfWidth": 9.73,
+      "height": 75.201,
       "gradient": [
-        -0.26547,
+        -0.0125,
         0
       ],
       "minLift": 0.05,
@@ -74,18 +76,18 @@
     },
     {
       "centre": [
-        188219.87,
-        353977.58
+        188269.66,
+        354021.35
       ],
       "axis": [
-        -0.897214,
-        0.441596
+        0.441596,
+        0.897214
       ],
       "halfLength": 12,
-      "halfWidth": 51.22,
-      "height": 74.437,
+      "halfWidth": 9.73,
+      "height": 75.19,
       "gradient": [
-        -0.0125,
+        -0.01343,
         0
       ],
       "minLift": 0.05,
@@ -155,54 +157,89 @@
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 180000,340000,200000,360000 --run nl-9_2 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map heel-sluis-panheel --plaats heel --punt 188243,353966",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
-      "dekLengte": 15.5,
-      "dekBreedte": 98.4,
-      "brugLengte": 30.3,
-      "water": null,
-      "portaalhoogte": 88.6,
+      "dekLengte": 98.4,
+      "dekBreedte": 15.5,
+      "brugLengte": 98.5,
+      "water": [
+        -36.7,
+        26.3
+      ],
+      "portaalhoogte": 13.9,
       "opritafstand": [
-        18.2,
-        18.2
+        20,
+        20
       ],
       "oprithelling": 24,
       "doorstekend": [
         {
-          "gmlId": "G1641.7d504ae8871e487baac530141603f3c6",
+          "gmlId": "L0002.54a35eac1fec4518b15c51d893833f35",
           "klasse": "Terrain",
-          "oppervlak": 117.4,
-          "onderDek": 0.45,
-          "bovenDekOnderkant": 0.97,
+          "oppervlak": 121.6,
+          "onderDek": 0.07,
+          "bovenDekOnderkant": 1.08,
           "actie": "verlagen"
         },
         {
-          "gmlId": "L0002.e29ab6475fe342219221d42603db3c96",
-          "klasse": "Separation",
-          "oppervlak": 21.3,
-          "onderDek": 0.14,
-          "bovenDekOnderkant": 0.94,
+          "gmlId": "G1641.7d504ae8871e487baac530141603f3c6",
+          "klasse": "Terrain",
+          "oppervlak": 117.4,
+          "onderDek": 0.56,
+          "bovenDekOnderkant": 0.21,
           "actie": "verlagen"
+        },
+        {
+          "gmlId": "G1641.e4b7b4f2c20f422dbbed05c380de826c",
+          "klasse": "Road",
+          "oppervlak": 26.8,
+          "onderDek": 1,
+          "bovenDekOnderkant": 0.21,
+          "actie": "verbergen"
         },
         {
           "gmlId": "L0002.5a4b2ac5840d4fba8f2d9f454209387b",
           "klasse": "Separation",
           "oppervlak": 17.2,
           "onderDek": 0.11,
-          "bovenDekOnderkant": 0.93,
+          "bovenDekOnderkant": 0.17,
           "actie": "verlagen"
+        },
+        {
+          "gmlId": "L0002.e29ab6475fe342219221d42603db3c96",
+          "klasse": "Separation",
+          "oppervlak": 17.2,
+          "onderDek": 0.09,
+          "bovenDekOnderkant": 0.17,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "L0002.b3b21b0565fb40ef81e1ce04e207edce",
+          "klasse": "Terrain",
+          "oppervlak": 7.8,
+          "onderDek": 0.09,
+          "bovenDekOnderkant": 0.16,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "L0002.9ecc541623514830a60b6e0c9891eaf2",
+          "klasse": "Terrain",
+          "oppervlak": 2.9,
+          "onderDek": 1,
+          "bovenDekOnderkant": 0.07,
+          "actie": "verbergen"
         }
       ],
       "opritHoogtes": [
-        68.215,
-        74.287
+        75.051,
+        75.029
       ]
     },
     "waarschuwingen": [
-      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
-      "3 PDOK-vorm(en) door het dek: 0 verborgen, 3 verlaagd"
+      "geen FIS-brug binnen 35 m",
+      "7 PDOK-vorm(en) door het dek: 2 verborgen, 5 verlaagd"
     ],
     "gegenereerd": "2026-10-20"
   }

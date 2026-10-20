@@ -1,5 +1,5 @@
 {
-  "name": "boekel-brug-44eb4f4e",
+  "name": "Perrekerpad",
   "file": "boekel-brug-44eb4f4e.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -97,14 +97,23 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/474189993",
+        "tags": {
+          "bridge": "yes",
+          "highway": "footway",
+          "layer": "1",
+          "name": "Perrekerpad",
+          "surface": "wood"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,400000,180000,420000 --run nl-8_5 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map boekel-brug-44eb4f4e --plaats boekel --punt 175979,401324",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -125,7 +134,7 @@
         {
           "gmlId": "G0755.ecd2eedbd4c34471ab889d27e795598d",
           "klasse": "Terrain",
-          "oppervlak": 144.8,
+          "oppervlak": 72.6,
           "onderDek": 0.02,
           "bovenDekOnderkant": 0.34,
           "actie": "verlagen"
@@ -141,7 +150,7 @@
         {
           "gmlId": "G0755.15f70460e8eb450cb0d8c9ccbb426cbe",
           "klasse": "Terrain",
-          "oppervlak": 326.4,
+          "oppervlak": 163.3,
           "onderDek": 0,
           "bovenDekOnderkant": 0.19,
           "actie": "verlagen"
@@ -156,6 +165,6 @@
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
       "3 PDOK-vorm(en) door het dek: 0 verborgen, 3 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

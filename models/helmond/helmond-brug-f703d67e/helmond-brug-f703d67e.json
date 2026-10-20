@@ -1,5 +1,5 @@
 {
-  "name": "helmond-brug-f703d67e",
+  "name": "Rochadebrug west",
   "file": "helmond-brug-f703d67e.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -41,9 +41,9 @@
       ],
       "halfLength": 12,
       "halfWidth": 9.99,
-      "height": 69.007,
+      "height": 69.004,
       "gradient": [
-        -0.04333,
+        -0.04313,
         0
       ],
       "minLift": 0.05,
@@ -60,7 +60,7 @@
       ],
       "halfLength": 12,
       "halfWidth": 9.99,
-      "height": 69.377,
+      "height": 69.372,
       "gradient": [
         -0.0125,
         0
@@ -88,14 +88,33 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/692844440",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "yes",
+          "bridge:material": "concrete",
+          "foot": "use_sidepath",
+          "highway": "secondary",
+          "lanes": "2",
+          "layer": "1",
+          "maxspeed": "80",
+          "mofa": "use_sidepath",
+          "moped": "use_sidepath",
+          "name": "Rochadebrug west",
+          "surface": "asphalt",
+          "zone:traffic": "NL:rural",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 3
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,380000,180000,400000 --run nl-8_4 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map helmond-brug-f703d67e --plaats helmond --punt 175387,384682",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -115,7 +134,7 @@
       "doorstekend": [],
       "opritHoogtes": [
         68.487,
-        69.227
+        69.222
       ]
     },
     "waarschuwingen": [

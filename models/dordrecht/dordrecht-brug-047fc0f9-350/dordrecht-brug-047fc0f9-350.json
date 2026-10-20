@@ -1,5 +1,5 @@
 {
-  "name": "dordrecht-brug-047fc0f9-350",
+  "name": "Top Naeffpad",
   "file": "dordrecht-brug-047fc0f9-350.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -103,14 +103,23 @@
           "type": "landhoofd"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/142825639",
+        "tags": {
+          "bridge": "yes",
+          "highway": "footway",
+          "layer": "1",
+          "name": "Top Naeffpad",
+          "surface": "paved"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 6
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,420000,120000,440000 --run nl-5_6 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map dordrecht-brug-047fc0f9-350 --plaats dordrecht --punt 106553,425356",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -136,6 +145,6 @@
     "waarschuwingen": [
       "geen FIS-brug binnen 35 m"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

@@ -9,26 +9,25 @@
     448453.8
   ],
   "xAxis": [
-    0.707165,
-    0.707048
+    0.707048,
+    -0.707165
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 38.095,
+  "groundHeight": 38.137,
   "groundSamplePoints": [
     [
-      -36.59,
+      -60.83,
       0
     ],
     [
-      36.59,
+      60.83,
       0
     ]
   ],
   "replacesTerrain": [
     "G1892.300a4b3b5cad4f59b4118f101bb85a04",
     "G1892.718faafbf66744809ff402077465fef1",
-    "G1892.9bcce232a47e49f49c9d2e6696152c76",
-    "G1892.c449a9a9fdb7499c8e8905c8deb24f6c"
+    "G1892.9bcce232a47e49f49c9d2e6696152c76"
   ],
   "terrainCorrections": [
     {
@@ -37,33 +36,33 @@
         448453.8
       ],
       "axis": [
-        0.707165,
-        0.707048
+        0.707048,
+        -0.707165
       ],
-      "halfLength": 10.63,
-      "halfWidth": 41.33,
-      "height": 37.51,
+      "halfLength": 34.83,
+      "halfWidth": 17.13,
+      "height": 37.352,
       "gradient": [
         0,
         0
       ],
-      "minLift": -1.99,
+      "minLift": -2.17,
       "maxLift": -0.01
     },
     {
       "centre": [
-        105013.77,
-        448433.55
+        104996.67,
+        448491.15
       ],
       "axis": [
-        -0.707165,
-        -0.707048
+        -0.707048,
+        0.707165
       ],
       "halfLength": 12,
-      "halfWidth": 42.83,
-      "height": 38.453,
+      "halfWidth": 18.63,
+      "height": 38.394,
       "gradient": [
-        -0.02979,
+        -0.02148,
         0
       ],
       "minLift": 0.05,
@@ -71,16 +70,16 @@
     },
     {
       "centre": [
-        105054.27,
-        448474.04
+        105071.37,
+        448416.44
       ],
       "axis": [
-        0.707165,
-        0.707048
+        0.707048,
+        -0.707165
       ],
       "halfLength": 12,
-      "halfWidth": 42.83,
-      "height": 38.66,
+      "halfWidth": 18.63,
+      "height": 38.502,
       "gradient": [
         -0.0125,
         0
@@ -123,15 +122,18 @@
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,440000,120000,460000 --run nl-5_7 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map moordrecht-brug-718faafb --plaats moordrecht --punt 105034,448454",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
-      "dekLengte": 33.3,
-      "dekBreedte": 81.7,
-      "brugLengte": 33.3,
-      "water": null,
-      "portaalhoogte": 73.5,
+      "dekLengte": 81.7,
+      "dekBreedte": 33.3,
+      "brugLengte": 81.7,
+      "water": [
+        -40.8,
+        35.7
+      ],
+      "portaalhoogte": 29.9,
       "opritafstand": [
         20,
         20
@@ -142,37 +144,20 @@
           "gmlId": "G1892.631d20246eee45f7907e9c8f91be7825",
           "klasse": "Terrain",
           "oppervlak": 6038,
-          "onderDek": 0.16,
-          "bovenDekOnderkant": 0.99,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "G1892.c449a9a9fdb7499c8e8905c8deb24f6c",
-          "klasse": "Terrain",
-          "oppervlak": 29.5,
-          "onderDek": 1,
-          "bovenDekOnderkant": 0.85,
-          "actie": "verbergen"
-        },
-        {
-          "gmlId": "G1892.6e0ca08694c5428194acaf18bda83a4a",
-          "klasse": "Terrain",
-          "oppervlak": 726.5,
-          "onderDek": 0.04,
-          "bovenDekOnderkant": 0.73,
+          "onderDek": 0.26,
+          "bovenDekOnderkant": 1.17,
           "actie": "verlagen"
         }
       ],
       "opritHoogtes": [
-        38.095,
-        38.51
+        38.137,
+        38.352
       ]
     },
     "waarschuwingen": [
-      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
       "geen FIS-brug binnen 35 m",
-      "3 PDOK-vorm(en) door het dek: 1 verborgen, 2 verlaagd"
+      "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

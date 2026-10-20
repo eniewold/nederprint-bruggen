@@ -1,5 +1,5 @@
 {
-  "name": "IJsselbrug IJsselstein",
+  "name": "IJsselbrug",
   "file": "ijsselstein-ijsselbrug-ijsselstein-2.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,20 +78,33 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/706255929",
+        "tags": {
+          "bridge": "yes",
+          "cyclestreet": "yes",
+          "highway": "residential",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "IJsselbrug",
+          "traffic_sign": "NL:L51",
+          "bridge:movable": "bascule",
+          "man_made": "bridge"
+        }
+      },
       "fis": {
         "id": 33666,
         "naam": "IJsselbrug IJsselstein",
-        "afstand": 32,
+        "afstand": 31,
         "beweegbaar": true,
         "doorvaarthoogteGesloten": 2.25
       },
       "pdokBridgeVlakken": 1
     },
-    "type": "ophaalbrug",
+    "type": "basculebrug",
     "doorvaarthoogte": 2.25,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,440000,140000,460000 --run nl-6_7 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map ijsselstein-ijsselbrug-ijsselstein-2 --plaats ijsselstein --punt 131681,448100",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -118,6 +131,6 @@
       "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

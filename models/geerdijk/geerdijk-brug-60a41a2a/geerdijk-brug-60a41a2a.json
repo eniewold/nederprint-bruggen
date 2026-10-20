@@ -1,5 +1,5 @@
 {
-  "name": "geerdijk-brug-60a41a2a",
+  "name": "Geerdijk",
   "file": "geerdijk-brug-60a41a2a.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -88,14 +88,26 @@
           "type": "pijler"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1428338772",
+        "tags": {
+          "bridge": "movable",
+          "bridge:movable": "drawbridge",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxaxleload": "10",
+          "maxspeed": "50",
+          "name": "Geerdijk",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 3
     },
     "type": "ophaalbrug",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,480000,240000,500000 --run nl-11_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map geerdijk-brug-60a41a2a --plaats geerdijk --punt 235429,499421",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -106,7 +118,7 @@
         -8.9,
         9.1
       ],
-      "portaalhoogte": 6.6,
+      "portaalhoogte": 4.6,
       "opritafstand": [
         11.3,
         11.3

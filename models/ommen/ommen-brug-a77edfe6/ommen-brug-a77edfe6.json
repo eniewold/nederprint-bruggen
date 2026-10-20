@@ -1,5 +1,5 @@
 {
-  "name": "ommen-brug-a77edfe6",
+  "name": "Lemelerweg",
   "file": "ommen-brug-a77edfe6.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -13,7 +13,7 @@
     0.998499
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 48.512,
+  "groundHeight": 48.499,
   "groundSamplePoints": [
     [
       -40.34,
@@ -39,9 +39,9 @@
       ],
       "halfLength": 12,
       "halfWidth": 7.07,
-      "height": 48.84,
+      "height": 48.833,
       "gradient": [
-        -0.02734,
+        -0.02791,
         0
       ],
       "minLift": 0.05,
@@ -78,14 +78,28 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/6431084",
+        "tags": {
+          "bridge": "yes",
+          "cycleway": "lane",
+          "emergency": "yes",
+          "fire_path": "yes",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Lemelerweg",
+          "ref": "R104",
+          "surface": "asphalt"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,500000,240000,520000 --run nl-11_10 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map ommen-brug-a77edfe6 --plaats ommen --punt 225411,500733",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -104,7 +118,7 @@
       "oprithelling": 24,
       "doorstekend": [],
       "opritHoogtes": [
-        48.512,
+        48.499,
         48.868
       ]
     },

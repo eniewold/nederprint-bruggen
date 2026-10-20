@@ -13,7 +13,7 @@
     -0.999823
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 43.268,
+  "groundHeight": 43.266,
   "groundSamplePoints": [
     [
       -9.76,
@@ -39,9 +39,9 @@
       ],
       "halfLength": 4.44,
       "halfWidth": 0.95,
-      "height": 43.74,
+      "height": 43.738,
       "gradient": [
-        -0.10636,
+        -0.1063,
         0
       ],
       "minLift": 0.05,
@@ -58,7 +58,7 @@
       ],
       "halfLength": 4.44,
       "halfWidth": 0.95,
-      "height": 44.062,
+      "height": 44.06,
       "gradient": [
         -0.0338,
         0
@@ -78,20 +78,31 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1568590105",
+        "tags": {
+          "bridge": "yes",
+          "dog": "no",
+          "highway": "footway",
+          "layer": "1",
+          "opening_hours": "Apr-Sep 08:00-20:00; Oct-Mar 08:00-17:00",
+          "man_made": "bridge",
+          "bridge:movable": "bascule"
+        }
+      },
       "fis": {
         "id": 58670,
         "naam": "Slotbrug",
-        "afstand": 13,
+        "afstand": 12,
         "beweegbaar": true,
         "doorvaarthoogteGesloten": 1
       },
       "pdokBridgeVlakken": 1
     },
-    "type": "ophaalbrug",
+    "type": "basculebrug",
     "doorvaarthoogte": 1,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,460000,140000,480000 --run nl-6_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map loenersloot-slotbrug --plaats loenersloot --punt 128409,471311",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -110,13 +121,13 @@
       "oprithelling": 8.9,
       "doorstekend": [],
       "opritHoogtes": [
-        43.268,
-        43.912
+        43.266,
+        43.91
       ]
     },
     "waarschuwingen": [
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

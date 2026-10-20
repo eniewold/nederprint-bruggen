@@ -1,5 +1,5 @@
 {
-  "name": "muiderberg-brug-100df17e",
+  "name": "De Goog",
   "file": "muiderberg-brug-100df17e.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -13,7 +13,7 @@
     0.825705
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 48.853,
+  "groundHeight": 48.851,
   "groundSamplePoints": [
     [
       -70.69,
@@ -61,9 +61,9 @@
       ],
       "halfLength": 12,
       "halfWidth": 6.56,
-      "height": 49.076,
+      "height": 49.075,
       "gradient": [
-        -0.01855,
+        -0.01864,
         0
       ],
       "minLift": 0.05,
@@ -93,14 +93,26 @@
           "type": "onbekend"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/675484032",
+        "tags": {
+          "bridge": "yes",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "De Goog",
+          "source:maxspeed": "NL:zone60",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 4
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map muiderberg-brug-100df17e --plaats muiderberg --punt 135149,481115",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -117,13 +129,13 @@
       "doorstekend": [],
       "opritHoogtes": [
         48.999,
-        48.853
+        48.851
       ]
     },
     "waarschuwingen": [
       "geen FIS-brug binnen 35 m",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

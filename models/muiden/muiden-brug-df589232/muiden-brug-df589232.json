@@ -1,5 +1,5 @@
 {
-  "name": "muiden-brug-df589232",
+  "name": "Breedland",
   "file": "muiden-brug-df589232.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -149,14 +149,24 @@
           "type": "onbekend"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/422941577",
+        "tags": {
+          "bridge": "viaduct",
+          "bridge:structure": "beam",
+          "layer": "1",
+          "man_made": "bridge",
+          "name": "Breedland",
+          "operator": "Rijkswaterstaat"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 11
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map muiden-brug-df589232 --plaats muiden --punt 131768,482329",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -174,7 +184,7 @@
         {
           "gmlId": "L0002.f2764e4f5f0a4b1c8afd2a984747638b",
           "klasse": "Terrain",
-          "oppervlak": 20369.9,
+          "oppervlak": 13579.1,
           "onderDek": 0.03,
           "bovenDekOnderkant": 1.57,
           "actie": "verlagen"
@@ -230,6 +240,6 @@
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
       "6 PDOK-vorm(en) door het dek: 2 verborgen, 4 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "name": "laren-brug-3ea95631",
+  "name": "Witte Bergen",
   "file": "laren-brug-3ea95631.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -83,14 +83,32 @@
           "type": "landhoofd"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/973139578",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "yes",
+          "foot": "no",
+          "highway": "unclassified",
+          "lanes": "2",
+          "layer": "1",
+          "maxaxleload": "9.0",
+          "maxspeed": "80",
+          "maxweight": "45",
+          "mofa": "use_sidepath",
+          "moped": "use_sidepath",
+          "name": "Witte Bergen",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 2
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,460000,160000,480000 --run nl-7_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map laren-brug-3ea95631 --plaats laren --punt 144302,472136",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -113,6 +131,6 @@
     "waarschuwingen": [
       "geen FIS-brug binnen 35 m"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

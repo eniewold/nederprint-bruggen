@@ -13,7 +13,7 @@
     0.996476
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 48.027,
+  "groundHeight": 48.021,
   "groundSamplePoints": [
     [
       -62.21,
@@ -79,9 +79,9 @@
       ],
       "halfLength": 12,
       "halfWidth": 16.05,
-      "height": 48.183,
+      "height": 48.18,
       "gradient": [
-        -0.01296,
+        -0.01322,
         0
       ],
       "minLift": 0.05,
@@ -107,14 +107,39 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "relation/21655277",
+        "tags": {
+          "bridge": "viaduct",
+          "carriageway_ref": "Li",
+          "hazmat:B": "no",
+          "hazmat:C": "no",
+          "hazmat:D": "yes",
+          "hazmat:E": "yes",
+          "highway": "motorway",
+          "int_ref": "E 19",
+          "lanes": "4",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "100",
+          "noname": "yes",
+          "official_name": "Rijksweg nr. 16",
+          "oneway": "yes",
+          "operator": "Rijkswaterstaat",
+          "ref": "A16",
+          "source:official_name": "NWB",
+          "surface": "asphalt",
+          "toll:hgv": "yes",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 3
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,420000,120000,440000 --run nl-5_6 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map dordrecht-brug-c5f0447c --plaats dordrecht --punt 104153,423877",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -156,13 +181,13 @@
       ],
       "opritHoogtes": [
         48.038,
-        48.027
+        48.021
       ]
     },
     "waarschuwingen": [
       "geen FIS-brug binnen 35 m",
       "3 PDOK-vorm(en) door het dek: 0 verborgen, 3 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

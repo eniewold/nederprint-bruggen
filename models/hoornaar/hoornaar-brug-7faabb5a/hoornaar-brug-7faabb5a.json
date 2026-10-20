@@ -13,7 +13,7 @@
     -0.871819
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 42.874,
+  "groundHeight": 42.86,
   "groundSamplePoints": [
     [
       -7.5,
@@ -39,9 +39,9 @@
       ],
       "halfLength": 3.41,
       "halfWidth": 4.12,
-      "height": 43.041,
+      "height": 43.034,
       "gradient": [
-        -0.04882,
+        -0.05089,
         0
       ],
       "minLift": 0.05,
@@ -78,14 +78,22 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/97685923",
+        "tags": {
+          "bridge": "yes",
+          "highway": "service",
+          "layer": "1",
+          "service": "driveway"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ophaalbrug",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,420000,140000,440000 --run nl-6_6 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map hoornaar-brug-7faabb5a --plaats hoornaar --punt 123219,431325",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -96,7 +104,7 @@
         -2.4,
         3.1
       ],
-      "portaalhoogte": 4.9,
+      "portaalhoogte": 3.7,
       "opritafstand": [
         4.1,
         4.1
@@ -104,7 +112,7 @@
       "oprithelling": 6.8,
       "doorstekend": [],
       "opritHoogtes": [
-        42.874,
+        42.86,
         42.907
       ]
     },
@@ -112,6 +120,6 @@
       "geen FIS-brug binnen 35 m",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "name": "marum-brug-c7b52e7e",
+  "name": "Rijksweg",
   "file": "marum-brug-c7b52e7e.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -41,7 +41,7 @@
       ],
       "halfLength": 12,
       "halfWidth": 9.51,
-      "height": 49.348,
+      "height": 49.346,
       "gradient": [
         -0.0125,
         0
@@ -60,9 +60,9 @@
       ],
       "halfLength": 12,
       "halfWidth": 9.51,
-      "height": 49.318,
+      "height": 49.317,
       "gradient": [
-        -0.01501,
+        -0.01494,
         0
       ],
       "minLift": 0.05,
@@ -88,14 +88,34 @@
           "type": "landhoofd"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/6464146",
+        "tags": {
+          "bridge": "yes",
+          "carriageway_ref": "Re",
+          "highway": "motorway",
+          "int_ref": "E 22",
+          "lanes": "2",
+          "layer": "1",
+          "lit": "no",
+          "maxspeed": "100",
+          "maxspeed:conditional": "130 @ (19:00-06:00)",
+          "name": "Rijksweg",
+          "oneway": "yes",
+          "operator": "Rijkswaterstaat",
+          "ref": "A7",
+          "source:name": "NWB",
+          "surface": "asphalt",
+          "toll:hgv": "yes"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 3
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 200000,560000,220000,580000 --run nl-10_13 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map marum-brug-c7b52e7e --plaats marum --punt 214091,574481",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -114,7 +134,7 @@
       "oprithelling": 24,
       "doorstekend": [],
       "opritHoogtes": [
-        49.198,
+        49.196,
         49.138
       ]
     },

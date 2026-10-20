@@ -13,20 +13,21 @@
     -0.138186
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 50.204,
+  "groundHeight": 50.35,
   "groundSamplePoints": [
     [
-      -28.25,
-      8.09
+      -18.25,
+      0
     ],
     [
-      28.24,
-      8.23
+      18.25,
+      0
     ]
   ],
   "replacesTerrain": [
     "L0004.82fec985b85d4562ba2b1d8b5b90a19c",
-    "L0004.ecf4c4ac9d5c4c8a9b992196819e1385"
+    "L0004.ecf4c4ac9d5c4c8a9b992196819e1385",
+    "L0004.ac30726026bf4be48eb9b3f2374a430b"
   ],
   "terrainCorrections": [
     {
@@ -40,12 +41,12 @@
       ],
       "halfLength": 12.25,
       "halfWidth": 14.16,
-      "height": 49.292,
+      "height": 49.058,
       "gradient": [
         0,
         0
       ],
-      "minLift": -1.26,
+      "minLift": -1.49,
       "maxLift": -0.01
     },
     {
@@ -59,9 +60,9 @@
       ],
       "halfLength": 12,
       "halfWidth": 15.66,
-      "height": 50.442,
+      "height": 50.358,
       "gradient": [
-        -0.0125,
+        0,
         0
       ],
       "minLift": 0.05,
@@ -78,9 +79,9 @@
       ],
       "halfLength": 12,
       "halfWidth": 15.66,
-      "height": 50.398,
+      "height": 50.354,
       "gradient": [
-        -0.01617,
+        -0.00036,
         0
       ],
       "minLift": 0.05,
@@ -116,15 +117,14 @@
           "maxspeed": "140",
           "name": "Goudse lijn",
           "operator": "ProRail",
-          "passenger_lines": "4",
           "railway": "rail",
           "railway:atb": "yes",
           "railway:maximum_current": "4000",
           "railway:track_class": "D4",
           "railway:traffic_mode": "mixed",
           "ref": "100",
-          "ref:ProRailID": "2888649.0",
-          "ref:ProRailSpoortak": "100_2025AL_2.9",
+          "ref:ProRailID": "2888646.0",
+          "ref:ProRailSpoortak": "100_2021BV_3.0",
           "source": "ProRail WMS: Geleidingssysteem 003",
           "source:date": "13-05-2017",
           "source:name": "http://www.commissiemer.nl/docs/mer/p24/p2426/2426-008vervolgwerkzaamheden.pdf",
@@ -144,7 +144,7 @@
       "naam": "Goudse lijn",
       "straal": 40
     },
-    "opdracht": "node scripts/bridges/genereer.mjs --uit C:/Users/edwar/AppData/Local/Temp/claude/C--Users-edwar-source-Repos-nederprint/3bd9e161-d515-4f1b-bfbf-c9cc2320f835/scratchpad/rail-batch5 --map brug-82fec985 --plaats vleuten --punt 128811.34,457283.69 --naam \"Goudse lijn\" --straal 40",
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 126435,448710,141834,461610 --run utrecht-2026-10-20 --overschrijf 1 --parallel 5",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -154,9 +154,10 @@
       "water": null,
       "portaalhoogte": 24.6,
       "opritafstand": [
-        10,
-        10
+        0,
+        0
       ],
+      "spoorhoogteBron": "prorail-pvs",
       "oprithelling": 24,
       "doorstekend": [
         {
@@ -164,19 +165,27 @@
           "klasse": "Terrain",
           "oppervlak": 523.6,
           "onderDek": 0.21,
-          "bovenDekOnderkant": 0.26,
+          "bovenDekOnderkant": 0.49,
           "actie": "verlagen"
+        },
+        {
+          "gmlId": "L0004.ac30726026bf4be48eb9b3f2374a430b",
+          "klasse": "Road",
+          "oppervlak": 3.4,
+          "onderDek": 1,
+          "bovenDekOnderkant": 0.13,
+          "actie": "verbergen"
         }
       ],
       "opritHoogtes": [
-        50.292,
-        50.204
+        50.358,
+        50.35
       ]
     },
     "waarschuwingen": [
       "geen FIS-brug binnen 35 m",
-      "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
+      "2 PDOK-vorm(en) door het dek: 1 verborgen, 1 verlaagd"
     ],
-    "gegenereerd": "2026-10-17"
+    "gegenereerd": "2026-10-20"
   }
 }

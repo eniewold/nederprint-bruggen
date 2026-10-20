@@ -1,5 +1,5 @@
 {
-  "name": "Brug Dalfsen",
+  "name": "Poppenallee",
   "file": "dalfsen-brug-dalfsen.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -98,11 +98,21 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/318824271",
+        "tags": {
+          "bridge": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "name": "Poppenallee",
+          "oneway": "yes",
+          "surface": "asphalt"
+        }
+      },
       "fis": {
         "id": 8615,
         "naam": "Brug Dalfsen",
-        "afstand": 2,
+        "afstand": 3,
         "beweegbaar": true,
         "doorvaarthoogteGesloten": 3.0000000000000004
       },
@@ -111,7 +121,7 @@
     "type": "ophaalbrug",
     "doorvaarthoogte": 3.0000000000000004,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 200000,500000,220000,520000 --run nl-10_10 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map dalfsen-brug-dalfsen --plaats dalfsen --punt 214257,502019",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -122,7 +132,7 @@
         -25.6,
         24.9
       ],
-      "portaalhoogte": 17.3,
+      "portaalhoogte": 12.6,
       "opritafstand": [
         20,
         20

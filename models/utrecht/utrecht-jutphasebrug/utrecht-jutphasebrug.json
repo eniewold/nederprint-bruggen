@@ -136,7 +136,7 @@
       "fis": {
         "id": 12940,
         "naam": "Jutphasebrug",
-        "afstand": 20,
+        "afstand": 21,
         "beweegbaar": false,
         "doorvaarthoogteGesloten": 9.370000000000001
       },
@@ -148,7 +148,7 @@
       "naam": "Jutphasebrug",
       "straal": 40
     },
-    "opdracht": "node scripts/bridges/genereer.mjs --uit C:/Users/edwar/AppData/Local/Temp/claude/C--Users-edwar-source-Repos-nederprint/3bd9e161-d515-4f1b-bfbf-c9cc2320f835/scratchpad/rail-batch5 --map jutphasebrug --plaats utrecht --punt 135559.24,451644.55 --naam Jutphasebrug --straal 40",
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 126435,448710,141834,461610 --run utrecht-2026-10-20 --overschrijf 1 --parallel 5",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -164,6 +164,7 @@
         10,
         10
       ],
+      "spoorhoogteBron": "pdok",
       "oprithelling": 24,
       "doorstekend": [
         {
@@ -245,8 +246,10 @@
       ]
     },
     "waarschuwingen": [
+      "oprit -: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "oprit +: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
       "9 PDOK-vorm(en) door het dek: 2 verborgen, 7 verlaagd"
     ],
-    "gegenereerd": "2026-10-17"
+    "gegenereerd": "2026-10-20"
   }
 }

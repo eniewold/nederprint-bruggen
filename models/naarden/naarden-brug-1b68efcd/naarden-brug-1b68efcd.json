@@ -1,5 +1,5 @@
 {
-  "name": "naarden-brug-1b68efcd",
+  "name": "Gooilijn",
   "file": "naarden-brug-1b68efcd.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -9,8 +9,8 @@
     478216.24
   ],
   "xAxis": [
-    0.993931,
-    -0.110003
+    0.99394,
+    -0.109924
   ],
   "groundOffsetMetres": 0,
   "groundHeight": 44.148,
@@ -36,8 +36,8 @@
         478216.99
       ],
       "axis": [
-        -0.993931,
-        0.110003
+        -0.99394,
+        0.109924
       ],
       "halfLength": 3.42,
       "halfWidth": 7.31,
@@ -55,8 +55,8 @@
         478215.49
       ],
       "axis": [
-        0.993931,
-        -0.110003
+        0.99394,
+        -0.109924
       ],
       "halfLength": 3.42,
       "halfWidth": 7.31,
@@ -88,14 +88,46 @@
           "type": "landhoofd"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/530025330",
+        "tags": {
+          "bridge": "yes",
+          "description": "Weesp Aansl. - Hilversum",
+          "electrified": "contact_line",
+          "frequency": "0",
+          "gauge": "1435",
+          "layer": "1",
+          "loading_gauge": "TSI_GB",
+          "maxspeed": "130",
+          "name": "Gooilijn",
+          "operator": "ProRail",
+          "passenger_lines": "2",
+          "railway": "rail",
+          "railway:atb": "yes",
+          "railway:atb-eg": "yes",
+          "railway:atb-ng": "no",
+          "railway:etcs": "no",
+          "railway:maximum_current": "4000",
+          "railway:track_class": "D4",
+          "railway:traffic_mode": "mixed",
+          "ref": "087",
+          "ref:ProRailID": "2878174.0",
+          "ref:ProRailSpoortak": "087_1BL_21.1",
+          "source": "ProRail",
+          "source:date": "2014-01-03",
+          "usage": "main",
+          "voltage": "1500",
+          "wikidata": "Q801845",
+          "wikipedia": "nl:Spoorlijn Amsterdam - Zutphen"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 3
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,460000,140000,480000 --run nl-6_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map naarden-brug-1b68efcd --plaats naarden --punt 136058,478216",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -120,6 +152,6 @@
       ]
     },
     "waarschuwingen": [],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

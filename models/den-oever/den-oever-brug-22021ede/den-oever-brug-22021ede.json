@@ -1,5 +1,5 @@
 {
-  "name": "den-oever-brug-22021ede",
+  "name": "Rijksweg",
   "file": "den-oever-brug-22021ede.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -13,7 +13,7 @@
     -0.958618
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 48.856,
+  "groundHeight": 48.854,
   "groundSamplePoints": [
     [
       -33.84,
@@ -41,9 +41,9 @@
       ],
       "halfLength": 12,
       "halfWidth": 9.39,
-      "height": 49.185,
+      "height": 49.184,
       "gradient": [
-        -0.0274,
+        -0.0275,
         0
       ],
       "minLift": 0.05,
@@ -88,14 +88,36 @@
           "type": "onbekend"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1089059325",
+        "tags": {
+          "bridge": "yes",
+          "carriageway_ref": "Re",
+          "highway": "motorway",
+          "int_ref": "E 22",
+          "lanes": "2",
+          "layer": "1",
+          "lit": "no",
+          "maxspeed": "100",
+          "maxspeed:type": "sign",
+          "maxwidth": "3",
+          "name": "Rijksweg",
+          "oneway": "yes",
+          "operator": "Rijkswaterstaat",
+          "ref": "A7",
+          "surface": "asphalt",
+          "toll:hgv": "yes",
+          "zone:traffic": "NL:rural",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 3
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,540000,140000,560000 --run nl-6_12 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map den-oever-brug-22021ede --plaats den-oever --punt 131356,549154",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -111,7 +133,7 @@
       "oprithelling": 24,
       "doorstekend": [],
       "opritHoogtes": [
-        48.856,
+        48.854,
         49.214
       ]
     },

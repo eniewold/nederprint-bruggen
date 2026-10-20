@@ -1,5 +1,5 @@
 {
-  "name": "boekel-brug-a15ff547",
+  "name": "Burgtsepad",
   "file": "boekel-brug-a15ff547.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -13,7 +13,7 @@
     0.981462
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 62.533,
+  "groundHeight": 62.531,
   "groundSamplePoints": [
     [
       -7.01,
@@ -77,9 +77,9 @@
       ],
       "halfLength": 3.01,
       "halfWidth": 1.95,
-      "height": 62.768,
+      "height": 62.767,
       "gradient": [
-        -0.07795,
+        -0.07815,
         0
       ],
       "minLift": 0.05,
@@ -97,14 +97,27 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/504288154",
+        "tags": {
+          "bridge": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "mofa": "yes",
+          "moped": "no",
+          "name": "Burgtsepad",
+          "sidewalk": "no",
+          "surface": "wood",
+          "traffic_sign": "NL:G11"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,400000,180000,420000 --run nl-8_5 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map boekel-brug-a15ff547 --plaats boekel --punt 175591,401970",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -133,13 +146,13 @@
       ],
       "opritHoogtes": [
         62.703,
-        62.533
+        62.531
       ]
     },
     "waarschuwingen": [
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
       "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

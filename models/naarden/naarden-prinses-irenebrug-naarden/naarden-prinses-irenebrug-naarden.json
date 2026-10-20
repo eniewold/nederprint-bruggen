@@ -1,5 +1,5 @@
 {
-  "name": "Prinses Irenebrug Naarden",
+  "name": "Meerstraat",
   "file": "naarden-prinses-irenebrug-naarden.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -41,9 +41,9 @@
       ],
       "halfLength": 3.45,
       "halfWidth": 6.86,
-      "height": 44.128,
+      "height": 44.121,
       "gradient": [
-        -0.13896,
+        -0.13684,
         0
       ],
       "minLift": 0.05,
@@ -60,7 +60,7 @@
       ],
       "halfLength": 3.45,
       "halfWidth": 6.86,
-      "height": 44.457,
+      "height": 44.442,
       "gradient": [
         -0.04354,
         0
@@ -90,7 +90,18 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/7034437",
+        "tags": {
+          "bridge": "yes",
+          "cycleway": "shared_lane",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "50",
+          "name": "Meerstraat",
+          "surface": "asphalt"
+        }
+      },
       "fis": {
         "id": 28338,
         "naam": "Prinses Irenebrug Naarden",
@@ -103,7 +114,7 @@
     "type": "ophaalbrug",
     "doorvaarthoogte": 1.2,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,460000,140000,480000 --run nl-6_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map naarden-prinses-irenebrug-naarden --plaats naarden --punt 139145,479053",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -123,13 +134,13 @@
       "doorstekend": [],
       "opritHoogtes": [
         43.65,
-        44.307
+        44.292
       ]
     },
     "waarschuwingen": [
       "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

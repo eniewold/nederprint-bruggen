@@ -1,5 +1,5 @@
 {
-  "name": "Amaliabrug Vreeswijk",
+  "name": "Prinses Amaliabrug",
   "file": "nieuwegein-amaliabrug-vreeswijk.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,7 +78,17 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/515367907",
+        "tags": {
+          "bridge": "movable",
+          "highway": "footway",
+          "layer": "1",
+          "name": "Prinses Amaliabrug",
+          "traffic_sign": "NL:G7",
+          "man_made": "bridge"
+        }
+      },
       "fis": {
         "id": 9216,
         "naam": "Amaliabrug Vreeswijk",
@@ -88,10 +98,10 @@
       },
       "pdokBridgeVlakken": 1
     },
-    "type": "ophaalbrug",
+    "type": "basculebrug",
     "doorvaarthoogte": 0.5,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,440000,140000,460000 --run nl-6_7 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map nieuwegein-amaliabrug-vreeswijk --plaats nieuwegein --punt 135136,447056",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -115,8 +125,9 @@
       ]
     },
     "waarschuwingen": [
+      "bridge=movable zonder mechanisme: basculebrug is een gok",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

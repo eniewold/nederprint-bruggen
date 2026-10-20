@@ -9,18 +9,14 @@
     395692.49
   ],
   "xAxis": [
-    0.996075,
-    0.088519
+    0.088519,
+    -0.996075
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 55.984,
+  "groundHeight": 59.037,
   "groundSamplePoints": [
     [
-      -13.15,
-      0
-    ],
-    [
-      13.15,
+      -24.57,
       0
     ]
   ],
@@ -30,37 +26,18 @@
   "terrainCorrections": [
     {
       "centre": [
-        203898.69,
-        395691.43
+        203908.62,
+        395714.74
       ],
       "axis": [
-        -0.996075,
-        -0.088519
+        -0.088519,
+        0.996075
       ],
-      "halfLength": 5.98,
-      "halfWidth": 13.17,
-      "height": 56.208,
+      "halfLength": 11.17,
+      "halfWidth": 7.98,
+      "height": 59.187,
       "gradient": [
-        -0.03748,
-        0
-      ],
-      "minLift": 0.05,
-      "maxLift": 4
-    },
-    {
-      "centre": [
-        203922.51,
-        395693.55
-      ],
-      "axis": [
-        0.996075,
-        0.088519
-      ],
-      "halfLength": 5.98,
-      "halfWidth": 13.17,
-      "height": 56.282,
-      "gradient": [
-        -0.02509,
+        -0.01343,
         0
       ],
       "minLift": 0.05,
@@ -85,28 +62,32 @@
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 200000,380000,220000,400000 --run nl-10_4 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map well-l-brug-ebd0e794 --plaats well-l --punt 203911,395692",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
-      "dekLengte": 12,
-      "dekBreedte": 22.3,
-      "brugLengte": 12,
-      "water": null,
-      "portaalhoogte": 20.1,
-      "opritafstand": [
-        7.2,
-        7.2
+      "dekLengte": 22.3,
+      "dekBreedte": 12,
+      "brugLengte": 22.3,
+      "water": [
+        2.8,
+        10.8
       ],
-      "oprithelling": 12,
+      "portaalhoogte": 10.8,
+      "opritafstand": [
+        13.4,
+        40.2
+      ],
+      "oprithelling": 22.3,
       "doorstekend": [],
       "opritHoogtes": [
-        55.984,
-        56.132
+        59.037,
+        null
       ]
     },
     "waarschuwingen": [
-      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen FIS-brug binnen 35 m",
+      "oprit + zonder PDOK-maaiveld",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
     "gegenereerd": "2026-10-20"

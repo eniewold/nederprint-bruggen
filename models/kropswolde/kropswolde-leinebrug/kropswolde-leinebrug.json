@@ -1,5 +1,5 @@
 {
-  "name": "Leinebrug",
+  "name": "Woldweg",
   "file": "kropswolde-leinebrug.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -41,7 +41,7 @@
       ],
       "halfLength": 4.77,
       "halfWidth": 8.35,
-      "height": 43.469,
+      "height": 43.467,
       "gradient": [
         -0.03145,
         0
@@ -60,9 +60,9 @@
       ],
       "halfLength": 4.77,
       "halfWidth": 8.35,
-      "height": 43.252,
+      "height": 43.251,
       "gradient": [
-        -0.07694,
+        -0.07682,
         0
       ],
       "minLift": 0.05,
@@ -88,20 +88,35 @@
           "type": "landhoofd"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/44222875",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "movable",
+          "bridge:movable": "bascule",
+          "foot": "use_sidepath",
+          "highway": "primary",
+          "layer": "1",
+          "maxspeed": "60",
+          "mofa": "use_sidepath",
+          "name": "Woldweg",
+          "operator": "Provincie Groningen",
+          "ref": "N386"
+        }
+      },
       "fis": {
         "id": 31739680,
         "naam": "Leinebrug",
-        "afstand": 5,
+        "afstand": 3,
         "beweegbaar": true,
         "doorvaarthoogteGesloten": 1.1
       },
       "pdokBridgeVlakken": 3
     },
-    "type": "ophaalbrug",
+    "type": "basculebrug",
     "doorvaarthoogte": 1.1,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,560000,260000,580000 --run nl-12_13 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map kropswolde-leinebrug --plaats kropswolde --punt 244377,572502",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -120,7 +135,7 @@
       "oprithelling": 9.5,
       "doorstekend": [],
       "opritHoogtes": [
-        43.319,
+        43.317,
         42.885
       ]
     },

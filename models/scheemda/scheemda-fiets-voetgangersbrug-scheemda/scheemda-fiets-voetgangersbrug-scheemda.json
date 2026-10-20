@@ -45,7 +45,7 @@
       ],
       "halfLength": 12,
       "halfWidth": 1.59,
-      "height": 43.737,
+      "height": 43.729,
       "gradient": [
         -0.0125,
         0
@@ -64,9 +64,9 @@
       ],
       "halfLength": 12,
       "halfWidth": 1.59,
-      "height": 42.649,
+      "height": 42.645,
       "gradient": [
-        -0.10313,
+        -0.10279,
         0
       ],
       "minLift": 0.05,
@@ -108,7 +108,14 @@
           "type": "landhoofd"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/817305073",
+        "tags": {
+          "bridge": "movable",
+          "highway": "cycleway",
+          "layer": "1"
+        }
+      },
       "fis": {
         "id": 57212,
         "naam": "Fiets-/voetgangersbrug Scheemda",
@@ -118,10 +125,10 @@
       },
       "pdokBridgeVlakken": 7
     },
-    "type": "ophaalbrug",
+    "type": "basculebrug",
     "doorvaarthoogte": 1.5,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 260000,560000,280000,580000 --run nl-13_13 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map scheemda-fiets-voetgangersbrug-scheemda --plaats scheemda --punt 262470,576567",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -140,11 +147,13 @@
       "oprithelling": 24,
       "doorstekend": [],
       "opritHoogtes": [
-        43.587,
+        43.579,
         41.412
       ]
     },
-    "waarschuwingen": [],
+    "waarschuwingen": [
+      "bridge=movable zonder mechanisme: basculebrug is een gok"
+    ],
     "gegenereerd": "2026-10-20"
   }
 }

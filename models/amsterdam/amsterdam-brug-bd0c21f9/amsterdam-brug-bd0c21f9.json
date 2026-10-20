@@ -78,14 +78,34 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1521081819",
+        "tags": {
+          "access": "customers",
+          "bridge": "yes",
+          "highway": "service",
+          "incline": "up",
+          "lanes": "1",
+          "layer": "1",
+          "maxspeed": "5",
+          "oneway": "no",
+          "smoothness": "good",
+          "surface": "asphalt",
+          "tracktype": "grade2",
+          "width": "4.5",
+          "area:highway": "driveway",
+          "bridge:structure": "beam",
+          "landuse": "highway",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map amsterdam-brug-bd0c21f9 --plaats amsterdam --punt 129515,488597",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -112,6 +132,6 @@
       "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

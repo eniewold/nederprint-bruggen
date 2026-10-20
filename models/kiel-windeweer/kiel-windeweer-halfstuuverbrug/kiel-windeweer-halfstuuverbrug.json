@@ -1,5 +1,5 @@
 {
-  "name": "Halfstuuverbrug",
+  "name": "Zuidlaarderweg",
   "file": "kiel-windeweer-halfstuuverbrug.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -123,7 +123,24 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/524155411",
+        "tags": {
+          "bridge": "movable",
+          "bridge:movable": "bascule",
+          "cycleway": "lane",
+          "highway": "secondary",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Zuidlaarderweg",
+          "operator": "Provincie Groningen",
+          "ref": "N962",
+          "smoothness": "excellent",
+          "surface": "asphalt",
+          "zone:maxspeed": "NL:30",
+          "zone:traffic": "NL:urban"
+        }
+      },
       "fis": {
         "id": 33654399,
         "naam": "Halfstuuverbrug",
@@ -133,10 +150,10 @@
       },
       "pdokBridgeVlakken": 10
     },
-    "type": "ophaalbrug",
+    "type": "basculebrug",
     "doorvaarthoogte": 1,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,560000,260000,580000 --run nl-12_13 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map kiel-windeweer-halfstuuverbrug --plaats kiel-windeweer --punt 247659,571621",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

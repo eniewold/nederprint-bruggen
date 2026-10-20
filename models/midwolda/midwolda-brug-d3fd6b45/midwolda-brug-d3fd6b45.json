@@ -1,5 +1,5 @@
 {
-  "name": "midwolda-brug-d3fd6b45",
+  "name": "Turflaan",
   "file": "midwolda-brug-d3fd6b45.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -88,14 +88,25 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/85515308",
+        "tags": {
+          "bridge": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "mofa": "no",
+          "moped": "no",
+          "name": "Turflaan",
+          "traffic_sign": "NL:G13"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 3
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 260000,560000,280000,580000 --run nl-13_13 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map midwolda-brug-d3fd6b45 --plaats midwolda --punt 262951,578375",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

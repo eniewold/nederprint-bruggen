@@ -1,5 +1,5 @@
 {
-  "name": "muiden-brug-d5687d57",
+  "name": "Keetpoortbrug",
   "file": "muiden-brug-d5687d57.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,33 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/997990556",
+        "tags": {
+          "bridge": "yes",
+          "highway": "residential",
+          "layer": "1",
+          "maxaxleload": "7",
+          "maxspeed": "30",
+          "name": "Keetpoortbrug",
+          "sidewalk": "both",
+          "surface": "asphalt",
+          "agricultural": "no",
+          "bridge:movable": "bascule",
+          "bridge:name:nl": "Keetpoortbrug",
+          "building:material": "steel",
+          "man_made": "bridge",
+          "maxwidth": "10",
+          "name:de": "Keetpoortbrug"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
-    "type": "ophaalbrug",
+    "type": "basculebrug",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map muiden-brug-d5687d57 --plaats muiden --punt 133187,482179",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -112,6 +131,6 @@
       "geen FIS-brug binnen 35 m",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

@@ -9,18 +9,18 @@
     424828.05
   ],
   "xAxis": [
-    -0.934509,
-    0.35594
+    0.35594,
+    0.934509
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 44.257,
+  "groundHeight": 44.545,
   "groundSamplePoints": [
     [
-      -5.28,
+      -7.58,
       0
     ],
     [
-      5.28,
+      7.58,
       0
     ]
   ],
@@ -34,33 +34,33 @@
         424828.05
       ],
       "axis": [
-        -0.934509,
-        0.35594
+        0.35594,
+        0.934509
       ],
-      "halfLength": 0.64,
-      "halfWidth": 3.95,
-      "height": 43.496,
+      "halfLength": 1.72,
+      "halfWidth": 1.78,
+      "height": 43.751,
       "gradient": [
         0,
         0
       ],
-      "minLift": -2,
+      "minLift": -1.58,
       "maxLift": -0.01
     },
     {
       "centre": [
-        112353.04,
-        424826.52
+        112346.58,
+        424821.61
       ],
       "axis": [
-        0.934509,
-        -0.35594
+        -0.35594,
+        -0.934509
       ],
-      "halfLength": 3,
-      "halfWidth": 5.17,
-      "height": 44.526,
+      "halfLength": 3.45,
+      "halfWidth": 1.92,
+      "height": 44.901,
       "gradient": [
-        -0.08986,
+        -0.04354,
         0
       ],
       "minLift": 0.05,
@@ -68,18 +68,18 @@
     },
     {
       "centre": [
-        112345.04,
-        424829.57
+        112351.49,
+        424834.49
       ],
       "axis": [
-        -0.934509,
-        0.35594
+        0.35594,
+        0.934509
       ],
-      "halfLength": 3,
-      "halfWidth": 5.17,
-      "height": 44.646,
+      "halfLength": 3.45,
+      "halfWidth": 1.92,
+      "height": 44.798,
       "gradient": [
-        -0.05,
+        -0.07346,
         0
       ],
       "minLift": 0.05,
@@ -97,47 +97,55 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/7270603",
+        "tags": {
+          "bridge": "yes",
+          "highway": "footway",
+          "layer": "1",
+          "lit": "no",
+          "surface": "dirt"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,420000,120000,440000 --run nl-5_6 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map dordrecht-brug-433dc897 --plaats dordrecht --punt 112349,424828",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
-      "dekLengte": 2.6,
-      "dekBreedte": 6.9,
-      "brugLengte": 2.6,
+      "dekLengte": 6.9,
+      "dekBreedte": 2.6,
+      "brugLengte": 6.9,
       "water": null,
-      "portaalhoogte": 6.2,
+      "portaalhoogte": 2.5,
       "opritafstand": [
-        4,
-        4
+        4.1,
+        4.1
       ],
-      "oprithelling": 6,
+      "oprithelling": 6.9,
       "doorstekend": [
         {
           "gmlId": "G0505.08c95c5209044f7fb19d545b1076a64a",
           "klasse": "Forest",
-          "oppervlak": 3285.2,
+          "oppervlak": 3791.2,
           "onderDek": 0,
-          "bovenDekOnderkant": 1,
+          "bovenDekOnderkant": 0.58,
           "actie": "verlagen"
         }
       ],
       "opritHoogtes": [
-        44.257,
-        44.496
+        44.751,
+        44.545
       ]
     },
     "waarschuwingen": [
-      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
       "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

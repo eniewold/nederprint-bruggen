@@ -1,5 +1,5 @@
 {
-  "name": "nijverdal-brug-2b418632",
+  "name": "Oale Bleekebrug",
   "file": "nijverdal-brug-2b418632.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -78,14 +78,24 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1270440556",
+        "tags": {
+          "layer": "1",
+          "man_made": "bridge",
+          "maxweight": "18 t",
+          "name": "Oale Bleekebrug",
+          "source:name": "Tubantia",
+          "source:name:date": "2026-03-04"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,480000,240000,500000 --run nl-11_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map nijverdal-brug-2b418632 --plaats nijverdal --punt 229493,486506",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,

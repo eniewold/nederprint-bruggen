@@ -1,5 +1,5 @@
 {
-  "name": "monnickendam-brug-164c838b",
+  "name": "Amsterdam-Monnickendam",
   "file": "monnickendam-brug-164c838b.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -13,7 +13,7 @@
     -0.917091
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 41.859,
+  "groundHeight": 41.858,
   "groundSamplePoints": [
     [
       -9.28,
@@ -39,12 +39,12 @@
       ],
       "halfLength": 2.11,
       "halfWidth": 1.74,
-      "height": 40.894,
+      "height": 40.888,
       "gradient": [
         0,
         0
       ],
-      "minLift": -1.24,
+      "minLift": -1.25,
       "maxLift": -0.01
     },
     {
@@ -58,7 +58,7 @@
       ],
       "halfLength": 4.22,
       "halfWidth": 1.86,
-      "height": 42.044,
+      "height": 42.038,
       "gradient": [
         -0.03557,
         0
@@ -77,9 +77,9 @@
       ],
       "halfLength": 4.22,
       "halfWidth": 1.86,
-      "height": 42.026,
+      "height": 42.023,
       "gradient": [
-        -0.03971,
+        -0.03914,
         0
       ],
       "minLift": 0.05,
@@ -97,14 +97,24 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/475331946",
+        "tags": {
+          "bridge": "yes",
+          "disused:railway": "tram",
+          "historic": "railway",
+          "layer": "1",
+          "name": "Amsterdam-Monnickendam",
+          "railway": "disused"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map monnickendam-brug-164c838b --plaats monnickendam --punt 130581,496062",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -125,21 +135,21 @@
         {
           "gmlId": "W0651.8abeacd5439b757600000000a1263624",
           "klasse": "Terrain",
-          "oppervlak": 27,
+          "oppervlak": 13.4,
           "onderDek": 0.05,
-          "bovenDekOnderkant": 0.24,
+          "bovenDekOnderkant": 0.25,
           "actie": "verlagen"
         }
       ],
       "opritHoogtes": [
-        41.894,
-        41.859
+        41.888,
+        41.858
       ]
     },
     "waarschuwingen": [
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
       "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

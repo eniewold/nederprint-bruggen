@@ -1,5 +1,5 @@
 {
-  "name": "nieuwegein-brug-05324748",
+  "name": "Prinses Beatrixsluis",
   "file": "nieuwegein-brug-05324748.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -9,18 +9,18 @@
     447465.01
   ],
   "xAxis": [
-    -0.280828,
-    -0.959758
+    -0.959758,
+    0.280828
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 47.604,
+  "groundHeight": 53.313,
   "groundSamplePoints": [
     [
-      -24.43,
+      -96.7,
       0
     ],
     [
-      24.43,
+      96.7,
       0
     ]
   ],
@@ -48,18 +48,37 @@
   "terrainCorrections": [
     {
       "centre": [
-        136025.78,
-        447486.33
+        136019.55,
+        447465.01
       ],
       "axis": [
-        0.280828,
-        0.959758
+        -0.959758,
+        0.280828
       ],
-      "halfLength": 11.11,
-      "halfWidth": 78.7,
-      "height": 50.403,
+      "halfLength": 70.7,
+      "halfWidth": 11.61,
+      "height": 52.692,
       "gradient": [
-        -0.25198,
+        0,
+        0
+      ],
+      "minLift": -1.36,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        136104.68,
+        447440.1
+      ],
+      "axis": [
+        0.959758,
+        -0.280828
+      ],
+      "halfLength": 12,
+      "halfWidth": 13.11,
+      "height": 53.652,
+      "gradient": [
+        -0.02829,
         0
       ],
       "minLift": 0.05,
@@ -67,18 +86,18 @@
     },
     {
       "centre": [
-        136013.31,
-        447443.69
+        135934.42,
+        447489.92
       ],
       "axis": [
-        -0.280828,
-        -0.959758
+        -0.959758,
+        0.280828
       ],
-      "halfLength": 11.11,
-      "halfWidth": 78.7,
-      "height": 53.051,
+      "halfLength": 12,
+      "halfWidth": 13.11,
+      "height": 53.842,
       "gradient": [
-        -0.01351,
+        -0.0125,
         0
       ],
       "minLift": 0.05,
@@ -170,37 +189,69 @@
           "type": "landhoofd"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/7102684",
+        "tags": {
+          "bridge": "yes",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxaxleload": "9.0",
+          "maxlength": "12",
+          "maxspeed": "50",
+          "maxweight": "40.0",
+          "name": "Prinses Beatrixsluis"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 19
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,440000,140000,460000 --run nl-6_7 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map nieuwegein-brug-05324748 --plaats nieuwegein --punt 136020,447465",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
-      "dekLengte": 22.2,
-      "dekBreedte": 153.4,
-      "brugLengte": 22.2,
-      "water": null,
-      "portaalhoogte": 138.1,
-      "opritafstand": [
-        13.3,
-        13.3
+      "dekLengte": 153.4,
+      "dekBreedte": 22.2,
+      "brugLengte": 153.4,
+      "water": [
+        -59.7,
+        66.8
       ],
-      "oprithelling": 22.2,
-      "doorstekend": [],
+      "portaalhoogte": 20,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "L0002.07c9d86407cf4f829b2d6b8fa249522a",
+          "klasse": "Terrain",
+          "oppervlak": 725.8,
+          "onderDek": 0.18,
+          "bovenDekOnderkant": 0.36,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "L0002.f3f75bc8fad546f883d952888469ddb0",
+          "klasse": "Terrain",
+          "oppervlak": 97.2,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.31,
+          "actie": "verlagen"
+        }
+      ],
       "opritHoogtes": [
-        47.604,
-        52.901
+        53.313,
+        53.692
       ]
     },
     "waarschuwingen": [
-      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
-      "geen FIS-brug binnen 35 m"
+      "geen FIS-brug binnen 35 m",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }
