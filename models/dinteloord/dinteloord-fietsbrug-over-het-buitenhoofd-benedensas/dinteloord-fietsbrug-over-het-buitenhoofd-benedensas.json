@@ -1,0 +1,176 @@
+{
+  "name": "Fietsbrug over het buitenhoofd Benedensas",
+  "file": "dinteloord-fietsbrug-over-het-buitenhoofd-benedensas.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    76616.31,
+    404737.82
+  ],
+  "xAxis": [
+    -0.371266,
+    0.928527
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 46.328,
+  "groundSamplePoints": [
+    [
+      -9.19,
+      0
+    ],
+    [
+      9.19,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0851.8e8b252020d947b8b25dad1318663193",
+    "G0851.dffdb10c379b406fa0b7c46c3c838892"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        76616.31,
+        404737.82
+      ],
+      "axis": [
+        -0.371266,
+        0.928527
+      ],
+      "halfLength": 2.09,
+      "halfWidth": 1.59,
+      "height": 47.882,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -2.54,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        76619.41,
+        404730.07
+      ],
+      "axis": [
+        0.371266,
+        -0.928527
+      ],
+      "halfLength": 4.18,
+      "halfWidth": 1.63,
+      "height": 47.755,
+      "gradient": [
+        -0.34182,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        76613.21,
+        404745.58
+      ],
+      "axis": [
+        -0.371266,
+        0.928527
+      ],
+      "halfLength": 4.18,
+      "halfWidth": 1.63,
+      "height": 49.032,
+      "gradient": [
+        -0.03592,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0851.8e8b252020d947b8b25dad1318663193"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0851.8e8b252020d947b8b25dad1318663193",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/292421648",
+        "tags": {
+          "bicycle": "dismount",
+          "bridge": "movable",
+          "bridge:movable": "retractable",
+          "description": "Beweegbare brug, op verzoek te openen met druk op bedieningskast bij brug. Gemiddelde wachttijd na drukken 15 minuten.",
+          "highway": "footway",
+          "horse": "no",
+          "layer": "1",
+          "moped": "yes",
+          "name": "Vlietdijk",
+          "segregated": "no",
+          "survey:date": "paved",
+          "traffic_sign": "NL:G7",
+          "vehicle": "no",
+          "wheelchair": "yes",
+          "zone:traffic": "NL:rural"
+        }
+      },
+      "fis": {
+        "id": 5931,
+        "naam": "Fietsbrug over het buitenhoofd Benedensas",
+        "afstand": 25,
+        "beweegbaar": true,
+        "doorvaarthoogteGesloten": 2.7
+      },
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ophaalbrug",
+    "doorvaarthoogte": 2.7,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 60000,400000,80000,420000 --run nl-3_5 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 8.4,
+      "dekBreedte": 2.2,
+      "brugLengte": 8.4,
+      "water": null,
+      "portaalhoogte": 2.5,
+      "opritafstand": [
+        5,
+        5
+      ],
+      "oprithelling": 8.4,
+      "doorstekend": [
+        {
+          "gmlId": "G0851.dffdb10c379b406fa0b7c46c3c838892",
+          "klasse": "Road",
+          "oppervlak": 18.2,
+          "onderDek": 1,
+          "bovenDekOnderkant": 1.6,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "G0851.4be759d2f6174ba6b1157f15df23559e",
+          "klasse": "Forest",
+          "oppervlak": 113.9,
+          "onderDek": 0,
+          "bovenDekOnderkant": 1.54,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        46.328,
+        48.882
+      ]
+    },
+    "waarschuwingen": [
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 1 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

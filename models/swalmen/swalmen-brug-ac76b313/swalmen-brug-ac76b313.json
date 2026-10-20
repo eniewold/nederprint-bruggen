@@ -1,0 +1,188 @@
+{
+  "name": "Maaslijn",
+  "file": "swalmen-brug-ac76b313.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    199437.96,
+    360017.2
+  ],
+  "xAxis": [
+    -0.367941,
+    -0.929849
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 67.721,
+  "groundSamplePoints": [
+    [
+      -12.88,
+      0
+    ],
+    [
+      12.88,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "L0004.ac76b313a87c40d7afad19d5defeab69"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        199437.96,
+        360017.2
+      ],
+      "axis": [
+        -0.367941,
+        -0.929849
+      ],
+      "halfLength": 6.88,
+      "halfWidth": 6.85,
+      "height": 66.457,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -2.17,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        199447.11,
+        360040.34
+      ],
+      "axis": [
+        0.367941,
+        0.929849
+      ],
+      "halfLength": 12,
+      "halfWidth": 8.35,
+      "height": 67.757,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        199428.81,
+        359994.07
+      ],
+      "axis": [
+        -0.367941,
+        -0.929849
+      ],
+      "halfLength": 12,
+      "halfWidth": 8.35,
+      "height": 67.739,
+      "gradient": [
+        -0.0015,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "L0004.ac76b313a87c40d7afad19d5defeab69"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "L0004.ac76b313a87c40d7afad19d5defeab69",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/548579274",
+        "tags": {
+          "axle_load": "22.5",
+          "bridge": "yes",
+          "description": "Roermond - Venlo",
+          "electrified": "no",
+          "gauge": "1435",
+          "layer": "1",
+          "loading_gauge": "TSI_GB",
+          "maxspeed": "80",
+          "name": "Maaslijn",
+          "operator": "ProRail",
+          "passenger_lines": "2",
+          "proposed:electrified": "contact_line",
+          "proposed:frequency": "0",
+          "proposed:voltage": "1500",
+          "railway": "rail",
+          "railway:atb-ng": "yes",
+          "railway:track_class": "D4",
+          "ref": "060",
+          "ref:ProRailID": "2886279.0",
+          "ref:ProRailSpoortak": "060_1405R_50.6",
+          "source": "ProRail",
+          "source:date": "2014-01-03",
+          "usage": "branch",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 180000,360000,200000,380000 --run nl-9_3 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 25.8,
+      "dekBreedte": 12.7,
+      "brugLengte": 25.8,
+      "water": null,
+      "portaalhoogte": 11.4,
+      "opritafstand": [
+        0,
+        0
+      ],
+      "spoorhoogteBron": "prorail-pvs",
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0957.22baf57e221741debaca881a33df36c3",
+          "klasse": "Separation",
+          "oppervlak": 5.4,
+          "onderDek": 0.23,
+          "bovenDekOnderkant": 1.17,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0957.01cda1c2b45541a7a2c3ac223f698d9d",
+          "klasse": "Separation",
+          "oppervlak": 37.2,
+          "onderDek": 0,
+          "bovenDekOnderkant": 1.16,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0957.1419a87292ac41759e5f05b0b005a385",
+          "klasse": "Separation",
+          "oppervlak": 6,
+          "onderDek": 0.28,
+          "bovenDekOnderkant": 1.15,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        67.757,
+        67.721
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "3 PDOK-vorm(en) door het dek: 0 verborgen, 3 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}
