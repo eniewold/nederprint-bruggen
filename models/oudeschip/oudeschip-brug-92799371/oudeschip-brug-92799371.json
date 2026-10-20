@@ -1,0 +1,200 @@
+{
+  "name": "Eemshavenweg",
+  "file": "oudeschip-brug-92799371.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    249294.49,
+    606293.03
+  ],
+  "xAxis": [
+    0.956863,
+    -0.290539
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 41.165,
+  "groundSamplePoints": [
+    [
+      -22.89,
+      0
+    ],
+    [
+      22.89,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "P0020.2ec4123a063c4c5098ae725d88ed967d",
+    "P0020.780218fdefee47fb8e29980e3ce2cf16",
+    "P0020.92799371c9ce453b910120484d3ff757",
+    "P0020.e10cbf6c4c2f4c4081f9d8c2e715f9cb"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        249294.49,
+        606293.03
+      ],
+      "axis": [
+        0.956863,
+        -0.290539
+      ],
+      "halfLength": 5.2,
+      "halfWidth": 4.41,
+      "height": 40.313,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -3.73,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        249274.57,
+        606299.08
+      ],
+      "axis": [
+        -0.956863,
+        0.290539
+      ],
+      "halfLength": 10.41,
+      "halfWidth": 5.87,
+      "height": 41.463,
+      "gradient": [
+        -0.01442,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        249314.4,
+        606286.99
+      ],
+      "axis": [
+        0.956863,
+        -0.290539
+      ],
+      "halfLength": 10.41,
+      "halfWidth": 5.87,
+      "height": 41.389,
+      "gradient": [
+        -0.02152,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "P0020.92799371c9ce453b910120484d3ff757"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "P0020.2ec4123a063c4c5098ae725d88ed967d",
+          "type": "landhoofd"
+        },
+        {
+          "id": "P0020.780218fdefee47fb8e29980e3ce2cf16",
+          "type": "landhoofd"
+        },
+        {
+          "id": "P0020.92799371c9ce453b910120484d3ff757",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/48876951",
+        "tags": {
+          "bridge": "yes",
+          "highway": "trunk",
+          "lanes": "2",
+          "layer": "1",
+          "maxspeed": "100",
+          "motorroad": "yes",
+          "name": "Eemshavenweg",
+          "operator": "Provincie Groningen",
+          "ref": "N46",
+          "surface": "asphalt",
+          "zone:traffic": "NL:rural"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 3
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,600000,260000,620000 --run nl-12_15 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 20.8,
+      "dekBreedte": 7.8,
+      "brugLengte": 20.8,
+      "water": null,
+      "portaalhoogte": 7,
+      "opritafstand": [
+        12.5,
+        12.5
+      ],
+      "oprithelling": 20.8,
+      "doorstekend": [
+        {
+          "gmlId": "P0020.9330fa82ec2b41469ee0866e56c0d1cf",
+          "klasse": "Terrain",
+          "oppervlak": 8.1,
+          "onderDek": 0.63,
+          "bovenDekOnderkant": 2.73,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "P0020.e10cbf6c4c2f4c4081f9d8c2e715f9cb",
+          "klasse": "Terrain",
+          "oppervlak": 6.7,
+          "onderDek": 0.7,
+          "bovenDekOnderkant": 2.69,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "P0020.5ce66426ec374a9f87dc688cb5e609c4",
+          "klasse": "Terrain",
+          "oppervlak": 19.8,
+          "onderDek": 0.02,
+          "bovenDekOnderkant": 1.81,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G1651.7eaeb3eb64e34aa68b4837b703f50d75",
+          "klasse": "Road",
+          "oppervlak": 664,
+          "onderDek": 0.22,
+          "bovenDekOnderkant": 0.51,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G1651.a03b8559efe042b0a70f2b5cba0a9d9e",
+          "klasse": "Road",
+          "oppervlak": 333,
+          "onderDek": 0.04,
+          "bovenDekOnderkant": 0.4,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        41.313,
+        41.165
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "5 PDOK-vorm(en) door het dek: 1 verborgen, 4 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

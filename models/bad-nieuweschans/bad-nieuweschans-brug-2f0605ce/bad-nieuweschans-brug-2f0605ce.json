@@ -1,0 +1,183 @@
+{
+  "name": "Rijksweg",
+  "file": "bad-nieuweschans-brug-2f0605ce.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    276454.51,
+    578225.59
+  ],
+  "xAxis": [
+    -0.994705,
+    0.10277
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 45.603,
+  "groundSamplePoints": [
+    [
+      -43.97,
+      0
+    ],
+    [
+      43.97,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "L0002.7804c1a2f9e94489885214d4340bebc9",
+    "L0002.2f0605ce600f4f53b2f999047902fde4",
+    "L0002.3066aa4ece574f90bc2e0140ab21f8de"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        276454.51,
+        578225.59
+      ],
+      "axis": [
+        -0.994705,
+        0.10277
+      ],
+      "halfLength": 17.92,
+      "halfWidth": 16.67,
+      "height": 44.822,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.32,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        276490.29,
+        578221.89
+      ],
+      "axis": [
+        0.994705,
+        -0.10277
+      ],
+      "halfLength": 12,
+      "halfWidth": 18.17,
+      "height": 45.863,
+      "gradient": [
+        -0.02163,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        276418.73,
+        578229.29
+      ],
+      "axis": [
+        -0.994705,
+        0.10277
+      ],
+      "halfLength": 12,
+      "halfWidth": 18.17,
+      "height": 45.972,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "L0002.2f0605ce600f4f53b2f999047902fde4"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "L0002.7804c1a2f9e94489885214d4340bebc9",
+          "type": "onbekend"
+        },
+        {
+          "id": "L0002.2f0605ce600f4f53b2f999047902fde4",
+          "type": "dek"
+        },
+        {
+          "id": "L0002.3066aa4ece574f90bc2e0140ab21f8de",
+          "type": "onbekend"
+        }
+      ],
+      "osm": {
+        "id": "way/1284165581",
+        "tags": {
+          "bridge": "yes",
+          "carriageway_ref": "Re",
+          "destination": "Oldenburg",
+          "highway": "motorway",
+          "int_ref": "E 22",
+          "lanes": "2",
+          "layer": "1",
+          "lit": "no",
+          "maxspeed": "130",
+          "maxspeed:type": "NL:motorway",
+          "name": "Rijksweg",
+          "oneway": "yes",
+          "operator": "Rijkswaterstaat",
+          "ref": "A7",
+          "surface": "asphalt",
+          "toll:hgv": "yes",
+          "zone:traffic": "NL:rural",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 3
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 260000,560000,280000,580000 --run nl-13_13 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 47.8,
+      "dekBreedte": 32.3,
+      "brugLengte": 47.9,
+      "water": null,
+      "portaalhoogte": 29.1,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "L0002.008a011d567844589ac75825bc8e312b",
+          "klasse": "Forest",
+          "oppervlak": 1506.3,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.32,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "L0002.22ded33ba31a47a4abacbc2d5292cf85",
+          "klasse": "Terrain",
+          "oppervlak": 824.1,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.18,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        45.603,
+        45.822
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}
