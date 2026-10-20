@@ -1,0 +1,190 @@
+{
+  "name": "Rijksweg",
+  "file": "s-heer-arendskerke-brug-3f2371ee.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    45469.66,
+    389459.31
+  ],
+  "xAxis": [
+    -0.979616,
+    0.200879
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 51.869,
+  "groundSamplePoints": [
+    [
+      -56.24,
+      0
+    ],
+    [
+      56.24,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "P0029.3f2371ee53484c7493359a76d5595cd6",
+    "P0029.cd04cae82d96473dab75ca49c514418d",
+    "P0029.f9b72fa635c24f7b91ac4a9580bf07d9"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        45469.66,
+        389459.31
+      ],
+      "axis": [
+        -0.979616,
+        0.200879
+      ],
+      "halfLength": 30.19,
+      "halfWidth": 7.97,
+      "height": 51.045,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.71,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        45516.92,
+        389449.62
+      ],
+      "axis": [
+        0.979616,
+        -0.200879
+      ],
+      "halfLength": 12,
+      "halfWidth": 9.47,
+      "height": 52.195,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        45422.4,
+        389469
+      ],
+      "axis": [
+        -0.979616,
+        0.200879
+      ],
+      "halfLength": 12,
+      "halfWidth": 9.47,
+      "height": 52.107,
+      "gradient": [
+        -0.01986,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "P0029.3f2371ee53484c7493359a76d5595cd6"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "P0029.3f2371ee53484c7493359a76d5595cd6",
+          "type": "dek"
+        },
+        {
+          "id": "P0029.cd04cae82d96473dab75ca49c514418d",
+          "type": "landhoofd"
+        },
+        {
+          "id": "P0029.f9b72fa635c24f7b91ac4a9580bf07d9",
+          "type": "landhoofd"
+        }
+      ],
+      "osm": {
+        "id": "way/7606327",
+        "tags": {
+          "bridge": "yes",
+          "carriageway_ref": "Li",
+          "highway": "motorway",
+          "int_ref": "E 312",
+          "lanes": "3",
+          "layer": "1",
+          "lit": "no",
+          "maxspeed": "100",
+          "maxspeed:conditional": "130 @ (19:00-06:00)",
+          "name": "Rijksweg",
+          "oneway": "yes",
+          "operator": "Rijkswaterstaat",
+          "placement": "right_of:1",
+          "ref": "A58",
+          "surface": "asphalt",
+          "toll:hgv": "yes",
+          "turn:lanes": "none|none|slight_right",
+          "zone:traffic": "NL:rural"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 3
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 40000,380000,60000,400000 --run nl-2_4 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 72.4,
+      "dekBreedte": 14.9,
+      "brugLengte": 72.5,
+      "water": null,
+      "portaalhoogte": 13.4,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "P0029.d360279a0b31487d8e186fad33640f98",
+          "klasse": "Terrain",
+          "oppervlak": 7115.3,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.71,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "P0029.811152983ed947128f8fd9268023bf94",
+          "klasse": "Terrain",
+          "oppervlak": 609.6,
+          "onderDek": 0.4,
+          "bovenDekOnderkant": 0.34,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "P0029.9e0fbff6eddf4551b18cd199028ab5a7",
+          "klasse": "Terrain",
+          "oppervlak": 303.7,
+          "onderDek": 0.39,
+          "bovenDekOnderkant": 0.06,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        52.045,
+        51.869
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "3 PDOK-vorm(en) door het dek: 0 verborgen, 3 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

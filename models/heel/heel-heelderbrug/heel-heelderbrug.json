@@ -1,0 +1,138 @@
+{
+  "name": "Heelderbrug",
+  "file": "heel-heelderbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    189597.61,
+    354226.63
+  ],
+  "xAxis": [
+    0.965053,
+    0.262056
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 73.582,
+  "groundSamplePoints": [
+    [
+      -49.66,
+      0
+    ],
+    [
+      49.66,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G1641.56a3743e37674641ade69097a67287b9"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        189557.41,
+        354215.71
+      ],
+      "axis": [
+        -0.965053,
+        -0.262056
+      ],
+      "halfLength": 12,
+      "halfWidth": 8.25,
+      "height": 73.743,
+      "gradient": [
+        -0.01342,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        189637.81,
+        354237.54
+      ],
+      "axis": [
+        0.965053,
+        0.262056
+      ],
+      "halfLength": 12,
+      "halfWidth": 8.25,
+      "height": 73.754,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G1641.56a3743e37674641ade69097a67287b9"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G1641.56a3743e37674641ade69097a67287b9",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/6760783",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "yes",
+          "foot": "use_sidepath",
+          "highway": "secondary",
+          "layer": "1",
+          "maxspeed": "80",
+          "mofa": "use_sidepath",
+          "moped": "use_sidepath",
+          "name": "Heelderweg",
+          "old_ref": "N566",
+          "surface": "asphalt",
+          "zone:traffic": "NL:rural"
+        }
+      },
+      "fis": {
+        "id": 33391,
+        "naam": "Heelderbrug",
+        "afstand": 2,
+        "beweegbaar": false,
+        "doorvaarthoogteGesloten": null
+      },
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 180000,340000,200000,360000 --run nl-9_2 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 59.3,
+      "dekBreedte": 12.5,
+      "brugLengte": 59.3,
+      "water": [
+        -8.2,
+        7.3
+      ],
+      "portaalhoogte": 11.3,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [],
+      "opritHoogtes": [
+        73.582,
+        73.604
+      ]
+    },
+    "waarschuwingen": [
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

@@ -1,0 +1,183 @@
+{
+  "name": "Rijksweg",
+  "file": "s-heer-arendskerke-brug-ba710d85.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    45460.79,
+    389484.34
+  ],
+  "xAxis": [
+    -0.977375,
+    0.211515
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 51.613,
+  "groundSamplePoints": [
+    [
+      -56.03,
+      0
+    ],
+    [
+      56.03,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "P0029.ba710d8567bd49d4b06356e48374e97f",
+    "P0029.48345b26cdea473496cd4b4872e16735",
+    "P0029.d626d86f6a1249518a4ecdef9e55031b"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        45460.79,
+        389484.34
+      ],
+      "axis": [
+        -0.977375,
+        0.211515
+      ],
+      "halfLength": 29.98,
+      "halfWidth": 8.07,
+      "height": 51.018,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.32,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        45507.73,
+        389474.18
+      ],
+      "axis": [
+        0.977375,
+        -0.211515
+      ],
+      "halfLength": 12,
+      "halfWidth": 9.57,
+      "height": 52.168,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        45413.85,
+        389494.5
+      ],
+      "axis": [
+        -0.977375,
+        0.211515
+      ],
+      "halfLength": 12,
+      "halfWidth": 9.57,
+      "height": 51.966,
+      "gradient": [
+        -0.02937,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "P0029.ba710d8567bd49d4b06356e48374e97f"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "P0029.ba710d8567bd49d4b06356e48374e97f",
+          "type": "dek"
+        },
+        {
+          "id": "P0029.48345b26cdea473496cd4b4872e16735",
+          "type": "landhoofd"
+        },
+        {
+          "id": "P0029.d626d86f6a1249518a4ecdef9e55031b",
+          "type": "landhoofd"
+        }
+      ],
+      "osm": {
+        "id": "way/7606322",
+        "tags": {
+          "bridge": "yes",
+          "carriageway_ref": "Re",
+          "destination:lanes": "Middelburg;Vlissingen|Middelburg;Vlissingen|Gent (TOL);Terneuzen (TOL);'s-Heerenhoek",
+          "highway": "motorway",
+          "int_ref": "E 312",
+          "lanes": "3",
+          "layer": "1",
+          "lit": "no",
+          "maxspeed": "100",
+          "maxspeed:conditional": "130 @ (19:00-06:00)",
+          "name": "Rijksweg",
+          "oneway": "yes",
+          "operator": "Rijkswaterstaat",
+          "placement": "right_of:1",
+          "ref": "A58",
+          "surface": "asphalt",
+          "toll:hgv": "yes",
+          "turn:lanes": "none|none|slight_right",
+          "zone:traffic": "NL:rural"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 3
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 40000,380000,60000,400000 --run nl-2_4 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 72,
+      "dekBreedte": 15.1,
+      "brugLengte": 72.1,
+      "water": null,
+      "portaalhoogte": 13.6,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "P0029.9e0fbff6eddf4551b18cd199028ab5a7",
+          "klasse": "Terrain",
+          "oppervlak": 303.7,
+          "onderDek": 0.4,
+          "bovenDekOnderkant": 0.32,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "P0029.811152983ed947128f8fd9268023bf94",
+          "klasse": "Terrain",
+          "oppervlak": 609.6,
+          "onderDek": 0.4,
+          "bovenDekOnderkant": 0.18,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        52.018,
+        51.613
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}
