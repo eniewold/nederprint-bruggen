@@ -1,0 +1,189 @@
+{
+  "name": "Dalbrug",
+  "file": "aalten-dalbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    236651.45,
+    438023.94
+  ],
+  "xAxis": [
+    -0.068473,
+    -0.997653
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 68.489,
+  "groundSamplePoints": [
+    [
+      -26.06,
+      0
+    ],
+    [
+      26.06,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0197.2419ea62c52969abe0530e0a10acf6ec"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        236651.45,
+        438023.94
+      ],
+      "axis": [
+        -0.068473,
+        -0.997653
+      ],
+      "halfLength": 5.92,
+      "halfWidth": 4.98,
+      "height": 67.493,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.89,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        236653.08,
+        438047.58
+      ],
+      "axis": [
+        0.068473,
+        0.997653
+      ],
+      "halfLength": 11.85,
+      "halfWidth": 6.48,
+      "height": 68.641,
+      "gradient": [
+        -0.01282,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        236649.83,
+        438000.31
+      ],
+      "axis": [
+        -0.068473,
+        -0.997653
+      ],
+      "halfLength": 11.85,
+      "halfWidth": 6.48,
+      "height": 68.643,
+      "gradient": [
+        -0.01266,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0197.2419ea62c52969abe0530e0a10acf6ec"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0197.2419ea62c52969abe0530e0a10acf6ec",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1300948149",
+        "tags": {
+          "bridge": "yes",
+          "cycleway:both": "shared_lane",
+          "cycleway:both:lane": "advisory",
+          "highway": "tertiary",
+          "lane_markings": "no",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "50",
+          "maxweight:signed": "no",
+          "name": "Dalbrug",
+          "sidewalk": "both",
+          "surface": "asphalt",
+          "bridge:structure": "beam",
+          "man_made": "bridge",
+          "start_date": "1961"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,420000,240000,440000 --run nl-11_6 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 23.7,
+      "dekBreedte": 9,
+      "brugLengte": 23.7,
+      "water": [
+        -3.3,
+        4.7
+      ],
+      "portaalhoogte": 8.1,
+      "opritafstand": [
+        14.2,
+        14.2
+      ],
+      "oprithelling": 23.7,
+      "doorstekend": [
+        {
+          "gmlId": "G0197.37675a7d11974f84819dc764e2c568c8",
+          "klasse": "Terrain",
+          "oppervlak": 22.3,
+          "onderDek": 0.16,
+          "bovenDekOnderkant": 0.89,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0197.3a57ff44e0206c50e0530e0a10acb73e",
+          "klasse": "Forest",
+          "oppervlak": 964.5,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.86,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0197.3a6d7c486a3605dae0530e0a10ac25e7",
+          "klasse": "Terrain",
+          "oppervlak": 3238.3,
+          "onderDek": 0.04,
+          "bovenDekOnderkant": 0.69,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "P0025.960034ffe3994d93aa06f037cb330b75",
+          "klasse": "Terrain",
+          "oppervlak": 7037.6,
+          "onderDek": 0.02,
+          "bovenDekOnderkant": 0.63,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        68.489,
+        68.493
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "4 PDOK-vorm(en) door het dek: 0 verborgen, 4 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}
