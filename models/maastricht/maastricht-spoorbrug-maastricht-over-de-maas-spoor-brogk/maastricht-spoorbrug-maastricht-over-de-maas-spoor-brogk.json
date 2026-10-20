@@ -1,0 +1,162 @@
+{
+  "name": "Spoorbrug Maastricht over de Maas (Spoor Brögk)",
+  "file": "maastricht-spoorbrug-maastricht-over-de-maas-spoor-brogk.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    176844.52,
+    318798.49
+  ],
+  "xAxis": [
+    -0.949023,
+    0.315206
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 96.89,
+  "groundSamplePoints": [
+    [
+      -108.22,
+      0
+    ],
+    [
+      108.23,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "L0004.186e17215ab442e4be521be52d123632",
+    "L0002.1a23d5b5e47f475dbfb36a430bbba5b9",
+    "L0002.4ed45f8289f64b91844dd70bff7dc383",
+    "L0002.ee7575eccdaf47e68d1630676167d999"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        176958.62,
+        318760.6
+      ],
+      "axis": [
+        0.949023,
+        -0.315206
+      ],
+      "halfLength": 12,
+      "halfWidth": 5.27,
+      "height": 96.976,
+      "gradient": [
+        -0.00715,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        176730.43,
+        318836.39
+      ],
+      "axis": [
+        -0.949023,
+        0.315206
+      ],
+      "halfLength": 12,
+      "halfWidth": 5.27,
+      "height": 97.062,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "L0004.186e17215ab442e4be521be52d123632"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "L0004.186e17215ab442e4be521be52d123632",
+          "type": "dek"
+        },
+        {
+          "id": "L0002.1a23d5b5e47f475dbfb36a430bbba5b9",
+          "type": "pijler"
+        },
+        {
+          "id": "L0002.4ed45f8289f64b91844dd70bff7dc383",
+          "type": "pijler"
+        },
+        {
+          "id": "L0002.ee7575eccdaf47e68d1630676167d999",
+          "type": "pijler"
+        }
+      ],
+      "osm": {
+        "id": "way/549821894",
+        "tags": {
+          "bridge": "yes",
+          "bridge:material": "steel",
+          "bridge:name": "Spoorbrug Maastricht",
+          "bridge:structure": "arch",
+          "description": "Maastricht - Maastricht Grens",
+          "electrified": "no",
+          "gauge": "1435",
+          "layer": "1",
+          "maxspeed": "40",
+          "maxspeed:source": "Extrapolation",
+          "passenger_lines": "1",
+          "railway": "rail",
+          "railway:atb": "yes",
+          "ref": "072a",
+          "ref:ProRailID": "2890890.0",
+          "ref:ProRailSpoortak": "520_165R_0.9",
+          "service": "spur",
+          "source": "ProRail",
+          "source:date": "2014-01-03",
+          "bridge:movable": "lift"
+        }
+      },
+      "fis": {
+        "id": 34987,
+        "naam": "Spoorbrug Maastricht over de Maas (Spoor Brögk)",
+        "afstand": 5,
+        "beweegbaar": true,
+        "doorvaarthoogteGesloten": 8.160000000000004
+      },
+      "pdokBridgeVlakken": 4
+    },
+    "type": "ophaalbrug",
+    "doorvaarthoogte": 8.160000000000004,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,300000,180000,320000 --run nl-8_0 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 216.5,
+      "dekBreedte": 7,
+      "brugLengte": 216.5,
+      "water": [
+        -84.2,
+        84.3
+      ],
+      "portaalhoogte": 6.3,
+      "opritafstand": [
+        0,
+        0
+      ],
+      "spoorhoogteBron": "prorail-pvs",
+      "oprithelling": 24,
+      "doorstekend": [],
+      "opritHoogtes": [
+        96.89,
+        97.062
+      ]
+    },
+    "waarschuwingen": [
+      "OSM zegt arch, gekozen type ophaalbrug"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

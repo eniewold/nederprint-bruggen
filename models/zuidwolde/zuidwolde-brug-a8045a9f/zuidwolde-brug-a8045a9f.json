@@ -1,0 +1,189 @@
+{
+  "name": "Eemshavenweg",
+  "file": "zuidwolde-brug-a8045a9f.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    235168.84,
+    587544.68
+  ],
+  "xAxis": [
+    0.206855,
+    -0.978372
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 40.117,
+  "groundSamplePoints": [
+    [
+      -23.49,
+      0
+    ],
+    [
+      23.49,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "P0020.a8045a9f251447c2ac2249e60505de30",
+    "P0020.b5c23a3bebcc46b182bb764ca8db598a",
+    "P0020.c53b58dab70b4896adeeeaea4c8b8643"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        235168.84,
+        587544.68
+      ],
+      "axis": [
+        0.206855,
+        -0.978372
+      ],
+      "halfLength": 5.34,
+      "halfWidth": 6.26,
+      "height": 39.167,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -4.24,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        235164.42,
+        587565.58
+      ],
+      "axis": [
+        -0.206855,
+        0.978372
+      ],
+      "halfLength": 10.68,
+      "halfWidth": 7.76,
+      "height": 40.292,
+      "gradient": [
+        -0.01639,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        235173.26,
+        587523.79
+      ],
+      "axis": [
+        0.206855,
+        -0.978372
+      ],
+      "halfLength": 10.68,
+      "halfWidth": 7.76,
+      "height": 40.317,
+      "gradient": [
+        -0.01405,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "P0020.a8045a9f251447c2ac2249e60505de30"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "P0020.a8045a9f251447c2ac2249e60505de30",
+          "type": "dek"
+        },
+        {
+          "id": "P0020.b5c23a3bebcc46b182bb764ca8db598a",
+          "type": "landhoofd"
+        },
+        {
+          "id": "P0020.c53b58dab70b4896adeeeaea4c8b8643",
+          "type": "landhoofd"
+        }
+      ],
+      "osm": {
+        "id": "way/718929796",
+        "tags": {
+          "bridge": "yes",
+          "highway": "trunk",
+          "lanes": "4",
+          "lanes:backward": "2",
+          "lanes:forward": "2",
+          "layer": "1",
+          "maxspeed": "100",
+          "motorroad": "yes",
+          "name": "Eemshavenweg",
+          "operator": "Provincie Groningen",
+          "ref": "N46",
+          "surface": "asphalt",
+          "turn:lanes:backward": "none|merge_to_left",
+          "turn:lanes:forward": "none|slight_right",
+          "zone:traffic": "NL:rural",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 3
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,580000,240000,600000 --run nl-11_14 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 21.4,
+      "dekBreedte": 11.5,
+      "brugLengte": 21.4,
+      "water": null,
+      "portaalhoogte": 10.4,
+      "opritafstand": [
+        12.8,
+        12.8
+      ],
+      "oprithelling": 21.4,
+      "doorstekend": [
+        {
+          "gmlId": "P0020.04fdc7a04528471697e897ae628bae22",
+          "klasse": "Terrain",
+          "oppervlak": 37.2,
+          "onderDek": 0.6,
+          "bovenDekOnderkant": 3.24,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "P0020.ba81f8e411354355a10021a9093a5c11",
+          "klasse": "Terrain",
+          "oppervlak": 30.3,
+          "onderDek": 0.6,
+          "bovenDekOnderkant": 3.07,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0005.777d9e891b991f18e053660013ac073b",
+          "klasse": "Road",
+          "oppervlak": 2699.7,
+          "onderDek": 0.17,
+          "bovenDekOnderkant": 0.72,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        40.117,
+        40.167
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "3 PDOK-vorm(en) door het dek: 0 verborgen, 3 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}
