@@ -1,0 +1,198 @@
+{
+  "name": "De Waterlinie",
+  "file": "halsteren-de-waterlinie.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    80213.38,
+    393618.38
+  ],
+  "xAxis": [
+    0.936525,
+    0.350602
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 50.432,
+  "groundSamplePoints": [
+    [
+      -49.08,
+      0
+    ],
+    [
+      49.08,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0748.548cc31e61de43aeac65ae3da9538085",
+    "G0748.ab766115e3604cddbd6ef06e2a8d2e28",
+    "L0002.b7127c403bb041358c1aa1dbcf70f1a9",
+    "L0002.dd3c4fb494f34b78914fbf7616b13e80",
+    "L0002.2bdce913eafb4cbe87c99ed4d629b00f",
+    "L0002.acbc8182f2dd4d918086c163022133ee",
+    "L0002.36572065f7064db2a1788a4665ec9d2e"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        80213.38,
+        393618.38
+      ],
+      "axis": [
+        0.936525,
+        0.350602
+      ],
+      "halfLength": 23.08,
+      "halfWidth": 5.78,
+      "height": 49.937,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -2.67,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        80174.9,
+        393603.98
+      ],
+      "axis": [
+        -0.936525,
+        -0.350602
+      ],
+      "halfLength": 12,
+      "halfWidth": 7.28,
+      "height": 51.087,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        80251.85,
+        393632.79
+      ],
+      "axis": [
+        0.936525,
+        0.350602
+      ],
+      "halfLength": 12,
+      "halfWidth": 7.28,
+      "height": 50.834,
+      "gradient": [
+        -0.03353,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0748.548cc31e61de43aeac65ae3da9538085",
+      "G0748.ab766115e3604cddbd6ef06e2a8d2e28"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0748.548cc31e61de43aeac65ae3da9538085",
+          "type": "dek"
+        },
+        {
+          "id": "G0748.ab766115e3604cddbd6ef06e2a8d2e28",
+          "type": "dek"
+        },
+        {
+          "id": "L0002.b7127c403bb041358c1aa1dbcf70f1a9",
+          "type": "onbekend"
+        },
+        {
+          "id": "L0002.dd3c4fb494f34b78914fbf7616b13e80",
+          "type": "onbekend"
+        },
+        {
+          "id": "L0002.2bdce913eafb4cbe87c99ed4d629b00f",
+          "type": "onbekend"
+        },
+        {
+          "id": "L0002.acbc8182f2dd4d918086c163022133ee",
+          "type": "onbekend"
+        },
+        {
+          "id": "L0002.36572065f7064db2a1788a4665ec9d2e",
+          "type": "onbekend"
+        }
+      ],
+      "osm": {
+        "id": "way/425110385",
+        "tags": {
+          "bridge": "yes",
+          "bridge:name": "De Waterlinie",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "De Waterlinie",
+          "area": "yes",
+          "bridge:structure": "beam",
+          "man_made": "bridge",
+          "material": "wood",
+          "source:material": "survey",
+          "source:name": "sign"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 7
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,380000,100000,400000 --run nl-4_4 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 58.2,
+      "dekBreedte": 10.6,
+      "brugLengte": 58.2,
+      "water": null,
+      "portaalhoogte": 9.5,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "L0002.fed387c791d0465e981d09d5afc96939",
+          "klasse": "Forest",
+          "oppervlak": 78.1,
+          "onderDek": 0.68,
+          "bovenDekOnderkant": 1.67,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "L0002.74350ac0f44a413c971d20ed901c2bba",
+          "klasse": "Forest",
+          "oppervlak": 4222,
+          "onderDek": 0.06,
+          "bovenDekOnderkant": 1.53,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        50.937,
+        50.432
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

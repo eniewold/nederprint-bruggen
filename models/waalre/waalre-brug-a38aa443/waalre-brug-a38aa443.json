@@ -1,0 +1,195 @@
+{
+  "name": "Burgemeester Mollaan",
+  "file": "waalre-brug-a38aa443.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    161346.33,
+    379202.82
+  ],
+  "xAxis": [
+    0.999836,
+    0.018102
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 62.969,
+  "groundSamplePoints": [
+    [
+      -40.9,
+      0
+    ],
+    [
+      40.9,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0866.a38aa443db8540b89594b73f809daeea",
+    "G0866.6baae05c8d244581911a017edb8dbd00",
+    "G0866.e20fcb4cc8454a9db111a8f34ec527c9"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        161346.33,
+        379202.82
+      ],
+      "axis": [
+        0.999836,
+        0.018102
+      ],
+      "halfLength": 14.9,
+      "halfWidth": 13.76,
+      "height": 62.091,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.7,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        161313.43,
+        379202.23
+      ],
+      "axis": [
+        -0.999836,
+        -0.018102
+      ],
+      "halfLength": 12,
+      "halfWidth": 15.26,
+      "height": 63.241,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        161379.23,
+        379203.42
+      ],
+      "axis": [
+        0.999836,
+        0.018102
+      ],
+      "halfLength": 12,
+      "halfWidth": 15.26,
+      "height": 63.18,
+      "gradient": [
+        -0.01758,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0866.a38aa443db8540b89594b73f809daeea"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0866.a38aa443db8540b89594b73f809daeea",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/982817771",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "yes",
+          "foot": "use_sidepath",
+          "highway": "secondary",
+          "lanes": "2",
+          "layer": "1",
+          "maxspeed": "50",
+          "name": "Burgemeester Mollaan",
+          "surface": "asphalt",
+          "zone:traffic": "NL:urban",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,360000,180000,380000 --run nl-8_3 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 41.8,
+      "dekBreedte": 26.5,
+      "brugLengte": 41.8,
+      "water": [
+        -3.4,
+        4.1
+      ],
+      "portaalhoogte": 23.9,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0866.6baae05c8d244581911a017edb8dbd00",
+          "klasse": "Terrain",
+          "oppervlak": 169.4,
+          "onderDek": 0.73,
+          "bovenDekOnderkant": 0.75,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "W0539.9713df24f93f427ca18a0938ed91ee5c",
+          "klasse": "Terrain",
+          "oppervlak": 193.6,
+          "onderDek": 0.27,
+          "bovenDekOnderkant": 0.7,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "W0539.63a38b5abfdc4e4d98fc86fa7145ab3b",
+          "klasse": "Terrain",
+          "oppervlak": 243.9,
+          "onderDek": 0.32,
+          "bovenDekOnderkant": 0.7,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0866.e20fcb4cc8454a9db111a8f34ec527c9",
+          "klasse": "Terrain",
+          "oppervlak": 148.3,
+          "onderDek": 0.74,
+          "bovenDekOnderkant": 0.7,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "G0866.df4edcdf836a42dfbb53cd4bb609806f",
+          "klasse": "Road",
+          "oppervlak": 143.8,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.67,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        63.091,
+        62.969
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "5 PDOK-vorm(en) door het dek: 2 verborgen, 3 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

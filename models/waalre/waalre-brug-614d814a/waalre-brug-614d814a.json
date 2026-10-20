@@ -1,0 +1,199 @@
+{
+  "name": "Eindhovenseweg",
+  "file": "waalre-brug-614d814a.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    161426.91,
+    379066.82
+  ],
+  "xAxis": [
+    -0.376076,
+    -0.926589
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 62.884,
+  "groundSamplePoints": [
+    [
+      -22.07,
+      0
+    ],
+    [
+      22.07,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0866.614d814aec3d423fa4d32f5f76602e3c",
+    "G0866.a3336a46caec4416857fedb7b308f57a",
+    "G0866.69b38f1cc750401ba8719012f3e5ab3a"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        161426.91,
+        379066.82
+      ],
+      "axis": [
+        -0.376076,
+        -0.926589
+      ],
+      "halfLength": 5.02,
+      "halfWidth": 22.24,
+      "height": 61.991,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.84,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        161434.46,
+        379085.42
+      ],
+      "axis": [
+        0.376076,
+        0.926589
+      ],
+      "halfLength": 10.03,
+      "halfWidth": 23.74,
+      "height": 63.087,
+      "gradient": [
+        -0.02033,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        161419.36,
+        379048.23
+      ],
+      "axis": [
+        -0.376076,
+        -0.926589
+      ],
+      "halfLength": 10.03,
+      "halfWidth": 23.74,
+      "height": 63.141,
+      "gradient": [
+        -0.01495,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0866.614d814aec3d423fa4d32f5f76602e3c"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0866.614d814aec3d423fa4d32f5f76602e3c",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1034079704",
+        "tags": {
+          "access:lanes:backward": "no",
+          "access:lanes:forward": "no|yes",
+          "bicycle": "no",
+          "bridge": "yes",
+          "bus:lanes:backward": "yes",
+          "bus:lanes:forward": "yes|",
+          "foot": "no",
+          "highway": "secondary",
+          "lanes": "3",
+          "lanes:backward": "1",
+          "lanes:forward": "2",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "50",
+          "name": "Eindhovenseweg",
+          "old_ref": "N69",
+          "oneway": "yes",
+          "oneway:bus": "no",
+          "surface": "asphalt",
+          "zone:traffic": "NL:urban",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,360000,180000,380000 --run nl-8_3 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 20.1,
+      "dekBreedte": 43.5,
+      "brugLengte": 20.1,
+      "water": [
+        -3,
+        3.5
+      ],
+      "portaalhoogte": 39.1,
+      "opritafstand": [
+        12,
+        12
+      ],
+      "oprithelling": 20.1,
+      "doorstekend": [
+        {
+          "gmlId": "P0030.0a392b6279a24488a6b602e0948e731f",
+          "klasse": "Terrain",
+          "oppervlak": 205.9,
+          "onderDek": 0.12,
+          "bovenDekOnderkant": 0.84,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "P0030.7fe756c2a5de4ba899fc9ba6d552052b",
+          "klasse": "Terrain",
+          "oppervlak": 251.9,
+          "onderDek": 0.2,
+          "bovenDekOnderkant": 0.83,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0866.a3336a46caec4416857fedb7b308f57a",
+          "klasse": "Road",
+          "oppervlak": 0.7,
+          "onderDek": 1,
+          "bovenDekOnderkant": 0.42,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "G0866.69b38f1cc750401ba8719012f3e5ab3a",
+          "klasse": "Road",
+          "oppervlak": 3,
+          "onderDek": 1,
+          "bovenDekOnderkant": 0.37,
+          "actie": "verbergen"
+        }
+      ],
+      "opritHoogtes": [
+        62.884,
+        62.991
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "4 PDOK-vorm(en) door het dek: 2 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

@@ -1,0 +1,195 @@
+{
+  "name": "Beatrixstraat",
+  "file": "den-helder-brug-8abeacd5-73.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    113296.17,
+    552463.6
+  ],
+  "xAxis": [
+    -0.999954,
+    -0.009574
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 43.131,
+  "groundSamplePoints": [
+    [
+      -14.5,
+      0
+    ],
+    [
+      14.5,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0400.8abeacd5439b75760000000a1110b8d5",
+    "G0400.8abeacd5439b75760000000a121b559e",
+    "G0400.8abeacd5439b75760000000a141cb3e2"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        113296.17,
+        552463.6
+      ],
+      "axis": [
+        -0.999954,
+        -0.009574
+      ],
+      "halfLength": 3.29,
+      "halfWidth": 12.67,
+      "height": 42.349,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.75,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        113309.35,
+        552463.73
+      ],
+      "axis": [
+        0.999954,
+        0.009574
+      ],
+      "halfLength": 6.59,
+      "halfWidth": 14.17,
+      "height": 43.499,
+      "gradient": [
+        -0.02276,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        113282.99,
+        552463.48
+      ],
+      "axis": [
+        -0.999954,
+        -0.009574
+      ],
+      "halfLength": 6.59,
+      "halfWidth": 14.17,
+      "height": 43.39,
+      "gradient": [
+        -0.03928,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0400.8abeacd5439b75760000000a1110b8d5",
+      "G0400.8abeacd5439b75760000000a121b559e",
+      "G0400.8abeacd5439b75760000000a141cb3e2"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0400.8abeacd5439b75760000000a1110b8d5",
+          "type": "dek"
+        },
+        {
+          "id": "G0400.8abeacd5439b75760000000a121b559e",
+          "type": "dek"
+        },
+        {
+          "id": "G0400.8abeacd5439b75760000000a141cb3e2",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/108902737",
+        "tags": {
+          "bridge": "yes",
+          "cycleway:both": "no",
+          "highway": "tertiary",
+          "lanes": "2",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "30",
+          "maxweight:signed": "no",
+          "name": "Beatrixstraat",
+          "sidewalk": "both",
+          "sidewalk:both:surface": "paving_stones",
+          "surface": "paving_stones",
+          "zone:maxspeed": "NL:30",
+          "bridge:structure": "arch",
+          "bridge:support": "abutment",
+          "man_made": "bridge",
+          "source": "3dShapes"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 3
+    },
+    "type": "gewelf",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,540000,120000,560000 --run nl-5_12 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 13.2,
+      "dekBreedte": 24.3,
+      "brugLengte": 13.2,
+      "water": [
+        -3.1,
+        5.4
+      ],
+      "portaalhoogte": 21.9,
+      "opritafstand": [
+        7.9,
+        7.9
+      ],
+      "oprithelling": 13.2,
+      "doorstekend": [
+        {
+          "gmlId": "G0400.8abeacd5439b75760000000a1411e0a7",
+          "klasse": "Road",
+          "oppervlak": 103.2,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.75,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0400.8abeacd54c7b7500047bb10507bc660a",
+          "klasse": "Road",
+          "oppervlak": 63.5,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.74,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0400.8abeacd5439b75760000000a1411dfcd",
+          "klasse": "Terrain",
+          "oppervlak": 66.3,
+          "onderDek": 0.08,
+          "bovenDekOnderkant": 0.72,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        43.349,
+        43.131
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "3 PDOK-vorm(en) door het dek: 0 verborgen, 3 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

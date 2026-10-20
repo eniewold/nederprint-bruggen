@@ -1,0 +1,165 @@
+{
+  "name": "Wethouder Lanenstraat",
+  "file": "roosendaal-brug-f381e130.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    90034.55,
+    394631.2
+  ],
+  "xAxis": [
+    1,
+    0.000134
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 46.627,
+  "groundSamplePoints": [
+    [
+      -24.54,
+      0
+    ],
+    [
+      24.54,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G1674.f381e130117349ce8a99a7121cb9ff2f"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        90034.55,
+        394631.2
+      ],
+      "axis": [
+        1,
+        0.000134
+      ],
+      "halfLength": 5.58,
+      "halfWidth": 5.93,
+      "height": 45.891,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.65,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        90012.24,
+        394631.19
+      ],
+      "axis": [
+        -1,
+        -0.000134
+      ],
+      "halfLength": 11.16,
+      "halfWidth": 7.43,
+      "height": 47.041,
+      "gradient": [
+        -0.01345,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        90056.86,
+        394631.2
+      ],
+      "axis": [
+        1,
+        0.000134
+      ],
+      "halfLength": 11.16,
+      "halfWidth": 7.43,
+      "height": 46.909,
+      "gradient": [
+        -0.02526,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G1674.f381e130117349ce8a99a7121cb9ff2f"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G1674.f381e130117349ce8a99a7121cb9ff2f",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1055008643",
+        "tags": {
+          "bridge": "yes",
+          "highway": "residential",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Wethouder Lanenstraat",
+          "zone:traffic": "NL:urban",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,380000,100000,400000 --run nl-4_4 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 22.3,
+      "dekBreedte": 10.9,
+      "brugLengte": 22.3,
+      "water": [
+        -5.2,
+        4.8
+      ],
+      "portaalhoogte": 9.8,
+      "opritafstand": [
+        13.4,
+        13.4
+      ],
+      "oprithelling": 22.3,
+      "doorstekend": [
+        {
+          "gmlId": "W0652.92f268a1f0934d00a9d6a01084d42dbb",
+          "klasse": "Terrain",
+          "oppervlak": 64.2,
+          "onderDek": 0.04,
+          "bovenDekOnderkant": 0.65,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "W0652.e3f3defa85b64b10ae97a3027f482b5d",
+          "klasse": "Terrain",
+          "oppervlak": 63.2,
+          "onderDek": 0.04,
+          "bovenDekOnderkant": 0.64,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        46.891,
+        46.627
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

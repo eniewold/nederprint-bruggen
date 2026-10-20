@@ -1,0 +1,138 @@
+{
+  "name": "Postbrug",
+  "file": "den-helder-postbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    112862.18,
+    553067.93
+  ],
+  "xAxis": [
+    0.267004,
+    -0.963695
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 43.126,
+  "groundSamplePoints": [
+    [
+      -11.03,
+      0
+    ],
+    [
+      11.03,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0400.8abeacd54c4b7500047b28379cf3f8ac"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        112859.5,
+        553077.59
+      ],
+      "axis": [
+        -0.267004,
+        0.963695
+      ],
+      "halfLength": 5.01,
+      "halfWidth": 12.24,
+      "height": 43.52,
+      "gradient": [
+        -0.02991,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        112864.86,
+        553058.26
+      ],
+      "axis": [
+        0.267004,
+        -0.963695
+      ],
+      "halfLength": 5.01,
+      "halfWidth": 12.24,
+      "height": 43.398,
+      "gradient": [
+        -0.05416,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0400.8abeacd54c4b7500047b28379cf3f8ac"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0400.8abeacd54c4b7500047b28379cf3f8ac",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/954738824",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "yes",
+          "foot": "use_sidepath",
+          "highway": "secondary",
+          "lanes": "2",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "50",
+          "maxweight:signed": "no",
+          "mofa": "use_sidepath",
+          "name": "Postbrug",
+          "oneway": "no",
+          "surface": "asphalt",
+          "bridge:material": "brick",
+          "bridge:structure": "arch",
+          "bridge:support": "pier",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "gewelf",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,540000,120000,560000 --run nl-5_12 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 10,
+      "dekBreedte": 20.5,
+      "brugLengte": 10,
+      "water": [
+        -4.5,
+        5
+      ],
+      "portaalhoogte": 18.4,
+      "opritafstand": [
+        6,
+        6
+      ],
+      "oprithelling": 10,
+      "doorstekend": [],
+      "opritHoogtes": [
+        43.37,
+        43.126
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

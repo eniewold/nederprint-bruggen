@@ -1,0 +1,135 @@
+{
+  "name": "Oostoeverbrug",
+  "file": "den-helder-oostoeverbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    115547.83,
+    547484.9
+  ],
+  "xAxis": [
+    0.512877,
+    0.858462
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 43.132,
+  "groundSamplePoints": [
+    [
+      -11.96,
+      0
+    ],
+    [
+      11.96,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0400.8abeacd5439b75760000000a6114b71a"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        115542.26,
+        547475.57
+      ],
+      "axis": [
+        -0.512877,
+        -0.858462
+      ],
+      "halfLength": 5.44,
+      "halfWidth": 7.01,
+      "height": 43.615,
+      "gradient": [
+        -0.02759,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        115553.41,
+        547494.23
+      ],
+      "axis": [
+        0.512877,
+        0.858462
+      ],
+      "halfLength": 5.44,
+      "halfWidth": 7.01,
+      "height": 43.448,
+      "gradient": [
+        -0.05821,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0400.8abeacd5439b75760000000a6114b71a"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0400.8abeacd5439b75760000000a6114b71a",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/727870677",
+        "tags": {
+          "bridge": "movable",
+          "bridge:name": "Oostoeverbrug",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxspeed": "80",
+          "name": "Oostoeverbrug",
+          "oneway": "no",
+          "man_made": "bridge"
+        }
+      },
+      "fis": {
+        "id": 2133,
+        "naam": "Oostoeverbrug",
+        "afstand": 1,
+        "beweegbaar": true,
+        "doorvaarthoogteGesloten": 3.62
+      },
+      "pdokBridgeVlakken": 1
+    },
+    "type": "basculebrug",
+    "doorvaarthoogte": 3.62,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,540000,120000,560000 --run nl-5_12 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 10.9,
+      "dekBreedte": 10,
+      "brugLengte": 10.9,
+      "water": [
+        -4.9,
+        5.1
+      ],
+      "portaalhoogte": 9,
+      "opritafstand": [
+        6.5,
+        6.5
+      ],
+      "oprithelling": 10.9,
+      "doorstekend": [],
+      "opritHoogtes": [
+        43.465,
+        43.132
+      ]
+    },
+    "waarschuwingen": [
+      "bridge=movable zonder mechanisme: basculebrug is een gok",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

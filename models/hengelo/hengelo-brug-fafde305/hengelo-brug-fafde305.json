@@ -1,0 +1,138 @@
+{
+  "name": "Vlierbes",
+  "file": "hengelo-brug-fafde305.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    252370.53,
+    480413.67
+  ],
+  "xAxis": [
+    0.388309,
+    -0.921529
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 60.275,
+  "groundSamplePoints": [
+    [
+      -17.65,
+      0
+    ],
+    [
+      17.65,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0164.fafde30598f044608ac634c728b0e19a",
+    "G0164.a4321d06e8014303b28a3e7ab0614a47"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        252364.3,
+        480428.45
+      ],
+      "axis": [
+        -0.388309,
+        0.921529
+      ],
+      "halfLength": 8.02,
+      "halfWidth": 6.68,
+      "height": 60.44,
+      "gradient": [
+        -0.02058,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        252376.76,
+        480398.89
+      ],
+      "axis": [
+        0.388309,
+        -0.921529
+      ],
+      "halfLength": 8.02,
+      "halfWidth": 6.68,
+      "height": 60.455,
+      "gradient": [
+        -0.0187,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0164.fafde30598f044608ac634c728b0e19a"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0164.fafde30598f044608ac634c728b0e19a",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1148544938",
+        "tags": {
+          "bridge": "yes",
+          "highway": "residential",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Vlierbes",
+          "source:maxspeed": "NL:zone30",
+          "surface": "paving_stones"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,480000,260000,500000 --run nl-12_9 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 16,
+      "dekBreedte": 9.4,
+      "brugLengte": 16,
+      "water": [
+        3,
+        5.5
+      ],
+      "portaalhoogte": 8.4,
+      "opritafstand": [
+        9.6,
+        9.6
+      ],
+      "oprithelling": 16,
+      "doorstekend": [
+        {
+          "gmlId": "G0164.a4321d06e8014303b28a3e7ab0614a47",
+          "klasse": "Terrain",
+          "oppervlak": 72.9,
+          "onderDek": 0.85,
+          "bovenDekOnderkant": 0.64,
+          "actie": "verbergen"
+        }
+      ],
+      "opritHoogtes": [
+        60.275,
+        60.305
+      ]
+    },
+    "waarschuwingen": [
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "1 PDOK-vorm(en) door het dek: 1 verborgen, 0 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

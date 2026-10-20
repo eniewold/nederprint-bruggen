@@ -1,0 +1,128 @@
+{
+  "name": "Hoofdstraat",
+  "file": "deurningen-hoofdstraat.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    253736.75,
+    480129.11
+  ],
+  "xAxis": [
+    -0.982471,
+    -0.186417
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 63.169,
+  "groundSamplePoints": [
+    [
+      -6.9,
+      0
+    ],
+    [
+      6.9,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G1774.30c4620bbea474f6e053390a1dac59df"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        253742.55,
+        480130.21
+      ],
+      "axis": [
+        0.982471,
+        0.186417
+      ],
+      "halfLength": 3,
+      "halfWidth": 6.06,
+      "height": 63.344,
+      "gradient": [
+        -0.05,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        253730.95,
+        480128.01
+      ],
+      "axis": [
+        -0.982471,
+        -0.186417
+      ],
+      "halfLength": 3,
+      "halfWidth": 6.06,
+      "height": 63.331,
+      "gradient": [
+        -0.05412,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G1774.30c4620bbea474f6e053390a1dac59df"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G1774.30c4620bbea474f6e053390a1dac59df",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/111556385",
+        "tags": {
+          "bridge": "yes",
+          "bridge:name": "Klöpkesbrug",
+          "highway": "residential",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Hoofdstraat",
+          "source:maxspeed": "NL:zone30"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,480000,260000,500000 --run nl-12_9 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 5.8,
+      "dekBreedte": 8.1,
+      "brugLengte": 5.8,
+      "water": [
+        -1.4,
+        1.1
+      ],
+      "portaalhoogte": 7.3,
+      "opritafstand": [
+        4,
+        4
+      ],
+      "oprithelling": 6,
+      "doorstekend": [],
+      "opritHoogtes": [
+        63.194,
+        63.169
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}
