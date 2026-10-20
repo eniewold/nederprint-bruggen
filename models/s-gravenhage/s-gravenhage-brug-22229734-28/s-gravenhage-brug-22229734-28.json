@@ -1,0 +1,168 @@
+{
+  "name": "Zomereik",
+  "file": "s-gravenhage-brug-22229734-28.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    85737.03,
+    449412.8
+  ],
+  "xAxis": [
+    0.835057,
+    0.550163
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 39.812,
+  "groundSamplePoints": [
+    [
+      -14.85,
+      0
+    ],
+    [
+      14.85,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0518.22229734b0d59258e053530a0b0ac95b",
+    "W0372.2222973150009258e053530a0b0ac95b"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        85737.03,
+        449412.8
+      ],
+      "axis": [
+        0.835057,
+        0.550163
+      ],
+      "halfLength": 3.38,
+      "halfWidth": 3.51,
+      "height": 38.977,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.08,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        85725.75,
+        449405.37
+      ],
+      "axis": [
+        -0.835057,
+        -0.550163
+      ],
+      "halfLength": 6.75,
+      "halfWidth": 4.51,
+      "height": 40.127,
+      "gradient": [
+        -0.02222,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        85748.3,
+        449420.23
+      ],
+      "axis": [
+        0.835057,
+        0.550163
+      ],
+      "halfLength": 6.75,
+      "halfWidth": 4.51,
+      "height": 40.044,
+      "gradient": [
+        -0.03447,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0518.22229734b0d59258e053530a0b0ac95b"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0518.22229734b0d59258e053530a0b0ac95b",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/167262080",
+        "tags": {
+          "bridge": "yes",
+          "highway": "living_street",
+          "layer": "1",
+          "maxspeed": "15",
+          "name": "Zomereik",
+          "oneway": "yes",
+          "oneway:bicycle": "no",
+          "oneway:mofa": "no",
+          "oneway:moped": "no",
+          "zone:traffic": "NL:urban"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,440000,100000,460000 --run nl-4_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 13.5,
+      "dekBreedte": 6,
+      "brugLengte": 13.5,
+      "water": [
+        -6.3,
+        2.2
+      ],
+      "portaalhoogte": 5.4,
+      "opritafstand": [
+        8.1,
+        8.1
+      ],
+      "oprithelling": 13.5,
+      "doorstekend": [
+        {
+          "gmlId": "W0372.2222973150009258e053530a0b0ac95b",
+          "klasse": "Terrain",
+          "oppervlak": 3.3,
+          "onderDek": 1,
+          "bovenDekOnderkant": 0.08,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "G0518.22229737b2be9258e053530a0b0ac95b",
+          "klasse": "Forest",
+          "oppervlak": 14,
+          "onderDek": 0.04,
+          "bovenDekOnderkant": 0.08,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        39.977,
+        39.812
+      ]
+    },
+    "waarschuwingen": [
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 1 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}
