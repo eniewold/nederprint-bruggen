@@ -1,0 +1,138 @@
+{
+  "name": "Bemertil (Gemeentehuisbrug)",
+  "file": "bedum-bemertil-gemeentehuisbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    235915.86,
+    591182.65
+  ],
+  "xAxis": [
+    0.693083,
+    -0.720858
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 40.905,
+  "groundSamplePoints": [
+    [
+      -14.42,
+      0
+    ],
+    [
+      14.42,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0005.3449282f088981b7e053660013ac49ee"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        235906.77,
+        591192.1
+      ],
+      "axis": [
+        -0.693083,
+        0.720858
+      ],
+      "halfLength": 6.55,
+      "halfWidth": 9.12,
+      "height": 41.065,
+      "gradient": [
+        -0.02288,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        235924.95,
+        591173.2
+      ],
+      "axis": [
+        0.693083,
+        -0.720858
+      ],
+      "halfLength": 6.55,
+      "halfWidth": 9.12,
+      "height": 41.06,
+      "gradient": [
+        -0.02364,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0005.3449282f088981b7e053660013ac49ee"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0005.3449282f088981b7e053660013ac49ee",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1349070677",
+        "tags": {
+          "bridge": "movable",
+          "bridge:movable": "bascule",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Bemertil",
+          "smoothness": "good",
+          "surface": "asphalt",
+          "zone:traffic": "NL:urban",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
+      "fis": {
+        "id": 2904,
+        "naam": "Bemertil (Gemeentehuisbrug)",
+        "afstand": 7,
+        "beweegbaar": true,
+        "doorvaarthoogteGesloten": 0.9500000000000001
+      },
+      "pdokBridgeVlakken": 1
+    },
+    "type": "basculebrug",
+    "doorvaarthoogte": 0.9500000000000001,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,580000,240000,600000 --run nl-11_14 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 13.1,
+      "dekBreedte": 14.2,
+      "brugLengte": 13.1,
+      "water": [
+        -6.1,
+        2.4
+      ],
+      "portaalhoogte": 12.8,
+      "opritafstand": [
+        7.9,
+        7.9
+      ],
+      "oprithelling": 13.1,
+      "doorstekend": [],
+      "opritHoogtes": [
+        40.915,
+        40.905
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

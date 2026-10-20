@@ -1,0 +1,167 @@
+{
+  "name": "Kuifeend",
+  "file": "bedum-brug-202731a6.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    236363.59,
+    591943.86
+  ],
+  "xAxis": [
+    0.278295,
+    -0.960496
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 39.891,
+  "groundSamplePoints": [
+    [
+      -6.97,
+      0
+    ],
+    [
+      6.97,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G1966.202731a623f2445d8fe9fd551875136a"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        236363.59,
+        591943.86
+      ],
+      "axis": [
+        0.278295,
+        -0.960496
+      ],
+      "halfLength": 1.48,
+      "halfWidth": 4.75,
+      "height": 38.993,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.64,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        236361.93,
+        591949.6
+      ],
+      "axis": [
+        -0.278295,
+        0.960496
+      ],
+      "halfLength": 3,
+      "halfWidth": 6.25,
+      "height": 40.143,
+      "gradient": [
+        -0.05,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        236365.25,
+        591938.13
+      ],
+      "axis": [
+        0.278295,
+        -0.960496
+      ],
+      "halfLength": 3,
+      "halfWidth": 6.25,
+      "height": 40.092,
+      "gradient": [
+        -0.06707,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G1966.202731a623f2445d8fe9fd551875136a"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G1966.202731a623f2445d8fe9fd551875136a",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1376265524",
+        "tags": {
+          "bridge": "yes",
+          "highway": "residential",
+          "layer": "1",
+          "maxspeed": "30",
+          "maxweight:signed": "no",
+          "name": "Kuifeend",
+          "smoothness": "good",
+          "surface": "asphalt",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,580000,240000,600000 --run nl-11_14 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 5.9,
+      "dekBreedte": 8.5,
+      "brugLengte": 5.9,
+      "water": [
+        -1,
+        1
+      ],
+      "portaalhoogte": 7.6,
+      "opritafstand": [
+        4,
+        4
+      ],
+      "oprithelling": 6,
+      "doorstekend": [
+        {
+          "gmlId": "G1966.d0cd99fd3531472ba35ce479e51d346a",
+          "klasse": "Terrain",
+          "oppervlak": 11.7,
+          "onderDek": 0.17,
+          "bovenDekOnderkant": 0.64,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G1966.55bb08906637470aafd5dd312a644f83",
+          "klasse": "Terrain",
+          "oppervlak": 11.9,
+          "onderDek": 0.14,
+          "bovenDekOnderkant": 0.58,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        39.993,
+        39.891
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "name": "Torensmaweg",
+  "file": "feerwerd-torensmaweg.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    227805.76,
+    591724.57
+  ],
+  "xAxis": [
+    -0.637208,
+    -0.770692
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 43.176,
+  "groundSamplePoints": [
+    [
+      -22.98,
+      0
+    ],
+    [
+      22.98,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0053.338350b030286d16e053660013ac006a"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        227819.08,
+        591740.68
+      ],
+      "axis": [
+        0.637208,
+        0.770692
+      ],
+      "halfLength": 10.45,
+      "halfWidth": 5.06,
+      "height": 43.429,
+      "gradient": [
+        -0.02423,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        227792.45,
+        591708.47
+      ],
+      "axis": [
+        -0.637208,
+        -0.770692
+      ],
+      "halfLength": 10.45,
+      "halfWidth": 5.06,
+      "height": 43.532,
+      "gradient": [
+        -0.01436,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0053.338350b030286d16e053660013ac006a"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0053.338350b030286d16e053660013ac006a",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/6526945",
+        "tags": {
+          "bridge": "yes",
+          "bridge:name": "Torensmabrug",
+          "cycleway": "shared_lane",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Torensmaweg",
+          "smoothness": "good",
+          "surface": "asphalt"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,580000,240000,600000 --run nl-11_14 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 20.9,
+      "dekBreedte": 6.7,
+      "brugLengte": 20.9,
+      "water": [
+        -9.9,
+        10.1
+      ],
+      "portaalhoogte": 6.1,
+      "opritafstand": [
+        12.5,
+        12.5
+      ],
+      "oprithelling": 20.9,
+      "doorstekend": [],
+      "opritHoogtes": [
+        43.176,
+        43.382
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}
