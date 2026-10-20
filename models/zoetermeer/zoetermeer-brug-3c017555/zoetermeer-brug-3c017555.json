@@ -1,0 +1,241 @@
+{
+  "name": "Oostweg",
+  "file": "zoetermeer-brug-3c017555.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    93778.37,
+    449812.5
+  ],
+  "xAxis": [
+    -0.785334,
+    0.619072
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 38.294,
+  "groundSamplePoints": [
+    [
+      -37.41,
+      0
+    ],
+    [
+      37.41,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "P0028.3c0175557d1a458fbc0c829692a390ee",
+    "P0028.cd9c8e38d1a640d485f95220b95e2595",
+    "P0028.3127aff0f32c45d5ad8d948ca2c8936e",
+    "G0637.84b54d0b831040f48e5c379d29d41d00"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        93778.37,
+        449812.5
+      ],
+      "axis": [
+        -0.785334,
+        0.619072
+      ],
+      "halfLength": 11.41,
+      "halfWidth": 9.61,
+      "height": 37.37,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -5.19,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        93801.47,
+        449794.29
+      ],
+      "axis": [
+        0.785334,
+        -0.619072
+      ],
+      "halfLength": 12,
+      "halfWidth": 11.11,
+      "height": 38.482,
+      "gradient": [
+        -0.0157,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        93755.28,
+        449830.7
+      ],
+      "axis": [
+        -0.785334,
+        0.619072
+      ],
+      "halfLength": 12,
+      "halfWidth": 11.11,
+      "height": 38.52,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "P0028.3c0175557d1a458fbc0c829692a390ee"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "P0028.3c0175557d1a458fbc0c829692a390ee",
+          "type": "dek"
+        },
+        {
+          "id": "P0028.cd9c8e38d1a640d485f95220b95e2595",
+          "type": "landhoofd"
+        },
+        {
+          "id": "P0028.3127aff0f32c45d5ad8d948ca2c8936e",
+          "type": "landhoofd"
+        }
+      ],
+      "osm": {
+        "id": "way/1091605193",
+        "tags": {
+          "agricultural": "no",
+          "bicycle": "no",
+          "bridge": "yes",
+          "carriage": "no",
+          "carriageway_ref": "Li",
+          "foot": "no",
+          "hand_cart": "no",
+          "highway": "primary",
+          "horse": "no",
+          "lanes": "2",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "80",
+          "maxweight:signed": "no",
+          "microcar": "no",
+          "mofa": "no",
+          "moped": "no",
+          "name": "Oostweg",
+          "note": "Voor een discussie over de wegclassificatie van de N470: zie http://www.openstreetmap.org/note/203297",
+          "oneway": "yes",
+          "operator": "Provincie Zuid-Holland",
+          "ref": "N470",
+          "smoothness": "excellent",
+          "surface": "asphalt",
+          "traffic_sign": "NL:C9",
+          "zone:traffic": "NL:rural",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 3
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,440000,100000,460000 --run nl-4_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 34.8,
+      "dekBreedte": 18.2,
+      "brugLengte": 34.8,
+      "water": null,
+      "portaalhoogte": 16.4,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0637.e55111cdcb124fa7ad9a29f4c6f2e255",
+          "klasse": "Terrain",
+          "oppervlak": 98.8,
+          "onderDek": 0.58,
+          "bovenDekOnderkant": 4.19,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0637.43398cbf7a2647bf93ca59572b215f16",
+          "klasse": "Terrain",
+          "oppervlak": 96.5,
+          "onderDek": 0.61,
+          "bovenDekOnderkant": 4.14,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0637.8b3852003db640a19bfd14f42ad50ddb",
+          "klasse": "Forest",
+          "oppervlak": 21.8,
+          "onderDek": 0.55,
+          "bovenDekOnderkant": 3.76,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0637.84b54d0b831040f48e5c379d29d41d00",
+          "klasse": "Road",
+          "oppervlak": 20.4,
+          "onderDek": 0.86,
+          "bovenDekOnderkant": 1.22,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "G0637.eef4f645926541eb93169d618fa06f0c",
+          "klasse": "Separation",
+          "oppervlak": 21.6,
+          "onderDek": 0.57,
+          "bovenDekOnderkant": 1.14,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0637.c4624ed9d4124c4ca024ea1d26d3853c",
+          "klasse": "Separation",
+          "oppervlak": 26.4,
+          "onderDek": 0.44,
+          "bovenDekOnderkant": 0.71,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0637.3a8985170ef74add9875a6ff67a8d776",
+          "klasse": "Road",
+          "oppervlak": 123.2,
+          "onderDek": 0.61,
+          "bovenDekOnderkant": 0.63,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0637.b0ae4833628948ffa7318bca52b0d106",
+          "klasse": "Road",
+          "oppervlak": 443.8,
+          "onderDek": 0.26,
+          "bovenDekOnderkant": 0.61,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        38.294,
+        38.37
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "8 PDOK-vorm(en) door het dek: 1 verborgen, 7 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}
