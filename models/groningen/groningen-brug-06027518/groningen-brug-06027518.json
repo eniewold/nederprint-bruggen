@@ -1,0 +1,207 @@
+{
+  "name": "Noordzeeweg",
+  "file": "groningen-brug-06027518.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    233860.07,
+    584394.12
+  ],
+  "xAxis": [
+    -0.944286,
+    -0.329126
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 41.55,
+  "groundSamplePoints": [
+    [
+      -52.27,
+      0
+    ],
+    [
+      52.27,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "P0020.0602751803984fbfa1038c1560784b41",
+    "P0020.9f59f1f8005a45068d6482c6bb66f945"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        233860.07,
+        584394.12
+      ],
+      "axis": [
+        -0.944286,
+        -0.329126
+      ],
+      "halfLength": 26.27,
+      "halfWidth": 6.93,
+      "height": 40.913,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -9.47,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        233901.87,
+        584408.69
+      ],
+      "axis": [
+        0.944286,
+        0.329126
+      ],
+      "halfLength": 12,
+      "halfWidth": 8.43,
+      "height": 41.882,
+      "gradient": [
+        -0.02763,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        233818.27,
+        584379.55
+      ],
+      "axis": [
+        -0.944286,
+        -0.329126
+      ],
+      "halfLength": 12,
+      "halfWidth": 8.43,
+      "height": 42.063,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "P0020.0602751803984fbfa1038c1560784b41"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "P0020.0602751803984fbfa1038c1560784b41",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/6395068",
+        "tags": {
+          "bridge": "viaduct",
+          "carriageway_ref": "Re",
+          "highway": "trunk",
+          "lanes": "3",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "70",
+          "maxweight:signed": "no",
+          "motorroad": "yes",
+          "name": "Noordzeeweg",
+          "name:etymology:wikidata": "Q1693",
+          "oneway": "yes",
+          "operator": "Provincie Groningen",
+          "placement": "right_of:1",
+          "ref": "N370",
+          "surface": "asphalt",
+          "turn:lanes": "||slight_right",
+          "wikidata": "Q2667023",
+          "zone:traffic": "NL:urban"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,580000,240000,600000 --run nl-11_14 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 64.5,
+      "dekBreedte": 12.9,
+      "brugLengte": 64.5,
+      "water": null,
+      "portaalhoogte": 11.6,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "P0020.9f59f1f8005a45068d6482c6bb66f945",
+          "klasse": "Terrain",
+          "oppervlak": 192.9,
+          "onderDek": 0.75,
+          "bovenDekOnderkant": 8.89,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "P0020.020381e78e1e470897153c6c3800f17a",
+          "klasse": "Terrain",
+          "oppervlak": 160.3,
+          "onderDek": 0.64,
+          "bovenDekOnderkant": 8.47,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "P0020.f662c458f892489da23e9c541ebcc40d",
+          "klasse": "Separation",
+          "oppervlak": 160.4,
+          "onderDek": 0,
+          "bovenDekOnderkant": 8.22,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "P0020.3f8369b81726434fb13e992d6e552812",
+          "klasse": "Terrain",
+          "oppervlak": 246.5,
+          "onderDek": 0,
+          "bovenDekOnderkant": 6.26,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "P0020.19dda7a58db04a1787a36cbb44ab9f2f",
+          "klasse": "Separation",
+          "oppervlak": 7.7,
+          "onderDek": 0,
+          "bovenDekOnderkant": 6.01,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "P0020.bb5002f22f804b5b8295f85aa2096249",
+          "klasse": "Road",
+          "oppervlak": 35599,
+          "onderDek": 0.22,
+          "bovenDekOnderkant": 0.4,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        41.55,
+        41.913
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "6 PDOK-vorm(en) door het dek: 1 verborgen, 5 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

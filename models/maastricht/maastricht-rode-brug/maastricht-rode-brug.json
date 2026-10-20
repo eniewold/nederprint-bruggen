@@ -1,0 +1,134 @@
+{
+  "name": "Rode Brug",
+  "file": "maastricht-rode-brug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    176415.18,
+    317176.77
+  ],
+  "xAxis": [
+    0.326503,
+    -0.945196
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 94.479,
+  "groundSamplePoints": [
+    [
+      -23.55,
+      0
+    ],
+    [
+      23.55,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0935.127c40a805fb41f689e6f88b2650f230"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        176408.19,
+        317197.01
+      ],
+      "axis": [
+        -0.326503,
+        0.945196
+      ],
+      "halfLength": 10.7,
+      "halfWidth": 9.31,
+      "height": 94.997,
+      "gradient": [
+        -0.04844,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        176422.17,
+        317156.54
+      ],
+      "axis": [
+        0.326503,
+        -0.945196
+      ],
+      "halfLength": 10.7,
+      "halfWidth": 9.31,
+      "height": 95.366,
+      "gradient": [
+        -0.01402,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0935.127c40a805fb41f689e6f88b2650f230"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0935.127c40a805fb41f689e6f88b2650f230",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/833035168",
+        "tags": {
+          "bridge": "yes",
+          "cycleway": "lane",
+          "highway": "residential",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "30",
+          "maxweight:signed": "no",
+          "name": "Rode Brug",
+          "sidewalk": "both",
+          "surface": "asphalt",
+          "man_made": "bridge",
+          "source:name": "BAG/BGT",
+          "bridge:structure": "beam"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,300000,180000,320000 --run nl-8_0 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 21.4,
+      "dekBreedte": 14.6,
+      "brugLengte": 21.4,
+      "water": [
+        -9.7,
+        7.3
+      ],
+      "portaalhoogte": 13.1,
+      "opritafstand": [
+        12.8,
+        12.8
+      ],
+      "oprithelling": 21.4,
+      "doorstekend": [],
+      "opritHoogtes": [
+        94.479,
+        95.216
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

@@ -1,0 +1,181 @@
+{
+  "name": "Eindstraat",
+  "file": "schinveld-brug-6eeaba50-3.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    196448.76,
+    332560.72
+  ],
+  "xAxis": [
+    -0.309885,
+    0.950774
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 99.271,
+  "groundSamplePoints": [
+    [
+      -7.84,
+      0
+    ],
+    [
+      7.84,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0881.6eeaba504aa45f0de05301b51eacd96b",
+    "W0665.52b16a6ec9fe443987e6419882e5deed"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        196448.76,
+        332560.72
+      ],
+      "axis": [
+        -0.309885,
+        0.950774
+      ],
+      "halfLength": 1.78,
+      "halfWidth": 5.09,
+      "height": 98.512,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.84,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        196450.97,
+        332553.94
+      ],
+      "axis": [
+        0.309885,
+        -0.950774
+      ],
+      "halfLength": 3.57,
+      "halfWidth": 6.59,
+      "height": 99.542,
+      "gradient": [
+        -0.07598,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        196446.55,
+        332567.5
+      ],
+      "axis": [
+        -0.309885,
+        0.950774
+      ],
+      "halfLength": 3.57,
+      "halfWidth": 6.59,
+      "height": 99.662,
+      "gradient": [
+        -0.04207,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0881.6eeaba504aa45f0de05301b51eacd96b"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0881.6eeaba504aa45f0de05301b51eacd96b",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1149506451",
+        "tags": {
+          "bridge": "yes",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Eindstraat",
+          "surface": "asphalt"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 180000,320000,200000,340000 --run nl-9_1 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 7.1,
+      "dekBreedte": 9.2,
+      "brugLengte": 7.1,
+      "water": [
+        -0.6,
+        0.4
+      ],
+      "portaalhoogte": 8.3,
+      "opritafstand": [
+        4.3,
+        4.3
+      ],
+      "oprithelling": 7.1,
+      "doorstekend": [
+        {
+          "gmlId": "G1954.8269ed828ddb1781e05301b51eac8442",
+          "klasse": "Terrain",
+          "oppervlak": 189.5,
+          "onderDek": 0.06,
+          "bovenDekOnderkant": 0.84,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "W0665.52b16a6ec9fe443987e6419882e5deed",
+          "klasse": "Separation",
+          "oppervlak": 2.6,
+          "onderDek": 0.7,
+          "bovenDekOnderkant": 0.83,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "W0665.d09d9814f3c64d2b9ed5ae0c4ff45c35",
+          "klasse": "Terrain",
+          "oppervlak": 168.2,
+          "onderDek": 0.1,
+          "bovenDekOnderkant": 0.77,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G1954.82799bee88be6704e05301b51eacb908",
+          "klasse": "Forest",
+          "oppervlak": 9.3,
+          "onderDek": 0.07,
+          "bovenDekOnderkant": 0.61,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        99.271,
+        99.512
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "4 PDOK-vorm(en) door het dek: 1 verborgen, 3 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

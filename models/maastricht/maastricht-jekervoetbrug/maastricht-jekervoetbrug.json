@@ -1,0 +1,128 @@
+{
+  "name": "Jekervoetbrug",
+  "file": "maastricht-jekervoetbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    176715.57,
+    317318.19
+  ],
+  "xAxis": [
+    -0.28603,
+    0.958221
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 93.095,
+  "groundSamplePoints": [
+    [
+      -29.95,
+      0
+    ],
+    [
+      29.95,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0935.1b0abbbacb6a47b6aab63eb30dcc470c"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        176722.9,
+        317293.64
+      ],
+      "axis": [
+        0.28603,
+        -0.958221
+      ],
+      "halfLength": 12,
+      "halfWidth": 3.18,
+      "height": 93.577,
+      "gradient": [
+        -0.04021,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        176708.24,
+        317342.73
+      ],
+      "axis": [
+        -0.28603,
+        0.958221
+      ],
+      "halfLength": 12,
+      "halfWidth": 3.18,
+      "height": 93.91,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0935.1b0abbbacb6a47b6aab63eb30dcc470c"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0935.1b0abbbacb6a47b6aab63eb30dcc470c",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/833034908",
+        "tags": {
+          "bridge": "yes",
+          "highway": "footway",
+          "layer": "1",
+          "surface": "asphalt",
+          "man_made": "bridge",
+          "name": "Jekervoetbrug",
+          "source:name": "BAG/BGT"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,300000,180000,320000 --run nl-8_0 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 27.2,
+      "dekBreedte": 4.2,
+      "brugLengte": 27.2,
+      "water": [
+        -3.1,
+        4.9
+      ],
+      "portaalhoogte": 3.8,
+      "opritafstand": [
+        16.3,
+        16.3
+      ],
+      "oprithelling": 24,
+      "doorstekend": [],
+      "opritHoogtes": [
+        93.095,
+        93.76
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

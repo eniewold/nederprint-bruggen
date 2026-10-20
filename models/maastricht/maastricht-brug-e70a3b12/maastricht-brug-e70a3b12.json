@@ -1,0 +1,180 @@
+{
+  "name": "Oeslingerbaan",
+  "file": "maastricht-brug-e70a3b12.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    177383.38,
+    315918.96
+  ],
+  "xAxis": [
+    -0.164663,
+    -0.98635
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 91.038,
+  "groundSamplePoints": [
+    [
+      -12.72,
+      0
+    ],
+    [
+      12.72,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0935.e70a3b12adf7424e97cfba71871be90d",
+    "G0935.8eaa5ee76c1f48b09c70c52d2c347976",
+    "G0935.55226d5e1359495bb3110331e3d44c83"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        177383.38,
+        315918.96
+      ],
+      "axis": [
+        -0.164663,
+        -0.98635
+      ],
+      "halfLength": 2.89,
+      "halfWidth": 4.13,
+      "height": 90.244,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -4.06,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        177385.29,
+        315930.36
+      ],
+      "axis": [
+        0.164663,
+        0.98635
+      ],
+      "halfLength": 5.78,
+      "halfWidth": 5.45,
+      "height": 91.394,
+      "gradient": [
+        -0.02594,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        177381.48,
+        315907.55
+      ],
+      "axis": [
+        -0.164663,
+        -0.98635
+      ],
+      "halfLength": 5.78,
+      "halfWidth": 5.45,
+      "height": 91.291,
+      "gradient": [
+        -0.04373,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0935.e70a3b12adf7424e97cfba71871be90d"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0935.e70a3b12adf7424e97cfba71871be90d",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/7124106",
+        "tags": {
+          "bicycle": "no",
+          "bridge": "yes",
+          "foot": "no",
+          "highway": "secondary",
+          "layer": "1",
+          "maxspeed": "50",
+          "name": "Oeslingerbaan",
+          "zone:traffic": "NL:urban"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,300000,180000,320000 --run nl-8_0 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 11.6,
+      "dekBreedte": 7.3,
+      "brugLengte": 11.6,
+      "water": null,
+      "portaalhoogte": 6.5,
+      "opritafstand": [
+        6.9,
+        6.9
+      ],
+      "oprithelling": 11.6,
+      "doorstekend": [
+        {
+          "gmlId": "G0935.97c10469da424c59ad114248e6910e8e",
+          "klasse": "Separation",
+          "oppervlak": 7.6,
+          "onderDek": 0.68,
+          "bovenDekOnderkant": 3.06,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0935.93ddbf359e7d409cbb8ced48d6cbba03",
+          "klasse": "Separation",
+          "oppervlak": 7,
+          "onderDek": 0.69,
+          "bovenDekOnderkant": 2.68,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0935.8eaa5ee76c1f48b09c70c52d2c347976",
+          "klasse": "Road",
+          "oppervlak": 17,
+          "onderDek": 1,
+          "bovenDekOnderkant": 1.71,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "G0935.55226d5e1359495bb3110331e3d44c83",
+          "klasse": "Road",
+          "oppervlak": 44.3,
+          "onderDek": 1,
+          "bovenDekOnderkant": 0.57,
+          "actie": "verbergen"
+        }
+      ],
+      "opritHoogtes": [
+        91.244,
+        91.038
+      ]
+    },
+    "waarschuwingen": [
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "4 PDOK-vorm(en) door het dek: 2 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

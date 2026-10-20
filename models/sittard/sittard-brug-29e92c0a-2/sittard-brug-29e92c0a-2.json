@@ -1,0 +1,180 @@
+{
+  "name": "Bergerweg",
+  "file": "sittard-brug-29e92c0a-2.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    186653.01,
+    333971.14
+  ],
+  "xAxis": [
+    0.984975,
+    0.172694
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 107.501,
+  "groundSamplePoints": [
+    [
+      -48.21,
+      0
+    ],
+    [
+      48.21,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "P0031.29e92c0ae9cb16d6e053160d000ad0a7",
+    "P0031.29e92c0aeac616d6e053160d000ad0a7",
+    "P0031.29e92c0aee3f16d6e053160d000ad0a7",
+    "P0031.29e92c0aee2c16d6e053160d000ad0a7"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        186653.01,
+        333971.14
+      ],
+      "axis": [
+        0.984975,
+        0.172694
+      ],
+      "halfLength": 22.21,
+      "halfWidth": 21.06,
+      "height": 106.827,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.07,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        186613.4,
+        333964.19
+      ],
+      "axis": [
+        -0.984975,
+        -0.172694
+      ],
+      "halfLength": 12,
+      "halfWidth": 22.56,
+      "height": 107.977,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        186692.61,
+        333978.08
+      ],
+      "axis": [
+        0.984975,
+        0.172694
+      ],
+      "halfLength": 12,
+      "halfWidth": 22.56,
+      "height": 107.814,
+      "gradient": [
+        -0.02605,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "P0031.29e92c0aee3f16d6e053160d000ad0a7"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "P0031.29e92c0ae9cb16d6e053160d000ad0a7",
+          "type": "landhoofd"
+        },
+        {
+          "id": "P0031.29e92c0aeac616d6e053160d000ad0a7",
+          "type": "landhoofd"
+        },
+        {
+          "id": "P0031.29e92c0aee3f16d6e053160d000ad0a7",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/719953736",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "viaduct",
+          "highway": "primary",
+          "lanes": "3",
+          "layer": "1",
+          "maxspeed": "80",
+          "name": "Bergerweg",
+          "oneway": "yes",
+          "operator": "Provincie Limburg",
+          "ref": "N294",
+          "surface": "asphalt",
+          "turn:lanes": "left|through|through",
+          "zone:traffic": "NL:rural",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 3
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 180000,320000,200000,340000 --run nl-9_1 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 56.4,
+      "dekBreedte": 41.1,
+      "brugLengte": 56.4,
+      "water": null,
+      "portaalhoogte": 37,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "P0031.29e92c0aee2c16d6e053160d000ad0a7",
+          "klasse": "Separation",
+          "oppervlak": 7.3,
+          "onderDek": 1,
+          "bovenDekOnderkant": 0.18,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "P0031.29e92c0aef2216d6e053160d000ad0a7",
+          "klasse": "Terrain",
+          "oppervlak": 14.7,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.07,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        107.827,
+        107.501
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "2 PDOK-vorm(en) door het dek: 1 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

@@ -1,0 +1,155 @@
+{
+  "name": "Craveld",
+  "file": "sittard-craveld.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    187649.03,
+    332617.92
+  ],
+  "xAxis": [
+    -0.000417,
+    1
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 103.171,
+  "groundSamplePoints": [
+    [
+      -12.75,
+      0
+    ],
+    [
+      12.76,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "L0004.bc3aa03a294a4196abc48169168df550",
+    "L0004.00ee393854ae499c974d26315044f8a9",
+    "L0004.c5dcd62a9f384a5f9986c7b167349c25"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        187649.04,
+        332593.17
+      ],
+      "axis": [
+        0.000417,
+        -1
+      ],
+      "halfLength": 12,
+      "halfWidth": 8.09,
+      "height": 103.252,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        187649.02,
+        332642.68
+      ],
+      "axis": [
+        -0.000417,
+        1
+      ],
+      "halfLength": 12,
+      "halfWidth": 8.09,
+      "height": 103.211,
+      "gradient": [
+        -0.00339,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "L0004.c5dcd62a9f384a5f9986c7b167349c25"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "L0004.bc3aa03a294a4196abc48169168df550",
+          "type": "landhoofd"
+        },
+        {
+          "id": "L0004.00ee393854ae499c974d26315044f8a9",
+          "type": "landhoofd"
+        },
+        {
+          "id": "L0004.c5dcd62a9f384a5f9986c7b167349c25",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/549986277",
+        "tags": {
+          "axle_load": "22.5",
+          "bridge": "yes",
+          "description": "Sittard - Heerlen",
+          "electrified": "contact_line",
+          "frequency": "0",
+          "gauge": "1435",
+          "layer": "1",
+          "loading_gauge": "TSI_GB",
+          "maxspeed": "100",
+          "operator": "ProRail",
+          "passenger_lines": "2",
+          "railway": "rail",
+          "railway:atb": "yes",
+          "railway:etcs": "no",
+          "railway:maximum_current": "4000",
+          "railway:track_class": "D2",
+          "railway:traffic_mode": "mixed",
+          "ref": "064",
+          "ref:ProRailID": "2887209.0",
+          "ref:ProRailSpoortak": "504_13BR_17.1",
+          "source": "ProRail",
+          "source:date": "2014-01-03",
+          "usage": "main",
+          "voltage": "1500",
+          "bridge:name": "Craveld",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 3
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 180000,320000,200000,340000 --run nl-9_1 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 25.5,
+      "dekBreedte": 12.2,
+      "brugLengte": 25.5,
+      "water": null,
+      "portaalhoogte": 11,
+      "opritafstand": [
+        0,
+        0
+      ],
+      "spoorhoogteBron": "prorail-pvs",
+      "oprithelling": 24,
+      "doorstekend": [],
+      "opritHoogtes": [
+        103.252,
+        103.171
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

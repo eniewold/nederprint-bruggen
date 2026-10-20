@@ -1,0 +1,163 @@
+{
+  "name": "Sprikkenburg",
+  "file": "groningen-brug-404f925b-56.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    229829.08,
+    586109.66
+  ],
+  "xAxis": [
+    0.973386,
+    0.229171
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 42.288,
+  "groundSamplePoints": [
+    [
+      -26.9,
+      0
+    ],
+    [
+      26.9,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0014.404f925b80dc0015e053660013ac6945"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        229829.08,
+        586109.66
+      ],
+      "axis": [
+        0.973386,
+        0.229171
+      ],
+      "halfLength": 6.23,
+      "halfWidth": 3.49,
+      "height": 41.409,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.85,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        229805.49,
+        586104.11
+      ],
+      "axis": [
+        -0.973386,
+        -0.229171
+      ],
+      "halfLength": 12,
+      "halfWidth": 4.48,
+      "height": 42.499,
+      "gradient": [
+        -0.01756,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        229852.66,
+        586115.21
+      ],
+      "axis": [
+        0.973386,
+        0.229171
+      ],
+      "halfLength": 12,
+      "halfWidth": 4.48,
+      "height": 42.559,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0014.404f925b80dc0015e053660013ac6945"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0014.404f925b80dc0015e053660013ac6945",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/32260943",
+        "tags": {
+          "bridge": "yes",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Sprikkenburg",
+          "smoothness": "good",
+          "surface": "asphalt",
+          "bridge:movable": "bascule"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "basculebrug",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,580000,240000,600000 --run nl-11_14 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 24.5,
+      "dekBreedte": 6,
+      "brugLengte": 24.5,
+      "water": null,
+      "portaalhoogte": 5.4,
+      "opritafstand": [
+        14.7,
+        14.7
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0014.404f925bbd650015e053660013ac6945",
+          "klasse": "Separation",
+          "oppervlak": 52.6,
+          "onderDek": 0.61,
+          "bovenDekOnderkant": 0.85,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0014.404f925c631d0015e053660013ac6945",
+          "klasse": "Separation",
+          "oppervlak": 66.1,
+          "onderDek": 0.36,
+          "bovenDekOnderkant": 0.8,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        42.288,
+        42.409
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}
