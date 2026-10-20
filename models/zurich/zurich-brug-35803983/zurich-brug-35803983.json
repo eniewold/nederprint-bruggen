@@ -1,0 +1,176 @@
+{
+  "name": "zurich-brug-35803983",
+  "file": "zurich-brug-35803983.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    154742.99,
+    567636.5
+  ],
+  "xAxis": [
+    0.023474,
+    -0.999724
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 42.455,
+  "groundSamplePoints": [
+    [
+      -46.53,
+      0
+    ],
+    [
+      46.62,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "L0002.35803983eb3c4b69863c7ea625ca5ae6",
+    "L0002.09c6dfb4e434489887526e4991bb1c39",
+    "L0002.ef3cadf2598c4bd79339cc28b571c0c4",
+    "L0002.ade5b971cce84e09be04ff7c6ad487d9",
+    "L0002.41e8fabfd623415c853fd51d3e8eafd6",
+    "L0002.b02d5f82657a47b8afecd97c502cd331"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        154742.09,
+        567675.02
+      ],
+      "axis": [
+        -0.023474,
+        0.999724
+      ],
+      "halfLength": 12,
+      "halfWidth": 16.88,
+      "height": 42.682,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        154743.9,
+        567597.9
+      ],
+      "axis": [
+        0.023474,
+        -0.999724
+      ],
+      "halfLength": 12,
+      "halfWidth": 16.88,
+      "height": 42.644,
+      "gradient": [
+        -0.01568,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "L0002.35803983eb3c4b69863c7ea625ca5ae6"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "L0002.35803983eb3c4b69863c7ea625ca5ae6",
+          "type": "dek"
+        },
+        {
+          "id": "L0002.09c6dfb4e434489887526e4991bb1c39",
+          "type": "onbekend"
+        },
+        {
+          "id": "L0002.ef3cadf2598c4bd79339cc28b571c0c4",
+          "type": "onbekend"
+        }
+      ],
+      "osm": {
+        "id": "way/720159168",
+        "tags": {
+          "bridge": "yes",
+          "carriageway_ref": "Re",
+          "highway": "motorway",
+          "int_ref": "E 22",
+          "lanes": "2",
+          "layer": "1",
+          "lit": "no",
+          "maxspeed": "100",
+          "maxspeed:conditional": "130 @ (19:00-06:00)",
+          "maxspeed:type": "sign",
+          "maxspeed:type:conditional": "NL:motorway @ (19:00-06:00)",
+          "oneway": "yes",
+          "operator": "Rijkswaterstaat",
+          "ref": "A7",
+          "surface": "asphalt",
+          "toll:hgv": "yes",
+          "zone:traffic": "NL:rural",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 3
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,560000,160000,580000 --run nl-7_13 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 52.9,
+      "dekBreedte": 29.8,
+      "brugLengte": 53.1,
+      "water": null,
+      "portaalhoogte": 26.8,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "L0002.ade5b971cce84e09be04ff7c6ad487d9",
+          "klasse": "Terrain",
+          "oppervlak": 39.2,
+          "onderDek": 0.96,
+          "bovenDekOnderkant": 5.01,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "L0002.41e8fabfd623415c853fd51d3e8eafd6",
+          "klasse": "Terrain",
+          "oppervlak": 22.6,
+          "onderDek": 0.96,
+          "bovenDekOnderkant": 4.91,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "L0002.b02d5f82657a47b8afecd97c502cd331",
+          "klasse": "Road",
+          "oppervlak": 358.8,
+          "onderDek": 1,
+          "bovenDekOnderkant": 0.81,
+          "actie": "verbergen"
+        }
+      ],
+      "opritHoogtes": [
+        42.532,
+        42.455
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "3 PDOK-vorm(en) door het dek: 3 verborgen, 0 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

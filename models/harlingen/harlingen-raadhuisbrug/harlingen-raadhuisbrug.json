@@ -1,0 +1,129 @@
+{
+  "name": "Raadhuisbrug",
+  "file": "harlingen-raadhuisbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    157094.25,
+    576564.95
+  ],
+  "xAxis": [
+    0.10106,
+    0.99488
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 43.737,
+  "groundSamplePoints": [
+    [
+      -35.65,
+      0
+    ],
+    [
+      35.65,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0072.25de02f2b76c48798c4a18c551e79c10"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        157091.4,
+        576536.89
+      ],
+      "axis": [
+        -0.10106,
+        -0.99488
+      ],
+      "halfLength": 12,
+      "halfWidth": 2.35,
+      "height": 44.159,
+      "gradient": [
+        -0.03521,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        157097.1,
+        576593.01
+      ],
+      "axis": [
+        0.10106,
+        0.99488
+      ],
+      "halfLength": 12,
+      "halfWidth": 2.35,
+      "height": 44.432,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0072.25de02f2b76c48798c4a18c551e79c10"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0072.25de02f2b76c48798c4a18c551e79c10",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1242975021",
+        "tags": {
+          "bridge": "movable",
+          "check_date:smoothness": "2026-09-08",
+          "highway": "path",
+          "layer": "1",
+          "name": "Raadhuisbrug",
+          "smoothness": "good",
+          "surface": "asphalt",
+          "traffic_sign": "none",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "basculebrug",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,560000,160000,580000 --run nl-7_13 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 32.4,
+      "dekBreedte": 3.1,
+      "brugLengte": 32.4,
+      "water": null,
+      "portaalhoogte": 2.8,
+      "opritafstand": [
+        19.4,
+        19.4
+      ],
+      "oprithelling": 24,
+      "doorstekend": [],
+      "opritHoogtes": [
+        43.737,
+        44.282
+      ]
+    },
+    "waarschuwingen": [
+      "bridge=movable zonder mechanisme: basculebrug is een gok",
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

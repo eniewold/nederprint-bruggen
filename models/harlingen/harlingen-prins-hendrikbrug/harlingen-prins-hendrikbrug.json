@@ -1,0 +1,138 @@
+{
+  "name": "Prins Hendrikbrug",
+  "file": "harlingen-prins-hendrikbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    156794.05,
+    576550.13
+  ],
+  "xAxis": [
+    0.030817,
+    -0.999525
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 45.096,
+  "groundSamplePoints": [
+    [
+      -11.27,
+      0
+    ],
+    [
+      11.27,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0072.09180a456ea94da486273c25b0885951"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        156793.73,
+        576560.37
+      ],
+      "axis": [
+        -0.030817,
+        0.999525
+      ],
+      "halfLength": 5.12,
+      "halfWidth": 7.75,
+      "height": 45.351,
+      "gradient": [
+        -0.02928,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        156794.36,
+        576539.88
+      ],
+      "axis": [
+        0.030817,
+        -0.999525
+      ],
+      "halfLength": 5.12,
+      "halfWidth": 7.75,
+      "height": 45.298,
+      "gradient": [
+        -0.03947,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0072.09180a456ea94da486273c25b0885951"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0072.09180a456ea94da486273c25b0885951",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1068632505",
+        "tags": {
+          "bridge": "movable",
+          "bridge:movable": "bascule",
+          "bridge:name": "Prins Hendrikbrug",
+          "highway": "secondary",
+          "lane_markings": "no",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "30",
+          "maxweight:signed": "no",
+          "name": "Prins Hendrikbrug",
+          "sidewalk": "both",
+          "sidewalk:both:surface": "metal",
+          "surface": "asphalt",
+          "zone:traffic": "NL:urban",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "basculebrug",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,560000,160000,580000 --run nl-7_13 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 10.2,
+      "dekBreedte": 11.5,
+      "brugLengte": 10.2,
+      "water": [
+        -4.1,
+        4.4
+      ],
+      "portaalhoogte": 10.4,
+      "opritafstand": [
+        6.1,
+        6.1
+      ],
+      "oprithelling": 10.2,
+      "doorstekend": [],
+      "opritHoogtes": [
+        45.201,
+        45.096
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

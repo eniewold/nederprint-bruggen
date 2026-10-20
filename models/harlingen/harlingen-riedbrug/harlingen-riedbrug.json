@@ -1,0 +1,133 @@
+{
+  "name": "Riedbrug",
+  "file": "harlingen-riedbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    157740.53,
+    576457.86
+  ],
+  "xAxis": [
+    0.998248,
+    0.059173
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 42.5,
+  "groundSamplePoints": [
+    [
+      -6.49,
+      0
+    ],
+    [
+      6.49,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0072.54eb79955a5e45f2bffc11e7783ffbce"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        157735.06,
+        576457.54
+      ],
+      "axis": [
+        -0.998248,
+        -0.059173
+      ],
+      "halfLength": 3,
+      "halfWidth": 7.22,
+      "height": 42.761,
+      "gradient": [
+        -0.08688,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        157746.01,
+        576458.19
+      ],
+      "axis": [
+        0.998248,
+        0.059173
+      ],
+      "halfLength": 3,
+      "halfWidth": 7.22,
+      "height": 42.871,
+      "gradient": [
+        -0.05,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0072.54eb79955a5e45f2bffc11e7783ffbce"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0072.54eb79955a5e45f2bffc11e7783ffbce",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1243477167",
+        "tags": {
+          "bridge": "yes",
+          "highway": "residential",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Noorderkade",
+          "man_made": "bridge"
+        }
+      },
+      "fis": {
+        "id": 32759263,
+        "naam": "Riedbrug",
+        "afstand": 1,
+        "beweegbaar": false,
+        "doorvaarthoogteGesloten": 2.2199999999999998
+      },
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": 2.2199999999999998,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,560000,160000,580000 --run nl-7_13 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 5,
+      "dekBreedte": 10.4,
+      "brugLengte": 5,
+      "water": [
+        -2,
+        2
+      ],
+      "portaalhoogte": 9.4,
+      "opritafstand": [
+        4,
+        4
+      ],
+      "oprithelling": 6,
+      "doorstekend": [],
+      "opritHoogtes": [
+        42.5,
+        42.721
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

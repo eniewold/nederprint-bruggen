@@ -1,0 +1,158 @@
+{
+  "name": "Rode Leeuwsbrug",
+  "file": "harlingen-rode-leeuwsbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    157301.58,
+    576572.21
+  ],
+  "xAxis": [
+    0.98687,
+    -0.161519
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 42.949,
+  "groundSamplePoints": [
+    [
+      -6.75,
+      0
+    ],
+    [
+      6.75,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0072.460c462c7f7c4ad38b7a7649888f53ed"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        157301.58,
+        576572.21
+      ],
+      "axis": [
+        0.98687,
+        -0.161519
+      ],
+      "halfLength": 1.37,
+      "halfWidth": 4.79,
+      "height": 41.958,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.73,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        157295.91,
+        576573.14
+      ],
+      "axis": [
+        -0.98687,
+        0.161519
+      ],
+      "halfLength": 3,
+      "halfWidth": 6.29,
+      "height": 43.104,
+      "gradient": [
+        -0.05154,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        157307.25,
+        576571.28
+      ],
+      "axis": [
+        0.98687,
+        -0.161519
+      ],
+      "halfLength": 3,
+      "halfWidth": 6.29,
+      "height": 43.108,
+      "gradient": [
+        -0.05,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0072.460c462c7f7c4ad38b7a7649888f53ed"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0072.460c462c7f7c4ad38b7a7649888f53ed",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/851007986",
+        "tags": {
+          "bridge": "viaduct",
+          "highway": "residential",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Rode Leeuwsbrug",
+          "oneway": "yes",
+          "bridge:structure": "arch",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "gewelf",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,560000,160000,580000 --run nl-7_13 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 5.5,
+      "dekBreedte": 8.6,
+      "brugLengte": 5.5,
+      "water": [
+        -2.2,
+        1.8
+      ],
+      "portaalhoogte": 7.7,
+      "opritafstand": [
+        4,
+        4
+      ],
+      "oprithelling": 6,
+      "doorstekend": [
+        {
+          "gmlId": "G0072.3e8b409c327549c0b10f4a6c12ad7016",
+          "klasse": "Road",
+          "oppervlak": 3.8,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.73,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        42.949,
+        42.958
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "name": "Franekerpoortsbrug",
+  "file": "harlingen-franekerpoortsbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    157431.47,
+    576680.03
+  ],
+  "xAxis": [
+    0.654197,
+    0.756324
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 42.81,
+  "groundSamplePoints": [
+    [
+      -23.38,
+      0
+    ],
+    [
+      23.38,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0072.a2f48044485242c28745548d078de759",
+    "G0072.692fafa31a2e4516970017bfe668954f"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        157431.47,
+        576680.03
+      ],
+      "axis": [
+        0.654197,
+        0.756324
+      ],
+      "halfLength": 5.31,
+      "halfWidth": 3.63,
+      "height": 41.992,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.78,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        157417.57,
+        576663.96
+      ],
+      "axis": [
+        -0.654197,
+        -0.756324
+      ],
+      "halfLength": 10.63,
+      "halfWidth": 4.69,
+      "height": 43.051,
+      "gradient": [
+        -0.02265,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        157445.38,
+        576696.11
+      ],
+      "axis": [
+        0.654197,
+        0.756324
+      ],
+      "halfLength": 10.63,
+      "halfWidth": 4.69,
+      "height": 43.142,
+      "gradient": [
+        -0.01412,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0072.a2f48044485242c28745548d078de759"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0072.a2f48044485242c28745548d078de759",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1243304502",
+        "tags": {
+          "bridge": "movable",
+          "bridge:name": "Franekerpoortsbrug",
+          "hgv": "no",
+          "highway": "residential",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Franekerpoortsbrug",
+          "priority": "forward",
+          "traffic_sign": "NL:C7",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "basculebrug",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,560000,160000,580000 --run nl-7_13 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 21.3,
+      "dekBreedte": 6.3,
+      "brugLengte": 21.3,
+      "water": [
+        -9.1,
+        9.4
+      ],
+      "portaalhoogte": 5.6,
+      "opritafstand": [
+        12.8,
+        12.8
+      ],
+      "oprithelling": 21.3,
+      "doorstekend": [
+        {
+          "gmlId": "G0072.5909b3e4672c4c5f9435b603f7f4d73b",
+          "klasse": "Terrain",
+          "oppervlak": 20,
+          "onderDek": 0.66,
+          "bovenDekOnderkant": 0.78,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0072.692fafa31a2e4516970017bfe668954f",
+          "klasse": "Terrain",
+          "oppervlak": 28.4,
+          "onderDek": 0.78,
+          "bovenDekOnderkant": 0.69,
+          "actie": "verbergen"
+        }
+      ],
+      "opritHoogtes": [
+        42.81,
+        42.992
+      ]
+    },
+    "waarschuwingen": [
+      "bridge=movable zonder mechanisme: basculebrug is een gok",
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 1 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

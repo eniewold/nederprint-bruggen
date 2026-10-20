@@ -1,0 +1,134 @@
+{
+  "name": "Van Hulstbrug",
+  "file": "harlingen-van-hulstbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    157289.4,
+    575602.45
+  ],
+  "xAxis": [
+    -0.992242,
+    0.124319
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 42.059,
+  "groundSamplePoints": [
+    [
+      -21.53,
+      0
+    ],
+    [
+      21.53,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0072.74b9f9583b744e1595fd23fe9b74bce9"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        157308.82,
+        575600.01
+      ],
+      "axis": [
+        0.992242,
+        -0.124319
+      ],
+      "halfLength": 9.78,
+      "halfWidth": 2.3,
+      "height": 43.411,
+      "gradient": [
+        -0.01533,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        157269.98,
+        575604.88
+      ],
+      "axis": [
+        -0.992242,
+        0.124319
+      ],
+      "halfLength": 9.78,
+      "halfWidth": 2.3,
+      "height": 42.81,
+      "gradient": [
+        -0.07679,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0072.74b9f9583b744e1595fd23fe9b74bce9"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0072.74b9f9583b744e1595fd23fe9b74bce9",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1015426585",
+        "tags": {
+          "bicycle": "yes",
+          "bridge": "movable",
+          "bridge:name": "Van Hulstbrug",
+          "highway": "footway",
+          "layer": "1",
+          "name": "Van Hulstbrug",
+          "man_made": "bridge"
+        }
+      },
+      "fis": {
+        "id": 31500916,
+        "naam": "Van Hulstbrug",
+        "afstand": 2,
+        "beweegbaar": true,
+        "doorvaarthoogteGesloten": 3.02
+      },
+      "pdokBridgeVlakken": 1
+    },
+    "type": "basculebrug",
+    "doorvaarthoogte": 3.02,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,560000,160000,580000 --run nl-7_13 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 19.6,
+      "dekBreedte": 3.1,
+      "brugLengte": 19.6,
+      "water": [
+        -5.3,
+        6.2
+      ],
+      "portaalhoogte": 2.8,
+      "opritafstand": [
+        11.7,
+        11.7
+      ],
+      "oprithelling": 19.6,
+      "doorstekend": [],
+      "opritHoogtes": [
+        43.261,
+        42.059
+      ]
+    },
+    "waarschuwingen": [
+      "bridge=movable zonder mechanisme: basculebrug is een gok",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

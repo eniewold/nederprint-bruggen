@@ -1,0 +1,144 @@
+{
+  "name": "Nijland",
+  "file": "nijland-nijland.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    167560.53,
+    562251.49
+  ],
+  "xAxis": [
+    0.931625,
+    -0.363422
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 47.058,
+  "groundSamplePoints": [
+    [
+      -34.18,
+      0
+    ],
+    [
+      34.18,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G1900.277e33b6fcdb4641ad06b21ce8a2edc3",
+    "L0002.7b90e42484614d4d8e75c378a7aec183",
+    "L0002.d20a57dc230f4200b0c25876c001fbe8"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        167534.88,
+        562261.49
+      ],
+      "axis": [
+        -0.931625,
+        0.363422
+      ],
+      "halfLength": 12,
+      "halfWidth": 9.48,
+      "height": 47.576,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        167586.19,
+        562241.48
+      ],
+      "axis": [
+        0.931625,
+        -0.363422
+      ],
+      "halfLength": 12,
+      "halfWidth": 9.48,
+      "height": 47.392,
+      "gradient": [
+        -0.02785,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G1900.277e33b6fcdb4641ad06b21ce8a2edc3"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G1900.277e33b6fcdb4641ad06b21ce8a2edc3",
+          "type": "dek"
+        },
+        {
+          "id": "L0002.7b90e42484614d4d8e75c378a7aec183",
+          "type": "onbekend"
+        },
+        {
+          "id": "L0002.d20a57dc230f4200b0c25876c001fbe8",
+          "type": "onbekend"
+        }
+      ],
+      "osm": {
+        "id": "relation/19838666",
+        "tags": {
+          "bridge": "yes",
+          "carriageway_ref": "Li",
+          "destination": "Amsterdam;Bolsward",
+          "highway": "motorway",
+          "int_ref": "E 22",
+          "lanes": "2",
+          "layer": "1",
+          "maxspeed": "100",
+          "maxspeed:conditional": "130 @ (19:00-06:00)",
+          "oneway": "yes",
+          "operator": "Rijkswaterstaat",
+          "ref": "A7",
+          "surface": "asphalt",
+          "toll:hgv": "yes",
+          "man_made": "bridge",
+          "name": "Nijland"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 3
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,560000,180000,580000 --run nl-8_13 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 31,
+      "dekBreedte": 15,
+      "brugLengte": 31.1,
+      "water": null,
+      "portaalhoogte": 13.5,
+      "opritafstand": [
+        18.6,
+        18.6
+      ],
+      "oprithelling": 24,
+      "doorstekend": [],
+      "opritHoogtes": [
+        47.426,
+        47.058
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "name": "Hemmensbrug",
+  "file": "makkum-hemmensbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    157642.4,
+    563142.38
+  ],
+  "xAxis": [
+    -0.562645,
+    0.826699
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 42.335,
+  "groundSamplePoints": [
+    [
+      -28.54,
+      0
+    ],
+    [
+      28.54,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G1900.a84b1f5050ea4e3e9b5b0506d92a4f9f"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        157642.4,
+        563142.38
+      ],
+      "axis": [
+        -0.562645,
+        0.826699
+      ],
+      "halfLength": 6.97,
+      "halfWidth": 6.25,
+      "height": 41.506,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.16,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        157656.45,
+        563121.73
+      ],
+      "axis": [
+        0.562645,
+        -0.826699
+      ],
+      "halfLength": 12,
+      "halfWidth": 7.75,
+      "height": 42.656,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        157628.34,
+        563163.02
+      ],
+      "axis": [
+        -0.562645,
+        0.826699
+      ],
+      "halfLength": 12,
+      "halfWidth": 7.75,
+      "height": 42.571,
+      "gradient": [
+        -0.01962,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G1900.a84b1f5050ea4e3e9b5b0506d92a4f9f"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G1900.a84b1f5050ea4e3e9b5b0506d92a4f9f",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/923082433",
+        "tags": {
+          "bridge": "yes",
+          "cycleway:both": "shared_lane",
+          "cycleway:both:lane": "advisory",
+          "highway": "tertiary",
+          "lane_markings": "no",
+          "layer": "1",
+          "maxspeed": "60",
+          "maxweight:signed": "no",
+          "name": "Carl Fellingerweg",
+          "source:width": "ARCore",
+          "surface": "asphalt",
+          "width": "5",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
+      "fis": {
+        "id": 3030,
+        "naam": "Hemmensbrug",
+        "afstand": 5,
+        "beweegbaar": true,
+        "doorvaarthoogteGesloten": 1.25
+      },
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ophaalbrug",
+    "doorvaarthoogte": 1.25,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,560000,160000,580000 --run nl-7_13 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 25.9,
+      "dekBreedte": 11.5,
+      "brugLengte": 25.9,
+      "water": [
+        -9,
+        11.5
+      ],
+      "portaalhoogte": 10.3,
+      "opritafstand": [
+        15.6,
+        15.6
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G1900.fe47a7ef99e442c597565f41789018d1",
+          "klasse": "Terrain",
+          "oppervlak": 7.8,
+          "onderDek": 0.32,
+          "bovenDekOnderkant": 0.16,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        42.506,
+        42.335
+      ]
+    },
+    "waarschuwingen": [
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

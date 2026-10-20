@@ -1,0 +1,165 @@
+{
+  "name": "Smidstraat",
+  "file": "schraard-brug-891b0337.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    159387.46,
+    565997.37
+  ],
+  "xAxis": [
+    0.929777,
+    -0.368124
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 42.702,
+  "groundSamplePoints": [
+    [
+      -24.65,
+      0
+    ],
+    [
+      24.65,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G1900.891b0337b45f425fbf53dcb5d7265f6d"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        159387.46,
+        565997.37
+      ],
+      "axis": [
+        0.929777,
+        -0.368124
+      ],
+      "halfLength": 5.6,
+      "halfWidth": 5.48,
+      "height": 42.262,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.4,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        159366.62,
+        566005.62
+      ],
+      "axis": [
+        -0.929777,
+        0.368124
+      ],
+      "halfLength": 11.21,
+      "halfWidth": 6.98,
+      "height": 43.412,
+      "gradient": [
+        -0.01339,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        159408.3,
+        565989.12
+      ],
+      "axis": [
+        0.929777,
+        -0.368124
+      ],
+      "halfLength": 11.21,
+      "halfWidth": 6.98,
+      "height": 43.132,
+      "gradient": [
+        -0.03839,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G1900.891b0337b45f425fbf53dcb5d7265f6d"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G1900.891b0337b45f425fbf53dcb5d7265f6d",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/6563891",
+        "tags": {
+          "bridge": "yes",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Smidstraat",
+          "source:maxspeed": "NL:zone30",
+          "surface": "paving_stones"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,560000,160000,580000 --run nl-7_13 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 22.4,
+      "dekBreedte": 10,
+      "brugLengte": 22.4,
+      "water": [
+        -3.7,
+        5.3
+      ],
+      "portaalhoogte": 9,
+      "opritafstand": [
+        13.4,
+        13.4
+      ],
+      "oprithelling": 22.4,
+      "doorstekend": [
+        {
+          "gmlId": "G1900.c1520e484a0c40cf83145bee622405ab",
+          "klasse": "Terrain",
+          "oppervlak": 493.3,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.4,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G1900.d1a68d5f633e4bde9f645d1c66516442",
+          "klasse": "Road",
+          "oppervlak": 161.8,
+          "onderDek": 0.05,
+          "bovenDekOnderkant": 0.36,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        43.262,
+        42.702
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

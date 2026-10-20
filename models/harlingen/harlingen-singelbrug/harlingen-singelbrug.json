@@ -1,0 +1,154 @@
+{
+  "name": "Singelbrug",
+  "file": "harlingen-singelbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    157490.31,
+    576399.44
+  ],
+  "xAxis": [
+    -0.994174,
+    0.10779
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 42.828,
+  "groundSamplePoints": [
+    [
+      -32.79,
+      0
+    ],
+    [
+      32.79,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0072.40d9543cbfb14cfdb451164b3f18db35",
+    "G0072.93d0c7a8031941a39696d0c069e2a153",
+    "G0072.2ec0bc046cac482385bff936fdd9db11"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        157517.06,
+        576396.54
+      ],
+      "axis": [
+        0.994174,
+        -0.10779
+      ],
+      "halfLength": 12,
+      "halfWidth": 3.73,
+      "height": 43.066,
+      "gradient": [
+        -0.01984,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        157463.57,
+        576402.34
+      ],
+      "axis": [
+        -0.994174,
+        0.10779
+      ],
+      "halfLength": 12,
+      "halfWidth": 3.73,
+      "height": 43.154,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0072.40d9543cbfb14cfdb451164b3f18db35"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0072.40d9543cbfb14cfdb451164b3f18db35",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1160836894",
+        "tags": {
+          "bridge": "movable",
+          "bridge:movable": "bascule",
+          "heritage": "2",
+          "heritage:operator": "rce",
+          "highway": "residential",
+          "layer": "1",
+          "maxaxleload": "1.2",
+          "maxspeed": "30",
+          "name": "Singelbrug",
+          "priority": "forward",
+          "ref:rce": "385268",
+          "man_made": "bridge",
+          "bridge:structure": "beam"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "basculebrug",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,560000,160000,580000 --run nl-7_13 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 29.8,
+      "dekBreedte": 5,
+      "brugLengte": 29.8,
+      "water": [
+        -14.4,
+        14.6
+      ],
+      "portaalhoogte": 4.5,
+      "opritafstand": [
+        17.9,
+        17.9
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0072.93d0c7a8031941a39696d0c069e2a153",
+          "klasse": "Terrain",
+          "oppervlak": 8.2,
+          "onderDek": 0.99,
+          "bovenDekOnderkant": 0.63,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "G0072.2ec0bc046cac482385bff936fdd9db11",
+          "klasse": "Terrain",
+          "oppervlak": 11.2,
+          "onderDek": 0.76,
+          "bovenDekOnderkant": 0.43,
+          "actie": "verbergen"
+        }
+      ],
+      "opritHoogtes": [
+        42.828,
+        43.004
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 2 verborgen, 0 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

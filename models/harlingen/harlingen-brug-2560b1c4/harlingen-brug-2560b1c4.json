@@ -1,0 +1,143 @@
+{
+  "name": "harlingen-brug-2560b1c4",
+  "file": "harlingen-brug-2560b1c4.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    156754.98,
+    576697.4
+  ],
+  "xAxis": [
+    -0.344063,
+    0.938947
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 45.361,
+  "groundSamplePoints": [
+    [
+      -13.78,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "L0002.2560b1c437004c9c93095c8e76044fb2"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        156754.98,
+        576697.4
+      ],
+      "axis": [
+        -0.344063,
+        0.938947
+      ],
+      "halfLength": 3.13,
+      "halfWidth": 6.57,
+      "height": 44.361,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.77,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        156759.29,
+        576685.64
+      ],
+      "axis": [
+        0.344063,
+        -0.938947
+      ],
+      "halfLength": 6.26,
+      "halfWidth": 8.07,
+      "height": 45.511,
+      "gradient": [
+        -0.02396,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "L0002.2560b1c437004c9c93095c8e76044fb2"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "L0002.2560b1c437004c9c93095c8e76044fb2",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1068310537",
+        "tags": {
+          "access": "permissive",
+          "bridge": "yes",
+          "highway": "footway",
+          "layer": "2",
+          "operator": "Rijkswaterstaat",
+          "owner": "Staat der Nederlanden",
+          "toll": "yes",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,560000,160000,580000 --run nl-7_13 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 12.5,
+      "dekBreedte": 12.1,
+      "brugLengte": 12.5,
+      "water": [
+        6.2,
+        6.2
+      ],
+      "portaalhoogte": 10.9,
+      "opritafstand": [
+        7.5,
+        22.5
+      ],
+      "oprithelling": 12.5,
+      "doorstekend": [
+        {
+          "gmlId": "L0002.569cdada109d47639521afedd3c54d3b",
+          "klasse": "Terrain",
+          "oppervlak": 1268.3,
+          "onderDek": 0.01,
+          "bovenDekOnderkant": 0.77,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "L0002.2a03da801bcc4419b7ed4517751f6c83",
+          "klasse": "Terrain",
+          "oppervlak": 83.4,
+          "onderDek": 0.1,
+          "bovenDekOnderkant": 0.59,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        45.361,
+        null
+      ]
+    },
+    "waarschuwingen": [
+      "oprit + zonder PDOK-maaiveld",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

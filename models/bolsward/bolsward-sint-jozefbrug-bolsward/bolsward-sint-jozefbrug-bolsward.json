@@ -1,0 +1,134 @@
+{
+  "name": "Sint Jozefbrug Bolsward",
+  "file": "bolsward-sint-jozefbrug-bolsward.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    163660.64,
+    563973.74
+  ],
+  "xAxis": [
+    -0.327057,
+    -0.945005
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 42.367,
+  "groundSamplePoints": [
+    [
+      -14.04,
+      0
+    ],
+    [
+      14.04,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G1900.b2bad9cd26af4fa2aaecbd927e18ec94"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        163664.81,
+        563985.8
+      ],
+      "axis": [
+        0.327057,
+        0.945005
+      ],
+      "halfLength": 6.38,
+      "halfWidth": 3.58,
+      "height": 42.74,
+      "gradient": [
+        -0.05835,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        163656.46,
+        563961.68
+      ],
+      "axis": [
+        -0.327057,
+        -0.945005
+      ],
+      "halfLength": 6.38,
+      "halfWidth": 3.58,
+      "height": 42.962,
+      "gradient": [
+        -0.0235,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G1900.b2bad9cd26af4fa2aaecbd927e18ec94"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G1900.b2bad9cd26af4fa2aaecbd927e18ec94",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/364705476",
+        "tags": {
+          "bridge": "movable",
+          "highway": "cycleway",
+          "layer": "1",
+          "mofa": "yes",
+          "moped": "no",
+          "name": "Knetemannstraat",
+          "traffic_sign": "NL:G11"
+        }
+      },
+      "fis": {
+        "id": 32703887,
+        "naam": "Sint Jozefbrug Bolsward",
+        "afstand": 2,
+        "beweegbaar": true,
+        "doorvaarthoogteGesloten": 1.35
+      },
+      "pdokBridgeVlakken": 1
+    },
+    "type": "basculebrug",
+    "doorvaarthoogte": 1.35,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,560000,180000,580000 --run nl-8_13 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 12.8,
+      "dekBreedte": 4.8,
+      "brugLengte": 12.8,
+      "water": [
+        -4.4,
+        5.6
+      ],
+      "portaalhoogte": 4.3,
+      "opritafstand": [
+        7.7,
+        7.7
+      ],
+      "oprithelling": 12.8,
+      "doorstekend": [],
+      "opritHoogtes": [
+        42.367,
+        42.812
+      ]
+    },
+    "waarschuwingen": [
+      "bridge=movable zonder mechanisme: basculebrug is een gok",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}
