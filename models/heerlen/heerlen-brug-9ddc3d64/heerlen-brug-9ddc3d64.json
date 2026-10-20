@@ -1,0 +1,191 @@
+{
+  "name": "heerlen-brug-9ddc3d64",
+  "file": "heerlen-brug-9ddc3d64.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    198340.9,
+    316804.15
+  ],
+  "xAxis": [
+    0.735903,
+    -0.677087
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 218.774,
+  "groundSamplePoints": [
+    [
+      -50.9,
+      0
+    ],
+    [
+      50.9,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "L0002.5fe50b315c22459d83964a0b21ae11e0",
+    "L0002.9ddc3d6418274b009b7538c342728f63",
+    "L0002.a5c8615424554eb098fc9c1be09717b4",
+    "L0002.a0a19e5ac8de409e9281200a7008c732",
+    "L0002.567ad2cafa784dbd816eb48d7e4bd637"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        198340.9,
+        316804.15
+      ],
+      "axis": [
+        0.735903,
+        -0.677087
+      ],
+      "halfLength": 24.85,
+      "halfWidth": 29.16,
+      "height": 218.089,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.31,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        198309.32,
+        316833.2
+      ],
+      "axis": [
+        -0.735903,
+        0.677087
+      ],
+      "halfLength": 12,
+      "halfWidth": 30.66,
+      "height": 219.082,
+      "gradient": [
+        -0.02564,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        198372.46,
+        316775.1
+      ],
+      "axis": [
+        0.735903,
+        -0.677087
+      ],
+      "halfLength": 12,
+      "halfWidth": 30.66,
+      "height": 219.239,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "L0002.9ddc3d6418274b009b7538c342728f63",
+      "L0002.a5c8615424554eb098fc9c1be09717b4"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "L0002.5fe50b315c22459d83964a0b21ae11e0",
+          "type": "onbekend"
+        },
+        {
+          "id": "L0002.9ddc3d6418274b009b7538c342728f63",
+          "type": "dek"
+        },
+        {
+          "id": "L0002.a5c8615424554eb098fc9c1be09717b4",
+          "type": "dek"
+        },
+        {
+          "id": "L0002.a0a19e5ac8de409e9281200a7008c732",
+          "type": "onbekend"
+        }
+      ],
+      "osm": {
+        "id": "way/1417696155",
+        "tags": {
+          "bridge": "yes",
+          "carriageway_ref": "Li",
+          "highway": "motorway",
+          "int_ref": "E 314",
+          "lanes": "2",
+          "layer": "1",
+          "lit": "no",
+          "maxspeed": "100",
+          "maxspeed:conditional": "130 @ (19:00-06:00)",
+          "noname": "yes",
+          "note:official_name": "Officiële straatnaam gelijk aan wegnummer.",
+          "official_name": "A76",
+          "oneway": "yes",
+          "operator": "Rijkswaterstaat",
+          "ref": "A76",
+          "source:official_name": "NWB;BAG",
+          "surface": "asphalt",
+          "toll:hgv": "yes",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 4
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 180000,300000,200000,320000 --run nl-9_0 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 61.7,
+      "dekBreedte": 57.3,
+      "brugLengte": 61.8,
+      "water": null,
+      "portaalhoogte": 51.6,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0917.35ed13c91ca41689e054d8d385f6d27e",
+          "klasse": "Forest",
+          "oppervlak": 901.2,
+          "onderDek": 0.36,
+          "bovenDekOnderkant": 0.31,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "L0002.567ad2cafa784dbd816eb48d7e4bd637",
+          "klasse": "Terrain",
+          "oppervlak": 893.9,
+          "onderDek": 0.89,
+          "bovenDekOnderkant": 0.06,
+          "actie": "verbergen"
+        }
+      ],
+      "opritHoogtes": [
+        218.774,
+        219.089
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 1 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

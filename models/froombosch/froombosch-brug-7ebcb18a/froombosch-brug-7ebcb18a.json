@@ -1,0 +1,186 @@
+{
+  "name": "Provincialeweg",
+  "file": "froombosch-brug-7ebcb18a.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    248177.9,
+    580251.37
+  ],
+  "xAxis": [
+    0.743749,
+    -0.668459
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 38.546,
+  "groundSamplePoints": [
+    [
+      -16.53,
+      0
+    ],
+    [
+      16.53,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "P0020.7ebcb18a31b84e0a934d7154aee75fdf",
+    "P0020.e9398276d54749109c2c25b55fee00e1"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        248177.9,
+        580251.37
+      ],
+      "axis": [
+        0.743749,
+        -0.668459
+      ],
+      "halfLength": 3.76,
+      "halfWidth": 4.05,
+      "height": 37.623,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -6.09,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        248166.72,
+        580261.42
+      ],
+      "axis": [
+        -0.743749,
+        0.668459
+      ],
+      "halfLength": 7.51,
+      "halfWidth": 5.33,
+      "height": 38.773,
+      "gradient": [
+        -0.01996,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        248189.07,
+        580241.33
+      ],
+      "axis": [
+        0.743749,
+        -0.668459
+      ],
+      "halfLength": 7.51,
+      "halfWidth": 5.33,
+      "height": 38.735,
+      "gradient": [
+        -0.02506,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "P0020.7ebcb18a31b84e0a934d7154aee75fdf"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "P0020.7ebcb18a31b84e0a934d7154aee75fdf",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1091654432",
+        "tags": {
+          "bridge": "yes",
+          "highway": "trunk",
+          "lanes": "2",
+          "layer": "1",
+          "lit": "no",
+          "maxspeed": "100",
+          "maxspeed:type": "NL:motorroad",
+          "maxweight:signed": "no",
+          "motorroad": "yes",
+          "name": "Provincialeweg",
+          "operator": "Provincie Groningen",
+          "ref": "N387",
+          "source:name": "NWB",
+          "surface": "asphalt",
+          "zone:traffic": "NL:rural"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,580000,260000,600000 --run nl-12_14 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 15,
+      "dekBreedte": 7.1,
+      "brugLengte": 15,
+      "water": null,
+      "portaalhoogte": 6.4,
+      "opritafstand": [
+        9,
+        9
+      ],
+      "oprithelling": 15,
+      "doorstekend": [
+        {
+          "gmlId": "P0020.d0f2a406120e4431a57dcd3f02fa8a7e",
+          "klasse": "Road",
+          "oppervlak": 2274.7,
+          "onderDek": 0,
+          "bovenDekOnderkant": 5.09,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "P0020.ed6582ce255e45438eaea447513dc027",
+          "klasse": "Terrain",
+          "oppervlak": 7.5,
+          "onderDek": 0.51,
+          "bovenDekOnderkant": 2.33,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "P0020.40e6d44bb0064bac99e6e778112cfde6",
+          "klasse": "Terrain",
+          "oppervlak": 7.5,
+          "onderDek": 0.46,
+          "bovenDekOnderkant": 1.89,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "P0020.e9398276d54749109c2c25b55fee00e1",
+          "klasse": "Road",
+          "oppervlak": 89,
+          "onderDek": 1,
+          "bovenDekOnderkant": 0.51,
+          "actie": "verbergen"
+        }
+      ],
+      "opritHoogtes": [
+        38.623,
+        38.546
+      ]
+    },
+    "waarschuwingen": [
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "4 PDOK-vorm(en) door het dek: 1 verborgen, 3 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}
