@@ -1,0 +1,131 @@
+{
+  "name": "rijssen-brug-a54fa6f6",
+  "file": "rijssen-brug-a54fa6f6.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    231080.2,
+    480901
+  ],
+  "xAxis": [
+    -0.830511,
+    -0.557002
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 52.65,
+  "groundSamplePoints": [
+    [
+      -7.05,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G1742.a54fa6f6bc774ee19c22aa1deddff825"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        231080.2,
+        480901
+      ],
+      "axis": [
+        -0.830511,
+        -0.557002
+      ],
+      "halfLength": 1.53,
+      "halfWidth": 1.39,
+      "height": 51.65,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.78,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        231085.27,
+        480904.4
+      ],
+      "axis": [
+        0.830511,
+        0.557002
+      ],
+      "halfLength": 3.05,
+      "halfWidth": 1.34,
+      "height": 52.8,
+      "gradient": [
+        -0.0491,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G1742.a54fa6f6bc774ee19c22aa1deddff825"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G1742.a54fa6f6bc774ee19c22aa1deddff825",
+          "type": "dek"
+        }
+      ],
+      "osm": null,
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,480000,240000,500000 --run nl-11_9 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 6.1,
+      "dekBreedte": 1.8,
+      "brugLengte": 6.1,
+      "water": [
+        -3.1,
+        -3.1
+      ],
+      "portaalhoogte": 2.5,
+      "opritafstand": [
+        4,
+        12
+      ],
+      "oprithelling": 6.1,
+      "doorstekend": [
+        {
+          "gmlId": "G1742.81c1ae82a45f4bfca4cf8dc61c3b47db",
+          "klasse": "Terrain",
+          "oppervlak": 10.8,
+          "onderDek": 0.53,
+          "bovenDekOnderkant": 0.78,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G1742.19e4f63cda1741f3b37d92d5f2e021d0",
+          "klasse": "Terrain",
+          "oppervlak": 4.4,
+          "onderDek": 0.03,
+          "bovenDekOnderkant": 0.6,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        52.65,
+        null
+      ]
+    },
+    "waarschuwingen": [
+      "oprit + zonder PDOK-maaiveld",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

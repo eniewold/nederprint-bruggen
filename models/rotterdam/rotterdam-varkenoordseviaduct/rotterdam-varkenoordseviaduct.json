@@ -1,0 +1,186 @@
+{
+  "name": "Varkenoordseviaduct",
+  "file": "rotterdam-varkenoordseviaduct.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    94989.25,
+    434821.78
+  ],
+  "xAxis": [
+    0.811647,
+    -0.584149
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 49.067,
+  "groundSamplePoints": [
+    [
+      -311.33,
+      16.2
+    ],
+    [
+      269.93,
+      -20.95
+    ]
+  ],
+  "replacesTerrain": [
+    "L0004.18aec1e4b978492ca55f0eab2234da09",
+    "L0004.cfcdc52c747d49538aa2baee032fc742",
+    "L0004.d0dc66773c8f4b088ba70c26d4a601e6",
+    "G0599.16fd017009fdacac9e050210a7e24119",
+    "G0599.7b2cd8fbe745486a870500f77cceb1c5",
+    "G0599.7d1efacb01e24251b6dcb02fe899bd30"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        94989.25,
+        434821.78
+      ],
+      "axis": [
+        0.811647,
+        -0.584149
+      ],
+      "halfLength": 254.84,
+      "halfWidth": 47.63,
+      "height": 48.35,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.91,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        94767.22,
+        434981.57
+      ],
+      "axis": [
+        -0.811647,
+        0.584149
+      ],
+      "halfLength": 12,
+      "halfWidth": 49.13,
+      "height": 49.359,
+      "gradient": [
+        -0.0243,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        95210.13,
+        434662.81
+      ],
+      "axis": [
+        0.811647,
+        -0.584149
+      ],
+      "halfLength": 12,
+      "halfWidth": 49.13,
+      "height": 49.5,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0599.16fd017009fdacac9e050210a7e24119"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "L0004.18aec1e4b978492ca55f0eab2234da09",
+          "type": "sloof"
+        },
+        {
+          "id": "L0004.cfcdc52c747d49538aa2baee032fc742",
+          "type": "sloof"
+        },
+        {
+          "id": "L0004.d0dc66773c8f4b088ba70c26d4a601e6",
+          "type": "sloof"
+        },
+        {
+          "id": "G0599.16fd017009fdacac9e050210a7e24119",
+          "type": "dek"
+        },
+        {
+          "id": "G0599.7b2cd8fbe745486a870500f77cceb1c5",
+          "type": "landhoofd"
+        }
+      ],
+      "osm": {
+        "id": "way/552827376",
+        "tags": {
+          "bridge": "yes",
+          "highway": "footway",
+          "layer": "1",
+          "level": "1",
+          "man_made": "bridge",
+          "name": "Varkenoordseviaduct"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 5
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,420000,100000,440000 --run nl-4_6 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 521.7,
+      "dekBreedte": 94.3,
+      "brugLengte": 521.7,
+      "water": null,
+      "portaalhoogte": 84.8,
+      "opritafstand": [
+        50,
+        10
+      ],
+      "spoorhoogteBron": "pdok",
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0599.7d1efacb01e24251b6dcb02fe899bd30",
+          "klasse": "Terrain",
+          "oppervlak": 17634.7,
+          "onderDek": 0.99,
+          "bovenDekOnderkant": 1,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "G0599.16fca6c7763376560e050210a7e247d7",
+          "klasse": "Forest",
+          "oppervlak": 513.6,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.91,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        49.067,
+        49.35
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "oprit -: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "oprit -: de sporen verschillen 3.8 m in hoogte (fly-over of wissel naast de brug); mediaan genomen",
+      "oprit - pas op 50 m langs het spoor gemeten (PDOK-spoorterrein bij de brug lager)",
+      "oprit +: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "2 PDOK-vorm(en) door het dek: 1 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

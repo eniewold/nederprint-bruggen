@@ -1,0 +1,131 @@
+{
+  "name": "goirle-brug-ee372fad",
+  "file": "goirle-brug-ee372fad.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    129335.9,
+    387560.13
+  ],
+  "xAxis": [
+    0.824462,
+    -0.565918
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 63.135,
+  "groundSamplePoints": [
+    [
+      -7.46,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0785.ee372fadb3994c97898cc05e7fb00996"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        129335.9,
+        387560.13
+      ],
+      "axis": [
+        0.824462,
+        -0.565918
+      ],
+      "halfLength": 1.7,
+      "halfWidth": 1.83,
+      "height": 62.135,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.81,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        129330.31,
+        387563.97
+      ],
+      "axis": [
+        -0.824462,
+        0.565918
+      ],
+      "halfLength": 3.39,
+      "halfWidth": 2,
+      "height": 63.285,
+      "gradient": [
+        -0.04424,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0785.ee372fadb3994c97898cc05e7fb00996"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0785.ee372fadb3994c97898cc05e7fb00996",
+          "type": "dek"
+        }
+      ],
+      "osm": null,
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,380000,140000,400000 --run nl-6_4 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 6.8,
+      "dekBreedte": 2.7,
+      "brugLengte": 6.8,
+      "water": [
+        -0.4,
+        0.6
+      ],
+      "portaalhoogte": 2.5,
+      "opritafstand": [
+        4.1,
+        12.2
+      ],
+      "oprithelling": 6.8,
+      "doorstekend": [
+        {
+          "gmlId": "G0785.c3b305b879774000b5ae8d26527fdb7e",
+          "klasse": "Terrain",
+          "oppervlak": 169.6,
+          "onderDek": 0.03,
+          "bovenDekOnderkant": 0.81,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0785.f501f5f85b0f4470adea4dee52cc8ed7",
+          "klasse": "Terrain",
+          "oppervlak": 267.2,
+          "onderDek": 0.02,
+          "bovenDekOnderkant": 0.66,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        63.135,
+        null
+      ]
+    },
+    "waarschuwingen": [
+      "oprit + zonder PDOK-maaiveld",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}
