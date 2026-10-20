@@ -1,0 +1,183 @@
+{
+  "name": "Monseigneur Hanssenlaan",
+  "file": "hoensbroek-brug-a4adf93b.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    193183.43,
+    325526.81
+  ],
+  "xAxis": [
+    0.039443,
+    -0.999222
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 119.472,
+  "groundSamplePoints": [
+    [
+      -16.66,
+      0
+    ],
+    [
+      16.66,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "W0665.a4adf93b43a04cf3b0bdffe4735b2dcd",
+    "G0917.632306ff7997158ae05301b51eac6ab8",
+    "G0917.632306ff79ae158ae05301b51eac6ab8",
+    "G0917.632306ff79ea158ae05301b51eac6ab8",
+    "G0917.632306ff7982158ae05301b51eac6ab8"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        193183.43,
+        325526.81
+      ],
+      "axis": [
+        0.039443,
+        -0.999222
+      ],
+      "halfLength": 3.79,
+      "halfWidth": 10.29,
+      "height": 118.548,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.16,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        193182.84,
+        325541.95
+      ],
+      "axis": [
+        -0.039443,
+        0.999222
+      ],
+      "halfLength": 7.57,
+      "halfWidth": 11.79,
+      "height": 119.698,
+      "gradient": [
+        -0.0198,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        193184.03,
+        325511.67
+      ],
+      "axis": [
+        0.039443,
+        -0.999222
+      ],
+      "halfLength": 7.57,
+      "halfWidth": 11.79,
+      "height": 119.66,
+      "gradient": [
+        -0.02482,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "W0665.a4adf93b43a04cf3b0bdffe4735b2dcd"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "W0665.a4adf93b43a04cf3b0bdffe4735b2dcd",
+          "type": "dek"
+        },
+        {
+          "id": "G0917.632306ff7997158ae05301b51eac6ab8",
+          "type": "landhoofd"
+        },
+        {
+          "id": "G0917.632306ff79ae158ae05301b51eac6ab8",
+          "type": "landhoofd"
+        }
+      ],
+      "osm": {
+        "id": "way/1526073892",
+        "tags": {
+          "bridge": "yes",
+          "highway": "residential",
+          "layer": "1",
+          "maxspeed": "50",
+          "name": "Monseigneur Hanssenlaan",
+          "official_name": "Mgr. Hanssenlaan"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 3
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 180000,320000,200000,340000 --run nl-9_1 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 15.1,
+      "dekBreedte": 19.6,
+      "brugLengte": 15.1,
+      "water": [
+        -0.1,
+        0.9
+      ],
+      "portaalhoogte": 17.6,
+      "opritafstand": [
+        9.1,
+        9.1
+      ],
+      "oprithelling": 15.1,
+      "doorstekend": [
+        {
+          "gmlId": "G0917.632306ff79ea158ae05301b51eac6ab8",
+          "klasse": "Terrain",
+          "oppervlak": 41.8,
+          "onderDek": 0.92,
+          "bovenDekOnderkant": 0.64,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "G0917.632306ff7982158ae05301b51eac6ab8",
+          "klasse": "Terrain",
+          "oppervlak": 35.8,
+          "onderDek": 0.83,
+          "bovenDekOnderkant": 0.16,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "G0917.35ed13ca93af1689e054d8d385f6d27e",
+          "klasse": "Separation",
+          "oppervlak": 23.6,
+          "onderDek": 0.48,
+          "bovenDekOnderkant": 0.16,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        119.548,
+        119.472
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "3 PDOK-vorm(en) door het dek: 2 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}
