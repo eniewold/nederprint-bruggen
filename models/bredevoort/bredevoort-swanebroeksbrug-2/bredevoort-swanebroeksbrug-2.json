@@ -1,0 +1,177 @@
+{
+  "name": "Swanebroeksbrug",
+  "file": "bredevoort-swanebroeksbrug-2.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    239502.35,
+    439797.17
+  ],
+  "xAxis": [
+    0.999834,
+    -0.018228
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 71.02,
+  "groundSamplePoints": [
+    [
+      -34.12,
+      0
+    ],
+    [
+      34.12,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0197.2419ea62c4c669abe0530e0a10acf6ec"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        239502.35,
+        439797.17
+      ],
+      "axis": [
+        0.999834,
+        -0.018228
+      ],
+      "halfLength": 9.51,
+      "halfWidth": 6.56,
+      "height": 70.068,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -2.13,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        239474.85,
+        439797.67
+      ],
+      "axis": [
+        -0.999834,
+        0.018228
+      ],
+      "halfLength": 12,
+      "halfWidth": 8.06,
+      "height": 71.194,
+      "gradient": [
+        -0.01447,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        239529.86,
+        439796.67
+      ],
+      "axis": [
+        0.999834,
+        -0.018228
+      ],
+      "halfLength": 12,
+      "halfWidth": 8.06,
+      "height": 71.218,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0197.2419ea62c4c669abe0530e0a10acf6ec"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0197.2419ea62c4c669abe0530e0a10acf6ec",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1303881089",
+        "tags": {
+          "bridge": "yes",
+          "highway": "residential",
+          "lane_markings": "no",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "50",
+          "maxweight:signed": "no",
+          "name": "Swanebroeksbrug",
+          "surface": "asphalt",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,420000,240000,440000 --run nl-11_6 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 31,
+      "dekBreedte": 12.1,
+      "brugLengte": 31,
+      "water": [
+        -5,
+        7
+      ],
+      "portaalhoogte": 10.9,
+      "opritafstand": [
+        18.6,
+        18.6
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0197.2419ea62757769abe0530e0a10acf6ec",
+          "klasse": "Forest",
+          "oppervlak": 1629.8,
+          "onderDek": 0.05,
+          "bovenDekOnderkant": 1.13,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0197.2419ea62748c69abe0530e0a10acf6ec",
+          "klasse": "Terrain",
+          "oppervlak": 2940.7,
+          "onderDek": 0.08,
+          "bovenDekOnderkant": 1.09,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0197.2419ea62748b69abe0530e0a10acf6ec",
+          "klasse": "Terrain",
+          "oppervlak": 1726.4,
+          "onderDek": 0.08,
+          "bovenDekOnderkant": 0.93,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        71.02,
+        71.068
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "3 PDOK-vorm(en) door het dek: 0 verborgen, 3 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

@@ -1,0 +1,181 @@
+{
+  "name": "smakt-brug-52d35dc7",
+  "file": "smakt-brug-52d35dc7.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    197062.22,
+    397652.58
+  ],
+  "xAxis": [
+    0.276001,
+    -0.961157
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 62.433,
+  "groundSamplePoints": [
+    [
+      -27.89,
+      0
+    ],
+    [
+      28.39,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "L0002.4686629777fd45b3b7c1cc39f1e89b2c",
+    "L0002.52d35dc7b6f94bcb9b18fc8c89129f9e",
+    "L0002.4ccd500cb3c846bea73af097fde93b66"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        197062.22,
+        397652.58
+      ],
+      "axis": [
+        0.276001,
+        -0.961157
+      ],
+      "halfLength": 6.49,
+      "halfWidth": 17.48,
+      "height": 61.465,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.52,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        197055.45,
+        397676.17
+      ],
+      "axis": [
+        -0.276001,
+        0.961157
+      ],
+      "halfLength": 12,
+      "halfWidth": 18.98,
+      "height": 62.599,
+      "gradient": [
+        -0.01381,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        197069.13,
+        397628.51
+      ],
+      "axis": [
+        0.276001,
+        -0.961157
+      ],
+      "halfLength": 12,
+      "halfWidth": 18.98,
+      "height": 62.615,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "L0002.52d35dc7b6f94bcb9b18fc8c89129f9e"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "L0002.4686629777fd45b3b7c1cc39f1e89b2c",
+          "type": "landhoofd"
+        },
+        {
+          "id": "L0002.52d35dc7b6f94bcb9b18fc8c89129f9e",
+          "type": "dek"
+        },
+        {
+          "id": "L0002.4ccd500cb3c846bea73af097fde93b66",
+          "type": "onbekend"
+        }
+      ],
+      "osm": {
+        "id": "way/6720569",
+        "tags": {
+          "bridge": "yes",
+          "carriageway_ref": "Re",
+          "highway": "motorway",
+          "lanes": "2",
+          "layer": "1",
+          "lit": "no",
+          "maxspeed": "100",
+          "maxspeed:conditional": "130 @ (19:00-06:00)",
+          "oneway": "yes",
+          "operator": "Rijkswaterstaat",
+          "ref": "A73",
+          "surface": "asphalt",
+          "toll:hgv": "yes"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 3
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 180000,380000,200000,400000 --run nl-9_4 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 25,
+      "dekBreedte": 34,
+      "brugLengte": 25.6,
+      "water": [
+        -4.5,
+        5.5
+      ],
+      "portaalhoogte": 30.6,
+      "opritafstand": [
+        15.3,
+        15.3
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0984.071521b93f4f4e7db18508d8340f13c0",
+          "klasse": "Terrain",
+          "oppervlak": 244.6,
+          "onderDek": 0.23,
+          "bovenDekOnderkant": 0.52,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0984.bbee953b5fd44078b3900681b0cce4b7",
+          "klasse": "Terrain",
+          "oppervlak": 209,
+          "onderDek": 0.07,
+          "bovenDekOnderkant": 0.35,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        62.433,
+        62.465
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen FIS-brug binnen 35 m",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

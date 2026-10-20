@@ -1,0 +1,144 @@
+{
+  "name": "Schoorstraat",
+  "file": "castelre-brug-03672c7e.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    114695.47,
+    382175.44
+  ],
+  "xAxis": [
+    0.932485,
+    0.36121
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 57.873,
+  "groundSamplePoints": [
+    [
+      -9.88,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0744.03672c7e34e24fae81a6b250fc81447d"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        114695.47,
+        382175.44
+      ],
+      "axis": [
+        0.932485,
+        0.36121
+      ],
+      "halfLength": 2.24,
+      "halfWidth": 2.72,
+      "height": 56.873,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.91,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        114687.1,
+        382172.19
+      ],
+      "axis": [
+        -0.932485,
+        -0.36121
+      ],
+      "halfLength": 4.49,
+      "halfWidth": 3.33,
+      "height": 58.023,
+      "gradient": [
+        -0.03341,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0744.03672c7e34e24fae81a6b250fc81447d"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0744.03672c7e34e24fae81a6b250fc81447d",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/7230777",
+        "tags": {
+          "bridge": "yes",
+          "cycleway:both": "no",
+          "highway": "unclassified",
+          "lane_markings": "no",
+          "layer": "1",
+          "maxweight": "12",
+          "maxwidth": "2.5",
+          "name": "Schoorstraat",
+          "surface": "concrete"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,380000,120000,400000 --run nl-5_4 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 9,
+      "dekBreedte": 4.4,
+      "brugLengte": 9,
+      "water": [
+        -1.5,
+        1.5
+      ],
+      "portaalhoogte": 4,
+      "opritafstand": [
+        5.4,
+        16.2
+      ],
+      "oprithelling": 9,
+      "doorstekend": [
+        {
+          "gmlId": "W0652.d118292699b94ab5ae5d47783bc153bd",
+          "klasse": "Terrain",
+          "oppervlak": 537.4,
+          "onderDek": 0.01,
+          "bovenDekOnderkant": 0.91,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "W0652.d31abacee8c967b4e0530b29a8c0fa7c",
+          "klasse": "Terrain",
+          "oppervlak": 454.4,
+          "onderDek": 0.01,
+          "bovenDekOnderkant": 0.66,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        57.873,
+        null
+      ]
+    },
+    "waarschuwingen": [
+      "oprit + zonder PDOK-maaiveld",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

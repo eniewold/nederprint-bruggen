@@ -1,0 +1,161 @@
+{
+  "name": "Minderhoutse Brug",
+  "file": "castelre-minderhoutse-brug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    112060.57,
+    381124.57
+  ],
+  "xAxis": [
+    -0.992828,
+    -0.119548
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 55.627,
+  "groundSamplePoints": [
+    [
+      -6.8,
+      0
+    ],
+    [
+      6.8,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0744.e75360160cd14917b94f5171f0b3485b"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        112060.57,
+        381124.57
+      ],
+      "axis": [
+        -0.992828,
+        -0.119548
+      ],
+      "halfLength": 1.4,
+      "halfWidth": 4.12,
+      "height": 55.765,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.6,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        112066.33,
+        381125.26
+      ],
+      "axis": [
+        0.992828,
+        0.119548
+      ],
+      "halfLength": 3,
+      "halfWidth": 5.43,
+      "height": 56.915,
+      "gradient": [
+        -0.05,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        112054.81,
+        381123.87
+      ],
+      "axis": [
+        -0.992828,
+        -0.119548
+      ],
+      "halfLength": 3,
+      "halfWidth": 5.43,
+      "height": 56.346,
+      "gradient": [
+        -0.23965,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0744.e75360160cd14917b94f5171f0b3485b"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0744.e75360160cd14917b94f5171f0b3485b",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/762214783",
+        "tags": {
+          "bridge": "yes",
+          "cycleway": "shared_lane",
+          "highway": "tertiary",
+          "lane_markings": "no",
+          "layer": "1",
+          "maxspeed": "70",
+          "maxweight:signed": "no",
+          "name": "Minderhoutse Brug",
+          "priority": "forward",
+          "surface": "asphalt",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,380000,120000,400000 --run nl-5_4 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 5.6,
+      "dekBreedte": 7.2,
+      "brugLengte": 5.6,
+      "water": [
+        1.2,
+        2.7
+      ],
+      "portaalhoogte": 6.5,
+      "opritafstand": [
+        4,
+        4
+      ],
+      "oprithelling": 6,
+      "doorstekend": [
+        {
+          "gmlId": "W0652.72da7d1006304a0f919a593c40894fb6",
+          "klasse": "Terrain",
+          "oppervlak": 481.6,
+          "onderDek": 0.06,
+          "bovenDekOnderkant": 0.6,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        56.765,
+        55.627
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

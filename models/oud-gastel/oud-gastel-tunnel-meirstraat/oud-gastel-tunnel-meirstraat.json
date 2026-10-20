@@ -1,0 +1,155 @@
+{
+  "name": "Tunnel Meirstraat",
+  "file": "oud-gastel-tunnel-meirstraat.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    90952.81,
+    400804.07
+  ],
+  "xAxis": [
+    0.993536,
+    0.113518
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 45.604,
+  "groundSamplePoints": [
+    [
+      -22.53,
+      0
+    ],
+    [
+      22.53,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "P0030.00f6f9696b00f68ae050120a080440dd"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        90952.81,
+        400804.07
+      ],
+      "axis": [
+        0.993536,
+        0.113518
+      ],
+      "halfLength": 5.12,
+      "halfWidth": 9.18,
+      "height": 44.873,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.38,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        90932.46,
+        400801.75
+      ],
+      "axis": [
+        -0.993536,
+        -0.113518
+      ],
+      "halfLength": 10.24,
+      "halfWidth": 10.68,
+      "height": 45.888,
+      "gradient": [
+        -0.02776,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        90973.15,
+        400806.4
+      ],
+      "axis": [
+        0.993536,
+        0.113518
+      ],
+      "halfLength": 10.24,
+      "halfWidth": 10.68,
+      "height": 46.023,
+      "gradient": [
+        -0.01465,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "P0030.00f6f9696b00f68ae050120a080440dd"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "P0030.00f6f9696b00f68ae050120a080440dd",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/947924361",
+        "tags": {
+          "bridge": "yes",
+          "bridge:name": "Tunnel Meirstraat",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "50",
+          "name": "Tunnel Meirstraat",
+          "zone:traffic": "NL:urban",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,400000,100000,420000 --run nl-4_5 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 20.5,
+      "dekBreedte": 17.4,
+      "brugLengte": 20.5,
+      "water": null,
+      "portaalhoogte": 15.6,
+      "opritafstand": [
+        12.3,
+        12.3
+      ],
+      "oprithelling": 20.5,
+      "doorstekend": [
+        {
+          "gmlId": "P0030.bd6be60c3e2345e9a070f19928ca3ae9",
+          "klasse": "Separation",
+          "oppervlak": 39.5,
+          "onderDek": 0.11,
+          "bovenDekOnderkant": 0.38,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        45.604,
+        45.873
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}
