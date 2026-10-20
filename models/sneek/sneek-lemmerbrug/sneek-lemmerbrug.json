@@ -1,0 +1,144 @@
+{
+  "name": "Lemmerbrug",
+  "file": "sneek-lemmerbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    173241.85,
+    560279.84
+  ],
+  "xAxis": [
+    0.867542,
+    0.497364
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 42.818,
+  "groundSamplePoints": [
+    [
+      -15.83,
+      0
+    ],
+    [
+      15.83,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G1900.d729963beac34c43b4ae542972ebf2df",
+    "G1900.5ecc9fefff3848558fcbde63fdded106",
+    "G1900.950cb6d34eba48c99d81a67ec89464a3"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        173229.37,
+        560272.68
+      ],
+      "axis": [
+        -0.867542,
+        -0.497364
+      ],
+      "halfLength": 7.19,
+      "halfWidth": 9.91,
+      "height": 42.975,
+      "gradient": [
+        -0.02184,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        173254.34,
+        560286.99
+      ],
+      "axis": [
+        0.867542,
+        0.497364
+      ],
+      "halfLength": 7.19,
+      "halfWidth": 9.91,
+      "height": 42.983,
+      "gradient": [
+        -0.02085,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G1900.d729963beac34c43b4ae542972ebf2df"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G1900.d729963beac34c43b4ae542972ebf2df",
+          "type": "dek"
+        },
+        {
+          "id": "G1900.5ecc9fefff3848558fcbde63fdded106",
+          "type": "pijler"
+        },
+        {
+          "id": "G1900.950cb6d34eba48c99d81a67ec89464a3",
+          "type": "pijler"
+        }
+      ],
+      "osm": {
+        "id": "way/817317062",
+        "tags": {
+          "bridge": "movable",
+          "highway": "secondary",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Lemmerweg",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
+      "fis": {
+        "id": 28287,
+        "naam": "Lemmerbrug",
+        "afstand": 4,
+        "beweegbaar": true,
+        "doorvaarthoogteGesloten": 1.07
+      },
+      "pdokBridgeVlakken": 3
+    },
+    "type": "basculebrug",
+    "doorvaarthoogte": 1.07,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,560000,180000,580000 --run nl-8_13 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 14.4,
+      "dekBreedte": 15.8,
+      "brugLengte": 14.4,
+      "water": [
+        -6.7,
+        5.8
+      ],
+      "portaalhoogte": 14.2,
+      "opritafstand": [
+        8.6,
+        8.6
+      ],
+      "oprithelling": 14.4,
+      "doorstekend": [],
+      "opritHoogtes": [
+        42.818,
+        42.833
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "bridge=movable zonder mechanisme: basculebrug is een gok"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}
