@@ -1,0 +1,110 @@
+{
+  "name": "Sluisplateau",
+  "file": "hansweert-brug-e640200e.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    59277.08,
+    385919.27
+  ],
+  "xAxis": [
+    0.197819,
+    -0.980239
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 51.322,
+  "groundSamplePoints": [
+    [
+      -10.37,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "L0002.e640200e1e53491b8d08a466fba21beb"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        59275.22,
+        385928.5
+      ],
+      "axis": [
+        -0.197819,
+        0.980239
+      ],
+      "halfLength": 4.71,
+      "halfWidth": 1.06,
+      "height": 51.472,
+      "gradient": [
+        -0.03184,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "L0002.e640200e1e53491b8d08a466fba21beb"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "L0002.e640200e1e53491b8d08a466fba21beb",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/7600732",
+        "tags": {
+          "bridge": "movable",
+          "bridge:movable": "retractable",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxspeed": "20",
+          "mofa": "yes",
+          "moped": "yes",
+          "motor_vehicle": "no",
+          "motor_vehicle:conditional": "yes @ permit_holder",
+          "name": "Sluisplateau",
+          "operator": "Rijkswaterstaat"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ophaalbrug",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 40000,380000,60000,400000 --run nl-2_4 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 9.4,
+      "dekBreedte": 1.4,
+      "brugLengte": 9.4,
+      "water": [
+        -4.2,
+        4.3
+      ],
+      "portaalhoogte": 2.5,
+      "opritafstand": [
+        5.7,
+        17
+      ],
+      "oprithelling": 9.4,
+      "doorstekend": [],
+      "opritHoogtes": [
+        51.322,
+        null
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "oprit + zonder PDOK-maaiveld",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "name": "Mechelen-Terneuzen",
+  "file": "hulst-brug-dc52c662.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    61960.24,
+    366007.3
+  ],
+  "xAxis": [
+    0.983175,
+    -0.182666
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 45.589,
+  "groundSamplePoints": [
+    [
+      -5.89,
+      0
+    ],
+    [
+      5.89,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "W0661.dc52c6626e8349fe839ca2a13f1b596b"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        61960.24,
+        366007.3
+      ],
+      "axis": [
+        0.983175,
+        -0.182666
+      ],
+      "halfLength": 0.94,
+      "halfWidth": 3.39,
+      "height": 44.839,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.8,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        61955.44,
+        366008.19
+      ],
+      "axis": [
+        -0.983175,
+        0.182666
+      ],
+      "halfLength": 3,
+      "halfWidth": 4.34,
+      "height": 45.989,
+      "gradient": [
+        -0.05,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        61965.05,
+        366006.41
+      ],
+      "axis": [
+        0.983175,
+        -0.182666
+      ],
+      "halfLength": 3,
+      "halfWidth": 4.34,
+      "height": 45.864,
+      "gradient": [
+        -0.09158,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "W0661.dc52c6626e8349fe839ca2a13f1b596b"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "W0661.dc52c6626e8349fe839ca2a13f1b596b",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1444253559",
+        "tags": {
+          "bridge": "yes",
+          "layer": "1",
+          "name": "Mechelen-Terneuzen",
+          "railway": "abandoned",
+          "wikidata": "Q14907190",
+          "wikipedia": "nl:Spoorlijn 54 Mechelen - Terneuzen"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 0
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 60000,360000,80000,380000 --run nl-3_3 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 3.8,
+      "dekBreedte": 5.8,
+      "brugLengte": 3.8,
+      "water": [
+        -1.4,
+        1.6
+      ],
+      "portaalhoogte": 5.2,
+      "opritafstand": [
+        4,
+        4
+      ],
+      "oprithelling": 6,
+      "doorstekend": [
+        {
+          "gmlId": "G0677.833327d42e3d40728425c3dc6de8fd90",
+          "klasse": "Terrain",
+          "oppervlak": 2060.6,
+          "onderDek": 0.01,
+          "bovenDekOnderkant": 0.8,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0677.32b5d459375c456398c2f0b90900e7d9",
+          "klasse": "Terrain",
+          "oppervlak": 4.1,
+          "onderDek": 0.3,
+          "bovenDekOnderkant": 0.69,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        45.839,
+        45.589
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

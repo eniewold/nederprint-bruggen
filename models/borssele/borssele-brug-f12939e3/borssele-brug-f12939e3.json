@@ -1,0 +1,144 @@
+{
+  "name": "borssele-brug-f12939e3",
+  "file": "borssele-brug-f12939e3.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    41419.84,
+    385388.67
+  ],
+  "xAxis": [
+    0.975232,
+    0.221185
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 51.212,
+  "groundSamplePoints": [
+    [
+      -48.96,
+      0
+    ],
+    [
+      48.96,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "P0029.f12939e3a50540a28b6da63e30384967",
+    "P0029.bf7bf2d2e86f49559aec40e562d163d1",
+    "P0029.ab4a69ba2a704f05945fd24082a0eb84"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        41379.9,
+        385379.61
+      ],
+      "axis": [
+        -0.975232,
+        -0.221185
+      ],
+      "halfLength": 12,
+      "halfWidth": 12.15,
+      "height": 51.509,
+      "gradient": [
+        -0.02477,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        41459.78,
+        385397.73
+      ],
+      "axis": [
+        0.975232,
+        0.221185
+      ],
+      "halfLength": 12,
+      "halfWidth": 12.15,
+      "height": 51.656,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "P0029.f12939e3a50540a28b6da63e30384967"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "P0029.f12939e3a50540a28b6da63e30384967",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/745401077",
+        "tags": {
+          "bridge": "viaduct",
+          "bridge:structure": "beam",
+          "layer": "1",
+          "man_made": "bridge",
+          "operator": "N.V. Westerscheldetunnel",
+          "owner": "N.V. Westerscheldetunnel"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 40000,380000,60000,400000 --run nl-2_4 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 57.9,
+      "dekBreedte": 20.3,
+      "brugLengte": 57.9,
+      "water": null,
+      "portaalhoogte": 18.3,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "P0029.bf7bf2d2e86f49559aec40e562d163d1",
+          "klasse": "Terrain",
+          "oppervlak": 391.3,
+          "onderDek": 0.76,
+          "bovenDekOnderkant": 0.69,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "P0029.ab4a69ba2a704f05945fd24082a0eb84",
+          "klasse": "Terrain",
+          "oppervlak": 203,
+          "onderDek": 0.78,
+          "bovenDekOnderkant": 0.12,
+          "actie": "verbergen"
+        }
+      ],
+      "opritHoogtes": [
+        51.212,
+        51.506
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 2 verborgen, 0 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "name": "Vijverbroekstraat",
+  "file": "neeritter-brug-56c95e02.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    184322.78,
+    352752.34
+  ],
+  "xAxis": [
+    0.299278,
+    -0.954166
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 72.47,
+  "groundSamplePoints": [
+    [
+      -7.07,
+      0
+    ],
+    [
+      7.07,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "W0665.56c95e020db34975e06303b51eac28a5"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        184322.78,
+        352752.34
+      ],
+      "axis": [
+        0.299278,
+        -0.954166
+      ],
+      "halfLength": 1.54,
+      "halfWidth": 5.73,
+      "height": 71.87,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.64,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        184320.94,
+        352758.21
+      ],
+      "axis": [
+        -0.299278,
+        0.954166
+      ],
+      "halfLength": 3.07,
+      "halfWidth": 7.23,
+      "height": 73.02,
+      "gradient": [
+        -0.0488,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        184324.62,
+        352746.48
+      ],
+      "axis": [
+        0.299278,
+        -0.954166
+      ],
+      "halfLength": 3.07,
+      "halfWidth": 7.23,
+      "height": 72.82,
+      "gradient": [
+        -0.11394,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "W0665.56c95e020db34975e06303b51eac28a5"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "W0665.56c95e020db34975e06303b51eac28a5",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/243153186",
+        "tags": {
+          "bridge": "yes",
+          "highway": "residential",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Vijverbroekstraat",
+          "zone:traffic": "NL:urban"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 0
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 180000,340000,200000,360000 --run nl-9_2 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 6.1,
+      "dekBreedte": 10.5,
+      "brugLengte": 6.1,
+      "water": [
+        -1.1,
+        0.9
+      ],
+      "portaalhoogte": 9.4,
+      "opritafstand": [
+        4,
+        4
+      ],
+      "oprithelling": 6.1,
+      "doorstekend": [
+        {
+          "gmlId": "G1640.a1290aeca8fc483db6988d5828a880ac",
+          "klasse": "Terrain",
+          "oppervlak": 79,
+          "onderDek": 0.01,
+          "bovenDekOnderkant": 0.64,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "W0665.1d0f88c9b580909fe06303b51eac9a9a",
+          "klasse": "Terrain",
+          "oppervlak": 113.1,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.61,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G1640.ee6bb9ed71024f6cbe954ce923a823e9",
+          "klasse": "Terrain",
+          "oppervlak": 107.9,
+          "onderDek": 0.01,
+          "bovenDekOnderkant": 0.56,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        72.87,
+        72.47
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "3 PDOK-vorm(en) door het dek: 0 verborgen, 3 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

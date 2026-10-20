@@ -1,0 +1,170 @@
+{
+  "name": "Borsselsedijk",
+  "file": "borssele-brug-d657b12a.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    41106.93,
+    385987.87
+  ],
+  "xAxis": [
+    -0.748096,
+    -0.66359
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 50.985,
+  "groundSamplePoints": [
+    [
+      -50.38,
+      0
+    ],
+    [
+      50.38,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "P0029.d657b12a66c647169e1c2a12ebd0e752"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        41106.93,
+        385987.87
+      ],
+      "axis": [
+        -0.748096,
+        -0.66359
+      ],
+      "halfLength": 24.38,
+      "halfWidth": 8.25,
+      "height": 51.035,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -2.06,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        41138.63,
+        386015.99
+      ],
+      "axis": [
+        0.748096,
+        0.66359
+      ],
+      "halfLength": 12,
+      "halfWidth": 9.75,
+      "height": 52.185,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        41075.23,
+        385959.75
+      ],
+      "axis": [
+        -0.748096,
+        -0.66359
+      ],
+      "halfLength": 12,
+      "halfWidth": 9.75,
+      "height": 51.66,
+      "gradient": [
+        -0.05626,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "P0029.d657b12a66c647169e1c2a12ebd0e752"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "P0029.d657b12a66c647169e1c2a12ebd0e752",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/744471616",
+        "tags": {
+          "access": "permissive",
+          "bicycle": "use_sidepath",
+          "bridge": "yes",
+          "highway": "secondary",
+          "lanes": "2",
+          "layer": "1",
+          "maxspeed": "80",
+          "mofa": "use_sidepath",
+          "moped": "use_sidepath",
+          "name": "Borsselsedijk",
+          "old_ref": "N666",
+          "operator": "N.V. Westerscheldetunnel",
+          "zone:traffic": "NL:rural",
+          "man_made": "bridge",
+          "owner": "N.V. Westerscheldetunnel"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 40000,380000,60000,400000 --run nl-2_4 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 60.8,
+      "dekBreedte": 15.5,
+      "brugLengte": 60.8,
+      "water": null,
+      "portaalhoogte": 13.9,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "P0029.463c4c47e21a41f198776ec18a464285",
+          "klasse": "Terrain",
+          "oppervlak": 147.1,
+          "onderDek": 0.59,
+          "bovenDekOnderkant": 1.06,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "P0029.6aec8a03266f4e9c92af4326dd5e3081",
+          "klasse": "Terrain",
+          "oppervlak": 60.5,
+          "onderDek": 0.05,
+          "bovenDekOnderkant": 0.68,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        52.035,
+        50.985
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}
