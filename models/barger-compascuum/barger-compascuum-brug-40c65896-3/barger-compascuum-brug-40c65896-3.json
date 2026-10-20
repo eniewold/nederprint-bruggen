@@ -1,0 +1,139 @@
+{
+  "name": "Berkenrode",
+  "file": "barger-compascuum-brug-40c65896-3.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    265525.47,
+    531364.7
+  ],
+  "xAxis": [
+    0.214522,
+    -0.976719
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 61.342,
+  "groundSamplePoints": [
+    [
+      10.99,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0114.40c6589632954623e05363ab720ac7dc",
+    "G0114.40c658975bf14623e05363ab720ac7dc"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        265525.47,
+        531364.7
+      ],
+      "axis": [
+        0.214522,
+        -0.976719
+      ],
+      "halfLength": 2.5,
+      "halfWidth": 3.02,
+      "height": 60.342,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -2.15,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        265527.61,
+        531354.94
+      ],
+      "axis": [
+        0.214522,
+        -0.976719
+      ],
+      "halfLength": 4.99,
+      "halfWidth": 3.79,
+      "height": 61.492,
+      "gradient": [
+        -0.03004,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0114.40c6589632954623e05363ab720ac7dc"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0114.40c6589632954623e05363ab720ac7dc",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/566210812",
+        "tags": {
+          "bridge": "yes",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Berkenrode",
+          "source:maxspeed": "sign"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 260000,520000,280000,540000 --run nl-13_11 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 10,
+      "dekBreedte": 5,
+      "brugLengte": 10,
+      "water": null,
+      "portaalhoogte": 4.5,
+      "opritafstand": [
+        18,
+        6
+      ],
+      "oprithelling": 10,
+      "doorstekend": [
+        {
+          "gmlId": "G0114.40c65896ae724623e05363ab720ac7dc",
+          "klasse": "Separation",
+          "oppervlak": 3.6,
+          "onderDek": 0.11,
+          "bovenDekOnderkant": 1.15,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0114.40c658975bf14623e05363ab720ac7dc",
+          "klasse": "Road",
+          "oppervlak": 50.1,
+          "onderDek": 1,
+          "bovenDekOnderkant": 1.06,
+          "actie": "verbergen"
+        }
+      ],
+      "opritHoogtes": [
+        null,
+        61.342
+      ]
+    },
+    "waarschuwingen": [
+      "oprit - zonder PDOK-maaiveld",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 1 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

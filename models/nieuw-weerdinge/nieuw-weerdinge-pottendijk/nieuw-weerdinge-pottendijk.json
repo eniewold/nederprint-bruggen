@@ -1,0 +1,178 @@
+{
+  "name": "Pottendijk",
+  "file": "nieuw-weerdinge-pottendijk.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    262172.74,
+    539488.12
+  ],
+  "xAxis": [
+    0.845566,
+    0.533872
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 54.408,
+  "groundSamplePoints": [
+    [
+      -35.49,
+      0
+    ],
+    [
+      35.49,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "P0022.6b940c40809549c7bd6f22ed9b410210"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        262172.74,
+        539488.12
+      ],
+      "axis": [
+        0.845566,
+        0.533872
+      ],
+      "halfLength": 10.13,
+      "halfWidth": 6,
+      "height": 53.622,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -3.88,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        262148.96,
+        539473.1
+      ],
+      "axis": [
+        -0.845566,
+        -0.533872
+      ],
+      "halfLength": 12,
+      "halfWidth": 7.5,
+      "height": 54.772,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        262196.53,
+        539503.14
+      ],
+      "axis": [
+        0.845566,
+        0.533872
+      ],
+      "halfLength": 12,
+      "halfWidth": 7.5,
+      "height": 54.665,
+      "gradient": [
+        -0.0214,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "P0022.6b940c40809549c7bd6f22ed9b410210"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "P0022.6b940c40809549c7bd6f22ed9b410210",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1429465865",
+        "tags": {
+          "bridge": "viaduct",
+          "highway": "trunk",
+          "lanes": "2",
+          "layer": "1",
+          "maxspeed": "100",
+          "motorroad": "yes",
+          "noname": "yes",
+          "official_name": "Provinciale weg N391",
+          "operator": "Provincie Drenthe",
+          "ref": "N391",
+          "source:official_name": "NWB",
+          "surface": "asphalt",
+          "zone:traffic": "NL:rural",
+          "man_made": "bridge",
+          "name": "Pottendijk"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 0
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 260000,520000,280000,540000 --run nl-13_11 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 32.3,
+      "dekBreedte": 11,
+      "brugLengte": 32.3,
+      "water": null,
+      "portaalhoogte": 9.9,
+      "opritafstand": [
+        19.4,
+        19.4
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "P0022.7f215e828c1b4ceba83400cebab20785",
+          "klasse": "Terrain",
+          "oppervlak": 274.9,
+          "onderDek": 0.15,
+          "bovenDekOnderkant": 2.88,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "P0022.75cd30bd4cfd490b826603a999261bc6",
+          "klasse": "Terrain",
+          "oppervlak": 627,
+          "onderDek": 0.69,
+          "bovenDekOnderkant": 2.87,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "P0022.5206a239981345838fd4adb66b3152d2",
+          "klasse": "Road",
+          "oppervlak": 2831.4,
+          "onderDek": 0,
+          "bovenDekOnderkant": 1.35,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        54.622,
+        54.408
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "3 PDOK-vorm(en) door het dek: 0 verborgen, 3 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}
