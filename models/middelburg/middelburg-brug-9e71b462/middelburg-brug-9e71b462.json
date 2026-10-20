@@ -1,0 +1,199 @@
+{
+  "name": "Havenpoortweg",
+  "file": "middelburg-brug-9e71b462.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    33516.51,
+    390730.81
+  ],
+  "xAxis": [
+    0.716638,
+    0.697445
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 44.19,
+  "groundSamplePoints": [
+    [
+      -31.55,
+      0
+    ],
+    [
+      31.64,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "L0002.989ea34d41194527b100cbf2c38dbb5e",
+    "L0002.9e71b4628f5e4fc4b8c0ae23ec3627b8",
+    "L0002.c39fdf20fb334b08a1edc97eb0125cd3",
+    "G0687.8abeacd5439b757600000000a0376b88"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        33516.51,
+        390730.81
+      ],
+      "axis": [
+        0.716638,
+        0.697445
+      ],
+      "halfLength": 8.26,
+      "halfWidth": 14.61,
+      "height": 43.273,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -5.86,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        33497.66,
+        390712.46
+      ],
+      "axis": [
+        -0.716638,
+        -0.697445
+      ],
+      "halfLength": 12,
+      "halfWidth": 16.11,
+      "height": 44.381,
+      "gradient": [
+        -0.01593,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        33535.44,
+        390749.23
+      ],
+      "axis": [
+        0.716638,
+        0.697445
+      ],
+      "halfLength": 12,
+      "halfWidth": 16.11,
+      "height": 44.423,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "L0002.9e71b4628f5e4fc4b8c0ae23ec3627b8"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "L0002.989ea34d41194527b100cbf2c38dbb5e",
+          "type": "onbekend"
+        },
+        {
+          "id": "L0002.9e71b4628f5e4fc4b8c0ae23ec3627b8",
+          "type": "dek"
+        },
+        {
+          "id": "L0002.c39fdf20fb334b08a1edc97eb0125cd3",
+          "type": "onbekend"
+        }
+      ],
+      "osm": {
+        "id": "way/100712707",
+        "tags": {
+          "bridge": "yes",
+          "carriageway_ref": "Li",
+          "highway": "trunk",
+          "lanes": "3",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "100",
+          "maxweight:signed": "no",
+          "motorroad": "yes",
+          "name": "Havenpoortweg",
+          "oneway": "yes",
+          "operator": "Rijkswaterstaat",
+          "placement": "right_of:1",
+          "ref": "N57",
+          "surface": "asphalt",
+          "turn:lanes": "none|none|merge_to_left",
+          "zone:traffic": "NL:rural"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 3
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 20000,380000,40000,400000 --run nl-1_4 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 28.5,
+      "dekBreedte": 28.2,
+      "brugLengte": 28.7,
+      "water": null,
+      "portaalhoogte": 25.4,
+      "opritafstand": [
+        17.2,
+        17.2
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0687.9658a504c24b44dba3a68db36d1a327b",
+          "klasse": "Terrain",
+          "oppervlak": 602.9,
+          "onderDek": 0.17,
+          "bovenDekOnderkant": 4.86,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0687.8abeacd5439b757600000000a0376b3b",
+          "klasse": "Road",
+          "oppervlak": 104.8,
+          "onderDek": 0.45,
+          "bovenDekOnderkant": 4.47,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0687.8abeacd5439b757600000000a0376a64",
+          "klasse": "Terrain",
+          "oppervlak": 73.8,
+          "onderDek": 0.59,
+          "bovenDekOnderkant": 3.01,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0687.8abeacd5439b757600000000a0376b88",
+          "klasse": "Road",
+          "oppervlak": 219,
+          "onderDek": 0.82,
+          "bovenDekOnderkant": 1.68,
+          "actie": "verbergen"
+        }
+      ],
+      "opritHoogtes": [
+        44.19,
+        44.273
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "4 PDOK-vorm(en) door het dek: 1 verborgen, 3 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}
