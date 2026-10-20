@@ -1,0 +1,149 @@
+{
+  "name": "Nieuwe Norgerbrug",
+  "file": "bovensmilde-nieuwe-norgerbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    229195.05,
+    556777.87
+  ],
+  "xAxis": [
+    0.849727,
+    -0.527223
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 53.971,
+  "groundSamplePoints": [
+    [
+      -11.9,
+      0
+    ],
+    [
+      18.99,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "P0022.0990616f413543fda25392492dae4544",
+    "P0022.282efcf61bd049f29602f360a6848abf",
+    "P0022.7222581981654416a24c1b920e99f0f4"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        229186.13,
+        556783.4
+      ],
+      "axis": [
+        -0.849727,
+        0.527223
+      ],
+      "halfLength": 7.02,
+      "halfWidth": 6.75,
+      "height": 54.42,
+      "gradient": [
+        -0.02136,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        229209.99,
+        556768.59
+      ],
+      "axis": [
+        0.849727,
+        -0.527223
+      ],
+      "halfLength": 7.02,
+      "halfWidth": 6.75,
+      "height": 54.27,
+      "gradient": [
+        -0.0427,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "P0022.7222581981654416a24c1b920e99f0f4"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "P0022.0990616f413543fda25392492dae4544",
+          "type": "onbekend"
+        },
+        {
+          "id": "P0022.282efcf61bd049f29602f360a6848abf",
+          "type": "onbekend"
+        },
+        {
+          "id": "P0022.7222581981654416a24c1b920e99f0f4",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1561711268",
+        "tags": {
+          "access": "no",
+          "bicycle": "no",
+          "bridge": "movable",
+          "bridge:name": "Norgerbrug",
+          "highway": "primary",
+          "lane_markings": "no",
+          "layer": "1",
+          "maxspeed": "80",
+          "maxweight:signed": "no",
+          "name": "Nieuwe Norgerbrug",
+          "operator": "Provincie Drenthe",
+          "priority": "forward",
+          "ref": "N373",
+          "surface": "asphalt",
+          "zone:traffic": "NL:rural",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 3
+    },
+    "type": "basculebrug",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,540000,240000,560000 --run nl-11_12 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 7,
+      "dekBreedte": 9.5,
+      "brugLengte": 14,
+      "water": [
+        -3,
+        3
+      ],
+      "portaalhoogte": 8.5,
+      "opritafstand": [
+        8.4,
+        8.4
+      ],
+      "oprithelling": 14,
+      "doorstekend": [],
+      "opritHoogtes": [
+        54.27,
+        53.971
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "bridge=movable zonder mechanisme: basculebrug is een gok",
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

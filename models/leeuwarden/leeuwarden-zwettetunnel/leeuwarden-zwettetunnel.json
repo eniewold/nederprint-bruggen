@@ -1,0 +1,169 @@
+{
+  "name": "Zwettetunnel",
+  "file": "leeuwarden-zwettetunnel.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    180537.59,
+    578606.58
+  ],
+  "xAxis": [
+    -0.956182,
+    -0.292772
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 45.168,
+  "groundSamplePoints": [
+    [
+      -35.91,
+      0
+    ],
+    [
+      35.91,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0080.82f5ed5b51f25e9fe0536a185791766e",
+    "G0080.24e907a8b1aa3789e0530d0957918266"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        180537.59,
+        578606.58
+      ],
+      "axis": [
+        -0.956182,
+        -0.292772
+      ],
+      "halfLength": 10.32,
+      "halfWidth": 9.82,
+      "height": 44.468,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -2.27,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        180564.67,
+        578614.87
+      ],
+      "axis": [
+        0.956182,
+        0.292772
+      ],
+      "halfLength": 12,
+      "halfWidth": 11.32,
+      "height": 45.468,
+      "gradient": [
+        -0.02499,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        180510.51,
+        578598.28
+      ],
+      "axis": [
+        -0.956182,
+        -0.292772
+      ],
+      "halfLength": 12,
+      "halfWidth": 11.32,
+      "height": 45.618,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0080.82f5ed5b51f25e9fe0536a185791766e"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0080.82f5ed5b51f25e9fe0536a185791766e",
+          "type": "dek"
+        },
+        {
+          "id": "G0080.24e907a8b1aa3789e0530d0957918266",
+          "type": "landhoofd"
+        }
+      ],
+      "osm": {
+        "id": "relation/14194839",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "yes",
+          "foot": "use_sidepath",
+          "highway": "primary",
+          "lanes": "2",
+          "layer": "1",
+          "maxspeed": "50",
+          "name": "Zwettetunnel",
+          "oneway": "yes",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 2
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 180000,560000,200000,580000 --run nl-9_13 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 32.6,
+      "dekBreedte": 18.6,
+      "brugLengte": 32.6,
+      "water": null,
+      "portaalhoogte": 16.8,
+      "opritafstand": [
+        19.6,
+        19.6
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0080.fea2dfb56e4fccc5e0530c195791bff1",
+          "klasse": "Road",
+          "oppervlak": 535.9,
+          "onderDek": 0,
+          "bovenDekOnderkant": 1.27,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0080.82f5ed5b4b455e9fe0536a185791766e",
+          "klasse": "Forest",
+          "oppervlak": 817.2,
+          "onderDek": 0.12,
+          "bovenDekOnderkant": 0.76,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        45.168,
+        45.468
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}
