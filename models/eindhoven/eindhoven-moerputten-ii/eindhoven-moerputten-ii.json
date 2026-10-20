@@ -1,0 +1,174 @@
+{
+  "name": "Moerputten II",
+  "file": "eindhoven-moerputten-ii.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    162640.38,
+    379485.58
+  ],
+  "xAxis": [
+    0.950185,
+    -0.311686
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 72.193,
+  "groundSamplePoints": [
+    [
+      -146.13,
+      0
+    ],
+    [
+      122.41,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "L0002.9e44d4008c7349bba94cb9902b3314db",
+    "L0002.d34d9b5a364a44da9cf8215db357c9fa",
+    "L0002.d59de4408bd54141be4c3f53f28e7387"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        162640.38,
+        379485.58
+      ],
+      "axis": [
+        0.950185,
+        -0.311686
+      ],
+      "halfLength": 66.77,
+      "halfWidth": 21.57,
+      "height": 72.146,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.2,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        162509.13,
+        379528.63
+      ],
+      "axis": [
+        -0.950185,
+        0.311686
+      ],
+      "halfLength": 12,
+      "halfWidth": 23.07,
+      "height": 72.819,
+      "gradient": [
+        -0.0522,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        162749.09,
+        379449.92
+      ],
+      "axis": [
+        0.950185,
+        -0.311686
+      ],
+      "halfLength": 12,
+      "halfWidth": 23.07,
+      "height": 73.296,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "L0002.9e44d4008c7349bba94cb9902b3314db"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "L0002.9e44d4008c7349bba94cb9902b3314db",
+          "type": "dek"
+        },
+        {
+          "id": "L0002.d34d9b5a364a44da9cf8215db357c9fa",
+          "type": "onbekend"
+        },
+        {
+          "id": "L0002.d59de4408bd54141be4c3f53f28e7387",
+          "type": "onbekend"
+        }
+      ],
+      "osm": {
+        "id": "way/678155401",
+        "tags": {
+          "bridge": "yes",
+          "carriageway_ref": "Re",
+          "highway": "motorway",
+          "int_ref": "E 25",
+          "lanes": "2",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "100",
+          "maxspeed:conditional": "120 @ (19:00-06:00)",
+          "oneway": "yes",
+          "operator": "Rijkswaterstaat",
+          "ref": "A2",
+          "surface": "asphalt",
+          "toll:hgv": "yes",
+          "bridge:structure": "beam",
+          "man_made": "bridge",
+          "name": "Moerputten II"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 3
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,360000,180000,380000 --run nl-8_3 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 145.5,
+      "dekBreedte": 42.1,
+      "brugLengte": 228.5,
+      "water": null,
+      "portaalhoogte": 37.9,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "L0002.8abeacd5439b75728439ad8cfdaced87",
+          "klasse": "Terrain",
+          "oppervlak": 490.2,
+          "onderDek": 0.34,
+          "bovenDekOnderkant": 0.2,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        72.193,
+        73.146
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}
