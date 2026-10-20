@@ -1,0 +1,187 @@
+{
+  "name": "Gedempte Tankgracht",
+  "file": "s-gravenzande-brug-d92bf236.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    71445.92,
+    447252.74
+  ],
+  "xAxis": [
+    -0.684197,
+    0.729297
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 44.232,
+  "groundSamplePoints": [
+    [
+      -16.75,
+      0
+    ],
+    [
+      16.75,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G1783.d92bf236f32547b0894858325df134c1",
+    "G1783.e39e119fe1794925ae92aea00c27aad0"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        71445.92,
+        447252.74
+      ],
+      "axis": [
+        -0.684197,
+        0.729297
+      ],
+      "halfLength": 3.81,
+      "halfWidth": 4.29,
+      "height": 43.259,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.95,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        71456.34,
+        447241.63
+      ],
+      "axis": [
+        0.684197,
+        -0.729297
+      ],
+      "halfLength": 7.61,
+      "halfWidth": 5.69,
+      "height": 44.409,
+      "gradient": [
+        -0.01971,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        71435.51,
+        447263.84
+      ],
+      "axis": [
+        -0.684197,
+        0.729297
+      ],
+      "halfLength": 7.61,
+      "halfWidth": 5.69,
+      "height": 44.395,
+      "gradient": [
+        -0.0215,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G1783.d92bf236f32547b0894858325df134c1"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G1783.d92bf236f32547b0894858325df134c1",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/573329326",
+        "tags": {
+          "bridge": "yes",
+          "highway": "residential",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Gedempte Tankgracht"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 60000,440000,80000,460000 --run nl-3_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 15.2,
+      "dekBreedte": 7.6,
+      "brugLengte": 15.2,
+      "water": [
+        -4.1,
+        2.9
+      ],
+      "portaalhoogte": 6.8,
+      "opritafstand": [
+        9.1,
+        9.1
+      ],
+      "oprithelling": 15.2,
+      "doorstekend": [
+        {
+          "gmlId": "G1783.02babff7a45643f8971df040d825b565",
+          "klasse": "Road",
+          "oppervlak": 178.2,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.95,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G1783.c917d9a8d95d42c0b8717273eedc605c",
+          "klasse": "Separation",
+          "oppervlak": 0.5,
+          "onderDek": 0.52,
+          "bovenDekOnderkant": 0.94,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G1783.e39e119fe1794925ae92aea00c27aad0",
+          "klasse": "Separation",
+          "oppervlak": 0.8,
+          "onderDek": 0.92,
+          "bovenDekOnderkant": 0.93,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "G1783.ac11cfccf3f9440cb099626e3b2bc2c0",
+          "klasse": "Road",
+          "oppervlak": 270.2,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.88,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G1783.28b85b5da9964d62b8aa3ce473773598",
+          "klasse": "Road",
+          "oppervlak": 23.3,
+          "onderDek": 0.08,
+          "bovenDekOnderkant": 0.75,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        44.259,
+        44.232
+      ]
+    },
+    "waarschuwingen": [
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "5 PDOK-vorm(en) door het dek: 1 verborgen, 4 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "name": "'t Vaareind",
+  "file": "breda-t-vaareind.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    109028.09,
+    399743.35
+  ],
+  "xAxis": [
+    -0.378784,
+    -0.925485
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 54.121,
+  "groundSamplePoints": [
+    [
+      -108.01,
+      0
+    ],
+    [
+      108.01,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "L0002.53ce1a8a785d40fcb64e55a15aa757bf"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        109065.97,
+        399835.9
+      ],
+      "axis": [
+        0.378784,
+        0.925485
+      ],
+      "halfLength": 12,
+      "halfWidth": 14.96,
+      "height": 54.473,
+      "gradient": [
+        -0.0293,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        108990.21,
+        399650.79
+      ],
+      "axis": [
+        -0.378784,
+        -0.925485
+      ],
+      "halfLength": 12,
+      "halfWidth": 14.96,
+      "height": 54.674,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "L0002.53ce1a8a785d40fcb64e55a15aa757bf"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "L0002.53ce1a8a785d40fcb64e55a15aa757bf",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/460926431",
+        "tags": {
+          "bridge": "yes",
+          "carriageway_ref": "Li",
+          "highway": "motorway_link",
+          "lanes": "2",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "100",
+          "maxspeed:conditional": "130 @ (19:00-06:00)",
+          "motorway": "yes",
+          "oneway": "yes",
+          "operator": "Rijkswaterstaat",
+          "ref": "A58",
+          "surface": "asphalt",
+          "toll:hgv": "yes",
+          "zone:traffic": "NL:rural",
+          "bridge:structure": "beam",
+          "man_made": "bridge",
+          "name": "'t Vaareind"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,380000,120000,400000 --run nl-5_4 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 176,
+      "dekBreedte": 25.9,
+      "brugLengte": 176,
+      "water": null,
+      "portaalhoogte": 23.3,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [],
+      "opritHoogtes": [
+        54.121,
+        54.524
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

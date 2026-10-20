@@ -1,0 +1,177 @@
+{
+  "name": "Lindenborgh",
+  "file": "breda-lindenborgh-3.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    109102.87,
+    399093.16
+  ],
+  "xAxis": [
+    0.574718,
+    -0.818351
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 54.513,
+  "groundSamplePoints": [
+    [
+      -52.02,
+      0
+    ],
+    [
+      52.02,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "L0002.81e8b38c82ae499b8d9bd3d96c961645",
+    "L0002.928f1320562746799afd634fb83d40bb",
+    "L0002.f8dc5d9d580b4ff59cb365ce95f84ad8"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        109102.87,
+        399093.16
+      ],
+      "axis": [
+        0.574718,
+        -0.818351
+      ],
+      "halfLength": 25.97,
+      "halfWidth": 9.39,
+      "height": 53.635,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.15,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        109077.57,
+        399129.18
+      ],
+      "axis": [
+        -0.574718,
+        0.818351
+      ],
+      "halfLength": 12,
+      "halfWidth": 10.89,
+      "height": 54.785,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        109128.17,
+        399057.13
+      ],
+      "axis": [
+        0.574718,
+        -0.818351
+      ],
+      "halfLength": 12,
+      "halfWidth": 10.89,
+      "height": 54.724,
+      "gradient": [
+        -0.0176,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "L0002.81e8b38c82ae499b8d9bd3d96c961645"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "L0002.81e8b38c82ae499b8d9bd3d96c961645",
+          "type": "dek"
+        },
+        {
+          "id": "L0002.928f1320562746799afd634fb83d40bb",
+          "type": "onbekend"
+        },
+        {
+          "id": "L0002.f8dc5d9d580b4ff59cb365ce95f84ad8",
+          "type": "onbekend"
+        }
+      ],
+      "osm": {
+        "id": "way/460975625",
+        "tags": {
+          "bridge": "yes",
+          "carriageway_ref": "s",
+          "highway": "motorway_link",
+          "int_ref": "E 312",
+          "lanes": "1",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "100",
+          "maxspeed:advisory": "90",
+          "maxspeed:conditional": "130 @ (19:00-06:00);70 @ wet",
+          "motorway": "yes",
+          "oneway": "yes",
+          "operator": "Rijkswaterstaat",
+          "ref": "A58",
+          "surface": "asphalt",
+          "toll:hgv": "yes",
+          "zone:traffic": "NL:rural",
+          "bridge:structure": "beam",
+          "man_made": "bridge",
+          "name": "Lindenborgh"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 3
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,380000,120000,400000 --run nl-5_4 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 63.9,
+      "dekBreedte": 17.8,
+      "brugLengte": 64,
+      "water": null,
+      "portaalhoogte": 16,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0758.2d5ec18b095e46c3e05332a1e90a3608",
+          "klasse": "Separation",
+          "oppervlak": 2.7,
+          "onderDek": 0.12,
+          "bovenDekOnderkant": 0.15,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        54.635,
+        54.513
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

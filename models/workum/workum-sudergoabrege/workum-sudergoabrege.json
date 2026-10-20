@@ -1,0 +1,208 @@
+{
+  "name": "Sudergoabrêge",
+  "file": "workum-sudergoabrege.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    159896.42,
+    554906.24
+  ],
+  "xAxis": [
+    0.622225,
+    0.782839
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 44.703,
+  "groundSamplePoints": [
+    [
+      -43.53,
+      0
+    ],
+    [
+      43.53,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "P0021.90a70d843fd249cbb9b1e51708dfd448",
+    "P0021.116f8446522249d58743cfdd4885f780",
+    "P0021.97451065217d4a499fd252f0f7f60fbf",
+    "P0021.b104d837e6bf4ae8996dbcaaa3237043",
+    "G1900.848aa45cfafc4948aaf9830154d97aee"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        159896.42,
+        554906.24
+      ],
+      "axis": [
+        0.622225,
+        0.782839
+      ],
+      "halfLength": 17.53,
+      "halfWidth": 15.31,
+      "height": 43.721,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.43,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        159874.31,
+        554878.42
+      ],
+      "axis": [
+        -0.622225,
+        -0.782839
+      ],
+      "halfLength": 12,
+      "halfWidth": 16.81,
+      "height": 44.862,
+      "gradient": [
+        -0.01324,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        159918.53,
+        554934.05
+      ],
+      "axis": [
+        0.622225,
+        0.782839
+      ],
+      "halfLength": 12,
+      "halfWidth": 16.81,
+      "height": 44.871,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "P0021.90a70d843fd249cbb9b1e51708dfd448",
+      "P0021.97451065217d4a499fd252f0f7f60fbf",
+      "P0021.b104d837e6bf4ae8996dbcaaa3237043"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "P0021.90a70d843fd249cbb9b1e51708dfd448",
+          "type": "dek"
+        },
+        {
+          "id": "P0021.116f8446522249d58743cfdd4885f780",
+          "type": "pijler"
+        },
+        {
+          "id": "P0021.97451065217d4a499fd252f0f7f60fbf",
+          "type": "dek"
+        },
+        {
+          "id": "P0021.b104d837e6bf4ae8996dbcaaa3237043",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/888390499",
+        "tags": {
+          "agricultural": "no",
+          "bicycle": "no",
+          "bridge": "movable",
+          "bridge:movable": "bascule",
+          "foot": "no",
+          "highway": "trunk",
+          "layer": "1",
+          "maxspeed": "70",
+          "maxspeed:type": "sign",
+          "mofa": "no",
+          "moped": "no",
+          "motorroad": "no",
+          "name": "Sudergoabrêge",
+          "oneway": "yes",
+          "operator": "Provincie Fryslân",
+          "ref": "N359",
+          "surface": "asphalt",
+          "zone:traffic": "NL:rural",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
+      "fis": {
+        "id": 47471,
+        "naam": "Sudergoabrêge",
+        "afstand": 2,
+        "beweegbaar": true,
+        "doorvaarthoogteGesloten": 2.4
+      },
+      "pdokBridgeVlakken": 4
+    },
+    "type": "basculebrug",
+    "doorvaarthoogte": 2.4,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,540000,160000,560000 --run nl-7_12 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 47.1,
+      "dekBreedte": 29.6,
+      "brugLengte": 47.1,
+      "water": [
+        -0.5,
+        16
+      ],
+      "portaalhoogte": 26.7,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "P0021.e904ebad600a43a0a1bda6c9caa21617",
+          "klasse": "Terrain",
+          "oppervlak": 407.7,
+          "onderDek": 0.14,
+          "bovenDekOnderkant": 0.43,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "P0021.53ee79f5bae94a1ca4f061b2dd765440",
+          "klasse": "Terrain",
+          "oppervlak": 195.6,
+          "onderDek": 0.13,
+          "bovenDekOnderkant": 0.28,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G1900.848aa45cfafc4948aaf9830154d97aee",
+          "klasse": "Terrain",
+          "oppervlak": 17.4,
+          "onderDek": 0.83,
+          "bovenDekOnderkant": 0.17,
+          "actie": "verbergen"
+        }
+      ],
+      "opritHoogtes": [
+        44.703,
+        44.721
+      ]
+    },
+    "waarschuwingen": [
+      "3 PDOK-vorm(en) door het dek: 1 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

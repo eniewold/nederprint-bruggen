@@ -1,0 +1,176 @@
+{
+  "name": "Brug Noorderkeersluis",
+  "file": "workum-brug-noorderkeersluis.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    158328.94,
+    550927.37
+  ],
+  "xAxis": [
+    0.274621,
+    -0.961553
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 44.311,
+  "groundSamplePoints": [
+    [
+      -18.39,
+      0
+    ],
+    [
+      18.39,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "P0021.cdb59d3ce79a450f822955e862c0a583"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        158328.94,
+        550927.37
+      ],
+      "axis": [
+        0.274621,
+        -0.961553
+      ],
+      "halfLength": 4.18,
+      "halfWidth": 10.75,
+      "height": 43.364,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.46,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        158324.35,
+        550943.45
+      ],
+      "axis": [
+        -0.274621,
+        0.961553
+      ],
+      "halfLength": 8.36,
+      "halfWidth": 12.25,
+      "height": 44.487,
+      "gradient": [
+        -0.02108,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        158333.53,
+        550911.3
+      ],
+      "axis": [
+        0.274621,
+        -0.961553
+      ],
+      "halfLength": 8.36,
+      "halfWidth": 12.25,
+      "height": 44.514,
+      "gradient": [
+        -0.01794,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "P0021.cdb59d3ce79a450f822955e862c0a583"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "P0021.cdb59d3ce79a450f822955e862c0a583",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/730005827",
+        "tags": {
+          "bridge": "yes",
+          "highway": "trunk",
+          "lanes": "2",
+          "layer": "1",
+          "maxspeed": "100",
+          "motorroad": "yes",
+          "name": "Slaperdijk",
+          "operator": "Provincie Fryslân",
+          "ref": "N359",
+          "surface": "asphalt",
+          "man_made": "bridge",
+          "bridge:structure": "beam"
+        }
+      },
+      "fis": {
+        "id": 34159415,
+        "naam": "Brug Noorderkeersluis",
+        "afstand": 2,
+        "beweegbaar": false,
+        "doorvaarthoogteGesloten": 2.16
+      },
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": 2.16,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,540000,160000,560000 --run nl-7_12 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 16.7,
+      "dekBreedte": 20.5,
+      "brugLengte": 16.7,
+      "water": [
+        -2.4,
+        2.1
+      ],
+      "portaalhoogte": 18.4,
+      "opritafstand": [
+        10,
+        10
+      ],
+      "oprithelling": 16.7,
+      "doorstekend": [
+        {
+          "gmlId": "P0021.d21311d2dc8649dfa8e40f215b5fc211",
+          "klasse": "Terrain",
+          "oppervlak": 74.8,
+          "onderDek": 0.37,
+          "bovenDekOnderkant": 0.46,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "P0021.d011eeb96ddf4421b24c7d0c28d0ef05",
+          "klasse": "Terrain",
+          "oppervlak": 153.3,
+          "onderDek": 0.37,
+          "bovenDekOnderkant": 0.36,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        44.311,
+        44.364
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

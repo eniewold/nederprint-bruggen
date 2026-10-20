@@ -1,0 +1,177 @@
+{
+  "name": "Brug in Groote Wiske I",
+  "file": "hindeloopen-brug-in-groote-wiske-i.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    157587.34,
+    550948.52
+  ],
+  "xAxis": [
+    0.4354,
+    -0.900237
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 43.524,
+  "groundSamplePoints": [
+    [
+      -8.76,
+      0
+    ],
+    [
+      8.76,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G1900.9889eeae3b8340b3b81d3ecbc2fe98db"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        157587.34,
+        550948.52
+      ],
+      "axis": [
+        0.4354,
+        -0.900237
+      ],
+      "halfLength": 1.99,
+      "halfWidth": 3.05,
+      "height": 42.78,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.59,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        157583.87,
+        550955.69
+      ],
+      "axis": [
+        -0.4354,
+        0.900237
+      ],
+      "halfLength": 3.98,
+      "halfWidth": 3.83,
+      "height": 43.93,
+      "gradient": [
+        -0.03767,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        157590.81,
+        550941.35
+      ],
+      "axis": [
+        0.4354,
+        -0.900237
+      ],
+      "halfLength": 3.98,
+      "halfWidth": 3.83,
+      "height": 43.802,
+      "gradient": [
+        -0.06983,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G1900.9889eeae3b8340b3b81d3ecbc2fe98db"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G1900.9889eeae3b8340b3b81d3ecbc2fe98db",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/851786531",
+        "tags": {
+          "bridge": "yes",
+          "highway": "service",
+          "layer": "1",
+          "name": "Groote Wiske",
+          "smoothness": "intermediate",
+          "surface": "paved"
+        }
+      },
+      "fis": {
+        "id": 34159403,
+        "naam": "Brug in Groote Wiske I",
+        "afstand": 1,
+        "beweegbaar": false,
+        "doorvaarthoogteGesloten": 2
+      },
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": 2,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,540000,160000,560000 --run nl-7_12 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 8,
+      "dekBreedte": 5.1,
+      "brugLengte": 8,
+      "water": [
+        -1.5,
+        2.5
+      ],
+      "portaalhoogte": 4.6,
+      "opritafstand": [
+        4.8,
+        4.8
+      ],
+      "oprithelling": 8,
+      "doorstekend": [
+        {
+          "gmlId": "W0653.994e9954c5db42888a2df899affa4d53",
+          "klasse": "Terrain",
+          "oppervlak": 44.7,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.59,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G1900.767e79e20c2444ff99d6132e1d2acf7b",
+          "klasse": "Road",
+          "oppervlak": 40.9,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.59,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G1900.dbfa9e43575f43f99dd6b311e1dbfe4d",
+          "klasse": "Terrain",
+          "oppervlak": 769.7,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.39,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        43.78,
+        43.524
+      ]
+    },
+    "waarschuwingen": [
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "3 PDOK-vorm(en) door het dek: 0 verborgen, 3 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

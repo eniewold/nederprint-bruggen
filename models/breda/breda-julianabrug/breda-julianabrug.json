@@ -1,0 +1,165 @@
+{
+  "name": "Julianabrug",
+  "file": "breda-julianabrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    112468.92,
+    399119.55
+  ],
+  "xAxis": [
+    0.919084,
+    0.394062
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 46.757,
+  "groundSamplePoints": [
+    [
+      -36.6,
+      0
+    ],
+    [
+      36.6,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0758.89485f6951e540f98b8320614ea6a634"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        112468.92,
+        399119.55
+      ],
+      "axis": [
+        0.919084,
+        0.394062
+      ],
+      "halfLength": 10.64,
+      "halfWidth": 7.33,
+      "height": 45.863,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.12,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        112442.6,
+        399108.26
+      ],
+      "axis": [
+        -0.919084,
+        -0.394062
+      ],
+      "halfLength": 12,
+      "halfWidth": 8.83,
+      "height": 46.96,
+      "gradient": [
+        -0.01693,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        112495.24,
+        399130.83
+      ],
+      "axis": [
+        0.919084,
+        0.394062
+      ],
+      "halfLength": 12,
+      "halfWidth": 8.83,
+      "height": 47.013,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0758.89485f6951e540f98b8320614ea6a634"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0758.89485f6951e540f98b8320614ea6a634",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/580583421",
+        "tags": {
+          "bridge": "yes",
+          "cycleway": "lane",
+          "highway": "secondary",
+          "layer": "1",
+          "maxspeed": "50",
+          "name": "Julianabrug",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,380000,120000,400000 --run nl-5_4 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 33.3,
+      "dekBreedte": 13.7,
+      "brugLengte": 33.3,
+      "water": [
+        -6.1,
+        9.9
+      ],
+      "portaalhoogte": 12.3,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0758.0a5a182728d04ad58159af182e200eaf",
+          "klasse": "Terrain",
+          "oppervlak": 1243,
+          "onderDek": 0.02,
+          "bovenDekOnderkant": 0.12,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0758.f7ad31e16c094d9191c31ec32c0091c1",
+          "klasse": "Terrain",
+          "oppervlak": 1178.5,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.11,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        46.757,
+        46.863
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

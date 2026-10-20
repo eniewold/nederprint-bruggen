@@ -1,0 +1,133 @@
+{
+  "name": "Haagpoortbrug",
+  "file": "breda-haagpoortbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    111771.33,
+    399844.71
+  ],
+  "xAxis": [
+    0.967834,
+    0.251588
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 46.423,
+  "groundSamplePoints": [
+    [
+      -22.76,
+      0
+    ],
+    [
+      22.76,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0758.f43a8b1f976f493781e23e69d8db1b43"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        111751.3,
+        399839.51
+      ],
+      "axis": [
+        -0.967834,
+        -0.251588
+      ],
+      "halfLength": 10.35,
+      "halfWidth": 20.78,
+      "height": 46.653,
+      "gradient": [
+        -0.0145,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        111791.35,
+        399849.92
+      ],
+      "axis": [
+        0.967834,
+        0.251588
+      ],
+      "halfLength": 10.35,
+      "halfWidth": 20.78,
+      "height": 46.613,
+      "gradient": [
+        -0.01834,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0758.f43a8b1f976f493781e23e69d8db1b43"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0758.f43a8b1f976f493781e23e69d8db1b43",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/535344423",
+        "tags": {
+          "bridge": "yes",
+          "highway": "tertiary",
+          "lanes": "1",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Haagpoortbrug",
+          "oneway": "yes",
+          "surface": "paved",
+          "bridge:structure": "beam",
+          "loc_name": "Simonse Brug",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,380000,120000,400000 --run nl-5_4 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 20.7,
+      "dekBreedte": 37.6,
+      "brugLengte": 20.7,
+      "water": [
+        -9.8,
+        10.2
+      ],
+      "portaalhoogte": 33.8,
+      "opritafstand": [
+        12.4,
+        12.4
+      ],
+      "oprithelling": 20.7,
+      "doorstekend": [],
+      "opritHoogtes": [
+        46.503,
+        46.423
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

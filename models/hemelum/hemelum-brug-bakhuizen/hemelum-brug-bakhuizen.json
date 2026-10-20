@@ -1,0 +1,190 @@
+{
+  "name": "Brug Bakhuizen",
+  "file": "hemelum-brug-bakhuizen.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    158572.64,
+    543141.22
+  ],
+  "xAxis": [
+    -0.984522,
+    -0.175259
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 43.435,
+  "groundSamplePoints": [
+    [
+      -29,
+      0
+    ],
+    [
+      29,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G1900.08ed0176975e4699a9e4fb95d157e67b"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        158572.64,
+        543141.22
+      ],
+      "axis": [
+        -0.984522,
+        -0.175259
+      ],
+      "halfLength": 7.18,
+      "halfWidth": 7.87,
+      "height": 43.114,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -2.73,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        158597.44,
+        543145.64
+      ],
+      "axis": [
+        0.984522,
+        0.175259
+      ],
+      "halfLength": 12,
+      "halfWidth": 9.37,
+      "height": 43.924,
+      "gradient": [
+        -0.04076,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        158547.85,
+        543136.81
+      ],
+      "axis": [
+        -0.984522,
+        -0.175259
+      ],
+      "halfLength": 12,
+      "halfWidth": 9.37,
+      "height": 44.264,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G1900.08ed0176975e4699a9e4fb95d157e67b"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G1900.08ed0176975e4699a9e4fb95d157e67b",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/82226531",
+        "tags": {
+          "bridge": "yes",
+          "foot": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "mofa": "designated",
+          "moped": "designated",
+          "segregated": "no",
+          "smoothness": "good",
+          "surface": "concrete:plates",
+          "traffic_sign": "NL:G12a",
+          "width": "2.5"
+        }
+      },
+      "fis": {
+        "id": 30307373,
+        "naam": "Brug Bakhuizen",
+        "afstand": 4,
+        "beweegbaar": false,
+        "doorvaarthoogteGesloten": 2.67
+      },
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": 2.67,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,540000,160000,560000 --run nl-7_12 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 26.4,
+      "dekBreedte": 14.7,
+      "brugLengte": 26.4,
+      "water": [
+        -4.7,
+        3.8
+      ],
+      "portaalhoogte": 13.3,
+      "opritafstand": [
+        15.8,
+        15.8
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G1900.255d37edef45406fa5d94f0a9f96adba",
+          "klasse": "Road",
+          "oppervlak": 458.3,
+          "onderDek": 0,
+          "bovenDekOnderkant": 1.73,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G1900.192925e807164bdb819164ae3da9d455",
+          "klasse": "Road",
+          "oppervlak": 496.8,
+          "onderDek": 0,
+          "bovenDekOnderkant": 1.6,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G1900.f3ad6ca830554b1fb017d25e372282d9",
+          "klasse": "Terrain",
+          "oppervlak": 77.7,
+          "onderDek": 0.47,
+          "bovenDekOnderkant": 0.84,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G1900.6c13b99bfa0846c580a0a1488722e1ee",
+          "klasse": "Terrain",
+          "oppervlak": 71.8,
+          "onderDek": 0.4,
+          "bovenDekOnderkant": 0.32,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        43.435,
+        44.114
+      ]
+    },
+    "waarschuwingen": [
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "4 PDOK-vorm(en) door het dek: 0 verborgen, 4 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

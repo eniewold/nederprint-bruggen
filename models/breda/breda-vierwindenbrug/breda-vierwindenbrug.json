@@ -1,0 +1,131 @@
+{
+  "name": "Vierwindenbrug",
+  "file": "breda-vierwindenbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    112994.03,
+    399423.31
+  ],
+  "xAxis": [
+    0.726011,
+    -0.687683
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 46.946,
+  "groundSamplePoints": [
+    [
+      -22.78,
+      0
+    ],
+    [
+      22.78,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0758.377714abd090422b932caac3d065a25e"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        112979,
+        399437.55
+      ],
+      "axis": [
+        -0.726011,
+        0.687683
+      ],
+      "halfLength": 10.35,
+      "halfWidth": 15.69,
+      "height": 47.123,
+      "gradient": [
+        -0.01709,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        113009.06,
+        399409.07
+      ],
+      "axis": [
+        0.726011,
+        -0.687683
+      ],
+      "halfLength": 10.35,
+      "halfWidth": 15.69,
+      "height": 47.15,
+      "gradient": [
+        -0.01449,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0758.377714abd090422b932caac3d065a25e"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0758.377714abd090422b932caac3d065a25e",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/580271588",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "yes",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "50",
+          "name": "Vierwindenbrug",
+          "oneway": "yes",
+          "surface": "asphalt",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,380000,120000,400000 --run nl-5_4 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 20.7,
+      "dekBreedte": 27.4,
+      "brugLengte": 20.7,
+      "water": [
+        -9.9,
+        10.1
+      ],
+      "portaalhoogte": 24.6,
+      "opritafstand": [
+        12.4,
+        12.4
+      ],
+      "oprithelling": 20.7,
+      "doorstekend": [],
+      "opritHoogtes": [
+        46.946,
+        47
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

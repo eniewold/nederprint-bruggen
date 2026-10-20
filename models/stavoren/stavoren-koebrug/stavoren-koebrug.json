@@ -1,0 +1,139 @@
+{
+  "name": "Koebrug",
+  "file": "stavoren-koebrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    153301.18,
+    543998.54
+  ],
+  "xAxis": [
+    0.91928,
+    0.393604
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 42.09,
+  "groundSamplePoints": [
+    [
+      -32.2,
+      0
+    ],
+    [
+      32.2,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G1900.b535854fd9b74b8ba1eca1e1459bcc0f"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        153276.69,
+        543988.06
+      ],
+      "axis": [
+        -0.91928,
+        -0.393604
+      ],
+      "halfLength": 12,
+      "halfWidth": 3.54,
+      "height": 43.171,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        153325.66,
+        544009.02
+      ],
+      "axis": [
+        0.91928,
+        0.393604
+      ],
+      "halfLength": 12,
+      "halfWidth": 3.54,
+      "height": 42.705,
+      "gradient": [
+        -0.05129,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G1900.b535854fd9b74b8ba1eca1e1459bcc0f"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G1900.b535854fd9b74b8ba1eca1e1459bcc0f",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1293536021",
+        "tags": {
+          "bridge": "movable",
+          "cycleway:both": "no",
+          "highway": "unclassified",
+          "lane_markings": "no",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Koeweg",
+          "priority": "forward",
+          "surface": "asphalt",
+          "zone:traffic": "NL:urban",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
+      "fis": {
+        "id": 25273,
+        "naam": "Koebrug",
+        "afstand": 3,
+        "beweegbaar": true,
+        "doorvaarthoogteGesloten": 1.62
+      },
+      "pdokBridgeVlakken": 1
+    },
+    "type": "basculebrug",
+    "doorvaarthoogte": 1.62,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,540000,160000,560000 --run nl-7_12 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 29.3,
+      "dekBreedte": 4.7,
+      "brugLengte": 29.3,
+      "water": [
+        -12.1,
+        11.9
+      ],
+      "portaalhoogte": 4.2,
+      "opritafstand": [
+        17.6,
+        17.6
+      ],
+      "oprithelling": 24,
+      "doorstekend": [],
+      "opritHoogtes": [
+        43.021,
+        42.09
+      ]
+    },
+    "waarschuwingen": [
+      "bridge=movable zonder mechanisme: basculebrug is een gok",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

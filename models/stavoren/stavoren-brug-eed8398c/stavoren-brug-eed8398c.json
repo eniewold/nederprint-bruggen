@@ -1,0 +1,144 @@
+{
+  "name": "Stadsfenne",
+  "file": "stavoren-brug-eed8398c.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    153360.71,
+    543472.46
+  ],
+  "xAxis": [
+    -0.897862,
+    -0.440277
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 42.13,
+  "groundSamplePoints": [
+    [
+      -6.77,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "P0021.eed8398c2c7a430fb0bb50f210af0c34"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        153360.71,
+        543472.46
+      ],
+      "axis": [
+        -0.897862,
+        -0.440277
+      ],
+      "halfLength": 0.39,
+      "halfWidth": 4.86,
+      "height": 41.13,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -2.26,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        153364.09,
+        543474.12
+      ],
+      "axis": [
+        0.897862,
+        0.440277
+      ],
+      "halfLength": 3,
+      "halfWidth": 6.36,
+      "height": 42.28,
+      "gradient": [
+        -0.05,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "P0021.eed8398c2c7a430fb0bb50f210af0c34"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "P0021.eed8398c2c7a430fb0bb50f210af0c34",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1294617534",
+        "tags": {
+          "bridge": "movable",
+          "bridge:movable": "bascule",
+          "cycleway:both": "no",
+          "highway": "tertiary",
+          "lane_markings": "no",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Stadsfenne",
+          "sidewalk": "no",
+          "smoothness": "good",
+          "surface": "asphalt",
+          "man_made": "bridge",
+          "bridge:structure": "truss"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "basculebrug",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,540000,160000,560000 --run nl-7_12 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 1.5,
+      "dekBreedte": 8.7,
+      "brugLengte": 1.5,
+      "water": [
+        -0.8,
+        0.7
+      ],
+      "portaalhoogte": 7.9,
+      "opritafstand": [
+        6,
+        12
+      ],
+      "oprithelling": 6,
+      "doorstekend": [
+        {
+          "gmlId": "P0021.e54741c4c28043928ef9871b86eaf85d",
+          "klasse": "Terrain",
+          "oppervlak": 38.5,
+          "onderDek": 0.03,
+          "bovenDekOnderkant": 1.26,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        42.13,
+        null
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "OSM zegt truss, gekozen type basculebrug",
+      "geen FIS-brug binnen 35 m",
+      "oprit - pas op 6.0 m gemeten",
+      "oprit + zonder PDOK-maaiveld",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

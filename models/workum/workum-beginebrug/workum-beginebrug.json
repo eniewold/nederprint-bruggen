@@ -1,0 +1,133 @@
+{
+  "name": "Beginebrug",
+  "file": "workum-beginebrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    158885.45,
+    554625.17
+  ],
+  "xAxis": [
+    -0.733393,
+    0.679805
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 42.814,
+  "groundSamplePoints": [
+    [
+      -9.12,
+      0
+    ],
+    [
+      9.12,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G1900.fb1b7c19d7154452a8529c536d027fac"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        158891.53,
+        554619.54
+      ],
+      "axis": [
+        0.733393,
+        -0.679805
+      ],
+      "halfLength": 4.14,
+      "halfWidth": 6.52,
+      "height": 42.983,
+      "gradient": [
+        -0.03619,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        158879.37,
+        554630.81
+      ],
+      "axis": [
+        -0.733393,
+        0.679805
+      ],
+      "halfLength": 4.14,
+      "halfWidth": 6.52,
+      "height": 42.974,
+      "gradient": [
+        -0.03853,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G1900.fb1b7c19d7154452a8529c536d027fac"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G1900.fb1b7c19d7154452a8529c536d027fac",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/146055079",
+        "tags": {
+          "bridge": "movable",
+          "bridge:movable": "bascule",
+          "highway": "residential",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Begine"
+        }
+      },
+      "fis": {
+        "id": 5689,
+        "naam": "Beginebrug",
+        "afstand": 1,
+        "beweegbaar": true,
+        "doorvaarthoogteGesloten": 0.88
+      },
+      "pdokBridgeVlakken": 1
+    },
+    "type": "basculebrug",
+    "doorvaarthoogte": 0.88,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,540000,160000,560000 --run nl-7_12 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 8.3,
+      "dekBreedte": 9,
+      "brugLengte": 8.3,
+      "water": [
+        -3.6,
+        3.9
+      ],
+      "portaalhoogte": 8.1,
+      "opritafstand": [
+        5,
+        5
+      ],
+      "oprithelling": 8.3,
+      "doorstekend": [],
+      "opritHoogtes": [
+        42.833,
+        42.814
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

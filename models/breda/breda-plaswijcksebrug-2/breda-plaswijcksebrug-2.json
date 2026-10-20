@@ -1,0 +1,163 @@
+{
+  "name": "Plaswijcksebrug",
+  "file": "breda-plaswijcksebrug-2.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    111328.93,
+    398153.19
+  ],
+  "xAxis": [
+    0.921226,
+    0.389027
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 46.529,
+  "groundSamplePoints": [
+    [
+      -28.03,
+      0
+    ],
+    [
+      28.03,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0758.a5b823570c174572abe658b5dd0559f8"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        111328.93,
+        398153.19
+      ],
+      "axis": [
+        0.921226,
+        0.389027
+      ],
+      "halfLength": 6.74,
+      "halfWidth": 4.96,
+      "height": 45.634,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.54,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        111306.13,
+        398143.56
+      ],
+      "axis": [
+        -0.921226,
+        -0.389027
+      ],
+      "halfLength": 12,
+      "halfWidth": 6.46,
+      "height": 46.732,
+      "gradient": [
+        -0.01689,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        111351.72,
+        398162.81
+      ],
+      "axis": [
+        0.921226,
+        0.389027
+      ],
+      "halfLength": 12,
+      "halfWidth": 6.46,
+      "height": 46.784,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0758.a5b823570c174572abe658b5dd0559f8"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0758.a5b823570c174572abe658b5dd0559f8",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/833003807",
+        "tags": {
+          "bridge": "yes",
+          "highway": "unclassified",
+          "lane_markings": "no",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "50",
+          "maxspeed:type": "NL:urban",
+          "maxweight:signed": "no",
+          "name": "Graaf Engelbertlaan",
+          "surface": "asphalt",
+          "width": "6",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,380000,120000,400000 --run nl-5_4 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 25.5,
+      "dekBreedte": 8.9,
+      "brugLengte": 25.5,
+      "water": [
+        -7.2,
+        5.8
+      ],
+      "portaalhoogte": 8,
+      "opritafstand": [
+        15.3,
+        15.3
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0758.2d5ec18ac12746c3e05332a1e90a3608",
+          "klasse": "Terrain",
+          "oppervlak": 14.4,
+          "onderDek": 0.16,
+          "bovenDekOnderkant": 0.54,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        46.529,
+        46.634
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}
