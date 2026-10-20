@@ -25,16 +25,27 @@
     ]
   ],
   "replacesTerrain": [
+    "G0034.1996d8c402db4c97857727ec7a195dcb",
     "G0034.1acb5431fcf14eceba4534b0bda6c64c",
+    "G0034.3b09c4089ba74349b3a917320d241433",
     "G0034.452867781ee6430cb4c37d4db7cb10b7",
+    "G0034.4881ce9efbbf47cc8a19db8feca68abe",
     "G0034.66f0ad74cf9f4d4e97fd581d5f4675b2",
     "G0034.729907a28ed949b98417d7579c7450ed",
     "G0034.799ece7d0f2d49bb8b84faa405bc35ad",
     "G0034.812a24ae0ef74520bf0130a2e114ad06",
+    "G0034.8b781d89d7304fbe8c2bdcc69bf9923b",
     "G0034.a11ca49f136742fc999ea653483bc759",
     "G0034.a9524996037f47d7b86c4c69ce47e7ed",
+    "G0034.b982eed49ab7483d9b5c0344bf399ef2",
+    "G0034.ba437bceb03b46f289cc6d8a8fb79999",
     "G0034.bee780046ce949fd86a91e88e1447354",
+    "G0034.df1f868d41c04ea69a50eca7e1fa7895",
     "G0034.f6f1d4cf7f954cb7bc0f306d40f99fd3",
+    "G0034.fa7349b097d049e1b9cb2e58539447e8",
+    "W0650.07b29bce9e7d45d7b281766989a27885",
+    "W0650.662ca41b13db4612b9b5485c8b1782d4",
+    "G0034.6f936f7f6ca94d8d98dca98acae62919",
     "G0034.00cee3a0d3474defbba433f34c7f48e2",
     "G0034.0418faf3db884b97a1069a59f343cdd4",
     "G0034.f62be90ba5bf4fcc8d9258e45842c48e",
@@ -106,11 +117,23 @@
     "bron": {
       "bgt": [
         {
+          "id": "G0034.1996d8c402db4c97857727ec7a195dcb",
+          "type": "pijler"
+        },
+        {
           "id": "G0034.1acb5431fcf14eceba4534b0bda6c64c",
           "type": "dek"
         },
         {
+          "id": "G0034.3b09c4089ba74349b3a917320d241433",
+          "type": "pijler"
+        },
+        {
           "id": "G0034.452867781ee6430cb4c37d4db7cb10b7",
+          "type": "pijler"
+        },
+        {
+          "id": "G0034.4881ce9efbbf47cc8a19db8feca68abe",
           "type": "pijler"
         },
         {
@@ -130,6 +153,10 @@
           "type": "pijler"
         },
         {
+          "id": "G0034.8b781d89d7304fbe8c2bdcc69bf9923b",
+          "type": "pijler"
+        },
+        {
           "id": "G0034.a11ca49f136742fc999ea653483bc759",
           "type": "pijler"
         },
@@ -138,12 +165,40 @@
           "type": "pijler"
         },
         {
+          "id": "G0034.b982eed49ab7483d9b5c0344bf399ef2",
+          "type": "pijler"
+        },
+        {
+          "id": "G0034.ba437bceb03b46f289cc6d8a8fb79999",
+          "type": "pijler"
+        },
+        {
           "id": "G0034.bee780046ce949fd86a91e88e1447354",
+          "type": "pijler"
+        },
+        {
+          "id": "G0034.df1f868d41c04ea69a50eca7e1fa7895",
           "type": "pijler"
         },
         {
           "id": "G0034.f6f1d4cf7f954cb7bc0f306d40f99fd3",
           "type": "pijler"
+        },
+        {
+          "id": "G0034.fa7349b097d049e1b9cb2e58539447e8",
+          "type": "pijler"
+        },
+        {
+          "id": "W0650.07b29bce9e7d45d7b281766989a27885",
+          "type": "pijler"
+        },
+        {
+          "id": "W0650.662ca41b13db4612b9b5485c8b1782d4",
+          "type": "pijler"
+        },
+        {
+          "id": "G0034.6f936f7f6ca94d8d98dca98acae62919",
+          "type": "landhoofd"
         }
       ],
       "osm": {
@@ -165,19 +220,22 @@
         }
       },
       "fis": null,
-      "pdokBridgeVlakken": 10
+      "pdokBridgeVlakken": 21
     },
     "type": "hangbrug",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,480000,160000,500000 --run nl-7_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map almere-brug-1acb5431 --plaats almere --punt 143912,487010",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
       "dekLengte": 284.6,
       "dekBreedte": 10.4,
       "brugLengte": 284.6,
-      "water": null,
+      "water": [
+        -114.3,
+        -92.3
+      ],
       "portaalhoogte": 9.4,
       "opritafstand": [
         20,
@@ -329,8 +387,9 @@
     },
     "waarschuwingen": [
       "geen FIS-brug binnen 35 m",
+      "hangbrug van 285 x 10 m: te groot voor het hangbrugsjabloon (max 100 x 8 m), alleen dek en BGT-pylonen",
       "17 PDOK-vorm(en) door het dek: 4 verborgen, 13 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

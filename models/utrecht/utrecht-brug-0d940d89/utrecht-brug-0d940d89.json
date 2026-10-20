@@ -13,10 +13,10 @@
     -0.120399
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 52.641,
+  "groundHeight": 52.5,
   "groundSamplePoints": [
     [
-      -52.87,
+      -59.31,
       0
     ],
     [
@@ -35,13 +35,16 @@
     "G0344.bee4885efc3f4b53b0593a37014af3b5",
     "G0344.ef33e2f3be0849cbac2998202d1ead5b",
     "G0344.f44ef4b292874074a895ad28ccabcde6",
+    "G0344.299d98f55dea4ed38c5c29af42dcf92c",
     "L0004.a07001870fb94f7daca3f21264a2c55a",
     "G0344.4cb3457b3d1f4ae294c39ae0219ec0a0",
+    "G0344.4d7d2aab0815462baf93d2bf5771a26e",
     "G0344.644626f90b324b80a4bd92db122f2ba4",
     "G0344.76869dfc191c4d2da461ece89097ce6c",
     "G0344.9e75b62b10a24d15ab03d67a59033937",
     "G0344.bce6191952c743769c0289b3cf29875f",
     "G0344.c3ccb8a1c77749efb7789b6067d13860",
+    "G0344.f90a43789f8343d783e55e8c017d56a8",
     "L0004.c38b44db7a1d459e95dfa0052c601d45",
     "G0344.86b252494ddc4e7192127d405a3b6781",
     "G0344.ce1f879438964d66adde0410671f690f",
@@ -71,8 +74,8 @@
     },
     {
       "centre": [
-        132929.15,
-        456783.35
+        132922.76,
+        456784.12
       ],
       "axis": [
         -0.992726,
@@ -80,9 +83,9 @@
       ],
       "halfLength": 12,
       "halfWidth": 29.76,
-      "height": 52.711,
+      "height": 52.641,
       "gradient": [
-        -0.00587,
+        -0.01173,
         0
       ],
       "minLift": 0.05,
@@ -157,11 +160,19 @@
           "type": "pijler"
         },
         {
+          "id": "G0344.299d98f55dea4ed38c5c29af42dcf92c",
+          "type": "sloof"
+        },
+        {
           "id": "L0004.a07001870fb94f7daca3f21264a2c55a",
           "type": "dek"
         },
         {
           "id": "G0344.4cb3457b3d1f4ae294c39ae0219ec0a0",
+          "type": "pijler"
+        },
+        {
+          "id": "G0344.4d7d2aab0815462baf93d2bf5771a26e",
           "type": "pijler"
         },
         {
@@ -185,6 +196,10 @@
           "type": "pijler"
         },
         {
+          "id": "G0344.f90a43789f8343d783e55e8c017d56a8",
+          "type": "pijler"
+        },
+        {
           "id": "L0004.c38b44db7a1d459e95dfa0052c601d45",
           "type": "dek"
         }
@@ -192,26 +207,39 @@
       "osm": {
         "id": "way/494706601",
         "tags": {
-          "bicycle": "no",
+          "axle_load": "22.5",
           "bridge": "yes",
-          "foot": "no",
-          "highway": "secondary",
-          "lanes": "3",
-          "lanes:backward": "1",
-          "lanes:forward": "2",
+          "description": "Utrecht Centraal - Harmelen Aansl.",
+          "electrified": "contact_line",
+          "frequency": "0",
+          "gauge": "1435",
           "layer": "1",
-          "lit": "yes",
-          "maxspeed": "50",
-          "name": "Vleutensebaan",
-          "placement:forward": "left_of:1",
-          "surface": "asphalt",
-          "turn:lanes:forward": "through|right",
+          "loading_gauge": "TSI_GC",
+          "maxspeed": "140",
+          "name": "Goudse lijn",
+          "operator": "ProRail",
+          "passenger_lines": "4",
+          "railway": "rail",
+          "railway:atb": "yes",
+          "railway:maximum_current": "4000",
+          "railway:track_class": "D4",
+          "railway:traffic_mode": "mixed",
+          "ref": "100",
+          "ref:ProRailID": "2888640.0",
+          "ref:ProRailSpoortak": "100_2021AR_2.9",
+          "source": "ProRail",
+          "source:date": "2014-01-03",
+          "source:name": "http://www.commissiemer.nl/docs/mer/p24/p2426/2426-008vervolgwerkzaamheden.pdf",
+          "usage": "main",
+          "voltage": "1500",
+          "wikidata": "Q803373",
+          "wikipedia": "nl:Spoorlijn Utrecht - Rotterdam",
           "bridge:structure": "beam",
           "man_made": "bridge"
         }
       },
       "fis": null,
-      "pdokBridgeVlakken": 18
+      "pdokBridgeVlakken": 21
     },
     "type": "ligger",
     "doorvaarthoogte": null,
@@ -219,13 +247,13 @@
       "naam": "Vleutensebaan",
       "straal": 40
     },
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 126435,448710,141834,461610 --run utrecht-2026-10-20 --overschrijf 1 --parallel 5",
+    "opdracht": "node scripts/bridges/genereer.mjs --map utrecht-brug-0d940d89 --plaats utrecht --punt 132994,456776",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
       "dekLengte": 105.6,
       "dekBreedte": 55.5,
-      "brugLengte": 105.6,
+      "brugLengte": 112,
       "water": null,
       "portaalhoogte": 50,
       "opritafstand": [
@@ -293,7 +321,7 @@
         }
       ],
       "opritHoogtes": [
-        52.641,
+        52.5,
         52.781
       ]
     },

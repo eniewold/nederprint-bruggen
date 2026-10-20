@@ -1,5 +1,5 @@
 {
-  "name": "Brug in de N355 Zwartetille",
+  "name": "Rijksstraatweg",
   "file": "noardburgum-brug-in-de-n355-zwartetille.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -103,7 +103,7 @@
       "fis": {
         "id": 28765,
         "naam": "Brug in de N355 Zwartetille",
-        "afstand": 2,
+        "afstand": 1,
         "beweegbaar": false,
         "doorvaarthoogteGesloten": 2.82
       },
@@ -112,7 +112,7 @@
     "type": "hangbrug",
     "doorvaarthoogte": 2.82,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 180000,580000,200000,600000 --run nl-9_14 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map noardburgum-brug-in-de-n355-zwartetille --plaats noardburgum --punt 198072,582101",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -136,7 +136,8 @@
       ]
     },
     "waarschuwingen": [
-      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "hangbrug van 54 x 10 m: te groot voor het hangbrugsjabloon (max 100 x 8 m), alleen dek en BGT-pylonen"
     ],
     "gegenereerd": "2026-10-20"
   }
