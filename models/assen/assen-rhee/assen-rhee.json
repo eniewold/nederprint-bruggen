@@ -1,0 +1,217 @@
+{
+  "name": "Rhee",
+  "file": "assen-rhee.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    234456.58,
+    560877.88
+  ],
+  "xAxis": [
+    -0.800693,
+    -0.599075
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 58.936,
+  "groundSamplePoints": [
+    [
+      -58.69,
+      0
+    ],
+    [
+      58.69,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0106.0030e1867f8e47d59f9eb0d61f5cfa8c",
+    "G0106.1901e0d637cb45deb2dd8fd83f18791e",
+    "G0106.30124f622722480ebc5fd90a2342d86d",
+    "G0106.586ea37aa65c47db86cd4b4c79ec162e",
+    "G0106.76aef9ebf8704141a5da3c2feadf1150",
+    "G0106.c096e6c1f5a7468c9506052fc6f8521c",
+    "G0106.d78cf418011146a09df1019f9a564c54",
+    "G0106.f25bf5f9971148cfba40fd6faf73a58c",
+    "L0002.c4a08a82e30d4161a8d12bb4754042a0",
+    "L0002.a95809d76fb84f039fc2b756b0c105d8",
+    "L0002.eb10aa7a02c94ba6933a63761c5f1cb8"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        234456.58,
+        560877.88
+      ],
+      "axis": [
+        -0.800693,
+        -0.599075
+      ],
+      "halfLength": 32.63,
+      "halfWidth": 17.02,
+      "height": 57.938,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.91,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        234497.16,
+        560908.25
+      ],
+      "axis": [
+        0.800693,
+        0.599075
+      ],
+      "halfLength": 12,
+      "halfWidth": 18.52,
+      "height": 59.087,
+      "gradient": [
+        -0.01259,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        234415.99,
+        560847.51
+      ],
+      "axis": [
+        -0.800693,
+        -0.599075
+      ],
+      "halfLength": 12,
+      "halfWidth": 18.52,
+      "height": 59.088,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "L0002.c4a08a82e30d4161a8d12bb4754042a0"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0106.0030e1867f8e47d59f9eb0d61f5cfa8c",
+          "type": "pijler"
+        },
+        {
+          "id": "G0106.1901e0d637cb45deb2dd8fd83f18791e",
+          "type": "pijler"
+        },
+        {
+          "id": "G0106.30124f622722480ebc5fd90a2342d86d",
+          "type": "pijler"
+        },
+        {
+          "id": "G0106.586ea37aa65c47db86cd4b4c79ec162e",
+          "type": "pijler"
+        },
+        {
+          "id": "G0106.76aef9ebf8704141a5da3c2feadf1150",
+          "type": "pijler"
+        },
+        {
+          "id": "G0106.c096e6c1f5a7468c9506052fc6f8521c",
+          "type": "pijler"
+        },
+        {
+          "id": "G0106.d78cf418011146a09df1019f9a564c54",
+          "type": "pijler"
+        },
+        {
+          "id": "G0106.f25bf5f9971148cfba40fd6faf73a58c",
+          "type": "pijler"
+        },
+        {
+          "id": "L0002.c4a08a82e30d4161a8d12bb4754042a0",
+          "type": "dek"
+        },
+        {
+          "id": "L0002.a95809d76fb84f039fc2b756b0c105d8",
+          "type": "landhoofd"
+        },
+        {
+          "id": "L0002.eb10aa7a02c94ba6933a63761c5f1cb8",
+          "type": "landhoofd"
+        }
+      ],
+      "osm": {
+        "id": "way/548238336",
+        "tags": {
+          "bridge": "yes",
+          "carriageway_ref": "Re",
+          "destination": "Groningen;Assen-Noord",
+          "destination:lanes": "Groningen|Groningen|Assen-Noord;Assen-Noord",
+          "destination:ref:lanes": "A28|A28|none",
+          "destination:symbol:lanes": "none|none|none;industrial",
+          "highway": "motorway",
+          "int_ref": "E 232",
+          "lanes": "3",
+          "layer": "1",
+          "maxspeed": "100",
+          "maxspeed:conditional": "130 @ (19:00-06:00)",
+          "oneway": "yes",
+          "operator": "Rijkswaterstaat",
+          "placement": "right_of:1",
+          "ref": "A28",
+          "surface": "asphalt",
+          "toll:hgv": "yes",
+          "turn:lanes": "||slight_right",
+          "man_made": "bridge",
+          "name": "Rhee"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 11
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,560000,240000,580000 --run nl-11_13 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 77.3,
+      "dekBreedte": 33,
+      "brugLengte": 77.4,
+      "water": null,
+      "portaalhoogte": 29.7,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "L0002.cf13f74425a149429d9fd95b8fd16784",
+          "klasse": "Terrain",
+          "oppervlak": 136.1,
+          "onderDek": 0.03,
+          "bovenDekOnderkant": 0.91,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        58.936,
+        58.938
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

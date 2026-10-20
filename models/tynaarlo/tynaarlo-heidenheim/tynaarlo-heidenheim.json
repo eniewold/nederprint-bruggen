@@ -1,0 +1,183 @@
+{
+  "name": "Heidenheim",
+  "file": "tynaarlo-heidenheim.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    236419.52,
+    564571.43
+  ],
+  "xAxis": [
+    -0.356324,
+    -0.934363
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 54.053,
+  "groundSamplePoints": [
+    [
+      -94.9,
+      0
+    ],
+    [
+      94.9,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "L0002.ce0ac7e06c034346827c57b0d68a67a5",
+    "L0002.38d647a90ea4484ba240622768292016",
+    "L0002.ff601c305be74399984a7ac4c5fc6d7d",
+    "L0002.cdda7ffc4b904d5da6585ade73fb66ca",
+    "L0002.e75da0fc1fd64467b2e2c7a479145b54",
+    "L0002.f40669e273c64ec09ac3a343cc144a80",
+    "L0002.cc569077439b41e688e6487d8c3cf219"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        236450.48,
+        564652.62
+      ],
+      "axis": [
+        0.356324,
+        0.934363
+      ],
+      "halfLength": 12,
+      "halfWidth": 17.75,
+      "height": 54.218,
+      "gradient": [
+        -0.01373,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        236388.55,
+        564490.24
+      ],
+      "axis": [
+        -0.356324,
+        -0.934363
+      ],
+      "halfLength": 12,
+      "halfWidth": 17.75,
+      "height": 54.233,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "L0002.ce0ac7e06c034346827c57b0d68a67a5"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "L0002.ce0ac7e06c034346827c57b0d68a67a5",
+          "type": "dek"
+        },
+        {
+          "id": "L0002.38d647a90ea4484ba240622768292016",
+          "type": "sloof"
+        },
+        {
+          "id": "L0002.ff601c305be74399984a7ac4c5fc6d7d",
+          "type": "sloof"
+        },
+        {
+          "id": "L0002.cdda7ffc4b904d5da6585ade73fb66ca",
+          "type": "landhoofd"
+        },
+        {
+          "id": "L0002.e75da0fc1fd64467b2e2c7a479145b54",
+          "type": "onbekend"
+        }
+      ],
+      "osm": {
+        "id": "way/718112624",
+        "tags": {
+          "bridge": "yes",
+          "bridge:name": "Heidenheim",
+          "carriageway_ref": "Li",
+          "destination": "Utrecht;Assen;Assen-Noord",
+          "highway": "motorway",
+          "int_ref": "E 232",
+          "lanes": "2",
+          "layer": "1",
+          "maxspeed": "100",
+          "maxspeed:conditional": "130 @ (19:00-06:00)",
+          "oneway": "yes",
+          "operator": "Rijkswaterstaat",
+          "overtaking:hgv:conditional": "no @ (Mo-Fr 06:00-10:00,15:00-19:00)",
+          "ref": "A28",
+          "surface": "asphalt",
+          "toll:hgv": "yes",
+          "man_made": "bridge",
+          "name": "Heidenheim"
+        }
+      },
+      "fis": {
+        "id": 35207,
+        "naam": "Brug in de A28 Heidenheim",
+        "afstand": 2,
+        "beweegbaar": false,
+        "doorvaarthoogteGesloten": 5.3999999999999995
+      },
+      "pdokBridgeVlakken": 5
+    },
+    "type": "ligger",
+    "doorvaarthoogte": 5.3999999999999995,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,560000,240000,580000 --run nl-11_13 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 149.7,
+      "dekBreedte": 31.5,
+      "brugLengte": 149.8,
+      "water": [
+        -23.4,
+        26.1
+      ],
+      "portaalhoogte": 28.3,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "L0002.f40669e273c64ec09ac3a343cc144a80",
+          "klasse": "Terrain",
+          "oppervlak": 263.2,
+          "onderDek": 0.86,
+          "bovenDekOnderkant": 0.65,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "L0002.cc569077439b41e688e6487d8c3cf219",
+          "klasse": "Terrain",
+          "oppervlak": 277.9,
+          "onderDek": 0.85,
+          "bovenDekOnderkant": 0.5,
+          "actie": "verbergen"
+        }
+      ],
+      "opritHoogtes": [
+        54.053,
+        54.083
+      ]
+    },
+    "waarschuwingen": [
+      "2 PDOK-vorm(en) door het dek: 2 verborgen, 0 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}
