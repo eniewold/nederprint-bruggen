@@ -1,0 +1,173 @@
+{
+  "name": "Dammenweg",
+  "file": "hellevoetsluis-brug-a5174e3f.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    70781.57,
+    431205.93
+  ],
+  "xAxis": [
+    -0.944735,
+    -0.327836
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 43.677,
+  "groundSamplePoints": [
+    [
+      -36.28,
+      0
+    ],
+    [
+      36.28,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "L0002.a5174e3f46974acc91c54403689ed2b8"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        70781.57,
+        431205.93
+      ],
+      "axis": [
+        -0.944735,
+        -0.327836
+      ],
+      "halfLength": 10.49,
+      "halfWidth": 14.91,
+      "height": 42.753,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.7,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        70808.49,
+        431215.27
+      ],
+      "axis": [
+        0.944735,
+        0.327836
+      ],
+      "halfLength": 12,
+      "halfWidth": 16.41,
+      "height": 43.903,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        70754.66,
+        431196.59
+      ],
+      "axis": [
+        -0.944735,
+        -0.327836
+      ],
+      "halfLength": 12,
+      "halfWidth": 16.41,
+      "height": 43.865,
+      "gradient": [
+        -0.01567,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "L0002.a5174e3f46974acc91c54403689ed2b8"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "L0002.a5174e3f46974acc91c54403689ed2b8",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/25567591",
+        "tags": {
+          "agricultural": "no",
+          "bridge": "yes",
+          "carriageway_ref": "Re",
+          "highway": "trunk",
+          "lanes": "1",
+          "layer": "1",
+          "maxspeed": "100",
+          "motorroad": "yes",
+          "name": "Dammenweg",
+          "oneway": "yes",
+          "operator": "Rijkswaterstaat",
+          "ref": "N57",
+          "shoulder": "right",
+          "surface": "asphalt",
+          "zone:traffic": "NL:rural"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 60000,420000,80000,440000 --run nl-3_6 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 33,
+      "dekBreedte": 28.8,
+      "brugLengte": 33,
+      "water": [
+        -10,
+        10.5
+      ],
+      "portaalhoogte": 25.9,
+      "opritafstand": [
+        19.8,
+        19.8
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "W0655.9b2127c5a9134605a4dcef0131d0033d",
+          "klasse": "Terrain",
+          "oppervlak": 1020.9,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.7,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "L0002.aa29a399976d4baab7e01e4f15358614",
+          "klasse": "Road",
+          "oppervlak": 3508.1,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.65,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        43.753,
+        43.677
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

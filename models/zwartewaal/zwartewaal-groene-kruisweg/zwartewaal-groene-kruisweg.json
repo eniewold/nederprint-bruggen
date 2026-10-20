@@ -1,0 +1,191 @@
+{
+  "name": "Groene Kruisweg",
+  "file": "zwartewaal-groene-kruisweg.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    74995.42,
+    431583.39
+  ],
+  "xAxis": [
+    0.56055,
+    -0.82812
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 46.253,
+  "groundSamplePoints": [
+    [
+      -49.54,
+      0
+    ],
+    [
+      49.54,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "P0028.b090dfd73f284ec9a11bd88218e63f79",
+    "P0028.f62d092432004f6aafdfb29196e5e8a8",
+    "P0028.6441013fe27043109de229dc01c33add",
+    "P0028.ef1cebf27be14f0c858ed5bfb9c9e670",
+    "P0028.3551a4bf24f54d1fb4e14c41a540a8dc",
+    "P0028.7710b1bb7a3445caa394853bcfbfa8bd"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        74995.42,
+        431583.39
+      ],
+      "axis": [
+        0.56055,
+        -0.82812
+      ],
+      "halfLength": 23.54,
+      "halfWidth": 14.8,
+      "height": 45.288,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.59,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        74972.14,
+        431617.78
+      ],
+      "axis": [
+        -0.56055,
+        0.82812
+      ],
+      "halfLength": 12,
+      "halfWidth": 16.3,
+      "height": 46.438,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        75018.7,
+        431548.99
+      ],
+      "axis": [
+        0.56055,
+        -0.82812
+      ],
+      "halfLength": 12,
+      "halfWidth": 16.3,
+      "height": 46.42,
+      "gradient": [
+        -0.01399,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "P0028.3551a4bf24f54d1fb4e14c41a540a8dc",
+      "P0028.7710b1bb7a3445caa394853bcfbfa8bd"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "P0028.b090dfd73f284ec9a11bd88218e63f79",
+          "type": "pijler"
+        },
+        {
+          "id": "P0028.f62d092432004f6aafdfb29196e5e8a8",
+          "type": "pijler"
+        },
+        {
+          "id": "P0028.6441013fe27043109de229dc01c33add",
+          "type": "pijler"
+        },
+        {
+          "id": "P0028.ef1cebf27be14f0c858ed5bfb9c9e670",
+          "type": "pijler"
+        },
+        {
+          "id": "P0028.3551a4bf24f54d1fb4e14c41a540a8dc",
+          "type": "dek"
+        },
+        {
+          "id": "P0028.7710b1bb7a3445caa394853bcfbfa8bd",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/94395676",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "yes",
+          "bridge:name": "Wellebrug",
+          "foot": "use_sidepath",
+          "highway": "primary",
+          "lanes": "1",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "50",
+          "mofa": "use_sidepath",
+          "moped": "use_sidepath",
+          "name": "Groene Kruisweg",
+          "oneway": "yes",
+          "operator": "Provincie Zuid-Holland",
+          "ref": "N218",
+          "zone:traffic": "NL:rural"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 6
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 60000,420000,80000,440000 --run nl-3_6 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 59.1,
+      "dekBreedte": 28.6,
+      "brugLengte": 59.1,
+      "water": [
+        -20,
+        18
+      ],
+      "portaalhoogte": 25.7,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "P0028.640fe75722d848e28b6e0007b45ea505",
+          "klasse": "Road",
+          "oppervlak": 1303.2,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.59,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        46.288,
+        46.253
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

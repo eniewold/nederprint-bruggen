@@ -1,0 +1,170 @@
+{
+  "name": "Burgemeester Aartslaan",
+  "file": "bergeijk-brug-120a6c9f.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    153311.47,
+    369268.85
+  ],
+  "xAxis": [
+    0.74842,
+    -0.663226
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 73.551,
+  "groundSamplePoints": [
+    [
+      -10.97,
+      0
+    ],
+    [
+      10.97,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G1728.120a6c9f3c6a411ab86305b55e393f1c",
+    "G1728.465dfeea5c1f4042a1b452223007a695"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        153311.47,
+        369268.85
+      ],
+      "axis": [
+        0.74842,
+        -0.663226
+      ],
+      "halfLength": 2.49,
+      "halfWidth": 8.7,
+      "height": 72.584,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.6,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        153304,
+        369275.46
+      ],
+      "axis": [
+        -0.74842,
+        0.663226
+      ],
+      "halfLength": 4.99,
+      "halfWidth": 10.2,
+      "height": 73.734,
+      "gradient": [
+        -0.03008,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        153318.93,
+        369262.24
+      ],
+      "axis": [
+        0.74842,
+        -0.663226
+      ],
+      "halfLength": 4.99,
+      "halfWidth": 10.2,
+      "height": 73.718,
+      "gradient": [
+        -0.0334,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G1728.120a6c9f3c6a411ab86305b55e393f1c",
+      "G1728.465dfeea5c1f4042a1b452223007a695"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G1728.120a6c9f3c6a411ab86305b55e393f1c",
+          "type": "dek"
+        },
+        {
+          "id": "G1728.465dfeea5c1f4042a1b452223007a695",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/445316808",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "yes",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Burgemeester Aartslaan"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 2
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,360000,160000,380000 --run nl-7_3 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 10,
+      "dekBreedte": 16.4,
+      "brugLengte": 10,
+      "water": [
+        -1,
+        1.5
+      ],
+      "portaalhoogte": 14.8,
+      "opritafstand": [
+        6,
+        6
+      ],
+      "oprithelling": 10,
+      "doorstekend": [
+        {
+          "gmlId": "W0539.15f9504b28b3464ba1f4fd6c157dc664",
+          "klasse": "Terrain",
+          "oppervlak": 249.2,
+          "onderDek": 0.1,
+          "bovenDekOnderkant": 0.6,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "W0539.1aa25f8f755440e9bb542211329076c2",
+          "klasse": "Terrain",
+          "oppervlak": 274.7,
+          "onderDek": 0.02,
+          "bovenDekOnderkant": 0.59,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        73.584,
+        73.551
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

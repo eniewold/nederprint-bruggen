@@ -1,0 +1,191 @@
+{
+  "name": "Boomkensweg",
+  "file": "wanssum-boomkensweg.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    203047.64,
+    394796.72
+  ],
+  "xAxis": [
+    0.99909,
+    -0.04265
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 59.069,
+  "groundSamplePoints": [
+    [
+      -55.11,
+      0
+    ],
+    [
+      55.11,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "P0031.10b5115837b94aeee0631350370a5e7a"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        203047.64,
+        394796.72
+      ],
+      "axis": [
+        0.99909,
+        -0.04265
+      ],
+      "halfLength": 29.11,
+      "halfWidth": 7.58,
+      "height": 58.601,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.9,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        203000.57,
+        394798.73
+      ],
+      "axis": [
+        -0.99909,
+        0.04265
+      ],
+      "halfLength": 12,
+      "halfWidth": 9.08,
+      "height": 59.485,
+      "gradient": [
+        -0.03464,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        203094.7,
+        394794.71
+      ],
+      "axis": [
+        0.99909,
+        -0.04265
+      ],
+      "halfLength": 12,
+      "halfWidth": 9.08,
+      "height": 59.751,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "P0031.10b5115837b94aeee0631350370a5e7a"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "P0031.10b5115837b94aeee0631350370a5e7a",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/815711226",
+        "tags": {
+          "agricultural": "no",
+          "bicycle": "no",
+          "bridge": "yes",
+          "bridge:material": "concrete",
+          "bridge:name": "Lienebrug",
+          "carriage": "no",
+          "disabled_vehicle": "no",
+          "foot": "no",
+          "hand_cart": "no",
+          "highway": "primary",
+          "horse": "no",
+          "lanes": "2",
+          "layer": "1",
+          "maxspeed": "80",
+          "microcar": "no",
+          "mofa": "no",
+          "moped": "no",
+          "name": "Lienebrug",
+          "operator": "Provincie Limburg",
+          "ref": "N270",
+          "surface": "asphalt",
+          "traffic_sign": "NL:C9",
+          "zone:traffic": "NL:rural",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 200000,380000,220000,400000 --run nl-10_4 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 70.2,
+      "dekBreedte": 14.2,
+      "brugLengte": 70.2,
+      "water": [
+        -28.6,
+        28.4
+      ],
+      "portaalhoogte": 12.7,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0984.3d39bc5cf9254b9c8cdc7683be8a2be8",
+          "klasse": "Separation",
+          "oppervlak": 344.6,
+          "onderDek": 0.02,
+          "bovenDekOnderkant": 0.9,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0984.ebc913990f9c43abb364903d74ffc21d",
+          "klasse": "Terrain",
+          "oppervlak": 440.8,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.89,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0984.7f6ed6dc9719453987cc4c9fd3e1be89",
+          "klasse": "Separation",
+          "oppervlak": 362.8,
+          "onderDek": 0.01,
+          "bovenDekOnderkant": 0.28,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        59.069,
+        59.601
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "3 PDOK-vorm(en) door het dek: 0 verborgen, 3 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}
