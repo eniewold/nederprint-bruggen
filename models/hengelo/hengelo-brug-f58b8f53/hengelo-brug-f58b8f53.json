@@ -1,0 +1,166 @@
+{
+  "name": "Seringstraat",
+  "file": "hengelo-brug-f58b8f53.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    252008.09,
+    474324.71
+  ],
+  "xAxis": [
+    -0.067209,
+    -0.997739
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 64.609,
+  "groundSamplePoints": [
+    [
+      -10.5,
+      0
+    ],
+    [
+      10.5,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0164.f58b8f53807440618cdadb6daf07394a"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        252008.09,
+        474324.71
+      ],
+      "axis": [
+        -0.067209,
+        -0.997739
+      ],
+      "halfLength": 2.39,
+      "halfWidth": 3.71,
+      "height": 63.679,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.39,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        252008.74,
+        474334.23
+      ],
+      "axis": [
+        0.067209,
+        0.997739
+      ],
+      "halfLength": 4.77,
+      "halfWidth": 4.81,
+      "height": 64.794,
+      "gradient": [
+        -0.0388,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        252007.45,
+        474315.19
+      ],
+      "axis": [
+        -0.067209,
+        -0.997739
+      ],
+      "halfLength": 4.77,
+      "halfWidth": 4.81,
+      "height": 64.829,
+      "gradient": [
+        -0.03143,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0164.f58b8f53807440618cdadb6daf07394a"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0164.f58b8f53807440618cdadb6daf07394a",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/343313580",
+        "tags": {
+          "bridge": "yes",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxspeed": "30",
+          "maxweight": "30",
+          "name": "Seringstraat",
+          "sidewalk": "right",
+          "source:maxspeed": "NL:zone30",
+          "surface": "asphalt"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,460000,260000,480000 --run nl-12_8 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 9.5,
+      "dekBreedte": 6.4,
+      "brugLengte": 9.5,
+      "water": [
+        -1.8,
+        1.2
+      ],
+      "portaalhoogte": 5.8,
+      "opritafstand": [
+        5.7,
+        5.7
+      ],
+      "oprithelling": 9.5,
+      "doorstekend": [
+        {
+          "gmlId": "G0164.67a01984922c4105be9dac95a196f0ef",
+          "klasse": "Terrain",
+          "oppervlak": 396.5,
+          "onderDek": 0.02,
+          "bovenDekOnderkant": 0.39,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "W0663.8abeacd5439b75202003180959192171",
+          "klasse": "Terrain",
+          "oppervlak": 363.3,
+          "onderDek": 0.01,
+          "bovenDekOnderkant": 0.35,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        64.609,
+        64.679
+      ]
+    },
+    "waarschuwingen": [
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

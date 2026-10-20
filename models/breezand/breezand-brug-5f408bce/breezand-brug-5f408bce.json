@@ -1,0 +1,197 @@
+{
+  "name": "Middenweg",
+  "file": "breezand-brug-5f408bce.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    115694.3,
+    542995.23
+  ],
+  "xAxis": [
+    0.612407,
+    0.790543
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 42.307,
+  "groundSamplePoints": [
+    [
+      -37.6,
+      0
+    ],
+    [
+      37.6,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "W0651.5f408bcea5c94056aca79526921f4482",
+    "G1911.fe86f9a82dee42bea33e0e2d0b4988c4"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        115694.3,
+        542995.23
+      ],
+      "axis": [
+        0.612407,
+        0.790543
+      ],
+      "halfLength": 11.6,
+      "halfWidth": 15.5,
+      "height": 41.544,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.82,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        115676.17,
+        542971.83
+      ],
+      "axis": [
+        -0.612407,
+        -0.790543
+      ],
+      "halfLength": 12,
+      "halfWidth": 17,
+      "height": 42.576,
+      "gradient": [
+        -0.02239,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        115712.43,
+        543018.64
+      ],
+      "axis": [
+        0.612407,
+        0.790543
+      ],
+      "halfLength": 12,
+      "halfWidth": 17,
+      "height": 42.694,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "W0651.5f408bcea5c94056aca79526921f4482"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "W0651.5f408bcea5c94056aca79526921f4482",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1364533689",
+        "tags": {
+          "bridge": "yes",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxspeed": "50",
+          "name": "Middenweg",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,540000,120000,560000 --run nl-5_12 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 35.2,
+      "dekBreedte": 30,
+      "brugLengte": 35.2,
+      "water": [
+        -10.1,
+        3.9
+      ],
+      "portaalhoogte": 27,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G1911.fe86f9a82dee42bea33e0e2d0b4988c4",
+          "klasse": "Terrain",
+          "oppervlak": 44.2,
+          "onderDek": 0.8,
+          "bovenDekOnderkant": 0.85,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "W0651.cbea4cc46d344caaaa1cae2d01102b91",
+          "klasse": "Terrain",
+          "oppervlak": 20.7,
+          "onderDek": 0.49,
+          "bovenDekOnderkant": 0.82,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "W0651.a608718b0f784d869230a78ca5cf6377",
+          "klasse": "Terrain",
+          "oppervlak": 262.4,
+          "onderDek": 0.04,
+          "bovenDekOnderkant": 0.77,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G1911.1aaff65bb7d84157858fe70dca8b97e8",
+          "klasse": "Road",
+          "oppervlak": 2938.5,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.63,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "W0651.b9e1421dc54047fe9f0d82200fcf782b",
+          "klasse": "Terrain",
+          "oppervlak": 654.8,
+          "onderDek": 0.01,
+          "bovenDekOnderkant": 0.37,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "W0651.88ed63ddc7e64f62a282ca1ca9f36819",
+          "klasse": "Terrain",
+          "oppervlak": 150.8,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.36,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        42.307,
+        42.544
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "6 PDOK-vorm(en) door het dek: 1 verborgen, 5 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

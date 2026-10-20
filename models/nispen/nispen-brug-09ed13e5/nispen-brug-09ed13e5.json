@@ -1,0 +1,164 @@
+{
+  "name": "Nispenseweg",
+  "file": "nispen-brug-09ed13e5.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    90845.88,
+    389822.63
+  ],
+  "xAxis": [
+    0.545031,
+    0.838416
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 50.752,
+  "groundSamplePoints": [
+    [
+      -13.23,
+      0
+    ],
+    [
+      13.23,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "W0652.09ed13e5cb484037a242bfe3fbab3ab5"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        90845.88,
+        389822.63
+      ],
+      "axis": [
+        0.545031,
+        0.838416
+      ],
+      "halfLength": 3.01,
+      "halfWidth": 8.53,
+      "height": 49.795,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.75,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        90839.32,
+        389812.55
+      ],
+      "axis": [
+        -0.545031,
+        -0.838416
+      ],
+      "halfLength": 6.02,
+      "halfWidth": 10.03,
+      "height": 50.924,
+      "gradient": [
+        -0.02851,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        90852.44,
+        389832.72
+      ],
+      "axis": [
+        0.545031,
+        0.838416
+      ],
+      "halfLength": 6.02,
+      "halfWidth": 10.03,
+      "height": 50.945,
+      "gradient": [
+        -0.02494,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "W0652.09ed13e5cb484037a242bfe3fbab3ab5"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "W0652.09ed13e5cb484037a242bfe3fbab3ab5",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/7242210",
+        "tags": {
+          "bridge": "yes",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Nispenseweg",
+          "zone:traffic": "NL:rural"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,380000,100000,400000 --run nl-4_4 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 12,
+      "dekBreedte": 16.1,
+      "brugLengte": 12,
+      "water": [
+        -2.5,
+        2.5
+      ],
+      "portaalhoogte": 14.5,
+      "opritafstand": [
+        7.2,
+        7.2
+      ],
+      "oprithelling": 12,
+      "doorstekend": [
+        {
+          "gmlId": "W0652.49d7db06893242b98e6f17a170460f94",
+          "klasse": "Terrain",
+          "oppervlak": 186.1,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.75,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "W0652.1a1c8126642f408b8ca14172ec625857",
+          "klasse": "Terrain",
+          "oppervlak": 254.8,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.36,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        50.752,
+        50.795
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

@@ -1,0 +1,178 @@
+{
+  "name": "Nieuwe Brug",
+  "file": "eibergen-nieuwe-brug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    241657.48,
+    458209.61
+  ],
+  "xAxis": [
+    0.143439,
+    0.989659
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 66.923,
+  "groundSamplePoints": [
+    [
+      -43.88,
+      0
+    ],
+    [
+      43.83,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "L0002.888573e8cf3a47f99f130852c84f4961",
+    "L0002.8ed261622c354b01b9e15d773ec9ccfc",
+    "L0002.9be5661338224faa89532111e25d3e80"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        241657.48,
+        458209.61
+      ],
+      "axis": [
+        0.143439,
+        0.989659
+      ],
+      "halfLength": 17.83,
+      "halfWidth": 11.1,
+      "height": 65.931,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.55,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        241652.34,
+        458174.1
+      ],
+      "axis": [
+        -0.143439,
+        -0.989659
+      ],
+      "halfLength": 12,
+      "halfWidth": 12.6,
+      "height": 67.077,
+      "gradient": [
+        -0.01285,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        241662.62,
+        458245.07
+      ],
+      "axis": [
+        0.143439,
+        0.989659
+      ],
+      "halfLength": 12,
+      "halfWidth": 12.6,
+      "height": 67.081,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "L0002.9be5661338224faa89532111e25d3e80"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "L0002.888573e8cf3a47f99f130852c84f4961",
+          "type": "onbekend"
+        },
+        {
+          "id": "L0002.8ed261622c354b01b9e15d773ec9ccfc",
+          "type": "onbekend"
+        },
+        {
+          "id": "L0002.9be5661338224faa89532111e25d3e80",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/55063447",
+        "tags": {
+          "bicycle": "no",
+          "bridge": "yes",
+          "highway": "secondary",
+          "lanes": "2",
+          "layer": "1",
+          "maxspeed": "50",
+          "name": "Nieuwe Brug",
+          "man_made": "bridge",
+          "source": "3dShapes",
+          "bridge:structure": "beam"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 3
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,440000,260000,460000 --run nl-12_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 47.7,
+      "dekBreedte": 21.2,
+      "brugLengte": 47.7,
+      "water": [
+        -15.9,
+        14.6
+      ],
+      "portaalhoogte": 19.1,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G1859.b53fe471a4e344649d009ea507c3eaf1",
+          "klasse": "Road",
+          "oppervlak": 444.2,
+          "onderDek": 0.15,
+          "bovenDekOnderkant": 0.55,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G1859.7d2a39f03e3449c28a9cb61aea662e7c",
+          "klasse": "Road",
+          "oppervlak": 203.5,
+          "onderDek": 0.11,
+          "bovenDekOnderkant": 0.2,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        66.923,
+        66.931
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

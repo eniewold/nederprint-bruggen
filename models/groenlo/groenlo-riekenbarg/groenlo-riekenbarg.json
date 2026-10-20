@@ -1,0 +1,185 @@
+{
+  "name": "Riekenbarg",
+  "file": "groenlo-riekenbarg.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    240128.59,
+    453539.24
+  ],
+  "xAxis": [
+    -0.995755,
+    -0.092043
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 73.365,
+  "groundSamplePoints": [
+    [
+      -50.25,
+      0
+    ],
+    [
+      50.25,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "L0002.976519c151b05356e05332a1e90aa08e",
+    "L0002.96aa3b1c1f130172e05332a1e90a9fa0",
+    "G1586.be0be023f4544b539aff48aeafa71c3c"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        240128.59,
+        453539.24
+      ],
+      "axis": [
+        -0.995755,
+        -0.092043
+      ],
+      "halfLength": 24.25,
+      "halfWidth": 10.17,
+      "height": 73.428,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.43,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        240170.66,
+        453543.13
+      ],
+      "axis": [
+        0.995755,
+        0.092043
+      ],
+      "halfLength": 12,
+      "halfWidth": 11.67,
+      "height": 74.578,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        240086.52,
+        453535.35
+      ],
+      "axis": [
+        -0.995755,
+        -0.092043
+      ],
+      "halfLength": 12,
+      "halfWidth": 11.67,
+      "height": 74.047,
+      "gradient": [
+        -0.05681,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "L0002.96aa3b1c1f130172e05332a1e90a9fa0"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "L0002.976519c151b05356e05332a1e90aa08e",
+          "type": "landhoofd"
+        },
+        {
+          "id": "L0002.96aa3b1c1f130172e05332a1e90a9fa0",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/581519905",
+        "tags": {
+          "bridge": "yes",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "80",
+          "name": "Riekenbarg",
+          "oneway": "yes",
+          "surface": "asphalt",
+          "man_made": "bridge",
+          "start_date": "2018"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 2
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,440000,260000,460000 --run nl-12_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 60.5,
+      "dekBreedte": 19.3,
+      "brugLengte": 60.5,
+      "water": null,
+      "portaalhoogte": 17.4,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G1586.be0be023f4544b539aff48aeafa71c3c",
+          "klasse": "Terrain",
+          "oppervlak": 77.7,
+          "onderDek": 0.93,
+          "bovenDekOnderkant": 0.66,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "L0002.96aa3b1c1eb90172e05332a1e90a9fa0",
+          "klasse": "Terrain",
+          "oppervlak": 193.4,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.43,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G1586.d015c44cd08843e1819852ceef852a9c",
+          "klasse": "Road",
+          "oppervlak": 1030,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.29,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G1586.46c209cbe36c45318f9a88f717de9f4c",
+          "klasse": "Terrain",
+          "oppervlak": 4496.3,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.15,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        74.428,
+        73.365
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "4 PDOK-vorm(en) door het dek: 1 verborgen, 3 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "name": "Mastendreef",
+  "file": "bergen-op-zoom-brug-f80a0d71.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    82935.99,
+    391017.99
+  ],
+  "xAxis": [
+    0.94131,
+    0.337543
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 52.545,
+  "groundSamplePoints": [
+    [
+      -10.58,
+      0
+    ],
+    [
+      10.58,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0748.f80a0d71bb664e8b924517856cbddc3d"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        82935.99,
+        391017.99
+      ],
+      "axis": [
+        0.94131,
+        0.337543
+      ],
+      "halfLength": 2.4,
+      "halfWidth": 5.66,
+      "height": 51.625,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.55,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        82926.94,
+        391014.74
+      ],
+      "axis": [
+        -0.94131,
+        -0.337543
+      ],
+      "halfLength": 4.81,
+      "halfWidth": 7.16,
+      "height": 52.775,
+      "gradient": [
+        -0.03119,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        82945.05,
+        391021.24
+      ],
+      "axis": [
+        0.94131,
+        0.337543
+      ],
+      "halfLength": 4.81,
+      "halfWidth": 7.16,
+      "height": 52.735,
+      "gradient": [
+        -0.0395,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0748.f80a0d71bb664e8b924517856cbddc3d"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0748.f80a0d71bb664e8b924517856cbddc3d",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/67099280",
+        "tags": {
+          "bridge": "yes",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Mastendreef",
+          "noref": "yes",
+          "operator": "Gemeente Bergen op Zoom"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,380000,100000,400000 --run nl-4_4 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 9.6,
+      "dekBreedte": 10.3,
+      "brugLengte": 9.6,
+      "water": [
+        -1.8,
+        1.2
+      ],
+      "portaalhoogte": 9.3,
+      "opritafstand": [
+        5.8,
+        5.8
+      ],
+      "oprithelling": 9.6,
+      "doorstekend": [
+        {
+          "gmlId": "W0652.f8e6880bc4ec483c80ad25c5e8188e0b",
+          "klasse": "Terrain",
+          "oppervlak": 1474.6,
+          "onderDek": 0.03,
+          "bovenDekOnderkant": 0.55,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "W0652.4f89488deae440f8b15803ca8cb135e0",
+          "klasse": "Terrain",
+          "oppervlak": 372.1,
+          "onderDek": 0.03,
+          "bovenDekOnderkant": 0.46,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        52.625,
+        52.545
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

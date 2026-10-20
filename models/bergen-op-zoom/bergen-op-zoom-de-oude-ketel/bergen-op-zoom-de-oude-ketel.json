@@ -1,0 +1,143 @@
+{
+  "name": "De Oude Ketel",
+  "file": "bergen-op-zoom-de-oude-ketel.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    80559.67,
+    390695.78
+  ],
+  "xAxis": [
+    -0.634311,
+    0.773078
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 54.361,
+  "groundSamplePoints": [
+    [
+      -40.7,
+      0
+    ],
+    [
+      40.7,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "L0002.73ae3899e7dd471baf04138603dc3bc7",
+    "L0002.853cba57cd404de3804f11ba92e2892b",
+    "L0002.70fc5874e6994dc98b92fe81790ea983"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        80580.41,
+        390670.5
+      ],
+      "axis": [
+        0.634311,
+        -0.773078
+      ],
+      "halfLength": 12,
+      "halfWidth": 8.18,
+      "height": 55.579,
+      "gradient": [
+        -0.1015,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        80538.93,
+        390721.05
+      ],
+      "axis": [
+        -0.634311,
+        0.773078
+      ],
+      "halfLength": 12,
+      "halfWidth": 8.18,
+      "height": 56.647,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "L0002.73ae3899e7dd471baf04138603dc3bc7"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "L0002.73ae3899e7dd471baf04138603dc3bc7",
+          "type": "dek"
+        },
+        {
+          "id": "L0002.853cba57cd404de3804f11ba92e2892b",
+          "type": "onbekend"
+        },
+        {
+          "id": "L0002.70fc5874e6994dc98b92fe81790ea983",
+          "type": "onbekend"
+        }
+      ],
+      "osm": {
+        "id": "way/425110405",
+        "tags": {
+          "bridge": "yes",
+          "carriageway_ref": "r",
+          "highway": "motorway_link",
+          "lanes": "1",
+          "layer": "1",
+          "maxspeed": "100",
+          "maxspeed:conditional": "130 @ (19:00-06:00)",
+          "oneway": "yes",
+          "operator": "Rijkswaterstaat",
+          "ref": "A58",
+          "surface": "asphalt",
+          "toll:hgv": "yes",
+          "man_made": "bridge",
+          "name": "De Bleeken",
+          "source:name": "sign"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 3
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,380000,100000,400000 --run nl-4_4 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 41.3,
+      "dekBreedte": 12.4,
+      "brugLengte": 41.4,
+      "water": null,
+      "portaalhoogte": 11.1,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [],
+      "opritHoogtes": [
+        54.361,
+        56.497
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

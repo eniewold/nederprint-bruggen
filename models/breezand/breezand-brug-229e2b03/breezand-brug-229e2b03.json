@@ -1,0 +1,173 @@
+{
+  "name": "Molenvaart",
+  "file": "breezand-brug-229e2b03.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    113778.12,
+    544104.14
+  ],
+  "xAxis": [
+    0.376595,
+    0.926378
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 44.318,
+  "groundSamplePoints": [
+    [
+      -9.77,
+      0
+    ],
+    [
+      9.77,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G1911.229e2b034f83446f94110fb0ca0a9617"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        113778.12,
+        544104.14
+      ],
+      "axis": [
+        0.376595,
+        0.926378
+      ],
+      "halfLength": 2.22,
+      "halfWidth": 5.24,
+      "height": 43.521,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.54,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        113774.78,
+        544095.9
+      ],
+      "axis": [
+        -0.376595,
+        -0.926378
+      ],
+      "halfLength": 4.44,
+      "halfWidth": 6.74,
+      "height": 44.671,
+      "gradient": [
+        -0.03376,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        113781.47,
+        544112.37
+      ],
+      "axis": [
+        0.376595,
+        0.926378
+      ],
+      "halfLength": 4.44,
+      "halfWidth": 6.74,
+      "height": 44.57,
+      "gradient": [
+        -0.05657,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G1911.229e2b034f83446f94110fb0ca0a9617"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G1911.229e2b034f83446f94110fb0ca0a9617",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/982721609",
+        "tags": {
+          "bridge": "yes",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Molenvaart",
+          "zone:maxspeed": "NL:60",
+          "zone:traffic": "NL:rural"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,540000,120000,560000 --run nl-5_12 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 8.9,
+      "dekBreedte": 9.5,
+      "brugLengte": 8.9,
+      "water": [
+        -0.9,
+        0.6
+      ],
+      "portaalhoogte": 8.5,
+      "opritafstand": [
+        5.3,
+        5.3
+      ],
+      "oprithelling": 8.9,
+      "doorstekend": [
+        {
+          "gmlId": "W0651.fffceab867e34ca5a7375a7741ff0b89",
+          "klasse": "Terrain",
+          "oppervlak": 48.6,
+          "onderDek": 0.19,
+          "bovenDekOnderkant": 0.54,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "W0651.ac96111cf7a34a328b8021dad84097ce",
+          "klasse": "Terrain",
+          "oppervlak": 281.8,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.2,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "W0651.42d9694bd8a54ecf8cd152d5f6800d01",
+          "klasse": "Terrain",
+          "oppervlak": 56.4,
+          "onderDek": 0.21,
+          "bovenDekOnderkant": 0.07,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        44.521,
+        44.318
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "3 PDOK-vorm(en) door het dek: 0 verborgen, 3 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

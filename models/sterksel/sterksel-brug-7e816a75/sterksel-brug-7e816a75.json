@@ -1,0 +1,136 @@
+{
+  "name": "Kloosterlaan",
+  "file": "sterksel-brug-7e816a75.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    169795.68,
+    373730.88
+  ],
+  "xAxis": [
+    -0.898854,
+    -0.438248
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 68.623,
+  "groundSamplePoints": [
+    [
+      -10.04,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G1658.7e816a75efa446a1a9303dceb1661a16"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        169795.68,
+        373730.88
+      ],
+      "axis": [
+        -0.898854,
+        -0.438248
+      ],
+      "halfLength": 2.28,
+      "halfWidth": 3.74,
+      "height": 67.623,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.13,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        169803.89,
+        373734.88
+      ],
+      "axis": [
+        0.898854,
+        0.438248
+      ],
+      "halfLength": 4.56,
+      "halfWidth": 4.86,
+      "height": 68.773,
+      "gradient": [
+        -0.03286,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G1658.7e816a75efa446a1a9303dceb1661a16"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G1658.7e816a75efa446a1a9303dceb1661a16",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/630412274",
+        "tags": {
+          "bridge": "yes",
+          "highway": "track",
+          "layer": "1",
+          "maxspeed": "60",
+          "motor_vehicle": "destination",
+          "name": "Kloosterlaan",
+          "surface": "gravel",
+          "tracktype": "grade2",
+          "zone:traffic": "NL:rural"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,360000,180000,380000 --run nl-8_3 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 9.1,
+      "dekBreedte": 6.5,
+      "brugLengte": 9.1,
+      "water": [
+        -2.1,
+        2.4
+      ],
+      "portaalhoogte": 5.8,
+      "opritafstand": [
+        5.5,
+        16.4
+      ],
+      "oprithelling": 9.1,
+      "doorstekend": [
+        {
+          "gmlId": "W0539.a8bb9a9591de4e07937d56ede305f28a",
+          "klasse": "Terrain",
+          "oppervlak": 521.4,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.13,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        68.623,
+        null
+      ]
+    },
+    "waarschuwingen": [
+      "oprit + zonder PDOK-maaiveld",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}
