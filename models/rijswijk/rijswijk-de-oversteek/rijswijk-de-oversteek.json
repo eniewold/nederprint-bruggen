@@ -1,0 +1,197 @@
+{
+  "name": "De Oversteek",
+  "file": "rijswijk-de-oversteek.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    83400.7,
+    451334.56
+  ],
+  "xAxis": [
+    -0.99513,
+    -0.098569
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 43.488,
+  "groundSamplePoints": [
+    [
+      -48.22,
+      0
+    ],
+    [
+      48.22,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "P0028.1d84b5b081594304be71aef81bd7b422",
+    "P0028.79a308f0bea54e6396bc2db66cdd53cd"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        83400.7,
+        451334.56
+      ],
+      "axis": [
+        -0.99513,
+        -0.098569
+      ],
+      "halfLength": 22.22,
+      "halfWidth": 22.55,
+      "height": 43.047,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -2.54,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        83440.73,
+        451338.52
+      ],
+      "axis": [
+        0.99513,
+        0.098569
+      ],
+      "halfLength": 12,
+      "halfWidth": 24.05,
+      "height": 43.918,
+      "gradient": [
+        -0.03575,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        83360.68,
+        451330.59
+      ],
+      "axis": [
+        -0.99513,
+        -0.098569
+      ],
+      "halfLength": 12,
+      "halfWidth": 24.05,
+      "height": 44.197,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "P0028.79a308f0bea54e6396bc2db66cdd53cd"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "P0028.1d84b5b081594304be71aef81bd7b422",
+          "type": "pyloon"
+        },
+        {
+          "id": "P0028.79a308f0bea54e6396bc2db66cdd53cd",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/292917681",
+        "tags": {
+          "bridge": "movable",
+          "foot": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "lit": "yes",
+          "mofa": "designated",
+          "moped": "designated",
+          "name": "De Oversteek",
+          "oneway": "no",
+          "segregated": "no",
+          "surface": "asphalt",
+          "traffic_sign": "NL:G12a",
+          "zone:traffic": "NL:urban",
+          "bridge:movable": "swing",
+          "bridge:structure": "cable-stayed",
+          "man_made": "bridge",
+          "start_date": "2014-07"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 2
+    },
+    "type": "draaibrug",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,440000,100000,460000 --run nl-4_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 56.4,
+      "dekBreedte": 44.1,
+      "brugLengte": 56.4,
+      "water": [
+        -21.2,
+        15.8
+      ],
+      "portaalhoogte": 39.7,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0603.8fd97b14bec44effb513f86cc9054975",
+          "klasse": "Forest",
+          "oppervlak": 887.4,
+          "onderDek": 0.02,
+          "bovenDekOnderkant": 1.54,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "P0028.49bd4652293e4ce78902ad83424fcb97",
+          "klasse": "Terrain",
+          "oppervlak": 427.3,
+          "onderDek": 0.01,
+          "bovenDekOnderkant": 0.75,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "P0028.343651545a7a473ab102c55e76f1c023",
+          "klasse": "Terrain",
+          "oppervlak": 50.4,
+          "onderDek": 0.03,
+          "bovenDekOnderkant": 0.62,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "P0028.7b40b3d142754725b7e974fa3d757d6b",
+          "klasse": "Terrain",
+          "oppervlak": 296.9,
+          "onderDek": 0.04,
+          "bovenDekOnderkant": 0.47,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        43.488,
+        44.047
+      ]
+    },
+    "waarschuwingen": [
+      "OSM zegt cable-stayed, gekozen type draaibrug",
+      "geen FIS-brug binnen 35 m",
+      "losse BGT-pyloon P0028.1d84b5b081594304be71aef81bd7b422 als paaltje van 3 m",
+      "4 PDOK-vorm(en) door het dek: 0 verborgen, 4 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

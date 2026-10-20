@@ -1,0 +1,193 @@
+{
+  "name": "Brug in de Noord-Brabantlaan Eindhoven",
+  "file": "eindhoven-brug-in-de-noord-brabantlaan-eindhoven.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    157934.18,
+    383198.41
+  ],
+  "xAxis": [
+    0.754119,
+    0.656738
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 65.174,
+  "groundSamplePoints": [
+    [
+      -38.53,
+      0
+    ],
+    [
+      38.53,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0772.a8a7e8bcacbb4b97a579da28bc3df298",
+    "W0539.e21dfa781c634178b281dcb89e4f5f0e"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        157934.18,
+        383198.41
+      ],
+      "axis": [
+        0.754119,
+        0.656738
+      ],
+      "halfLength": 12.53,
+      "halfWidth": 23.34,
+      "height": 64.2,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -2.01,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        157911.15,
+        383178.35
+      ],
+      "axis": [
+        -0.754119,
+        -0.656738
+      ],
+      "halfLength": 12,
+      "halfWidth": 24.84,
+      "height": 65.35,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        157957.2,
+        383218.46
+      ],
+      "axis": [
+        0.754119,
+        0.656738
+      ],
+      "halfLength": 12,
+      "halfWidth": 24.84,
+      "height": 65.337,
+      "gradient": [
+        -0.01357,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0772.a8a7e8bcacbb4b97a579da28bc3df298"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0772.a8a7e8bcacbb4b97a579da28bc3df298",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1378759055",
+        "tags": {
+          "bridge": "yes",
+          "highway": "busway",
+          "lanes": "1",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "50",
+          "name": "Noord Brabantlaan",
+          "name:etymology:wikidata": "Q1101",
+          "oneway": "yes",
+          "surface": "asphalt",
+          "zone:traffic": "NL:urban",
+          "man_made": "bridge"
+        }
+      },
+      "fis": {
+        "id": 1757,
+        "naam": "Brug in de Noord-Brabantlaan Eindhoven",
+        "afstand": 0,
+        "beweegbaar": false,
+        "doorvaarthoogteGesloten": 3.870000000000001
+      },
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": 3.870000000000001,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,380000,160000,400000 --run nl-7_4 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 37.1,
+      "dekBreedte": 45.7,
+      "brugLengte": 37.1,
+      "water": [
+        -9.5,
+        10
+      ],
+      "portaalhoogte": 41.1,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0772.596017547f9c491bad43c1c32b5c25af",
+          "klasse": "Forest",
+          "oppervlak": 7066,
+          "onderDek": 0.05,
+          "bovenDekOnderkant": 1.01,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0772.5b62164f7a124a83aae98d68ada9f702",
+          "klasse": "Separation",
+          "oppervlak": 119.7,
+          "onderDek": 0.24,
+          "bovenDekOnderkant": 1,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "W0539.e21dfa781c634178b281dcb89e4f5f0e",
+          "klasse": "Separation",
+          "oppervlak": 7.9,
+          "onderDek": 0.94,
+          "bovenDekOnderkant": 0.95,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "W0539.77cbe62e62f141c9a62831bab98d9300",
+          "klasse": "Forest",
+          "oppervlak": 2627.7,
+          "onderDek": 0.12,
+          "bovenDekOnderkant": 0.94,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        65.2,
+        65.174
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "4 PDOK-vorm(en) door het dek: 1 verborgen, 3 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

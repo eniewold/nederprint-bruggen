@@ -1,0 +1,151 @@
+{
+  "name": "eindhoven-brug-fcb12b38",
+  "file": "eindhoven-brug-fcb12b38.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    162396.44,
+    384346.91
+  ],
+  "xAxis": [
+    1,
+    -0.000383
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 59.83,
+  "groundSamplePoints": [
+    [
+      -27.47,
+      0
+    ],
+    [
+      27.47,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0772.fcb12b3838624cb58ec24d440e985c64"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        162396.44,
+        384346.91
+      ],
+      "axis": [
+        1,
+        -0.000383
+      ],
+      "halfLength": 6.49,
+      "halfWidth": 1.91,
+      "height": 59.236,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -2.15,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        162371.95,
+        384346.92
+      ],
+      "axis": [
+        -1,
+        0.000383
+      ],
+      "halfLength": 12,
+      "halfWidth": 2.11,
+      "height": 60.183,
+      "gradient": [
+        -0.02943,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        162420.93,
+        384346.9
+      ],
+      "axis": [
+        1,
+        -0.000383
+      ],
+      "halfLength": 12,
+      "halfWidth": 2.11,
+      "height": 60.386,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0772.fcb12b3838624cb58ec24d440e985c64"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0772.fcb12b3838624cb58ec24d440e985c64",
+          "type": "dek"
+        }
+      ],
+      "osm": null,
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,380000,180000,400000 --run nl-8_4 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 25,
+      "dekBreedte": 2.8,
+      "brugLengte": 25,
+      "water": null,
+      "portaalhoogte": 2.5,
+      "opritafstand": [
+        15,
+        15
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0772.28b9961809604058a6394d9c92b66c73",
+          "klasse": "Forest",
+          "oppervlak": 10307.1,
+          "onderDek": 0.01,
+          "bovenDekOnderkant": 1.15,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0772.436d0bf25ec547e3898820436ee51c0d",
+          "klasse": "Road",
+          "oppervlak": 115,
+          "onderDek": 0.02,
+          "bovenDekOnderkant": 0.86,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        59.83,
+        60.236
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

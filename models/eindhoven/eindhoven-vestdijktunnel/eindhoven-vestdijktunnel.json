@@ -1,0 +1,173 @@
+{
+  "name": "Vestdijktunnel",
+  "file": "eindhoven-vestdijktunnel.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    161278.94,
+    383724.87
+  ],
+  "xAxis": [
+    0.994172,
+    0.107801
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 63.567,
+  "groundSamplePoints": [
+    [
+      -19.55,
+      0
+    ],
+    [
+      20.57,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "L0004.23ab3fcfe16a4a07ba617a66b57afa6f"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        161278.94,
+        383724.87
+      ],
+      "axis": [
+        0.994172,
+        0.107801
+      ],
+      "halfLength": 14.06,
+      "halfWidth": 28.81,
+      "height": 62.31,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.49,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        161247.57,
+        383721.47
+      ],
+      "axis": [
+        -0.994172,
+        -0.107801
+      ],
+      "halfLength": 12,
+      "halfWidth": 30.31,
+      "height": 63.61,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        161311.32,
+        383728.39
+      ],
+      "axis": [
+        0.994172,
+        0.107801
+      ],
+      "halfLength": 12,
+      "halfWidth": 30.31,
+      "height": 63.589,
+      "gradient": [
+        -0.0018,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "L0004.23ab3fcfe16a4a07ba617a66b57afa6f"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "L0004.23ab3fcfe16a4a07ba617a66b57afa6f",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/886857656",
+        "tags": {
+          "axle_load": "22.5",
+          "bridge": "yes",
+          "description": "Eindhoven",
+          "electrified": "contact_line",
+          "frequency": "0",
+          "gauge": "1435",
+          "layer": "1",
+          "loading_gauge": "TSI_GB",
+          "maxspeed": "40",
+          "name": "Vestdijktunnel",
+          "operator": "ProRail",
+          "railway": "rail",
+          "railway:atb": "yes",
+          "railway:maximum_current": "4000",
+          "railway:track_class": "D4",
+          "railway:traffic_mode": "mixed",
+          "ref": "618c",
+          "ref:ProRailID": "2880751.0",
+          "ref:ProRailSpoortak": "618_39L_58.7",
+          "source": "ProRail",
+          "source:date": "2014-01-03",
+          "usage": "main",
+          "voltage": "1500",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,380000,180000,400000 --run nl-8_4 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 40.1,
+      "dekBreedte": 56.6,
+      "brugLengte": 40.1,
+      "water": null,
+      "portaalhoogte": 51,
+      "opritafstand": [
+        0,
+        0
+      ],
+      "spoorhoogteBron": "prorail-pvs",
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "L0004.b834b5bf03484845b2980743fb37cd2b",
+          "klasse": "Road",
+          "oppervlak": 26423.7,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.49,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        63.61,
+        63.567
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

@@ -1,0 +1,183 @@
+{
+  "name": "Fuutlaantunnel",
+  "file": "eindhoven-fuutlaantunnel.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    163033.88,
+    383922.2
+  ],
+  "xAxis": [
+    -0.995639,
+    -0.093293
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 62.346,
+  "groundSamplePoints": [
+    [
+      -43.15,
+      0
+    ],
+    [
+      43.15,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0772.fab5c07f60c0432a9db348ade2af848d",
+    "G0772.45cdddc80ebe47a7944d2b7e47b71a0a"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        163033.88,
+        383922.2
+      ],
+      "axis": [
+        -0.995639,
+        -0.093293
+      ],
+      "halfLength": 17.15,
+      "halfWidth": 13.39,
+      "height": 61.523,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.52,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        163068.88,
+        383925.48
+      ],
+      "axis": [
+        0.995639,
+        0.093293
+      ],
+      "halfLength": 12,
+      "halfWidth": 14.89,
+      "height": 62.585,
+      "gradient": [
+        -0.0199,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        162998.88,
+        383918.92
+      ],
+      "axis": [
+        -0.995639,
+        -0.093293
+      ],
+      "halfLength": 12,
+      "halfWidth": 14.89,
+      "height": 62.673,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0772.45cdddc80ebe47a7944d2b7e47b71a0a"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0772.fab5c07f60c0432a9db348ade2af848d",
+          "type": "pijler"
+        },
+        {
+          "id": "G0772.45cdddc80ebe47a7944d2b7e47b71a0a",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/751406001",
+        "tags": {
+          "bridge": "yes",
+          "cycleway:right": "lane",
+          "cycleway:right:lane": "exclusive",
+          "highway": "tertiary",
+          "lane_markings": "no",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "50",
+          "maxweight:signed": "no",
+          "name": "Fuutlaantunnel",
+          "name:etymology:wikidata": "Q25422",
+          "oneway": "yes",
+          "surface": "asphalt",
+          "bridge:structure": "beam",
+          "man_made": "bridge",
+          "start_date": "1973"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 2
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,380000,180000,400000 --run nl-8_4 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 46.3,
+      "dekBreedte": 25.8,
+      "brugLengte": 46.3,
+      "water": null,
+      "portaalhoogte": 23.2,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0772.dc392fb0ba3b4200be6ce47adb3c7547",
+          "klasse": "Road",
+          "oppervlak": 1186.8,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.52,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0772.c45b386afa2d4bd09fc0ea3ab468161c",
+          "klasse": "Road",
+          "oppervlak": 547.7,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.1,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0772.4a50eebf195a499185a568c6295e6c09",
+          "klasse": "Separation",
+          "oppervlak": 202.9,
+          "onderDek": 0.09,
+          "bovenDekOnderkant": 0.05,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        62.346,
+        62.523
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "3 PDOK-vorm(en) door het dek: 0 verborgen, 3 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

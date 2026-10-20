@@ -1,0 +1,171 @@
+{
+  "name": "Burgemeester van Lanschotbrug",
+  "file": "geldrop-burgemeester-van-lanschotbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    167385.01,
+    381250.11
+  ],
+  "xAxis": [
+    -0.49812,
+    -0.867108
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 64.435,
+  "groundSamplePoints": [
+    [
+      -27.68,
+      0
+    ],
+    [
+      27.68,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G1771.88c7437118f04962b38689b43e141f1e"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        167385.01,
+        381250.11
+      ],
+      "axis": [
+        -0.49812,
+        -0.867108
+      ],
+      "halfLength": 6.58,
+      "halfWidth": 11.73,
+      "height": 63.498,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.32,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        167397.25,
+        381271.42
+      ],
+      "axis": [
+        0.49812,
+        0.867108
+      ],
+      "halfLength": 12,
+      "halfWidth": 13.23,
+      "height": 64.648,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        167372.76,
+        381228.79
+      ],
+      "axis": [
+        -0.49812,
+        -0.867108
+      ],
+      "halfLength": 12,
+      "halfWidth": 13.23,
+      "height": 64.617,
+      "gradient": [
+        -0.01514,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G1771.88c7437118f04962b38689b43e141f1e"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G1771.88c7437118f04962b38689b43e141f1e",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/692842986",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "yes",
+          "foot": "use_sidepath",
+          "highway": "secondary",
+          "lanes": "1",
+          "layer": "1",
+          "maxspeed": "50",
+          "name": "Burgemeester van Lanschotbrug",
+          "oneway": "yes",
+          "surface": "asphalt",
+          "turn:lanes": "through;right",
+          "zone:traffic": "NL:urban",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,380000,180000,400000 --run nl-8_4 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 25.2,
+      "dekBreedte": 22.5,
+      "brugLengte": 25.2,
+      "water": [
+        -4.6,
+        4.9
+      ],
+      "portaalhoogte": 20.2,
+      "opritafstand": [
+        15.1,
+        15.1
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G1771.9c40cdab746e4653a6541cb69bc34806",
+          "klasse": "Terrain",
+          "oppervlak": 54.3,
+          "onderDek": 0.43,
+          "bovenDekOnderkant": 0.32,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G1771.cc7d97be3ae549c0b9309f786c84efbe",
+          "klasse": "Road",
+          "oppervlak": 75.1,
+          "onderDek": 0.46,
+          "bovenDekOnderkant": 0.14,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        64.498,
+        64.435
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "name": "Zoetermeer Stadslijn",
+  "file": "zoetermeer-brug-4b4f2c04.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    93550.8,
+    452572.18
+  ],
+  "xAxis": [
+    -0.521474,
+    0.853267
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 42.765,
+  "groundSamplePoints": [
+    [
+      -22.22,
+      0
+    ],
+    [
+      22.13,
+      1.83
+    ]
+  ],
+  "replacesTerrain": [
+    "G0637.4b4f2c04c1814a7eb7b524a137318d4c"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        93550.8,
+        452572.18
+      ],
+      "axis": [
+        -0.521474,
+        0.853267
+      ],
+      "halfLength": 6.17,
+      "halfWidth": 5.56,
+      "height": 41.888,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.26,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        93563.43,
+        452551.52
+      ],
+      "axis": [
+        0.521474,
+        -0.853267
+      ],
+      "halfLength": 12,
+      "halfWidth": 7.06,
+      "height": 42.977,
+      "gradient": [
+        -0.0176,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        93538.22,
+        452592.77
+      ],
+      "axis": [
+        -0.521474,
+        0.853267
+      ],
+      "halfLength": 12,
+      "halfWidth": 7.06,
+      "height": 43.038,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0637.4b4f2c04c1814a7eb7b524a137318d4c"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0637.4b4f2c04c1814a7eb7b524a137318d4c",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/345265201",
+        "tags": {
+          "bridge": "viaduct",
+          "electrified": "contact_line",
+          "frequency": "0",
+          "gauge": "1435",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Zoetermeer Stadslijn",
+          "oneway": "yes",
+          "operator": "HTM",
+          "railway": "light_rail",
+          "railway:zub222c": "yes",
+          "service": "crossover",
+          "voltage": "750",
+          "width": "3.4",
+          "wikidata": "Q2765440",
+          "wikipedia": "nl:Spoorlijn Leidschendam aansluiting - Zoetermeer",
+          "bridge:structure": "beam",
+          "bridge:support": "pier",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,440000,100000,460000 --run nl-4_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 24.3,
+      "dekBreedte": 10.1,
+      "brugLengte": 24.3,
+      "water": [
+        -5.7,
+        5.3
+      ],
+      "portaalhoogte": 9.1,
+      "opritafstand": [
+        10,
+        10
+      ],
+      "spoorhoogteBron": "pdok",
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0637.3a8faac9a16d49288385538acf5f6248",
+          "klasse": "Road",
+          "oppervlak": 312.9,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.26,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        42.765,
+        42.888
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "oprit -: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "oprit +: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "name": "spijkenisse-brug-d5e99796",
+  "file": "spijkenisse-brug-d5e99796.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    83362.38,
+    427277.19
+  ],
+  "xAxis": [
+    -0.659891,
+    -0.751361
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 41.677,
+  "groundSamplePoints": [
+    [
+      -7.07,
+      0
+    ],
+    [
+      7.07,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "W0655.d5e99796439045d2ad8352b9e4b77da8",
+    "W0655.26b5e5b086ed42d0aa2f293f41d847e4"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        83362.38,
+        427277.19
+      ],
+      "axis": [
+        -0.659891,
+        -0.751361
+      ],
+      "halfLength": 1.54,
+      "halfWidth": 2.04,
+      "height": 41.242,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.1,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        83366.44,
+        427281.81
+      ],
+      "axis": [
+        0.659891,
+        0.751361
+      ],
+      "halfLength": 3.07,
+      "halfWidth": 2.31,
+      "height": 42.11,
+      "gradient": [
+        -0.14076,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        83358.33,
+        427272.58
+      ],
+      "axis": [
+        -0.659891,
+        -0.751361
+      ],
+      "halfLength": 3.07,
+      "halfWidth": 2.31,
+      "height": 42.392,
+      "gradient": [
+        -0.04884,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "W0655.d5e99796439045d2ad8352b9e4b77da8"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "W0655.d5e99796439045d2ad8352b9e4b77da8",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/130789508",
+        "tags": {
+          "bridge": "yes",
+          "highway": "footway",
+          "layer": "1",
+          "lit": "no"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,420000,100000,440000 --run nl-4_6 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 6.1,
+      "dekBreedte": 3.1,
+      "brugLengte": 6.1,
+      "water": [
+        -1.1,
+        0.4
+      ],
+      "portaalhoogte": 2.8,
+      "opritafstand": [
+        4,
+        4
+      ],
+      "oprithelling": 6.1,
+      "doorstekend": [
+        {
+          "gmlId": "W0655.26b5e5b086ed42d0aa2f293f41d847e4",
+          "klasse": "Terrain",
+          "oppervlak": 3,
+          "onderDek": 1,
+          "bovenDekOnderkant": 0.16,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "W0655.c59bee957ce848a78e7c239fe6418620",
+          "klasse": "Terrain",
+          "oppervlak": 3.7,
+          "onderDek": 0.01,
+          "bovenDekOnderkant": 0.1,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        41.677,
+        42.242
+      ]
+    },
+    "waarschuwingen": [
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 1 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

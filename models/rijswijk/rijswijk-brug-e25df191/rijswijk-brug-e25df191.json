@@ -1,0 +1,166 @@
+{
+  "name": "rijswijk-brug-e25df191",
+  "file": "rijswijk-brug-e25df191.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    83554.59,
+    451849.47
+  ],
+  "xAxis": [
+    0.628691,
+    -0.777655
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 44.899,
+  "groundSamplePoints": [
+    [
+      -51.77,
+      11.71
+    ],
+    [
+      22.43,
+      -2.24
+    ]
+  ],
+  "replacesTerrain": [
+    "G0603.e25df191f2c94818a399c81c9fd9a6d4",
+    "G0603.9b90a383f6dc49e495359400038f89f2"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        83554.59,
+        451849.47
+      ],
+      "axis": [
+        0.628691,
+        -0.777655
+      ],
+      "halfLength": 6.43,
+      "halfWidth": 4.96,
+      "height": 47.535,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -2.02,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        83539.23,
+        451868.46
+      ],
+      "axis": [
+        -0.628691,
+        0.777655
+      ],
+      "halfLength": 12,
+      "halfWidth": 6.46,
+      "height": 46.867,
+      "gradient": [
+        -0.16397,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        83569.95,
+        451830.47
+      ],
+      "axis": [
+        0.628691,
+        -0.777655
+      ],
+      "halfLength": 12,
+      "halfWidth": 6.46,
+      "height": 48.685,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0603.e25df191f2c94818a399c81c9fd9a6d4"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0603.e25df191f2c94818a399c81c9fd9a6d4",
+          "type": "dek"
+        }
+      ],
+      "osm": null,
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,440000,100000,460000 --run nl-4_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 24.9,
+      "dekBreedte": 8.9,
+      "brugLengte": 24.9,
+      "water": null,
+      "portaalhoogte": 8,
+      "opritafstand": [
+        40,
+        10
+      ],
+      "spoorhoogteBron": "pdok",
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0603.f2904fc1165d42c49695414ea120021c",
+          "klasse": "Terrain",
+          "oppervlak": 17.6,
+          "onderDek": 0.19,
+          "bovenDekOnderkant": 1.02,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0603.c575c4cf49264b0fa786ee12d043e7db",
+          "klasse": "Separation",
+          "oppervlak": 384.2,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.98,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0603.9b90a383f6dc49e495359400038f89f2",
+          "klasse": "Road",
+          "oppervlak": 103,
+          "onderDek": 0.93,
+          "bovenDekOnderkant": 0.92,
+          "actie": "verbergen"
+        }
+      ],
+      "opritHoogtes": [
+        44.899,
+        48.535
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "oprit -: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "oprit -: spoorterrein voorbij 150 m nog 2.3 m hoger (47.7 m); PDOK trekt het spoor hier ver naar beneden, controleer de dekhoogte of geef --opritafstand",
+      "oprit - pas op 40 m langs het spoor gemeten (PDOK-spoorterrein bij de brug lager)",
+      "oprit +: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "oprit +: de sporen verschillen 5.1 m in hoogte (fly-over of wissel naast de brug); mediaan genomen",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "3 PDOK-vorm(en) door het dek: 1 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

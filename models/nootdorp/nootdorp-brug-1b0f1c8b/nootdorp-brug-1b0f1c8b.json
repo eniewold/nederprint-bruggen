@@ -1,0 +1,140 @@
+{
+  "name": "Hofpleinlijn",
+  "file": "nootdorp-brug-1b0f1c8b.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    88112.89,
+    451923.51
+  ],
+  "xAxis": [
+    -0.364442,
+    0.931226
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 45.532,
+  "groundSamplePoints": [
+    [
+      -21.62,
+      -2.27
+    ],
+    [
+      21.62,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G1926.1b0f1c8bba5447c2977199db0bebded8"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        88121.36,
+        451901.86
+      ],
+      "axis": [
+        0.364442,
+        -0.931226
+      ],
+      "halfLength": 11.62,
+      "halfWidth": 8.33,
+      "height": 45.849,
+      "gradient": [
+        -0.02728,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        88104.42,
+        451945.16
+      ],
+      "axis": [
+        -0.364442,
+        0.931226
+      ],
+      "halfLength": 11.62,
+      "halfWidth": 8.33,
+      "height": 46.016,
+      "gradient": [
+        -0.01291,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G1926.1b0f1c8bba5447c2977199db0bebded8"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G1926.1b0f1c8bba5447c2977199db0bebded8",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/344553617",
+        "tags": {
+          "bridge": "viaduct",
+          "description": "Metrolijn E",
+          "electrified": "contact_line",
+          "frequency": "0",
+          "gauge": "1435",
+          "layer": "1",
+          "maxspeed": "100",
+          "name": "Hofpleinlijn",
+          "oneway": "yes",
+          "operator": "RET",
+          "railway": "light_rail",
+          "railway:zub222c": "yes",
+          "ref": "E",
+          "voltage": "750",
+          "width": "3.4",
+          "bridge:structure": "beam",
+          "bridge:support": "pier",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,440000,100000,460000 --run nl-4_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 23.2,
+      "dekBreedte": 12.7,
+      "brugLengte": 23.2,
+      "water": null,
+      "portaalhoogte": 11.4,
+      "opritafstand": [
+        10,
+        10
+      ],
+      "spoorhoogteBron": "pdok",
+      "oprithelling": 23.2,
+      "doorstekend": [],
+      "opritHoogtes": [
+        45.532,
+        45.866
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "oprit -: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "oprit +: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "oprit +: spoorterrein voorbij 150 m nog 1.2 m hoger (47.1 m); PDOK trekt het spoor hier ver naar beneden, controleer de dekhoogte of geef --opritafstand",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "name": "Sluis IV",
+  "file": "haghorst-sluis-iv.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    142450.69,
+    389944.28
+  ],
+  "xAxis": [
+    0.015271,
+    -0.999883
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 59.108,
+  "groundSamplePoints": [
+    [
+      -8.18,
+      0
+    ],
+    [
+      8.18,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "L0002.38f2ec5b1e134c34a173de2e2465a00d"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        142450.58,
+        389951.72
+      ],
+      "axis": [
+        -0.015271,
+        0.999883
+      ],
+      "halfLength": 3.72,
+      "halfWidth": 2.81,
+      "height": 59.484,
+      "gradient": [
+        -0.04034,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        142450.81,
+        389936.85
+      ],
+      "axis": [
+        0.015271,
+        -0.999883
+      ],
+      "halfLength": 3.72,
+      "halfWidth": 2.81,
+      "height": 59.371,
+      "gradient": [
+        -0.0708,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "L0002.38f2ec5b1e134c34a173de2e2465a00d"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "L0002.38f2ec5b1e134c34a173de2e2465a00d",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/665616783",
+        "tags": {
+          "bridge": "movable",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Sluis IV",
+          "bridge:movable": "bascule",
+          "man_made": "bridge"
+        }
+      },
+      "fis": {
+        "id": 58110,
+        "naam": "Brug over benedenhoofd Sluis IV",
+        "afstand": 0,
+        "beweegbaar": true,
+        "doorvaarthoogteGesloten": 2
+      },
+      "pdokBridgeVlakken": 1
+    },
+    "type": "basculebrug",
+    "doorvaarthoogte": 2,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,380000,160000,400000 --run nl-7_4 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 7.4,
+      "dekBreedte": 3.7,
+      "brugLengte": 7.4,
+      "water": [
+        -3.2,
+        3.3
+      ],
+      "portaalhoogte": 3.4,
+      "opritafstand": [
+        4.5,
+        4.5
+      ],
+      "oprithelling": 7.4,
+      "doorstekend": [],
+      "opritHoogtes": [
+        59.334,
+        59.108
+      ]
+    },
+    "waarschuwingen": [
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

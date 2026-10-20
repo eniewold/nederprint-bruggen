@@ -1,0 +1,193 @@
+{
+  "name": "Hoefweg",
+  "file": "bleiswijk-brug-8ec0dc51.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    96903.7,
+    450023.07
+  ],
+  "xAxis": [
+    0.254313,
+    0.967122
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 49.643,
+  "groundSamplePoints": [
+    [
+      -71.31,
+      0
+    ],
+    [
+      71.31,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "P0028.8ec0dc51847d447bbcf3ea3ae5f9fadd",
+    "P0028.09711b235ca44152815b5466783d5890",
+    "P0028.915e066e55dd4bd7a447f587392e37fc"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        96903.7,
+        450023.07
+      ],
+      "axis": [
+        0.254313,
+        0.967122
+      ],
+      "halfLength": 45.31,
+      "halfWidth": 27.77,
+      "height": 48.899,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.68,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        96887.6,
+        449961.84
+      ],
+      "axis": [
+        -0.254313,
+        -0.967122
+      ],
+      "halfLength": 12,
+      "halfWidth": 29.27,
+      "height": 49.921,
+      "gradient": [
+        -0.02318,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        96919.8,
+        450084.3
+      ],
+      "axis": [
+        0.254313,
+        0.967122
+      ],
+      "halfLength": 12,
+      "halfWidth": 29.27,
+      "height": 50.049,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "P0028.8ec0dc51847d447bbcf3ea3ae5f9fadd"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "P0028.8ec0dc51847d447bbcf3ea3ae5f9fadd",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/309324320",
+        "tags": {
+          "agricultural": "no",
+          "bicycle": "no",
+          "bridge": "yes",
+          "carriage": "no",
+          "destination": "Bleiswijk;Rotterdam",
+          "destination:ref": "N209",
+          "foot": "no",
+          "hand_cart": "no",
+          "highway": "primary",
+          "horse": "no",
+          "lanes": "3",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "80",
+          "microcar": "no",
+          "mofa": "no",
+          "moped": "no",
+          "name": "Hoefweg",
+          "oneway": "yes",
+          "operator": "Provincie Zuid-Holland",
+          "ref": "N209",
+          "surface": "asphalt",
+          "toll:hgv": "yes",
+          "traffic_sign": "NL:C9",
+          "width": "10.5",
+          "zone:traffic": "NL:rural",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,440000,100000,460000 --run nl-4_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 102.6,
+      "dekBreedte": 54.5,
+      "brugLengte": 102.6,
+      "water": null,
+      "portaalhoogte": 49.1,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "P0028.09711b235ca44152815b5466783d5890",
+          "klasse": "Terrain",
+          "oppervlak": 544.7,
+          "onderDek": 0.76,
+          "bovenDekOnderkant": 0.82,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "P0028.bcdbb60503ab4e51bc8e5549303ecba9",
+          "klasse": "Road",
+          "oppervlak": 1084.3,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.68,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "P0028.915e066e55dd4bd7a447f587392e37fc",
+          "klasse": "Terrain",
+          "oppervlak": 721.1,
+          "onderDek": 0.82,
+          "bovenDekOnderkant": 0.46,
+          "actie": "verbergen"
+        }
+      ],
+      "opritHoogtes": [
+        49.643,
+        49.899
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "3 PDOK-vorm(en) door het dek: 2 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

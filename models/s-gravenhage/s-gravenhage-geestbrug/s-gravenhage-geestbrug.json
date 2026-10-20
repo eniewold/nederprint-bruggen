@@ -1,0 +1,144 @@
+{
+  "name": "Geestbrug",
+  "file": "s-gravenhage-geestbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    83476.38,
+    452865.77
+  ],
+  "xAxis": [
+    -0.717651,
+    -0.696403
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 45.497,
+  "groundSamplePoints": [
+    [
+      -25.21,
+      -1.63
+    ],
+    [
+      45.21,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "P0028.d954b94008b74334887a9cabee69478a"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        83483.86,
+        452873.03
+      ],
+      "axis": [
+        0.717651,
+        0.696403
+      ],
+      "halfLength": 5.21,
+      "halfWidth": 10.08,
+      "height": 46.487,
+      "gradient": [
+        -0.02877,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        83468.9,
+        452858.51
+      ],
+      "axis": [
+        -0.717651,
+        -0.696403
+      ],
+      "halfLength": 5.21,
+      "halfWidth": 10.08,
+      "height": 46.067,
+      "gradient": [
+        -0.10932,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "P0028.d954b94008b74334887a9cabee69478a"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "P0028.d954b94008b74334887a9cabee69478a",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/472144778",
+        "tags": {
+          "bridge": "viaduct",
+          "cycleway": "lane",
+          "embedded_rails": "tram",
+          "highway": "tertiary",
+          "lanes": "2",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "50",
+          "name": "Geestbrug",
+          "surface": "asphalt",
+          "bridge:structure": "beam",
+          "man_made": "bridge",
+          "wikidata": "Q15943343",
+          "wikipedia": "nl:Geestbrug"
+        }
+      },
+      "fis": {
+        "id": 33094,
+        "naam": "Geestbrug",
+        "afstand": 1,
+        "beweegbaar": true,
+        "doorvaarthoogteGesloten": 2.6500000000000004
+      },
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ophaalbrug",
+    "doorvaarthoogte": 2.6500000000000004,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,440000,100000,460000 --run nl-4_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 10.4,
+      "dekBreedte": 16.2,
+      "brugLengte": 10.4,
+      "water": [
+        -4.7,
+        4.8
+      ],
+      "portaalhoogte": 14.5,
+      "opritafstand": [
+        20,
+        40
+      ],
+      "spoorhoogteBron": "pdok",
+      "oprithelling": 10.4,
+      "doorstekend": [],
+      "opritHoogtes": [
+        46.337,
+        45.497
+      ]
+    },
+    "waarschuwingen": [
+      "oprit -: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "oprit +: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "oprit + pas op 40 m langs het spoor gemeten (PDOK-spoorterrein bij de brug lager)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

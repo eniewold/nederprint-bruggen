@@ -1,0 +1,168 @@
+{
+  "name": "Lindeweg",
+  "file": "heerjansdam-brug-3a33d446.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    99124.16,
+    426796.61
+  ],
+  "xAxis": [
+    -0.988075,
+    0.153972
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 43.006,
+  "groundSamplePoints": [
+    [
+      -37.55,
+      0
+    ],
+    [
+      37.55,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0642.3a33d44637914b5ca45926ccf1488ab3"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        99124.16,
+        426796.61
+      ],
+      "axis": [
+        -0.988075,
+        0.153972
+      ],
+      "halfLength": 11.55,
+      "halfWidth": 4.01,
+      "height": 42.188,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.29,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        99153.36,
+        426792.06
+      ],
+      "axis": [
+        0.988075,
+        -0.153972
+      ],
+      "halfLength": 12,
+      "halfWidth": 5.26,
+      "height": 43.247,
+      "gradient": [
+        -0.02007,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        99094.96,
+        426801.16
+      ],
+      "axis": [
+        -0.988075,
+        0.153972
+      ],
+      "halfLength": 12,
+      "halfWidth": 5.26,
+      "height": 43.338,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0642.3a33d44637914b5ca45926ccf1488ab3"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0642.3a33d44637914b5ca45926ccf1488ab3",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/7321698",
+        "tags": {
+          "bridge": "yes",
+          "highway": "secondary",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Lindeweg",
+          "operator": "Waterschap Hollandse Delta",
+          "surface:colour": "grey",
+          "traffic_calming": "bump",
+          "zone:maxspeed": "NL:60",
+          "zone:traffic": "NL:rural"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,420000,100000,440000 --run nl-4_6 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 35.1,
+      "dekBreedte": 7,
+      "brugLengte": 35.1,
+      "water": [
+        -10.1,
+        10.4
+      ],
+      "portaalhoogte": 6.3,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0642.151cd5b1e3884c86805b6a8219e1896e",
+          "klasse": "Terrain",
+          "oppervlak": 553.1,
+          "onderDek": 0.04,
+          "bovenDekOnderkant": 0.29,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0642.6573590b4c5c49fb821d5192fa1d7b30",
+          "klasse": "Terrain",
+          "oppervlak": 1518.9,
+          "onderDek": 0.01,
+          "bovenDekOnderkant": 0.14,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        43.006,
+        43.188
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

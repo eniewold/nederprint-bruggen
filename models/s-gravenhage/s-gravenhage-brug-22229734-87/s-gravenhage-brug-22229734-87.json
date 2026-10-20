@@ -1,0 +1,194 @@
+{
+  "name": "Frits Diepenlaan",
+  "file": "s-gravenhage-brug-22229734-87.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    85124.8,
+    450540.83
+  ],
+  "xAxis": [
+    0.723996,
+    -0.689804
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 40.456,
+  "groundSamplePoints": [
+    [
+      -40.03,
+      0
+    ],
+    [
+      40.03,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0518.22229734a7f49258e053530a0b0ac95b",
+    "G0518.2222973750d39258e053530a0b0ac95b",
+    "G0518.222297375b4a9258e053530a0b0ac95b"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        85124.8,
+        450540.83
+      ],
+      "axis": [
+        0.723996,
+        -0.689804
+      ],
+      "halfLength": 14.03,
+      "halfWidth": 6.79,
+      "height": 39.609,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.55,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        85101.61,
+        450562.92
+      ],
+      "axis": [
+        -0.723996,
+        0.689804
+      ],
+      "halfLength": 12,
+      "halfWidth": 8.29,
+      "height": 40.759,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        85147.99,
+        450518.73
+      ],
+      "axis": [
+        0.723996,
+        -0.689804
+      ],
+      "halfLength": 12,
+      "halfWidth": 8.29,
+      "height": 40.683,
+      "gradient": [
+        -0.01891,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0518.22229734a7f49258e053530a0b0ac95b"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0518.22229734a7f49258e053530a0b0ac95b",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1036325671",
+        "tags": {
+          "bridge": "yes",
+          "highway": "residential",
+          "layer": "1",
+          "maxspeed": "30",
+          "maxweight:signed": "no",
+          "name": "Frits Diepenlaan",
+          "surface": "asphalt",
+          "bridge:structure": "humpback",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "bolbrug",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,440000,100000,460000 --run nl-4_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 40.1,
+      "dekBreedte": 12.6,
+      "brugLengte": 40.1,
+      "water": [
+        -8,
+        8
+      ],
+      "portaalhoogte": 11.3,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "bolling": 2.5,
+      "doorstekend": [
+        {
+          "gmlId": "G0518.2222973750d39258e053530a0b0ac95b",
+          "klasse": "Forest",
+          "oppervlak": 76.5,
+          "onderDek": 1,
+          "bovenDekOnderkant": 0.64,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "G0518.222297373cba9258e053530a0b0ac95b",
+          "klasse": "Road",
+          "oppervlak": 55.2,
+          "onderDek": 0.47,
+          "bovenDekOnderkant": 0.55,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0518.222297372cf39258e053530a0b0ac95b",
+          "klasse": "Road",
+          "oppervlak": 110,
+          "onderDek": 0.41,
+          "bovenDekOnderkant": 0.51,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0518.222297375c539258e053530a0b0ac95b",
+          "klasse": "Forest",
+          "oppervlak": 685.6,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.5,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0518.222297375b4a9258e053530a0b0ac95b",
+          "klasse": "Forest",
+          "oppervlak": 36.9,
+          "onderDek": 1,
+          "bovenDekOnderkant": 0.49,
+          "actie": "verbergen"
+        }
+      ],
+      "opritHoogtes": [
+        40.609,
+        40.456
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "5 PDOK-vorm(en) door het dek: 2 verborgen, 3 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

@@ -1,0 +1,183 @@
+{
+  "name": "Kempenweg",
+  "file": "oirschot-brug-7208b881.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    149584.31,
+    389434.39
+  ],
+  "xAxis": [
+    0.824349,
+    0.566083
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 67.499,
+  "groundSamplePoints": [
+    [
+      -65.99,
+      0
+    ],
+    [
+      66.07,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "P0030.5b9ff463a6344f80b53961bcb28dcd57",
+    "P0030.20679bffcf5849aeaea22937f85674be",
+    "P0030.7208b881f40d45cbb3d8a8d025f9dd81"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        149584.31,
+        389434.39
+      ],
+      "axis": [
+        0.824349,
+        0.566083
+      ],
+      "halfLength": 39.99,
+      "halfWidth": 12.39,
+      "height": 66.694,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.84,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        149536.51,
+        389401.57
+      ],
+      "axis": [
+        -0.824349,
+        -0.566083
+      ],
+      "halfLength": 12,
+      "halfWidth": 13.89,
+      "height": 67.747,
+      "gradient": [
+        -0.02062,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        149632.18,
+        389467.27
+      ],
+      "axis": [
+        0.824349,
+        0.566083
+      ],
+      "halfLength": 12,
+      "halfWidth": 13.89,
+      "height": 67.844,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "P0030.7208b881f40d45cbb3d8a8d025f9dd81"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "P0030.5b9ff463a6344f80b53961bcb28dcd57",
+          "type": "onbekend"
+        },
+        {
+          "id": "P0030.20679bffcf5849aeaea22937f85674be",
+          "type": "onbekend"
+        },
+        {
+          "id": "P0030.7208b881f40d45cbb3d8a8d025f9dd81",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/381455697",
+        "tags": {
+          "bridge": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "moped": "designated",
+          "name": "Kempenweg",
+          "oneway": "no",
+          "operator": "Provincie Noord-Brabant",
+          "zone:traffic": "NL:rural",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 2
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,380000,160000,400000 --run nl-7_4 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 92,
+      "dekBreedte": 23.8,
+      "brugLengte": 92.1,
+      "water": null,
+      "portaalhoogte": 21.4,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "P0030.325c380eb012418f92be30735c07b101",
+          "klasse": "Terrain",
+          "oppervlak": 1.6,
+          "onderDek": 0.07,
+          "bovenDekOnderkant": 0.84,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "P0030.925633faa44f4a639281db67e042542b",
+          "klasse": "Road",
+          "oppervlak": 300.6,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.64,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "P0030.28c1ff26b76640dda32356466c05bba9",
+          "klasse": "Terrain",
+          "oppervlak": 199.1,
+          "onderDek": 0.59,
+          "bovenDekOnderkant": 0.37,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        67.499,
+        67.694
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "3 PDOK-vorm(en) door het dek: 0 verborgen, 3 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

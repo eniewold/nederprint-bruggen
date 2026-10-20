@@ -1,0 +1,188 @@
+{
+  "name": "Onze Lieve Vrouwestraat",
+  "file": "eindhoven-brug-9eaa368d.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    162416.05,
+    384791.09
+  ],
+  "xAxis": [
+    0.834866,
+    -0.550454
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 60.531,
+  "groundSamplePoints": [
+    [
+      -37.99,
+      0
+    ],
+    [
+      37.99,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0772.9eaa368d36b6453a9db0643c09f7fc46",
+    "G0772.a83531b78b714cb8ba1c06c0714540a3",
+    "G0772.b918cc18e3d9491eb5c4307cc5eec13e"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        162416.05,
+        384791.09
+      ],
+      "axis": [
+        0.834866,
+        -0.550454
+      ],
+      "halfLength": 11.99,
+      "halfWidth": 24.8,
+      "height": 59.892,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.54,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        162391.02,
+        384807.6
+      ],
+      "axis": [
+        -0.834866,
+        0.550454
+      ],
+      "halfLength": 12,
+      "halfWidth": 26.3,
+      "height": 61.042,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        162441.09,
+        384774.58
+      ],
+      "axis": [
+        0.834866,
+        -0.550454
+      ],
+      "halfLength": 12,
+      "halfWidth": 26.3,
+      "height": 60.862,
+      "gradient": [
+        -0.02756,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0772.9eaa368d36b6453a9db0643c09f7fc46"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0772.9eaa368d36b6453a9db0643c09f7fc46",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/7157484",
+        "tags": {
+          "bicycle": "no",
+          "bridge": "yes",
+          "highway": "primary",
+          "layer": "1",
+          "maxspeed": "70",
+          "name": "Onze Lieve Vrouwestraat",
+          "oneway": "yes",
+          "operator": "Gemeente Eindhoven",
+          "ref": "RING",
+          "surface": "asphalt",
+          "zone:traffic": "NL:urban"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,380000,180000,400000 --run nl-8_4 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 36,
+      "dekBreedte": 48.6,
+      "brugLengte": 36,
+      "water": [
+        -6,
+        5.5
+      ],
+      "portaalhoogte": 43.7,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0772.86278757f12b4960950adcaa8572f76f",
+          "klasse": "Forest",
+          "oppervlak": 8972,
+          "onderDek": 0.08,
+          "bovenDekOnderkant": 0.54,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0772.00647c6d37e7407bb6ef0940d278325e",
+          "klasse": "Terrain",
+          "oppervlak": 1230,
+          "onderDek": 0.06,
+          "bovenDekOnderkant": 0.49,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0772.a83531b78b714cb8ba1c06c0714540a3",
+          "klasse": "Road",
+          "oppervlak": 101.1,
+          "onderDek": 1,
+          "bovenDekOnderkant": 0.13,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "G0772.b918cc18e3d9491eb5c4307cc5eec13e",
+          "klasse": "Separation",
+          "oppervlak": 81.2,
+          "onderDek": 0.73,
+          "bovenDekOnderkant": 0.05,
+          "actie": "verbergen"
+        }
+      ],
+      "opritHoogtes": [
+        60.892,
+        60.531
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "4 PDOK-vorm(en) door het dek: 2 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

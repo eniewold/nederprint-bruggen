@@ -1,0 +1,156 @@
+{
+  "name": "Koperslager",
+  "file": "nootdorp-brug-05313a81.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    87687.13,
+    451721.17
+  ],
+  "xAxis": [
+    -0.821512,
+    0.570191
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 41.141,
+  "groundSamplePoints": [
+    [
+      -6.04,
+      0
+    ],
+    [
+      6.04,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G1926.05313a810d1b4c719050777bb6317b12"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        87687.13,
+        451721.17
+      ],
+      "axis": [
+        -0.821512,
+        0.570191
+      ],
+      "halfLength": 1.02,
+      "halfWidth": 3.09,
+      "height": 40.775,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.46,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        87691.27,
+        451718.29
+      ],
+      "axis": [
+        0.821512,
+        -0.570191
+      ],
+      "halfLength": 3,
+      "halfWidth": 3.89,
+      "height": 41.925,
+      "gradient": [
+        -0.05,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        87682.99,
+        451724.04
+      ],
+      "axis": [
+        -0.821512,
+        0.570191
+      ],
+      "halfLength": 3,
+      "halfWidth": 3.89,
+      "height": 41.608,
+      "gradient": [
+        -0.15569,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G1926.05313a810d1b4c719050777bb6317b12"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G1926.05313a810d1b4c719050777bb6317b12",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/153164813",
+        "tags": {
+          "bridge": "yes",
+          "highway": "residential",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Koperslager",
+          "zone:traffic": "NL:urban"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,440000,100000,460000 --run nl-4_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 4.1,
+      "dekBreedte": 5.2,
+      "brugLengte": 4.1,
+      "water": [
+        -2,
+        0.5
+      ],
+      "portaalhoogte": 4.7,
+      "opritafstand": [
+        4,
+        4
+      ],
+      "oprithelling": 6,
+      "doorstekend": [
+        {
+          "gmlId": "G1926.42bb66400b444e578b2a18ff59927e04",
+          "klasse": "Terrain",
+          "oppervlak": 5.8,
+          "onderDek": 0.04,
+          "bovenDekOnderkant": 0.46,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        41.775,
+        41.141
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

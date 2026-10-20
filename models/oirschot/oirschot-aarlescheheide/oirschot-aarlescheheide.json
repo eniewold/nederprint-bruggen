@@ -1,0 +1,176 @@
+{
+  "name": "Aarlescheheide",
+  "file": "oirschot-aarlescheheide.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    155211.46,
+    388504.25
+  ],
+  "xAxis": [
+    0.030268,
+    -0.999542
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 60.03,
+  "groundSamplePoints": [
+    [
+      -25.16,
+      0
+    ],
+    [
+      25.16,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "L0002.8abeacd54c2b7500047bb8a8d3a41641"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        155211.46,
+        388504.25
+      ],
+      "axis": [
+        0.030268,
+        -0.999542
+      ],
+      "halfLength": 5.72,
+      "halfWidth": 4.93,
+      "height": 60.782,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.66,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        155210.77,
+        388527.11
+      ],
+      "axis": [
+        -0.030268,
+        0.999542
+      ],
+      "halfLength": 11.43,
+      "halfWidth": 6.43,
+      "height": 61.056,
+      "gradient": [
+        -0.08975,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        155212.16,
+        388481.39
+      ],
+      "axis": [
+        0.030268,
+        -0.999542
+      ],
+      "halfLength": 11.43,
+      "halfWidth": 6.43,
+      "height": 61.932,
+      "gradient": [
+        -0.01312,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "L0002.8abeacd54c2b7500047bb8a8d3a41641"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "L0002.8abeacd54c2b7500047bb8a8d3a41641",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/678180969",
+        "tags": {
+          "bridge": "yes",
+          "carriageway_ref": "Re",
+          "destination:lanes": "Breda;Tilburg;Oirschot|Breda;Tilburg;Oirschot|Breda;Tilburg;Oirschot|Best",
+          "highway": "motorway",
+          "int_ref": "E 312",
+          "lanes": "4",
+          "layer": "1",
+          "maxspeed": "100",
+          "maxspeed:conditional": "120 @ (19:00-06:00)",
+          "noname": "yes",
+          "official_name": "Rijksweg A58",
+          "oneway": "yes",
+          "operator": "Rijkswaterstaat",
+          "placement": "middle_of:2",
+          "ref": "A58",
+          "surface": "asphalt",
+          "toll:hgv": "yes",
+          "turn:lanes": "none|none|none|slight_right",
+          "bridge:structure": "beam",
+          "man_made": "bridge",
+          "name": "Aarlescheheide"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,380000,160000,400000 --run nl-7_4 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 22.9,
+      "dekBreedte": 8.9,
+      "brugLengte": 22.9,
+      "water": null,
+      "portaalhoogte": 8,
+      "opritafstand": [
+        13.7,
+        13.7
+      ],
+      "oprithelling": 22.9,
+      "doorstekend": [
+        {
+          "gmlId": "G0823.a5e2126000a74250a58a55c40c2596f0",
+          "klasse": "Road",
+          "oppervlak": 161.5,
+          "onderDek": 0.28,
+          "bovenDekOnderkant": 0.66,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0823.56a51b8448024415bcf6d1f77e08a529",
+          "klasse": "Road",
+          "oppervlak": 3229.2,
+          "onderDek": 0.15,
+          "bovenDekOnderkant": 0.65,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        60.03,
+        61.782
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "name": "Boschdijk",
+  "file": "eindhoven-boschdijk.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    157845.27,
+    388821.79
+  ],
+  "xAxis": [
+    -0.813877,
+    -0.581037
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 66.913,
+  "groundSamplePoints": [
+    [
+      -62.47,
+      0
+    ],
+    [
+      62.49,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "L0002.3c1a58953ba94c39afd51bf8faa0738d",
+    "L0002.42d042ca89124248bd217762f54829d1",
+    "L0002.c0a4a0b695b841d4afa69801784ca556",
+    "L0002.b4c29ba711a64d10bb241013a684e47e",
+    "L0002.bb6483ef337a4d55888d20071f1e8b21"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        157889.6,
+        388853.44
+      ],
+      "axis": [
+        0.813877,
+        0.581037
+      ],
+      "halfLength": 12,
+      "halfWidth": 12.83,
+      "height": 67.273,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        157800.92,
+        388790.13
+      ],
+      "axis": [
+        -0.813877,
+        -0.581037
+      ],
+      "halfLength": 12,
+      "halfWidth": 12.83,
+      "height": 67.168,
+      "gradient": [
+        -0.02124,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "L0002.c0a4a0b695b841d4afa69801784ca556"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "L0002.3c1a58953ba94c39afd51bf8faa0738d",
+          "type": "onbekend"
+        },
+        {
+          "id": "L0002.42d042ca89124248bd217762f54829d1",
+          "type": "onbekend"
+        },
+        {
+          "id": "L0002.c0a4a0b695b841d4afa69801784ca556",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/678174812",
+        "tags": {
+          "bridge": "yes",
+          "carriageway_ref": "Li",
+          "highway": "motorway",
+          "int_ref": "E 25",
+          "lanes": "2",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "100",
+          "maxspeed:conditional": "120 @ (19:00-06:00)",
+          "name": "Boschdijk",
+          "oneway": "yes",
+          "operator": "Rijkswaterstaat",
+          "ref": "A2",
+          "surface": "asphalt",
+          "toll:hgv": "yes",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 3
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,380000,160000,400000 --run nl-7_4 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 84.8,
+      "dekBreedte": 21.7,
+      "brugLengte": 85,
+      "water": null,
+      "portaalhoogte": 19.5,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "L0002.b4c29ba711a64d10bb241013a684e47e",
+          "klasse": "Terrain",
+          "oppervlak": 171.1,
+          "onderDek": 0.8,
+          "bovenDekOnderkant": 0.59,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "L0002.bb6483ef337a4d55888d20071f1e8b21",
+          "klasse": "Terrain",
+          "oppervlak": 201.7,
+          "onderDek": 0.8,
+          "bovenDekOnderkant": 0.49,
+          "actie": "verbergen"
+        }
+      ],
+      "opritHoogtes": [
+        67.123,
+        66.913
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 2 verborgen, 0 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

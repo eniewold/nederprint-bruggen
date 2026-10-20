@@ -1,0 +1,165 @@
+{
+  "name": "Elisabethtunnel",
+  "file": "eindhoven-elisabethtunnel.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    160796.69,
+    383698.82
+  ],
+  "xAxis": [
+    -0.97897,
+    0.204003
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 64.565,
+  "groundSamplePoints": [
+    [
+      -22.7,
+      0
+    ],
+    [
+      22.68,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "L0004.89252c0179ff458a9dddf3130bec9116",
+    "G0772.abb9a157f14b4b799199cc991f2a3bca",
+    "G0772.a48dbd8d4e664eef861a60a01855af4c"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        160830.66,
+        383691.75
+      ],
+      "axis": [
+        0.97897,
+        -0.204003
+      ],
+      "halfLength": 12,
+      "halfWidth": 21.31,
+      "height": 64.609,
+      "gradient": [
+        -0.00366,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        160762.73,
+        383705.9
+      ],
+      "axis": [
+        -0.97897,
+        0.204003
+      ],
+      "halfLength": 12,
+      "halfWidth": 21.31,
+      "height": 64.653,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "L0004.89252c0179ff458a9dddf3130bec9116"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "L0004.89252c0179ff458a9dddf3130bec9116",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/886845291",
+        "tags": {
+          "axle_load": "22.5",
+          "bridge": "yes",
+          "description": "Eindhoven",
+          "electrified": "contact_line",
+          "frequency": "0",
+          "gauge": "1435",
+          "layer": "1",
+          "loading_gauge": "TSI_GC",
+          "maxspeed": "80",
+          "operator": "ProRail",
+          "passenger_lines": "4",
+          "railway": "rail",
+          "railway:atb": "yes",
+          "railway:maximum_current": "4000",
+          "railway:track_class": "D4",
+          "railway:traffic_mode": "passenger",
+          "ref": "618c",
+          "ref:ProRailID": "2880725.0",
+          "ref:ProRailSpoortak": "618_25BR_58.6",
+          "source": "ProRail",
+          "source:date": "2014-01-03",
+          "usage": "main",
+          "voltage": "1500",
+          "bridge:structure": "beam",
+          "man_made": "bridge",
+          "name": "Elisabethtunnel"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,380000,180000,400000 --run nl-8_4 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 45.4,
+      "dekBreedte": 38.6,
+      "brugLengte": 45.4,
+      "water": null,
+      "portaalhoogte": 34.8,
+      "opritafstand": [
+        0,
+        0
+      ],
+      "spoorhoogteBron": "prorail-pvs",
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0772.abb9a157f14b4b799199cc991f2a3bca",
+          "klasse": "Road",
+          "oppervlak": 62.1,
+          "onderDek": 0.72,
+          "bovenDekOnderkant": 0.44,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "G0772.a48dbd8d4e664eef861a60a01855af4c",
+          "klasse": "Road",
+          "oppervlak": 90.5,
+          "onderDek": 0.85,
+          "bovenDekOnderkant": 0.15,
+          "actie": "verbergen"
+        }
+      ],
+      "opritHoogtes": [
+        64.565,
+        64.653
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 2 verborgen, 0 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

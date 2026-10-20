@@ -1,0 +1,176 @@
+{
+  "name": "Zoetermeer Stadslijn",
+  "file": "s-gravenhage-brug-22229734-175.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    88338.93,
+    452605.75
+  ],
+  "xAxis": [
+    0.999077,
+    -0.042944
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 40.274,
+  "groundSamplePoints": [
+    [
+      -37.95,
+      0
+    ],
+    [
+      17.94,
+      2.02
+    ]
+  ],
+  "replacesTerrain": [
+    "G0518.22229734a70f9258e053530a0b0ac95b"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        88338.93,
+        452605.75
+      ],
+      "axis": [
+        0.999077,
+        -0.042944
+      ],
+      "halfLength": 3.97,
+      "halfWidth": 6.2,
+      "height": 39.297,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.44,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        88323.04,
+        452606.43
+      ],
+      "axis": [
+        -0.999077,
+        0.042944
+      ],
+      "halfLength": 7.95,
+      "halfWidth": 7.7,
+      "height": 40.436,
+      "gradient": [
+        -0.02029,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        88354.8,
+        452605.06
+      ],
+      "axis": [
+        0.999077,
+        -0.042944
+      ],
+      "halfLength": 7.95,
+      "halfWidth": 7.7,
+      "height": 40.447,
+      "gradient": [
+        -0.01887,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0518.22229734a70f9258e053530a0b0ac95b"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0518.22229734a70f9258e053530a0b0ac95b",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/344821430",
+        "tags": {
+          "bridge": "viaduct",
+          "electrified": "contact_line",
+          "frequency": "0",
+          "gauge": "1435",
+          "layer": "1",
+          "maxspeed": "80",
+          "name": "Zoetermeer Stadslijn",
+          "oneway": "yes",
+          "operator": "HTM",
+          "railway": "light_rail",
+          "railway:zub222c": "yes",
+          "voltage": "750",
+          "width": "3.4",
+          "wikidata": "Q2765440",
+          "wikipedia": "nl:Spoorlijn Leidschendam aansluiting - Zoetermeer",
+          "bridge:structure": "beam",
+          "bridge:support": "pier",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,440000,100000,460000 --run nl-4_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 15.9,
+      "dekBreedte": 11.4,
+      "brugLengte": 15.9,
+      "water": null,
+      "portaalhoogte": 10.3,
+      "opritafstand": [
+        30,
+        10
+      ],
+      "spoorhoogteBron": "pdok",
+      "oprithelling": 15.9,
+      "doorstekend": [
+        {
+          "gmlId": "G0518.2222973475609258e053530a0b0ac95b",
+          "klasse": "Terrain",
+          "oppervlak": 5.1,
+          "onderDek": 0.49,
+          "bovenDekOnderkant": 0.44,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0518.22229734755f9258e053530a0b0ac95b",
+          "klasse": "Terrain",
+          "oppervlak": 8,
+          "onderDek": 0.49,
+          "bovenDekOnderkant": 0.39,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        40.274,
+        40.297
+      ]
+    },
+    "waarschuwingen": [
+      "oprit -: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "oprit - pas op 30 m langs het spoor gemeten (PDOK-spoorterrein bij de brug lager)",
+      "oprit +: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}
