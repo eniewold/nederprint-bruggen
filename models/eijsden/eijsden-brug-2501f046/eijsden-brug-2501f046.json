@@ -1,0 +1,183 @@
+{
+  "name": "Rijksweg",
+  "file": "eijsden-brug-2501f046.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    178797.11,
+    309138.5
+  ],
+  "xAxis": [
+    -0.823207,
+    0.567741
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 110.924,
+  "groundSamplePoints": [
+    [
+      -54.94,
+      0
+    ],
+    [
+      54.94,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G1903.59c91208f12c7b3de06303b51eac8731",
+    "G1903.59c91208f12d7b3de06303b51eac8731",
+    "L0002.2501f04621434b67bb7165f52355f43b"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        178797.11,
+        309138.5
+      ],
+      "axis": [
+        -0.823207,
+        0.567741
+      ],
+      "halfLength": 28.94,
+      "halfWidth": 6.25,
+      "height": 111.59,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.67,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        178835.75,
+        309111.85
+      ],
+      "axis": [
+        0.823207,
+        -0.567741
+      ],
+      "halfLength": 12,
+      "halfWidth": 7.75,
+      "height": 112.74,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        178758.47,
+        309165.15
+      ],
+      "axis": [
+        -0.823207,
+        0.567741
+      ],
+      "halfLength": 12,
+      "halfWidth": 7.75,
+      "height": 111.907,
+      "gradient": [
+        -0.08193,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "L0002.2501f04621434b67bb7165f52355f43b"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G1903.59c91208f12c7b3de06303b51eac8731",
+          "type": "onbekend"
+        },
+        {
+          "id": "G1903.59c91208f12d7b3de06303b51eac8731",
+          "type": "onbekend"
+        },
+        {
+          "id": "L0002.2501f04621434b67bb7165f52355f43b",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/878992720",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "yes",
+          "foot": "use_sidepath",
+          "highway": "secondary",
+          "layer": "1",
+          "maxspeed": "80",
+          "maxspeed:type": "NL:rural",
+          "mofa": "use_sidepath",
+          "moped": "use_sidepath",
+          "name": "Rijksweg",
+          "old_ref": "N592",
+          "operator": "Gemeente Eijsden-Margraten",
+          "zone:traffic": "NL:rural",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,300000,180000,320000 --run nl-8_0 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 69.9,
+      "dekBreedte": 11.5,
+      "brugLengte": 69.9,
+      "water": [
+        -23.9,
+        23.1
+      ],
+      "portaalhoogte": 10.3,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G1903.05a9a8cc6b294d1eba79eb22ccb66b66",
+          "klasse": "Road",
+          "oppervlak": 3933.3,
+          "onderDek": 0.06,
+          "bovenDekOnderkant": 0.67,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G1903.81bd8fb8c2e0433bb0a163eaf1c0fdc2",
+          "klasse": "Road",
+          "oppervlak": 531.1,
+          "onderDek": 0.08,
+          "bovenDekOnderkant": 0.47,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        112.59,
+        110.924
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}
