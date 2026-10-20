@@ -1,0 +1,155 @@
+{
+  "name": "Gantelbrug",
+  "file": "poeldijk-brug-7504ddf8.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    74419.92,
+    448651.34
+  ],
+  "xAxis": [
+    0.11068,
+    -0.993856
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 43.695,
+  "groundSamplePoints": [
+    [
+      -4.66,
+      0
+    ],
+    [
+      4.66,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "P0028.7504ddf8fbcf43388721a9e76d7ada8d"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        74419.92,
+        448651.34
+      ],
+      "axis": [
+        0.11068,
+        -0.993856
+      ],
+      "halfLength": 0.33,
+      "halfWidth": 4.92,
+      "height": 42.811,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -2.83,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        74419.52,
+        448654.98
+      ],
+      "axis": [
+        -0.11068,
+        0.993856
+      ],
+      "halfLength": 3,
+      "halfWidth": 6.42,
+      "height": 43.903,
+      "gradient": [
+        -0.06936,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        74420.33,
+        448647.7
+      ],
+      "axis": [
+        0.11068,
+        -0.993856
+      ],
+      "halfLength": 3,
+      "halfWidth": 6.42,
+      "height": 43.961,
+      "gradient": [
+        -0.05,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "P0028.7504ddf8fbcf43388721a9e76d7ada8d"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "P0028.7504ddf8fbcf43388721a9e76d7ada8d",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/310874771",
+        "tags": {
+          "bridge": "yes",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxspeed": "50",
+          "name": "Gantelbrug",
+          "oneway": "yes",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 60000,440000,80000,460000 --run nl-3_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 1.3,
+      "dekBreedte": 8.8,
+      "brugLengte": 1.3,
+      "water": null,
+      "portaalhoogte": 8,
+      "opritafstand": [
+        4,
+        4
+      ],
+      "oprithelling": 6,
+      "doorstekend": [
+        {
+          "gmlId": "P0028.a142c11726a94aa9bbca3fb2db5d7231",
+          "klasse": "Terrain",
+          "oppervlak": 1510.9,
+          "onderDek": 0,
+          "bovenDekOnderkant": 1.83,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        43.695,
+        43.811
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

@@ -1,0 +1,155 @@
+{
+  "name": "Raaphorstbrug",
+  "file": "kwintsheul-raaphorstbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    77718.96,
+    448426.99
+  ],
+  "xAxis": [
+    -0.239761,
+    -0.970832
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 44.984,
+  "groundSamplePoints": [
+    [
+      -7.49,
+      0
+    ],
+    [
+      7.49,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G1783.4be348cff3cc4a8284a3803efddbb698"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        77718.96,
+        448426.99
+      ],
+      "axis": [
+        -0.239761,
+        -0.970832
+      ],
+      "halfLength": 1.7,
+      "halfWidth": 12.74,
+      "height": 44.008,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -2.02,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        77720.59,
+        448433.6
+      ],
+      "axis": [
+        0.239761,
+        0.970832
+      ],
+      "halfLength": 3.41,
+      "halfWidth": 14.24,
+      "height": 45.146,
+      "gradient": [
+        -0.04761,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        77717.32,
+        448420.38
+      ],
+      "axis": [
+        -0.239761,
+        -0.970832
+      ],
+      "halfLength": 3.41,
+      "halfWidth": 14.24,
+      "height": 45.158,
+      "gradient": [
+        -0.04404,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G1783.4be348cff3cc4a8284a3803efddbb698"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G1783.4be348cff3cc4a8284a3803efddbb698",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/956082134",
+        "tags": {
+          "bridge": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "name": "Raaphorstbrug",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 60000,440000,80000,460000 --run nl-3_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 6.8,
+      "dekBreedte": 24.5,
+      "brugLengte": 6.8,
+      "water": [
+        -2.9,
+        2.6
+      ],
+      "portaalhoogte": 22,
+      "opritafstand": [
+        4.1,
+        4.1
+      ],
+      "oprithelling": 6.8,
+      "doorstekend": [
+        {
+          "gmlId": "G1783.14c2c850126642f9a60b5bc38ad91b67",
+          "klasse": "Terrain",
+          "oppervlak": 1633.5,
+          "onderDek": 0,
+          "bovenDekOnderkant": 1.02,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        44.984,
+        45.008
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

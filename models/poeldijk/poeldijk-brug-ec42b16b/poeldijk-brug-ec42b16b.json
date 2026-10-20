@@ -1,0 +1,184 @@
+{
+  "name": "Arckelweg",
+  "file": "poeldijk-brug-ec42b16b.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    75938.24,
+    449485.86
+  ],
+  "xAxis": [
+    -0.776848,
+    0.629689
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 44.746,
+  "groundSamplePoints": [
+    [
+      -13.28,
+      0
+    ],
+    [
+      13.28,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G1783.ec42b16bc7714a59a408886f73d2cd8c",
+    "G1783.8e1a944b560744338981804250eb4b05"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        75938.24,
+        449485.86
+      ],
+      "axis": [
+        -0.776848,
+        0.629689
+      ],
+      "halfLength": 3.02,
+      "halfWidth": 7.11,
+      "height": 43.783,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -2,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        75947.62,
+        449478.26
+      ],
+      "axis": [
+        0.776848,
+        -0.629689
+      ],
+      "halfLength": 6.03,
+      "halfWidth": 8.61,
+      "height": 44.914,
+      "gradient": [
+        -0.02799,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        75928.87,
+        449493.46
+      ],
+      "axis": [
+        -0.776848,
+        0.629689
+      ],
+      "halfLength": 6.03,
+      "halfWidth": 8.61,
+      "height": 44.933,
+      "gradient": [
+        -0.02486,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G1783.ec42b16bc7714a59a408886f73d2cd8c",
+      "G1783.8e1a944b560744338981804250eb4b05"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G1783.ec42b16bc7714a59a408886f73d2cd8c",
+          "type": "dek"
+        },
+        {
+          "id": "G1783.8e1a944b560744338981804250eb4b05",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/143704452",
+        "tags": {
+          "bridge": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "mofa": "designated",
+          "moped": "designated",
+          "name": "Arckelweg",
+          "oneway": "yes",
+          "paving_stones:length": "0.3",
+          "paving_stones:shape": "square",
+          "surface": "paving_stones",
+          "traffic_sign": "NL:G12a",
+          "zone:traffic": "NL:rural"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 2
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 60000,440000,80000,460000 --run nl-3_7 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 12.1,
+      "dekBreedte": 13.2,
+      "brugLengte": 12.1,
+      "water": [
+        -4.5,
+        2
+      ],
+      "portaalhoogte": 11.9,
+      "opritafstand": [
+        7.2,
+        7.2
+      ],
+      "oprithelling": 12.1,
+      "doorstekend": [
+        {
+          "gmlId": "G1783.bbb16e786b1947fab241e14a7d46df29",
+          "klasse": "Road",
+          "oppervlak": 624.4,
+          "onderDek": 0,
+          "bovenDekOnderkant": 1,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G1783.c266cb71f6e747e18f5fb27e037764ce",
+          "klasse": "Terrain",
+          "oppervlak": 32.3,
+          "onderDek": 0.29,
+          "bovenDekOnderkant": 0.91,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G1783.792d101642104f508e13ab8023b8fcde",
+          "klasse": "Terrain",
+          "oppervlak": 65.8,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.46,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        44.746,
+        44.783
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "3 PDOK-vorm(en) door het dek: 0 verborgen, 3 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}
