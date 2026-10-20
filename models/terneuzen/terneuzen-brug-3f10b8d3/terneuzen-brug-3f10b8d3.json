@@ -1,0 +1,103 @@
+{
+  "name": "terneuzen-brug-3f10b8d3",
+  "file": "terneuzen-brug-3f10b8d3.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    45641.54,
+    371988.71
+  ],
+  "xAxis": [
+    0.425756,
+    -0.904838
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 50.415,
+  "groundSamplePoints": [
+    [
+      -4.82,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "L0002.6f32d28ef88043ee98dc01d60271d4b9"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        45639.92,
+        371992.18
+      ],
+      "axis": [
+        -0.425756,
+        0.904838
+      ],
+      "halfLength": 3,
+      "halfWidth": 0.87,
+      "height": 50.565,
+      "gradient": [
+        -0.05,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "L0002.6f32d28ef88043ee98dc01d60271d4b9"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "L0002.6f32d28ef88043ee98dc01d60271d4b9",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1184741035",
+        "tags": {
+          "bridge": "movable",
+          "layer": "1",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "basculebrug",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 40000,360000,60000,380000 --run nl-2_3 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 1.6,
+      "dekBreedte": 1.2,
+      "brugLengte": 1.6,
+      "water": [
+        -0.3,
+        0.7
+      ],
+      "portaalhoogte": 2.5,
+      "opritafstand": [
+        4,
+        12
+      ],
+      "oprithelling": 6,
+      "doorstekend": [],
+      "opritHoogtes": [
+        50.415,
+        null
+      ]
+    },
+    "waarschuwingen": [
+      "bridge=movable zonder mechanisme: basculebrug is een gok",
+      "geen FIS-brug binnen 35 m",
+      "oprit + zonder PDOK-maaiveld",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

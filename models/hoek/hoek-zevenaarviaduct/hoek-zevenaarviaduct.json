@@ -1,0 +1,192 @@
+{
+  "name": "Zevenaarviaduct",
+  "file": "hoek-zevenaarviaduct.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    44678.16,
+    368577.86
+  ],
+  "xAxis": [
+    -0.250757,
+    0.96805
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 51.091,
+  "groundSamplePoints": [
+    [
+      -45.95,
+      0
+    ],
+    [
+      45.95,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "P0029.4f16a2290c0c4a28a3d368f5502d326a",
+    "P0029.69b8da057cf1418c9c87100170974f45",
+    "P0029.7a1bb0cd7bd546299b97f2a8cec690a7",
+    "P0029.906c8126627844f38cead0b31f4b4632",
+    "P0029.d218cd8f1a884078ae5430cf3b6c50da"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        44678.16,
+        368577.86
+      ],
+      "axis": [
+        -0.250757,
+        0.96805
+      ],
+      "halfLength": 19.9,
+      "halfWidth": 4.98,
+      "height": 50.107,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -2.49,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        44687.68,
+        368541.11
+      ],
+      "axis": [
+        0.250757,
+        -0.96805
+      ],
+      "halfLength": 12,
+      "halfWidth": 6.48,
+      "height": 51.257,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        44668.65,
+        368614.6
+      ],
+      "axis": [
+        -0.250757,
+        0.96805
+      ],
+      "halfLength": 12,
+      "halfWidth": 6.48,
+      "height": 51.249,
+      "gradient": [
+        -0.01315,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "P0029.906c8126627844f38cead0b31f4b4632"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "P0029.4f16a2290c0c4a28a3d368f5502d326a",
+          "type": "pijler"
+        },
+        {
+          "id": "P0029.69b8da057cf1418c9c87100170974f45",
+          "type": "landhoofd"
+        },
+        {
+          "id": "P0029.7a1bb0cd7bd546299b97f2a8cec690a7",
+          "type": "pijler"
+        },
+        {
+          "id": "P0029.906c8126627844f38cead0b31f4b4632",
+          "type": "dek"
+        },
+        {
+          "id": "P0029.d218cd8f1a884078ae5430cf3b6c50da",
+          "type": "landhoofd"
+        }
+      ],
+      "osm": {
+        "id": "way/1353643124",
+        "tags": {
+          "bridge": "yes",
+          "highway": "unclassified",
+          "lane_markings": "no",
+          "layer": "1",
+          "maxspeed": "60",
+          "maxspeed:type": "NL:zone60",
+          "name": "Zevenaarviaduct",
+          "operator": "Rijkswaterstaat",
+          "zone:traffic": "NL:rural",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 5
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 40000,360000,60000,380000 --run nl-2_3 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 51.8,
+      "dekBreedte": 9,
+      "brugLengte": 51.9,
+      "water": null,
+      "portaalhoogte": 8.1,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "P0029.b67470f40a3b428fb52b60856d9eb91c",
+          "klasse": "Road",
+          "oppervlak": 425,
+          "onderDek": 0,
+          "bovenDekOnderkant": 1.49,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "P0029.869942cb1f9040b2a1e60d1999b0ee85",
+          "klasse": "Terrain",
+          "oppervlak": 4445.8,
+          "onderDek": 0,
+          "bovenDekOnderkant": 1.12,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "P0029.4edd8a759af847d580fc3371bfb1ad2a",
+          "klasse": "Terrain",
+          "oppervlak": 0.1,
+          "onderDek": 0.52,
+          "bovenDekOnderkant": 0.41,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        51.107,
+        51.091
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "3 PDOK-vorm(en) door het dek: 0 verborgen, 3 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

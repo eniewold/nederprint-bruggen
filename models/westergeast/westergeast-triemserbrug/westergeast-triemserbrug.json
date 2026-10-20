@@ -1,0 +1,189 @@
+{
+  "name": "Triemserbrug",
+  "file": "westergeast-triemserbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    201793.9,
+    588669.93
+  ],
+  "xAxis": [
+    -0.050626,
+    0.998718
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 43.133,
+  "groundSamplePoints": [
+    [
+      -38.37,
+      0
+    ],
+    [
+      38.37,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0079.35b4b74c6c04f37ae0538c0014acd207",
+    "G0079.35b4b74c6c28f37ae0538c0014acd207",
+    "G0079.35b4b74cacc1f37ae0538c0014acd207",
+    "G0079.35b4b74cd7b8f37ae0538c0014acd207",
+    "G0079.35b4b74cecf8f37ae0538c0014acd207"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        201793.9,
+        588669.93
+      ],
+      "axis": [
+        -0.050626,
+        0.998718
+      ],
+      "halfLength": 12.37,
+      "halfWidth": 6.59,
+      "height": 42.276,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.32,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        201795.44,
+        588639.6
+      ],
+      "axis": [
+        0.050626,
+        -0.998718
+      ],
+      "halfLength": 12,
+      "halfWidth": 8.09,
+      "height": 43.426,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        201792.37,
+        588700.26
+      ],
+      "axis": [
+        -0.050626,
+        0.998718
+      ],
+      "halfLength": 12,
+      "halfWidth": 8.09,
+      "height": 43.355,
+      "gradient": [
+        -0.01846,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0079.35b4b74c6c28f37ae0538c0014acd207"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0079.35b4b74c6c04f37ae0538c0014acd207",
+          "type": "landhoofd"
+        },
+        {
+          "id": "G0079.35b4b74c6c28f37ae0538c0014acd207",
+          "type": "dek"
+        },
+        {
+          "id": "G0079.35b4b74cacc1f37ae0538c0014acd207",
+          "type": "pijler"
+        },
+        {
+          "id": "G0079.35b4b74cd7b8f37ae0538c0014acd207",
+          "type": "pijler"
+        },
+        {
+          "id": "G0079.35b4b74cecf8f37ae0538c0014acd207",
+          "type": "landhoofd"
+        }
+      ],
+      "osm": {
+        "id": "way/908829547",
+        "tags": {
+          "bridge": "yes",
+          "foot": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "mofa": "designated",
+          "moped": "designated",
+          "name": "Triemserbrug",
+          "segregated": "no",
+          "smoothness": "good",
+          "surface": "asphalt",
+          "traffic_sign": "NL:G12a",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 5
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 200000,580000,220000,600000 --run nl-10_14 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 36.7,
+      "dekBreedte": 12.2,
+      "brugLengte": 36.7,
+      "water": [
+        -9.4,
+        8.6
+      ],
+      "portaalhoogte": 11,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "P0021.5fae502e06be41ad9bfb4d7042e4471c",
+          "klasse": "Terrain",
+          "oppervlak": 30.4,
+          "onderDek": 0.65,
+          "bovenDekOnderkant": 0.32,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0079.35b4b74ce84cf37ae0538c0014acd207",
+          "klasse": "Terrain",
+          "oppervlak": 174.2,
+          "onderDek": 0.31,
+          "bovenDekOnderkant": 0.2,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        43.276,
+        43.133
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

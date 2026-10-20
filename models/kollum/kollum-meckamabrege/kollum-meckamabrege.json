@@ -1,0 +1,156 @@
+{
+  "name": "Meckamabrêge",
+  "file": "kollum-meckamabrege.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    205963.75,
+    588848.42
+  ],
+  "xAxis": [
+    0.112781,
+    -0.99362
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 41.285,
+  "groundSamplePoints": [
+    [
+      -14.28,
+      0
+    ],
+    [
+      14.28,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0079.35b4b74c6c24f37ae0538c0014acd207"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        205963.75,
+        588848.42
+      ],
+      "axis": [
+        0.112781,
+        -0.99362
+      ],
+      "halfLength": 3.25,
+      "halfWidth": 1.15,
+      "height": 40.403,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.15,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        205962.29,
+        588861.32
+      ],
+      "axis": [
+        -0.112781,
+        0.99362
+      ],
+      "halfLength": 6.49,
+      "halfWidth": 0.98,
+      "height": 41.494,
+      "gradient": [
+        -0.03214,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        205965.22,
+        588835.51
+      ],
+      "axis": [
+        0.112781,
+        -0.99362
+      ],
+      "halfLength": 6.49,
+      "halfWidth": 0.98,
+      "height": 41.553,
+      "gradient": [
+        -0.0231,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0079.35b4b74c6c24f37ae0538c0014acd207"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0079.35b4b74c6c24f37ae0538c0014acd207",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/539504044",
+        "tags": {
+          "bridge": "yes",
+          "highway": "footway",
+          "layer": "1",
+          "surface": "wood",
+          "bridge:structure": "beam",
+          "man_made": "bridge",
+          "name": "Meckamabrêge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 200000,580000,220000,600000 --run nl-10_14 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 13,
+      "dekBreedte": 1.3,
+      "brugLengte": 13,
+      "water": [
+        -2.5,
+        2
+      ],
+      "portaalhoogte": 2.5,
+      "opritafstand": [
+        7.8,
+        7.8
+      ],
+      "oprithelling": 13,
+      "doorstekend": [
+        {
+          "gmlId": "G0079.35b4b74cf938f37ae0538c0014acd207",
+          "klasse": "Terrain",
+          "oppervlak": 1282.9,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.15,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        41.285,
+        41.403
+      ]
+    },
+    "waarschuwingen": [
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

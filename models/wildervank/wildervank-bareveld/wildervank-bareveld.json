@@ -1,0 +1,165 @@
+{
+  "name": "Bareveld",
+  "file": "wildervank-bareveld.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    252793.99,
+    563668.38
+  ],
+  "xAxis": [
+    -0.010011,
+    0.99995
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 44.95,
+  "groundSamplePoints": [
+    [
+      -14.16,
+      0
+    ],
+    [
+      14.16,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0047.8abeacd5439b7576000000000a12103e"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        252793.99,
+        563668.38
+      ],
+      "axis": [
+        -0.010011,
+        0.99995
+      ],
+      "halfLength": 3.22,
+      "halfWidth": 3.79,
+      "height": 44.112,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.55,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        252794.12,
+        563655.5
+      ],
+      "axis": [
+        0.010011,
+        -0.99995
+      ],
+      "halfLength": 6.44,
+      "halfWidth": 4.94,
+      "height": 45.181,
+      "gradient": [
+        -0.03592,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        252793.86,
+        563681.25
+      ],
+      "axis": [
+        -0.010011,
+        0.99995
+      ],
+      "halfLength": 6.44,
+      "halfWidth": 4.94,
+      "height": 45.262,
+      "gradient": [
+        -0.0233,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0047.8abeacd5439b7576000000000a12103e"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0047.8abeacd5439b7576000000000a12103e",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/6384939",
+        "tags": {
+          "bridge": "movable",
+          "bridge:movable": "bascule",
+          "bridge:name": "Bareveldbrug",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Bareveld"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "basculebrug",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,560000,260000,580000 --run nl-12_13 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 12.9,
+      "dekBreedte": 6.6,
+      "brugLengte": 12.9,
+      "water": [
+        -1.9,
+        5.1
+      ],
+      "portaalhoogte": 5.9,
+      "opritafstand": [
+        7.7,
+        7.7
+      ],
+      "oprithelling": 12.9,
+      "doorstekend": [
+        {
+          "gmlId": "W0646.62c8c598d51f4414888a9f8d39cef0a8",
+          "klasse": "Terrain",
+          "oppervlak": 65.7,
+          "onderDek": 0.07,
+          "bovenDekOnderkant": 0.55,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0047.e85a86fd961d4467b1b7b73b0df93a33",
+          "klasse": "Terrain",
+          "oppervlak": 148.9,
+          "onderDek": 0.02,
+          "bovenDekOnderkant": 0.37,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        44.95,
+        45.112
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

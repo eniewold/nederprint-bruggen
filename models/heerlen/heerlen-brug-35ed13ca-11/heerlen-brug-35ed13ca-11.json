@@ -1,0 +1,180 @@
+{
+  "name": "Pijnsweg",
+  "file": "heerlen-brug-35ed13ca-11.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    195898.33,
+    321176.89
+  ],
+  "xAxis": [
+    -0.015143,
+    -0.999885
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 148.114,
+  "groundSamplePoints": [
+    [
+      -47.95,
+      0
+    ],
+    [
+      47.95,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0917.35ed13ca62351689e054d8d385f6d27e",
+    "G0917.35ed13ca62331689e054d8d385f6d27e",
+    "G0917.35ed13ca62341689e054d8d385f6d27e",
+    "G0917.35ed13ca62361689e054d8d385f6d27e"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        195898.33,
+        321176.89
+      ],
+      "axis": [
+        -0.015143,
+        -0.999885
+      ],
+      "halfLength": 21.95,
+      "halfWidth": 9.48,
+      "height": 147.888,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.37,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        195898.94,
+        321216.83
+      ],
+      "axis": [
+        0.015143,
+        0.999885
+      ],
+      "halfLength": 12,
+      "halfWidth": 10.98,
+      "height": 148.651,
+      "gradient": [
+        -0.04474,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        195897.73,
+        321136.95
+      ],
+      "axis": [
+        -0.015143,
+        -0.999885
+      ],
+      "halfLength": 12,
+      "halfWidth": 10.98,
+      "height": 149.038,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0917.35ed13ca62331689e054d8d385f6d27e"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0917.35ed13ca62351689e054d8d385f6d27e",
+          "type": "pijler"
+        },
+        {
+          "id": "G0917.35ed13ca62331689e054d8d385f6d27e",
+          "type": "dek"
+        },
+        {
+          "id": "G0917.35ed13ca62341689e054d8d385f6d27e",
+          "type": "pijler"
+        },
+        {
+          "id": "G0917.35ed13ca62361689e054d8d385f6d27e",
+          "type": "pijler"
+        }
+      ],
+      "osm": {
+        "id": "way/6748709",
+        "tags": {
+          "bridge": "yes",
+          "cycleway:both": "lane",
+          "cycleway:both:lane": "advisory",
+          "highway": "residential",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "50",
+          "maxspeed:type": "NL:urban",
+          "name": "Pijnsweg",
+          "sidewalk": "both",
+          "surface": "asphalt"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 4
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 180000,320000,200000,340000 --run nl-9_1 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 55.9,
+      "dekBreedte": 18,
+      "brugLengte": 55.9,
+      "water": null,
+      "portaalhoogte": 16.2,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0917.35ed13ca9c5a1689e054d8d385f6d27e",
+          "klasse": "Forest",
+          "oppervlak": 13395.4,
+          "onderDek": 0.04,
+          "bovenDekOnderkant": 0.37,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0917.78421375f2ee6906e05301b51eac826e",
+          "klasse": "Road",
+          "oppervlak": 55.7,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.09,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        148.114,
+        148.888
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "name": "Vliegveldweg",
+  "file": "ulestraten-brug-337fcbc7.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    180921.66,
+    323454.5
+  ],
+  "xAxis": [
+    0.831382,
+    -0.555701
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 157.27,
+  "groundSamplePoints": [
+    [
+      -42.58,
+      0
+    ],
+    [
+      42.58,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "L0002.337fcbc743b4457e82c5aac97f6f0ab0",
+    "G0888.c4f5d1e0d105418a9fd31ec536416d62"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        180921.66,
+        323454.5
+      ],
+      "axis": [
+        0.831382,
+        -0.555701
+      ],
+      "halfLength": 16.58,
+      "halfWidth": 6.63,
+      "height": 156.356,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.83,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        180892.91,
+        323473.72
+      ],
+      "axis": [
+        -0.831382,
+        0.555701
+      ],
+      "halfLength": 12,
+      "halfWidth": 8.13,
+      "height": 157.463,
+      "gradient": [
+        -0.01608,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        180950.41,
+        323435.29
+      ],
+      "axis": [
+        0.831382,
+        -0.555701
+      ],
+      "halfLength": 12,
+      "halfWidth": 8.13,
+      "height": 157.506,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "L0002.337fcbc743b4457e82c5aac97f6f0ab0"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "L0002.337fcbc743b4457e82c5aac97f6f0ab0",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/6777373",
+        "tags": {
+          "bridge": "yes",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Vliegveldweg",
+          "surface": "asphalt"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 180000,320000,200000,340000 --run nl-9_1 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 45.2,
+      "dekBreedte": 12.3,
+      "brugLengte": 45.2,
+      "water": null,
+      "portaalhoogte": 11,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0888.a2be2fd0796f44929f88b15f571bad6c",
+          "klasse": "Forest",
+          "oppervlak": 948.5,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.83,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0888.c4f5d1e0d105418a9fd31ec536416d62",
+          "klasse": "Road",
+          "oppervlak": 63.7,
+          "onderDek": 0.99,
+          "bovenDekOnderkant": 0.83,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "G0938.07d542dd12dc4cd680c491a95fdb3fe5",
+          "klasse": "Terrain",
+          "oppervlak": 1816.2,
+          "onderDek": 0.01,
+          "bovenDekOnderkant": 0.43,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        157.27,
+        157.356
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "3 PDOK-vorm(en) door het dek: 1 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

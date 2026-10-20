@@ -1,0 +1,165 @@
+{
+  "name": "Oudedijk",
+  "file": "eexterveen-brug-b0901a3e.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    249153.96,
+    562777.74
+  ],
+  "xAxis": [
+    0.362308,
+    0.932059
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 43.482,
+  "groundSamplePoints": [
+    [
+      -32.38,
+      0
+    ],
+    [
+      32.38,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G1680.b0901a3e6a544752aaa1b68ec1e874a0"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        249153.96,
+        562777.74
+      ],
+      "axis": [
+        0.362308,
+        0.932059
+      ],
+      "halfLength": 8.72,
+      "halfWidth": 3.12,
+      "height": 42.54,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.43,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        249144.27,
+        562752.84
+      ],
+      "axis": [
+        -0.362308,
+        -0.932059
+      ],
+      "halfLength": 12,
+      "halfWidth": 3.93,
+      "height": 43.661,
+      "gradient": [
+        -0.01491,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        249163.64,
+        562802.64
+      ],
+      "axis": [
+        0.362308,
+        0.932059
+      ],
+      "halfLength": 12,
+      "halfWidth": 3.93,
+      "height": 43.69,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G1680.b0901a3e6a544752aaa1b68ec1e874a0"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G1680.b0901a3e6a544752aaa1b68ec1e874a0",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/1283636532",
+        "tags": {
+          "bridge": "viaduct",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "80",
+          "name": "Oudedijk",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,560000,260000,580000 --run nl-12_13 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 29.4,
+      "dekBreedte": 5.2,
+      "brugLengte": 29.4,
+      "water": [
+        -8.2,
+        7.3
+      ],
+      "portaalhoogte": 4.7,
+      "opritafstand": [
+        17.7,
+        17.7
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G1680.d992bbd326d8400aae7bc8cc6ce16dbd",
+          "klasse": "Terrain",
+          "oppervlak": 1127.7,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.43,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G1680.132ec0256d53456b9a71c8d52c8d8285",
+          "klasse": "Terrain",
+          "oppervlak": 1075.8,
+          "onderDek": 0.02,
+          "bovenDekOnderkant": 0.16,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        43.482,
+        43.54
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

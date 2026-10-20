@@ -1,0 +1,184 @@
+{
+  "name": "Rijksweg",
+  "file": "burum-brug-c81bc45b.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    212910.76,
+    587276
+  ],
+  "xAxis": [
+    0.991925,
+    -0.126822
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 43.352,
+  "groundSamplePoints": [
+    [
+      -44.77,
+      0
+    ],
+    [
+      44.77,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "P0021.c81bc45bbb324fc5ba571de17e6ab713",
+    "P0021.43b439fe685e420ab4a3c28a9cf5e00a"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        212910.76,
+        587276
+      ],
+      "axis": [
+        0.991925,
+        -0.126822
+      ],
+      "halfLength": 18.77,
+      "halfWidth": 12.27,
+      "height": 42.538,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.6,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        212874.29,
+        587280.66
+      ],
+      "axis": [
+        -0.991925,
+        0.126822
+      ],
+      "halfLength": 12,
+      "halfWidth": 13.77,
+      "height": 43.688,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        212947.23,
+        587271.33
+      ],
+      "axis": [
+        0.991925,
+        -0.126822
+      ],
+      "halfLength": 12,
+      "halfWidth": 13.77,
+      "height": 43.595,
+      "gradient": [
+        -0.02027,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "P0021.c81bc45bbb324fc5ba571de17e6ab713"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "P0021.c81bc45bbb324fc5ba571de17e6ab713",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/672506836",
+        "tags": {
+          "bicycle": "no",
+          "bridge": "yes",
+          "foot": "use_sidepath",
+          "highway": "primary",
+          "lanes": "2",
+          "layer": "1",
+          "lit": "no",
+          "maxspeed": "80",
+          "mofa": "no",
+          "moped": "no",
+          "name": "Rijksweg",
+          "operator": "Provincie Fryslân",
+          "ref": "N355",
+          "source:name": "NWB",
+          "surface": "asphalt",
+          "traffic_sign": "NL:C15",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 200000,580000,220000,600000 --run nl-10_14 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 49.5,
+      "dekBreedte": 23.5,
+      "brugLengte": 49.5,
+      "water": [
+        -13.3,
+        13.7
+      ],
+      "portaalhoogte": 21.2,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0056.3837ca96b853195ce053660013ac8839",
+          "klasse": "Forest",
+          "oppervlak": 244,
+          "onderDek": 0.36,
+          "bovenDekOnderkant": 0.6,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "P0021.43b439fe685e420ab4a3c28a9cf5e00a",
+          "klasse": "Terrain",
+          "oppervlak": 133.3,
+          "onderDek": 0.73,
+          "bovenDekOnderkant": 0.57,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "P0020.ecc2e1c6ecfe4d21ac434d0917736bd5",
+          "klasse": "Road",
+          "oppervlak": 753.4,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.56,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        43.538,
+        43.352
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "3 PDOK-vorm(en) door het dek: 1 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}
