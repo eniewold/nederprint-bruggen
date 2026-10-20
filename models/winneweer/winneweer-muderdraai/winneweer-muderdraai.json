@@ -1,0 +1,136 @@
+{
+  "name": "Muderdraai",
+  "file": "winneweer-muderdraai.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    245457.23,
+    592450.74
+  ],
+  "xAxis": [
+    0.18463,
+    -0.982808
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 40.903,
+  "groundSamplePoints": [
+    [
+      -14.92,
+      0
+    ],
+    [
+      14.92,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0009.3b5d180d1809e82ae053660013ac243e"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        245454.73,
+        592464.07
+      ],
+      "axis": [
+        -0.18463,
+        0.982808
+      ],
+      "halfLength": 6.78,
+      "halfWidth": 3.53,
+      "height": 44.045,
+      "gradient": [
+        -0.02212,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        245459.73,
+        592437.42
+      ],
+      "axis": [
+        0.18463,
+        -0.982808
+      ],
+      "halfLength": 6.78,
+      "halfWidth": 3.53,
+      "height": 42.549,
+      "gradient": [
+        -0.24278,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0009.3b5d180d1809e82ae053660013ac243e"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0009.3b5d180d1809e82ae053660013ac243e",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/6354720",
+        "tags": {
+          "bridge": "movable",
+          "highway": "unclassified",
+          "lanes": "1",
+          "layer": "1",
+          "maxspeed": "50",
+          "name": "Stadsweg",
+          "priority": "backward",
+          "smoothness": "good",
+          "surface": "asphalt"
+        }
+      },
+      "fis": {
+        "id": 56772,
+        "naam": "Muderdraai",
+        "afstand": 4,
+        "beweegbaar": true,
+        "doorvaarthoogteGesloten": 1.33
+      },
+      "pdokBridgeVlakken": 1
+    },
+    "type": "basculebrug",
+    "doorvaarthoogte": 1.33,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,580000,260000,600000 --run nl-12_14 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 13.6,
+      "dekBreedte": 4.7,
+      "brugLengte": 13.6,
+      "water": [
+        -6.3,
+        6.7
+      ],
+      "portaalhoogte": 4.2,
+      "opritafstand": [
+        8.1,
+        8.1
+      ],
+      "oprithelling": 13.6,
+      "doorstekend": [],
+      "opritHoogtes": [
+        43.895,
+        40.903
+      ]
+    },
+    "waarschuwingen": [
+      "bridge=movable zonder mechanisme: basculebrug is een gok",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

@@ -1,0 +1,153 @@
+{
+  "name": "Groevesluis-Noord",
+  "file": "appingedam-brug-fdc3e9ab.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    252348.23,
+    592085.81
+  ],
+  "xAxis": [
+    0.979082,
+    0.203468
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 41.808,
+  "groundSamplePoints": [
+    [
+      -11.08,
+      0
+    ],
+    [
+      11.08,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0003.fdc3e9ab4fec49a882db1761b249eaa6"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        252348.23,
+        592085.81
+      ],
+      "axis": [
+        0.979082,
+        0.203468
+      ],
+      "halfLength": 2.52,
+      "halfWidth": 1.53,
+      "height": 41.104,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.49,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        252338.37,
+        592083.76
+      ],
+      "axis": [
+        -0.979082,
+        -0.203468
+      ],
+      "halfLength": 5.04,
+      "halfWidth": 1.55,
+      "height": 42.106,
+      "gradient": [
+        -0.05914,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        252358.1,
+        592087.86
+      ],
+      "axis": [
+        0.979082,
+        0.203468
+      ],
+      "halfLength": 5.04,
+      "halfWidth": 1.55,
+      "height": 42.254,
+      "gradient": [
+        -0.02978,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0003.fdc3e9ab4fec49a882db1761b249eaa6"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0003.fdc3e9ab4fec49a882db1761b249eaa6",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/279498320",
+        "tags": {
+          "bridge": "movable",
+          "highway": "residential",
+          "layer": "1",
+          "maxspeed": "50",
+          "name": "Groevesluis-Noord"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "basculebrug",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,580000,260000,600000 --run nl-12_14 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 10.1,
+      "dekBreedte": 2.1,
+      "brugLengte": 10.1,
+      "water": null,
+      "portaalhoogte": 2.5,
+      "opritafstand": [
+        6,
+        6
+      ],
+      "oprithelling": 10.1,
+      "doorstekend": [
+        {
+          "gmlId": "G0003.b88bda95a6464162a5891cb92de6a6bb",
+          "klasse": "Road",
+          "oppervlak": 93.8,
+          "onderDek": 0.18,
+          "bovenDekOnderkant": 0.49,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        41.808,
+        42.104
+      ]
+    },
+    "waarschuwingen": [
+      "bridge=movable zonder mechanisme: basculebrug is een gok",
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

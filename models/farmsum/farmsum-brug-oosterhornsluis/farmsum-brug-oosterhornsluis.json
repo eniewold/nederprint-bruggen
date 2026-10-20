@@ -1,0 +1,135 @@
+{
+  "name": "Brug Oosterhornsluis",
+  "file": "farmsum-brug-oosterhornsluis.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    262435.08,
+    591293.6
+  ],
+  "xAxis": [
+    -0.373503,
+    -0.927629
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 41.957,
+  "groundSamplePoints": [
+    [
+      -11.08,
+      0
+    ],
+    [
+      11.08,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0010.7575084191c6438fa3b3d58ae76e6a7a"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        262438.84,
+        591302.95
+      ],
+      "axis": [
+        0.373503,
+        0.927629
+      ],
+      "halfLength": 5.04,
+      "halfWidth": 6.56,
+      "height": 42.712,
+      "gradient": [
+        -0.02978,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        262431.31,
+        591284.26
+      ],
+      "axis": [
+        -0.373503,
+        -0.927629
+      ],
+      "halfLength": 5.04,
+      "halfWidth": 6.56,
+      "height": 42.409,
+      "gradient": [
+        -0.08984,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0010.7575084191c6438fa3b3d58ae76e6a7a"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0010.7575084191c6438fa3b3d58ae76e6a7a",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/798348496",
+        "tags": {
+          "bridge": "movable",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Oosterwierum",
+          "smoothness": "good",
+          "surface": "asphalt",
+          "man_made": "bridge"
+        }
+      },
+      "fis": {
+        "id": 10940,
+        "naam": "Brug Oosterhornsluis",
+        "afstand": 2,
+        "beweegbaar": true,
+        "doorvaarthoogteGesloten": 2.31
+      },
+      "pdokBridgeVlakken": 1
+    },
+    "type": "basculebrug",
+    "doorvaarthoogte": 2.31,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 260000,580000,280000,600000 --run nl-13_14 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 10.1,
+      "dekBreedte": 9.1,
+      "brugLengte": 10.1,
+      "water": [
+        -4.5,
+        5
+      ],
+      "portaalhoogte": 8.2,
+      "opritafstand": [
+        6,
+        6
+      ],
+      "oprithelling": 10.1,
+      "doorstekend": [],
+      "opritHoogtes": [
+        42.562,
+        41.957
+      ]
+    },
+    "waarschuwingen": [
+      "bridge=movable zonder mechanisme: basculebrug is een gok",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

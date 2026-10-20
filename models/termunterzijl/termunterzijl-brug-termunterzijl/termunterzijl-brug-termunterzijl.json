@@ -1,0 +1,163 @@
+{
+  "name": "Brug Termunterzijl",
+  "file": "termunterzijl-brug-termunterzijl.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    264892.49,
+    591696.74
+  ],
+  "xAxis": [
+    -0.657978,
+    0.753037
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 41.345,
+  "groundSamplePoints": [
+    [
+      -50.15,
+      0
+    ],
+    [
+      50.15,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0010.b3a0ecb7de614770ae633efb81027ad9"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        264892.49,
+        591696.74
+      ],
+      "axis": [
+        -0.657978,
+        0.753037
+      ],
+      "halfLength": 24.15,
+      "halfWidth": 5.58,
+      "height": 40.961,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.32,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        264920.23,
+        591665
+      ],
+      "axis": [
+        0.657978,
+        -0.753037
+      ],
+      "halfLength": 12,
+      "halfWidth": 7.08,
+      "height": 42.111,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        264864.76,
+        591728.48
+      ],
+      "axis": [
+        -0.657978,
+        0.753037
+      ],
+      "halfLength": 12,
+      "halfWidth": 7.08,
+      "height": 41.803,
+      "gradient": [
+        -0.03815,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0010.b3a0ecb7de614770ae633efb81027ad9"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0010.b3a0ecb7de614770ae633efb81027ad9",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/6348873",
+        "tags": {
+          "bridge": "movable",
+          "bridge:movable": "bascule",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Mello Coendersbuurt",
+          "smoothness": "good",
+          "surface": "asphalt"
+        }
+      },
+      "fis": {
+        "id": 58289,
+        "naam": "Brug Termunterzijl",
+        "afstand": 3,
+        "beweegbaar": true,
+        "doorvaarthoogteGesloten": 1.31
+      },
+      "pdokBridgeVlakken": 1
+    },
+    "type": "basculebrug",
+    "doorvaarthoogte": 1.31,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 260000,580000,280000,600000 --run nl-13_14 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 60.3,
+      "dekBreedte": 10.2,
+      "brugLengte": 60.3,
+      "water": [
+        -19.7,
+        25.3
+      ],
+      "portaalhoogte": 9.2,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0010.a853e57d738a46ba8ff665369a3a61a7",
+          "klasse": "Road",
+          "oppervlak": 58.6,
+          "onderDek": 0.6,
+          "bovenDekOnderkant": 0.32,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        41.961,
+        41.345
+      ]
+    },
+    "waarschuwingen": [
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

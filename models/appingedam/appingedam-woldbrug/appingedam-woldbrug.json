@@ -1,0 +1,145 @@
+{
+  "name": "Woldbrug",
+  "file": "appingedam-woldbrug.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    252819.87,
+    592081.42
+  ],
+  "xAxis": [
+    0.291762,
+    -0.956491
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 43.483,
+  "groundSamplePoints": [
+    [
+      -53.73,
+      0
+    ],
+    [
+      53.73,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0003.886683e1d5a543209bc18f1f8ca42e18",
+    "G0003.8acf1735900d47dfb5db205bf6ff36b2",
+    "G0003.c0f44792db4d4e8a9810e08ad3c5c341"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        252806.53,
+        592125.16
+      ],
+      "axis": [
+        -0.291762,
+        0.956491
+      ],
+      "halfLength": 12,
+      "halfWidth": 8.37,
+      "height": 43.957,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        252833.22,
+        592037.68
+      ],
+      "axis": [
+        0.291762,
+        -0.956491
+      ],
+      "halfLength": 12,
+      "halfWidth": 8.37,
+      "height": 43.795,
+      "gradient": [
+        -0.02598,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0003.c0f44792db4d4e8a9810e08ad3c5c341"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0003.886683e1d5a543209bc18f1f8ca42e18",
+          "type": "pijler"
+        },
+        {
+          "id": "G0003.8acf1735900d47dfb5db205bf6ff36b2",
+          "type": "pijler"
+        },
+        {
+          "id": "G0003.c0f44792db4d4e8a9810e08ad3c5c341",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/6353878",
+        "tags": {
+          "bicycle": "no",
+          "bridge": "movable",
+          "foot": "no",
+          "highway": "secondary",
+          "layer": "1",
+          "maxspeed": "60",
+          "mofa": "no",
+          "moped": "no",
+          "name": "Woldweg"
+        }
+      },
+      "fis": {
+        "id": 26465,
+        "naam": "Woldbrug",
+        "afstand": 6,
+        "beweegbaar": true,
+        "doorvaarthoogteGesloten": 0.94
+      },
+      "pdokBridgeVlakken": 3
+    },
+    "type": "basculebrug",
+    "doorvaarthoogte": 0.94,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,580000,260000,600000 --run nl-12_14 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 67.5,
+      "dekBreedte": 12.7,
+      "brugLengte": 67.5,
+      "water": [
+        -30.2,
+        28.8
+      ],
+      "portaalhoogte": 11.5,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [],
+      "opritHoogtes": [
+        43.807,
+        43.483
+      ]
+    },
+    "waarschuwingen": [
+      "bridge=movable zonder mechanisme: basculebrug is een gok"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

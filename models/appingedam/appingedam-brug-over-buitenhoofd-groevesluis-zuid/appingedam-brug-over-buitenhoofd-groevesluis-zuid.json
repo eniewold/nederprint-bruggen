@@ -1,0 +1,135 @@
+{
+  "name": "Brug over buitenhoofd Groevesluis Zuid",
+  "file": "appingedam-brug-over-buitenhoofd-groevesluis-zuid.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    252241.77,
+    591815.58
+  ],
+  "xAxis": [
+    0.956006,
+    0.293348
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 41.692,
+  "groundSamplePoints": [
+    [
+      -7.24,
+      0
+    ],
+    [
+      7.24,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G1979.b5c14360439d444392da6993a9191878"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        252235.58,
+        591813.68
+      ],
+      "axis": [
+        -0.956006,
+        -0.293348
+      ],
+      "halfLength": 3.24,
+      "halfWidth": 3.05,
+      "height": 41.929,
+      "gradient": [
+        -0.04636,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        252247.95,
+        591817.47
+      ],
+      "axis": [
+        0.956006,
+        0.293348
+      ],
+      "halfLength": 3.24,
+      "halfWidth": 3.05,
+      "height": 41.885,
+      "gradient": [
+        -0.05983,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G1979.b5c14360439d444392da6993a9191878"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G1979.b5c14360439d444392da6993a9191878",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/6353530",
+        "tags": {
+          "bridge": "movable",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Eemskanaal Zuidzijde",
+          "short_name": "Eemskanaal ZZ",
+          "smoothness": "good",
+          "surface": "asphalt"
+        }
+      },
+      "fis": {
+        "id": 12660,
+        "naam": "Brug over buitenhoofd Groevesluis Zuid",
+        "afstand": 1,
+        "beweegbaar": true,
+        "doorvaarthoogteGesloten": 0.9500000000000001
+      },
+      "pdokBridgeVlakken": 0
+    },
+    "type": "basculebrug",
+    "doorvaarthoogte": 0.9500000000000001,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,580000,260000,600000 --run nl-12_14 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 6.5,
+      "dekBreedte": 4.1,
+      "brugLengte": 6.5,
+      "water": [
+        -2.7,
+        2.8
+      ],
+      "portaalhoogte": 3.7,
+      "opritafstand": [
+        4,
+        4
+      ],
+      "oprithelling": 6.5,
+      "doorstekend": [],
+      "opritHoogtes": [
+        41.779,
+        41.692
+      ]
+    },
+    "waarschuwingen": [
+      "bridge=movable zonder mechanisme: basculebrug is een gok",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

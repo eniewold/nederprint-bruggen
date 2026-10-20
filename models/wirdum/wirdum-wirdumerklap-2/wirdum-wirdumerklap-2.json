@@ -1,0 +1,135 @@
+{
+  "name": "Wirdumerklap",
+  "file": "wirdum-wirdumerklap-2.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    248322.93,
+    592884.57
+  ],
+  "xAxis": [
+    0.946182,
+    0.323636
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 41.666,
+  "groundSamplePoints": [
+    [
+      -6.9,
+      0
+    ],
+    [
+      6.9,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0024.ddcf3e9ac00c40b286d42ce845be1173"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        248317.35,
+        592882.66
+      ],
+      "axis": [
+        -0.946182,
+        -0.323636
+      ],
+      "halfLength": 3,
+      "halfWidth": 6.21,
+      "height": 41.916,
+      "gradient": [
+        -0.08325,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        248328.51,
+        592886.48
+      ],
+      "axis": [
+        0.946182,
+        0.323636
+      ],
+      "halfLength": 3,
+      "halfWidth": 6.21,
+      "height": 42.016,
+      "gradient": [
+        -0.05,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0024.ddcf3e9ac00c40b286d42ce845be1173"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0024.ddcf3e9ac00c40b286d42ce845be1173",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/95522913",
+        "tags": {
+          "bridge": "yes",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Rijksweg",
+          "smoothness": "good",
+          "surface": "asphalt",
+          "bridge:movable": "bascule"
+        }
+      },
+      "fis": {
+        "id": 53468,
+        "naam": "Wirdumerklap",
+        "afstand": 30,
+        "beweegbaar": true,
+        "doorvaarthoogteGesloten": 1.83
+      },
+      "pdokBridgeVlakken": 1
+    },
+    "type": "basculebrug",
+    "doorvaarthoogte": 1.83,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,580000,260000,600000 --run nl-12_14 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 5.8,
+      "dekBreedte": 8.4,
+      "brugLengte": 5.8,
+      "water": [
+        -2.4,
+        2.6
+      ],
+      "portaalhoogte": 7.6,
+      "opritafstand": [
+        4,
+        4
+      ],
+      "oprithelling": 6,
+      "doorstekend": [],
+      "opritHoogtes": [
+        41.666,
+        41.866
+      ]
+    },
+    "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}
