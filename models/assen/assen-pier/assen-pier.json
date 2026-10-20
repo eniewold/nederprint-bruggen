@@ -1,0 +1,128 @@
+{
+  "name": "Pier",
+  "file": "assen-pier.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    230480.6,
+    558407.37
+  ],
+  "xAxis": [
+    -0.225934,
+    0.974143
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 52.934,
+  "groundSamplePoints": [
+    [
+      -32.23,
+      0
+    ],
+    [
+      32.23,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0106.05345391c5e841c18c239796930cc6ee"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        230486.62,
+        558381.41
+      ],
+      "axis": [
+        0.225934,
+        -0.974143
+      ],
+      "halfLength": 12,
+      "halfWidth": 2.25,
+      "height": 53.091,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        230474.57,
+        558433.33
+      ],
+      "axis": [
+        -0.225934,
+        0.974143
+      ],
+      "halfLength": 12,
+      "halfWidth": 2.25,
+      "height": 53.087,
+      "gradient": [
+        -0.01279,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0106.05345391c5e841c18c239796930cc6ee"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0106.05345391c5e841c18c239796930cc6ee",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/578508046",
+        "tags": {
+          "bridge": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "mofa": "designated",
+          "traffic_sign": "NL:G11",
+          "man_made": "bridge",
+          "name": "Pier"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,540000,240000,560000 --run nl-11_12 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 29.3,
+      "dekBreedte": 3,
+      "brugLengte": 29.3,
+      "water": [
+        -11.2,
+        12.8
+      ],
+      "portaalhoogte": 2.7,
+      "opritafstand": [
+        17.6,
+        17.6
+      ],
+      "oprithelling": 24,
+      "doorstekend": [],
+      "opritHoogtes": [
+        52.941,
+        52.934
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}
