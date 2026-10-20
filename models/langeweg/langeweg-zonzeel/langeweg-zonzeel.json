@@ -1,0 +1,155 @@
+{
+  "name": "Zonzeel",
+  "file": "langeweg-zonzeel.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    106990.82,
+    406537.84
+  ],
+  "xAxis": [
+    -0.952558,
+    -0.304356
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 52.199,
+  "groundSamplePoints": [
+    [
+      -47.87,
+      0
+    ],
+    [
+      47.87,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "L0002.2e62b4aa5d0c40f99675459a7d1ae8a3",
+    "L0002.65bb9cd013564ffba83ddb491617ee3f",
+    "L0002.7c0a44d94b0d453b9688eee74eb4761c",
+    "L0002.5cd55703fb624658a48a01f4b54cbb2b"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        107028.79,
+        406549.98
+      ],
+      "axis": [
+        0.952558,
+        0.304356
+      ],
+      "halfLength": 12,
+      "halfWidth": 17.56,
+      "height": 52.685,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        106952.84,
+        406525.71
+      ],
+      "axis": [
+        -0.952558,
+        -0.304356
+      ],
+      "halfLength": 12,
+      "halfWidth": 17.56,
+      "height": 52.517,
+      "gradient": [
+        -0.02652,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "L0002.65bb9cd013564ffba83ddb491617ee3f"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "L0002.2e62b4aa5d0c40f99675459a7d1ae8a3",
+          "type": "onbekend"
+        },
+        {
+          "id": "L0002.65bb9cd013564ffba83ddb491617ee3f",
+          "type": "dek"
+        },
+        {
+          "id": "L0002.7c0a44d94b0d453b9688eee74eb4761c",
+          "type": "onbekend"
+        }
+      ],
+      "osm": {
+        "id": "way/460521640",
+        "tags": {
+          "bridge": "yes",
+          "carriageway_ref": "Li",
+          "highway": "motorway_link",
+          "lanes": "1",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "100",
+          "maxspeed:conditional": "130 @ (19:00-06:00)",
+          "oneway": "yes",
+          "operator": "Rijkswaterstaat",
+          "ref": "A59",
+          "surface": "asphalt",
+          "toll:hgv": "yes",
+          "man_made": "bridge",
+          "name": "Zonzeel",
+          "source:name": "survey"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 3
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,400000,120000,420000 --run nl-5_5 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 55.6,
+      "dekBreedte": 31.1,
+      "brugLengte": 55.7,
+      "water": null,
+      "portaalhoogte": 28,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "L0002.5cd55703fb624658a48a01f4b54cbb2b",
+          "klasse": "Terrain",
+          "oppervlak": 98.4,
+          "onderDek": 1,
+          "bovenDekOnderkant": 0.09,
+          "actie": "verbergen"
+        }
+      ],
+      "opritHoogtes": [
+        52.535,
+        52.199
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "1 PDOK-vorm(en) door het dek: 1 verborgen, 0 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

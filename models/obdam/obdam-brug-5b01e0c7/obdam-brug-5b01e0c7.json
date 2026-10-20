@@ -1,0 +1,163 @@
+{
+  "name": "Poelenburg",
+  "file": "obdam-brug-5b01e0c7.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    122575.94,
+    520695.16
+  ],
+  "xAxis": [
+    0.891454,
+    -0.45311
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 40.756,
+  "groundSamplePoints": [
+    [
+      -20.74,
+      0
+    ],
+    [
+      20.74,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G1598.5b01e0c7a77347d7b528a35564d1ad3c"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        122575.94,
+        520695.16
+      ],
+      "axis": [
+        0.891454,
+        -0.45311
+      ],
+      "halfLength": 4.71,
+      "halfWidth": 5.06,
+      "height": 39.908,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.42,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        122559.13,
+        520703.71
+      ],
+      "axis": [
+        -0.891454,
+        0.45311
+      ],
+      "halfLength": 9.43,
+      "halfWidth": 6.56,
+      "height": 41.058,
+      "gradient": [
+        -0.01591,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        122592.75,
+        520686.62
+      ],
+      "axis": [
+        0.891454,
+        -0.45311
+      ],
+      "halfLength": 9.43,
+      "halfWidth": 6.56,
+      "height": 40.982,
+      "gradient": [
+        -0.02397,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G1598.5b01e0c7a77347d7b528a35564d1ad3c"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G1598.5b01e0c7a77347d7b528a35564d1ad3c",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/183178589",
+        "tags": {
+          "bridge": "yes",
+          "highway": "residential",
+          "layer": "1",
+          "maxspeed": "30",
+          "name": "Poelenburg",
+          "zone:traffic": "NL:urban"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,520000,140000,540000 --run nl-6_11 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 18.9,
+      "dekBreedte": 9.1,
+      "brugLengte": 18.9,
+      "water": [
+        -3.9,
+        4.1
+      ],
+      "portaalhoogte": 8.2,
+      "opritafstand": [
+        11.3,
+        11.3
+      ],
+      "oprithelling": 18.9,
+      "doorstekend": [
+        {
+          "gmlId": "G1598.dfe901d1a0aa4d0fa148abfc83267fb3",
+          "klasse": "Forest",
+          "oppervlak": 148.2,
+          "onderDek": 0.04,
+          "bovenDekOnderkant": 0.42,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G1598.a46061762bf54cf2bf07a1f42fba41ce",
+          "klasse": "Terrain",
+          "oppervlak": 3085.7,
+          "onderDek": 0.01,
+          "bovenDekOnderkant": 0.14,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        40.908,
+        40.756
+      ]
+    },
+    "waarschuwingen": [
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}
