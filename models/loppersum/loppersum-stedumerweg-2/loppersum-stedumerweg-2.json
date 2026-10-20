@@ -1,0 +1,166 @@
+{
+  "name": "Stedumerweg",
+  "file": "loppersum-stedumerweg-2.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    244543.94,
+    594564.94
+  ],
+  "xAxis": [
+    0.960551,
+    0.278102
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 40.729,
+  "groundSamplePoints": [
+    [
+      -19.26,
+      0
+    ],
+    [
+      19.26,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "P0020.d4b631030d41440c87d0472122b3654e"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        244543.94,
+        594564.94
+      ],
+      "axis": [
+        0.960551,
+        0.278102
+      ],
+      "halfLength": 4.38,
+      "halfWidth": 4.5,
+      "height": 40.787,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.48,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        244527.13,
+        594560.07
+      ],
+      "axis": [
+        -0.960551,
+        -0.278102
+      ],
+      "halfLength": 8.75,
+      "halfWidth": 5.99,
+      "height": 41.408,
+      "gradient": [
+        -0.0776,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        244560.76,
+        594569.81
+      ],
+      "axis": [
+        0.960551,
+        0.278102
+      ],
+      "halfLength": 8.75,
+      "halfWidth": 5.99,
+      "height": 41.937,
+      "gradient": [
+        -0.01714,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "P0020.d4b631030d41440c87d0472122b3654e"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "P0020.d4b631030d41440c87d0472122b3654e",
+          "type": "dek"
+        }
+      ],
+      "osm": {
+        "id": "way/6354846",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "yes",
+          "foot": "use_sidepath",
+          "highway": "secondary",
+          "layer": "1",
+          "maxspeed": "60",
+          "mofa": "use_sidepath",
+          "moped": "use_sidepath",
+          "name": "Stedumerweg",
+          "operator": "Provincie Groningen",
+          "ref": "N996"
+        }
+      },
+      "fis": {
+        "id": 3376127,
+        "naam": "Brug Westereemdermaar",
+        "afstand": 1,
+        "beweegbaar": false,
+        "doorvaarthoogteGesloten": 2.63
+      },
+      "pdokBridgeVlakken": 1
+    },
+    "type": "ligger",
+    "doorvaarthoogte": 2.63,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 240000,580000,260000,600000 --run nl-12_14 --parallel 4",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 17.5,
+      "dekBreedte": 8,
+      "brugLengte": 17.5,
+      "water": [
+        -3.3,
+        2.7
+      ],
+      "portaalhoogte": 7.2,
+      "opritafstand": [
+        10.5,
+        10.5
+      ],
+      "oprithelling": 17.5,
+      "doorstekend": [
+        {
+          "gmlId": "P0020.705ea52448a94f58885983d7c74109fd",
+          "klasse": "Terrain",
+          "oppervlak": 41.4,
+          "onderDek": 0.19,
+          "bovenDekOnderkant": 0.48,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        40.729,
+        41.787
+      ]
+    },
+    "waarschuwingen": [
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}
