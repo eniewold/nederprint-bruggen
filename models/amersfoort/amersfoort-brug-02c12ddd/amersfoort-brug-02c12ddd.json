@@ -9,18 +9,18 @@
     461749.62
   ],
   "xAxis": [
-    -0.270518,
-    0.962715
+    0.962715,
+    0.270518
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 44.598,
+  "groundHeight": 45.138,
   "groundSamplePoints": [
     [
-      -22.43,
+      -56.93,
       0
     ],
     [
-      22.43,
+      46.93,
       0
     ]
   ],
@@ -34,33 +34,33 @@
         461749.62
       ],
       "axis": [
-        -0.270518,
-        0.962715
+        0.962715,
+        0.270518
       ],
-      "halfLength": 5.1,
-      "halfWidth": 27.43,
-      "height": 44.289,
+      "halfLength": 20.93,
+      "halfWidth": 10.69,
+      "height": 44.327,
       "gradient": [
         0,
         0
       ],
-      "minLift": -1.22,
+      "minLift": -1.28,
       "maxLift": -0.01
     },
     {
       "centre": [
-        155923.31,
-        461729.99
+        155880.31,
+        461739.09
       ],
       "axis": [
-        0.270518,
-        -0.962715
+        -0.962715,
+        -0.270518
       ],
-      "halfLength": 10.19,
-      "halfWidth": 28.93,
-      "height": 45.439,
+      "halfLength": 12,
+      "halfWidth": 12.19,
+      "height": 45.382,
       "gradient": [
-        -0.01471,
+        -0.02035,
         0
       ],
       "minLift": 0.05,
@@ -68,18 +68,18 @@
     },
     {
       "centre": [
-        155912.28,
-        461769.25
+        155955.28,
+        461760.15
       ],
       "axis": [
-        -0.270518,
-        0.962715
+        0.962715,
+        0.270518
       ],
-      "halfLength": 10.19,
-      "halfWidth": 28.93,
-      "height": 45.094,
+      "halfLength": 12,
+      "halfWidth": 12.19,
+      "height": 45.477,
       "gradient": [
-        -0.04862,
+        -0.0125,
         0
       ],
       "minLift": 0.05,
@@ -97,51 +97,59 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/732363144",
+        "tags": {
+          "bridge": "yes",
+          "highway": "footway",
+          "layer": "1",
+          "surface": "wood"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 0
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,460000,160000,480000 --run nl-7_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map amersfoort-brug-02c12ddd --plaats amersfoort --punt 155918,461750",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
-      "dekLengte": 20.4,
-      "dekBreedte": 53.9,
-      "brugLengte": 20.4,
+      "dekLengte": 53.9,
+      "dekBreedte": 20.4,
+      "brugLengte": 53.9,
       "water": [
-        -2.2,
-        9.8
+        -25.9,
+        1.1
       ],
-      "portaalhoogte": 48.5,
+      "portaalhoogte": 18.4,
       "opritafstand": [
-        12.2,
-        12.2
+        30,
+        20
       ],
-      "oprithelling": 20.4,
+      "oprithelling": 24,
       "doorstekend": [
         {
           "gmlId": "G0307.52abeb6166774087bb80ebe09edb0e9e",
           "klasse": "Forest",
-          "oppervlak": 18747.1,
-          "onderDek": 0,
-          "bovenDekOnderkant": 0.22,
+          "oppervlak": 14295.5,
+          "onderDek": 0.01,
+          "bovenDekOnderkant": 0.28,
           "actie": "verlagen"
         }
       ],
       "opritHoogtes": [
-        45.289,
-        44.598
+        45.138,
+        45.327
       ]
     },
     "waarschuwingen": [
-      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
       "geen FIS-brug binnen 35 m",
+      "oprit - pas op 30.0 m gemeten",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
       "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

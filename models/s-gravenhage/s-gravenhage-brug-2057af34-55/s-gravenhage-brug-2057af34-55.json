@@ -9,18 +9,18 @@
     456509.83
   ],
   "xAxis": [
-    0.409967,
-    -0.9121
+    -0.9121,
+    -0.409967
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 45.393,
+  "groundHeight": 43.824,
   "groundSamplePoints": [
     [
-      -6.91,
+      -66.09,
       0
     ],
     [
-      6.91,
+      46.09,
       0
     ]
   ],
@@ -30,18 +30,37 @@
   "terrainCorrections": [
     {
       "centre": [
-        82588.16,
-        456515.21
+        82590.58,
+        456509.83
       ],
       "axis": [
-        -0.409967,
-        0.9121
+        -0.9121,
+        -0.409967
       ],
-      "halfLength": 3,
-      "halfWidth": 28.09,
-      "height": 45.663,
+      "halfLength": 20.09,
+      "halfWidth": 3.41,
+      "height": 44.034,
       "gradient": [
-        -0.08997,
+        0,
+        0
+      ],
+      "minLift": -2.38,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        82625.32,
+        456525.44
+      ],
+      "axis": [
+        0.9121,
+        0.409967
+      ],
+      "halfLength": 12,
+      "halfWidth": 4.36,
+      "height": 44.579,
+      "gradient": [
+        -0.06294,
         0
       ],
       "minLift": 0.05,
@@ -49,18 +68,18 @@
     },
     {
       "centre": [
-        82593.01,
-        456504.44
+        82555.85,
+        456494.21
       ],
       "axis": [
-        0.409967,
-        -0.9121
+        -0.9121,
+        -0.409967
       ],
-      "halfLength": 3,
-      "halfWidth": 28.09,
-      "height": 45.782,
+      "halfLength": 12,
+      "halfWidth": 4.36,
+      "height": 45.184,
       "gradient": [
-        -0.05,
+        -0.0125,
         0
       ],
       "minLift": 0.05,
@@ -85,32 +104,99 @@
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,440000,100000,460000 --run nl-4_7 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map s-gravenhage-brug-2057af34-55 --plaats s-gravenhage --punt 82591,456510",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
-      "dekLengte": 5.8,
-      "dekBreedte": 52.2,
-      "brugLengte": 5.8,
+      "dekLengte": 52.2,
+      "dekBreedte": 5.8,
+      "brugLengte": 52.2,
       "water": [
-        -2.4,
-        2.1
+        -26.1,
+        25.9
       ],
-      "portaalhoogte": 47,
+      "portaalhoogte": 5.2,
       "opritafstand": [
-        4,
-        4
+        40,
+        20
       ],
-      "oprithelling": 6,
-      "doorstekend": [],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0518.2057af36221ec1fee053530a0b0aca32",
+          "klasse": "Forest",
+          "oppervlak": 612.9,
+          "onderDek": 0,
+          "bovenDekOnderkant": 1.38,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0518.2057af35e91ac1fee053530a0b0aca32",
+          "klasse": "Road",
+          "oppervlak": 607.9,
+          "onderDek": 0,
+          "bovenDekOnderkant": 1.25,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0518.2057af35e914c1fee053530a0b0aca32",
+          "klasse": "Road",
+          "oppervlak": 1161.5,
+          "onderDek": 0,
+          "bovenDekOnderkant": 1.21,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0518.2057af35e919c1fee053530a0b0aca32",
+          "klasse": "Road",
+          "oppervlak": 605.7,
+          "onderDek": 0,
+          "bovenDekOnderkant": 1.11,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0518.52793070b5209b52e053530a0b0ac1eb",
+          "klasse": "Road",
+          "oppervlak": 151,
+          "onderDek": 0,
+          "bovenDekOnderkant": 1.1,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0518.2057af35eab2c1fee053530a0b0aca32",
+          "klasse": "Road",
+          "oppervlak": 382,
+          "onderDek": 0,
+          "bovenDekOnderkant": 1.07,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0518.2057af3605f5c1fee053530a0b0aca32",
+          "klasse": "Road",
+          "oppervlak": 188.8,
+          "onderDek": 0,
+          "bovenDekOnderkant": 1.06,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0518.2057af360960c1fee053530a0b0aca32",
+          "klasse": "Road",
+          "oppervlak": 395.4,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.83,
+          "actie": "verlagen"
+        }
+      ],
       "opritHoogtes": [
-        45.393,
-        45.632
+        43.824,
+        45.034
       ]
     },
     "waarschuwingen": [
-      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
-      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+      "geen FIS-brug binnen 35 m",
+      "oprit - pas op 40.0 m gemeten",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "8 PDOK-vorm(en) door het dek: 0 verborgen, 8 verlaagd"
     ],
     "gegenereerd": "2026-10-20"
   }

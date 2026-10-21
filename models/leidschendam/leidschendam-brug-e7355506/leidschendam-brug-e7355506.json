@@ -9,58 +9,41 @@
     459229.75
   ],
   "xAxis": [
-    -0.788901,
-    -0.61452
+    -0.61452,
+    0.788901
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 44.413,
+  "groundHeight": 42.732,
   "groundSamplePoints": [
     [
-      -18.03,
+      -75.28,
       0
     ],
     [
-      18.03,
+      65.28,
       0
     ]
   ],
   "replacesTerrain": [
-    "L0002.e735550661d44230af4a2cc726aaacf5"
+    "L0002.e735550661d44230af4a2cc726aaacf5",
+    "G1916.494a74e9eed94c76985d1c484d5beb1e",
+    "G1916.544ea315746845cf8f06d1e13935745d"
   ],
   "terrainCorrections": [
     {
       "centre": [
-        92153.19,
-        459229.75
+        92188.39,
+        459184.57
       ],
       "axis": [
-        -0.788901,
-        -0.61452
+        0.61452,
+        -0.788901
       ],
-      "halfLength": 4.1,
-      "halfWidth": 45.78,
-      "height": 43.523,
+      "halfLength": 12,
+      "halfWidth": 10.19,
+      "height": 43.078,
       "gradient": [
-        0,
-        0
-      ],
-      "minLift": -1.83,
-      "maxLift": -0.01
-    },
-    {
-      "centre": [
-        92166.12,
-        459239.82
-      ],
-      "axis": [
-        0.788901,
-        0.61452
-      ],
-      "halfLength": 8.19,
-      "halfWidth": 47.28,
-      "height": 44.673,
-      "gradient": [
-        -0.01831,
+        -0.02887,
         0
       ],
       "minLift": 0.05,
@@ -68,18 +51,18 @@
     },
     {
       "centre": [
-        92140.26,
-        459219.68
+        92117.99,
+        459274.94
       ],
       "axis": [
-        -0.788901,
-        -0.61452
+        -0.61452,
+        0.788901
       ],
-      "halfLength": 8.19,
-      "halfWidth": 47.28,
-      "height": 44.618,
+      "halfLength": 12,
+      "halfWidth": 10.19,
+      "height": 43.274,
       "gradient": [
-        -0.02505,
+        -0.0125,
         0
       ],
       "minLift": 0.05,
@@ -104,50 +87,51 @@
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,440000,100000,460000 --run nl-4_7 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map leidschendam-brug-e7355506 --plaats leidschendam --punt 92153,459230",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
-      "dekLengte": 16.4,
-      "dekBreedte": 90.6,
-      "brugLengte": 16.4,
+      "dekLengte": 90.6,
+      "dekBreedte": 16.4,
+      "brugLengte": 90.6,
       "water": [
-        -2.2,
-        6.3
+        -45.3,
+        45.2
       ],
-      "portaalhoogte": 81.5,
+      "portaalhoogte": 14.7,
       "opritafstand": [
-        9.8,
-        9.8
+        30,
+        20
       ],
-      "oprithelling": 16.4,
+      "oprithelling": 24,
       "doorstekend": [
         {
           "gmlId": "G1916.494a74e9eed94c76985d1c484d5beb1e",
           "klasse": "Terrain",
           "oppervlak": 84.1,
-          "onderDek": 0.3,
-          "bovenDekOnderkant": 0.83,
-          "actie": "verlagen"
+          "onderDek": 0.8,
+          "bovenDekOnderkant": 2.23,
+          "actie": "verbergen"
         },
         {
           "gmlId": "G1916.544ea315746845cf8f06d1e13935745d",
           "klasse": "Terrain",
           "oppervlak": 75.5,
-          "onderDek": 0.3,
-          "bovenDekOnderkant": 0.77,
-          "actie": "verlagen"
+          "onderDek": 0.86,
+          "bovenDekOnderkant": 2.18,
+          "actie": "verbergen"
         }
       ],
       "opritHoogtes": [
-        44.523,
-        44.413
+        42.732,
+        43.124
       ]
     },
     "waarschuwingen": [
-      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen FIS-brug binnen 35 m",
+      "oprit - pas op 30.0 m gemeten",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
-      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+      "2 PDOK-vorm(en) door het dek: 2 verborgen, 0 verlaagd"
     ],
     "gegenereerd": "2026-10-20"
   }

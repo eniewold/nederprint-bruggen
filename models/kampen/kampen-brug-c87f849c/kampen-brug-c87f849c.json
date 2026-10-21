@@ -9,18 +9,18 @@
     506972.74
   ],
   "xAxis": [
-    -0.558358,
-    -0.8296
+    -0.8296,
+    0.558358
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 44.322,
+  "groundHeight": 42.123,
   "groundSamplePoints": [
     [
-      -14.48,
+      -45.45,
       0
     ],
     [
-      14.48,
+      65.45,
       0
     ]
   ],
@@ -30,18 +30,37 @@
   "terrainCorrections": [
     {
       "centre": [
-        187666.52,
-        506983.66
+        187659.17,
+        506972.74
       ],
       "axis": [
-        0.558358,
-        0.8296
+        -0.8296,
+        0.558358
       ],
-      "halfLength": 6.58,
-      "halfWidth": 27.45,
-      "height": 44.734,
+      "halfLength": 19.45,
+      "halfWidth": 7.08,
+      "height": 41.169,
       "gradient": [
-        -0.02279,
+        0,
+        0
+      ],
+      "minLift": -4.23,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        187690.24,
+        506951.83
+      ],
+      "axis": [
+        0.8296,
+        -0.558358
+      ],
+      "halfLength": 12,
+      "halfWidth": 8.58,
+      "height": 42.296,
+      "gradient": [
+        -0.01441,
         0
       ],
       "minLift": 0.05,
@@ -49,18 +68,18 @@
     },
     {
       "centre": [
-        187651.82,
-        506961.83
+        187628.1,
+        506993.66
       ],
       "axis": [
-        -0.558358,
-        -0.8296
+        -0.8296,
+        0.558358
       ],
-      "halfLength": 6.58,
-      "halfWidth": 27.45,
-      "height": 44.603,
+      "halfLength": 12,
+      "halfWidth": 8.58,
+      "height": 42.319,
       "gradient": [
-        -0.04267,
+        -0.0125,
         0
       ],
       "minLift": 0.05,
@@ -78,40 +97,143 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1068817845",
+        "tags": {
+          "bridge": "yes",
+          "carriageway_ref": "Li",
+          "highway": "trunk",
+          "lanes": "1",
+          "layer": "1",
+          "maxspeed": "100",
+          "maxweight:signed": "no",
+          "motorroad": "yes",
+          "name": "Flevoweg",
+          "oneway": "yes",
+          "operator": "Provincie Overijssel",
+          "ref": "N307",
+          "surface": "asphalt",
+          "zone:traffic": "NL:rural",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 180000,500000,200000,520000 --run nl-9_10 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map kampen-brug-c87f849c --plaats kampen --punt 187659,506973",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
-      "dekLengte": 13.2,
-      "dekBreedte": 50.9,
-      "brugLengte": 13.2,
+      "dekLengte": 50.9,
+      "dekBreedte": 13.2,
+      "brugLengte": 50.9,
       "water": [
-        -6.1,
-        6.4
+        -25.5,
+        25
       ],
-      "portaalhoogte": 45.8,
+      "portaalhoogte": 11.8,
       "opritafstand": [
-        7.9,
-        7.9
+        20,
+        40
       ],
-      "oprithelling": 13.2,
-      "doorstekend": [],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "P0023.9ba48b17ffe64819a8fe7188499b2ad1",
+          "klasse": "Road",
+          "oppervlak": 1328.8,
+          "onderDek": 0,
+          "bovenDekOnderkant": 3.23,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "P0023.a0471d87b9c347d78c33425253d6a73f",
+          "klasse": "Terrain",
+          "oppervlak": 2461.4,
+          "onderDek": 0,
+          "bovenDekOnderkant": 3.22,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "P0023.03a0919af26b46efbf7e728aa1d31f08",
+          "klasse": "Terrain",
+          "oppervlak": 9.2,
+          "onderDek": 0,
+          "bovenDekOnderkant": 3.22,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "P0023.bebb0264da8a4db7a79e0f251981a374",
+          "klasse": "Terrain",
+          "oppervlak": 2373,
+          "onderDek": 0,
+          "bovenDekOnderkant": 3.19,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "P0023.cfb80550760f4fab8f0ef1bcb633fc76",
+          "klasse": "Road",
+          "oppervlak": 1273.2,
+          "onderDek": 0,
+          "bovenDekOnderkant": 3.09,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "P0023.1b475e1ef0594a18874f4c3849897002",
+          "klasse": "Terrain",
+          "oppervlak": 9.8,
+          "onderDek": 0,
+          "bovenDekOnderkant": 3.07,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "P0023.2879524c19cd45e4925e020f71a713d0",
+          "klasse": "Terrain",
+          "oppervlak": 22.4,
+          "onderDek": 0,
+          "bovenDekOnderkant": 2.95,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "P0023.76faf359776e4728b769e71773de2a5a",
+          "klasse": "Terrain",
+          "oppervlak": 954.7,
+          "onderDek": 0,
+          "bovenDekOnderkant": 2.49,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "P0023.ab5863dc6ccb4a5781c9340ca83741b9",
+          "klasse": "Road",
+          "oppervlak": 64.5,
+          "onderDek": 0,
+          "bovenDekOnderkant": 2.45,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "P0023.36f45a635bd441049007666de6b5ba7f",
+          "klasse": "Terrain",
+          "oppervlak": 0.5,
+          "onderDek": 0.01,
+          "bovenDekOnderkant": 2.41,
+          "actie": "verlagen"
+        }
+      ],
       "opritHoogtes": [
-        44.584,
-        44.322
+        42.123,
+        42.169
       ]
     },
     "waarschuwingen": [
-      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
-      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+      "geen FIS-brug binnen 35 m",
+      "oprit + pas op 40.0 m gemeten",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "10 PDOK-vorm(en) door het dek: 0 verborgen, 10 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

@@ -9,18 +9,14 @@
     453303.95
   ],
   "xAxis": [
-    -0.25524,
-    -0.966878
+    -0.966878,
+    0.25524
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 42.821,
+  "groundHeight": 42.755,
   "groundSamplePoints": [
     [
-      -10.23,
-      0
-    ],
-    [
-      10.23,
+      66.27,
       0
     ]
   ],
@@ -30,37 +26,37 @@
   "terrainCorrections": [
     {
       "centre": [
-        91076.79,
-        453312.94
+        91074.42,
+        453303.95
       ],
       "axis": [
-        0.25524,
-        0.966878
+        -0.966878,
+        0.25524
       ],
-      "halfLength": 4.65,
-      "halfWidth": 28.27,
-      "height": 43.001,
+      "halfLength": 20.27,
+      "halfWidth": 5.15,
+      "height": 41.755,
       "gradient": [
-        -0.03224,
+        0,
         0
       ],
-      "minLift": 0.05,
-      "maxLift": 4
+      "minLift": -2.51,
+      "maxLift": -0.01
     },
     {
       "centre": [
-        91072.04,
-        453294.95
+        91037.41,
+        453313.72
       ],
       "axis": [
-        -0.25524,
-        -0.966878
+        -0.966878,
+        0.25524
       ],
-      "halfLength": 4.65,
-      "halfWidth": 28.27,
-      "height": 42.986,
+      "halfLength": 12,
+      "halfWidth": 6.65,
+      "height": 42.905,
       "gradient": [
-        -0.0355,
+        -0.0125,
         0
       ],
       "minLift": 0.05,
@@ -102,32 +98,76 @@
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,440000,100000,460000 --run nl-4_7 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map zoetermeer-brug-7e1ec53b --plaats zoetermeer --punt 91074,453304",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
-      "dekLengte": 9.3,
-      "dekBreedte": 52.5,
-      "brugLengte": 9.3,
+      "dekLengte": 52.5,
+      "dekBreedte": 9.3,
+      "brugLengte": 52.5,
       "water": [
-        -4.2,
-        4.3
+        -26.3,
+        26.2
       ],
-      "portaalhoogte": 47.3,
+      "portaalhoogte": 8.4,
       "opritafstand": [
-        5.6,
-        5.6
+        60,
+        40
       ],
-      "oprithelling": 9.3,
-      "doorstekend": [],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0637.234fd59f095540219388af35f2b7cac7",
+          "klasse": "Road",
+          "oppervlak": 814.4,
+          "onderDek": 0,
+          "bovenDekOnderkant": 1.51,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0637.8038d83cd95d40e996bc18a69107af4c",
+          "klasse": "Road",
+          "oppervlak": 954.3,
+          "onderDek": 0,
+          "bovenDekOnderkant": 1.05,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0637.f36581605b25429cadb4ba4a82398c03",
+          "klasse": "Forest",
+          "oppervlak": 722.3,
+          "onderDek": 0,
+          "bovenDekOnderkant": 1.03,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0637.0794bab73fab4dda85c6b247a932d35d",
+          "klasse": "Forest",
+          "oppervlak": 1125.8,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.71,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0637.9ff736be17d34e949a78b758ae0b3aac",
+          "klasse": "Separation",
+          "oppervlak": 11.3,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.6,
+          "actie": "verlagen"
+        }
+      ],
       "opritHoogtes": [
-        42.851,
-        42.821
+        null,
+        42.755
       ]
     },
     "waarschuwingen": [
-      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
-      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+      "geen FIS-brug binnen 35 m",
+      "oprit - zonder PDOK-maaiveld",
+      "oprit + pas op 40.0 m gemeten",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "5 PDOK-vorm(en) door het dek: 0 verborgen, 5 verlaagd"
     ],
     "gegenereerd": "2026-10-20"
   }

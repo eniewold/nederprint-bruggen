@@ -9,39 +9,60 @@
     499518.42
   ],
   "xAxis": [
-    -0.298618,
-    -0.954373
+    -0.954373,
+    0.298618
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 44.462,
+  "groundHeight": 42.973,
   "groundSamplePoints": [
     [
-      -15.07,
+      -68.72,
       0
     ],
     [
-      15.07,
+      68.72,
       0
     ]
   ],
   "replacesTerrain": [
-    "G0193.822c7258ff384231ba553da9edc7b289"
+    "G0193.822c7258ff384231ba553da9edc7b289",
+    "G0193.972627c4489e477e8731e0145a379cc1",
+    "G0193.78caccaec10646298c464e100730d955"
   ],
   "terrainCorrections": [
     {
       "centre": [
-        205798.08,
-        499531.49
+        205793.99,
+        499518.42
       ],
       "axis": [
-        0.298618,
-        0.954373
+        -0.954373,
+        0.298618
       ],
-      "halfLength": 6.85,
-      "halfWidth": 30.72,
-      "height": 44.732,
+      "halfLength": 22.72,
+      "halfWidth": 7.35,
+      "height": 42.267,
       "gradient": [
-        -0.03938,
+        0,
+        0
+      ],
+      "minLift": -3.03,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        205832.85,
+        499506.26
+      ],
+      "axis": [
+        0.954373,
+        -0.298618
+      ],
+      "halfLength": 12,
+      "halfWidth": 8.85,
+      "height": 43.417,
+      "gradient": [
+        -0.0125,
         0
       ],
       "minLift": 0.05,
@@ -49,18 +70,18 @@
     },
     {
       "centre": [
-        205789.9,
-        499505.35
+        205755.13,
+        499530.58
       ],
       "axis": [
-        -0.298618,
-        -0.954373
+        -0.954373,
+        0.298618
       ],
-      "halfLength": 6.85,
-      "halfWidth": 30.72,
-      "height": 44.851,
+      "halfLength": 12,
+      "halfWidth": 8.85,
+      "height": 43.27,
       "gradient": [
-        -0.02191,
+        -0.02472,
         0
       ],
       "minLift": 0.05,
@@ -85,33 +106,77 @@
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 200000,480000,220000,500000 --run nl-10_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map zwolle-brug-822c7258 --plaats zwolle --punt 205794,499518",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
-      "dekLengte": 13.7,
-      "dekBreedte": 57.4,
-      "brugLengte": 13.7,
+      "dekLengte": 57.4,
+      "dekBreedte": 13.7,
+      "brugLengte": 57.4,
       "water": [
-        -4.3,
-        4.2
+        -28.7,
+        28.3
       ],
-      "portaalhoogte": 51.7,
+      "portaalhoogte": 12.3,
       "opritafstand": [
-        8.2,
-        8.2
+        40,
+        40
       ],
-      "oprithelling": 13.7,
-      "doorstekend": [],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0193.972627c4489e477e8731e0145a379cc1",
+          "klasse": "Terrain",
+          "oppervlak": 89,
+          "onderDek": 0.88,
+          "bovenDekOnderkant": 2.18,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "G0193.78caccaec10646298c464e100730d955",
+          "klasse": "Terrain",
+          "oppervlak": 87.3,
+          "onderDek": 0.9,
+          "bovenDekOnderkant": 2.14,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "G0193.6c32c4558bc64f70bcad93afc94df876",
+          "klasse": "Forest",
+          "oppervlak": 1348.1,
+          "onderDek": 0,
+          "bovenDekOnderkant": 2.03,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0193.f6f06cdad4e64af6b95ef4ca77ac1755",
+          "klasse": "Terrain",
+          "oppervlak": 679.2,
+          "onderDek": 0,
+          "bovenDekOnderkant": 1.55,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "W0664.9b4c5be470834bfea478cd7786af53b7",
+          "klasse": "Terrain",
+          "oppervlak": 1173.7,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.82,
+          "actie": "verlagen"
+        }
+      ],
       "opritHoogtes": [
-        44.462,
-        44.701
+        43.267,
+        42.973
       ]
     },
     "waarschuwingen": [
-      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
-      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+      "geen FIS-brug binnen 35 m",
+      "oprit - pas op 40.0 m gemeten",
+      "oprit + pas op 40.0 m gemeten",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "5 PDOK-vorm(en) door het dek: 2 verborgen, 3 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

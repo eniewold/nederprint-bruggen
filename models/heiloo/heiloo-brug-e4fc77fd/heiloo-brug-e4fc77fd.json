@@ -9,18 +9,18 @@
     513770.93
   ],
   "xAxis": [
-    0.764063,
-    -0.645142
+    -0.645142,
+    -0.764063
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 42.968,
+  "groundHeight": 42.551,
   "groundSamplePoints": [
     [
-      -59.51,
+      -86.06,
       0
     ],
     [
-      39.51,
+      86.06,
       0
     ]
   ],
@@ -29,7 +29,8 @@
     "G0399.2eb452f5dfa4415cad7ab78c5ab1a0ba",
     "G0399.533a2fce642a4cf08c8b784473dc7745",
     "G0399.55634c16994aaa5ae0630b30820ad76b",
-    "G0399.55634c16994baa5ae0630b30820ad76b"
+    "G0399.55634c16994baa5ae0630b30820ad76b",
+    "G0399.e991ead5ab3948f8e0530b30820ad984"
   ],
   "terrainCorrections": [
     {
@@ -38,33 +39,33 @@
         513770.93
       ],
       "axis": [
-        0.764063,
-        -0.645142
+        -0.645142,
+        -0.764063
       ],
-      "halfLength": 13.51,
-      "halfWidth": 66.56,
-      "height": 42.664,
+      "halfLength": 60.06,
+      "halfWidth": 20.01,
+      "height": 41.894,
       "gradient": [
         0,
         0
       ],
-      "minLift": -1.22,
+      "minLift": -1.99,
       "maxLift": -0.01
     },
     {
       "centre": [
-        108769.49,
-        513791.26
+        108843.93,
+        513830.57
       ],
       "axis": [
-        -0.764063,
-        0.645142
+        0.645142,
+        0.764063
       ],
       "halfLength": 12,
-      "halfWidth": 68.06,
-      "height": 43.466,
+      "halfWidth": 21.51,
+      "height": 42.873,
       "gradient": [
-        -0.04151,
+        -0.02678,
         0
       ],
       "minLift": 0.05,
@@ -72,16 +73,16 @@
     },
     {
       "centre": [
-        108817.64,
-        513750.6
+        108743.21,
+        513711.29
       ],
       "axis": [
-        0.764063,
-        -0.645142
+        -0.645142,
+        -0.764063
       ],
       "halfLength": 12,
-      "halfWidth": 68.06,
-      "height": 43.814,
+      "halfWidth": 21.51,
+      "height": 43.044,
       "gradient": [
         -0.0125,
         0
@@ -136,20 +137,20 @@
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,500000,120000,520000 --run nl-5_10 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map heiloo-brug-e4fc77fd --plaats heiloo --punt 108794,513771",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
-      "dekLengte": 39,
-      "dekBreedte": 132.1,
-      "brugLengte": 39,
+      "dekLengte": 132.1,
+      "dekBreedte": 39,
+      "brugLengte": 132.1,
       "water": [
-        -19.5,
-        15
+        -65.6,
+        65.9
       ],
-      "portaalhoogte": 118.9,
+      "portaalhoogte": 35.1,
       "opritafstand": [
-        40,
+        20,
         20
       ],
       "oprithelling": 24,
@@ -159,22 +160,44 @@
           "klasse": "Forest",
           "oppervlak": 696.3,
           "onderDek": 0.06,
-          "bovenDekOnderkant": 0.22,
+          "bovenDekOnderkant": 0.99,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0399.e991ead5ab3948f8e0530b30820ad984",
+          "klasse": "Terrain",
+          "oppervlak": 20.7,
+          "onderDek": 1,
+          "bovenDekOnderkant": 0.55,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "G0399.684c6703d4e64647b4ca288ea4a3537d",
+          "klasse": "Forest",
+          "oppervlak": 115.5,
+          "onderDek": 0.1,
+          "bovenDekOnderkant": 0.37,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0399.e396c110762ea306e0530b30820a44ed",
+          "klasse": "Forest",
+          "oppervlak": 5,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.16,
           "actie": "verlagen"
         }
       ],
       "opritHoogtes": [
-        42.968,
-        43.664
+        42.551,
+        42.894
       ]
     },
     "waarschuwingen": [
-      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
       "geen FIS-brug binnen 35 m",
-      "oprit - pas op 40.0 m gemeten",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
-      "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
+      "4 PDOK-vorm(en) door het dek: 1 verborgen, 3 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

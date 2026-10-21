@@ -9,18 +9,18 @@
     542087.99
   ],
   "xAxis": [
-    -0.865512,
-    0.500889
+    0.500889,
+    0.865512
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 39.69,
+  "groundHeight": 39.265,
   "groundSamplePoints": [
     [
-      -4.77,
+      -56.61,
       0
     ],
     [
-      8.77,
+      46.61,
       0
     ]
   ],
@@ -30,37 +30,18 @@
   "terrainCorrections": [
     {
       "centre": [
-        117798.87,
-        542087.99
+        117779.54,
+        542054.58
       ],
       "axis": [
-        -0.865512,
-        0.500889
+        -0.500889,
+        -0.865512
       ],
-      "halfLength": 0.38,
-      "halfWidth": 27.11,
-      "height": 38.707,
+      "halfLength": 12,
+      "halfWidth": 1.15,
+      "height": 39.655,
       "gradient": [
-        0,
-        0
-      ],
-      "minLift": -1.92,
-      "maxLift": -0.01
-    },
-    {
-      "centre": [
-        117802.13,
-        542086.11
-      ],
-      "axis": [
-        0.865512,
-        -0.500889
-      ],
-      "halfLength": 3,
-      "halfWidth": 28.61,
-      "height": 39.857,
-      "gradient": [
-        -0.05,
+        -0.03254,
         0
       ],
       "minLift": 0.05,
@@ -68,18 +49,18 @@
     },
     {
       "centre": [
-        117795.61,
-        542089.88
+        117818.21,
+        542121.41
       ],
       "axis": [
-        -0.865512,
-        0.500889
+        0.500889,
+        0.865512
       ],
-      "halfLength": 3,
-      "halfWidth": 28.61,
-      "height": 39.848,
+      "halfLength": 12,
+      "halfWidth": 1.15,
+      "height": 39.896,
       "gradient": [
-        -0.05283,
+        -0.0125,
         0
       ],
       "minLift": 0.05,
@@ -116,43 +97,33 @@
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,540000,120000,560000 --run nl-5_12 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map anna-paulowna-brug-71525c96 --plaats anna-paulowna --punt 117799,542088",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
-      "dekLengte": 1.5,
-      "dekBreedte": 53.2,
-      "brugLengte": 1.5,
+      "dekLengte": 53.2,
+      "dekBreedte": 1.5,
+      "brugLengte": 53.2,
       "water": [
-        -0.8,
-        0.7
+        -25.1,
+        24.9
       ],
-      "portaalhoogte": 47.9,
+      "portaalhoogte": 2.5,
       "opritafstand": [
-        4,
-        8
+        30,
+        20
       ],
-      "oprithelling": 6,
-      "doorstekend": [
-        {
-          "gmlId": "W0651.a7aa96ab38444cf493a102eb67e84c22",
-          "klasse": "Terrain",
-          "oppervlak": 1116.9,
-          "onderDek": 0.01,
-          "bovenDekOnderkant": 0.92,
-          "actie": "verlagen"
-        }
-      ],
+      "oprithelling": 24,
+      "doorstekend": [],
       "opritHoogtes": [
-        39.707,
-        39.69
+        39.265,
+        39.746
       ]
     },
     "waarschuwingen": [
-      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
-      "oprit + pas op 8.0 m gemeten",
-      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
-      "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
+      "geen FIS-brug binnen 35 m",
+      "oprit - pas op 30.0 m gemeten",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
     "gegenereerd": "2026-10-20"
   }

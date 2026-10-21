@@ -9,25 +9,24 @@
     372744.13
   ],
   "xAxis": [
-    0.988728,
-    -0.149722
+    -0.149722,
+    -0.988728
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 79.68,
+  "groundHeight": 76.983,
   "groundSamplePoints": [
     [
-      -37.08,
-      0
-    ],
-    [
-      37.08,
+      -105.01,
       0
     ]
   ],
   "replacesTerrain": [
     "G1894.952e73480fc94b618e46716026c94df2",
     "G1894.388858774c284747be353cd43b4144dc",
-    "G1894.4bf7f32141344dd6ac46f6a386deddaa"
+    "G1894.4bf7f32141344dd6ac46f6a386deddaa",
+    "G1894.7d8369a5653f454eba0a4cc15b5f8c78",
+    "G1894.033ca45df877444db3123320847ee557",
+    "G1894.ea726917f2044830865bb5028efb6834"
   ],
   "terrainCorrections": [
     {
@@ -36,52 +35,33 @@
         372744.13
       ],
       "axis": [
-        0.988728,
-        -0.149722
+        -0.149722,
+        -0.988728
       ],
-      "halfLength": 11.08,
-      "halfWidth": 75.51,
-      "height": 78.904,
+      "halfLength": 69.01,
+      "halfWidth": 17.58,
+      "height": 75.983,
       "gradient": [
         0,
         0
       ],
-      "minLift": -2.1,
+      "minLift": -5.2,
       "maxLift": -0.01
     },
     {
       "centre": [
-        191405.18,
-        372748.48
+        191446.96,
+        372830.16
       ],
       "axis": [
-        -0.988728,
-        0.149722
+        0.149722,
+        0.988728
       ],
       "halfLength": 12,
-      "halfWidth": 77.01,
-      "height": 80.054,
+      "halfWidth": 19.08,
+      "height": 77.133,
       "gradient": [
         -0.0125,
-        0
-      ],
-      "minLift": 0.05,
-      "maxLift": 4
-    },
-    {
-      "centre": [
-        191462.68,
-        372739.78
-      ],
-      "axis": [
-        0.988728,
-        -0.149722
-      ],
-      "halfLength": 12,
-      "halfWidth": 77.01,
-      "height": 79.942,
-      "gradient": [
-        -0.02185,
         0
       ],
       "minLift": 0.05,
@@ -129,43 +109,84 @@
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 180000,360000,200000,380000 --run nl-9_3 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map meijel-brug-952e7348 --plaats meijel --punt 191434,372744",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
-      "dekLengte": 34.2,
-      "dekBreedte": 150,
-      "brugLengte": 34.2,
+      "dekLengte": 150,
+      "dekBreedte": 34.2,
+      "brugLengte": 150,
       "water": [
-        -1.1,
-        10.9
+        -75,
+        75
       ],
-      "portaalhoogte": 135,
+      "portaalhoogte": 30.7,
       "opritafstand": [
-        20,
-        20
+        30,
+        60
       ],
       "oprithelling": 24,
       "doorstekend": [
         {
+          "gmlId": "G1894.0d527e4d2a774274e0540024817811e6",
+          "klasse": "Terrain",
+          "oppervlak": 1331.6,
+          "onderDek": 0.07,
+          "bovenDekOnderkant": 4.2,
+          "actie": "verlagen"
+        },
+        {
           "gmlId": "G1894.0d527e4d2ac14274e0540024817811e6",
           "klasse": "Terrain",
           "oppervlak": 506.1,
-          "onderDek": 0.25,
-          "bovenDekOnderkant": 1.1,
+          "onderDek": 0.27,
+          "bovenDekOnderkant": 4.02,
           "actie": "verlagen"
+        },
+        {
+          "gmlId": "G1894.0d527e4d2abd4274e0540024817811e6",
+          "klasse": "Terrain",
+          "oppervlak": 528.7,
+          "onderDek": 0.03,
+          "bovenDekOnderkant": 2.2,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G1894.7d8369a5653f454eba0a4cc15b5f8c78",
+          "klasse": "Terrain",
+          "oppervlak": 7.9,
+          "onderDek": 0.95,
+          "bovenDekOnderkant": 1.92,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "G1894.033ca45df877444db3123320847ee557",
+          "klasse": "Separation",
+          "oppervlak": 11.1,
+          "onderDek": 0.84,
+          "bovenDekOnderkant": 1.15,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "G1894.ea726917f2044830865bb5028efb6834",
+          "klasse": "Road",
+          "oppervlak": 34,
+          "onderDek": 1,
+          "bovenDekOnderkant": 1.15,
+          "actie": "verbergen"
         }
       ],
       "opritHoogtes": [
-        79.904,
-        79.68
+        76.983,
+        null
       ]
     },
     "waarschuwingen": [
-      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
       "geen FIS-brug binnen 35 m",
+      "oprit - pas op 30.0 m gemeten",
+      "oprit + zonder PDOK-maaiveld",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
-      "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
+      "6 PDOK-vorm(en) door het dek: 3 verborgen, 3 verlaagd"
     ],
     "gegenereerd": "2026-10-20"
   }

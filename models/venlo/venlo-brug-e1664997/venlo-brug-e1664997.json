@@ -9,14 +9,18 @@
     373915.62
   ],
   "xAxis": [
-    0.99999,
-    -0.004554
+    -0.004554,
+    -0.99999
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 64.648,
+  "groundHeight": 64.28,
   "groundSamplePoints": [
     [
-      11.5,
+      -69.63,
+      0
+    ],
+    [
+      69.63,
       0
     ]
   ],
@@ -30,33 +34,52 @@
         373915.62
       ],
       "axis": [
-        0.99999,
-        -0.004554
+        -0.004554,
+        -0.99999
       ],
-      "halfLength": 2.61,
-      "halfWidth": 50.13,
-      "height": 63.648,
+      "halfLength": 43.63,
+      "halfWidth": 5.73,
+      "height": 63.922,
       "gradient": [
         0,
         0
       ],
-      "minLift": -1.1,
+      "minLift": -1.08,
       "maxLift": -0.01
     },
     {
       "centre": [
-        209444.98,
-        373915.58
+        209434.81,
+        373977.25
       ],
       "axis": [
-        0.99999,
-        -0.004554
+        0.004554,
+        0.99999
       ],
-      "halfLength": 5.23,
-      "halfWidth": 51.63,
-      "height": 64.798,
+      "halfLength": 12,
+      "halfWidth": 7.23,
+      "height": 65.072,
       "gradient": [
-        -0.02869,
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        209434.24,
+        373854
+      ],
+      "axis": [
+        -0.004554,
+        -0.99999
+      ],
+      "halfLength": 12,
+      "halfWidth": 7.23,
+      "height": 64.751,
+      "gradient": [
+        -0.03926,
         0
       ],
       "minLift": 0.05,
@@ -88,41 +111,40 @@
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 200000,360000,220000,380000 --run nl-10_3 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map venlo-brug-e1664997 --plaats venlo --punt 209435,373916",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
-      "dekLengte": 10.5,
-      "dekBreedte": 99.3,
-      "brugLengte": 10.5,
+      "dekLengte": 99.3,
+      "dekBreedte": 10.5,
+      "brugLengte": 99.3,
       "water": [
-        -5.2,
-        4.3
+        -43.6,
+        45.4
       ],
-      "portaalhoogte": 89.3,
+      "portaalhoogte": 9.4,
       "opritafstand": [
-        18.8,
-        6.3
+        20,
+        20
       ],
-      "oprithelling": 10.5,
+      "oprithelling": 24,
       "doorstekend": [
         {
-          "gmlId": "W0665.e1664997d8b13aebe05301b51eacc3fd",
+          "gmlId": "W0665.e1664997d8c93aebe05301b51eacc3fd",
           "klasse": "Terrain",
-          "oppervlak": 76.3,
-          "onderDek": 0.06,
-          "bovenDekOnderkant": 0.1,
+          "oppervlak": 2054,
+          "onderDek": 0.01,
+          "bovenDekOnderkant": 0.08,
           "actie": "verlagen"
         }
       ],
       "opritHoogtes": [
-        null,
-        64.648
+        64.922,
+        64.28
       ]
     },
     "waarschuwingen": [
-      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
-      "oprit - zonder PDOK-maaiveld",
+      "geen FIS-brug binnen 35 m",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
       "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
     ],

@@ -9,18 +9,18 @@
     484896.55
   ],
   "xAxis": [
-    -0.881793,
-    -0.471637
+    -0.471637,
+    0.881793
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 41.049,
+  "groundHeight": 37.935,
   "groundSamplePoints": [
     [
-      -37.56,
+      -66.75,
       0
     ],
     [
-      37.56,
+      76.76,
       0
     ]
   ],
@@ -30,7 +30,8 @@
     "L0002.02ecc9a4fa6a4d6681b27594618eef5f",
     "L0002.0957d56f2edc43a38a5e1bee1078cdf7",
     "L0002.279b504e46ca4c4db6a8c9a9617694c7",
-    "L0002.4a30b99505b54dbba72078c2cd1e0a71"
+    "L0002.4a30b99505b54dbba72078c2cd1e0a71",
+    "G0034.ffb5ceca8bfa4ebaaed8eb76d9b04045"
   ],
   "terrainCorrections": [
     {
@@ -39,31 +40,31 @@
         484896.55
       ],
       "axis": [
-        -0.881793,
-        -0.471637
+        -0.471637,
+        0.881793
       ],
-      "halfLength": 8.06,
-      "halfWidth": 37.23,
-      "height": 40.297,
+      "halfLength": 30.73,
+      "halfWidth": 14.56,
+      "height": 37.21,
       "gradient": [
         0,
         0
       ],
-      "minLift": -1.65,
+      "minLift": -4.74,
       "maxLift": -0.01
     },
     {
       "centre": [
-        142381.36,
-        484910.5
+        142378.29,
+        484853.56
       ],
       "axis": [
-        0.881793,
-        0.471637
+        0.471637,
+        -0.881793
       ],
       "halfLength": 12,
-      "halfWidth": 38.73,
-      "height": 41.447,
+      "halfWidth": 16.06,
+      "height": 38.36,
       "gradient": [
         -0.0125,
         0
@@ -73,18 +74,18 @@
     },
     {
       "centre": [
-        142329.23,
-        484882.61
+        142332.3,
+        484939.55
       ],
       "axis": [
-        -0.881793,
-        -0.471637
+        -0.471637,
+        0.881793
       ],
       "halfLength": 12,
-      "halfWidth": 38.73,
-      "height": 41.323,
+      "halfWidth": 16.06,
+      "height": 38.223,
       "gradient": [
-        -0.02286,
+        -0.02392,
         0
       ],
       "minLift": 0.05,
@@ -156,21 +157,21 @@
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,480000,160000,500000 --run nl-7_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map almere-burgerspoort --plaats almere --punt 142355,484897",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
-      "dekLengte": 28.1,
-      "dekBreedte": 73.5,
-      "brugLengte": 35.1,
+      "dekLengte": 73.5,
+      "dekBreedte": 28.1,
+      "brugLengte": 73.5,
       "water": [
-        -11.6,
-        2.9
+        -36.8,
+        36.7
       ],
-      "portaalhoogte": 66.1,
+      "portaalhoogte": 25.3,
       "opritafstand": [
-        20,
-        20
+        30,
+        40
       ],
       "oprithelling": 24,
       "doorstekend": [
@@ -178,29 +179,38 @@
           "gmlId": "G0034.8676be43c4a74c1faaff11bccac0f795",
           "klasse": "Road",
           "oppervlak": 405.4,
-          "onderDek": 0.5,
-          "bovenDekOnderkant": 0.65,
+          "onderDek": 0.7,
+          "bovenDekOnderkant": 3.74,
           "actie": "verlagen"
         },
         {
           "gmlId": "G0034.b79ed78c390c4f09b4f318081a92fb78",
           "klasse": "Separation",
           "oppervlak": 26.9,
-          "onderDek": 0.51,
-          "bovenDekOnderkant": 0.15,
+          "onderDek": 0.34,
+          "bovenDekOnderkant": 3.24,
           "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0034.ffb5ceca8bfa4ebaaed8eb76d9b04045",
+          "klasse": "Road",
+          "oppervlak": 137.8,
+          "onderDek": 0.86,
+          "bovenDekOnderkant": 2.79,
+          "actie": "verbergen"
         }
       ],
       "opritHoogtes": [
-        41.297,
-        41.049
+        38.21,
+        37.935
       ]
     },
     "waarschuwingen": [
-      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
       "geen FIS-brug binnen 35 m",
-      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+      "oprit - pas op 30.0 m gemeten",
+      "oprit + pas op 40.0 m gemeten",
+      "3 PDOK-vorm(en) door het dek: 1 verborgen, 2 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

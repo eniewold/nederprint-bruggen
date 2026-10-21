@@ -9,18 +9,18 @@
     446013.13
   ],
   "xAxis": [
-    0.557245,
-    -0.830348
+    -0.830348,
+    -0.557245
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 39.211,
+  "groundHeight": 38.426,
   "groundSamplePoints": [
     [
-      -14.48,
+      -53.64,
       0
     ],
     [
-      14.48,
+      53.64,
       0
     ]
   ],
@@ -30,37 +30,18 @@
   "terrainCorrections": [
     {
       "centre": [
-        92110.65,
-        446013.13
+        92148.55,
+        446038.56
       ],
       "axis": [
-        0.557245,
-        -0.830348
+        0.830348,
+        0.557245
       ],
-      "halfLength": 1.24,
-      "halfWidth": 34.14,
-      "height": 38.318,
+      "halfLength": 12,
+      "halfWidth": 3.72,
+      "height": 38.957,
       "gradient": [
-        0,
-        0
-      ],
-      "minLift": -1.69,
-      "maxLift": -0.01
-    },
-    {
-      "centre": [
-        92107.6,
-        446017.68
-      ],
-      "axis": [
-        -0.557245,
-        0.830348
-      ],
-      "halfLength": 3,
-      "halfWidth": 35.64,
-      "height": 39.468,
-      "gradient": [
-        -0.05,
+        -0.04423,
         0
       ],
       "minLift": 0.05,
@@ -68,18 +49,18 @@
     },
     {
       "centre": [
-        92113.7,
-        446008.58
+        92072.75,
+        445987.7
       ],
       "axis": [
-        0.557245,
-        -0.830348
+        -0.830348,
+        -0.557245
       ],
-      "halfLength": 3,
-      "halfWidth": 35.64,
-      "height": 39.414,
+      "halfLength": 12,
+      "halfWidth": 3.72,
+      "height": 39.338,
       "gradient": [
-        -0.06774,
+        -0.0125,
         0
       ],
       "minLift": 0.05,
@@ -116,52 +97,32 @@
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,440000,100000,460000 --run nl-4_7 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map berkel-en-rodenrijs-brug-2e2b94d4-189 --plaats berkel-en-rodenrijs --punt 92111,446013",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
-      "dekLengte": 5,
-      "dekBreedte": 67.3,
-      "brugLengte": 5,
+      "dekLengte": 67.3,
+      "dekBreedte": 5,
+      "brugLengte": 67.3,
       "water": [
-        -2.5,
-        2
+        -30.1,
+        31.4
       ],
-      "portaalhoogte": 60.6,
+      "portaalhoogte": 4.5,
       "opritafstand": [
-        12,
-        12
+        20,
+        20
       ],
-      "oprithelling": 6,
-      "doorstekend": [
-        {
-          "gmlId": "G1621.2e2b94d3ea4e4b6be05332a1e90a2401",
-          "klasse": "Forest",
-          "oppervlak": 10.9,
-          "onderDek": 0.54,
-          "bovenDekOnderkant": 0.69,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "G1621.2e2b94d486494b6be05332a1e90a2401",
-          "klasse": "Terrain",
-          "oppervlak": 16,
-          "onderDek": 0.48,
-          "bovenDekOnderkant": 0.49,
-          "actie": "verlagen"
-        }
-      ],
+      "oprithelling": 24,
+      "doorstekend": [],
       "opritHoogtes": [
-        39.318,
-        39.211
+        38.426,
+        39.188
       ]
     },
     "waarschuwingen": [
-      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
-      "oprit - pas op 12.0 m gemeten",
-      "oprit + pas op 12.0 m gemeten",
-      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
-      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
     "gegenereerd": "2026-10-20"
   }

@@ -9,18 +9,14 @@
     487596.12
   ],
   "xAxis": [
-    0.742088,
-    -0.670302
+    -0.670302,
+    -0.742088
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 46.281,
+  "groundHeight": 44.399,
   "groundSamplePoints": [
     [
-      -13.62,
-      0
-    ],
-    [
-      13.62,
+      87.55,
       0
     ]
   ],
@@ -30,37 +26,37 @@
   "terrainCorrections": [
     {
       "centre": [
-        122056.22,
-        487604.42
+        122065.41,
+        487596.12
       ],
       "axis": [
-        -0.742088,
-        0.670302
+        -0.670302,
+        -0.742088
       ],
-      "halfLength": 6.19,
-      "halfWidth": 29.55,
-      "height": 46.688,
+      "halfLength": 21.55,
+      "halfWidth": 6.69,
+      "height": 43.399,
       "gradient": [
-        -0.02422,
+        0,
         0
       ],
-      "minLift": 0.05,
-      "maxLift": 4
+      "minLift": -4.09,
+      "maxLift": -0.01
     },
     {
       "centre": [
-        122074.6,
-        487587.82
+        122038.9,
+        487566.76
       ],
       "axis": [
-        0.742088,
-        -0.670302
+        -0.670302,
+        -0.742088
       ],
-      "halfLength": 6.19,
-      "halfWidth": 29.55,
-      "height": 46.559,
+      "halfLength": 12,
+      "halfWidth": 8.19,
+      "height": 44.549,
       "gradient": [
-        -0.04493,
+        -0.0125,
         0
       ],
       "minLift": 0.05,
@@ -81,11 +77,22 @@
       "osm": {
         "id": "way/1020011236",
         "tags": {
+          "bicycle": "use_sidepath",
           "bridge": "yes",
-          "footway": "sidewalk",
-          "highway": "footway",
+          "bus:lanes": "|designated",
+          "busway:right": "lane",
+          "foot": "no",
+          "highway": "secondary",
+          "lanes": "2",
           "layer": "1",
-          "surface": "paving_stones",
+          "lit": "yes",
+          "maxspeed": "30",
+          "maxspeed:type": "sign",
+          "maxweight": "120",
+          "mofa": "use_sidepath",
+          "name": "Prins Hendrikkade",
+          "oneway": "yes",
+          "surface": "asphalt",
           "area": "yes",
           "bridge:structure": "beam",
           "man_made": "bridge"
@@ -97,33 +104,85 @@
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map amsterdam-brug-619c101a --plaats amsterdam --punt 122065,487596",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
-      "dekLengte": 12.4,
-      "dekBreedte": 55.1,
-      "brugLengte": 12.4,
+      "dekLengte": 55.1,
+      "dekBreedte": 12.4,
+      "brugLengte": 55.1,
       "water": [
-        -3.2,
-        5.8
+        -27.6,
+        27.4
       ],
-      "portaalhoogte": 49.6,
+      "portaalhoogte": 11.1,
       "opritafstand": [
-        7.4,
-        7.4
+        60,
+        60
       ],
-      "oprithelling": 12.4,
-      "doorstekend": [],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0363.8e39200ee19842eaa51044cfba46d3f8",
+          "klasse": "Terrain",
+          "oppervlak": 107.7,
+          "onderDek": 0,
+          "bovenDekOnderkant": 3.09,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0363.22c30fb470164f25bba8bfa488f58e23",
+          "klasse": "Road",
+          "oppervlak": 487,
+          "onderDek": 0,
+          "bovenDekOnderkant": 3.09,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0363.8eab17cdbf9a4422a377cebde1ad5140",
+          "klasse": "Road",
+          "oppervlak": 141.1,
+          "onderDek": 0,
+          "bovenDekOnderkant": 3.03,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0363.6688623150fc44f3a794e44df0077134",
+          "klasse": "Road",
+          "oppervlak": 341.5,
+          "onderDek": 0,
+          "bovenDekOnderkant": 2.97,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0363.a31e1fbb76ad4f8dbc0c04468ae91757",
+          "klasse": "Road",
+          "oppervlak": 454.5,
+          "onderDek": 0,
+          "bovenDekOnderkant": 2.97,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0363.9f403ed866564d8da372ee3f4718ce2d",
+          "klasse": "Terrain",
+          "oppervlak": 45.8,
+          "onderDek": 0,
+          "bovenDekOnderkant": 2.84,
+          "actie": "verlagen"
+        }
+      ],
       "opritHoogtes": [
-        46.538,
-        46.281
+        null,
+        44.399
       ]
     },
     "waarschuwingen": [
-      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
-      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+      "geen FIS-brug binnen 35 m",
+      "oprit - zonder PDOK-maaiveld",
+      "oprit + pas op 60.0 m gemeten",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "6 PDOK-vorm(en) door het dek: 0 verborgen, 6 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

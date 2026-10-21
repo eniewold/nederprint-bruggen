@@ -9,18 +9,18 @@
     557117.43
   ],
   "xAxis": [
-    -0.814746,
-    -0.579818
+    -0.579818,
+    0.814746
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 45.739,
+  "groundHeight": 46.487,
   "groundSamplePoints": [
     [
-      -21.3,
+      -117.44,
       0
     ],
     [
-      21.3,
+      107.44,
       0
     ]
   ],
@@ -30,18 +30,18 @@
   "terrainCorrections": [
     {
       "centre": [
-        260176.29,
-        557128.65
+        260218.18,
+        557036.4
       ],
       "axis": [
-        0.814746,
-        0.579818
+        0.579818,
+        -0.814746
       ],
-      "halfLength": 9.68,
-      "halfWidth": 89.44,
-      "height": 46.966,
+      "halfLength": 12,
+      "halfWidth": 11.68,
+      "height": 46.824,
       "gradient": [
-        -0.01549,
+        -0.02806,
         0
       ],
       "minLift": 0.05,
@@ -49,18 +49,18 @@
     },
     {
       "centre": [
-        260144.74,
-        557106.2
+        260102.86,
+        557198.45
       ],
       "axis": [
-        -0.814746,
-        -0.579818
+        -0.579818,
+        0.814746
       ],
-      "halfLength": 9.68,
-      "halfWidth": 89.44,
-      "height": 46.428,
+      "halfLength": 12,
+      "halfWidth": 11.68,
+      "height": 47.011,
       "gradient": [
-        -0.07112,
+        -0.0125,
         0
       ],
       "minLift": 0.05,
@@ -78,38 +78,47 @@
           "type": "dek"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/47008890",
+        "tags": {
+          "bridge": "yes",
+          "foot": "yes",
+          "highway": "footway",
+          "layer": "1"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 260000,540000,280000,560000 --run nl-13_12 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map stadskanaal-brug-00568a75-12 --plaats stadskanaal --punt 260161,557117",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
-      "dekLengte": 19.4,
-      "dekBreedte": 174.9,
-      "brugLengte": 19.4,
+      "dekLengte": 174.9,
+      "dekBreedte": 19.4,
+      "brugLengte": 174.9,
       "water": [
-        -3.2,
-        9.3
+        -84.4,
+        87.1
       ],
-      "portaalhoogte": 157.4,
+      "portaalhoogte": 17.4,
       "opritafstand": [
-        11.6,
-        11.6
+        30,
+        20
       ],
-      "oprithelling": 19.4,
+      "oprithelling": 24,
       "doorstekend": [],
       "opritHoogtes": [
-        46.816,
-        45.739
+        46.487,
+        46.861
       ]
     },
     "waarschuwingen": [
-      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen FIS-brug binnen 35 m",
+      "oprit - pas op 30.0 m gemeten",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
     "gegenereerd": "2026-10-20"

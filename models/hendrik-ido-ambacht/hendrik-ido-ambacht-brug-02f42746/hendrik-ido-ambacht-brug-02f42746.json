@@ -9,14 +9,18 @@
     429257.43
   ],
   "xAxis": [
-    -0.61756,
-    0.786524
+    0.786524,
+    0.61756
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 43.679,
+  "groundHeight": 43.118,
   "groundSamplePoints": [
     [
-      -8.26,
+      -86.88,
+      0
+    ],
+    [
+      86.88,
       0
     ]
   ],
@@ -26,18 +30,37 @@
   "terrainCorrections": [
     {
       "centre": [
-        103298.58,
-        429251.52
+        103231.9,
+        429208.71
       ],
       "axis": [
-        0.61756,
-        -0.786524
+        -0.786524,
+        -0.61756
       ],
-      "halfLength": 3.76,
-      "halfWidth": 68.88,
-      "height": 43.829,
+      "halfLength": 12,
+      "halfWidth": 5.63,
+      "height": 43.451,
       "gradient": [
-        -0.03994,
+        -0.02777,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        103355.99,
+        429306.14
+      ],
+      "axis": [
+        0.786524,
+        0.61756
+      ],
+      "halfLength": 12,
+      "halfWidth": 5.63,
+      "height": 43.634,
+      "gradient": [
+        -0.0125,
         0
       ],
       "minLift": 0.05,
@@ -62,34 +85,33 @@
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,420000,120000,440000 --run nl-5_6 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map hendrik-ido-ambacht-brug-02f42746 --plaats hendrik-ido-ambacht --punt 103294,429257",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
-      "dekLengte": 7.5,
-      "dekBreedte": 133.8,
-      "brugLengte": 7.5,
+      "dekLengte": 133.8,
+      "dekBreedte": 7.5,
+      "brugLengte": 133.8,
       "water": [
-        -0.3,
-        3.7
+        -66.9,
+        66.6
       ],
-      "portaalhoogte": 120.4,
+      "portaalhoogte": 6.8,
       "opritafstand": [
-        4.5,
-        13.5
+        20,
+        20
       ],
-      "oprithelling": 7.5,
+      "oprithelling": 24,
       "doorstekend": [],
       "opritHoogtes": [
-        43.679,
-        null
+        43.118,
+        43.484
       ]
     },
     "waarschuwingen": [
-      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
-      "oprit + zonder PDOK-maaiveld",
+      "geen FIS-brug binnen 35 m",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

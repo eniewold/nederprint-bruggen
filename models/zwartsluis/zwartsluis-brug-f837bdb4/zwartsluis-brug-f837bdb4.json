@@ -9,14 +9,14 @@
     517031.09
   ],
   "xAxis": [
-    0.721583,
-    -0.692328
+    -0.692328,
+    -0.721583
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 43.352,
+  "groundHeight": 43.129,
   "groundSamplePoints": [
     [
-      12.4,
+      -87.89,
       0
     ]
   ],
@@ -26,18 +26,18 @@
   "terrainCorrections": [
     {
       "centre": [
-        201282.13,
-        517023.28
+        201329.31,
+        517088.74
       ],
       "axis": [
-        0.721583,
-        -0.692328
+        0.692328,
+        0.721583
       ],
-      "halfLength": 5.64,
-      "halfWidth": 69.89,
-      "height": 43.502,
+      "halfLength": 12,
+      "halfWidth": 7.64,
+      "height": 43.279,
       "gradient": [
-        -0.02662,
+        -0.0125,
         0
       ],
       "minLift": 0.05,
@@ -55,47 +55,39 @@
           "type": "dek"
         }
       ],
-      "osm": {
-        "id": "way/842794372",
-        "tags": {
-          "area": "yes",
-          "bridge": "yes",
-          "highway": "steps",
-          "layer": "1"
-        }
-      },
+      "osm": null,
       "fis": null,
       "pdokBridgeVlakken": 1
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 200000,500000,220000,520000 --run nl-10_10 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map zwartsluis-brug-f837bdb4 --plaats zwartsluis --punt 201274,517031",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
-      "dekLengte": 11.3,
-      "dekBreedte": 135.8,
-      "brugLengte": 11.3,
+      "dekLengte": 135.8,
+      "dekBreedte": 11.3,
+      "brugLengte": 135.8,
       "water": [
-        -5.6,
-        5.4
+        -60.9,
+        60.1
       ],
-      "portaalhoogte": 122.2,
+      "portaalhoogte": 10.1,
       "opritafstand": [
-        20.3,
-        6.8
+        20,
+        60
       ],
-      "oprithelling": 11.3,
+      "oprithelling": 24,
       "doorstekend": [],
       "opritHoogtes": [
-        null,
-        43.352
+        43.129,
+        null
       ]
     },
     "waarschuwingen": [
-      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
-      "oprit - zonder PDOK-maaiveld",
+      "geen FIS-brug binnen 35 m",
+      "oprit + zonder PDOK-maaiveld",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
     "gegenereerd": "2026-10-20"

@@ -9,18 +9,18 @@
     575090.6
   ],
   "xAxis": [
-    -0.946672,
-    -0.3222
+    -0.3222,
+    0.946672
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 44.357,
+  "groundHeight": 42.028,
   "groundSamplePoints": [
     [
-      -36.03,
+      -61.06,
       0
     ],
     [
-      26.96,
+      61.06,
       0
     ]
   ],
@@ -33,18 +33,37 @@
   "terrainCorrections": [
     {
       "centre": [
-        183148.27,
-        575100.54
+        183119.06,
+        575090.6
       ],
       "axis": [
-        0.946672,
-        0.3222
+        -0.3222,
+        0.946672
+      ],
+      "halfLength": 35.06,
+      "halfWidth": 2.2,
+      "height": 41.259,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -3.6,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        183136.16,
+        575040.37
+      ],
+      "axis": [
+        0.3222,
+        -0.946672
       ],
       "halfLength": 12,
-      "halfWidth": 43.06,
-      "height": 44.619,
+      "halfWidth": 2.55,
+      "height": 42.293,
       "gradient": [
-        -0.02185,
+        -0.02212,
         0
       ],
       "minLift": 0.05,
@@ -52,16 +71,16 @@
     },
     {
       "centre": [
-        183098.44,
-        575083.59
+        183101.96,
+        575140.83
       ],
       "axis": [
-        -0.946672,
-        -0.3222
+        -0.3222,
+        0.946672
       ],
       "halfLength": 12,
-      "halfWidth": 43.06,
-      "height": 44.732,
+      "halfWidth": 2.55,
+      "height": 42.409,
       "gradient": [
         -0.0125,
         0
@@ -95,22 +114,13 @@
         }
       ],
       "osm": {
-        "id": "way/1320362702",
+        "id": "way/724543396",
         "tags": {
+          "access": "no",
           "bridge": "yes",
-          "carriageway_ref": "Li",
-          "highway": "trunk",
-          "lanes": "2",
-          "layer": "1",
-          "lit": "no",
-          "maxspeed": "100",
-          "motorroad": "yes",
-          "name": "Wâldwei",
-          "oneway": "yes",
-          "operator": "Rijkswaterstaat",
-          "ref": "N31",
-          "surface": "asphalt",
-          "zone:traffic": "NL:rural",
+          "highway": "cycleway",
+          "layer": "2",
+          "name": "Techumerpaad",
           "man_made": "bridge"
         }
       },
@@ -120,32 +130,50 @@
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 180000,560000,200000,580000 --run nl-9_13 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map leeuwarden-brug-bf02b703 --plaats leeuwarden --punt 183119,575091",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
-      "dekLengte": 3.4,
-      "dekBreedte": 82.1,
-      "brugLengte": 28.6,
+      "dekLengte": 82.1,
+      "dekBreedte": 3.4,
+      "brugLengte": 82.1,
       "water": [
-        -10.4,
-        1.6
+        -38.1,
+        37.4
       ],
-      "portaalhoogte": 73.9,
+      "portaalhoogte": 3.1,
       "opritafstand": [
-        17.2,
-        17.2
+        20,
+        20
       ],
       "oprithelling": 24,
-      "doorstekend": [],
+      "doorstekend": [
+        {
+          "gmlId": "G0080.aba61c86be219cd2e0532c185791a794",
+          "klasse": "Forest",
+          "oppervlak": 961.1,
+          "onderDek": 0.16,
+          "bovenDekOnderkant": 2.6,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0080.99fc7f72ac4c79a4e0532c1857911408",
+          "klasse": "Terrain",
+          "oppervlak": 771.3,
+          "onderDek": 0.09,
+          "bovenDekOnderkant": 2.52,
+          "actie": "verlagen"
+        }
+      ],
       "opritHoogtes": [
-        44.357,
-        44.582
+        42.028,
+        42.259
       ]
     },
     "waarschuwingen": [
-      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
-      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
     ],
     "gegenereerd": "2026-10-20"
   }

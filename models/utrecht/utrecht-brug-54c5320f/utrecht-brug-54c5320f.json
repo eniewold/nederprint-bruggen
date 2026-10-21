@@ -9,18 +9,18 @@
     453726.66
   ],
   "xAxis": [
-    -0.600809,
-    0.799392
+    0.799392,
+    0.600809
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 50.139,
+  "groundHeight": 46.984,
   "groundSamplePoints": [
     [
-      -19.16,
+      -56.14,
       0
     ],
     [
-      12.4,
+      56.14,
       0
     ]
   ],
@@ -30,18 +30,37 @@
   "terrainCorrections": [
     {
       "centre": [
-        137659.79,
-        453717.65
+        137653.02,
+        453726.66
       ],
       "axis": [
-        0.600809,
-        -0.799392
+        0.799392,
+        0.600809
       ],
-      "halfLength": 5.64,
-      "halfWidth": 38.14,
-      "height": 51.055,
+      "halfLength": 30.14,
+      "halfWidth": 6.14,
+      "height": 46.034,
       "gradient": [
-        -0.16251,
+        0,
+        0
+      ],
+      "minLift": -3.2,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        137614.54,
+        453697.73
+      ],
+      "axis": [
+        -0.799392,
+        -0.600809
+      ],
+      "halfLength": 12,
+      "halfWidth": 7.64,
+      "height": 47.159,
+      "gradient": [
+        -0.0146,
         0
       ],
       "minLift": 0.05,
@@ -49,18 +68,18 @@
     },
     {
       "centre": [
-        137646.25,
-        453735.67
+        137691.5,
+        453755.58
       ],
       "axis": [
-        -0.600809,
-        0.799392
+        0.799392,
+        0.600809
       ],
-      "halfLength": 5.64,
-      "halfWidth": 38.14,
-      "height": 51.821,
+      "halfLength": 12,
+      "halfWidth": 7.64,
+      "height": 47.184,
       "gradient": [
-        -0.02662,
+        -0.0125,
         0
       ],
       "minLift": 0.05,
@@ -102,33 +121,50 @@
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 126435,448710,141834,461610 --run utrecht-2026-10-20 --overschrijf 1 --parallel 5",
+    "opdracht": "node scripts/bridges/genereer.mjs --map utrecht-brug-54c5320f --plaats utrecht --punt 137653,453727",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
-      "dekLengte": 11.3,
-      "dekBreedte": 72.3,
-      "brugLengte": 11.3,
+      "dekLengte": 72.3,
+      "dekBreedte": 11.3,
+      "brugLengte": 72.3,
       "water": [
-        -5.6,
-        5.4
+        -29.1,
+        28.9
       ],
-      "portaalhoogte": 65,
+      "portaalhoogte": 10.1,
       "opritafstand": [
-        13.5,
-        6.8
+        20,
+        20
       ],
-      "oprithelling": 11.3,
-      "doorstekend": [],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0344.fc104570fb4f4fb18e2a57387e4be118",
+          "klasse": "Terrain",
+          "oppervlak": 59.9,
+          "onderDek": 0.03,
+          "bovenDekOnderkant": 2.2,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "W0636.faeb58a321c749e68b9b154cfbde44db",
+          "klasse": "Terrain",
+          "oppervlak": 253.4,
+          "onderDek": 0.04,
+          "bovenDekOnderkant": 2.06,
+          "actie": "verlagen"
+        }
+      ],
       "opritHoogtes": [
-        50.139,
-        51.671
+        46.984,
+        47.034
       ]
     },
     "waarschuwingen": [
-      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
-      "oprit - pas op 13.5 m gemeten",
-      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+      "geen FIS-brug binnen 35 m",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
     ],
     "gegenereerd": "2026-10-20"
   }

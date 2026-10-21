@@ -1,0 +1,174 @@
+{
+  "name": "Graafseweg",
+  "file": "nijmegen-brug-42ff08b4-12.glb",
+  "className": "road",
+  "unitsPerMetre": 1,
+  "crs": "EPSG:28992",
+  "origin": [
+    186996.73,
+    427903.25
+  ],
+  "xAxis": [
+    -0.8355,
+    -0.54949
+  ],
+  "groundOffsetMetres": 0,
+  "groundHeight": 73.742,
+  "groundSamplePoints": [
+    [
+      -63.59,
+      0
+    ],
+    [
+      63.59,
+      0
+    ]
+  ],
+  "replacesTerrain": [
+    "G0268.42ff08b42b685775e0530100007f0cc2",
+    "G0268.59876084f86172c7e0530100007f5890"
+  ],
+  "terrainCorrections": [
+    {
+      "centre": [
+        186996.73,
+        427903.25
+      ],
+      "axis": [
+        -0.8355,
+        -0.54949
+      ],
+      "halfLength": 37.59,
+      "halfWidth": 10.47,
+      "height": 73.64,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -1.29,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        187043.17,
+        427933.8
+      ],
+      "axis": [
+        0.8355,
+        0.54949
+      ],
+      "halfLength": 12,
+      "halfWidth": 11.97,
+      "height": 74.341,
+      "gradient": [
+        -0.04992,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        186950.28,
+        427872.71
+      ],
+      "axis": [
+        -0.8355,
+        -0.54949
+      ],
+      "halfLength": 12,
+      "halfWidth": 11.97,
+      "height": 74.79,
+      "gradient": [
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    }
+  ],
+  "generated": {
+    "deckBgtIds": [
+      "G0268.42ff08b42b685775e0530100007f0cc2"
+    ],
+    "bron": {
+      "bgt": [
+        {
+          "id": "G0268.42ff08b42b685775e0530100007f0cc2",
+          "type": "dek"
+        },
+        {
+          "id": "G0268.59876084f86172c7e0530100007f5890",
+          "type": "landhoofd"
+        }
+      ],
+      "osm": {
+        "id": "way/1471483812",
+        "tags": {
+          "bridge": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "lit": "yes",
+          "mofa": "yes",
+          "moped": "designated",
+          "name": "Graafseweg",
+          "oneway": "yes",
+          "segregated": "yes",
+          "sidewalk": "right",
+          "smoothness": "good",
+          "surface": "asphalt",
+          "traffic_sign": "NL:G12a",
+          "zone:traffic": "NL:urban",
+          "man_made": "bridge"
+        }
+      },
+      "fis": null,
+      "pdokBridgeVlakken": 2
+    },
+    "type": "ligger",
+    "doorvaarthoogte": null,
+    "opties": {},
+    "opdracht": "node scripts/bridges/genereer.mjs --bbox 180000,420000,200000,440000 --run nl-9_6-startdek --parallel 5",
+    "parameters": {
+      "dekverhoging": 0.3,
+      "dekdikte": 1,
+      "dekLengte": 87.2,
+      "dekBreedte": 19.9,
+      "brugLengte": 87.2,
+      "water": null,
+      "portaalhoogte": 18,
+      "opritafstand": [
+        20,
+        20
+      ],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "G0268.59876084fb5b72c7e0530100007f5890",
+          "klasse": "Forest",
+          "oppervlak": 3770.9,
+          "onderDek": 0.05,
+          "bovenDekOnderkant": 0.29,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0268.42ff08b763b25775e0530100007f0cc2",
+          "klasse": "Road",
+          "oppervlak": 238.7,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.1,
+          "actie": "verlagen"
+        }
+      ],
+      "opritHoogtes": [
+        73.742,
+        74.64
+      ]
+    },
+    "waarschuwingen": [
+      "geen FIS-brug binnen 35 m",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+    ],
+    "gegenereerd": "2026-10-20"
+  }
+}

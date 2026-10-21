@@ -9,14 +9,14 @@
     431475.59
   ],
   "xAxis": [
-    0.141371,
-    0.989957
+    0.989957,
+    -0.141371
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 58.052,
+  "groundHeight": 56.772,
   "groundSamplePoints": [
     [
-      14.57,
+      61.55,
       0
     ]
   ],
@@ -30,33 +30,33 @@
         431475.59
       ],
       "axis": [
-        0.141371,
-        0.989957
+        0.989957,
+        -0.141371
       ],
-      "halfLength": 3.31,
-      "halfWidth": 32.05,
-      "height": 57.052,
+      "halfLength": 25.55,
+      "halfWidth": 7.12,
+      "height": 55.772,
       "gradient": [
         0,
         0
       ],
-      "minLift": -1.78,
+      "minLift": -3.41,
       "maxLift": -0.01
     },
     {
       "centre": [
-        214793.54,
-        431488.7
+        214834.78,
+        431469.43
       ],
       "axis": [
-        0.141371,
-        0.989957
+        0.989957,
+        -0.141371
       ],
-      "halfLength": 6.62,
-      "halfWidth": 33.55,
-      "height": 58.202,
+      "halfLength": 12,
+      "halfWidth": 8.62,
+      "height": 56.922,
       "gradient": [
-        -0.02266,
+        -0.0125,
         0
       ],
       "minLift": 0.05,
@@ -84,16 +84,16 @@
           "highway": "primary",
           "lanes": "1",
           "layer": "1",
-          "maxspeed": "70",
+          "maxspeed": "80",
           "mofa": "no",
           "moped": "no",
+          "name": "Elsepasweg",
           "oneway": "yes",
           "operator": "Landesbetrieb Straßenbau Nordrhein-Westfalen",
           "operator:addr:country": "DE",
-          "owner": "Bundesrepublik Deutschland",
           "ref": "B 220",
           "surface": "asphalt",
-          "zone:traffic": "DE:rural",
+          "zone:traffic": "NL:rural",
           "man_made": "bridge"
         }
       },
@@ -103,52 +103,53 @@
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 200000,420000,220000,440000 --run nl-10_6 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map s-heerenberg-brug-e04f9a5b --plaats s-heerenberg --punt 214792,431476",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
-      "dekLengte": 13.2,
-      "dekBreedte": 63.1,
-      "brugLengte": 13.2,
+      "dekLengte": 63.1,
+      "dekBreedte": 13.2,
+      "brugLengte": 63.1,
       "water": [
-        -3.6,
-        3.9
+        -31.6,
+        31.4
       ],
-      "portaalhoogte": 56.8,
+      "portaalhoogte": 11.9,
       "opritafstand": [
-        23.8,
-        7.9
+        60,
+        30
       ],
-      "oprithelling": 13.2,
+      "oprithelling": 24,
       "doorstekend": [
         {
           "gmlId": "G1955.5f44fca4f7494347a03db6d62e7d31e2",
           "klasse": "Terrain",
-          "oppervlak": 427.4,
-          "onderDek": 0.01,
-          "bovenDekOnderkant": 0.78,
+          "oppervlak": 397.9,
+          "onderDek": 0.21,
+          "bovenDekOnderkant": 2.41,
           "actie": "verlagen"
         },
         {
           "gmlId": "G1955.eaab534b90584baa92871e4e58b12b58",
           "klasse": "Terrain",
-          "oppervlak": 398.7,
-          "onderDek": 0,
-          "bovenDekOnderkant": 0.22,
+          "oppervlak": 368.5,
+          "onderDek": 0.24,
+          "bovenDekOnderkant": 2.35,
           "actie": "verlagen"
         }
       ],
       "opritHoogtes": [
         null,
-        58.052
+        56.772
       ]
     },
     "waarschuwingen": [
-      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen FIS-brug binnen 35 m",
       "oprit - zonder PDOK-maaiveld",
+      "oprit + pas op 30.0 m gemeten",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
       "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

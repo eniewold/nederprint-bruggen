@@ -9,39 +9,41 @@
     421109.1
   ],
   "xAxis": [
-    0.96485,
-    -0.262802
+    -0.262802,
+    -0.96485
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 43.442,
+  "groundHeight": 43.294,
   "groundSamplePoints": [
     [
-      -32.33,
+      -128.7,
       0
     ],
     [
-      32.33,
+      127.98,
       0
     ]
   ],
   "replacesTerrain": [
-    "G0505.047fc0f9235ac003e0532b00500a66e1"
+    "G0505.047fc0f9235ac003e0532b00500a66e1",
+    "G0505.b4b7e900d9c84d1d91009788166994b5",
+    "G0505.f8576c7cbe414f8691024573ef1b59a9"
   ],
   "terrainCorrections": [
     {
       "centre": [
-        104027.06,
-        421116.12
+        104084.54,
+        421225.56
       ],
       "axis": [
-        -0.96485,
-        0.262802
+        0.262802,
+        0.96485
       ],
       "halfLength": 12,
-      "halfWidth": 108.26,
-      "height": 43.775,
+      "halfWidth": 16.7,
+      "height": 43.563,
       "gradient": [
-        -0.02777,
+        -0.02246,
         0
       ],
       "minLift": 0.05,
@@ -49,16 +51,16 @@
     },
     {
       "centre": [
-        104078.58,
-        421102.09
+        104021.29,
+        420993.34
       ],
       "axis": [
-        0.96485,
-        -0.262802
+        -0.262802,
+        -0.96485
       ],
       "halfLength": 12,
-      "halfWidth": 108.26,
-      "height": 43.958,
+      "halfWidth": 16.7,
+      "height": 43.683,
       "gradient": [
         -0.0125,
         0
@@ -76,43 +78,62 @@
         {
           "id": "G0505.047fc0f9235ac003e0532b00500a66e1",
           "type": "dek"
+        },
+        {
+          "id": "G0505.b4b7e900d9c84d1d91009788166994b5",
+          "type": "landhoofd"
+        },
+        {
+          "id": "G0505.f8576c7cbe414f8691024573ef1b59a9",
+          "type": "landhoofd"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/106102731",
+        "tags": {
+          "bridge": "yes",
+          "highway": "cycleway",
+          "layer": "1",
+          "mofa": "designated",
+          "moped": "designated",
+          "name": "Jan Blankenpad",
+          "smoothness": "excellent",
+          "surface": "concrete",
+          "traffic_sign": "NL:G12a"
+        }
+      },
       "fis": null,
-      "pdokBridgeVlakken": 1
+      "pdokBridgeVlakken": 3
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,420000,120000,440000 --run nl-5_6 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map dordrecht-brug-047fc0f9-39 --plaats dordrecht --punt 104053,421109",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
-      "dekLengte": 29.4,
-      "dekBreedte": 212.5,
-      "brugLengte": 29.4,
+      "dekLengte": 212.5,
+      "dekBreedte": 29.4,
+      "brugLengte": 216.7,
       "water": [
-        -14.2,
-        14.3
+        -106.2,
+        96.8
       ],
-      "portaalhoogte": 191.3,
+      "portaalhoogte": 26.5,
       "opritafstand": [
-        17.6,
-        17.6
+        20,
+        20
       ],
       "oprithelling": 24,
       "doorstekend": [],
       "opritHoogtes": [
-        43.442,
-        43.808
+        43.294,
+        43.533
       ]
     },
     "waarschuwingen": [
-      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
-      "geen FIS-brug binnen 35 m",
-      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+      "geen FIS-brug binnen 35 m"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

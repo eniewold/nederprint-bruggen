@@ -9,61 +9,42 @@
     447792.27
   ],
   "xAxis": [
-    0.984219,
-    0.176954
+    0.176954,
+    -0.984219
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 41.983,
+  "groundHeight": 41.43,
   "groundSamplePoints": [
     [
-      -56.01,
+      -107.24,
       0
     ],
     [
-      56.27,
+      150.27,
       0
     ]
   ],
   "replacesTerrain": [
     "G0513.37acc312451e37c8e053293c320a4c37",
+    "G0513.37acc312453037c8e053293c320a4c37",
     "G0513.37acc31233b837c8e053293c320a4c37",
-    "G0513.37acc3103f3b37c8e053293c320a4c37",
-    "G0513.9631a764588266bfe053293c320a4f07"
+    "G0513.37acc3103f3b37c8e053293c320a4c37"
   ],
   "terrainCorrections": [
     {
       "centre": [
-        107401.66,
-        447792.27
+        107384.1,
+        447889.94
       ],
       "axis": [
-        0.984219,
-        0.176954
-      ],
-      "halfLength": 30.01,
-      "halfWidth": 87.74,
-      "height": 41,
-      "gradient": [
-        0,
-        0
-      ],
-      "minLift": -1.76,
-      "maxLift": -0.01
-    },
-    {
-      "centre": [
-        107354.4,
-        447783.77
-      ],
-      "axis": [
-        -0.984219,
-        -0.176954
+        -0.176954,
+        0.984219
       ],
       "halfLength": 12,
-      "halfWidth": 89.24,
-      "height": 42.141,
+      "halfWidth": 38.01,
+      "height": 42.503,
       "gradient": [
-        -0.01321,
+        -0.08942,
         0
       ],
       "minLift": 0.05,
@@ -71,16 +52,16 @@
     },
     {
       "centre": [
-        107449.17,
-        447800.81
+        107419.76,
+        447691.61
       ],
       "axis": [
-        0.984219,
-        0.176954
+        0.176954,
+        -0.984219
       ],
       "halfLength": 12,
-      "halfWidth": 89.24,
-      "height": 42.15,
+      "halfWidth": 38.01,
+      "height": 43.426,
       "gradient": [
         -0.0125,
         0
@@ -101,6 +82,10 @@
           "type": "landhoofd"
         },
         {
+          "id": "G0513.37acc312453037c8e053293c320a4c37",
+          "type": "landhoofd"
+        },
+        {
           "id": "G0513.37acc31233b837c8e053293c320a4c37",
           "type": "dek"
         },
@@ -112,89 +97,52 @@
       "osm": {
         "id": "way/1491468337",
         "tags": {
-          "bicycle": "use_sidepath",
           "bridge": "yes",
-          "foot": "use_sidepath",
-          "highway": "unclassified",
-          "lanes": "2",
+          "highway": "cycleway",
           "layer": "1",
           "lit": "yes",
-          "maxspeed": "30",
           "name": "Burgemeester van Hofwegensingel",
-          "parking:both": "no",
+          "oneway": "yes",
           "surface": "asphalt",
+          "width": "1.75",
           "zone:traffic": "NL:urban",
           "bridge:structure": "beam",
           "man_made": "bridge"
         }
       },
       "fis": null,
-      "pdokBridgeVlakken": 3
+      "pdokBridgeVlakken": 4
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,440000,120000,460000 --run nl-5_7 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map gouda-brug-37acc312-9 --plaats gouda --punt 107402,447792",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
-      "dekLengte": 72,
-      "dekBreedte": 174.5,
-      "brugLengte": 72.3,
+      "dekLengte": 174.5,
+      "dekBreedte": 72,
+      "brugLengte": 177.5,
       "water": [
-        -17.5,
-        30.5
+        -84.7,
+        90.3
       ],
-      "portaalhoogte": 157,
+      "portaalhoogte": 64.8,
       "opritafstand": [
         20,
-        20
+        60
       ],
       "oprithelling": 24,
-      "doorstekend": [
-        {
-          "gmlId": "G0513.7f7baccbb6e04d68e053293c320a73a7",
-          "klasse": "Forest",
-          "oppervlak": 270.6,
-          "onderDek": 0.52,
-          "bovenDekOnderkant": 0.76,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "G0513.9631a764588266bfe053293c320a4f07",
-          "klasse": "Terrain",
-          "oppervlak": 308.3,
-          "onderDek": 0.83,
-          "bovenDekOnderkant": 0.72,
-          "actie": "verbergen"
-        },
-        {
-          "gmlId": "G0513.4f155c0b4909797ae053293c320ae8f2",
-          "klasse": "Forest",
-          "oppervlak": 1919.9,
-          "onderDek": 0.03,
-          "bovenDekOnderkant": 0.42,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "G0513.37acc310a3ce37c8e053293c320a4c37",
-          "klasse": "Terrain",
-          "oppervlak": 15965.3,
-          "onderDek": 0,
-          "bovenDekOnderkant": 0.22,
-          "actie": "verlagen"
-        }
-      ],
+      "doorstekend": [],
       "opritHoogtes": [
-        41.983,
-        42
+        41.43,
+        43.276
       ]
     },
     "waarschuwingen": [
-      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
       "geen FIS-brug binnen 35 m",
-      "4 PDOK-vorm(en) door het dek: 1 verborgen, 3 verlaagd"
+      "oprit + pas op 60.0 m gemeten"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

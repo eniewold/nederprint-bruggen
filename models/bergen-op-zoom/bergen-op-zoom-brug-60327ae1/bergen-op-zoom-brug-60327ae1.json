@@ -9,19 +9,19 @@
     391218.09
   ],
   "xAxis": [
-    -0.250971,
-    0.967995
+    0.967995,
+    0.250971
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 48.696,
+  "groundHeight": 48.824,
   "groundSamplePoints": [
     [
-      -13.15,
+      -26.06,
       0
     ],
     [
-      3.15,
-      0
+      55.33,
+      -9.04
     ]
   ],
   "replacesTerrain": [
@@ -32,18 +32,37 @@
   "terrainCorrections": [
     {
       "centre": [
-        80034.57,
-        391211.99
+        80032.99,
+        391218.09
       ],
       "axis": [
-        0.250971,
-        -0.967995
+        0.967995,
+        0.250971
       ],
-      "halfLength": 3.15,
-      "halfWidth": 28.06,
-      "height": 48.91,
+      "halfLength": 20.06,
+      "halfWidth": 3.65,
+      "height": 47.901,
       "gradient": [
-        -0.068,
+        0,
+        0
+      ],
+      "minLift": -1.53,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        79996.16,
+        391208.53
+      ],
+      "axis": [
+        -0.967995,
+        -0.250971
+      ],
+      "halfLength": 12,
+      "halfWidth": 4.72,
+      "height": 49.012,
+      "gradient": [
+        -0.01571,
         0
       ],
       "minLift": 0.05,
@@ -51,18 +70,18 @@
     },
     {
       "centre": [
-        80031.41,
-        391224.18
+        80069.83,
+        391227.64
       ],
       "axis": [
-        -0.250971,
-        0.967995
+        0.967995,
+        0.250971
       ],
-      "halfLength": 3.15,
-      "halfWidth": 28.06,
-      "height": 48.974,
+      "halfLength": 12,
+      "halfWidth": 4.72,
+      "height": 49.051,
       "gradient": [
-        -0.04765,
+        -0.0125,
         0
       ],
       "minLift": 0.05,
@@ -119,33 +138,45 @@
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,380000,100000,400000 --run nl-4_4 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map bergen-op-zoom-brug-60327ae1 --plaats bergen-op-zoom --punt 80033,391218",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
-      "dekLengte": 6.3,
-      "dekBreedte": 52.1,
-      "brugLengte": 6.3,
+      "dekLengte": 52.1,
+      "dekBreedte": 6.3,
+      "brugLengte": 52.1,
       "water": [
-        -3.1,
-        0.4
+        -4.1,
+        18.4
       ],
-      "portaalhoogte": 46.9,
+      "portaalhoogte": 5.7,
       "opritafstand": [
-        10,
-        0
+        0,
+        30
       ],
       "spoorhoogteBron": "pdok",
-      "oprithelling": 6.3,
-      "doorstekend": [],
+      "oprithelling": 24,
+      "doorstekend": [
+        {
+          "gmlId": "W0652.af25134581d5409b943db773961c3934",
+          "klasse": "Terrain",
+          "oppervlak": 179.8,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.53,
+          "actie": "verlagen"
+        }
+      ],
       "opritHoogtes": [
-        48.696,
-        48.824
+        48.824,
+        48.901
       ]
     },
     "waarschuwingen": [
-      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
-      "oprit -: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt"
+      "geen FIS-brug binnen 35 m",
+      "oprit +: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "oprit +: spoorterrein voorbij 150 m nog 8.0 m hoger (56.9 m); PDOK trekt het spoor hier ver naar beneden, controleer de dekhoogte of geef --opritafstand",
+      "oprit + pas op 30 m langs het spoor gemeten (PDOK-spoorterrein bij de brug lager)",
+      "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
     ],
     "gegenereerd": "2026-10-20"
   }

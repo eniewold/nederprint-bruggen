@@ -9,19 +9,19 @@
     485962.01
   ],
   "xAxis": [
-    -0.341708,
-    0.939806
+    0.939806,
+    0.341708
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 45.498,
+  "groundHeight": 43.269,
   "groundSamplePoints": [
     [
-      -23.27,
-      0.55
+      -86.58,
+      0
     ],
     [
-      23.27,
-      1.1
+      66.58,
+      0
     ]
   ],
   "replacesTerrain": [
@@ -32,18 +32,37 @@
   "terrainCorrections": [
     {
       "centre": [
-        122387.75,
-        485938.26
+        122379.11,
+        485962.01
       ],
       "axis": [
-        0.341708,
-        -0.939806
+        0.939806,
+        0.341708
+      ],
+      "halfLength": 20.58,
+      "halfWidth": 13.77,
+      "height": 42.664,
+      "gradient": [
+        0,
+        0
+      ],
+      "minLift": -3.61,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        122342.85,
+        485948.82
+      ],
+      "axis": [
+        -0.939806,
+        -0.341708
       ],
       "halfLength": 12,
-      "halfWidth": 28.58,
-      "height": 45.655,
+      "halfWidth": 15.27,
+      "height": 43.617,
       "gradient": [
-        -0.01312,
+        -0.02896,
         0
       ],
       "minLift": 0.05,
@@ -51,16 +70,16 @@
     },
     {
       "centre": [
-        122370.48,
-        485985.75
+        122415.37,
+        485975.19
       ],
       "axis": [
-        -0.341708,
-        0.939806
+        0.939806,
+        0.341708
       ],
       "halfLength": 12,
-      "halfWidth": 28.58,
-      "height": 45.663,
+      "halfWidth": 15.27,
+      "height": 43.814,
       "gradient": [
         -0.0125,
         0
@@ -111,7 +130,7 @@
       "fis": {
         "id": 3392995,
         "naam": "Weesperpoortbrug Amsterdam (Brug 263)",
-        "afstand": 4,
+        "afstand": 3,
         "beweegbaar": false,
         "doorvaarthoogteGesloten": 2.82
       },
@@ -120,35 +139,107 @@
     "type": "ligger",
     "doorvaarthoogte": 2.82,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map amsterdam-weesperpoort --plaats amsterdam --punt 122379,485962",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
-      "dekLengte": 26.5,
-      "dekBreedte": 53.2,
-      "brugLengte": 26.5,
+      "dekLengte": 53.2,
+      "dekBreedte": 26.5,
+      "brugLengte": 53.2,
       "water": [
-        -12.8,
-        13.2
+        -26.6,
+        26.4
       ],
-      "portaalhoogte": 47.8,
+      "portaalhoogte": 23.9,
       "opritafstand": [
-        10,
-        10
+        60,
+        40
       ],
-      "spoorhoogteBron": "pdok",
       "oprithelling": 24,
-      "doorstekend": [],
+      "doorstekend": [
+        {
+          "gmlId": "G0363.c7ba631d4b48486ab28ef46df7bde8b7",
+          "klasse": "Terrain",
+          "oppervlak": 10.4,
+          "onderDek": 0,
+          "bovenDekOnderkant": 2.61,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0363.8522699dd46f43a9b97b2e589dbc3698",
+          "klasse": "Road",
+          "oppervlak": 47.9,
+          "onderDek": 0,
+          "bovenDekOnderkant": 2.61,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0363.1131eded1bdd458bb709d6d50983c939",
+          "klasse": "Road",
+          "oppervlak": 92.7,
+          "onderDek": 0,
+          "bovenDekOnderkant": 2.6,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0363.4d00460759c0454b84f4f016340cb385",
+          "klasse": "Road",
+          "oppervlak": 26.5,
+          "onderDek": 0,
+          "bovenDekOnderkant": 2.47,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0363.cf837bea2a254cdf9c9d720463ba5473",
+          "klasse": "Road",
+          "oppervlak": 10.5,
+          "onderDek": 0,
+          "bovenDekOnderkant": 2.46,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0363.e5b6ce456cfa4523aab6d4e345624f20",
+          "klasse": "Road",
+          "oppervlak": 18.3,
+          "onderDek": 0,
+          "bovenDekOnderkant": 2.45,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0363.26d6a5014ea7450290d060b81b8c23bd",
+          "klasse": "Road",
+          "oppervlak": 16.9,
+          "onderDek": 0,
+          "bovenDekOnderkant": 2.41,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0363.21aabbf8336a40fcbbde12bed4c720a3",
+          "klasse": "Road",
+          "oppervlak": 60,
+          "onderDek": 0,
+          "bovenDekOnderkant": 2.41,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0363.1e9760f2fadb44cba03a675968aa2730",
+          "klasse": "Road",
+          "oppervlak": 49.6,
+          "onderDek": 0,
+          "bovenDekOnderkant": 2.2,
+          "actie": "verlagen"
+        }
+      ],
       "opritHoogtes": [
-        45.498,
-        45.513
+        43.269,
+        43.664
       ]
     },
     "waarschuwingen": [
-      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
-      "oprit -: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
-      "oprit +: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt"
+      "oprit - pas op 60.0 m gemeten",
+      "oprit + pas op 40.0 m gemeten",
+      "9 PDOK-vorm(en) door het dek: 0 verborgen, 9 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

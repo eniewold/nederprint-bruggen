@@ -9,25 +9,30 @@
     454700.29
   ],
   "xAxis": [
-    0.767821,
-    0.640664
+    0.640664,
+    -0.767821
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 47.844,
+  "groundHeight": 44.613,
   "groundSamplePoints": [
     [
-      -39.15,
+      -64.66,
       0
     ],
     [
-      39.15,
+      64.66,
       0
     ]
   ],
   "replacesTerrain": [
     "L0002.4e8815354e514443a82ca0e9ba27f861",
     "L0002.a1c49f7629c84786bbcae0d0811799c3",
-    "L0002.da618baabe5346ffa446872341504c21"
+    "L0002.da618baabe5346ffa446872341504c21",
+    "L0002.686aa4de89f34aa28b2d1a7fbb58d3b3",
+    "G0344.7af8262260cb45a48d6fb8d4158338ee",
+    "L0002.4d896fca46f340808561ecea35f93528",
+    "L0002.bf6e80c65503432f81ca76e530d722cd",
+    "G0344.b7d9bae9e8e74b2394bed5f4efffe73d"
   ],
   "terrainCorrections": [
     {
@@ -36,33 +41,33 @@
         454700.29
       ],
       "axis": [
-        0.767821,
-        0.640664
+        0.640664,
+        -0.767821
       ],
-      "halfLength": 13.08,
-      "halfWidth": 45.1,
-      "height": 48.295,
+      "halfLength": 38.6,
+      "halfWidth": 19.58,
+      "height": 43.783,
       "gradient": [
         0,
         0
       ],
-      "minLift": -1.38,
+      "minLift": -4.56,
       "maxLift": -0.01
     },
     {
       "centre": [
-        139448.07,
-        454680.34
+        139435.69,
+        454743.8
       ],
       "axis": [
-        -0.767821,
-        -0.640664
+        -0.640664,
+        0.767821
       ],
       "halfLength": 12,
-      "halfWidth": 46.6,
-      "height": 48.719,
+      "halfWidth": 21.08,
+      "height": 44.933,
       "gradient": [
-        -0.07294,
+        -0.0125,
         0
       ],
       "minLift": 0.05,
@@ -70,18 +75,18 @@
     },
     {
       "centre": [
-        139495.91,
-        454720.25
+        139508.29,
+        454656.79
       ],
       "axis": [
-        0.767821,
-        0.640664
+        0.640664,
+        -0.767821
       ],
       "halfLength": 12,
-      "halfWidth": 46.6,
-      "height": 49.445,
+      "halfWidth": 21.08,
+      "height": 44.848,
       "gradient": [
-        -0.0125,
+        -0.01958,
         0
       ],
       "minLift": 0.05,
@@ -137,18 +142,18 @@
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 126435,448710,141834,461610 --run utrecht-2026-10-20 --overschrijf 1 --parallel 5",
+    "opdracht": "node scripts/bridges/genereer.mjs --map bunnik-brug-a1c49f76 --plaats bunnik --punt 139472,454700",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
-      "dekLengte": 38.2,
-      "dekBreedte": 89.2,
-      "brugLengte": 38.3,
+      "dekLengte": 89.2,
+      "dekBreedte": 38.2,
+      "brugLengte": 89.3,
       "water": [
-        -6.2,
-        7.3
+        -44.7,
+        44.3
       ],
-      "portaalhoogte": 80.3,
+      "portaalhoogte": 34.4,
       "opritafstand": [
         20,
         20
@@ -159,20 +164,99 @@
           "gmlId": "L0002.686aa4de89f34aa28b2d1a7fbb58d3b3",
           "klasse": "Terrain",
           "oppervlak": 128,
-          "onderDek": 0.55,
-          "bovenDekOnderkant": 0.38,
+          "onderDek": 0.84,
+          "bovenDekOnderkant": 4.9,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "G0344.7af8262260cb45a48d6fb8d4158338ee",
+          "klasse": "Separation",
+          "oppervlak": 33.1,
+          "onderDek": 1,
+          "bovenDekOnderkant": 4.24,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "L0002.4d896fca46f340808561ecea35f93528",
+          "klasse": "Terrain",
+          "oppervlak": 91.8,
+          "onderDek": 0.85,
+          "bovenDekOnderkant": 3.83,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "L0002.bf6e80c65503432f81ca76e530d722cd",
+          "klasse": "Terrain",
+          "oppervlak": 40.5,
+          "onderDek": 0.89,
+          "bovenDekOnderkant": 3.7,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "G0344.6f71aca11d324d8c9cefbb4bc474e12c",
+          "klasse": "Separation",
+          "oppervlak": 65.5,
+          "onderDek": 0.62,
+          "bovenDekOnderkant": 3.56,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0344.d0e06cfd6b69413d9e621a289796cabf",
+          "klasse": "Separation",
+          "oppervlak": 71.4,
+          "onderDek": 0.57,
+          "bovenDekOnderkant": 3.44,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0344.b7d9bae9e8e74b2394bed5f4efffe73d",
+          "klasse": "Road",
+          "oppervlak": 39.7,
+          "onderDek": 0.92,
+          "bovenDekOnderkant": 3.28,
+          "actie": "verbergen"
+        },
+        {
+          "gmlId": "G0344.a705af33113f47c397ab070af6477b07",
+          "klasse": "Forest",
+          "oppervlak": 469.9,
+          "onderDek": 0,
+          "bovenDekOnderkant": 2.15,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0344.31e7d6040b264c66a56d57880041e291",
+          "klasse": "Road",
+          "oppervlak": 1334.6,
+          "onderDek": 0.35,
+          "bovenDekOnderkant": 2.02,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0344.5ed7a94d7a524d9b92723766d147793d",
+          "klasse": "Road",
+          "oppervlak": 320.1,
+          "onderDek": 0.35,
+          "bovenDekOnderkant": 1.12,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0344.4d989df93d5f4004ab4c38586bdbb361",
+          "klasse": "Terrain",
+          "oppervlak": 388.4,
+          "onderDek": 0,
+          "bovenDekOnderkant": 1.07,
           "actie": "verlagen"
         }
       ],
       "opritHoogtes": [
-        47.844,
-        49.295
+        44.783,
+        44.613
       ]
     },
     "waarschuwingen": [
-      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
       "geen FIS-brug binnen 35 m",
-      "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
+      "11 PDOK-vorm(en) door het dek: 5 verborgen, 6 verlaagd"
     ],
     "gegenereerd": "2026-10-20"
   }

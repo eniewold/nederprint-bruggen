@@ -9,18 +9,18 @@
     455957.38
   ],
   "xAxis": [
-    0.639944,
-    0.768422
+    0.768422,
+    -0.639944
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 48.866,
+  "groundHeight": 47.202,
   "groundSamplePoints": [
     [
-      -11.18,
+      -46.24,
       0
     ],
     [
-      11.18,
+      46.24,
       0
     ]
   ],
@@ -34,33 +34,33 @@
         455957.38
       ],
       "axis": [
-        0.639944,
-        0.768422
+        0.768422,
+        -0.639944
       ],
-      "halfLength": 2.54,
-      "halfWidth": 26.74,
-      "height": 48.49,
+      "halfLength": 20.24,
+      "halfWidth": 5.58,
+      "height": 47.413,
       "gradient": [
         0,
         0
       ],
-      "minLift": -1.06,
+      "minLift": -2.34,
       "maxLift": -0.01
     },
     {
       "centre": [
-        136651.74,
-        455949.57
+        136628.86,
+        455981.85
       ],
       "axis": [
-        -0.639944,
-        -0.768422
+        -0.768422,
+        0.639944
       ],
-      "halfLength": 5.08,
-      "halfWidth": 28.24,
-      "height": 49.328,
+      "halfLength": 12,
+      "halfWidth": 7.08,
+      "height": 48.563,
       "gradient": [
-        -0.09086,
+        -0.0125,
         0
       ],
       "minLift": 0.05,
@@ -68,18 +68,18 @@
     },
     {
       "centre": [
-        136664.75,
-        455965.2
+        136687.63,
+        455932.91
       ],
       "axis": [
-        0.639944,
-        0.768422
+        0.768422,
+        -0.639944
       ],
-      "halfLength": 5.08,
-      "halfWidth": 28.24,
-      "height": 49.64,
+      "halfLength": 12,
+      "halfWidth": 7.08,
+      "height": 47.957,
       "gradient": [
-        -0.02951,
+        -0.06295,
         0
       ],
       "minLift": 0.05,
@@ -100,9 +100,19 @@
       "osm": {
         "id": "way/1334808892",
         "tags": {
+          "area": "yes",
           "bridge": "yes",
-          "bridge:structure": "arch",
+          "highway": "pedestrian",
           "layer": "1",
+          "lit": "yes",
+          "name": "Stadhuisbrug",
+          "structure": "bridge",
+          "surface": "paving_stones",
+          "wikidata": "Q2189143",
+          "wikimedia_commons": "Category:Stadhuisbrug",
+          "wikipedia": "nl:Stadhuisbrug",
+          "zone:traffic": "NL:urban",
+          "bridge:structure": "arch",
           "man_made": "bridge"
         }
       },
@@ -115,43 +125,42 @@
       },
       "pdokBridgeVlakken": 1
     },
-    "type": "gewelf",
+    "type": "boog",
     "doorvaarthoogte": 3.7199999999999998,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 126435,448710,141834,461610 --run utrecht-2026-10-20 --overschrijf 1 --parallel 5",
+    "opdracht": "node scripts/bridges/genereer.mjs --map utrecht-stadhuisbrug --plaats utrecht --punt 136658,455957",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
-      "dekLengte": 10.2,
-      "dekBreedte": 52.5,
-      "brugLengte": 10.2,
+      "dekLengte": 52.5,
+      "dekBreedte": 10.2,
+      "brugLengte": 52.5,
       "water": [
-        -2.6,
-        3.9
+        -26.2,
+        25.8
       ],
-      "portaalhoogte": 47.2,
+      "portaalhoogte": 9.1,
       "opritafstand": [
-        6.1,
-        6.1
+        20,
+        20
       ],
-      "oprithelling": 10.2,
+      "oprithelling": 24,
       "doorstekend": [
         {
           "gmlId": "G0344.874e4c2b78d84596abd11aa442853137",
           "klasse": "Road",
           "oppervlak": 133.2,
           "onderDek": 0,
-          "bovenDekOnderkant": 0.06,
+          "bovenDekOnderkant": 1.34,
           "actie": "verlagen"
         }
       ],
       "opritHoogtes": [
-        48.866,
-        49.49
+        48.413,
+        47.202
       ]
     },
     "waarschuwingen": [
-      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
       "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
     ],

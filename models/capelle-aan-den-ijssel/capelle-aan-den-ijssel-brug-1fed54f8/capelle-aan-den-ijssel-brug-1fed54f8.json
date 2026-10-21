@@ -9,14 +9,18 @@
     438117.72
   ],
   "xAxis": [
-    -0.574468,
-    0.818527
+    0.818527,
+    0.574468
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 42.531,
+  "groundHeight": 41.417,
   "groundSamplePoints": [
     [
-      -6.21,
+      -66.83,
+      0
+    ],
+    [
+      46.83,
       0
     ]
   ],
@@ -26,18 +30,37 @@
   "terrainCorrections": [
     {
       "centre": [
-        100770.89,
-        438113.46
+        100736.11,
+        438095.42
       ],
       "axis": [
-        0.574468,
-        -0.818527
+        -0.818527,
+        -0.574468
       ],
-      "halfLength": 3,
-      "halfWidth": 28.83,
-      "height": 42.681,
+      "halfLength": 12,
+      "halfWidth": 3.32,
+      "height": 41.582,
       "gradient": [
-        -0.05,
+        -0.0125,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        100799.68,
+        438140.03
+      ],
+      "axis": [
+        0.818527,
+        0.574468
+      ],
+      "halfLength": 12,
+      "halfWidth": 3.32,
+      "height": 41.575,
+      "gradient": [
+        -0.01316,
         0
       ],
       "minLift": 0.05,
@@ -69,34 +92,34 @@
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,420000,120000,440000 --run nl-5_6 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map capelle-aan-den-ijssel-brug-1fed54f8 --plaats capelle-aan-den-ijssel --punt 100768,438118",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
-      "dekLengte": 4.4,
-      "dekBreedte": 53.7,
-      "brugLengte": 4.4,
+      "dekLengte": 53.7,
+      "dekBreedte": 4.4,
+      "brugLengte": 53.7,
       "water": [
-        -0.2,
-        1.8
+        -25.3,
+        24.7
       ],
-      "portaalhoogte": 48.3,
+      "portaalhoogte": 4,
       "opritafstand": [
-        4,
-        12
+        40,
+        20
       ],
-      "oprithelling": 6,
+      "oprithelling": 24,
       "doorstekend": [],
       "opritHoogtes": [
-        42.531,
-        null
+        41.432,
+        41.417
       ]
     },
     "waarschuwingen": [
-      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
-      "oprit + zonder PDOK-maaiveld",
+      "geen FIS-brug binnen 35 m",
+      "oprit - pas op 40.0 m gemeten",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }

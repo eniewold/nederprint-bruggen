@@ -9,18 +9,18 @@
     481958.65
   ],
   "xAxis": [
-    0.234448,
-    0.972129
+    0.972129,
+    -0.234448
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 43.218,
+  "groundHeight": 41.103,
   "groundSamplePoints": [
     [
-      -26.94,
+      -71.4,
       0
     ],
     [
-      28.22,
+      113.04,
       0
     ]
   ],
@@ -39,31 +39,31 @@
         481958.65
       ],
       "axis": [
-        0.234448,
-        0.972129
+        0.972129,
+        -0.234448
       ],
-      "halfLength": 5.89,
-      "halfWidth": 47.76,
-      "height": 42.285,
+      "halfLength": 41.26,
+      "halfWidth": 12.29,
+      "height": 40.389,
       "gradient": [
         0,
         0
       ],
-      "minLift": -1.98,
+      "minLift": -4.07,
       "maxLift": -0.01
     },
     {
       "centre": [
-        128970.98,
-        481935.42
+        128914.95,
+        481973.51
       ],
       "axis": [
-        -0.234448,
-        -0.972129
+        -0.972129,
+        0.234448
       ],
       "halfLength": 12,
-      "halfWidth": 49.26,
-      "height": 43.435,
+      "halfWidth": 13.79,
+      "height": 41.539,
       "gradient": [
         -0.0125,
         0
@@ -73,18 +73,18 @@
     },
     {
       "centre": [
-        128982.49,
-        481983.13
+        129039.82,
+        481943.4
       ],
       "axis": [
-        0.234448,
-        0.972129
+        0.972129,
+        -0.234448
       ],
       "halfLength": 12,
-      "halfWidth": 49.26,
-      "height": 43.401,
+      "halfWidth": 13.79,
+      "height": 41.396,
       "gradient": [
-        -0.01529,
+        -0.02441,
         0
       ],
       "minLift": 0.05,
@@ -127,32 +127,31 @@
       "osm": {
         "id": "way/1027320366",
         "tags": {
-          "access:lanes": "no|yes|yes|yes|yes",
           "bridge": "viaduct",
-          "bus:lanes": "no||||",
-          "carriageway_ref": "Re",
-          "hazmat:B:lanes": "no||||",
-          "hazmat:C:lanes": "no||||",
-          "hazmat:D:lanes": "no||||",
-          "hazmat:E:lanes": "no||||",
-          "hgv:lanes": "no||||",
+          "bus": "no",
+          "carriageway_ref": "z",
+          "description": "wisselbaan A9",
+          "hazmat:B": "no",
+          "hazmat:C": "no",
+          "hazmat:D": "no",
+          "hazmat:E": "no",
+          "hgv": "no",
           "highway": "motorway",
-          "lanes": "5",
+          "lanes": "1",
           "layer": "1",
           "lit": "yes",
           "maxspeed": "100",
           "maxspeed:type": "sign",
+          "note": "Tot nu toe alleen avondspits eenrichtingsverkeer richting Almere; nog niet geopend in de andere rijrichting/ochtendspits.",
           "oneway": "yes",
           "operator": "Rijkswaterstaat",
-          "placement": "right_of:3",
-          "planned:access:lanes": "variable|yes|yes|yes|yes",
+          "planned:oneway": "reversible",
           "ref": "A9",
-          "source": "Provincie Noord-Holland",
+          "start_date": "2026-04-10",
           "surface": "asphalt",
           "toll:hgv": "yes",
-          "tourist_bus:lanes": "no||||",
-          "trailer:lanes": "no||||",
-          "turn:lanes": "slight_left||||",
+          "tourist_bus": "no",
+          "trailer": "no",
           "zone:traffic": "NL:rural",
           "bridge:structure": "beam",
           "man_made": "bridge"
@@ -164,51 +163,75 @@
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map diemen-brug-9c592084 --plaats diemen --punt 128977,481959",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
-      "dekLengte": 23.6,
-      "dekBreedte": 94.5,
-      "brugLengte": 25.1,
+      "dekLengte": 94.5,
+      "dekBreedte": 23.6,
+      "brugLengte": 104.4,
       "water": [
-        0.1,
-        8.1
+        -51.4,
+        52.6
       ],
-      "portaalhoogte": 85.1,
+      "portaalhoogte": 21.2,
       "opritafstand": [
-        15,
-        15
+        20,
+        60
       ],
       "oprithelling": 24,
       "doorstekend": [
         {
+          "gmlId": "L0002.9c5920840c240d71e05332a1e90a5540",
+          "klasse": "Terrain",
+          "oppervlak": 1500.4,
+          "onderDek": 0.33,
+          "bovenDekOnderkant": 3.07,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "W0155.8abeacd5439b75202105031147112613",
+          "klasse": "Terrain",
+          "oppervlak": 505.5,
+          "onderDek": 0.04,
+          "bovenDekOnderkant": 2.91,
+          "actie": "verlagen"
+        },
+        {
           "gmlId": "L0002.9c5920840b1d0d71e05332a1e90a5540",
           "klasse": "Terrain",
-          "oppervlak": 302.6,
-          "onderDek": 0.48,
-          "bovenDekOnderkant": 0.98,
+          "oppervlak": 362.4,
+          "onderDek": 0.37,
+          "bovenDekOnderkant": 2.88,
           "actie": "verlagen"
         },
         {
           "gmlId": "L0002.9c5920840bd30d71e05332a1e90a5540",
           "klasse": "Terrain",
-          "oppervlak": 504,
-          "onderDek": 0.48,
-          "bovenDekOnderkant": 0.96,
+          "oppervlak": 731.5,
+          "onderDek": 0.29,
+          "bovenDekOnderkant": 2.85,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "L0002.9ca2aa25381e16bee05332a1e90a3c39",
+          "klasse": "Forest",
+          "oppervlak": 1769.8,
+          "onderDek": 0,
+          "bovenDekOnderkant": 2.68,
           "actie": "verlagen"
         }
       ],
       "opritHoogtes": [
-        43.285,
-        43.218
+        41.389,
+        41.103
       ]
     },
     "waarschuwingen": [
-      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
       "geen FIS-brug binnen 35 m",
-      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
+      "oprit + pas op 60.0 m gemeten",
+      "5 PDOK-vorm(en) door het dek: 0 verborgen, 5 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-20"
   }
 }
