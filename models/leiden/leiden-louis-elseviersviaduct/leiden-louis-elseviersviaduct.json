@@ -9,18 +9,18 @@
     464106.81
   ],
   "xAxis": [
-    -0.830347,
-    -0.557247
+    0.557247,
+    -0.830347
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 44.257,
+  "groundHeight": 43.584,
   "groundSamplePoints": [
     [
-      -25.31,
+      -7.35,
       0
     ],
     [
-      25.31,
+      7.35,
       0
     ]
   ],
@@ -32,18 +32,37 @@
   "terrainCorrections": [
     {
       "centre": [
-        91582.61,
-        464119.64
+        91563.5,
+        464106.81
       ],
       "axis": [
-        0.830347,
-        0.557247
+        0.557247,
+        -0.830347
       ],
-      "halfLength": 11.51,
-      "halfWidth": 5.01,
-      "height": 46.357,
+      "halfLength": 1.67,
+      "halfWidth": 12.01,
+      "height": 42.629,
       "gradient": [
-        -0.01304,
+        0,
+        0
+      ],
+      "minLift": -2.15,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        91559.78,
+        464112.36
+      ],
+      "axis": [
+        -0.557247,
+        0.830347
+      ],
+      "halfLength": 3.34,
+      "halfWidth": 13.51,
+      "height": 43.779,
+      "gradient": [
+        -0.04493,
         0
       ],
       "minLift": 0.05,
@@ -51,18 +70,18 @@
     },
     {
       "centre": [
-        91544.4,
-        464093.99
+        91567.23,
+        464101.27
       ],
       "axis": [
-        -0.830347,
-        -0.557247
+        0.557247,
+        -0.830347
       ],
-      "halfLength": 11.51,
-      "halfWidth": 5.01,
-      "height": 45.382,
+      "halfLength": 3.34,
+      "halfWidth": 13.51,
+      "height": 43.757,
       "gradient": [
-        -0.09777,
+        -0.05169,
         0
       ],
       "minLift": 0.05,
@@ -108,29 +127,71 @@
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 90100,459364,95921,466645 --run leiden-2026-10-20 --overschrijf 1 --parallel 5",
+    "opdracht": "node scripts/bridges/genereer.mjs --map leiden-louis-elseviersviaduct --plaats leiden --punt 91564,464107",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
-      "dekLengte": 23,
-      "dekBreedte": 6.7,
-      "brugLengte": 23,
+      "dekLengte": 6.7,
+      "dekBreedte": 23,
+      "brugLengte": 6.7,
       "water": null,
-      "portaalhoogte": 6,
+      "portaalhoogte": 20.7,
       "opritafstand": [
-        13.8,
-        13.8
+        4,
+        4
       ],
-      "oprithelling": 23,
-      "doorstekend": [],
+      "oprithelling": 6.7,
+      "doorstekend": [
+        {
+          "gmlId": "G0546.6f9338ecc34242feb2e3a3e4da14107e",
+          "klasse": "Forest",
+          "oppervlak": 474,
+          "onderDek": 0,
+          "bovenDekOnderkant": 1.15,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0546.91132cfb517e41199cb2efc7ea10639d",
+          "klasse": "Forest",
+          "oppervlak": 7,
+          "onderDek": 0.29,
+          "bovenDekOnderkant": 1.06,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0546.62e6ad068f2b4b3a9670762dcfcf1bea",
+          "klasse": "Terrain",
+          "oppervlak": 141.4,
+          "onderDek": 0.05,
+          "bovenDekOnderkant": 0.69,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0546.ea1df1c35742488e9fcccb4180112015",
+          "klasse": "Road",
+          "oppervlak": 404.4,
+          "onderDek": 0.04,
+          "bovenDekOnderkant": 0.69,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0546.c501f9a6c9f84681a326f354a2a8dd88",
+          "klasse": "Road",
+          "oppervlak": 342.8,
+          "onderDek": 0.04,
+          "bovenDekOnderkant": 0.66,
+          "actie": "verlagen"
+        }
+      ],
       "opritHoogtes": [
-        46.207,
-        44.257
+        43.629,
+        43.584
       ]
     },
     "waarschuwingen": [
-      "geen FIS-brug binnen 35 m"
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "5 PDOK-vorm(en) door het dek: 0 verborgen, 5 verlaagd"
     ],
-    "gegenereerd": "2026-10-20"
+    "gegenereerd": "2026-10-21"
   }
 }

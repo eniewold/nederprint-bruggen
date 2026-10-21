@@ -1,5 +1,5 @@
 {
-  "name": "schiphol-brug-a0e44c8f",
+  "name": "Viaduct Rinse Hofstraweg Zuid",
   "file": "schiphol-brug-a0e44c8f.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -9,18 +9,18 @@
     479575.54
   ],
   "xAxis": [
-    -0.60714,
-    0.794595
+    -0.794595,
+    -0.60714
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 39.133,
+  "groundHeight": 38.974,
   "groundSamplePoints": [
     [
-      -275.17,
+      -64.37,
       0
     ],
     [
-      275.17,
+      64.37,
       0
     ]
   ],
@@ -59,18 +59,18 @@
   "terrainCorrections": [
     {
       "centre": [
-        111440.7,
-        479363.25
+        111323.28,
+        479609.77
       ],
       "axis": [
-        0.60714,
-        -0.794595
+        0.794595,
+        0.60714
       ],
       "halfLength": 12,
-      "halfWidth": 46.37,
-      "height": 41.722,
+      "halfWidth": 257.17,
+      "height": 40.663,
       "gradient": [
-        -0.0125,
+        -0.14079,
         0
       ],
       "minLift": 0.05,
@@ -78,18 +78,18 @@
     },
     {
       "centre": [
-        111116.28,
-        479787.84
+        111233.7,
+        479541.32
       ],
       "axis": [
-        -0.60714,
-        0.794595
+        -0.794595,
+        -0.60714
       ],
       "halfLength": 12,
-      "halfWidth": 46.37,
-      "height": 40.503,
+      "halfWidth": 257.17,
+      "height": 42.203,
       "gradient": [
-        -0.11411,
+        -0.0125,
         0
       ],
       "minLift": 0.05,
@@ -247,18 +247,15 @@
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,460000,120000,480000 --run nl-5_8-startdek --parallel 5",
+    "opdracht": "node scripts/bridges/genereer.mjs --map schiphol-brug-a0e44c8f --plaats schiphol --punt 111278,479576",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
-      "dekLengte": 510.3,
-      "dekBreedte": 88.7,
-      "brugLengte": 510.3,
-      "water": [
-        36.3,
-        254.8
-      ],
-      "portaalhoogte": 79.9,
+      "dekLengte": 88.7,
+      "dekBreedte": 510.3,
+      "brugLengte": 88.7,
+      "water": null,
+      "portaalhoogte": 459.3,
       "opritafstand": [
         20,
         20
@@ -266,11 +263,12 @@
       "oprithelling": 24,
       "doorstekend": [],
       "opritHoogtes": [
-        41.572,
-        39.133
+        38.974,
+        42.053
       ]
     },
     "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
       "geen FIS-brug binnen 35 m"
     ],
     "gegenereerd": "2026-10-21"

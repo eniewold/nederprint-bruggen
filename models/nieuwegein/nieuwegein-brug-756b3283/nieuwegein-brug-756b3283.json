@@ -9,19 +9,19 @@
     450890.4
   ],
   "xAxis": [
-    0.790094,
-    -0.612986
+    0.612986,
+    0.790094
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 44.457,
+  "groundHeight": 45.016,
   "groundSamplePoints": [
     [
-      -56.65,
-      0
+      -11.54,
+      -3.22
     ],
     [
-      36.66,
-      0
+      11.52,
+      -1.99
     ]
   ],
   "replacesTerrain": [
@@ -34,33 +34,33 @@
         450890.4
       ],
       "axis": [
-        0.790094,
-        -0.612986
+        0.612986,
+        0.790094
       ],
-      "halfLength": 10.66,
-      "halfWidth": 2.05,
-      "height": 43.466,
+      "halfLength": 0.77,
+      "halfWidth": 17.16,
+      "height": 44.026,
       "gradient": [
         0,
         0
       ],
-      "minLift": -2.29,
+      "minLift": -1.73,
       "maxLift": -0.01
     },
     {
       "centre": [
-        135223.19,
-        450907.97
+        135243.05,
+        450886.8
       ],
       "axis": [
-        -0.790094,
-        0.612986
+        -0.612986,
+        -0.790094
       ],
-      "halfLength": 12,
-      "halfWidth": 2.32,
-      "height": 44.616,
+      "halfLength": 3,
+      "halfWidth": 18.66,
+      "height": 45.176,
       "gradient": [
-        -0.0125,
+        -0.05,
         0
       ],
       "minLift": 0.05,
@@ -68,18 +68,18 @@
     },
     {
       "centre": [
-        135268.48,
-        450872.83
+        135248.62,
+        450893.99
       ],
       "axis": [
-        0.790094,
-        -0.612986
+        0.612986,
+        0.790094
       ],
-      "halfLength": 12,
-      "halfWidth": 2.32,
-      "height": 44.611,
+      "halfLength": 3,
+      "halfWidth": 18.66,
+      "height": 45.171,
       "gradient": [
-        -0.01289,
+        -0.05155,
         0
       ],
       "minLift": 0.05,
@@ -116,84 +116,59 @@
       "naam": "nieuwegein-brug-756b3283",
       "straal": 40
     },
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 126435,448710,141834,461610 --run utrecht-2026-10-20 --overschrijf 1 --parallel 5",
+    "opdracht": "node scripts/bridges/genereer.mjs --map nieuwegein-brug-756b3283 --plaats nieuwegein --punt 135246,450890",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
-      "dekLengte": 33.3,
-      "dekBreedte": 3.1,
-      "brugLengte": 33.3,
-      "water": [
-        -14.7,
-        13.3
-      ],
-      "portaalhoogte": 2.8,
+      "dekLengte": 3.1,
+      "dekBreedte": 33.3,
+      "brugLengte": 3.1,
+      "water": null,
+      "portaalhoogte": 30,
       "opritafstand": [
-        40,
-        20
+        10,
+        10
       ],
-      "oprithelling": 24,
+      "spoorhoogteBron": "pdok",
+      "oprithelling": 6,
       "doorstekend": [
-        {
-          "gmlId": "P0026.3fbf4a39b2a25cdce0531221500ad3ad",
-          "klasse": "Terrain",
-          "oppervlak": 2740,
-          "onderDek": 0.02,
-          "bovenDekOnderkant": 1.29,
-          "actie": "verlagen"
-        },
         {
           "gmlId": "G0356.2ffb1c5b394b4b38bea52a80b4da9ee8",
           "klasse": "Forest",
-          "oppervlak": 5075,
-          "onderDek": 0.01,
-          "bovenDekOnderkant": 1.29,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "P0026.3fbf4a39b5645cdce0531221500ad3ad",
-          "klasse": "Road",
-          "oppervlak": 23800.2,
-          "onderDek": 0.02,
-          "bovenDekOnderkant": 1.26,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "P0026.3fbf4a39b39b5cdce0531221500ad3ad",
-          "klasse": "Terrain",
-          "oppervlak": 1204.2,
-          "onderDek": 0.03,
-          "bovenDekOnderkant": 1.21,
+          "oppervlak": 11131.1,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.73,
           "actie": "verlagen"
         },
         {
           "gmlId": "G0356.d12f5bc3802348418049979068f1a413",
           "klasse": "Forest",
-          "oppervlak": 5646.3,
-          "onderDek": 0.01,
-          "bovenDekOnderkant": 0.86,
+          "oppervlak": 13695.6,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.26,
           "actie": "verlagen"
         },
         {
           "gmlId": "W0636.41244d947a2d45078e72845dbc32390e",
           "klasse": "Terrain",
-          "oppervlak": 301.9,
-          "onderDek": 0.02,
-          "bovenDekOnderkant": 0.65,
+          "oppervlak": 460.7,
+          "onderDek": 0.01,
+          "bovenDekOnderkant": 0.09,
           "actie": "verlagen"
         }
       ],
       "opritHoogtes": [
-        44.466,
-        44.457
+        45.026,
+        45.016
       ]
     },
     "waarschuwingen": [
-      "geen FIS-brug binnen 35 m",
-      "oprit - pas op 40.0 m gemeten",
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "oprit -: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "oprit +: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
-      "6 PDOK-vorm(en) door het dek: 0 verborgen, 6 verlaagd"
+      "3 PDOK-vorm(en) door het dek: 0 verborgen, 3 verlaagd"
     ],
-    "gegenereerd": "2026-10-20"
+    "gegenereerd": "2026-10-21"
   }
 }

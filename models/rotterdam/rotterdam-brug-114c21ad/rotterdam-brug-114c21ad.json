@@ -9,18 +9,18 @@
     442479.77
   ],
   "xAxis": [
-    -0.932673,
-    0.360723
+    -0.360723,
+    -0.932673
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 39.141,
+  "groundHeight": 30.534,
   "groundSamplePoints": [
     [
-      -16.51,
+      -0.41,
       0
     ],
     [
-      106.51,
+      0.41,
       0
     ]
   ],
@@ -30,18 +30,37 @@
   "terrainCorrections": [
     {
       "centre": [
-        91441.13,
-        442475.07
+        91428.99,
+        442479.77
       ],
       "axis": [
-        0.932673,
-        -0.360723
+        -0.360723,
+        -0.932673
       ],
-      "halfLength": 6.51,
-      "halfWidth": 0.62,
-      "height": 39.879,
+      "halfLength": 0.21,
+      "halfWidth": 7.01,
+      "height": 29.237,
       "gradient": [
-        -0.02303,
+        0,
+        0
+      ],
+      "minLift": -10.17,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        91430.22,
+        442482.96
+      ],
+      "axis": [
+        0.360723,
+        0.932673
+      ],
+      "halfLength": 3,
+      "halfWidth": 8.51,
+      "height": 30.537,
+      "gradient": [
+        0,
         0
       ],
       "minLift": 0.05,
@@ -49,18 +68,18 @@
     },
     {
       "centre": [
-        91416.84,
-        442484.47
+        91427.76,
+        442476.59
       ],
       "axis": [
-        -0.932673,
-        0.360723
+        -0.360723,
+        -0.932673
       ],
-      "halfLength": 6.51,
-      "halfWidth": 0.62,
-      "height": 39.585,
+      "halfLength": 3,
+      "halfWidth": 8.51,
+      "height": 30.536,
       "gradient": [
-        -0.06822,
+        -0.00055,
         0
       ],
       "minLift": 0.05,
@@ -111,30 +130,69 @@
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
-      "dekLengte": 13,
-      "dekBreedte": 0.8,
-      "brugLengte": 13,
+      "dekLengte": 0.8,
+      "dekBreedte": 13,
+      "brugLengte": 0.8,
       "water": null,
-      "portaalhoogte": 2.5,
+      "portaalhoogte": 11.7,
       "opritafstand": [
-        10,
-        100
+        0,
+        0
       ],
-      "spoorhoogteBron": "pdok",
-      "oprithelling": 13,
-      "doorstekend": [],
+      "spoorhoogteBron": "prorail-pvs",
+      "oprithelling": 6,
+      "doorstekend": [
+        {
+          "gmlId": "L0004.f05e5a10af885655e0530b29a8c0b415",
+          "klasse": "Terrain",
+          "oppervlak": 147.3,
+          "onderDek": 0,
+          "bovenDekOnderkant": 9.17,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "L0004.f05e5a10aefb5655e0530b29a8c0b415",
+          "klasse": "Terrain",
+          "oppervlak": 132,
+          "onderDek": 0,
+          "bovenDekOnderkant": 7.61,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "L0004.f05e5a10af5b5655e0530b29a8c0b415",
+          "klasse": "Terrain",
+          "oppervlak": 117.2,
+          "onderDek": 0,
+          "bovenDekOnderkant": 5.04,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "L0004.f05e5a10af5c5655e0530b29a8c0b415",
+          "klasse": "Terrain",
+          "oppervlak": 73.3,
+          "onderDek": 0,
+          "bovenDekOnderkant": 2.31,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "L0004.1a85714f16004bc6bd98f90dee1c6c99",
+          "klasse": "Terrain",
+          "oppervlak": 128.1,
+          "onderDek": 0,
+          "bovenDekOnderkant": 1.57,
+          "actie": "verlagen"
+        }
+      ],
       "opritHoogtes": [
-        39.729,
-        39.141
+        30.537,
+        30.534
       ]
     },
     "waarschuwingen": [
-      "oprit -: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
-      "oprit +: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
-      "oprit +: spoorterrein voorbij 150 m nog 1.9 m hoger (41.0 m); PDOK trekt het spoor hier ver naar beneden, controleer de dekhoogte of geef --opritafstand",
-      "oprit + pas op 100 m langs het spoor gemeten (PDOK-spoorterrein bij de brug lager)",
-      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "5 PDOK-vorm(en) door het dek: 0 verborgen, 5 verlaagd"
     ],
-    "gegenereerd": "2026-10-20"
+    "gegenereerd": "2026-10-21"
   }
 }

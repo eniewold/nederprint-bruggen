@@ -9,14 +9,18 @@
     469172.58
   ],
   "xAxis": [
-    0.109041,
-    0.994037
+    -0.994037,
+    0.109041
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 59.847,
+  "groundHeight": 57.511,
   "groundSamplePoints": [
     [
-      -7.7,
+      -6.58,
+      0
+    ],
+    [
+      6.58,
       0
     ]
   ],
@@ -26,18 +30,56 @@
   "terrainCorrections": [
     {
       "centre": [
-        140139.29,
-        469165.63
+        140140.05,
+        469172.58
       ],
       "axis": [
-        -0.109041,
-        -0.994037
+        -0.994037,
+        0.109041
       ],
-      "halfLength": 3.5,
-      "halfWidth": 3.86,
-      "height": 59.997,
+      "halfLength": 1.29,
+      "halfWidth": 4,
+      "height": 56.524,
       "gradient": [
-        -0.04288,
+        0,
+        0
+      ],
+      "minLift": -3.2,
+      "maxLift": -0.01
+    },
+    {
+      "centre": [
+        140145.59,
+        469171.97
+      ],
+      "axis": [
+        0.994037,
+        -0.109041
+      ],
+      "halfLength": 3,
+      "halfWidth": 5.25,
+      "height": 57.668,
+      "gradient": [
+        -0.05227,
+        0
+      ],
+      "minLift": 0.05,
+      "maxLift": 4
+    },
+    {
+      "centre": [
+        140134.51,
+        469173.19
+      ],
+      "axis": [
+        -0.994037,
+        0.109041
+      ],
+      "halfLength": 3,
+      "halfWidth": 5.25,
+      "height": 57.674,
+      "gradient": [
+        -0.05,
         0
       ],
       "minLift": 0.05,
@@ -66,29 +108,44 @@
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
-      "dekLengte": 7,
-      "dekBreedte": 5.2,
-      "brugLengte": 7,
-      "water": [
-        3,
-        3
-      ],
-      "portaalhoogte": 4.6,
+      "dekLengte": 5.2,
+      "dekBreedte": 7,
+      "brugLengte": 5.2,
+      "water": null,
+      "portaalhoogte": 6.3,
       "opritafstand": [
-        4.2,
-        12.6
+        4,
+        4
       ],
-      "oprithelling": 7,
-      "doorstekend": [],
+      "oprithelling": 6,
+      "doorstekend": [
+        {
+          "gmlId": "G0402.2e7d8dd98bb54fe69d6023d97dcbfc5a",
+          "klasse": "Terrain",
+          "oppervlak": 22.8,
+          "onderDek": 0.53,
+          "bovenDekOnderkant": 2.2,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0402.8daa98ca72a540f185f82ca5999c8422",
+          "klasse": "Road",
+          "oppervlak": 16.4,
+          "onderDek": 0.47,
+          "bovenDekOnderkant": 0.41,
+          "actie": "verlagen"
+        }
+      ],
       "opritHoogtes": [
-        59.847,
-        null
+        57.511,
+        57.524
       ]
     },
     "waarschuwingen": [
-      "oprit + zonder PDOK-maaiveld",
-      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
+      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
     ],
-    "gegenereerd": "2026-10-20"
+    "gegenereerd": "2026-10-21"
   }
 }

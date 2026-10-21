@@ -9,18 +9,18 @@
     454706.76
   ],
   "xAxis": [
-    -0.918654,
-    0.395062
+    -0.395062,
+    -0.918654
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 43.788,
+  "groundHeight": 43.947,
   "groundSamplePoints": [
     [
-      -80.62,
+      -31.27,
       0
     ],
     [
-      120.62,
+      31.18,
       0
     ]
   ],
@@ -29,9 +29,12 @@
     "G0344.1c317cf8e6ed446baa32d70b925b7165",
     "G0344.273db9f67cd343b49aaeef0ab2a3d249",
     "G0344.2e9aff21bb8e49c688cfb62566fb0ff2",
+    "G0344.3c18839209fe4616b703b2d3b78ac5a8",
     "G0344.54bd9a92afc6416688a31ae61c724154",
+    "G0344.56a1e9fc086f4b6d9b3fec6efee5626f",
     "G0344.6707be4616a14ca89671e6af45525847",
     "G0344.834bf4ca19944a69b171b69978e707c3",
+    "G0344.98b1a083c489422e8df2738c7807a61b",
     "G0344.a1de10b524cf4751815b161e35ce57f5",
     "G0344.b6125f33ab2945dc9b69bae440999f2a",
     "G0344.fc1a770ebfdf4947a6fcc8087afdb652",
@@ -102,33 +105,33 @@
         454706.76
       ],
       "axis": [
-        -0.918654,
-        0.395062
+        -0.395062,
+        -0.918654
       ],
-      "halfLength": 54.62,
-      "halfWidth": 14.64,
-      "height": 43.492,
+      "halfLength": 8.14,
+      "halfWidth": 61.12,
+      "height": 43.119,
       "gradient": [
         0,
         0
       ],
-      "minLift": -1.63,
+      "minLift": -2,
       "maxLift": -0.01
     },
     {
       "centre": [
-        133202.84,
-        454678.07
+        133146.49,
+        454730.86
       ],
       "axis": [
-        0.918654,
-        -0.395062
+        0.395062,
+        0.918654
       ],
       "halfLength": 12,
-      "halfWidth": 16.14,
-      "height": 44.29,
+      "halfWidth": 62.62,
+      "height": 44.269,
       "gradient": [
-        -0.04181,
+        -0.0125,
         0
       ],
       "minLift": 0.05,
@@ -136,18 +139,18 @@
     },
     {
       "centre": [
-        133069.41,
-        454735.45
+        133125.8,
+        454682.74
       ],
       "axis": [
-        -0.918654,
-        0.395062
+        -0.395062,
+        -0.918654
       ],
       "halfLength": 12,
-      "halfWidth": 16.14,
-      "height": 44.642,
+      "halfWidth": 62.62,
+      "height": 44.183,
       "gradient": [
-        -0.0125,
+        -0.01966,
         0
       ],
       "minLift": 0.05,
@@ -178,7 +181,15 @@
           "type": "pijler"
         },
         {
+          "id": "G0344.3c18839209fe4616b703b2d3b78ac5a8",
+          "type": "pijler"
+        },
+        {
           "id": "G0344.54bd9a92afc6416688a31ae61c724154",
+          "type": "pijler"
+        },
+        {
+          "id": "G0344.56a1e9fc086f4b6d9b3fec6efee5626f",
           "type": "pijler"
         },
         {
@@ -187,6 +198,10 @@
         },
         {
           "id": "G0344.834bf4ca19944a69b171b69978e707c3",
+          "type": "pijler"
+        },
+        {
+          "id": "G0344.98b1a083c489422e8df2738c7807a61b",
           "type": "pijler"
         },
         {
@@ -444,26 +459,23 @@
         }
       },
       "fis": null,
-      "pdokBridgeVlakken": 68
+      "pdokBridgeVlakken": 71
     },
     "type": "ligger",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 126435,448710,141834,461610 --run utrecht-2026-10-20 --overschrijf 1 --parallel 5",
+    "opdracht": "node scripts/bridges/genereer.mjs --map utrecht-brug-3b8c65ee --plaats utrecht --punt 133136,454707",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
-      "dekLengte": 121.2,
-      "dekBreedte": 28.3,
-      "brugLengte": 121.2,
-      "water": [
-        38.9,
-        39.4
-      ],
-      "portaalhoogte": 25.5,
+      "dekLengte": 28.3,
+      "dekBreedte": 121.2,
+      "brugLengte": 28.4,
+      "water": null,
+      "portaalhoogte": 109.1,
       "opritafstand": [
-        20,
-        60
+        17,
+        17
       ],
       "oprithelling": 24,
       "doorstekend": [
@@ -471,32 +483,32 @@
           "gmlId": "G0344.6ab96c398d934e0bacd79e2b22167581",
           "klasse": "Terrain",
           "oppervlak": 577.6,
-          "onderDek": 0.19,
-          "bovenDekOnderkant": 0.63,
+          "onderDek": 0.17,
+          "bovenDekOnderkant": 1,
           "actie": "verlagen"
         },
         {
           "gmlId": "G0344.f73daa740b2147538c5eb2c479fdca57",
           "klasse": "Forest",
           "oppervlak": 731.7,
-          "onderDek": 0.02,
-          "bovenDekOnderkant": 0.52,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "G0344.468237e1d7284f008fd5e1bb5bf4ef30",
-          "klasse": "Terrain",
-          "oppervlak": 283,
-          "onderDek": 0.04,
-          "bovenDekOnderkant": 0.49,
+          "onderDek": 0.03,
+          "bovenDekOnderkant": 0.94,
           "actie": "verlagen"
         },
         {
           "gmlId": "G0344.dd6d8534030949d2a25d69f59843b185",
           "klasse": "Terrain",
           "oppervlak": 1722.8,
-          "onderDek": 0.03,
-          "bovenDekOnderkant": 0.46,
+          "onderDek": 0.02,
+          "bovenDekOnderkant": 0.81,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0344.468237e1d7284f008fd5e1bb5bf4ef30",
+          "klasse": "Terrain",
+          "oppervlak": 283,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.78,
           "actie": "verlagen"
         },
         {
@@ -504,52 +516,36 @@
           "klasse": "Terrain",
           "oppervlak": 24.3,
           "onderDek": 1,
-          "bovenDekOnderkant": 0.41,
+          "bovenDekOnderkant": 0.78,
           "actie": "verbergen"
-        },
-        {
-          "gmlId": "G0344.70fbbd60f0b3450d950632276b538e70",
-          "klasse": "Road",
-          "oppervlak": 84.5,
-          "onderDek": 0.16,
-          "bovenDekOnderkant": 0.29,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "G0344.59820c102bd041a6907734e8b35cddea",
-          "klasse": "Terrain",
-          "oppervlak": 469.7,
-          "onderDek": 0.09,
-          "bovenDekOnderkant": 0.24,
-          "actie": "verlagen"
-        },
-        {
-          "gmlId": "G0344.b201e6b1c6f443e5ae3e5601a1d381d3",
-          "klasse": "Road",
-          "oppervlak": 148.3,
-          "onderDek": 0.11,
-          "bovenDekOnderkant": 0.16,
-          "actie": "verlagen"
         },
         {
           "gmlId": "G0344.6a8c793e501f46948a58c322398e4087",
           "klasse": "Forest",
-          "oppervlak": 1378,
-          "onderDek": 0.02,
-          "bovenDekOnderkant": 0.12,
+          "oppervlak": 467.6,
+          "onderDek": 0.03,
+          "bovenDekOnderkant": 0.5,
+          "actie": "verlagen"
+        },
+        {
+          "gmlId": "G0344.caef249f35a743b98ca71f2453aad154",
+          "klasse": "Forest",
+          "oppervlak": 165.8,
+          "onderDek": 0,
+          "bovenDekOnderkant": 0.26,
           "actie": "verlagen"
         }
       ],
       "opritHoogtes": [
-        43.788,
-        44.492
+        44.119,
+        43.947
       ]
     },
     "waarschuwingen": [
+      "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
       "geen FIS-brug binnen 35 m",
-      "oprit + pas op 60.0 m gemeten",
-      "9 PDOK-vorm(en) door het dek: 1 verborgen, 8 verlaagd"
+      "7 PDOK-vorm(en) door het dek: 1 verborgen, 6 verlaagd"
     ],
-    "gegenereerd": "2026-10-20"
+    "gegenereerd": "2026-10-21"
   }
 }
