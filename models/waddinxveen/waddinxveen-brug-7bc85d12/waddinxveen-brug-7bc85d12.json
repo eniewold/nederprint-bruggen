@@ -13,7 +13,7 @@
     0.993433
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 41.16,
+  "groundHeight": 41.153,
   "groundSamplePoints": [
     [
       -5.59,
@@ -40,7 +40,7 @@
       ],
       "halfLength": 0.79,
       "halfWidth": 2.52,
-      "height": 40.299,
+      "height": 40.296,
       "gradient": [
         0,
         0
@@ -59,7 +59,7 @@
       ],
       "halfLength": 3,
       "halfWidth": 3.04,
-      "height": 41.449,
+      "height": 41.446,
       "gradient": [
         -0.05,
         0
@@ -78,9 +78,9 @@
       ],
       "halfLength": 3,
       "halfWidth": 3.04,
-      "height": 41.38,
+      "height": 41.374,
       "gradient": [
-        -0.07307,
+        -0.07378,
         0
       ],
       "minLift": 0.05,
@@ -105,7 +105,7 @@
     "type": "ophaalbrug",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,440000,120000,460000 --run nl-5_7 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map waddinxveen-brug-7bc85d12 --plaats waddinxveen --punt 105145,449817",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -121,33 +121,34 @@
       "oprithelling": 6,
       "doorstekend": [
         {
+          "gmlId": "G0627.4c0c085b21153d7be05332a1e90a17e1",
+          "klasse": "Separation",
+          "oppervlak": 2.3,
+          "onderDek": 0.98,
+          "bovenDekOnderkant": 0.59,
+          "actie": "verbergen"
+        },
+        {
           "gmlId": "L0001.ba17b3761d0c4a718af9c62fc0b19d6d",
           "klasse": "Terrain",
           "oppervlak": 10.5,
           "onderDek": 0.5,
           "bovenDekOnderkant": 0.58,
           "actie": "verlagen"
-        },
-        {
-          "gmlId": "G0627.4c0c085b21153d7be05332a1e90a17e1",
-          "klasse": "Separation",
-          "oppervlak": 2.3,
-          "onderDek": 0.98,
-          "bovenDekOnderkant": 0.58,
-          "actie": "verbergen"
         }
       ],
       "opritHoogtes": [
-        41.299,
-        41.16
+        41.296,
+        41.153
       ]
     },
     "waarschuwingen": [
       "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
       "geen FIS-brug binnen 35 m",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen",
+      "ophaalbrug: hefmechanisme niet gegenereerd, alleen dek, pijlers en landhoofden",
       "2 PDOK-vorm(en) door het dek: 1 verborgen, 1 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-22"
   }
 }

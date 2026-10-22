@@ -1,5 +1,5 @@
 {
-  "name": "amersfoort-brug-04243e40",
+  "name": "Koppelbrug",
   "file": "amersfoort-brug-04243e40.glb",
   "className": "road",
   "unitsPerMetre": 1,
@@ -124,14 +124,36 @@
           "type": "sloof"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/566451193",
+        "tags": {
+          "bicycle": "use_sidepath",
+          "bridge": "yes",
+          "bridge:name": "Koppelbrug",
+          "foot": "no",
+          "highway": "primary",
+          "lanes": "2",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "50",
+          "maxweight:signed": "no",
+          "name": "Koppelbrug",
+          "oneway": "yes",
+          "sidewalk": "no",
+          "surface": "asphalt",
+          "wikidata": "Q19270599",
+          "zone:traffic": "NL:urban",
+          "bridge:structure": "beam",
+          "man_made": "bridge"
+        }
+      },
       "fis": null,
       "pdokBridgeVlakken": 10
     },
     "type": "ophaalbrug",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 140000,460000,160000,480000 --run nl-7_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map amersfoort-brug-04243e40 --plaats amersfoort --punt 154132,464189",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -156,9 +178,8 @@
     },
     "waarschuwingen": [
       "geen FIS-brug binnen 35 m",
-      "losse BGT-pyloon G0307.3ef7e8639b5d4c28b48e026b313bff20 als paaltje van 3 m",
-      "losse BGT-pyloon G0307.a20f55ea85a94b609e011c106ca4f201 als paaltje van 3 m"
+      "ophaalbrug: hefmechanisme niet gegenereerd, alleen dek, pijlers en landhoofden"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-22"
   }
 }

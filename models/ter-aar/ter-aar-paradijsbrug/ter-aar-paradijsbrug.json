@@ -149,7 +149,18 @@
           "type": "pijler"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/1175742381",
+        "tags": {
+          "bridge": "yes",
+          "hgv": "destination",
+          "highway": "unclassified",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Paradijsbrug",
+          "man_made": "bridge"
+        }
+      },
       "fis": {
         "id": 53911,
         "naam": "Paradijsbrug",
@@ -162,7 +173,7 @@
     "type": "ophaalbrug",
     "doorvaarthoogte": 1.01,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,460000,120000,480000 --run nl-5_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map ter-aar-paradijsbrug --plaats ter-aar --punt 108826,466007",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -203,8 +214,9 @@
       ]
     },
     "waarschuwingen": [
+      "ophaalbrug: hefmechanisme niet gegenereerd, alleen dek, pijlers en landhoofden",
       "2 PDOK-vorm(en) door het dek: 0 verborgen, 2 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-22"
   }
 }

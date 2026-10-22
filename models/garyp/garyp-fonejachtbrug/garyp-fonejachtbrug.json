@@ -16,7 +16,7 @@
   "groundHeight": 52.385,
   "groundSamplePoints": [
     [
-      -87.17,
+      -87.22,
       0
     ],
     [
@@ -29,13 +29,14 @@
     "L0002.07a0cfb28b904580bee021a999a31f8b",
     "L0002.63b4fe1c58fe4b6caf120fb9fa67c7b6",
     "L0002.679a0d6f10c44be99f1ae3bdbd3a142d",
+    "L0002.86b14103d21c4eb6b622d584192b0798",
     "L0002.a42c3507b30e46c28a7e99e60b726ab8",
     "L0002.c28dcd3844c64320aaf51e41e140d2c7"
   ],
   "terrainCorrections": [
     {
       "centre": [
-        191411.32,
+        191411.28,
         575410.35
       ],
       "axis": [
@@ -44,7 +45,7 @@
       ],
       "halfLength": 12,
       "halfWidth": 15.84,
-      "height": 52.569,
+      "height": 52.568,
       "gradient": [
         -0.0125,
         0
@@ -65,7 +66,7 @@
       "halfWidth": 15.84,
       "height": 52.552,
       "gradient": [
-        -0.0139,
+        -0.01389,
         0
       ],
       "minLift": 0.05,
@@ -95,6 +96,10 @@
           "type": "onbekend"
         },
         {
+          "id": "L0002.86b14103d21c4eb6b622d584192b0798",
+          "type": "onbekend"
+        },
+        {
           "id": "L0002.a42c3507b30e46c28a7e99e60b726ab8",
           "type": "onbekend"
         },
@@ -106,14 +111,21 @@
       "osm": {
         "id": "relation/13530376",
         "tags": {
-          "bridge": "yes",
-          "highway": "cycleway",
+          "bicycle": "use_sidepath",
+          "bridge": "movable",
+          "bridge:name": "Fonejachtbrug",
+          "foot": "use_sidepath",
+          "highway": "secondary",
+          "lane_markings": "no",
           "layer": "1",
-          "mofa": "no",
-          "surface": "wood",
-          "traffic_sign": "NL:G13",
-          "man_made": "bridge",
+          "lit": "yes",
+          "maxspeed": "80",
+          "mofa": "use_sidepath",
+          "moped": "use_sidepath",
           "name": "Fonejachtbrug",
+          "surface": "asphalt",
+          "man_made": "bridge",
+          "type": "multipolygon",
           "wikidata": "Q5067243",
           "wikipedia": "nl:Fonejachtbrug"
         }
@@ -125,9 +137,9 @@
         "beweegbaar": true,
         "doorvaarthoogteGesloten": 10.03
       },
-      "pdokBridgeVlakken": 6
+      "pdokBridgeVlakken": 7
     },
-    "type": "ophaalbrug",
+    "type": "basculebrug",
     "doorvaarthoogte": 10.03,
     "opties": {},
     "opdracht": "node scripts/bridges/genereer.mjs --map garyp-fonejachtbrug --plaats garyp --punt 191490,575400",
@@ -149,13 +161,14 @@
       "oprithelling": 24,
       "doorstekend": [],
       "opritHoogtes": [
-        52.419,
+        52.418,
         52.385
       ]
     },
     "waarschuwingen": [
+      "bridge=movable zonder mechanisme: basculebrug is een gok",
       "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
     ],
-    "gegenereerd": "2026-10-20"
+    "gegenereerd": "2026-10-22"
   }
 }

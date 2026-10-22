@@ -20,16 +20,26 @@
       0
     ],
     [
-      106.72,
+      107.52,
       0
     ]
   ],
   "replacesTerrain": [
+    "G0344.0f8e8ac06ed947669ea8f70b2df30e8d",
+    "G0344.0fe965bb08fd4f8299a141d26ea16ad4",
+    "G0344.1d7186c21f704f55b736d44d65f4184d",
+    "G0344.2f2b4792fc484cfe9d17d4139dfd818e",
     "G0344.5ed6e43f37c748f29a54cb048efe0e77",
     "G0344.6090914c042e49ccb0920f27d2673d9b",
+    "G0344.621cf7d1a08a49dcb5b2cdf2f9d21810",
+    "G0344.7ec4f8c17d2a4e19bdeaf4cd6950b67a",
     "G0344.b06ec1f74d0d49c1ba012afaba68b834",
+    "G0344.b5cd17ecb46e4ded91015af51d7617f2",
+    "G0344.c218560c588b4928824d6ea78d159259",
     "G0344.e59ec2a4dfe84f958f263ae5eaf189cd",
-    "G0344.204c1cf67fba4d858b7c9b2ed18a1e78"
+    "G0344.204c1cf67fba4d858b7c9b2ed18a1e78",
+    "G0344.3de30ad43d2649238d3cc6c41ca97dd3",
+    "G0344.5ba01d2a40b14b4693b093d98019c3d0"
   ],
   "terrainCorrections": [
     {
@@ -43,9 +53,9 @@
       ],
       "halfLength": 12,
       "halfWidth": 5.64,
-      "height": 48.647,
+      "height": 48.645,
       "gradient": [
-        -0.27792,
+        -0.27774,
         0
       ],
       "minLift": 0.05,
@@ -53,8 +63,8 @@
     },
     {
       "centre": [
-        133789.79,
-        455467.72
+        133788.99,
+        455467.63
       ],
       "axis": [
         -0.993611,
@@ -62,7 +72,7 @@
       ],
       "halfLength": 12,
       "halfWidth": 5.64,
-      "height": 51.832,
+      "height": 51.828,
       "gradient": [
         -0.0125,
         0
@@ -78,6 +88,22 @@
     "bron": {
       "bgt": [
         {
+          "id": "G0344.0f8e8ac06ed947669ea8f70b2df30e8d",
+          "type": "pijler"
+        },
+        {
+          "id": "G0344.0fe965bb08fd4f8299a141d26ea16ad4",
+          "type": "pijler"
+        },
+        {
+          "id": "G0344.1d7186c21f704f55b736d44d65f4184d",
+          "type": "pijler"
+        },
+        {
+          "id": "G0344.2f2b4792fc484cfe9d17d4139dfd818e",
+          "type": "pijler"
+        },
+        {
           "id": "G0344.5ed6e43f37c748f29a54cb048efe0e77",
           "type": "pyloon"
         },
@@ -86,8 +112,24 @@
           "type": "pyloon"
         },
         {
+          "id": "G0344.621cf7d1a08a49dcb5b2cdf2f9d21810",
+          "type": "pijler"
+        },
+        {
+          "id": "G0344.7ec4f8c17d2a4e19bdeaf4cd6950b67a",
+          "type": "pijler"
+        },
+        {
           "id": "G0344.b06ec1f74d0d49c1ba012afaba68b834",
           "type": "pyloon"
+        },
+        {
+          "id": "G0344.b5cd17ecb46e4ded91015af51d7617f2",
+          "type": "pijler"
+        },
+        {
+          "id": "G0344.c218560c588b4928824d6ea78d159259",
+          "type": "pijler"
         },
         {
           "id": "G0344.e59ec2a4dfe84f958f263ae5eaf189cd",
@@ -96,32 +138,53 @@
         {
           "id": "G0344.204c1cf67fba4d858b7c9b2ed18a1e78",
           "type": "dek"
+        },
+        {
+          "id": "G0344.3de30ad43d2649238d3cc6c41ca97dd3",
+          "type": "landhoofd"
+        },
+        {
+          "id": "G0344.5ba01d2a40b14b4693b093d98019c3d0",
+          "type": "landhoofd"
         }
       ],
       "osm": {
         "id": "way/706260404",
         "tags": {
-          "bridge:structure": "suspension",
+          "bridge": "yes",
+          "highway": "cycleway",
+          "horse": "yes",
           "layer": "1",
-          "man_made": "bridge",
+          "lit": "yes",
+          "mofa": "no",
+          "moped": "no",
           "name": "Dafne Schippersbrug",
+          "oneway": "no",
+          "sidewalk": "left",
+          "sidewalk:left:surface": "asphalt",
+          "smoothness": "excellent",
           "start_date": "2017",
+          "surface": "asphalt",
+          "traffic_sign": "NL:G13",
+          "width": "5",
+          "bridge:structure": "suspension",
+          "man_made": "bridge",
           "wikipedia": "nl:Dafne Schippersbrug"
         }
       },
       "fis": null,
-      "pdokBridgeVlakken": 5
+      "pdokBridgeVlakken": 14
     },
     "type": "ophaalbrug",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 126435,448710,141834,461610 --run utrecht-2026-10-20 --overschrijf 1 --parallel 5",
+    "opdracht": "node scripts/bridges/genereer.mjs --map utrecht-brug-204c1cf6 --plaats utrecht --punt 133888,455479",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
       "dekLengte": 173.4,
       "dekBreedte": 7.5,
-      "brugLengte": 173.4,
+      "brugLengte": 174.2,
       "water": [
         -50.2,
         49.3
@@ -135,13 +198,14 @@
       "doorstekend": [],
       "opritHoogtes": [
         45.312,
-        51.682
+        51.678
       ]
     },
     "waarschuwingen": [
       "OSM zegt suspension, gekozen type ophaalbrug",
-      "geen FIS-brug binnen 35 m"
+      "geen FIS-brug binnen 35 m",
+      "ophaalbrug: hefmechanisme niet gegenereerd, alleen dek, pijlers en landhoofden"
     ],
-    "gegenereerd": "2026-10-20"
+    "gegenereerd": "2026-10-22"
   }
 }

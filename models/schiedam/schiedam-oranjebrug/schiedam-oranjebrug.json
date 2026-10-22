@@ -105,7 +105,7 @@
           "bridge:name": "Oranjebrug",
           "cycleway": "lane",
           "highway": "secondary",
-          "lanes": "1",
+          "lane_markings": "no",
           "layer": "1",
           "lit": "yes",
           "maxspeed": "50",
@@ -130,7 +130,7 @@
     "type": "ophaalbrug",
     "doorvaarthoogte": 1.13,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,420000,100000,440000 --run nl-4_6 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map schiedam-oranjebrug --plaats schiedam --punt 87038,436473",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -155,9 +155,8 @@
     },
     "waarschuwingen": [
       "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
-      "losse BGT-pyloon G0606.2b68b31b2fae7498e0530200010aefaa als paaltje van 3 m",
-      "losse BGT-pyloon G0606.2b68b31b0bbb7498e0530200010aefaa als paaltje van 3 m"
+      "ophaalbrug: hefmechanisme niet gegenereerd, alleen dek, pijlers en landhoofden"
     ],
-    "gegenereerd": "2026-10-20"
+    "gegenereerd": "2026-10-22"
   }
 }

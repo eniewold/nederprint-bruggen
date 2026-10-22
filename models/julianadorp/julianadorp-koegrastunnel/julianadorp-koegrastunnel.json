@@ -180,17 +180,30 @@
         }
       ],
       "osm": {
-        "id": "relation/10073179",
+        "id": "way/727869485",
         "tags": {
-          "bridge": "movable",
+          "bridge": "viaduct",
+          "bridge:name": "Koegrasbrug",
+          "description": "Den Helder - Heerhugowaard",
+          "electrified": "no",
+          "gauge": "1435",
           "layer": "1",
-          "man_made": "bridge",
-          "material": "steel",
-          "name": "Koegrasbrug",
+          "maxspeed": "140",
           "operator": "ProRail",
-          "start_date": "1973",
-          "wikipedia": "nl:Koegrasbrug",
-          "bridge:structure": "beam"
+          "passenger_lines": "1",
+          "railway": "rail",
+          "railway:atb": "yes",
+          "railway:track_class": "C2",
+          "ref": "073",
+          "ref:ProRailID": "2884212.0",
+          "ref:ProRailSpoortak": "073_1139V_3.5",
+          "source": "ProRail",
+          "source:date": "2014-01-03",
+          "usage": "main",
+          "bridge:structure": "beam",
+          "man_made": "bridge",
+          "material": "concrete",
+          "name": "Koegrastunnel"
         }
       },
       "fis": null,
@@ -199,7 +212,7 @@
     "type": "ophaalbrug",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,540000,120000,560000 --run nl-5_12 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map julianadorp-koegrastunnel --plaats julianadorp --punt 114655,546315",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -234,8 +247,9 @@
     },
     "waarschuwingen": [
       "geen FIS-brug binnen 35 m",
+      "ophaalbrug: hefmechanisme niet gegenereerd, alleen dek, pijlers en landhoofden",
       "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
     ],
-    "gegenereerd": "2026-10-20"
+    "gegenereerd": "2026-10-22"
   }
 }

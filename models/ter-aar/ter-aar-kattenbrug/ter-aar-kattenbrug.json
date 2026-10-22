@@ -98,20 +98,32 @@
           "type": "landhoofd"
         }
       ],
-      "osm": null,
+      "osm": {
+        "id": "way/706273697",
+        "tags": {
+          "bridge": "movable",
+          "bridge:movable": "bascule",
+          "highway": "tertiary",
+          "layer": "1",
+          "maxspeed": "60",
+          "name": "Kattenbrug",
+          "zone:traffic": "NL:rural",
+          "man_made": "bridge"
+        }
+      },
       "fis": {
         "id": 26592,
         "naam": "Kattenbrug",
-        "afstand": 3,
+        "afstand": 2,
         "beweegbaar": true,
         "doorvaarthoogteGesloten": 1.96
       },
       "pdokBridgeVlakken": 5
     },
-    "type": "ophaalbrug",
+    "type": "basculebrug",
     "doorvaarthoogte": 1.96,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,460000,120000,480000 --run nl-5_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map ter-aar-kattenbrug --plaats ter-aar --punt 110685,467570",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -135,6 +147,6 @@
       ]
     },
     "waarschuwingen": [],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-22"
   }
 }

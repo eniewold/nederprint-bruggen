@@ -110,17 +110,17 @@
         }
       ],
       "osm": {
-        "id": "way/805814115",
+        "id": "way/805814116",
         "tags": {
+          "bicycle": "use_sidepath",
           "bridge": "yes",
-          "highway": "cycleway",
+          "foot": "use_sidepath",
+          "highway": "secondary",
+          "lanes": "2",
           "layer": "1",
-          "mofa": "yes",
-          "moped": "no",
+          "maxspeed": "50",
           "name": "Omloop",
-          "oneway": "no",
           "surface": "asphalt",
-          "traffic_sign": "NL:G11",
           "zone:traffic": "NL:urban",
           "man_made": "bridge"
         }
@@ -128,7 +128,7 @@
       "fis": {
         "id": 31398955,
         "naam": "Brug in de N707 Zeewolde",
-        "afstand": 6,
+        "afstand": 4,
         "beweegbaar": true,
         "doorvaarthoogteGesloten": 3.5
       },
@@ -137,7 +137,7 @@
     "type": "ophaalbrug",
     "doorvaarthoogte": 3.5,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,480000,180000,500000 --run nl-8_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map zeewolde-brug-in-de-n707-zeewolde --plaats zeewolde --punt 164999,484865",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -162,8 +162,8 @@
     },
     "waarschuwingen": [
       "as gedraaid naar de kortste wateroverspanning (dek breder dan lang)",
-      "losse BGT-pyloon G0050.a3df5f950edb9ee3e053081c0f0aac4d als paaltje van 3 m"
+      "ophaalbrug: hefmechanisme niet gegenereerd, alleen dek, pijlers en landhoofden"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-22"
   }
 }

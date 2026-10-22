@@ -504,6 +504,7 @@
           "name": "Noorderbrug",
           "name:li": "Noorderbrögk",
           "start_date": "1984",
+          "type": "multipolygon",
           "wikidata": "Q1884784",
           "wikimedia_commons": "Category:Noorderbrug (Maastricht)",
           "wikipedia": "nl:Noorderbrug (Maastricht)"
@@ -515,7 +516,7 @@
     "type": "ophaalbrug",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 160000,300000,180000,320000 --run nl-8_0-startdek --parallel 5",
+    "opdracht": "node scripts/bridges/genereer.mjs --map maastricht-noorderbrug --plaats maastricht --punt 176627,318945",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -526,7 +527,7 @@
         -385,
         301.5
       ],
-      "portaalhoogte": 23.5,
+      "portaalhoogte": 58.6,
       "opritafstand": [
         190,
         50
@@ -835,8 +836,9 @@
       "oprit +: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
       "oprit +: spoorterrein voorbij 150 m nog 2.3 m hoger (98.2 m); PDOK trekt het spoor hier ver naar beneden, controleer de dekhoogte of geef --opritafstand",
       "oprit + pas op 50 m langs het spoor gemeten (PDOK-spoorterrein bij de brug lager)",
+      "ophaalbrug: hefmechanisme niet gegenereerd, alleen dek, pijlers en landhoofden",
       "36 PDOK-vorm(en) door het dek: 17 verborgen, 19 verlaagd"
     ],
-    "gegenereerd": "2026-10-20"
+    "gegenereerd": "2026-10-22"
   }
 }

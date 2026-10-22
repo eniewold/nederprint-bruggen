@@ -9,18 +9,18 @@
     371570.92
   ],
   "xAxis": [
-    0.03487,
-    -0.999392
+    -0.034,
+    0.999422
   ],
   "groundOffsetMetres": 0,
   "groundHeight": 51.36,
   "groundSamplePoints": [
     [
-      -62,
+      -61.99,
       0
     ],
     [
-      62,
+      61.99,
       0
     ]
   ],
@@ -36,18 +36,18 @@
   "terrainCorrections": [
     {
       "centre": [
-        44160.08,
-        371644.87
+        44165.18,
+        371496.97
       ],
       "axis": [
-        -0.03487,
-        0.999392
+        0.034,
+        -0.999422
       ],
       "halfLength": 12,
-      "halfWidth": 10.42,
-      "height": 51.373,
+      "halfWidth": 10.45,
+      "height": 51.366,
       "gradient": [
-        0,
+        -0.00052,
         0
       ],
       "minLift": 0.05,
@@ -55,18 +55,18 @@
     },
     {
       "centre": [
-        44165.24,
-        371496.97
+        44160.14,
+        371644.87
       ],
       "axis": [
-        0.03487,
-        -0.999392
+        -0.034,
+        0.999422
       ],
       "halfLength": 12,
-      "halfWidth": 10.42,
-      "height": 51.366,
+      "halfWidth": 10.45,
+      "height": 51.373,
       "gradient": [
-        -0.00052,
+        0,
         0
       ],
       "minLift": 0.05,
@@ -113,8 +113,26 @@
       "osm": {
         "id": "way/532423192",
         "tags": {
-          "alt_name": "Hangtrogbrug",
+          "bridge": "yes",
+          "description": "Terneuzen Dow Chemical",
+          "electrified": "no",
+          "gauge": "1435",
           "layer": "1",
+          "passenger_lines": "1",
+          "railway": "rail",
+          "railway:atb": "no",
+          "railway:etcs": "no",
+          "railway:gnt": "no",
+          "railway:lzb": "no",
+          "railway:pzb": "no",
+          "railway:track_class": "D4",
+          "ref": "818a",
+          "ref:ProRailID": "2891493.0",
+          "ref:ProRailSpoortak": "818_3V_100.5",
+          "service": "spur",
+          "source": "ProRail",
+          "source:date": "2014-01-03",
+          "alt_name": "Hangtrogbrug",
           "man_made": "bridge",
           "name": "De Knol",
           "official_name": "Spoorviaduct de Knol",
@@ -128,12 +146,12 @@
     "type": "ophaalbrug",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 40000,360000,60000,380000 --run nl-2_3 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map hoek-brug-73df8d9c --plaats hoek --punt 44163,371571",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
       "dekLengte": 124,
-      "dekBreedte": 16.8,
+      "dekBreedte": 16.9,
       "brugLengte": 124,
       "water": null,
       "portaalhoogte": 15.2,
@@ -145,15 +163,14 @@
       "oprithelling": 24,
       "doorstekend": [],
       "opritHoogtes": [
-        51.373,
-        51.36
+        51.36,
+        51.373
       ]
     },
     "waarschuwingen": [
       "geen FIS-brug binnen 35 m",
-      "losse BGT-pyloon L0004.0d443098160443c7b81744c0b0e80c96 als paaltje van 3 m",
-      "losse BGT-pyloon L0004.fd3f853f90064971869f27e64ebc63cc als paaltje van 3 m"
+      "ophaalbrug: hefmechanisme niet gegenereerd, alleen dek, pijlers en landhoofden"
     ],
-    "gegenereerd": "2026-10-20"
+    "gegenereerd": "2026-10-22"
   }
 }

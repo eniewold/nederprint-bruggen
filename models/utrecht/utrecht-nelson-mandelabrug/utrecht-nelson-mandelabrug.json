@@ -230,16 +230,26 @@
         "tags": {
           "bridge": "movable",
           "bridge:movable": "lift",
+          "bridge:name": "Nelson Mandelabrug",
+          "footway": "sidewalk",
+          "highway": "cycleway",
           "layer": "1",
-          "man_made": "bridge",
+          "maxweight:signed": "no",
+          "mofa": "no",
+          "moped": "no",
+          "motor_vehicle": "no",
           "name": "Nelson Mandelabrug",
+          "surface": "asphalt",
+          "traffic_sign": "NL:G11",
+          "width": "2",
+          "man_made": "bridge",
           "bridge:structure": "beam"
         }
       },
       "fis": {
         "id": 55985,
         "naam": "Nelson Mandelabrug Utrecht",
-        "afstand": 9,
+        "afstand": 13,
         "beweegbaar": true,
         "doorvaarthoogteGesloten": 1.7999999999999998
       },
@@ -248,7 +258,7 @@
     "type": "ophaalbrug",
     "doorvaarthoogte": 1.7999999999999998,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 126435,448710,141834,461610 --run utrecht-2026-10-20 --overschrijf 1 --parallel 5",
+    "opdracht": "node scripts/bridges/genereer.mjs --map utrecht-nelson-mandelabrug --plaats utrecht --punt 135653,454884",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -259,7 +269,7 @@
         -19.4,
         10.1
       ],
-      "portaalhoogte": 47.5,
+      "portaalhoogte": 48.9,
       "opritafstand": [
         20,
         20
@@ -297,8 +307,9 @@
       ]
     },
     "waarschuwingen": [
+      "ophaalbrug: hefmechanisme niet gegenereerd, alleen dek, pijlers en landhoofden",
       "3 PDOK-vorm(en) door het dek: 2 verborgen, 1 verlaagd"
     ],
-    "gegenereerd": "2026-10-20"
+    "gegenereerd": "2026-10-22"
   }
 }

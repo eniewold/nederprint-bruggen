@@ -162,19 +162,10 @@
         "id": "way/1068845904",
         "tags": {
           "bridge": "movable",
-          "bridge:name": "Wilhelminabrug",
-          "highway": "cycleway",
           "layer": "1",
-          "lit": "yes",
-          "mofa": "designated",
-          "moped": "designated",
+          "man_made": "bridge",
           "name": "Wilhelminabrug",
           "note": "Wilhelminabrug meerdere maanden gesloten, bewegend brugdek is verwijderd, LAW/RWN omgeleid in veld, RCN niet",
-          "sidewalk": "right",
-          "smoothness": "good",
-          "surface": "asphalt",
-          "traffic_sign": "NL:G12a",
-          "man_made": "bridge",
           "wikidata": "Q2108788",
           "wikimedia_commons": "Category:Wilhelminabrug (Leiden)",
           "wikipedia": "nl:Wilhelminabrug (Leiden)"
@@ -196,7 +187,7 @@
       "naam": "Wilhelminabrug",
       "hameizijde": "+"
     },
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 90100,459364,95921,466645 --run leiden-2026-10-20 --overschrijf 1 --parallel 5",
+    "opdracht": "node scripts/bridges/genereer.mjs --map leiden-wilhelminabrug --plaats leiden --punt 95233,463318",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -207,7 +198,7 @@
         -8.6,
         13.9
       ],
-      "portaalhoogte": 15.6,
+      "portaalhoogte": 17.9,
       "opritafstand": [
         20,
         20
@@ -219,7 +210,9 @@
         45.387
       ]
     },
-    "waarschuwingen": [],
-    "gegenereerd": "2026-10-20"
+    "waarschuwingen": [
+      "ophaalbrug: hefmechanisme niet gegenereerd, alleen dek, pijlers en landhoofden"
+    ],
+    "gegenereerd": "2026-10-22"
   }
 }
