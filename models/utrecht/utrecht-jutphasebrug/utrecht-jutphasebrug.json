@@ -9,24 +9,32 @@
     451644.55
   ],
   "xAxis": [
-    -0.91662,
-    -0.39976
+    -0.915079,
+    -0.403275
   ],
   "groundOffsetMetres": 0,
   "groundHeight": 51.33,
   "groundSamplePoints": [
     [
-      -105.31,
-      -10.95
+      -109.6,
+      -10.6
     ],
     [
-      105.31,
-      -15.02
+      105.28,
+      -15.42
     ]
   ],
   "replacesTerrain": [
+    "G0344.13f2eb166d53480485e4b27e3c060254",
+    "G0344.b6f11a8d015a4920b3ff6893551b0608",
     "P0026.3f47480760484914e0531221500ad12c",
+    "P0026.46745b43461542f0e0531221500ac5d0",
+    "G0356.4a6ceeebdd984727b6effe58f1ef2bf3",
     "G0344.29d89e70aedd4c3fbfc1762e3d1c7319",
+    "G0344.735737b328d8476392f58ad2fea2344f",
+    "G0344.b4d14e466c4642109783706f498ccd6f",
+    "G0344.d8f48fe6f46848b2bca548b54d33b8d2",
+    "G0344.e8d8e0876c5b459ab709a0972b514074",
     "G0356.4862e32cf70b42eb805e13dc3285add8",
     "G0356.a19640a467f34c2d9ee06a8e5494d7cd",
     "G0356.eb82111d307142cf97c831d96e124102",
@@ -40,31 +48,31 @@
         451644.55
       ],
       "axis": [
-        -0.91662,
-        -0.39976
+        -0.915079,
+        -0.403275
       ],
       "halfLength": 89.31,
-      "halfWidth": 18.55,
-      "height": 51.119,
+      "halfWidth": 18.78,
+      "height": 50.945,
       "gradient": [
         0,
         0
       ],
-      "minLift": -3.28,
+      "minLift": -3.46,
       "maxLift": -0.01
     },
     {
       "centre": [
-        135657.61,
-        451687.45
+        135661.37,
+        451689.56
       ],
       "axis": [
-        0.91662,
-        0.39976
+        0.915079,
+        0.403275
       ],
       "halfLength": 12,
-      "halfWidth": 20.05,
-      "height": 52.269,
+      "halfWidth": 20.28,
+      "height": 52.095,
       "gradient": [
         -0.0125,
         0
@@ -74,18 +82,18 @@
     },
     {
       "centre": [
-        135460.88,
-        451601.66
+        135461.07,
+        451601.29
       ],
       "axis": [
-        -0.91662,
-        -0.39976
+        -0.915079,
+        -0.403275
       ],
       "halfLength": 12,
-      "halfWidth": 20.05,
-      "height": 51.874,
+      "halfWidth": 20.28,
+      "height": 51.788,
       "gradient": [
-        -0.04535,
+        -0.03813,
         0
       ],
       "minLift": 0.05,
@@ -100,12 +108,44 @@
     "bron": {
       "bgt": [
         {
+          "id": "G0344.13f2eb166d53480485e4b27e3c060254",
+          "type": "pijler"
+        },
+        {
+          "id": "G0344.b6f11a8d015a4920b3ff6893551b0608",
+          "type": "pijler"
+        },
+        {
           "id": "P0026.3f47480760484914e0531221500ad12c",
           "type": "dek"
         },
         {
+          "id": "P0026.46745b43461542f0e0531221500ac5d0",
+          "type": "landhoofd"
+        },
+        {
+          "id": "G0356.4a6ceeebdd984727b6effe58f1ef2bf3",
+          "type": "pijler"
+        },
+        {
           "id": "G0344.29d89e70aedd4c3fbfc1762e3d1c7319",
           "type": "dek"
+        },
+        {
+          "id": "G0344.735737b328d8476392f58ad2fea2344f",
+          "type": "landhoofd"
+        },
+        {
+          "id": "G0344.b4d14e466c4642109783706f498ccd6f",
+          "type": "sloof"
+        },
+        {
+          "id": "G0344.d8f48fe6f46848b2bca548b54d33b8d2",
+          "type": "sloof"
+        },
+        {
+          "id": "G0344.e8d8e0876c5b459ab709a0972b514074",
+          "type": "sloof"
         },
         {
           "id": "G0356.4862e32cf70b42eb805e13dc3285add8",
@@ -123,9 +163,16 @@
       "osm": {
         "id": "way/374019906",
         "tags": {
+          "bridge": "yes",
+          "electrified": "contact_line",
+          "frequency": "0",
+          "gauge": "1435",
+          "layer": "1",
+          "maxspeed": "70",
+          "railway": "light_rail",
+          "voltage": "750",
           "bridge:material": "steel",
           "bridge:structure": "arch",
-          "layer": "1",
           "man_made": "bridge",
           "name": "Jutphasebrug",
           "start_date": "1936",
@@ -140,7 +187,7 @@
         "beweegbaar": false,
         "doorvaarthoogteGesloten": 9.370000000000001
       },
-      "pdokBridgeVlakken": 5
+      "pdokBridgeVlakken": 13
     },
     "type": "boog",
     "doorvaarthoogte": 9.370000000000001,
@@ -148,18 +195,18 @@
       "naam": "Jutphasebrug",
       "straal": 40
     },
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 126435,448710,141834,461610 --run utrecht-2026-10-20 --overschrijf 1 --parallel 5",
+    "opdracht": "node scripts/bridges/genereer.mjs --map utrecht-jutphasebrug --plaats utrecht --punt 135559,451645",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
       "dekLengte": 190.6,
-      "dekBreedte": 36.1,
-      "brugLengte": 190.6,
+      "dekBreedte": 36.6,
+      "brugLengte": 194.9,
       "water": [
-        -60.3,
-        22.7
+        -60.6,
+        22.9
       ],
-      "portaalhoogte": 32.5,
+      "portaalhoogte": 32.9,
       "opritafstand": [
         10,
         10
@@ -172,7 +219,7 @@
           "klasse": "Terrain",
           "oppervlak": 514.4,
           "onderDek": 0,
-          "bovenDekOnderkant": 2.28,
+          "bovenDekOnderkant": 2.46,
           "actie": "verlagen"
         },
         {
@@ -180,7 +227,7 @@
           "klasse": "Road",
           "oppervlak": 627.5,
           "onderDek": 0,
-          "bovenDekOnderkant": 2.26,
+          "bovenDekOnderkant": 2.43,
           "actie": "verlagen"
         },
         {
@@ -188,7 +235,7 @@
           "klasse": "Forest",
           "oppervlak": 2697.1,
           "onderDek": 0,
-          "bovenDekOnderkant": 2.2,
+          "bovenDekOnderkant": 2.38,
           "actie": "verlagen"
         },
         {
@@ -196,7 +243,7 @@
           "klasse": "Terrain",
           "oppervlak": 102.7,
           "onderDek": 1,
-          "bovenDekOnderkant": 2.19,
+          "bovenDekOnderkant": 2.37,
           "actie": "verbergen"
         },
         {
@@ -204,7 +251,7 @@
           "klasse": "Road",
           "oppervlak": 569,
           "onderDek": 0,
-          "bovenDekOnderkant": 2.19,
+          "bovenDekOnderkant": 2.37,
           "actie": "verlagen"
         },
         {
@@ -212,7 +259,7 @@
           "klasse": "Terrain",
           "oppervlak": 242.4,
           "onderDek": 0.46,
-          "bovenDekOnderkant": 1.98,
+          "bovenDekOnderkant": 2.15,
           "actie": "verlagen"
         },
         {
@@ -220,7 +267,7 @@
           "klasse": "Road",
           "oppervlak": 515.7,
           "onderDek": 0,
-          "bovenDekOnderkant": 1.9,
+          "bovenDekOnderkant": 2.07,
           "actie": "verlagen"
         },
         {
@@ -228,7 +275,7 @@
           "klasse": "Terrain",
           "oppervlak": 594.8,
           "onderDek": 0.73,
-          "bovenDekOnderkant": 0.7,
+          "bovenDekOnderkant": 0.88,
           "actie": "verbergen"
         },
         {
@@ -236,20 +283,21 @@
           "klasse": "Separation",
           "oppervlak": 1.1,
           "onderDek": 0,
-          "bovenDekOnderkant": 0.7,
+          "bovenDekOnderkant": 0.87,
           "actie": "verlagen"
         }
       ],
       "opritHoogtes": [
-        52.119,
+        51.945,
         51.33
       ]
     },
     "waarschuwingen": [
       "oprit -: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
       "oprit +: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
+      "boogbrug: bogen niet gegenereerd, alleen dek, pijlers en landhoofden",
       "9 PDOK-vorm(en) door het dek: 2 verborgen, 7 verlaagd"
     ],
-    "gegenereerd": "2026-10-20"
+    "gegenereerd": "2026-10-22"
   }
 }

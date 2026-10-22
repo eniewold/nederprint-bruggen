@@ -94,7 +94,7 @@
           "bicycle": "use_sidepath",
           "bridge": "yes",
           "highway": "secondary",
-          "lanes": "3",
+          "lanes": "1",
           "layer": "1",
           "lit": "yes",
           "maxspeed": "50",
@@ -115,7 +115,7 @@
     "type": "boog",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,480000,120000,500000 --run nl-5_9 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map haarlem-prinsenbrug-2 --plaats haarlem --punt 104631,489004",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -139,8 +139,9 @@
       ]
     },
     "waarschuwingen": [
-      "geen FIS-brug binnen 35 m"
+      "geen FIS-brug binnen 35 m",
+      "boogbrug: bogen niet gegenereerd, alleen dek, pijlers en landhoofden"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-22"
   }
 }

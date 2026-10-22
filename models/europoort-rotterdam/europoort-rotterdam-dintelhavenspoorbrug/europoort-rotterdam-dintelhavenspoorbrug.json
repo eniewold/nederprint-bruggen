@@ -9,8 +9,8 @@
     439378.19
   ],
   "xAxis": [
-    0.907337,
-    0.420404
+    -0.907309,
+    -0.420465
   ],
   "groundOffsetMetres": 0,
   "groundHeight": 56.854,
@@ -26,23 +26,27 @@
   ],
   "replacesTerrain": [
     "G0599.16fd016ff1b42cac9e050210a7e24119",
-    "L0004.6b87550947364f7485dc5780d54e5bf7"
+    "G0599.16fd016ff1b81cac9e050210a7e24119",
+    "G0599.16fd016ff1b88cac9e050210a7e24119",
+    "G0599.16fd016ff1b89cac9e050210a7e24119",
+    "L0004.6b87550947364f7485dc5780d54e5bf7",
+    "L0004.caf02cab6973453da7c9df57dd1ac609"
   ],
   "terrainCorrections": [
     {
       "centre": [
-        69143.71,
-        439314.17
+        69420.08,
+        439442.23
       ],
       "axis": [
-        -0.907337,
-        -0.420404
+        0.907309,
+        0.420465
       ],
       "halfLength": 12,
-      "halfWidth": 8.09,
-      "height": 56.871,
+      "halfWidth": 8.08,
+      "height": 56.888,
       "gradient": [
-        -0.00142,
+        0,
         0
       ],
       "minLift": 0.05,
@@ -50,18 +54,18 @@
     },
     {
       "centre": [
-        69420.09,
-        439442.22
+        69143.72,
+        439314.16
       ],
       "axis": [
-        0.907337,
-        0.420404
+        -0.907309,
+        -0.420465
       ],
       "halfLength": 12,
-      "halfWidth": 8.09,
-      "height": 56.888,
+      "halfWidth": 8.08,
+      "height": 56.871,
       "gradient": [
-        0,
+        -0.00142,
         0
       ],
       "minLift": 0.05,
@@ -79,17 +83,55 @@
           "type": "pijler"
         },
         {
+          "id": "G0599.16fd016ff1b81cac9e050210a7e24119",
+          "type": "pijler"
+        },
+        {
+          "id": "G0599.16fd016ff1b88cac9e050210a7e24119",
+          "type": "pijler"
+        },
+        {
+          "id": "G0599.16fd016ff1b89cac9e050210a7e24119",
+          "type": "pijler"
+        },
+        {
           "id": "L0004.6b87550947364f7485dc5780d54e5bf7",
           "type": "dek"
+        },
+        {
+          "id": "L0004.caf02cab6973453da7c9df57dd1ac609",
+          "type": "landhoofd"
         }
       ],
       "osm": {
         "id": "way/457764990",
         "tags": {
-          "bridge:structure": "arch",
+          "bridge": "yes",
+          "electrified": "contact_line",
+          "frequency": "50",
+          "gauge": "1435",
           "layer": "1",
-          "man_made": "bridge",
+          "loading_gauge": "TSI_GC",
+          "maxspeed": "80",
           "name": "Dintelhavenspoorbrug",
+          "operator": "ProRail",
+          "passenger_lines": "2",
+          "railway": "rail",
+          "railway:atb": "no",
+          "railway:atb-eg": "no",
+          "railway:atb-ng": "no",
+          "railway:etcs": "1",
+          "railway:maximum_current": "500",
+          "railway:track_class": "D4",
+          "railway:traffic_mode": "freight",
+          "ref:ProRailID": "2882759.0",
+          "ref:ProRailSpoortak": "950_1123AR_28.0",
+          "source": "ProRail",
+          "source:date": "2014-01-03",
+          "usage": "main",
+          "voltage": "25000",
+          "bridge:structure": "arch",
+          "man_made": "bridge",
           "wikidata": "Q21779582",
           "wikipedia": "nl:Dintelhavenspoorbrug"
         }
@@ -97,16 +139,16 @@
       "fis": {
         "id": 33440,
         "naam": "Dintelhavenspoorbrug",
-        "afstand": 20,
+        "afstand": 5,
         "beweegbaar": false,
         "doorvaarthoogteGesloten": 10.1
       },
-      "pdokBridgeVlakken": 2
+      "pdokBridgeVlakken": 6
     },
     "type": "boog",
     "doorvaarthoogte": 10.1,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 60000,420000,80000,440000 --run nl-3_6 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map europoort-rotterdam-dintelhavenspoorbrug --plaats europoort-rotterdam --punt 69282,439378",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -114,10 +156,10 @@
       "dekBreedte": 12.2,
       "brugLengte": 280.6,
       "water": [
-        -80.8,
-        73.2
+        -73.3,
+        80.7
       ],
-      "portaalhoogte": 11,
+      "portaalhoogte": 10.9,
       "opritafstand": [
         0,
         0
@@ -126,11 +168,13 @@
       "oprithelling": 24,
       "doorstekend": [],
       "opritHoogtes": [
-        56.854,
-        56.888
+        56.888,
+        56.854
       ]
     },
-    "waarschuwingen": [],
-    "gegenereerd": "2026-10-20"
+    "waarschuwingen": [
+      "boogbrug: bogen niet gegenereerd, alleen dek, pijlers en landhoofden"
+    ],
+    "gegenereerd": "2026-10-22"
   }
 }

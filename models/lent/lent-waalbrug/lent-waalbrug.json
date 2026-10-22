@@ -124,12 +124,14 @@
           "lit": "yes",
           "maxspeed": "50",
           "maxweight:signed": "no",
+          "maxwidth:lanes": "2.0|",
           "mofa": "no",
           "moped": "no",
           "name": "Sergeant Robinsonviaduct",
           "official_name": "St. Titussingel",
           "oneway": "yes",
           "operator": "Gemeente Nijmegen",
+          "placement": "transition",
           "ref": "N325;S100",
           "surface": "asphalt",
           "man_made": "bridge"
@@ -141,7 +143,7 @@
     "type": "boog",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 180000,420000,200000,440000 --run nl-9_6-startdek --parallel 5",
+    "opdracht": "node scripts/bridges/genereer.mjs --map lent-waalbrug --plaats lent --punt 188277,429528",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -165,8 +167,9 @@
       ]
     },
     "waarschuwingen": [
-      "geen FIS-brug binnen 35 m"
+      "geen FIS-brug binnen 35 m",
+      "boogbrug: bogen niet gegenereerd, alleen dek, pijlers en landhoofden"
     ],
-    "gegenereerd": "2026-10-20"
+    "gegenereerd": "2026-10-22"
   }
 }

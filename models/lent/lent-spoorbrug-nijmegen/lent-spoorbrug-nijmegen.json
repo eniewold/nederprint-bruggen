@@ -140,41 +140,28 @@
         }
       ],
       "osm": {
-        "id": "way/572436049",
+        "id": "way/572436301",
         "tags": {
-          "axle_load": "22.5",
           "bridge": "yes",
-          "bridge:material": "steel",
-          "bridge:name": "Spoorbrug Nijmegen",
-          "bridge:structure": "arch",
-          "description": "Ressen=Bemmel - Nijmegen",
-          "electrified": "contact_line",
-          "frequency": "0",
-          "gauge": "1435",
+          "highway": "cycleway",
           "layer": "1",
-          "loading_gauge": "TSI_GB",
-          "maxspeed": "110",
-          "operator": "ProRail",
-          "passenger_lines": "2",
-          "railway": "rail",
-          "railway:atb": "yes",
-          "railway:maximum_current": "4000",
-          "railway:track_class": "D4",
-          "railway:track_ref": "AC",
-          "ref": "044",
-          "ref:ProRailID": "2876499.0",
-          "ref:ProRailSpoortak": "514_161BV_16.4",
-          "source": "ProRail",
-          "source:date": "2014-01-03",
-          "usage": "main",
-          "voltage": "1500",
-          "image": "https://photos.app.goo.gl/8pm7ktWSAjjZbTsG9",
+          "lit": "yes",
+          "mofa": "yes",
+          "moped": "designated",
+          "name": "Snelbinder",
+          "sidewalk": "right",
+          "smoothness": "excellent",
+          "surface": "asphalt",
+          "traffic_sign": "NL:G12a",
+          "bridge:material": "steel",
+          "bridge:structure": "arch",
+          "image": "https://photos.app.goo.gl/hpVcLMTPxYjNJJMVA",
           "man_made": "bridge",
-          "name": "Spoorbrug Nijmegen",
-          "start_date": "1879",
-          "wikidata": "Q1311533",
-          "wikimedia_commons": "Category:Spoorbrug Nijmegen",
-          "wikipedia": "nl:Spoorbrug Nijmegen"
+          "start_date": "2004",
+          "url": "https://youtu.be/ATSlNhmjmWY",
+          "wikidata": "Q1948241",
+          "wikimedia_commons": "Category:Snelbinder",
+          "wikipedia": "nl:Snelbinder (brug)"
         }
       },
       "fis": null,
@@ -183,7 +170,7 @@
     "type": "boog",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 180000,420000,200000,440000 --run nl-9_6-startdek --parallel 5",
+    "opdracht": "node scripts/bridges/genereer.mjs --map lent-spoorbrug-nijmegen --plaats lent --punt 187408,429579",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -208,8 +195,9 @@
       ]
     },
     "waarschuwingen": [
-      "geen FIS-brug binnen 35 m"
+      "geen FIS-brug binnen 35 m",
+      "boogbrug: bogen niet gegenereerd, alleen dek, pijlers en landhoofden"
     ],
-    "gegenereerd": "2026-10-20"
+    "gegenereerd": "2026-10-22"
   }
 }

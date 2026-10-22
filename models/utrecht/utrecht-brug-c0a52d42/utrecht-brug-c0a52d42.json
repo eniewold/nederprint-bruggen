@@ -26,6 +26,7 @@
   ],
   "replacesTerrain": [
     "G0344.c0a52d4256c9424386e8c0894627a2fa",
+    "G0344.283e59e4e89845cebe00f71f7157aae0",
     "G0344.a6a150cd676e4dbca0491a985e6766eb"
   ],
   "terrainCorrections": [
@@ -79,43 +80,53 @@
           "type": "dek"
         },
         {
+          "id": "G0344.283e59e4e89845cebe00f71f7157aae0",
+          "type": "landhoofd"
+        },
+        {
           "id": "G0344.a6a150cd676e4dbca0491a985e6766eb",
           "type": "landhoofd"
         }
       ],
       "osm": {
-        "id": "way/628727995",
+        "id": "way/370402629",
         "tags": {
+          "bicycle": "no",
           "bridge": "yes",
-          "foot": "yes",
-          "highway": "cycleway",
+          "change:lanes:backward": "no",
+          "change:lanes:forward": "no",
+          "foot": "no",
+          "highway": "secondary",
+          "lanes": "2",
+          "lanes:backward": "1",
+          "lanes:forward": "1",
           "layer": "1",
           "lit": "yes",
-          "mofa": "designated",
-          "moped": "designated",
-          "name": "Vleutensespoorbrug 2",
-          "oneway": "no",
-          "sidewalk": "right",
+          "maxspeed": "50",
+          "maxweight:signed": "no",
+          "mofa": "no",
+          "name": "Hogeweidebrug",
+          "sidewalk:left": "no",
+          "sidewalk:right": "separate",
           "surface": "asphalt",
-          "traffic_sign": "NL:G12a",
-          "width": "4.00",
           "zone:traffic": "NL:urban",
           "bridge:material": "steel",
           "bridge:structure": "arch",
+          "length": "170m",
           "man_made": "bridge",
-          "start_date": "2018",
-          "wikidata": "Q50823781",
-          "wikimedia_commons": "Category:Tweede Vleutensespoorbrug",
-          "wikipedia": "nl:Vleutensespoorbrug 2"
+          "start_date": "2008",
+          "wikidata": "Q3022627",
+          "wikimedia_commons": "Category:Hogeweidebrug",
+          "wikipedia": "nl:Hogeweidebrug"
         }
       },
       "fis": null,
-      "pdokBridgeVlakken": 2
+      "pdokBridgeVlakken": 3
     },
     "type": "boog",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 126435,448710,141834,461610 --run utrecht-2026-10-20 --overschrijf 1 --parallel 5",
+    "opdracht": "node scripts/bridges/genereer.mjs --map utrecht-brug-c0a52d42 --plaats utrecht --punt 133744,456649",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -139,8 +150,9 @@
       ]
     },
     "waarschuwingen": [
-      "geen FIS-brug binnen 35 m"
+      "geen FIS-brug binnen 35 m",
+      "boogbrug: bogen niet gegenereerd, alleen dek, pijlers en landhoofden"
     ],
-    "gegenereerd": "2026-10-20"
+    "gegenereerd": "2026-10-22"
   }
 }

@@ -144,7 +144,7 @@
           "agricultural": "no",
           "bicycle": "no",
           "bridge": "yes",
-          "carriageway_ref": "Li",
+          "carriageway_ref": "Re",
           "foot": "no",
           "highway": "trunk",
           "horse": "no",
@@ -162,6 +162,7 @@
           "ref": "N470",
           "surface": "asphalt",
           "toll:hgv": "yes",
+          "turn:lanes": "none|none|slight_right",
           "zone:traffic": "NL:rural",
           "bridge:structure": "arch",
           "man_made": "bridge"
@@ -173,7 +174,7 @@
     "type": "boog",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,440000,100000,460000 --run nl-4_7 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map delft-brug-0f7bbf9e --plaats delft --punt 85722,445530",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -197,8 +198,9 @@
       ]
     },
     "waarschuwingen": [
-      "geen FIS-brug binnen 35 m"
+      "geen FIS-brug binnen 35 m",
+      "boogbrug: bogen niet gegenereerd, alleen dek, pijlers en landhoofden"
     ],
-    "gegenereerd": "2026-10-20"
+    "gegenereerd": "2026-10-22"
   }
 }

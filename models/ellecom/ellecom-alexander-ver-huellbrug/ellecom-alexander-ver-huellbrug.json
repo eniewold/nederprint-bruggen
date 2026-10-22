@@ -101,11 +101,23 @@
       "osm": {
         "id": "way/650685213",
         "tags": {
+          "bicycle": "no",
+          "bridge": "yes",
           "bridge:material": "steel",
+          "bridge:name": "Alexander Ver Huellbrug",
           "bridge:structure": "arch",
+          "foot": "no",
+          "highway": "primary",
+          "lanes": "2",
           "layer": "1",
-          "man_made": "bridge",
+          "lit": "no",
+          "maxspeed": "80",
           "name": "Alexander Ver Huellbrug",
+          "operator": "Provincie Gelderland",
+          "overtaking": "no",
+          "ref": "N317",
+          "surface": "asphalt",
+          "man_made": "bridge",
           "wikidata": "Q130704624"
         }
       },
@@ -121,7 +133,7 @@
     "type": "boog",
     "doorvaarthoogte": 6.200000000000001,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 200000,440000,220000,460000 --run nl-10_7 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map ellecom-alexander-ver-huellbrug --plaats ellecom --punt 205964,448146",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -144,7 +156,9 @@
         59.47
       ]
     },
-    "waarschuwingen": [],
-    "gegenereerd": "2026-10-19"
+    "waarschuwingen": [
+      "boogbrug: bogen niet gegenereerd, alleen dek, pijlers en landhoofden"
+    ],
+    "gegenereerd": "2026-10-22"
   }
 }

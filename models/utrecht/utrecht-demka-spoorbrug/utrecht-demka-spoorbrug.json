@@ -5,43 +5,50 @@
   "unitsPerMetre": 1,
   "crs": "EPSG:28992",
   "origin": [
-    133739.21,
-    458051.09
+    133744.43,
+    458058.72
   ],
   "xAxis": [
     0.727477,
     -0.686133
   ],
   "groundOffsetMetres": 0,
-  "groundHeight": 53.776,
+  "groundHeight": 53.553,
   "groundSamplePoints": [
     [
-      -128.36,
+      -129.82,
       0
     ],
     [
-      128.36,
+      132.86,
       0
     ]
   ],
   "replacesTerrain": [
-    "L0004.9029800c2f3f4f06b32c57353602bf69"
+    "G0344.a75e444a38a84dfba4219cc984f8579d",
+    "G0344.0019807f4d9a49d6b2aa619ee977ecd3",
+    "G0344.90a9b3642d8a44288f87f155994e3786",
+    "L0004.6d630199dc904c529fc6ee587645bc15",
+    "L0004.9029800c2f3f4f06b32c57353602bf69",
+    "L0004.193e80a78d7f4024bd6f6388c23229b6",
+    "L0004.31971850f6d447ee8a63504672244462",
+    "L0004.666df8077cf04c1888398c576405f35a"
   ],
   "terrainCorrections": [
     {
       "centre": [
-        133637.1,
-        458147.39
+        133641.26,
+        458156.03
       ],
       "axis": [
         -0.727477,
         0.686133
       ],
       "halfLength": 12,
-      "halfWidth": 8.73,
-      "height": 53.782,
+      "halfWidth": 21.72,
+      "height": 53.66,
       "gradient": [
-        -0.00045,
+        -0.0089,
         0
       ],
       "minLift": 0.05,
@@ -49,16 +56,16 @@
     },
     {
       "centre": [
-        133841.32,
-        457954.78
+        133849.81,
+        457959.33
       ],
       "axis": [
         0.727477,
         -0.686133
       ],
       "halfLength": 12,
-      "halfWidth": 8.73,
-      "height": 53.787,
+      "halfWidth": 21.72,
+      "height": 53.767,
       "gradient": [
         0,
         0
@@ -69,12 +76,43 @@
   ],
   "generated": {
     "deckBgtIds": [
-      "L0004.9029800c2f3f4f06b32c57353602bf69"
+      "L0004.9029800c2f3f4f06b32c57353602bf69",
+      "L0004.193e80a78d7f4024bd6f6388c23229b6",
+      "L0004.31971850f6d447ee8a63504672244462",
+      "L0004.666df8077cf04c1888398c576405f35a"
     ],
     "bron": {
       "bgt": [
         {
+          "id": "G0344.a75e444a38a84dfba4219cc984f8579d",
+          "type": "pijler"
+        },
+        {
+          "id": "G0344.0019807f4d9a49d6b2aa619ee977ecd3",
+          "type": "pijler"
+        },
+        {
+          "id": "G0344.90a9b3642d8a44288f87f155994e3786",
+          "type": "pijler"
+        },
+        {
+          "id": "L0004.6d630199dc904c529fc6ee587645bc15",
+          "type": "pijler"
+        },
+        {
           "id": "L0004.9029800c2f3f4f06b32c57353602bf69",
+          "type": "dek"
+        },
+        {
+          "id": "L0004.193e80a78d7f4024bd6f6388c23229b6",
+          "type": "dek"
+        },
+        {
+          "id": "L0004.31971850f6d447ee8a63504672244462",
+          "type": "dek"
+        },
+        {
+          "id": "L0004.666df8077cf04c1888398c576405f35a",
           "type": "dek"
         }
       ],
@@ -99,10 +137,11 @@
           "railway:etcs": "2",
           "railway:maximum_current": "4000",
           "railway:track_class": "D4",
+          "railway:track_ref": "US5",
           "railway:traffic_mode": "mixed",
           "ref": "098",
-          "ref:ProRailID": "2879545.0",
-          "ref:ProRailSpoortak": "531_1143AV_33.6",
+          "ref:ProRailID": "2879576.0",
+          "ref:ProRailSpoortak": "531_1199BR_34.3",
           "source": "ProRail",
           "source:date": "2014-01-03",
           "usage": "main",
@@ -120,11 +159,11 @@
       "fis": {
         "id": 5728,
         "naam": "Demkaspoorbrug II",
-        "afstand": 19,
+        "afstand": 15,
         "beweegbaar": false,
         "doorvaarthoogteGesloten": 9.41
       },
-      "pdokBridgeVlakken": 1
+      "pdokBridgeVlakken": 8
     },
     "type": "boog",
     "doorvaarthoogte": 9.41,
@@ -132,18 +171,18 @@
       "naam": "Demka-spoorbrug",
       "straal": 40
     },
-    "opdracht": "node scripts/bridges/genereer.mjs --map demka-spoorbrug --plaats utrecht --punt 133744.43,458058.72 --naam Demka-spoorbrug --straal 40",
+    "opdracht": "node scripts/bridges/genereer.mjs --map utrecht-demka-spoorbrug --plaats utrecht --punt 133739,458051",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
-      "dekLengte": 256.7,
-      "dekBreedte": 13.5,
-      "brugLengte": 256.7,
+      "dekLengte": 259.6,
+      "dekBreedte": 39.4,
+      "brugLengte": 262.7,
       "water": [
-        -53.9,
-        91.1
+        -62.3,
+        83.7
       ],
-      "portaalhoogte": 12.1,
+      "portaalhoogte": 35.5,
       "opritafstand": [
         0,
         0
@@ -152,13 +191,13 @@
       "oprithelling": 24,
       "doorstekend": [],
       "opritHoogtes": [
-        53.776,
-        53.787
+        53.553,
+        53.767
       ]
     },
     "waarschuwingen": [
-      "geen landhoofd of pijler in de BGT: landhoofden aan de dekeinden aangenomen"
+      "boogbrug: bogen niet gegenereerd, alleen dek, pijlers en landhoofden"
     ],
-    "gegenereerd": "2026-10-17"
+    "gegenereerd": "2026-10-22"
   }
 }

@@ -34,8 +34,10 @@
     "L0002.e0ffcf4f482b4c0ab739436701efa141",
     "L0002.8abeacd54c5b7500047bb9da3ff01b17",
     "L0002.8abeacd54c5b7500047bb9da3ff01d10",
+    "L0002.8abeacd54c5b7500047bb9da3ff01d50",
     "L0002.c89fea7a5ebe410f86726bfb38a666ce",
     "L0002.d4a6f7f67b524298b89e7362c062168a",
+    "L0002.2fd8c000a083411e933fe75c126b967d",
     "L0002.26102a8ef5204aa98e7f1e493e1a659b"
   ],
   "terrainCorrections": [
@@ -141,12 +143,20 @@
           "type": "landhoofd"
         },
         {
+          "id": "L0002.8abeacd54c5b7500047bb9da3ff01d50",
+          "type": "landhoofd"
+        },
+        {
           "id": "L0002.c89fea7a5ebe410f86726bfb38a666ce",
           "type": "landhoofd"
         },
         {
           "id": "L0002.d4a6f7f67b524298b89e7362c062168a",
           "type": "dek"
+        },
+        {
+          "id": "L0002.2fd8c000a083411e933fe75c126b967d",
+          "type": "landhoofd"
         }
       ],
       "osm": {
@@ -175,12 +185,12 @@
         }
       },
       "fis": null,
-      "pdokBridgeVlakken": 11
+      "pdokBridgeVlakken": 13
     },
     "type": "boog",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,440000,120000,460000 --run nl-5_7 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map moordrecht-brug-8abeacd5-3 --plaats moordrecht --punt 104764,446951",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -343,8 +353,9 @@
       "oprit -: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
       "oprit +: geen ProRail PVS-element op het dekeinde, PDOK-profiel gebruikt",
       "oprit + pas op 180 m langs het spoor gemeten (PDOK-spoorterrein bij de brug lager)",
+      "boogbrug: bogen niet gegenereerd, alleen dek, pijlers en landhoofden",
       "17 PDOK-vorm(en) door het dek: 1 verborgen, 16 verlaagd"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-22"
   }
 }

@@ -108,7 +108,8 @@
         "tags": {
           "alt_name": "Nemobrug",
           "bicycle": "yes",
-          "bridge": "yes",
+          "bridge": "movable",
+          "bridge:movable": "bascule",
           "foot": "yes",
           "highway": "pedestrian",
           "layer": "1",
@@ -124,7 +125,6 @@
           "surface:colour": "red",
           "traffic_sign": "NL:G11",
           "width": "5.00",
-          "zone:traffic": "NL:urban",
           "bridge:structure": "arch",
           "man_made": "bridge"
         }
@@ -132,10 +132,10 @@
       "fis": null,
       "pdokBridgeVlakken": 6
     },
-    "type": "boog",
+    "type": "basculebrug",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 120000,480000,140000,500000 --run nl-6_9-startdek --parallel 5",
+    "opdracht": "node scripts/bridges/genereer.mjs --map amsterdam-mr-j-j-van-der-veldebrug --plaats amsterdam --punt 122559,487540",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -159,8 +159,9 @@
       ]
     },
     "waarschuwingen": [
+      "OSM zegt arch, gekozen type basculebrug",
       "geen FIS-brug binnen 35 m"
     ],
-    "gegenereerd": "2026-10-20"
+    "gegenereerd": "2026-10-22"
   }
 }

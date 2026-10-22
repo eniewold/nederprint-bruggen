@@ -106,20 +106,21 @@
       "osm": {
         "id": "way/727781690",
         "tags": {
-          "bicycle": "use_sidepath",
           "bridge": "yes",
           "bridge:name": "Exelsebrug",
-          "foot": "use_sidepath",
-          "highway": "primary",
-          "lanes": "2",
+          "foot": "yes",
+          "highway": "cycleway",
           "layer": "1",
-          "maxspeed": "70",
-          "mofa": "use_sidepath",
-          "moped": "use_sidepath",
+          "lit": "yes",
+          "mofa": "designated",
+          "moped": "designated",
           "name": "Exelsebrug",
+          "oneway": "no",
           "operator": "Provincie Gelderland",
-          "ref": "N346",
+          "segregated": "no",
+          "smoothness": "excellent",
           "surface": "asphalt",
+          "traffic_sign": "NL:G12a",
           "bridge:material": "steel",
           "bridge:structure": "arch",
           "man_made": "bridge",
@@ -132,7 +133,7 @@
       "fis": {
         "id": 7618,
         "naam": "Exelsebrug",
-        "afstand": 18,
+        "afstand": 2,
         "beweegbaar": false,
         "doorvaarthoogteGesloten": 6.91
       },
@@ -141,7 +142,7 @@
     "type": "boog",
     "doorvaarthoogte": 6.91,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 220000,460000,240000,480000 --run nl-11_8 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map lochem-rondweg-west --plaats lochem --punt 223939,464762",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -164,7 +165,9 @@
         61.047
       ]
     },
-    "waarschuwingen": [],
-    "gegenereerd": "2026-10-20"
+    "waarschuwingen": [
+      "boogbrug: bogen niet gegenereerd, alleen dek, pijlers en landhoofden"
+    ],
+    "gegenereerd": "2026-10-22"
   }
 }

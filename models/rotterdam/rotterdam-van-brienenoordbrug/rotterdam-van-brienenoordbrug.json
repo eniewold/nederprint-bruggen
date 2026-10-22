@@ -37,8 +37,14 @@
     "G0599.16fd016ff1d0dcac9e050210a7e24119",
     "G0599.16fd016ff1b73cac9e050210a7e24119",
     "G0599.16fd016ff1b96cac9e050210a7e24119",
+    "G0599.16fd016ff1b97cac9e050210a7e24119",
     "G0599.16fd016ff1b98cac9e050210a7e24119",
+    "G0599.16fd016ff1b99cac9e050210a7e24119",
+    "G0599.16fd016ff1bd1cac9e050210a7e24119",
+    "G0599.16fd016ff1bd2cac9e050210a7e24119",
+    "G0599.16fd016ff1bd3cac9e050210a7e24119",
     "G0599.16fd016ff1b9dcac9e050210a7e24119",
+    "L0002.8abeacd54b9b7500047bb6ed9c7f1778",
     "L0002.8abeacd54b9b7500047bb6ed9c7f186a",
     "L0002.8abeacd54c5b7500047bb9e566ccd0ce",
     "G0599.00acddeefc7b452183f806e528294fec",
@@ -200,12 +206,36 @@
           "type": "sloof"
         },
         {
+          "id": "G0599.16fd016ff1b97cac9e050210a7e24119",
+          "type": "sloof"
+        },
+        {
           "id": "G0599.16fd016ff1b98cac9e050210a7e24119",
+          "type": "sloof"
+        },
+        {
+          "id": "G0599.16fd016ff1b99cac9e050210a7e24119",
+          "type": "sloof"
+        },
+        {
+          "id": "G0599.16fd016ff1bd1cac9e050210a7e24119",
+          "type": "sloof"
+        },
+        {
+          "id": "G0599.16fd016ff1bd2cac9e050210a7e24119",
+          "type": "sloof"
+        },
+        {
+          "id": "G0599.16fd016ff1bd3cac9e050210a7e24119",
           "type": "sloof"
         },
         {
           "id": "G0599.16fd016ff1b9dcac9e050210a7e24119",
           "type": "sloof"
+        },
+        {
+          "id": "L0002.8abeacd54b9b7500047bb6ed9c7f1778",
+          "type": "landhoofd"
         },
         {
           "id": "L0002.8abeacd54b9b7500047bb6ed9c7f186a",
@@ -391,11 +421,15 @@
       "osm": {
         "id": "way/575980622",
         "tags": {
+          "access:lanes": "yes|yes|no",
           "bridge": "yes",
           "bridge:name": "Van Brienenoordbrug",
           "bridge:structure": "arch",
-          "carriageway_ref": "y",
+          "bus:lanes": "yes|yes|yes",
+          "carriageway_ref": "Li",
+          "hgv:lanes": "yes|yes|yes",
           "highway": "motorway",
+          "int_ref": "E 19",
           "lanes": "3",
           "layer": "2",
           "lit": "yes",
@@ -407,19 +441,26 @@
           "ref": "A16",
           "surface": "asphalt",
           "toll:hgv": "yes",
+          "tourist_bus:lanes": "yes|yes|yes",
           "man_made": "bridge",
           "name": "Van Brienenoordbrug",
           "wikidata": "Q937720",
           "wikipedia": "nl:Van Brienenoordbrug"
         }
       },
-      "fis": null,
-      "pdokBridgeVlakken": 59
+      "fis": {
+        "id": 4308,
+        "naam": "Van Brienenoordbrug (over Nieuwe Maas)",
+        "afstand": 28,
+        "beweegbaar": true,
+        "doorvaarthoogteGesloten": 22.64
+      },
+      "pdokBridgeVlakken": 65
     },
     "type": "boog",
-    "doorvaarthoogte": null,
+    "doorvaarthoogte": 22.64,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 80000,420000,100000,440000 --run nl-4_6-startdek --parallel 5",
+    "opdracht": "node scripts/bridges/genereer.mjs --map rotterdam-van-brienenoordbrug --plaats rotterdam --punt 96912,435368",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -452,9 +493,9 @@
       ]
     },
     "waarschuwingen": [
-      "geen FIS-brug binnen 35 m",
+      "boogbrug: bogen niet gegenereerd, alleen dek, pijlers en landhoofden",
       "1 PDOK-vorm(en) door het dek: 0 verborgen, 1 verlaagd"
     ],
-    "gegenereerd": "2026-10-20"
+    "gegenereerd": "2026-10-22"
   }
 }

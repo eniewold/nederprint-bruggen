@@ -101,7 +101,10 @@
           "maxspeed": "60",
           "maxweight:signed": "no",
           "name": "Witte Brug Papendrecht",
+          "operator": "Waterschap Rivierenland",
           "surface": "asphalt",
+          "zone:maxspeed": "NL:60",
+          "zone:traffic": "NL:rural",
           "bridge:structure": "arch",
           "man_made": "bridge"
         }
@@ -112,7 +115,7 @@
     "type": "boog",
     "doorvaarthoogte": null,
     "opties": {},
-    "opdracht": "node scripts/bridges/genereer.mjs --bbox 100000,420000,120000,440000 --run nl-5_6 --parallel 4",
+    "opdracht": "node scripts/bridges/genereer.mjs --map papendrecht-witte-brug-papendrecht --plaats papendrecht --punt 107556,428445",
     "parameters": {
       "dekverhoging": 0.3,
       "dekdikte": 1,
@@ -133,8 +136,9 @@
       ]
     },
     "waarschuwingen": [
-      "geen FIS-brug binnen 35 m"
+      "geen FIS-brug binnen 35 m",
+      "boogbrug: bogen niet gegenereerd, alleen dek, pijlers en landhoofden"
     ],
-    "gegenereerd": "2026-10-19"
+    "gegenereerd": "2026-10-22"
   }
 }
